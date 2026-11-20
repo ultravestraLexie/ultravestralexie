@@ -1,79 +1,5 @@
 [
   {
-    "name": "Medicube",
-    "website": "https://medicube.us",
-    "country": "South Korea",
-    "category_slug": "skincare",
-    "description": "South Korean skincare and beauty-device brand (AGE-R Booster Pro) sold in the US at medicube.us; its growth is creator-led, combining a large TikTok Shop affiliate base with an official ambassador program shared with APRILSKIN that pays rewards for approved content submissions.",
-    "contacts": [
-      {
-        "contact_type": "partnerships",
-        "contact_url": null,
-        "email": "hello@medicube.us",
-        "source_url": "https://usesnippet.app/pr-emails/category/skincare"
-      },
-      {
-        "contact_type": "creator_application",
-        "contact_url": "https://medicube.us/pages/ambassador_test",
-        "email": null,
-        "source_url": "https://medicube.us/pages/ambassador_test"
-      }
-    ],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate",
-        "source_type": "creator_report",
-        "source_url": "https://archive.com/blog/medicube-influencer-marketing-strategy",
-        "summary": "Archive's breakdown of Medicube's creator strategy reports up to 30% commission rates on TikTok Shop across 101 SKUs, with free samples and a dedicated creator app; no cap on earnings is stated in any source checked, so the cap is recorded as unknown."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "creator_saturation",
-        "source_type": "creator_report",
-        "source_url": "https://archive.com/blog/medicube-influencer-marketing-strategy",
-        "summary": "Archive counts 33,900+ active creator affiliates and 25,700 sponsored posts in 12 months for Medicube — clear evidence of HIGH creator saturation, the opposite of the low-saturation filter."
-      },
-      {
-        "confidence": "verified",
-        "evidence_type": "ugc_collab",
-        "source_type": "official_site",
-        "source_url": "https://medicube.us/pages/ambassador_test",
-        "summary": "Medicube's official ambassador page (shared with APRILSKIN) invites creators to browse campaigns with guidelines, timelines and reward details, submit photos or videos, and track rewards and payments; members receive bestsellers and new releases and a guaranteed reward for every approved submission. Snippet's November 2026 check lists hello@medicube.us as the brand's published contact for the program."
-      }
-    ],
-    "affiliate": {
-      "network": "TikTok Shop",
-      "commission_rate": 30,
-      "application_url": "https://medicube.us/pages/ambassador_test",
-      "source_url": "https://archive.com/blog/medicube-influencer-marketing-strategy",
-      "commission_cap": "unknown",
-      "creator_saturation": "high"
-    },
-    "opportunity": {
-      "title": "medicube & APRILSKIN Ambassador Program",
-      "application_url": "https://medicube.us/pages/ambassador_test",
-      "source_url": "https://medicube.us/pages/ambassador_test"
-    },
-    "score": {
-      "niche_fit": 28,
-      "ugc_evidence": 20,
-      "compensation": 18,
-      "contact_access": 12,
-      "opportunity_availability": 9,
-      "credibility": 5,
-      "reasons": {
-        "niche_fit": "K-beauty skincare plus beauty devices — the centre of the skincare UGC niche, with highly demonstrable products.",
-        "ugc_evidence": "The strongest creator evidence in this round: a 33,900+ creator affiliate base, 25,700 sponsored posts in 12 months, and a structured ambassador program with per-submission rewards.",
-        "compensation": "Up to 30% TikTok Shop commission reported by Archive — the highest rate in this round; ambassador rewards are additional but not priced publicly.",
-        "contact_access": "Published program email (hello@medicube.us) plus an in-nav ambassador application page on the brand's own store.",
-        "opportunity_availability": "Ambassador applications are open with no follower minimum recorded; TikTok Shop affiliate access is open to eligible creators.",
-        "credibility": "One of the largest K-beauty brands in the US market, with 1M+ TikTok Shop units sold and celebrity-level creator partnerships."
-      }
-    }
-  },
-  {
     "name": "Gisou",
     "website": "https://gisou.com",
     "country": "Netherlands",
@@ -94,7 +20,7 @@
         "evidence_type": "affiliate",
         "source_type": "official_site",
         "source_url": "https://gisou.com/pages/affiliate-program",
-        "summary": "Gisou's official affiliate page states affiliates earn up to 15% commission on a cost-per-sale basis via tracking link, joining through LTK or ShopMy (recommended for creators) or Impact (websites and publishers), with Impact partner approval in 3-5 business days. The page answers 'How much can I earn?' with the rate only — no statement about a cap on total earnings, so the cap is recorded as unknown."
+        "summary": "Gisou's official affiliate page states affiliates earn up to 15% commission on a cost-per-sale basis via tracking link, joining through LTK or ShopMy (recommended for creators) or Impact (websites and publishers), with Impact partner approval in 3-5 business days. The page answers 'How much can I earn?' with the rate only \u2014 no statement about a cap on total earnings, so the cap is recorded as unknown."
       },
       {
         "confidence": "verified",
@@ -125,7 +51,7 @@
       "opportunity_availability": 8,
       "credibility": 5,
       "reasons": {
-        "niche_fit": "Creator-founded, visually driven hair and lip care — squarely in the beauty UGC niche.",
+        "niche_fit": "Creator-founded, visually driven hair and lip care \u2014 squarely in the beauty UGC niche.",
         "ugc_evidence": "A dedicated creator affiliate program across three creator platforms, with ShopMy actively recommended for new creators.",
         "compensation": "Up to 15% cost-per-sale commission published on the brand's own page; no cap statement is published, so the cap stays unknown.",
         "contact_access": "A defined application route through LTK, ShopMy or Impact from the official page; no direct program email is published.",
@@ -193,10 +119,10 @@
       "credibility": 5,
       "reasons": {
         "niche_fit": "Goat-milk skincare with a strong education and routine angle for skincare creators.",
-        "ugc_evidence": "A structured, always-on ambassador program with posting requirements, tier progression and brand reuse of member content — a genuine creator program, not just a link scheme.",
+        "ugc_evidence": "A structured, always-on ambassador program with posting requirements, tier progression and brand reuse of member content \u2014 a genuine creator program, not just a link scheme.",
         "compensation": "8% base commission in the official terms (tiers reported up to 12%) plus a $75 quarterly product credit; modest rate, no cap statement published.",
         "contact_access": "Two direct application links published on the brand's own program page, one per track.",
-        "opportunity_availability": "Affiliate track has no follower minimum; creator track starts at 1,000 followers — among the most accessible programs in this round.",
+        "opportunity_availability": "Affiliate track has no follower minimum; creator track starts at 1,000 followers \u2014 among the most accessible programs in this round.",
         "credibility": "Established US skincare brand with a formal, terms-backed ambassador program running since 2024."
       }
     }
@@ -283,14 +209,14 @@
         "evidence_type": "affiliate",
         "source_type": "official_site",
         "source_url": "https://beautyofjoseon.com/pages/affiliate-terms",
-        "summary": "Beauty of Joseon's official Affiliate Terms state the program is joined by application through Shopify Collabs and that commission is 'the rate agreed in writing between us and you' in each Offer, paid on the net sales amount in US dollars — no public percentage is published anywhere in the terms, so the commission rate is recorded as null. No cap on earnings is stated either, so the cap is recorded as unknown."
+        "summary": "Beauty of Joseon's official Affiliate Terms state the program is joined by application through Shopify Collabs and that commission is 'the rate agreed in writing between us and you' in each Offer, paid on the net sales amount in US dollars \u2014 no public percentage is published anywhere in the terms, so the commission rate is recorded as null. No cap on earnings is stated either, so the cap is recorded as unknown."
       },
       {
         "confidence": "publicly_reported",
         "evidence_type": "ugc_collab",
         "source_type": "creator_directory",
         "source_url": "https://usesnippet.app/pr-emails/category/skincare",
-        "summary": "Snippet's November 2026 skincare PR check records a BOJ Ambassador Program alongside the affiliate route, and the brand's own terms permit social promotion with the brand able to repost tagged content — an active creator-facing operation, though application approval is at the brand's discretion."
+        "summary": "Snippet's November 2026 skincare PR check records a BOJ Ambassador Program alongside the affiliate route, and the brand's own terms permit social promotion with the brand able to repost tagged content \u2014 an active creator-facing operation, though application approval is at the brand's discretion."
       }
     ],
     "affiliate": {
@@ -316,7 +242,7 @@
       "reasons": {
         "niche_fit": "One of the most searched K-beauty skincare brands among routine and sunscreen creators.",
         "ugc_evidence": "A formal Collabs affiliate program plus a recorded ambassador program; terms are written for social creators.",
-        "compensation": "No public rate — commission is agreed per offer in writing, so compensation cannot be scored higher until an offer is seen; rate recorded as null rather than guessed.",
+        "compensation": "No public rate \u2014 commission is agreed per offer in writing, so compensation cannot be scored higher until an offer is seen; rate recorded as null rather than guessed.",
         "contact_access": "A defined Shopify Collabs application route under published terms; no public program email is used here.",
         "opportunity_availability": "Applications are open via Collabs but acceptance is discretionary and offers are individual.",
         "credibility": "Global K-beauty leader with a formal, dated legal terms document for its affiliate program."
@@ -376,8 +302,8 @@
       "credibility": 4,
       "reasons": {
         "niche_fit": "Clean, luxury-positioned skincare and fragrance aimed squarely at beauty creators' audiences.",
-        "ugc_evidence": "Active creator gifting and a GRIN presence, but no open published creator program on the brand's own channels — evidence is thinner than for the Collabs/ambassador brands in this round.",
-        "compensation": "Up to 15% per the Lasso listing — attractive if confirmed at sign-up; not published on the brand's own site, so scored with that caution.",
+        "ugc_evidence": "Active creator gifting and a GRIN presence, but no open published creator program on the brand's own channels \u2014 evidence is thinner than for the Collabs/ambassador brands in this round.",
+        "compensation": "Up to 15% per the Lasso listing \u2014 attractive if confirmed at sign-up; not published on the brand's own site, so scored with that caution.",
         "contact_access": "Affiliate listing route plus a GRIN proposal route; no published program email.",
         "opportunity_availability": "Gifting is active for ~500+ follower creators, but the lack of a published open program lowers availability.",
         "credibility": "Established clean-beauty brand with Ulta online distribution."
@@ -405,14 +331,14 @@
         "evidence_type": "affiliate",
         "source_type": "network_profile",
         "source_url": "https://ui.awin.com/merchant-profile/121602",
-        "summary": "Naturium's official Awin merchant profile invites publishers to join the Naturium (US) Affiliate Program with a 30-day cookie period, describing the rate only as a 'Competitive Commission Rate' — no percentage is published on the profile, so the rate is recorded as null (Shopper lists 4%, which could not be confirmed on the network profile and is not used). No cap statement is published, so the cap is recorded as unknown."
+        "summary": "Naturium's official Awin merchant profile invites publishers to join the Naturium (US) Affiliate Program with a 30-day cookie period, describing the rate only as a 'Competitive Commission Rate' \u2014 no percentage is published on the profile, so the rate is recorded as null (Shopper lists 4%, which could not be confirmed on the network profile and is not used). No cap statement is published, so the cap is recorded as unknown."
       },
       {
         "confidence": "verified",
         "evidence_type": "ugc_collab",
         "source_type": "official_site",
         "source_url": "https://naturium.com/pages/naturium-february-2026-tiktok-affiliate-challenge",
-        "summary": "Naturium's official February 2026 TikTok Affiliate Challenge pays creators through TikTok Shop affiliate links (prizes of $2,000/$500 cash plus PR list spots are 'in addition to any affiliate commission'), requiring at least two shoppable TikTok videos tagging @Naturium — direct evidence of an active, recurring creator-affiliate operation."
+        "summary": "Naturium's official February 2026 TikTok Affiliate Challenge pays creators through TikTok Shop affiliate links (prizes of $2,000/$500 cash plus PR list spots are 'in addition to any affiliate commission'), requiring at least two shoppable TikTok videos tagging @Naturium \u2014 direct evidence of an active, recurring creator-affiliate operation."
       }
     ],
     "affiliate": {
@@ -436,7 +362,7 @@
       "opportunity_availability": 8,
       "credibility": 5,
       "reasons": {
-        "niche_fit": "Ingredient-led clinical skincare — a staple of skincare routine and review content.",
+        "niche_fit": "Ingredient-led clinical skincare \u2014 a staple of skincare routine and review content.",
         "ugc_evidence": "A network affiliate program plus official TikTok affiliate challenges with cash prizes and PR list rewards for creators.",
         "compensation": "The Awin profile publishes no percentage ('Competitive Commission Rate'), so the rate is recorded as null and compensation scores low until confirmed inside the network.",
         "contact_access": "A defined Awin application route from the official merchant profile; no public program email.",
@@ -473,7 +399,7 @@
         "evidence_type": "general",
         "source_type": "creator_directory",
         "source_url": "https://usesnippet.app/pr-emails/anua/ambassador-program",
-        "summary": "Snippet's November 12, 2026 check found no ambassador, affiliate or creator program and no PR email on Anua's own pages — the joinable route is the LinkApprove listing, while the brand's creator volume runs mainly through TikTok Shop; recorded honestly so creators apply via LinkApprove rather than looking for a brand portal."
+        "summary": "Snippet's November 12, 2026 check found no ambassador, affiliate or creator program and no PR email on Anua's own pages \u2014 the joinable route is the LinkApprove listing, while the brand's creator volume runs mainly through TikTok Shop; recorded honestly so creators apply via LinkApprove rather than looking for a brand portal."
       }
     ],
     "affiliate": {
@@ -498,8 +424,8 @@
       "credibility": 4,
       "reasons": {
         "niche_fit": "Viral K-beauty staples (heartleaf toner and cleansing oil) built for double-cleansing and sensitive-skin routines.",
-        "ugc_evidence": "Heavy TikTok Shop creator activity and an #anuambassador presence, but no brand-run program page — evidence rests on the network listing.",
-        "compensation": "8.4% per sale on the brand's own US store per LinkApprove — mid-range; no cap statement published.",
+        "ugc_evidence": "Heavy TikTok Shop creator activity and an #anuambassador presence, but no brand-run program page \u2014 evidence rests on the network listing.",
+        "compensation": "8.4% per sale on the brand's own US store per LinkApprove \u2014 mid-range; no cap statement published.",
         "contact_access": "No brand application or program email exists publicly; access is only through the LinkApprove partner account.",
         "opportunity_availability": "Free to join via LinkApprove from 1,000 followers with decisions usually within two business days, US traffic only.",
         "credibility": "Established K-beauty brand with Amazon and K-beauty retail best-sellers."
@@ -534,7 +460,7 @@
         "evidence_type": "general",
         "source_type": "affiliate_directory",
         "source_url": "https://getlasso.co/affiliate/vegamour/",
-        "summary": "The same listing describes Vegamour as a plant-based hair care brand (hair, lash and brow products, 100% vegan-friendly ingredients) — a publisher/blog-led affiliate program rather than a structured creator ambassador scheme, which is reflected in its UGC evidence score."
+        "summary": "The same listing describes Vegamour as a plant-based hair care brand (hair, lash and brow products, 100% vegan-friendly ingredients) \u2014 a publisher/blog-led affiliate program rather than a structured creator ambassador scheme, which is reflected in its UGC evidence score."
       }
     ],
     "affiliate": {
@@ -560,7 +486,7 @@
       "reasons": {
         "niche_fit": "Hair-growth and hair-wellness products with a strong before/after content angle.",
         "ugc_evidence": "A standard network affiliate program; creator partnerships appear gifted/paid rather than commission-structured in public evidence, so UGC evidence is modest.",
-        "compensation": "Up to 8% per sale — the lowest published rate in this round; no cap statement published.",
+        "compensation": "Up to 8% per sale \u2014 the lowest published rate in this round; no cap statement published.",
         "contact_access": "Application only through the network listing; no published program email or creator contact.",
         "opportunity_availability": "Open network application with approval in a few days per the listing.",
         "credibility": "Well-known US hair wellness brand with national recognition."
