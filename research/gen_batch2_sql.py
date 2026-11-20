@@ -48,10 +48,15 @@ for f in FILES:
         lines.append(f"  insert into public.brands (name, website, description, country, status) values ({q(b['name'])}, {q(b.get('website'))}, {q(b.get('description'))}, {q(b.get('country'))}, 'published') returning id into bid;")
         lines.append(f"  insert into public.brand_categories (brand_id, category_id, is_primary) values (bid, (select id from public.categories where slug = {q(b['category_slug'])}), true);")
         bdom = domain(b.get("website"))
+        seen_platforms = set()
         for s in b.get("socials") or []:
             url = s.get("url")
             if not url:
                 continue
+            plat = (s.get("platform") or "").lower()
+            if plat in seen_platforms:
+                continue  # brand_socials is unique on (brand_id, platform): keep the first/main handle
+            seen_platforms.add(plat)
             handle = s.get("handle") or urlparse(url).path.rstrip("/").split("/")[-1].lstrip("@")
             lines.append(f"  insert into public.brand_socials (brand_id, platform, handle, url) values (bid, {q(s.get('platform'))}, {q(handle)}, {q(url)});")
             counts["socials"] += 1
