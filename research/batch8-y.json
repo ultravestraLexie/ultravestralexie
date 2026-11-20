@@ -1,0 +1,727 @@
+[
+ {
+  "name": "Act+Acre",
+  "website": "https://actandacre.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "New York haircare brand founded by celebrity hairstylist and certified trichologist Helen Reavey, built on a 'Skincare For Your Scalp' philosophy — 100% plant-based, vegan, cold-processed scalp and hair products (scalp serums, detox, shampoo and conditioner) sold through its own store and Sephora.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://actandacre.com/pages/communityapply",
+    "email": null,
+    "source_url": "https://actandacre.com/pages/communityapply"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/actandacre"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://actandacre.com/pages/communityapply",
+    "summary": "Act+Acre's official affiliate application page states verbatim '20% Commission On Every Order', plus a complimentary welcome gift, virtual masterclasses, event invites and ongoing gifting. A secondary directory (GetLasso) lists only 3% via ShareASale, which conflicts with the brand's own page; the official 20% is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://actandacre.com/pages/community",
+    "summary": "The brand's official community page invites creators to join its affiliate community for early access to launches, exclusive gifting and founder masterclasses, listing affiliate marketing, discount codes, gifting, campaigns and content creation as partnership types; page assets indicate the program runs on Dovetale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/act-acre",
+    "summary": "Beacons Universe counts 353 creators all time for Act+Acre, 33 posting in the last 30 days and only 21 sponsored posts in the last 12 months — a modest footprint, but not by itself proof of low saturation, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Dovetale (in-house community program)",
+   "commission_rate": 20,
+   "application_url": "https://actandacre.com/pages/communityapply",
+   "source_url": "https://actandacre.com/pages/communityapply",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Act+Acre Affiliate Community",
+   "application_url": "https://actandacre.com/pages/communityapply",
+   "source_url": "https://actandacre.com/pages/communityapply"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 18,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Scalp-first haircare from a trichologist founder — squarely in the beauty/hair UGC niche.",
+    "ugc_evidence": "A structured affiliate community on the brand's own site with gifting, campaigns and content-creation partnership types.",
+    "compensation": "20% commission on every order published on the brand's own application page — among the strongest official rates in this batch; no cap statement is published, so the cap is unknown.",
+    "contact_access": "A dedicated application page on the official domain, but no published partnerships email — mid-range per the rubric.",
+    "opportunity_availability": "Open application today through the brand's community pages.",
+    "credibility": "Established DTC haircare brand with Sephora distribution and a credentialed founder."
+   }
+  }
+ },
+ {
+  "name": "Farmacy Beauty",
+  "website": "https://www.farmacybeauty.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "New York clean skincare brand pairing farm-grown botanicals (its signature honey and other naturally derived ingredients) with lab actives — known for the Green Clean cleansing balm and Honey Halo moisturizer — sold through its own store and major beauty retailers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "influencer@farmacybeauty.com",
+    "source_url": "https://www.farmacybeauty.com/pages/affiliate"
+   },
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "PR@farmacybeauty.com",
+    "source_url": "https://www.farmacybeauty.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.farmacybeauty.com/pages/affiliate",
+    "summary": "Farmacy's official affiliate FAQ states verbatim: 'As a part of our affiliate program, you can receive up to 20% commission per sale', and directs applicants to 'fill out the application form found on ShareASale.com' and accept Farmacy's Affiliate Agreement. Secondary listings conflict (15% on Shopper/ReferralCandy, up to 18.75% on Lasso); the official figure is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.farmacybeauty.com/pages/affiliate",
+    "summary": "The same official page publishes influencer@farmacybeauty.com 'For social media partnerships' and PR@farmacybeauty.com for press and public relations."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/farmacy-beauty",
+    "summary": "Beacons Universe counts 1,229 creators all time for Farmacy Beauty, 107 posting in the last 30 days and 64 sponsored posts in the last 12 months — a large, active creator base, so saturation is recorded as high."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 20,
+   "application_url": "https://www.farmacybeauty.com/pages/affiliate",
+   "source_url": "https://www.farmacybeauty.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Farmacy Affiliate Program (ShareASale)",
+   "application_url": "https://www.farmacybeauty.com/pages/affiliate",
+   "source_url": "https://www.farmacybeauty.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 17,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean skincare built on hero botanical ingredients — a core skincare UGC niche.",
+    "ugc_evidence": "A named affiliate program ('Farmacists') described on the brand's own FAQ with first looks and promotional opportunities, plus a dedicated social partnerships email.",
+    "compensation": "Up to 20% commission per sale published on the brand's own page — top band, though the 'up to' ceiling means typical rates may be lower; no cap statement is published.",
+    "contact_access": "Published influencer and PR emails on the official program page — near top band per the rubric.",
+    "opportunity_availability": "Open application via ShareASale today.",
+    "credibility": "Established clean-beauty brand with national retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Salt & Stone",
+  "website": "https://www.saltandstone.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Los Angeles body care brand founded in 2017 by former professional snowboarder Nima Jalali, selling performance, sensorial body care — aluminum-free deodorant, body wash, lotion, body mist and eau de parfum — through its own store and retailers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "taylor.johnson@saltandstone.com",
+    "source_url": "https://ui.awin.com/merchant-profile/94193"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "info@saltandstone.com",
+    "source_url": "https://www.saltandstone.com/pages/faqs"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/saltandstone"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/94193",
+    "summary": "Salt & Stone's Awin merchant profile (94193) lists 10% commission on sales with a 30-day cookie and prints an affiliate contact, taylor.johnson@saltandstone.com; GetLasso independently lists the same 10% via ShareASale. No affiliate landing page exists on the brand's own domain."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.saltandstone.com/pages/faqs",
+    "summary": "The brand's official FAQ answers 'I am an influencer and would love to partner with Salt & Stone. Who do I contact?' with: 'Please reach out with more information to info@saltandstone.com.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/salt-stone",
+    "summary": "Beacons Universe counts 1,349 creators all time for Salt & Stone, 167 posting in the last 30 days and 52 sponsored posts in the last 12 months — a large creator footprint, so saturation is recorded as high."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin / ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/94193",
+   "source_url": "https://ui.awin.com/merchant-profile/94193",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Salt & Stone Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/94193",
+   "source_url": "https://ui.awin.com/merchant-profile/94193"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 13,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Fragrance-led body care is a strong beauty UGC niche, though it sits outside facial skincare.",
+    "ugc_evidence": "Live affiliate listings on two networks plus an influencer route answered in the brand's own FAQ.",
+    "compensation": "10% commission confirmed by two independent network listings; no cap statement is published, so the cap is unknown.",
+    "contact_access": "A named affiliate contact on the Awin profile plus an influencer contact email in the official FAQ — near top band.",
+    "opportunity_availability": "Open to join today through Awin or ShareASale.",
+    "credibility": "Established LA body care brand founded 2017 with broad retail presence."
+   }
+  }
+ },
+ {
+  "name": "Paula's Choice",
+  "website": "https://www.paulaschoice.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Seattle-based skincare brand founded on science-backed, fragrance-free formulas — best known for its 2% BHA Liquid Exfoliant — selling cleansers, exfoliants, serums and treatments through its own store and major retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.paulaschoice.com/affiliate-program",
+    "email": null,
+    "source_url": "https://www.paulaschoice.com/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.referralcandy.com/blog/beauty-affiliate-programs/",
+    "summary": "ReferralCandy's fetched roundup of the official program states participants 'earn a competitive commission rate of 7% with no cap, and a 30-day cookie duration'. The brand's own affiliate page exists at paulaschoice.com/affiliate-program but rendered without body text in this fetch, so the rate and cap rest on fetched secondary sources."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkwhisper.com/skincare-affiliate-programs/",
+    "summary": "LinkWhisper's fetched roundup independently states the program 'pays a starting commission rate of 7%, with no payout cap' and that it is run through Commission Junction (CJ Affiliate) — corroborating both the 7% rate and the uncapped status."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/paulas-choice",
+    "summary": "Beacons Universe counts 1,607 creators all time for Paula's Choice, 167 posting in the last 30 days and 91 sponsored posts in the last 12 months — one of the largest creator bases in this batch, so saturation is recorded as high."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 7,
+   "application_url": "https://www.paulaschoice.com/affiliate-program",
+   "source_url": "https://www.referralcandy.com/blog/beauty-affiliate-programs/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Paula's Choice Affiliate Program (CJ Affiliate)",
+   "application_url": "https://www.paulaschoice.com/affiliate-program",
+   "source_url": "https://www.paulaschoice.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 14,
+   "compensation": 12,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Ingredient-led skincare with a hero exfoliant — squarely in the skincare UGC niche.",
+    "ugc_evidence": "A long-running affiliate program that is the brand's published creator route, though the brand publishes no PR email or creator form.",
+    "compensation": "7% starting rate is modest, but two fetched sources state commissions carry no cap / no payout cap — the verified-uncapped status lifts this above its rate alone.",
+    "contact_access": "An official program page with a CJ application route, but no published partnerships email — lower-mid per the rubric.",
+    "opportunity_availability": "Open application today through the official program page / CJ.",
+    "credibility": "One of the most established science-led skincare brands, with decades of publishing and retail history."
+   }
+  }
+ },
+ {
+  "name": "Biossance",
+  "website": "https://biossance.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Clean skincare brand built around sugarcane-derived squalane — 100% vegan and cruelty-free cleansers, serums, moisturizers and SPF — sold through its own store and Sephora.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/73624",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/73624"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/biossance"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/73624",
+    "summary": "Biossance's Awin merchant profile publishes commission by publisher type, including 'Content & Influencers: 10% New & 5% Existing' and 'UGC & Communities: 8% New & 2% Existing', with a 31-day confirmation period. The brand's own /pages/affiliate-program URL exists but rendered no program terms in this fetch."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://biossance.com/pages/affiliate-program",
+    "summary": "No Beacons Universe brand page or creator count was found for Biossance in targeted searches, and no cap statement appears on the fetched Awin profile — so both saturation and cap are recorded as unknown rather than assumed."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/73624",
+   "source_url": "https://ui.awin.com/merchant-profile/73624",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Biossance US Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/73624",
+   "source_url": "https://ui.awin.com/merchant-profile/73624"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Squalane-led clean skincare — a core skincare UGC niche.",
+    "ugc_evidence": "A structured Awin program with dedicated Content & Influencers and UGC & Communities commission tiers, showing deliberate creator recruitment.",
+    "compensation": "10% on new customers for content/influencer publishers (5% existing) published on the network profile; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Awin only; no published partnerships email was found — lower-mid per the rubric.",
+    "opportunity_availability": "Open to join today through the Awin merchant profile.",
+    "credibility": "Established clean-beauty brand (Amyris-originated) with Sephora distribution."
+   }
+  }
+ },
+ {
+  "name": "Kitsch",
+  "website": "https://www.mykitsch.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Los Angeles beauty brand founded in 2010 by Cassandra Thurswell, selling hair care and accessories — satin pillowcases, scrunchies, heatless curling sets and solid shampoo/conditioner bars — in more than 20,000 retail locations worldwide.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/128201",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/128201"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/mykitsch"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/128201",
+    "summary": "Kitsch's Awin merchant profile lists 10% commission for content publishers with a 30-day cookie; GetLasso lists up to 11.25% and older listings cite Impact/Pepperjam, so the Awin 10% is recorded as the confirmed figure. The brand's own site confirms an affiliate program on TikTok Shop, and a current job posting shows Kitsch hiring a TikTok Shop Affiliate & Creator Community Manager — the creator program is actively staffed."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/kitsch",
+    "summary": "Beacons Universe counts 1,392 creators all time for Kitsch, 113 posting in the last 30 days and 80 sponsored posts in the last 12 months — the highest sponsored-post count in this research round, so saturation is recorded as high."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/128201",
+   "source_url": "https://ui.awin.com/merchant-profile/128201",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Kitsch Affiliate Program (Awin / TikTok Shop)",
+   "application_url": "https://ui.awin.com/merchant-profile/128201",
+   "source_url": "https://ui.awin.com/merchant-profile/128201"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hair accessories and heatless styling are proven beauty UGC categories, though outside skincare proper.",
+    "ugc_evidence": "Network affiliate program plus a staffed TikTok Shop creator operation with ambassador programmes and a creator community — strong, current collaboration evidence.",
+    "compensation": "10% for content publishers on the confirmed Awin listing (up to 11.25% claimed by a directory); no cap statement is published, so the cap is unknown.",
+    "contact_access": "Join routes run through networks only; no verified published partnerships email — lower-mid per the rubric.",
+    "opportunity_availability": "Open today via Awin and TikTok Shop affiliate.",
+    "credibility": "Founded 2010, minority-owned, products in 20,000+ retail locations."
+   }
+  }
+ },
+ {
+  "name": "Prequel",
+  "website": "https://prequelskin.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "West Hollywood skincare brand founded by board-certified dermatologist Dr. Sam Ellis, selling dermatologist-developed cleansers, serums and barrier treatments for all skin types through its own store.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://prequelskin.com/pages/collabs",
+    "email": null,
+    "source_url": "https://prequelskin.com/pages/collabs"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://prequelskin.com/pages/collabs",
+    "summary": "Prequel's official 'Work with us' page invites creators to apply for collaborations, stating the team reviews new creators every few months — and warns of a 'high volume of requests' with a waiting list, evidence of heavy creator demand rather than a small program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/prequel/",
+    "summary": "LinkClicky's fetched directory page lists Prequel's affiliate program on ShareASale at 15% per sale with a 15-day cookie (page last updated March 2024) — a published, joinable network route, though the rate is not restated on the brand's own pages."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/prequelskin",
+    "summary": "Beacons Universe counts 743 creators all time for Prequel, 104 posting in the last 30 days but only 23 sponsored posts in the last 12 months — a mid-size footprint with no evidence strong enough to call saturation low, so it is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "https://linkclicky.com/affiliate-program/prequel/",
+   "source_url": "https://linkclicky.com/affiliate-program/prequel/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Prequel Creator Collabs + ShareASale Affiliate Program",
+   "application_url": "https://prequelskin.com/pages/collabs",
+   "source_url": "https://prequelskin.com/pages/collabs"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Dermatologist-developed skincare — a strong skincare UGC fit.",
+    "ugc_evidence": "An official creator collabs form plus a network affiliate program; the brand reviews creator applications in batches.",
+    "compensation": "15% per sale on the published ShareASale listing — a solid rate, though it rests on a directory page rather than the brand's own site; no cap statement is published.",
+    "contact_access": "A collabs form on the official domain, but no published partnerships email — mid-range per the rubric.",
+    "opportunity_availability": "Applications are open, but the brand's own page warns of high request volume and a waiting list, with reviews only every few months.",
+    "credibility": "Founded by a board-certified dermatologist with a fast-growing clinical-skincare profile."
+   }
+  }
+ },
+ {
+  "name": "Tower 28",
+  "website": "https://www.tower28beauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Los Angeles clean beauty brand making high-performance makeup and skincare formulated for sensitive skin — SOS Daily Rescue Facial Spray, SunnyDays tinted SPF and ShineOn lip jelly — sold through its own store and Sephora.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partnerships@tower28beauty.com",
+    "source_url": "https://www.tower28beauty.com/pages/contact-us"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://tower28beauty.superfiliate.com/portal",
+    "email": null,
+    "source_url": "https://www.tower28beauty.com/pages/athlete-ambassador"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/tower28beauty"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@tower28beauty"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.tower28beauty.com/pages/athlete-ambassador",
+    "summary": "Tower 28's official Athlete ('Sweat') Ambassador page states 'Earn on every order you drive — no cap' for commission, with tiers unlocking gifting, store credit and commission; ambassadors get a referral link and a 10% follower discount code. The page's commission percentage itself is not published, and the program targets student athletes. The no-cap quote comes from the search capture of the official page (the page's JS section truncated in direct fetch), so it is marked publicly reported rather than verified."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.tower28beauty.com/pages/contact-us",
+    "summary": "The brand's official contact page publishes partnerships@tower28beauty.com 'For partnership inquiries' and press@tower28beauty.com for press."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://sup.co/brands/tower28beauty/creators",
+    "summary": "Sup counts 1,554 creators collaborating with Tower 28 in 12 months (2,322 collaborations), and Beacons lists 3.3K creators in its beauty category — a very large creator base, so saturation is recorded as high."
+   }
+  ],
+  "affiliate": {
+   "network": "Superfiliate",
+   "commission_rate": null,
+   "application_url": "https://tower28beauty.superfiliate.com/portal",
+   "source_url": "https://www.tower28beauty.com/pages/athlete-ambassador",
+   "commission_cap": "uncapped",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Tower 28 Sweat (Athlete) Ambassador Program",
+   "application_url": "https://www.tower28beauty.com/pages/athlete-ambassador",
+   "source_url": "https://www.tower28beauty.com/pages/athlete-ambassador"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 12,
+   "opportunity_availability": 5,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean makeup and skincare for sensitive skin — a core beauty UGC niche.",
+    "ugc_evidence": "A tiered ambassador program on Superfiliate with co-branded landing pages, monthly payouts and top-ambassador prizes.",
+    "compensation": "Commission is explicitly uncapped ('no cap' on the official program page), but no percentage is published anywhere fetched, so this stays low per the rubric.",
+    "contact_access": "A published partnerships email on the official contact page plus a live ambassador portal — near top band.",
+    "opportunity_availability": "Applications are open but the program is aimed at student athletes, narrowing who can join.",
+    "credibility": "Established LA clean-beauty brand with Sephora distribution."
+   }
+  }
+ },
+ {
+  "name": "Crown Affair",
+  "website": "https://www.crownaffair.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "New York haircare brand founded by Dianna Cohen, selling elevated everyday hair rituals — clean leave-in conditioner, air-dry formulas, dry shampoo and handmade tools and accessories — through its own store and roughly 450 Sephora doors.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/99735",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/99735"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/crownaffair"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@crownaffair"
+   },
+   {
+    "platform": "x",
+    "url": "https://x.com/crownaffairhq"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/99735",
+    "summary": "Crown Affair's Awin merchant profile states 'The commission rate is 10% with an average order value of ~$100' and a 15-day attribution period — a public, joinable network listing, though the rate is not published on crownaffair.com itself."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://followingup.substack.com/p/behind-the-screen-crown-affairs-personalized",
+    "summary": "A 2024 interview with Crown Affair's Social & Influencer Marketing Manager describes a ShopMy affiliate program whose partners 'are selected from those who post about us organically', with launch mailers grown to 300+ influencers — the creator-affiliate route is curated, and no Beacons brand-level creator count exists, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin / ShopMy",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/99735",
+   "source_url": "https://ui.awin.com/merchant-profile/99735",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Crown Affair Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/99735",
+   "source_url": "https://ui.awin.com/merchant-profile/99735"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ritual-led premium haircare — a good beauty UGC fit.",
+    "ugc_evidence": "A public Awin affiliate listing plus a curated ShopMy creator-affiliate program fed by organic posting and large launch mailers.",
+    "compensation": "10% published on the Awin profile with a ~$100 average order value; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Network application only; no published partnerships email was found on fetched pages — lower-mid per the rubric.",
+    "opportunity_availability": "Awin is open to apply today; the ShopMy creator tier is selection-based rather than open.",
+    "credibility": "Premium haircare brand founded 2019/2020 with Sephora distribution."
+   }
+  }
+ },
+ {
+  "name": "Soft Services",
+  "website": "https://softservices.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "New York body skincare brand launched in May 2021 — 'the body skin experts' — selling targeted body treatments such as the Buffing Bar exfoliant, Carea Cream, Comfort Cleanse and Theraplush overnight hand treatment through its own store.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "workwith@softservices.co",
+    "source_url": "https://softservices.com/contact"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/94249",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/94249"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/94249",
+    "summary": "Soft Services has a live Awin merchant profile (94249) for its affiliate program with a 7-day attribution period; the profile does not publish a commission percentage, so the rate is recorded as null rather than guessed."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://softservices.com/contact",
+    "summary": "The brand's official contact page states verbatim: 'For business partnerships and creator opportunities, email workwith@softservices.co' — a direct, published creator contact, rare among brands of this size."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://beautymatter.com/articles/next50-2025-soft-services",
+    "summary": "BeautyMatter profiles Soft Services as a New York bodycare brand launched May 2021. No Beacons Universe brand page or creator count was found in targeted searches, so saturation cannot be evidenced either way and is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/94249",
+   "source_url": "https://ui.awin.com/merchant-profile/94249",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Soft Services Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/94249",
+   "source_url": "https://ui.awin.com/merchant-profile/94249"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 7,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Body skincare is a growing UGC category, though narrower than facial skincare.",
+    "ugc_evidence": "A live network affiliate program and an explicit creator-opportunities contact route on the brand's own site.",
+    "compensation": "No commission percentage is published on the fetched Awin profile, so this stays low per the rubric; no cap statement is published either.",
+    "contact_access": "A published partnerships/creator email on the official contact page — near top band per the rubric.",
+    "opportunity_availability": "Open to join today through Awin, with a direct email route for creator opportunities.",
+    "credibility": "Small but press-recognized indie brand (BeautyMatter Next50), launched 2021."
+   }
+  }
+ }
+]
