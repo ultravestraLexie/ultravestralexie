@@ -1,0 +1,898 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://www.esrtech.com/pages/affiliate",
+      "commission_cap": "uncapped",
+      "commission_rate": 15,
+      "creator_saturation": "low",
+      "network": "Awin",
+      "source_url": "https://www.esrtech.com/pages/affiliate"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.esrtech.com/pages/affiliate",
+        "email": "affiliate@esrtech.com",
+        "source_url": "https://www.esrtech.com/pages/affiliate"
+      }
+    ],
+    "country": "Hong Kong",
+    "description": "Founded in 2009 and headquartered in Hong Kong, ESR makes MagSafe cases, screen protectors, wireless chargers and other phone and tablet accessories for over 100 million users worldwide. Its affiliate program pays up to 15% commission through platforms including Awin, ShareASale and Impact.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://devtest.esrgear.com/affiliate/?esr-from=footer",
+        "summary": "Official ESR affiliate page: 'Up to 15% commission. Earn an additional 5% bonus for new affiliate who can generate more than $300 within 30 days' and FAQ 'Are there any limits on commissions? No, there are no limits on the number of customers.' plus 'How much money can I earn? You'll receive a commission for every sale you refer. The more sales you send our way, the more money you get' — supports uncapped earnings."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/24915?setLocale=da_DK",
+        "summary": "Awin listing for ESR (US): '12% - 15% commission, 30-day cookie, dedicated affiliate manager' and describes ESR as founded in 2009 with over 130 million users."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://brandbookings.com/sponsors/esrgear",
+        "summary": "Low creator saturation evidence: BrandBookings tracks only '35 Brand Deals From 22 Creators' for ESRGear, with recent deals from a small set including The Average Tech Guy, ZONEofTECH and Terren Rule — a very small creator pool for a brand of this size."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://www.esrtech.com/pages/affiliate",
+        "summary": "Current official affiliate page on esrtech.com: 'We partner with multiple affiliate platforms, including Impact, Awin, TradeTracker, and others' and 'Earn up to 15% commission on each sale. Plus, earn a bonus when you reach the monthly sales target — the more you sell, the more you earn.' Contact affiliate@esrtech.com shown on page."
+      }
+    ],
+    "name": "ESR",
+    "opportunity": {
+      "application_url": "https://www.esrtech.com/pages/affiliate",
+      "source_url": "https://www.esrtech.com/pages/affiliate",
+      "title": "ESR Affiliate Program - Earn up to 15% Commission + Bonus"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 14,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Published up to 15% commission plus 5% new-affiliate bonus, with explicit no-limits language on official page supporting uncapped status.",
+        "contact_access": "Public affiliate application page on ESR's own current site (esrtech.com) plus published affiliate@esrtech.com email.",
+        "credibility": "Established since 2009, 100M+ users, real storefront and listings on Awin/ShareASale/Impact.",
+        "niche_fit": "Core tech-accessory products (MagSafe cases, chargers, screen protectors) map directly to tech UGC niches; official page explicitly invites promotion on Instagram, TikTok and YouTube.",
+        "opportunity_availability": "Open public application, free to join, no minimum sales level stated on official page.",
+        "ugc_evidence": "Documented creator deals exist but are few: 35 deals from 22 creators on BrandBookings, plus individual sponsored creator posts found in search."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/esrtech.official/"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/esrtech.official/"
+      }
+    ],
+    "website": "https://www.esrgear.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://nomadgoods.com/ph/pages/ambassador",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "low",
+      "network": "Shopify Collabs",
+      "source_url": "https://nomadgoods.com/ph/pages/ambassador"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://nomadgoods.com/ph/pages/ambassador",
+        "email": null,
+        "source_url": "https://nomadgoods.com/ph/pages/ambassador"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": "https://nomadgoods.com/pages/press-and-affiliates",
+        "email": null,
+        "source_url": "https://nomadgoods.com/pages/press-and-affiliates"
+      }
+    ],
+    "country": "United States",
+    "description": "Santa Barbara, California-based premium tech accessories brand founded in 2012, known for leather phone cases, Apple Watch bands, chargers and everyday-carry gear. Its Ambassador Program via Shopify Collabs pays a baseline 15% commission and is open to anyone who applies.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://nomadgoods.com/ph/pages/ambassador",
+        "summary": "Official Ambassador Program page: 'Earn 15% commission on orders placed via your affiliate link', 'Sign up through Shopify Collabs', 'Anyone can apply! We're looking for highly creative and ambitious individuals', baseline commission 15%, $25 minimum payout, payouts every 30-45 days, 7-day cookie. No maximum earnings cap is stated in the published terms — cap status therefore recorded as unknown, not verified uncapped."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/nomad-goods",
+        "summary": "Low creator saturation evidence: Beacons Universe lists NOMAD Goods with only 99 creators all time, only 8 creators posting in the last 30 days, 67 public posts mentioning the brand in the last 12 months, and only 2 sponsored posts in the last 12 months (updated November 14, 2026)."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://nomadgoods.com/pages/press-and-affiliates",
+        "summary": "Official Press and Affiliates page actively recruits partners: 'Whether you're a tech writer, a beauty blogger, or an adventure enthusiast, we would love to work with you as an affiliate marketing partner' — brand actively recruiting creators."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://www.coupert.com/store/nomadgoods.com",
+        "summary": "Independent listing corroborates official terms: 'Nomad runs an ambassador program open to anyone via Shopify Collabs. Approved ambassadors earn 15% commission on sales placed through their affiliate link, with payouts every 30-45 days after reaching a $25 minimum.'"
+      }
+    ],
+    "name": "Nomad Goods",
+    "opportunity": {
+      "application_url": "https://nomadgoods.com/ph/pages/ambassador",
+      "source_url": "https://nomadgoods.com/ph/pages/ambassador",
+      "title": "Nomad Ambassador Program - Earn 15% Commission via Shopify Collabs"
+    },
+    "score": {
+      "compensation": 15,
+      "contact_access": 14,
+      "credibility": 5,
+      "niche_fit": 28,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Published flat 15% baseline commission on official site, periodically increased for products/sales; no cap stated but no explicit uncapped language found, so cap is unknown and score is held below ESR.",
+        "contact_access": "Public ambassador application page on Nomad's own site, joining via Shopify Collabs, plus a Press and Affiliates page.",
+        "credibility": "Established since 2012, Santa Barbara HQ, real storefront, retail distribution via Best Buy and others per Wikipedia/company profiles found in search.",
+        "niche_fit": "Premium cases, watch bands and chargers are highly visual, demo-friendly products for tech/lifestyle UGC; ambassador page explicitly asks creators to create content.",
+        "opportunity_availability": "Open public application — 'Anyone can apply' on official page.",
+        "ugc_evidence": "Official ambassador program built around content creation, plus tracked creator posts on Beacons Universe (99 creators all time, recent creator reels/posts named)."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/nomadgoods"
+      }
+    ],
+    "website": "https://nomadgoods.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.ipitaka.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "low",
+      "network": "ShareASale",
+      "source_url": "https://www.ipitaka.com/pages/affiliate"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.ipitaka.com/pages/affiliate",
+        "email": "affiliate@ipitaka.com",
+        "source_url": "https://www.ipitaka.com/pages/affiliate"
+      }
+    ],
+    "country": "Hong Kong",
+    "description": "Premium tech accessories brand founded in 2015, headquartered in Hong Kong, specialising in ultra-slim aramid fibre and carbon fibre phone cases, MagEZ magnetic chargers, wallets and mounts. Its affiliate program via ShareASale pays up to 10% commission with a 90-day cookie.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.ipitaka.com/pages/affiliate",
+        "summary": "Official PITAKA affiliate page: 'We partner with ShareASale to launch our affiliate program', 'Our commission rates are flexible and can go up to 10%', 90-day cookie life, additional commission for high sales, and contact Email: affiliate@ipitaka.com. No maximum earnings cap is stated in the published program terms — cap status recorded as unknown, not verified uncapped."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.ipitaka.com/pages/terms-and-conditions-for-affiliates",
+        "summary": "Official ShareASale program agreement lists commission table up to 10% (e.g. MagEZ Case ranges at 10%, wallets at 5%, Air Case/mounts at 3%), paid monthly through ShareASale, 90-day cookie, with no per-creator earnings cap stated in the agreement text fetched."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://collabfeed.io/brands/pitaka",
+        "summary": "Low creator saturation evidence: CollabFeed tracks only 1 paid partnership post for Pitaka across Instagram, TikTok and YouTube ('Based on 1 tracked partnership', 'Pitaka runs creator campaigns on YouTube (1 posts)'), indicating very low UGC/paid-creator visibility compared with larger case brands."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://www.ipitaka.com/pages/affiliate",
+        "summary": "Low program visibility evidence: official page names only a small set of existing affiliate partners — 'Some of our favorite tech blogs, such as MacRumors, AppleInsider, and Digital Trends, have already joined our affiliate program' — a small, blog-led program rather than a mass creator program. Social handles @ipitaka.global (Instagram), @pitaka_usa (TikTok) and @ipitaka (Facebook) are listed in PITAKA content found in search."
+      }
+    ],
+    "name": "PITAKA",
+    "opportunity": {
+      "application_url": "https://www.ipitaka.com/pages/affiliate",
+      "source_url": "https://www.ipitaka.com/pages/affiliate",
+      "title": "PITAKA Affiliate Program via ShareASale - Up to 10% Commission"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 13,
+      "credibility": 4,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published up to 10% commission with 90-day cookie and extra commission for high sales; lower rate than ESR/Nomad and no explicit uncapped language found, so cap is unknown.",
+        "contact_access": "Public affiliate page on PITAKA's own site with Join Now route via ShareASale and published affiliate@ipitaka.com email.",
+        "credibility": "Established since 2015, real Shopify storefront, global warehouses and 51-200 employees per LinkedIn/company profiles found in search.",
+        "niche_fit": "Distinctive aramid-fibre cases and MagEZ ecosystem are strong visual/demo material for tech accessory UGC, though narrower than mass-market case brands.",
+        "opportunity_availability": "Open public application via ShareASale linked from official site.",
+        "ugc_evidence": "Documented creator collaboration exists (e.g. cinematic creator case study on cribebrand.com and tracked paid partnership on CollabFeed) but volume is very small — only 1 tracked paid partnership."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/ipitaka.global/"
+      },
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@pitaka_usa"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/ipitaka"
+      }
+    ],
+    "website": "https://www.ipitaka.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://petlibro.com/pages/affiliate-program?utm_source=website&utm_medium=instagram+&utm_campaign=linktree+&utm_id=affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 18,
+      "creator_saturation": "low",
+      "network": "Impact",
+      "source_url": "https://petlibro.com/pages/affiliate-program?utm_source=website&utm_medium=instagram+&utm_campaign=linktree+&utm_id=affiliate"
+    },
+    "category_slug": "pets",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://petlibro.com/pages/affiliate-program?utm_source=website&utm_medium=instagram+&utm_campaign=linktree+&utm_id=affiliate",
+        "email": "affiliate@petlibro.com",
+        "source_url": "https://petlibro.com/pages/affiliate-program?utm_source=website&utm_medium=instagram+&utm_campaign=linktree+&utm_id=affiliate"
+      }
+    ],
+    "country": "United States",
+    "description": "Pet tech brand for automatic pet products, including automatic feeders and water fountains for cats and dogs. Its own affiliate page notes average orders of $50-$200 and that 70% of its customers are cat owners.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://petlibro.com/pages/affiliate-program?utm_source=website&utm_medium=instagram+&utm_campaign=linktree+&utm_id=affiliate",
+        "summary": "Official affiliate page fetched: 'Up to 18% Affiliate Commission', 30 days cookie duration, average order $50-$200, open to partnering with almost all partner models, GET STARTED links to Impact, and contact email affiliate@petlibro.com is published on the page."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://petlibro.com/pages/affiliate-program?utm_source=website&utm_medium=instagram+&utm_campaign=linktree+&utm_id=affiliate",
+        "summary": "Commission cap: UNKNOWN. The official program page publishes up to 18% commission with no cap stated in the fetched terms, but no fetched source contains explicit 'no cap' / 'unlimited earnings' language or describes Petlibro earnings as uncapped, so uncapped was not claimed per the evidence standard."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "creator_report",
+        "source_url": "https://www.creatorsjet.com/blog/brands-looking-for-ugc-creators",
+        "summary": "Creator saturation: LOW. CreatorsJet lists Petlibro among pet brands actively looking for UGC creators, citing a single paid partnership example (a litter box unboxing by @jooutofthebox) and directing creators to join on Impact for up to 18% — actively recruiting with few documented creator examples, indicating low creator-program visibility."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/petlibro/",
+        "summary": "Lasso listing reports the Petlibro affiliate program at 10% per sale with a 30-day cookie, corroborating a live commission program at a lower tier than the up to 18% headline on the brand's own page."
+      }
+    ],
+    "name": "Petlibro",
+    "opportunity": {
+      "application_url": "https://petlibro.com/pages/affiliate-program?utm_source=website&utm_medium=instagram+&utm_campaign=linktree+&utm_id=affiliate",
+      "source_url": "https://petlibro.com/pages/affiliate-program?utm_source=website&utm_medium=instagram+&utm_campaign=linktree+&utm_id=affiliate",
+      "title": "Petlibro Affiliate Program — up to 18% commission via Impact"
+    },
+    "score": {
+      "compensation": 17,
+      "contact_access": 14,
+      "credibility": 5,
+      "niche_fit": 28,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Up to 18% published on the brand's own page is the highest rate in this set, but cap status is unverified, so not scored as uncapped.",
+        "contact_access": "Public creator/affiliate application page on the brand's own site with a published affiliate email — top band.",
+        "credibility": "Established brand with a real storefront; its own page claims over 10,000 5-star ratings.",
+        "niche_fit": "Smart feeders/fountains are highly demonstrable in cat and dog content; official page says 70% of customers are cat owners, a strong UGC niche.",
+        "opportunity_availability": "Open public application today via the GET STARTED link to Impact on the official page.",
+        "ugc_evidence": "CreatorsJet documents paid pet-creator partnerships (one named example) plus an official affiliate program open to almost all partner models."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://petlibro.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "low",
+      "network": "Social Snowball",
+      "source_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1"
+    },
+    "category_slug": "pets",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1",
+        "email": null,
+        "source_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "partnerships@wildone.com",
+        "source_url": "https://usesnippet.app/pr-emails/wild-one"
+      }
+    ],
+    "country": "United States",
+    "description": "New York-based direct-to-consumer pet accessories brand selling design-forward harnesses, collars, leashes, toys, carriers and other essentials for dogs and cats.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1",
+        "summary": "Official ambassador page fetched: The Pack pays a 10% commission on each sale made using the ambassador link plus a 15% off discount code, with payouts reviewed weekly via Tremendous/Social Snowball; no minimum posting cadence and no follower minimum stated."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1",
+        "summary": "Commission cap: UNKNOWN. The official Pack terms publish 10% per sale with no cap stated in the fetched page, but no fetched source contains explicit 'no cap' / 'unlimited earnings' language or describes Wild One earnings as uncapped, so uncapped was not claimed per the evidence standard."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "creator_report",
+        "source_url": "https://newcollab.co/brand/wild-one",
+        "summary": "Creator saturation: LOW. NewCollab (checked October 2026) reports it found no public UGC program, open brief or creator ads from Wild One, and that Wild One takes creator applications through its own PR form looking for around 500 followers or more — low creator-program visibility."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1",
+        "summary": "Actively recruiting evidence for low saturation: the official page says 'we'd love for you to join the Pack', 'Apply below and we'll be in touch', and offers campaign opportunities, social spotlights and event invites, with no follower minimum stated (corroborated by Aurelia's read of the same page)."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "contact",
+        "source_type": "listing",
+        "source_url": "https://usesnippet.app/pr-emails/wild-one",
+        "summary": "UseSnippet, checked on the brand's own pages on November 14, 2026, reports Wild One lists partnerships@wildone.com for partnership inquiries."
+      }
+    ],
+    "name": "Wild One",
+    "opportunity": {
+      "application_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1",
+      "source_url": "https://wildone.com/pages/become-an-ambassador?srsltid=AfmBOooO7Vh5jO2UbT0_k4QvIMuE16RN7tf_pxEWRHZ7iKEpzQPtP5Y1",
+      "title": "Become a Wild One Ambassador — The Pack (10% commission)"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 14,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "10% commission published on the brand's own page plus a 15% audience discount code; cap status unverified.",
+        "contact_access": "Public ambassador application form on the brand's own site, plus a reported partnerships email — top band.",
+        "credibility": "Established DTC brand with a real storefront, also running a ShareASale affiliate program per third-party company profile.",
+        "niche_fit": "Visual, design-forward dog walk kits and accessories are ideal for short-form pet and lifestyle content.",
+        "opportunity_availability": "Open public application today with no follower minimum and no posting cadence required.",
+        "ugc_evidence": "The Pack ambassador program is documented on the brand's own page and in multiple creator-program lists; NewCollab found no public UGC program, which caps the UGC evidence strength."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://wildone.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://share.sundaysfordogs.com/zone/terms?journey.campaign_id=7094265081383182478",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "low",
+      "network": null,
+      "source_url": "https://share.sundaysfordogs.com/zone/terms?journey.campaign_id=7094265081383182478"
+    },
+    "category_slug": "pets",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/91523",
+        "email": "affiliates@sundaysfordogs.com",
+        "source_url": "https://ui.awin.com/merchant-profile/91523"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "affiliates@sundaysfordogs.com",
+        "source_url": "https://www.bravodm.com/brands/sundaysfordogs"
+      }
+    ],
+    "country": "United States",
+    "description": "Air-dried, human-grade dog food founded and formulated by a veterinarian, sold by subscription; Awin describes the recipes and BravoDM describes them as 90% meat and 10% superfoods.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://share.sundaysfordogs.com/zone/terms?journey.campaign_id=7094265081383182478",
+        "summary": "Brand's own Ambassador Program terms: participants must live in the US and have content featuring their dog; perks include free product (1 month of Sundays), a partner link/code offering 50% off a first order, and 'Commission: 15% lifetime commission on sales and recurring subscription orders', plus performance bonus milestones."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://share.sundaysfordogs.com/zone/terms?journey.campaign_id=7094265081383182478",
+        "summary": "Commission cap: UNKNOWN. The ambassador terms publish 15% lifetime commission with no earnings cap stated in the fetched terms, but no fetched source contains explicit 'no cap' / 'unlimited earnings' language or describes Sundays earnings as uncapped, so uncapped was not claimed per the evidence standard. 'Lifetime' refers to recurring commission duration, not a verified earnings cap status."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "creator_report",
+        "source_url": "https://www.bravodm.com/brands/sundaysfordogs",
+        "summary": "Creator saturation: LOW. BravoDM (program checked October 2026) reports Sundays takes creator pitches by email only at affiliates@sundaysfordogs.com, with no public creator application hub found — a low-visibility, email-only creator route."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/91523",
+        "summary": "Awin merchant profile: 'Sundays is thrilled to welcome you to our affiliate program! We are specifically seeking exceptional and high-performing affiliates' — actively recruiting; 60-day attribution period; personalized discount codes arranged via affiliates@sundaysfordogs.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://app.impact.com/advertiser-campaign-info/Sundays-For-Dogs.brand?lang=en&c=___9XpvYq1Sf08WbyalSQAkGB5GBNfkORWR",
+        "summary": "Separate Impact listing for Sundays For Dogs shows a $5.00 online-sale payout with a 30-day referral period — a different, network-specific route from the 15% lifetime ambassador terms, so creators should confirm which program they join."
+      }
+    ],
+    "name": "Sundays for Dogs",
+    "opportunity": {
+      "application_url": "https://share.sundaysfordogs.com/zone/terms?journey.campaign_id=7094265081383182478",
+      "source_url": "https://share.sundaysfordogs.com/zone/terms?journey.campaign_id=7094265081383182478",
+      "title": "Sundays for Dogs Ambassador Program — 15% lifetime commission"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 9,
+      "credibility": 4,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "15% lifetime commission on sales and recurring subscription orders in the brand's own terms is strong and recurring; cap status unverified, and a separate Impact route pays a flat $5.",
+        "contact_access": "Network listings (Awin/Impact) plus a published affiliates email, but no creator application form on the main storefront was fetched — middle band.",
+        "credibility": "Established US DTC brand, veterinarian-founded, with real storefront and active Awin and Impact programs.",
+        "niche_fit": "Dog-only food brand; feeding-routine and transition content fits dog-parent creators well, though narrower than multi-pet tech/accessories.",
+        "opportunity_availability": "Public ambassador terms and open Awin/Impact sign-up routes are available today; joining is via network/email rather than an own-site form.",
+        "ugc_evidence": "Public Ambassador Program with creator content required is documented in its own terms, BravoDM and a UGC brand hit list, but no named creator example was fetched."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://sundaysfordogs.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://wp.livelarq.com/affiliate-program/",
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "low",
+      "network": "Impact Radius",
+      "source_url": "https://wp.livelarq.com/affiliate-program/"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://wp.livelarq.com/affiliate-program/",
+        "email": "affiliates@livelarq.com",
+        "source_url": "https://wp.livelarq.com/affiliate-program/"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://basq.livelarq.com/news/were-hiring-campus-creators/",
+        "email": "social@livelarq.com",
+        "source_url": "https://basq.livelarq.com/news/were-hiring-campus-creators/"
+      }
+    ],
+    "country": "United States",
+    "description": "LARQ makes self-cleaning water bottles and pitchers that use UV-C PureVis technology and filtration to purify water and reduce single-use plastic.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://wp.livelarq.com/affiliate-program/",
+        "summary": "Official LARQ affiliate page: 8% commission with higher rates for top performers, 30-day cookie, $130+ average order value, free sample product valued $80+, program run through Impact Radius, contact affiliates@livelarq.com."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://wp.livelarq.com/affiliate-program/",
+        "summary": "Commission-cap status UNKNOWN: the official affiliate page lists rate, cookie and AOV with no cap mentioned, and no fetched source was found with explicit 'no cap' / 'unlimited earnings' language or describing LARQ earnings as uncapped, so uncapped cannot be verified under the task standard."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://basq.livelarq.com/news/were-hiring-campus-creators/",
+        "summary": "Low-saturation / actively recruiting evidence: LARQ is actively hiring Campus Creators for its College Creator Program - 'We're on the hunt for the next viral social media sensation', creators make 1-3 videos per week for Instagram/TikTok/Facebook, paid per video, apply via social@livelarq.com. A brand still hiring campus creators indicates a small, recruiting-stage creator program."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://www.bravodm.com/brands/livelarq",
+        "summary": "Low creator-program visibility evidence: BravoDM (checked October 2026) lists the LARQ creator program only as an affiliate program via Impact (via the Lasso listing), for influencers/content creators promoting self-cleaning bottles through affiliate links, with no follower minimum stated - few dedicated creator listings were found."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/larq-preferred/",
+        "summary": "Lasso listing corroborates 8% per sale and 30-day cookie for LARQ Preferred."
+      }
+    ],
+    "name": "LARQ",
+    "opportunity": {
+      "application_url": "https://wp.livelarq.com/affiliate-program/",
+      "source_url": "https://wp.livelarq.com/affiliate-program/",
+      "title": "LARQ Affiliate Program - 8% commission via Impact Radius"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 13,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published 8% on official page with higher rates for top performers and $130+ AOV, but rate is modest and cap status is unknown - no uncapped language found.",
+        "contact_access": "Public affiliate page on LARQ's own site with named affiliate email affiliates@livelarq.com and a second creator route via social@livelarq.com.",
+        "credibility": "Established US brand (San Mateo, California per company profiles) with real storefront, high AOV and 1% for the Planet partnership stated on its official page.",
+        "niche_fit": "Self-cleaning UV water bottle is a clear personal-care / home-tech gadget that demos well in hydration, wellness, travel and home content.",
+        "opportunity_availability": "Open public affiliate application plus an actively hiring Campus Creator listing.",
+        "ugc_evidence": "Documented Campus Creator paid-per-video program plus affiliate creator route via Impact; main program is affiliate-link based rather than a large UGC ambassador community."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/livelarq/"
+      },
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@livelarq"
+      }
+    ],
+    "website": "https://www.livelarq.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.getquip.com/pages/become-an-affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "low",
+      "network": "Impact.com",
+      "source_url": "https://www.getquip.com/pages/become-an-affiliate"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.getquip.com/pages/become-an-affiliate",
+        "email": null,
+        "source_url": "https://www.getquip.com/pages/become-an-affiliate"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.getquip.com/pages/ambassador-program",
+        "email": "ambassadors@getquip.com",
+        "source_url": "https://www.getquip.com/pages/ambassador-program"
+      }
+    ],
+    "country": "United States",
+    "description": "quip is a US oral-care brand selling sleek electric toothbrushes, water flossers and refillable oral-care products designed to build better daily habits.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.getquip.com/pages/become-an-affiliate",
+        "summary": "Official quip affiliate page: bloggers/publishers earn at least 10% commission for every successful sale through referrals, sign up via Impact.com, free to join, real-time tracking on Impact.com."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.getquip.com/pages/become-an-affiliate",
+        "summary": "Commission-cap status UNKNOWN: official page says 'at least 10%' and 'competitive commissions - details provided upon sign-up' with no cap mentioned, and no fetched source was found with explicit 'no cap' / 'unlimited earnings' language for quip, so uncapped cannot be verified under the task standard."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.getquip.com/pages/ambassador-program",
+        "summary": "Ambassador Program on quip's own site: 'Share, create, and earn while helping others build better oral care habits', open to anyone, no minimum followers, 15% off code/link tracks sales for commission, payouts first week of each month via SocialLadder, higher tiers by invitation, contact ambassadors@getquip.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "creator_report",
+        "source_url": "https://www.facebook.com/getquip/posts/pfbid0Tw97VALBGLmSM9swNYibQBcsuG732NBkdH48kfoTiQEzJbHqqsn82wEmVZPfpLLgl",
+        "summary": "Low-saturation / actively recruiting evidence: quip's May 2026 social posts unveil a refreshed Ambassador Program aimed at expanding its creator community and recruit with 'Become a quip Ambassador' / 'Ready to join? Link in bio to apply' - a relaunched, recruiting-stage program rather than a large established creator roster. Handles @quip on Instagram and @getquip on TikTok are stated on getquip.com."
+      }
+    ],
+    "name": "quip",
+    "opportunity": {
+      "application_url": "https://www.getquip.com/pages/ambassador-program",
+      "source_url": "https://www.getquip.com/pages/ambassador-program",
+      "title": "quip Ambassador Program - share, create and earn (open to anyone, no follower minimum)"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 14,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Published at least 10% on official affiliate page with tier increases possible for ambassadors; cap status unknown - no uncapped language found.",
+        "contact_access": "Two public creator pages on quip's own site (affiliate and ambassador) plus public ambassador email ambassadors@getquip.com.",
+        "credibility": "Established US oral-care brand with real storefront at getquip.com and giveaway terms stating US residency, indicating an active US operation.",
+        "niche_fit": "Electric toothbrush / oral-care tech is a core personal-care gadget with strong routine, bathroom and wellness content fit.",
+        "opportunity_availability": "Open public application, open to anyone with no follower minimum, applications typically reviewed within one week per official FAQ.",
+        "ugc_evidence": "Strong documented UGC route: dedicated Ambassador Program built around creating content, challenges and sharing, plus a separate affiliate program."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/quip"
+      },
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@getquip"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/getquip"
+      }
+    ],
+    "website": "https://www.getquip.com/"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://coopsleepgoods.superfiliate.com/portal",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "low",
+      "network": "Superfiliate",
+      "source_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program"
+    },
+    "category_slug": "home",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://coopsleepgoods.superfiliate.com/portal",
+        "email": null,
+        "source_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program",
+        "email": "affiliates@coopsleepgoods.com",
+        "source_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.bravodm.com/brands/coopsleepgoods",
+        "email": "affiliate@coopsleepgoods.com",
+        "source_url": "https://www.bravodm.com/brands/coopsleepgoods"
+      }
+    ],
+    "country": "United States",
+    "description": "US sleep brand known for adjustable pillows and cooling bedding, sold through its own storefront with a 100-night guarantee. Its Creator Community affiliate program is aimed at content creators who promote sleep products.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program",
+        "summary": "Official Coop affiliate page: Coop's Creator Community starts at Bronze tier earning 10% commission on every purchase through a personalized link giving audience 20% off, with performance-based Silver/Gold tiers, dedicated affiliate manager, and monthly payouts on last Friday of month. Application at coopsleepgoods.superfiliate.com/portal, manually reviewed, no follower minimum stated in related listing."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program",
+        "summary": "Commission-cap status: official published terms state 10% on every purchase / every order with tier progression and no maximum earnings cap mentioned, but no explicit 'no cap' or 'unlimited earnings' language was found on fetched pages. Per strict rule, commission_cap is set to unknown, not uncapped."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program",
+        "summary": "Creator saturation low evidence: brand is actively recruiting on its own page with Apply Now, program is structured as a new tiered Creator Community where all accepted affiliates start at Bronze, applications are manually reviewed, and official FAQ separates affiliates from UGC creators ('if you are stronger at content creation and would like to be considered for UGC, please reach out'). BravoDM listing checked Oct 2026 notes manual review and no follower minimum, indicating a small, early-stage creator program rather than a saturated roster."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/coop-home-goods/",
+        "summary": "Lasso listing for Coop Home Goods: Home category, up to 9.0% commission, 14-day cookie, $10 payout threshold - corroborates a published home affiliate route, with rate differing slightly from the current 10% Bronze rate on the official site (official site used for rate in this record)."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program",
+        "summary": "Contact verified on official page: affiliates@coopsleepgoods.com for affiliate questions, application status and commissions."
+      }
+    ],
+    "name": "Coop Sleep Goods",
+    "opportunity": {
+      "application_url": "https://coopsleepgoods.superfiliate.com/portal",
+      "source_url": "https://coopsleepgoods.com/pages/coop-sleep-goods-affiliate-program",
+      "title": "Coop's Creator Community Affiliate Program - Apply Now"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 14,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Published 10% Bronze commission on official site with higher Silver/Gold tiers; cap status unknown so not scored as uncapped.",
+        "contact_access": "Public creator application portal linked from brand's own site plus published affiliates@ email - top band.",
+        "credibility": "Established brand with real storefront, 100-night guarantee and active social presence.",
+        "niche_fit": "Adjustable pillows and bedding are core home/sleep creator content with strong demo and review potential.",
+        "opportunity_availability": "Open public Apply Now application, manually reviewed.",
+        "ugc_evidence": "Official Creator Community for creators plus explicit UGC route in FAQ on official page."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DOob3CHj5Qg/"
+      },
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@coopsleepgoods/live?_d=secCgYIASAHKAESPgo8aXl1%2BMLlScel811gSHEkosJmePKaH2AH8%2BDwn2%2B8j6bxgiAcdm2aVpN7MVzeGYIJjb4fv1XYPRYINWy7GgA%3D&_r=1&_svg=3&checksum=bd1b3f721689ddf92ec9dbcd146471b9d160227345f41a45276850df4b0f8ac3&enter_from_merge=share&enter_method=share&sec_user_id=MS4wLjABA"
+      }
+    ],
+    "website": "https://coopsleepgoods.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.ettitude.com.au/pages/affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 9,
+      "creator_saturation": "low",
+      "network": "Rakuten LinkShare",
+      "source_url": "https://www.ettitude.com.au/pages/affiliate"
+    },
+    "category_slug": "home",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.ettitude.com.au/pages/affiliate",
+        "email": null,
+        "source_url": "https://www.ettitude.com.au/pages/affiliate"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": "https://faq.ettitude.com.au/en-US/do-you-have-an-affiliate-program-22977",
+        "email": "ettitude@dmipartners.com",
+        "source_url": "https://faq.ettitude.com.au/en-US/do-you-have-an-affiliate-program-22977"
+      }
+    ],
+    "country": "United States",
+    "description": "Sustainable homeware brand making bedding and sleepwear from 100% organic bamboo lyocell, positioned as affordable luxury with a 30-night trial. Its affiliate program runs through Rakuten for bloggers and creators in sustainable living and home.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.ettitude.com.au/pages/affiliate",
+        "summary": "Official Ettitude affiliate page (AU site for the same brand): base offer 9% on sales, 45-day cookie, 30-day lookback, $200 high AOV, commission on all products referred customers purchase, monthly payments, via Rakuten LinkShare network. Program described as free, simple and secure."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.ettitude.com.au/pages/affiliate",
+        "summary": "Commission-cap status: official page states 9% base on sales and 'receive commission on all products' plus 'endless rewards' phrasing, with no maximum earnings cap mentioned, and InfluencerRate states 'the more you promote, the more you earn' - but no explicit 'no cap'/'unlimited' term was found on fetched pages. Per strict rule, commission_cap is set to unknown, not uncapped."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.ettitude.com.au/pages/affiliate",
+        "summary": "Creator saturation low evidence: affiliate route has low creator-program visibility - no dedicated US .com creator portal was found in search, the join route is a single AU affiliate page via Rakuten LinkShare plus a FAQ contact through third-party DMI Partners (ettitude@dmipartners.com), and the brand is actively inviting joins on that page ('Join The Ettitude Affiliate Program'). Few published creator-program listings were found beyond Lasso and InfluencerRate."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/ettitude-holdings-inc/",
+        "summary": "Lasso listing for Ettitude Holdings Inc: Home category, up to 15.0% commission, 14-day cookie, $10 payout threshold, described for bloggers/influencers passionate about sustainable living and home decor. Official AU page base rate of 9% is used as the commission_rate in this record."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://faq.ettitude.com.au/en-US/do-you-have-an-affiliate-program-22977",
+        "summary": "Official FAQ confirms Ettitude offers an affiliate program for individuals sharing passion for sustainability/eco-conscious living, earning commission on bedding and lifestyle products, with dedicated team contact ettitude@dmipartners.com."
+      }
+    ],
+    "name": "Ettitude",
+    "opportunity": {
+      "application_url": "https://www.ettitude.com.au/pages/affiliate",
+      "source_url": "https://www.ettitude.com.au/pages/affiliate",
+      "title": "Join The Ettitude Affiliate Program (Rakuten LinkShare)"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 9,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published 9% base on official page (up to 15% on Lasso listing), $200 AOV and 45-day cookie; cap status unknown so not scored as uncapped.",
+        "contact_access": "Join route is network-based via Rakuten LinkShare from the AU affiliate page plus a published DMI contact email - middle band, not a US own-site creator portal.",
+        "credibility": "Established B Corp sustainable bedding brand with real storefront and 130K-follower Instagram presence reported in fetched posts.",
+        "niche_fit": "Bamboo bedding, sheets and sleepwear fit home, sustainability and sleep creator niches well.",
+        "opportunity_availability": "Open public join invitation on official affiliate page via Rakuten signup.",
+        "ugc_evidence": "Affiliate program explicitly for bloggers/creators and UGC-style product reviews visible on official Instagram, but no named UGC/ambassador program on own site."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/reel/DGv9RgfShi5/"
+      }
+    ],
+    "website": "https://www.ettitude.com"
+  }
+]
