@@ -1,0 +1,929 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://bioptimizers.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 16,
+   "creator_saturation": "unknown",
+   "network": "FlexOffers",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/bioptimizers-affiliate-program/"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_affiliate_partnerships_email",
+    "contact_url": "https://bioptimizers.com/a/vip-center/vipinfluencers/apply",
+    "email": "partners@bioptimizers.com",
+    "source_url": "https://bioptimizers.com/a/vip-center/vipinfluencers/apply"
+   },
+   {
+    "contact_type": "affiliate_program_page",
+    "contact_url": "https://bioptimizers.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://bioptimizers.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "BiOptimizers makes digestive-health supplements including digestive enzymes, probiotics, and magnesium formulas, positioned around optimizing digestion, sleep, and overall health. Its affiliate terms list the company as BIOptimizers USA, Inc. of Reno, NV.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/bioptimizers-affiliate-program/",
+    "summary": "FlexOffers listing fetched: 'The payout is 16% of online sales (28% for select content publishers).' No cap / no-limit earnings language found on any fetched page, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://bioptimizers.com/pages/affiliate-program",
+    "summary": "Official affiliate program page invites sign-up at its affiliate center to earn promoting BiOptimizers products; no rate or cap stated on the page itself."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://bioptimizers.com/a/vip-center/vipinfluencers/apply",
+    "summary": "Official Partner Program page fetched: 'We're making updates to our Partner Program. In the meantime, email partners@bioptimizers.com if you're a creator, affiliate, or brand interested in working with us.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://bioptimizers.refersion.com/affiliate/registration?oid=89538",
+    "summary": "Refersion-hosted affiliate terms (via search result) state participation begins after BIO approves the application and commissions are set in the affiliate portal; company listed as BIOptimizers USA, Inc., Reno, NV."
+   }
+  ],
+  "name": "BiOptimizers",
+  "opportunity": {
+   "application_url": "https://bioptimizers.com/a/vip-center/vipinfluencers/apply",
+   "source_url": "https://bioptimizers.com/a/vip-center/vipinfluencers/apply",
+   "title": "BIOptimizers Partner Program — creators and affiliates invited to email partners@bioptimizers.com"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 16% base rate (28% for select publishers) on FlexOffers; cap unknown, so mid-range score.",
+    "contact_access": "Published partnerships email for creators/affiliates plus an official program page.",
+    "credibility": "Established brand with official program pages on multiple networks (FlexOffers, Refersion, CJ).",
+    "niche_fit": "Gut-health, magnesium and sleep supplements are highly demo-able UGC products for wellness creators.",
+    "opportunity_availability": "Affiliate center sign-up is open; partner program page says updates are in progress and directs creators to email in.",
+    "ugc_evidence": "Dedicated influencer/partner apply page and creator traffic accepted via networks, but no fetched creator-count data."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/bioptimizers/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@bioptimizers"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/bioptimizers"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/BiOptimizers/"
+   }
+  ],
+  "website": "https://bioptimizers.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://paleovalley.com/partnerships/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 40,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://paleovalley.com/partnerships/affiliate"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "affiliate_email",
+    "contact_url": "https://paleovalley.com/partnerships/affiliate",
+    "email": "affiliate@paleovalley.com",
+    "source_url": "https://cf.paleovalley.com/affiliate-terms-of-service"
+   }
+  ],
+  "country": "United States",
+  "description": "Paleovalley creates nutrient-dense whole-food snacks and supplements, including grass-fed beef sticks, bone broth protein, and a grass-fed organ complex. The company is based in Erie, Colorado and sells primarily to US and Canadian customers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://paleovalley.com/partnerships/affiliate",
+    "summary": "Official affiliate page fetched lists benefits including 'High Commission Rates (25%-40%)', free product samples, and fast commission payments. No cap / no-limit earnings language on the fetched page, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://paleovalley.com/partnerships/affiliate",
+    "summary": "Official page states requirements (US/Canada business; email list 5,000+ and/or social following over 10,000 on the partnerships page) and an application form with response within 3 business days; ideal partners include fitness influencers and mommy bloggers."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://cf.paleovalley.com/affiliate-terms-of-service",
+    "summary": "Official affiliate Terms of Service page fetched states: 'We offer a special 20% off coupon code for Affiliate Purchases. Please email affiliate@paleovalley.com for the code.' Its acceptance terms list lower thresholds (email list of 100+ or social following over 1,000)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://app.viralsweep.com/contest/full/261255-226107?framed=1",
+    "summary": "Paleovalley co-branded sweepstakes asked entrants to post a short vlog-style video of their nighttime routine on TikTok, Facebook, YouTube Shorts, or Instagram and tag @paleovalley — direct UGC activation evidence."
+   }
+  ],
+  "name": "Paleovalley",
+  "opportunity": {
+   "application_url": "https://paleovalley.com/partnerships/affiliate",
+   "source_url": "https://paleovalley.com/partnerships/affiliate",
+   "title": "Paleovalley Affiliate Program — 25%-40% commission, application open on partnerships page"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 14,
+   "credibility": 5,
+   "niche_fit": 28,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Highest published rate in this batch (25%-40% on the official page) but cap unknown, so not top-scored.",
+    "contact_access": "Published affiliate email plus an on-site application form.",
+    "credibility": "Long-running brand (founded 2013) with a detailed official partnerships page and published terms.",
+    "niche_fit": "Beef sticks, bone broth protein and organ complex are strong taste-test and routine-demo products for health, keto/paleo and mom creators.",
+    "opportunity_availability": "Application is open now, but the partnerships page gates on audience size (5,000 email / 10,000 social).",
+    "ugc_evidence": "Brand sponsors health creators and ran a UGC video sweepstakes; no fetched creator-count source, so saturation stays unknown."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/paleovalley/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/LovePaleovalley"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/channel/paleovalley"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/@Paleovalley/"
+   }
+  ],
+  "website": "https://paleovalley.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/equipfoods/",
+   "commission_cap": "uncapped",
+   "commission_rate": 11.25,
+   "creator_saturation": "low",
+   "network": "Lasso",
+   "source_url": "https://getlasso.co/affiliate/equipfoods/"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "support_email",
+    "contact_url": "https://help.equipfoods.com/en-US/articles/referral-program-124220",
+    "email": "hello@equipfoods.com",
+    "source_url": "https://help.equipfoods.com/en-US/articles/referral-program-124220"
+   },
+   {
+    "contact_type": "partnerships_email",
+    "contact_url": null,
+    "email": "partnerships@equipfoods.com",
+    "source_url": "https://dealrated.com/store/equipfoods"
+   }
+  ],
+  "country": "United States",
+  "description": "Equip Foods makes doctor-developed, real-food supplements including Prime Protein grass-fed beef isolate powder, collagen, colostrum, and protein bars, all third-party tested. Beacons Universe lists the brand as a health & wellness company based in West Palm Beach, United States.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://help.equipfoods.com/en-US/articles/referral-program-124220",
+    "summary": "Official help-center referral page fetched states verbatim: 'Is there a limit to how much I can earn through the referral program? There is no limit to how many people you can refer or how much store credit you can earn. Unlimited Rewards: Earn $10 in store credit for every friend who places their first purchase using your unique link.' This explicit no-limit wording is the basis for commission_cap = uncapped (applies to the Superfiliate referral program)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/equipfoods/",
+    "summary": "Lasso affiliate listing fetched: commission rate 'Up to 11.25%', 14-day cookie, no approval requirements, $10 payout threshold."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/equip-foods",
+    "summary": "Beacons Universe page fetched: 'posts from 267 creators (all time)... 42 posted in the last 30 days' and 'In the last 12 months, 21 sponsored posts mentioned Equip Foods' — a small creator pool and low sponsored-post volume, supporting creator_saturation = low."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://dealrated.com/store/equipfoods",
+    "summary": "Published contact listing gives hello@equipfoods.com and partnerships@equipfoods.com and links to instagram.com/equipfoods and facebook.com/equipfoods."
+   }
+  ],
+  "name": "Equip Foods",
+  "opportunity": {
+   "application_url": "https://help.equipfoods.com/en-US/articles/referral-program-124220",
+   "source_url": "https://help.equipfoods.com/en-US/articles/referral-program-124220",
+   "title": "Equip Foods Superfiliate Referral Program — open sign-up, $10 store credit per referred first purchase, no earnings limit"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Modest percentage rate (up to 11.25%) but verified uncapped earnings on the official referral program ('no limit... Unlimited Rewards').",
+    "contact_access": "Two published emails (general and partnerships) plus open program pages.",
+    "credibility": "Established brand sold in Sprouts nationwide per its help center, with third-party tested products.",
+    "niche_fit": "Protein powder, bars and colostrum are ideal for recipe, taste-test and fitness-routine UGC.",
+    "opportunity_availability": "Referral sign-up is open to anyone via Superfiliate and the affiliate listing shows no approval requirements.",
+    "ugc_evidence": "Beacons Universe shows 267 creators all time and only 21 sponsored posts in 12 months — active but unsaturated creator activity."
+   },
+   "ugc_evidence": 17
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://instagram.com/equipfoods"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://facebook.com/equipfoods"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@equip.foods"
+   }
+  ],
+  "website": "https://www.equipfoods.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://heartandsoil.superfiliate.com/portal",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "Superfiliate",
+   "source_url": "https://heartandsoil.superfiliate.com/portal"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "affiliate_portal",
+    "contact_url": "https://heartandsoil.superfiliate.com/portal",
+    "email": null,
+    "source_url": "https://heartandsoil.superfiliate.com/portal"
+   }
+  ],
+  "country": "United States",
+  "description": "Heart & Soil makes organ-based supplements from 100% grass-fed and finished regenerative cattle, including Beef Organs, Beef Liver, and targeted organ blends. The company was founded by Dr. Paul Saladino and its TikTok Shop seller listing shows a Texas, United States business address.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://heartandsoil.superfiliate.com/portal",
+    "summary": "Official Superfiliate portal fetched: 'Gift your audience 10% OFF their first Heart & Soil purchase and earn commission starting at 15%! We'll pay out your balance once a month!' plus free products at monthly and lifetime milestones. No cap / no-limit wording on the fetched page, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/heart-soil-affiliate-program/",
+    "summary": "FlexOffers listing (search result) states: 'The payout is 10% of online sales' with a 30-day cookie — a second network route at a lower rate than the direct portal."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "social",
+    "source_url": "https://www.facebook.com/brittany.grier.2025/posts/pfbid02Gig9LUJ5sh7NcqqN2FwoYhgBnPMobn6c5C8ksAWgGFdM8nzWj2KWbLTP8kQfQ9kWl",
+    "summary": "Public post announcing Heart & Soil's TikTok Shop launch recruiting creators, with video-count bonuses (3 videos = $30 up to 20 videos = $200 plus VIP perk) and GMV bonuses — evidence of active creator recruitment; no fetched creator-count total, so saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://shop.tiktok.com/us/pdp/whole-package-for-hormone-production-energy-boost/1732349031907234793",
+    "summary": "TikTok Shop listing shows seller 'Heart and Soil Supplements, LLC', business address Texas, United States, and multiple 'Creator earns commission' creator videos on the product page."
+   }
+  ],
+  "name": "Heart & Soil",
+  "opportunity": {
+   "application_url": "https://heartandsoil.superfiliate.com/portal",
+   "source_url": "https://heartandsoil.superfiliate.com/portal",
+   "title": "Heart & Soil Affiliate Portal (Superfiliate) — earn commission starting at 15%, audience gets 10% off first purchase"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Solid published starting rate of 15% on the official portal (10% via FlexOffers), but cap unknown.",
+    "contact_access": "Open affiliate portal for sign-up, but no published partnerships email was found on fetched pages.",
+    "credibility": "Well-known founder-led brand with an official portal and TikTok Shop presence.",
+    "niche_fit": "Organ supplements and animal-based nutrition are a passionate, demo-friendly niche for health and carnivore creators.",
+    "opportunity_availability": "Portal sign-up is open now and the brand publicly recruited TikTok Shop creators with video bonuses.",
+    "ugc_evidence": "Superfiliate portal with milestone rewards plus a TikTok Shop creator campaign; no fetched creator-count source, so saturation is unknown."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/heartandsoilsupplements/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/heartandsoilsupplements/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@heartandsoil"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/channel/UCyf4v0HhGiHc8_ZIiSfd3Ug"
+   }
+  ],
+  "website": "https://heartandsoil.co/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/87191",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "low",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/87191"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "affiliate_program",
+    "contact_url": "https://ui.awin.com/merchant-profile/87191",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/87191"
+   },
+   {
+    "contact_type": "pr_gifting_application",
+    "contact_url": "https://newcollab.co/brand/figlia",
+    "email": null,
+    "source_url": "https://newcollab.co/brand/figlia"
+   }
+  ],
+  "country": "United States",
+  "description": "Figlia is a mission-driven, non-alcoholic aperitivo brand (Fiore, Sole, and Fiore Frizzante cans) founded by Lily Geiger after losing her father to alcoholism, built for non-drinkers and the sober-curious. Based in New York City, it gives a portion of every sale to Partnership to End Addiction and Harlem Grown via its 1% for the Planet membership.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/87191",
+    "summary": "Awin's official Figlia (US) program page states verbatim: 'Program Details: - 10% Default Commission Rate - 30 Day Cookie Period'. No cap wording appears anywhere on the fetched page (no 'no cap', 'unlimited earnings', or earnings-limit FAQ), so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/figlia/",
+    "summary": "LinkClicky lists Figlia at 10% per sale, 90-day cookie, on ShareASale (the network Awin absorbed), corroborating the 10% rate on Awin."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/figlia",
+    "summary": "Beacons Universe (updated November 20, 2026) lists Figlia with only 14 creators all time, 27 mentions, 2 creators in the last 30 days, and just 2 sponsored posts in the last 12 months — evidence of low creator saturation."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://newcollab.co/brand/figlia",
+    "summary": "NewCollab: Figlia takes creator applications through its own PR form (500+ followers preferred, niche fit weighted more), typical PR package ~$50, collaboration type is affiliate commission on sales, ~53% response rate and ~3-day average reply; it notes no public UGC program or published UGC rates were found."
+   }
+  ],
+  "name": "Figlia",
+  "opportunity": {
+   "application_url": "https://newcollab.co/brand/figlia",
+   "source_url": "https://newcollab.co/brand/figlia",
+   "title": "Figlia PR & Influencer Gifting"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 10,
+   "credibility": 5,
+   "niche_fit": 28,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Published 10% per sale on Awin's own program page; modest rate and no cap language found, so cap is unknown.",
+    "contact_access": "Open Awin program page plus a direct PR/gifting application route via NewCollab; no published email found.",
+    "credibility": "Rate verified on the affiliate network's own merchant page and corroborated by a second listing.",
+    "niche_fit": "Non-alcoholic aperitivo/spritz content is a strong UGC demo niche (mocktail recipes, sober-curious, Dry January).",
+    "opportunity_availability": "Awin signup is open now and the PR form accepts creators from ~500 followers.",
+    "ugc_evidence": "Active PR gifting plus real sponsored creator posts tracked on Beacons, though NewCollab found no formal public UGC brief."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/drinkfiglia/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/drinkfiglia/"
+   },
+   {
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/company/figlia/"
+   }
+  ],
+  "website": "https://drinkfiglia.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/bravus/",
+   "commission_cap": "unknown",
+   "commission_rate": 12,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/bravus/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "email",
+    "contact_url": null,
+    "email": "help@bravus.com",
+    "source_url": "https://bravus.com/"
+   },
+   {
+    "contact_type": "affiliate_program",
+    "contact_url": "https://linkclicky.com/affiliate-program/bravus/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/bravus/"
+   }
+  ],
+  "country": "United States",
+  "description": "Bravus Brewing Company is a Newport Beach, California brewery that calls itself the pioneer of non-alcoholic craft beer, brewing vegan-friendly, lower-calorie IPAs, stouts, and lagers that mirror traditional beer styles, plus non-alcoholic wine and spirits. Its site lists its address as 1048 Irvine Ave. #715, Newport Beach, California 92660.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/bravus/",
+    "summary": "LinkClicky lists the Bravus affiliate program at 'Commission: 12% per sale', 30-day cookie, on ShareASale, regions ALL, and directs applicants to the ShareASale application. No cap wording appears on the fetched page (no 'no cap' or 'unlimited earnings' language), so commission_cap is recorded as unknown. Listing last updated March 10, 2024, so terms should be re-confirmed at signup."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.viglink.com/merchants/193465/bravus-affiliate-program",
+    "summary": "Sovrn/VigLink lists the Bravus affiliate program for bravus.com with program approval status 'Open', corroborating that a joinable program exists."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://bravus.com/",
+    "summary": "Bravus's own homepage publishes its contact email help@bravus.com and phone (800) 958-7085, and describes the brand as 'the pioneer of non-alcoholic craft beer'."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/figlia",
+    "summary": "Saturation check gap: Beacons Universe has no Bravus brand page at the slug tried (404) and a follow-up attempt was rate-limited, so no creator count could be fetched; creator_saturation is recorded as unknown rather than guessed."
+   }
+  ],
+  "name": "Bravus Brewing",
+  "opportunity": null,
+  "score": {
+   "compensation": 13,
+   "contact_access": 12,
+   "credibility": 3,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published 12% per sale via the ShareASale listing; slightly above Figlia's 10%, but cap unknown and the listing is dated 2024.",
+    "contact_access": "Published support email help@bravus.com on the brand's own site plus a documented affiliate application route.",
+    "credibility": "Rate rests on a single affiliate-listing source (plus an 'Open' status on Sovrn), not the brand's own program page, so it needs re-confirmation.",
+    "niche_fit": "Non-alcoholic craft beer is a highly demonstrable UGC niche (taste tests, post-workout/sober lifestyle content).",
+    "opportunity_availability": "Program listed as open for applications via ShareASale/Sovrn, but no brand-run creator signup page was found.",
+    "ugc_evidence": "Little creator-program evidence found: no Beacons page, no PR/gifting program, and no published UGC activity."
+   },
+   "ugc_evidence": 8
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/bravusbrewco/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/bravusbrewco"
+   },
+   {
+    "platform": "twitter",
+    "url": "https://twitter.com/bravusbrewco"
+   },
+   {
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/company/bravusbrewco/"
+   }
+  ],
+  "website": "https://www.bravus.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.shopper.com/partnerships/wearerasa-com-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "low",
+   "network": "Shopper.com",
+   "source_url": "https://www.shopper.com/partnerships/wearerasa-com-affiliate-program"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "email",
+    "contact_url": null,
+    "email": "hey@wearerasa.com",
+    "source_url": "https://wearerasa.com/collections/sale/products/magnificent-mushrooms-1oz?utm_source=facebook&utm_medium=paidsocial&utm_campaign=6552190853793&utm_content=6648168180193&utm_term=6648169292393&nbt=nb%3Afb%3Aig%3A6552190853793%3A6648168180193%3A6648169292393&nb_placement=Instagram_Stories&utm_id=6552190853793&campaign_id=6552190853793&ad_id=6648169292393"
+   },
+   {
+    "contact_type": "email",
+    "contact_url": null,
+    "email": "hello@wearerasa.com",
+    "source_url": "https://WeAreRasa.Com/pages/privacy-policy"
+   },
+   {
+    "contact_type": "affiliate_program",
+    "contact_url": "https://www.shopper.com/partnerships/wearerasa-com-affiliate-program",
+    "email": null,
+    "source_url": "https://www.shopper.com/partnerships/wearerasa-com-affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Rasa is a Boulder, United States adaptogenic coffee alternative formulated by a clinical herbalist, positioned around calm energy, deep focus, nervous-system balance, and restorative sleep. Founded in 2018 and run as a Public Benefit Corporation, it reports 20,000+ five-star ratings and over 25 million cups served.",
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.shopper.com/partnerships/wearerasa-com-affiliate-program",
+    "summary": "Shopper.com's Rasa partnership page states 'Rasa Affiliate Program - Get up to 5-10% payout per sale' and 'The Rasa affiliate program offers a payout rate of 5-10%', with instant approval offered through Shopper.com; the recorded rate of 10 is the top of that published range. No cap wording appears on the fetched page (no 'no cap' or 'unlimited earnings' language), so commission_cap is recorded as unknown. The listing copy is partly templated, so the rate should be re-confirmed at signup."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://universe.beacons.ai/brands/rasa",
+    "summary": "Beacons Universe lists Rasa with only 33 creators all time (59 mentions) and states 'No creator posted about Rasa in the 30 days to November 20, 2026' — evidence of low creator saturation."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://wearerasa.com/",
+    "summary": "Rasa's own homepage describes its adaptogen blends as 'Clinical Herbalist Formulated', cites '20,000+ Five Star Ratings' and 'Over 25 Million Cups Served', and confirms the brand has operated since 2018 as a Public Benefit Corporation."
+   }
+  ],
+  "name": "Rasa",
+  "opportunity": null,
+  "score": {
+   "compensation": 9,
+   "contact_access": 11,
+   "credibility": 3,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published payout is a modest 5-10% range (10% recorded as the top of the range); cap unknown.",
+    "contact_access": "Two published brand emails (hey@wearerasa.com, hello@wearerasa.com) plus an instant-approval affiliate route via Shopper.com.",
+    "credibility": "Brand facts are verified on its own site, but the commission listing is a partly templated Shopper.com page, so terms need re-confirmation.",
+    "niche_fit": "Adaptogen morning-routine and coffee-swap content is a strong wellness UGC demo niche.",
+    "opportunity_availability": "Shopper.com advertises instant approval for the Rasa affiliate program, so signup appears open now.",
+    "ugc_evidence": "33 creators have posted about Rasa on Beacons Universe, showing real creator activity at small scale, with none in the last 30 days."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/wearerasa/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/wearerasa"
+   },
+   {
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/company/wearerasa"
+   }
+  ],
+  "website": "https://wearerasa.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "Superfiliate",
+   "source_url": "https://justaddbuoy.com/policies/terms-of-service"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "email",
+    "contact_url": null,
+    "email": "hello@justaddbuoy.com",
+    "source_url": "https://justaddbuoy.com/policies/terms-of-service"
+   },
+   {
+    "contact_type": "affiliate_program_terms",
+    "contact_url": "https://justaddbuoy.com/policies/terms-of-service",
+    "email": null,
+    "source_url": "https://justaddbuoy.com/policies/terms-of-service"
+   }
+  ],
+  "country": "United States",
+  "description": "Buoy makes unflavored liquid electrolyte drops and sea salt with ocean electrolytes and 87+ trace minerals, with no sugar, sweeteners or flavors, designed to be added to any drink. Its site says the formulas are clinically proven to hydrate 64% better than water alone and offers a Chronic Illness Support Program with 35% off for life for people living with chronic illness.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://justaddbuoy.com/policies/terms-of-service",
+    "summary": "Official Buoy Affiliate Program Terms (last updated September 21, 2026): 'The self-serve Affiliate Program... is the commission-based program administered through our affiliate platform, Superfiliate' and 'Your Commission rate is displayed in your affiliate dashboard' — no rate and no cap/unlimited wording is published in the terms; commissions are earned on first orders only. Cap verdict: no fetched page says 'no cap', 'unlimited earnings' or 'no limit on how much you can earn', so commission_cap is unknown, not uncapped."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/buoy-hydration/",
+    "summary": "Lasso listing: Buoy Hydration commission rate 'Up to 22.5%', cookie duration 14 days, affiliate network Lasso, payout threshold $10, approval requirements none."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.socialsnowball.io/post/buoy-affiliate-marketing-case-study",
+    "summary": "Social Snowball case study on Buoy's affiliate operations: 'Entry-level affiliates start at 20%. Top performers can earn up to 35%. Movement through tiers is based on real sales milestones' and affiliates get a free welcome gift and early access to launches. Base rate used here is 20%."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "social",
+    "source_url": "https://www.instagram.com/reel/DW-CqphBH2x/",
+    "summary": "Creator Instagram post describing a first Buoy affiliate partnership, a personalized link and a 20% audience discount, showing live creator/affiliate UGC for the brand. No Beacons Universe brand creator count for Buoy Hydration was found in fetched pages, so creator_saturation is unknown, not low."
+   }
+  ],
+  "name": "Buoy",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://justaddbuoy.com/policies/terms-of-service",
+   "title": "Buoy Affiliate Program (self-serve, via Superfiliate)"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 12,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 20% entry rate rising to 35% for top performers per Social Snowball, and up to 22.5% per Lasso; cap is unknown because no fetched page states uncapped wording.",
+    "contact_access": "Published general email hello@justaddbuoy.com on the official terms/privacy pages plus a full official affiliate terms page; no dedicated affiliate email or public signup URL was fetched.",
+    "credibility": "Detailed official affiliate terms dated September 2026, clinically-proven hydration claims and a medical board / 900+ clinician recommendations cited on its own product pages.",
+    "niche_fit": "Squeeze-into-any-drink hydration drops are an easy UGC demo, with strong chronic-illness, POTS and everyday-wellness angles for women creators.",
+    "opportunity_availability": "Self-serve affiliate program is described as live in the official terms, but no direct public application URL was returned by search, so signup is via the Superfiliate platform after application.",
+    "ugc_evidence": "Documented affiliate case study ($400K in 12 months via streamlined affiliate operations), tiered creator commissions, gifting and creator affiliate posts on Instagram."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/justaddbuoy"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@justaddbuoy"
+   }
+  ],
+  "website": "https://justaddbuoy.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://supportcrew.tailwindnutrition.com/support/solutions/articles/24000083364-tailwind-ambassador-trailblazer-program",
+   "commission_cap": "unknown",
+   "commission_rate": 2,
+   "creator_saturation": "unknown",
+   "network": "AvantLink",
+   "source_url": "https://yazing.com/affiliate-programs/tailwind-nutrition-affiliate-program"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "email",
+    "contact_url": null,
+    "email": "supportcrew@tailwindnutrition.com",
+    "source_url": "https://dealrated.com/store/tailwind-nutrition"
+   },
+   {
+    "contact_type": "contact_page",
+    "contact_url": "https://supportcrew.tailwindnutrition.com/support/solutions/articles/24000083364-tailwind-ambassador-trailblazer-program",
+    "email": null,
+    "source_url": "https://supportcrew.tailwindnutrition.com/support/solutions/articles/24000083364-tailwind-ambassador-trailblazer-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Tailwind Nutrition, owned, operated and manufactured in Durango, Colorado since 2012, makes all-natural endurance sports nutrition drink mixes that are free of GMOs, dairy, soy and gluten and are designed to be easy to digest. Its lines include Endurance Fuel, Recovery Mix and Rapid Hydration for fueling and recovery during and after exercise.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.avantlink.com/avantlink-weekly-roundup-new-merchants/",
+    "summary": "AvantLink new-merchant roundup announcing Tailwind Nutrition joining its affiliate network: 'Since 2012, Tailwind Nutrition has been manufacturing all-natural sports nutrition products... JOIN THE AFFILIATE PROGRAM TODAY!' No commission rate or cap wording is published in the fetched text, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://yazing.com/affiliate-programs/tailwind-nutrition-affiliate-program",
+    "summary": "Yazing's Tailwind Nutrition-specific listing (not the Tailwind Pinterest app, whose separate 15% listings were excluded): 'Tailwind Nutrition Commission Rate Details: Yazing members earn 2% of Sales.' This is the only nutrition-brand-specific published rate found."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://supportcrew.tailwindnutrition.com/support/solutions/articles/24000083364-tailwind-ambassador-trailblazer-program",
+    "summary": "Official Tailwind Nutrition support article for the Tailwind Ambassador (Trailblazer) Program: 'We are so stoked that you are interested in getting involved with us! Send us a message via our contact page.' The brand's Instagram also promoted 'AMBASSADOR APPLICATIONS ARE OPEN!' for the Trailblazer program in January 2025. No creator-count evidence was fetched, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.collabs.io/mag/tailwind-nutrition/",
+    "summary": "Founder interview profile: Tailwind tests and manufactures its products in Durango, CO, ships via its website, Amazon and run/bike/outdoor stores nationwide and to 37 countries, with Endurance Fuel, Recovery Mix and hydration lines."
+   }
+  ],
+  "name": "Tailwind Nutrition",
+  "opportunity": {
+   "application_url": "https://supportcrew.tailwindnutrition.com/support/solutions/articles/24000083364-tailwind-ambassador-trailblazer-program",
+   "source_url": "https://supportcrew.tailwindnutrition.com/support/solutions/articles/24000083364-tailwind-ambassador-trailblazer-program",
+   "title": "Tailwind Ambassador (Trailblazer) Program"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 6,
+   "reasons": {
+    "compensation": "Only nutrition-specific published rate found is 2% via Yazing; the official Trailblazer/AvantLink pages publish no rate and no cap wording, so cap is unknown.",
+    "contact_access": "Published support email and an official support/contact route for the ambassador program; no dedicated affiliate email was fetched.",
+    "credibility": "Established since 2012, manufactures in Durango, CO, sold in run/bike/outdoor stores nationwide and 37 countries, with a named athlete team.",
+    "niche_fit": "Endurance fuel and hydration mixes demo well in training/race-day UGC, but the audience is narrower endurance sports rather than broad women's wellness.",
+    "opportunity_availability": "AvantLink program and Trailblazer ambassador route exist, but the official ambassador article is dated January 2023 and directs applicants to a contact page rather than an open signup form.",
+    "ugc_evidence": "Trailblazer ambassador recruitment posts, athlete-team content and creator brand mentions on Beacons Universe creator pages; no sponsored-post or creator counts for the brand itself were fetched."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/tailwindnutrition/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/tailwindnutrition/"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/user/tailwindnutrition"
+   }
+  ],
+  "website": "https://www.tailwindnutrition.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://fullwellfertility.com/pages/become-an-ambassador",
+   "commission_cap": "unknown",
+   "commission_rate": 25,
+   "creator_saturation": "unknown",
+   "network": "Katalys",
+   "source_url": "https://www.glp1drugs.org/l/fullwell-fertility-review"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "email",
+    "contact_url": null,
+    "email": "hello@fullwellfertility.com",
+    "source_url": "https://fullwellfertility.com/pages/become-an-ambassador"
+   },
+   {
+    "contact_type": "ambassador_application",
+    "contact_url": "https://fullwellfertility.com/pages/become-an-ambassador",
+    "email": null,
+    "source_url": "https://fullwellfertility.com/pages/become-an-ambassador"
+   }
+  ],
+  "country": "United States",
+  "description": "FullWell offers dietitian-formulated supplements designed to support fertility, pregnancy and overall wellness, including prenatals and fertility formulas for women and men. It was founded by registered dietitian and fertility expert Ayla Barmmer, and a 2026 review notes it third-party tests every lot for contaminants and publishes the results.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://fullwellfertility.com/pages/become-an-ambassador",
+    "summary": "Official FullWell Ambassador Program page: ambassadors receive 'personalized affiliate links to earn a commission' and 'Earn a generous commission on every first-time order placed through your unique ambassador link. Plus, earn elevated commissions during our exclusive promotional periods.' Application is via an 'Apply Here' link to Roster (apply.getroster.com). No percentage and no cap/unlimited wording is published on the page, and questions go to hello@fullwellfertility.com; the program is framed for health practitioners."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.glp1drugs.org/l/fullwell-fertility-review",
+    "summary": "Published review with affiliate disclosure 'we earn 25% on orders placed through this page' and source line: 'Katalys offer listing #1461, retrieved 11 August 2026 — 25.00% commission, United States targeting, sub-network Impact.' The 'Un' in the search snippet was 'United States', not uncapped — no cap wording was found, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/fullwell/",
+    "summary": "Lasso listing reports a lower figure, 'Up to 15.0%' commission with a 14-day cookie, for FullWell's dietitian-formulated fertility, pregnancy and wellness supplements — noted here as a conflicting published rate versus the 25% Katalys rate used in the affiliate field."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.thegoodtrade.com/features/organic-prenatal-vitamins/",
+    "summary": "The Good Trade prenatal roundup: FullWell is American made, third-party tested, woman owned, developed by a registered dietitian and fertility expert, $50 for a 30-day supply. No creator-count/saturation evidence was fetched, so creator_saturation is unknown."
+   }
+  ],
+  "name": "FullWell",
+  "opportunity": {
+   "application_url": "https://fullwellfertility.com/pages/become-an-ambassador",
+   "source_url": "https://fullwellfertility.com/pages/become-an-ambassador",
+   "title": "FullWell Ambassador Program"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 13,
+   "credibility": 5,
+   "niche_fit": 28,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "25% reported via the Katalys listing in a published review, a high rate, but Lasso reports up to 15% and no fetched page states uncapped wording, so cap is unknown.",
+    "contact_access": "Published email hello@fullwellfertility.com on the official ambassador page plus a direct ambassador application page.",
+    "credibility": "Clinician/RDN-founded, per-lot third-party contaminant testing with published results and complete supplement facts, per the fetched 2026 review.",
+    "niche_fit": "Fertility, preconception and pregnancy supplements are a strong, high-intent UGC demo niche for women creators, with clear routine and journey content angles.",
+    "opportunity_availability": "Ambassador application is open via the official page/Roster, but the program is explicitly framed for health practitioners, which narrows general UGC creator access.",
+    "ugc_evidence": "Active practitioner ambassador community, a practitioner directory and regular educational Instagram content; no open UGC brief or creator counts were fetched."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/fullwellfertility/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/fullwellfertility"
+   }
+  ],
+  "website": "https://fullwellfertility.com/"
+ }
+]

@@ -1,0 +1,821 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://www.sparkpaws.com/pages/brand-ambassador-affiliate-sign-up",
+      "commission_cap": "uncapped",
+      "commission_rate": 6,
+      "creator_saturation": "unknown",
+      "network": null,
+      "source_url": "https://www.sparkpaws.com/pages/creator-club"
+    },
+    "category_slug": "pets",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.sparkpaws.com/pages/brand-ambassador-affiliate-sign-up",
+        "email": "ambassador@sparkpaws.com",
+        "source_url": "https://www.sparkpaws.com/pages/dog-model-ambassador-terms-conditions"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.sparkpaws.com/pages/creator-club",
+        "email": null,
+        "source_url": "https://www.sparkpaws.com/pages/creator-club"
+      }
+    ],
+    "country": "Canada",
+    "description": "Spark Paws is a pet supplies and retail apparel company based in Richmond Hill, Canada. Beacons Universe summarises its offer as: 'We make premium pet products both the human and dog will love. Discover quality dog apparel, collars, chains, shoes, owner matching set, accessories and more.' Its Creator Club pays creators a share of Meta ad spend running their videos, alongside TikTok Shop and Social Snowball affiliate sales.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.sparkpaws.com/pages/creator-club",
+        "summary": "Cap language quoted from the fetched Creator Club page: 'What you earn - 6% of what we spend on Meta ads (Facebook and Instagram) running your videos. - No cap. It keeps paying for as long as the ads run.' This is explicit uncapped wording, so commission_cap is marked uncapped. Note the 6% is a share of ad spend, not a per-sale rate; the page also says TikTok Shop sales earn commission and Social Snowball affiliate sales are paid as usual."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/spark-paws",
+        "summary": "Saturation evidence is conflicting, so creator_saturation is marked unknown, not low. The fetched Creator Club page says 'Invitation only', 'You're one of a small group of creators we've invited' and 'The Club is a small, exclusive group of creators we trust' - which points to a small program. However Beacons Universe (fetched) lists 136 creators who have posted about Spark Paws all time, 339 public posts in the last 12 months and 32 sponsored posts in the last 12 months, which is not low overall brand saturation."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.sparkpaws.com/pages/creator-club",
+        "summary": "Creator Club is invitation-only and pays monthly by PayPal in USD within 10 days after month end, balances under $25 roll over. A separate public Brand Ambassador Affiliate Sign Up page exists on sparkpaws.com, giving a joinable route today, and the Dog Model Program terms (ambassador@sparkpaws.com) describe an application-based model program receiving product and commissions via a unique affiliate link."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/spark-paws",
+        "summary": "Beacons Universe (fetched) describes Spark Paws as a pet supplies and retail apparel company based in Richmond Hill, Canada, 1-50 employees, with premium dog apparel, collars, chains, shoes and owner matching sets. The Creator Club page instructs creators to tag @sparkpawsofficial and use #SparkPawsCreator; no verified social profile URL was fetched, so socials are left empty rather than constructed."
+      }
+    ],
+    "name": "Spark Paws",
+    "opportunity": {
+      "application_url": "https://www.sparkpaws.com/pages/brand-ambassador-affiliate-sign-up",
+      "source_url": "https://www.sparkpaws.com/pages/creator-club",
+      "title": "Spark Paws Brand Ambassador Affiliate Sign Up / Creator Club (6% of Meta ad spend, no cap)"
+    },
+    "score": {
+      "compensation": 20,
+      "contact_access": 12,
+      "credibility": 5,
+      "niche_fit": 28,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "Only candidate in the pool with explicit fetched uncapped wording ('No cap') on its own program page; 6% of Meta ad spend plus TikTok Shop / Social Snowball sales commission.",
+        "contact_access": "Public ambassador affiliate sign-up page plus a published ambassador email in the Dog Model terms; Creator Club itself is invitation-only, which limits direct access.",
+        "credibility": "All key terms come from Spark Paws' own fetched Creator Club page, cross-checked against Beacons Universe.",
+        "niche_fit": "Pure pets brand - premium dog apparel, shoes, collars and matching owner sets, ideal for dog UGC.",
+        "opportunity_availability": "Ambassador affiliate sign-up is public and joinable today; the uncapped Creator Club is invitation-only, so availability is partial.",
+        "ugc_evidence": "Strong UGC mechanics (creator videos run as Meta ads, 90-day post requirement), but saturation is marked unknown: Beacons shows 136 creators and 32 sponsored posts in 12 months despite the small invited Club."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.sparkpaws.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.tuftandpaw.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "commission_rate": 12,
+      "creator_saturation": "low",
+      "network": "ShareASale",
+      "source_url": "https://www.tuftandpaw.com/pages/affiliates"
+    },
+    "category_slug": "pets",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.tuftandpaw.com/pages/affiliates",
+        "email": "affiliate@tuftandpaw.com",
+        "source_url": "https://www.tuftandpaw.com/pages/affiliates"
+      }
+    ],
+    "country": "Canada",
+    "description": "Tuft + Paw (branded Tuft & Paw on its own site) is an animals and pet supplies brand based in Vancouver, Canada, and a fast-growing retailer of modern cat furniture and accessories. Its own affiliates page says its mission is to provide beautiful, well-made furniture for cats while serving the homeless and foster cat community and advocating for no-kill shelters.",
+    "evidence": [
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.tuftandpaw.com/pages/affiliates",
+        "summary": "No cap language was found on the fetched official affiliates page. The page states '12% commission on all sales (best payout in our industry)', '60 cookie days' and 'Free to join', with no wording such as 'no cap', 'unlimited earnings' or 'no limit on how much you can earn', so commission_cap is marked unknown, not uncapped."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/tuft-paw",
+        "summary": "Low saturation evidence from Beacons Universe (fetched): Tuft and Paw has posts from only 80 creators all time, 69 public posts in the last 12 months and only 3 sponsored posts in the last 12 months (most recently Roman, Oct 30, 2026). That is low relative to the other candidates in this pool (e.g. Earth Rated 277 creators / 31 sponsored, Tractive 162 / 22), so creator_saturation is marked low."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.tuftandpaw.com/pages/affiliates",
+        "summary": "Official affiliates page (fetched): 12% commission on all sales, 60 cookie days, free to join, real-time reporting. 'We have partnered with ShareSale.com. Your site will be reviewed for approval to join ShareASale and the Tuft and Paw affiliate program.' Contact email published on the page: affiliate@tuftandpaw.com. A separate Awin listing found in search also mentions a 12% program, so the current network should be confirmed at signup."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/tuft-paw",
+        "summary": "Beacons Universe (fetched) lists Tuft and Paw as an animals & pet supplies brand based in Vancouver, Canada, 1-50 employees, official website tuftandpaw.com. No verified social profile URL was fetched, so socials are left empty rather than constructed."
+      }
+    ],
+    "name": "Tuft + Paw",
+    "opportunity": {
+      "application_url": "https://www.tuftandpaw.com/pages/affiliates",
+      "source_url": "https://www.tuftandpaw.com/pages/affiliates",
+      "title": "Tuft + Paw Affiliate Program - 12% on all sales via ShareASale"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 13,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Solid published 12% on all sales with a 60-day cookie from the brand's own page, but no uncapped language was found, so cap is unknown and this scores below a verified uncapped program.",
+        "contact_access": "Official affiliates page with a direct signup link and a published affiliate email (affiliate@tuftandpaw.com).",
+        "credibility": "Rate, cookie and network all from the brand's own fetched affiliates page, corroborated by Beacons and network listings.",
+        "niche_fit": "Pure pets, cat-specific - modern cat furniture and litter, a clear niche for cat-owner UGC; narrower than dog brands because it is cat-only.",
+        "opportunity_availability": "Free to join today via ShareASale signup linked from the official page, subject to site review.",
+        "ugc_evidence": "Low saturation verified on Beacons: 80 creators all time and only 3 sponsored posts in the last 12 months."
+      },
+      "ugc_evidence": 17
+    },
+    "socials": [],
+    "website": "https://www.tuftandpaw.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://getlasso.co/affiliate/satechi/",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "low",
+      "network": "ShareASale",
+      "source_url": "https://getlasso.co/affiliate/satechi/"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://getlasso.co/affiliate/satechi/",
+        "email": null,
+        "source_url": "https://getlasso.co/affiliate/satechi/"
+      }
+    ],
+    "country": "United States",
+    "description": "Satechi is a consumer electronics accessories brand founded in San Diego in 2005 by two college friends, Brock and Alan. It makes eco-premium tech accessories including wireless chargers, USB-C hubs, docking stations, keyboards and cables, designed primarily for Apple and PC setups.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/satechi/",
+        "summary": "Lasso listing fetched in full: Satechi affiliate program commission rate 10% per sale, program category Tech, and its 'Join the Satechi affiliate program today' link points to www.shareasale.com, indicating ShareASale as the join route."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/satechi/",
+        "summary": "No cap language was found on the fetched program listing: no wording such as 'no cap', 'unlimited earnings', 'no limit on how much you can earn', and no FAQ answering an earnings-limit question. Commission cap is therefore recorded as unknown, not uncapped."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://collabfeed.io/brands/satechi",
+        "summary": "Saturation evidence for LOW: CollabFeed page fetched in full states 'Satechi runs creator campaigns on Instagram (1 posts)', 'CollabFeed has tracked 1 paid partnership post for Satechi', and benchmarks are 'Based on 1 tracked partnership' (data updated Apr 2026). SponsorRadar search result corroborates small scale: '5 sponsored videos from Satechi across 5 YouTube creators'."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://satechi.com/pages/about-us",
+        "summary": "Official About Us page fetched in full: 'San Diego, 2005. Two college friends, Brock and Alan, had a simple idea: create tech accessories that work great, look great, and improve people's lives' and 'We create eco-premium tech accessories that make everyday setups better'."
+      }
+    ],
+    "name": "Satechi",
+    "opportunity": {
+      "application_url": "https://getlasso.co/affiliate/satechi/",
+      "source_url": "https://getlasso.co/affiliate/satechi/",
+      "title": "Satechi Affiliate Program via ShareASale - 10% per sale"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 28,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Published 10% per sale on Lasso listing, but no uncapped language was found, so cap is unknown and compensation is scored below a verified uncapped program.",
+        "contact_access": "Join route is public via the Lasso listing's ShareASale join link, but CollabFeed states 'We do not have a verified partnership email for Satechi yet', so no direct creator contact was verified.",
+        "credibility": "Established brand founded in San Diego in 2005 per its own About Us page, with a live affiliate listing and tracked paid partnerships.",
+        "niche_fit": "Core technology accessories and charging brand: chargers, hubs, docking stations and cables for Apple/PC setups, exactly the batch category.",
+        "opportunity_availability": "Affiliate program is joinable today through the public ShareASale join link on the fetched listing.",
+        "ugc_evidence": "Low saturation is evidenced, not assumed: CollabFeed tracked only 1 paid partnership post and SponsorRadar only 5 YouTube creators / 5 deals."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/satechi/"
+      }
+    ],
+    "website": "https://satechi.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.nativeunion.com/en-hk/pages/collab",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "low",
+      "network": null,
+      "source_url": "https://www.nativeunion.com/en-hk/pages/collab"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.nativeunion.com/en-hk/pages/collab",
+        "email": null,
+        "source_url": "https://www.nativeunion.com/en-hk/pages/collab"
+      }
+    ],
+    "country": "Hong Kong",
+    "description": "Native Union is a design-led tech accessories brand founded in 2009 by Igor Duc and John Brunner, who met in Hong Kong. It creates premium charging cables, wireless chargers, cases and carry accessories combining thoughtful design, premium materials and sustainability, designed between Paris and Hong Kong.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.nativeunion.com/en-hk/pages/collab",
+        "summary": "Official Creator Affiliate Program page fetched in full: 'We're inviting creators who share our values to join our affiliate program' and 'You'll receive: A personal promo code to offer your audience 15% off; 10% commission on every sale through your link or code; A welcome gift of your choice after your first sale'. The page also inconsistently says 'On top of your 15% commission' in its gifts section; the explicit bullet rate of 10% is recorded. Creators on Instagram, TikTok, YouTube or blogs in tech, lifestyle, fashion, travel or design are invited."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.nativeunion.com/en-hk/pages/collab",
+        "summary": "No cap language was found on the fetched official program page: no wording such as 'no cap', 'unlimited earnings', 'no limit on how much you can earn', and no FAQ answering an earnings-limit question. The page says only 'the more you share, the more you earn', which is not an explicit uncapped statement, so commission cap is recorded as unknown, not uncapped."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "creator_report",
+        "source_url": "https://usesnippet.app/pr-emails/native-union",
+        "summary": "Saturation evidence for LOW: Snippet's Native Union page, checked November 14, 2026, states 'Native Union lists no creator route' and 'Native Union does not list an influencer, ambassador or affiliate program on the pages we checked on November 14, 2026', indicating the creator program is new/small. The brand's own current page is actively recruiting ('We're inviting creators who share our values to join'), and no CollabFeed or SponsorRadar tracked campaign page for Native Union was found in searches."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://brandwiki.lazada.com.ph/native-union/",
+        "summary": "Brand profile: Native Union is a design-focused consumer electronics accessories brand founded in 2009 by John Brunner and Igor Duc in Hong Kong, known for charging cables, wireless chargers, phone cases and device stands, with roots spanning Hong Kong, Paris and Los Angeles. Its own story page describes a Hong Kong-born brand with Parisian roots, and Village lists '@nativeunion' and 'nativeunion.com'."
+      }
+    ],
+    "name": "Native Union",
+    "opportunity": {
+      "application_url": "https://www.nativeunion.com/en-hk/pages/collab",
+      "source_url": "https://www.nativeunion.com/en-hk/pages/collab",
+      "title": "Native Union Creator Affiliate Program - 10% commission"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 12,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 10,
+      "reasons": {
+        "compensation": "Official page publishes 10% commission on every sale plus milestone gifts, but no uncapped language was found, so cap is unknown and scored below a verified uncapped program. Note the page's inconsistent '15% commission' mention in the gifts section.",
+        "contact_access": "Direct official creator application page on the brand's own site, no intermediary or paywalled contact needed; no email is published on the fetched page, so email is null.",
+        "credibility": "Established design-led brand founded in 2009, certified B Corp positioning in its own materials, with a live official creator program page fetched in full.",
+        "niche_fit": "Premium technology accessories and charging (cables, wireless chargers, cases) with explicit creator niches including tech, lifestyle and travel, matching the batch category.",
+        "opportunity_availability": "Official Creator Affiliate Program page is live and inviting applications today.",
+        "ugc_evidence": "Low saturation is based on fetched evidence of a new, actively recruiting program: as of a November 14, 2026 check no creator route was listed at all, and no tracked CollabFeed/SponsorRadar campaign volume was found. Scored below Satechi because there is no tracked paid-post count to cite."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/nativeunion/"
+      }
+    ],
+    "website": "https://www.nativeunion.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://getlasso.co/affiliate/baloo-living/",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "low",
+      "network": "Impact",
+      "source_url": "https://www.starterstory.com/stories/how-we-doubled-revenue-last-year-through-affiliate-marketing"
+    },
+    "category_slug": "home",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://getlasso.co/affiliate/baloo-living/",
+        "email": null,
+        "source_url": "https://getlasso.co/affiliate/baloo-living/"
+      }
+    ],
+    "country": "United States",
+    "description": "Baloo Living is an American wellness and home goods brand founded in 2018 that makes quilted weighted blankets, bedding and sleep accessories from natural, chemical-free materials, notably 100% cotton with lead-free glass microbeads. Its own About page says its weighted blankets are designed to support deeper rest, reduce stress and help people reconnect with their natural rhythms.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/baloo-living/",
+        "summary": "LinkClicky listing: Baloo Living affiliate program via Impact, 6% per sale in that listing; other published listings differ (Lasso 10% per sale, Starter Story founder interview starting at 15%), so rates vary by channel/entry point."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "creator_report",
+        "source_url": "https://www.starterstory.com/stories/how-we-doubled-revenue-last-year-through-affiliate-marketing",
+        "summary": "Starter Story follow-up interview with Baloo Living: 'we pay a starting commission of 15% on sales referred by those affiliates' and affiliate is one of its strongest sales channels, built mainly with media partners. No cap, no-cap, unlimited-earnings or earnings-limit language was found on any fetched Baloo program/listing page, so commission_cap is unknown, not uncapped."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/baloo-living",
+        "summary": "Saturation evidence: Beacons Universe lists Baloo Living with only 19 creators who have posted about it all time, 21 mentions all time, and states 'No creator posted about Baloo Living in the 30 days to November 20, 2026' (latest post found Nov 26, 2025). This is low creator saturation."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "http://balooliving.com/pages/about-us",
+        "summary": "Official About page: Baloo was founded by Elizabeth Grojean after time in Bali; 'We create products that help you reconnect with your natural rhythms... our weighted blankets are designed to support deeper rest, reduce stress.' Beacons lists the brand as based in San Antonio, United States."
+      }
+    ],
+    "name": "Baloo Living",
+    "opportunity": {
+      "application_url": "https://getlasso.co/affiliate/baloo-living/",
+      "source_url": "https://getlasso.co/affiliate/baloo-living/",
+      "title": "Baloo Living Affiliate Program"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 10,
+      "credibility": 4,
+      "niche_fit": 28,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Highest published rate in this slice: starting 15% per Starter Story founder interview (other listings 6-10% by channel), but no explicit uncapped language found, so cap is unknown and compensation is not scored as uncapped.",
+        "contact_access": "Joinable via published affiliate listings/network (Impact via LinkClicky, Lasso listing); no brand-owned affiliate application page was found in site search, so contact access is weaker than brands with their own page. No creator email was published on fetched pages, so email is null.",
+        "credibility": "Multiple independent listings plus a founder interview in Starter Story and a Beacons Universe brand page agree the program and brand exist; rate disagreement across channels lowers credibility slightly.",
+        "niche_fit": "Core HOME fit: weighted blankets, bedding and sleep accessories for the home, natural/cotton positioning.",
+        "opportunity_availability": "Affiliate program is listed as active/joinable today via network listings; no follower minimum stated on the Lasso listing.",
+        "ugc_evidence": "Strongest low-saturation evidence in the pool: Beacons Universe 19 creators all time, 0 creators in the last 30 days."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/balooliving/"
+      }
+    ],
+    "website": "https://balooliving.com/"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.ekster.com/en-ca/pages/ambassadors",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "low",
+      "network": "Rakuten Advertising",
+      "source_url": "https://www.ekster.com/en-int/pages/affiliate-program"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.ekster.com/en-ca/pages/ambassadors",
+        "email": "collaborations@ekster.com",
+        "source_url": "https://support.ekster.com/en-US/how-can-i-collaborate-with-your-brand-492917"
+      }
+    ],
+    "country": "Netherlands",
+    "description": "Ekster is a Dutch direct-to-consumer company, founded in 2016 and based in Amsterdam, that designs smart wallets, cardholders and everyday carry accessories with quick card access, RFID protection and optional tracking. It is a certified B Corporation and describes its products as better gear for life on the go. Its range now extends to travel bags and vacuum packing kits alongside the smart wallet line.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.ekster.com/en-ca/pages/ambassadors",
+        "summary": "Fetched official Ekster Ambassadors page states: 'Become an ambassador — Earn 10% commission on every sale made through your referral link.'"
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.ekster.com/en-int/pages/affiliate-program",
+        "summary": "Fetched official Ekster Affiliate Program page splits two routes: Ambassadors (social media / word of mouth; payment: 'Commissions & free products') and Affiliates for media publications, apps and shopping platforms (payment: commission on sales), with the affiliate route linking to Rakuten Marketing (auth.rakutenmarketing.com)."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.ekster.com/en-int/pages/affiliate-program",
+        "summary": "No cap language was found on the fetched official affiliate/ambassador pages: no 'no cap', 'unlimited earnings', 'no limit on how much you can earn' or FAQ answering an earnings-limit question appears. A third-party listing (GetLasso) separately reports 8% per sale, but no uncapped wording was found there either. Commission cap is therefore recorded as unknown, not uncapped."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "creator_report",
+        "source_url": "https://www.babbl-labs.com/who-sponsors/ekster",
+        "summary": "Saturation evidence: Babbl Labs' sponsorship tracking reports Ekster 'has sponsored at least 5 YouTube creators across 5 videos in the last 12 months' (most recent Jun 2026, ~483K combined views). Five creators / five videos in 12 months is a small tracked footprint, supporting low saturation."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://support.ekster.com/en-US/how-can-i-collaborate-with-your-brand-492917",
+        "summary": "Fetched official Ekster support page 'How can I collaborate with your brand?' invites influencers to email collaborations@ekster.com with profile details, audience demographics and media kit, stating the brand 'continuously seek[s] vibrant and passionate influencers'."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://www.ekster.com/en-int/pages/about",
+        "summary": "Official Ekster story page: founders Olivier and Rick, two Dutch students, started Ekster after a Kickstarter campaign; 'We make smart wallets, bags and accessories that save you time'; Ekster is a B Corporation. Shopper's affiliate listing records the programme country as Netherlands."
+      }
+    ],
+    "name": "Ekster",
+    "opportunity": {
+      "application_url": "https://www.ekster.com/en-ca/pages/ambassadors",
+      "source_url": "https://www.ekster.com/en-ca/pages/ambassadors",
+      "title": "Ekster Ambassador Program — 10% commission on every sale via referral link"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 14,
+      "credibility": 5,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "10% ambassador commission on the brand's own page beats the 5% smart-home rates in this batch, but commission cap is unknown (no uncapped language found), so not top-scored.",
+        "contact_access": "Best in batch: a published collaborations@ekster.com inbox for influencer pitches plus a public ambassador sign-up page.",
+        "credibility": "Rate, routes and contact all come from Ekster's own fetched pages; saturation count from a named sponsorship tracker.",
+        "niche_fit": "Smart wallets with tracker cards and Find My-style carry tech fit personal tech well; less purely smart-home than Aqara, hence slightly lower.",
+        "opportunity_availability": "Two joinable routes today: Ambassador programme and Rakuten affiliate programme, both linked from the official site.",
+        "ugc_evidence": "Low saturation is evidenced (5 YouTube creators / 5 videos in 12 months per Babbl), with additional individual UGC posts observed, but tracked volume is small."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/ekster"
+      }
+    ],
+    "website": "https://www.ekster.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.wilderdog.com/pages/wilderdog-affiliate-program?srsltid=AfmBOopLCANaF1OUNfpzskqR6JvrAbflAZLpcDHftDEFR5R2SmoezxkP",
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "low",
+      "network": "AvantLink",
+      "source_url": "https://www.wilderdog.com/pages/wilderdog-affiliate-program?srsltid=AfmBOopLCANaF1OUNfpzskqR6JvrAbflAZLpcDHftDEFR5R2SmoezxkP"
+    },
+    "category_slug": "pets",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.wilderdog.com/pages/wilderdog-affiliate-program?srsltid=AfmBOopLCANaF1OUNfpzskqR6JvrAbflAZLpcDHftDEFR5R2SmoezxkP",
+        "email": null,
+        "source_url": "https://www.wilderdog.com/pages/wilderdog-affiliate-program?srsltid=AfmBOopLCANaF1OUNfpzskqR6JvrAbflAZLpcDHftDEFR5R2SmoezxkP"
+      }
+    ],
+    "country": "United States",
+    "description": "Wilderdog is an outdoor dog gear and pet supplies company based in Sacramento, United States. Its own affiliate page says it has crafted durable outdoor gear for dogs for nearly a decade, backed by a lifetime warranty, and donates one pound of kibble for every purchase through its Purchase for a Pup program.",
+    "evidence": [
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.wilderdog.com/pages/wilderdog-affiliate-program?srsltid=AfmBOopLCANaF1OUNfpzskqR6JvrAbflAZLpcDHftDEFR5R2SmoezxkP",
+        "summary": "No cap language was found on the fetched official Wilderdog affiliate program page. The page invites bloggers/social creators to apply via AvantLink and describes commissions on qualifying sales, but contains no wording such as 'no cap', 'unlimited earnings' or 'no limit on how much you can earn', and it does not publish a rate, so commission_cap is marked unknown, not uncapped."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/wilderdog",
+        "summary": "Low saturation evidence from Beacons Universe (fetched): Wilderdog has posts from only 61 creators all time, 31 public posts in the last 12 months and only 1 sponsored post in the last 12 months (Ruby Rex, Nov 4, 2026) - the lowest sponsored-post count in this candidate pool, so creator_saturation is marked low. A published profile of the company also reported it works with about 10 ambassador photographers."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "creator_report",
+        "source_url": "https://affiliateworldforums.com/threads/wilderdog-affiliate-program-review.17608/",
+        "summary": "Published affiliate program review found in search reports 8% commission per sale and a 30-day cookie duration, with the program partnered with AvantLink. The brand's own fetched page confirms the AvantLink partnership and the apply route but does not publish the rate itself, so the 8% is treated as publicly reported, not official."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://www.wilderdog.com/pages/wilderdog-affiliate-program?srsltid=AfmBOopLCANaF1OUNfpzskqR6JvrAbflAZLpcDHftDEFR5R2SmoezxkP",
+        "summary": "Official page (fetched): 'Do you have a successful blog, website, or social where you share your adventures with your dog? Feel free to apply to our affiliate program here' with an APPLY TO BE AN AFFILIATE link to AvantLink. Beacons Universe lists Wilderdog as based in Sacramento, United States, 1-50 employees, official website wilderdog.com. No verified social profile URL was fetched, so socials are left empty rather than constructed."
+      }
+    ],
+    "name": "Wilderdog",
+    "opportunity": {
+      "application_url": "https://www.wilderdog.com/pages/wilderdog-affiliate-program?srsltid=AfmBOopLCANaF1OUNfpzskqR6JvrAbflAZLpcDHftDEFR5R2SmoezxkP",
+      "source_url": "https://www.wilderdog.com/pages/wilderdog-affiliate-program?srsltid=AfmBOopLCANaF1OUNfpzskqR6JvrAbflAZLpcDHftDEFR5R2SmoezxkP",
+      "title": "Wilderdog Affiliate Program via AvantLink - apply from the official program page"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 10,
+      "credibility": 4,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "8% per sale is only publicly reported in a published review and the official page publishes no rate; no uncapped language was found, so cap is unknown.",
+        "contact_access": "Official program page with a direct AvantLink apply link, but no published affiliate email was found.",
+        "credibility": "Program existence, network and apply route are verified on the brand's own page and Beacons; the rate rests on a third-party review, hence 4 not 5.",
+        "niche_fit": "Pure pets - durable outdoor dog gear for hiking/camping creators, a strong visual UGC niche.",
+        "opportunity_availability": "Apply today from the official page via AvantLink, explicitly aimed at blogs and social creators.",
+        "ugc_evidence": "Lowest saturation in the pool on Beacons: 61 creators all time and only 1 sponsored post in the last 12 months."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [],
+    "website": "https://www.wilderdog.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/99139?setLocale=fr_FR",
+      "commission_cap": "unknown",
+      "commission_rate": 5,
+      "creator_saturation": "low",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/99139?setLocale=fr_FR"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/99139?setLocale=fr_FR",
+        "email": "adam@revil8.com",
+        "source_url": "https://ui.awin.com/merchant-profile/99139?setLocale=fr_FR"
+      }
+    ],
+    "country": "China",
+    "description": "Aqara is a smart home brand under Lumi United Technology that sells sensors, hubs, cameras, locks and controls for connected homes. Its Awin programme describes its vision as comprehensive smart home products that are beautifully designed, affordable and easy to use. The brand was launched in 2016 and its parent is headquartered in Shenzhen, China.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/99139?setLocale=fr_FR",
+        "summary": "Fetched Awin merchant page for Aqara UK states: '5% commission on sales', '30-day cookie period', '£100 AOV', and 'Commission increases available for content sites and influencers'. Programme is managed by Revil8; contact adam@revil8.com."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/99139?setLocale=fr_FR",
+        "summary": "No cap language was found on the fetched Awin program page: no 'no cap', 'unlimited earnings', 'no limit on how much you can earn' or FAQ answering an earnings-limit question appears. Commission cap is therefore recorded as unknown, not uncapped."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "creator_report",
+        "source_url": "https://findsponsors.so/brands/aqara",
+        "summary": "Saturation evidence: FindSponsors reports Aqara has paid only 'YouTube 5 creators · 8 posts', sponsoring channels from 35k to 205k subscribers, with a mix of paid sponsorship (3), affiliate (4) and gifted product (1) deals. Five creators / eight posts is a small tracked creator footprint, supporting low saturation. The same page states: 'We haven't found a public creator program page for Aqara.'"
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://www.cbinsights.com/company/lumi-united-technology",
+        "summary": "CB Insights describes Aqara as specializing in smart home automation / IoT products including hubs, sensors, controllers, cameras, door locks, lighting and curtain controllers, founded in 2009 (parent Lumi) and based in Shenzhen, Guangdong. FindSponsors separately notes the Aqara brand was founded in 2016."
+      }
+    ],
+    "name": "Aqara",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/99139?setLocale=fr_FR",
+      "source_url": "https://ui.awin.com/merchant-profile/99139?setLocale=fr_FR",
+      "title": "Aqara UK Affiliate Programme on Awin — 5% commission, increases available for influencers"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 12,
+      "credibility": 5,
+      "niche_fit": 28,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published 5% on Awin is modest and commission cap is unknown (no uncapped language found), so scored mid-range; influencer rate increases are offered but unquantified.",
+        "contact_access": "Joinable today via Awin and the fetched page names a programme manager email (adam@revil8.com) for collaborations.",
+        "credibility": "Rate and terms come from the official Awin merchant listing fetched directly; saturation count comes from a named creator-tracking source.",
+        "niche_fit": "Core smart home brand (sensors, hubs, cameras, locks) — direct fit for the smart home + personal tech slice.",
+        "opportunity_availability": "Live Awin programme open to publishers/influencers today; no public brand-owned creator page, so route is network-only.",
+        "ugc_evidence": "Low saturation is evidenced (5 creators, 8 sponsored posts on FindSponsors), but total tracked UGC volume is small, so evidence is real yet thin."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/aqara.smarthome.official"
+      }
+    ],
+    "website": "https://www.aqara.com/"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://bearaby.eu/pages/affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 4,
+      "creator_saturation": "low",
+      "network": "Impact",
+      "source_url": "https://linkclicky.com/affiliate-program/bearaby/"
+    },
+    "category_slug": "home",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://bearaby.eu/pages/affiliate",
+        "email": null,
+        "source_url": "https://bearaby.eu/pages/affiliate"
+      }
+    ],
+    "country": "United States",
+    "description": "Bearaby is a Brooklyn, United States-based home wellness brand making hand-knit weighted blankets (Nappers) from organic/ecological materials such as Tencel and cotton, without plastic beads or artificial fillers. It positions its blankets for sleep, calm and a cleaner, greener bedroom.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://bearaby.eu/pages/affiliate",
+        "summary": "Brand's own affiliate page (Bearaby EU official site): sign up with your details, 'Publish Napspiring Content' on blog/website/newsletter/social with approved materials and offer links, then 'Start Earning Commission - For every Bearaby sale attributed to your links, you'll start earning commission.' No rate and no cap language are stated on this fetched page."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/bearaby/",
+        "summary": "LinkClicky listing: Bearaby uses the Impact affiliate platform, commission 4% per sale. BravoDM's checked creator-program page likewise reports 'Bearaby affiliate program via Impact: 4% per sale per the LinkClicky listing' and no follower minimum. No page fetched explicitly said 'no cap', 'unlimited earnings' or answered an earnings-limit FAQ, so commission_cap is unknown. The EU page's line 'The more sales that get converted through your content, the more commission you'll make' is not explicit uncapped wording under the task rule."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://bearaby.eu/pages/affiliate",
+        "summary": "Cap check: no cap/uncapped language was found on the fetched brand-owned affiliate page - it contains no 'no cap', 'unlimited', 'no limit on how much you can earn' wording and no earnings-limit FAQ."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/bearaby",
+        "summary": "Saturation evidence: Beacons Universe lists Bearaby with 88 creators all time, only 4 creators in the last 30 days, 35 public posts in the last 12 months and only 5 sponsored posts in the last 12 months. This is low creator/sponsored saturation relative to TikTok Shop-heavy home brands in the pool with thousands of creators."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://www.influencerrate.com/affiliate-program/bearaby",
+        "summary": "InfluencerRate description: Bearaby is a sustainable, eco-friendly company creating innovative weighted blankets made from organic/ecological materials such as Tencel or cotton, prioritising sleep and wellbeing. Beacons lists it as based in Brooklyn, United States, under Home & Garden."
+      }
+    ],
+    "name": "Bearaby",
+    "opportunity": {
+      "application_url": "https://bearaby.eu/pages/affiliate",
+      "source_url": "https://bearaby.eu/pages/affiliate",
+      "title": "Bearaby Affiliate Program"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 12,
+      "credibility": 4,
+      "niche_fit": 27,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published rate is low at 4% per sale via Impact (LinkClicky/BravoDM); no explicit uncapped language found, so cap is unknown and compensation scores below Baloo's 15%.",
+        "contact_access": "Brand-owned affiliate page with a sign-up form route was fetched and is joinable today; no creator email published on that page, so email is null.",
+        "credibility": "Brand-owned page plus Impact listing via two independent listings and a Beacons brand page corroborate the program.",
+        "niche_fit": "Strong HOME fit: weighted blankets and home wellness/sleep products.",
+        "opportunity_availability": "Own affiliate page is live with sign-up, content-publishing and earning steps; BravoDM notes no follower minimum stated.",
+        "ugc_evidence": "Beacons Universe: 88 creators all time, 4 in last 30 days, only 5 sponsored posts in last 12 months - low saturation, though higher than Baloo's 19."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/mybearaby/"
+      }
+    ],
+    "website": "https://bearaby.com/"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://fellowproducts.com/pages/sponsorships?view=sponsorships",
+      "commission_cap": "unknown",
+      "commission_rate": 5,
+      "creator_saturation": "low",
+      "network": "Impact",
+      "source_url": "https://compareepc.com/coffee-affiliate-programs/"
+    },
+    "category_slug": "home",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://fellowproducts.com/pages/sponsorships?view=sponsorships",
+        "email": null,
+        "source_url": "https://fellowproducts.com/pages/sponsorships?view=sponsorships"
+      }
+    ],
+    "country": "United States",
+    "description": "Fellow is a San Francisco, United States-based brand founded in 2013 that makes beautifully functional coffee and kitchen gear - including the Stagg pour-over kettle, Stagg EKG electric kettle, grinders and travel mugs - designed to bring the cafe experience home. Its own About page says its tools are designed in San Francisco and used around the world.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://fellowproducts.com/pages/sponsorships?view=sponsorships",
+        "summary": "Brand's own Sponsorships & Affiliates page, fetched in full: 'We're looking for content creators and brand ambassadors to help us spread the word about Fellow products and earn money through our affiliate program. You'll gain early access to product releases, promotions, and exclusive marketing assets... From brewing beginners to pour-over pros, all levels of coffee knowledge are welcome!' with an 'Apply to our affiliate program' link to app.impact.com. No rate and no cap language are stated on this page."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "affiliate_network",
+        "source_url": "https://compareepc.com/coffee-affiliate-programs/",
+        "summary": "CompareEPC coffee affiliate programs table: Fellow via Impact, commission 5%, EPC $0.82. Lasso's Fellow Industries listing separately reports up to 4.88%. No page fetched explicitly said 'no cap', 'unlimited earnings' or answered an earnings-limit FAQ, so commission_cap is unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://fellowproducts.com/pages/sponsorships?view=sponsorships",
+        "summary": "Cap check: no cap/uncapped language was found on the fetched brand-owned Sponsorships & Affiliates page - no 'no cap', 'unlimited', 'no limit' wording and no earnings-limit FAQ."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/fellow",
+        "summary": "Saturation evidence (sponsored basis): Beacons Universe lists Fellow with 262 creators all time and 20 in the last 30 days for organic mentions, but only 3 sponsored posts in the last 12 months (most recent Nov 19, 2026). Paid/sponsored creator saturation is therefore low, while total organic mentions are moderate - scored accordingly, below Baloo and Bearaby."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://fellowproducts.com/pages/about-us",
+        "summary": "Official About page: 'Fellow makes beautifully functional tools for any kitchen, designed in San Francisco and used around the world... We started Fellow in 2013 with a vision of bringing the cafe experience home' and created the Stagg Pour-Over Kettle / Stagg EKG. Beacons lists Fellow as based in San Francisco, United States, under Home & Garden / Kitchenware."
+      }
+    ],
+    "name": "Fellow",
+    "opportunity": {
+      "application_url": "https://fellowproducts.com/pages/sponsorships?view=sponsorships",
+      "source_url": "https://fellowproducts.com/pages/sponsorships?view=sponsorships",
+      "title": "Fellow Sponsorships & Affiliates - Creator / Brand Ambassador Program"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 13,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Published rate 5% via Impact (CompareEPC; Lasso up to 4.88%) - modest, and no explicit uncapped language found, so cap is unknown.",
+        "contact_access": "Best direct route in the slice: brand-owned Sponsorships & Affiliates page actively recruiting creators/ambassadors with a direct Apply link to Impact. No creator email published on that page, so email is null.",
+        "credibility": "Brand-owned program page, Impact apply link, and independent network tables (CompareEPC, Lasso) plus a Beacons brand page all corroborate the program.",
+        "niche_fit": "HOME fit via kitchen/coffee gear for the home (kettles, grinders, brewers, mugs); Beacons lists it under Home & Garden / Kitchenware, though it is coffee-led rather than bedding-led.",
+        "opportunity_availability": "Official page is live and explicitly says it is looking for content creators and brand ambassadors, all coffee-knowledge levels welcome.",
+        "ugc_evidence": "Low on sponsored evidence only: only 3 sponsored posts in the last 12 months on Beacons Universe, despite 262 creators mentioning it organically all time - hence a lower ugc_evidence score than Baloo (19) and Bearaby (88 / 5 sponsored)."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/fellowproducts"
+      }
+    ],
+    "website": "https://fellowproducts.com"
+  }
+]
