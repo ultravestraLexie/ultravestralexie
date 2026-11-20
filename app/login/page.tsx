@@ -21,7 +21,7 @@ export default function LoginPage() {
       options: {
         emailRedirectTo:
           typeof window !== "undefined"
-            ? `${window.location.origin}/brands`
+            ? `${window.location.origin}/auth/callback?next=/brands`
             : undefined,
       },
     });
