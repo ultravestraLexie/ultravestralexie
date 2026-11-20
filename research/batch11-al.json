@@ -1,0 +1,675 @@
+[
+  {
+    "name": "Titan Fitness",
+    "website": "https://titan.fitness",
+    "country": "United States",
+    "category_slug": "fitness",
+    "description": "Memphis, Tennessee-based home-gym and fitness equipment company offering power racks, weight benches, barbells, weights and specialty machines for strength training and home or facility gym building. Its parent Titan Brands reports 50,000+ five-star customer reviews on its equipment.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliates@titan.fitness",
+        "source_url": "https://titan.fitness/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://titan.fitness/pages/affiliate-program",
+        "summary": "The brand's official affiliate page allows approved websites and content creators to link to Titan Fitness and earn commissions: 5% commission, 30-day cookie, paid by the 15th of every month, run on the Impact platform, free to sign up, with a dedicated program manager, product-for-review opportunities and exclusive follower coupons; contact email affiliates@titan.fitness. No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "company_background",
+        "source_type": "article",
+        "source_url": "https://www.prnewswire.com/news-releases/titan-fitness-launches-commercial-division-for-gyms-schools-and-training-facilities-302893252.html",
+        "summary": "PR Newswire describes Titan Brands as the Memphis-based company behind Titan Fitness; equipment includes racks, benches and free weights, with 50,000+ five-star reviews."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "third_party_listing",
+        "source_url": "https://www.creator-hero.com/blog/titan-fitness-affiliate-program-in-depth-review-pros-and-cons",
+        "summary": "Creator Hero's in-depth review corroborates 5% commission, 30-day cookie and Impact exclusivity, and reports 4,000+ products."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 5,
+      "application_url": "https://titan.fitness/pages/affiliate-program",
+      "source_url": "https://titan.fitness/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://titan.fitness/pages/affiliate-program",
+      "source_url": "https://titan.fitness/pages/affiliate-program",
+      "title": "Titan Fitness Affiliate Program"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 15,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 10,
+      "ugc_evidence": 17,
+      "reasons": {
+        "compensation": "5% flat is modest, partly offset by high equipment order values; no tier found on fetched pages and no cap statement, so the cap is unknown.",
+        "contact_access": "Named affiliate email (affiliates@titan.fitness) and a dedicated program manager on the official page.",
+        "credibility": "Official program page on a major network from an established US brand, corroborated by a third-party review.",
+        "niche_fit": "Power racks, barbells, plates and budget home-gym builds are a direct fit for garage-gym and strength-training creators.",
+        "opportunity_availability": "Live, free to join now via Impact from the official page; 30-day cookie, paid by the 15th monthly.",
+        "ugc_evidence": "Official page explicitly offers product-for-review opportunities and exclusive follower coupons, plus banners and promotions."
+      }
+    }
+  },
+  {
+    "name": "Myprotein",
+    "website": "https://www.myprotein.com",
+    "country": "United Kingdom",
+    "category_slug": "fitness",
+    "description": "British sports-nutrition brand founded in 2004 and based in Manchester; part of the THG family since 2011. It sells protein powder, vitamins and minerals, high-protein foods, snack alternatives and performance clothing, and says it claimed the title of the world's leading online sports nutrition brand in 2016.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "AmbassadorSchemeUK@myprotein.com",
+        "source_url": "https://www.myprotein.com/c/about-us/ways-to-work-with-us/affiliated-partners/faq/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://us.myprotein.com/c/about-us/ways-to-work-with-us/affiliated-partners/",
+        "summary": "Myprotein's official Affiliated Partners page invites ambassadors and affiliates to 'earn commission on sales you generate for us with a percentage as high as 8%', with a 30-day cookie window and an in-house affiliate team. No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.myprotein.com/c/about-us/ways-to-work-with-us/affiliated-partners/faq/",
+        "summary": "The brand's UK influencer FAQ (search-indexed; direct open was rate-limited in this run, flagged for re-verification) states up to 10% commission on tracked link sales, a 30-day cookie, product allowance and an exclusive discount code, and tells influencers with over 5,000 followers to email AmbassadorSchemeUK@myprotein.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "third_party_listing",
+        "source_url": "https://commissiondex.com/programs/myprotein/",
+        "summary": "CommissionDex lists Myprotein as managed through Awin at 8% per sale, 30-day cookie and a $20 minimum payout, corroborating the brand-page rate."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "company_background",
+        "source_type": "official_site",
+        "source_url": "https://www.myprotein.com/c/about-us/?widget_id=86908",
+        "summary": "Myprotein's official About page: founded 2004, based in Manchester, joined the THG family in 2011, and claimed the title of the world's leading online sports nutrition brand in 2016."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 8,
+      "application_url": "https://us.myprotein.com/c/about-us/ways-to-work-with-us/affiliated-partners/",
+      "source_url": "https://us.myprotein.com/c/about-us/ways-to-work-with-us/affiliated-partners/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://us.myprotein.com/c/about-us/ways-to-work-with-us/affiliated-partners/",
+      "source_url": "https://us.myprotein.com/c/about-us/ways-to-work-with-us/affiliated-partners/",
+      "title": "Myprotein Affiliated Partners / Ambassador & Affiliate Program"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 12,
+      "credibility": 5,
+      "niche_fit": 28,
+      "opportunity_availability": 9,
+      "ugc_evidence": 16,
+      "reasons": {
+        "compensation": "8% on the brand's own US page (up to 10% for UK influencers per its FAQ), 30-day cookie; a modest percentage on mid-size baskets.",
+        "contact_access": "Published ambassador email and a stated in-house affiliate team.",
+        "credibility": "Rate verified on the brand's own page and corroborated by Awin listings.",
+        "niche_fit": "Core fitness nutrition plus activewear — an exact creator fit with high repurchase rates.",
+        "opportunity_availability": "Live, joinable official page.",
+        "ugc_evidence": "Official ambassador/affiliate scheme explicitly for website, blog and social creators, with follower discount codes."
+      }
+    }
+  },
+  {
+    "name": "Saily",
+    "website": "https://saily.com",
+    "country": "Lithuania",
+    "category_slug": "travel",
+    "description": "Travel eSIM app created by Nord Security, which is headquartered in Vilnius, Lithuania. Saily offers eSIM plans in over 200 destinations, says it is trusted by over 14 million users, and describes itself as a new eSIM app that is growing fast; affiliates earn on each new user they refer, tracked with a 30-day cookie.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://saily.com/affiliate/",
+        "summary": "Saily's official affiliate page states 'earn 15% with every new user' (per new user; not stated to recur on repeat purchases), with a 30-day cookie: 'If a sale happens within 30 days of a customer visiting Saily, you will still get paid for that sale.' Joining is Register, then meet a dedicated partnership manager, then start earning. No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://saily.com/affiliate/",
+        "summary": "The page's FAQ states a website or blog is not necessary: 'You can generate traffic through a YouTube channel or your social media accounts.' Marketing assets and SEO support are provided."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_background",
+        "source_type": "article",
+        "source_url": "https://investlithuania.com/success-stories/nord-security/",
+        "summary": "Invest Lithuania reports Nord Security's headquarters remain in Vilnius, Lithuania, and lists Saily among its products as 'a global eSIM service.'"
+      }
+    ],
+    "affiliate": {
+      "network": "Direct (in-house)",
+      "commission_rate": 15,
+      "application_url": "https://saily.com/affiliate/",
+      "source_url": "https://saily.com/affiliate/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://saily.com/affiliate/",
+      "source_url": "https://saily.com/affiliate/",
+      "title": "Saily eSIM Affiliate Program"
+    },
+    "score": {
+      "compensation": 18,
+      "contact_access": 9,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "ugc_evidence": 15,
+      "reasons": {
+        "compensation": "15% per new user is the highest clean, officially published rate in this batch; caveat: per new user only and eSIM order values are small.",
+        "contact_access": "A dedicated partnership manager is promised after joining, but no email is published on the fetched page.",
+        "credibility": "Official affiliate page fetched; Nord Security backing.",
+        "niche_fit": "eSIM is a core, repeatable travel purchase; a single-product brand keeps the pitch simple.",
+        "opportunity_availability": "Open registration with review on the official page.",
+        "ugc_evidence": "Explicit social/YouTube eligibility in its FAQ, plus content tips, marketing assets and an affiliate guide; no creator counts published."
+      }
+    }
+  },
+  {
+    "name": "PRx Performance",
+    "website": "https://prxperformance.com",
+    "country": "United States",
+    "category_slug": "fitness",
+    "description": "Fargo, North Dakota-based home-gym equipment company founded in 2013, known for space-saving folding and freestanding squat racks, barbells, plates, rigs and home-gym storage. It is a Shark Tank success story, described in a platform case study as one of USA Today's 15 best-selling Shark Tank products of all time.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://prxperformance.com/pages/register-affiliate-account",
+        "summary": "The brand's own Affiliate Register Page exists on prxperformance.com, confirming a joinable affiliate program; the page rendered minimal text in this fetch, so no rate or email was extracted from it."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://uppromote.com/case-study/prx-performance/",
+        "summary": "UpPromote's case study: PRx runs its program on UpPromote with a performance-based commission structure from 5% up to 12% (5% is the starting rate; 12% is a rate ceiling, not an earnings cap), exclusive discount codes, content and product exchanges, early product access for top performers, and $2.3M in affiliate sales in one year. No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_background",
+        "source_type": "third_party_listing",
+        "source_url": "https://www.cbinsights.com/company/prx-performance",
+        "summary": "CB Insights lists PRx Performance as founded in 2013 in Fargo, North Dakota, United States, manufacturing home gym equipment including foldable and freestanding squat racks."
+      }
+    ],
+    "affiliate": {
+      "network": "UpPromote",
+      "commission_rate": 5,
+      "application_url": "https://prxperformance.com/pages/register-affiliate-account",
+      "source_url": "https://uppromote.com/case-study/prx-performance/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://prxperformance.com/pages/register-affiliate-account",
+      "source_url": "https://prxperformance.com/pages/register-affiliate-account",
+      "title": "PRx Performance Affiliate Program (via UpPromote)"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 28,
+      "opportunity_availability": 9,
+      "ugc_evidence": 19,
+      "reasons": {
+        "compensation": "5% starting rate is average, but the performance structure rises to 12%, above the other equipment brands' base rates in this batch.",
+        "contact_access": "No published affiliate email or form found on fetched pages; the application is the only route in.",
+        "credibility": "Shark Tank brand with platform-published results and an official register page.",
+        "niche_fit": "Space-saving garage-gym racks are highly demonstrable, before/after-friendly UGC.",
+        "opportunity_availability": "Live register page on the brand's own site with a reported one-click approval flow.",
+        "ugc_evidence": "Product/content exchanges, early product access and discount codes; the platform reports $2.3M in affiliate sales in one year."
+      }
+    }
+  },
+  {
+    "name": "Viator",
+    "website": "https://www.viator.com",
+    "country": "United States",
+    "category_slug": "travel",
+    "description": "Marketplace for travel experiences and a Tripadvisor company, founded in 1995 and headquartered in San Francisco. Viator lists 300,000+ experiences in over 200 countries; its creator product, Viator Shop, lets creators organise and share recommendations through a single mobile-first tracking link built for link-in-bio, posts and stories.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://partnerresources.viator.com/mc69293/",
+        "summary": "Viator's official creator resource page FAQ states 'Viator Affiliates earn 8% commission on any experience booked within 30 days' (a $300 experience earns $24 if not cancelled), paid once the experience is completed; payouts are monthly bank transfers with a $50 minimum or weekly PayPal with no minimum. The page's 'your commission never expires' wording is an expiry statement, not an earnings-cap statement, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://partnerresources.viator.com/mc69293/",
+        "summary": "The page is built for creators: Viator Shop for social sharing, a 'See How Creators Are Curating Experiences in Viator Shop' section, and links placeable in social media posts, YouTube video descriptions and blogs."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "article",
+        "source_url": "https://reverbico.com/blog/viator-affiliate-program/",
+        "summary": "Third-party guide reports direct signup is free with no traffic or follower minimum via the Viator Partner Program, and that an Awin route exists in some markets at a lower 4% default."
+      }
+    ],
+    "affiliate": {
+      "network": "Direct (Viator Partner Program)",
+      "commission_rate": 8,
+      "application_url": "https://partnerresources.viator.com/mc69293/",
+      "source_url": "https://partnerresources.viator.com/mc69293/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://partnerresources.viator.com/mc69293/",
+      "source_url": "https://partnerresources.viator.com/mc69293/",
+      "title": "Viator Affiliate Program — For Creators / Viator Shop"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 29,
+      "opportunity_availability": 10,
+      "ugc_evidence": 18,
+      "reasons": {
+        "compensation": "Flat 8% on any experience booked within 30 days, paid once the experience is completed; weekly PayPal with no minimum threshold.",
+        "contact_access": "No published email or contact form verified on the fetched creator page.",
+        "credibility": "Official resource centre fetched; a Tripadvisor company.",
+        "niche_fit": "Tours and activities fit almost any travel itinerary content.",
+        "opportunity_availability": "Open signup, free, with no traffic or follower minimum reported.",
+        "ugc_evidence": "Dedicated creator Shop with link-in-bio design and a creator curation showcase on the official resource page."
+      }
+    }
+  },
+  {
+    "name": "TRX Training",
+    "website": "https://www.trxtraining.com",
+    "country": "United States",
+    "category_slug": "fitness",
+    "description": "Maker of suspension training systems and functional training tools, founded by former Navy SEAL Randy Hetrick, who invented the TRX Suspension Trainer while deployed. Its systems, including Home2 and Pro4, suit trainers running bootcamps, clients who travel and at-home programs, with a reported average order value around $160-$200.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "article",
+        "source_url": "https://www.trainerize.com/blog/health-and-fitness-affiliate-marketing/",
+        "summary": "Trainerize's roundup (rates verified October 2026 from each program's official page) lists TRX commission starting at 10% on US-based sales with a 30-day cookie, and links to the TRX Affiliate Program on trxtraining.com. GetLasso's 15-30% listing conflicts with all other fetched sources and was not used. No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "third_party_listing",
+        "source_url": "https://commission.academy/blog/best-fitness-affiliate-programs/",
+        "summary": "Commission Academy lists TRX at a 10% base sales commission, 30-day cookie, integrated with AvantLink (Merchant ID 21449), $160 AOV, dedicated support and monthly payouts via AvantLink."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "third_party_listing",
+        "source_url": "https://theaffiliatemonkey.com/affiliate/trx-affiliate-program/",
+        "summary": "The Affiliate Monkey lists a starting commission of 10% on all US-based sales with potential to earn more, $200 AOV and a 30-day cookie; joining is by signing up with AvantLink and then applying to TRX inside the network."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_background",
+        "source_type": "article",
+        "source_url": "https://dornsife.usc.edu/news/stories/history-alumnus-fitness-entrepreneur-former-navy-seal-invents-trx-trainer/",
+        "summary": "USC Dornsife profile: Randy Hetrick, a 14-year Navy SEAL, invented the TRX Suspension Trainer while deployed."
+      }
+    ],
+    "affiliate": {
+      "network": "AvantLink",
+      "commission_rate": 10,
+      "application_url": "https://www.avantlink.com/signup/affiliate",
+      "source_url": "https://www.trainerize.com/blog/health-and-fitness-affiliate-marketing/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://www.avantlink.com/signup/affiliate",
+      "source_url": "https://theaffiliatemonkey.com/affiliate/trx-affiliate-program/",
+      "title": "TRX Affiliate Program"
+    },
+    "score": {
+      "compensation": 18,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 28,
+      "opportunity_availability": 9,
+      "ugc_evidence": 16,
+      "reasons": {
+        "compensation": "10% starting rate on US sales is the highest verified base rate among this batch's equipment brands, on a ~$160-$200 AOV; one directory's 15-30% listing conflicts with all other sources and was not used.",
+        "contact_access": "No direct brand affiliate email published on fetched pages; contact is via AvantLink only.",
+        "credibility": "Category-defining US brand; terms consistent across 5+ independent fetched sources, though the brand's own affiliate page could not be fetched in this run (429).",
+        "niche_fit": "A single portable product, ideal for home, travel, bootcamp and short-form workout UGC.",
+        "opportunity_availability": "Live and joinable via AvantLink signup, then an in-network application to TRX.",
+        "ugc_evidence": "Long-standing creator/trainer promotion across many fetched reviews, with a dedicated affiliate support team; no explicit product-exchange perk found on fetched pages."
+      }
+    }
+  },
+  {
+    "name": "Klook",
+    "website": "https://www.klook.com",
+    "country": "Hong Kong",
+    "category_slug": "travel",
+    "description": "Booking platform for experiences — attractions, tours, hotels, car rentals, trains and more — founded in September 2014 in Hong Kong. Alongside its affiliate program it runs the Kreator Program, its travel-influencer affiliate program with personalised links, Kreator Shops storefronts and a creator community.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliate@klook.com",
+        "source_url": "https://affiliate.klook.com/en-MY/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://affiliate.klook.com/en-MY/",
+        "summary": "Klook's official affiliate page offers exclusive partner codes, performance-based bonuses and widgets/search boxes/banners, and publishes the contact email affiliate@klook.com in its FAQ; it does not publish a commission percentage."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://involve.asia/blog/klook-affiliate-program/",
+        "summary": "Involve Asia (a Klook network partner) lists category rates for Apr-Jun 2026 — tours/activities/hotels 6.5%, attractions/food/transport 5%, China high-speed rail 3.5%, special activities and gift cards 2%, Klook eSIM 20% — with a 30-day cookie (7 days for hotels/car rentals), and explicitly states the program 'has no commission cap' on that route; the uncapped mark applies to the Involve Asia route where that wording appears. Ecomobi and Travelpayouts listings put the base at up to 5% on most categories, which is the base rate recorded here."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://www.klook.com/newsroom/kreatorverse-2024-marcusyong-social/",
+        "summary": "Klook executive interview on klook.com: the Kreator Program launched in 2023 with 'over 20,000 creators hailing across 16 markets', personalised affiliate links, an affiliate manager, Kreator Shops and TikTok bookable-content partnerships."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "creator_saturation",
+        "source_type": "article",
+        "source_url": "https://www.Phocuswire.com/news/technology/klook-kreator-shops-travel-social-media-influencer",
+        "summary": "PhocusWire reports Kreator Shops opened to 'more than 30,000 creators across 88 markets', and that joining the Kreator Program requires a minimum of 1,000 followers on a social platform (higher in some markets) — hard evidence for the high-saturation mark."
+      }
+    ],
+    "affiliate": {
+      "network": "Direct / Involve Asia",
+      "commission_rate": 5,
+      "application_url": "https://affiliate.klook.com/en-MY/",
+      "source_url": "https://affiliate.klook.com/en-MY/",
+      "commission_cap": "uncapped",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "application_url": "https://affiliate.klook.com/en-MY/",
+      "source_url": "https://affiliate.klook.com/en-MY/",
+      "title": "Klook Affiliate Program / Klook Kreator Program"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 13,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 7,
+      "ugc_evidence": 19,
+      "reasons": {
+        "compensation": "Lowest and least transparent base in this batch: 5% network-reported, the official page publishes no rate, and routes conflict; Involve Asia states that route has no commission cap.",
+        "contact_access": "Published affiliate email (affiliate@klook.com) plus a Contact Us route on the official affiliate page.",
+        "credibility": "Official affiliate portal and newsroom fetched.",
+        "niche_fit": "Broad experiences catalogue; strongest in Asia-Pacific versus a US-first audience.",
+        "opportunity_availability": "Open affiliate signup, but the Kreator Program has follower minimums (1,000+) and the cohort already exceeds 30,000 creators.",
+        "ugc_evidence": "Dedicated Kreator influencer program with storefronts, events and manager support — the strongest creator infrastructure in this batch."
+      }
+    }
+  },
+  {
+    "name": "Allbirds",
+    "website": "https://www.allbirds.com",
+    "country": "United States",
+    "category_slug": "fashion",
+    "description": "Footwear and apparel brand known for minimalist, sustainability-led design. Its own affiliate page recruits two tracks: Social Ambassadors promoting through Instagram, TikTok or YouTube, and Media Publications promoting through publications, email newsletters, podcasts or blogs — both for a commission on all net sales, with social ambassadors also in line for free products.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "help@allbirds.com",
+        "source_url": "https://allbirds.superfiliate.com/portal/signUp"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.allbirds.com/pages/affiliates",
+        "summary": "Allbirds' own affiliate page (fetched in full) offers two tracks — Social Ambassadors via Superfiliate and Media Publications via Impact — each for 'a commission on all net sales', with potential free products for social ambassadors. The page publishes no percentage rate, cookie term or cap statement, so the rate is recorded as null and the cap as unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://allbirds.superfiliate.com/portal/signUp",
+        "summary": "Live Superfiliate sign-up portal for Allbirds; its Terms identify the US operator AB Dnam, LLC, a Florida limited liability company with its principal place of business at 8484 Wilshire Blvd., Beverly Hills, CA 90211, and publish the help email help@allbirds.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "third_party_listing",
+        "source_url": "https://bloop.plus/blog/affiliate-program-terms-and-conditions/",
+        "summary": "An independent audit of brand affiliate pages (Oct 2026) likewise records Allbirds as 'commission on all net sales (rate not shown)', with full terms in Superfiliate and Impact — corroborating the null rate."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate",
+        "source_type": "third_party_listing",
+        "source_url": "https://getlasso.co/affiliate/allbirds/",
+        "summary": "Third-party directories conflict on Allbirds' rate (Lasso 2.4%, Uppromote 1-15%, Shopper 5-10% and others); none was adopted, because the brand's own page and portal publish no percentage."
+      }
+    ],
+    "affiliate": {
+      "network": "Superfiliate / Impact",
+      "commission_rate": null,
+      "application_url": "https://www.allbirds.com/pages/affiliates",
+      "source_url": "https://www.allbirds.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://www.allbirds.com/pages/affiliates",
+      "source_url": "https://www.allbirds.com/pages/affiliates",
+      "title": "Allbirds Affiliate Program — Social Ambassadors (Superfiliate) / Media Publications (Impact)"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 10,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 9,
+      "ugc_evidence": 14,
+      "reasons": {
+        "compensation": "A real commission mechanism ('commission on all net sales') but the rate is not published on the brand's page or portal, so it cannot be scored higher honestly; third-party figures (1-15%) conflict and were not adopted.",
+        "contact_access": "Published help email on the sign-up portal; no affiliate-specific contact.",
+        "credibility": "The brand's own affiliate page and sign-up portal were fetched in full.",
+        "niche_fit": "Footwear/fashion with an explicit TikTok/Instagram/YouTube social track — ideal for creators.",
+        "opportunity_availability": "Two live Apply Now routes from the official page.",
+        "ugc_evidence": "The brand itself solicits social ambassadors and media publishers across social channels, blogs, podcasts and newsletters; no creator counts published."
+      }
+    }
+  },
+  {
+    "name": "Vessi",
+    "website": "https://vessi.com",
+    "country": "Canada",
+    "category_slug": "fashion",
+    "description": "Vancouver-based footwear brand founded in 2017 by Tony Yu, Andy Wang and Mikaella Go, making waterproof shoes with its patented Flashknit material, which it says keeps the waterproofing from wearing out. Its affiliate manager pitches the program to anyone with an audience of active-lifestyle adults and outdoor enthusiasts.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "support.us@vessi.com",
+        "source_url": "https://vessi.com/a/faq"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "http://www.tacticalmarketingco.com/partner-with-us",
+        "summary": "The program manager's page (fetched in full) lists 'VESSI — SHAREASALE: 10% COMMISSION … Earn 10% commission on all sales with a 30 day tracking cookie.' No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "third_party_listing",
+        "source_url": "https://getlasso.co/affiliate/vessi-footwear/",
+        "summary": "Lasso independently lists Vessi Footwear at 10% per sale with a 30-day cookie, matching the manager listing."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_background",
+        "source_type": "affiliate_network",
+        "source_url": "https://merchants.sovrn.com/merchants/127441/vessi-footwear-affiliate-program",
+        "summary": "Sovrn's merchant summary describes Vessi as a Vancouver-based footwear brand founded in 2017 by Tony Yu, Andy Wang and Mikaella Go; Sovrn states it could not verify its own Vessi rate, so it was not used for the rate."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 10,
+      "application_url": "http://www.tacticalmarketingco.com/partner-with-us",
+      "source_url": "http://www.tacticalmarketingco.com/partner-with-us",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "http://www.tacticalmarketingco.com/partner-with-us",
+      "source_url": "http://www.tacticalmarketingco.com/partner-with-us",
+      "title": "Vessi Footwear Affiliate Program — ShareASale: 10% Commission"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 5,
+      "credibility": 4,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "ugc_evidence": 12,
+      "reasons": {
+        "compensation": "Clean flat 10% per sale with a 30-day cookie, per the program manager's listing and corroborated by Lasso.",
+        "contact_access": "Only a general support email found on the brand's FAQ page; no affiliate-specific contact.",
+        "credibility": "Manager listing fetched in full plus directory corroboration; the brand's own affiliate page was not found.",
+        "niche_fit": "Fashion footwear with an active-lifestyle and outdoor creator fit.",
+        "opportunity_availability": "Live ShareASale program via the program manager.",
+        "ugc_evidence": "The program explicitly targets audience owners; no creator counts fetched."
+      }
+    }
+  },
+  {
+    "name": "Tonal",
+    "website": "https://tonal.com",
+    "country": "United States",
+    "category_slug": "fitness",
+    "description": "US wall-mounted connected strength system that learns the user's abilities, selects the right challenges and adjusts resistance as they improve, offering 340+ exercises in an all-in-one design. Its affiliate program pays a flat bounty per system sold; its separate member referral program cannot be used for affiliate lead generation.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkapprove.com/affiliate-programs/tonal-affiliate-program",
+        "summary": "LinkApprove's program page: Tonal pays a flat $100 per system sold on a 30-day cookie (not a percentage, so the rate is recorded as null), free to join with no separate Tonal application, decision usually within 2 business days, AOV $3,200, regions US and CA. No cap statement is published for the bounty, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://tonal.com/pages/referralterms",
+        "summary": "Tonal's official referral terms (effective Nov 17, 2025) confirm the member Referral Program is distinct from the affiliate program and 'cannot be used by businesses for affiliate lead generation'; its 3-months-membership advocate reward (capped at 3 rewards per 365 days) is not affiliate commission."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate",
+        "source_type": "third_party_listing",
+        "source_url": "https://compareepc.com/health-affiliate-programs/",
+        "summary": "CompareEPC lists Tonal on Impact at 1% / $5.66 EPC, which conflicts with LinkApprove's flat $100 bounty; the flat bounty is recorded and the percentage listing was not adopted."
+      }
+    ],
+    "affiliate": {
+      "network": "LinkApprove",
+      "commission_rate": null,
+      "application_url": "https://linkapprove.com/affiliate-programs/tonal-affiliate-program",
+      "source_url": "https://linkapprove.com/affiliate-programs/tonal-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://linkapprove.com/affiliate-programs/tonal-affiliate-program",
+      "source_url": "https://linkapprove.com/affiliate-programs/tonal-affiliate-program",
+      "title": "Tonal Affiliate Program — $100 per sale"
+    },
+    "score": {
+      "compensation": 17,
+      "contact_access": 3,
+      "credibility": 4,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "ugc_evidence": 10,
+      "reasons": {
+        "compensation": "A flat $100 bounty per system sold (30-day cookie) is high per conversion on a ~$3,200 product, despite low volume; a conflicting 1% Impact listing was not adopted, so the rate is recorded as a flat bounty, not a percentage.",
+        "contact_access": "No published affiliate email or form; joining is via the network only.",
+        "credibility": "Detailed network program page, but no rate is published on tonal.com itself.",
+        "niche_fit": "Premium home strength system — perfect for strength and home-gym creators, though narrower than nutrition.",
+        "opportunity_availability": "Live via LinkApprove with no separate Tonal application; decision usually within 2 business days.",
+        "ugc_evidence": "The program targets publishers and reviewers; no creator/UGC programme details were found on the brand's own site."
+      }
+    }
+  }
+]
