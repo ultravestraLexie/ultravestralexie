@@ -1,13 +1,17 @@
 import { createClient } from "@/lib/supabase/server";
+import SubscribeButton from "@/components/SubscribeButton";
 import type { Plan } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
 /** Subscription plans, read from the plans table (seeded by schema.sql).
- *  Checkout is wired in the Stripe milestone — buttons are placeholders
- *  until then; access is never unlocked from a browser redirect alone. */
+ *  Checkout runs through Stripe; access is never unlocked from a
+ *  browser redirect alone — only the verified Stripe webhook grants it. */
 export default async function PricingPage() {
   const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
   const { data } = await supabase
     .from("plans")
     .select("*")
@@ -56,9 +60,11 @@ export default async function PricingPage() {
                   <li key={f}>{f}</li>
                 ))}
               </ul>
-              <button disabled title="Stripe checkout arrives in the subscriptions milestone">
-                Choose {plan.name}
-              </button>
+              <SubscribeButton
+                planSlug={plan.slug}
+                planName={plan.name}
+                signedIn={!!user}
+              />
             </article>
           ))}
         </div>

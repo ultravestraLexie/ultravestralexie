@@ -78,5 +78,7 @@ export interface Plan {
   price_yearly: number | null;
   currency: string;
   features: string[];
+  stripe_price_id_monthly: string | null;
+  stripe_price_id_yearly: string | null;
   is_active: boolean;
 }
