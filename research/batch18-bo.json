@@ -1,0 +1,590 @@
+[
+ {
+  "name": "Organixx",
+  "website": "https://organixx.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Premium boutique organic supplement brand founded in 2016, selling third-party-tested magnesium, collagen, turmeric, probiotic and omega-3 formulas through its own store, with a curated influencer program that funds paid ads to partner content.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://organixx.com/influencer/",
+    "email": null,
+    "source_url": "https://organixx.com/influencer/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://organixx.com/influencer/",
+    "summary": "Organixx's official influencer page states the earning structure is flexible (CPA, revenue share, flat fee, or a combination, agreed individually) and says verbatim 'No cap' and 'no ceiling on earnings'; its FAQ repeats: 'There is no ceiling on performance earnings.' No fixed percentage rate is published anywhere on the page, so commission_rate is recorded as null rather than guessed. Applications run through Everflow (the page's Apply button links to organixx.everflowclient.io). The cap is verified uncapped on the brand's own wording."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://organixx.com/influencer/",
+    "summary": "The same page is a dedicated creator-recruitment page: it targets short-form video creators (Reels, TikTok, Stories) in gut health, hormonal balance, fitness recovery and longevity, offers complimentary products, exclusive audience discount codes and brand-funded ad spend behind creator content, and says the roster is kept tight with every application reviewed by a real person (typical partners 5k-15k followers, no hard minimum)."
+   }
+  ],
+  "affiliate": {
+   "network": "Everflow",
+   "commission_rate": null,
+   "application_url": "https://organixx.com/influencer/",
+   "source_url": "https://organixx.com/influencer/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Organixx Influencer Program",
+   "application_url": "https://organixx.com/influencer/",
+   "source_url": "https://organixx.com/influencer/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 18,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A broad clean-supplement line (magnesium, collagen, probiotics, turmeric) maps directly onto gut-health, hormone, recovery and longevity creator content.",
+    "ugc_evidence": "A dedicated influencer page recruiting short-form video creators, with free product, audience codes and brand-funded ads behind creator content; no creator counts were published on fetched pages.",
+    "compensation": "Earnings are explicitly uncapped on the brand's own page ('No cap', 'no ceiling on performance earnings'), but the percentage is agreed individually and unpublished, so the rate is null and compensation is scored mid-range.",
+    "contact_access": "Application is a short form on the official page with a named, dedicated partnership contact promised after acceptance; no public program email is published.",
+    "opportunity_availability": "The roster is deliberately tight and every application is manually reviewed, so availability is scored conservatively.",
+    "credibility": "Founded 2016, ~$30M/year revenue, 22,000+ five-star reviews and published third-party test results, per its own page."
+   }
+  }
+ },
+ {
+  "name": "Fit 'n Prep Meals",
+  "website": "https://fitnprep.com",
+  "country": null,
+  "category_slug": "food-drink",
+  "description": "Florida-based chef-prepared meal prep company cooking in a USDA-inspected Groveland kitchen, with macro-labeled meals delivered across Florida and shipped nationwide, and an instant-join affiliate program aimed at trainers, gyms, nutritionists and creators.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": "https://fitnprep.com/affiliates",
+    "email": "Fitnprep@fitnprep.com",
+    "source_url": "https://fitnprep.com/affiliates"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "handle": "fitnprep",
+    "url": "https://www.instagram.com/fitnprep"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://fitnprep.com/affiliates",
+    "summary": "Fit 'n Prep's official affiliate page publishes a 10% commission on the order subtotal (before delivery and tax) with lifetime attribution ('your link never expires'), and its FAQ answers the earnings question verbatim: 'There is no cap on how much you can earn.' Joining is free and instant - name and email generate a referral link with no approval wait. The cap is verified uncapped on the brand's own wording."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://fitnprep.com/affiliates",
+    "summary": "The same page explicitly recruits content creators and communities ('Florida food, fitness and family accounts: one link in bio, 10% of everything it brings in') alongside trainers, gyms and nutritionists, and publishes a contact email and phone number for program questions."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://fitnprep.com/affiliates",
+   "source_url": "https://fitnprep.com/affiliates",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Fit 'n Prep Meals Affiliate Program",
+   "application_url": "https://fitnprep.com/affiliates",
+   "source_url": "https://fitnprep.com/affiliates"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 15,
+   "contact_access": 11,
+   "opportunity_availability": 10,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Macro-labeled chef meals are natural content for meal-prep, fitness-nutrition and busy-family food creators.",
+    "ugc_evidence": "The official page names creators and communities as a target segment with link-in-bio promotion; no creator counts were published on fetched pages.",
+    "compensation": "10% of every order subtotal with a verified 'no cap on how much you can earn' statement and lifetime attribution on the official page.",
+    "contact_access": "A contact email and phone number for program questions are published directly on the affiliate page.",
+    "opportunity_availability": "Fully open and instant - a referral link is generated immediately with no application or approval wait.",
+    "credibility": "A small regional meal-prep company with a USDA-inspected kitchen; far smaller than national meal-delivery brands, so credibility is scored low."
+   }
+  }
+ },
+ {
+  "name": "Redd Remedies",
+  "website": "https://reddremedies.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Family-owned supplement brand built around master-herbalist-formulated products for stress, sleep, thyroid, heart, joint and sinus support, run through its own store with a content-driven affiliate program that ships free monthly product.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://reddremedies.com/pages/affiliate-tool-kit",
+    "email": "affiliate@reddremedies.com",
+    "source_url": "https://reddremedies.com/pages/affiliate-tool-kit"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://reddremedies.com/pages/affiliate-tool-kit",
+    "summary": "Redd Remedies' official affiliate tool kit page states affiliates receive a unique link plus a 15%-off audience coupon code and earn '15% commissions on sales from your unique link or with your coupon code', with a dedicated Affiliate Program Manager reachable at affiliate@reddremedies.com. No cap statement appears anywhere on the fetched page, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://reddremedies.com/pages/affiliate-tool-kit",
+    "summary": "The same page describes a structured creator program: free monthly product in exchange for content, monthly content deliverables under a monthly agreement, branded graphics, swipe copy and lifestyle-image assets, eligibility for reposts and shoutouts on the brand's social accounts, and bonus products for top performers."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://reddremedies.com/pages/affiliate-tool-kit",
+   "source_url": "https://reddremedies.com/pages/affiliate-tool-kit",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Redd Remedies Affiliate Program",
+   "application_url": "https://reddremedies.com/pages/affiliate-tool-kit",
+   "source_url": "https://reddremedies.com/pages/affiliate-tool-kit"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 15,
+   "contact_access": 13,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Targeted herbal formulas for stress, sleep, thyroid and joint concerns give wellness creators specific, story-led products to build content around.",
+    "ugc_evidence": "A formal creator program with monthly content deliverables, free monthly product, swipe copy, image assets and repost eligibility, all documented on the official page; no creator counts were published.",
+    "compensation": "15% commission on link and code sales, stated plainly on the official page; no cap statement was published, so the cap stays unknown.",
+    "contact_access": "A named Affiliate Program Manager email (affiliate@reddremedies.com) is published on the official page for questions and collaboration ideas.",
+    "opportunity_availability": "Approval-based with a signed affiliate agreement and monthly contracts, so availability is scored conservatively.",
+    "credibility": "An established family-owned brand headquartered in Bradley, Illinois, with published FDA/FTC compliance rules for affiliates."
+   }
+  }
+ },
+ {
+  "name": "Natural Force",
+  "website": "https://naturalforce.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Certified B-Corp supplement brand selling grass-fed whey and collagen, MCT oil, pre-workout and cordyceps products through its own store, with an ambassador program run on the Kickbooster platform.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://naturalforce.com/pages/ambassadors",
+    "email": null,
+    "source_url": "https://naturalforce.com/pages/ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://naturalforce.com/pages/ambassadors",
+    "summary": "Natural Force's official Ambassadors page publishes '15% commission on referral sales' plus 15% cash-back on personal purchases, run on an 'easy to use affiliate platform (Kickbooster)', with product sampling for content. No cap statement appears on the fetched page, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://naturalforce.com/pages/ambassadors",
+    "summary": "The same page promises ambassadors promotion to the brand's audience - features in its Friday newsletter, shoutouts and reposts on its Instagram, Facebook and X accounts, blog and eBook interview opportunities, product giveaways for their audience, and an 'Ambassador Academy' with eCommerce education."
+   }
+  ],
+  "affiliate": {
+   "network": "Kickbooster",
+   "commission_rate": 15,
+   "application_url": "https://naturalforce.com/pages/ambassadors",
+   "source_url": "https://naturalforce.com/pages/ambassadors",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Natural Force Ambassador Program (Kickbooster)",
+   "application_url": "https://naturalforce.com/pages/ambassadors",
+   "source_url": "https://naturalforce.com/pages/ambassadors"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Clean paleo/keto-friendly staples (collagen, whey, MCT, pre-workout) fit fitness, biohacking and clean-eating creator content.",
+    "ugc_evidence": "A public ambassador page with audience-promotion perks, giveaways and an education academy explicitly built for creators; no creator counts were published on fetched pages.",
+    "compensation": "15% on referral sales stated on the official page; no published cap statement, so the cap stays unknown.",
+    "contact_access": "Application runs through the ambassadors page form with a linked support hub; no program email is published on the page.",
+    "opportunity_availability": "Open application via the official page; approval through the Kickbooster platform.",
+    "credibility": "Certified B-Corp and a 2018 & 2019 Inc. 5000 fastest-growing company, per its own page."
+   }
+  }
+ },
+ {
+  "name": "Perfect Keto",
+  "website": "https://perfectketo.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Ketogenic nutrition brand founded in 2016 by Dr. Anthony Gustin, selling exogenous ketones, MCT oil powder, collagen, keto bars and snacks through its own store, with an affiliate program managed on Refersion.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/perfect-keto/",
+    "summary": "Multiple affiliate directories agree the Perfect Keto program pays 15% base commission rising to 20% on performance, with a 30-day cookie and a $50 payout threshold, managed on Refersion (signup portal perfectketo.refersion.com; the brand's own affiliate page is perfectketo.com/new-affiliate/). The 15% base rate is recorded; no cap statement was found on any fetched page, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_directory",
+    "source_url": "https://commission.academy/blog/best-keto-affiliate-programs/",
+    "summary": "Directory coverage describes Perfect Keto actively recruiting keto and low-carb recipe, nutrition and wellness creators, offering free products, custom discount codes, monthly milestone cash rewards and a dedicated affiliate support team; one listing notes the program suits affiliates with at least 5k monthly website views or 10k social followers. No absolute creator counts were published."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 15,
+   "application_url": "https://perfectketo.refersion.com/",
+   "source_url": "https://getlasso.co/affiliate/perfect-keto/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Perfect Keto Affiliate Program (Refersion)",
+   "application_url": "https://perfectketo.refersion.com/",
+   "source_url": "https://getlasso.co/affiliate/perfect-keto/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 16,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A full keto pantry (ketones, MCT, collagen, bars) is a staple category for low-carb recipe and metabolic-health creators.",
+    "ugc_evidence": "Directories consistently describe creator recruitment with free product, custom codes and milestone bonuses; no creator counts were published on fetched pages.",
+    "compensation": "15% base commission rising to 20% on performance, consistently reported across directories; no cap statement found, so the cap stays unknown.",
+    "contact_access": "Signup runs through the Refersion portal linked from the brand's own affiliate page; no public program email was published on fetched pages.",
+    "opportunity_availability": "Application required; one directory notes audience-size guidance (5k monthly views or 10k followers), so availability is scored mid-range.",
+    "credibility": "Founded 2016 by a functional-medicine physician and one of the largest dedicated keto brands, per directory coverage."
+   }
+  }
+ },
+ {
+  "name": "Life Extension",
+  "website": "https://www.lifeextension.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Long-established supplement company and retailer selling its own large line of vitamins, minerals and specialty formulas through its own store, with an affiliate program administered through CJ (Commission Junction).",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.lifeextension.com/aff/faq",
+    "summary": "Life Extension's official affiliate FAQ states: 'Life Extension's Affiliate Program pays affiliates a commission rate of 6% for each sale generated through these affiliate links', with signup via its CJ (Commission Junction) publisher application, monthly CJ payments, no application fee and no minimum sales quota. Its 'How much can I earn?' answer gives no cap figure or no-cap statement, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.lifeextension.com/aff/faq",
+    "summary": "The same FAQ says eligibility requires owning a digital property 'such as a website, an email newsletter, or social media channel' with sufficient audience reach, and that affiliates may reuse the brand's published articles and product images with attribution - a publisher-leaning program that still admits social creators."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": 6,
+   "application_url": "https://www.lifeextension.com/aff/faq",
+   "source_url": "https://www.lifeextension.com/aff/faq",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Life Extension Affiliate Program (CJ)",
+   "application_url": "https://www.lifeextension.com/aff/faq",
+   "source_url": "https://www.lifeextension.com/aff/faq"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "One of the deepest supplement catalogues available, covering almost every health topic a wellness creator covers.",
+    "ugc_evidence": "The program is framed mainly for websites and newsletters, though social channels qualify; no creator counts or creator-specific perks were published on the fetched page.",
+    "compensation": "6% flat on the official FAQ - below most DTC supplement programs; no cap statement published, so the cap stays unknown.",
+    "contact_access": "Application runs through the CJ publisher signup linked from the official FAQ; no direct program email is published.",
+    "opportunity_availability": "Open application via CJ with an eligibility review of the applicant's digital property.",
+    "credibility": "A decades-old, nationally known supplement institution with a large research and publishing operation."
+   }
+  }
+ },
+ {
+  "name": "Tru Niagen",
+  "website": "https://www.truniagen.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "ChromaDex's flagship NAD+ supplement brand (nicotinamide riboside) sold through its own store, with an affiliate program run through Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.truniagen.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://www.truniagen.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.truniagen.com/pages/affiliate-program",
+    "summary": "Tru Niagen's official affiliate page says partners join 'through our Impact affiliate program' by submitting an application and earn 'a commission of up to 10% for all sales', tracked on the Impact dashboard. 'Up to 10%' is a rate ceiling, not a published base rate, so commission_rate is recorded as null with the ceiling documented here. No cap statement appears on the page, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.truniagen.com/pages/affiliate-program",
+    "summary": "The same page frames the program around sharing content ('Share your unique link with engaging content and exclusive offers'), aimed at fans of the product; no creator counts or creator-specific perks were published on the fetched page."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.truniagen.com/pages/affiliate-program",
+   "source_url": "https://www.truniagen.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tru Niagen Affiliate Program (Impact)",
+   "application_url": "https://www.truniagen.com/pages/affiliate-program",
+   "source_url": "https://www.truniagen.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A single-hero-ingredient longevity product is highly content-friendly for ageing-well, energy and cellular-health creators.",
+    "ugc_evidence": "An official partner page built around content sharing and exclusive offers; no creator counts were published on the fetched page.",
+    "compensation": "Only a ceiling is published ('up to 10%'), so the rate is recorded as null and compensation scored on the documented ceiling; no cap statement, so the cap stays unknown.",
+    "contact_access": "Application runs through Impact from the official page; no program email is published.",
+    "opportunity_availability": "Open application via Impact; approval required.",
+    "credibility": "ChromaDex's flagship consumer brand built on patented nicotinamide riboside with extensive published research."
+   }
+  }
+ },
+ {
+  "name": "Legion Athletics",
+  "website": "https://legionathletics.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Science-based sports-nutrition brand selling protein, pre-workout, fat burners and wellness formulas with fully disclosed labels through its own store, with a brand-run affiliate/ambassador application on BrandChamp plus network listings.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://legionathletics.brandchamp.io/apply",
+    "email": null,
+    "source_url": "https://legionathletics.brandchamp.io/apply"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.healthfitnesscoupon.com/deals/legion-athletics/",
+    "summary": "Legion's own site footer 'Affiliates' link leads to a brand-run application at legionathletics.brandchamp.io/apply. Published rates conflict sharply across sources - one directory reports the affiliate page advertising 30%, Lasso lists up to 15%, FlexOffers lists 8% on new-customer and 1.6% on existing-customer sales, and BarBend reports 0.8%-4.8% - so commission_rate is recorded as null with the conflict documented, per the evidence standard. No cap statement was found on any fetched page, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_directory",
+    "source_url": "https://refgrow.com/blog/fitness-affiliate-marketing-programs",
+    "summary": "Directory coverage positions Legion's program squarely at supplement reviewers and physique/fitness creators, with affiliate discount codes widely used across social platforms; no absolute creator counts were published on fetched pages."
+   }
+  ],
+  "affiliate": {
+   "network": "BrandChamp (brand direct)",
+   "commission_rate": null,
+   "application_url": "https://legionathletics.brandchamp.io/apply",
+   "source_url": "https://www.healthfitnesscoupon.com/deals/legion-athletics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Legion Athletics Affiliate / Ambassador Program (BrandChamp)",
+   "application_url": "https://legionathletics.brandchamp.io/apply",
+   "source_url": "https://www.healthfitnesscoupon.com/deals/legion-athletics/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Transparent-label training supplements are core content for physique, strength and supplement-review creators.",
+    "ugc_evidence": "A brand-run creator application and heavy affiliate-code usage across fitness social content; no creator counts were published on fetched pages.",
+    "compensation": "Rates conflict across every published source (30% advertised vs up to 15% vs 8%/1.6% vs 0.8%-4.8%), so the rate is honestly null; no cap statement found, so the cap stays unknown.",
+    "contact_access": "A direct BrandChamp application page is linked from the brand's own site footer; no program email was published on fetched pages.",
+    "opportunity_availability": "Open application through BrandChamp; approval required.",
+    "credibility": "A large, long-running DTC sports-nutrition brand known for full label disclosure."
+   }
+  }
+ },
+ {
+  "name": "Ryze Superfoods",
+  "website": "https://www.ryzesuperfoods.com",
+  "country": null,
+  "category_slug": "food-drink",
+  "description": "Boston-based functional beverage brand best known for its organic mushroom coffee, plus matcha and cocoa blends, sold through its own store with network affiliate listings and a social brand-ambassador track.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-directory/ryze/",
+    "summary": "Directory coverage describes a dual structure: a standard affiliate program via networks (FlexOffers/Sovrn, ~6.4% per FlexOffers with a 30-day cookie) and a Brand Ambassador Program for social influencers. Other third-party posts claim ambassadors earn 15%, which conflicts with the network figure and is not published on a fetched official page, so commission_rate is recorded as null with the conflict documented. No cap statement was found, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-directory/ryze/",
+    "summary": "The same coverage notes the ambassador track is built for social influencers with personal discount codes (15%-off creator codes are widely posted by its affiliates on TikTok and Lemon8) and possible free product; no absolute creator counts were published on fetched pages."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers / Sovrn",
+   "commission_rate": null,
+   "application_url": "https://uppromote.com/affiliate-directory/ryze/",
+   "source_url": "https://uppromote.com/affiliate-directory/ryze/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ryze Superfoods Affiliate & Brand Ambassador Program",
+   "application_url": "https://uppromote.com/affiliate-directory/ryze/",
+   "source_url": "https://uppromote.com/affiliate-directory/ryze/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Mushroom coffee is one of the most demo-friendly morning-routine products for wellness and coffee-alternative creators.",
+    "ugc_evidence": "A distinct ambassador track for social influencers with personal codes, heavily visible in short-form content; no creator counts were published on fetched pages.",
+    "compensation": "Published figures conflict (~6.4% network vs 15% ambassador claims) and no rate is published on a fetched official page, so the rate is honestly null; no cap statement found.",
+    "contact_access": "Routes run through network dashboards and directory listings; no public program email or official program page was fetched.",
+    "opportunity_availability": "Network signup is open; the ambassador track is application-based.",
+    "credibility": "A well-known, fast-growing mushroom-coffee brand founded by Harvard graduates in Boston, per directory coverage."
+   }
+  }
+ },
+ {
+  "name": "Sunfood Superfoods",
+  "website": "https://www.sunfood.com",
+  "country": null,
+  "category_slug": "food-drink",
+  "description": "Raw, organic superfood retailer operating since 1995, selling superfood powders, snacks, nuts, oils and supplements through its own store, with an affiliate program managed through CJ (Commission Junction).",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/sunfood/",
+    "summary": "Multiple directories report Sunfood's affiliate program is managed by CJ Affiliates (Commission Junction) with commissions published only as a 10%-20% per-sale range and monthly payments; no single base rate is published on any fetched page, so commission_rate is recorded as null with the range documented. No cap statement was found, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_directory",
+    "source_url": "https://makethatseachange.com/health-food-affiliate-programs/",
+    "summary": "Health-food affiliate roundups list Sunfood among established organic-food programs promoted by wellness bloggers and recipe creators, with banners and text links supplied through CJ; no absolute creator counts were published on fetched pages."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": null,
+   "application_url": "https://signup.cj.com/member/signup/publisher/?cid=2456107",
+   "source_url": "https://getlasso.co/affiliate/sunfood/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Sunfood Superfoods Affiliate Program (CJ)",
+   "application_url": "https://signup.cj.com/member/signup/publisher/?cid=2456107",
+   "source_url": "https://getlasso.co/affiliate/sunfood/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A deep raw/organic superfood catalogue (powders, snacks, oils) suits plant-based recipe and pantry-content creators.",
+    "ugc_evidence": "A long-listed publisher program in health-food roundups; no creator-specific program page or creator counts were published on fetched pages.",
+    "compensation": "Only a 10%-20% range is published across directories with no base rate, so the rate is honestly null; no cap statement found, so the cap stays unknown.",
+    "contact_access": "Contact runs through the CJ publisher dashboard; no public program email was published on fetched pages.",
+    "opportunity_availability": "Application through CJ required, with advertiser approval.",
+    "credibility": "Operating since 1995 and one of the original US superfood retailers, per directory coverage."
+   }
+  }
+ }
+]

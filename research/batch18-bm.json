@@ -1,0 +1,618 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.stylevana.com/en_US/creators/view/join",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "In-house (VANA Family Creator Program, own site)",
+   "source_url": "https://www.stylevana.com/en_US/creators/view/join"
+  },
+  "category_slug": "beauty",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "creator_application",
+    "email": null,
+    "notes": "Creators apply on the brand's own VANA Family join page; a public TikTok, Instagram or YouTube account is required and the discount code is activated within about 4 hours of registration.",
+    "url": "https://www.stylevana.com/en_US/creators/view/join"
+   }
+  ],
+  "country": null,
+  "description": "Hong Kong-based Asian beauty and fashion retailer running its own VANA Family (VANATeam) Creator Program on its own site: creators get a unique discount code, earn commission on every sale made with it, progress through Glow/Radiance/Vibrance/Aurora tiers, receive a free Welcome Box of best-selling K-beauty products, and cash out via PayPal at a US$30 threshold.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.stylevana.com/en_US/creators/view/join",
+    "summary": "STYLEVANA's official VANA Family join page describes its own Influencer/Creator Program: applicants need an active public TikTok, Instagram or YouTube account; creators receive a unique discount code and earn commission on every sale made with it across four tiers (Glow, Radiance, Vibrance, Aurora), each displaying a 5% commission rate on returning-customer orders; commissions are redeemed monthly via PayPal once earnings reach US$30, and new creators can claim a free Welcome Box of K-beauty products. The program's own Terms & Conditions state the exact commission percentage is not fixed: it is dynamic, set by creator tier and by new-vs-returning order type, and shown in the creator dashboard."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://www.stylevana.com/en_US/creators/view/join",
+    "summary": "The official program FAQ answers the earnings-limit question directly: 'Is there a maximum amount I can earn? No, there is no maximum limit on how much you can earn through our Creator Program... allowing for limitless potential!' — an explicit no-cap statement on the brand's own page, so commission_cap is recorded as uncapped. Separately, the US$100/month maximum on the page applies only to creator-referral bonuses (US$10 per referred creator), not to sales commission. No absolute creator counts are published, so creator_saturation stays unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "directory",
+    "source_url": "https://getlasso.co/affiliate/stylevana-us/",
+    "summary": "Third-party figures for Stylevana's separate network affiliate listings conflict with each other and with the creator program's dynamic structure: Lasso lists a Stylevana (US) affiliate program at 10% with a 60-day cookie, LinkApprove reports about 2.7% on a 30-day cookie, and Shopper lists up to 5%. Because the brand's own terms state the creator-program rate is not fixed and directory figures conflict, commission_rate is recorded as null."
+   }
+  ],
+  "name": "Stylevana",
+  "opportunity": {
+   "application_url": "https://www.stylevana.com/en_US/creators/view/join",
+   "compensation_notes": "Commission rate left null: the brand's own terms say the percentage is dynamic (by tier and order type) rather than fixed, the tier cards display 5%, and third-party network listings conflict (10% / about 2.7% / up to 5%). Earnings are explicitly uncapped per the official FAQ (the US$100/month cap applies only to referral bonuses). PayPal payout at US$30, redeemed monthly on the 5th.",
+   "description": "Open creator enrollment on the brand's own site: apply with a public TikTok/Instagram/YouTube account, get a discount code activated within about 4 hours, earn on every code sale, claim a free Welcome Box, and progress through four tiers with a creator dashboard.",
+   "status": "unverified",
+   "title": "Stylevana VANA Family Creator Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Earnings are explicitly uncapped in the brand's own FAQ, but the commission percentage is dynamic and unsettleable from published sources (rate null), which keeps compensation below top tier.",
+    "contact_access": "Full program page, FAQ and terms on the brand's own domain with self-serve sign-up; no public partnerships email.",
+    "credibility": "Large, long-running Asian beauty retailer (founded 2015 era, global storefronts) with complete published program terms.",
+    "niche_fit": "One of the biggest K-beauty/Asian beauty storefronts — thousands of skincare and makeup products of UGC material.",
+    "opportunity_availability": "Open enrollment with code activation in about 4 hours; requires a public TikTok, Instagram or YouTube account and a PayPal-supported country.",
+    "ugc_evidence": "A dedicated creator program built for social creators: discount codes, tier progression, free Welcome Box product, a creator dashboard and an explicit content-posting framework."
+   },
+   "ugc_evidence": 17
+  },
+  "socials": [],
+  "website": "https://www.stylevana.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://kossma.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "In-house (own program)",
+   "source_url": "https://kossma.com/pages/affiliates"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "creator_application",
+    "email": null,
+    "notes": "Affiliate details and sign-up are on the brand's own Affiliates page; no public partnerships email is published.",
+    "url": "https://kossma.com/pages/affiliates"
+   }
+  ],
+  "country": null,
+  "description": "US indie 'PUFA-aware' clean skincare brand (formulated without high-PUFA seed oils or essential oils, with an 80% return-customer rate claimed on its own site) running its own affiliate program: 20% commission on every sale, with digital marketing assets, sales and story-selling education, a private affiliate community and marketing-team support.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://kossma.com/pages/affiliates",
+    "summary": "Kossma's official Affiliates page states affiliates earn 20% commission on every sale they generate, and lists the program benefits: digital marketing assets and ready-to-use content, sales and social media education, story-selling and email marketing training, access to a private affiliate community, and ongoing support from the Kossma marketing team. The page also cites an 80% return customer rate and thousands of customer reviews as social proof."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://kossma.com/pages/affiliates",
+    "summary": "The brand's affiliate page contains no statement about an earnings cap or limit, so commission_cap is recorded as unknown (not uncapped). No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "name": "Kossma Beauty",
+  "opportunity": {
+   "application_url": "https://kossma.com/pages/affiliates",
+   "compensation_notes": "20% commission on every sale, published on the brand's own affiliate page. No cap statement published (unknown).",
+   "description": "Own-program affiliate enrollment from the brand's Affiliates page: 20% on every sale plus marketing assets, sales/story-selling training, a private affiliate community and team support.",
+   "status": "unverified",
+   "title": "Kossma Beauty Affiliate Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 17,
+   "contact_access": 9,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A clean, high 20% on every sale published on the brand's own page; no cap statement, so not top-scored.",
+    "contact_access": "Program page and sign-up on the brand's own site; no public email.",
+    "credibility": "Small indie brand; loyalty claims (80% return rate) are the brand's own and unverified independently.",
+    "niche_fit": "Distinctive clean-skincare angle (PUFA-aware, tallow-inclusive formulas) that gives creators a fresh story in a repetitive niche.",
+    "opportunity_availability": "Program page is live and recruiting; approval process and cookie terms are not published.",
+    "ugc_evidence": "Program supplies ready-to-use content, story-selling training and a private community — creator-oriented, though framed for affiliates generally rather than UGC specifically."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://kossma.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 12,
+   "creator_saturation": "unknown",
+   "network": "In-house (own program)",
+   "source_url": "https://getlasso.co/affiliate/wishtrend/"
+  },
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": null,
+  "description": "Korean beauty retailer (home of Dear, Klairs, I'm From and By Wishtrend) running its own affiliate program: two independent affiliate directories agree on a 12% commission with a long 60-day cookie, aimed at skincare bloggers and K-beauty creators.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory",
+    "source_url": "https://getlasso.co/affiliate/wishtrend/",
+    "summary": "Lasso's Wishtrend affiliate program listing reports a 12% commission per sale with a 60-day cookie duration, and describes the program as a favorite of skincare bloggers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory",
+    "source_url": "https://amalinkspro.com/best-affiliate-programs-beginners/wishtrend/",
+    "summary": "AmalinksPro's Wishtrend listing independently reports the same terms — 12% commission per sale and a 60-day cookie — corroborating the rate. No source publishes an earnings-cap statement (cap unknown) or absolute creator counts (saturation unknown)."
+   }
+  ],
+  "name": "Wishtrend",
+  "opportunity": {
+   "application_url": null,
+   "compensation_notes": "12% per sale with a 60-day cookie, agreed by two independent directories (Lasso and AmalinksPro). No cap statement found (unknown).",
+   "description": "Affiliate enrollment runs through Wishtrend's own program; the retailer's K-beauty catalog (Klairs, I'm From, By Wishtrend and more) is staple skincare-review material with a long 60-day attribution window.",
+   "status": "unverified",
+   "title": "Wishtrend Affiliate Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Solid 12% with an unusually long 60-day cookie, corroborated by two directories; no cap statement published.",
+    "contact_access": "No public partnerships email or official program page surfaced; enrollment is via the brand's own program route.",
+    "credibility": "Established K-beauty retailer and brand owner (Dear, Klairs, By Wishtrend) with a long operating history.",
+    "niche_fit": "Curated K-beauty skincare retailer — core UGC territory for routine and ingredient content.",
+    "opportunity_availability": "Program is listed as live by two directories; approval terms are not published.",
+    "ugc_evidence": "Program is used by skincare bloggers per directory reporting; no dedicated creator/UGC offer is published by the brand."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.wishtrend.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/100463/commission-groups",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/100463/commission-groups"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "partnerships",
+    "email": "amanda@ptrnbrands.com",
+    "notes": "Named on PRAI Beauty's Awin (US) merchant profile: 'For custom opportunities, please contact amanda@ptrnbrands.com'. The Awin UK profile separately lists lfentiman@praibeauty.com.",
+    "url": "https://ui.awin.com/merchant-profile/100463/commission-groups"
+   }
+  ],
+  "country": null,
+  "description": "Pro-aging skincare brand for women over 50 (HSN-born, known for neck and décolletage care) running its affiliate program on Awin: the network's own merchant profile publishes a 10% base commission, explicitly welcomes content creators and influencers, and names a partnerships contact for custom opportunities.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/100463/commission-groups",
+    "summary": "Awin's merchant profile for the PRAI Beauty (US) affiliate program publishes the commission structure: 10% base commission on all eligible sales (full-priced products and value bundles/sets; not gift cards, shipping or taxes), with higher tiers for strong performance and new-customer volume, exclusive codes for select partners, and commission boosts during promotional windows. The profile states 'We're excited to partner with content creators, editorial publishers, loyalty partners, and performance affiliates' and names amanda@ptrnbrands.com for custom opportunities. Applications are reviewed and can be declined."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/68816",
+    "summary": "Awin's PRAI Beauty UK merchant profile publishes a regional rate card — baseline 5%, content/editorial/blogger/influencer affiliates 8%, voucher-code affiliates 1%, cashback 3% — confirming the program actively courts influencer affiliates; the US profile's 10% base is the rate recorded for this US-focused directory. Neither profile publishes an earnings-cap statement (cap unknown) or creator counts (saturation unknown)."
+   }
+  ],
+  "name": "PRAI Beauty",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/100463/commission-groups",
+   "compensation_notes": "10% base commission on eligible sales, published on Awin's US merchant profile; higher tiers and promotional boosts available. UK profile publishes a different regional card (influencer tier 8%). No cap statement found (unknown).",
+   "description": "Creators apply via PRAI Beauty's merchant profile on Awin; the profile explicitly welcomes content creators, offers exclusive codes to select partners, and names a direct contact for custom opportunities.",
+   "status": "unverified",
+   "title": "PRAI Beauty Affiliate Program (Awin)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% base on the network's own profile with higher tiers and boost windows; no cap statement.",
+    "contact_access": "A named partnerships email is published on the Awin profile for custom opportunities — rare direct access.",
+    "credibility": "HSN-built brand with a loyal mature-skincare customer base and published network terms.",
+    "niche_fit": "Focused pro-aging skincare (neck/firming hero products) — a defined, underserved UGC niche (50+ creators).",
+    "opportunity_availability": "Program live on Awin with published terms; applications are reviewed and may be declined for brand fit.",
+    "ugc_evidence": "The Awin profile explicitly recruits content creators and influencers and offers exclusive codes and custom landing pages on request."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://praibeauty.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.influencerrate.com/affiliate-program/kosas"
+  },
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": null,
+  "description": "Clean makeup-skincare hybrid brand (tinted face oils, concealers, lip products with skincare ingredients) running its affiliate program through the Impact network, reported at 10% commission with a 30-day cookie and monthly PayPal payouts.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory",
+    "source_url": "https://www.influencerrate.com/affiliate-program/kosas",
+    "summary": "InfluencerRate's Kosas affiliate program review reports a 10% commission per sale, a 30-day cookie, monthly payouts via PayPal, tracking through Impact Radius, and approval typically within 24-48 hours; the program targets influencers, bloggers and content creators."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affililist.com/affiliate/kosas",
+    "summary": "AffiliList's Kosas listing confirms the program is managed through the Impact Radius network and provides promotional resources and launch updates to partners. No source publishes an earnings-cap statement (cap unknown) or absolute creator counts (saturation unknown)."
+   }
+  ],
+  "name": "Kosas",
+  "opportunity": {
+   "application_url": null,
+   "compensation_notes": "10% per sale with a 30-day cookie and monthly PayPal payouts, per InfluencerRate's program review; the Impact network route is corroborated by AffiliList. No cap statement found (unknown).",
+   "description": "Creators apply to Kosas's advertiser program inside the Impact dashboard; the brand's makeup-with-skincare-ingredients positioning is strong tutorial and review material, with Sephora retail presence supporting conversion.",
+   "status": "unverified",
+   "title": "Kosas Affiliate Program (Impact)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Clean published 10% with a 30-day cookie from a detailed program review; single-source rate keeps it below top tier.",
+    "contact_access": "Application and management via the Impact dashboard; no public partnerships email found.",
+    "credibility": "Major clean-beauty brand with national Sephora distribution and a long track record.",
+    "niche_fit": "Makeup-skincare hybrids are core beauty UGC — tint, concealer and lip content all fit.",
+    "opportunity_availability": "Program live on Impact with reported 24-48 hour application turnaround.",
+    "ugc_evidence": "Program targets influencers and creators per directory reporting and supplies promotional resources; no separate UGC offer published."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://kosas.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://getlasso.co/affiliate/true-botanicals/"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": null,
+  "description": "Premium clean skincare brand (clinically tested natural formulas, celebrity-founded profile) running its affiliate program through Impact: directory reporting and a second listing agree on a 5% commission, with a short 15-day cookie.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory",
+    "source_url": "https://getlasso.co/affiliate/true-botanicals/",
+    "summary": "Lasso's True Botanicals affiliate program listing reports a 5% commission per sale with a 15-day cookie duration, and its join link routes to the program's application on app.impact.com, confirming the program runs through the Impact network."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory",
+    "source_url": "https://www.shopper.com/partnerships/truebotanicals-com-affiliate-program",
+    "summary": "Shopper's True Botanicals listing reports a payout rate of up to 5.04% per sale, corroborating the ~5% level. No source publishes an earnings-cap statement (cap unknown) or absolute creator counts (saturation unknown)."
+   }
+  ],
+  "name": "True Botanicals",
+  "opportunity": {
+   "application_url": null,
+   "compensation_notes": "5% per sale (Lasso; Shopper corroborates at up to 5.04%) with a short 15-day cookie. No cap statement found (unknown).",
+   "description": "Creators apply to True Botanicals' advertiser program inside the Impact dashboard; premium price points partly offset the modest rate and short cookie for routine and review content.",
+   "status": "unverified",
+   "title": "True Botanicals Affiliate Program (Impact)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Only 5% with a short 15-day cookie, though premium basket sizes help; rate corroborated by two listings.",
+    "contact_access": "Application and management via the Impact dashboard; no public partnerships email found.",
+    "credibility": "Well-established premium clean-skincare brand with clinical testing claims and national recognition.",
+    "niche_fit": "Premium natural skincare serums and oils — a strong fit for skincare routine content.",
+    "opportunity_availability": "Program live on Impact; approval at the brand's discretion.",
+    "ugc_evidence": "A live network affiliate program used by skincare bloggers; no creator-specific UGC offer published."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://truebotanicals.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/prose/"
+  },
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": null,
+  "description": "Custom haircare brand (made-to-order shampoo, conditioner and masks built from an online consultation) running its affiliate program through Impact; published rate figures conflict sharply across directories, so the rate is recorded as null.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory",
+    "source_url": "https://linkclicky.com/affiliate-program/prose/",
+    "summary": "LinkClicky's Prose affiliate program listing states the program runs on the Impact platform and reports a 12% commission per sale for the personalized haircare brand."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "directory",
+    "source_url": "https://www.shopper.com/partnerships/prose-com-affiliate-program",
+    "summary": "Shopper's Prose listing reports a payout rate of only 3% per sale, directly conflicting with LinkClicky's 12% Impact figure. Because published sources conflict and the brand publishes no rate itself, commission_rate is recorded as null. No source publishes an earnings-cap statement (cap unknown) or absolute creator counts (saturation unknown)."
+   }
+  ],
+  "name": "Prose",
+  "opportunity": {
+   "application_url": null,
+   "compensation_notes": "Rate left null: directories conflict (12% per LinkClicky vs 3% per Shopper) and the brand publishes none. Confirm the live rate inside Impact before pitching. No cap statement found (unknown).",
+   "description": "Creators apply to Prose's advertiser program inside the Impact dashboard; the consultation-to-custom-formula story gives hair creators distinctive content angles.",
+   "status": "unverified",
+   "title": "Prose Affiliate Program (Impact)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Rate unsettleable across conflicting directory figures (12% vs 3%) and unpublished by the brand, so the rate is null.",
+    "contact_access": "Application and management via the Impact dashboard; no public partnerships email found.",
+    "credibility": "Well-funded, nationally known custom haircare brand with years of operating history.",
+    "niche_fit": "Personalized haircare is a proven UGC format (consultation, unboxing, before/after routines).",
+    "opportunity_availability": "Program live on Impact; approval at the brand's discretion.",
+    "ugc_evidence": "Live network affiliate program; no creator-specific UGC offer published by the brand."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://prose.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/63156",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/63156"
+  },
+  "category_slug": "beauty",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "creator_application",
+    "email": null,
+    "notes": "Affiliate applications are handled through YesStyle's merchant profile on Awin; no public partnerships email is published.",
+    "url": "https://ui.awin.com/merchant-profile/63156"
+   }
+  ],
+  "country": null,
+  "description": "One of the largest online Asian beauty and fashion retailers (800+ beauty brands, 11M+ monthly customers per its Awin profile) running its affiliate program on Awin with a published tiered commission structure — maximum 10% for social influencers and review/content sites, 15% for invitation-only KOLs — plus a separate in-house influencer code program.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/63156",
+    "summary": "Awin's official merchant profile for the YesStyle Affiliate Program publishes the full commission structure: KOL (invitation-only) maximum 15%; Social Influencers maximum 10%; Review Sites maximum 10%; Blogs and Content Sites maximum 10%; sub-affiliate networks maximum 5%; cashback/coupon sites maximum 2% (new customers only). The profile also publishes a 30-day cookie period, a product feed and creatives, and a weekly affiliate newsletter. Because the published figures are category maxima rather than a single rate, commission_rate is recorded as null."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "directory",
+    "source_url": "https://getlasso.co/affiliate/yesstyle-us-global/",
+    "summary": "Directory figures for YesStyle vary widely — Lasso lists 1.6% per sale and LinkApprove about 1% — reflecting realized blended rates rather than the Awin profile's category maxima; neither matches a single publishable rate, reinforcing the null recording. No source publishes an earnings-cap statement (cap unknown) or absolute creator counts (saturation unknown)."
+   }
+  ],
+  "name": "YesStyle",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/63156",
+   "compensation_notes": "Rate left null: Awin's profile publishes category maxima (social influencers up to 10%, invitation-only KOLs up to 15%, cashback up to 2%) rather than one rate, and directory blended figures (about 1-1.6%) differ. Confirm your category rate inside Awin. 30-day cookie. No cap statement found (unknown).",
+   "description": "Creators apply via YesStyle's merchant profile on Awin — the profile has a dedicated Social Influencers category (max 10%) — giving access to 800+ Asian beauty brands of haul and review material.",
+   "status": "unverified",
+   "title": "YesStyle Affiliate Program (Awin)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Only category maxima are published (influencers up to 10%) and realized directory figures are far lower, so the rate is honestly null.",
+    "contact_access": "Application via the Awin merchant profile; no public partnerships email.",
+    "credibility": "One of the largest Asian beauty retailers globally, operating since 2006 per its Awin profile.",
+    "niche_fit": "800+ Asian beauty brands in one storefront — endless K-beauty haul and review material.",
+    "opportunity_availability": "Program live on Awin with a published 30-day cookie; the top KOL tier is invitation-only.",
+    "ugc_evidence": "The Awin structure has a dedicated Social Influencers category, and the retailer also runs an influencer code program — direct creator routes exist."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.yesstyle.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising",
+   "source_url": "https://whopaysinfluencers.com/brands/beauty/"
+  },
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": null,
+  "description": "Rihanna's LVMH/Kendo beauty brand (inclusive complexion shades, viral lip products, plus Fenty Skin) running its affiliate program through Rakuten Advertising; published rate figures conflict across directories and the brand publishes none itself.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory",
+    "source_url": "https://whopaysinfluencers.com/brands/beauty/",
+    "summary": "WhoPaysInfluencers' makeup ambassador listing records Fenty Beauty's route as 'Brand Ambassador (affiliate sign-up via Rakuten Advertising)' with no rate published by the brand."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "directory",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare",
+    "summary": "Published Fenty Beauty rates conflict: LinkApprove lists 8% per sale with a 30-day cookie, CommissionDex's Rakuten listing reports 5-8%, Brandid reports about 5%, and UpPromote's directory reports a 4-10% range depending on network. Because the figures conflict and the brand publishes none, commission_rate is recorded as null. No source publishes an earnings-cap statement (cap unknown) or absolute creator counts (saturation unknown)."
+   }
+  ],
+  "name": "Fenty Beauty",
+  "opportunity": {
+   "application_url": null,
+   "compensation_notes": "Rate left null: directories conflict (about 5% to 8%, ranges up to 4-10% by network) and the brand publishes none. Confirm the live rate inside Rakuten. No cap statement found (unknown).",
+   "description": "Creators apply to Fenty Beauty's advertiser program inside the Rakuten Advertising dashboard; shade-inclusive complexion and viral lip products are perennial UGC review material.",
+   "status": "unverified",
+   "title": "Fenty Beauty Affiliate Program (Rakuten Advertising)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published rates conflict across directories (about 5-8%, wider ranges by network) and the brand publishes none, so the rate is null.",
+    "contact_access": "Application and management via the Rakuten dashboard; no public partnerships email found.",
+    "credibility": "LVMH/Kendo flagship brand founded by Rihanna; maximum brand credibility and cultural pull.",
+    "niche_fit": "Shade-inclusive complexion and viral color products — a core beauty UGC fit across demographics.",
+    "opportunity_availability": "Program live on Rakuten; terms vary by network and region and approval is at the brand's discretion.",
+    "ugc_evidence": "An established network affiliate program used by beauty publishers; no dedicated UGC offer published by the brand."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://fentybeauty.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Sovrn Commerce",
+   "source_url": "https://merchants.sovrn.com/merchants/80048/elemis-com-affiliate-program"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": null,
+  "description": "British premium skincare brand (Pro-Collagen range, spa heritage, owned by the L'Occitane Group) with affiliate listings through Sovrn Commerce and its own Skinsiders social affiliate program — an application-based creator community built into its website, powered by Duel, with personal codes and always-on commission.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://merchants.sovrn.com/merchants/80048/elemis-com-affiliate-program",
+    "summary": "Sovrn Commerce's merchant page for elemis.com confirms an affiliate program with a 30-day cookie; specific commission details are available only inside the Sovrn dashboard after joining."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "directory",
+    "source_url": "https://www.duel.tech/case-studies/elemis",
+    "summary": "Duel's case study describes ELEMIS's own Skinsiders social affiliate program: an exclusive, application-based program built into the ELEMIS website where members create and share content for rewards, with a tiered gamified system, personal codes and always-on commission opportunities; it reports 2,120 program members and GBP 261k referral revenue from Nov 2022 to Sep 2023. A member base in the thousands is far above the ~100-creator low-saturation bar, so creator_saturation stays unknown rather than low."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "directory",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare",
+    "summary": "Published Elemis rates conflict: LinkApprove lists up to 10% per sale, Lasso lists up to 15%, Shopper lists 5-10%, and Lasso's AU listing reports 7%. Because the figures conflict and neither the brand nor Sovrn publishes one, commission_rate is recorded as null. No source publishes an earnings-cap statement (cap unknown)."
+   }
+  ],
+  "name": "Elemis",
+  "opportunity": {
+   "application_url": null,
+   "compensation_notes": "Rate left null: listings conflict (up to 10% LinkApprove, up to 15% Lasso, 5-10% Shopper, 7% AU) and Sovrn publishes none outside its dashboard. The brand's own Skinsiders program offers personal-code commission on application. No cap statement found (unknown).",
+   "description": "Two routes: apply to the elemis.com program inside Sovrn Commerce, or apply to the brand's own Skinsiders social affiliate program on its website for personal codes and tiered creator rewards.",
+   "status": "unverified",
+   "title": "Elemis Affiliate Program (Sovrn) + Skinsiders Social Affiliate Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published rates conflict across every listing (5-15%) and no official figure exists, so the rate is null.",
+    "contact_access": "Access via the Sovrn dashboard or the on-site Skinsiders application; no public partnerships email found.",
+    "credibility": "L'Occitane Group premium brand with decades of spa and retail history.",
+    "niche_fit": "Premium anti-aging skincare staples (cleansing balm, Pro-Collagen) — strong routine and review content fit.",
+    "opportunity_availability": "Network program live on Sovrn; the Skinsiders creator program is application-based and selective.",
+    "ugc_evidence": "Skinsiders is a purpose-built social affiliate program for content creators with personal codes and tiered rewards — direct UGC evidence, though its reported 2,120 members rule out a low-saturation claim."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.elemis.com"
+ }
+]

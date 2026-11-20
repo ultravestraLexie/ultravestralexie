@@ -1,0 +1,537 @@
+[
+  {
+    "name": "World Nomads",
+    "website": "https://www.worldnomads.com",
+    "country": null,
+    "category_slug": "travel",
+    "description": "Travel insurance brand built for adventurous travellers, covering 150+ adventure activities with policies that can be bought even after a trip has started. Its own Partners Network pays affiliates 10% for every referred insurance sale and states explicitly that earnings are not capped, with a 60-day cookie and monthly payments.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://partner.worldnomads.com/partnerpublic/frequently-asked-questions",
+        "summary": "Official Partners Network FAQ, 'How much commission will I earn?': 'As an affiliate you will receive 10% for every sale that you refer to us. We don't cap your earnings so how much you make is completely up to you.'"
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://partner.worldnomads.com/partnerpublic/frequently-asked-questions",
+        "summary": "Program mechanics on the official FAQ: applications are assessed within 5 working days; a unique affiliate code sets a 60-day cookie; partners are paid monthly by PayPal or bank transfer once the balance reaches the $250 minimum threshold; the FAQ notes the network has more than 3,000 partners."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "third_party_directory",
+        "source_url": "https://atlas.hellosafe.com/travel-insurance-affiliate-program/best-programs/",
+        "summary": "Third-party comparisons report a much larger affiliate footprint (one cites 13,000+ affiliates) and a separate CJ channel paying $0.83 per lead/quote instead of 10% of sale; the 10% uncapped terms recorded here are the brand's own Partners Network terms, and with partner counts in the thousands the saturation is not low, so it stays unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 10,
+      "application_url": "https://partner.worldnomads.com/",
+      "source_url": "https://partner.worldnomads.com/partnerpublic/frequently-asked-questions",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://partner.worldnomads.com/",
+      "source_url": "https://partner.worldnomads.com/partnerpublic/frequently-asked-questions",
+      "title": "World Nomads Partners Network"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 15,
+      "compensation": 16,
+      "contact_access": 5,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "compensation": "10% of every referred sale with an explicit 'We don't cap your earnings' statement on the brand's own FAQ; held below maximum because the payout threshold is a high $250.",
+        "contact_access": "No partnerships email is published on the partner pages; contact runs through the partner account after application.",
+        "credibility": "One of the longest-running travel-insurance affiliate programs (operating since the early 2000s) with fully published partner terms on its own partner site.",
+        "niche_fit": "Adventure-travel insurance is a natural, repeatable recommendation for travel creators, and policies can even be bought mid-trip.",
+        "opportunity_availability": "Open online application on the partner site, assessed within 5 working days.",
+        "ugc_evidence": "The program is built around referral links and supplied content for partner websites and is widely used by travel bloggers; partner counts are in the thousands, so saturation is not low and stays unknown."
+      }
+    }
+  },
+  {
+    "name": "Tiqets",
+    "website": "https://www.tiqets.com",
+    "country": "Netherlands",
+    "category_slug": "travel",
+    "description": "Booking platform for museums, attractions and experiences worldwide, run by Amsterdam-based Tiqets International B.V. Its affiliate program on Awin pays commission on the total booking value - 6% for content sites - with a 30-day cookie and a published affiliate support email.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "awinpartners@tiqets.com",
+        "source_url": "https://ui.awin.com/merchant-profile/12428?setLocale=sv_SE"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "network_profile",
+        "source_url": "https://ui.awin.com/merchant-profile/12428?setLocale=sv_SE",
+        "summary": "Tiqets' own Awin merchant profile: commission is calculated on the total booking value - Voucher/Coupon sites 4%, Cashback sites 5%, Other sites 6% - with a 30-day cookie; a small set of named products (e.g. a Colosseum reserved-entrance product) is fixed at 3%, and Europa Park pays no cashback commission."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "network_profile",
+        "source_url": "https://ui.awin.com/merchant-profile/12428?setLocale=sv_SE",
+        "summary": "The Awin profile publishes a direct support contact for affiliates: 'The email awinpartners@tiqets.com is available to support you for any demands, needs, or issues you encounter with us.' No earnings-cap statement appears on the profile, so the cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "third_party_directory",
+        "source_url": "https://www.travelpayouts.com/blog/tiqets-affiliate-program/",
+        "summary": "A separate Travelpayouts channel lists Tiqets at 8% of the booking price, which differs from the 6% content-site rate on the brand's own Awin profile; the Awin profile rate is the one recorded here."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 6,
+      "application_url": "https://ui.awin.com/merchant-profile/12428?setLocale=sv_SE",
+      "source_url": "https://ui.awin.com/merchant-profile/12428?setLocale=sv_SE",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/12428?setLocale=sv_SE",
+      "source_url": "https://ui.awin.com/merchant-profile/12428?setLocale=sv_SE",
+      "title": "Tiqets Affiliate Program (Awin)"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 12,
+      "compensation": 11,
+      "contact_access": 11,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "compensation": "6% of total booking value for content sites via Awin (4-5% for voucher/cashback, a few products fixed at 3%); no cap statement is published, so the cap is unknown.",
+        "contact_access": "A named affiliate support email (awinpartners@tiqets.com) is published on the brand's Awin profile.",
+        "credibility": "Established global attractions platform running a documented program on Awin, a major network, with written partner terms.",
+        "niche_fit": "Museum and attraction tickets in cities worldwide slot directly into travel itineraries and city-guide content.",
+        "opportunity_availability": "Joinable through the Awin merchant profile; the brand reviews applications and not all sites are accepted.",
+        "ugc_evidence": "The program recruits content publishers across blogs, social media and newsletters; no creator counts are published, so saturation stays unknown."
+      }
+    }
+  },
+  {
+    "name": "Peek Apparel",
+    "website": "https://peek-apparel.com",
+    "country": null,
+    "category_slug": "fitness",
+    "description": "Fitness apparel brand whose creator program, Beyond Peek, pays fitness creators a starting 10% commission that climbs through six permanent tiers to 30% as their 'Momentum' grows. The program is free to join, pays monthly, lets creators cash out from $10, and provides a personal discount code, dashboard and creative kit.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://beyond.peek-apparel.com/",
+        "summary": "Official program page: 'Peek pays fitness creators up to 30% on every sale, and your rate climbs as you do. Permanent tiers, monthly payouts, no quotas.' The six published tiers are Affiliate 10%, Advocate 14%, Insider 18%, Leader 22%, Partner 26% and Visionary 30%, earned on 'Momentum' and never reset; joining costs $0 and cash-out starts at $10."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://beyond.peek-apparel.com/",
+        "summary": "Program mechanics on the official page: creators claim a personal discount code, share it in posts, stories and link-in-bio, and track every sale, commission and payout in a live wallet/dashboard with a kit of ready creatives; Insider tier and above includes a full kit refresh every season."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://beyond.peek-apparel.com/",
+        "summary": "No earnings-cap statement is published anywhere on the program page - its 'no quotas' wording is about posting quotas, not an earnings limit - so the commission cap is recorded as unknown rather than inferred from the 30% top tier."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 10,
+      "application_url": "https://beyond.peek-apparel.com/",
+      "source_url": "https://beyond.peek-apparel.com/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://beyond.peek-apparel.com/",
+      "source_url": "https://beyond.peek-apparel.com/",
+      "title": "Beyond Peek Creator Program"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 18,
+      "compensation": 15,
+      "contact_access": 4,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "compensation": "10% starting commission rising permanently to 30% at the top tier, with monthly payouts and a low $10 cash-out; no cap statement is published, so the cap is unknown.",
+        "contact_access": "No email or named contact is published on the program page; everything runs through the creator dashboard.",
+        "credibility": "A young, small apparel brand; the program terms are fully published on its own portal, but there is little independent track record.",
+        "niche_fit": "Training apparel made for fitness creators to wear and demo in their own workout content.",
+        "opportunity_availability": "Open self-serve signup on the program portal with a code issued after a quick uniqueness check.",
+        "ugc_evidence": "The program is explicitly built for fitness creators - personal codes for posts and stories, a creative kit and seasonal kit refreshes; no creator counts are published, so saturation stays unknown."
+      }
+    }
+  },
+  {
+    "name": "Civitatis",
+    "website": "https://www.civitatis.com",
+    "country": "Spain",
+    "category_slug": "travel",
+    "description": "Madrid-based marketplace for guided tours, activities, excursions and airport transfers in major cities worldwide, serving over 11.2 million customers a year. Its in-house affiliates programme pays 8-10% commission depending on monthly sales volume, plus a fixed EUR 1 per free-tour participant, and deliberately runs without affiliate networks.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.civitatis.com/en/affiliates/",
+        "summary": "Official affiliates FAQ: 'We offer between 8% and 10% commission on each sale, depending on the monthly volume of sales. And we offer a fixed commission of EUR 1 per free tour participant.' Commission is paid monthly on the previous month's completed activities, via bank transfer or PayPal; average sale is over EUR 100."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.civitatis.com/en/affiliates/affiliate-program-general-conditions/",
+        "summary": "The programme's General Conditions set the volume tiers: 8% on monthly sales under EUR 1,000, 9% from EUR 1,000 to 5,000, and 10% above EUR 5,000, recalculated monthly; the affiliates page adds a 30-day cookie and states 'we don't work with intermediates or affiliation networks' - the programme is brand-direct only. No earnings-cap statement is published, so the cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.civitatis.com/en/affiliates/",
+        "summary": "Eligibility caveat on the official page: 'To take part in our affiliates programme you must have a web page or blog related in some way to travel... We currently don't work with partners who rely solely on social networks.' Affiliates get a dedicated affiliates team, widgets, banners and an optional API."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 8,
+      "application_url": "https://www.civitatis.com/en/affiliates/",
+      "source_url": "https://www.civitatis.com/en/affiliates/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://www.civitatis.com/en/affiliates/",
+      "source_url": "https://www.civitatis.com/en/affiliates/",
+      "title": "Civitatis Affiliates Programme"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 12,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "compensation": "8% starting commission rising to 10% at higher monthly volumes, plus EUR 1 per free-tour participant, on an average sale above EUR 100; no cap statement is published, so the cap is unknown.",
+        "contact_access": "A dedicated affiliates team supports partners and API questions go through the site, but no direct partnerships email is published on the page.",
+        "credibility": "Market leader in Spanish-language tours with 10+ years operating, 11.2 million customers a year and full written programme conditions.",
+        "niche_fit": "Tours, activities and transfers in destinations worldwide - especially strong for Spanish- and European-focused travel content.",
+        "opportunity_availability": "Free validated registration, but applicants must have a functioning travel website or blog; social-only creators are not accepted.",
+        "ugc_evidence": "Widgets, banners, photos, videos and an API are supplied for partner sites; the website/blog requirement limits pure social creators, and no creator counts are published, so saturation stays unknown."
+      }
+    }
+  },
+  {
+    "name": "Holafly",
+    "website": "https://esim.holafly.com",
+    "country": null,
+    "category_slug": "travel",
+    "description": "International eSIM provider offering unlimited-data plans in more than 200 destinations, rated 4.7/5 across 119,768+ Trustpilot reviews. Its affiliate program is aimed at travel creators, offers commissions on every sale plus free product, and reports more than 3,500 affiliate partners; the program runs through major networks including Impact.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://esim.holafly.com/affiliate-program/",
+        "summary": "Official affiliate page ('Conquer the World with your Creativity'): affiliates 'earn commissions on every sale' and get free Holafly products, SEO and social-media guidance and real-time sales monitoring; the page shows '+3500 affiliate partners' and the brand's 4.7/5 rating from 119,768+ Trustpilot reviews - but it publishes no commission percentage and no cap statement."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "third_party_directory",
+        "source_url": "https://affiliateprogramsguru.com/programs/holafly-affiliate-program/",
+        "summary": "Third-party directories report a 10% base commission (up to 20% for top performers) across Impact, Awin and ShareASale with a 30-day cookie, while other roundups cite up to 15% via an influencer network; because the brand's own page publishes no rate and the third-party figures differ by channel, commission_rate is recorded as null and the cap as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://esim.holafly.com/affiliate-program/",
+      "source_url": "https://esim.holafly.com/affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://esim.holafly.com/affiliate-program/",
+      "source_url": "https://esim.holafly.com/affiliate-program/",
+      "title": "Holafly Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 16,
+      "compensation": 8,
+      "contact_access": 4,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "compensation": "The official page publishes no rate and third-party figures conflict by channel (10% base reported, up to 15-20% for top performers), so compensation scores low until terms are confirmed inside the network; cap unknown.",
+        "contact_access": "No email is published on the affiliate page; contact runs through the network application and the affiliate platform.",
+        "credibility": "One of the largest travel eSIM brands, with 200+ destinations and a 4.7/5 rating from 119,768+ Trustpilot reviews cited on its own page.",
+        "niche_fit": "Travel data is a pain point every international travel creator's audience has, and eSIM setup makes easy how-to content.",
+        "opportunity_availability": "Applications run through Impact and other major networks linked from the brand's affiliate page.",
+        "ugc_evidence": "The program page is written for creators, with featured affiliate stories, free product and social-media guidance; its own 3,500+ partner count is far above low saturation, so saturation stays unknown."
+      }
+    }
+  },
+  {
+    "name": "Airzen",
+    "website": "https://airzen.com",
+    "country": "Australia",
+    "category_slug": "travel",
+    "description": "Australian travel eSIM company selling prepaid mobile data for 200+ countries and regions, installed by QR code before flying. Its Affiliate Program for Travel Creators states in its FAQ that there is no cap on earnings, with a 30-day tracking cookie and PayPal payouts after a short refund window.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://airzen-staging.airzen.com/affiliate-program",
+        "summary": "The brand's affiliate program FAQ answers 'How much commission can I earn?' with: 'There's no cap on your earnings - the more travellers you refer, the more you earn, calculated on the value of each order.' Caveat: the program page was fetched on the brand's staging subdomain (airzen-staging.airzen.com, using the brand's own CDN assets), so the terms should be re-confirmed on the live portal at application."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://airzen-staging.airzen.com/affiliate-program",
+        "summary": "The same page conflicts on the rate: its perks section states 'Base Commission: 15% per sale' and 'High Volume Commission: Up to 20% for top performers', while the FAQ says 'Commissions start at 10%, and your exact rate is shown in your affiliate dashboard.' Because the page does not settle one starting rate, commission_rate is recorded as null."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://airzen-staging.airzen.com/affiliate-program",
+        "summary": "Program mechanics on the page: open to 'travel bloggers, content creators, website owners, social media influencers and everyday travellers' worldwide with no large audience required; applications are reviewed by the team; tracking uses a 30-day cookie; commissions are held about 7 days for refunds, then paid to the affiliate's PayPal account; the page describes Airzen as 'an Australian travel eSIM company' covering 200+ countries and regions."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://airzen-staging.airzen.com/affiliate-program",
+      "source_url": "https://airzen-staging.airzen.com/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://airzen-staging.airzen.com/affiliate-program",
+      "source_url": "https://airzen-staging.airzen.com/affiliate-program",
+      "title": "Airzen Affiliate Program for Travel Creators"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 16,
+      "compensation": 13,
+      "contact_access": 4,
+      "opportunity_availability": 8,
+      "credibility": 2,
+      "reasons": {
+        "compensation": "An explicit 'There's no cap on your earnings' FAQ answer, but the page conflicts on the starting rate (10% in the FAQ vs a 15% base in the perks section), so the rate is unrecorded and compensation scores mid-range.",
+        "contact_access": "No email is published; the FAQ directs questions to the brand's contact page and support team.",
+        "credibility": "A small Australian eSIM brand, and the program page was served from its staging subdomain - terms are detailed but should be re-confirmed on the live portal before relying on them.",
+        "niche_fit": "Prepaid travel data for 200+ countries is a staple recommendation for travel creators, with QR-code setup that demos well on camera.",
+        "opportunity_availability": "Free application through the brand's affiliate portal, open worldwide with no minimum audience.",
+        "ugc_evidence": "The program is written specifically for travel creators and influencers, with a referral link, optional coupon code, real-time dashboard and brand assets; no creator counts are published, so saturation stays unknown."
+      }
+    }
+  },
+  {
+    "name": "Tecovas",
+    "website": "https://www.tecovas.com",
+    "country": "United States",
+    "category_slug": "fashion",
+    "description": "Austin, Texas-based western brand handcrafting cowboy boots, western apparel and accessories, sold direct to consumer. Its affiliate program runs on Impact with banners, text links and product feeds, a 30-day cookie and payment once commissions reach $50; network listings put the rate at 10% per sale.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.tecovas.com/p/affiliate-program",
+        "summary": "Official affiliate page: 'Tecovas has partnered with Impact, the leader in affiliate technology, to provide you a robust affiliate program for your website.' Benefits listed: free signup, competitive commission, 30-day cookie, 30-day returns and high average order value; 'Payment will be made through Impact once your account has reached $50 or more in commissions.' The page does not print the percentage itself and publishes no cap statement, so the cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "third_party_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/tecovas/",
+        "summary": "LinkClicky's network listing for the program records the Tecovas offer on Impact at 10% per sale; Sovrn's merchant page describes Tecovas as an Austin, Texas-based western footwear and lifestyle brand founded in 2015."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 10,
+      "application_url": "https://www.tecovas.com/p/affiliate-program",
+      "source_url": "https://www.tecovas.com/p/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://www.tecovas.com/p/affiliate-program",
+      "source_url": "https://www.tecovas.com/p/affiliate-program",
+      "title": "Tecovas Affiliate Program (Impact)"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 13,
+      "contact_access": 4,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "compensation": "10% per sale per the program's network listing, on premium boots with a high average order value; the brand's own page calls the commission 'competitive' without printing it, and no cap statement is published, so the cap is unknown.",
+        "contact_access": "No email is published on the affiliate page; application and contact run through Impact.",
+        "credibility": "Established direct-to-consumer western brand founded in 2015, running its program on Impact, a major network.",
+        "niche_fit": "Handmade cowboy boots and western wear are distinctive, demonstrable products for western, country-lifestyle and menswear creators.",
+        "opportunity_availability": "Free signup through the Impact link on the official page.",
+        "ugc_evidence": "The program supplies banners, text links and product feeds for partner websites; no creator counts are published, so saturation stays unknown."
+      }
+    }
+  },
+  {
+    "name": "True Classic",
+    "website": "https://www.trueclassictees.com",
+    "country": null,
+    "category_slug": "fashion",
+    "description": "Fast-growing direct-to-consumer menswear brand known for fitted t-shirts and everyday basics. It runs affiliate programs through major networks - CJ Affiliate in the US and an Awin programme in the UK that pays 20% on new customers - aimed at publishers, bloggers and content creators, though published rates differ sharply by channel and region.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliates@fairforecast.com",
+        "source_url": "https://ui.awin.com/merchant-profile/116647?setLocale=pl_PL"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "network_profile",
+        "source_url": "https://ui.awin.com/merchant-profile/116647?setLocale=pl_PL",
+        "summary": "True Classic's own Awin merchant profile for the UK programme: the program 'is ideal for publishers, CSS partners, bloggers, content creators, and cashback or voucher platforms', with 'performance-based payouts' of 20% on new customers and 0.5% on existing customers; coupon/discount sites are not accepted; questions and custom campaigns go to affiliates@fairforecast.com. No cap statement is published, so the cap is unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "third_party_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/true-classic/",
+        "summary": "Published rates conflict across channels: the US program on CJ Affiliate is listed at 10% per sale, while directories separately cite 5%, up to 12% and up to 15%, and the brand's UK Awin profile pays 20% new / 0.5% existing. No single rate settles across regions, so commission_rate is recorded as null with the conflict documented."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate / Awin",
+      "commission_rate": null,
+      "application_url": "https://ui.awin.com/merchant-profile/116647?setLocale=pl_PL",
+      "source_url": "https://ui.awin.com/merchant-profile/116647?setLocale=pl_PL",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/116647?setLocale=pl_PL",
+      "source_url": "https://ui.awin.com/merchant-profile/116647?setLocale=pl_PL",
+      "title": "True Classic Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 12,
+      "compensation": 8,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "compensation": "Rates conflict by channel and region (20% new / 0.5% existing in the UK Awin profile; 10% listed for US CJ; 5-15% elsewhere), so no rate is recorded and compensation scores low until a channel is chosen; cap unknown.",
+        "contact_access": "A program contact email (affiliates@fairforecast.com) is published on the brand's Awin profile for questions and custom campaigns.",
+        "credibility": "One of the fastest-growing DTC menswear brands, running staffed programs on CJ and Awin; the rate confusion across channels is the main caveat.",
+        "niche_fit": "Fitted tees and basics are everyday menswear staples that fit fashion, grooming and lifestyle creators, with strong brand recall.",
+        "opportunity_availability": "Joinable through the CJ and Awin network profiles; coupon and discount sites are excluded.",
+        "ugc_evidence": "The Awin profile explicitly recruits bloggers and content creators and supplies campaign assets; no creator counts are published, so saturation stays unknown."
+      }
+    }
+  },
+  {
+    "name": "Xero Shoes",
+    "website": "https://xeroshoes.com",
+    "country": "United States",
+    "category_slug": "fashion",
+    "description": "Colorado-based maker of barefoot and minimalist footwear - casual shoes, performance trainers, hiking boots and sandals - sold in more than 97 countries. Its affiliate arrangements vary by region: the US program is invite-only through Rakuten Advertising, while the UK/EU program runs on Awin with dynamic commission up to 10%.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "third_party_directory",
+        "source_url": "https://marketplace.referly.so/affiliate-programs/xero-shoes",
+        "summary": "Summary of the brand's own FAQ: 'the US affiliate program is now invite-only and runs through Rakuten, focused on partners who create consistent, high-quality content. The UK/EU program runs via Awin with dynamic commission up to 10% and a 30-day cookie, and there is a separate Australia/New Zealand application.' Average order value is around $130-$160."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "third_party_directory",
+        "source_url": "https://uppromote.com/affiliate-directory/xero-shoes/",
+        "summary": "Directory figures conflict with the current regional setup: several list a flat 10% with 60- or 90-day cookies and monthly PayPal payouts from a $20 threshold (an older in-house arrangement), and one lists 4%. Because 'up to 10%' on Awin is a ceiling rather than a settled rate and the sources disagree, commission_rate is recorded as null and the cap as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": null,
+      "application_url": "https://marketplace.referly.so/affiliate-programs/xero-shoes",
+      "source_url": "https://marketplace.referly.so/affiliate-programs/xero-shoes",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://marketplace.referly.so/affiliate-programs/xero-shoes",
+      "source_url": "https://marketplace.referly.so/affiliate-programs/xero-shoes",
+      "title": "Xero Shoes Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 8,
+      "contact_access": 4,
+      "opportunity_availability": 5,
+      "credibility": 4,
+      "reasons": {
+        "compensation": "Awin advertises dynamic commission up to 10% (a ceiling, not a settled rate) and directories conflict between 4%, 10% and 10-15%, so no rate is recorded; cap unknown.",
+        "contact_access": "No email is published in the sources checked; contact runs through the regional network programs.",
+        "credibility": "One of the best-known barefoot footwear brands, selling in 97+ countries, with region-specific network programs.",
+        "niche_fit": "Barefoot shoes are a passionate niche for running, hiking and foot-health creators, with $130-$160 average orders.",
+        "opportunity_availability": "The US program is invite-only via Rakuten; UK/EU creators can join through Awin and ANZ creators through a regional application, so availability scores low.",
+        "ugc_evidence": "The Rakuten program is explicitly focused on partners who create consistent, high-quality content; no creator counts are published, so saturation stays unknown."
+      }
+    }
+  }
+]
