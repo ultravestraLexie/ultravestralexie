@@ -1,631 +1,563 @@
 [
- {
-  "name": "Abib",
-  "website": "https://en.abib.com",
-  "country": "South Korea",
-  "category_slug": "skincare",
-  "description": "Seoul-based K-beauty skincare brand known for minimalist, ingredient-led formulas (Heartleaf and Jericho Rose lines); its global store runs an official affiliate program with unique codes and links, early launch access and audience perks.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://en.abib.com/pages/collab",
-    "email": null,
-    "source_url": "https://en.abib.com/pages/collab"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "affiliate",
-    "source_type": "official_site",
-    "source_url": "https://en.abib.com/pages/collab",
-    "summary": "Abib's own Collabs page invites creators to 'Affiliate with Abib! Join Abib's exclusive affiliate program' and states 'Earn up to 20% commission, share exclusive perks with your audience, and get early access to our latest launches.' No cap on total earnings is stated anywhere on the page, so the cap is recorded as unknown ('up to 20%' is a rate ceiling, not an uncapped statement)."
-   },
-   {
-    "confidence": "verified",
-    "evidence_type": "ugc_collab",
-    "source_type": "official_site",
-    "source_url": "https://en.abib.com/pages/collab",
-    "summary": "The Collabs page lists partnership types — affiliate marketing, content creation, discount codes, campaigns and gifting — with a three-step route: Sign Up, Get Approved, then Share & Earn using a unique code and links."
-   },
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "creator_saturation",
-    "source_type": "creator_report",
-    "source_url": "https://universe.beacons.ai/brands/abib-cosmetic",
-    "summary": "Beacons counts 1,253 creators all time (95 in the last 30 days) and 90 sponsored posts in the last 12 months for Abib — clear evidence of HIGH creator saturation."
-   }
-  ],
-  "affiliate": {
-   "network": null,
-   "commission_rate": 20,
-   "application_url": "https://en.abib.com/pages/collab",
-   "source_url": "https://en.abib.com/pages/collab",
-   "commission_cap": "unknown",
-   "creator_saturation": "high"
+  {
+    "name": "Abib",
+    "website": "https://en.abib.com",
+    "country": "South Korea",
+    "category_slug": "skincare",
+    "description": "Seoul-based K-beauty skincare brand known for minimalist, ingredient-led formulas (Heartleaf and Jericho Rose lines); its global store runs an official affiliate program with unique codes and links, early launch access and audience perks.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://en.abib.com/pages/collab",
+        "email": null,
+        "source_url": "https://en.abib.com/pages/collab"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://en.abib.com/pages/collab",
+        "summary": "Abib's own Collabs page invites creators to 'Affiliate with Abib! Join Abib's exclusive affiliate program' and states 'Earn up to 20% commission, share exclusive perks with your audience, and get early access to our latest launches.' No cap on total earnings is stated anywhere on the page, so the cap is recorded as unknown ('up to 20%' is a rate ceiling, not an uncapped statement)."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://en.abib.com/pages/collab",
+        "summary": "The Collabs page lists partnership types — affiliate marketing, content creation, discount codes, campaigns and gifting — with a three-step route: Sign Up, Get Approved, then Share & Earn using a unique code and links."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "creator_saturation",
+        "source_type": "creator_report",
+        "source_url": "https://universe.beacons.ai/brands/abib-cosmetic",
+        "summary": "Beacons counts 1,253 creators all time (95 in the last 30 days) and 90 sponsored posts in the last 12 months for Abib — clear evidence of HIGH creator saturation."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 20,
+      "application_url": "https://en.abib.com/pages/collab",
+      "source_url": "https://en.abib.com/pages/collab",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "Abib Affiliate Program (Collabs)",
+      "application_url": "https://en.abib.com/pages/collab",
+      "source_url": "https://en.abib.com/pages/collab"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 18,
+      "compensation": 16,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "K-beauty skincare with highly demonstrable, routine-friendly products — core skincare UGC territory.",
+        "ugc_evidence": "1,253 creators all time and 90 sponsored posts in 12 months on Beacons, plus a structured on-site affiliate/collab program.",
+        "compensation": "Up to 20% commission stated on the brand's own page — the highest verified rate in this round; no cap statement published.",
+        "contact_access": "Open application on the brand's own store Collabs page; no partnerships email is published.",
+        "opportunity_availability": "Affiliate sign-up is open on the brand's site with approval, codes and links issued to members.",
+        "credibility": "Established Seoul skincare brand with a full global store and wide retail distribution."
+      }
+    }
   },
-  "opportunity": {
-   "title": "Abib Affiliate Program (Collabs)",
-   "application_url": "https://en.abib.com/pages/collab",
-   "source_url": "https://en.abib.com/pages/collab"
+  {
+    "name": "K18",
+    "website": "https://k18hair.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "San Francisco biotech haircare brand built around its K18PEPTIDE molecular-repair technology (Leave-In Molecular Repair Hair Mask); runs a consumer affiliate program via Awin and a separate salon-professional affiliate program.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliate@k18hair.com",
+        "source_url": "https://www.k18hairpro.com/pages/affiliate-program-terms-and-conditions"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/77396",
+        "email": null,
+        "source_url": "https://ui.awin.com/merchant-profile/77396"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/77396",
+        "summary": "K18's official Awin merchant profile states 'Commission Rate: Up to 15% commissions on new customer sales' for its consumer affiliate program. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.k18hairpro.com/pages/affiliate-program-terms-and-conditions",
+        "summary": "A separate salon-professional program on K18's own pro site states 'K18 affiliates earn a standard commission rate of 25% of the retail price for all sales' — licensed cosmetologists and US stylists only, run via Refersion. The same page publishes the contact email affiliate@k18hair.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "creator_saturation",
+        "source_type": "creator_report",
+        "source_url": "https://universe.beacons.ai/brands/k18-hair",
+        "summary": "Beacons counts 1,711 creators all time (276 in the last 30 days) for K18 — clear evidence of HIGH creator saturation."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 15,
+      "application_url": "https://ui.awin.com/merchant-profile/77396",
+      "source_url": "https://ui.awin.com/merchant-profile/77396",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "K18 Affiliate Program (Awin)",
+      "application_url": "https://ui.awin.com/merchant-profile/77396",
+      "source_url": "https://ui.awin.com/merchant-profile/77396"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 18,
+      "compensation": 14,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Viral, demo-friendly hair-repair products — a proven UGC format in the beauty niche.",
+        "ugc_evidence": "1,711 creators all time on Beacons with 276 active in the last 30 days; two structured affiliate programs.",
+        "compensation": "Up to 15% on new-customer sales via the official Awin listing (25% exists for licensed salon pros only); no cap statement published.",
+        "contact_access": "Published affiliate email (affiliate@k18hair.com) plus an open Awin application — the best contact access in this round.",
+        "opportunity_availability": "Consumer affiliate applications are open through Awin; the pro program is restricted to licensed stylists.",
+        "credibility": "Category-defining haircare brand founded in San Francisco in 2020 with global salon and retail presence."
+      }
+    }
   },
-  "score": {
-   "niche_fit": 27,
-   "ugc_evidence": 18,
-   "compensation": 16,
-   "contact_access": 10,
-   "opportunity_availability": 8,
-   "credibility": 5,
-   "reasons": {
-    "niche_fit": "K-beauty skincare with highly demonstrable, routine-friendly products — core skincare UGC territory.",
-    "ugc_evidence": "1,253 creators all time and 90 sponsored posts in 12 months on Beacons, plus a structured on-site affiliate/collab program.",
-    "compensation": "Up to 20% commission stated on the brand's own page — the highest verified rate in this round; no cap statement published.",
-    "contact_access": "Open application on the brand's own store Collabs page; no partnerships email is published.",
-    "opportunity_availability": "Affiliate sign-up is open on the brand's site with approval, codes and links issued to members.",
-    "credibility": "Established Seoul skincare brand with a full global store and wide retail distribution."
-   }
+  {
+    "name": "IGK Hair",
+    "website": "https://www.igkhair.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Miami-founded, salon-born haircare brand (dry shampoo and styling staples) that recruits creators directly through a Brand Ambassador / Affiliate program on its own site, paying commission on tracked sales.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
+        "email": null,
+        "source_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
+        "summary": "IGK's own affiliate terms page states 'you will get 15% commission from the purchase price (before taxes & shipping, after other promos and discounts)' and a 'base amount of no less than 15% of the price paid by the customer'; the agreement references Refersion. Applicants need at least 1K Instagram followers and must be US residents. No cap on earnings is stated, so the cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "creator_saturation",
+        "source_type": "creator_report",
+        "source_url": "https://universe.beacons.ai/brands/igk-hair",
+        "summary": "Beacons counts 562 creators all time (33 in the last 30 days) and 51 sponsored posts in the last 12 months for IGK — evidence of HIGH creator saturation."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion",
+      "commission_rate": 15,
+      "application_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
+      "source_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "IGK Brand Ambassador / Affiliate Program",
+      "application_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
+      "source_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 15,
+      "contact_access": 10,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Styling and dry-shampoo products built for quick demo content — a strong hair-UGC fit.",
+        "ugc_evidence": "562 creators all time and 51 sponsored posts in 12 months on Beacons, with a formal ambassador program on the brand's site.",
+        "compensation": "15% commission guaranteed as a base in the brand's own terms — a verified rate, with seasonal increases mentioned; no cap statement published.",
+        "contact_access": "Application form sits on the brand's own affiliate terms page; no partnerships email is published.",
+        "opportunity_availability": "Applications are open but gated at 1K+ Instagram followers and US residency.",
+        "credibility": "Established salon-born brand with national retail distribution."
+      }
+    }
+  },
+  {
+    "name": "Tatcha",
+    "website": "https://www.tatcha.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "San Francisco-founded luxury skincare brand built on Japanese botanical rituals (The Dewy Skin Cream, The Water Cream), owned by Unilever; recruits affiliates through its official Awin programme.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/29429",
+        "email": null,
+        "source_url": "https://ui.awin.com/merchant-profile/29429"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/29429",
+        "summary": "Tatcha's official Awin programme profile states 'We offer a Default commission of 6%.' and notes it runs increased commission offers. No cap on earnings is stated, so the cap is unknown. Third-party directories conflict (3.2% / 8% / up to 23.94%); the Awin profile is the official source and is the rate recorded."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "creator_saturation",
+        "source_type": "creator_report",
+        "source_url": "https://universe.beacons.ai/brands/tatcha",
+        "summary": "Beacons counts posts from 2,780 creators all time for Tatcha — clear evidence of HIGH creator saturation."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 6,
+      "application_url": "https://ui.awin.com/merchant-profile/29429",
+      "source_url": "https://ui.awin.com/merchant-profile/29429",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "Tatcha Affiliate Programme (Awin)",
+      "application_url": "https://ui.awin.com/merchant-profile/29429",
+      "source_url": "https://ui.awin.com/merchant-profile/29429"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 17,
+      "compensation": 8,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Luxury skincare staples with strong routine and texture content appeal.",
+        "ugc_evidence": "2,780 creators all time on Beacons — one of the most-worked-with skincare brands in the creator economy.",
+        "compensation": "6% default commission on the official Awin profile — modest, partly offset by high product prices; no cap statement published.",
+        "contact_access": "Open application through the official Awin programme profile; no PR or partnerships email is published.",
+        "opportunity_availability": "Affiliate applications are open via Awin with increased-rate offers run periodically.",
+        "credibility": "Unilever-owned prestige brand founded in 2009 with global retail presence."
+      }
+    }
+  },
+  {
+    "name": "Mixsoon",
+    "website": "https://mixsoon.us",
+    "country": "South Korea",
+    "category_slug": "skincare",
+    "description": "Seoul-founded (2020) minimalist K-beauty brand built on single-hero-ingredient essences (Bean Essence); now in Target in the US and running an affiliate program with links and discount codes on its official US store.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://mixsoon.us/pages/affiliate-program",
+        "email": null,
+        "source_url": "https://mixsoon.us/pages/affiliate-program"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "global_cs@mixsoon.us",
+        "source_url": "https://mixsoon.us/pages/faq"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://mixsoon.us/pages/affiliate-program",
+        "summary": "Mixsoon's official US site runs an affiliate program — 'Join mixsoon.us affiliate program today!' — where affiliates place links and discount codes to begin earning commission after an on-page registration and approval. The commission percentages appear only inside tier-benefit images with no extractable text, so no rate is verifiable from a fetched page and the rate is recorded as null. No cap wording was found, so the cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://mixsoon.us/pages/faq",
+        "summary": "Mixsoon's FAQ publishes global_cs@mixsoon.us as its contact email (general support; no partnerships-specific email is published on the pages checked)."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": null,
+      "application_url": "https://mixsoon.us/pages/affiliate-program",
+      "source_url": "https://mixsoon.us/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Mixsoon Affiliate Program",
+      "application_url": "https://mixsoon.us/pages/affiliate-program",
+      "source_url": "https://mixsoon.us/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 6,
+      "contact_access": 11,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Single-ingredient essences are highly demonstrable and sit at the centre of the K-beauty skincare niche.",
+        "ugc_evidence": "A formal affiliate program with links and discount codes on the brand's own US store; no hard creator count was published on fetched pages.",
+        "compensation": "Commission exists but the percentage is not published in verifiable text (tier details sit inside images), so compensation scores low until confirmed at sign-up.",
+        "contact_access": "On-site affiliate registration plus a published contact email on the brand's FAQ page.",
+        "opportunity_availability": "Applications are open on the US store with review and approval by the brand.",
+        "credibility": "Seoul brand founded in 2020, now stocked at Target in the US."
+      }
+    }
+  },
+  {
+    "name": "First Aid Beauty",
+    "website": "https://www.firstaidbeauty.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Sensitive-skin skincare brand (Ultra Repair Cream) owned by P&G; works with creators through the paid FAB Creator Crew on Humanz, a Shopify Collabs ambassador program and a CJ Affiliate program.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://get.firstaidbeauty.com/MTI1Mw==",
+        "email": null,
+        "source_url": "https://get.firstaidbeauty.com/MTI1Mw=="
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://get.firstaidbeauty.com/MTI1Mw==",
+        "summary": "First Aid Beauty's own Creator Crew page ('Join the FAB Creator Crew: Real skin. Real voices.') invites creators to apply through the Humanz app, states '500 Creators partnered with FAB', and promises 'Competitive compensation & perks' and 'competitive pay' — paid creator partnerships, with no commission percentage published on the page."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "creator_report",
+        "source_url": "https://usesnippet.app/pr-emails/first-aid-beauty",
+        "summary": "Snippet's check of First Aid Beauty's own pages (November 12, 2026) lists three official routes: FAB Creator Crew (paid, via Humanz), an Ambassador Program via Shopify Collabs, and an Affiliate program via CJ Affiliate; the brand publishes no PR email. Directory commission figures conflict (5% / up to 9% / 10%), so no single rate is recorded."
+      }
+    ],
+    "affiliate": {
+      "network": "Humanz",
+      "commission_rate": null,
+      "application_url": "https://get.firstaidbeauty.com/MTI1Mw==",
+      "source_url": "https://get.firstaidbeauty.com/MTI1Mw==",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "FAB Creator Crew (Humanz)",
+      "application_url": "https://get.firstaidbeauty.com/MTI1Mw==",
+      "source_url": "https://get.firstaidbeauty.com/MTI1Mw=="
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 15,
+      "compensation": 5,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Sensitive-skin problem/solution products (Ultra Repair Cream) are a staple of skincare UGC.",
+        "ugc_evidence": "Three official creator routes — a paid Creator Crew stating 500 partnered creators, Shopify Collabs ambassadors and a CJ affiliate program.",
+        "compensation": "Creator Crew pay is described only as 'competitive' and affiliate directory figures conflict (5%/9%/10%), so no rate is recorded and compensation scores low.",
+        "contact_access": "Applications run through the brand's Creator Crew page and CJ; the brand publishes no PR or partnerships email.",
+        "opportunity_availability": "Creator Crew applications are open via Humanz with no follower minimum stated on the brand's page.",
+        "credibility": "P&G-owned brand with mass retail distribution and a hero product in market since 2009."
+      }
+    }
+  },
+  {
+    "name": "belif",
+    "website": "https://lgbeauty.com/brands/belif",
+    "country": "South Korea",
+    "category_slug": "skincare",
+    "description": "South Korean skincare brand (The True Cream Aqua Bomb) from LG Household & Health Care, founded in 2010; US creators are recruited through parent LG Beauty's Ambassador program, which lists belif among its brands.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://lgbeauty.com/affiliate",
+        "email": null,
+        "source_url": "https://lgbeauty.com/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://lgbeauty.com/affiliate",
+        "summary": "belif is recruited through parent LG Beauty's Ambassador program — belif is shown among the brands on the official page, which takes applications and pays via Refersion (PayPal) and Impact (ACH). The same page conflicts with itself: benefits state 'Earn 10% commission on purchases made through your link and code' while the FAQ states 'Commission rates start at 5% and can increase depending on your audience size, platform, and engagement.' Because the brand's own page does not settle one rate, the rate is recorded as null. Ambassadors must reside in the United States. No cap wording was found, so the cap is unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion",
+      "commission_rate": null,
+      "application_url": "https://lgbeauty.com/affiliate",
+      "source_url": "https://lgbeauty.com/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "LG Beauty Ambassador Program (belif)",
+      "application_url": "https://lgbeauty.com/affiliate",
+      "source_url": "https://lgbeauty.com/affiliate"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 7,
+      "contact_access": 9,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Aqua Bomb hydration products are long-standing skincare-UGC staples.",
+        "ugc_evidence": "A formal parent-run ambassador program with application, links and codes; no hard creator count was published on fetched pages.",
+        "compensation": "The official page quotes both 10% and a 5% starting rate in different sections, so no single rate is recorded; a paid commission clearly exists.",
+        "contact_access": "Open application on the brand-owned LG Beauty affiliate page; no partnerships email is published.",
+        "opportunity_availability": "Applications are open to US residents, with rates reviewed per applicant.",
+        "credibility": "LG Household & Health Care brand founded in 2010 with Sephora distribution."
+      }
+    }
+  },
+  {
+    "name": "Numbuzin",
+    "website": "https://us.numbuzin.com",
+    "country": "South Korea",
+    "category_slug": "skincare",
+    "description": "Korean skincare brand organising its serums by number (No.3, No.5, No.9 lines); recruits US TikTok creators through its Numbuzin Affiliate Crew application, offering free samples and paid collaboration opportunities.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
+        "email": null,
+        "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
+        "summary": "Numbuzin's Affiliate Crew application form invites US-based beauty/skincare TikTok creators (18+, 1K+ followers) to apply for open collaborations, offering free samples, content creation and the chance to 'earn money' — no commission percentage or amount is published on the form, so the rate is recorded as null and the cap as unknown. The form's crawl date was January 2026, so current terms should be re-confirmed at application."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": null,
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
+      "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Numbuzin Affiliate Crew",
+      "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
+      "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 11,
+      "compensation": 5,
+      "contact_access": 8,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Numbered-serum K-beauty lines are built for TikTok skincare content.",
+        "ugc_evidence": "A named Affiliate Crew recruiting US TikTok creators for open collaborations; no hard creator count was published.",
+        "compensation": "The form promises creators can 'earn money' but publishes no percentage or amount, so compensation scores low.",
+        "contact_access": "A direct application form is the published route; no partnerships email is published on the pages checked.",
+        "opportunity_availability": "Applications target US TikTok creators with 1K+ followers; the form's January 2026 crawl date makes current availability less certain.",
+        "credibility": "Leading Korean skincare label with an official US store."
+      }
+    }
+  },
+  {
+    "name": "Haruharu Wonder",
+    "website": "https://haruharuwonder.com",
+    "country": "South Korea",
+    "category_slug": "skincare",
+    "description": "Korean skincare brand launched in 2018 ('haruharu' means day by day), known for fermented black-rice formulas; runs the #WONDERUS ambassador program, welcoming a small creator cohort twice a year.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://haruharuwonder.com/pages/wonderus",
+        "email": null,
+        "source_url": "https://haruharuwonder.com/pages/wonderus"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://haruharuwonder.com/pages/wonderus",
+        "summary": "Haruharu Wonder's #WONDERUS ambassador program page says 'Twice a year, we welcome content creators from our vibrant community'; published benefits are early access to launches, products to try and review, and gifts — no commission is published, so the rate is recorded as null and the cap as unknown. The brand's blog says application openings are announced on its official Instagram."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://haruharuwonder.com/blogs/all/the-wonderful-world-of-wonderus",
+        "summary": "The brand's own blog describes 'a growing family of nearly 80 incredible #WONDER family members' after seven twice-yearly cohorts — hard evidence of LOW creator saturation, the only verified-low brand in this round."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": null,
+      "application_url": "https://haruharuwonder.com/pages/wonderus",
+      "source_url": "https://haruharuwonder.com/pages/wonderus",
+      "commission_cap": "unknown",
+      "creator_saturation": "low"
+    },
+    "opportunity": {
+      "title": "#WONDERUS Ambassador Program",
+      "application_url": "https://haruharuwonder.com/pages/wonderus",
+      "source_url": "https://haruharuwonder.com/pages/wonderus"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 4,
+      "contact_access": 8,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Fermented black-rice skincare with strong ingredient storytelling for skincare UGC.",
+        "ugc_evidence": "A structured twice-yearly ambassador program with seven completed cohorts on the brand's own site.",
+        "compensation": "No commission is published — benefits are product access and gifts — so compensation scores at the floor.",
+        "contact_access": "Program page on the brand's own site; applications are announced via its official Instagram and no email is published.",
+        "opportunity_availability": "Cohorts open only twice a year, which limits availability despite the small, uncrowded roster.",
+        "credibility": "Korean brand launched in 2018, 100% made in Korea, with international distribution."
+      }
+    }
   }
- },
- {
-  "name": "K18",
-  "website": "https://k18hair.com",
-  "country": "United States",
-  "category_slug": "beauty",
-  "description": "San Francisco biotech haircare brand built around its K18PEPTIDE molecular-repair technology (Leave-In Molecular Repair Hair Mask); runs a consumer affiliate program via Awin and a separate salon-professional affiliate program.",
-  "contacts": [
-   {
-    "contact_type": "partnerships",
-    "contact_url": null,
-    "email": "affiliate@k18hair.com",
-    "source_url": "https://www.k18hairpro.com/pages/affiliate-program-terms-and-conditions"
-   },
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://ui.awin.com/merchant-profile/77396",
-    "email": null,
-    "source_url": "https://ui.awin.com/merchant-profile/77396"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "affiliate",
-    "source_type": "affiliate_network",
-    "source_url": "https://ui.awin.com/merchant-profile/77396",
-    "summary": "K18's official Awin merchant profile states 'Commission Rate: Up to 15% commissions on new customer sales' for its consumer affiliate program. No cap on earnings is stated, so the cap is recorded as unknown."
-   },
-   {
-    "confidence": "verified",
-    "evidence_type": "affiliate",
-    "source_type": "official_site",
-    "source_url": "https://www.k18hairpro.com/pages/affiliate-program-terms-and-conditions",
-    "summary": "A separate salon-professional program on K18's own pro site states 'K18 affiliates earn a standard commission rate of 25% of the retail price for all sales' — licensed cosmetologists and US stylists only, run via Refersion. The same page publishes the contact email affiliate@k18hair.com."
-   },
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "creator_saturation",
-    "source_type": "creator_report",
-    "source_url": "https://universe.beacons.ai/brands/k18-hair",
-    "summary": "Beacons counts 1,711 creators all time (276 in the last 30 days) for K18 — clear evidence of HIGH creator saturation."
-   }
-  ],
-  "affiliate": {
-   "network": "Awin",
-   "commission_rate": 15,
-   "application_url": "https://ui.awin.com/merchant-profile/77396",
-   "source_url": "https://ui.awin.com/merchant-profile/77396",
-   "commission_cap": "unknown",
-   "creator_saturation": "high"
-  },
-  "opportunity": {
-   "title": "K18 Affiliate Program (Awin)",
-   "application_url": "https://ui.awin.com/merchant-profile/77396",
-   "source_url": "https://ui.awin.com/merchant-profile/77396"
-  },
-  "score": {
-   "niche_fit": 26,
-   "ugc_evidence": 18,
-   "compensation": 14,
-   "contact_access": 13,
-   "opportunity_availability": 8,
-   "credibility": 5,
-   "reasons": {
-    "niche_fit": "Viral, demo-friendly hair-repair products — a proven UGC format in the beauty niche.",
-    "ugc_evidence": "1,711 creators all time on Beacons with 276 active in the last 30 days; two structured affiliate programs.",
-    "compensation": "Up to 15% on new-customer sales via the official Awin listing (25% exists for licensed salon pros only); no cap statement published.",
-    "contact_access": "Published affiliate email (affiliate@k18hair.com) plus an open Awin application — the best contact access in this round.",
-    "opportunity_availability": "Consumer affiliate applications are open through Awin; the pro program is restricted to licensed stylists.",
-    "credibility": "Category-defining haircare brand founded in San Francisco in 2020 with global salon and retail presence."
-   }
-  }
- },
- {
-  "name": "IGK Hair",
-  "website": "https://www.igkhair.com",
-  "country": "United States",
-  "category_slug": "beauty",
-  "description": "Miami-founded, salon-born haircare brand (dry shampoo and styling staples) that recruits creators directly through a Brand Ambassador / Affiliate program on its own site, paying commission on tracked sales.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
-    "email": null,
-    "source_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "affiliate",
-    "source_type": "official_site",
-    "source_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
-    "summary": "IGK's own affiliate terms page states 'you will get 15% commission from the purchase price (before taxes & shipping, after other promos and discounts)' and a 'base amount of no less than 15% of the price paid by the customer'; the agreement references Refersion. Applicants need at least 1K Instagram followers and must be US residents. No cap on earnings is stated, so the cap is unknown."
-   },
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "creator_saturation",
-    "source_type": "creator_report",
-    "source_url": "https://universe.beacons.ai/brands/igk-hair",
-    "summary": "Beacons counts 562 creators all time (33 in the last 30 days) and 51 sponsored posts in the last 12 months for IGK — evidence of HIGH creator saturation."
-   }
-  ],
-  "affiliate": {
-   "network": "Refersion",
-   "commission_rate": 15,
-   "application_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
-   "source_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
-   "commission_cap": "unknown",
-   "creator_saturation": "high"
-  },
-  "opportunity": {
-   "title": "IGK Brand Ambassador / Affiliate Program",
-   "application_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions",
-   "source_url": "https://www.igkhair.com/pages/affiliate-terms-and-conditions"
-  },
-  "score": {
-   "niche_fit": 25,
-   "ugc_evidence": 16,
-   "compensation": 15,
-   "contact_access": 10,
-   "opportunity_availability": 7,
-   "credibility": 4,
-   "reasons": {
-    "niche_fit": "Styling and dry-shampoo products built for quick demo content — a strong hair-UGC fit.",
-    "ugc_evidence": "562 creators all time and 51 sponsored posts in 12 months on Beacons, with a formal ambassador program on the brand's site.",
-    "compensation": "15% commission guaranteed as a base in the brand's own terms — a verified rate, with seasonal increases mentioned; no cap statement published.",
-    "contact_access": "Application form sits on the brand's own affiliate terms page; no partnerships email is published.",
-    "opportunity_availability": "Applications are open but gated at 1K+ Instagram followers and US residency.",
-    "credibility": "Established salon-born brand with national retail distribution."
-   }
-  }
- },
- {
-  "name": "Tatcha",
-  "website": "https://www.tatcha.com",
-  "country": "United States",
-  "category_slug": "skincare",
-  "description": "San Francisco-founded luxury skincare brand built on Japanese botanical rituals (The Dewy Skin Cream, The Water Cream), owned by Unilever; recruits affiliates through its official Awin programme.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://ui.awin.com/merchant-profile/29429",
-    "email": null,
-    "source_url": "https://ui.awin.com/merchant-profile/29429"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "affiliate",
-    "source_type": "affiliate_network",
-    "source_url": "https://ui.awin.com/merchant-profile/29429",
-    "summary": "Tatcha's official Awin programme profile states 'We offer a Default commission of 6%.' and notes it runs increased commission offers. No cap on earnings is stated, so the cap is unknown. Third-party directories conflict (3.2% / 8% / up to 23.94%); the Awin profile is the official source and is the rate recorded."
-   },
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "creator_saturation",
-    "source_type": "creator_report",
-    "source_url": "https://universe.beacons.ai/brands/tatcha",
-    "summary": "Beacons counts posts from 2,780 creators all time for Tatcha — clear evidence of HIGH creator saturation."
-   }
-  ],
-  "affiliate": {
-   "network": "Awin",
-   "commission_rate": 6,
-   "application_url": "https://ui.awin.com/merchant-profile/29429",
-   "source_url": "https://ui.awin.com/merchant-profile/29429",
-   "commission_cap": "unknown",
-   "creator_saturation": "high"
-  },
-  "opportunity": {
-   "title": "Tatcha Affiliate Programme (Awin)",
-   "application_url": "https://ui.awin.com/merchant-profile/29429",
-   "source_url": "https://ui.awin.com/merchant-profile/29429"
-  },
-  "score": {
-   "niche_fit": 26,
-   "ugc_evidence": 17,
-   "compensation": 8,
-   "contact_access": 9,
-   "opportunity_availability": 8,
-   "credibility": 5,
-   "reasons": {
-    "niche_fit": "Luxury skincare staples with strong routine and texture content appeal.",
-    "ugc_evidence": "2,780 creators all time on Beacons — one of the most-worked-with skincare brands in the creator economy.",
-    "compensation": "6% default commission on the official Awin profile — modest, partly offset by high product prices; no cap statement published.",
-    "contact_access": "Open application through the official Awin programme profile; no PR or partnerships email is published.",
-    "opportunity_availability": "Affiliate applications are open via Awin with increased-rate offers run periodically.",
-    "credibility": "Unilever-owned prestige brand founded in 2009 with global retail presence."
-   }
-  }
- },
- {
-  "name": "Mixsoon",
-  "website": "https://mixsoon.us",
-  "country": "South Korea",
-  "category_slug": "skincare",
-  "description": "Seoul-founded (2020) minimalist K-beauty brand built on single-hero-ingredient essences (Bean Essence); now in Target in the US and running an affiliate program with links and discount codes on its official US store.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://mixsoon.us/pages/affiliate-program",
-    "email": null,
-    "source_url": "https://mixsoon.us/pages/affiliate-program"
-   },
-   {
-    "contact_type": "general",
-    "contact_url": null,
-    "email": "global_cs@mixsoon.us",
-    "source_url": "https://mixsoon.us/pages/faq"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "affiliate",
-    "source_type": "official_site",
-    "source_url": "https://mixsoon.us/pages/affiliate-program",
-    "summary": "Mixsoon's official US site runs an affiliate program — 'Join mixsoon.us affiliate program today!' — where affiliates place links and discount codes to begin earning commission after an on-page registration and approval. The commission percentages appear only inside tier-benefit images with no extractable text, so no rate is verifiable from a fetched page and the rate is recorded as null. No cap wording was found, so the cap is unknown."
-   },
-   {
-    "confidence": "verified",
-    "evidence_type": "contact",
-    "source_type": "official_site",
-    "source_url": "https://mixsoon.us/pages/faq",
-    "summary": "Mixsoon's FAQ publishes global_cs@mixsoon.us as its contact email (general support; no partnerships-specific email is published on the pages checked)."
-   }
-  ],
-  "affiliate": {
-   "network": null,
-   "commission_rate": null,
-   "application_url": "https://mixsoon.us/pages/affiliate-program",
-   "source_url": "https://mixsoon.us/pages/affiliate-program",
-   "commission_cap": "unknown",
-   "creator_saturation": "unknown"
-  },
-  "opportunity": {
-   "title": "Mixsoon Affiliate Program",
-   "application_url": "https://mixsoon.us/pages/affiliate-program",
-   "source_url": "https://mixsoon.us/pages/affiliate-program"
-  },
-  "score": {
-   "niche_fit": 26,
-   "ugc_evidence": 13,
-   "compensation": 6,
-   "contact_access": 11,
-   "opportunity_availability": 8,
-   "credibility": 4,
-   "reasons": {
-    "niche_fit": "Single-ingredient essences are highly demonstrable and sit at the centre of the K-beauty skincare niche.",
-    "ugc_evidence": "A formal affiliate program with links and discount codes on the brand's own US store; no hard creator count was published on fetched pages.",
-    "compensation": "Commission exists but the percentage is not published in verifiable text (tier details sit inside images), so compensation scores low until confirmed at sign-up.",
-    "contact_access": "On-site affiliate registration plus a published contact email on the brand's FAQ page.",
-    "opportunity_availability": "Applications are open on the US store with review and approval by the brand.",
-    "credibility": "Seoul brand founded in 2020, now stocked at Target in the US."
-   }
-  }
- },
- {
-  "name": "First Aid Beauty",
-  "website": "https://www.firstaidbeauty.com",
-  "country": "United States",
-  "category_slug": "skincare",
-  "description": "Sensitive-skin skincare brand (Ultra Repair Cream) owned by P&G; works with creators through the paid FAB Creator Crew on Humanz, a Shopify Collabs ambassador program and a CJ Affiliate program.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://get.firstaidbeauty.com/MTI1Mw==",
-    "email": null,
-    "source_url": "https://get.firstaidbeauty.com/MTI1Mw=="
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "ugc_collab",
-    "source_type": "official_site",
-    "source_url": "https://get.firstaidbeauty.com/MTI1Mw==",
-    "summary": "First Aid Beauty's own Creator Crew page ('Join the FAB Creator Crew: Real skin. Real voices.') invites creators to apply through the Humanz app, states '500 Creators partnered with FAB', and promises 'Competitive compensation & perks' and 'competitive pay' — paid creator partnerships, with no commission percentage published on the page."
-   },
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "affiliate",
-    "source_type": "creator_report",
-    "source_url": "https://usesnippet.app/pr-emails/first-aid-beauty",
-    "summary": "Snippet's check of First Aid Beauty's own pages (November 12, 2026) lists three official routes: FAB Creator Crew (paid, via Humanz), an Ambassador Program via Shopify Collabs, and an Affiliate program via CJ Affiliate; the brand publishes no PR email. Directory commission figures conflict (5% / up to 9% / 10%), so no single rate is recorded."
-   }
-  ],
-  "affiliate": {
-   "network": "Humanz",
-   "commission_rate": null,
-   "application_url": "https://get.firstaidbeauty.com/MTI1Mw==",
-   "source_url": "https://get.firstaidbeauty.com/MTI1Mw==",
-   "commission_cap": "unknown",
-   "creator_saturation": "unknown"
-  },
-  "opportunity": {
-   "title": "FAB Creator Crew (Humanz)",
-   "application_url": "https://get.firstaidbeauty.com/MTI1Mw==",
-   "source_url": "https://get.firstaidbeauty.com/MTI1Mw=="
-  },
-  "score": {
-   "niche_fit": 25,
-   "ugc_evidence": 15,
-   "compensation": 5,
-   "contact_access": 8,
-   "opportunity_availability": 8,
-   "credibility": 5,
-   "reasons": {
-    "niche_fit": "Sensitive-skin problem/solution products (Ultra Repair Cream) are a staple of skincare UGC.",
-    "ugc_evidence": "Three official creator routes — a paid Creator Crew stating 500 partnered creators, Shopify Collabs ambassadors and a CJ affiliate program.",
-    "compensation": "Creator Crew pay is described only as 'competitive' and affiliate directory figures conflict (5%/9%/10%), so no rate is recorded and compensation scores low.",
-    "contact_access": "Applications run through the brand's Creator Crew page and CJ; the brand publishes no PR or partnerships email.",
-    "opportunity_availability": "Creator Crew applications are open via Humanz with no follower minimum stated on the brand's page.",
-    "credibility": "P&G-owned brand with mass retail distribution and a hero product in market since 2009."
-   }
-  }
- },
- {
-  "name": "Murad",
-  "website": "https://www.murad.com",
-  "country": "United States",
-  "category_slug": "skincare",
-  "description": "Clinical skincare brand founded in 1989 in Los Angeles by dermatologist Howard Murad, M.D. (Unilever-owned); runs a TikTok Shop Open Affiliate Plan for creators plus a Sovrn Commerce affiliate listing.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://www.murad.com/pages/tiktok-shop-terms-conditions",
-    "email": null,
-    "source_url": "https://www.murad.com/pages/tiktok-shop-terms-conditions"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "ugc_collab",
-    "source_type": "official_site",
-    "source_url": "https://www.murad.com/pages/tiktok-shop-terms-conditions",
-    "summary": "Murad's own site publishes Terms and Conditions for a TikTok Shop Open Affiliate Plan under which creators earn commissions 'in accordance with the TikTok Shop payment process outlined on the platform' — no percentage is stated on the page, so the rate is recorded as null."
-   },
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "affiliate",
-    "source_type": "affiliate_network",
-    "source_url": "https://merchants.sovrn.com/merchants/487/murad-affiliate-program",
-    "summary": "Murad's Sovrn Commerce listing says affiliates can view detailed commission information in their Sovrn dashboard after joining — rates are not published before joining. Third-party rate claims conflict (2%–11%), so none is recorded. No cap wording was found on either page, so the cap is unknown."
-   },
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "creator_saturation",
-    "source_type": "creator_report",
-    "source_url": "https://universe.beacons.ai/brands/murad",
-    "summary": "Beacons counts 1,041 creators all time (47 in the last 30 days) for Murad — evidence of HIGH creator saturation."
-   }
-  ],
-  "affiliate": {
-   "network": "TikTok Shop",
-   "commission_rate": null,
-   "application_url": "https://www.murad.com/pages/tiktok-shop-terms-conditions",
-   "source_url": "https://www.murad.com/pages/tiktok-shop-terms-conditions",
-   "commission_cap": "unknown",
-   "creator_saturation": "high"
-  },
-  "opportunity": {
-   "title": "Murad TikTok Shop Open Affiliate Plan",
-   "application_url": "https://www.murad.com/pages/tiktok-shop-terms-conditions",
-   "source_url": "https://www.murad.com/pages/tiktok-shop-terms-conditions"
-  },
-  "score": {
-   "niche_fit": 25,
-   "ugc_evidence": 14,
-   "compensation": 5,
-   "contact_access": 8,
-   "opportunity_availability": 7,
-   "credibility": 5,
-   "reasons": {
-    "niche_fit": "Clinical, dermatologist-founded skincare with strong before/after content potential.",
-    "ugc_evidence": "1,041 creators all time on Beacons plus a formal TikTok Shop open affiliate plan on the brand's own site.",
-    "compensation": "No commission percentage is published on any fetched official page (dashboard-only via Sovrn; platform-set via TikTok Shop), so compensation scores low.",
-    "contact_access": "Creator route is published on Murad's own site (TikTok Shop plan terms); no partnerships email is published.",
-    "opportunity_availability": "The TikTok Shop plan is an open affiliate plan for creators; Sovrn listing is join-to-see-rates.",
-    "credibility": "Unilever-owned clinical brand founded in 1989 with global distribution."
-   }
-  }
- },
- {
-  "name": "belif",
-  "website": "https://lgbeauty.com/brands/belif",
-  "country": "South Korea",
-  "category_slug": "skincare",
-  "description": "South Korean skincare brand (The True Cream Aqua Bomb) from LG Household & Health Care, founded in 2010; US creators are recruited through parent LG Beauty's Ambassador program, which lists belif among its brands.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://lgbeauty.com/affiliate",
-    "email": null,
-    "source_url": "https://lgbeauty.com/affiliate"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "affiliate",
-    "source_type": "official_site",
-    "source_url": "https://lgbeauty.com/affiliate",
-    "summary": "belif is recruited through parent LG Beauty's Ambassador program — belif is shown among the brands on the official page, which takes applications and pays via Refersion (PayPal) and Impact (ACH). The same page conflicts with itself: benefits state 'Earn 10% commission on purchases made through your link and code' while the FAQ states 'Commission rates start at 5% and can increase depending on your audience size, platform, and engagement.' Because the brand's own page does not settle one rate, the rate is recorded as null. Ambassadors must reside in the United States. No cap wording was found, so the cap is unknown."
-   }
-  ],
-  "affiliate": {
-   "network": "Refersion",
-   "commission_rate": null,
-   "application_url": "https://lgbeauty.com/affiliate",
-   "source_url": "https://lgbeauty.com/affiliate",
-   "commission_cap": "unknown",
-   "creator_saturation": "unknown"
-  },
-  "opportunity": {
-   "title": "LG Beauty Ambassador Program (belif)",
-   "application_url": "https://lgbeauty.com/affiliate",
-   "source_url": "https://lgbeauty.com/affiliate"
-  },
-  "score": {
-   "niche_fit": 24,
-   "ugc_evidence": 12,
-   "compensation": 7,
-   "contact_access": 9,
-   "opportunity_availability": 7,
-   "credibility": 4,
-   "reasons": {
-    "niche_fit": "Aqua Bomb hydration products are long-standing skincare-UGC staples.",
-    "ugc_evidence": "A formal parent-run ambassador program with application, links and codes; no hard creator count was published on fetched pages.",
-    "compensation": "The official page quotes both 10% and a 5% starting rate in different sections, so no single rate is recorded; a paid commission clearly exists.",
-    "contact_access": "Open application on the brand-owned LG Beauty affiliate page; no partnerships email is published.",
-    "opportunity_availability": "Applications are open to US residents, with rates reviewed per applicant.",
-    "credibility": "LG Household & Health Care brand founded in 2010 with Sephora distribution."
-   }
-  }
- },
- {
-  "name": "Numbuzin",
-  "website": "https://us.numbuzin.com",
-  "country": "South Korea",
-  "category_slug": "skincare",
-  "description": "Korean skincare brand organising its serums by number (No.3, No.5, No.9 lines); recruits US TikTok creators through its Numbuzin Affiliate Crew application, offering free samples and paid collaboration opportunities.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
-    "email": null,
-    "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "affiliate",
-    "source_type": "official_site",
-    "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
-    "summary": "Numbuzin's Affiliate Crew application form invites US-based beauty/skincare TikTok creators (18+, 1K+ followers) to apply for open collaborations, offering free samples, content creation and the chance to 'earn money' — no commission percentage or amount is published on the form, so the rate is recorded as null and the cap as unknown. The form's crawl date was January 2026, so current terms should be re-confirmed at application."
-   }
-  ],
-  "affiliate": {
-   "network": null,
-   "commission_rate": null,
-   "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
-   "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
-   "commission_cap": "unknown",
-   "creator_saturation": "unknown"
-  },
-  "opportunity": {
-   "title": "Numbuzin Affiliate Crew",
-   "application_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform",
-   "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSemXZZ9VlBSSHcqLn6q45fofeKpnMlY3Z6GFx7t2ftGdOeNpQ/viewform"
-  },
-  "score": {
-   "niche_fit": 25,
-   "ugc_evidence": 11,
-   "compensation": 5,
-   "contact_access": 8,
-   "opportunity_availability": 6,
-   "credibility": 4,
-   "reasons": {
-    "niche_fit": "Numbered-serum K-beauty lines are built for TikTok skincare content.",
-    "ugc_evidence": "A named Affiliate Crew recruiting US TikTok creators for open collaborations; no hard creator count was published.",
-    "compensation": "The form promises creators can 'earn money' but publishes no percentage or amount, so compensation scores low.",
-    "contact_access": "A direct application form is the published route; no partnerships email is published on the pages checked.",
-    "opportunity_availability": "Applications target US TikTok creators with 1K+ followers; the form's January 2026 crawl date makes current availability less certain.",
-    "credibility": "Leading Korean skincare label with an official US store."
-   }
-  }
- },
- {
-  "name": "Haruharu Wonder",
-  "website": "https://haruharuwonder.com",
-  "country": "South Korea",
-  "category_slug": "skincare",
-  "description": "Korean skincare brand launched in 2018 ('haruharu' means day by day), known for fermented black-rice formulas; runs the #WONDERUS ambassador program, welcoming a small creator cohort twice a year.",
-  "contacts": [
-   {
-    "contact_type": "creator_application",
-    "contact_url": "https://haruharuwonder.com/pages/wonderus",
-    "email": null,
-    "source_url": "https://haruharuwonder.com/pages/wonderus"
-   }
-  ],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "verified",
-    "evidence_type": "ugc_collab",
-    "source_type": "official_site",
-    "source_url": "https://haruharuwonder.com/pages/wonderus",
-    "summary": "Haruharu Wonder's #WONDERUS ambassador program page says 'Twice a year, we welcome content creators from our vibrant community'; published benefits are early access to launches, products to try and review, and gifts — no commission is published, so the rate is recorded as null and the cap as unknown. The brand's blog says application openings are announced on its official Instagram."
-   },
-   {
-    "confidence": "verified",
-    "evidence_type": "creator_saturation",
-    "source_type": "official_site",
-    "source_url": "https://haruharuwonder.com/blogs/all/the-wonderful-world-of-wonderus",
-    "summary": "The brand's own blog describes 'a growing family of nearly 80 incredible #WONDER family members' after seven twice-yearly cohorts — hard evidence of LOW creator saturation, the only verified-low brand in this round."
-   }
-  ],
-  "affiliate": {
-   "network": null,
-   "commission_rate": null,
-   "application_url": "https://haruharuwonder.com/pages/wonderus",
-   "source_url": "https://haruharuwonder.com/pages/wonderus",
-   "commission_cap": "unknown",
-   "creator_saturation": "low"
-  },
-  "opportunity": {
-   "title": "#WONDERUS Ambassador Program",
-   "application_url": "https://haruharuwonder.com/pages/wonderus",
-   "source_url": "https://haruharuwonder.com/pages/wonderus"
-  },
-  "score": {
-   "niche_fit": 24,
-   "ugc_evidence": 12,
-   "compensation": 4,
-   "contact_access": 8,
-   "opportunity_availability": 6,
-   "credibility": 4,
-   "reasons": {
-    "niche_fit": "Fermented black-rice skincare with strong ingredient storytelling for skincare UGC.",
-    "ugc_evidence": "A structured twice-yearly ambassador program with seven completed cohorts on the brand's own site.",
-    "compensation": "No commission is published — benefits are product access and gifts — so compensation scores at the floor.",
-    "contact_access": "Program page on the brand's own site; applications are announced via its official Instagram and no email is published.",
-    "opportunity_availability": "Cohorts open only twice a year, which limits availability despite the small, uncrowded roster.",
-    "credibility": "Korean brand launched in 2018, 100% made in Korea, with international distribution."
-   }
-  }
- }
 ]
