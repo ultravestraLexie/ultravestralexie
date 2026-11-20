@@ -1,0 +1,647 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://www.Shopper.com/partnerships/squatwolf-com-affiliate-program",
+      "commission_cap": "unknown",
+      "commission_rate": 5,
+      "creator_saturation": "low",
+      "network": "CJ Affiliate",
+      "source_url": "https://www.Shopper.com/partnerships/squatwolf-com-affiliate-program"
+    },
+    "category_slug": "fitness",
+    "contacts": [],
+    "country": "United Arab Emirates",
+    "description": "Dubai-born premium gym and performance-wear brand for men and women, founded by Anam and Wajdan with the stated aim of building the first global apparel brand from the Middle East. In January 2026 it launched its first formal global affiliate programme on CJ Affiliate, aimed at content creators and gym communities.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://campaignme.com/how-squatwolf-aims-to-set-the-middle-east-affiliate-marketing-standard/",
+        "summary": "Campaign Middle East (22 Jan 2026) reports SQUATWOLF 'is launching its first ever global affiliate marketing network programme' on the CJ Affiliate (CJ) network, led by its E-commerce and Digital Director and aimed at a curated publisher ecosystem including content creators and gym communities; the brand calls it 'our first strong rep towards that' — a brand-new programme, which is the basis for the low-saturation mark."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://www.Shopper.com/partnerships/squatwolf-com-affiliate-program",
+        "summary": "Shopper's SQUATWOLF partnership listing states 'The Squatwolf affiliate program offers a payout rate of 5%' and describes the brand as 'Premium Gym Wear, Born & Designed in Dubai, UAE'; CompareEPC's activewear table independently lists SQUATWOLF on CJ at 5%. No cap statement is published anywhere fetched, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://squatwolf.com/en-ae/pages/our-story",
+        "summary": "SQUATWOLF's official Our Story page describes the brand being built in Dubai by founders Anam and Wajdan, 'building the first global apparel brand from the Middle East' from a small Dubai apartment."
+      }
+    ],
+    "name": "SQUATWOLF",
+    "opportunity": {
+      "application_url": "https://www.Shopper.com/partnerships/squatwolf-com-affiliate-program",
+      "source_url": "https://campaignme.com/how-squatwolf-aims-to-set-the-middle-east-affiliate-marketing-standard/",
+      "title": "SQUATWOLF Affiliate Program (CJ Affiliate)"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 7,
+      "credibility": 4,
+      "niche_fit": 26,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "5% per sale per two independent listings — modest but published; no cap statement anywhere, so the cap is unknown.",
+        "contact_access": "Joining runs through the CJ programme listing; no published partnerships email was verified on a fetched page.",
+        "credibility": "Established Dubai premium activewear brand covered by trade press for its affiliate launch.",
+        "niche_fit": "Premium gym apparel for men and women — squarely in the fitness-creator niche.",
+        "opportunity_availability": "The programme launched in January 2026 and is actively recruiting its first publisher cohort.",
+        "ugc_evidence": "A formal affiliate programme explicitly courting content creators and gym communities, though only just launched."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://squatwolf.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://bellsofsteel.postaffiliatepro.com/affiliates/terms-conditions.php",
+      "commission_cap": "unknown",
+      "commission_rate": 5,
+      "creator_saturation": "unknown",
+      "network": "PostAffiliatePro",
+      "source_url": "https://compareepc.com/health-affiliate-programs/"
+    },
+    "category_slug": "fitness",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "support@bellsofsteel.com",
+        "source_url": "https://bellsofsteel.com/pages/about-us"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "commercial@bellsofsteel.com",
+        "source_url": "https://bellsofsteel.us/pages/contact-us"
+      }
+    ],
+    "country": "Canada",
+    "description": "Canadian-founded strength-equipment retailer established in 2010 by Kaevon Khoozani, selling power racks, barbells, plates, benches, cable machines and kettlebells for home gyms in Canada and the US. Its own affiliate programme terms state the program is intended for content creators and fitness influencers.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://bellsofsteel.postaffiliatepro.com/affiliates/terms-conditions.php",
+        "summary": "The brand's own affiliate portal terms state 'This program is intended for actual content creators and fitness influencers'; affiliates must have PayPal, payouts are monthly with a $100 minimum balance, and coupon sites and dropshippers are not permitted. The portal publishes terms but no commission percentage, and no cap statement, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://compareepc.com/health-affiliate-programs/",
+        "summary": "CompareEPC's affiliate database lists Bells Of Steel on Impact at 5% commission with a $5.31 EPC — the only published rate found; Sovrn's merchant page states its own rate 'could not be independently verified', so the 5% is recorded as publicly reported, not brand-published."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://merchants.sovrn.com/merchants/238442/bells-of-steel-affiliate-program",
+        "summary": "Sovrn describes Bells of Steel as a Canadian-founded strength-equipment retailer established in 2010 by Kaevon Khoozani, with operations serving Canada and the United States; the brand's official About page says it grew from selling competition-grade kettlebells from a car trunk to a team of 80."
+      }
+    ],
+    "name": "Bells of Steel",
+    "opportunity": {
+      "application_url": "https://bellsofsteel.postaffiliatepro.com/affiliates/terms-conditions.php",
+      "source_url": "https://bellsofsteel.postaffiliatepro.com/affiliates/terms-conditions.php",
+      "title": "Bells of Steel Affiliate Program"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 10,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "5% per the only published listing (CompareEPC, via Impact); the brand's own portal publishes no rate, so this stays low-mid.",
+        "contact_access": "Published support and commercial emails on official pages plus the brand's own affiliate portal — good access, though no dedicated partnerships email.",
+        "credibility": "Founded in 2010 with Canada and US operations and a team of 80 per its official About page.",
+        "niche_fit": "Home-gym strength equipment is a core, fast-growing fitness-creator niche.",
+        "opportunity_availability": "Applications are open through the brand's own affiliate portal today.",
+        "ugc_evidence": "Official programme terms explicitly target content creators and fitness influencers, with clear payout rules."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://bellsofsteel.com"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "unknown",
+      "network": "Skimlinks",
+      "source_url": "https://compareepc.com/activewear-affiliate-programs/"
+    },
+    "category_slug": "fitness",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "support@stronger.se",
+        "source_url": "https://www.strongerlabel.com/no/right-of-withdrawal"
+      }
+    ],
+    "country": "Sweden",
+    "description": "Swedish women's activewear brand headquartered in Stockholm, selling leggings, sports bras, tops and workout clothing direct-to-consumer in 120 countries. It has a long-standing influencer and ambassador marketing model, and a live affiliate listing via Skimlinks.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://compareepc.com/activewear-affiliate-programs/",
+        "summary": "CompareEPC's activewear affiliate table lists Strongerlabel.com on Skimlinks at 8% commission with a 1-day cookie in BE/FR/NL markets. No cap statement is published anywhere fetched, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://new-www.storyblok.com/cs/made-people-stronger",
+        "summary": "The Storyblok case study describes Stronger as a Swedish women's activewear brand headquartered in Stockholm serving 120 countries in 8 languages, with a site stack including Flowbox, 'a direct Instagram integration that displays user-generated content (UGC)'."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://www.strongerlabel.com/no/right-of-withdrawal",
+        "summary": "Stronger's official site publishes its customer-service email support@stronger.se; no partnerships email or affiliate application page was found on the fetched official pages."
+      }
+    ],
+    "name": "Stronger",
+    "opportunity": null,
+    "score": {
+      "compensation": 11,
+      "contact_access": 6,
+      "credibility": 4,
+      "niche_fit": 25,
+      "opportunity_availability": 5,
+      "reasons": {
+        "compensation": "8% per the Skimlinks listing in CompareEPC's database — published, though not on the brand's own site.",
+        "contact_access": "Only a customer-service email is published; no partnerships email or application page was verified.",
+        "credibility": "Established Swedish DTC activewear brand selling in 120 countries.",
+        "niche_fit": "Women's activewear is a core fitness-fashion creator niche.",
+        "opportunity_availability": "No direct brand signup page was found; access runs through the Skimlinks listing, so availability scores low.",
+        "ugc_evidence": "A long-standing influencer/ambassador model with UGC integrated into its storefront, but the affiliate route is listing-only."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.strongerlabel.com"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": null,
+      "source_url": "https://www.creatoriq.com/blog/youngla-influencer-marketing-growth?hs_amp=true"
+    },
+    "category_slug": "fitness",
+    "contacts": [],
+    "country": "United States",
+    "description": "Los Angeles-based fitness, streetwear and lifestyle apparel brand founded in 2014 by brothers Garry and Robby Chopra, with a women's line (YoungLA for Her, launched 2022). CreatorIQ describes it as an affiliate-driven DTC fitness apparel brand whose top creators share personalised discount codes and affiliate links.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://www.creatoriq.com/blog/youngla-influencer-marketing-growth?hs_amp=true",
+        "summary": "CreatorIQ's research (Mar 2025) reports: 'Affiliate codes are a hallmark of YoungLA's top-performing content... In 2024, posts mentioning an affiliate code powered $245.7M EMV — more than half of YoungLA's $431.7M EMV total.' No commission percentage is published anywhere fetched, so the rate is recorded as null and the cap as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://www.creatoriq.com/blog/youngla-influencer-marketing-growth?hs_amp=true",
+        "summary": "The same CreatorIQ study states: 'Of all the 100 brands on that list, YoungLA claimed, by far, the smallest creator count' despite ranking No. 50 for total engagements in 2024 — 2.3K creators in 2024, with 669 core creators powering $284.8M EMV. That published creator count, the smallest among peer top-100 engagement brands, is the basis for the low-saturation mark; the absolute core cohort is still in the hundreds."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.youngla.com/pages/about-us",
+        "summary": "YoungLA's official About Us page states it was founded in Los Angeles in 2014, describes 'a global fitness and lifestyle brand reaching millions through our products, athletes, creators', publishes a questions phone number, and links its Instagram (instagram.com/youngla) and TikTok (tiktok.com/@youngla) profiles. No public affiliate application page or email is published on the fetched official pages."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "creator_report",
+        "source_url": "https://www.creatoriq.com/blog/youngla-influencer-marketing-growth?hs_amp=true",
+        "summary": "Creator saturation re-judged to 'unknown' by the batch coordinator: the CreatorIQ figure (2.3K creators in 2024, smallest on its 100-brand engagement list) is a relative mark; by the standard applied across batches (492 creators judged too high to call low), 2.3K creators is not verified-low in absolute terms."
+      }
+    ],
+    "name": "YoungLA",
+    "opportunity": null,
+    "score": {
+      "compensation": 4,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 4,
+      "reasons": {
+        "compensation": "No commission rate is published anywhere fetched, so this stays low per the rubric despite the programme's scale.",
+        "contact_access": "No public application page or published partnerships email; only a phone number on the official About page.",
+        "credibility": "Major DTC fitness apparel brand with $431.7M earned media value in 2024 per CreatorIQ.",
+        "niche_fit": "Fitness and streetwear apparel is a top creator niche, with a women's line since 2022.",
+        "opportunity_availability": "The programme runs on personalised creator codes with no public application route found, so availability scores low.",
+        "ugc_evidence": "One of the most documented creator-affiliate models in fitness: affiliate-code posts powered over half of the brand's 2024 EMV."
+      },
+      "ugc_evidence": 19
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/youngla"
+      },
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@youngla"
+      }
+    ],
+    "website": "https://www.youngla.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://alohas.com/en-us/pages/affiliates",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": null,
+      "source_url": "https://alohas.com/en-us/pages/affiliates"
+    },
+    "category_slug": "fashion",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliates@alohas.com",
+        "source_url": "https://alohas.com/en-us/pages/affiliates"
+      }
+    ],
+    "country": null,
+    "description": "Fashion footwear and clothing brand built on an on-demand production system and responsible-fashion positioning. Its official affiliates page invites partners to 'earn a commission promoting our on-demand production system', with tailored campaigns, complimentary products to test, and a published partnerships email.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://alohas.com/en-us/pages/affiliates",
+        "summary": "ALOHAS' official affiliates page ('JOIN ALOHAS AFFILIATE PROGRAM') states affiliates 'enjoy exclusive perks, including up to 15% CPA for tailored campaigns, complimentary ALOHAS products to test', alongside '10% Average CPA managed', '+395 Facilitated orders', '+$9,000 Earned in commissions' and '$174 AOV Achieved'."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://alohas.com/en-us/pages/affiliates",
+        "summary": "The same page publishes programme terms — a 30-day cookie, rewards for first-time buyers only, payouts with a 2-month delay at a EUR 50 minimum balance — and invites contact with 'the ALOHAS partnerships team at affiliates@alohas.com'. The page does not name its network and publishes no cap statement, so the cap is honestly unknown."
+      }
+    ],
+    "name": "ALOHAS",
+    "opportunity": {
+      "application_url": "https://alohas.com/en-us/pages/affiliates",
+      "source_url": "https://alohas.com/en-us/pages/affiliates",
+      "title": "ALOHAS Affiliate Program"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 12,
+      "credibility": 3,
+      "niche_fit": 23,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Up to 15% CPA for tailored campaigns on the brand's own page (10% average CPA managed) — among the strongest published rates in this group.",
+        "contact_access": "A published partnerships email (affiliates@alohas.com) plus a dedicated official programme page.",
+        "credibility": "The brand's own published programme stats are modest (+395 facilitated orders, +$9,000 commissions earned), so credibility stays low-mid.",
+        "niche_fit": "Fashion footwear and clothing with a sustainability angle — a proven fashion-creator category.",
+        "opportunity_availability": "Applications are open on the official affiliates page today.",
+        "ugc_evidence": "A dedicated affiliate programme with tailored campaigns and free product to test, though no separate creator campaign layer was evidenced."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://alohas.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/91461",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/91461"
+    },
+    "category_slug": "fashion",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliate@jwpei.com",
+        "source_url": "https://ui.awin.com/merchant-profile/91461"
+      }
+    ],
+    "country": null,
+    "description": "Fashion label established in 2018 and based in Los Angeles, selling vegan bags, shoes, clothing and accessories positioned as affordable luxury, with an average order value of $115+ on its Awin profile. Its affiliate programme offers a default 10% commission with exclusive discount codes and banners.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/91461",
+        "summary": "JW PEI's Awin merchant profile states: 'The default commission rate of 10% (or more)', with 'Affiliate exclusive discount codes, promotions, and customized banners' and a 30-day tracking cookie, and gives affiliate@jwpei.com for questions. No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/91461",
+        "summary": "The same profile describes JW PEI as 'a Los Angeles-based fashion label for the modern woman' established in 2018 with an 'unwavering commitment to vegan materials' and an average order value of $115+."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.jwpei.com",
+        "summary": "JW PEI's official homepage ('JW PEI Official Site - Affordable Luxury Designer Brand') confirms the brand sells bags, shoes, clothing and accessories direct to consumers."
+      }
+    ],
+    "name": "JW PEI",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/91461",
+      "source_url": "https://ui.awin.com/merchant-profile/91461",
+      "title": "JW PEI Affiliate Program (Awin)"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 10,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "A published default rate of 10% (or more) with a $115+ average order value on the network profile.",
+        "contact_access": "A published affiliate email (affiliate@jwpei.com) plus a public Awin application profile.",
+        "credibility": "Established 2018 Los Angeles label with wide retail and press presence.",
+        "niche_fit": "Vegan designer-style bags and shoes are a staple fashion-creator category.",
+        "opportunity_availability": "Open to apply on Awin today.",
+        "ugc_evidence": "A live network affiliate programme with exclusive creator codes and banners, but no dedicated ambassador layer was evidenced."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://www.jwpei.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://kulanikinis.co.uk/pages/sun-chaser-ambassador-faq",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "high",
+      "network": null,
+      "source_url": "https://kulanikinis.co.uk/pages/sun-chaser-ambassador-faq"
+    },
+    "category_slug": "fashion",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "aloha@kulanikinis.com",
+        "source_url": "https://kulanikinis.co.uk/pages/sun-chaser-ambassador-faq"
+      }
+    ],
+    "country": "Australia",
+    "description": "DTC-first swimwear and lifestyle brand founded in Sydney in 2015 by Alex Babich and Dani Atkins. Its Sun Chaser programme is an open brand-ambassador programme rewarding tagging and content with exclusive discounts, rewards, free gifts, competitions and sneak peeks; no commission rate is published.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://kulanikinis.co.uk/pages/sun-chaser-ambassador-faq",
+        "summary": "Kulani Kinis' official Sun Chaser FAQ describes its brand ambassadors ('A Kulani Sun Chaser is our beautiful Kulani Brand Ambassador!') earning 'exclusive discounts and rewards' including free gifts, competitions and sneak peeks, open to anyone ('WHO CAN BECOME A BRAND AMBASSADOR? Anyone!'), with programme contact aloha@kulanikinis.com. No commission percentage is published, so the rate is recorded as null."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://www.klaviyo.com/customers/case-studies/kulani-kinis",
+        "summary": "Klaviyo's case study reports '130K global members of brand ambassador program', grown 'more than 5x in less than 4 years', plus '4.8K+ user-generated social posts tagging the brand in past year' — the basis for the high-saturation mark. The same page describes Kulani Kinis as a DTC-first swimwear brand founded by Alex Babich and Dani Atkins in Sydney in 2015."
+      }
+    ],
+    "name": "Kulani Kinis",
+    "opportunity": {
+      "application_url": "https://kulanikinis.co.uk/pages/sun-chaser-ambassador-faq",
+      "source_url": "https://kulanikinis.co.uk/pages/sun-chaser-ambassador-faq",
+      "title": "Kulani Sun Chaser Ambassador Program"
+    },
+    "score": {
+      "compensation": 3,
+      "contact_access": 10,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 6,
+      "reasons": {
+        "compensation": "No commission is published — ambassadors earn discounts, rewards and gifts — so this stays low per the rubric.",
+        "contact_access": "A published programme email (aloha@kulanikinis.com) plus an open official programme FAQ page.",
+        "credibility": "Established DTC swimwear brand founded in 2015 with a published Klaviyo case study.",
+        "niche_fit": "Swimwear is a core fashion and lifestyle UGC category.",
+        "opportunity_availability": "Open to anyone, but with 130K existing ambassador members the programme is crowded.",
+        "ugc_evidence": "A dedicated ambassador programme generating 4.8K+ UGC posts in the past year per the Klaviyo case study."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://kulanikinis.co.uk"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/21071?setLocale=de_DE",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/21071?setLocale=de_DE"
+    },
+    "category_slug": "travel",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliates@vervaunt.com",
+        "source_url": "https://ui.awin.com/merchant-profile/21071?setLocale=de_DE"
+      }
+    ],
+    "country": "United States",
+    "description": "Backpack and travel-gear brand born in California in 1974, making innovative packs and travel accessories used from mountains to islands. Its Awin programme pays a dedicated 10% tier to content and influencer partners, above its standard 5% new-customer and 3% existing-customer rates.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/21071?setLocale=de_DE",
+        "summary": "Osprey's Awin profile publishes its full commission structure — 10% for content and influencer partners, 5% for new customer sales, 3% for existing, 3% for voucher code publishers — with a 30-day cookie, a GBP 90 average order value, and 'Dedicated support from our affiliate agency affiliates@vervaunt.com'. No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/21071?setLocale=de_DE",
+        "summary": "The same profile states 'Osprey was born in California 1974, with a head full of ideas and a desire to design & build innovative backpacks to the highest quality'."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.osprey.com/gb/",
+        "summary": "Osprey's official homepage sells dedicated travel backpacks (Daylite 26+6 Expandable Travel Backpack, Fairview 55 Travel Backpack, Farpoint 40 Travel Backpack), confirming the travel category."
+      }
+    ],
+    "name": "Osprey",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/21071?setLocale=de_DE",
+      "source_url": "https://ui.awin.com/merchant-profile/21071?setLocale=de_DE",
+      "title": "Osprey Europe (UK) Affiliate Programme"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 10,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "A published 10% tier specifically for content and influencer partners (standard tiers 5% new / 3% existing).",
+        "contact_access": "A published affiliate-agency email (affiliates@vervaunt.com) plus a public Awin application profile.",
+        "credibility": "Global pack brand founded in 1974 with worldwide distribution.",
+        "niche_fit": "Travel backpacks and packs are a staple of travel and outdoor creator content.",
+        "opportunity_availability": "Open to apply on Awin today.",
+        "ugc_evidence": "A dedicated commission tier for content and influencer partners shows a structured creator route inside the affiliate programme."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://www.osprey.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/109848",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/109848"
+    },
+    "category_slug": "travel",
+    "contacts": [],
+    "country": "Norway",
+    "description": "Scandinavian travel-gear brand founded in Norway in 2009 by freeski legend Jon Olsson and engineer Truls Brataas, headquartered in Oslo, making bags and gear 'designed for life on the move' for photographers, commuters and travellers. Its Awin listing runs a combined Affiliate & Ambassador Program with product samples and perks for creators.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/109848",
+        "summary": "Db's Awin profile runs a 'Db Affiliate & Ambassador Program' offering 'Access to Gear: Receive samples and exclusive product perks for creators & editorial sites', targeting 'Social Media influencers within photo, travel, snow, surf, skate, outdoor' plus travel bloggers and editorials. Commission is described only as 'generous' — no percentage is published, so the rate is recorded as null and the cap as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/109846",
+        "summary": "The UK Awin profile's Key Facts list '14-Day Cookie Tracking (Extended to 30 Days for Creators)', 'Strong Average Order Value (AOV) 180 EUR' and a '30-day returns and 90-day validation window', again with commission described only as a 'generous commission rate'."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://dbjourney.com/en-dk/pages/our-story",
+        "summary": "Db's official story page (seen in search results; a direct fetch was rate-limited) states Db was founded in Norway in 2009 by Jon Olsson and Truls Brataas with headquarters in Oslo, 'with the goal of redefining travel gear'."
+      }
+    ],
+    "name": "Db Journey",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/109848",
+      "source_url": "https://ui.awin.com/merchant-profile/109848",
+      "title": "Db Affiliate & Ambassador Program"
+    },
+    "score": {
+      "compensation": 5,
+      "contact_access": 7,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "No commission percentage is published anywhere fetched ('generous' only), so this stays low per the rubric.",
+        "contact_access": "Joining runs through Awin; no published partnerships email was verified on the fetched profiles.",
+        "credibility": "Established Scandinavian travel-gear brand founded in 2009 with an Oslo headquarters.",
+        "niche_fit": "Travel bags for photographers and commuters fit travel and outdoor creator content well.",
+        "opportunity_availability": "Open to apply on Awin today, with creator cookie extended to 30 days.",
+        "ugc_evidence": "A combined affiliate and ambassador programme with gear samples and perks aimed at creators and editorial sites."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://dbjourney.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://app.impact.com",
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://linkclicky.com/affiliate-program/knack-bags/"
+    },
+    "category_slug": "travel",
+    "contacts": [],
+    "country": null,
+    "description": "Maker of innovative expandable backpacks with a patented expanding design, built to adapt from work to life for professionals, travellers and everyday adventurers carrying everything in a single bag. Its affiliate programme runs on Impact at a published 8% per sale.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/knack-bags/",
+        "summary": "LinkClicky's Knack Bags listing gives: website knackbags.com, platform Impact, regions ALL, commission '8% per sale, $0.25 Email per signup'; its FAQ repeats 'The commission rate for Knack Bags is 8% per sale' and 'Knack Bags uses the Impact affiliate platform'. A separate Lasso listing claims up to 15% — flagged as a conflict; the Impact listing's 8% is the recorded rate. No cap statement is published, so the cap is honestly unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/knack-bags/",
+        "summary": "The same listing describes Knack Bags as the maker of 'innovative, expandable backpacks designed to adapt seamlessly from work to life, enabling professionals, travelers, and everyday adventurers to carry their essentials in a single bag', with a patented expanding design."
+      }
+    ],
+    "name": "Knack Bags",
+    "opportunity": {
+      "application_url": "https://app.impact.com",
+      "source_url": "https://linkclicky.com/affiliate-program/knack-bags/",
+      "title": "Knack Bags Affiliate Program"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 7,
+      "credibility": 3,
+      "niche_fit": 23,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "8% per sale per the Impact listing (a conflicting Lasso listing claims up to 15%, noted in the evidence).",
+        "contact_access": "Joining runs through Impact; no published partnerships email was verified.",
+        "credibility": "Niche expandable-backpack brand; programme facts rest on listing sources only.",
+        "niche_fit": "Work-to-travel expandable backpacks fit travel and everyday-carry creator content.",
+        "opportunity_availability": "Open to apply through Impact today.",
+        "ugc_evidence": "A standard network affiliate programme; no dedicated creator or ambassador layer was evidenced."
+      },
+      "ugc_evidence": 9
+    },
+    "socials": [],
+    "website": "https://knackbags.com"
+  }
+]

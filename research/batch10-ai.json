@@ -1,0 +1,625 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.nushape.com/pages/affiliates-program",
+   "commission_cap": "uncapped",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Awin / Social Snowball",
+   "source_url": "https://ui.awin.com/merchant-profile/46925"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.nushape.com/pages/affiliates-program",
+    "email": null,
+    "source_url": "https://www.nushape.com/pages/affiliates-program"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hello@nushape.com",
+    "source_url": "https://ui.awin.com/merchant-profile/46925"
+   }
+  ],
+  "country": null,
+  "description": "Wearable wellness-device brand founded in 2015 by Jessica Charles, selling red light therapy, PEMF and molecular hydrogen belts, wraps and mats for recovery, sleep and body sculpting, with affiliate and referral programs that pay cash for referred purchases.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.nushape.com/pages/affiliates-program",
+    "summary": "Nushape's official affiliates page runs a referral program paying a flat $50 cash for each referral that completes a purchase, paid via PayPal in the first week of the following month. Its FAQ answers the question 'Is there a limit to how much I can earn?' with 'There is no limit to the amount you can earn' (new-customer referrals only, self-referrals excluded), so the commission cap is recorded as uncapped. Top partners unlock ambassador status after 10 referral sales, with free product and increased commissions."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/46925",
+    "summary": "Nushape's Awin merchant profile for the Nushape LLC Affiliate Program offers a 5% referral fee for orders coming through an affiliate link, with a 30-day cookie and in-house affiliate management, and publishes hello@nushape.com as the program contact. The profile notes the program also runs on Social Snowball/ShareASale and voids double-attributed transactions."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.nushape.com/pages/asi",
+    "summary": "Nushape's partner page describes the brand as a trailblazer in red light therapy founded by Jessica Charles in 2015, making wearable red light, PEMF and molecular hydrogen devices (belts, mats, wraps and the NeuroWrap), and quotes a 10% commission for hospitality/spa partners \u2014 a third, partner-specific figure, so the consumer affiliate rate used here is the Awin-published 5%."
+   }
+  ],
+  "name": "Nushape",
+  "opportunity": {
+   "application_url": "https://www.nushape.com/pages/affiliates-program",
+   "source_url": "https://www.nushape.com/pages/affiliates-program",
+   "title": "Nushape Affiliate & Referral Program"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "The Awin rate is a modest 5%, but the in-house referral program pays a flat $50 per completed purchase on high-ticket devices, and the official FAQ states there is no limit on earnings.",
+    "contact_access": "Instant enrollment on the brand's own page plus a published program email (hello@nushape.com) on its Awin profile.",
+    "credibility": "Operating since 2015 with a distinctive wearable-device line and programs listed on a major network (Awin).",
+    "niche_fit": "Wearable red light and PEMF devices sit squarely in the recovery, sleep and biohacking content wellness creators already make.",
+    "opportunity_availability": "Anyone can join the referral program today and share a link immediately; the Awin program is also open for application.",
+    "ugc_evidence": "An open referral program explicitly aimed at influencers, doctors and fans, plus an ambassador tier that rewards top partners with free product and higher commissions."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.nushape.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.earthley.com/affiliate-and-wholesale-programs",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://www.earthley.com/affiliate-and-wholesale-programs"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "earthologists@earthley.com",
+    "source_url": "https://www.earthley.com/affiliate-and-wholesale-programs"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.earthley.com/affiliate-and-wholesale-programs",
+    "email": null,
+    "source_url": "https://www.earthley.com/affiliate-and-wholesale-programs"
+   }
+  ],
+  "country": "United States",
+  "description": "Family-owned natural-remedies brand based in Columbus, Ohio, selling herbal tinctures, powders, salves, soaps and personal-care products made with fully disclosed 100% natural ingredients, and running an 'Earthologist' affiliate program alongside a practitioner wholesale program.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.earthley.com/affiliate-and-wholesale-programs",
+    "summary": "Earthley's official affiliate page states its Earthologist program pays 15% commission on all sales including personal orders; its FAQ confirms commission starts at 15% and is bumped to 20% after the first $1,000 in sales, paid via PayPal or store credit. No fetched source states any cap on earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.earthley.com/affiliate-and-wholesale-programs",
+    "summary": "The same official page describes affiliate perks aimed at creators \u2014 a support Facebook group, sales and marketing training, early access to new products and product testing before release \u2014 and publishes earthologists@earthley.com for affiliate inquiries. The business is family-owned and based in Columbus, OH."
+   }
+  ],
+  "name": "Earthley",
+  "opportunity": {
+   "application_url": "https://www.earthley.com/affiliate-and-wholesale-programs",
+   "source_url": "https://www.earthley.com/affiliate-and-wholesale-programs",
+   "title": "Earthley Earthologist Affiliate Program"
+  },
+  "score": {
+   "compensation": 17,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "15% on all sales from day one, rising to 20% after $1,000 in sales \u2014 among the better published base rates in natural remedies.",
+    "contact_access": "Open sign-up from the official page and a published affiliate-team email (earthologists@earthley.com).",
+    "credibility": "Family-owned US business with its own retail store, cGMP-certified and FDA-inspected manufacturing, and fully disclosed ingredients.",
+    "niche_fit": "Herbal tinctures and clean family remedies are core natural-health creator content with strong everyday-use storytelling.",
+    "opportunity_availability": "Applications are open now; anyone with an Earthley account can apply.",
+    "ugc_evidence": "A named affiliate community (Earthologists) with training, a support group, contests and early product access for partners."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.earthley.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://www.beautyindependent.com/apothekary-lands-fuel-retail-growth-product-innovation/"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.apothekary.com/",
+    "email": null,
+    "source_url": "https://www.beautyindependent.com/apothekary-lands-fuel-retail-growth-product-innovation/"
+   }
+  ],
+  "country": null,
+  "description": "Herbal tincture brand launched in 2020, selling more than a dozen $39 supplement drops for energy, digestion, sleep, stress and metabolism, positioned as replacements for habits like a nightly glass of wine, and sold through DTC, TikTok Shop and retailers including Ulta Beauty, Whole Foods and The Vitamin Shoppe.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.beautyindependent.com/apothekary-lands-fuel-retail-growth-product-innovation/",
+    "summary": "Beauty Independent (June 2026) reports Apoth\u00e9kary's CMO Tina Shim assembled a TikTok Shop affiliate network with commission rates of 20% rather than the comparatively standard 15%, retaining affiliates through TikTok and Discord group chats; TikTok Shop fueled more than $1 million in sales in a single month. No fetched source states any cap on earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.beautyindependent.com/apothekary-lands-fuel-retail-growth-product-innovation/",
+    "summary": "The same report says Apoth\u00e9kary has raised about $32 million to date, entered Ulta Beauty (July 2025), Whole Foods (January 2026) and The Vitamin Shoppe (May 2026), is targeting $40 million in 2026 sales, and sells a bestseller (Blue Burn) roughly every 90 seconds."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/apothekary-co-affiliate-program",
+    "summary": "Shopper's directory listing for Apoth\u00e9kary reports a lower 5-10% payout range, which conflicts with the 20% TikTok Shop rate quoted by the brand's CMO in trade press; the 20% figure is used here as the better-sourced, channel-specific rate and the conflict should be re-confirmed at sign-up."
+   }
+  ],
+  "name": "Apothekary",
+  "opportunity": null,
+  "score": {
+   "compensation": 17,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "20% TikTok Shop commission per the brand's CMO \u2014 above the 15% standard she cited \u2014 though a directory lists 5-10%, so confirm at sign-up.",
+    "contact_access": "No published partnerships email was found on a fetched page; creators join through TikTok Shop's affiliate route.",
+    "credibility": "About $32 million raised, Shiseido among its investors, and shelf presence at Ulta Beauty, Whole Foods and The Vitamin Shoppe.",
+    "niche_fit": "Daily-ritual herbal tinctures for sleep, stress, energy and digestion map directly onto wellness creators' routine content.",
+    "opportunity_availability": "The TikTok Shop affiliate program is active now and the brand is actively retaining and recruiting affiliates.",
+    "ugc_evidence": "Affiliates are a primary sales channel: a deliberately built TikTok Shop affiliate network drove over $1 million in a single month, with Discord community support for partners."
+   },
+   "ugc_evidence": 18
+  },
+  "socials": [],
+  "website": "https://www.apothekary.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@wishgardenherbs.com",
+    "source_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program",
+    "email": null,
+    "source_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Woman-owned, family-run herbal company founded in 1979, crafting fast-acting liquid herbal tincture blends from USDA organic and ethically wild-harvested herbs; B Corp certified and billing itself as America's #1 selling liquid herbal blends supplement brand.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program",
+    "summary": "WishGarden's official affiliate page states 10% base commissions on all net sales, a 30-day cookie window and auto-deposit payments, with joining handled through Awin (its JOIN link points to ui.awin.com), a $53 average order value, and affiliate@wishgardenherbs.com published for questions. No fetched source states any cap on earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program",
+    "summary": "The official page describes WishGarden as woman-owned and family-run since 1979 and B Corp certified, offering partners co-branded landing pages and vanity codes on request, creative collateral, monthly newsletters and dedicated affiliate management."
+   }
+  ],
+  "name": "WishGarden Herbs",
+  "opportunity": {
+   "application_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program",
+   "source_url": "https://www.wishgardenherbs.com/pages/wishgarden-affiliate-program",
+   "title": "WishGarden Herbs Affiliate Program (Awin)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 13,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% base on net sales with a $53 average order value \u2014 a mid-range rate for the herbal niche.",
+    "contact_access": "Published affiliate email (affiliate@wishgardenherbs.com) plus a direct Awin join route from the official page.",
+    "credibility": "Operating since 1979, woman-owned and family-run, B Corp certified, with USDA organic and ethically wild-harvested sourcing.",
+    "niche_fit": "Condition-specific herbal tinctures (sleep, stress, immunity, kids) are natural fits for herbalism and natural-remedy creators.",
+    "opportunity_availability": "Free to join and open now through Awin.",
+    "ugc_evidence": "A managed affiliate program with co-branded landing pages, vanity codes on request and a dedicated affiliate manager."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.wishgardenherbs.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://orgain.refersion.com/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Refersion",
+   "source_url": "https://help.orgain.com/en-US/what-is-the-difference-between-the-orgain-healthcare-ambassador-program-and-orgain-affiliate-ambassador-program-645976"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://orgain.refersion.com/",
+    "email": null,
+    "source_url": "https://www.creator-hero.com/blog/orgain-affiliate-program-in-depth-review-pros-and-cons"
+   }
+  ],
+  "country": "United States",
+  "description": "Organic nutrition brand selling plant-based protein powders, ready-to-drink protein shakes and meal replacements, with a Healthcare Ambassador Program for practitioners and an Affiliate Ambassador Program built for influencers and creators with a strong social media presence.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://help.orgain.com/en-US/what-is-the-difference-between-the-orgain-healthcare-ambassador-program-and-orgain-affiliate-ambassador-program-645976",
+    "summary": "Orgain's official help center states the Orgain Affiliate Ambassador Program is meant for those with a strong social media presence: influencers receive an exclusive promo code to share on social media and earn 10% base commission on all sales they refer. No fetched source states any cap on earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/orgain-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator Hero's review confirms a 10% base commission with a 30-day cookie via Refersion (sign-up at orgain.refersion.com), a 30% first-order discount affiliates can offer their audience, and US-only availability. Lasso lists a lower 6% figure, so the rate should be re-confirmed at sign-up."
+   }
+  ],
+  "name": "Orgain",
+  "opportunity": {
+   "application_url": "https://orgain.refersion.com/",
+   "source_url": "https://help.orgain.com/en-US/what-is-the-difference-between-the-orgain-healthcare-ambassador-program-and-orgain-affiliate-ambassador-program-645976",
+   "title": "Orgain Affiliate Ambassador Program"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% base commission per the brand's own help center, with a 30% first-order audience discount to drive conversion; one directory lists 6%, so confirm at sign-up.",
+    "contact_access": "Public Refersion application page, but no published partnerships email was found on a fetched page.",
+    "credibility": "A leading national organic nutrition brand with wide retail distribution and an established ambassador infrastructure.",
+    "niche_fit": "Organic protein powders and shakes are staple content for fitness, nutrition and busy-lifestyle creators.",
+    "opportunity_availability": "Applications are open now for US-based creators.",
+    "ugc_evidence": "A dedicated Affiliate Ambassador Program designed for influencers, with exclusive promo codes and a separate healthcare ambassador track."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://orgain.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://vitalredlight.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://vitalredlight.com/pages/affiliates"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://vitalredlight.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://vitalredlight.com/pages/affiliates"
+   }
+  ],
+  "country": null,
+  "description": "At-home red light therapy device brand selling handheld, tabletop and full-body devices (Vital Charge, Vital Pro and Vital Elite) aimed at recovery, pain relief, skin health and inflammation, with an affiliate program open to creators, bloggers, health professionals and fitness enthusiasts.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://vitalredlight.com/pages/affiliates",
+    "summary": "Vital Red Light's official affiliate page states affiliates start with a 10% commission on each sale, with higher tiers available based on performance, a 30-day cookie, monthly payments via PayPal or check at a $100 threshold, and application review within 2-3 business days. No fetched source states any cap on earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://vitalredlight.com/pages/affiliates",
+    "summary": "The official page explicitly recruits social media influencers, bloggers, health professionals and fitness enthusiasts of any audience size, offers promotional materials and campaign support, and grants the brand rights to reuse affiliate social posts \u2014 an actively creator-facing program."
+   }
+  ],
+  "name": "Vital Red Light",
+  "opportunity": {
+   "application_url": "https://vitalredlight.com/pages/affiliates",
+   "source_url": "https://vitalredlight.com/pages/affiliates",
+   "title": "Vital Red Light Affiliate Program"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 9,
+   "credibility": 3,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% starting commission on high-ticket devices, with higher performance tiers available.",
+    "contact_access": "A clear application route from the official page with a stated 2-3 business day review, but no published contact email.",
+    "credibility": "A focused device brand with a multi-model line-up, but a shorter public track record than legacy wellness brands.",
+    "niche_fit": "Red light therapy devices are high-interest recovery and skin-health content for wellness and fitness creators.",
+    "opportunity_availability": "Applications are open now and beginners are explicitly welcome.",
+    "ugc_evidence": "The program is built for influencers and bloggers, with creative assets, campaign guidance and social-post reuse by the brand."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://vitalredlight.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/magic-mind/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/magic-mind/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/magic-mind/"
+   }
+  ],
+  "country": null,
+  "description": "Productivity-drink brand selling a matcha-based shot blended with adaptogens, nootropics and honey, designed to boost focus and reduce stress for professionals, students and creatives, with an affiliate program listed on the Impact network.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/magic-mind/",
+    "summary": "LinkClicky's Magic Mind listing (last updated March 2024) states the program runs on the Impact platform and pays 10% per purchase. The listing is dated, so the rate and program status should be re-confirmed on Impact at sign-up; no fetched source states any cap on earnings, so the cap is recorded as unknown."
+   }
+  ],
+  "name": "Magic Mind",
+  "opportunity": null,
+  "score": {
+   "compensation": 12,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "10% per purchase per the network listing \u2014 mid-range for functional drinks.",
+    "contact_access": "Application runs through Impact; no published partnerships email was found on a fetched page.",
+    "credibility": "A well-known DTC productivity-drink brand with broad podcast and creator visibility.",
+    "niche_fit": "A focus-and-productivity drink shot fits creator routines, deep-work and study content well.",
+    "opportunity_availability": "Listed as joinable via Impact, but the detailed listing dates from March 2024, so current status needs confirming.",
+    "ugc_evidence": "An established network affiliate program on Impact aimed at publishers and influencers in the food and wellness niche."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://magicmind.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://af.uppromote.com/wildwholistic/register",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "UpPromote",
+   "source_url": "https://wildwholistic.com/pages/wild-wholistic-affiliate-program"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://af.uppromote.com/wildwholistic/register",
+    "email": null,
+    "source_url": "https://wildwholistic.com/pages/wild-wholistic-affiliate-program"
+   }
+  ],
+  "country": null,
+  "description": "Therapeutic-grade herbal supplement brand built on formulation transparency \u2014 an organic coconut-glycerin base instead of seed-oil-derived glycerin, published concentration and lab data \u2014 running a small, application-based affiliate community for wellness creators, herbalists and practitioners.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://wildwholistic.com/pages/wild-wholistic-affiliate-program",
+    "summary": "Wild Wholistic's official affiliate page states affiliates earn 10% commission on every purchase made through their link or code, with an average order over $100, no follower-count requirements, and all applications reviewed personally. No fetched source states any cap on earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://wildwholistic.com/pages/wild-wholistic-affiliate-program",
+    "summary": "The brand frames the program as a community rather than a marketing channel, recruiting wellness creators, herbalists, naturopaths and health coaches who have genuinely used the products, and provides an educational content library for partners. Registration runs through UpPromote."
+   }
+  ],
+  "name": "Wild Wholistic",
+  "opportunity": {
+   "application_url": "https://af.uppromote.com/wildwholistic/register",
+   "source_url": "https://wildwholistic.com/pages/wild-wholistic-affiliate-program",
+   "title": "Wild Wholistic Affiliate Program"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 8,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "10% on every purchase against an average order over $100, so per-sale earnings are meaningful despite the mid-range rate.",
+    "contact_access": "A direct UpPromote registration link from the official page, but no published contact email.",
+    "credibility": "A young, founder-led brand; its transparency practices (published lab and concentration data) are a plus, but its track record is short.",
+    "niche_fit": "Therapeutic-grade herbal formulas suit ingredient-literate herbal and functional-wellness creators and practitioners.",
+    "opportunity_availability": "Applications are open now, though approval is selective \u2014 applicants must have genuinely used the products.",
+    "ugc_evidence": "A deliberately community-run program: personally reviewed applications, no follower minimums, and an education library for partners."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://wildwholistic.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://moonjuice.com/en-ca/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Rakuten",
+   "source_url": "https://moonjuice.com/en-ca/pages/affiliates"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://moonjuice.com/en-ca/pages/affiliates",
+    "email": null,
+    "source_url": "https://moonjuice.com/en-ca/pages/affiliates"
+   }
+  ],
+  "country": null,
+  "description": "Wellness brand selling adaptogenic supplements, herbal dusts and skincare rooted in plant medicine, with an affiliate program offering a baseline commission on net sales and creative, copy and banner support for partners.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://moonjuice.com/en-ca/pages/affiliates",
+    "summary": "Moon Juice's official affiliates page states a 5% baseline commission on net sales (excluding shipping, taxes and returns) earned through affiliate links and banners, with real-time reporting through the Rakuten network, plus creative, copy, banners and affiliate-only offers. No fetched source states any cap on earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.systemaic.com/teardowns/moon-juice",
+    "summary": "A Systemaic teardown of Moon Juice's growth channels reports the affiliate program is live on the brand's site with creator discount codes in active use (for example 15%-off creator codes), and that the brand also sells through Target's 755-store wholesale placement."
+   }
+  ],
+  "name": "Moon Juice",
+  "opportunity": {
+   "application_url": "https://moonjuice.com/en-ca/pages/affiliates",
+   "source_url": "https://moonjuice.com/en-ca/pages/affiliates",
+   "title": "Moon Juice Affiliate Program (Rakuten)"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "5% baseline on net sales is at the low end for the wellness niche.",
+    "contact_access": "A registration form on the official affiliates page; no published partnerships email was found.",
+    "credibility": "A long-running, widely retailed wellness brand with national retail placement including Target.",
+    "niche_fit": "Adaptogen dusts and plant-medicine supplements are long-standing staples of wellness and beauty-from-within content.",
+    "opportunity_availability": "The program is live and accepting registrations now.",
+    "ugc_evidence": "An active affiliate program with creator discount codes in use and launch-first updates and creative support for partners."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://moonjuice.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://www.shopper.com/partnerships/uqora-com-affiliate-program"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.shopper.com/partnerships/uqora-com-affiliate-program",
+    "email": null,
+    "source_url": "https://www.shopper.com/partnerships/uqora-com-affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "San Diego-based urinary tract health company (part of Pharmavite) selling a proactive supplement regimen \u2014 Flush, Defend and Promote \u2014 plus UTI relief products, direct-to-consumer and in 7,600 Walgreens stores nationwide.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/uqora-com-affiliate-program",
+    "summary": "Shopper's directory lists a Uqora affiliate and partnership program with a reported payout range of 5-10% per sale. That range is a directory figure rather than a brand-published rate \u2014 no official Uqora affiliate page publishing a rate was found on a fetched page \u2014 so the commission rate is recorded as null and must be confirmed with the brand; no fetched source states any cap on earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.businesswire.com/news/home/20240917913536/en/Uqora-Launches-Innovative-Urinary-Tract-Health-Products-at-Walgreens",
+    "summary": "Business Wire reports Uqora launched its urinary tract health products in 7,600 Walgreens stores nationwide, describes its 3-part proactive regimen (Flush, Defend, Promote) built with physicians and urologists, and identifies Uqora as a San Diego-based company in Pharmavite's women's health portfolio."
+   }
+  ],
+  "name": "Uqora",
+  "opportunity": null,
+  "score": {
+   "compensation": 6,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 6,
+   "reasons": {
+    "compensation": "No brand-published rate was found; a directory reports 5-10%, which must be confirmed before outreach.",
+    "contact_access": "No official application page or published partnerships email was found on a fetched page; the route in is via directory listing or the brand's site contact channels.",
+    "credibility": "Backed by Pharmavite (makers of Nature Made) and sold in 7,600 Walgreens stores \u2014 strong brand credibility despite the thin public program details.",
+    "niche_fit": "Proactive urinary tract health is an underserved women's-health niche with loyal, problem-driven content demand.",
+    "opportunity_availability": "A program appears to exist, but its current join route could not be verified from an official page.",
+    "ugc_evidence": "A directory-listed affiliate/partnership program exists, but no official creator program page was verifiable, so collaboration evidence is thinner than for peers."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.uqora.com/"
+ }
+]

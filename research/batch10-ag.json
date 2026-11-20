@@ -1,0 +1,640 @@
+[
+ {
+  "name": "Medicube",
+  "website": "https://medicube.us",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "South Korean skincare and beauty-device brand (AGE-R Booster Pro) sold in the US at medicube.us; its growth is creator-led, combining a large TikTok Shop affiliate base with an official ambassador program shared with APRILSKIN that pays rewards for approved content submissions.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "hello@medicube.us",
+    "source_url": "https://usesnippet.app/pr-emails/category/skincare"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://medicube.us/pages/ambassador_test",
+    "email": null,
+    "source_url": "https://medicube.us/pages/ambassador_test"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "creator_report",
+    "source_url": "https://archive.com/blog/medicube-influencer-marketing-strategy",
+    "summary": "Archive's breakdown of Medicube's creator strategy reports up to 30% commission rates on TikTok Shop across 101 SKUs, with free samples and a dedicated creator app; no cap on earnings is stated in any source checked, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_report",
+    "source_url": "https://archive.com/blog/medicube-influencer-marketing-strategy",
+    "summary": "Archive counts 33,900+ active creator affiliates and 25,700 sponsored posts in 12 months for Medicube — clear evidence of HIGH creator saturation, the opposite of the low-saturation filter."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://medicube.us/pages/ambassador_test",
+    "summary": "Medicube's official ambassador page (shared with APRILSKIN) invites creators to browse campaigns with guidelines, timelines and reward details, submit photos or videos, and track rewards and payments; members receive bestsellers and new releases and a guaranteed reward for every approved submission. Snippet's November 2026 check lists hello@medicube.us as the brand's published contact for the program."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": 30,
+   "application_url": "https://medicube.us/pages/ambassador_test",
+   "source_url": "https://archive.com/blog/medicube-influencer-marketing-strategy",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "medicube & APRILSKIN Ambassador Program",
+   "application_url": "https://medicube.us/pages/ambassador_test",
+   "source_url": "https://medicube.us/pages/ambassador_test"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 20,
+   "compensation": 18,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "K-beauty skincare plus beauty devices — the centre of the skincare UGC niche, with highly demonstrable products.",
+    "ugc_evidence": "The strongest creator evidence in this round: a 33,900+ creator affiliate base, 25,700 sponsored posts in 12 months, and a structured ambassador program with per-submission rewards.",
+    "compensation": "Up to 30% TikTok Shop commission reported by Archive — the highest rate in this round; ambassador rewards are additional but not priced publicly.",
+    "contact_access": "Published program email (hello@medicube.us) plus an in-nav ambassador application page on the brand's own store.",
+    "opportunity_availability": "Ambassador applications are open with no follower minimum recorded; TikTok Shop affiliate access is open to eligible creators.",
+    "credibility": "One of the largest K-beauty brands in the US market, with 1M+ TikTok Shop units sold and celebrity-level creator partnerships."
+   }
+  }
+ },
+ {
+  "name": "Gisou",
+  "website": "https://gisou.com",
+  "country": "Netherlands",
+  "category_slug": "beauty",
+  "description": "Honey-based hair and lip care brand founded by Dutch influencer Negin Mirsalehi around honey from her family's beekeeping heritage; sells through gisou.com and runs a creator affiliate program via LTK, ShopMy and Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://gisou.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://gisou.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gisou.com/pages/affiliate-program",
+    "summary": "Gisou's official affiliate page states affiliates earn up to 15% commission on a cost-per-sale basis via tracking link, joining through LTK or ShopMy (recommended for creators) or Impact (websites and publishers), with Impact partner approval in 3-5 business days. The page answers 'How much can I earn?' with the rate only — no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://gisou.com/pages/affiliate-program",
+    "summary": "The program is explicitly 'made for loyal fans and creators' and pays commission rather than gifting; ShopMy is recommended for new or established creators, and creators can promote any Gisou product with reporting in their platform dashboard."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 15,
+   "application_url": "https://gisou.com/pages/affiliate-program",
+   "source_url": "https://gisou.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Gisou Affiliate Program (LTK / ShopMy / Impact)",
+   "application_url": "https://gisou.com/pages/affiliate-program",
+   "source_url": "https://gisou.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 16,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Creator-founded, visually driven hair and lip care — squarely in the beauty UGC niche.",
+    "ugc_evidence": "A dedicated creator affiliate program across three creator platforms, with ShopMy actively recommended for new creators.",
+    "compensation": "Up to 15% cost-per-sale commission published on the brand's own page; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "A defined application route through LTK, ShopMy or Impact from the official page; no direct program email is published.",
+    "opportunity_availability": "Open to creators and publishers on the three platforms; platform approval typically 1-3 days, Impact partner approval 3-5 business days.",
+    "credibility": "Globally recognised, influencer-founded beauty brand with major retail presence and a formal affiliate page."
+   }
+  }
+ },
+ {
+  "name": "COSRX",
+  "website": "https://www.cosrx.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "South Korean derm-skincare brand known for snail mucin and acne-care lines; sells via cosrx.com and its US TikTok Shop, where it runs the COSRX Affiliate Club paying creators commission on sales their content generates.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.cosrx.com/pages/cosrx-affiliate-club",
+    "email": null,
+    "source_url": "https://www.cosrx.com/pages/cosrx-affiliate-club"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/cosrx"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@cosrx.tiktokshop"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "article",
+    "source_url": "https://technode.global/prnasia/cosrx-launches-us-tiktok-shop-inviting-fans-to-join-the-cosrx-affiliate-program/",
+    "summary": "COSRX's US TikTok Shop launch announcement (July 2024) invites influencers, skincare enthusiasts and customers to join the COSRX Affiliate Club, earning a 15% commission on sales generated through personalised affiliate links, with free samples for participants; high performers move to a 'Target Collaboration' plan with elevated rates. No cap on earnings is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.cosrx.com/pages/cosrx-affiliate-club",
+    "summary": "COSRX's official Affiliate Club page promises commission from each sale a creator's content generates, higher commission incentives for top earners, and free samples of best-sellers; joining is a three-step application inside TikTok (Creator Tools > TikTok Shop > Apply), with eligibility of 18+ and a minimum of 1,000 TikTok followers per the launch announcement. A separate collaboration inquiry page operates at collab.cosrx.com."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": 15,
+   "application_url": "https://www.cosrx.com/pages/cosrx-affiliate-club",
+   "source_url": "https://technode.global/prnasia/cosrx-launches-us-tiktok-shop-inviting-fans-to-join-the-cosrx-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "COSRX Affiliate Club (TikTok Shop)",
+   "application_url": "https://www.cosrx.com/pages/cosrx-affiliate-club",
+   "source_url": "https://www.cosrx.com/pages/cosrx-affiliate-club"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 16,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Iconic K-beauty skincare with hero products made for routine and review content.",
+    "ugc_evidence": "A named creator program (Affiliate Club) with samples, tiered promotion for top earners and recurring affiliate challenge campaigns.",
+    "compensation": "15% standard commission published in the brand's launch announcement, with higher rates for top performers; no cap statement published.",
+    "contact_access": "Defined in-app application route plus a brand collaboration inquiry page; no program email is published.",
+    "opportunity_availability": "Open to creators 18+ with at least 1,000 TikTok followers in eligible countries including the US and UK.",
+    "credibility": "One of the most established K-beauty brands globally, with an official TikTok Shop and a formal affiliate club page."
+   }
+  }
+ },
+ {
+  "name": "Beekman 1802",
+  "website": "https://beekman1802.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US goat-milk skincare brand selling at beekman1802.com; its Kindness Krew program combines a creator ambassador track and a no-follower-minimum affiliate track, both paying commission on sales through personal links and codes.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://partners.beekman1802.com/account/create",
+    "email": null,
+    "source_url": "https://beekman1802.com/pages/kindness-krew"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://partners.beekman1802.com/affiliate/create",
+    "email": null,
+    "source_url": "https://beekman1802.com/pages/kindness-krew"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://partners.beekman1802.com/account/terms",
+    "summary": "Beekman 1802's official Kindness Krew terms state ambassadors earn 8% commission on all valid sales made through their discount code or link, plus a $75 product credit every three months, with commission paid via PayPal 45 days after the sale; Glossy reports tier commission levels ranging 8-12%. No cap on earnings is stated in the terms, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://beekman1802.com/pages/kindness-krew",
+    "summary": "The official Kindness Krew page runs two open application tracks: a Creator track (1,000+ followers on Instagram and TikTok, one in-feed post and one story per month, open to being featured across brand channels) and an Affiliate track with no follower minimum for everyday social users and aspiring creators; both are 18+ and US-based."
+   }
+  ],
+  "affiliate": {
+   "network": "Duel",
+   "commission_rate": 8,
+   "application_url": "https://partners.beekman1802.com/affiliate/create",
+   "source_url": "https://partners.beekman1802.com/account/terms",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kindness Krew Creator & Affiliate Program",
+   "application_url": "https://beekman1802.com/pages/kindness-krew",
+   "source_url": "https://beekman1802.com/pages/kindness-krew"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Goat-milk skincare with a strong education and routine angle for skincare creators.",
+    "ugc_evidence": "A structured, always-on ambassador program with posting requirements, tier progression and brand reuse of member content — a genuine creator program, not just a link scheme.",
+    "compensation": "8% base commission in the official terms (tiers reported up to 12%) plus a $75 quarterly product credit; modest rate, no cap statement published.",
+    "contact_access": "Two direct application links published on the brand's own program page, one per track.",
+    "opportunity_availability": "Affiliate track has no follower minimum; creator track starts at 1,000 followers — among the most accessible programs in this round.",
+    "credibility": "Established US skincare brand with a formal, terms-backed ambassador program running since 2024."
+   }
+  }
+ },
+ {
+  "name": "Truly Beauty",
+  "website": "https://www.trulybeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US vegan, cruelty-free skincare and body-care brand (shave care, scrubs, serums) sold at trulybeauty.com and through Ulta; runs an ambassador program paying a base commission on referred sales, tracked in a Refersion dashboard.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.trulybeauty.com/blogs/skincare/5-benefits-of-being-a-truly-beauty-ambassador",
+    "email": null,
+    "source_url": "https://www.trulybeauty.com/blogs/skincare/5-benefits-of-being-a-truly-beauty-ambassador"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.trulybeauty.com/blogs/skincare/5-benefits-of-being-a-truly-beauty-ambassador",
+    "summary": "Truly Beauty's official ambassador guide (page updated September 1, 2025) states ambassadors receive a base 15% commission on every sale they refer via a personal discount link and code, tracked in a Refersion dashboard, plus 40% off products up to $200 per month while they keep up with their sales goal. No cap on commission earnings is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.trulybeauty.com/blogs/skincare/5-benefits-of-being-a-truly-beauty-ambassador",
+    "summary": "The same official page describes an open application (college students, influencers and new creators welcome), free product testing of new arrivals, a private ambassador Facebook group, and personal shop pages on TrulyBeauty.com for top monthly sellers."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 15,
+   "application_url": "https://www.trulybeauty.com/blogs/skincare/5-benefits-of-being-a-truly-beauty-ambassador",
+   "source_url": "https://www.trulybeauty.com/blogs/skincare/5-benefits-of-being-a-truly-beauty-ambassador",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Truly Beauty Ambassador Program (Refersion)",
+   "application_url": "https://www.trulybeauty.com/blogs/skincare/5-benefits-of-being-a-truly-beauty-ambassador",
+   "source_url": "https://www.trulybeauty.com/blogs/skincare/5-benefits-of-being-a-truly-beauty-ambassador"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 16,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Colourful, highly visual body and skincare made for TikTok and Instagram content.",
+    "ugc_evidence": "A named ambassador program with community, product testing and top-seller shop pages; the brand is repeatedly listed among beauty brands with open creator programs.",
+    "compensation": "Base 15% commission published on the brand's own page, plus a 40% ambassador product discount; no cap statement published.",
+    "contact_access": "Application form linked from the brand's official ambassador guide; no program email is published.",
+    "opportunity_availability": "Application is open to everyone but selection-based ('if you're picked'), which tempers availability.",
+    "credibility": "Established DTC beauty brand with Ulta retail distribution and a long-running ambassador program."
+   }
+  }
+ },
+ {
+  "name": "Beauty of Joseon",
+  "website": "https://beautyofjoseon.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "South Korean skincare brand modernising traditional hanbang ingredients (Relief Sun sunscreen, Glow Serum), sold at beautyofjoseon.com; affiliates join through Shopify Collabs under published Affiliate Terms and are paid per individual offer.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://beautyofjoseon.com/pages/affiliate-terms",
+    "email": null,
+    "source_url": "https://beautyofjoseon.com/pages/affiliate-terms"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://beautyofjoseon.com/pages/affiliate-terms",
+    "summary": "Beauty of Joseon's official Affiliate Terms state the program is joined by application through Shopify Collabs and that commission is 'the rate agreed in writing between us and you' in each Offer, paid on the net sales amount in US dollars — no public percentage is published anywhere in the terms, so the commission rate is recorded as null. No cap on earnings is stated either, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "creator_directory",
+    "source_url": "https://usesnippet.app/pr-emails/category/skincare",
+    "summary": "Snippet's November 2026 skincare PR check records a BOJ Ambassador Program alongside the affiliate route, and the brand's own terms permit social promotion with the brand able to repost tagged content — an active creator-facing operation, though application approval is at the brand's discretion."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": null,
+   "application_url": "https://beautyofjoseon.com/pages/affiliate-terms",
+   "source_url": "https://beautyofjoseon.com/pages/affiliate-terms",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Beauty of Joseon Affiliate Program (Shopify Collabs)",
+   "application_url": "https://beautyofjoseon.com/pages/affiliate-terms",
+   "source_url": "https://beautyofjoseon.com/pages/affiliate-terms"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "One of the most searched K-beauty skincare brands among routine and sunscreen creators.",
+    "ugc_evidence": "A formal Collabs affiliate program plus a recorded ambassador program; terms are written for social creators.",
+    "compensation": "No public rate — commission is agreed per offer in writing, so compensation cannot be scored higher until an offer is seen; rate recorded as null rather than guessed.",
+    "contact_access": "A defined Shopify Collabs application route under published terms; no public program email is used here.",
+    "opportunity_availability": "Applications are open via Collabs but acceptance is discretionary and offers are individual.",
+    "credibility": "Global K-beauty leader with a formal, dated legal terms document for its affiliate program."
+   }
+  }
+ },
+ {
+  "name": "DIME Beauty",
+  "website": "https://dimebeautyco.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US clean skincare and fragrance brand (The Works Skincare System) sold at dimebeautyco.com and Ulta online; works with creators through gifting and an affiliate program listed at up to 15% commission.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/dime-beauty-co/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/dime-beauty-co/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/dime-beauty-co/",
+    "summary": "Lasso's program listing for DIME Beauty Co states up to 15.0% commission with a 14-day cookie and no approval requirements listed; no cap on earnings is stated, so the cap is recorded as unknown. The brand's own site does not publish the rate, so this figure is publicly reported rather than verified on an official page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "creator_directory",
+    "source_url": "https://newcollab.co/brand/dime-beauty",
+    "summary": "Newcollab's November 2026 check reports DIME Beauty gifts creators (hero product The Works Skincare System, typical PR package ~$75) and looks for around 500+ followers with worldwide reach; its GRIN profile invites collaboration proposals but publishes no open program, so outreach is proposal-led."
+   }
+  ],
+  "affiliate": {
+   "network": "Lasso",
+   "commission_rate": 15,
+   "application_url": "https://getlasso.co/affiliate/dime-beauty-co/",
+   "source_url": "https://getlasso.co/affiliate/dime-beauty-co/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "DIME Beauty Co Affiliate Program",
+   "application_url": "https://getlasso.co/affiliate/dime-beauty-co/",
+   "source_url": "https://getlasso.co/affiliate/dime-beauty-co/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean, luxury-positioned skincare and fragrance aimed squarely at beauty creators' audiences.",
+    "ugc_evidence": "Active creator gifting and a GRIN presence, but no open published creator program on the brand's own channels — evidence is thinner than for the Collabs/ambassador brands in this round.",
+    "compensation": "Up to 15% per the Lasso listing — attractive if confirmed at sign-up; not published on the brand's own site, so scored with that caution.",
+    "contact_access": "Affiliate listing route plus a GRIN proposal route; no published program email.",
+    "opportunity_availability": "Gifting is active for ~500+ follower creators, but the lack of a published open program lowers availability.",
+    "credibility": "Established clean-beauty brand with Ulta online distribution."
+   }
+  }
+ },
+ {
+  "name": "Naturium",
+  "website": "https://naturium.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US clinical skincare brand (Naturium, LLC, Los Angeles) making biocompatible, clinically effective face and body formulas at accessible prices; runs an Awin affiliate program and TikTok Shop creator challenges.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/121602",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/121602"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "network_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/121602",
+    "summary": "Naturium's official Awin merchant profile invites publishers to join the Naturium (US) Affiliate Program with a 30-day cookie period, describing the rate only as a 'Competitive Commission Rate' — no percentage is published on the profile, so the rate is recorded as null (Shopper lists 4%, which could not be confirmed on the network profile and is not used). No cap statement is published, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://naturium.com/pages/naturium-february-2026-tiktok-affiliate-challenge",
+    "summary": "Naturium's official February 2026 TikTok Affiliate Challenge pays creators through TikTok Shop affiliate links (prizes of $2,000/$500 cash plus PR list spots are 'in addition to any affiliate commission'), requiring at least two shoppable TikTok videos tagging @Naturium — direct evidence of an active, recurring creator-affiliate operation."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/121602",
+   "source_url": "https://ui.awin.com/merchant-profile/121602",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Naturium (US) Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/121602",
+   "source_url": "https://ui.awin.com/merchant-profile/121602"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Ingredient-led clinical skincare — a staple of skincare routine and review content.",
+    "ugc_evidence": "A network affiliate program plus official TikTok affiliate challenges with cash prizes and PR list rewards for creators.",
+    "compensation": "The Awin profile publishes no percentage ('Competitive Commission Rate'), so the rate is recorded as null and compensation scores low until confirmed inside the network.",
+    "contact_access": "A defined Awin application route from the official merchant profile; no public program email.",
+    "opportunity_availability": "Open network program, plus periodic open TikTok affiliate challenges for US creators.",
+    "credibility": "Major US skincare brand (Naturium, LLC, Los Angeles) with a formal network program and published challenge rules."
+   }
+  }
+ },
+ {
+  "name": "Anua",
+  "website": "https://anua.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "South Korean skincare brand known for the Heartleaf Soothing Toner and Heartleaf Pore Control Cleansing Oil for sensitive, acne-prone skin; US-store affiliate access is listed through LinkApprove at 8.4% per sale, alongside TikTok Shop creator affiliate activity.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkapprove.com/affiliate-programs/anua-affiliate-program",
+    "email": null,
+    "source_url": "https://linkapprove.com/affiliate-programs/anua-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkapprove.com/affiliate-programs/anua-affiliate-program",
+    "summary": "LinkApprove's Anua program page (reviewed October 22, 2026) states the program pays 8.4% per sale on a 30-day cookie window for US orders from Anua's own US store, is free to join from 1,000 followers, and needs no separate Anua application because LinkApprove holds the upstream approval. No cap on earnings is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "creator_directory",
+    "source_url": "https://usesnippet.app/pr-emails/anua/ambassador-program",
+    "summary": "Snippet's November 12, 2026 check found no ambassador, affiliate or creator program and no PR email on Anua's own pages — the joinable route is the LinkApprove listing, while the brand's creator volume runs mainly through TikTok Shop; recorded honestly so creators apply via LinkApprove rather than looking for a brand portal."
+   }
+  ],
+  "affiliate": {
+   "network": "LinkApprove",
+   "commission_rate": 8.4,
+   "application_url": "https://linkapprove.com/affiliate-programs/anua-affiliate-program",
+   "source_url": "https://linkapprove.com/affiliate-programs/anua-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Anua Affiliate Program (via LinkApprove)",
+   "application_url": "https://linkapprove.com/affiliate-programs/anua-affiliate-program",
+   "source_url": "https://linkapprove.com/affiliate-programs/anua-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Viral K-beauty staples (heartleaf toner and cleansing oil) built for double-cleansing and sensitive-skin routines.",
+    "ugc_evidence": "Heavy TikTok Shop creator activity and an #anuambassador presence, but no brand-run program page — evidence rests on the network listing.",
+    "compensation": "8.4% per sale on the brand's own US store per LinkApprove — mid-range; no cap statement published.",
+    "contact_access": "No brand application or program email exists publicly; access is only through the LinkApprove partner account.",
+    "opportunity_availability": "Free to join via LinkApprove from 1,000 followers with decisions usually within two business days, US traffic only.",
+    "credibility": "Established K-beauty brand with Amazon and K-beauty retail best-sellers."
+   }
+  }
+ },
+ {
+  "name": "Vegamour",
+  "website": "https://vegamour.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US plant-based hair wellness brand (GRO serums, shampoos, lash and brow products) with 100% vegan formulas, sold at vegamour.com; its affiliate program pays up to 8% per sale through CJ Affiliate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/vegamour/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/vegamour/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/vegamour/",
+    "summary": "Lasso's Vegamour program page states up to 8% per sale with a 15-day cookie and a $50 payout threshold, and its join link routes to CJ Affiliate signup; LinkClicky's program listing independently records 8% per sale. No cap on earnings is stated in either listing, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/vegamour/",
+    "summary": "The same listing describes Vegamour as a plant-based hair care brand (hair, lash and brow products, 100% vegan-friendly ingredients) — a publisher/blog-led affiliate program rather than a structured creator ambassador scheme, which is reflected in its UGC evidence score."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 8,
+   "application_url": "https://getlasso.co/affiliate/vegamour/",
+   "source_url": "https://getlasso.co/affiliate/vegamour/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Vegamour Affiliate Program (CJ Affiliate)",
+   "application_url": "https://getlasso.co/affiliate/vegamour/",
+   "source_url": "https://getlasso.co/affiliate/vegamour/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hair-growth and hair-wellness products with a strong before/after content angle.",
+    "ugc_evidence": "A standard network affiliate program; creator partnerships appear gifted/paid rather than commission-structured in public evidence, so UGC evidence is modest.",
+    "compensation": "Up to 8% per sale — the lowest published rate in this round; no cap statement published.",
+    "contact_access": "Application only through the network listing; no published program email or creator contact.",
+    "opportunity_availability": "Open network application with approval in a few days per the listing.",
+    "credibility": "Well-known US hair wellness brand with national recognition."
+   }
+  }
+ }
+]

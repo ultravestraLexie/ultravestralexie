@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Baseus",
+    "website": "https://www.baseus.com",
+    "country": "China",
+    "category_slug": "technology",
+    "description": "Shenzhen-based consumer electronics brand (Shenzhen Baseus Technology Co., Ltd.) making chargers, GaN power adapters, power banks, cables, audio, car accessories and other 3C electronic products, sold globally through its own store and major marketplaces.",
+    "contacts": [
+      {"contact_type": "partnerships", "contact_url": "https://www.baseus.com/pages/affiliate-program", "email": "affiliate@baseus.com", "source_url": "https://www.baseus.com/pages/affiliate-program"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.baseus.com/pages/affiliate-program", "summary": "Official Baseus affiliate page fetched: 'Earning 8-15% Commission' — 'Whether you are a large network, content service website, social media influencer, or blogger, we generate a unique personalized approach'; signup link on the page routes to ShareASale (merchantID 133921); contact published as affiliate@baseus.com."},
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://www.influencerrate.com/affiliate-program/e-baseus", "summary": "InfluencerRate guide corroborates the program: free to join, earn up to 15% on successful purchases, 30-day cookie duration, promotion via blogs, websites, social media and newsletters."},
+      {"confidence": "publicly_reported", "evidence_type": "general", "source_type": "listing", "source_url": "https://www.cbinsights.com/company/baseus", "summary": "CB Insights profile: Baseus develops, designs, produces and sells 3C electronic products including charging devices, power banks, audio devices and car accessories, and is based in Shenzhen, Guangdong, China."}
+    ],
+    "affiliate": {"network": "ShareASale", "commission_rate": 8, "application_url": "https://www.baseus.com/pages/affiliate-program", "source_url": "https://www.baseus.com/pages/affiliate-program", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Baseus Affiliate Program — 8% to 15% commission via ShareASale", "application_url": "https://www.baseus.com/pages/affiliate-program", "source_url": "https://www.baseus.com/pages/affiliate-program"},
+    "score": {"niche_fit": 28, "ugc_evidence": 15, "compensation": 17, "contact_access": 14, "opportunity_availability": 9, "credibility": 4, "reasons": {"niche_fit": "Pure consumer-tech accessories — chargers, power banks, audio and car tech built for desk-setup, travel and everyday-carry UGC", "ugc_evidence": "Official page explicitly recruits social media influencers and bloggers with a personalised approach, but no Beacons creator count was found, so evidence is program-led rather than volume-led", "compensation": "Officially published 8%-15% commission — the highest verified range in this group for electronics; 30-day cookie reported by secondary listing", "contact_access": "Dedicated affiliate@baseus.com published on the official program page", "opportunity_availability": "Open join via ShareASale linked directly from the official page", "credibility": "Established global Shenzhen brand; founding year is reported inconsistently across secondary sources (2009/2011/2019), so no year is claimed in the description"}}
+  },
+  {
+    "name": "Roborock",
+    "website": "https://us.roborock.com",
+    "country": "China",
+    "category_slug": "technology",
+    "description": "Beijing-founded (July 2014) smart-cleaning robotics brand, Beijing Roborock Technology Co., Ltd., headquartered in Beijing with R&D in Shanghai and Shenzhen, making LiDAR robot vacuums and mops, cordless stick vacuums and wet/dry cleaners, active in over 140 countries.",
+    "contacts": [
+      {"contact_type": "partnerships", "contact_url": "https://us.roborock.com/pages/roborock-affiliate-program", "email": "affiliate@roborock.com", "source_url": "https://us.roborock.com/pages/roborock-affiliate-program"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://us.roborock.com/pages/roborock-affiliate-program", "summary": "Official Roborock affiliate page fetched: 4%-7% commission on sales, high AOV $400+, 35-day cookie duration, free shipping on vacuums and accessories, full data feed on Impact; 'Join Us Now' apply buttons link to Impact (app.impact.com) and CJ (signup.cj.com); inquiries to affiliate@roborock.com; Roborock reviews all applications."},
+      {"confidence": "verified", "evidence_type": "general", "source_type": "official_site", "source_url": "https://global.roborock.com/pages/about-us", "summary": "Official Roborock About page: 'Founded in July 2014, Beijing Roborock Technology Co., Ltd. (Roborock) specializes in the research, development, and production of products that make peoples lives more comfortable'; headquartered in Beijing, with R&D and branch offices in Shanghai and Shenzhen."},
+      {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/roborock-official-store-program", "summary": "Beacons Universe fetched: Roborock Official Store Program has posts from 199 creators all time, 120 public posts in the last 12 months and 41 sponsored posts in the last 12 months, with recent sponsored reels in November 2026 — active creator sponsorship, but not low enough to record saturation as low."}
+    ],
+    "affiliate": {"network": "Impact", "commission_rate": 4, "application_url": "https://us.roborock.com/pages/roborock-affiliate-program", "source_url": "https://us.roborock.com/pages/roborock-affiliate-program", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Roborock Affiliate Program — 4% to 7% commission, $400+ AOV, via Impact / CJ", "application_url": "https://us.roborock.com/pages/roborock-affiliate-program", "source_url": "https://us.roborock.com/pages/roborock-affiliate-program"},
+    "score": {"niche_fit": 27, "ugc_evidence": 17, "compensation": 13, "contact_access": 14, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Core smart-home robotics technology — robot vacuums are highly demonstrable in home-cleaning and smart-home UGC", "ugc_evidence": "Beacons shows 199 creators, 120 posts and 41 sponsored posts in the last 12 months, with sponsored posts as recent as November 2026", "compensation": "4%-7% is modest as a percentage but applies to a $400+ AOV (roughly $16-$28+ per sale) with a 35-day cookie; no cap statement published", "contact_access": "Dedicated affiliate@roborock.com published on the official program page", "opportunity_availability": "Open application via Impact and CJ linked from the official page, subject to Roborock review", "credibility": "Founded 2014 in Beijing, publicly listed smart-cleaning leader active in 140+ countries per its official pages"}}
+  },
+  {
+    "name": "Dreame",
+    "website": "https://www.dreametech.com",
+    "country": "China",
+    "category_slug": "technology",
+    "description": "Chinese consumer electronics and smart-home appliance brand (Dreame Technology, founded 2017, headquartered in Suzhou) making robot vacuums and mops, cordless and wet/dry vacuums, robotic lawn mowers and high-speed hair dryers, covering 100+ countries.",
+    "contacts": [
+      {"contact_type": "partnerships", "contact_url": "https://yardcare.dreametech.com/pages/affiliate-program", "email": "affiliate@dreame.tech", "source_url": "https://yardcare.dreametech.com/pages/affiliate-program"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.dreametech.com/pages/affiliate-program", "summary": "Official Dreame US affiliate page fetched: '6% Commission on all sales', free to join, apply through Webgains or Impact; eligible partners explicitly include website owners in smart home / electronic technology, Facebook group members, messaging-app sharers and influencers sharing on Instagram and YouTube; brand states 100+ countries covered."},
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://yardcare.dreametech.com/pages/affiliate-program", "summary": "Official Dreame Yard Care affiliate page fetched with full FAQ: minimum 5% commission on qualifying purchases, 30-day cookie duration, commission paid 30 days after order confirmation, platforms Impact and Webgains, and Contact Us email affiliate@dreame.tech."},
+      {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/dreame-technology", "summary": "Beacons Universe fetched: Dreame Technology is based in Suzhou, China, with posts from 492 creators all time, 516 public posts in the last 12 months and 114 sponsored posts in the last 12 months, most recently a sponsored post on November 20, 2026 — a large, established creator programme, so saturation is not recorded as low."}
+    ],
+    "affiliate": {"network": "Impact", "commission_rate": 6, "application_url": "https://www.dreametech.com/pages/affiliate-program", "source_url": "https://www.dreametech.com/pages/affiliate-program", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Dreame Affiliate Program — 6% commission on all sales (US) via Impact / Webgains", "application_url": "https://www.dreametech.com/pages/affiliate-program", "source_url": "https://www.dreametech.com/pages/affiliate-program"},
+    "score": {"niche_fit": 27, "ugc_evidence": 18, "compensation": 13, "contact_access": 14, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Premium smart-home technology — robot vacuums, floor cleaners and hair tech with strong before/after and demo content angles", "ugc_evidence": "Beacons shows 492 creators, 516 posts and 114 sponsored posts in the last 12 months; official page explicitly recruits Instagram and YouTube influencers", "compensation": "Flat 6% on all sales on the official US page (5% minimum stated on the Yard Care FAQ) on high-ticket appliances; 30-day cookie; no cap statement published", "contact_access": "Dedicated affiliate@dreame.tech published on the official affiliate FAQ page", "opportunity_availability": "Free, open application via Impact or Webgains linked from the official page", "credibility": "Founded 2017 in Suzhou, China; large global smart-appliance brand with 100+ country coverage stated on its official page"}}
+  },
+  {
+    "name": "Govee",
+    "website": "https://www.govee.com",
+    "country": "China",
+    "category_slug": "technology",
+    "description": "Shenzhen-founded (2017) smart lighting and smart-home brand making RGBIC LED strip lights, permanent outdoor lights, lamps, TV backlights and GoveeLife smart appliances, controlled via the Govee Home app; described on its official site as revolutionising smart living with ambient lighting since 2017 and as the No. 1 US brand for household permanent outdoor lights by 2025 retail sales value (Euromonitor, via official press release).",
+    "contacts": [
+      {"contact_type": "creator_application", "contact_url": "https://us.govee.com/pages/govee-creator", "email": null, "source_url": "https://us.govee.com/pages/govee-creator"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "verified", "evidence_type": "ugc_collab", "source_type": "official_site", "source_url": "https://us.govee.com/pages/govee-creator", "summary": "Official Govee Creator Program page fetched: 'Create. Share. Earn.' — earn 5%~10% commission via its affiliate program, free products and early access, featured exposure on Govee's global platform and co-creation; FAQ: long-term initiative for original video content around smart lighting, applicants must be 18+, have an active social media account and a shipping address in the US, Canada, UK or EU; videos must stay public at least 90 days and be disclosed as sponsored; affiliate details linked at govee.com/pages/affiliate."},
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://linkclicky.com/affiliate-program/govee/", "summary": "LinkClicky listing fetched: Affiliate Platform Impact, Commission 5%-10% per sale, Regions ALL, application via app.impact.com — corroborating the official Creator Program's 5%-10% range and naming the network."},
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/govee/", "summary": "Lasso listing fetched: Govee affiliate program at 15% per sale with a 30-day cookie in Electronics / Home Decor — a higher figure than the official 5%-10%, so the official range is the one recorded and the discrepancy is noted here."},
+      {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/govee-de", "summary": "Beacons Universe (Govee DE listing) fetched: posts from 665 creators all time, 342 public posts in the last 12 months and 21 sponsored posts in the last 12 months, with sponsored creator reels in November 2026 — very high creator volume, so saturation is not recorded as low."}
+    ],
+    "affiliate": {"network": "Impact", "commission_rate": 5, "application_url": "https://us.govee.com/pages/govee-creator", "source_url": "https://linkclicky.com/affiliate-program/govee/", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Govee Creator Program — Create. Share. Earn. (5% to 10% commission, free products, early access)", "application_url": "https://us.govee.com/pages/govee-creator", "source_url": "https://us.govee.com/pages/govee-creator"},
+    "score": {"niche_fit": 29, "ugc_evidence": 19, "compensation": 14, "contact_access": 8, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Smart lighting is one of the most visual technology categories for UGC — gaming setups, room makeovers and outdoor installs are built for short-form video", "ugc_evidence": "Dedicated official Creator Program with free product, early access and platform featuring, plus Beacons volume of 665 creators and 342 posts in the last 12 months", "compensation": "Officially published 5%-10% commission plus free products; a secondary Lasso listing claims 15%, which is noted as unverified against the official range; no cap statement published", "contact_access": "Public official creator application page only; no partnerships or affiliate email was published on the fetched official pages", "opportunity_availability": "Open creator application on the official page for 18+ creators with an active social account in US/CA/UK/EU, plus Impact affiliate route", "credibility": "Operating since 2017 per its official press material, with a claimed No. 1 US position in permanent outdoor lighting by 2025 retail sales value (Euromonitor)"}}
+  },
+  {
+    "name": "Petkit",
+    "website": "https://www.petkit.com",
+    "country": "China",
+    "category_slug": "pets",
+    "description": "Smart pet-care technology brand founded in 2013 by the Guo brothers (headquartered in Shanghai, China, with a US store and US ambassador recruitment), making self-cleaning litter boxes (PURA MAX / PURA X), smart feeders with cameras, water fountains, pet dryers and wearables, all tied into the PETKIT app ecosystem.",
+    "contacts": [
+      {"contact_type": "pr", "contact_url": "https://www.petkit.com/pages/join-the-petkit-brand-ambassador-program?srsltid=AfmBOor-We3M5OQhUzWqIgkzrhb3UTUaXyQtgcx-7KADyzLEYzEOu5Pz", "email": "marketing@petkit.com", "source_url": "https://www.petkit.com/pages/join-the-petkit-brand-ambassador-program?srsltid=AfmBOor-We3M5OQhUzWqIgkzrhb3UTUaXyQtgcx-7KADyzLEYzEOu5Pz"},
+      {"contact_type": "partnerships", "contact_url": "https://www.petkit.com/pages/join-the-petkit-brand-ambassador-program?srsltid=AfmBOor-We3M5OQhUzWqIgkzrhb3UTUaXyQtgcx-7KADyzLEYzEOu5Pz", "email": "sales@petkit.com", "source_url": "https://www.petkit.com/pages/join-the-petkit-brand-ambassador-program?srsltid=AfmBOor-We3M5OQhUzWqIgkzrhb3UTUaXyQtgcx-7KADyzLEYzEOu5Pz"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "verified", "evidence_type": "ugc_collab", "source_type": "official_site", "source_url": "https://www.petkit.com/pages/join-the-petkit-brand-ambassador-program?srsltid=AfmBOor-We3M5OQhUzWqIgkzrhb3UTUaXyQtgcx-7KADyzLEYzEOu5Pz", "summary": "Official PETKIT Brand Ambassador Program page (fetched): open to US customers who bought via Amazon/Walmart/petkit.com and have shared their PETKIT experience on a public platform (Amazon/Walmart reviews, Reddit, YouTube, Facebook, Instagram, TikTok); perks are free new-product trials (no return required), an exclusive 10% OFF and free cat litter; applications reviewed in 5-10 business days; 'Due to limited availability (500 spots total), applications will be reviewed based on eligibility and shared content'; page publishes 'PR contact: marketing@petkit.com' and 'Become a partner: sales@petkit.com'."},
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/petkit/", "summary": "Lasso listing (fetched): PETKIT affiliate program pays up to 7.5% per sale, 14-day cookie, $10 payout threshold, Pets category, pitched at bloggers, social media creators and pet influencers."},
+      {"confidence": "verified", "evidence_type": "general", "source_type": "official_site", "source_url": "https://petkit.co.uk/pages/about-us-3", "summary": "Official PETKIT About Us page (fetched): founded in 2013 by the Guo brothers, both former hardware engineers; product milestones from the FIT wearable through smart feeders, fountains and the PURA automatic litter-box line; repeats the PR contact marketing@petkit.com and partner contact sales@petkit.com."},
+      {"confidence": "publicly_reported", "evidence_type": "general", "source_type": "listing", "source_url": "https://brandwiki.lazada.sg/petkit/", "summary": "Lazada Brand Wiki (via search results): 'PETKIT (Chinese: 小佩) is a Chinese pet technology company headquartered in Shanghai, China' — basis for the country field; a separate CB Insights result lists a US base in Walnut, California."}
+    ],
+    "affiliate": {"network": "Lasso", "commission_rate": 7.5, "application_url": "https://getlasso.co/affiliate/petkit/", "source_url": "https://getlasso.co/affiliate/petkit/", "commission_cap": "unknown", "creator_saturation": "low"},
+    "opportunity": {"title": "PETKIT Brand Ambassador Program — free product trials for US customers who post reviews/UGC (500 spots total), plus affiliate program up to 7.5% via Lasso", "application_url": "https://www.petkit.com/pages/join-the-petkit-brand-ambassador-program?srsltid=AfmBOor-We3M5OQhUzWqIgkzrhb3UTUaXyQtgcx-7KADyzLEYzEOu5Pz", "source_url": "https://www.petkit.com/pages/join-the-petkit-brand-ambassador-program?srsltid=AfmBOor-We3M5OQhUzWqIgkzrhb3UTUaXyQtgcx-7KADyzLEYzEOu5Pz"},
+    "score": {"niche_fit": 28, "ugc_evidence": 17, "compensation": 12, "contact_access": 15, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Pure pet-tech niche — self-cleaning litter boxes, camera feeders and fountains are highly demonstrable in short-form UGC", "ugc_evidence": "Official ambassador program is built entirely on customers posting their experience on TikTok, YouTube, Instagram, Reddit and review platforms, with free trial products as the reward", "compensation": "Affiliate rate is up to 7.5% per sale (Lasso) — modest cash rate, offset by free products, free litter and 10% ambassador discount; no cap statement published, so cap is unknown", "contact_access": "Two direct emails published on the official program page: marketing@petkit.com (PR) and sales@petkit.com (partners)", "opportunity_availability": "Open application form linked from the official page, reviewed in 5-10 business days; US-only for this cohort", "credibility": "Founded 2013, global smart-pet-care brand with official program pages on its US and UK stores"}}
+  },
+  {
+    "name": "We Feed Raw",
+    "website": "https://www.wefeedraw.com/",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US subscription raw dog-food brand delivering frozen and freeze-dried meals formulated by a PhD in animal nutrition, made with USDA human-grade proteins across six protein options, with customised portion plans per dog and free cold shipping.",
+    "contacts": [
+      {"contact_type": "partnerships", "contact_url": "https://ui.awin.com/merchant-profile/96339", "email": "affiliate@wefeedraw.com", "source_url": "https://ui.awin.com/merchant-profile/96339"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://ui.awin.com/merchant-profile/96339", "summary": "Awin merchant profile (fetched): 'With an average order size of ~$150, and a starting commission rate of 20%, each referred customer could earn you $30 or more!'; a dedicated affiliate team offers custom landing pages, coupon codes, payment options and product samples; product rated Excellent on Trustpilot; 'Please feel free to reach out to affiliate@wefeedraw.com if you have any remaining questions.'"},
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://linkclicky.com/affiliate-program/we-feed-raw/", "summary": "LinkClicky listing (via search results, last updated Mar 2024): We Feed Raw affiliate program at 20% per sale with a 60-day cookie, listed on the ShareASale platform — corroborates the 20% headline rate on the current Awin profile, though the network of record may have changed."},
+      {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://www.youtube.com/shorts/7PydcBIA_UQ", "summary": "Creator ecosystem is live: a creator YouTube Short promotes 'Get 25% off your first order with We Feed Raw by using my link!!' with a personal promo code — evidence of creators actively monetising We Feed Raw referral links/codes in short-form video."}
+    ],
+    "affiliate": {"network": "Awin", "commission_rate": 20, "application_url": "https://ui.awin.com/merchant-profile/96339", "source_url": "https://ui.awin.com/merchant-profile/96339", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "We Feed Raw Affiliate Program — 20% starting commission on ~$150 average orders via Awin", "application_url": "https://ui.awin.com/merchant-profile/96339", "source_url": "https://ui.awin.com/merchant-profile/96339"},
+    "score": {"niche_fit": 26, "ugc_evidence": 14, "compensation": 18, "contact_access": 13, "opportunity_availability": 9, "credibility": 4, "reasons": {"niche_fit": "Core pet-nutrition niche — raw feeding, meal prep and dog-health content is a large, established UGC category", "ugc_evidence": "Creators are actively posting short-form videos with personal We Feed Raw referral links and discount codes; Awin profile offers creators product samples and custom landing pages", "compensation": "20% starting commission on a ~$150 average order ($30+ per referred customer) is the strongest published rate in this batch; no cap statement published, so cap is unknown", "contact_access": "Dedicated affiliate@wefeedraw.com published directly on the Awin merchant profile, with a named dedicated affiliate team", "opportunity_availability": "Open application through the live Awin merchant profile", "credibility": "Established US DTC subscription brand; Awin profile cites an Excellent Trustpilot rating and PhD-formulated recipes"}}
+  },
+  {
+    "name": "PrettyLitter",
+    "website": "https://www.prettylitter.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Los Angeles-based health-monitoring cat litter brand founded in 2015 by Daniel Rotman: lightweight silica-gel litter that changes colour with urine pH/blood to flag potential issues such as UTIs, bladder inflammation and kidney acidosis, sold mainly as a monthly subscription; acquired by Mars, Inc. in 2021.",
+    "contacts": [
+      {"contact_type": "creator_application", "contact_url": "https://ui.awin.com/advertiser-terms/126553?setLocale=en_GB", "email": null, "source_url": "https://ui.awin.com/advertiser-terms/126553?setLocale=en_GB"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://ui.awin.com/advertiser-terms/126553?setLocale=en_GB", "summary": "Awin program terms for PrettyLitter US (last updated 27 Jul 2026) fetched: allowed partner types explicitly include 'Communities and UGC' and 'Content creators and influencers'; coupon codes only via the program or issued by Gen3 Marketing/AWIN; no commission percentage stated in the public terms. No earnings-cap statement found, so cap is unknown."},
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/pretty-litter-ca/", "summary": "Lasso listing fetched: Pretty Litter CA affiliate program pays 12% per sale with a 30-day cookie, categories Cat/Pet."},
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://theaffiliateslist.com/cat-affiliate-programs/", "summary": "TheAffiliatesList: '12% of revenue at Prettylitter.com, plus a 30-day cookie'; headquartered in Los Angeles; program runs through Impact, with creative assets for blogs, newsletters and social channels."},
+      {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/prettylitter", "summary": "Beacons Universe page opened in full: 102 creators all time, 36 public posts in the last 12 months, 25 sponsored posts in the last 12 months, 5 creators posted in the last 30 days — an active but not saturated creator lane for a national brand; based in Los Angeles, United States."}
+    ],
+    "affiliate": {"network": "Awin", "commission_rate": 12, "application_url": "https://ui.awin.com/advertiser-terms/126553?setLocale=en_GB", "source_url": "https://getlasso.co/affiliate/pretty-litter-ca/", "commission_cap": "unknown", "creator_saturation": "low"},
+    "opportunity": {"title": "PrettyLitter Affiliate Program — 12% per sale via Awin (also listed on Impact)", "application_url": "https://ui.awin.com/advertiser-terms/126553?setLocale=en_GB", "source_url": "https://ui.awin.com/advertiser-terms/126553?setLocale=en_GB"},
+    "score": {"niche_fit": 28, "ugc_evidence": 17, "compensation": 15, "contact_access": 7, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Pure pet niche — colour-change health demo is inherently visual, made for cat-owner UGC", "ugc_evidence": "Beacons: 102 creators, 25 sponsored posts in 12 months; Awin terms explicitly welcome UGC communities and influencers", "compensation": "12% per sale consistently reported across Lasso/Hepper/TheAffiliatesList on a recurring subscription product; no cap statement published", "contact_access": "No public partnerships email found on fetched pages; network application only", "opportunity_availability": "Live program on Awin with current terms dated Jul 2026, plus Impact listing", "credibility": "Founded 2015, acquired by Mars in 2021, sold at Target; established national brand"}}
+  },
+  {
+    "name": "Levoit",
+    "website": "https://levoit.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Home-environment appliance brand of VeSync (founded 2011, US operations in Anaheim, California), selling air purifiers, humidifiers, tower fans and cordless vacuums — positioned as the #1 selling air purifier brand in the US — with smart models controlled through the VeSync app.",
+    "contacts": [
+      {"contact_type": "creator_application", "contact_url": "https://getlasso.co/affiliate/levoit/", "email": null, "source_url": "https://getlasso.co/affiliate/levoit/"},
+      {"contact_type": "partnerships", "contact_url": "https://www.groupon.com/coupons/levoit", "email": "affiliate@vesync.com", "source_url": "https://www.groupon.com/coupons/levoit"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/levoit/", "summary": "Lasso listing fetched in full: LEVOIT affiliate program, category Home, commission rate up to 7.5%, cookie duration 14 days, approval requirements none, payout threshold $10; pitched at bloggers and influencers promoting air purifiers and humidifiers for home comfort and clean air."},
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://levoit.sg/pages/affiliate-program", "summary": "Official Levoit Singapore affiliate page fetched via search: creators in home wellness, clean air, pet care, better sleep or cosy home living, minimum 1K followers on one platform, free to join; 'You can earn a 10% commission rate for all your sale proceeds' on levoit.sg orders, paid monthly by bank transfer above an S$50 threshold — a regional official creator program corroborating the global listings."},
+      {"confidence": "publicly_reported", "evidence_type": "contact", "source_type": "listing", "source_url": "https://www.groupon.com/coupons/levoit", "summary": "Groupon Levoit page fetched via search lists: 'Affiliate inquiries: contact affiliate@vesync.com for questions related to the Levoit Affiliate Program'."},
+      {"confidence": "publicly_reported", "evidence_type": "general", "source_type": "listing", "source_url": "https://www.cbinsights.com/company/vesync", "summary": "CB Insights VeSync profile fetched via search: VeSync founded 2011, headquartered at 1202 North Miller Street, Anaheim, California, operating home goods / consumer electronics brands (Levoit, Cosori, Etekcity) integrated with the VeSync smart home app."}
+    ],
+    "affiliate": {"network": "Lasso", "commission_rate": 7.5, "application_url": "https://getlasso.co/affiliate/levoit/", "source_url": "https://getlasso.co/affiliate/levoit/", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Levoit Affiliate Program — up to 7.5% via Lasso (official regional creator program pays 10%)", "application_url": "https://getlasso.co/affiliate/levoit/", "source_url": "https://getlasso.co/affiliate/levoit/"},
+    "score": {"niche_fit": 28, "ugc_evidence": 14, "compensation": 13, "contact_access": 12, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Core home appliances — air purifiers, humidifiers, fans and vacuums are staple clean-home / allergy / pet-home UGC subjects", "ugc_evidence": "Official creator affiliate page explicitly recruiting home-wellness, clean-air, pet-care and cosy-home creators with a 1K-follower floor; no creator counts fetched, so saturation stays unknown", "compensation": "Up to 7.5% on the fetched Lasso listing and a flat 10% on the official regional program; no cap statement published, so cap is unknown", "contact_access": "Published affiliate inquiries email affiliate@vesync.com plus open application pages", "opportunity_availability": "Open via Lasso with no approval requirements stated, plus the official regional application form", "credibility": "VeSync founded 2011 in Anaheim, formerly Hong Kong-listed parent, #1 selling US air purifier brand positioning"}}
+  },
+  {
+    "name": "Article",
+    "website": "https://article.com",
+    "country": "Canada",
+    "category_slug": "home",
+    "description": "Vancouver, British Columbia-based direct-to-consumer furniture brand founded in 2013, selling contemporary, mid-century modern and Scandinavian-inspired sofas, dining chairs, bed frames and decor for living, bedroom, dining, home-office and outdoor spaces in the US and Canada.",
+    "contacts": [
+      {"contact_type": "creator_application", "contact_url": "https://ui.awin.com/merchant-profile/55215?setLocale=da_DK", "email": null, "source_url": "https://ui.awin.com/merchant-profile/55215?setLocale=da_DK"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://ui.awin.com/merchant-profile/55215?setLocale=da_DK", "summary": "Awin merchant profile fetched via search: 'Article is an online furniture brand that creates delightful designs for every home. Join our program today!' Program details: 5% Default Commission, 30 Day Cookie Period; categories Furniture, Home & Garden, Decor, Design, Modern Furniture."},
+      {"confidence": "verified", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://linkapprove.com/affiliate-programs/category/home-living", "summary": "LinkApprove home & living directory page fetched in full: Article pays up to 5% per sale, 30-day cookie, $1,200 average order, regions US and CA; directory notes room tours, restyling and before-and-after creator formats convert disproportionately well in home."},
+      {"confidence": "publicly_reported", "evidence_type": "general", "source_type": "listing", "source_url": "https://www.cbinsights.com/company/bryght", "summary": "CB Insights profile fetched via search: Article was founded in 2013, headquarters at 1010 Raymur Avenue, Vancouver, and specialises in contemporary, mid-century and modern furniture including sofas, dining chairs, bed frames and decor."}
+    ],
+    "affiliate": {"network": "Awin", "commission_rate": 5, "application_url": "https://ui.awin.com/merchant-profile/55215?setLocale=da_DK", "source_url": "https://ui.awin.com/merchant-profile/55215?setLocale=da_DK", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Article Affiliate Program — 5% default commission via Awin (30-day cookie, $1,200 AOV)", "application_url": "https://ui.awin.com/merchant-profile/55215?setLocale=da_DK", "source_url": "https://ui.awin.com/merchant-profile/55215?setLocale=da_DK"},
+    "score": {"niche_fit": 28, "ugc_evidence": 14, "compensation": 13, "contact_access": 8, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Pure home furniture — sofas, beds, dining and decor are core room-tour / home UGC subjects", "ugc_evidence": "Creator/publishers recruited on two networks (Awin and LinkApprove); LinkApprove explicitly cites room-tour and before-and-after creator formats converting in this category, but no creator counts were fetched, so saturation stays unknown", "compensation": "5% default on Awin, but on a $1,200 average order (~$60 per conversion); 30-day cookie; no cap statement published, so cap is unknown", "contact_access": "Network application only; no public partnerships email was published on the fetched pages", "opportunity_availability": "Open join via Awin merchant profile and via LinkApprove's single-approval directory, US/CA", "credibility": "Founded 2013 in Vancouver, named Canada's fastest-growing company in coverage, now opening physical stores"}}
+  },
+  {
+    "name": "Floyd Home",
+    "website": "https://floydhome.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Detroit-based modular furniture brand (Floyd) founded in 2013 by Kyle Hoff and Alex O'Dell, making 'furniture for keeping' — platform beds, sofas, tables and shelving that are simple to assemble, easy to move and shipped to the door, designed as an alternative to disposable furniture.",
+    "contacts": [
+      {"contact_type": "creator_application", "contact_url": "https://linkapprove.com/affiliate-programs/category/home-living", "email": null, "source_url": "https://linkapprove.com/affiliate-programs/category/home-living"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://linkapprove.com/affiliate-programs/category/home-living", "summary": "LinkApprove Home & Living directory fetched: 'The Floyd affiliate program pays 7% per sale with a 45-day cookie window, and is available to LinkApprove creators and publishers in the US and Canada without a separate application'; average order value $890. No earnings-cap statement, so cap is unknown."},
+      {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/floyd", "summary": "Beacons Universe: FLOYD is a furniture company based in Detroit, United States, with posts from only 23 creators all time and 1 creator in the last 30 days — clear evidence of low creator saturation."},
+      {"confidence": "publicly_reported", "evidence_type": "general", "source_type": "listing", "source_url": "https://brandsearch.co/brands/floydhome.com", "summary": "BrandSearch store profile for floydhome.com lists the UpPromote Affiliate Marketing app installed on the store, corroborating a running affiliate operation, plus Yotpo Product Reviews & UGC."}
+    ],
+    "affiliate": {"network": "LinkApprove", "commission_rate": 7, "application_url": "https://linkapprove.com/affiliate-programs/category/home-living", "source_url": "https://linkapprove.com/affiliate-programs/category/home-living", "commission_cap": "unknown", "creator_saturation": "low"},
+    "opportunity": {"title": "Floyd Affiliate Program via LinkApprove (7% per sale, $890 AOV, no separate application)", "application_url": "https://linkapprove.com/affiliate-programs/category/home-living", "source_url": "https://linkapprove.com/affiliate-programs/category/home-living"},
+    "score": {"niche_fit": 26, "ugc_evidence": 13, "compensation": 14, "contact_access": 7, "opportunity_availability": 10, "credibility": 5, "reasons": {"niche_fit": "Core home niche — modular, tool-light assembly furniture is ideal for apartment/moving/room-tour UGC", "ugc_evidence": "Real creator posts on Beacons but very low volume (23 creators all time); store runs a UGC reviews stack", "compensation": "7% per sale on a $890 average order (~$62 per conversion) with a long 45-day cookie; no cap statement published", "contact_access": "No public partnerships email found on fetched pages; LinkApprove route only", "opportunity_availability": "Available to LinkApprove creators in US/CA with no separate Floyd application", "credibility": "Detroit DTC brand founded 2013, widely covered (Fast Company, Core77), sustained retail operation"}}
+  }
+]
