@@ -1,0 +1,626 @@
+[
+  {
+    "name": "Vetster",
+    "website": "https://vetster.com",
+    "country": null,
+    "category_slug": "pets",
+    "description": "Online veterinary telehealth platform connecting pet parents with licensed veterinarians and vet technicians for on-demand virtual appointments, 24/7, through its website and mobile apps.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": "https://vetster.com/en-ca/affiliates",
+        "email": "support@vetster.com",
+        "source_url": "https://vetster.com/en-ca/affiliates"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://vetster.com/en-ca/affiliates",
+        "summary": "Official Vetster affiliate page fetched: 'No cost to sign up', 'No cap on commission', program managed by Impact Radius (Impact), application usually approved within 1 business day, brand assets and a unique promo code provided. 'Share & earn' section: a fixed commission per appointment booked with the affiliate's promo code, and 'There's no cap on commissions, so share as much as you’d like across as many platforms as possible!' — an explicit no-cap statement on the brand's own page, so the commission cap is recorded as UNCAPPED. The official page does NOT publish the fixed per-appointment amount, so commission_rate is null."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://theaffiliateslist.com/pet-affiliate-programs/",
+        "summary": "Third-party listings conflict on the flat amount: The Affiliates List reports $15 per order via Impact with a 30-day cookie, while Lasso reports $30.00 per order for Vetster, Inc. Because the official page publishes no amount and third parties conflict ($15 vs $30), the rate is recorded as null rather than guessed."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://vetster.com/en-ca/affiliates",
+        "summary": "The same official page publishes the contact email support@vetster.com for affiliate questions ('Questions? Just email us at support@vetster.com')."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://vetster.com/en-ca/affiliates",
+      "source_url": "https://vetster.com/en-ca/affiliates",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Vetster Affiliate Program — fixed commission per appointment via Impact, no cap on commissions (support@vetster.com)",
+      "application_url": "https://vetster.com/en-ca/affiliates",
+      "source_url": "https://vetster.com/en-ca/affiliates"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 16,
+      "compensation": 17,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "24/7 online vet advice is a highly demonstrable, problem-led topic for pet-parent UGC (first vet visit, late-night worries, senior-pet care)",
+        "ugc_evidence": "Official page is built for audience owners: it hands creative direction to the affiliate ('the creative direction is all yours'), supplies brand assets and a personal promo code for content",
+        "compensation": "Verified UNCAPPED on the brand's own page ('No cap on commission'); the flat per-appointment amount is not published officially and third parties conflict, so compensation is scored below a published-rate uncapped program",
+        "contact_access": "Published support email support@vetster.com on the official affiliate page",
+        "opportunity_availability": "Open application through Impact, usually approved within 1 business day, no cost to sign up",
+        "credibility": "Established telehealth platform operating across many countries with licensed vets; smaller than the big pet retailers, so credibility is mid-range"
+      }
+    }
+  },
+  {
+    "name": "Innovet Pet",
+    "website": "https://www.innovetpet.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Pet-health brand selling CBD/hemp pet products, supplements, skin and coat care, shampoos and blind-dog aids through its own store, built around founder pets' stories (Maximus the blind dog, Gordo the bulldog).",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.innovetpet.com/pages/pet-affiliate-program",
+        "email": null,
+        "source_url": "https://www.innovetpet.com/pages/pet-affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.innovetpet.com/pages/pet-affiliate-program",
+        "summary": "Official Innovet Pet affiliate page fetched: program run on Awin with a dedicated affiliate manager; 'We pay 20-40% starting commission rate per sale. Higher volume affiliates may be eligible for a higher commission rate'; average order value $60 (up to $24 commission at 40%); 30-day cookie; banners and exclusive coupons provided; real-time tracking through Awin. The FAQ restates 'We pay up to 40% starting commission rate per sale on average... Even our lowest starting commission at 20% per sale'. The published rate is a range set by the brand itself, so the starting rate of 20 is recorded. No cap statement appears anywhere on the fetched page, so the commission cap is recorded as unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.innovetpet.com/pages/pet-affiliate-program",
+        "summary": "The same page names ideal partners as bloggers, doggie daycares, dog walkers, dog trainers, veterinarians and animal lovers, accepts affiliates worldwide where Awin operates, charges no fees, and sets a $50 commission threshold before payout."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 20,
+      "application_url": "https://www.innovetpet.com/pages/pet-affiliate-program",
+      "source_url": "https://www.innovetpet.com/pages/pet-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Innovet Pet Affiliate Program — 20-40% starting commission via Awin, 30-day cookie, $60 average order",
+      "application_url": "https://www.innovetpet.com/pages/pet-affiliate-program",
+      "source_url": "https://www.innovetpet.com/pages/pet-affiliate-program"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 16,
+      "compensation": 20,
+      "contact_access": 8,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Pet health and CBD pet care are staple, demonstrable topics for pet UGC, with problem/solution products (mobility, skin, anxiety, blind-dog aids)",
+        "ugc_evidence": "Official page explicitly recruits bloggers and pet-content partners and supplies banners, exclusive coupons and a dedicated affiliate manager",
+        "compensation": "20-40% starting commission on the brand's own page — among the highest published pet rates found; higher tiers for volume. No cap statement published, so cap is unknown",
+        "contact_access": "Application runs through Awin; a dedicated affiliate manager is named on the page but no program email is published, so contact access is scored lower",
+        "opportunity_availability": "Open application via Awin, free to join, affiliates accepted worldwide where Awin operates",
+        "credibility": "Long-running specialist pet-health brand with named founder-pet product stories and a large published catalog"
+      }
+    }
+  },
+  {
+    "name": "A1 SolarStore",
+    "website": "https://a1solarstore.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "US online retailer of solar panels, solar PV systems, batteries, inverters, HVAC heat pumps and home backup power equipment, selling direct to homeowners with in-house technical expertise.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://a1solarstore.com/affiliate-program/",
+        "email": null,
+        "source_url": "https://a1solarstore.com/affiliate-program/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://a1solarstore.com/affiliate-program/",
+        "summary": "Official A1 SolarStore affiliate page fetched: 6% commission on every qualified sale of solar panels, batteries, inverters, HVAC and home backup power; 90-day cookie; weekly Friday payouts with no minimum balance; 95% of transactions approved after verification (up to 7 days). The FAQ answers 'Is there a limit on how much I can earn?' with 'No cap on your total earnings. The only limit is per order: commission maxes out at $250 on a single Catalog Products sale.' — total earnings are explicitly uncapped on the brand's own page, so the cap is recorded as UNCAPPED, with the $250 PER-ORDER ceiling documented here so it is not misread: a single large system sale cannot pay more than $250."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://a1solarstore.com/affiliate-program/",
+        "summary": "The same page says the program is 'Built for 1,000+ partners' and names creators & influencers (YouTube, Instagram, Facebook, TikTok and niche creators interested in solar, home upgrades and energy savings) as a core partner type, alongside publishers, communities and agencies; every partner gets a personal affiliate manager (contact details in the dashboard after sign-up). The 1,000+ partner figure is a partner count, not a creator count at the ~100 scale, so creator saturation stays unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "A1 SolarStore direct affiliate program",
+      "commission_rate": 6,
+      "application_url": "https://a1solarstore.com/affiliate-program/",
+      "source_url": "https://a1solarstore.com/affiliate-program/",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "A1 SolarStore Affiliate Program — 6% per sale (max $250 per order), no cap on total earnings, 90-day cookie, weekly payouts",
+      "application_url": "https://a1solarstore.com/affiliate-program/",
+      "source_url": "https://a1solarstore.com/affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 15,
+      "compensation": 18,
+      "contact_access": 11,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Home solar, batteries and backup power are high-ticket, highly demonstrable home-upgrade topics for home and tech UGC; average purchases run $566-$6,950 on the brand's own table",
+        "ugc_evidence": "Official page names YouTube/Instagram/TikTok creators as a core partner type and provides link builder, product feeds, widgets and promo codes",
+        "compensation": "6% per sale with total earnings explicitly uncapped ('No cap on your total earnings'); per-order commission maxes at $250, which the high average order values regularly reach",
+        "contact_access": "Direct program (no network layer) with a personal affiliate manager for every partner; manager contact appears in the dashboard after sign-up and a contact form is linked, but no program email is published",
+        "opportunity_availability": "Open application, Ref ID and dashboard issued immediately at sign-up, review usually within 48 hours, free to join",
+        "credibility": "Established US solar retailer with published verification/payout process and a 2025 growth award claim on its own page"
+      }
+    }
+  },
+  {
+    "name": "BestLife4Pets",
+    "website": "https://www.bestlife4pets.com",
+    "country": null,
+    "category_slug": "pets",
+    "description": "Natural, holistic pet-care brand (BL4P) selling homeopathic-style pet remedies and supplements for dogs and cats through its own store, promoted with personal pet-story and review content.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.bestlife4pets.com/en-us/pages/affiliate-programs",
+        "email": "partnerships@bestlife4pets.com",
+        "source_url": "https://www.bestlife4pets.com/en-us/pages/affiliate-programs"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.bestlife4pets.com/en-us/pages/affiliate-programs",
+        "summary": "Official BestLife4Pets affiliate page fetched: two programs offered. (1) Shopify Collabs (Preferred) — described only as 'high commission rates' with full tracking, unique link and promo codes, contests and giveaways, 30-day attribution, payouts on the 1st of the month; the Collabs percentage itself is NOT published on the page. (2) Amazon Levanta — 20% commission rate, 14-day attribution window on the page (the FAQ separately notes a 24-hour Amazon Associates window). Because the preferred direct program (Shopify Collabs) publishes no rate, commission_rate is recorded as null; the 20% figure belongs to the separate Amazon Levanta channel and is documented here, not recorded as the direct rate. No cap statement appears on the page, so the cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://www.bestlife4pets.com/en-us/pages/affiliate-programs",
+        "summary": "The same page names Theresa, Head of Affiliate Communications, as the support contact at partnerships@bestlife4pets.com, and says content that works best includes personal pet stories/testimonials, product reviews, health tips and pet photos/videos."
+      }
+    ],
+    "affiliate": {
+      "network": "Shopify Collabs",
+      "commission_rate": null,
+      "application_url": "https://www.bestlife4pets.com/en-us/pages/affiliate-programs",
+      "source_url": "https://www.bestlife4pets.com/en-us/pages/affiliate-programs",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "BestLife4Pets Affiliate Programs — Shopify Collabs (preferred, rate on application) or Amazon Levanta at 20% (partnerships@bestlife4pets.com)",
+      "application_url": "https://www.bestlife4pets.com/en-us/pages/affiliate-programs",
+      "source_url": "https://www.bestlife4pets.com/en-us/pages/affiliate-programs"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 15,
+      "compensation": 13,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Natural and holistic pet remedies are a strong fit for pet-health UGC built on personal pet stories",
+        "ugc_evidence": "Official page explicitly guides creators on content types (stories, reviews, health tips, pet videos) and runs contests and giveaways for affiliates",
+        "compensation": "Preferred Shopify Collabs rate is unpublished ('high commission rates' only); the documented 20% belongs to the separate Amazon Levanta channel, so compensation is scored mid-range and the direct rate is null",
+        "contact_access": "Named Head of Affiliate Communications with a published partnerships email on the official page",
+        "opportunity_availability": "Open sign-up to either or both programs, free to join",
+        "credibility": "Smaller specialist brand with a named affiliate lead; credibility scored mid-low"
+      }
+    }
+  },
+  {
+    "name": "PupPod",
+    "website": "https://puppod.com",
+    "country": null,
+    "category_slug": "pets",
+    "description": "Pet-tech brand selling the PupPod Rocker with Feeder — an interactive, app-connected dog toy/feeder that rocks and dispenses treats as a dog plays and learns.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://puppod.com/pages/puppod-affiliate-program",
+        "email": null,
+        "source_url": "https://puppod.com/pages/puppod-affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://puppod.com/pages/puppod-affiliate-program",
+        "summary": "Official PupPod affiliate page fetched: 'Earn $20 Per PupPod Sold' — a flat $20 for every purchase of a PupPod Rocker with Feeder made through the affiliate's custom link; account creation takes about 30 seconds (name/email/password or Google/Facebook sign-up) via GoAffPro (login at puppod.goaffpro.com); a media kit is provided and the page recommends sharing a picture or video of your own dog playing PupPod. The commission is a flat dollar amount, not a percentage, so commission_rate is null and the $20 flat rate is recorded here and in the opportunity title. No cap statement appears on the page, so the cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://puppod.com/pages/puppod-affiliate-program",
+        "summary": "The same page directs affiliates to share their link on social media, newsletters, text, email or a website, and to use the Marketing Tools tab to deep-link the product listing."
+      }
+    ],
+    "affiliate": {
+      "network": "GoAffPro",
+      "commission_rate": null,
+      "application_url": "https://puppod.com/pages/puppod-affiliate-program",
+      "source_url": "https://puppod.com/pages/puppod-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "PupPod Affiliate Program — flat $20 per PupPod Rocker with Feeder sold, via GoAffPro",
+      "application_url": "https://puppod.com/pages/puppod-affiliate-program",
+      "source_url": "https://puppod.com/pages/puppod-affiliate-program"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 14,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "An interactive dog toy/feeder is one of the most filmable pet-tech products — dogs playing on camera is native UGC",
+        "ugc_evidence": "Official page recommends affiliates post photos/videos of their own dog playing PupPod and supplies a media kit",
+        "compensation": "Flat $20 per unit sold — simple and predictable, but a single-product flat rate rather than a percentage of a basket; no cap statement published",
+        "contact_access": "Self-serve GoAffPro sign-up and login; no program email is published on the fetched page, so contact access is scored lower",
+        "opportunity_availability": "Instant account creation (about 30 seconds), open to anyone",
+        "credibility": "Single-product pet-tech brand with its own store, media kit and published affiliate terms"
+      }
+    }
+  },
+  {
+    "name": "AOSU",
+    "website": "https://www.aosu.com",
+    "country": null,
+    "category_slug": "technology",
+    "description": "Consumer smart-home security brand selling wire-free security cameras, video doorbells, solar-powered camera systems and home-base kits with local recording and no mandatory subscription for core features.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.affiliate-program.io/en/programs/aosu-life-flexoffers--208219",
+        "email": null,
+        "source_url": "https://www.affiliate-program.io/en/programs/aosu-life-flexoffers--208219"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.affiliate-program.io/en/programs/aosu-life-flexoffers--208219",
+        "summary": "FlexOffers network listing for 'aosu Life' fetched: payout 6.40% per sale, program described by the network as 'a smart home security brand offering easy-to-use solutions for families, including security cameras, video doorbells, solar-powered camera systems, and related home protection products', and 'ideal for partners in smart home, tech, family safety, home improvement, and consumer electronics'."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/niche/home-security/",
+        "summary": "Lasso's home-security roundup reports AOSU US at up to 15.75% per sale and elsewhere in the same article cites product commission rates of up to 25%. Published rates therefore conflict across sources (6.40% FlexOffers vs up to 15.75% vs up to 25%), so commission_rate is recorded as null with the conflict documented here. No fetched source carries a cap statement, so the cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://merchants.sovrn.com/merchants/232165/aosu-affiliate-program",
+        "summary": "Sovrn Commerce's merchant page confirms AOSU is a consumer smart-home security brand focused on connected cameras and video doorbells for residential use and lists it for affiliate access through Sovrn, while noting the current rate through Sovrn could not be independently verified."
+      }
+    ],
+    "affiliate": {
+      "network": "FlexOffers",
+      "commission_rate": null,
+      "application_url": "https://www.affiliate-program.io/en/programs/aosu-life-flexoffers--208219",
+      "source_url": "https://www.affiliate-program.io/en/programs/aosu-life-flexoffers--208219",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "AOSU Affiliate Program — smart home security cameras and doorbells via FlexOffers / Sovrn (rate varies by network, see evidence)",
+      "application_url": "https://www.affiliate-program.io/en/programs/aosu-life-flexoffers--208219",
+      "source_url": "https://www.affiliate-program.io/en/programs/aosu-life-flexoffers--208219"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 15,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "DIY home security cameras and doorbells are a top demonstrable smart-home category for tech and home UGC (installation, night vision, app alerts)",
+        "ugc_evidence": "The brand works through creator/publisher networks (FlexOffers, Sovrn) aimed at smart-home, tech and family-safety partners, with subscription-free local recording as a review hook",
+        "compensation": "Rates conflict across networks (6.40% to up to 25% in published listings), so the rate is null and compensation is scored on the mid-range of what is published; no cap statement found",
+        "contact_access": "Network-mediated access only (FlexOffers/Sovrn); no program email published on the fetched sources, so contact access is scored lower",
+        "opportunity_availability": "Open network application through FlexOffers or Sovrn Commerce",
+        "credibility": "Fast-growing security brand with tier-one media and CES/IFA presence reported by Lasso; established Amazon performance"
+      }
+    }
+  },
+  {
+    "name": "Ruggable",
+    "website": "https://ruggable.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Home brand that pioneered machine-washable rugs — two-piece rug systems (cover plus non-slip pad) and doormats in designer patterns, aimed at homes with kids and pets.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://getlasso.co/affiliate/ruggable/",
+        "email": null,
+        "source_url": "https://getlasso.co/affiliate/ruggable/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/ruggable/",
+        "summary": "Lasso's Ruggable program page reports 6% per sale with a 21-day cookie for the machine-washable rug program."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://uppromote.com/affiliate-directory/ruggable/",
+        "summary": "UpPromote's directory summary states Ruggable runs its program through established networks — CJ Affiliate, FlexOffers and Awin (non-US) — plus AspireIQ for influencer/creator management, with rates 'commonly cited as 3% to 6% per sale'. Other listings conflict further: LinkApprove reports up to 8% and WhichProgram lists up to 10% via ShareASale. Because published rates conflict (3-6% vs 6% vs up to 8% vs up to 10%) and no official program page publishing a rate was fetched, commission_rate is recorded as null. No cap statement was found, so the cap is unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale / CJ Affiliate / Awin",
+      "commission_rate": null,
+      "application_url": "https://getlasso.co/affiliate/ruggable/",
+      "source_url": "https://getlasso.co/affiliate/ruggable/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Ruggable Affiliate Program — washable rugs via ShareASale / CJ / Awin (published rates conflict, see evidence)",
+      "application_url": "https://getlasso.co/affiliate/ruggable/",
+      "source_url": "https://getlasso.co/affiliate/ruggable/"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 17,
+      "compensation": 12,
+      "contact_access": 7,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Washable rugs are a proven home-UGC staple — spill tests, pet messes and room makeovers are native content formats",
+        "ugc_evidence": "The brand manages creators through AspireIQ in addition to affiliate networks, and its washable-rug demo format is built for social video",
+        "compensation": "Published rates conflict across networks (3% to up to 10%), so the rate is null; mid-range percentages on a high average order value (~$225-$285 in listings)",
+        "contact_access": "Network-mediated applications only; no program email published on the fetched sources, so contact access is scored lower",
+        "opportunity_availability": "Open applications through multiple networks (ShareASale, CJ, Awin, FlexOffers)",
+        "credibility": "Category-creating, widely recognised US home brand with national retail presence"
+      }
+    }
+  },
+  {
+    "name": "Cozy Earth",
+    "website": "https://cozyearth.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Premium home and loungewear brand selling bamboo-based bedding (sheets, duvet covers), bath towels and loungewear known for softness and temperature regulation.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.awin.com/us/news-and-events/program-news/advertiser-spotlight-cozy-earth",
+        "email": "affiliates@cozyearth.com",
+        "source_url": "https://www.awin.com/us/news-and-events/program-news/advertiser-spotlight-cozy-earth"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.awin.com/us/news-and-events/program-news/advertiser-spotlight-cozy-earth",
+        "summary": "Awin's own advertiser spotlight for Cozy Earth fetched: 'Publishers can email us at affiliates@cozyearth.com with any questions/concerns or apply to our program on Awin (ID 22239)'; the brand describes affiliate marketing as a major revenue channel driving 'a few hundred thousand dollars of affiliate revenue every month' and looks for partners who push affiliate links in discounts and blogs. No rate or cap statement appears in the spotlight, so the cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "industry_press",
+        "source_url": "https://www.modernretail.co/marketing/how-bedding-brand-cozy-earth-built-out-an-in-house-affiliate-program/",
+        "summary": "Modern Retail reports Cozy Earth moved its program in-house in May 2021 and that its affiliate commissions 'can be anywhere between 6% to 25%'; LinkClicky separately lists 2% via Impact and Shopper lists 5-10%. Published rates conflict widely (2% vs 5-10% vs 6-25%) and span different program eras (network vs in-house), so commission_rate is recorded as null with the conflict documented here."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": null,
+      "application_url": "https://www.awin.com/us/news-and-events/program-news/advertiser-spotlight-cozy-earth",
+      "source_url": "https://www.awin.com/us/news-and-events/program-news/advertiser-spotlight-cozy-earth",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Cozy Earth Affiliate Program — apply on Awin (ID 22239) or email affiliates@cozyearth.com (rate on application, see evidence)",
+      "application_url": "https://www.awin.com/us/news-and-events/program-news/advertiser-spotlight-cozy-earth",
+      "source_url": "https://www.awin.com/us/news-and-events/program-news/advertiser-spotlight-cozy-earth"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 11,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Premium bamboo bedding and bath are strong home and sleep-UGC topics (sheet softness, temperature regulation, bedroom upgrades)",
+        "ugc_evidence": "Awin spotlight and trade coverage both describe a content-focused affiliate strategy blending PR and affiliate pitches with home and wellness creators",
+        "compensation": "Rate is not published on the network spotlight and third-party figures conflict (2% to 25% across eras), so the rate is null and compensation is scored conservatively despite premium price points",
+        "contact_access": "Dedicated affiliate team email affiliates@cozyearth.com published by Awin itself",
+        "opportunity_availability": "Open application on Awin (program ID 22239)",
+        "credibility": "One of the fastest-growing US bedding brands with national media coverage and a dedicated affiliate team"
+      }
+    }
+  },
+  {
+    "name": "Solo Stove",
+    "website": "https://www.solostove.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Outdoor-home brand selling smokeless stainless-steel fire pits, tabletop fire features, pizza ovens, camp stoves and backyard accessories for outdoor gathering and cooking.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://getlasso.co/affiliate/solo-stove/",
+        "email": null,
+        "source_url": "https://getlasso.co/affiliate/solo-stove/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/solo-stove/",
+        "summary": "Lasso's Solo Stove program page reports 5% per sale with a 30-day cookie for the smokeless fire pit and outdoor range."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "industry_press",
+        "source_url": "https://purpleorange.agency/case-studies/turning-up-the-heat-on-solo-stoves-affiliate-program-without-increasing-ad-spend/",
+        "summary": "Agency case study (Purple Orange, the brand's affiliate management agency) reports Solo Stove's program was reoriented around content partnerships and skilled creators/publishers, with Impact selected as the primary network partner, affiliate-driven revenue reaching about 11% of total company revenue, and coupon-site commissions reduced to 1% while content sites keep the full journey commission. No cap statement appears in either fetched source, so the cap is unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 5,
+      "application_url": "https://getlasso.co/affiliate/solo-stove/",
+      "source_url": "https://purpleorange.agency/case-studies/turning-up-the-heat-on-solo-stoves-affiliate-program-without-increasing-ad-spend/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Solo Stove Affiliate Program — 5% per sale via Impact, 30-day cookie, content-creator focused",
+      "application_url": "https://getlasso.co/affiliate/solo-stove/",
+      "source_url": "https://getlasso.co/affiliate/solo-stove/"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 15,
+      "compensation": 12,
+      "contact_access": 7,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Smokeless fire pits and backyard cooking are highly visual outdoor-home products made for demo and gathering content",
+        "ugc_evidence": "The program was rebuilt around content partnerships and skilled creators per its agency's case study, with content sites protected on attribution",
+        "compensation": "5% per sale on premium-priced hardware; no cap statement published, so cap is unknown",
+        "contact_access": "Network-mediated through Impact; no program email published on the fetched sources, so contact access is scored lower",
+        "opportunity_availability": "Open application through Impact",
+        "credibility": "Category-leading outdoor brand; affiliate program is a documented double-digit share of company revenue"
+      }
+    }
+  },
+  {
+    "name": "Eight Sleep",
+    "website": "https://www.eightsleep.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Sleep-technology brand selling the Pod — a smart mattress cover/system that actively heats and cools the bed and tracks sleep — at premium price points (Pods above $1,500-$2,000).",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.eightsleep.com/ae/referral-terms-conditions/",
+        "email": "bizdev@eightsleep.com",
+        "source_url": "https://www.eightsleep.com/ae/referral-terms-conditions/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://www.eightsleep.com/ae/referral-terms-conditions/",
+        "summary": "Eight Sleep's official referral terms page fetched: it distinguishes the individual referral program from the affiliate program and directs businesses interested in the Affiliate program to contact bizdev@eightsleep.com. The same page documents the referral program's own caps (rewards in $100 increments, maximum 100 Qualified Referrals per calendar year) — those caps belong to the customer referral program, NOT the affiliate program, and are documented here so they are not misread as an affiliate cap; no affiliate cap statement was found, so the affiliate cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://compareepc.com/mattress-affiliate-programs/",
+        "summary": "Published affiliate rates for Eight Sleep conflict across sources: CompareEPC lists the program on Impact at 2%; other roundups report 3% CPS, up to 5%, ~6% with a ~90-day cookie, and up to 10%. Because no official affiliate page publishing a rate was fetched and third parties conflict, commission_rate is recorded as null with the conflict documented here."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://www.eightsleep.com/ae/referral-terms-conditions/",
+      "source_url": "https://www.eightsleep.com/ae/referral-terms-conditions/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Eight Sleep Affiliate Program — smart sleep Pod via Impact; businesses contact bizdev@eightsleep.com (rate on application, see evidence)",
+      "application_url": "https://www.eightsleep.com/ae/referral-terms-conditions/",
+      "source_url": "https://www.eightsleep.com/ae/referral-terms-conditions/"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 14,
+      "compensation": 11,
+      "contact_access": 10,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Sleep tech is a strong tech-meets-home UGC niche — temperature control and sleep tracking demo well for biohacking, recovery and smart-home audiences",
+        "ugc_evidence": "The affiliate route is aimed at businesses and publishers (the official page separates it from the individual referral program); premium hardware supports long-form review content",
+        "compensation": "Published rates conflict (2% to up to 10%) and the official affiliate rate is unpublished, so the rate is null; premium $1,500+ price points lift per-sale value even at low percentages",
+        "contact_access": "Official page publishes bizdev@eightsleep.com specifically for affiliate-program interest",
+        "opportunity_availability": "Application through Impact / business contact; less self-serve than the other programs in this group, so availability is scored lower",
+        "credibility": "Well-known, heavily covered sleep-tech brand with premium retail presence"
+      }
+    }
+  }
+]

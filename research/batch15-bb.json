@@ -1,0 +1,703 @@
+[
+  {
+    "name": "RAMODO Jewelry",
+    "website": "https://ramodo.net",
+    "country": null,
+    "category_slug": "fashion",
+    "description": "Jewelry brand running the RAMODO Ambassador Program for fashion and jewelry creators. Ambassadors earn 10% commission on every referred sale, tracked through GOAFFPRO and UpPromote, and the program FAQ states there is no cap on how much an ambassador can earn.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "support@ramodo.net",
+        "source_url": "https://RAMODO.NET/pages/ramodo-ambassador-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://RAMODO.NET/pages/ramodo-ambassador-program",
+        "summary": "Official ambassador page: 'Earn a generous 10% commission on every successful sale made through your link'; the program is free to join and open to influencers with content focused on jewelry, fashion, or entrepreneurship."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://RAMODO.NET/pages/ramodo-ambassador-program",
+        "summary": "Commission cap stated explicitly in the official FAQ: 'Is there a cap on how much I can earn? No! There is no cap on how much you can earn as a RAMODO Ambassador, making your earning potential limitless!'"
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://RAMODO.NET/pages/ramodo-ambassador-program",
+        "summary": "Tracking runs through both GOAFFPRO and UpPromote with a 30-day referral window and a real-time dashboard; ambassadors receive high-resolution product images, banners and pre-written content ideas; support email support@ramodo.net is published on the page."
+      }
+    ],
+    "affiliate": {
+      "network": "GoAffPro / UpPromote",
+      "commission_rate": 10,
+      "application_url": "https://RAMODO.NET/pages/ramodo-ambassador-program",
+      "source_url": "https://RAMODO.NET/pages/ramodo-ambassador-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "RAMODO Jewelry Ambassador Program",
+      "application_url": "https://RAMODO.NET/pages/ramodo-ambassador-program",
+      "source_url": "https://RAMODO.NET/pages/ramodo-ambassador-program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 17,
+      "compensation": 16,
+      "contact_access": 12,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Jewelry is a staple fashion-creator category — pieces are worn on camera in GRWM, styling and review content.",
+        "ugc_evidence": "The official page is built for influencers and content creators, supplies product images, banners and content ideas, and says ambassadors do not need a blog — social channels including Instagram, TikTok and YouTube qualify.",
+        "compensation": "Flat 10% on every referred sale with an explicit no-cap statement in the official FAQ.",
+        "contact_access": "Published ambassador support email (support@ramodo.net) on the official program page.",
+        "opportunity_availability": "Open application on the brand's own page; free to join, approval is selective but no follower minimum is published.",
+        "credibility": "A small, little-known jewelry brand; the program runs on established platforms (GOAFFPRO, UpPromote) but the brand itself has limited public track record, so credibility stays low."
+      }
+    }
+  },
+  {
+    "name": "House of Cortivo",
+    "website": "https://www.houseofcortivo.com",
+    "country": null,
+    "category_slug": "fashion",
+    "description": "Women's wearable-art fashion brand founded by Hillary Cortivo — leggings and pieces built from original paintings, released in limited batches. Its own affiliate program pays 15% commission on every referred sale, paid monthly, with no cap and no follower requirement; currently open to US-based affiliates only.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.houseofcortivo.com/pages/affiliate-signup",
+        "summary": "Official affiliate page: '15% Commission on every sale'; at the $80 legging example price each referred sale pays $12; commissions are paid monthly and affiliates get full visibility through an affiliate dashboard."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.houseofcortivo.com/pages/affiliate-signup",
+        "summary": "Commission cap stated explicitly on the official page: 'No cap. No ceiling. The more you share, the more you earn' and in the FAQ, 'paid monthly with no cap on what you can earn.'"
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.houseofcortivo.com/pages/affiliate-signup",
+        "summary": "No follower requirement and no monthly quota ('Whether you have 500 followers or 500K'); affiliates apply on the page and receive a unique link within 24 hours; sharing is welcomed on Instagram, TikTok, Pinterest, YouTube, blogs and email lists; US-based affiliates only for now."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 15,
+      "application_url": "https://www.houseofcortivo.com/pages/affiliate-signup",
+      "source_url": "https://www.houseofcortivo.com/pages/affiliate-signup",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "House of Cortivo Affiliate Program",
+      "application_url": "https://www.houseofcortivo.com/pages/affiliate-signup",
+      "source_url": "https://www.houseofcortivo.com/pages/affiliate-signup"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 17,
+      "contact_access": 6,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Wearable-art leggings and fashion pieces are a natural try-on and styling fit for fashion and lifestyle creators.",
+        "ugc_evidence": "The page is written directly to creators sharing on Instagram, TikTok, Pinterest and YouTube, with no follower minimum; it publishes no creator counts, so the score stays mid-range.",
+        "compensation": "15% on every sale with explicit 'No cap. No ceiling.' wording in both the earnings section and the FAQ.",
+        "contact_access": "No direct partnerships email is published on the page; contact runs through the on-page application form.",
+        "opportunity_availability": "Open application on the brand's own page, link issued within 24 hours, no contract or minimum commitment; US-based affiliates only.",
+        "credibility": "A very small founder-led brand (founder story names 17 years in luxury fashion including Chanel); limited public track record, so credibility stays low."
+      }
+    }
+  },
+  {
+    "name": "Blackland Watch Co.",
+    "website": "https://blacklandwatchco.com",
+    "country": null,
+    "category_slug": "fashion",
+    "description": "Watch retailer specialising in independent makers and new and pre-owned luxury timepieces. Its own affiliate program (portal on GoAffPro) pays 5% on watches sold for $150 or more and 1% below that, and its published rules state there is no commission cap per sale or on total earnings.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "info@blacklandwatchco.com",
+        "source_url": "https://blacklandwatchco.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://blacklandwatchco.com/pages/affiliate-program",
+        "summary": "Official rate table: watches priced at $150 or more earn 5%, watches below $150 earn 1%, straps/cases/accessories earn no commission; new and pre-owned watches both qualify, including pre-owned luxury watches."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://blacklandwatchco.com/pages/affiliate-program",
+        "summary": "Commission cap stated explicitly on the official page, twice: 'No commission cap. There is no maximum commission per eligible watch sale and no limit on your total affiliate earnings' and 'There is no cap on commissions per sale or on an affiliate's total earnings.'"
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://blacklandwatchco.com/pages/affiliate-program",
+        "summary": "The page invites watch enthusiasts, creators and podcasters; affiliates register through the brand's GoAffPro portal (blacklandwatchco.goaffpro.com), are paid at least once per calendar month after the return period, and can contact the brand at info@blacklandwatchco.com."
+      }
+    ],
+    "affiliate": {
+      "network": "GoAffPro",
+      "commission_rate": 5,
+      "application_url": "https://blacklandwatchco.goaffpro.com",
+      "source_url": "https://blacklandwatchco.com/pages/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Blackland Watch Co. Affiliate Program",
+      "application_url": "https://blacklandwatchco.com/pages/affiliate-program",
+      "source_url": "https://blacklandwatchco.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 14,
+      "compensation": 12,
+      "contact_access": 11,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Watches are a focused fashion-accessory niche — strong for watch and menswear creators, narrower for general fashion audiences.",
+        "ugc_evidence": "The official page explicitly welcomes creators and podcasters, but publishes no creator counts or creator-specific perks beyond the referral link.",
+        "compensation": "5% on watches at $150+ (1% below $150, nothing on accessories) — a low percentage, partly offset by high watch prices and an explicit no-cap statement in the program rules.",
+        "contact_access": "Published contact email (info@blacklandwatchco.com) on the official program page.",
+        "opportunity_availability": "Open registration through the brand's own affiliate portal.",
+        "credibility": "A small specialist retailer; the program rules are unusually detailed and transparent, but the brand has a limited public footprint, so credibility stays low."
+      }
+    }
+  },
+  {
+    "name": "Cover Looks",
+    "website": "https://coverlooks.com",
+    "country": null,
+    "category_slug": "fashion",
+    "description": "Affordable, trend-led women's fashion brand. Its own affiliate program gives fashion influencers, bloggers and content creators a referral link and a real-time earnings dashboard, pays monthly, and answers its earnings-limit question with 'There's no cap on commissions'. The percentage rate itself is not published on the page, so the rate is recorded as null.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://coverlooks.com/pages/register-affiliate-account",
+        "email": null,
+        "source_url": "https://coverlooks.com/pages/register-affiliate-account"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://coverlooks.com/pages/register-affiliate-account",
+        "summary": "Official page: the Cover Looks Affiliate Program 'allows you to earn commissions by promoting our stylish fashion collections' and is aimed at fashion influencers, bloggers and content creators; affiliates get a unique referral link, exclusive promotional materials and real-time earnings tracking, paid monthly past a minimum threshold."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://coverlooks.com/pages/register-affiliate-account",
+        "summary": "Commission cap stated explicitly on the official page: 'Is there a limit to how much I can earn? No! The more successful your promotions, the more you earn. There's no cap on commissions, so the potential is limitless!'"
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_program_page",
+        "source_url": "https://coverlooks.com/pages/register-affiliate-account",
+        "summary": "The page promises only 'competitive commission rates' and publishes no percentage anywhere, so commission_rate is recorded as null rather than guessed."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://coverlooks.com/pages/register-affiliate-account",
+      "source_url": "https://coverlooks.com/pages/register-affiliate-account",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Cover Looks Affiliate Program",
+      "application_url": "https://coverlooks.com/pages/register-affiliate-account",
+      "source_url": "https://coverlooks.com/pages/register-affiliate-account"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 15,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 2,
+      "reasons": {
+        "niche_fit": "Trend-led affordable fashion is a core haul and try-on category for fashion creators.",
+        "ugc_evidence": "The program page is written for fashion influencers, bloggers and content creators and offers promotional materials, but publishes no creator counts.",
+        "compensation": "Explicit no-cap statement in the official FAQ, but the commission percentage is never published, so compensation scores low until the rate is confirmed at sign-up.",
+        "contact_access": "No email is published; contact runs through the on-page registration form.",
+        "opportunity_availability": "Open registration on the brand's own page with approval, and no upfront costs — only 'a passion for fashion and a platform' is required.",
+        "credibility": "A small, little-known fashion storefront with a thin public footprint, so credibility stays low."
+      }
+    }
+  },
+  {
+    "name": "Bauerfeind USA",
+    "website": "https://www.bauerfeind.us",
+    "country": "United States",
+    "category_slug": "fitness",
+    "description": "US arm of the global orthopedic braces and performance compression wear manufacturer. Its affiliate program is built for athletes, fitness and health content creators and bloggers with a US audience: commission rates start at 8%, with a 30-day cookie, specialised discount codes and real-time commission data. No cap statement is published on the page, so the cap is recorded as unknown.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliate@bauerfeindusa.com",
+        "source_url": "https://www.bauerfeind.us/affiliate-program/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.bauerfeind.us/affiliate-program/",
+        "summary": "Official page: 'Commission rates start at 8%', 30-day cookie window for affiliate links, specialised discount codes and real-time access to commission data; the program is free to join after creating a Bauerfeind.us account and being accepted."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.bauerfeind.us/affiliate-program/",
+        "summary": "The program explicitly targets athletes, fitness and health content creators and bloggers; no website is required — blogs, newsletters, social media and YouTube channels are acceptable channels; affiliates must have a US-based audience."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.bauerfeind.us/affiliate-program/",
+        "summary": "No commission-cap statement appears anywhere on the official page (earnings are described only as performance-based), so commission_cap is recorded as unknown; the dedicated affiliate contact email is affiliate@bauerfeindusa.com."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 8,
+      "application_url": "https://www.bauerfeind.us/affiliate-program/",
+      "source_url": "https://www.bauerfeind.us/affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Bauerfeind USA Affiliate Program",
+      "application_url": "https://www.bauerfeind.us/affiliate-program/",
+      "source_url": "https://www.bauerfeind.us/affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 18,
+      "compensation": 13,
+      "contact_access": 14,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Braces and performance compression wear demo naturally in training, rehab and return-to-sport content — a strong fit for fitness creators.",
+        "ugc_evidence": "The official page is written directly to athletes and fitness/health content creators, accepts social and YouTube channels without a website, and offers creator discount codes.",
+        "compensation": "Rates start at 8% (the page does not publish the top of the range) and no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Dedicated affiliate email (affiliate@bauerfeindusa.com) published repeatedly on the official page.",
+        "opportunity_availability": "Application on the brand's own page after account creation; acceptance is reviewed and US audiences only.",
+        "credibility": "The US arm of a leading global manufacturer of orthopedic braces and compression wear, with a published customer-service line and a 60-day money-back guarantee."
+      }
+    }
+  },
+  {
+    "name": "Craft Sportswear US",
+    "website": "https://www.craftsports.us",
+    "country": "United States",
+    "category_slug": "fitness",
+    "description": "US storefront of CRAFT, the Swedish high-performance endurance sportswear brand with a strong Nordic heritage. Its affiliate program runs through AvantLink and pays 10% commission to content publishers (5% for coupon/deal sites) with a 30-day cookie. No cap statement is published, so the cap is recorded as unknown.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.craftsports.us/pages/affiliate-program",
+        "email": null,
+        "source_url": "https://www.craftsports.us/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.craftsports.us/pages/affiliate-program",
+        "summary": "Official page: 'join the CRAFT Affiliate program and earn 5-10% commission on every qualified buyer you send our way'; program highlights list 10% commission for content Publishers and 5% for Coupon/Deal sites, a 30-day cookie, average order value of $100+ and a 2.1% sitewide conversion rate."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.craftsports.us/pages/affiliate-program",
+        "summary": "The program is run with AvantLink ('We've partnered with AvantLink, the leader in Affiliate Marketing technology'), which provides the affiliate tools free of charge; no commission-cap statement appears on the page, so commission_cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "AvantLink",
+      "commission_rate": 10,
+      "application_url": "https://www.craftsports.us/pages/affiliate-program",
+      "source_url": "https://www.craftsports.us/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Craft Sportswear US Affiliate Program (AvantLink)",
+      "application_url": "https://www.craftsports.us/pages/affiliate-program",
+      "source_url": "https://www.craftsports.us/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 14,
+      "contact_access": 5,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "High-performance endurance apparel (running, cycling, Nordic ski) is a natural gear-review and training-content fit for fitness creators.",
+        "ugc_evidence": "Content publishers get the headline 10% rate, but the page speaks to websites and blogs generally and publishes no creator counts or creator-specific perks.",
+        "compensation": "10% for content publishers (5% for coupon/deal sites) on a $100+ average order; no cap statement published, so the cap is honestly unknown.",
+        "contact_access": "No direct partnerships email is published on the page; contact runs through the AvantLink application.",
+        "opportunity_availability": "Open application via the brand's own page into the AvantLink program.",
+        "credibility": "An established global performance brand ('high performance, high endurance brand with a strong Nordic heritage') running its program through AvantLink, a major network."
+      }
+    }
+  },
+  {
+    "name": "AIVVIA Athletics",
+    "website": "https://aivviaathletics.com",
+    "country": null,
+    "category_slug": "fitness",
+    "description": "Women's made-to-order activewear brand ('Made by women, for women'). Its Ambassador Program gives creators their own link and code, earned PR sets and early access, and states 'No caps' on commission. The commission percentage itself is never published on the page, so the rate is recorded as null.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://aivviaathletics.com/pages/apply",
+        "email": null,
+        "source_url": "https://aivviaathletics.com/pages/apply"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/aivviaathletics"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://aivviaathletics.com/pages/apply",
+        "summary": "Official ambassador page: 'Your own link and code. Every order through you earns commission. No caps.' Ambassadors also unlock earned PR sets, early access to drops, monthly perks and collab invites; applications are reviewed usually within 24 hours and activation follows within 24–48 hours."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://aivviaathletics.com/pages/apply",
+        "summary": "The program does not choose ambassadors by follower count ('We value authentic content, engagement, and real enthusiasm for the brand'); ambassadors must be 18 or older to earn commission; the page features named fitness-instructor and yoga-teacher ambassadors."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_program_page",
+        "source_url": "https://aivviaathletics.com/pages/apply",
+        "summary": "No commission percentage is published anywhere on the official page — the rate is provided only after acceptance — so commission_rate is recorded as null rather than guessed."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://aivviaathletics.com/pages/apply",
+      "source_url": "https://aivviaathletics.com/pages/apply",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "AIVVIA Athletics Ambassador Program",
+      "application_url": "https://aivviaathletics.com/pages/apply",
+      "source_url": "https://aivviaathletics.com/pages/apply"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 18,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Women's activewear sets across three compression fabrics are a core try-on and workout-content fit for fitness creators.",
+        "ugc_evidence": "A creator-first ambassador program: no follower-count selection, named working fitness instructors as ambassadors, earned PR, early access and studio/instructor collaborations.",
+        "compensation": "Explicit 'No caps' wording on commission, but the percentage itself is unpublished, so compensation scores low until the rate is confirmed at acceptance.",
+        "contact_access": "No email is published; contact runs through the on-page application form.",
+        "opportunity_availability": "Open two-minute application on the brand's own page with fast review; worldwide shipping where the brand ships.",
+        "credibility": "A young, small made-to-order brand; the sustainability and made-to-order model is documented on the page, but the public track record is thin, so credibility stays low."
+      }
+    }
+  },
+  {
+    "name": "Click Fly",
+    "website": "https://www.click-fly.com",
+    "country": "Estonia",
+    "category_slug": "travel",
+    "description": "Travel booking platform for flights, hotels, tours, transfers and holiday packages, operated from Tallinn, Estonia. Its own affiliate program is open to travel creators, bloggers and influencers with real-time tracking and dashboard payouts; joining is free with 'no limits on earning potential'. Commission values depend on volume and performance and are not published as percentages, so the rate is recorded as null.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.click-fly.com/page/affiliate-program",
+        "email": null,
+        "source_url": "https://www.click-fly.com/page/affiliate-program"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/clickandfly4lux"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/clickandfly4lux"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.click-fly.com/page/affiliate-program",
+        "summary": "Official page: affiliates 'earn strong commissions for every completed booking' across flights, hotels, tours, car rentals/transfers, holiday packages and custom travel requests, with a real-time dashboard showing clicks, conversions, bookings and earnings."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.click-fly.com/page/affiliate-program",
+        "summary": "Earnings-limit statement on the official page: joining is free with 'No membership fees, no hidden charges, and no limits on earning potential.'"
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_program_page",
+        "source_url": "https://www.click-fly.com/page/affiliate-program",
+        "summary": "The page states only that 'Commission values depend on volume and performance. High performing affiliates receive special rates' and publishes no percentage, so commission_rate is recorded as null rather than guessed."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.click-fly.com/page/affiliate-program",
+        "summary": "The program explicitly welcomes bloggers, influencers, travel creators, social media pages, YouTube channels and travel communities, and supplies banners, promo codes, pre-written ad copy and deep linking; the company address on the page is Juhkentali tn 8, 10132 Tallinn, Estonia."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://www.click-fly.com/page/affiliate-program",
+      "source_url": "https://www.click-fly.com/page/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Click Fly Affiliate Program",
+      "application_url": "https://www.click-fly.com/page/affiliate-program",
+      "source_url": "https://www.click-fly.com/page/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 15,
+      "compensation": 10,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 2,
+      "reasons": {
+        "niche_fit": "One program covering flights, hotels, tours and packages gives travel creators a booking link for almost any trip content they publish.",
+        "ugc_evidence": "Travel creators, influencers and YouTube channels are named audiences and get banners, promo codes and campaign assets, but no creator counts are published.",
+        "compensation": "An explicit 'no limits on earning potential' statement, but no published percentage — rates depend on volume and performance — so compensation scores low until confirmed at sign-up.",
+        "contact_access": "No affiliate email is visible on the fetched page; contact runs through the registration form, with the company's Tallinn address and phone published.",
+        "opportunity_availability": "Open sign-up on the brand's own page with a quick approval review.",
+        "credibility": "A small, little-known booking platform; inventory breadth is claimed but not independently evidenced on the page, so credibility stays low."
+      }
+    }
+  },
+  {
+    "name": "Sevenly Travel",
+    "website": "https://www.sevenlytravel.com",
+    "country": null,
+    "category_slug": "travel",
+    "description": "Socially conscious online travel agency that turns hotel bookings into charitable giving. Its Sevenly Stars Creator Program is an affiliate initiative for travel influencers: commission on each completed hotel booking through a personalised link — including on the creator's own trips — with 'No cap on earnings'. Payout percentages are not published on the page, so the rate is recorded as null.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.sevenlytravel.com/influencer",
+        "email": null,
+        "source_url": "https://www.sevenlytravel.com/influencer"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.sevenlytravel.com/influencer",
+        "summary": "Official page: the Sevenly Stars Program is an 'Exclusive affiliate initiative for influencers passionate about travel and social impact' — creators apply, receive a unique booking link, share hotel deals and itineraries, and earn commission on each completed booking, including on their own trips."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.sevenlytravel.com/influencer",
+        "summary": "Commission cap stated explicitly on the official page, in the Commission Details section: 'Industry-leading payouts per completed hotel stay. Transparent monthly reporting. No cap on earnings. Bonus tiers for top performers.'"
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_program_page",
+        "source_url": "https://www.sevenlytravel.com/influencer",
+        "summary": "No payout percentage or per-stay amount is published anywhere on the official page, so commission_rate is recorded as null rather than guessed."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.sevenlytravel.com/influencer",
+        "summary": "Creator perks listed on the page: exposure across Sevenly's social media and explore page, VIP perks and giveaways, and an annual Sevenly Star Retreat; bookings support charitable causes including education access, clean water and wildlife conservation."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://www.sevenlytravel.com/influencer",
+      "source_url": "https://www.sevenlytravel.com/influencer",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Sevenly Stars Creator Program",
+      "application_url": "https://www.sevenlytravel.com/influencer",
+      "source_url": "https://www.sevenlytravel.com/influencer"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Hotel bookings with a charitable-giving angle give travel creators a distinctive story beyond price-led booking links.",
+        "ugc_evidence": "A creator-specific program (not a generic affiliate page): personalised booking links, social exposure, VIP perks and an annual creator retreat; no creator counts published.",
+        "compensation": "Explicit 'No cap on earnings' in the commission details, but no published payout rate, so compensation scores low until confirmed at approval.",
+        "contact_access": "No email is published; application is the on-page form (full name, email, about you).",
+        "opportunity_availability": "Application-based and described as exclusive, so availability scores below open programs.",
+        "credibility": "A small socially conscious OTA; the charitable model is documented on the page but the public track record is limited, so credibility stays low."
+      }
+    }
+  },
+  {
+    "name": "TabTrips",
+    "website": "https://www.tabtrips.com",
+    "country": null,
+    "category_slug": "travel",
+    "description": "Global hotel booking platform (hotels, resorts, camps, villas and budget stays). Its own affiliate program lets travel influencers, creators, YouTubers and bloggers earn commission on every paid booking made with their referral code or link, paid to an affiliate wallet withdrawable to a bank account, and states repeatedly that there is no commission cap. No percentage is published, so the rate is recorded as null.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program",
+        "email": null,
+        "source_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program",
+        "summary": "Official program post: 'Every successful paid booking using your code credits commission to your affiliate wallet. There is no cap — the more bookings you drive, the more you earn'; joining is free with no registration fees."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program",
+        "summary": "Commission cap stated explicitly, repeatedly, on the official page: 'Unlimited earning potential — There is no commission cap' and 'Unlimited Commission — Earn without any earning cap — scale as you grow.'"
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_program_page",
+        "source_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program",
+        "summary": "No commission percentage or per-booking amount is published anywhere in the official program post, so commission_rate is recorded as null rather than guessed."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "creator_program",
+        "source_type": "official_program_page",
+        "source_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program",
+        "summary": "The program names travel bloggers, Instagram creators, YouTubers, hotel consultants, tour operators and influencers as its audience, and recommends promotion via Instagram Reels, YouTube travel videos, blogs and hotel recommendation sites; payouts are requested from the affiliate wallet to a bank account once a minimum withdrawal amount is met."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program",
+      "source_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "TabTrips Affiliate Program",
+      "application_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program",
+      "source_url": "https://www.tabtrips.com/blog/tabtrips-affiliate-program"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 14,
+      "compensation": 10,
+      "contact_access": 5,
+      "opportunity_availability": 9,
+      "credibility": 2,
+      "reasons": {
+        "niche_fit": "Hotel bookings across luxury and budget stays fit destination, itinerary and hotel-review content from travel creators.",
+        "ugc_evidence": "Creators and influencers are the named audience with platform-specific promotion guidance (Reels, YouTube, blogs), but no creator counts are published.",
+        "compensation": "Repeated explicit no-cap statements ('There is no commission cap', 'Earn without any earning cap'), but no published percentage, so compensation scores low until confirmed at sign-up.",
+        "contact_access": "No affiliate email is published in the program post; contact runs through the site sign-up, with a 24/7 phone number on the page.",
+        "opportunity_availability": "Open, free sign-up on the brand's own site in minutes, with no technical skills required.",
+        "credibility": "A small, little-known booking platform; claims of a global inventory are not independently evidenced on the page, so credibility stays low."
+      }
+    }
+  }
+]

@@ -1,0 +1,591 @@
+[
+  {
+    "name": "BetterMe",
+    "website": "https://betterme.world",
+    "country": null,
+    "category_slug": "wellness",
+    "description": "Wellness and fitness app brand (Well-Being Coach app, Wall Pilates, Calisthenics, meal plans) running an affiliate program through Impact.com for health, fitness and personal-development creators.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://betterme.world/articles/the-betterme-affiliate-program/",
+        "summary": "BetterMe's official affiliate announcement states the program runs through Impact.com, the commission rate starts at 15% with bonuses for top performers and a 30-day cookie, and 'as a BetterMe Affiliate, there's no cap on how much you can earn' - the cap is verified uncapped on the brand's own wording; the 15% starting rate is recorded."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_program",
+        "source_type": "official_site",
+        "source_url": "https://betterme.world/articles/the-betterme-affiliate-program/",
+        "summary": "The same official article recruits partners with a blog or social media following related to health, fitness or personal development, supplies unique affiliate links and promotional materials, and describes the Well-Being Coach app, customized workout plans and nutrition guidance affiliates promote."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 15,
+      "application_url": "https://betterme.world/articles/the-betterme-affiliate-program/",
+      "source_url": "https://betterme.world/articles/the-betterme-affiliate-program/",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "BetterMe Affiliate Program (via Impact)",
+      "application_url": "https://betterme.world/articles/the-betterme-affiliate-program/",
+      "source_url": "https://betterme.world/articles/the-betterme-affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 16,
+      "compensation": 18,
+      "contact_access": 10,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "A mainstream wellness/fitness app with workout and nutrition programs is a core UGC creator niche, and the program explicitly targets health and fitness creators.",
+        "ugc_evidence": "A public program article recruiting bloggers and social creators with links and promotional materials supplied; no creator counts were published on the fetched page.",
+        "compensation": "Verified uncapped earnings with a 15% starting rate that rises with performance, plus top-performer bonuses.",
+        "contact_access": "Application runs through Impact.com; no public program email was published on the fetched page.",
+        "opportunity_availability": "Open application through Impact; the brand looks for an established online presence.",
+        "credibility": "Established, widely distributed wellness app brand running its program on a major network (Impact)."
+      }
+    }
+  },
+  {
+    "name": "Supergut",
+    "website": "https://supergut.com",
+    "country": null,
+    "category_slug": "health",
+    "description": "Gut-health food brand selling prebiotic fiber shakes, bars and mixes, running an affiliate program through Awin for gut-health and wellness creators.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://supergut.com/pages/affiliate",
+        "summary": "Supergut's official affiliate page states affiliates apply via its AWIN program, earn a minimum 10% commission (often more) on purchases through their link or code, and 'There is no limit to how much you can earn' - the cap is verified uncapped on the brand's own wording; the 10% minimum rate is recorded."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_program",
+        "source_type": "official_site",
+        "source_url": "https://supergut.com/pages/affiliate",
+        "summary": "The same official page offers affiliates free products, unique discount codes and early access to promos and launches, says publishers can promote on any social network including Instagram and TikTok, and notes most active publishers receive first payments 30 days after the initial sale."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://supergut.com/pages/affiliate",
+      "source_url": "https://supergut.com/pages/affiliate",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Supergut Affiliate Program (via Awin)",
+      "application_url": "https://supergut.com/pages/affiliate",
+      "source_url": "https://supergut.com/pages/affiliate"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 15,
+      "compensation": 16,
+      "contact_access": 10,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Gut-health shakes and bars are a proven wellness-creator category, and the brand frames affiliates as gut-health partners.",
+        "ugc_evidence": "A public affiliate page with free product and discount codes for audiences; no creator counts were published on the fetched page.",
+        "compensation": "Verified uncapped with a 10% minimum rate that is 'often more' - solid, though the exact uplift is unpublished.",
+        "contact_access": "Application runs through Awin; no public program email was published on the fetched page.",
+        "opportunity_availability": "Open application via Awin with brand approval.",
+        "credibility": "Established gut-health brand with a network-run program and published payment terms."
+      }
+    }
+  },
+  {
+    "name": "Party Pump",
+    "website": "https://partypumpaffiliate.com",
+    "country": null,
+    "category_slug": "food-drink",
+    "description": "Snack brand selling plant-protein cashew butter Squeezies pouches and jars in dessert flavors, running a tiered creator affiliate program with a free welcome kit.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://partypumpaffiliate.com/",
+        "summary": "Party Pump's official affiliate site states base commission starts at 10-15% on every sale through a link or code, performers climb tiers to 20-25%+, and 'There's no cap - your earnings scale with your effort' - the cap is verified uncapped on the brand's own wording; the 10% starting rate is recorded."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_program",
+        "source_type": "official_site",
+        "source_url": "https://partypumpaffiliate.com/",
+        "summary": "The same official site is built for creators: approved affiliates receive a free Squeezie sample 4-pack with free shipping, a 30% first-order code, plug-and-play photos, video clips and captions, a real-time dashboard, 30-day cookie and monthly PayPal/Venmo payouts over $50, with approval usually within 48 hours and micro-creators explicitly welcomed."
+      }
+    ],
+    "affiliate": {
+      "network": "Social Snowball",
+      "commission_rate": 10,
+      "application_url": "https://partypumpaffiliate.com/",
+      "source_url": "https://partypumpaffiliate.com/",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Party Pump Affiliate Program",
+      "application_url": "https://partypumpaffiliate.com/",
+      "source_url": "https://partypumpaffiliate.com/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 17,
+      "compensation": 16,
+      "contact_access": 11,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Protein snack pouches are a natural fit for fitness, busy-mom and foodie creators, the exact audiences the program names.",
+        "ugc_evidence": "One of the most creator-complete offers found: free product kit, creative assets, campaign briefs and monthly content competitions.",
+        "compensation": "Verified uncapped; 10-15% starting tier climbing to 25%+ at the top tier.",
+        "contact_access": "Application form on the official affiliate site (Social Snowball); no public email was published on the fetched page.",
+        "opportunity_availability": "Open application, approval usually within 48 hours, no follower minimum stated.",
+        "credibility": "Small, founder-led snack brand; the program is detailed and current, but the brand's scale is modest, so held at 3."
+      }
+    }
+  },
+  {
+    "name": "Alcami Elements",
+    "website": "https://www.alcamielements.com",
+    "country": null,
+    "category_slug": "wellness",
+    "description": "Wellness brand selling mushroom and herbal blends (Smart Latte, Matcha, Cacao and Coffee, shilajit) running an affiliate program open to influencers, athletes, coaches and customers.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.alcamielements.com/pages/affiliate-program",
+        "summary": "Alcami Elements' official affiliate page states affiliates earn 15% commission on every purchase through their link or code, audiences get 20% off, and 'There's no cap on your potential earnings!' - the cap is verified uncapped on the brand's own wording."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_program",
+        "source_type": "official_site",
+        "source_url": "https://www.alcamielements.com/pages/affiliate-program",
+        "summary": "The same official page says the program is open to influencers and content creators, athletes, wellness bloggers and coaches with no minimum follower count, supplies branded images, banners and product videos plus dedicated support, and notes it is accepting a limited number of affiliates - a cohort limit, not a published creator count, so saturation is recorded unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 15,
+      "application_url": "https://www.alcamielements.com/pages/affiliate-program",
+      "source_url": "https://www.alcamielements.com/pages/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Alcami Elements Affiliate Program",
+      "application_url": "https://www.alcamielements.com/pages/affiliate-program",
+      "source_url": "https://www.alcamielements.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 17,
+      "contact_access": 11,
+      "opportunity_availability": 7,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Mushroom/herbal drink blends sit squarely in the wellness-creator niche, and the page names creators, athletes and coaches.",
+        "ugc_evidence": "Public program page with branded assets, product videos and a chance to be featured on the brand's social media.",
+        "compensation": "Verified uncapped 15% commission with a 20% audience discount to drive conversion.",
+        "contact_access": "Application form on the official page (partners portal); no public program email was published on the fetched page.",
+        "opportunity_availability": "Application with selection - the brand states it is accepting a limited number of affiliates.",
+        "credibility": "Smaller premium wellness brand with a detailed, current program page; held at 3 for scale."
+      }
+    }
+  },
+  {
+    "name": "World's Best Nutritionals & Organics",
+    "website": "https://worldsbestnutritionals.com",
+    "country": null,
+    "category_slug": "health",
+    "description": "Supplement brand selling whole-food, organic-ingredient vitamins and supplements, running a lifetime-attribution affiliate program paying 30% on every referred order.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://worldsbestnutritionals.com/pages/affiliate",
+        "summary": "The brand's official affiliate page states affiliates earn 30% commission on every qualifying purchase a referred customer ever makes, with lifetime attribution and no expiry, and repeats 'No cap' in three places, including 'Forever. No tiers, no expiry, no cap.' - the cap is verified uncapped on the brand's own wording."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_program",
+        "source_type": "official_site",
+        "source_url": "https://worldsbestnutritionals.com/pages/affiliate",
+        "summary": "The same official page describes free sign-up at its affiliate portal with a referral link ready on registration, sharing via social media, email and messages, monthly payment, and program terms (self-referrals excluded; status can be revoked for misrepresentation). Its 'Most Lucrative Affiliate Program in History' headline is marketing language and is not treated as evidence of scale."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 30,
+      "application_url": "https://worldsbestnutritionals.com/pages/affiliate",
+      "source_url": "https://worldsbestnutritionals.com/pages/affiliate",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "World's Best Nutritionals & Organics Affiliate Program",
+      "application_url": "https://worldsbestnutritionals.com/pages/affiliate",
+      "source_url": "https://worldsbestnutritionals.com/pages/affiliate"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 12,
+      "compensation": 20,
+      "contact_access": 10,
+      "opportunity_availability": 9,
+      "credibility": 2,
+      "reasons": {
+        "niche_fit": "Whole-food supplements fit health-creator content, though the program is framed for general referrers rather than creators specifically.",
+        "ugc_evidence": "A public affiliate page with instant link issue; no creator program materials or creator counts were published on the fetched page.",
+        "compensation": "Verified uncapped 20-point maximum: 30% on every order, for life, via permanent attribution - the highest rate in this batch.",
+        "contact_access": "Sign-up through the brand's own affiliate portal; no public program email was published on the fetched page.",
+        "opportunity_availability": "Free, instant registration with no purchase required.",
+        "credibility": "Held at 2: the page's superlative marketing claims ('most lucrative in history', 'ground-floor rate locked in forever') could not be corroborated on the fetched page."
+      }
+    }
+  },
+  {
+    "name": "Amyra Farms",
+    "website": "https://amyrafarms.com",
+    "country": null,
+    "category_slug": "food-drink",
+    "description": "Farm brand selling coffee and spices, running a Refer & Earn affiliate program where creators earn 10% on every referred order and followers get 10% off.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "farm@amyrafarms.com",
+        "source_url": "https://amyrafarms.com/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://amyrafarms.com/affiliate",
+        "summary": "Amyra Farms' official affiliate page states affiliates earn 10% commission on everything referred friends order, and its FAQ answers 'How much do I earn?' with '10% of each referred order's value. There's no cap on how many friends you refer or how much you can earn.' - the cap is verified uncapped on the brand's own wording."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://amyrafarms.com/affiliate",
+        "summary": "The same official page publishes farm@amyrafarms.com for questions, describes instant link/code issue on creating an account with no cost and no minimum following, a 30-day link window, commissions clearing after a 14-day return window and payout once the balance reaches $10."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 10,
+      "application_url": "https://amyrafarms.com/affiliate",
+      "source_url": "https://amyrafarms.com/affiliate",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Amyra Farms Refer & Earn Affiliate Program",
+      "application_url": "https://amyrafarms.com/affiliate",
+      "source_url": "https://amyrafarms.com/affiliate"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 12,
+      "compensation": 15,
+      "contact_access": 13,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Coffee and spices are an everyday food-creator staple, though the program is framed broadly for customers as well as creators.",
+        "ugc_evidence": "A public program page with instant links and codes; no creator-specific materials or counts were published on the fetched page.",
+        "compensation": "Verified uncapped 10% on every referred order - a modest rate, paid directly with a low $10 threshold.",
+        "contact_access": "Published farm@amyrafarms.com contact email on the official affiliate page.",
+        "opportunity_availability": "Instant - create an account and the link and code are issued immediately, no minimum following.",
+        "credibility": "Small farm brand with clear, complete program terms on its own page; held at 3 for scale."
+      }
+    }
+  },
+  {
+    "name": "NuKine Wellness",
+    "website": "https://www.nukinewellness.com",
+    "country": null,
+    "category_slug": "wellness",
+    "description": "Wellness brand selling lab-tested kratom products, running an affiliate program through UpPromote for influencers, podcasters, bloggers and business owners (US, 21+).",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.nukinewellness.com/pages/kratom-affiliate-program",
+        "summary": "NuKine's official affiliate FAQ pays 15% commission on the total sale for any and all products, answers 'Are there any limits to how much commission I can earn?' with 'No', and states 'There's no limit to the amount you can earn as a NuKine affiliate' - the cap is verified uncapped on the brand's own wording."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_program",
+        "source_type": "official_site",
+        "source_url": "https://www.nukinewellness.com/pages/kratom-affiliate-program",
+        "summary": "The same official page says tracking runs through its affiliate network partner UpPromote with a 30-day cookie and monthly PayPal payouts, the program is free, affiliates may earn on their own purchases, and applicants must be at least 21 with sales/shipping only inside the US where kratom is legal; the page also notes its products are not FDA approved and affiliates may not make medical claims."
+      }
+    ],
+    "affiliate": {
+      "network": "UpPromote",
+      "commission_rate": 15,
+      "application_url": "https://www.nukinewellness.com/pages/kratom-affiliate-program",
+      "source_url": "https://www.nukinewellness.com/pages/kratom-affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "NuKine Wellness Affiliate Program (via UpPromote)",
+      "application_url": "https://www.nukinewellness.com/pages/kratom-affiliate-program",
+      "source_url": "https://www.nukinewellness.com/pages/kratom-affiliate-program"
+    },
+    "score": {
+      "niche_fit": 20,
+      "ugc_evidence": 14,
+      "compensation": 17,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "A narrow botanical-wellness niche - strong for kratom/alternative-wellness creators, irrelevant for most others, so scored mid-range.",
+        "ugc_evidence": "A detailed public FAQ recruiting influencers, podcasters and bloggers, with content available on request; no creator counts were published.",
+        "compensation": "Verified uncapped 15% on all products with recurring 30-day cookie credit.",
+        "contact_access": "Application via UpPromote from the official page; no public program email was published on the fetched page.",
+        "opportunity_availability": "Application with team review; 21+ and US-sales only.",
+        "credibility": "Operating brand with complete program terms; the category's regulatory sensitivity (noted on its own page) holds credibility at 3."
+      }
+    }
+  },
+  {
+    "name": "Optimal Breathing",
+    "website": "https://optimalbreathing.com",
+    "country": null,
+    "category_slug": "wellness",
+    "description": "Breathing-health brand selling breath-training devices and wellness products, running an affiliate program for wellness centers, practitioners, fitness influencers, bloggers and health coaches.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "hello@optimalbreathing.com",
+        "source_url": "https://optimalbreathing.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "facebook",
+        "handle": "OptimalBreathingOfficial",
+        "url": "https://www.facebook.com/OptimalBreathingOfficial"
+      },
+      {
+        "platform": "instagram",
+        "handle": "optimal_breathing",
+        "url": "https://www.instagram.com/optimal_breathing/"
+      },
+      {
+        "platform": "youtube",
+        "handle": "Optimal_Breathing",
+        "url": "https://www.youtube.com/@Optimal_Breathing"
+      },
+      {
+        "platform": "pinterest",
+        "handle": "optimalbreathing",
+        "url": "https://www.pinterest.com/optimalbreathing/"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://optimalbreathing.com/pages/affiliate-program",
+        "summary": "Optimal Breathing's official affiliate page states 'There's no limit to how much you can earn!' and its FAQ repeats 'there is no limit you can earn' - the cap is verified uncapped on the brand's own wording. The RATE conflicts on the same page (title says 10%, body says 15%, FAQ says 15-30% by product/category), so commission_rate is recorded null with the conflict documented here."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://optimalbreathing.com/pages/affiliate-program",
+        "summary": "The same official page publishes hello@optimalbreathing.com and a Fort Mill, SC address, names eligible affiliates (wellness centers, chiropractors, holistic practitioners, fitness influencers, wellness bloggers, yoga therapists, health coaches, breathwork specialists), and gives a 180-day tracking window with payment 45 days after delivery via PayPal."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://optimalbreathing.com/pages/affiliate-program",
+      "source_url": "https://optimalbreathing.com/pages/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Optimal Breathing Affiliate Program",
+      "application_url": "https://optimalbreathing.com/pages/affiliate-program",
+      "source_url": "https://optimalbreathing.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 13,
+      "compensation": 11,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Breathwork and breathing devices are a growing wellness-creator niche, and the page explicitly recruits fitness influencers and wellness bloggers.",
+        "ugc_evidence": "A public program page naming creator types and offering real-time tracking; no creator counts were published on the fetched page.",
+        "compensation": "Verified uncapped, but the rate itself conflicts across the page (10% / 15% / 15-30%), so compensation is scored on the unsettled rate.",
+        "contact_access": "Published hello@optimalbreathing.com email and a street address on the official page.",
+        "opportunity_availability": "Free application with team review; global where its affiliate software supports the country.",
+        "credibility": "Established wellness brand with a physical address, published contacts and social profiles; held at 4."
+      }
+    }
+  },
+  {
+    "name": "VoltaWell",
+    "website": "https://voltawell.com",
+    "country": null,
+    "category_slug": "health",
+    "description": "Hydration brand selling Volta Hydrate and Volta Sweat electrolyte mineral drinks, running an affiliate program for customers, health professionals, creators, coaches and trainers.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "hello@voltawell.com",
+        "source_url": "https://VoltaWell.com/pages/faqs"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://VoltaWell.com/pages/faqs",
+        "summary": "VoltaWell's official FAQ states affiliates earn commission on qualifying sales through their referral link and 'There is no limit to how much you can earn. The more people you refer, the more you can earn.' - the cap is verified uncapped on the brand's own wording. The commission RATE is provided only in the affiliate dashboard after approval, so commission_rate is recorded null."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_program",
+        "source_type": "official_site",
+        "source_url": "https://VoltaWell.com/pages/faqs",
+        "summary": "The same official FAQ says the program is designed for customers, health professionals, social media creators, podcasters, coaches and personal trainers, supplies approved marketing materials, images, videos and templates, pays monthly once commissions reach $100 via Zelle, Venmo or PayPal, is free with no quotas or inventory, and publishes hello@voltawell.com - with US-only shipping from Tarpon Springs, Florida."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://VoltaWell.com/pages/faqs",
+      "source_url": "https://VoltaWell.com/pages/faqs",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "VoltaWell Affiliate Program",
+      "application_url": "https://VoltaWell.com/pages/faqs",
+      "source_url": "https://VoltaWell.com/pages/faqs"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 13,
+      "compensation": 11,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Electrolyte hydration is a crowded but proven creator category across fitness and daily-wellness content.",
+        "ugc_evidence": "A public FAQ describing creator promotion on Instagram, YouTube, TikTok, blogs and podcasts with supplied materials; no creator counts were published.",
+        "compensation": "Verified uncapped, but the rate is unpublished until approval, so compensation is scored conservatively.",
+        "contact_access": "Published hello@voltawell.com email on the official FAQ page.",
+        "opportunity_availability": "Application with brand approval; free, no quotas.",
+        "credibility": "Operating US brand with detailed product and program FAQs; a three-level referral structure is disclosed on the page, so held at 3."
+      }
+    }
+  },
+  {
+    "name": "Doorstep Meals",
+    "website": "https://www.doorstepmeals.com",
+    "country": null,
+    "category_slug": "food-drink",
+    "description": "Prepared meal delivery service running a Diamond Affiliate Program where affiliates earn a flat $7 per follower order after the first 24 orders each month.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": "https://www.doorstepmeals.com/14558/affiliate",
+        "email": null,
+        "source_url": "https://www.doorstepmeals.com/14558/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.doorstepmeals.com/14558/affiliate",
+        "summary": "Doorstep Meals' official affiliate FAQ states 'Is there a maximum I can earn? There is no cap to your earning potential in the Doorstep Meals Affiliate Program' and describes 'an unlimited income stream' - the cap is verified uncapped on the brand's own wording. Pay is a flat $7 per order placed by a follower after the affiliate's initial 24 orders in a month (not a percentage), so commission_rate is recorded null."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_program",
+        "source_type": "official_site",
+        "source_url": "https://www.doorstepmeals.com/14558/affiliate",
+        "summary": "The same official page says affiliates receive promotional material, their own link and promo code and the ability to give first-time customers a free meal, recurring orders count toward the monthly threshold, and deposits are made on the 15th of the following month through PayPal."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://www.doorstepmeals.com/14558/affiliate",
+      "source_url": "https://www.doorstepmeals.com/14558/affiliate",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Doorstep Meals Diamond Affiliate Program",
+      "application_url": "https://www.doorstepmeals.com/14558/affiliate",
+      "source_url": "https://www.doorstepmeals.com/14558/affiliate"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 12,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Ready-made meal delivery is a strong food/lifestyle creator category with an easy free-meal hook for audiences.",
+        "ugc_evidence": "A public affiliate FAQ with promo codes and a free-meal offer for first-time customers; no creator counts were published on the fetched page.",
+        "compensation": "Verified uncapped, but flat $7 per order and only after 24 orders in a month - modest economics, scored accordingly.",
+        "contact_access": "Contact route is via the affiliate page itself (the page's contact email was masked in the fetched copy and is not recorded); no public program email could be verified.",
+        "opportunity_availability": "Create an account to receive a shareable link; Diamond status brings a direct customer-service contact.",
+        "credibility": "Operating meal-delivery service with published payout timing; held at 3."
+      }
+    }
+  }
+]

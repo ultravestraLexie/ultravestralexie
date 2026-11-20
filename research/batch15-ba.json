@@ -1,0 +1,645 @@
+[
+  {
+    "name": "Color Me Beautiful",
+    "website": "https://colormebeautiful.com",
+    "country": null,
+    "category_slug": "beauty",
+    "description": "Heritage color-analysis beauty brand selling makeup and skincare organized by seasonal color palettes; its own affiliate program page states 25% commission on all affiliate sales and 'no limit to what you can earn.'",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://colormebeautiful.com/pages/affiliate_program",
+        "email": null,
+        "source_url": "https://colormebeautiful.com/pages/affiliate_program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://colormebeautiful.com/pages/affiliate_program",
+        "summary": "Color Me Beautiful's own affiliate program page states: '25% commission on all affiliate sales (top of the industry), no limit to what you can earn', plus exclusive product sneak peeks and potential gifted PR/product that affiliates can request in the sign-up form. Joining is a 4-step interest-form process: join, get approved by the CMB or Flori Roberts team, start promoting with a unique URL and creative assets, earn on every qualified purchase. The 'no limit to what you can earn' statement on the program page itself makes the earnings cap verified uncapped."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://colormebeautiful.com/en-au/blogs/colormenow/how-to-join-color-me-beautifuls-affiliate-program-why-you-should-color-me-beautiful",
+        "summary": "The brand's own blog guide repeats the terms: '25% Commission on All Sales' and 'No Earnings Cap: There's no ceiling on your potential. The more you promote, the more you can earn.' It also states no huge following is needed, and gives the brand's credibility history: Color Me Beautiful has helped over 26 million women, popularized color analysis with its book of the same name plus six additional books, and sells through Seasonal Boutiques organized by palette."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://colormebeautiful.com/pages/affiliate_program",
+        "summary": "No hard absolute creator count for Color Me Beautiful surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 25,
+      "application_url": "https://colormebeautiful.com/pages/affiliate_program",
+      "source_url": "https://colormebeautiful.com/pages/affiliate_program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Color Me Beautiful Affiliate Program",
+      "application_url": "https://colormebeautiful.com/pages/affiliate_program",
+      "source_url": "https://colormebeautiful.com/pages/affiliate_program"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 16,
+      "compensation": 20,
+      "contact_access": 11,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Color-season makeup and skincare is built for try-on and palette-reveal UGC, and the program also covers sister brand Flori Roberts.",
+        "ugc_evidence": "Own-site affiliate program with unique URLs, creative assets, sneak peeks and gifted-product requests inside the sign-up form; no hard creator count published.",
+        "compensation": "25% on all sales with 'no limit to what you can earn' stated on the program page itself - the strongest verified-uncapped rate in this round.",
+        "contact_access": "Interest form on the brand's own program page; no public partnerships email was published on the pages fetched.",
+        "opportunity_availability": "Applications open via the interest form with team review; the brand says no huge following is required.",
+        "credibility": "Decades-old color-analysis authority claiming 26 million women helped and seven published books on color and makeup."
+      }
+    }
+  },
+  {
+    "name": "CLEARSTEM",
+    "website": "https://clearstem.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Skincare brand targeting acne and aging at the same time with ingredient-transparent formulas; its Ambassador affiliate route runs on Impact, and the brand's own Terms of Service state there is no cap on the total commissions an Ambassador can earn from each order.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://clearstem.com/pages/brand-ambassadors",
+        "email": null,
+        "source_url": "https://clearstem.com/policies/terms-of-service"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://clearstem.com/policies/terms-of-service",
+        "summary": "CLEARSTEM's own Terms of Service (last update August 3, 2026), in the Ambassador obligations section, state: 'Ambassadors earn a commission on each order placed by consumers directed to CLEARSTEM Skincare Inc. by an Ambassador affiliate link...' and 'there is no cap on the total commissions an Ambassador can earn from each order attributed to their promotions.' The earnings-cap statement is therefore recorded as uncapped on the brand's own legal terms, quoted exactly; note the wording is framed per order attributed to the Ambassador's promotions."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.affiliategraph.ai/programs/clearstem",
+        "summary": "AffiliateGraph's network-listing summary (updated Nov 9, 2026) lists CLEARSTEM on Impact as the direct network (Digidip and Skimlinks as sub-affiliates), with a listed commission range of 3%-25% and a stated base of 20% on online sales, while other directories list 10% (CompareEPC, LinkClicky). Because the published rates conflict across sources, commission_rate is recorded as null rather than settled."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://clearstem.com/policies/terms-of-service",
+        "summary": "No hard absolute creator count for CLEARSTEM surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://clearstem.com/pages/brand-ambassadors",
+      "source_url": "https://clearstem.com/policies/terms-of-service",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "CLEARSTEM Ambassador / Affiliate Program (Impact)",
+      "application_url": "https://clearstem.com/pages/brand-ambassadors",
+      "source_url": "https://clearstem.com/policies/terms-of-service"
+    },
+    "score": {
+      "niche_fit": 28,
+      "ugc_evidence": 17,
+      "compensation": 14,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Acne-plus-aging positioning with ingredient transparency is proven skincare-UGC material with strong before/after potential.",
+        "ugc_evidence": "A formal Ambassador structure in the brand's own terms plus a direct Impact network listing; no hard creator count published.",
+        "compensation": "Earnings cap is verified uncapped in the brand's own Terms, but the percentage conflicts across network listings (3%-25% range, 20% base, 10% elsewhere), so the rate is honestly null.",
+        "contact_access": "Ambassador page referenced in the brand's own Terms and application through Impact; no public partnerships email on the pages fetched.",
+        "opportunity_availability": "Ambassador obligations are set by a Partnerships Manager per the Terms, so entry is managed rather than instant.",
+        "credibility": "Established DTC skincare brand founded in 2017 by an acne specialist and a holistic nutritionist, per its Sovrn merchant profile."
+      }
+    }
+  },
+  {
+    "name": "Skin RnR",
+    "website": "https://skinrnr.com",
+    "country": null,
+    "category_slug": "skincare",
+    "description": "Plant-based skincare brand running its own Referral Partner Program paying 30% commission on orders placed through a personal referral link, with no quotas and personal application review by the founder-led team.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://skinrnr.com/pages/join",
+        "email": null,
+        "source_url": "https://skinrnr.com/pages/join"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://skinrnr.com/pages/join",
+        "summary": "Skin RnR's own Join page publishes its Referral Partner Program: 'Earn 30% Commission - Share your personal referral link and earn 30% when someone places an order through it', no inventory to manage, support with messaging and product details, and 'There are no quotas.' Applications are reviewed personally. The page publishes no earnings-cap statement, so commission_cap is recorded as unknown, never guessed."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://skinrnr.com/pages/join",
+        "summary": "No hard absolute creator count for Skin RnR surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 30,
+      "application_url": "https://skinrnr.com/pages/join",
+      "source_url": "https://skinrnr.com/pages/join",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Skin RnR Referral Partner Program",
+      "application_url": "https://skinrnr.com/pages/join",
+      "source_url": "https://skinrnr.com/pages/join"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 19,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Gentle plant-based skincare for real skin needs fits honest routine and testimonial UGC.",
+        "ugc_evidence": "Own-site referral partner program with personal review of every application; no hard creator count published.",
+        "compensation": "30% flat commission is at the top end for skincare; no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Application form on the brand's own Join page; no public partnerships email on the page fetched.",
+        "opportunity_availability": "Open application with personal review and no quotas.",
+        "credibility": "Small founder-led brand (founder Jen Fisher named on the page); limited third-party footprint."
+      }
+    }
+  },
+  {
+    "name": "Solid Actives",
+    "website": "https://www.solidactives.com",
+    "country": null,
+    "category_slug": "skincare",
+    "description": "Premium solid-form skincare brand whose own Partner Program pays creators and skincare professionals 20% commission on the paid amount via a custom promo code, with audiences receiving 10% off.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.solidactives.com/affiliate/",
+        "email": null,
+        "source_url": "https://www.solidactives.com/affiliate/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.solidactives.com/affiliate/",
+        "summary": "Solid Actives' own Partner Program page states partners earn '20% Commission Earned' with '10% Off for Your Audience', worked example included ($89 order - 10% code = $80.10 paid, 20% = $16.02 commission). It explicitly recruits 'Beauty & Wellness Creators' alongside aestheticians and editorial platforms, reviews applications personally within 3-5 business days, and activates a custom promo code on approval. The page publishes no earnings-cap statement, so commission_cap is recorded as unknown, never guessed."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://www.solidactives.com/affiliate/",
+        "summary": "The brand says it curates its partner network carefully, but publishes no absolute creator count, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 20,
+      "application_url": "https://www.solidactives.com/affiliate/",
+      "source_url": "https://www.solidactives.com/affiliate/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Solid Actives Partner Program",
+      "application_url": "https://www.solidactives.com/affiliate/",
+      "source_url": "https://www.solidactives.com/affiliate/"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 15,
+      "compensation": 17,
+      "contact_access": 10,
+      "opportunity_availability": 7,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Premium solid-format actives are distinctive, demo-friendly skincare content for beauty and wellness creators.",
+        "ugc_evidence": "Own-site partner program explicitly recruiting beauty and wellness creators with a worked commission example; no hard creator count published.",
+        "compensation": "20% on the post-discount paid amount is strong; no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Application on the brand's own partner page with personal review in 3-5 business days; no public email on the page fetched.",
+        "opportunity_availability": "Curated approval against stated partnership standards (aesthetic alignment, accurate representation), so entry is selective.",
+        "credibility": "Small premium brand with a detailed, transparent program page; limited third-party footprint."
+      }
+    }
+  },
+  {
+    "name": "BK Beauty",
+    "website": "https://www.bkbeauty.com",
+    "country": null,
+    "category_slug": "beauty",
+    "description": "Creator-founded cosmetics brand (makeup brushes, tools and makeup) built by YouTube creator Lisa J; its affiliate program on ShareASale/Awin pays 15% commission on all sales with a +$100 average order value.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/91511",
+        "email": null,
+        "source_url": "https://ui.awin.com/merchant-profile/91511"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/91511",
+        "summary": "BK Beauty's Awin merchant profile states: 'Our affiliate program offers 15% commission on all sales and our online store has a +$100 average order value', and describes BK Beauty as a direct-to-consumer cosmetics brand built and fueled by YouTube content creators and influencers. LinkClicky's directory independently lists the program on ShareASale at 15% per sale with a 30-day cookie. No earnings-cap statement was found on the pages fetched, so commission_cap is recorded as unknown, never guessed."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "news",
+        "source_url": "https://www.digitalcommerce360.com/2021/09/29/in-pursuit-of-maximum-marketing-returns/",
+        "summary": "Digital Commerce 360 reported BK Beauty's affiliate program at 15% commission per product sold via a creator's link and that the program drove about 30% of the brand's sales, corroborating both the rate and the program's centrality. A separate founder interview states direct ShareASale sign-ups receive the full 15% while sub-affiliate networks take a cut."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/91511",
+        "summary": "A founder interview mentioned working with 'over 100 folks' in the program in 2022, but that figure is dated and not a current hard count, so creator saturation is recorded as unknown rather than low."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale / Awin",
+      "commission_rate": 15,
+      "application_url": "https://ui.awin.com/merchant-profile/91511",
+      "source_url": "https://ui.awin.com/merchant-profile/91511",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "BK Beauty Affiliate Program (ShareASale / Awin)",
+      "application_url": "https://ui.awin.com/merchant-profile/91511",
+      "source_url": "https://ui.awin.com/merchant-profile/91511"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 18,
+      "compensation": 16,
+      "contact_access": 11,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Brushes and makeup from a creator-founded brand are native tutorial and review UGC material.",
+        "ugc_evidence": "Affiliate-led brand from launch: program on ShareASale and Awin, reported at roughly 30% of brand sales, with product seeding described by the founder.",
+        "compensation": "15% on all sales against a +$100 average order value is solid per-sale economics; cap is honestly unknown.",
+        "contact_access": "Joinable through the Awin merchant profile and ShareASale; no public partnerships email on the pages fetched.",
+        "opportunity_availability": "Open network application on two major networks.",
+        "credibility": "Established DTC cosmetics brand with trade-press coverage of its affiliate-led growth."
+      }
+    }
+  },
+  {
+    "name": "L'Avyanna Beauty",
+    "website": "https://lavyanna.com",
+    "country": null,
+    "category_slug": "skincare",
+    "description": "Science-led skincare brand for melanin-rich skin with a free own-site affiliate program: 7.5% commission for Beauty Enthusiast affiliates and 15% for Influencer affiliates, plus a 5% audience discount code.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "info@lavyanna.com",
+        "source_url": "https://lavyanna.com/affiliate-programme/"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://lavyanna.com/affiliate-programme/",
+        "email": null,
+        "source_url": "https://lavyanna.com/affiliate-programme/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://lavyanna.com/affiliate-programme/",
+        "summary": "L'Avyanna's own Affiliate Programme page states joining the affiliate program is free via the on-page form: affiliates share a unique link, give customers a 5% discount, and 'receive a commission ranging from 7.5% to 15% based on your engagement strength' - Category 1 Beauty Enthusiasts earn 7.5% and Category 2 Influencer Affiliates earn 15%, with dashboard access, marketing materials and, for influencers, priority support and collaboration opportunities. The page also lists info@lavyanna.com for its distributor route. Its 'unlimited opportunities' headline refers to the distributor packages, not an earnings-cap statement, so commission_cap is recorded as unknown, never guessed. The recorded rate is the 7.5% floor."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://lavyanna.com/affiliate-programme/",
+        "summary": "No hard absolute creator count for L'Avyanna surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 7.5,
+      "application_url": "https://lavyanna.com/affiliate-programme/",
+      "source_url": "https://lavyanna.com/affiliate-programme/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "L'Avyanna Beauty Affiliate Programme",
+      "application_url": "https://lavyanna.com/affiliate-programme/",
+      "source_url": "https://lavyanna.com/affiliate-programme/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 13,
+      "compensation": 12,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Science-led skincare formulated for melanin-rich skin is a clear, underserved UGC niche with strong routine content potential.",
+        "ugc_evidence": "Own-site affiliate programme with two creator tiers, dashboard, personalized links and marketing materials; no hard creator count published.",
+        "compensation": "7.5% entry tier rising to 15% for influencer affiliates is modest; cap is honestly unknown - the page's 'unlimited' wording is about distributor opportunity, not earnings.",
+        "contact_access": "Published brand email (info@lavyanna.com) plus the free on-page affiliate form.",
+        "opportunity_availability": "Free to join with a basic tier requiring only an active social account or blog.",
+        "credibility": "Niche specialist brand with a detailed programme page; limited third-party footprint, and its paid distributor/stockist packages sit alongside the free affiliate route."
+      }
+    }
+  },
+  {
+    "name": "Rejuvaform",
+    "website": "https://www.rejuvaform.com",
+    "country": "Canada",
+    "category_slug": "skincare",
+    "description": "Canadian plant-based skincare brand for 'Dry+' skin (dryness combined with other concerns) whose Brand Ambassador Program pays 15% monthly commission on all products sold with a custom code, plus free customized product.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "hello@rejuvaform.com",
+        "source_url": "https://www.rejuvaform.com/pages/brand-ambassador-program"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.rejuvaform.com/pages/brand-ambassador-program",
+        "email": null,
+        "source_url": "https://www.rejuvaform.com/pages/brand-ambassador-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.rejuvaform.com/pages/brand-ambassador-program",
+        "summary": "Rejuvaform's own Brand Ambassador Program page states: '15% commission paid monthly on all Rejuvaform products', 20% off for ambassadors, a 10% follower discount via the affiliate code, free products customized to skin requirements, and early access. Approved ambassadors receive a free product package and must post testimonials and content at least monthly. The page says the program is 'Currently open to Canadian residents only' while its ideal-ambassador list mentions Canada and the Continental US - that inconsistency is recorded here rather than smoothed over. The page publishes no earnings-cap statement, so commission_cap is recorded as unknown, never guessed."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://www.rejuvaform.com/pages/brand-ambassador-program",
+        "summary": "No hard absolute creator count for Rejuvaform surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 15,
+      "application_url": "https://www.rejuvaform.com/pages/brand-ambassador-program",
+      "source_url": "https://www.rejuvaform.com/pages/brand-ambassador-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Rejuvaform Brand Ambassador Program",
+      "application_url": "https://www.rejuvaform.com/pages/brand-ambassador-program",
+      "source_url": "https://www.rejuvaform.com/pages/brand-ambassador-program"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 15,
+      "compensation": 16,
+      "contact_access": 13,
+      "opportunity_availability": 6,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Personalized Dry+ plant-based skincare with free tailored product is natural testimonial and routine UGC.",
+        "ugc_evidence": "Own-site ambassador program with free product packages, monthly content requirements and featured-ambassador placements; no hard creator count published.",
+        "compensation": "15% monthly commission on all products plus free product and a 20% personal discount; cap is honestly unknown.",
+        "contact_access": "Published email (hello@rejuvaform.com) plus the application form linked from the program page.",
+        "opportunity_availability": "Applications open but the page currently limits the program to Canadian residents, which narrows creator eligibility.",
+        "credibility": "Made-in-Canada, vegan and cruelty-free positioning stated on the page; small brand with limited third-party footprint."
+      }
+    }
+  },
+  {
+    "name": "Ora's Amazing Herbal",
+    "website": "https://orasamazingherbal.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Woman-owned, small-batch herbal skincare brand (salves, eczema care, body butters, facial masks) whose affiliate route runs through Shopify Collabs and a Brand Ambassador program, with affiliates starting between 10-25% commission based on platform and audience metrics.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://orasamazingherbal.com/pages/affiliate",
+        "email": null,
+        "source_url": "https://orasamazingherbal.com/pages/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://orasamazingherbal.com/pages/affiliate",
+        "summary": "Ora's own Affiliate page states: 'Our affiliates start between 10-25% commission rate, based on platform, content quality and audience metrics', average order range $50-60, custom assets on request, and routes creators to its Brand Ambassador program (free for qualified applicants, product for genuine content) or to 'Become an affiliate with Shopify Collabs to earn commission on your sales.' Because the exact rate is assigned per creator from that range, commission_rate is recorded as null. The page's separate 25% TikTok Shop showcase route was NOT used as this brand's basis - its qualifying route is Shopify Collabs / its own ambassador program. The page publishes no earnings-cap statement, so commission_cap is recorded as unknown, never guessed."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://orasamazingherbal.com/pages/affiliate",
+        "summary": "No hard absolute creator count for Ora's Amazing Herbal surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": "Shopify Collabs",
+      "commission_rate": null,
+      "application_url": "https://orasamazingherbal.com/pages/affiliate",
+      "source_url": "https://orasamazingherbal.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Ora's Amazing Herbal Brand Ambassador / Shopify Collabs Affiliate",
+      "application_url": "https://orasamazingherbal.com/pages/affiliate",
+      "source_url": "https://orasamazingherbal.com/pages/affiliate"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 15,
+      "compensation": 13,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Herbal, eczema-care and tattoo-aftercare skincare from a family-run brand fits authentic problem/solution UGC.",
+        "ugc_evidence": "Own ambassador program offering product for genuine content plus a Shopify Collabs affiliate route; no hard creator count published.",
+        "compensation": "Published starting range of 10-25% assigned by platform and metrics is promising but not a settled single rate, so the rate is honestly null; cap unknown.",
+        "contact_access": "Affiliate page invites questions to its community manager by email, though the address itself did not render in the fetched page text, so no email is recorded.",
+        "opportunity_availability": "Ambassador applications and Collabs route are open; ambassador membership is free for qualified applicants.",
+        "credibility": "Woman-owned, family-run brand publishing its Englewood, NJ address and phone on the page, founded on an eczema-care product for the founder's daughter."
+      }
+    }
+  },
+  {
+    "name": "Care to Beauty",
+    "website": "https://www.caretobeauty.com",
+    "country": null,
+    "category_slug": "beauty",
+    "description": "Beauty retailer selling skincare and cosmetics across international stores, running its own creators affiliate program: apply on-site, get manually reviewed within 48 business hours, and earn commission on every confirmed order through custom product and category links.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.caretobeauty.com/us/creators/",
+        "email": null,
+        "source_url": "https://www.caretobeauty.com/us/creators/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.caretobeauty.com/us/creators/",
+        "summary": "Care to Beauty's own USA creators page describes its affiliate program: 'No paperwork, no minimum following, no exclusivity. Just apply, share, earn!' Applications are reviewed manually within 48 business hours; affiliates generate custom links for specific products, brands or categories, earn commission on every confirmed order, and cash out as in-store credit (no minimum) or bank transfer. Base rates are not published - the page says campaign boosts vary and 'You'll always see the active rate next to each link in your dashboard' - so commission_rate is recorded as null. The page publishes no earnings-cap statement, so commission_cap is recorded as unknown, never guessed. The program explicitly offers no gifted products or paid content, commission only."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://www.caretobeauty.com/us/creators/",
+        "summary": "No hard absolute creator count for Care to Beauty surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": null,
+      "application_url": "https://www.caretobeauty.com/us/creators/",
+      "source_url": "https://www.caretobeauty.com/us/creators/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Care to Beauty Affiliate Program (Creators)",
+      "application_url": "https://www.caretobeauty.com/us/creators/",
+      "source_url": "https://www.caretobeauty.com/us/creators/"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 10,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "A multi-brand beauty retailer lets creators monetize almost any skincare or makeup routine content through custom links.",
+        "ugc_evidence": "Own creators program with custom link generation and a real-time earnings dashboard; explicitly commission-only with no gifting, and no hard creator count published.",
+        "compensation": "Rates are only visible inside the dashboard and vary by campaign, so the rate is honestly null; cap unknown.",
+        "contact_access": "On-site application form with manual review promised within 48 business hours; no public partnerships email on the page fetched.",
+        "opportunity_availability": "Open application with no minimum following and no exclusivity.",
+        "credibility": "Established international beauty retailer with stores in multiple countries and detailed published program terms."
+      }
+    }
+  },
+  {
+    "name": "Saje Wellness",
+    "website": "https://www.saje.com",
+    "country": null,
+    "category_slug": "skincare",
+    "description": "Natural wellness and skincare brand (essential oils, skincare and body care) whose affiliate program runs on ShareASale; directory listings conflict on the rate, so no single percentage is recorded.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://linkclicky.com/affiliate-program/saje-wellness/",
+        "email": null,
+        "source_url": "https://linkclicky.com/affiliate-program/saje-wellness/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/saje-wellness/",
+        "summary": "LinkClicky's directory lists Saje Wellness on the ShareASale network at 10% per sale and describes the brand as natural skincare and beauty products connecting people with the healing power of plants. A second aggregator (Shopper) lists a 5-10% payout range instead, so the published rates conflict and commission_rate is recorded as null rather than settled. No earnings-cap statement was found on the pages fetched, so commission_cap is recorded as unknown, never guessed."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/saje-wellness/",
+        "summary": "No hard absolute creator count for Saje Wellness surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": null,
+      "application_url": "https://linkclicky.com/affiliate-program/saje-wellness/",
+      "source_url": "https://linkclicky.com/affiliate-program/saje-wellness/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Saje Wellness Affiliate Program (ShareASale)",
+      "application_url": "https://linkclicky.com/affiliate-program/saje-wellness/",
+      "source_url": "https://linkclicky.com/affiliate-program/saje-wellness/"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 11,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Essential-oil skincare and body care is strong sensory, routine and gift-guide UGC material.",
+        "ugc_evidence": "Long-running ShareASale network program; no hard creator count published.",
+        "compensation": "Rate is honestly null because directory listings conflict (10% flat vs a 5-10% range); cap unknown.",
+        "contact_access": "Application through ShareASale via the directory listing; no public partnerships email on the pages fetched.",
+        "opportunity_availability": "Open network application.",
+        "credibility": "Established natural wellness retailer with a long-standing network affiliate presence."
+      }
+    }
+  }
+]
