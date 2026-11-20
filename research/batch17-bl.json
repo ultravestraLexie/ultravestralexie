@@ -1,0 +1,638 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.zerorez.com/affiliates",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.zerorez.com/blog/zerorez-affiliate-program"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.zerorez.com/affiliates",
+    "email": null,
+    "source_url": "https://www.zerorez.com/blog/zerorez-affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "US home-cleaning services brand (carpet, area rug, upholstery, tile and grout, air duct and hardwood cleaning) built on its Zero Residue / Zr Water cleaning technology, with 70+ locations across the United States. Its affiliate program pays creators and publishers a flat commission for every completed job they refer.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.zerorez.com/blog/zerorez-affiliate-program",
+    "summary": "Official Zerorez blog post announcing the affiliate program, fetched in full: 'You will earn $40 for every job you send our way, with no limit to how much you can earn!' Program features: $40 commission for completed jobs, 60-day cookie duration, monthly payouts, a dedicated affiliate manager and a monthly affiliate newsletter. Sign-up runs through Impact (the post links to the Impact Zerorez signup page and directs applicants to zerorez.com/affiliates). Open to anyone with a social media channel, email list, blog, platform or website; the brand says it especially encourages lifestyle, home decor, cleaning, real estate and family creators. The explicit 'no limit to how much you can earn' statement on the brand's own page makes the commission cap UNCAPPED. The pay is a flat $40 bounty per completed job, not a percentage, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.zerorez.com/blog/zerorez-affiliate-program",
+    "summary": "The same official post states Zerorez has operated for over 20 years, holds over 190,000 5-star Google reviews at a 4.9-star average, has more than 70 US locations, and pays commission on carpet, area rug, upholstery, tile and grout, pet spot/odor, mattress, stone, air duct and hardwood floor cleaning services. This affiliate program is separate from Zerorez's customer Refer-A-Friend scheme ($25 gift card), which is not the route recorded here."
+   }
+  ],
+  "name": "Zerorez",
+  "opportunity": {
+   "application_url": "https://www.zerorez.com/affiliates",
+   "source_url": "https://www.zerorez.com/blog/zerorez-affiliate-program",
+   "title": "Zerorez Affiliate Program \u2014 flat $40 per completed job via Impact, no limit on earnings"
+  },
+  "score": {
+   "compensation": 17,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Flat $40 per completed job with an explicit no-limit statement, a 60-day cookie and monthly payouts \u2014 strong, simple economics for local-service content",
+    "contact_access": "Open application via Impact with a dedicated affiliate manager promised on the official post; no public program email published",
+    "credibility": "20+ years operating, 190,000+ 5-star Google reviews and 70+ locations, all stated on the brand's own page",
+    "niche_fit": "Home cleaning before/after content is a proven, highly demonstrable UGC format for home and lifestyle creators",
+    "opportunity_availability": "Free to join, open to social channels, blogs and websites of any size per the official post",
+    "ugc_evidence": "Official announcement explicitly recruits people who share cleaning tips and healthier-living content online, and says the brand loves customer reviews and social media mentions"
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://www.zerorez.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://us.smartmiglobal.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://us.smartmiglobal.com/pages/affiliate-program"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.smartmiglobal.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://us.smartmiglobal.com/pages/affiliate-program"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://us.smartmiglobal.com/pages/affiliate-program",
+    "email": "partners@fstln.io",
+    "source_url": "https://us.smartmiglobal.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Smart-home appliance brand selling air purifiers, fans and related smart devices through its US storefront (us.smartmiglobal.com). Its official affiliate page invites social media producers, review sites and bloggers to earn commission on every sale through their referral link.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.smartmiglobal.com/pages/affiliate-program",
+    "summary": "Official Smartmi US affiliate page fetched in full: 'Earn up to 15% Commission On Every Sale, and More', with monthly incentive campaigns, extra bonuses and higher rates during festival events. The page states the program 'invites social media producers, review sites, bloggers, coupon sites and other website owners', is free to join, tracks sales for 30 days after a click, and pays monthly once an order is confirmed and past the 15-day return window. 'Up to 15%' is a rate ceiling, recorded as the published rate; the page makes no statement about an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://us.smartmiglobal.com/pages/affiliate-program",
+    "summary": "The same official page tells affiliates they will see their referral link and picture and video materials on their dashboard after sign-up, and publishes partners@fstln.io for affiliates with other material requirements or suggestions."
+   }
+  ],
+  "name": "Smartmi",
+  "opportunity": {
+   "application_url": "https://us.smartmiglobal.com/pages/affiliate-program",
+   "source_url": "https://us.smartmiglobal.com/pages/affiliate-program",
+   "title": "Smartmi Affiliate Program \u2014 up to 15% commission, open to social media producers (partners@fstln.io)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 12,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Up to 15% per sale plus monthly incentive campaigns and festival rate boosts; no cap statement published",
+    "contact_access": "Open application on the brand's own page plus a published affiliate contact email (partners@fstln.io)",
+    "credibility": "Full program terms, cookie window and payment process are published on the brand's own US storefront",
+    "niche_fit": "Air purifiers and smart fans are staple smart-home review and demo products for tech and home creators",
+    "opportunity_availability": "Free to join and described as welcoming every possible partner",
+    "ugc_evidence": "Official page explicitly invites social media producers and supplies picture and video materials to affiliates"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://us.smartmiglobal.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/ecovacs/",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://linkclicky.com/affiliate-program/ecovacs/"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/ecovacs/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/ecovacs/"
+   }
+  ],
+  "country": "United States",
+  "description": "Home robotics brand behind the DEEBOT robot vacuum and mop range, WINBOT window-cleaning robots and GOAT robotic lawn mowers, sold in the US through ecovacs.com. Its publisher affiliate program runs through CJ Affiliate at a published 5% of sale.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/ecovacs/",
+    "summary": "LinkClicky program listing (which reads the network's published terms): ECOVACS affiliate program runs on CJ Affiliate, pays 5% per sale, US region. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/ecovacs/",
+    "summary": "Lasso's ECOVACS listing independently reports the same 5% per sale rate with a 45-day cookie duration, consistent with the LinkClicky/CJ figure, so 5% is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.ecovacs.com/us/referral-program",
+    "summary": "ECOVACS's own US site separately runs a customer Refer-a-Friend scheme (Amazon gift cards of $30-$100 depending on product line, per the official referral page). That customer scheme is not the creator route recorded here; the directory entry rests on the CJ Affiliate publisher program above."
+   }
+  ],
+  "name": "ECOVACS",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/ecovacs/",
+   "source_url": "https://linkclicky.com/affiliate-program/ecovacs/",
+   "title": "ECOVACS Affiliate Program \u2014 5% per sale via CJ Affiliate"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "5% of sale on high-ticket robots ($400+ baskets are common in this category) with a 45-day cookie; rate is modest",
+    "contact_access": "Application runs through CJ Affiliate; no public partnerships email found",
+    "credibility": "One of the largest global home-robotics brands, with the program listed consistently across network directories",
+    "niche_fit": "Robot vacuums are one of the most demonstrated and reviewed smart-home product categories in UGC",
+    "opportunity_availability": "Standard network application, no follower minimum published",
+    "ugc_evidence": "Network publisher program open to review sites and video reviewers; no dedicated creator program page published"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.ecovacs.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/spot-tango/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/spot-tango/"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/spot-tango/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/spot-tango/"
+   }
+  ],
+  "country": "United States",
+  "description": "US fresh dog food brand selling human-grade Fresh recipes and UnKibble dry food, personalized to each dog and delivered by subscription. Its affiliate program on Impact pays a flat commission on every trial purchase a creator refers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/spot-tango/",
+    "summary": "LinkClicky program listing (which reads the network's published terms): Spot & Tango's affiliate program runs on Impact and pays $20-$50 per trial purchase, US region. The pay is a flat bounty per trial, not a percentage of sale, so commission_rate is null. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.meersworld.net/2024/05/best-pet-brands-affiliate-programs.html",
+    "summary": "Meer's World pet-program roundup independently lists Spot & Tango on Impact at $20.00 to $50.00 per trial purchase with a 30-day cookie, breaking the range down as $20 for UnKibble and $50 for Fresh trial purchases \u2014 consistent with the LinkClicky figures."
+   }
+  ],
+  "name": "Spot & Tango",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/spot-tango/",
+   "source_url": "https://linkclicky.com/affiliate-program/spot-tango/",
+   "title": "Spot & Tango Affiliate Program \u2014 flat $20-$50 per trial purchase via Impact"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Flat $20-$50 per trial purchase is strong per-conversion pay for a food trial, with a 30-day cookie",
+    "contact_access": "Application runs through Impact; no public partnerships email found",
+    "credibility": "Established fresh-pet-food brand; terms consistent across two independent network listings",
+    "niche_fit": "Fresh dog food trials are a staple, highly filmable pet UGC category (unboxing, first-bowl reactions, meal plans)",
+    "opportunity_availability": "Standard network application, no follower minimum published",
+    "ugc_evidence": "Network affiliate program marketed to pet publishers and creators; no separate creator page published"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://spotandtango.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/nom-nom/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising / ShareASale",
+   "source_url": "https://alanslui.com/decisions/dog-affiliate-programmes/"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/nom-nom/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/nom-nom/"
+   }
+  ],
+  "country": "United States",
+  "description": "Fresh pet food brand (Nom Nom, formerly NomNomNow) selling gently cooked, vet-developed dog meals personalized by age, weight and activity, prepared in its own kitchens and delivered by subscription; part of the Mars Petcare family. Its affiliate program pays commissions on every new customer, with the rate held inside the network login.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://alanslui.com/decisions/dog-affiliate-programmes/",
+    "summary": "Programme comparison checked 30 Oct 2026 against merchants' own pages and network profiles: Nom Nom's own page publishes no rate \u2014 it says only 'Commissions on every new customer' \u2014 and the rate sits behind a Rakuten login. Because the brand itself does not publish a rate, commission_rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/nom-nom/",
+    "summary": "Lasso's Nom Nom listing reports a flat $24-$80 per sale with a 30-day cookie, while a March 2026 program comparison reports 15% via ShareASale with a $50 minimum payout. The third-party figures conflict with each other and with the brand's unpublished rate, so no rate is recorded; both Rakuten Advertising and ShareASale are reported as routes in. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.nomnomnow.com/",
+    "summary": "Nom Nom's official site describes gently cooked, vet-developed fresh dog food personalized to each dog, and its support pages confirm the meals are also sold through PetSmart, Amazon and Chewy; the brand's own veterinary page states it is backed by Mars and Royal Canin regulatory and quality standards."
+   }
+  ],
+  "name": "Nom Nom",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/nom-nom/",
+   "source_url": "https://alanslui.com/decisions/dog-affiliate-programmes/",
+   "title": "Nom Nom Affiliate Program \u2014 commissions on every new customer; rate published only inside the network login"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Third parties report flat $24-$80 per sale or 15%, but the brand publishes no rate and the reports conflict, so compensation cannot be graded higher until verified in-network",
+    "contact_access": "Application runs through the networks; no public partnerships email found",
+    "credibility": "Mars Petcare-backed brand with published veterinary science and feeding studies on its own site",
+    "niche_fit": "Personalized fresh dog food is a core pet UGC category with strong trial and subscription content angles",
+    "opportunity_availability": "Network application with approval typically reported at 1-2 days for pet-content sites",
+    "ugc_evidence": "Long-running network affiliate program aimed at pet publishers and influencers; no dedicated creator page published"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.nomnomnow.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/whistle-pet-tracker/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/whistle-pet-tracker/"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/whistle-pet-tracker/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/whistle-pet-tracker/"
+   }
+  ],
+  "country": "United States",
+  "description": "Pet tech brand selling GPS location and health-monitoring trackers for dogs (Whistle GO and successors), tracking location, activity, scratching, licking and drinking through a collar device and app subscription. Its affiliate program runs on Impact.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/whistle-pet-tracker/",
+    "summary": "LinkClicky program listing (which reads the network's published terms): Whistle's affiliate program runs on Impact and pays 6% per sale. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-programs/pet/",
+    "summary": "UpPromote's pet-program roundup reports Whistle on Impact at 10% with a 30-day cookie, and an older training roundup reports 20%. The published rates conflict (6% vs 10% vs 20%), so commission_rate is null with the conflict recorded here; the network (Impact) and 30-day cookie are consistent across sources."
+   }
+  ],
+  "name": "Whistle",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/whistle-pet-tracker/",
+   "source_url": "https://linkclicky.com/affiliate-program/whistle-pet-tracker/",
+   "title": "Whistle Affiliate Program \u2014 GPS pet trackers via Impact (published rates conflict at 6%-20%)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published rates conflict between 6% and 20% of sale, so no rate can be credited until verified in-network",
+    "contact_access": "Application runs through Impact; no public partnerships email found",
+    "credibility": "Long-established pet-tracker brand; network and cookie terms consistent across listings even though the rate is not",
+    "niche_fit": "GPS pet trackers are a demonstrable pet-tech staple (escape stories, activity data, health alerts)",
+    "opportunity_availability": "Standard network application, no follower minimum published",
+    "ugc_evidence": "Network program marketed to pet bloggers, trainers and rescue/animal-welfare publishers per program roundups"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://whistle.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://katalys.com/brands/helix-sleep-affiliate-program/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://katalys.com/brands/helix-sleep-affiliate-program/"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://katalys.com/brands/helix-sleep-affiliate-program/",
+    "email": null,
+    "source_url": "https://katalys.com/brands/helix-sleep-affiliate-program/"
+   }
+  ],
+  "country": "United States",
+  "description": "US direct-to-consumer mattress brand that matches each sleeper to a model through an online sleep quiz (body type, sleep position, firmness feel), with mattresses typically in the $800-$2,000 range. Its affiliate program runs on Impact and explicitly accepts influencer and creator traffic.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://katalys.com/brands/helix-sleep-affiliate-program/",
+    "summary": "Katalys brand program page: the Helix Sleep Affiliate Program runs through Impact at a default 12% commission per sale, with VIP rates available case-by-case for quality partners, and accepted traffic types explicitly include Influencer/Creator alongside email, content and media buyers. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today",
+    "summary": "Mattress-program roundup (figures checked April 2025) reports a conflicting Helix structure: a flat $100-$125 per mattress via Impact with a 30-day cookie. Other listings report ~5% (Brandid) or up to 6% with a 90-day cookie (Ecommerce Paradise). Because published sources conflict (12% vs flat bounty vs 5-6%), commission_rate is null with the conflict recorded here."
+   }
+  ],
+  "name": "Helix Sleep",
+  "opportunity": {
+   "application_url": "https://katalys.com/brands/helix-sleep-affiliate-program/",
+   "source_url": "https://katalys.com/brands/helix-sleep-affiliate-program/",
+   "title": "Helix Sleep Affiliate Program \u2014 via Impact, influencer/creator traffic accepted (published rates conflict)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Reports range from 12% of sale to flat $100-$125 per mattress on $800-$2,000 orders \u2014 potentially strong, but the conflict keeps the recorded rate null",
+    "contact_access": "Application runs through Impact; no public partnerships email found",
+    "credibility": "Established DTC mattress brand with consistent program listings across directories",
+    "niche_fit": "Mattresses are a staple home UGC category and Helix's sleep-quiz matching gives creators an interactive content hook",
+    "opportunity_availability": "Standard network application, no follower minimum published",
+    "ugc_evidence": "Program page lists influencer/creator as an accepted traffic type, and creator roundups report free product for larger influencers and a dedicated affiliate manager"
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://helixsleep.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/blueair/",
+   "commission_cap": "unknown",
+   "commission_rate": 2,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/blueair/"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/blueair/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/blueair/"
+   }
+  ],
+  "country": "Sweden",
+  "description": "Swedish air-purification brand (part of Unilever) selling premium air purifiers for allergies, asthma and clean-air homes. Alongside its Impact affiliate program, Blueair staffs a dedicated Affiliate & UGC function that recruits creators through platforms such as ShopMy, LTK and GRIN.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/blueair/",
+    "summary": "LinkClicky program listing (which reads the network's published terms): Blueair's affiliate program runs on Impact and pays tiered commission of 2% per sale / 3% per sale. The starting tier (2%) is recorded as the rate. No earnings-cap statement is published, so the cap is unknown. (Lasso's higher 'up to 11.25%' figure is its Amazon Associates estimate, not the brand's network program.)"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "listing",
+    "source_url": "https://builtin.com/job/affiliate-ugc-manager/11309230",
+    "summary": "Blueair's own job posting for an Affiliate & UGC Manager (Built In) states the role will 'Own Blueair's affiliate and user-generated content programs end to end, including partner and creator recruitment, contracting, budgets, campaigns, content approvals, product seeding, licensing, compliance, and performance reporting' and will manage platforms such as ShopMy, LTK and GRIN \u2014 direct evidence the brand actively runs creator and UGC partnerships. The posting also confirms Blueair is part of Unilever."
+   }
+  ],
+  "name": "Blueair",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/blueair/",
+   "source_url": "https://linkclicky.com/affiliate-program/blueair/",
+   "title": "Blueair Affiliate Program \u2014 air purifiers via Impact (2%-3%), plus an in-house Affiliate & UGC team recruiting creators"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Tiered 2%-3% of sale is low, though purifiers carry mid-to-high price points; no cap statement published",
+    "contact_access": "Application runs through Impact; no public partnerships email found",
+    "credibility": "Established global brand owned by Unilever, with the program listed consistently in network directories",
+    "niche_fit": "Air purifiers are a staple home-health UGC category (allergy, smoke, pet dander and nursery content)",
+    "opportunity_availability": "Standard network application, no follower minimum published",
+    "ugc_evidence": "The brand employs a dedicated Affiliate & UGC Manager and recruits creators via ShopMy, LTK and GRIN, per its own job posting"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.blueair.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+   "commission_cap": "unknown",
+   "commission_rate": 6.6,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/"
+   }
+  ],
+  "country": "United States",
+  "description": "New Hampshire pet tech company (founded 2016) selling the SpotOn GPS dog fence \u2014 a collar that creates portable virtual fences from GPS boundaries without buried wires or base stations. Its affiliate program runs on Impact at a published 6.6% of sale.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+    "summary": "LinkClicky program listing (which reads the network's published terms): SpotOn Virtual Fence's affiliate program runs on Impact and pays 6.6% per sale. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.meersworld.net/2024/05/best-pet-brands-affiliate-programs.html",
+    "summary": "Meer's World pet-program roundup independently lists SpotOn at the same 6.6% commission on Impact with a 30-day cookie, consistent with the LinkClicky figure, so 6.6% is recorded. (Lasso's higher 'up to 10.5%' figure is its Amazon Associates estimate, not the brand's network program.)"
+   }
+  ],
+  "name": "SpotOn",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+   "source_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+   "title": "SpotOn Affiliate Program \u2014 GPS dog fence, 6.6% per sale via Impact"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "6.6% of a high-ticket collar system (several hundred dollars) with a 30-day cookie \u2014 solid per-sale dollars",
+    "contact_access": "Application runs through Impact; no public partnerships email found",
+    "credibility": "Operating since 2016 with the flagship fence launched in 2019, per its network-directory profile; smaller brand than the category leaders",
+    "niche_fit": "GPS virtual fencing is a demonstrable pet-tech product (setup walks, boundary tests, recall stories) for dog creators",
+    "opportunity_availability": "Standard network application, no follower minimum published",
+    "ugc_evidence": "Network affiliate program open to pet publishers; no dedicated creator program page published"
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://spotonfence.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/88129",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://ui.awin.com/merchant-profile/88129"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affsaatva@gmail.com",
+    "source_url": "https://ui.awin.com/merchant-profile/88129"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/88129",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/88129"
+   }
+  ],
+  "country": "United States",
+  "description": "US luxury mattress and bedding brand selling handcrafted innerspring, hybrid and latex mattresses ($1,000-$6,000) direct to consumers with free white-glove delivery rather than bed-in-a-box shipping. Its partner program pays commission on sales driven through affiliate links on social media and websites.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/88129",
+    "summary": "Saatva's official Awin merchant profile fetched in full: 'Use affiliate tracking links on your social media or website to earn commission on sales'; the program is managed through the ShareASale dashboard with creative assets and text links; 'Earn commission starting at 3% on all Saatva sales generated through your website'; 90-day cookie duration; a dedicated program management team; and the affiliate team contact affsaatva@gmail.com published for program questions. The profile also states 800,000+ happy sleepers, 98% customer satisfaction and 155 delivery centers in the US & Canada."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today",
+    "summary": "A mattress-program roundup (figures checked April 2025) reports a different Saatva structure \u2014 flat $50-$700 per sale tiered by product, via Impact, with a 45-day cookie. Because published sources conflict (3% of sale via the ShareASale-run profile vs flat bounties via Impact), commission_rate is null with both structures recorded here. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Saatva",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/88129",
+   "source_url": "https://ui.awin.com/merchant-profile/88129",
+   "title": "Saatva Partner Program \u2014 commission on luxury mattress sales (3% starting per its network profile; affsaatva@gmail.com)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 13,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "High order values ($1,000-$6,000) make even a starting 3% meaningful, and flat bounties up to $700 are reported elsewhere \u2014 but the structures conflict, so the recorded rate stays null",
+    "contact_access": "Published affiliate team email (affsaatva@gmail.com) plus a dedicated program management team, per the official profile",
+    "credibility": "800,000+ sleepers and 98% customer satisfaction stated on the program's own network profile",
+    "niche_fit": "Mattresses and sleep upgrades are a staple home UGC category, and Saatva's white-glove delivery story films well",
+    "opportunity_availability": "Free network sign-up with no fees, per the official profile",
+    "ugc_evidence": "Official profile explicitly invites promotion via affiliate links on social media as well as websites"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.saatva.com"
+ }
+]

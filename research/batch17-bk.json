@@ -1,0 +1,589 @@
+[
+ {
+  "name": "The Maca Team",
+  "website": "https://www.themacateam.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Specialist brand focused exclusively on organic Peruvian maca since 2009, selling maca powders, capsules, extracts, chips and blends in red, black, yellow and tri-color varieties through its own store, with a direct affiliate program for wellness creators and educators.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.themacateam.com/maca-affiliate-program/",
+    "email": null,
+    "source_url": "https://www.themacateam.com/maca-affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.themacateam.com/maca-affiliate-program/",
+    "summary": "The Maca Team's official affiliate page publishes a 20% commission on qualifying referred sales of its organic Peruvian maca products and states verbatim: 'There is no cap on how much you can earn. The more qualified customers you refer, the more commission you can generate.' Applications run through the brand's own direct affiliate program, with an AvantLink network option also offered on the same page. The cap is verified uncapped on the brand's own wording."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.themacateam.com/maca-affiliate-program/",
+    "summary": "The same page says the program is built for content creators, wellness educators, bloggers, recipe creators, practitioners and publishers, and provides referral links, marketing images, banners, text links, approved brand copy and a tracking dashboard inside the affiliate portal."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct / AvantLink",
+   "commission_rate": 20,
+   "application_url": "https://www.themacateam.com/maca-affiliate-program/",
+   "source_url": "https://www.themacateam.com/maca-affiliate-program/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "The Maca Team Affiliate Program",
+   "application_url": "https://www.themacateam.com/maca-affiliate-program/",
+   "source_url": "https://www.themacateam.com/maca-affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 18,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A single-ingredient superfood specialist fits plant-based, smoothie, recipe and men's/women's wellness creator content with deep educational material to promote.",
+    "ugc_evidence": "A public program page explicitly recruiting content creators and recipe creators, with banners, images and approved copy supplied; no creator counts were published on fetched pages.",
+    "compensation": "20% flat on qualifying sales with a verified 'no cap on how much you can earn' statement on the official page.",
+    "contact_access": "No program email is published on the fetched page (a phone number is); joining and contact run through the affiliate portal, so access is scored mid-range.",
+    "opportunity_availability": "Apply to the direct program on the official page, or join via AvantLink; approval required.",
+    "credibility": "Maca-only specialist operating since 2009 with a deep product line and educational guides, per its own pages."
+   }
+  }
+ },
+ {
+  "name": "BUBS Naturals",
+  "website": "https://www.bubsnaturals.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Performance-wellness brand best known for collagen peptides, MCT oil creamer and electrolyte products, sold through its own store with separate Creator (Social Snowball) and Affiliate (Everflow) partner tracks.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.bubsnaturals.com/pages/affiliate",
+    "summary": "BUBS Naturals' official Affiliate & Creator Program page states creators earn 20% commission on every sale with 'Unlimited earning', give their audience 20% off with a personal code, receive a free welcome gift, and apply via Snowball (Social Snowball), with payouts monthly once a $100 threshold is met after a 30-day hold. A separate Affiliate track for publishers runs performance-based tiered commissions through Everflow. The creator track's earnings are stated as unlimited on the brand's own page, so the cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.bubsnaturals.com/pages/affiliate",
+    "summary": "The same page defines Creators as influencers, UGC creators, athletes, wellness coaches and storytellers on Instagram, TikTok, YouTube or podcasts who share content through discount codes on social, with custom tracking and dashboard and first access to launches and collabs."
+   }
+  ],
+  "affiliate": {
+   "network": "Social Snowball",
+   "commission_rate": 20,
+   "application_url": "https://www.bubsnaturals.com/pages/affiliate",
+   "source_url": "https://www.bubsnaturals.com/pages/affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "BUBS Naturals Creator Program (Social Snowball) / Affiliate Program (Everflow)",
+   "application_url": "https://www.bubsnaturals.com/pages/affiliate",
+   "source_url": "https://www.bubsnaturals.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 18,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Collagen, MCT creamer and electrolytes are staple, demo-able products for fitness, adventure and daily-routine wellness content.",
+    "ugc_evidence": "A dedicated creator track explicitly naming UGC creators and social platforms, with personal codes, a free welcome gift and launch access; no creator counts were published on fetched pages.",
+    "compensation": "20% on every sale for creators with earnings stated as 'Unlimited' on the official page - verified uncapped.",
+    "contact_access": "No program email is published on the fetched official page; application and support run through the Snowball/Everflow platforms.",
+    "opportunity_availability": "Application via Social Snowball for creators or Everflow for publishers; the page frames it as an exclusive partner group, so availability is scored conservatively.",
+    "credibility": "Established collagen brand with a long-running partner program across multiple networks and published payout terms."
+   }
+  }
+ },
+ {
+  "name": "The Protein Works",
+  "website": "https://www.theproteinworks.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Sports-nutrition brand selling protein powders, supplements and functional foods through its own store, running an affiliate programme on Partnerize (regional programmes including the USA) plus a separate Influencer Programme.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@proteinworks.com",
+    "source_url": "https://www.theproteinworks.com/affiliate-programme"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "influencers@proteinworks.com",
+    "source_url": "https://www.theproteinworks.com/affiliate-programme"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.theproteinworks.com/affiliate-programme",
+    "summary": "The Protein Works' official affiliate programme page publishes its commission structure as up to 12% commission for new customers and up to 6% for existing customers on a 30-day cookie, and states verbatim: 'No limit on the amount you can earn.' Applications run through Partnerize (join.partnerize.com), with regional programmes including the USA. The recorded 12% is the published new-customer ceiling, not a base rate. The cap is verified uncapped on the brand's own wording."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.theproteinworks.com/affiliate-programme",
+    "summary": "The same page runs a separate Influencer Programme paying 15% commission on each new customer, with a complimentary onboarding product bundle, for creators with over 1.5K social followers who create content on Instagram, TikTok and YouTube, and publishes affiliates@proteinworks.com and influencers@proteinworks.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": 12,
+   "application_url": "https://www.theproteinworks.com/affiliate-programme",
+   "source_url": "https://www.theproteinworks.com/affiliate-programme",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "The Protein Works Affiliate Programme (Partnerize) & Influencer Programme",
+   "application_url": "https://www.theproteinworks.com/affiliate-programme",
+   "source_url": "https://www.theproteinworks.com/affiliate-programme"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Protein and sports nutrition are core fitness-creator products with strong recipe, review and routine content angles.",
+    "ugc_evidence": "A dedicated Influencer Programme recruiting social creators with product bundles and social features, alongside the publisher affiliate programme; no creator counts were published.",
+    "compensation": "Up to 12% (new customers) via Partnerize and 15% for influencers on new customers, with a verified 'No limit on the amount you can earn' statement.",
+    "contact_access": "Two published programme emails (affiliates@ and influencers@) on the official page.",
+    "opportunity_availability": "Apply via Partnerize for the regional programme (USA included) with brand assessment; influencer track asks for 1.5K+ followers.",
+    "credibility": "Long-established sports-nutrition retailer running structured programmes on a major network across multiple regions."
+   }
+  }
+ },
+ {
+  "name": "Fit Body Weight Loss",
+  "website": "https://fitbodyweightloss.com",
+  "country": null,
+  "category_slug": "wellness",
+  "description": "Weight-loss and wellness brand founded by Master Nutritionist Christina Jordan, selling medical-grade supplements and metabolic/nutritional therapy programs through its own store, with a free Ambassador Program for wellness promoters.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://fitbodyweightloss.com/ambassadorprogram/",
+    "summary": "Fit Body Weight Loss's official Ambassador Program page publishes a 20% commission on every referred sale, no minimum payout, no sign-up fee and no minimum sales requirement, paid monthly. Its FAQ answers 'Is there a cap on how much I can earn?' with, verbatim: 'No. You have unlimited earning potential.' The cap is verified uncapped on the brand's own page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://fitbodyweightloss.com/ambassadorprogram/",
+    "summary": "The same page says ambassadors earn by placing banners or links on their website or social media posts, receive a personal 15%-off coupon code for referrals within 24-48 hours, a 15% lifetime ambassador discount, and ongoing online nutrition education."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://fitbodyweightloss.com/ambassadorprogram/",
+   "source_url": "https://fitbodyweightloss.com/ambassadorprogram/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Fit Body Weight Loss Ambassador Program",
+   "application_url": "https://fitbodyweightloss.com/ambassadorprogram/",
+   "source_url": "https://fitbodyweightloss.com/ambassadorprogram/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 11,
+   "compensation": 17,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Weight-loss supplements and coaching fit transformation and wellness-journey content, a narrower and more claim-sensitive niche than general wellness.",
+    "ugc_evidence": "A public ambassador page built around website and social-media promotion with coupon codes; no creator counts were published on fetched pages.",
+    "compensation": "20% on every sale with a verified FAQ answer of no cap and unlimited earning potential, and no minimum payout.",
+    "contact_access": "No programme email is published on the fetched page; joining runs through the on-site application.",
+    "opportunity_availability": "Free application on the official page, open to all body types, ages and backgrounds, with brand approval.",
+    "credibility": "Founder-led clinic-style brand with bold outcome claims on its own pages, so credibility is held at 3."
+   }
+  }
+ },
+ {
+  "name": "Alaya Naturals",
+  "website": "https://alayanaturals.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Supplement brand selling collagen, probiotics, greens and omega products through its own store, with a partner programme run on UpPromote for content creators, fitness professionals and loyal customers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partners@alayanaturals.com",
+    "source_url": "https://alayanaturals.com/pages/affiliates_join"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://alayanaturals.com/pages/affiliates_join",
+    "summary": "Alaya Naturals' official partner page states affiliates start with 10% commission on every sale ('As your referrals grow, so can your commission'), give their audience 10% off via link or code, and apply through UpPromote (af.uppromote.com links on the page). No cap, no-limit or unlimited-earnings statement appears anywhere on the fetched page, so the commission cap is honestly recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://alayanaturals.com/pages/affiliates_join",
+    "summary": "The same page publishes partners@alayanaturals.com for questions, describes creative assets, tracking links, performance dashboards and product education for partners, and says the programme is made for content creators, fitness professionals and loyal fans."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 10,
+   "application_url": "https://alayanaturals.com/pages/affiliates_join",
+   "source_url": "https://alayanaturals.com/pages/affiliates_join",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Alaya Naturals Partner Program (UpPromote)",
+   "application_url": "https://alayanaturals.com/pages/affiliates_join",
+   "source_url": "https://alayanaturals.com/pages/affiliates_join"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Collagen, probiotics and greens are staple, demo-able supplement categories for wellness and beauty-from-within creators.",
+    "ugc_evidence": "A public partner page explicitly recruiting content creators with creative assets and dashboards; no creator counts were published on fetched pages.",
+    "compensation": "10% starting commission that can grow with referrals; no cap statement is published, so the cap is unknown - never guessed.",
+    "contact_access": "Published partners@alayanaturals.com programme email on the official page.",
+    "opportunity_availability": "Apply through the page's UpPromote sign-up; brand review applies.",
+    "credibility": "Established supplement brand with a structured, network-run partner programme and published support contact."
+   }
+  }
+ },
+ {
+  "name": "MegaFood",
+  "website": "https://megafood.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Whole-food supplement brand operating for over 50 years and certified as a B Corp, selling vitamins and supplements made from real food through its own store and retail, with an affiliate programme run on Awin for creators and health professionals.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "megafoodaffiliate@wearedemonstrate.com",
+    "source_url": "https://megafood.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://megafood.com/pages/affiliate-program",
+    "summary": "MegaFood's official affiliates page invites creators, health professionals and wellness advocates to join its Affiliate Program (join links route to Awin, ui.awin.com), earning commission on every referred sale with VIP rates for top performers, a 30-day cookie window, bonus opportunities, personalised codes and a real-time dashboard. The page publishes NO commission percentage and NO cap statement, so commission_rate is recorded as null and the cap as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://megafood.com/pages/affiliate-program",
+    "summary": "The same page publishes megafoodaffiliate@wearedemonstrate.com for questions, and describes the brand as a Certified B Corp and 1% for the Planet partner, tested for 150+ pesticides and herbicides, with over 50 years in business."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://megafood.com/pages/affiliate-program",
+   "source_url": "https://megafood.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MegaFood Affiliate Program (Awin)",
+   "application_url": "https://megafood.com/pages/affiliate-program",
+   "source_url": "https://megafood.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Whole-food vitamins are a core, highly demo-able health-creator category with broad audience relevance.",
+    "ugc_evidence": "A creator-first programme page welcoming health and wellness creators, nutritionists and bloggers, with codes, assets and campaign guidance; no creator counts were published.",
+    "compensation": "Commission on every sale with VIP rates for top performers, but the percentage itself is not published on the official page, so it is recorded as null and scored conservatively.",
+    "contact_access": "Published affiliate team email (via its agency, Demonstrate) on the official page.",
+    "opportunity_availability": "Apply and get approved via Awin from the official page.",
+    "credibility": "50+ year brand, Certified B Corp and 1% for the Planet partner with published testing standards."
+   }
+  }
+ },
+ {
+  "name": "Optibac",
+  "website": "https://www.optibacprobiotics.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Probiotic brand selling award-winning live-cultures supplements through its own store, with an affiliate programme run on the Webgains network for websites, blogs and social media channels.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@optibacprobiotics.com",
+    "source_url": "https://www.optibacprobiotics.com/us/policies/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.optibacprobiotics.com/us/policies/affiliates",
+    "summary": "Optibac's official US affiliates page publishes a standard 10% commission on the total order value (excluding postage and VAT) with a 30-day cookie window, paid monthly via Webgains to bank or PayPal, and explains that affiliates join by registering on the Webgains Affiliate Network and applying to the Optibac programme. No cap or no-limit statement appears on the fetched page, so the cap is honestly recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.optibacprobiotics.com/us/policies/affiliates",
+    "summary": "The same page publishes the affiliate team email affiliates@optibacprobiotics.com and invites websites, blogs and social media channels to partner, with exclusive promotions, seasonal images and infographics and bespoke collaboration opportunities."
+   }
+  ],
+  "affiliate": {
+   "network": "Webgains",
+   "commission_rate": 10,
+   "application_url": "https://www.optibacprobiotics.com/us/policies/affiliates",
+   "source_url": "https://www.optibacprobiotics.com/us/policies/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Optibac Affiliate Programme (Webgains)",
+   "application_url": "https://www.optibacprobiotics.com/us/policies/affiliates",
+   "source_url": "https://www.optibacprobiotics.com/us/policies/affiliates"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Probiotics and gut health are proven, content-rich health niches with strong routine and education angles.",
+    "ugc_evidence": "A public programme page welcoming social media channels as well as blogs, with shareable images and infographics; no creator counts were published on fetched pages.",
+    "compensation": "10% standard commission on order value via Webgains; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Published affiliates@optibacprobiotics.com team email on the official page.",
+    "opportunity_availability": "Free to join via Webgains with brand review of the applicant's site or channel.",
+    "credibility": "Established, award-winning probiotic brand running its programme on a major network with published terms."
+   }
+  }
+ },
+ {
+  "name": "Krush Nutrition",
+  "website": "https://krushnutrition.com",
+  "country": null,
+  "category_slug": "food-drink",
+  "description": "Protein-bar brand selling fresh-made, naturally low-calorie, low-carb Krush Protein Bars through its own store, with an affiliate program paying commission on every referred sale.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://krushnutrition.com/pages/affiliate-programs",
+    "summary": "Krush Nutrition's official affiliate program page publishes a 15% commission for every sale generated, an average online sale of $30-35, monthly payments and dedicated affiliate management, with tracking, banners, text links and data feeds handled through a third-party online network (the network is not named on the page). No cap or no-limit statement appears on the fetched page, so the cap is honestly recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://krushnutrition.com/pages/affiliate-programs",
+   "source_url": "https://krushnutrition.com/pages/affiliate-programs",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Krush Nutrition Affiliate Program",
+   "application_url": "https://krushnutrition.com/pages/affiliate-programs",
+   "source_url": "https://krushnutrition.com/pages/affiliate-programs"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Protein bars are an easy, snackable fit for fitness, lunchbox and on-the-go nutrition content.",
+    "ugc_evidence": "A public affiliate page with banners and custom creative support, framed mainly around websites rather than social creators; no creator counts were published.",
+    "compensation": "15% on every sale is a solid published rate; no cap statement is published, so the cap is unknown.",
+    "contact_access": "No programme email is published on the fetched page; sign-up runs through the page's application link.",
+    "opportunity_availability": "Apply on the official page with brand review before getting started.",
+    "credibility": "Smaller, single-product brand with an older-style programme page, so credibility held at 3."
+   }
+  }
+ },
+ {
+  "name": "Healthy For Life Meals",
+  "website": "https://www.healthyforlifemeals.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Prepared-meal service delivering fresh, nutritionally controlled, customisable meal plans across IL, IA, NE and WI, with an affiliate program run on Refersion paying commission on new and recurring subscription orders.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "corp@healthyforlifemeals.com",
+    "source_url": "https://www.healthyforlifemeals.com/affiliate-program"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@healthyforlifemeals.com",
+    "source_url": "https://www.healthyforlifemeals.com/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.healthyforlifemeals.com/affiliate-program",
+    "summary": "Healthy For Life Meals' official affiliate page publishes a straight 10% commission on product revenue for every qualified sale, including first-time orders and every week a subscription stays active, with a 30-day cookie window; sign-up runs through its Refersion portal (healthyforlifemeals.refersion.com). Commission applies only in its delivery states (IL, IA, NE, WI). No cap or no-limit statement appears on the fetched page, so the cap is honestly recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.healthyforlifemeals.com/affiliate-program",
+    "summary": "The same page publishes corp@healthyforlifemeals.com for further information and info@healthyforlifemeals.com, and says affiliates can market via social media accounts, personal websites or email, with photos, links and a tracking dashboard provided."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 10,
+   "application_url": "https://www.healthyforlifemeals.com/affiliate-program",
+   "source_url": "https://www.healthyforlifemeals.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Healthy For Life Meals Affiliate Program (Refersion)",
+   "application_url": "https://www.healthyforlifemeals.com/affiliate-program",
+   "source_url": "https://www.healthyforlifemeals.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Prepared healthy meal plans fit meal-prep, weight-management and busy-routine food content, but only for audiences inside its four delivery states.",
+    "ugc_evidence": "A public affiliate page naming social media as a marketing channel, with photos and content links supplied; no creator counts were published on fetched pages.",
+    "compensation": "10% on new and recurring subscription orders via Refersion; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Two published emails (corp@ and info@) on the official affiliate page.",
+    "opportunity_availability": "Free sign-up via Refersion, but earning is limited to the IL, IA, NE and WI delivery area, so availability is scored down.",
+    "credibility": "Regional meal-delivery service with published programme terms; smaller and region-locked, so credibility held at 3."
+   }
+  }
+ },
+ {
+  "name": "Lifeboost Coffee",
+  "website": "https://lifeboostcoffee.com",
+  "country": null,
+  "category_slug": "food-drink",
+  "description": "Specialty coffee brand selling single-origin, low-acid, organic-practice beans tested for mycotoxins and pesticides, through its own store, with an affiliate program run on Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://lifeboostcoffee.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://lifeboostcoffee.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://lifeboostcoffee.com/pages/affiliate",
+    "summary": "Lifeboost Coffee's official affiliate page publishes a 5% commission per sale through the affiliate's link, with applications routed to Impact (app.impact.com 'Apply now' links on the page), and cites over 139,000 customers. No cap, no-limit or unlimited-earnings statement appears on the fetched official page - the 'no cap on earnings' wording found in search results came from a third-party review, not the brand, so the cap is honestly recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": "https://lifeboostcoffee.com/pages/affiliate",
+   "source_url": "https://lifeboostcoffee.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lifeboost Coffee Affiliate Program (Impact)",
+   "application_url": "https://lifeboostcoffee.com/pages/affiliate",
+   "source_url": "https://lifeboostcoffee.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean, low-acid coffee is a proven morning-routine and wellness-creator product with easy daily integration.",
+    "ugc_evidence": "A public affiliate page with creator testimonials and social handles featured; no creator counts were published on fetched pages.",
+    "compensation": "5% per sale via Impact is a low rate, and no cap statement is published on the official page, so the cap is unknown.",
+    "contact_access": "No programme email is published on the fetched page (phone only); application runs through Impact.",
+    "opportunity_availability": "Apply via Impact from the official page.",
+    "credibility": "Established specialty-coffee brand citing 139,000+ customers and third-party toxin testing on its own page."
+   }
+  }
+ }
+]
