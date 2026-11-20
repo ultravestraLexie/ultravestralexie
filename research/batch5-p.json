@@ -1,0 +1,658 @@
+[
+ {
+  "name": "Pawfectly Nourished",
+  "website": "https://www.pawfectlynourished.com",
+  "country": null,
+  "category_slug": "pets",
+  "description": "Pet-nutrition subscription service selling personalised meal plans for dogs and cats through its own website, built around a library of 78 recipes, with plans starting at $19 and recurring billing.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.pawfectlynourished.com/affiliates",
+    "email": null,
+    "source_url": "https://www.pawfectlynourished.com/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.pawfectlynourished.com/affiliates",
+    "summary": "Pawfectly Nourished's official affiliates page offers tiered 8-18% commission on every subscription referred, paid recurring on every renewal 'forever, not just the first month', with a 90-day cookie, no minimum traffic requirement and free joining, and states verbatim: 'Earn 8-18% commission on every subscription you refer. No cap, ever.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.pawfectlynourished.com/affiliates",
+    "summary": "The same page explicitly recruits pet influencers (Instagram, TikTok and YouTube pet creators), pet bloggers, video creators, newsletter publishers and vets/trainers, supplies banner packs, social media kits, email swipe copy and a demo video, and reviews most applications within 48 hours."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.pawfectlynourished.com/affiliates",
+    "summary": "The page's own stats describe a small, early-stage service: a library of 78 recipes, plans starting at $19 and 2 species supported. No creator counts, sponsored-post counts or network creator totals were found on any fetched page, so creator saturation could NOT be evidenced as low and is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 18,
+   "application_url": "https://www.pawfectlynourished.com/affiliates",
+   "source_url": "https://www.pawfectlynourished.com/affiliates",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pawfectly Nourished Affiliate Program (8-18% recurring, no cap)",
+   "application_url": "https://www.pawfectlynourished.com/affiliates",
+   "source_url": "https://www.pawfectlynourished.com/affiliates"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 18,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Pet nutrition subscriptions for dogs and cats are a core pet-UGC topic, and the program is built for pet creators on TikTok, Instagram and YouTube.",
+    "ugc_evidence": "A structured affiliate program explicitly recruiting pet influencers and video creators, with ready-made social media kits and demo video assets.",
+    "compensation": "Tiered 8-18% commission that recurs on every subscription renewal for the life of the customer, with an explicit 'No cap, ever' statement on the brand's own page.",
+    "contact_access": "A public application form on the official program page with a 48-hour review promise, but no published partnerships email.",
+    "opportunity_availability": "Free to join today with no minimum traffic requirement, so even very small creators can apply.",
+    "credibility": "Small, early-stage subscription service with its program terms published in full on its own site, but little independent coverage so far."
+   }
+  }
+ },
+ {
+  "name": "CyberLink",
+  "website": "https://www.cyberlink.com",
+  "country": null,
+  "category_slug": "technology",
+  "description": "Multimedia software company behind PowerDirector (video editing), PhotoDirector (photo editing), the Director Suite and PowerDVD media playback, selling software, apps and online products through its own store.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.cyberlink.com/cyberlink-affiliate-program",
+    "email": null,
+    "source_url": "https://www.cyberlink.com/cyberlink-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.cyberlink.com/cyberlink-affiliate-program",
+    "summary": "CyberLink's official affiliate page states verbatim: 'Earn UNLIMITED commissions on the sales you make', 'Make up to 30% in UNLIMITED commissions from your sales' and 'Earn up to 30% in uncapped commissions with 90-day cookie tracking even when your audience downloads the free version!' Sign-up routes through CJ Affiliate (signup.cj.com)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.cyberlink.com/cyberlink-affiliate-program",
+    "summary": "The same page invites promoters to push products 'on your website, blog, YouTube channel, or social media', provides an all-in-one marketing kit (referral links, product shots, logos) and offers featured placement on CyberLink's own social channels for partners. No creator counts were published on any fetched page, so creator saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 30,
+   "application_url": "https://www.cyberlink.com/cyberlink-affiliate-program",
+   "source_url": "https://www.cyberlink.com/cyberlink-affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "CyberLink Affiliate Program (up to 30%, uncapped, via CJ Affiliate)",
+   "application_url": "https://www.cyberlink.com/cyberlink-affiliate-program",
+   "source_url": "https://www.cyberlink.com/cyberlink-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 17,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "PowerDirector is video-editing software - the tool category creators themselves use daily - so it fits tech and creator-economy UGC unusually well.",
+    "ugc_evidence": "An official program that names YouTube channels and social media as promotion routes and supplies a full marketing kit, though it is a general affiliate program rather than a creator-only one.",
+    "compensation": "Up to 30% commission with commissions explicitly stated as unlimited/uncapped on the brand's own page, plus a long 90-day cookie.",
+    "contact_access": "A public sign-up route via CJ Affiliate from the official page, but no published partnerships email.",
+    "opportunity_availability": "Free open sign-up today through CJ Affiliate with a quick online application.",
+    "credibility": "Long-established, award-winning software publisher ('some of the world's most awarded multimedia software') with global distribution."
+   }
+  }
+ },
+ {
+  "name": "Castlery",
+  "website": "https://www.castlery.com",
+  "country": null,
+  "category_slug": "home",
+  "description": "Direct-to-consumer furniture brand selling modern sofas, tables, beds and home decor online, with a curated catalog and delivery and warranty support, operating affiliate programs in the US, Australia and Singapore.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.castlery.com/us/affiliate-program",
+    "email": null,
+    "source_url": "https://www.castlery.com/us/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.castlery.com/us/affiliate-program",
+    "summary": "Castlery's official US affiliate page says affiliates earn a competitive commission on every qualified purchase across all products with a minimum 30-day tracking window, and states verbatim: 'The more you sell, the more you make. Enjoy performance bonuses through higher commission rates with no cap.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://afftank.com/blog/home-decor-furniture-affiliate-programs",
+    "summary": "AffTank's furniture-program guide lists Castlery at a tiered 5-8% commission with a 30-day cookie via ShareASale, scaling with referred volume (InfluencerRate publishes the same tier table: 5% up to $5,000/month rising to 8% over $15,000/month)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://impact.com/case-studies/castlery-case-study-retl-csb-imp-ev-sea-0824/",
+    "summary": "impact.com's case study reports Castlery migrated its affiliate program to impact.com, recruited over 300 global partners and grew quarterly US orders 5X with a 12% AOV increase - an established, actively managed program. Partner counts are not creator-saturation counts, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact / ShareASale",
+   "commission_rate": 8,
+   "application_url": "https://www.castlery.com/us/affiliate-program",
+   "source_url": "https://www.castlery.com/us/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Castlery Affiliate Program (tiered 5-8%, no-cap performance bonuses)",
+   "application_url": "https://www.castlery.com/us/affiliate-program",
+   "source_url": "https://www.castlery.com/us/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Modern furniture and home decor with high order values is a staple home-UGC category, and the program welcomes social-media promotion.",
+    "ugc_evidence": "The official page targets media partners, content sites and networks and supports website, newsletter and social promotion, but publishes no creator-specific program layer.",
+    "compensation": "Tiered 5-8% commission (recorded at the 8% top tier) with performance bonuses through higher rates that the brand's own page says have no cap.",
+    "contact_access": "Applications run through the affiliate networks from the official page; no published partnerships email was found.",
+    "opportunity_availability": "Program is live and joinable now in the US, Australia and Singapore.",
+    "credibility": "Established digital-first furniture brand with a documented impact.com case study and hundreds of recruited partners."
+   }
+  }
+ },
+ {
+  "name": "Ultra Mobile",
+  "website": "https://www.ultramobile.com",
+  "country": null,
+  "category_slug": "technology",
+  "description": "Prepaid wireless carrier selling mobile plans starting at $14/month through its own website, promoted to affiliates through the Impact network.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.ultramobile.com/affiliate-program/",
+    "email": null,
+    "source_url": "https://www.ultramobile.com/affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.ultramobile.com/affiliate-program/",
+    "summary": "Ultra Mobile's official affiliate page pays a flat $10 commission for every new customer referred who purchases a plan (up to $10 on all orders), with a 45-day cookie window, free participation, and sign-up via the Impact network. Its FAQ answers 'Is there a limit on the total commission I can receive?' verbatim: 'No limits! Your ability to earn is based on how much traffic you can generate and the level of engagement and trust you have with your audience.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.ultramobile.com/affiliate-program/",
+    "summary": "The same page says mobile and tech content sites, money-saving blogs and YouTubers have all done well in the program. No creator counts were published on any fetched page, so creator saturation is recorded as unknown. NOTE: the commission is a flat $10 per new customer, NOT a percentage - the commission_rate field records the flat 10 (dollars) and must not be read as 10%."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://www.ultramobile.com/affiliate-program/",
+   "source_url": "https://www.ultramobile.com/affiliate-program/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ultra Mobile Affiliate Program (flat $10 per new customer, no limits, via Impact)",
+   "application_url": "https://www.ultramobile.com/affiliate-program/",
+   "source_url": "https://www.ultramobile.com/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Prepaid mobile plans are a tech-adjacent, budget-focused offer that fits tech and money-saving creator content rather than gadget UGC directly.",
+    "ugc_evidence": "The program names YouTubers and tech content sites as successful partner types, but it is a general affiliate program with no creator-specific layer.",
+    "compensation": "A flat $10 per new customer (not a percentage) with an explicit 'No limits!' answer to the earnings-limit question on the brand's own FAQ, and a 45-day cookie.",
+    "contact_access": "Joining runs through the Impact network from the official page; no published partnerships email was found.",
+    "opportunity_availability": "Free to join today via Impact.",
+    "credibility": "Established national prepaid carrier with a published program page and network-managed tracking."
+   }
+  }
+ },
+ {
+  "name": "meowbox",
+  "website": "https://meowbox.com",
+  "country": null,
+  "category_slug": "pets",
+  "description": "Subscription box service for cats, running an in-house-managed affiliate program on Awin with monthly payouts, bonus options and custom placements for partners.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "tanya@meowbox.com",
+    "source_url": "https://ui.awin.com/merchant-profile/52567"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/52567",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/52567"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/52567",
+    "summary": "meowbox's official Awin program profile lists 8% sale commissions, monthly payouts, options for bonus payouts, vanities for custom placements, a 30-day cookie and in-house affiliate management. No cap statement appears anywhere on the fetched profile, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/52567",
+    "summary": "The same Awin profile publishes tanya@meowbox.com as the contact for affiliate questions and invites partners to ask for a personalised arrangement. No creator counts were published on any fetched page, so creator saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 8,
+   "application_url": "https://ui.awin.com/merchant-profile/52567",
+   "source_url": "https://ui.awin.com/merchant-profile/52567",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "meowbox Affiliate Program (8% via Awin, in-house management)",
+   "application_url": "https://ui.awin.com/merchant-profile/52567",
+   "source_url": "https://ui.awin.com/merchant-profile/52567"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A cat-only subscription box is squarely in the pet-UGC niche, with unboxing-friendly products for cat creators.",
+    "ugc_evidence": "An in-house-managed program offering custom placements and bonus payouts to individual partners, though no creator-specific recruitment page was found.",
+    "compensation": "A published 8% sale commission with bonus payout options; no cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "A named affiliate contact email (tanya@meowbox.com) published on the official Awin profile plus a direct application route - near top band per the rubric.",
+    "opportunity_availability": "Applications are open now through Awin.",
+    "credibility": "Long-running cat subscription brand with an established network program, but limited independent coverage in fetched sources."
+   }
+  }
+ },
+ {
+  "name": "ChefPaw",
+  "website": "https://www.chefpaw.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Pet-tech brand behind the ChefPaw Dog Food Maker, an appliance that makes fresh homemade dog food, plus nutritional supplements designed to balance homemade meals; the product is patent-pending (US provisional #63/482,925; PCT/US2024/014261).",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "info@chefpaw.com",
+    "source_url": "https://www.chefpaw.com/pages/chefpaw-affiliates"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.chefpaw.com/pages/chefpaw-affiliates",
+    "email": null,
+    "source_url": "https://www.chefpaw.com/pages/chefpaw-affiliates"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/officialchefpaw"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@thechefpaw"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/officialchefpaw"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.chefpaw.com/pages/chefpaw-affiliates",
+    "summary": "ChefPaw's official affiliate page offers 8% commission per ChefPaw unit (excluding pre-owned/refurbished units) and 8% on supplements, with a 30-day cookie, a library of pre-made creative assets and dedicated affiliate support including 'private commission opportunities for top performers'. No cap statement appears on the page, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.chefpaw.com/pages/chefpaw-affiliates",
+    "summary": "The same page publishes info@chefpaw.com and a US phone number as contact routes and links the brand's official Instagram, TikTok and Facebook accounts. No creator counts were published on any fetched page, so creator saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 8,
+   "application_url": "https://www.chefpaw.com/pages/chefpaw-affiliates",
+   "source_url": "https://www.chefpaw.com/pages/chefpaw-affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ChefPaw Affiliate Program (8% on units and supplements)",
+   "application_url": "https://www.chefpaw.com/pages/chefpaw-affiliates",
+   "source_url": "https://www.chefpaw.com/pages/chefpaw-affiliates"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A first-of-its-kind fresh dog food maker appliance is highly demonstrable pet-tech content for dog creators.",
+    "ugc_evidence": "A dedicated affiliate page courting pet and innovation creators, with creative assets, dedicated support and private commission deals for top performers.",
+    "compensation": "A published 8% on both the appliance and supplements with a 30-day cookie; no cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "A published contact email (info@chefpaw.com) on the official program page plus a direct join route - near top band per the rubric.",
+    "opportunity_availability": "The program is live and recruiting now on the brand's own site.",
+    "credibility": "New patent-pending product with PCT filing published on its own page, but a short trading track record."
+   }
+  }
+ },
+ {
+  "name": "Parachute",
+  "website": "https://www.parachutehome.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "American home retailer that began with premium bedding and expanded across the home - bedding, bath towels, rugs, dinnerware, bed frames and furniture - sold through its own store.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.parachutehome.com/affiliate-network",
+    "email": null,
+    "source_url": "https://www.parachutehome.com/affiliate-network"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/home-living",
+    "summary": "LinkApprove's home & living directory lists the Parachute affiliate program at 8% per sale with a 30-day cookie window and an $185 average order, available to creators and publishers in the US and Canada. No cap statement is published in any fetched source, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkwhisper.com/home-decor-affiliate-programs/",
+    "summary": "LinkWhisper's home decor program roundup lists Parachute at up to 10% commission via its official affiliate page (parachutehome.com/affiliate-network) - listings range 5-10% across sources, so the rate is recorded at the directory figure of 8% with the conflict flagged here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.skimlinks.com/insights/home-decor-affiliate-programs/",
+    "summary": "Skimlinks describes Parachute as an American retailer that started with premium bedding and expanded into home accents and furniture (rugs, dinnerware, bed frames), with an affiliate program in the US, Australia, Mexico and Canada. No creator counts were published, so creator saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 8,
+   "application_url": "https://www.parachutehome.com/affiliate-network",
+   "source_url": "https://linkapprove.com/affiliate-programs/category/home-living",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Parachute Affiliate Program (8% per sale, 30-day cookie)",
+   "application_url": "https://www.parachutehome.com/affiliate-network",
+   "source_url": "https://linkapprove.com/affiliate-programs/category/home-living"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium bedding, bath and home goods are a core home-UGC category with strong room-content potential.",
+    "ugc_evidence": "A listed program open to creators and publishers across four countries, though no creator-specific recruitment evidence was found on fetched pages.",
+    "compensation": "Directory-listed 8% per sale (other listings range 5-10%) on a high $185 average order; no cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "A dedicated official affiliate page exists, but no published partnerships email was verified - mid-range per the rubric.",
+    "opportunity_availability": "Program is live and joinable now in the US, Canada, Australia and Mexico.",
+    "credibility": "Established premium American home brand with wide retail recognition."
+   }
+  }
+ },
+ {
+  "name": "Bellroy",
+  "website": "https://bellroy.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Premium carry-goods brand crafting wallets, bags, phone cases and travel organisers across 173+ products, sold through its own store; a B Corp recertified five times, with an average order value of $180.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://bellroy.com/affiliate-program",
+    "email": null,
+    "source_url": "https://bellroy.com/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://bellroy.com/affiliate-program",
+    "summary": "Bellroy's official affiliate page states a 7% commission rate on sales from bellroy.com, joining via Rakuten (also available on Skimlinks), an average order value of $180 and a ~6% product return rate. No cap statement appears on the page, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://bellroy.com/affiliate-program",
+    "summary": "The same page says Bellroy is 'actively seeking creative, lifestyle, fashion and design-savvy partners' with opportunities to collaborate beyond links. No creator counts were published, so creator saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 7,
+   "application_url": "https://bellroy.com/affiliate-program",
+   "source_url": "https://bellroy.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bellroy Affiliate Program (7% via Rakuten, also on Skimlinks)",
+   "application_url": "https://bellroy.com/affiliate-program",
+   "source_url": "https://bellroy.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Wallets, bags and travel organisers are core everyday-carry and travel UGC products, with a high $180 average order.",
+    "ugc_evidence": "The brand actively recruits creative and design-savvy partners on its own page and offers collaboration opportunities, though the program runs through a general affiliate network.",
+    "compensation": "A published 7% commission on the brand's own page; no cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "Joining runs through Rakuten from the official page; no published partnerships email was found.",
+    "opportunity_availability": "Open to join now via Rakuten or Skimlinks.",
+    "credibility": "Established premium carry brand, B Corp recertified five times, with 3.3M monthly site visitors per its own page."
+   }
+  }
+ },
+ {
+  "name": "Western Rise",
+  "website": "https://westernrise.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "U.S. apparel brand founded in 2015 in Telluride, Colorado by Will and Kelly Watters, making performance clothing for the one-bag traveler - travel pants, shorts, merino shirts, polos and layering pieces designed to let travelers carry less.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/65860",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/65860"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/western-rise/",
+    "summary": "LinkClicky lists the Western Rise affiliate program at 9-15% per sale via ShareASale with a 30-day cookie. The rate is recorded at the 15% top of the published range. No cap statement is published in any fetched source, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/65860",
+    "summary": "Western Rise's Awin program profile describes it as 'an innovative apparel brand for the modern, one-bag traveler' targeting travelers and urban professionals, with a 30-day attribution period. No creator counts were published, so creator saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale / Awin",
+   "commission_rate": 15,
+   "application_url": "https://ui.awin.com/merchant-profile/65860",
+   "source_url": "https://linkclicky.com/affiliate-program/western-rise/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Western Rise Affiliate Program (9-15% per sale, 30-day cookie)",
+   "application_url": "https://ui.awin.com/merchant-profile/65860",
+   "source_url": "https://ui.awin.com/merchant-profile/65860"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Purpose-built one-bag travel apparel is a precise fit for travel creators who pack light.",
+    "ugc_evidence": "A live network program aimed at travelers and urban professionals, though no creator-specific recruitment evidence was found on fetched pages.",
+    "compensation": "Published 9-15% per sale (recorded at 15%) with a 30-day cookie; no cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "Applications run through Awin/ShareASale; no published partnerships email was found.",
+    "opportunity_availability": "Program is live on two networks, subject to network approval.",
+    "credibility": "Operating since 2015 with a defined travel-apparel niche and multi-network program presence."
+   }
+  }
+ },
+ {
+  "name": "Cotopaxi",
+  "website": "https://www.cotopaxi.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Outdoor gear and apparel brand selling colorful backpacks, jackets and travel gear made substantially from remnant and recycled fabrics, giving a portion of profits to poverty alleviation, with a lifetime warranty on all products.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.cotopaxi.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://www.cotopaxi.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.cotopaxi.com/pages/affiliates",
+    "summary": "Cotopaxi's official affiliate page (run with Partnerize) offers 'Dynamic commission up to 14% on product sales', a 30-day cookie window, increased commissions or bonuses for special sales incentives, custom promotions on request and a responsive affiliate manager. No cap statement appears on the page, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.cotopaxi.com/pages/affiliates",
+    "summary": "The same page notes Cotopaxi selectively partners with affiliate websites after a screening process, and the brand separately publishes TikTok Shop Affiliate & Creator Terms - evidence of an active creator channel alongside the network program. No creator counts were published, so creator saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": 14,
+   "application_url": "https://www.cotopaxi.com/pages/affiliates",
+   "source_url": "https://www.cotopaxi.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Cotopaxi Affiliate Program (dynamic commission up to 14% via Partnerize)",
+   "application_url": "https://www.cotopaxi.com/pages/affiliates",
+   "source_url": "https://www.cotopaxi.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Colorful outdoor and travel gear with a social mission is highly filmable travel/outdoor UGC with a clear story angle.",
+    "ugc_evidence": "A managed Partnerize program plus separately published TikTok Shop creator terms show both affiliate and creator routes.",
+    "compensation": "Dynamic commission up to 14% (recorded at 14) with bonus incentives for special sales; no cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "A dedicated program page with a named responsive manager function and custom partnership requests, but no published email.",
+    "opportunity_availability": "Joining is free, but Cotopaxi screens applicants for brand fit, so approval is selective.",
+    "credibility": "Certified B Corp outdoor brand with a lifetime warranty and long-standing poverty-alleviation giving."
+   }
+  }
+ }
+]

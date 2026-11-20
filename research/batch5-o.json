@@ -1,0 +1,658 @@
+[
+ {
+  "name": "CREGEN",
+  "website": "https://cregenusa.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US creatine supplement brand (the US arm of JeuDerm / NuDerma Group) selling creatine sachets in 30, 90 and 180-count packs, positioned around its CGG Amino-Bridge formula for performance, recovery and cognitive wellness audiences, sold direct through its own store with a wholesale program for gyms and clinics alongside the consumer affiliate program.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://cregenusa.com/affiliates.html",
+    "email": null,
+    "source_url": "https://cregenusa.com/affiliates.html"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://cregenusa.com/affiliates.html",
+    "summary": "CREGEN's official Partner Program page (search-indexed text of the brand's own affiliates page; a direct fetch was blocked by the site's firewall) publishes two tiers: Starter pays 15% on the 30-sachet box (12% on the 90 pack, 10% on the 180 pack) and Pro pays 20% / 17% / 15%, and the Starter tier lists verbatim: 'Commission on subscription renewals, no cap' — an explicit no-cap statement on the brand's own program page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://cregenusa.com/affiliates.html",
+    "summary": "The same page says anyone with an engaged community aligned with performance, wellness, fitness or cognitive health can apply, applications are reviewed personally with most approved within 48 hours, there is no minimum sales requirement, and payouts are monthly by PayPal or ACH at a $50 minimum — a brand-new, small program structure."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://cregenusa.com/wholesale.html",
+    "summary": "CREGEN's official wholesale page prices the 30-count box at a $64.99 MSRP and offers gyms, fitness studios and clinics 40-48% wholesale discounts with dedicated account managers, showing an early-stage brand actively building every partner channel at once."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 15,
+   "application_url": "https://cregenusa.com/affiliates.html",
+   "source_url": "https://cregenusa.com/affiliates.html",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "CREGEN Partner Program (Starter 15% / Pro 20%)",
+   "application_url": "https://cregenusa.com/affiliates.html",
+   "source_url": "https://cregenusa.com/affiliates.html"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 17,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Creatine is one of the most content-friendly supplement categories on TikTok and YouTube, and CREGEN targets performance, recovery and cognitive-health communities directly.",
+    "ugc_evidence": "A structured two-tier partner program with a personal code, monthly payouts and personal application review, explicitly recruiting community-led creators — but the program is new, so independent creator coverage is still thin.",
+    "compensation": "Published 15% Starter rising to 20% Pro on the hero product, commission on subscription renewals, and an explicit 'no cap' statement on the brand's own page — the strongest compensation evidence in this group.",
+    "contact_access": "A full application form on the official program page with a 48-hour personal review promise, but no published partnerships email.",
+    "opportunity_availability": "Free to join today, no minimum sales, any approved partner can start at the Starter tier immediately.",
+    "credibility": "New US brand backed by the JeuDerm / NuDerma group with a priced wholesale program, but a short consumer track record so far."
+   }
+  }
+ },
+ {
+  "name": "MUD WTR",
+  "website": "https://mudwtr.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Los Angeles coffee-alternative brand selling mushroom, herb and spice blends (:rise, :balance and :rest) with no-to-low caffeine, built around morning and evening rituals, sold through its own store with separate affiliate (publisher) and ambassador (creator) programs plus a certified-expert affiliate tier.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://mudwtr.com/pages/affiliates-and-ambassadors",
+    "email": null,
+    "source_url": "https://mudwtr.com/pages/affiliates-and-ambassadors"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "handle": "drinkmudwtr",
+    "url": "https://www.instagram.com/drinkmudwtr"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://mudwtr.com/pages/ambassador",
+    "summary": "MUD WTR's official ambassador page offers creators a $35 commission per new customer, a community discount, 25% off products, a free starter kit and bonuses at the first 5 and 10 sales plus $500 per 50 sales, and says it works with partners 'all around the world' — wellness enthusiasts, practitioners, coaches, health influencers, content creators and affiliates."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://mudwtr.com/pages/affiliates-and-ambassadors",
+    "summary": "The brand's official Affiliates and Ambassadors hub splits the routes: an Affiliate Program for bloggers, publishers and media pros, and an Ambassador Program for social media influencers and content creators, both earning commission on every sale via a unique referral link. No cap statement appears anywhere on the fetched pages, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/mudwtr/",
+    "summary": "Lasso's listing for the MUD WTR affiliate program (run on Impact) records a 10% per-sale commission with a 7-day cookie and a $50 payout threshold."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact / Superfiliate",
+   "commission_rate": 10,
+   "application_url": "https://mudwtr.com/pages/affiliates-and-ambassadors",
+   "source_url": "https://mudwtr.com/pages/affiliates-and-ambassadors",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MUD WTR Ambassador Program ($35 per new customer)",
+   "application_url": "https://mudwtrambassadors.superfiliate.com",
+   "source_url": "https://mudwtr.com/pages/ambassador"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Mushroom coffee alternatives and morning-ritual content are a core wellness UGC niche, and the brand recruits wellness creators by name.",
+    "ugc_evidence": "Two distinct creator routes (publisher affiliate and social ambassador) with starter kits, bonuses and a partner community — mature, documented creator infrastructure.",
+    "compensation": "10% per sale on the Impact affiliate program, and a flat $35 per new customer plus milestone bonuses on the ambassador route — solid, though no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Dedicated program pages with direct application links for both routes, but no published partnerships email.",
+    "opportunity_availability": "Both programs are open to apply today, worldwide, across creator types from practitioners to artists.",
+    "credibility": "Established, widely distributed coffee-alternative brand with years of national press and retail presence."
+   }
+  }
+ },
+ {
+  "name": "HigherDOSE",
+  "website": "https://higherdose.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Wellness technology brand founded in 2016 selling infrared sauna blankets, PEMF mats, red light face masks and hats and other at-home spa devices, positioned at the intersection of wellness, health and beauty, with products placed in luxury hotel and fitness-club spa programs.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@higherdose.com",
+    "source_url": "https://higherdose.com/en-pl/pages/affiliates"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://higherdose.com/en-pl/pages/affiliates",
+    "email": null,
+    "source_url": "https://higherdose.com/en-pl/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://higherdose.com/en-pl/pages/affiliates",
+    "summary": "HigherDOSE's official affiliate page states: 'Every time someone clicks on your link and makes a purchase you'll earn up to 15% commission!', hosts the program on Awin, and tells approved affiliates to email affiliates@higherdose.com for a custom promo code. No cap statement is published, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/86123?setLocale=da_DK",
+    "summary": "The Awin merchant profile shows a 2% default commission rate with up to 15% for influencer partners, a 30-day cookie, exclusive offers for influencer partners and product samples for select partners — so the headline 15% is a top tier, not the default."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://higherdose.com/en-pl/pages/affiliates",
+    "summary": "The same official page describes HigherDOSE as founded in 2016 with a cult following of celebrities, influencers and health professionals, and permanent spa programming at luxury hotels and fitness clubs."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 15,
+   "application_url": "https://higherdose.com/en-pl/pages/affiliates",
+   "source_url": "https://higherdose.com/en-pl/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "HigherDOSE Affiliate Program (Awin, up to 15%)",
+   "application_url": "https://higherdose.com/en-pl/pages/affiliates",
+   "source_url": "https://higherdose.com/en-pl/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 13,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "High-ticket recovery and beauty-tech devices are strong UGC review content, though the niche is devices rather than consumables.",
+    "ugc_evidence": "A formal Awin program with influencer-partner offers and product samples for select partners, also listed on RewardStyle and ShopMy per the brand's own page.",
+    "compensation": "Up to 15% on high order values ($600+ devices), but the Awin default rate is only 2% — the 15% is an influencer tier, and no cap statement is published.",
+    "contact_access": "A published affiliate email (affiliates@higherdose.com) on the official page plus a direct Awin join route — top band per the rubric.",
+    "opportunity_availability": "Open application on Awin today, with RewardStyle and ShopMy as alternate creator routes.",
+    "credibility": "Founded 2016, with luxury hotel and fitness-club spa placements and a long influencer track record."
+   }
+  }
+ },
+ {
+  "name": "Four Sigmatic",
+  "website": "https://us.foursigmatic.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Finnish-founded (2012) mushroom wellness brand selling mushroom coffee, plant-based protein, elixirs and adaptogen blends through its US store and national retail, built around functional mushrooms and mental wellness rituals.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.foursigmatic.com/pages/become-an-affiliate",
+    "email": null,
+    "source_url": "https://us.foursigmatic.com/pages/become-an-affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.foursigmatic.com/pages/become-an-affiliate",
+    "summary": "Four Sigmatic's official Become An Affiliate page states verbatim: 'Receive 10%+ commission on all sales you drive through your platform(s)', with education resources and first access to sample new products. No cap statement is published on the page, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.bravodm.com/brands/foursigmatic",
+    "summary": "BravoDM's program check (October 2026) describes a TikTok Shop affiliate and creator route for Four Sigmatic mushroom coffee with no follower minimum stated, applied for on the brand's own program page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/195550/four-sigmatic-affiliate-program",
+    "summary": "Sovrn's merchant description identifies Four Sigmatic as a Finnish-founded wellness brand established in 2012 by Tero Isokauppila and friends — a long-running category pioneer."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 10,
+   "application_url": "https://us.foursigmatic.com/pages/become-an-affiliate",
+   "source_url": "https://us.foursigmatic.com/pages/become-an-affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Four Sigmatic Affiliate Program (10%+ commission)",
+   "application_url": "https://us.foursigmatic.com/pages/become-an-affiliate",
+   "source_url": "https://us.foursigmatic.com/pages/become-an-affiliate"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Mushroom coffee and adaptogen rituals are a proven wellness UGC category, and the brand pitches the program directly at community creators.",
+    "ugc_evidence": "An official affiliate program with sampling and education perks plus a TikTok Shop creator route with no follower minimum stated.",
+    "compensation": "A published 10%+ commission on all sales on the brand's own page; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "A dedicated official program page with a join route, but no published partnerships email.",
+    "opportunity_availability": "Applications open today on the brand's own page and via TikTok Shop.",
+    "credibility": "Category pioneer founded in 2012 with national retail distribution and a decade-plus track record."
+   }
+  }
+ },
+ {
+  "name": "Complement",
+  "website": "https://lovecomplement.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Plant-based nutrition brand making science-based supplements designed to fill only the nutrient gaps of a vegan diet (B12, D3, omega-3 and similar), plus whole-food plant-based snacks and protein, third-party testing everything and advised by clinicians and the No Meat Athlete community.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "mckenna@lovecomplement.com",
+    "source_url": "https://lovecomplement.com/pages/complement-affiliates"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://lovecomplement.com/pages/complement-affiliates",
+    "email": null,
+    "source_url": "https://lovecomplement.com/pages/complement-affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://lovecomplement.com/pages/complement-affiliates",
+    "summary": "Complement's official affiliate page publishes its full terms: 20% commission on a customer's first purchase, 5% on future purchases or renewals within 120 days (up to 4 renewals), a 14-day cookie, and a $500 minimum payout threshold. No cap statement is published, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://lovecomplement.com/pages/complement-affiliates",
+    "summary": "The same page publishes a named program contact — 'please reach out to mckenna@lovecomplement.com' — and a sign-up form on the page, with manual approval reserved by the brand."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://lovecomplement.com/pages/complement-affiliates",
+    "summary": "The page reports over 165,000 products shipped to 77,375+ customers and a fully vegan team with advisors including Dr. Joel Kahn — an established niche brand, though no creator counts are published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 20,
+   "application_url": "https://lovecomplement.com/pages/complement-affiliates",
+   "source_url": "https://lovecomplement.com/pages/complement-affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Complement Affiliate Program (20% first purchase)",
+   "application_url": "https://lovecomplement.com/pages/complement-affiliates",
+   "source_url": "https://lovecomplement.com/pages/complement-affiliates"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 15,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Plant-based nutrition is a defined, loyal UGC niche; the program explicitly welcomes TikTok, Instagram and YouTube promotion.",
+    "ugc_evidence": "A documented in-house affiliate program with dashboard tracking and discount-code attribution, run hands-on by a named manager — real but small-scale creator infrastructure.",
+    "compensation": "20% on first purchases is a strong published rate, tempered by 5% renewals and a high $500 payout threshold; no cap statement is published.",
+    "contact_access": "A named program manager's email published on the official page plus an on-page sign-up form — near top band per the rubric.",
+    "opportunity_availability": "Sign-up form is open now, subject to the brand's manual approval.",
+    "credibility": "77,000+ customers served, third-party testing on everything and named clinical advisors."
+   }
+  }
+ },
+ {
+  "name": "Beekeeper's Naturals",
+  "website": "https://beekeepersnaturals.com",
+  "country": null,
+  "category_slug": "wellness",
+  "description": "Bee-powered wellness brand selling propolis throat sprays, royal jelly brain and immune supplements, bee pollen and honey-based remedies under a 'Powered by Nature, Proven by Science' positioning, through its own store and major retail, with a long-running affiliate program it calls 'Bee-ffiliate'.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/beekeepers-naturals/",
+    "summary": "Lasso's listing for the Beekeeper's Naturals affiliate program records up to 15% commission with approval requirements listed as none. No cap statement appears in any fetched source, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://freeaffiliatemarketingcourse.com/blog/best-beekeeping-affiliate-programs/",
+    "summary": "This program roundup records the Beekeeper's Naturals program on ShareASale (Merchant ID 92012) at a 15% standard CPA, a 30-day cookie, a $55 average order value and a dedicated affiliate support team, with tiered rates rising to 20% at higher monthly sales volumes in its commission table."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://podscripts.co/podcasts/marketing-happy-hour/intro-to-tiktok-shop-more-paid-media-strategies-ellie-bresler-of-beekeepers-naturals",
+    "summary": "A Beekeeper's Naturals growth-team member describes an influencer team running a TikTok Shop affiliate creator program with 'exponential growth' — evidence of an active, scaling creator channel, so low saturation could NOT be evidenced and saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/beekeepers-naturals/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Beekeeper's Naturals 'Bee-ffiliate' Program (ShareASale, 15%)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/beekeepers-naturals/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Natural immune, brain and gut remedies are a staple wellness UGC category with strong seasonal content hooks.",
+    "ugc_evidence": "A named affiliate program on ShareASale plus a TikTok Shop creator program run by a dedicated influencer team.",
+    "compensation": "15% standard commission on ShareASale with tiers reported up to 20% — competitive; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Joinable through the ShareASale network listing, but no published partnerships email was verified on a fetched page.",
+    "opportunity_availability": "Open on ShareASale with no approval requirements listed, plus the TikTok Shop creator route.",
+    "credibility": "Established wellness brand with national retail presence and a dedicated growth and influencer team."
+   }
+  }
+ },
+ {
+  "name": "Pique",
+  "website": "https://www.piquelife.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Tea and superplant supplement brand selling tea crystals and functional drink mixes for skin, immune support, digestion, calm energy and fasting, positioned at the intersection of plants and science with rigorous purity testing, sold through its own store.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.piquelife.com/pages/new-affiliate",
+    "email": null,
+    "source_url": "https://www.piquelife.com/pages/new-affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.piquelife.com/pages/new-affiliate",
+    "summary": "Pique's official partner page describes the Pique Partner Program as 'an exclusive community of holistic wellness individuals' comprising nutritionists, healers, doctors and beauty & wellness leaders, with applications via Superfiliate and member login via Refersion. The fetched page publishes no commission rate and no cap statement, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://thrivershub.com/tea-affiliate-programs",
+    "summary": "ThriversHub's tea program roundup records the in-house Pique Partner program at 10% per sale, rising to 15% with performance, plus cash bonus opportunities during the year."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://compareepc.com/coffee-affiliate-programs/",
+    "summary": "CompareEPC's network data lists Pique Life Affiliates on Impact at 10% commission, corroborating the 10% base rate from a second source."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion / Superfiliate",
+   "commission_rate": 10,
+   "application_url": "https://www.piquelife.com/pages/new-affiliate",
+   "source_url": "https://www.piquelife.com/pages/new-affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pique Partner Program (10%, performance to 15%)",
+   "application_url": "https://www.piquelife.com/pages/new-affiliate",
+   "source_url": "https://www.piquelife.com/pages/new-affiliate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Functional teas for skin, gut and calm energy sit squarely in the wellness and beauty-from-within UGC niche.",
+    "ugc_evidence": "A named partner community with member testimonials on the official page, run through Superfiliate/Refersion — a curated practitioner-creator program rather than a mass affiliate scheme.",
+    "compensation": "10% base rising to 15% on performance per program listings (the brand's own page does not publish the rate); no cap statement is published, so the cap stays unknown.",
+    "contact_access": "A dedicated official partner page with a direct application link, but no published partnerships email.",
+    "opportunity_availability": "Applications are open, but the program is positioned as an exclusive, curated community of wellness practitioners and leaders.",
+    "credibility": "Established premium tea brand with strong testing and purity positioning and years of partner testimonials."
+   }
+  }
+ },
+ {
+  "name": "Bon Charge",
+  "website": "https://boncharge.com",
+  "country": "Australia",
+  "category_slug": "health",
+  "description": "Australian premium wellness technology brand selling red light therapy devices, infrared sauna blankets, PEMF mats and EMF-shielding products, positioned as science-backed tools to optimize sleep, wellbeing and recovery, sold globally through its own store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.Refersion.com/blog/top-red-light-therapy-affiliate-programs/",
+    "summary": "Refersion's own red-light-therapy program roundup lists Bon Charge at a 15% offer with a $300 average order value and a 45-day cookie. No cap statement appears in any fetched source, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://app.impact.com/advertiser-campaign-info/BON-CHARGE.brand?lang=en&c=___9XpvYq1Sf08WbyalSQAkGPzvveu5RBhu",
+    "summary": "Bon Charge's Impact campaign page lists a 10% payout on online sales with a 30-day referral period — a lower rate than the 15% recorded by Refersion/Skimlinks, so the rate varies by network and is flagged here rather than hidden."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://newshub.medianet.com.au/2026/11/bon-charge-launches-month-long-black-friday-sale-with-nearly-600-in-savings-on-red-light-recovery-and-wellness-tech/181172/",
+    "summary": "The brand's November 2026 Black Friday release describes Bon Charge as a premium wellness technology company with over 100 products and an affiliate program available through Skimlinks offering 15% commission."
+   }
+  ],
+  "affiliate": {
+   "network": "Skimlinks / Impact",
+   "commission_rate": 15,
+   "application_url": "https://app.impact.com/advertiser-campaign-info/BON-CHARGE.brand?lang=en&c=___9XpvYq1Sf08WbyalSQAkGPzvveu5RBhu",
+   "source_url": "https://www.Refersion.com/blog/top-red-light-therapy-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bon Charge Affiliate Program (15% Skimlinks / 10% Impact)",
+   "application_url": "https://app.impact.com/advertiser-campaign-info/BON-CHARGE.brand?lang=en&c=___9XpvYq1Sf08WbyalSQAkGPzvveu5RBhu",
+   "source_url": "https://www.Refersion.com/blog/top-red-light-therapy-affiliate-programs/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Red light and recovery tech is a fast-growing wellness UGC niche, though it is device-led rather than food or supplements.",
+    "ugc_evidence": "Affiliate programs live on multiple networks (Skimlinks, Impact) with high average order values that suit creator review content.",
+    "compensation": "15% via Skimlinks per Refersion's roundup and the brand's own release, 10% via Impact — a real network split, flagged in the evidence; no cap statement is published.",
+    "contact_access": "Joinable through network campaign pages, but no published partnerships email was verified on a fetched page.",
+    "opportunity_availability": "Open on Skimlinks and Impact today.",
+    "credibility": "Established global wellness-tech brand with 100+ products and national media distribution of its releases."
+   }
+  }
+ },
+ {
+  "name": "Ghia",
+  "website": "https://drinkghia.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Non-alcoholic aperitif brand inspired by Mediterranean aperitivo culture, selling all-natural alcohol-free aperitifs and spritzes for sophisticated sipping without alcohol, through its own store and a creator-led partnership strategy.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/ghia/",
+    "summary": "LinkClicky's program listing records Ghia's affiliate program on ShareASale at 10% per sale with a 30-day cookie, for the brand's site drinkghia.com. No cap statement appears in any fetched source, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://avenuez.com/blog/ghia-is-building-growth-through-cultural-relevance-not-just-category-momentum/",
+    "summary": "Avenue Z's case study and Modern Retail's July 2025 reporting describe Ghia's growth as deliberately creator-led — long-term partnerships with highly engaged social accounts rather than standard influencer placements, with one creator launch becoming a top-performing post of the year. No creator counts are published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/ghia/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ghia Affiliate Program (ShareASale, 10%)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/ghia/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Design-led non-alcoholic aperitifs are a strong fit for sober-curious, entertaining and ritual content creators.",
+    "ugc_evidence": "A documented creator-led partnership strategy with long-term social collaborators, plus a ShareASale affiliate program.",
+    "compensation": "10% per sale on ShareASale per the program listing; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Joinable via the ShareASale listing, but no published partnerships email or own-site program page was verified.",
+    "opportunity_availability": "Affiliate program listed as open on ShareASale; creator partnerships appear curated and outreach-led.",
+    "credibility": "Category-defining NA brand with sustained national press since launch."
+   }
+  }
+ },
+ {
+  "name": "Pendulum",
+  "website": "https://pendulumlife.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Clinical probiotics company (Pendulum Therapeutics) selling science-backed live-culture supplements — including its Akkermansia and glucose-control formulations — for gut health and metabolic wellness, through its own store and practitioner channels.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/pendulum-therapeutics/",
+    "summary": "Lasso's listing for the Pendulum Therapeutics affiliate program records an 8%-20% per-sale commission range with a 30-day cookie. No cap statement appears in any fetched source, so the cap is recorded as unknown, and no creator counts are published, so saturation is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/pendulum-therapeutics/",
+    "summary": "The same listing describes Pendulum as known for innovative, science-backed probiotics that support gut health and overall wellness — a clinically positioned brand rather than a lifestyle label."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 8,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/pendulum-therapeutics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pendulum Therapeutics Affiliate Program (8-20%)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/pendulum-therapeutics/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Gut-health and metabolic probiotics are a major health UGC topic, though Pendulum's clinical positioning suits educator-style creators best.",
+    "ugc_evidence": "A listed affiliate program aimed at bloggers and marketers in the supplements niche; creator-specific program detail is thinner than the other brands in this group.",
+    "compensation": "A published 8%-20% per-sale range — recorded at the 8% starting rate with the full range in the evidence; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Joinable through the program listing, but no published partnerships email or own-site program page was verified.",
+    "opportunity_availability": "Program listed as open; exact approval requirements are not published on a fetched page.",
+    "credibility": "Clinically positioned probiotics company known for its Akkermansia strain work and published research orientation."
+   }
+  }
+ }
+]
