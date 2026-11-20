@@ -1,0 +1,521 @@
+[
+ {
+  "name": "Simply Sensitivity Checks",
+  "website": "https://www.simplysensitivitychecks.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "At-home wellness testing brand selling hair-based sensitivity checks with practical diet and lifestyle guides, positioned explicitly as complementary wellness products rather than medical tests.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partners@simplysensitivity.com",
+    "source_url": "https://www.simplysensitivitychecks.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.simplysensitivitychecks.com/pages/affiliates",
+    "summary": "Simply Sensitivity Checks' official affiliate page publishes a 15% commission on every qualifying sale and states twice, verbatim: 'with no cap on what you can earn' and in its FAQ 'There's no cap, so the more people you introduce to us, the more you can earn.' The program runs through Impact, tracks for 30 days, pays monthly once the balance reaches $10, and gives followers 10% off their first order. The cap is verified uncapped on the brand's own page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.simplysensitivitychecks.com/pages/affiliates",
+    "summary": "The same official page publishes partners@simplysensitivity.com for the partnerships team (replies within 2 business days), welcomes health, wellness, nutrition, food and lifestyle creators of any audience size, and states applications are reviewed by the brand's team."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 15,
+   "application_url": "https://www.simplysensitivitychecks.com/pages/affiliates",
+   "source_url": "https://www.simplysensitivitychecks.com/pages/affiliates",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Simply Sensitivity Checks Affiliate Program (Impact)",
+   "application_url": "https://www.simplysensitivitychecks.com/pages/affiliates",
+   "source_url": "https://www.simplysensitivitychecks.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 18,
+   "contact_access": 14,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "At-home sensitivity testing sits squarely in health, nutrition and food-intolerance creator content, and the brand names those exact creator types on its program page.",
+    "ugc_evidence": "A structured Impact program with ready-to-use approved images, banners and product information for creator posts; no creator counts were published on fetched pages.",
+    "compensation": "15% on every qualifying sale with a verified no-cap statement repeated on the official page.",
+    "contact_access": "Published partners@simplysensitivity.com partnerships email with a stated 2-business-day reply time.",
+    "opportunity_availability": "Free application through Impact, reviewed by the brand; no minimum sales target and no large following required.",
+    "credibility": "The brand is careful to position its tests as wellness products, not medical tests, with explicit promotion guidelines - responsible, but a smaller and younger brand, so held at 4."
+   }
+  }
+ },
+ {
+  "name": "Maker Wine",
+  "website": "https://www.makerwine.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Premium canned wine brand partnering with small, independent winemakers to sell single-serve, minimal-intervention wines fermented dry with no residual sugar, through its own online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.makerwine.com/affiliates/",
+    "summary": "Maker Wine's official Cannoisseur affiliate page publishes a 15% commission on all sales and states, verbatim: 'Any purchases made using your personal link will earn you 15% of the purchase price. There's no cap on what you can earn.' Affiliates get a personal link, an affiliate portal with metrics, tasting notes, professional images and guided tastings, early access to new releases, and followers get 15% off. The cap is verified uncapped on the brand's own page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.makerwine.com/affiliates/",
+    "summary": "The same official page names a dedicated affiliate marketing manager (Brielle) as the point of contact for the Crew and shows a 4.8 rating from 1,276 reviews; no program email was published in readable form on the fetched page, so no contact is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://www.makerwine.com/affiliates/",
+   "source_url": "https://www.makerwine.com/affiliates/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Maker Wine Cannoisseur Affiliate Crew",
+   "application_url": "https://www.makerwine.com/affiliates/",
+   "source_url": "https://www.makerwine.com/affiliates/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 17,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Single-serve premium canned wine from small producers is highly shareable food-and-drink content - tastings, hosting, picnics and gift guides.",
+    "ugc_evidence": "A named creator community (the Cannoisseur Crew) with an affiliate portal, tasting notes, professional images and guided tastings supplied for content; no creator counts were published on fetched pages.",
+    "compensation": "15% on all sales with a verified 'no cap on what you can earn' statement on the official page.",
+    "contact_access": "A named affiliate manager is the point of contact via a meeting link on the page, but no program email was published, so held at 6.",
+    "opportunity_availability": "Open sign-up form on the brand's own affiliate page with a personalised shareable link.",
+    "credibility": "Established DTC wine brand showing a 4.8 rating across 1,276 reviews on its own affiliate page, with a named affiliate manager."
+   }
+  }
+ },
+ {
+  "name": "Thorne",
+  "website": "https://www.thorne.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Practitioner-grade supplement brand selling science-backed vitamins, supplements and performance products through its own store, with a separate professional channel for certified health practitioners.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "support@thorne.com",
+    "source_url": "https://www.thorne.com/ambassador"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.thorne.com/ambassador",
+    "summary": "Thorne's official Ambassador page states ambassadors earn commission on every new customer order placed through their personal link, with free product opportunities, early access to launches and a follower discount. The page does NOT publish a commission percentage - its linked FAQ states the structure is tiered and full details are given once accepted - so commission_rate is recorded as null. No cap statement appears on any fetched official page, so the cap is recorded as unknown, never guessed."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.thorne.com/ambassador",
+    "summary": "The same official page publishes support@thorne.com and a US phone number for questions, and explicitly recruits content creators, health coaches, personal trainers and educators alongside wellness advocates of any audience size."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (Thorne Ambassador Program)",
+   "commission_rate": null,
+   "application_url": "https://www.thorne.com/ambassador",
+   "source_url": "https://www.thorne.com/ambassador",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Thorne Ambassador Program",
+   "application_url": "https://www.thorne.com/ambassador",
+   "source_url": "https://www.thorne.com/ambassador"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 10,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Practitioner-grade supplements are a core, high-trust health and performance creator niche, and Thorne is one of its most recognised names.",
+    "ugc_evidence": "A structured ambassador community with free products sent regularly for content, early launch access and paid campaign opportunities at higher tiers, per the brand's own pages.",
+    "compensation": "Commission exists on every new customer order but the percentage is only disclosed after acceptance and is tiered, so scored conservatively with rate null.",
+    "contact_access": "Published support@thorne.com email and phone number on the official ambassador page.",
+    "opportunity_availability": "Application-based ambassador community open to creators big or small; tier details follow acceptance.",
+    "credibility": "One of the most established US supplement brands, with a formal affiliate terms page and a separate professional channel."
+   }
+  }
+ },
+ {
+  "name": "CBD Pillow",
+  "website": "https://cbdpillow.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Sleep-wellness brand selling a single ultra-premium CBD-infused pillow, marketed as a new way to enjoy the benefits of CBD at night, shipping within the United States only.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@cbdpillow.com",
+    "source_url": "http://cbdpillow.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "http://cbdpillow.com/pages/affiliate-program",
+    "summary": "CBD Pillow's official affiliate page publishes a 15% commission on the entire purchase with a 30-day cookie, monthly payouts, and states the program 'offers unlimited earnings potential for all of our affiliates' and 'An affiliate is similar to a Refer-a-Friend program but with unlimited earning potential.' Sign-up runs through ShareASale (the page's Get Started link) while the FAQ mentions a Refersion tracking dashboard. The cap is verified uncapped on the brand's own 'unlimited earnings potential' wording."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "http://cbdpillow.com/pages/affiliate-program",
+    "summary": "The same official page publishes affiliates@cbdpillow.com for affiliate questions, states joining is free, and notes the brand focuses on partners with US-based audiences because it currently ships within the United States only; coupon and PPC sites are not accepted."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "http://cbdpillow.com/pages/affiliate-program",
+   "source_url": "http://cbdpillow.com/pages/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "CBD Pillow Affiliate Program (ShareASale)",
+   "application_url": "http://cbdpillow.com/pages/affiliate-program",
+   "source_url": "http://cbdpillow.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 12,
+   "compensation": 17,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A single-product CBD sleep aid is a narrow but demonstrable wellness niche - sleep routines and recovery content - rather than a broad supplement range.",
+    "ugc_evidence": "A public affiliate page supplying banner ads and creative assets, with custom content promised for top affiliates; no creator counts were published on fetched pages.",
+    "compensation": "15% on the entire purchase with verified 'unlimited earnings potential' wording and a performance bonus program on top.",
+    "contact_access": "Published affiliates@cbdpillow.com program email on the official page.",
+    "opportunity_availability": "Free ShareASale sign-up with quick stated profile review; US-focused partners.",
+    "credibility": "Single-product brand in the CBD category with an older-style program page, so credibility held at 3."
+   }
+  }
+ },
+ {
+  "name": "iHerb",
+  "website": "https://www.iherb.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Global online retailer for vitamins, supplements, herbs, grocery and wellness products, running its affiliate program through major third-party affiliate platforms including Partnerize, Impact, CJ and Awin.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.iherb.com/lp/affiliate-terms-and-conditions",
+    "summary": "iHerb's official Affiliate Terms & Conditions (last updated October 2026) publish a default commission of 5.0% for all products purchased (coupon sites start at 1.0%, qualified content sites may earn more), calculated after discounts and before taxes and shipping, with commissions pending 32 days after shipment and paid via the affiliate platform about 45 days after month-end. The program is run through third-party platforms listed on iHerb's affiliates info page. No earnings-cap statement appears in the fetched terms, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliate networks (Partnerize / Impact / CJ / Awin)",
+   "commission_rate": 5,
+   "application_url": "https://www.iherb.com/info/affiliates",
+   "source_url": "https://www.iherb.com/lp/affiliate-terms-and-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "iHerb Affiliate Program",
+   "application_url": "https://www.iherb.com/info/affiliates",
+   "source_url": "https://www.iherb.com/lp/affiliate-terms-and-conditions"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 14,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A vast supplements, herbs and wellness grocery catalogue gives health creators an unusually wide, linkable product surface.",
+    "ugc_evidence": "A long-running network affiliate program explicitly open to content sites and social promotion under its terms; no creator counts were published on fetched pages, and a retailer program is less UGC-specific than a brand ambassador program.",
+    "compensation": "5% default is low for the niche, though qualified content sites may earn higher rates at iHerb's discretion.",
+    "contact_access": "No program email was published in the fetched terms; contact runs through the affiliate platform accounts.",
+    "opportunity_availability": "Application via any of its listed affiliate platforms, subject to iHerb approval of sites and social profiles.",
+    "credibility": "One of the largest global wellness retailers, with detailed, current (October 2026) published affiliate terms."
+   }
+  }
+ },
+ {
+  "name": "Purality Health",
+  "website": "https://puralityhealth.com",
+  "country": null,
+  "category_slug": "health",
+  "description": "Supplement brand selling patented micelle liposomal formulas - including curcumin, vitamin C, magnesium and mushroom products - with a 180-day money-back guarantee, through its own store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://puralityhealth.com/affiliate/",
+    "summary": "Purality Health's official affiliate page answers 'How much can I earn?' with, verbatim: 'The sky is the limit! There is no maximum cap.' The program runs through ClickBank or HasOffers|Tune (with its magnesium product also on Digistore24), has no minimum payout threshold, pays HasOffers partners twice monthly and ClickBank partners bi-weekly, and requires a W9/W8BEN. The page promises 'competitive commission rates' but publishes NO percentage anywhere on the fetched page, so commission_rate is recorded as null. The cap is verified uncapped on the brand's own FAQ."
+   }
+  ],
+  "affiliate": {
+   "network": "ClickBank / HasOffers (Tune)",
+   "commission_rate": null,
+   "application_url": "https://puralityhealth.com/affiliate/",
+   "source_url": "https://puralityhealth.com/affiliate/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Purality Health Affiliate Program (ClickBank / HasOffers)",
+   "application_url": "https://puralityhealth.com/affiliate/",
+   "source_url": "https://puralityhealth.com/affiliate/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Liposomal supplements with an absorption-technology story fit supplement-review and wellness creator content well.",
+    "ugc_evidence": "A partner program with a no-login resource portal of tested email swipes and banners and partner testimonials; oriented more to affiliate marketers than UGC creators, and no creator counts were published.",
+    "compensation": "Earnings cap is verified uncapped ('no maximum cap') in the official FAQ, but the commission percentage itself is not published, so scored conservatively.",
+    "contact_access": "No published program email was found; applications are personally reviewed through the form on the affiliate page.",
+    "opportunity_availability": "Registration form on the official page with personal review of each application.",
+    "credibility": "Claims over 1,000,000 bottles sold and a 180-day money-back guarantee on its own page; a direct-response style brand, so held at 4."
+   }
+  }
+ },
+ {
+  "name": "Ancestral Supplements",
+  "website": "https://ancestralsupplements.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Texas-based supplement brand selling grass-fed organ and ancestral-nutrition products, running a Brand Ambassador affiliate campaign that requires original photo, video and written content.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ancestralsupplements.com/pages/affiliate-terms",
+    "summary": "Ancestral Supplements' official Brand Ambassador/Affiliate Terms describe a UGC-first campaign: ambassadors must create original photo, video and written content, publish at least two posts per calendar month, and promote affiliate codes and referral links, with commissions paid as reflected in the affiliate dashboard (software: Superfiliate) and a $20 payout threshold. The terms publish NO commission percentage and NO earnings-cap statement, so commission_rate is null and the cap is recorded as unknown, never guessed."
+   }
+  ],
+  "affiliate": {
+   "network": "Superfiliate",
+   "commission_rate": null,
+   "application_url": "https://ancestralsupplements.com/pages/affiliate-terms",
+   "source_url": "https://ancestralsupplements.com/pages/affiliate-terms",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ancestral Supplements Brand Ambassador / Affiliate Campaign (Superfiliate)",
+   "application_url": "https://ancestralsupplements.com/pages/affiliate-terms",
+   "source_url": "https://ancestralsupplements.com/pages/affiliate-terms"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Organ meats and ancestral nutrition are a distinctive, fast-growing carnivore and wellness creator niche with strong personal-story content.",
+    "ugc_evidence": "The program is explicitly built on original creator content - a minimum of two posts per month with tagging and brand guidelines - unusually concrete UGC evidence in the brand's own terms.",
+    "compensation": "Commissions and bonuses exist but the percentage lives only in the affiliate dashboard and is not published, so scored conservatively with rate null.",
+    "contact_access": "No program email was published in the fetched terms; contact runs through the campaign and its Superfiliate dashboard.",
+    "opportunity_availability": "Approval is at the brand's absolute discretion and carries a two-posts-per-month content commitment, so availability scored lower.",
+    "credibility": "Established Texas LLC with detailed, formal ambassador terms and clear FTC/FDA promotion rules."
+   }
+  }
+ },
+ {
+  "name": "Atome",
+  "website": "https://atomebakery.com",
+  "country": "Canada",
+  "category_slug": "food-drink",
+  "description": "Vancouver bakery founded in November 2022 by Alice Couderc and Lucas Navilloz, shipping frozen, ready-to-bake sourdough and French pastries across many regions of Canada for customers to bake fresh at home.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://atomebakery.com/pages/affiliates",
+    "summary": "Atome's official affiliate page publishes 4% of every new customer's first order, tracked and paid by Impact, with a 30-day referral window, and states, verbatim: 'No cap on what you can earn' and in its FAQ 'There is no cap on your earnings.' Commission applies ONLY to a referred customer's first-ever order - repeat orders earn nothing - and payouts are automatic on the 1st or 15th once the balance reaches $10. The cap is verified uncapped on the brand's own page, with the first-order-only basis recorded so it cannot be misread."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 4,
+   "application_url": "https://atomebakery.com/pages/affiliates",
+   "source_url": "https://atomebakery.com/pages/affiliates",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Atome Affiliate Program (Impact)",
+   "application_url": "https://atomebakery.com/pages/affiliates",
+   "source_url": "https://atomebakery.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ready-to-bake sourdough and pastries are highly visual, repeatable food content - bakes, brunches and hosting - with a clear Canadian creator angle.",
+    "ugc_evidence": "The program page explicitly recruits food, baking, lifestyle and family creators and suggests reels, recipes and gift guides; no creator counts were published on fetched pages.",
+    "compensation": "Only 4% and only on a new customer's first order, though the earnings cap is verified uncapped - the weakest rate structure in this batch.",
+    "contact_access": "No program email was published; applications and contact run through Impact.",
+    "opportunity_availability": "Application on Impact with brand review of every application; an established online presence is required but need not be a website.",
+    "credibility": "Named founders, a founded-2022 Vancouver bakery with detailed delivery and program terms on its own site."
+   }
+  }
+ },
+ {
+  "name": "Splendid Spoon",
+  "website": "https://www.splendidspoon.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Plant-based, ready-to-eat meal delivery service selling smoothies, soups, grain bowls and wellness programs by subscription, positioned around convenience and organic nutrition.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/splendid-spoon/",
+    "summary": "Lasso's Splendid Spoon program listing records a flat $24.00 per subscription purchase with a 30-day cookie and a join route through FlexOffers. A separate published roundup of food affiliate programs records $40 per subscription via Impact. The flat bounty therefore CONFLICTS across published sources ($24 vs $40) and no percentage rate is published, so commission_rate is recorded as null with the conflict flagged. No earnings-cap statement was found on any fetched page, so the cap is recorded as unknown. No official program page was fetched - this entry rests on directory sources and is marked publicly_reported."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/splendid-spoon/",
+   "source_url": "https://getlasso.co/affiliate/splendid-spoon/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Splendid Spoon Affiliate Program (FlexOffers)",
+   "application_url": "https://getlasso.co/affiliate/splendid-spoon/",
+   "source_url": "https://getlasso.co/affiliate/splendid-spoon/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Plant-based ready-to-eat meals and smoothies are a staple of wellness, busy-routine and plant-based creator content.",
+    "ugc_evidence": "A network affiliate program aimed at health and organic-living publishers, plus a separate ambassador community described in published reviews; no creator counts were published on fetched pages.",
+    "compensation": "A flat per-subscription bounty exists but conflicts across sources ($24 vs $40) with no percentage published, so scored low with rate null until confirmed in the network.",
+    "contact_access": "No program email was published on fetched pages; contact runs through the affiliate network.",
+    "opportunity_availability": "Network application with a few days' stated approval time per the directory listing.",
+    "credibility": "Well-known US plant-based meal delivery brand; held at 4 because this entry rests on directory sources rather than a fetched official program page."
+   }
+  }
+ },
+ {
+  "name": "Ancient + Brave",
+  "website": "https://ancientandbrave.earth",
+  "country": "United Kingdom",
+  "category_slug": "wellness",
+  "description": "Mission-driven UK wellness brand founded in 2018, selling award-winning collagen, MCT and nootropic blends and functional supplements, certified as a B Corp and a member of 1% for the Planet.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/54585?setLocale=sv_SE",
+    "summary": "Ancient + Brave's own Awin merchant profile publishes a 5% commission on sales with a 30-day cookie, average online order values over £40 and regular sales validations, and notes commission is not paid on subscription orders from existing or past subscribers. No earnings-cap statement appears on the fetched profile, so the cap is recorded as unknown. The same profile describes the brand as a B Corp and 1% for the Planet member selling collagen, MCT and nootropic blends."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://ui.awin.com/merchant-profile/54585?setLocale=sv_SE",
+   "source_url": "https://ui.awin.com/merchant-profile/54585?setLocale=sv_SE",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ancient + Brave Affiliate Programme (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/54585?setLocale=sv_SE",
+   "source_url": "https://ui.awin.com/merchant-profile/54585?setLocale=sv_SE"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Collagen and functional wellness blends built around daily rituals fit beauty-from-within and wellness routine content well.",
+    "ugc_evidence": "A standard Awin network program with regular validations; the fetched profile publishes no creator-specific program or creator counts.",
+    "compensation": "5% is a low rate for wellness, partly offset by average order values over £40 stated on the profile.",
+    "contact_access": "No program email was published on the fetched profile; contact runs through Awin.",
+    "opportunity_availability": "Standard Awin network application for the programme.",
+    "credibility": "Certified B Corp and 1% for the Planet member with award-winning products, per its own network profile - strong third-party-verified credentials."
+   }
+  }
+ }
+]

@@ -1,0 +1,666 @@
+[
+ {
+  "name": "PURE MAMA",
+  "website": "https://us.puremama.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Premium naturally derived skincare brand for pregnancy, birth and postpartum (welcome to any skincare creator) running a Creator Community on ShopMy: 20% commission on every sale through a unique ShopMy link, a welcome gift for approved creators, bonuses for high performers, and a 5,000+ follower guideline with a minimum of one Story, Reel or TikTok to stay active.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form",
+    "email": null,
+    "source_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form",
+    "summary": "PURE MAMA's own Creator Community page states 'Enjoy 20% commission on every sale driven through your affiliate links' and its FAQ repeats 'PURE MAMA creators earn 20% commission on every sale driven through their unique ShopMy link', paid via ShopMy on its standard schedule, with bonuses for high-performing affiliates. No cap statement appears anywhere on the fetched page, so the earnings cap is recorded as unknown, never guessed."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form",
+    "summary": "The page is a structured creator program: approved creators receive a welcome gift and brand resources, early access to launches, and must share at least one Story, Reel or TikTok featuring the brand to remain active; the guideline is 5,000+ followers and anyone who loves premium naturally derived skincare may apply, pregnant or not."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form",
+    "summary": "No hard absolute creator count for PURE MAMA surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "ShopMy",
+   "commission_rate": 20,
+   "application_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form",
+   "source_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "PURE MAMA Creator Community (ShopMy)",
+   "application_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form",
+   "source_url": "https://us.puremama.com/pages/us-brand-ambassador-enquiry-form"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 18,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pregnancy-to-postpartum skincare routines, storytelling and product education are proven short-form skincare formats, and the brand explicitly welcomes non-pregnant skincare creators too.",
+    "ugc_evidence": "A named Creator Community with a posting requirement, welcome gift, creator resources and early access — structured UGC evidence on the brand's own page.",
+    "compensation": "A clean published 20% on every sale plus high-performer bonuses; no cap statement was published, so the cap is honestly unknown.",
+    "contact_access": "Application form with social handles on the brand's own US site; no partnerships email is published.",
+    "opportunity_availability": "Open application, free to join; existing ShopMy members can start linking immediately, though the guideline asks for 5,000+ followers.",
+    "credibility": "Premium positioned DTC brand with a clear program page and ShopMy payment infrastructure; no retail distribution verified in this research."
+   }
+  }
+ },
+ {
+  "name": "Charlotte Tilbury",
+  "website": "https://www.charlottetilbury.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "Global luxury makeup and skincare brand founded by makeup artist Charlotte Tilbury; its own Affiliate Programme page recruits sites, blogs and influencers to earn commission on all sales at CharlotteTilbury.com, tracked and paid through Partnerize, with applications reviewed within 7 days and partnerships@charlottetilbury.com published for questions.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partnerships@charlottetilbury.com",
+    "source_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program",
+    "email": null,
+    "source_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program",
+    "summary": "Charlotte Tilbury's own affiliate page states affiliates 'earn commission on all sales each time your visitors complete a purchase at CharlotteTilbury.com', that it has 'teamed up with Partnerize for tracking technology, reporting and payment processing', that applications are reviewed within 7 days, and publishes partnerships@charlottetilbury.com. The official page publishes no percentage and no cap statement, so both the rate and the cap need the network listing to settle."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare",
+    "summary": "Third-party rate sources for Charlotte Tilbury conflict and cannot be settled: LinkApprove lists up to 8% on a 30-day cookie, Lasso lists 6.4%, other roundups claim 8-10% and one claims up to 25%. Because the brand's own page publishes no rate, commission_rate is recorded as null with the conflict documented here. No source states an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program",
+    "summary": "No hard absolute creator count for Charlotte Tilbury's affiliate program surfaced; it is a large global program, but with no ~100-scale count published, saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": null,
+   "application_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program",
+   "source_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Charlotte Tilbury Affiliate Programme (Partnerize)",
+   "application_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program",
+   "source_url": "https://www.charlottetilbury.com/us/content/charlotte-tilbury-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 29,
+   "ugc_evidence": 16,
+   "compensation": 11,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pillow Talk and Magic Cream are among the most-tutorialled luxury beauty products on TikTok and Instagram — top-tier makeup UGC fit.",
+    "ugc_evidence": "An official affiliate programme that explicitly names Influencer as a joinable vertical on Partnerize, plus a separate Pro programme for makeup artists.",
+    "compensation": "Commission on all sales is confirmed on the brand's own page, but published rates conflict across sources (6.4% to up to 25%), so no rate is recorded and compensation scores mid-range; cap unknown.",
+    "contact_access": "Published partnerships email plus the full programme page on the brand's own site — direct contact access.",
+    "opportunity_availability": "Open Partnerize application with a stated 7-day review; global campaigns available to existing Partnerize accounts.",
+    "credibility": "One of the world's best-known luxury beauty brands, owned by Puig, sold globally through its own site and major retailers."
+   }
+  }
+ },
+ {
+  "name": "Morphe",
+  "website": "https://www.morphe.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Creator-born makeup brand (palettes, brushes, lip) whose Morphe Artistry Collective is its own ambassador gateway: members complete creative tasks, unlock product vouchers, earn affiliate commission and can be featured on Morphe's socials; open to US creators 18+ with at least 1,000 followers on Instagram or TikTok.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.morphe.com/pages/morphe-artistry-collective",
+    "email": null,
+    "source_url": "https://www.morphe.com/pages/morphe-artistry-collective"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.morphe.com/pages/morphe-artistry-collective",
+    "summary": "Morphe's own Artistry Collective page lists 'Earn affiliate commission' among its benefits alongside product vouchers and a chance to feature on Morphe's socials, with eligibility of a public profile, at least 1,000 followers on Instagram or TikTok, 18+ and US-based. The brand's own help page confirms this Collective is the route to collaborate or join the affiliate program. The official pages publish no percentage and no cap statement."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.shopper.com/partnerships/morphe-com-affiliate-program",
+    "summary": "Third-party rate sources conflict and cannot be settled: Shopper lists 5-10%, Lasso lists up to 5.25% (and 6% for Morphe Brushes), and a ShareASale listing shows 12%. Because Morphe's own pages publish no rate, commission_rate is recorded as null with the conflict documented. No source states an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.morphe.com/pages/morphe-artistry-collective",
+    "summary": "No hard absolute creator count for the Artistry Collective surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": null,
+   "application_url": "https://www.morphe.com/pages/morphe-artistry-collective",
+   "source_url": "https://www.morphe.com/pages/morphe-artistry-collective",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Morphe Artistry Collective (ambassador / affiliate)",
+   "application_url": "https://www.morphe.com/pages/morphe-artistry-collective",
+   "source_url": "https://www.morphe.com/pages/morphe-artistry-collective"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 17,
+   "compensation": 11,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Affordable palettes, brushes and viral makeup looks are core beauty-UGC material, and Morphe was built on creator content.",
+    "ugc_evidence": "A named creator collective built around creative tasks, levels and social features, with affiliate commission as a stated benefit — strong structured UGC evidence.",
+    "compensation": "Affiliate commission is confirmed on the brand's own page, but rates conflict across third-party sources (5.25% to 12%), so no rate is recorded; cap unknown.",
+    "contact_access": "Application runs from the brand's own Collective page into its community platform; no partnerships email is published there.",
+    "opportunity_availability": "Open application with a low 1,000-follower bar, but US-only and 18+.",
+    "credibility": "Long-established, widely distributed makeup brand; the Collective is a current, live program on its own site."
+   }
+  }
+ },
+ {
+  "name": "The Honest Company",
+  "website": "https://www.honest.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Jessica Alba-founded clean beauty, baby and home brand whose 'Become an Honest Brand Ambassador' page recruits beauty enthusiasts and parents to post about favourite products and monetise through ShopMy affiliate links; ShopMy accounts typically need 1,000 followers on one account, reviewed case by case, with 3-5 business day reviews.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://honest.com/pages/become-an-honest-brand-ambassador",
+    "email": null,
+    "source_url": "https://honest.com/pages/become-an-honest-brand-ambassador"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "influencers@honest.com",
+    "source_url": "https://usesnippet.app/pr-emails/the-honest-company"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://honest.com/pages/become-an-honest-brand-ambassador",
+    "summary": "Honest's own ambassador page recruits 'the modern mama, beauty enthusiast and all-around Honest brand loyalist to post about their fave products' with an Apply Now route into ShopMy, and explains that ShopMy converts products into affiliate links and pays weekly via PayPal or Stripe. The 10-30% range quoted on that page is ShopMy's platform-wide typical range across retailers, not an Honest-specific rate, and a third-party listing claims 5-10% for Honest — the rates cannot be settled, so commission_rate is null. No cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "directory",
+    "source_url": "https://usesnippet.app/pr-emails/the-honest-company",
+    "summary": "Snippet's PR-contact listing, checked against the brand's own pages on November 14, 2026, lists influencers@honest.com for influencer inquiries and social@honest.com for social brand partnerships at The Honest Company."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://honest.com/pages/become-an-honest-brand-ambassador",
+    "summary": "No hard absolute creator count for Honest's ambassador program surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "ShopMy",
+   "commission_rate": null,
+   "application_url": "https://honest.com/pages/become-an-honest-brand-ambassador",
+   "source_url": "https://honest.com/pages/become-an-honest-brand-ambassador",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Honest Brand Ambassador Program (ShopMy)",
+   "application_url": "https://honest.com/pages/become-an-honest-brand-ambassador",
+   "source_url": "https://honest.com/pages/become-an-honest-brand-ambassador"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Clean beauty and baby-care staples with a loyal parent audience fit routine, haul and 'clean swaps' UGC.",
+    "ugc_evidence": "A dedicated ambassador page on the brand's own site recruiting posters and routing them into ShopMy monetisation.",
+    "compensation": "Monetisation via ShopMy is confirmed, but no Honest-specific rate is published (the page's 10-30% is ShopMy's generic range and a third party claims 5-10%), so the rate is null; cap unknown.",
+    "contact_access": "Published influencer email (influencers@honest.com, per a listing checked against the brand's own pages) plus the ambassador application on honest.com.",
+    "opportunity_availability": "Open application through ShopMy with a typical 1,000-follower guideline, case-by-case review and 3-5 business day turnaround.",
+    "credibility": "Publicly traded, nationally distributed clean-products company founded by Jessica Alba."
+   }
+  }
+ },
+ {
+  "name": "Bachca",
+  "website": "https://us.bachca.com",
+  "country": "France",
+  "category_slug": "beauty",
+  "description": "French-designed hair brushes, accessories and beauty tools brand (Bachca Paris) running a Creator Program for US and Canada audiences through Shopify Collabs, with ShopMy as a second route: commission on every sale on new and returning customers, gifted products for selected creators, paid content usage agreed in advance, and no minimum following — micro-creators welcome.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.bachca.com/pages/collab",
+    "email": null,
+    "source_url": "https://us.bachca.com/pages/collab"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.bachca.com/pages/collab",
+    "summary": "Bachca's own Creator Program page states creators 'earn commission on every sale you drive' on new and returning customers, applications run through Shopify Collabs in a few minutes, and creators already on ShopMy can find Bachca Paris there and earn commission on their links. Its FAQ states plainly 'Our commission structure is shared upon approval', so no rate is published and commission_rate is null. No cap statement appears on the page, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://us.bachca.com/pages/collab",
+    "summary": "The page is built for UGC: no minimum following, micro-creators welcome, gifted products for selected creators, content ideas published (morning routines, claw-clip how-tos, before/after brushing), and top-performing content may run in ads or whitelisting, always agreed with the creator first."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://us.bachca.com/pages/collab",
+    "summary": "No hard absolute creator count for Bachca's Creator Program surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": null,
+   "application_url": "https://us.bachca.com/pages/collab",
+   "source_url": "https://us.bachca.com/pages/collab",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bachca Creator Program (Shopify Collabs / ShopMy)",
+   "application_url": "https://us.bachca.com/pages/collab",
+   "source_url": "https://us.bachca.com/pages/collab"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 10,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Giftable French hair brushes and accessories are natural 'get ready with me', routine and how-to content for beauty and hair creators.",
+    "ugc_evidence": "A dedicated creator program with published content ideas, gifting and paid-usage pathways — strong UGC structure for a small brand.",
+    "compensation": "Commission on every sale (new and returning) is confirmed, but the rate is shared only upon approval, so it is recorded as null; cap unknown.",
+    "contact_access": "Application and a 'send us a message' route on the brand's own US site; no partnerships email is published.",
+    "opportunity_availability": "Open application with no minimum following — one of the lowest bars in this round — but audiences must be in the US or Canada.",
+    "credibility": "Established Paris design brand selling through its own US storefront; smaller than the global names in this round."
+   }
+  }
+ },
+ {
+  "name": "Pure n' Bio",
+  "website": "https://purenbio.com",
+  "country": "United Arab Emirates",
+  "category_slug": "beauty",
+  "description": "Curated French organic beauty and wellness store built for the GCC market (6 Ecocert/COSMOS-certified French brands, made in France) running its own Partner Program: up to 20% commission per order for top-tier partners, 14-30 day tracking, monthly PayPal or bank payouts with no minimum, free to join with no minimum audience, plus yearly bonuses, partner gifts and trips for top performers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://purenbio.com/pages/join-our-community",
+    "email": null,
+    "source_url": "https://purenbio.com/pages/join-our-community"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://purenbio.com/pages/join-our-community",
+    "summary": "Pure n' Bio's own affiliate page publishes 'up to 20% commission per order' for top-performing partners, a 14-30 day tracking window, free joining with no minimum audience, monthly payouts on the 1st via PayPal or bank transfer with no minimum amount, and applications reviewed within 2 days via its affiliate portal. Only a top-tier ceiling is published — no base rate — so commission_rate is recorded as null ('up to 20%' is a rate ceiling, not a settled rate). No earnings-cap statement appears on the page, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://purenbio.com/pages/join-our-community",
+    "summary": "The brand's own page states '1,200+ Active partners — already earning with Pure n' Bio'. That is an absolute partner count, but at 1,200+ it is far above the ~100 scale that would count as low saturation, so creator saturation is recorded as unknown (not low)."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": null,
+   "application_url": "https://affiliate.purenbio.com",
+   "source_url": "https://purenbio.com/pages/join-our-community",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pure n' Bio Partner Program",
+   "application_url": "https://affiliate.purenbio.com",
+   "source_url": "https://purenbio.com/pages/join-our-community"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Certified organic French skincare and makeup, highly visual and strong on Snapchat, TikTok and Instagram per the brand — a good fit for GCC-focused beauty creators.",
+    "ugc_evidence": "A creator-facing partner program with a seasonal content library, short-form video assets, Arabic and English captions and custom discount codes.",
+    "compensation": "Up to 20% per order for top tiers plus yearly bonuses, but no base rate is published, so the rate is null; cap unknown.",
+    "contact_access": "Application form linked from the brand's own program page into its affiliate portal; no partnerships email is published.",
+    "opportunity_availability": "Applications open, free, no minimum audience and no exclusivity, reviewed within about 2 days — but the audience fit is GCC-specific.",
+    "credibility": "Curated multi-brand store rather than a single product brand; certifications (Ecocert, COSMOS) are stated, but it is a young regional retailer."
+   }
+  }
+ },
+ {
+  "name": "Caudalie",
+  "website": "https://www.caudalie.com",
+  "country": "France",
+  "category_slug": "skincare",
+  "description": "Family-owned French skincare brand built on grape-derived Vinothérapie actives, running an affiliate program through Awin (also listed via other networks) with a 30-day cookie; published rate sources conflict, so no single rate can be recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare",
+    "email": null,
+    "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare",
+    "summary": "LinkApprove's beauty directory lists the Caudalie affiliate program at up to 8% per sale on a 30-day cookie across US, UK, EU and CA, and multiple sources place the program on Awin. However published rates conflict — one roundup lists 8% for cashback and 12% for bloggers/editorial, while Shopper lists 4% — so commission_rate is recorded as null with the conflict documented. No source states an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare",
+    "summary": "No hard absolute creator count for Caudalie's affiliate program surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Caudalie Affiliate Program (Awin)",
+   "application_url": null,
+   "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "French pharmacy-style skincare with hero serums is a staple of ingredient-led and routine UGC worldwide.",
+    "ugc_evidence": "A long-running network affiliate program used by beauty bloggers and editorial creators, per multiple directories; no dedicated creator community was published.",
+    "compensation": "Rates conflict across sources (4% vs 8% vs 12% for editorial), so no rate is recorded; cap unknown.",
+    "contact_access": "Access is through the Awin network listing rather than a brand-published contact; no partnerships email was verified on an official page in this research.",
+    "opportunity_availability": "Joinable through Awin across US, UK, EU and CA with a 30-day cookie, subject to network approval.",
+    "credibility": "Established family-owned French skincare house with global retail distribution and its own Vinothérapie spas."
+   }
+  }
+ },
+ {
+  "name": "MCoBeauty",
+  "website": "https://www.mcobeauty.com",
+  "country": "Australia",
+  "category_slug": "beauty",
+  "description": "Australian affordable-luxury makeup and skincare brand (known for premium-inspired products at drugstore prices) running an affiliate program through Commission Factory at a flat 10% commission per sale with a 30-day cookie, open to bloggers, reviewers and content creators across APAC and beyond.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/mcobeauty/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/mcobeauty/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/mcobeauty/",
+    "summary": "Lasso's program listing states the MCoBeauty affiliate program pays 10% per sale with a 30-day cookie across makeup and skincare, and a second independent write-up of the program confirms it runs through Commission Factory at the same flat 10% across the product range, with applications reviewed in a few days. No earnings-cap statement appears in either source, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://getlasso.co/affiliate/mcobeauty/",
+    "summary": "No hard absolute creator count for MCoBeauty's affiliate program surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Commission Factory",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/mcobeauty/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MCoBeauty Affiliate Program (Commission Factory)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/mcobeauty/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Viral, affordable 'luxe for less' makeup is heavily reviewed and duped in beauty UGC — strong content fit.",
+    "ugc_evidence": "A structured network affiliate program aimed at beauty bloggers and creators; no dedicated UGC community page was published.",
+    "compensation": "A flat 10% per sale corroborated by two independent program sources, with a 30-day cookie; cap unknown.",
+    "contact_access": "Access is through Commission Factory rather than a brand-published email; no partnerships contact was verified on an official page in this research.",
+    "opportunity_availability": "Applications through Commission Factory, typically reviewed within a few days.",
+    "credibility": "One of Australia's fastest-growing beauty brands with major retail distribution in Australia and a growing US presence."
+   }
+  }
+ },
+ {
+  "name": "MIXXGO",
+  "website": "https://www.mixxgo.com",
+  "country": null,
+  "category_slug": "beauty",
+  "description": "Bold, viral color-makeup brand whose own Affiliate Program page ('Glam with Us. Glow with Us. Grow with Us.') recruits creators of any size — micro-influencers explicitly welcomed, no website needed — with personal links and promo codes, sales tracked through Rakuten, tiered levels and bonuses, and monthly challenges and giveaways for affiliates.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.mixxgo.com/affiliate-program/",
+    "email": null,
+    "source_url": "https://www.mixxgo.com/affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.mixxgo.com/affiliate-program/",
+    "summary": "MIXXGO's own affiliate page states affiliates track 'every sale and commission through Rakuten', can promote all products with no product restrictions, and earn 'competitive commission rates with room to grow, plus tiered levels and bonuses' — but it publishes no percentage anywhere, so commission_rate is null. Its 'Juicy Commissions, No Limits' heading is explained on the page as being about product restrictions and rules, not as an earnings-cap statement, so the cap is honestly recorded as unknown, not uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.mixxgo.com/affiliate-program/",
+    "summary": "The page is explicitly creator-first: no website or blog needed (Instagram, TikTok, YouTube and Discord named), new creators and micro-influencers welcomed, free to join in a five-minute application, plus monthly challenges, events and giveaways exclusive to affiliates."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.mixxgo.com/affiliate-program/",
+    "summary": "No hard absolute creator count for MIXXGO surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": null,
+   "application_url": "https://www.mixxgo.com/affiliate-program/",
+   "source_url": "https://www.mixxgo.com/affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MIXXGO Affiliate Program (Rakuten)",
+   "application_url": "https://www.mixxgo.com/affiliate-program/",
+   "source_url": "https://www.mixxgo.com/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Bold, trend-led color makeup built for TikTok and Instagram looks is a natural short-form beauty format.",
+    "ugc_evidence": "A creator-first program page naming social platforms, welcoming micro-influencers and running affiliate-only challenges and giveaways.",
+    "compensation": "Tiered rates and bonuses are promised through Rakuten, but no percentage is published anywhere on the fetched page, so the rate is null; cap unknown (the 'No Limits' heading covers product restrictions, not earnings).",
+    "contact_access": "Apply Now route on the brand's own program page; no partnerships email is published.",
+    "opportunity_availability": "Free, five-minute application with no website or follower requirement stated.",
+    "credibility": "Small, young viral-makeup brand; no retail distribution or country of origin could be verified from the fetched pages, so credibility scores conservatively."
+   }
+  }
+ },
+ {
+  "name": "JADÉ Complexions",
+  "website": "https://www.jadecomplexions.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Holistic-clinical skincare brand whose Affiliate Program is an exclusive, invite-only network tracked via ReferralCandy: invited affiliates earn 15% of net sale value on qualified referrals within a 30-day cookie, paid monthly via PayPal from a $50 threshold, under published terms effective May 30, 2025, with questions to hello@jadecomplexions.com.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hello@jadecomplexions.com",
+    "source_url": "https://www.jadecomplexions.com/pages/affiliate-program-terms-and-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.jadecomplexions.com/pages/affiliate-program-terms-and-conditions",
+    "summary": "JADÉ Complexions' own published Affiliate Program Terms (effective 05/30/2025) state the program is 'an exclusive, invite-only network' with 'No general application process', that referrals are tracked via ReferralCandy with a 30-day cookie, and that 'Affiliates will earn a commission of 15% of the net sale value' per Qualified Referral, paid monthly via PayPal from a $50 minimum. The terms publish no earnings-cap statement, so the cap is unknown. Contact for program questions: hello@jadecomplexions.com."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.jadecomplexions.com/pages/affiliate-program-terms-and-conditions",
+    "summary": "The program is invite-only and deliberately small by design, but no absolute creator count is published, so creator saturation is recorded as unknown rather than low — invite-only wording alone is not a hard ~100-scale count."
+   }
+  ],
+  "affiliate": {
+   "network": "ReferralCandy",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://www.jadecomplexions.com/pages/affiliate-program-terms-and-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "JADÉ Complexions Affiliate Program (invite-only, ReferralCandy)",
+   "application_url": null,
+   "source_url": "https://www.jadecomplexions.com/pages/affiliate-program-terms-and-conditions"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 14,
+   "contact_access": 11,
+   "opportunity_availability": 3,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Holistic-clinical skincare with an ingredient-and-results angle fits esthetician and skincare-education UGC.",
+    "ugc_evidence": "A real affiliate network with published terms and disclosure rules, but it is positioned for invited partners rather than an open creator community.",
+    "compensation": "A clean published 15% of net sale value in the brand's own terms, with a 30-day cookie; cap unknown.",
+    "contact_access": "Published program contact email (hello@jadecomplexions.com) in the brand's own terms.",
+    "opportunity_availability": "Invite-only with no general application process — the lowest availability in this round; a creator must be invited or pitch the contact email.",
+    "credibility": "Small independent skincare brand with formal published program terms governed by California law; no retail distribution verified."
+   }
+  }
+ }
+]

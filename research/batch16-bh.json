@@ -1,0 +1,598 @@
+[
+  {
+    "name": "Renogy",
+    "website": "https://www.renogy.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Global renewable-energy brand (RNG Group) selling solar panels, solar kits, lithium batteries, charge controllers and inverters for homes, RVs, boats and off-grid use through its own store, with a creator/blogger/publisher affiliate program.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.renogy.com/pages/affiliate-program",
+        "email": "renogy.affiliate@renogy.com",
+        "source_url": "https://www.renogy.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.renogy.com/pages/affiliate-program",
+        "summary": "Official Renogy affiliate page fetched: 'High commission rate — Average 6% — No maximum limit' and 'Earn an average of 6% in commissions from qualifying purchases.' The 'No maximum limit' statement sits directly under the commission rate on the brand's own page, so the commission cap is recorded as UNCAPPED. The page invites creators, bloggers and publishers to sign up and share products with an exclusive creator link, and names ShareASale, Commission Junction and ImpactRadius as example networks in its FAQ."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://www.renogy.com/pages/affiliate-program",
+        "summary": "The same official page publishes the program email renogy.affiliate@renogy.com and general support support@renogy.com with US phone support +1 (909) 287 7111."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 6,
+      "application_url": "https://www.renogy.com/pages/affiliate-program",
+      "source_url": "https://www.renogy.com/pages/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Renogy Affiliate Program — average 6%, no maximum limit, creator link (renogy.affiliate@renogy.com)",
+      "application_url": "https://www.renogy.com/pages/affiliate-program",
+      "source_url": "https://www.renogy.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 15,
+      "compensation": 16,
+      "contact_access": 14,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Solar kits, batteries and RV/off-grid power are highly demonstrable for home, RV and van-life UGC",
+        "ugc_evidence": "Official page explicitly recruits creators, bloggers and publishers and gives an exclusive creator link",
+        "compensation": "Average 6% commission with an explicit 'No maximum limit' statement on the brand's own page — verified uncapped; high-ticket kits lift dollars per sale",
+        "contact_access": "Dedicated program email renogy.affiliate@renogy.com published on the official page",
+        "opportunity_availability": "Open sign-up through affiliate networks, affiliates accepted worldwide",
+        "credibility": "Established global solar brand with published US support phone and address channels"
+      }
+    }
+  },
+  {
+    "name": "Jackery",
+    "website": "https://www.jackery.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "California-founded (2012) portable-power brand selling solar generators, portable power stations and solar panels for camping, RV and home backup through its own store, with a multi-network affiliate program.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.jackery.com/pages/affiliate-program",
+        "email": null,
+        "source_url": "https://www.jackery.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.jackery.com/pages/affiliate-program",
+        "summary": "Official Jackery affiliate page fetched: 'Earn 5% affiliate commissions from qualifying purchases' and 'Join thousands of creators, bloggers, and publishers who are earning commissions from Jackery's Affiliate Program'; partners share products with unique creator links. The page lists its program networks: Awin, Affiliatly, Impact, CJ and AvantLink. No 'no cap' / earnings-limit statement appears on the fetched page, so the commission cap is honestly recorded as UNKNOWN."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 5,
+      "application_url": "https://www.jackery.com/pages/affiliate-program",
+      "source_url": "https://www.jackery.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Jackery Affiliate Program — 5% on qualifying purchases via Awin / Impact / CJ, creator links",
+      "application_url": "https://www.jackery.com/pages/affiliate-program",
+      "source_url": "https://www.jackery.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 16,
+      "compensation": 13,
+      "contact_access": 8,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Portable power stations and solar generators are staple, demonstrable products for outdoor, RV and home-backup tech UGC",
+        "ugc_evidence": "Official page explicitly addresses creators, bloggers and publishers with unique creator links and collaboration opportunities",
+        "compensation": "5% published on the brand's own page; high average order values on power stations lift dollars per sale; no cap statement published, so cap is unknown",
+        "contact_access": "No program email is published on the fetched official page; application runs through the listed networks, so access is scored mid-range",
+        "opportunity_availability": "Open application through five named networks (Awin, Affiliatly, Impact, CJ, AvantLink)",
+        "credibility": "Category-leading portable-power brand founded in 2012 with a large retail and media footprint"
+      }
+    }
+  },
+  {
+    "name": "EcoFlow",
+    "website": "https://www.ecoflow.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Portable-power and home-backup brand selling DELTA/RIVER power stations, solar panels and smart home energy products through its own store, with an official Ambassador (referral/affiliate) program plus network affiliate listings.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.ecoflow.com/us/ecoflow-ambassador-program",
+        "email": null,
+        "source_url": "https://www.ecoflow.com/us/ecoflow-ambassador-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.ecoflow.com/us/ecoflow-ambassador-program",
+        "summary": "Official EcoFlow US Ambassador Program page fetched: members share a unique link and 'Earn commission — 5% cash commission for each sale generated through your link', plus 100 EcoCredits per successful friend sign-up. No 'no cap' / earnings-limit statement appears on the fetched page, so the commission cap is honestly recorded as UNKNOWN."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://www.affilza.com/affiliate-programs/ecoflow.com",
+        "summary": "Affilza's EcoFlow program listing reports the EcoFlow Affiliate Program on Awin at 5% commission with average order value $1,500+, consistent with the 5% on the brand's own Ambassador page; network listings elsewhere also cite CJ."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 5,
+      "application_url": "https://www.ecoflow.com/us/ecoflow-ambassador-program",
+      "source_url": "https://www.ecoflow.com/us/ecoflow-ambassador-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "EcoFlow Ambassador Program — 5% cash commission per sale via unique link; affiliate also listed on Awin",
+      "application_url": "https://www.ecoflow.com/us/ecoflow-ambassador-program",
+      "source_url": "https://www.ecoflow.com/us/ecoflow-ambassador-program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 14,
+      "compensation": 13,
+      "contact_access": 8,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Home-backup and portable power stations are a top demonstrable category for tech, camping and preparedness UGC",
+        "ugc_evidence": "Official Ambassador page is built around genuine user stories and link sharing; network affiliate program also recruits creators",
+        "compensation": "5% cash commission confirmed on the brand's own page; very high order values ($1,500+ average on Awin listing) lift dollars per sale; no cap statement published, so cap is unknown",
+        "contact_access": "No program email published on the fetched Ambassador page; join is via account creation on the official site",
+        "opportunity_availability": "Open join on the official US site; affiliate route also on Awin",
+        "credibility": "One of the two category leaders in portable power, sold in 100+ countries"
+      }
+    }
+  },
+  {
+    "name": "Secretlab",
+    "website": "https://secretlab.co",
+    "country": "Singapore",
+    "category_slug": "home",
+    "description": "Direct-to-consumer gaming and home-office furniture brand selling gaming chairs, desks and accessories in 50+ countries through its own store, with an affiliate program run through CJ aimed explicitly at content creators and streamers.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://secretlab.co/pages/affiliates",
+        "email": null,
+        "source_url": "https://secretlab.co/pages/affiliates"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://secretlab.co/pages/affiliates",
+        "summary": "Official Secretlab affiliates page fetched: 'Earn up to 12% commission fee on each sale you send to Secretlab', 7-day conversion window, monthly payouts through CJ, personalized real-time dashboard; the page says 'We created our affiliate program to reward content creators like you' and applications are reviewed via CJ. 'Up to 12%' is a rate ceiling (graduated tiers in the program agreement), recorded as the published maximum. No 'no cap' / earnings-limit statement appears on the fetched page, so the commission cap is honestly recorded as UNKNOWN."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ",
+      "commission_rate": 12,
+      "application_url": "https://secretlab.co/pages/affiliates",
+      "source_url": "https://secretlab.co/pages/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Secretlab Affiliate Program — up to 12% via CJ, 7-day window, built for content creators and streamers",
+      "application_url": "https://secretlab.co/pages/affiliates",
+      "source_url": "https://secretlab.co/pages/affiliates"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 15,
+      "compensation": 17,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Gaming chairs and desks are core, demonstrable products for gaming, streaming and home-office UGC",
+        "ugc_evidence": "Official page explicitly addresses content creators and livestreamers placing referral links on social pages and streams",
+        "compensation": "Up to 12% graduated commission — the highest published ceiling in this batch — on high-ticket chairs/desks; no cap statement published, so cap is unknown",
+        "contact_access": "Contact is via CJ dashboard / @secretlab.co emails per the official page; no direct program email published, so access is scored mid-range",
+        "opportunity_availability": "Application via CJ with team review of every application",
+        "credibility": "Category-leading DTC furniture brand shipping to 50+ countries with thousands of published reviews"
+      }
+    }
+  },
+  {
+    "name": "Avocado Green Mattress",
+    "website": "https://www.avocadogreenmattress.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "US certified-organic mattress and bedding brand (GOTS/GOLS-certified latex, wool and cotton; carbon-neutral) selling mattresses, bed frames and pillows through its own store, with a manually reviewed affiliate program on Impact.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.avocadogreenmattress.com/pages/affiliate-program",
+        "email": "affiliate@avocadomattress.com",
+        "source_url": "https://www.avocadogreenmattress.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.avocadogreenmattress.com/pages/affiliate-program",
+        "summary": "Official Avocado affiliate page fetched: applications are manually reviewed for brand alignment, tracking and performance run through the Impact control panel, banners/text links and a dedicated affiliate manager are provided, and questions go to affiliate@avocadomattress.com. The page deliberately does NOT publish a commission rate ('What is the commission? If approved, you will agree to a proposed contract'), and third-party listings conflict ($100–$150 flat per mattress vs ~5% vs 5–10%), so commission_rate is recorded as NULL with the conflict noted. No 'no cap' statement is published, so the cap is UNKNOWN."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://www.avocadogreenmattress.com/pages/affiliate-program",
+        "summary": "The same official page publishes the dedicated program email affiliate@avocadomattress.com and promises a dedicated affiliate manager to approved partners."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://www.avocadogreenmattress.com/pages/affiliate-program",
+      "source_url": "https://www.avocadogreenmattress.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Avocado Green Mattress Affiliate Program — Impact, dedicated affiliate manager, rate set by contract on approval (affiliate@avocadomattress.com)",
+      "application_url": "https://www.avocadogreenmattress.com/pages/affiliate-program",
+      "source_url": "https://www.avocadogreenmattress.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 12,
+      "contact_access": 14,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Organic mattresses and non-toxic bedding are a strong fit for eco-home, wellness and sleep UGC",
+        "ugc_evidence": "Program targets media partners, product reviewers and brand ambassadors with banners and a dedicated manager; no open creator cohort page",
+        "compensation": "Rate is set by individual contract on approval and third-party figures conflict (flat $100–$150 vs ~5%), so rate is null; high mattress prices imply large dollars per sale",
+        "contact_access": "Dedicated affiliate@avocadomattress.com plus a named dedicated affiliate manager for approved partners",
+        "opportunity_availability": "Stringent manual review for brand alignment, so availability is scored lower",
+        "credibility": "Leading certified-organic mattress brand (GOTS/GOLS, carbon-neutral) with a long retail track record"
+      }
+    }
+  },
+  {
+    "name": "Fi",
+    "website": "https://tryfi.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US pet-tech brand (Barking Labs, founded 2017) behind the Fi smart GPS dog collar and Fi Mini tracker — real-time location, activity, sleep and escape alerts via a membership app — sold through its own store with network affiliate programs.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": "https://tryfi.com",
+        "email": "press@tryfi.com",
+        "source_url": "https://Www.businesswire.com/news/home/20250825403179/en/Fi-Unveils-Fi-Mini-The-Smallest-Smartest-Pet-Tracker-for-Dogs-and-Cats"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://merchants.sovrn.com/merchants/139515/fi-smart-dog-collar-affiliate-program",
+        "summary": "Sovrn Commerce's Fi merchant page reports the Fi Smart Dog Collar affiliate program at 10% commission per sale with a 30-day cookie, joined exclusively through Sovrn; a 2026 programme comparison reading Fi's own Awin profile likewise records a 10% base rate (open to increasing) on Awin with a 30-day cookie."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/fi-smart/",
+        "summary": "Lasso's Fi program page reports 20% per sale with a 45-day cookie, conflicting with the 10% / 30-day figures on Sovrn and the Awin-based comparison — so commission_rate is recorded as NULL with the conflict noted rather than guessing. No 'no cap' statement was found on any fetched source, so the cap is UNKNOWN."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": null,
+      "application_url": "https://getlasso.co/affiliate/fi-smart/",
+      "source_url": "https://merchants.sovrn.com/merchants/139515/fi-smart-dog-collar-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Fi Affiliate Program — GPS dog collar, rate conflict across networks (10% Awin/Sovrn vs 20% listings), join via Awin/Sovrn",
+      "application_url": "https://getlasso.co/affiliate/fi-smart/",
+      "source_url": "https://merchants.sovrn.com/merchants/139515/fi-smart-dog-collar-affiliate-program"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 14,
+      "compensation": 12,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "GPS dog collars are a flagship pet-tech product — escape alerts and activity data demo extremely well in pet UGC",
+        "ugc_evidence": "Program is sold through creator-friendly networks (Awin, Sovrn, CJ historically) for blogs and social promotion; no dedicated creator page on the brand site was found",
+        "compensation": "Published rates conflict (10% vs 20% across current listings), so rate is null; collar + membership pricing gives mid-ticket order values",
+        "contact_access": "Brand publishes press@tryfi.com and support@tryfi.com, but no affiliate-specific email was found, so access is scored mid-range",
+        "opportunity_availability": "Open publisher application through Awin/Sovrn",
+        "credibility": "Category leader in smart dog collars, founded 2017, nationwide Verizon LTE-M coverage and national press coverage"
+      }
+    }
+  },
+  {
+    "name": "Halo Collar",
+    "website": "https://www.halocollar.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US pet-tech brand (Protect Animals with Satellites LLC) behind the Halo GPS wireless dog fence collar — app-created virtual fences, real-time tracking and training feedback, associated with Cesar Millan — sold through its own store with an affiliate program on Partnerize.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.halocollar.com/affiliate-terms-and-conditions/",
+        "email": null,
+        "source_url": "https://www.halocollar.com/affiliate-terms-and-conditions/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.halocollar.com/affiliate-terms-and-conditions/",
+        "summary": "Official Halo Collar Affiliate Program Terms (updated August 10, 2026) fetched: the program runs on Partnerize (Performance Horizon), applications are evaluated within 5 business days, orders through affiliate links earn commissions within a 15-day cookie window, and accessory-only purchases earn nothing. The terms publish NO commission percentage, and third-party figures conflict (Lasso lists an implausible 50%), so commission_rate is recorded as NULL. No 'no cap' statement appears in the terms, so the cap is UNKNOWN."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.halocollar.com/affiliate-terms-and-conditions/",
+        "summary": "The same official terms contain detailed creator-content rules: affiliates may publish original photography and short/long-form video (reviews, unboxings, tutorials, lifestyle), must follow the collar Fitting & Orientation Guide, must use prescribed sponsored-content disclosures on YouTube, social and short-form, and grant Halo a licence to reuse their content — a genuinely UGC-facing program."
+      }
+    ],
+    "affiliate": {
+      "network": "Partnerize",
+      "commission_rate": null,
+      "application_url": "https://www.halocollar.com/affiliate-terms-and-conditions/",
+      "source_url": "https://www.halocollar.com/affiliate-terms-and-conditions/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Halo Collar Affiliate Program — GPS wireless dog fence via Partnerize, 15-day cookie, rate set in Partnerize (not published)",
+      "application_url": "https://www.halocollar.com/affiliate-terms-and-conditions/",
+      "source_url": "https://www.halocollar.com/affiliate-terms-and-conditions/"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 16,
+      "compensation": 12,
+      "contact_access": 8,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "GPS virtual-fence collars are premium pet-tech that demos dramatically in outdoor and rural-living pet UGC",
+        "ugc_evidence": "Official terms are written around affiliate-created video and photo content, with content standards, disclosure language and a brand reuse licence — strong UGC evidence",
+        "compensation": "No rate is published in the official terms and third-party figures conflict, so rate is null; the collar is a high-ticket product",
+        "contact_access": "Application and management run through Partnerize; no program email is published in the fetched terms",
+        "opportunity_availability": "Application reviewed within 5 business days, but coupon-only and several content categories are prohibited, so availability is scored lower",
+        "credibility": "Established US pet-tech company with detailed, current (Aug 2026) program terms and a named operating LLC"
+      }
+    }
+  },
+  {
+    "name": "SpotOn Fence",
+    "website": "https://spotonfence.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "New Hampshire pet-tech company (founded 2016) behind the SpotOn GPS Dog Fence — a collar that creates portable virtual boundaries via app and a 128-satellite network, with optional cellular plans — sold through its own store with an affiliate program on Impact.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://spotonfence.com",
+        "email": null,
+        "source_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+        "summary": "LinkClicky's SpotOn Virtual Fence program page reports the affiliate program on Impact at 6.6% per sale for the GPS dog fence at spotonfence.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/spoton/",
+        "summary": "Lasso's SpotOn program page instead reports 'up to 10.5%' with a 14-day cookie — conflicting with the 6.6% / Impact / 30-day figures reported by LinkClicky and Meer's World, so commission_rate is recorded as NULL with the conflict noted. No 'no cap' statement was found on any fetched source, so the cap is UNKNOWN."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+      "source_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "SpotOn GPS Dog Fence Affiliate Program — via Impact, rate conflict across listings (6.6% vs up to 10.5%)",
+      "application_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/",
+      "source_url": "https://linkclicky.com/affiliate-program/spoton-virtual-fence/"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 12,
+      "compensation": 12,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Portable GPS dog fencing is a distinctive, demonstrable pet-tech product for rural, RV and large-property pet UGC",
+        "ugc_evidence": "Program runs through Impact for publishers and reviewers; no dedicated creator page on the brand site was found",
+        "compensation": "Reported rates conflict (6.6% vs up to 10.5%), so rate is null; the collar system is high-ticket",
+        "contact_access": "No program email published on the fetched sources; application via Impact",
+        "opportunity_availability": "Open publisher application through Impact",
+        "credibility": "US pet-tech company founded 2016, flagship GPS fence on the market since 2019"
+      }
+    }
+  },
+  {
+    "name": "Tineco",
+    "website": "https://us.tineco.com",
+    "country": "China",
+    "category_slug": "home",
+    "description": "Smart home-appliance brand selling cordless vacuums, floor washers and other intelligent cleaning appliances through its own US store, with affiliate programs on CJ and other networks and a creator/influencer partnership route.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://us.tineco.com",
+        "email": null,
+        "source_url": "https://linkclicky.com/affiliate-program/tineco/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/tineco/",
+        "summary": "LinkClicky's Tineco program page reports the Tineco affiliate program on CJ Affiliate at 5% per sale for its smart cleaning appliances at us.tineco.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/tineco/",
+        "summary": "Lasso's Tineco page instead reports 8% per sale with a 30-day cookie, and other network listings show 5.5% and lower CPA figures — the published rates conflict, so commission_rate is recorded as NULL with the conflict noted. No 'no cap' statement was found on any fetched source, so the cap is UNKNOWN."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ",
+      "commission_rate": null,
+      "application_url": "https://linkclicky.com/affiliate-program/tineco/",
+      "source_url": "https://linkclicky.com/affiliate-program/tineco/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Tineco Affiliate Program — smart vacuums/floor washers via CJ, rate conflict across listings (5% vs 8%)",
+      "application_url": "https://linkclicky.com/affiliate-program/tineco/",
+      "source_url": "https://linkclicky.com/affiliate-program/tineco/"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 12,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Cordless vacuums and floor washers are staple demonstrable appliances for home-cleaning UGC",
+        "ugc_evidence": "Tineco runs creator/influencer partnership outreach (UGC and campaign partnerships with referral earnings) alongside its network affiliate programs",
+        "compensation": "Published rates conflict across current listings (5% CJ vs 8% Lasso vs 5.5% network panels), so rate is null",
+        "contact_access": "No program email published on the fetched sources; application via CJ/networks",
+        "opportunity_availability": "Open publisher application through CJ and other networks",
+        "credibility": "Major global smart-appliance brand with a large US store and retail presence"
+      }
+    }
+  },
+  {
+    "name": "Nexderma",
+    "website": "https://nexderma.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US pet skincare brand (Genadyne/Nexderma, Huntington NY) selling medicated dog shampoos and skin-care products through its own store, with a distinctive UGC affiliate program: creators film a video, the brand runs it as a paid Meta ad, and the creator earns commission on every sale it generates.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://nexderma.com/pages/affiliate-information",
+        "email": "Info@nexderma.com",
+        "source_url": "https://nexderma.com/pages/affiliate-information"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://nexderma.com/pages/affiliate-information",
+        "summary": "Official Nexderma affiliate page fetched: 'Film a video. Send it to us. We run it as a paid ad — and you earn 10% on every sale it generates'; commissions are tracked through UpPromote, paid quarterly, the brand covers all ad spend on Facebook/Instagram, and no following or ad experience is required — 'You just need a dog and an honest story.' The page's 'No cap' wording refers to how many VIDEOS an affiliate may submit, NOT to an earnings limit, so the commission cap is honestly recorded as UNKNOWN."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://nexderma.com/pages/affiliate-information",
+        "summary": "The same page publishes contact Info@nexderma.com, phone (877) 215-8201 and the address 226 East Main Street, Huntington, NY 11743."
+      }
+    ],
+    "affiliate": {
+      "network": "UpPromote",
+      "commission_rate": 10,
+      "application_url": "https://nexderma.com/pages/affiliate-information",
+      "source_url": "https://nexderma.com/pages/affiliate-information",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Nexderma UGC Affiliate Program — film a video, brand runs it as a paid ad, 10% on every sale via UpPromote (Info@nexderma.com)",
+      "application_url": "https://nexderma.com/pages/affiliate-information",
+      "source_url": "https://nexderma.com/pages/affiliate-information"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 19,
+      "compensation": 15,
+      "contact_access": 11,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Medicated dog shampoo/skin care is a narrower pet niche, but before/after bath content is highly demonstrable",
+        "ugc_evidence": "The entire program IS UGC: creators film an honest video with their dog, the brand runs it as its own paid ad and pays per sale — the strongest UGC evidence in this batch",
+        "compensation": "Clear published 10% on every sale the video generates, with brand-funded ad spend scaling winners; cap is unknown (the page's 'no cap' is about video count, not earnings)",
+        "contact_access": "Published Info@nexderma.com and phone on the official program page",
+        "opportunity_availability": "Open application via UpPromote; real dog owners who have used the product only, no follower minimum",
+        "credibility": "US company with published addresses and phone; smaller niche brand, so credibility is scored mid-range"
+      }
+    }
+  }
+]

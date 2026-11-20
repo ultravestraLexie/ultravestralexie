@@ -1,0 +1,570 @@
+[
+ {
+  "name": "utusori",
+  "website": "https://www.utusori.com",
+  "country": "Canada",
+  "category_slug": "fashion",
+  "description": "Everyday clothing brand built around deliberate colour combinations, releasing two collections a year. Its year-round creator programme pays a 20% founding rate (15% standard after the founding group) on every eligible order through a creator's code or link, with no posting quota, no exclusivity, and an explicit no-cap statement in its programme FAQ.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.utusori.com/creators/",
+    "summary": "Official creator page: founding affiliates earn 20% on every eligible order for 12 months from activation, then the standard 15% with no end date; the page states 'There is no cap on what you can earn.' Commission is on the eligible merchandise subtotal after discount; 30-day link window, code is the primary attribution; monthly payouts at a USD 25 / CAD 35 minimum."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.utusori.com/creators/",
+    "summary": "Official FAQ on the same page answers 'Is there a cap on earnings?' with 'No cap on valid commission from eligible orders.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.utusori.com/creators/",
+    "summary": "Programme terms on the official page: no posting quota, no script, no exclusivity, creators keep ownership of their content; open to English-language creators anywhere whose audience is at least half US and Canada combined; follower count is not a screen. The page notes the programme activates only when the store's checkout is live."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://www.utusori.com/creators/",
+   "source_url": "https://www.utusori.com/creators/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.utusori.com/creators/",
+   "source_url": "https://www.utusori.com/creators/",
+   "title": "utusori Creator and Affiliate Program (founding group)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 19,
+   "contact_access": 4,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "20% founding rate (15% standard after 12 months) with an explicit 'There is no cap on what you can earn' statement and a matching FAQ answer.",
+    "contact_access": "No email is published on the page; support runs through a form on the site.",
+    "credibility": "Operated by Premium Framework Inc. (Ottawa, Canada) and Vodallo LLC (US) per its own FAQ, but a young, little-known label whose store checkout was not yet live at research time.",
+    "niche_fit": "Colour-led everyday clothing maps directly onto styling, wardrobe-building and streetwear creator content.",
+    "opportunity_availability": "Founding-group application is open, but the page states codes activate only when the store's checkout opens, so availability is scored down.",
+    "ugc_evidence": "Explicitly a creator programme (no quota, no script, content stays the creator's), but no creator counts are published, so saturation stays unknown."
+   }
+  }
+ },
+ {
+  "name": "HatLaunch",
+  "website": "https://www.hatlaunch.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Custom embroidered hat brand selling made-to-order headwear for teams, brands and creators. Its own affiliate program pays a default 10% commission on every qualifying order through a custom short link, with a live dashboard, and states there is no cap on what affiliates can make.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.hatlaunch.com/affiliates",
+    "summary": "Official affiliate page: 'Share your custom HatLaunch link. Earn cash on every qualifying order - no cap on what you can make.' Default commission rate is 10% (adjustable per affiliate for large audiences), calculated on the subtotal after tax and shipping; commissions payable 30 days after the order date."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.hatlaunch.com/affiliates",
+    "summary": "Official page: program is 'Built for creators, sports teams, and anyone whose audience wears hats'; affiliates get a custom hatlaunch.com/yourcode link and a dashboard tracking clicks, orders and payouts; followers get 2 free hats on orders of 12 or more items. Applications are reviewed within a few business days."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://www.hatlaunch.com/affiliates",
+   "source_url": "https://www.hatlaunch.com/affiliates",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.hatlaunch.com/affiliates",
+   "source_url": "https://www.hatlaunch.com/affiliates",
+   "title": "HatLaunch Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 4,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "Default 10% per order with an explicit 'no cap on what you can make' statement; rate can be raised per affiliate at application.",
+    "contact_access": "No email is published on the page; contact runs through the application form.",
+    "credibility": "Operating custom-hat storefront with a defined affiliate operation, but a small brand with no published scale figures.",
+    "niche_fit": "Custom hats are a wearable, easy-to-show fashion accessory for creator, team and merch content.",
+    "opportunity_availability": "Open application on the official page, reviewed within a few business days.",
+    "ugc_evidence": "Page is written for creators with dashboard tracking and shareable short links, but publishes no creator counts, so saturation stays unknown."
+   }
+  }
+ },
+ {
+  "name": "TeamProKit",
+  "website": "https://www.teamprokit.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Replica and fan-version football jersey store. Its own affiliate program pays 10% on every eligible order through a referral link with a 30-day cookie, ready-made banners and product images, monthly PayPal payouts at a $50 threshold, and states there is no cap on commissions.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.teamprokit.com/pages/affiliate-program",
+    "summary": "Official affiliate page: 'You earn 10% on every eligible order attributed to your link. The 30-day cookie... The more you share, the more you earn: there is no cap on commissions.' FAQ repeats: 'You earn 10% on every eligible order through your link, with no cap on total earnings.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.teamprokit.com/pages/affiliate-program",
+    "summary": "Official page: program is open to content creators (blogs, YouTube, TikTok, Instagram, podcasts), fan accounts and communities, and stores/resellers; no minimum following and no application fee; affiliates receive banners, product imagery and a dashboard; payouts monthly via PayPal once the balance reaches $50."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://www.teamprokit.com/pages/affiliate-program",
+   "source_url": "https://www.teamprokit.com/pages/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.teamprokit.com/pages/affiliate-program",
+   "source_url": "https://www.teamprokit.com/pages/affiliate-program",
+   "title": "TeamProKit Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 4,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "10% on every eligible order with an explicit 'no cap on commissions' statement in both the terms section and the FAQ.",
+    "contact_access": "No email address is printed in the fetched page text; the page says its support desk replies within 24 business hours.",
+    "credibility": "Operating jersey storefront with published programme rules and payout terms, but a small, replica-focused brand.",
+    "niche_fit": "Replica football jerseys map directly onto football fan, matchday and sports-fashion creator content.",
+    "opportunity_availability": "Free and open to anyone with an audience; no minimum following, no fee.",
+    "ugc_evidence": "Creators and fan communities are named as the target partners with ready-made creatives provided; no creator counts published, so saturation stays unknown."
+   }
+  }
+ },
+ {
+  "name": "Kalimi",
+  "website": "https://kalimi.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel eSIM provider selling data plans for travellers, remote workers and digital nomads. Its own affiliate program pays 20% on a referral's first purchase and 10% lifetime on later top-ups, with a 180-day cookie, real-time dashboard, monthly payouts at a $50 threshold, and an FAQ stating there is no cap on earnings.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://kalimi.com/affiliate",
+    "summary": "Official affiliate page FAQ: 'You earn 20% on your referral's first purchase and 10% on every purchase they make after that, for life. There's no cap on how much you can earn.' The lifetime tier requires at least 75 orders from new clients per month to unlock and keep, per the same page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://kalimi.com/affiliate",
+    "summary": "Official page: 180-day cookie (six times the stated 30-day standard), free to join, most partners approved within 24 hours, paid monthly in the first week of the month at a $50 minimum via bank transfer or PayPal; no minimum audience required."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://kalimi.com/affiliate",
+    "summary": "Official page names its target partners: travel bloggers, digital nomads, YouTubers, travel communities, newsletter writers, TikTok creators, comparison sites and tour operators; affiliates get banners, deep links, discount codes and a dedicated affiliate manager."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://kalimi.com/affiliate",
+   "source_url": "https://kalimi.com/affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://kalimi.com/affiliate",
+   "source_url": "https://kalimi.com/affiliate",
+   "title": "Kalimi Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 15,
+   "compensation": 18,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "20% on first purchases plus 10% lifetime on top-ups, with an explicit 'There's no cap on how much you can earn' FAQ answer; the lifetime tier's 75-orders-a-month condition is noted.",
+    "contact_access": "A dedicated affiliate manager is promised on the official page, but the contact email was masked in the fetched copy, so no email is recorded.",
+    "credibility": "Operating eSIM storefront with concrete published terms, but a smaller name than the major eSIM brands already in the directory.",
+    "niche_fit": "eSIM data is a near-universal need in travel content, and the 180-day cookie suits slow-planning audiences.",
+    "opportunity_availability": "Free signup with approval typically within 24 hours and no minimum audience.",
+    "ugc_evidence": "Travel creators are named as core partners with ready-made creatives; no creator counts published, so saturation stays unknown."
+   }
+  }
+ },
+ {
+  "name": "Gravgear",
+  "website": "https://sg.thegravgear.com",
+  "country": "Singapore",
+  "category_slug": "fitness",
+  "description": "Singapore calisthenics and home-gym gear brand (Gravgear SG). Its affiliate program, run through BixGrow, pays 25% commission on physical items and 30% on digital products, is open to content creators, athletes and fitness coaches, and states there is no limit and no cap on earnings.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "collabs@thegravgear.com",
+    "source_url": "https://sg.thegravgear.com/pages/gravgear-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://sg.thegravgear.com/pages/gravgear-affiliate-program",
+    "summary": "Official affiliate page: 'Refer to your followers, and earn 25% of all referred payments. There's no limit to how much you can earn.' and 'Get 25% commission on physical items and 30% for digital ones. No cap on earnings.' Commission is paid within 5 days of the next month via PayPal."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://sg.thegravgear.com/pages/gravgear-affiliate-program",
+    "summary": "Official page eligibility table: content creators and influencers, athletes, fitness coaches, email newsletters, bloggers and writers, and media networks can all join; affiliates get a portal to create and track links plus a resource centre. Contact email published on the page: collabs@thegravgear.com."
+   }
+  ],
+  "affiliate": {
+   "network": "BixGrow",
+   "commission_rate": 25,
+   "application_url": "https://gravgearsg.bixgrow.com",
+   "source_url": "https://sg.thegravgear.com/pages/gravgear-affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://gravgearsg.bixgrow.com",
+   "source_url": "https://sg.thegravgear.com/pages/gravgear-affiliate-program",
+   "title": "Gravgear Affiliate Program (BixGrow)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 19,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "25% on physical gear and 30% on digital products, with explicit 'No cap on earnings' and 'no limit' statements on the official page - one of the highest rates in this round.",
+    "contact_access": "Published collaborations email (collabs@thegravgear.com) on the official affiliate page.",
+    "credibility": "A real Singapore calisthenics-gear storefront, but a small regional brand, so credibility stays low.",
+    "niche_fit": "Calisthenics and home-gym equipment demos and reviews are a natural fit for fitness creators.",
+    "opportunity_availability": "Open application through the BixGrow affiliate portal linked from the official page.",
+    "ugc_evidence": "Creators, athletes and coaches are the named eligible partners with a resource centre provided; no creator counts published, so saturation stays unknown."
+   }
+  }
+ },
+ {
+  "name": "AIBJJ",
+  "website": "https://aibjj.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "AI-powered Brazilian Jiu-Jitsu training platform with an AI coach, technique library, training journal and game plan builder. Its affiliate program pays 30% recurring commission on every Pro subscription referred ($6/month per active referral at the $19.99 Pro price), with a 60-day cookie and an FAQ stating there is no earning cap.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://aibjj.com/affiliates",
+    "summary": "Official affiliate page: 'Every time someone signs up for Pro, you earn 30% every single month they stay subscribed. No caps. No expiry.' and the FAQ answers 'Is there an earning cap?' with 'None. There's no limit to how many referrals you can have or how much you can earn.' Pro is $19.99/month, so each active referral pays $6/month; 60-day cookie; monthly payouts via PayPal or Stripe at a $50 minimum."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://aibjj.com/affiliates",
+    "summary": "Official page: target partners are BJJ academy owners, coaches and instructors, YouTubers and content creators, Instagram pages, podcast hosts and bloggers; creators who also sell instructionals on the platform earn 85% on their own instructional sales. Applications are reviewed within 2-3 business days and require a free AIBJJ account."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 30,
+   "application_url": "https://aibjj.com/affiliates",
+   "source_url": "https://aibjj.com/affiliates",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://aibjj.com/affiliates",
+   "source_url": "https://aibjj.com/affiliates",
+   "title": "AIBJJ Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 19,
+   "contact_access": 4,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "30% recurring for the life of each referred subscription, with an explicit 'no earning cap' FAQ answer - a high, recurring rate, on a small $19.99 subscription base.",
+    "contact_access": "No email is published on the page; applications run through the on-page form.",
+    "credibility": "A niche, young AI training platform; transparent terms, but no proven scale is published.",
+    "niche_fit": "A defined fit for BJJ and martial-arts creators, narrower than general fitness.",
+    "opportunity_availability": "Open application with review in 2-3 business days; a free account is required first.",
+    "ugc_evidence": "YouTubers, Instagram pages and podcasters are named target partners; no creator counts published, so saturation stays unknown."
+   }
+  }
+ },
+ {
+  "name": "ISSA",
+  "website": "https://www.issaonline.com",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "International Sports Sciences Association (ISSA), a long-running US fitness certification provider (personal training, nutrition coaching and specialisations). Its affiliate program is powered by Impact and pays commission on referred course purchases; the official page states there is no limit to how much affiliates can earn, but publishes no percentage rate.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.issaonline.com/pages/become-an-affiliate",
+    "summary": "Official affiliate page: 'The ISSA Affiliate Program pays you for referring customers to issaonline.com... When customers make a purchase, you earn a commission for each valid transaction. There is no limit to how much you can earn. In 2022, our top partners earned over $100,000 in commission.' No commission percentage is published anywhere on the page, so commission_rate is recorded as null rather than guessed."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.issaonline.com/pages/become-an-affiliate",
+    "summary": "Official page: 'The ISSA Affiliate Program is powered by Impact, the world's leading partner automation platform', with a dedicated affiliate team providing offers and setup support; partners place links on websites, blogs or social media pages."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.issaonline.com/pages/become-an-affiliate",
+   "source_url": "https://www.issaonline.com/pages/become-an-affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.issaonline.com/pages/become-an-affiliate",
+   "source_url": "https://www.issaonline.com/pages/become-an-affiliate",
+   "title": "ISSA Affiliate Program (Impact)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 5,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "An explicit 'There is no limit to how much you can earn' statement, but no percentage rate is published on the official page, so compensation scores low until the rate is confirmed inside Impact.",
+    "contact_access": "No partnerships email is published on the page; contact runs through the Impact network and ISSA's affiliate team.",
+    "credibility": "Long-established US certification body running its program through Impact, a major network, with a published Phoenix, AZ address.",
+    "niche_fit": "Fitness certification courses fit trainer and coach creators whose audiences want credentials, though it is education rather than a consumer product.",
+    "opportunity_availability": "Open signup via the official page and the Impact network.",
+    "ugc_evidence": "The page invites links on social media pages and names top partners, but publishes no creator counts, so saturation stays unknown."
+   }
+  }
+ },
+ {
+  "name": "Puppy Yoga Club",
+  "website": "https://puppy-yogaclub.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Puppy yoga experience brand running wellness classes with puppies across North America. Its affiliate program, tracked through UpPromote, pays 20% on every ticket and 15% lifetime on memberships, gives referrals a 10% discount, and states there is no limit to how much affiliates can earn.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "hello@puppy-yogaclub.com",
+    "source_url": "https://puppy-yogaclub.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://puppy-yogaclub.com/pages/affiliate",
+    "summary": "Official affiliate page: 'Earn 20% on every ticket and 15% on memberships monthly, just by sharing your link. There's no limit to how much you can earn.' Memberships pay 15% lifetime; referrals receive a 10% discount; 30-day cookie; payments on the 7th of each month by bank transfer at a $50 minimum."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://puppy-yogaclub.com/pages/affiliate",
+    "summary": "Official page: the program is aimed at YouTubers, content creators and content writers, and states 'Join +1500 affiliates' - a four-figure affiliate count, so saturation is recorded as unknown, not low. Brand assets are offered on request via hello@puppy-yogaclub.com; paid ads and coupon sites are prohibited."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 20,
+   "application_url": "https://affiliates.puppy-yogaclub.com",
+   "source_url": "https://puppy-yogaclub.com/pages/affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://affiliates.puppy-yogaclub.com",
+   "source_url": "https://puppy-yogaclub.com/pages/affiliate",
+   "title": "Puppy Yoga Club Affiliate Program (UpPromote)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 16,
+   "compensation": 18,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "20% on tickets and 15% lifetime on memberships, with an explicit 'There's no limit to how much you can earn' statement.",
+    "contact_access": "Published email (hello@puppy-yogaclub.com) on the official affiliate page for brand assets and questions.",
+    "credibility": "Operating experience brand with published payout terms, but a novelty, location-based offer rather than a product line.",
+    "niche_fit": "Puppy yoga classes are highly visual, shareable fitness-experience content, though limited to the cities it operates in.",
+    "opportunity_availability": "Apply-in-seconds signup through the UpPromote portal linked from the official page.",
+    "ugc_evidence": "Creators are the named audience and the page itself reports 1,500+ affiliates, so the programme is active but not low-saturation."
+   }
+  }
+ },
+ {
+  "name": "Iron House",
+  "website": "https://joinironhouse.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Personal-trainer matching marketplace (IronHouse) that pairs clients with vetted trainers by personality, goals, coaching style and budget, with a free rematch guarantee. Its affiliate program generates an instant referral link and pays a flat $50 for every client signup, with no cap on earnings and monthly payouts via PayPal or Venmo.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://joinironhouse.com/affiliate.html",
+    "summary": "Official affiliate page: '$50 per client signup', 'No cap on earnings', 'Monthly payouts', 'Instant link generation'. 'Every person who clicks your link and signs up puts $50 in your pocket' and the link never expires. The pay is a flat $50 bounty per signup, not a percentage, so commission_rate is recorded as null rather than as a percentage."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://joinironhouse.com/affiliate.html",
+    "summary": "Official page: signup takes about 30 seconds (name and email, optional Instagram handle) and the referral link is generated on the spot; payouts are processed monthly via PayPal or Venmo under the linked affiliate terms; matching is free for the client, with an average 48 hours to a matched trainer and a free rematch if the fit is wrong."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://joinironhouse.com/affiliate.html",
+   "source_url": "https://joinironhouse.com/affiliate.html",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://joinironhouse.com/affiliate.html",
+   "source_url": "https://joinironhouse.com/affiliate.html",
+   "title": "Iron House Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 4,
+   "opportunity_availability": 10,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "Flat $50 per client signup with an explicit 'No cap on earnings' statement - a strong bounty, scored below percentage programs because it is a one-off signup payment, not a share of sales.",
+    "contact_access": "A questions email is linked on the page but was masked in the fetched copy, so no email is recorded; signup is self-serve.",
+    "credibility": "A young matching marketplace with clear terms and a rematch guarantee, but no published scale or track record.",
+    "niche_fit": "Trainer matching speaks directly to fitness creators' audiences, most of whom already want a trainer per the brand's own pitch.",
+    "opportunity_availability": "Instant link generation on a 30-second signup - the lowest-friction join in this round.",
+    "ugc_evidence": "The pitch is written for fitness creators (bio links, video mentions, stories), but no creator counts are published, so saturation stays unknown."
+   }
+  }
+ },
+ {
+  "name": "Just Because Jewelry",
+  "website": "https://justbecausejewelry.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Luxury lab-grown diamond jewellery brand built around self-gifting and everyday luxury. Its own affiliate program pays 10% commission on every referred sale with a 30-day cookie, a dedicated dashboard, monthly payouts, and states 'No cap on earnings - ever', with approval typically within 48 hours.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://justbecausejewelry.com/affiliate",
+    "summary": "Official affiliate page: '10% Commission on every sale you refer', '30 Day cookie window on all online sales', 'No cap on earnings - ever', '48h Approval turnaround after you apply'; and 'Earn 10% on every purchase made through your link - no cap, no limits.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://justbecausejewelry.com/affiliate",
+    "summary": "Official page: program is 'Made for creators' - content creators, lifestyle bloggers and influencers whose audiences love self-gifting, fine jewellery and everyday luxury; affiliates get a dedicated dashboard tracking clicks, sales and earnings, monthly payouts, and early access to new collections and promotions."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://justbecausejewelry.com/affiliate",
+   "source_url": "https://justbecausejewelry.com/affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://justbecausejewelry.com/affiliate",
+   "source_url": "https://justbecausejewelry.com/affiliate",
+   "title": "Just Because Jewelry Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 4,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "10% on every sale with an explicit 'No cap on earnings - ever' statement on the official page.",
+    "contact_access": "No email is published on the page; applications run through the on-page form.",
+    "credibility": "Operating lab-grown diamond storefront with defined affiliate terms, but a small, young luxury brand.",
+    "niche_fit": "Lab-grown diamond jewellery fits gifting, self-gifting and everyday-luxury fashion content well.",
+    "opportunity_availability": "Open application with approval typically within 48 hours.",
+    "ugc_evidence": "The page is written for creators with dashboard tracking and early collection access, but publishes no creator counts, so saturation stays unknown."
+   }
+  }
+ }
+]
