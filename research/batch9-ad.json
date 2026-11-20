@@ -1,0 +1,600 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://gym-pin.co.uk/pages/the-gympin-affiliate-programe",
+   "commission_cap": "uncapped",
+   "commission_rate": 10,
+   "creator_saturation": "low",
+   "network": null,
+   "source_url": "https://gym-pin.co.uk/pages/affiliate-programme-terms-and-conditions"
+  },
+  "category_slug": "fitness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://gym-pin.co.uk/pages/the-gympin-affiliate-programe",
+    "email": null,
+    "source_url": "https://gym-pin.co.uk/pages/the-gympin-affiliate-programe"
+   }
+  ],
+  "country": "United Kingdom",
+  "description": "UK gym-equipment specialist founded around its original GymPin lifting pin, now selling cable-machine attachments, D-handles, loading pins and other strength-training accessories direct to consumers, with a tiered Athlete Programme (Bronze, Silver, Gold) aimed at strength-training creators and coaches.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gym-pin.co.uk/pages/affiliate-programme-terms-and-conditions",
+    "summary": "GymPin's official Affiliate Programme Terms (Version 1.0, effective 19 August 2026) state affiliates earn 10% commission on Net Qualifying Sales, the audience gets 10% off, tracking lasts up to 30 days, and state verbatim: 'commission is uncapped'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gym-pin.co.uk/blogs/articles/why-become-a-gympin-affiliate",
+    "summary": "GymPin's official programme overview repeats the offer as '10% commission on qualifying referred sales, with no earnings cap', a 10% audience discount and a 30-day tracking window, with Bronze/Silver/Gold progression."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://gym-pin.co.uk/pages/the-gympin-affiliate-programe",
+    "summary": "The programme page ('Create content. Build trust. Earn 10%.') is built for content creators, applications are reviewed manually by the GymPin team ('Acceptance is not automatic'), and the terms are Version 1.0 effective August 2026 — a newly launched, small programme, which is the basis for the low-saturation mark."
+   }
+  ],
+  "name": "GymPin",
+  "opportunity": {
+   "application_url": "https://gym-pin.co.uk/pages/the-gympin-affiliate-programe",
+   "source_url": "https://gym-pin.co.uk/pages/the-gympin-affiliate-programe",
+   "title": "GymPin Athlete Programme"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 9,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% commission with an explicit uncapped statement in the brand's own terms, plus a 10% audience discount.",
+    "contact_access": "A public application page with manual team review, but no published partnerships email.",
+    "credibility": "A small UK specialist (GYMPIN (UK) LTD, registered in England and Wales) with a narrow product range and little independent coverage.",
+    "niche_fit": "Strength-training equipment and cable attachments are a core fitness-creator niche, though narrower than apparel.",
+    "opportunity_availability": "Applications are open now at the Bronze entry level, subject to manual approval.",
+    "ugc_evidence": "A dedicated Athlete Programme with creator-facing content licensing terms and tier progression, but at a very early stage."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://gym-pin.co.uk"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Social Snowball",
+   "source_url": "https://www.socialsnowball.io/post/gymreapers-affiliate-marketing-case-study"
+  },
+  "category_slug": "fitness",
+  "contacts": [],
+  "country": null,
+  "description": "Performance fitness brand for serious lifters selling lifting belts, knee sleeves, wrist wraps, straps and training apparel, known for a large multi-program creator operation spanning sponsored athletes, commission-only affiliates, TikTok creators and brand ambassadors.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.socialsnowball.io/post/gymreapers-affiliate-marketing-case-study",
+    "summary": "Social Snowball's case study of Gymreapers' program publishes its tier structure: Tier 1 Elite Sponsored Athletes, Tier 2 Growth Athletes and Tier 3 Proven Performers each earn retainers plus 10% commission, and Tier 4 Community/Affiliate Base is commission-only at 10% with a welcome gift — the open entry point for UGC creators."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.socialsnowball.io/post/gymreapers-affiliate-marketing-case-study",
+    "summary": "The same case study says Gymreapers runs separate programs for athletes, commission-only affiliates, TikTok creators and ambassadors (including a dedicated TikTok Shop affiliate program), with affiliates driving 10% of total revenue ($85K-$100K per month) — a large, mature creator operation, so no low-saturation claim is made."
+   }
+  ],
+  "name": "Gymreapers",
+  "opportunity": null,
+  "score": {
+   "compensation": 13,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "10% commission at every tier per the published case study, with retainers at upper tiers; no cap statement is published, so the cap is honestly unknown.",
+    "contact_access": "No published partnerships email or official application page was verified in the fetched sources.",
+    "credibility": "Established lifting brand whose affiliate channel alone is reported at $85K-$100K revenue per month.",
+    "niche_fit": "Lifting gear and apparel built for gym creators — squarely in the fitness UGC niche.",
+    "opportunity_availability": "The Tier 4 community/affiliate base is the open entry point, but joining routes run through the brand's program pages rather than a public network listing.",
+    "ugc_evidence": "A documented multi-program creator strategy with a dedicated TikTok affiliate program and a commission-only UGC entry tier."
+   },
+   "ugc_evidence": 17
+  },
+  "socials": [],
+  "website": "https://www.gymreapers.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.wandrd.com/pages/collab",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://www.wandrd.com/pages/collab"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.wandrd.com/pages/collab",
+    "email": null,
+    "source_url": "https://www.wandrd.com/pages/collab"
+   }
+  ],
+  "country": null,
+  "description": "Travel and camera gear brand selling modular backpacks, slings, duffels and packing accessories (the PRVKE line is its best known) designed for photographers and travellers, sold direct through its own store.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.wandrd.com/pages/collab",
+    "summary": "WANDRD's official Collabs page invites affiliates to 'Join our Affiliate Program and earn a cut on every sale you inspire', with sign-up routed through Awin (the page's Join button links to ui.awin.com). No commission percentage is published on the page, so the rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.wandrd.com/pages/collab",
+    "summary": "The same page runs a separate Collaborators route — 'apply now to join the WANDRD Creator Community' for future product campaigns via an Airtable application — noting applications are reviewed quarterly."
+   }
+  ],
+  "name": "WANDRD",
+  "opportunity": {
+   "application_url": "https://www.wandrd.com/pages/collab",
+   "source_url": "https://www.wandrd.com/pages/collab",
+   "title": "WANDRD Affiliate Program & Creator Community"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No commission rate is published anywhere fetched, so this stays low per the rubric despite the program being live.",
+    "contact_access": "A dedicated official collabs page with both an affiliate join route and a creator application — good access, though no published email.",
+    "credibility": "Established direct-to-consumer travel gear brand with a long-running flagship backpack line.",
+    "niche_fit": "Camera and travel bags are a staple of travel/photography creator content — strong niche fit.",
+    "opportunity_availability": "Affiliate sign-up is open via Awin; creator campaign applications are only reviewed quarterly.",
+    "ugc_evidence": "Two structured routes on the brand's own site: an Awin affiliate program plus a Creator Community for product campaigns."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://www.wandrd.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://admin.shopper.com/partnerships/topodesigns-com-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 4,
+   "creator_saturation": "low",
+   "network": null,
+   "source_url": "https://grin.co/case-studies/grin-topo-designs/"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://admin.shopper.com/partnerships/topodesigns-com-affiliate-program",
+    "email": null,
+    "source_url": "https://admin.shopper.com/partnerships/topodesigns-com-affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Denver, Colorado outdoor lifestyle brand designing versatile, sustainable bags, backpacks and apparel built 'for town to trail', sold through its own store and outdoor retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://grin.co/case-studies/grin-topo-designs/",
+    "summary": "GRIN's case study of Topo Designs' creator program reports 85+ active creator partnerships, 2.9M+ impressions and 2.6K+ conversions in the program's first year, built from hand-picked monthly curated creator lists — a published creator-partnership count under 100, which is the basis for the low-saturation mark."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://admin.shopper.com/partnerships/topodesigns-com-affiliate-program",
+    "summary": "Shopper's partnership listing for Topo Designs states a payout rate of 4% per sale with instant approval through its platform. No cap statement is published anywhere fetched, so the cap is honestly unknown."
+   }
+  ],
+  "name": "Topo Designs",
+  "opportunity": {
+   "application_url": "https://admin.shopper.com/partnerships/topodesigns-com-affiliate-program",
+   "source_url": "https://admin.shopper.com/partnerships/topodesigns-com-affiliate-program",
+   "title": "Topo Designs Affiliate Program"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Only a 4% rate is published, via a third-party listing — modest.",
+    "contact_access": "Join routes exist through partner platforms, but no published partnerships email was verified.",
+    "credibility": "Established Denver outdoor brand with national retail presence.",
+    "niche_fit": "Outdoor/travel bags and apparel fit travel and outdoor creator content well.",
+    "opportunity_availability": "The program is live and recruiting creators through its managed roster.",
+    "ugc_evidence": "A professionally managed creator program (GRIN) with curated monthly creator selection and 85+ active partnerships."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://topodesigns.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/herschel-supply-company/",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://getlasso.co/affiliate/herschel-supply-company/"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/herschel-supply-company/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/herschel-supply-company/"
+   }
+  ],
+  "country": "Canada",
+  "description": "Canadian accessories and lifestyle brand founded in 2009 by brothers Jamie and Lyndon Cormack, known for its backpacks, duffels, luggage and travel accessories sold globally through its own stores and retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/herschel-supply-company/",
+    "summary": "Lasso's Herschel Supply Company listing states an 8% commission per sale, and Lasso's luggage programs roundup places the program on the Impact network with a $50 payout threshold. No cap statement is published, so the cap is honestly unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/herschel/",
+    "summary": "LinkClicky's older (March 2024) listing instead shows Herschel on CJ Affiliate at 4%-6% per sale — flagged here as a network/rate conflict; the 8% Impact figure from the more recent Lasso roundup is the one recorded."
+   }
+  ],
+  "name": "Herschel Supply",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/herschel-supply-company/",
+   "source_url": "https://getlasso.co/affiliate/herschel-supply-company/",
+   "title": "Herschel Supply Company Affiliate Program"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "8% per sale on the most recent listing; an older listing conflicts at 4%-6%, noted in the evidence.",
+    "contact_access": "Joining runs through the affiliate network; no published partnerships email was verified.",
+    "credibility": "Global lifestyle brand founded in 2009 with worldwide retail distribution.",
+    "niche_fit": "Backpacks and travel accessories are a proven travel/lifestyle creator category.",
+    "opportunity_availability": "Open to apply through the network today.",
+    "ugc_evidence": "A long-running network affiliate program, but no dedicated creator or ambassador layer was evidenced."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://herschel.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "AvantLink",
+   "source_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate"
+  },
+  "category_slug": "fashion",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@lemsshoes.com",
+    "source_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate",
+    "email": null,
+    "source_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate"
+   }
+  ],
+  "country": null,
+  "description": "Footwear brand selling minimalist, foot-shaped shoes and boots (Primal, Boulder Boot and other lines) for everyday wear, hiking and travel, sold direct through its own store.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate",
+    "summary": "Lems' official 'Love Lems? Become an Affiliate!' page publishes the full offer: an affiliate payout of 8%, a 45-day cookie, an average order size of $130 and a 3.3%+ conversion rate, with applications routed through AvantLink. No cap statement is published, so the cap is honestly unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate",
+    "summary": "The same official page publishes affiliates@lemsshoes.com for program questions and frames the program as an ambassador offer for people who already recommend the shoes."
+   }
+  ],
+  "name": "Lems Shoes",
+  "opportunity": {
+   "application_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate",
+   "source_url": "https://www.lemsshoes.com/blogs/news/love-lems-become-an-affiliate",
+   "title": "Lems Shoes Affiliate / Ambassador Program (AvantLink)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 12,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 8% payout with a 45-day cookie and a $130 average order on the brand's own page.",
+    "contact_access": "A published affiliate email (affiliates@lemsshoes.com) plus an application link on the official page — near top band per the rubric.",
+    "credibility": "Long-running niche footwear brand, but with a modest mainstream footprint.",
+    "niche_fit": "Footwear fits fashion and outdoor-lifestyle creators, with a devoted barefoot-shoe niche audience.",
+    "opportunity_availability": "Applications are open now through AvantLink, with the brand contacting good-fit applicants.",
+    "ugc_evidence": "An ambassador-framed affiliate program on the brand's own site, though without a separate creator campaign layer."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.lemsshoes.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.fabletics.com/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate / FlexOffers",
+   "source_url": "https://gosavify.com/affiliate-programs/fabletics/"
+  },
+  "category_slug": "fitness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.fabletics.com/affiliate-program",
+    "email": null,
+    "source_url": "https://www.creator-hero.com/blog/top-20-best-us-fitness-influencer-affiliate-programs-brands-actively-seeking-influencers"
+   }
+  ],
+  "country": "United States",
+  "description": "Membership-based activewear brand co-founded by Kate Hudson in 2013, selling leggings, sports bras, scrubs and athleisure for women and men through a VIP subscription model and its own stores.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://gosavify.com/affiliate-programs/fabletics/",
+    "summary": "GoSavify's program summary reports Fabletics pays a flat fee per new VIP member (about $15 in most third-party reports) through CJ Affiliate and FlexOffers, with a separate influencer program paying a percentage; the brand does not publish its terms and listings disagree ($15, $16 and $24 per VIP all appear), so the percentage rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/fabletics",
+    "summary": "Referly's listing notes Fabletics also runs 'a separate, extensive influencer marketing program spanning micro-influencers to brand ambassadors' alongside the CJ-managed affiliate program — a large creator operation, so no low-saturation claim is made."
+   }
+  ],
+  "name": "Fabletics",
+  "opportunity": {
+   "application_url": "https://www.fabletics.com/affiliate-program",
+   "source_url": "https://gosavify.com/affiliate-programs/fabletics/",
+   "title": "Fabletics Affiliate Program (CJ Affiliate / FlexOffers)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A flat fee per new VIP member (about $15 in most reports) rather than a published percentage; reports conflict, so the rate is null and this stays low-mid per the rubric.",
+    "contact_access": "Applications run through CJ/FlexOffers and the brand's affiliate page; no published partnerships email was verified.",
+    "credibility": "One of the largest membership activewear brands, co-founded by Kate Hudson in 2013.",
+    "niche_fit": "Mainstream activewear with a VIP membership model — a core fitness-fashion creator niche.",
+    "opportunity_availability": "Open to apply through the networks today.",
+    "ugc_evidence": "Both a network affiliate program and a separate influencer program spanning micro-influencers to ambassadors."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.fabletics.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/106789",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/106789"
+  },
+  "category_slug": "fitness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/106789",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/106789"
+   }
+  ],
+  "country": null,
+  "description": "Contemporary women's brand selling elevated activewear alongside knitwear, outerwear and everyday staples — positioned as an elevated wardrobe for how women live and move — through its own stores in the US and UK and premium retailers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/106789",
+    "summary": "Varley's official Awin merchant profile ('Varley US Affiliate Program') describes the brand as 'a contemporary fashion brand for the modern woman' offering year-round collections 'complemented by active pieces' — confirming a live US affiliate program on Awin. The profile does not publish a rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/varley-usa/",
+    "summary": "Lasso's Varley listing states a 5% commission per sale with a 30-day cookie, and Post Affiliate Pro's directory independently lists the same 5% single-tier rate with monthly payouts. No cap statement is published anywhere fetched, so the cap is honestly unknown."
+   }
+  ],
+  "name": "Varley",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/106789",
+   "source_url": "https://ui.awin.com/merchant-profile/106789",
+   "title": "Varley US Affiliate Program (Awin)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "5% per sale per two independent listings — modest but published.",
+    "contact_access": "A public Awin program profile to apply through, but no published partnerships email.",
+    "credibility": "Established premium brand with its own US/UK stores and high-end retail distribution.",
+    "niche_fit": "Premium women's activewear and athleisure — a strong fitness-fashion creator fit.",
+    "opportunity_availability": "Open to apply on Awin today.",
+    "ugc_evidence": "A live network affiliate program, but no dedicated creator or ambassador program was evidenced."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.varley.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/carl-friedrik/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://linkclicky.com/affiliate-program/carl-friedrik/"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/carl-friedrik/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/carl-friedrik/"
+   }
+  ],
+  "country": null,
+  "description": "Luxury leather goods brand specialising in premium briefcases, weekender bags, wallets and luggage crafted from high-quality leather, sold direct through its own store.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/carl-friedrik/",
+    "summary": "LinkClicky's Carl Friedrik listing (March 2024) states a 10% commission per sale with the program running on CJ Affiliate for the US region. No cap statement is published anywhere fetched, so the cap is honestly unknown, and the listing's age is flagged for re-confirmation at sign-up."
+   }
+  ],
+  "name": "Carl Friedrik",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/carl-friedrik/",
+   "source_url": "https://linkclicky.com/affiliate-program/carl-friedrik/",
+   "title": "Carl Friedrik Affiliate Program (CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 21,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "10% per sale per the network listing — a solid published rate for luxury price points.",
+    "contact_access": "Joining runs through CJ Affiliate; no published partnerships email was verified.",
+    "credibility": "Established luxury leather goods brand with premium positioning and press coverage.",
+    "niche_fit": "Luxury travel and work bags fit premium travel/lifestyle creators, a narrower audience than mainstream luggage.",
+    "opportunity_availability": "Listed as open to US publishers through CJ.",
+    "ugc_evidence": "A network affiliate program only; no creator-specific program was evidenced."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://www.carlfriedrik.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/carbon38/",
+   "commission_cap": "unknown",
+   "commission_rate": 3,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://getlasso.co/affiliate/carbon38/"
+  },
+  "category_slug": "fitness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/carbon38/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/carbon38/"
+   }
+  ],
+  "country": "United States",
+  "description": "US retailer of premium women's activewear, selling its own label alongside curated performance and athleisure brands, positioned at the luxury end of the fitness-fashion market.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/carbon38/",
+    "summary": "Lasso's Carbon38 listing states a 3% commission per sale with a 30-day cookie; LinkClicky's listing independently gives the same 3% and places the program on CJ Affiliate for the US. No cap statement is published anywhere fetched, so the cap is honestly unknown."
+   }
+  ],
+  "name": "Carbon38",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/carbon38/",
+   "source_url": "https://getlasso.co/affiliate/carbon38/",
+   "title": "Carbon38 Affiliate Program (CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 5,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Only 3% per sale — the lowest published rate in this group.",
+    "contact_access": "Joining runs through CJ Affiliate; no published partnerships email was verified.",
+    "credibility": "Established US premium activewear retailer with its own label and curated brand mix.",
+    "niche_fit": "Luxury women's activewear retail — a clear fitness-fashion creator fit.",
+    "opportunity_availability": "Open to apply through the network today.",
+    "ugc_evidence": "A standard network affiliate program with a dedicated affiliate team per directory coverage, but no creator campaign layer was evidenced."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://www.carbon38.com"
+ }
+]

@@ -1,0 +1,671 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://acure.com/pages/ambassadors-program-terms-conditions",
+   "commission_cap": "unknown",
+   "commission_rate": 25,
+   "creator_saturation": "unknown",
+   "network": "Shopify Collabs",
+   "source_url": "https://acure.com/pages/ambassadors-program-terms-conditions"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partnerships@acure.com",
+    "source_url": "https://acure.com/pages/ambassadors-program-terms-conditions"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://acure.com/pages/ambassadors-program-terms-conditions",
+    "email": null,
+    "source_url": "https://acure.com/pages/ambassadors-program-terms-conditions"
+   }
+  ],
+  "country": "United States",
+  "description": "Clean beauty brand operated by Better Planet Brands LLC, selling skincare, haircare and body care through its own store at acure.com; its creator-facing ACURE Ambassadors Program runs through Shopify Collabs and rewards approved creators for sharing referral links and discount codes.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://acure.com/pages/ambassadors-program-terms-conditions",
+    "summary": "ACURE's official Ambassadors Program terms (effective August 15, 2026) state Ambassadors earn 25% commission on qualifying purchases by new customers and 10% on purchases by returning customers, calculated on the order subtotal after discounts, paid through Shopify Collabs, with a 15% community discount code. No cap on earnings is stated anywhere in the terms, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://acure.com/pages/ambassadors-program-terms-conditions",
+    "summary": "The same official terms publish partnerships@acure.com as the contact for program questions and support, and set eligibility at 18+, resident in the contiguous United States, accepted through the program's application and approval process."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://acure.com/pages/ambassadors-program-terms-conditions",
+    "summary": "The terms are written for creators: Ambassadors are expected to create honest content about ACURE products, and ACURE takes a license to repost and feature Ambassador content across its digital and marketing channels — a structured creator program rather than a plain publisher link scheme."
+   }
+  ],
+  "name": "ACURE",
+  "opportunity": {
+   "application_url": "https://acure.com/pages/ambassadors-program-terms-conditions",
+   "source_url": "https://acure.com/pages/ambassadors-program-terms-conditions",
+   "title": "ACURE Ambassadors Program (Shopify Collabs)"
+  },
+  "score": {
+   "compensation": 18,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "25% on new-customer purchases (10% on returning) published in the brand's own program terms — among the highest verified rates in this round; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "A published program contact email (partnerships@acure.com) in the official terms plus a defined application route — top band per the rubric.",
+    "credibility": "Established clean-beauty brand with a formal, dated terms document for its creator program and national brand recognition.",
+    "niche_fit": "Skincare-led clean beauty with hair and body lines — squarely in the beauty/skincare UGC niche.",
+    "opportunity_availability": "Applications are open via Shopify Collabs with an approval step; eligibility is limited to contiguous-US residents 18+.",
+    "ugc_evidence": "A creator-specific Ambassador program on Shopify Collabs with content expectations, content-usage licensing and community discount codes written into its terms."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://acure.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/89089",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://ui.awin.com/merchant-profile/89089"
+  },
+  "category_slug": "beauty",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "AffiliateSupport@keranique.com",
+    "source_url": "https://ui.awin.com/merchant-profile/89089"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/89089",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/89089"
+   }
+  ],
+  "country": null,
+  "description": "Women's haircare brand built around hair-regrowth treatments, shampoos, conditioners and styling products designed to create a foundation for thicker, fuller hair; its official network profile says over 2 million women use and trust Keranique.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/89089",
+    "summary": "Keranique's official Awin merchant profile advertises 'Up to 15% commission', an active affiliate management team, and instructs influencers to use their social media handle on the ShareASale application in place of a website name — an explicitly influencer-welcoming program. No cap statement is published, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/89089",
+    "summary": "The same official profile publishes AffiliateSupport@keranique.com and names a dedicated contact ('Terry') for affiliate questions."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/89089",
+    "summary": "The profile describes Keranique as created by women for women, with treatments, shampoos, conditioners and styling products, and states over 2 million women use and trust the brand."
+   }
+  ],
+  "name": "Keranique",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/89089",
+   "source_url": "https://ui.awin.com/merchant-profile/89089",
+   "title": "Keranique Affiliate Program (ShareASale)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Up to 15% commission published on the brand's official network profile — a solid mid-high rate; no cap statement published.",
+    "contact_access": "A published affiliate support email and a named program contact on the official profile — near top band per the rubric.",
+    "credibility": "Long-running women's haircare brand whose official profile cites over 2 million users.",
+    "niche_fit": "Hair regrowth and thickening care is a core beauty/haircare UGC niche with strong before-and-after content potential.",
+    "opportunity_availability": "Open application through ShareASale, with influencers explicitly invited to apply using their social handle.",
+    "ugc_evidence": "The official profile directly addresses influencers and asks only for approval of promotional language — a creator-aware program, though without published creator-specific perks."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://keranique.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://dreadfullhippie.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "low",
+   "network": "GoAffPro",
+   "source_url": "https://dreadfullhippie.com/pages/affiliate-program"
+  },
+  "category_slug": "beauty",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "info@dreadfullhippie.com",
+    "source_url": "https://dreadfullhippie.com/pages/affiliate-program"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://dreadfullhippie.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://dreadfullhippie.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Small Utah brand selling handmade, made-to-order synthetic dreadlock extensions (braid-in, removable and reusable), with complete looks running $500 to $1,000+, sold through its own store and TikTok Shop.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://dreadfullhippie.com/pages/affiliate-program",
+    "summary": "DreadFullHippie's official affiliate page and program terms state affiliates earn 15% of the order subtotal on every order tracked to their link or code, with a 15-day tracking window, monthly PayPal payouts and a $5 minimum, run on GoAffPro. No cap on earnings is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://dreadfullhippie.com/pages/affiliate-program",
+    "summary": "The same page is built around creators: no follower minimum ('A small, engaged following often sells better than a big one'), every application reviewed by hand by the small Utah team, content guidance for install/transformation videos, a parallel TikTok Shop creator route with refundable samples, and product gifting for active affiliates — direct evidence of a small, early-stage creator base, so saturation is marked low."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://dreadfullhippie.com/pages/affiliate-program",
+    "summary": "The page publishes info@dreadfullhippie.com and a phone number (801-509-0428) for affiliate questions, stressing affiliates reach 'a real person on our team', and cites 4.9 stars from more than 6,500 reviews."
+   }
+  ],
+  "name": "DreadFullHippie",
+  "opportunity": {
+   "application_url": "https://dreadfullhippie.com/pages/affiliate-program",
+   "source_url": "https://dreadfullhippie.com/pages/affiliate-program",
+   "title": "DreadFullHippie Affiliate Program (GoAffPro)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 13,
+   "credibility": 3,
+   "niche_fit": 21,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A published 15% rate on high-ticket orders ($500-$1,000+ complete looks) makes single sales meaningful; no cap statement is published.",
+    "contact_access": "Published email and phone with a promise of a real person, plus a short application form — top band per the rubric.",
+    "credibility": "Small handmade brand, but its own page cites 4.9 stars across 6,500+ reviews and full published program terms.",
+    "niche_fit": "Dreadlock extensions are a narrow but highly visual hair niche; transformation content fits beauty UGC well, though the audience is specialised.",
+    "opportunity_availability": "Open application now with no follower minimum and hand review — among the most accessible programs in this round.",
+    "ugc_evidence": "A creator-first program: content playbooks, TikTok Shop integration, refundable filming samples and gifting for consistent creators."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://dreadfullhippie.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://dermadrink.com/pages/derma-drink-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "UpPromote",
+   "source_url": "https://dermadrink.com/pages/derma-drink-affiliate-program"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://dermadrink.com/pages/derma-drink-affiliate-program",
+    "email": null,
+    "source_url": "https://dermadrink.com/pages/derma-drink-affiliate-program"
+   }
+  ],
+  "country": null,
+  "description": "Single-product skincare brand selling an oral antioxidant acne treatment drink, positioned for people who need something stronger than topical products, sold through its own website.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://dermadrink.com/pages/derma-drink-affiliate-program",
+    "summary": "Derma Drink's official affiliate page states 'Commissions start at 20% of all sales' generated by an affiliate's link or unique coupon code, tracked by UpPromote, with a 20% commission earned on each sale. No cap statement is published, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://dermadrink.com/pages/derma-drink-affiliate-program",
+    "summary": "The same page describes Derma Drink as an oral antioxidant acne treatment for those who need something stronger than topical products, and gives a phone number (1-732-288-3638) for questions; no partnerships email is published."
+   }
+  ],
+  "name": "Derma Drink",
+  "opportunity": {
+   "application_url": "https://dermadrink.com/pages/derma-drink-affiliate-program",
+   "source_url": "https://dermadrink.com/pages/derma-drink-affiliate-program",
+   "title": "Derma Drink Affiliate Program (UpPromote)"
+  },
+  "score": {
+   "compensation": 17,
+   "contact_access": 7,
+   "credibility": 2,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Commissions starting at 20% published on the brand's own page — a high starting rate; no cap statement published.",
+    "contact_access": "A join route and phone number on the official page, but no published email — mid-range per the rubric.",
+    "credibility": "Very small single-product brand with little independent coverage found.",
+    "niche_fit": "An acne-focused ingestible sits inside the skincare niche and suits acne-journey content, though it is a single-product offer.",
+    "opportunity_availability": "Open sign-up today through the UpPromote link on the official page.",
+    "ugc_evidence": "A real affiliate program with link and coupon-code tracking aimed at website and social promotion, but no creator-specific perks or ambassador layer is published."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://dermadrink.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN"
+  },
+  "category_slug": "beauty",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
+    "email": null,
+    "source_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN"
+   }
+  ],
+  "country": null,
+  "description": "Long-running clean, vegan beauty brand spanning skincare, makeup, fragrance and hair care, sold through its own store and major retailers; its affiliate program runs on Impact.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
+    "summary": "Pacifica Beauty's official Impact advertiser page lists the program terms directly: 10% payout on online sales, a 30-day referral period, and payouts scheduled 27 days after month end, categorised under Fragrance, Cosmetics & Skin Care and Health & Beauty. No cap statement is published, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/pacifica-beauty/",
+    "summary": "Lasso's program listing categorises Pacifica across Beauty, Fragrance, Hair Product, Makeup and Skin Care and reports a lower 5-8% range, which conflicts with the 10% on the brand's own Impact page; the official Impact figure is the one recorded."
+   }
+  ],
+  "name": "Pacifica Beauty",
+  "opportunity": {
+   "application_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
+   "source_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
+   "title": "Pacifica Beauty Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% published on the brand's official Impact program page — a standard mid-range rate; no cap statement published.",
+    "contact_access": "Sign-up runs through Impact only; no published partnerships email was verified — mid-range per the rubric.",
+    "credibility": "Established clean-beauty brand with national retail distribution and a long trading history.",
+    "niche_fit": "Skincare, makeup, fragrance and hair under one clean-beauty brand — a broad, strong fit for beauty UGC.",
+    "opportunity_availability": "Open to join on Impact today under published terms.",
+    "ugc_evidence": "A structured network affiliate program with brand creatives supplied, but framed for publishers generally rather than creators specifically."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.pacificabeauty.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten",
+   "source_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@dermae.com",
+    "source_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate",
+    "email": null,
+    "source_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate"
+   }
+  ],
+  "country": "United States",
+  "description": "Clean skincare brand selling natural face, body and hair care through dermae.com, described in program listings as a go-to clean, clinically minded skincare brand since 1984; its affiliate program runs through the Rakuten Affiliate Network.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate",
+    "summary": "DERMA E's official affiliate guide confirms the program is set up with the Rakuten Affiliate Network and walks publishers through registering, finding DERMA E in the advertiser search and applying, with approval taking a couple of days. The official page publishes no commission percentage, and directory figures conflict (Shopper reports 3.72-4.66%; a Lasso roundup claims up to 22.5%), so the rate is recorded as null rather than guessed. No cap statement is published."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate",
+    "summary": "The same official guide publishes affiliate@dermae.com for affiliate questions and explains how to shorten tracking links for Instagram and other social media — the program explicitly contemplates social creators."
+   }
+  ],
+  "name": "DERMA E",
+  "opportunity": {
+   "application_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate",
+   "source_url": "https://dermae.com/pages/guide-to-register-as-our-affiliate",
+   "title": "DERMA E Affiliate Program (Rakuten)"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 12,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "No rate is published on the brand's official program page and directory figures conflict sharply, so compensation scores low until the rate is confirmed inside Rakuten.",
+    "contact_access": "A published affiliate email on the official guide plus a step-by-step join guide — near top band per the rubric.",
+    "credibility": "Clean skincare brand trading since 1984 with wide retail distribution — top band per the rubric.",
+    "niche_fit": "Clinically positioned clean skincare is a core skincare UGC niche.",
+    "opportunity_availability": "Open to apply through Rakuten today, with approval stated to take a couple of days.",
+    "ugc_evidence": "A long-running network affiliate program whose own guide addresses Instagram/social use, but no creator-specific ambassador layer is published."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://dermae.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/alpyn-beauty/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/alpyn-beauty/"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/alpyn-beauty/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/alpyn-beauty/"
+   }
+  ],
+  "country": "United States",
+  "description": "Prestige skincare brand founded in 2018 in Jackson Hole, Wyoming, formulating with wildcrafted botanicals sustainably harvested from the Wyoming mountains, sold through its own store and prestige retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/alpyn-beauty/",
+    "summary": "LinkClicky's program listing records Alpyn Beauty's affiliate program as running on ShareASale at 10% per sale with a 30-day cookie, described as the rate officially listed with the program. Other roundups claim 20-25%, which could not be reconciled with the network listing, so the conservative 10% network figure is recorded and the conflict flagged. No cap statement is published anywhere fetched."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/136379/alpyn-beauty-affiliate-program",
+    "summary": "Sovrn's merchant profile describes Alpyn Beauty as a prestige skincare brand founded in 2018 by beauty-industry veteran Kendra Kolb Butler in Jackson Hole, Wyoming, across facial moisturizers, cleansers, serums, peels and eye and lip care."
+   }
+  ],
+  "name": "Alpyn Beauty",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/alpyn-beauty/",
+   "source_url": "https://linkclicky.com/affiliate-program/alpyn-beauty/",
+   "title": "Alpyn Beauty Affiliate Program (ShareASale)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% per the ShareASale network listing — a standard rate; higher figures in roundups are unverified and flagged, and no cap statement is published.",
+    "contact_access": "No published partnerships email was verified; joining runs through the network listing — lower band per the rubric.",
+    "credibility": "Prestige skincare brand founded in 2018 with premium retail positioning and press coverage.",
+    "niche_fit": "Botanical prestige skincare is a strong fit for skincare UGC and routine content.",
+    "opportunity_availability": "The program is listed as open to join via ShareASale today.",
+    "ugc_evidence": "A live network affiliate program suitable for bloggers and influencers, but no creator-specific program details are published."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://alpynbeauty.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://andalou.com/pages/andalou-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Rakuten",
+   "source_url": "https://andalou.com/pages/andalou-affiliate-program"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://andalou.com/pages/andalou-affiliate-program",
+    "email": null,
+    "source_url": "https://andalou.com/pages/andalou-affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Natural personal-care brand built on Fruit Stem Cell Science, selling skincare, haircare and body care through andalou.com and retail partners; its affiliate program runs through LinkShare (Rakuten).",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://andalou.com/pages/andalou-affiliate-program",
+    "summary": "Andalou Naturals' official affiliate page states affiliates earn commission starting at 5% on all Andalou sales generated through their website or social media page, the program is free to join, and it is managed through LinkShare (Rakuten), which tracks links and pays commission monthly. No cap statement is published, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://andalou.com/pages/andalou-affiliate-program",
+    "summary": "The same page describes Andalou as creating natural personal-care formulas inspired by Fruit Stem Cell Science across its full product line, with orders shipped directly from its warehouse, and gives affiliates access to creative assets, marketing links and special promotional offers."
+   }
+  ],
+  "name": "Andalou Naturals",
+  "opportunity": {
+   "application_url": "https://andalou.com/pages/andalou-affiliate-program",
+   "source_url": "https://andalou.com/pages/andalou-affiliate-program",
+   "title": "Andalou Naturals Affiliate Program (Rakuten / LinkShare)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A published starting rate of 5% on the brand's own page — low but verified; no cap statement published.",
+    "contact_access": "A dedicated official program page with direct network join links, but no published email — mid-range per the rubric.",
+    "credibility": "Long-running natural beauty brand with national retail presence and a signature ingredient platform.",
+    "niche_fit": "Natural skincare, hair and body care — a clear clean-beauty UGC fit.",
+    "opportunity_availability": "Free and open to join today through LinkShare, with social media pages explicitly eligible.",
+    "ugc_evidence": "A standard network affiliate program open to social pages, but no creator-specific perks or ambassador structure is published."
+   },
+   "ugc_evidence": 8
+  },
+  "socials": [],
+  "website": "https://andalou.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://fableandmane.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten / LTK",
+   "source_url": "https://fableandmane.com/pages/affiliates"
+  },
+  "category_slug": "beauty",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://fableandmane.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://fableandmane.com/pages/affiliates"
+   }
+  ],
+  "country": null,
+  "description": "Ayurvedic haircare brand founded in 2020 by siblings Akash and Nikita Mehta, built around the HoliRoots Hair Oil and scalp-care rituals, sold through its own store and premium retailers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://fableandmane.com/pages/affiliates",
+    "summary": "Fable & Mane's official affiliates page invites creators to 'Join our program on Rakuten or LTK to start earning', with exclusive affiliate links and perks including early access to new products, special offers and insider content. No commission percentage is published on the page or in any fetched source, so the rate is recorded as null; no cap statement is published either."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://newcollab.co/brand/fable-mane",
+    "summary": "NewCollab's brand page reports Fable & Mane works with creators mainly through gifting (typical PR package ~$80 around the HoliRoots Hair Oil), looks for around 5K+ followers, and replies to pitches in about 5 days — creator collaboration is active but pitch-led rather than an open UGC program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/240445/fable-mane-affiliate-program",
+    "summary": "Sovrn's merchant profile describes Fable & Mane as a premium haircare brand founded in 2020 by siblings Akash and Nikita Mehta, spanning pre-wash oils, shampoos, conditioners, masks and scalp treatments."
+   }
+  ],
+  "name": "Fable & Mane",
+  "opportunity": {
+   "application_url": "https://fableandmane.com/pages/affiliates",
+   "source_url": "https://fableandmane.com/pages/affiliates",
+   "title": "Fable & Mane Affiliate Program (Rakuten / LTK)"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No commission rate is published on the official page or any fetched source, so compensation scores low until confirmed inside Rakuten or LTK.",
+    "contact_access": "An official affiliates page plus a collaboration request route, but no published partnerships email — mid-range per the rubric.",
+    "credibility": "Premium Ayurvedic haircare brand founded in 2020 with major beauty-retail presence.",
+    "niche_fit": "Ayurvedic hair oils and scalp rituals are a distinctive, content-friendly haircare niche.",
+    "opportunity_availability": "Joining is open via Rakuten or LTK today, though terms are only visible inside those platforms.",
+    "ugc_evidence": "Affiliate routes plus an active gifting/PR creator pipeline (5K+ follower guidance on NewCollab) show real creator collaboration, if pitch-led."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://fableandmane.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/herbivore-botanicals/"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://newcollab.co/brand/herbivore-botanicals",
+    "email": null,
+    "source_url": "https://newcollab.co/brand/herbivore-botanicals"
+   }
+  ],
+  "country": "United States",
+  "description": "Seattle-founded plant-based skincare brand established in 2011 by Julia Wills and Alexander Kummerow, selling serums, moisturizers and treatments through its own store and retailers, with an affiliate program on Impact and an active creator gifting pipeline.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/herbivore-botanicals/",
+    "summary": "LinkClicky's listing records Herbivore Botanicals' affiliate program on the Impact platform at 4% per sale, while Shopper reports up to 12% — the figures conflict and neither comes from the brand's own page, so the rate is recorded as null rather than picking one. No cap statement is published anywhere fetched."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://newcollab.co/brand/herbivore-botanicals",
+    "summary": "NewCollab's brand page reports Herbivore Botanicals actively gifts creators (typical PR package ~$50), looks for around 500+ followers with niche fit mattering more than size, works with creators worldwide, and routes applications through a direct form — evidence of an accessible creator pipeline, though not a creator count, so saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/129077/herbivore-botanicals-affiliate-program",
+    "summary": "Sovrn's merchant profile describes Herbivore Botanicals as a Seattle-founded skincare brand established in 2011 by Julia Wills and Alexander Kummerow, focused on plant-powered, clinically effective serums and moisturizers."
+   }
+  ],
+  "name": "Herbivore Botanicals",
+  "opportunity": {
+   "application_url": "https://newcollab.co/brand/herbivore-botanicals",
+   "source_url": "https://newcollab.co/brand/herbivore-botanicals",
+   "title": "Herbivore Botanicals Creator PR Application (NewCollab)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No rate could be verified from the brand itself and directory figures conflict (4% vs up to 12%), so the rate is null and compensation scores lowest in this round.",
+    "contact_access": "A direct creator application route via NewCollab, but no published partnerships email was verified — lower band per the rubric.",
+    "credibility": "Well-known plant-based skincare brand founded in 2011 with broad retail and press presence.",
+    "niche_fit": "Plant-powered serums and moisturizers are a core skincare UGC niche.",
+    "opportunity_availability": "Creator gifting applications are open with a low 500+ follower guideline; the Impact affiliate program is joinable through the network.",
+    "ugc_evidence": "Active creator gifting with a direct application form and low follower threshold, plus a network affiliate program — real creator collaboration, if gifting-led."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.herbivorebotanicals.com"
+ }
+]

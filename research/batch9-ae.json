@@ -1,0 +1,634 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.flexoffers.com/affiliate-programs/organifi-affiliate-program-2/",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "Refersion / FlexOffers",
+   "source_url": "https://getlasso.co/affiliate/organifi/"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.flexoffers.com/affiliate-programs/organifi-affiliate-program-2/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/organifi/"
+   }
+  ],
+  "country": null,
+  "description": "Superfood and supplement brand founded in 2014, selling plant-based blends such as greens, reds and gold juice powders, protein and targeted supplements through its own store, with one of the more established affiliate programs in the wellness niche.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/organifi/",
+    "summary": "Lasso's Organifi program listing states a 20% per-sale commission for affiliates promoting its superfood supplements, with applications reviewed over a few days. Other directories report different figures (5% base via FlexOffers, 20-30% via Affiliate Explorer), so the rate should be re-confirmed at sign-up; no fetched source states any cap on earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/organifi-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator Hero's review describes Organifi, established in 2014, as a superfood supplement brand whose affiliate partners get product samples, exclusive promotions and a dedicated account manager, with a base rate of 5% rising to 20% for premium content sites via FlexOffers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://AffiliateExplorer.com/directory/organifi",
+    "summary": "Affiliate Explorer lists Organifi's program as running on Refersion with a 60-day cookie, $50 minimum payout and monthly payment by PayPal or direct deposit, and describes the brand as one of the most affiliate-friendly supplement brands."
+   }
+  ],
+  "name": "Organifi",
+  "opportunity": {
+   "application_url": "https://www.flexoffers.com/affiliate-programs/organifi-affiliate-program-2/",
+   "source_url": "https://getlasso.co/affiliate/organifi/",
+   "title": "Organifi Affiliate Program"
+  },
+  "score": {
+   "compensation": 16,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Lasso lists 20% per sale, among the higher published rates in the supplement niche, though directories disagree (5% base to 30% reported), so the figure needs re-confirming at sign-up.",
+    "contact_access": "Joinable through FlexOffers and Refersion with an application review, but no published partnerships email was found on a fetched page.",
+    "credibility": "Operating since 2014 with a large catalog and an affiliate program covered by multiple independent directories.",
+    "niche_fit": "Superfood powders and daily wellness supplements are core health-creator content, easy to build routines around.",
+    "opportunity_availability": "Applications are open now through public network listings with approval typically within about a week.",
+    "ugc_evidence": "A long-running affiliate/ambassador program with samples, exclusive promotions and a dedicated account manager for partners."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.organifi.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.onnit.com/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "low",
+   "network": "Impact",
+   "source_url": "https://www.onnit.com/affiliate-program"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.onnit.com/affiliate-program",
+    "email": null,
+    "source_url": "https://www.onnit.com/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Austin-based human-performance brand founded by Aubrey Marcus and acquired by Unilever in 2021, selling supplements led by the Alpha BRAIN nootropic, plus functional foods and unconventional fitness equipment, promoted heavily through celebrity and athlete endorsements.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.onnit.com/affiliate-program",
+    "summary": "Onnit's official affiliate page states the program runs on Impact, applications are reviewed within 72 hours, and 'we have a very limited number of spots available for program acceptance' — direct evidence the creator pool is deliberately kept small."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/onnit-affiliate-program/",
+    "summary": "The Affiliate Monkey's program breakdown states Onnit pays 15% of the sale amount on regular products plus $10 per sale on specific product trials (Alpha BRAIN, Total Human and others) via Impact Radius, with a 45-day cookie. Lasso lists 12% and Creator Hero 10%, so the exact rate should be confirmed in the Impact marketplace; no fetched source states an earnings cap."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://theaffiliateslist.com/fitness-affiliate-programs/",
+    "summary": "The Affiliates List notes Onnit was founded by Aubrey Marcus and acquired by Unilever in 2021, requires an established fitness website or at least 5,000 engaged followers to apply, and pays 15% per sale plus a $10 trial bounty on a 45-day cookie."
+   }
+  ],
+  "name": "Onnit",
+  "opportunity": {
+   "application_url": "https://www.onnit.com/affiliate-program",
+   "source_url": "https://www.onnit.com/affiliate-program",
+   "title": "Onnit Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 6,
+   "reasons": {
+    "compensation": "Most detailed listings report 15% on regular products plus a $10 bounty on trial products via Impact, though some directories list 10-12%, so confirm in the marketplace.",
+    "contact_access": "A dedicated official program page with an application and a named program manager follow-up, but no published email.",
+    "credibility": "Major performance brand owned by Unilever since 2021, with celebrity and pro-athlete endorsements.",
+    "niche_fit": "Nootropics, supplements and functional training gear sit squarely in the health and biohacking creator niche.",
+    "opportunity_availability": "Applications are open, but the brand states spots are very limited and reviewers look for an established platform.",
+    "ugc_evidence": "A structured Impact program built around creators and endorsers, with application review inside 72 hours per the official page."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.onnit.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://joovv.com/pages/learn-about-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://joovv.com/pages/affiliate-terms-and-conditions"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://joovv.com/pages/learn-about-affiliate-program",
+    "email": null,
+    "source_url": "https://joovv.com/pages/learn-about-affiliate-program"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "help@joovv.com",
+    "source_url": "https://joovv.com/pages/affiliate-terms-and-conditions"
+   }
+  ],
+  "country": "United States",
+  "description": "Red light therapy company that pioneered full-body at-home light therapy panels, selling modular devices (Mini, Solo and larger setups) for recovery, skin and sleep, with both a paid affiliate program and a separate unpaid brand ambassador program.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://joovv.com/pages/affiliate-terms-and-conditions",
+    "summary": "Joovv's official Affiliate Terms state verbatim that affiliates earn 'a commission of 8% of all JOOVV red light therapy devices that was purchased through your Link', with customers getting a $50 discount via the affiliate link or code, and commissions payable 90 days after purchase. The terms contain no statement capping total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://joovv.com/pages/learn-about-affiliate-program",
+    "summary": "Joovv's official affiliate page invites creators, patients-facing professionals and clients-focused partners to apply, and promises a reply within 48 hours if the applicant is a good fit — a manually reviewed, application-based program."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://joovv.com/pages/learn-about-affiliate-program",
+    "summary": "The same page states that before Joovv, full-body light therapy treatments at home were nonexistent and the brand has become 'the go-to source for all things light therapy', supporting its category-pioneer positioning."
+   }
+  ],
+  "name": "Joovv",
+  "opportunity": {
+   "application_url": "https://joovv.com/pages/learn-about-affiliate-program",
+   "source_url": "https://joovv.com/pages/learn-about-affiliate-program",
+   "title": "Joovv Affiliate Program"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 11,
+   "credibility": 5,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A published 8% commission in the brand's own affiliate terms — modest, but on high-priced devices, and customers get $50 off through the affiliate link.",
+    "contact_access": "An official application page plus a published support email (help@joovv.com) in the affiliate terms — above mid-range per the rubric.",
+    "credibility": "Category pioneer in at-home full-body light therapy with a long operating history and clinical-study partnerships.",
+    "niche_fit": "Recovery, sleep and skin light therapy is a strong fit for wellness and biohacking creators, though it is a narrower niche than supplements.",
+    "opportunity_availability": "Applications are open now with a promised 48-hour reply for good fits, subject to manual review.",
+    "ugc_evidence": "Both a paid affiliate program with formal terms and a separate brand ambassador program built around creator content."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://joovv.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.shoptruelight.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "Tapfiliate",
+   "source_url": "https://www.shoptruelight.com/pages/affiliate"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.shoptruelight.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://www.shoptruelight.com/pages/affiliate"
+   }
+  ],
+  "country": null,
+  "description": "Red light therapy brand selling light devices aimed at wellness, sleep and recovery, running a creator-focused affiliate program through Tapfiliate with a flat published commission.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.shoptruelight.com/pages/affiliate",
+    "summary": "Truelight's official affiliate page states verbatim: 'Earn 15% on every purchase made through your link, paid monthly', with a $100 minimum commission for payout, free sign-up and quick approval via its affiliate platform (Tapfiliate). The page states no cap on earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.shoptruelight.com/pages/affiliate",
+    "summary": "The same page says the program 'is a fit for creators and professionals whose audiences care about wellness, recovery, and sleep', naming wellness, biohacking and sleep content creators, chiropractors, estheticians and trainers as target partners."
+   }
+  ],
+  "name": "Truelight",
+  "opportunity": {
+   "application_url": "https://www.shoptruelight.com/pages/affiliate",
+   "source_url": "https://www.shoptruelight.com/pages/affiliate",
+   "title": "Truelight Affiliate Program"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 8,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A flat 15% on every referral sale published on the brand's own page, paid monthly — strong for a device brand.",
+    "contact_access": "A clear apply route from the official program page, but no published partnerships email.",
+    "credibility": "Smaller light-therapy brand with limited independent coverage found, so this stays mid-low per the rubric.",
+    "niche_fit": "Light therapy for sleep and recovery fits wellness and biohacking creators well, though the niche is narrower than supplements.",
+    "opportunity_availability": "Free to join with quick approval promised on the official page — open today.",
+    "ugc_evidence": "A program explicitly designed for wellness, biohacking and sleep creators plus practitioner partners."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.shoptruelight.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.boka.com/pages/boka-affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.boka.com/pages/boka-affiliates"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.boka.com/pages/boka-affiliates",
+    "email": null,
+    "source_url": "https://www.boka.com/pages/boka-affiliates"
+   }
+  ],
+  "country": null,
+  "description": "Oral-care brand known for its nano-hydroxyapatite (nHA) toothpaste as a fluoride alternative, plus toothbrushes, floss and mouthwash, sold through its own store and major retailers, with an affiliate program run through Impact.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.boka.com/pages/boka-affiliates",
+    "summary": "Boka's official affiliates page explains the model: affiliates fill out an application, receive product plus a unique promotional code, and 'earn commission on sales driven by your code', with the application routed through Impact. No percentage rate is published on the page, so the rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.boka.com/pages/boka-affiliates",
+    "summary": "The same page pitches affiliates on joining 'a community of like-minded individuals through a brand that celebrates health and wellness' and offers access to exclusive offerings and events affiliates can share with their own community."
+   }
+  ],
+  "name": "Boka",
+  "opportunity": {
+   "application_url": "https://www.boka.com/pages/boka-affiliates",
+   "source_url": "https://www.boka.com/pages/boka-affiliates",
+   "title": "Boka Affiliates Program"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Commission is confirmed on the official page but no percentage is published anywhere fetched, so this stays low per the rubric.",
+    "contact_access": "A dedicated official affiliates page with an application routed through Impact, but no published email.",
+    "credibility": "Well-established oral-care brand whose nHA toothpaste is widely stocked and reviewed; a category leader in fluoride-free toothpaste.",
+    "niche_fit": "Oral care and non-toxic personal care are proven UGC niches, and a daily-use product suits routine content.",
+    "opportunity_availability": "Applications are open now via the official page and Impact.",
+    "ugc_evidence": "A named affiliate program that seeds product and issues personal promo codes, framed around community and events."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.boka.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://plunge.com/en-ca/pages/partnerships",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://plunge.com/en-ca/pages/partnerships"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://plunge.com/en-ca/pages/partnerships",
+    "email": null,
+    "source_url": "https://plunge.com/en-ca/pages/partnerships"
+   }
+  ],
+  "country": "United States",
+  "description": "Cold-water immersion and sauna company founded in 2020 in Sacramento, California, selling residential cold plunges with integrated cooling and water care, saunas and accessories, and actively recruiting influencers, affiliates and organizations as partners.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://plunge.com/en-ca/pages/partnerships",
+    "summary": "Plunge's official partnerships page is titled 'Influencer, Affiliate, & Organization Partnerships' and states 'We collaborate with influencers, affiliates, and organizations', with a 'Join Our Affiliate Program' section and an application form; no commission rate is published on the page, so the rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/plunge-preferred/",
+    "summary": "Lasso's listing for the Plunge Preferred affiliate program reports a flat $250 per sale with a 30-day cookie, while Shopper reports 5-10% — the two conflict and neither is on the brand's own page, so no percentage rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/167820/plunge-affiliate-program",
+    "summary": "Sovrn's merchant profile describes Plunge as a U.S. wellness equipment company founded in 2020 by Michael Garrett and Ryan Duey in Sacramento, California, offering cold-water immersion tubs, saunas and accessories."
+   }
+  ],
+  "name": "Plunge",
+  "opportunity": {
+   "application_url": "https://plunge.com/en-ca/pages/partnerships",
+   "source_url": "https://plunge.com/en-ca/pages/partnerships",
+   "title": "Plunge Affiliate & Influencer Partnerships"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 21,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No percentage is published on the brand's own page; a directory reports a flat $250 per sale for its Preferred program, which on high-ticket tubs could be meaningful, but it is unverified on an official source.",
+    "contact_access": "A dedicated partnerships page with an application form and a published phone number for questions.",
+    "credibility": "Category-defining cold plunge brand founded in 2020 with national brand recognition in the recovery space.",
+    "niche_fit": "Cold plunging and sauna are heavily content-driven wellness rituals, though the high price point narrows the audience.",
+    "opportunity_availability": "Partnership applications are open via the official form, with terms discussed after outreach rather than published.",
+    "ugc_evidence": "The official page explicitly recruits influencers and affiliates alongside organizations, with collaboration support promised."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://plunge.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://getlasso.co/affiliate/death-wish-coffee-co/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/death-wish-coffee-co/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/death-wish-coffee-co/"
+   }
+  ],
+  "country": null,
+  "description": "Coffee company built around its 'world's strongest coffee' positioning, selling high-caffeine whole bean and ground coffee, flavored roasts and ready-to-drink products through its own store and national retail, with an affiliate program on Impact.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/death-wish-coffee-co/",
+    "summary": "Lasso's Death Wish Coffee program listing states a 10% per-sale commission with a 30-day cookie and $50 payout threshold, with joining routed through Impact. No fetched source states an earnings cap, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://brandid.app/blog/best-coffee-affiliate-programs/",
+    "summary": "Brandid's coffee program comparison, checked against program pages and network listings in October 2026, also lists Death Wish Coffee at 10% through Impact with a 30-day cookie, and notes the brand converts well among gaming, workout and productivity creators."
+   }
+  ],
+  "name": "Death Wish Coffee",
+  "opportunity": null,
+  "score": {
+   "compensation": 11,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A consistent 10% per sale across two independent program listings, with a 30-day cookie — mid-range for coffee.",
+    "contact_access": "Joining runs through the Impact marketplace; no published partnerships email was found on a fetched page.",
+    "credibility": "Nationally distributed coffee brand with a long-running 'world's strongest coffee' identity and a devoted following.",
+    "niche_fit": "High-caffeine coffee is a natural fit for productivity, gaming and morning-routine creator content.",
+    "opportunity_availability": "Open application through Impact today.",
+    "ugc_evidence": "An established affiliate program popular with food bloggers per Lasso, though creator-specific program features are not published."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.deathwishcoffee.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/92467",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/92467"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/92467",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/92467"
+   }
+  ],
+  "country": null,
+  "description": "Relaxation beverage brand that pioneered the calm-drink space, selling magnesium and adaptogen sparkling waters (Recess Mood), drink powders and zero-proof craft mocktails through its own site, Amazon and retail stores nationwide.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/92467",
+    "summary": "Recess's Awin merchant profile states the affiliate program details verbatim: 'Commission - 5%', 'Cookie - 30 Days', 'AOV - $39.59', and describes its four lines — Mood drinks, Mood powders, Zero Proof Craft Mocktails and hemp/adaptogen sparkling waters — sold in retail stores nationwide and online. No cap on earnings is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://brandchamp.io/blog/loyalty-programs-wellness-beverages/",
+    "summary": "BrandChamp's wellness-beverage roundup describes Recess's creator model: applicants share social handles and follower counts, approved affiliates get a unique link and a 15%-off code and earn $10 for every order placed with their code, plus 20% off site-wide — a social-media-focused affiliate program."
+   }
+  ],
+  "name": "Recess",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/92467",
+   "source_url": "https://ui.awin.com/merchant-profile/92467",
+   "title": "Recess Affiliate Program (Awin)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Awin lists 5% with a 30-day cookie; a second model reported by BrandChamp pays a flat $10 per order via creator codes, which can beat 5% at the program's $39.59 average order value.",
+    "contact_access": "A public Awin program profile with full terms, but no published partnerships email.",
+    "credibility": "Pioneer of the relaxation beverage category with nationwide retail distribution.",
+    "niche_fit": "Calm drinks and zero-proof mocktails are highly visual, social-first products — a strong fit for lifestyle and wellness creators.",
+    "opportunity_availability": "Open to join on Awin today.",
+    "ugc_evidence": "A creator program built around social sharing, with personal codes, follower discounts and referral perks for affiliates."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://takearecess.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/hiyo/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/hiyo/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/hiyo/"
+   }
+  ],
+  "country": "United States",
+  "description": "Non-alcoholic social tonic brand selling sparkling drinks infused with adaptogens, nootropics and botanicals as a healthier alternative for social drinkers, through its own store and retail, with an affiliate program on Impact.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/hiyo/",
+    "summary": "LinkClicky's Hiyo program listing (updated March 10, 2024) states a 5% per-sale commission on the Impact platform, open to all regions, for the brand's non-alcoholic social tonics infused with adaptogens, nootropics and botanicals. No fetched source states an earnings cap, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/drinkhiyo-com-affiliate-program",
+    "summary": "Shopper's partnership listing for drinkhiyo.com reports a 5-10% payout range and lists the brand's country as the United States."
+   }
+  ],
+  "name": "Hiyo",
+  "opportunity": null,
+  "score": {
+   "compensation": 8,
+   "contact_access": 7,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "5% per sale on Impact per the network listing (Shopper reports a 5-10% range) — modest, so this stays low-mid per the rubric.",
+    "contact_access": "Applications run through Impact; no published partnerships email was found on a fetched page.",
+    "credibility": "Younger non-alcoholic brand with growing retail presence but a shorter track record than category leaders.",
+    "niche_fit": "Alcohol-free social tonics sit in the fast-growing sober-curious niche, a natural fit for lifestyle and wellness creators.",
+    "opportunity_availability": "Open application through Impact today.",
+    "ugc_evidence": "A live network affiliate program aimed at publishers and influencers in the food and wellness space."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://drinkhiyo.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://getlasso.co/affiliate/brightland-incorporated/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/brightland-incorporated/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/brightland-incorporated/"
+   }
+  ],
+  "country": null,
+  "description": "Premium pantry brand founded by Aishwarya Iyer in 2018, selling California-grown extra virgin olive oils, vinegars and honey in design-led bottles through its own store and retail, with an affiliate program on ShareASale.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/brightland-incorporated/",
+    "summary": "Lasso's Brightland program listing states a 10% per-sale commission with a 15-day cookie, with joining routed through ShareASale. No fetched source states an earnings cap, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/232588/brightland-incorporated-affiliate-program",
+    "summary": "Sovrn's merchant profile describes Brightland as a premium pantry brand founded by Aishwarya Iyer in 2018, known for California-grown olive oils presented in photogenic, design-led bottles."
+   }
+  ],
+  "name": "Brightland",
+  "opportunity": null,
+  "score": {
+   "compensation": 11,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% per sale via ShareASale per the program listing, though the 15-day cookie is short.",
+    "contact_access": "Joining runs through ShareASale; no published partnerships email was found on a fetched page.",
+    "credibility": "Premium pantry brand operating since 2018 with national retail and strong food-media coverage.",
+    "niche_fit": "Olive oil and pantry staples are staples of cooking and recipe content — a strong food-creator fit.",
+    "opportunity_availability": "Open application through ShareASale today.",
+    "ugc_evidence": "An established network affiliate program popular with food bloggers, per the listing; no creator-specific tier is published."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://brightland.co"
+ }
+]

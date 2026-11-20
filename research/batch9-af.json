@@ -1,0 +1,230 @@
+[
+{
+  "name": "Reolink",
+  "website": "https://reolink.com",
+  "country": "Hong Kong",
+  "category_slug": "technology",
+  "description": "Security camera and surveillance brand (Reolink Innovation Limited, founded 2009, administrative HQ Hong Kong with R&D/manufacturing in Shenzhen) selling PoE, battery, cellular and Wi-Fi cameras, camera systems and video doorbells for home and business, with no-subscription local storage positioning.",
+  "contacts": [
+    {"contact_type": "partnerships", "contact_url": "https://reolink.com/mt/affiliate/", "email": "affiliate@reolink.com", "source_url": "https://reolink.com/mt/affiliate/"},
+    {"contact_type": "partnerships", "contact_url": "https://ui.awin.com/merchant-profile/16932", "email": "jaylen.ruan@reolink.com", "source_url": "https://ui.awin.com/merchant-profile/16932"}
+  ],
+  "socials": [
+    {"platform": "youtube", "handle": "ReolinkCameras", "url": "https://www.youtube.com/@ReolinkCameras"}
+  ],
+  "evidence": [
+    {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://reolink.com/mt/affiliate/", "summary": "Official Reolink affiliate page fetched: 'If you have a website, a blog, or a YouTube channel, you are the one that we are looking for... you will receive 6% to 20% commission of your sales orders'; 4-tier commission system by sales volume; signup via Awin/Impact; affiliate manager contact published as affiliate#reolink.com (replace # with @)."},
+    {"confidence": "verified", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://ui.awin.com/merchant-profile/16932", "summary": "Awin merchant profile fetched: 1% to 20% commission, publishers typically receive 5% default commission, average purchase value 201 euros, top partners increased up to 20%; named contact jaylen.ruan@reolink.com; welcomes publishers worldwide."},
+    {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://www.youtube.com/watch?v=O2jkxuPLToA", "summary": "Creator review ecosystem is active: multiple recent YouTube creator videos tag @ReolinkCameras, disclose gifted/sponsored Reolink cameras and use Reolink affiliate links (e.g. reolink.com/?aff= links and creator coupon codes)."},
+    {"confidence": "verified", "evidence_type": "general", "source_type": "official_site", "source_url": "https://reolink.com/ca/referral/", "summary": "Official Reolink referral program page also live (separate from affiliate program), confirming a broader creator/referrer programme stack alongside the Awin/Impact affiliate program."}
+  ],
+  "affiliate": {"network": "Awin", "commission_rate": 5, "application_url": "https://reolink.com/mt/affiliate/", "source_url": "https://reolink.com/mt/affiliate/", "commission_cap": "unknown", "creator_saturation": "unknown"},
+  "opportunity": {"title": "Reolink Affiliate Program — 4-tier, 6% to 20% (official page) via Awin/Impact", "application_url": "https://reolink.com/mt/affiliate/", "source_url": "https://reolink.com/mt/affiliate/"},
+  "score": {"niche_fit": 28, "ugc_evidence": 17, "compensation": 15, "contact_access": 14, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Pure home-security technology, explicitly recruiting websites, blogs and YouTube channels", "ugc_evidence": "Large volume of recent creator reviews, gifted-product videos and affiliate-link disclosures", "compensation": "Tiered up to 20% (official 6%-20%); 5% Awin default used as the recorded base rate, high ~$200 AOV", "contact_access": "Two published direct emails: affiliate programme inbox plus a named Awin contact", "opportunity_availability": "Open signup via Awin/Impact linked from the official page", "credibility": "Official affiliate page and Awin merchant profile both fetched and consistent"}}
+},
+{
+  "name": "JLab",
+  "website": "https://www.jlab.com/",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "American personal audio brand founded in 2005 and headquartered in Carlsbad, California, making affordable true-wireless earbuds, headphones, gaming headsets, speakers and work peripherals. Runs a public affiliate program via Impact plus social campaigns on TikTok Shop, Amazon and YouTube Brand Connect.",
+  "contacts": [
+    {"contact_type": "creator_application", "contact_url": "https://www.jlab.com/en-au/pages/jlab-affiliate-program", "email": null, "source_url": "https://www.jlab.com/en-au/pages/jlab-affiliate-program"}
+  ],
+  "socials": [
+    {"platform": "instagram", "handle": "JLabAudio", "url": "https://www.instagram.com/jlabaudio/"},
+    {"platform": "tiktok", "handle": "JLab", "url": "https://www.tiktok.com/@JLab"},
+    {"platform": "x", "handle": "JLabAudio", "url": "https://x.com/JLabAudio"}
+  ],
+  "evidence": [
+    {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.jlab.com/en-au/pages/jlab-affiliate-program", "summary": "Official 'Join the JLab Affiliate Program' page: Media Affiliates join 'through IMPACT', Social Media Affiliates via TikTok Shop, Amazon Affiliates and YouTube Brand Connect; states 'unlimited earning potential' and 'endless earning potential'; FAQ confirms commissions on all net sales, monthly payment via bank transfer or PayPal."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://linkclicky.com/affiliate-program/jlab/", "summary": "LinkClicky listing: Affiliate Platform Impact, Commission 10% per sale, Regions ALL, application via app.impact.com."},
+    {"confidence": "publicly_reported", "evidence_type": "general", "source_type": "listing", "source_url": "https://www.jlab.com/en-au/blogs/whats-new-in-jlab-college-sports/the-jlab-birmingham-bowl-becomes-the-first-sound-powered-bowl-game-in-college-football", "summary": "JLab's own post confirms social handles: '@JLabAudio (X, Instagram) | @JLab (TikTok)'."}
+  ],
+  "affiliate": {"network": "Impact", "commission_rate": 10, "application_url": "https://www.jlab.com/en-au/pages/jlab-affiliate-program", "source_url": "https://linkclicky.com/affiliate-program/jlab/", "commission_cap": "uncapped", "creator_saturation": "unknown"},
+  "opportunity": {"title": "JLab Affiliate Program — Media Affiliates via Impact & Social Media Affiliates via TikTok Shop / YouTube Brand Connect", "application_url": "https://www.jlab.com/en-au/pages/jlab-affiliate-program", "source_url": "https://www.jlab.com/en-au/pages/jlab-affiliate-program"},
+  "score": {"niche_fit": 27, "ugc_evidence": 16, "compensation": 16, "contact_access": 12, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Core consumer audio/tech — earbuds, headphones, gaming and work gear ideal for UGC demos", "ugc_evidence": "Official page actively recruits social affiliates on TikTok Shop, Amazon and YouTube Brand Connect", "compensation": "10% per sale publicly reported via Impact plus explicitly uncapped/unlimited earning potential on official page", "contact_access": "Public official program page with FAQ and dedicated affiliate support team; no public email found", "opportunity_availability": "Open public application via Impact plus always-on social platform campaigns", "credibility": "Established US brand since 2005, #1 accessible true-wireless brand positioning, major retail distribution"}}
+},
+{
+  "name": "Ulanzi",
+  "website": "https://www.ulanzi.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Shenzhen-founded (2015) creator-gear brand for photography and videography accessories — tripods, camera cages, lights, mounts and phone accessories for vloggers, filmmakers and content creators; its official site states 100M+ users and a 'Global Creator Brand' positioning with creator testimonials throughout.",
+  "contacts": [
+    {"contact_type": "creator_application", "contact_url": "https://getlasso.co/affiliate/ulanzi/", "email": null, "source_url": "https://getlasso.co/affiliate/ulanzi/"},
+    {"contact_type": "other", "contact_url": "https://ui.awin.com/advertiser-terms/79552/brand", "email": null, "source_url": "https://ui.awin.com/advertiser-terms/79552/brand"}
+  ],
+  "socials": [
+    {"platform": "instagram", "handle": "ulanzi_official", "url": "https://www.instagram.com/ulanzi_official"},
+    {"platform": "youtube", "handle": "ulanzi", "url": "https://www.youtube.com/@ulanzi"},
+    {"platform": "tiktok", "handle": "Ulanzi_Official", "url": "https://www.tiktok.com/@Ulanzi_Official"}
+  ],
+  "evidence": [
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/ulanzi/", "summary": "Lasso listing fetched: Ulanzi affiliate program pays 12% per sale, 30-day cookie, categories Electronics/Photography/Video, join link routes to ShareASale; pitched specifically at video content creators and bloggers."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://ui.awin.com/advertiser-terms/79552/brand", "summary": "Awin program terms for Ulanzi (ulanzi.de, last updated 13 Aug 2025): no product categories excluded from commission; allowed partner types explicitly include 'Communities and UGC' and 'Content creators and influencers'; participation via partner application form."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://www.Shopper.com/partnerships/ulanzi-com-affiliate-program", "summary": "Shopper.com listing: Ulanzi US affiliate program at 10% payout per sale, CPA, instant-approval partner route."},
+    {"confidence": "verified", "evidence_type": "ugc_collab", "source_type": "official_site", "source_url": "https://www.ulanzi.com", "summary": "Official homepage fetched: built around creator UGC — named creator testimonials (@David Manning, @Mark Bennett's Camera Crisis, @Chris Hau, @Fstoppers, @Camera Conspiracies, @MrBlack) and a 'Ulanzi In Real Life' creator-content section."},
+    {"confidence": "publicly_reported", "evidence_type": "general", "source_type": "listing", "source_url": "https://markets.financialcontent.com/startribune/article/gnwcq-2025-7-20-ulanzi-named-global-no1-in-camera-accessories-sales-volume-for-2024-by-frost-and-sullivan", "summary": "Frost & Sullivan release: founded 2015 in Shenzhen; collaborates with creators on TikTok, YouTube and Instagram; official TikTok @Ulanzi_Official cited at 860,000+ followers and 44M+ likes."}
+  ],
+  "affiliate": {"network": "ShareASale", "commission_rate": 12, "application_url": "https://getlasso.co/affiliate/ulanzi/", "source_url": "https://getlasso.co/affiliate/ulanzi/", "commission_cap": "unknown", "creator_saturation": "unknown"},
+  "opportunity": {"title": "Ulanzi Affiliate Program — 12% per sale via ShareASale (also on Awin DE)", "application_url": "https://getlasso.co/affiliate/ulanzi/", "source_url": "https://getlasso.co/affiliate/ulanzi/"},
+  "score": {"niche_fit": 29, "ugc_evidence": 18, "compensation": 15, "contact_access": 7, "opportunity_availability": 8, "credibility": 5, "reasons": {"niche_fit": "Creator-first technology brand — its products are the tools UGC creators film with", "ugc_evidence": "Homepage creator testimonials, Awin terms explicitly allowing UGC communities and influencers, large TikTok creator presence", "compensation": "12% per sale on ShareASale listing, 30-day cookie, no category exclusions on Awin", "contact_access": "No direct partnerships email found on fetched pages; network application only", "opportunity_availability": "Joinable via ShareASale and Awin, plus instant-approval route on Shopper", "credibility": "Multiple consistent listings plus current Awin program terms dated Aug 2025"}}
+},
+{
+  "name": "SwitchBot",
+  "website": "https://www.switch-bot.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Shenzhen-headquartered smart-home automation brand (SwitchBot / Wonder Tech Labs) making retrofit bots, smart curtains, locks, sensors, hubs and cameras that turn ordinary appliances and homes into automated smart homes, compatible with Alexa, Google Assistant, Siri and IFTTT.",
+  "contacts": [
+    {"contact_type": "creator_application", "contact_url": "https://af.uppromote.com/switchbot/register", "email": "support@wondertechlabs.com", "source_url": "https://af.uppromote.com/switchbot/register"},
+    {"contact_type": "general", "contact_url": "https://www.switch-bot.com", "email": "support@wondertechlabs.com", "source_url": "https://af.uppromote.com/switchbot/register"}
+  ],
+  "socials": [
+    {"platform": "x", "handle": "switchbot", "url": "https://x.com/switchbot"},
+    {"platform": "instagram", "handle": "theswitchbot", "url": "https://www.instagram.com/theswitchbot"},
+    {"platform": "facebook", "handle": "SwitchBotRobot", "url": "https://www.facebook.com/SwitchBotRobot"}
+  ],
+  "evidence": [
+    {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://af.uppromote.com/switchbot/register", "summary": "Official SwitchBot affiliate registration page (UpPromote) fetched: 'Join our Affiliate Program — Welcome to SwitchBot!' with full affiliate terms covering links/coupons, commissions, cookie tracking and removal contact support@wondertechlabs.com."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/switchbot/", "summary": "Lasso listing fetched: SwitchBot affiliate program pays 10% per sale, 45-day cookie, join via CJ signup; categories Electronics / Home Improvement."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://www.affiliategraph.ai/programs/switchbot", "summary": "AffiliateGraph (from network listings, updated Nov 9, 2026) fetched: 6%-15% commission across 6 networks (Awin, CJ, Connexity, Digidip, Loyalize, Skimlinks), average ~7.23%, multi-market US/UK/CA/AU/DE/JP/CN/KR/FR/IT/ES/AT."},
+    {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://sponsorradar.com/brands/switchbot", "summary": "SponsorRadar listing: 63 sponsored YouTube videos across only 30 distinct creators, deals as recent as September 2026, including Paul Hibbert (Hibbert Home Tech), Shane Whatley and TechGuru Andrew — evidence of active but low-volume creator sponsorship."},
+    {"confidence": "publicly_reported", "evidence_type": "general", "source_type": "listing", "source_url": "https://robottoday.com/suppliers-discovery/switchbot", "summary": "Company profile: SwitchBot is a Shenzhen, China-headquartered consumer robotics and smart-home company, 251-500 employees, official X handle @switchbot."}
+  ],
+  "affiliate": {"network": "CJ Affiliate", "commission_rate": 10, "application_url": "https://af.uppromote.com/switchbot/register", "source_url": "https://getlasso.co/affiliate/switchbot/", "commission_cap": "unknown", "creator_saturation": "low"},
+  "opportunity": {"title": "SwitchBot Affiliate Program (direct via UpPromote, also on CJ/Awin)", "application_url": "https://af.uppromote.com/switchbot/register", "source_url": "https://af.uppromote.com/switchbot/register"},
+  "score": {"niche_fit": 27, "ugc_evidence": 16, "compensation": 14, "contact_access": 10, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Core smart-home/IoT technology brand, ideal for home-tech UGC", "ugc_evidence": "63 tracked sponsored YouTube videos across 30 named creators", "compensation": "10% per sale on Lasso/CJ, up to 15% across networks, 45-day cookie", "contact_access": "Direct registration page plus published support email, but no named partnerships contact", "opportunity_availability": "Open self-serve registration plus 6 network listings", "credibility": "Official registration terms fetched plus multiple corroborating network listings"}}
+},
+{
+  "name": "Skullcandy",
+  "website": "https://www.skullcandy.com/",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "American lifestyle audio brand founded in 2003 in Park City, Utah, known for colourful headphones, true-wireless earbuds, gaming headsets and Bluetooth speakers aimed at youth, music and action-sports audiences. Runs a public Affiliates and Creators hub with an Affiliate Program, Influencer Program and TikTok Shop Program.",
+  "contacts": [
+    {"contact_type": "creator_application", "contact_url": "https://www.skullcandy.com/pages/affiliates-and-creators", "email": null, "source_url": "https://www.skullcandy.com/pages/affiliates-and-creators"}
+  ],
+  "socials": [
+    {"platform": "instagram", "handle": "skullcandy", "url": "https://www.instagram.com/skullcandy/"},
+    {"platform": "tiktok", "handle": "skullcandy", "url": "https://www.tiktok.com/@skullcandy"},
+    {"platform": "x", "handle": "skullcandy", "url": "https://x.com/skullcandy"}
+  ],
+  "evidence": [
+    {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.skullcandy.com/pages/affiliates-and-creators", "summary": "Official 'Affiliates and Creators' page: Step 1 'Sign up for the Affiliate Program or the Influencer Program'; Affiliate Program for 'Bloggers and Editorial Publications' with APPLY NOW linking to app.impact.com; TikTok Shop Program for 'Content Creators' with JOIN NOW linking to TikTok Shop affiliate."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/skullcandy-uk/", "summary": "Lasso listing: Commission Rate 5% Per Sale, Cookie Duration 7 Days, Electronics category."},
+    {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/skullcandy", "summary": "Beacons Universe: 'Skullcandy: 116 Creators & Their Recent Posts — posts from 116 creators (all time); 61 public posts mentioned Skullcandy in the last 12 months; 7 posted in the last 30 days' — low creator saturation for a brand of this size."}
+  ],
+  "affiliate": {"network": "Impact", "commission_rate": 5, "application_url": "https://www.skullcandy.com/pages/affiliates-and-creators", "source_url": "https://getlasso.co/affiliate/skullcandy-uk/", "commission_cap": "unknown", "creator_saturation": "low"},
+  "opportunity": {"title": "Skullcandy Affiliates and Creators — Affiliate Program, Influencer Program & TikTok Shop Program", "application_url": "https://www.skullcandy.com/pages/affiliates-and-creators", "source_url": "https://www.skullcandy.com/pages/affiliates-and-creators"},
+  "score": {"niche_fit": 27, "ugc_evidence": 17, "compensation": 10, "contact_access": 13, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Core consumer audio/tech with highly visual, youth-led products built for short-form UGC", "ugc_evidence": "Dedicated creators hub plus TikTok Shop program; Beacons shows only 116 creators all-time, so UGC lane is under-filled", "compensation": "5% per sale publicly reported — modest rate, no uncapped wording found", "contact_access": "Single public hub page with direct Apply/Join routes for affiliates, influencers and TikTok creators", "opportunity_availability": "Three open join routes live on the official page with no follower minimum stated in secondary coverage", "credibility": "Founded 2003 in Park City, Utah; long-established national audio brand, now part of Bose per 2026 coverage"}}
+},
+{
+  "name": "Click & Grow",
+  "website": "https://www.clickandgrow.com",
+  "country": "Estonia",
+  "category_slug": "home",
+  "description": "Estonian smart-garden brand founded in 2009 making self-watering indoor gardens (Smart Garden range and Wall Farm) with pre-seeded plant pods, automated lighting and nutrients, so herbs, vegetables and flowers can be grown at home year-round with minimal effort.",
+  "contacts": [
+    {"contact_type": "partnerships", "contact_url": "https://www.clickandgrow.com/pages/affiliate-program", "email": "affiliate@clickandgrow.com", "source_url": "https://www.clickandgrow.com/pages/affiliate-program"}
+  ],
+  "socials": [],
+  "evidence": [
+    {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.clickandgrow.com/pages/affiliate-program", "summary": "Click & Grow's official affiliate page states: 'Commissions of 10% or more from every referred sale', plus free gardens for aligned partners, bonus commissions and an exclusive audience discount; 30-day tracking window, monthly payouts or at the $50 threshold; accepted partners get a dashboard on Modash.io; questions and flat-fee media kits go to affiliate@clickandgrow.com."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/click-grow/", "summary": "Lasso lists Click & Grow at 10% per sale with a 45-day cookie in the Food/Gardening categories, corroborating the official 10% starting rate (official page states a 30-day window, which is the figure relied on)."},
+    {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://uppromote.com/case-study/vivian-agency-click-and-grow/", "summary": "UpPromote/Vivian Agency case study: influencer partnerships were the cornerstone of the rebuilt program, with tiered commissions starting at 10%, strong performers at 15% and top partners at 20%, personalized coupon codes, named creators onboarded, and 445 active partners by the end of the first year — an established program, so saturation is not recorded as low."}
+  ],
+  "affiliate": {"network": "Modash", "commission_rate": 10, "application_url": "https://www.clickandgrow.com/pages/affiliate-program", "source_url": "https://www.clickandgrow.com/pages/affiliate-program", "commission_cap": "unknown", "creator_saturation": "unknown"},
+  "opportunity": {"title": "Click & Grow Affiliate Program (10%+ commission, free gardens for partners)", "application_url": "https://www.clickandgrow.com/pages/affiliate-program", "source_url": "https://www.clickandgrow.com/pages/affiliate-program"},
+  "score": {"niche_fit": 25, "ugc_evidence": 16, "compensation": 14, "contact_access": 12, "opportunity_availability": 8, "credibility": 5, "reasons": {"niche_fit": "Design-led smart indoor gardens sit at the home / kitchen / smart-home crossover, with strong unboxing and grow-progress content angles.", "ugc_evidence": "Documented influencer-first program with named creators, tiered creator commissions and 445 active partners in its case study.", "compensation": "Officially published 10% or more, with bonus commissions and free product; no cap statement published, so cap is unknown.", "contact_access": "Dedicated partnerships email (affiliate@clickandgrow.com) published repeatedly on the official program page, including a media-kit route for flat-fee deals.", "opportunity_availability": "Open application on the official page; acceptance required before dashboard/link access.", "credibility": "Operating since 2009, Y Combinator-backed, sold internationally through its own regional stores."}}
+},
+{
+  "name": "Lume Cube",
+  "website": "https://lumecube.com/",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "San Diego, California lighting brand founded in 2014 via Kickstarter, making compact portable LED lights, panels, ring lights and desk lights for photographers, videographers, streamers and video-conference creators. Runs an Ambassadors & Affiliates creator community and an affiliate program via ShareASale.",
+  "contacts": [
+    {"contact_type": "creator_application", "contact_url": "https://lumecube.com/pages/community", "email": null, "source_url": "https://lumecube.com/pages/community"}
+  ],
+  "socials": [
+    {"platform": "instagram", "handle": "lumecube", "url": "https://www.instagram.com/lumecube/"},
+    {"platform": "youtube", "handle": "lumecube", "url": "https://www.youtube.com/lumecube"},
+    {"platform": "facebook", "handle": "lumecube", "url": "https://www.facebook.com/lumecube"},
+    {"platform": "x", "handle": "lumecube", "url": "https://x.com/lumecube"}
+  ],
+  "evidence": [
+    {"confidence": "verified", "evidence_type": "ugc_collab", "source_type": "official_site", "source_url": "https://lumecube.com/pages/community", "summary": "Official page titled 'Join the Lume Cube Creator Community | Ambassadors & Affiliates' — 'we continue to draw inspiration from our community of creators and innovators'; sign-up for early access to launches and sales."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://linkclicky.com/affiliate-program/lume-cube/", "summary": "LinkClicky listing: Affiliate Platform ShareASale, Commission 10% per sale, Cookie Duration 15 Days, Regions ALL, application via shareasale.com."},
+    {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://ecommercefastlane.com/influencer-marketing-case-study-a-video-lighting-company-scaled-their-influencer-program-from-50-to-450-influencer-ambassadors/", "summary": "GRIN case study: 'Lume Cube's influencer marketing program grew from just fifty influencers to an impressive 450 brand ambassadors' in just over one year; San Diego brand founded 2014, products sold in 35 countries and in every Apple Store."}
+  ],
+  "affiliate": {"network": "ShareASale", "commission_rate": 10, "application_url": "https://lumecube.com/pages/community", "source_url": "https://linkclicky.com/affiliate-program/lume-cube/", "commission_cap": "unknown", "creator_saturation": "high"},
+  "opportunity": {"title": "Lume Cube Creator Community — Ambassadors & Affiliates", "application_url": "https://lumecube.com/pages/community", "source_url": "https://lumecube.com/pages/community"},
+  "score": {"niche_fit": 26, "ugc_evidence": 18, "compensation": 14, "contact_access": 10, "opportunity_availability": 8, "credibility": 4, "reasons": {"niche_fit": "Creator lighting is a direct UGC enabler — every creator needs it on camera, strong tech/home-studio fit", "ugc_evidence": "Documented ambassador program scaled 50 to 450 creators via GRIN; influencer marketing described as foundation of the brand", "compensation": "10% per sale publicly reported via ShareASale; no uncapped wording found", "contact_access": "Public official community/ambassador page, but no public partnerships email verified on fetched pages", "opportunity_availability": "Open community page plus ShareASale application route", "credibility": "Founded 2014 in San Diego, Kickstarter-origin, sold in 35 countries and Apple Stores"}}
+},
+{
+  "name": "Kurgo",
+  "website": "https://www.kurgo.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Dog travel and outdoor adventure gear brand (harnesses, car seat covers, jackets, backpacks) built around its 'go together' ethos, based in Knoxville, TN as part of PetSafe/Radio Systems.",
+  "contacts": [
+    {"contact_type": "partnerships", "contact_url": "https://www.kurgo.com/kurgo-affiliate-program", "email": "affiliate@kurgo.com", "source_url": "https://www.kurgo.com/kurgo-affiliate-program"},
+    {"contact_type": "general", "contact_url": "https://www.kurgo.com/kurgo-affiliate-program", "email": "info@kurgo.com", "source_url": "https://www.kurgo.com/kurgo-affiliate-program"}
+  ],
+  "socials": [
+    {"platform": "instagram", "handle": "Kurgo", "url": "https://www.instagram.com/kurgo"}
+  ],
+  "evidence": [
+    {"confidence": "verified", "evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.kurgo.com/kurgo-affiliate-program", "summary": "Official affiliate page (fetched): 'Promote your favorite Kurgo dog products on your business website, blog, or social media page and get rewarded'; 30-day attribution window; program run via Pepperjam Ascend / Ascend by Partnerize; dedicated contact affiliate@kurgo.com. No commission percentage is published on the official page."},
+    {"confidence": "verified", "evidence_type": "general", "source_type": "official_site", "source_url": "https://www.kurgo.com", "summary": "Official homepage (fetched) links Instagram @Kurgo and lists HQ as Kurgo Products, 10427 PetSafe Way, Knoxville, TN 37932, phone +1 877-847-3868."}
+  ],
+  "affiliate": {"network": "Ascend by Partnerize (Pepperjam Ascend)", "commission_rate": null, "application_url": "https://www.ascendpartner.com/affiliate/registration?refid=208785", "source_url": "https://www.kurgo.com/kurgo-affiliate-program", "commission_cap": "unknown", "creator_saturation": "unknown"},
+  "opportunity": {"title": "Kurgo Affiliate Program", "application_url": "https://www.ascendpartner.com/affiliate/registration?refid=208785", "source_url": "https://www.kurgo.com/kurgo-affiliate-program"},
+  "score": {"niche_fit": 26, "ugc_evidence": 14, "compensation": 10, "contact_access": 15, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Core pet niche — adventure/travel dog gear is highly demonstrable in UGC", "ugc_evidence": "Official program explicitly targets blogs and social media pages; brand blog features ambassador content", "compensation": "Program is real with 30-day attribution, but no commission % is published on the official page (rate = null)", "contact_access": "Dedicated affiliate@kurgo.com published on the official program page, plus general info@kurgo.com", "opportunity_availability": "Open sign-up via Ascend by Partnerize linked from the official page", "credibility": "Established national brand under PetSafe/Radio Systems with a maintained official program page"}}
+},
+{
+  "name": "Burrow",
+  "website": "https://burrow.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US modular furniture brand founded in 2016, built on sofas that ship in boxes one person can carry and assemble without tools, with stain-resistant, pet-friendly fabrics and seats that can be added later; range extends to shelving, tables, rugs and bedroom furniture.",
+  "contacts": [
+    {"contact_type": "creator_application", "contact_url": "https://linkapprove.com/affiliate-programs/burrow-affiliate-program", "email": null, "source_url": "https://linkapprove.com/affiliate-programs/burrow-affiliate-program"},
+    {"contact_type": "partnerships", "contact_url": "https://burrow.com/trade-partners", "email": "trade@burrow.com", "source_url": "https://burrow.com/trade-partners"}
+  ],
+  "socials": [],
+  "evidence": [
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://linkapprove.com/affiliate-programs/burrow-affiliate-program", "summary": "LinkApprove's Burrow program page (last reviewed 2026-08-19) states: 'The Burrow affiliate program pays 6% per sale with a 30-day cookie window, and is available to LinkApprove creators and publishers in the US without a separate application'; average order value $1,450; free to join, from 1,000 followers."},
+    {"confidence": "publicly_reported", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://affi.io/m/burrow", "summary": "Affi.io's reproduction of Burrow's own program text: 'Our Affiliate Program is designed to reward creators, influencers, and publishers who share our passion for modern, functional, and sustainable home design… earn competitive commissions'; direct linking and email marketing supported, incentivized partners reviewed case-by-case, no trademark bidding."},
+    {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://www.hamstergarage.com/case-study/burrow", "summary": "Burrow's affiliate agency case study reports the program grew total partners from 169 to 289 (+71%), click-active partners 70 to 175, affiliate contribution from 6% to 12% of revenue, and 1,001+ Skimlinks content inclusions in the first year — an established, content-creator-driven program, so saturation is not recorded as low."},
+    {"confidence": "verified", "evidence_type": "contact", "source_type": "official_site", "source_url": "https://burrow.com/trade-partners", "summary": "Burrow's official Trade Partners page offers designers/decorators 20% off retail and states: 'Tell us a few details about yourself, your work, and your needs and we'll have our partnerships team reach out… Chat with us - trade@burrow.com'."}
+  ],
+  "affiliate": {"network": "LinkApprove", "commission_rate": 6, "application_url": "https://linkapprove.com/affiliate-programs/burrow-affiliate-program", "source_url": "https://linkapprove.com/affiliate-programs/burrow-affiliate-program", "commission_cap": "unknown", "creator_saturation": "unknown"},
+  "opportunity": {"title": "Burrow Affiliate Program via LinkApprove (6% per sale, $1,450 AOV)", "application_url": "https://linkapprove.com/affiliate-programs/burrow-affiliate-program", "source_url": "https://linkapprove.com/affiliate-programs/burrow-affiliate-program"},
+  "score": {"niche_fit": 27, "ugc_evidence": 15, "compensation": 13, "contact_access": 10, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Modular, pet-friendly, tool-free-assembly sofas map directly onto apartment-tour, moving-day and pet-owner home content.", "ugc_evidence": "Agency case study documents a large, growing content-partner program (289 partners, 1,001+ content inclusions).", "compensation": "6% headline rate but on a $1,450 average order (~$87 per conversion); 30-day cookie; no cap statement published.", "contact_access": "LinkApprove application route plus a published partnerships email (trade@burrow.com) on the official site.", "opportunity_availability": "Free to join via LinkApprove with no separate Burrow application, from 1,000 followers.", "credibility": "Established DTC brand founded 2016 with showrooms and a documented affiliate revenue track record."}}
+},
+{
+  "name": "Fable Pets",
+  "website": "https://fablepets.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Premium, design-forward pet gear brand (signature furniture-style dog crate, Magic Link leash, Falcon/Puffin enrichment toys, bowls and carriers) founded in 2018 and based in New York, US.",
+  "contacts": [
+    {"contact_type": "creator_application", "contact_url": "https://www.getaff.org/en/programs/fablepets-com", "email": null, "source_url": "https://www.getaff.org/en/programs/fablepets-com"}
+  ],
+  "socials": [
+    {"platform": "instagram", "handle": "fablepets", "url": "https://www.instagram.com/fablepets/"},
+    {"platform": "tiktok", "handle": "shopfablepets", "url": "https://www.tiktok.com/@shopfablepets"}
+  ],
+  "evidence": [
+    {"confidence": "verified", "evidence_type": "affiliate", "source_type": "listing", "source_url": "https://www.getaff.org/en/programs/fablepets-com", "summary": "GetAff listing synced from Awin (fetched): 'Fable Pets recruits affiliates through Awin'; market = United States; commission, cookie window, payout frequency and threshold are all 'Not published' — terms appear only in the network dashboard after joining."},
+    {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/fable-pets", "summary": "Beacons Universe: Fable Pets has 'posts from 50 creators (all time)', '2 posted in the last 30 days', and '16 public posts mentioned Fable Pets in the last 12 months' — evidence of low creator saturation. Brand based in New York, United States."},
+    {"confidence": "publicly_reported", "evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://newcollab.co/brand/fable-pets", "summary": "NewCollab (checked Oct 2026): Fable Pets works with creators through its PR team via email pitch, looks for ~5K+ followers (niche fit weighted more), US creators, mainly a gifting programme (free product, no fee); no public UGC program or published UGC rates found."}
+  ],
+  "affiliate": {"network": "Awin", "commission_rate": null, "application_url": "https://www.getaff.org/en/programs/fablepets-com", "source_url": "https://www.getaff.org/en/programs/fablepets-com", "commission_cap": "unknown", "creator_saturation": "low"},
+  "opportunity": {"title": "Fable Pets Affiliate Program (Awin)", "application_url": "https://www.getaff.org/en/programs/fablepets-com", "source_url": "https://www.getaff.org/en/programs/fablepets-com"},
+  "score": {"niche_fit": 25, "ugc_evidence": 12, "compensation": 5, "contact_access": 5, "opportunity_availability": 7, "credibility": 4, "reasons": {"niche_fit": "Design-forward crates and gear fit pets + home UGC well", "ugc_evidence": "Live Awin program plus PR gifting and real creator posts on Beacons, though no public UGC program page exists", "compensation": "Commission rate explicitly not published by Awin's public catalogue (rate = null); PR route is gifting-only", "contact_access": "Awin-only application; PR pitch route exists but no email address is published on fetched pages", "opportunity_availability": "Joinable via Awin, US market only", "credibility": "Established DTC brand (founded 2018) with press coverage; low creator saturation (50 creators all-time, 2 in last 30 days per Beacons)"}}
+}
+]
