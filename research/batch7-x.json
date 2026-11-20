@@ -1,0 +1,608 @@
+[
+  {
+    "name": "Petcube",
+    "website": "https://petcube.com",
+    "country": null,
+    "category_slug": "pets",
+    "description": "Petcube makes interactive pet cameras and connected pet-tech products, including treat-dispensing and laser-play cameras owners control from a phone app. Its official affiliates page invites bloggers, media, and social creators to earn commission promoting the devices. The program reports a network of 4,000+ affiliates.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://petcube.com/affiliates/",
+        "email": "affiliates@petcube.com",
+        "source_url": "https://petcube.com/affiliates/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://petcube.com/affiliates/",
+        "summary": "Official affiliates page: 'Join our network of 4000+ affiliates'; sign up on AWIN, get a tracking link after approval, paid monthly, no minimum sales required. FAQ: 'You are given a fixed 10% commission for each device sold' and, answering how much can be earned, 'There are no limits.' Contact email affiliates@petcube.com published on the page."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://petcube.com/affiliates/",
+      "commission_cap": "uncapped",
+      "commission_rate": 10,
+      "creator_saturation": "high",
+      "network": "Awin",
+      "source_url": "https://petcube.com/affiliates/"
+    },
+    "opportunity": {
+      "application_url": "https://petcube.com/affiliates/",
+      "source_url": "https://petcube.com/affiliates/",
+      "title": "Petcube Affiliates Program - Join And Earn Commissions With Pet Tech"
+    },
+    "score": {
+      "niche_fit": 28,
+      "ugc_evidence": 19,
+      "compensation": 15,
+      "contact_access": 14,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Demonstrable pet cameras are ideal UGC/review content for dog and cat creators",
+        "ugc_evidence": "Official page explicitly recruits pet-camera owners with followers, bloggers and media",
+        "compensation": "Published 10% per device plus explicitly uncapped earnings ('There are no limits')",
+        "contact_access": "Published affiliates@petcube.com plus a dedicated application page",
+        "opportunity_availability": "Open sign-up via Awin now, no minimum sales to join",
+        "credibility": "Established pet-tech brand; 4,000+ affiliates also signals a mature, crowded program (hence saturation high)"
+      }
+    }
+  },
+  {
+    "name": "Embark",
+    "website": "https://embarkvet.com",
+    "country": null,
+    "category_slug": "pets",
+    "description": "Embark Veterinary is a leader in dog health and genetics, known for its dog DNA test kits covering breed, ancestry and health, plus science-backed supplements. Its affiliate program is open to influencers, bloggers, vloggers and review sites. Affiliates earn commission on DNA kit sales driven through a unique link.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://embarkvet.com/pages/affiliates",
+        "email": "embark@dmipartners.com",
+        "source_url": "https://help.embarkvet.com/hc/en-us/articles/36831230154523-How-Can-I-Become-An-Affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://embarkvet.com/pages/affiliates",
+        "summary": "Official affiliates page fetched directly: 'As an affiliate of Embark, you can earn up to 10% commission off any sales you drive with your unique affiliate link' with an 'Apply now' call to action and three program tracks."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://help.embarkvet.com/hc/en-us/articles/36831230154523-How-Can-I-Become-An-Affiliate",
+        "summary": "Official help article fetched directly: affiliates 'include influencers and bloggers, vloggers, review sites, and more' earning 'up to 10% commission off Embark dog DNA test kit sales'; join by emailing embark@dmipartners.com."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://embarkvet.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": null,
+      "source_url": "https://embarkvet.com/pages/affiliates"
+    },
+    "opportunity": {
+      "application_url": "https://embarkvet.com/pages/affiliates",
+      "source_url": "https://embarkvet.com/pages/affiliates",
+      "title": "Embark Affiliate Programs: Earn Up to 10% Commission"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 18,
+      "compensation": 13,
+      "contact_access": 14,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "DNA results content (breed reveal, health) is highly shareable dog-creator material",
+        "ugc_evidence": "Official pages name influencers, bloggers and vloggers as affiliate types",
+        "compensation": "Published up to 10% on high-ticket DNA kits; no cap statement found",
+        "contact_access": "Published program email embark@dmipartners.com plus application page",
+        "opportunity_availability": "Apply-now page live; separate breeder and shelter/rescue tracks also open",
+        "credibility": "Category leader in canine genetics with major retail and media presence"
+      }
+    }
+  },
+  {
+    "name": "Nanoleaf",
+    "website": "https://nanoleaf.me",
+    "country": null,
+    "category_slug": "technology",
+    "description": "Nanoleaf creates intelligent lighting, smart home and wellness products that combine innovative technology with thoughtful design, including modular light panels and gaming lighting. Its Affiliate Program lets creators, influencers, bloggers, streamers and publishers earn commission with a custom affiliate link, plus access to exclusive campaigns and possible free products.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://nanoleaf.me/en-us/pages/affiliate-program",
+        "email": "affiliate@nanoleaf.me",
+        "source_url": "https://nanoleaf.me/en-us/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://nanoleaf.me/en-us/pages/affiliate-program",
+        "summary": "Official affiliate page: 'Earn 10% commission with your custom affiliate link', 'Approved affiliates earn up to 10% commission on eligible referred sales', free to join, commissions paid through the Impact platform, and support email affiliate@nanoleaf.me published on the page."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://nanoleaf.me/en-us/pages/affiliate-program",
+        "summary": "Page explicitly invites bloggers, creators, media pros, influencers and streamers with an engaged audience in smart home, gaming, home design or wellness to apply via an online application (Apply / Share / Earn steps)."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://nanoleaf.me/en-us/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://nanoleaf.me/en-us/pages/affiliate-program"
+    },
+    "opportunity": {
+      "application_url": "https://nanoleaf.me/en-us/pages/affiliate-program",
+      "source_url": "https://nanoleaf.me/en-us/pages/affiliate-program",
+      "title": "Nanoleaf Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 18,
+      "compensation": 14,
+      "contact_access": 14,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Smart lighting and gaming lighting are strong visual UGC categories",
+        "ugc_evidence": "Official creator/influencer affiliate page with application flow and dashboard",
+        "compensation": "Published 10% commission (up to 10% on eligible sales)",
+        "contact_access": "Published affiliate email plus application page",
+        "opportunity_availability": "Free, open online application now",
+        "credibility": "Page shows features in The Verge, Wired, TechCrunch, CNET and Forbes"
+      }
+    }
+  },
+  {
+    "name": "Truly Free Home",
+    "website": "https://trulyfreehome.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Truly Free Home makes nontoxic, refillable cleaning and laundry products for a safer home, headquartered in Williamsburg, Michigan. Its Affiliate Partner Program targets creators who educate moms and wellness-forward families, offering cash commissions, easy-to-use tools, dedicated support and real-time reporting, with a separate Brand Ambassador route offering free cleaning products.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://trulyfreehome.com/pages/affiliate",
+        "email": null,
+        "source_url": "https://trulyfreehome.com/pages/affiliate"
+      },
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://trulyfreehome.com/pages/affiliate",
+        "email": "TrulyFreeHome@jebcommerce.com",
+        "source_url": "https://jebcommerce.com/jebcommerce-welcomes-the-truly-free-home-affiliate-program/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://trulyfreehome.com/pages/affiliate",
+        "summary": "Official page fetched in full: Affiliate Partner Program with competitive commissions, resources, launch access and promotions; 'Limited Spots Available'; ideal creators educate/empower healthier living for moms and wellness families; Brand Ambassador alternative for free products."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://jebcommerce.com/jebcommerce-welcomes-the-truly-free-home-affiliate-program/",
+        "summary": "JEBCommerce (the program's management agency) program announcement fetched: 15% baseline commission on sales, 30-day cookie window, join on the TUNE network, program team reachable at TrulyFreeHome@jebcommerce.com."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://trulyfreehome.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": "TUNE",
+      "source_url": "https://jebcommerce.com/jebcommerce-welcomes-the-truly-free-home-affiliate-program/"
+    },
+    "opportunity": {
+      "application_url": "https://trulyfreehome.com/pages/affiliate",
+      "source_url": "https://trulyfreehome.com/pages/affiliate",
+      "title": "Truly Free Home Affiliate Partner Program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 17,
+      "compensation": 16,
+      "contact_access": 13,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Nontoxic cleaning/laundry refills squarely in home and family lifestyle",
+        "ugc_evidence": "Official affiliate page plus ambassador route and agency program announcement",
+        "compensation": "Published 15% baseline commission and 30-day cookie via program manager",
+        "contact_access": "Application page plus named program-management email",
+        "opportunity_availability": "Application open but page states limited spots available",
+        "credibility": "Established refill-cleaning brand with agency-managed program (JEBCommerce/TUNE)"
+      }
+    }
+  },
+  {
+    "name": "UGREEN",
+    "website": "https://www.ugreen.com",
+    "country": null,
+    "category_slug": "technology",
+    "description": "UGREEN is a global consumer electronics brand for chargers, hubs, docks, cables and other tech accessories sold through UGREEN.COM. Its affiliate program invites review sites, online communities, bloggers and other content creators to promote its products and earn commissions on referred sales, with applications reviewed within 2-3 business days.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://ui.awin.com/merchant-profile/90851/commission-groups?setLocale=nb_NO",
+        "email": "affiliate@ugreen.com",
+        "source_url": "https://ui.awin.com/merchant-profile/90851/commission-groups?setLocale=nb_NO"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/90851/commission-groups?setLocale=nb_NO",
+        "summary": "Awin merchant profile for UGREEN (Global): 'Earn a minimum of 8% commission on qualifying purchases made through your affiliate links', 30-day cookie, apply/register as affiliate or publisher with review in 2-3 business days, and contact affiliate@ugreen.com for questions."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/90851/commission-groups?setLocale=nb_NO",
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/90851/commission-groups?setLocale=nb_NO"
+    },
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/90851/commission-groups?setLocale=nb_NO",
+      "source_url": "https://ui.awin.com/merchant-profile/90851/commission-groups?setLocale=nb_NO",
+      "title": "UGREEN (Global) Affiliate Program on Awin"
+    },
+    "score": {
+      "niche_fit": 28,
+      "ugc_evidence": 16,
+      "compensation": 13,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Everyday charging, hub and dock accessories are a core tech UGC staple",
+        "ugc_evidence": "Live Awin program listing explicitly inviting bloggers and content creators",
+        "compensation": "Published minimum 8% commission on the network listing",
+        "contact_access": "Published affiliate email plus network application route",
+        "opportunity_availability": "Open publisher application via Awin now",
+        "credibility": "Large global accessories brand with a long-running multi-network program"
+      }
+    }
+  },
+  {
+    "name": "Wyze",
+    "website": "https://www.wyze.com",
+    "country": null,
+    "category_slug": "technology",
+    "description": "Wyze (Wyze Labs, Inc.) makes affordable smart home technology, including smart home cameras offering 1080p to 4K video with advanced motion detection for indoor and outdoor use. Its free-to-join affiliate program, Wyze Insiders, is aimed at website owners, bloggers, influencers and other fans who want to support its mission to make great technology accessible to everyone.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.wyze.com/pages/wyze-insiders",
+        "email": "wyze@dmipartners.com",
+        "source_url": "https://support.wyze.com/hc/en-us/articles/21945347320475-Wyze-Affiliate-Program-Setup-Guide"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://support.wyze.com/hc/en-us/articles/21945222316187-About-Wyze-Affiliate-Program",
+        "summary": "Official Wyze support article (updated March 28, 2026): Wyze Insiders is a free-to-join affiliate program for website owners, bloggers and influencers; participants 'can earn up to 10% commission' on eligible items via their affiliate link, currently on wyze.com (US only), with sign-up at https://www.wyze.com/pages/wyze-insiders."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://support.wyze.com/hc/en-us/articles/21945347320475-Wyze-Affiliate-Program-Setup-Guide",
+        "summary": "Official setup guide: sign-up is via a Pepperjam Ascend application (Program ID 9995 for existing network members), applications are usually processed within 24 hours, and the program is managed by DMi Partners — contact wyze@dmipartners.com."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.wyze.com/pages/wyze-insiders",
+        "summary": "Official Wyze Insiders application page addresses 'Press, Media, or Blogger?', 'Social Media Influencer or Community Leader?' and other fans with a platform, and states becoming a Wyze Insider costs nothing."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://www.wyze.com/pages/wyze-insiders",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Pepperjam Ascend",
+      "source_url": "https://support.wyze.com/hc/en-us/articles/21945222316187-About-Wyze-Affiliate-Program"
+    },
+    "opportunity": {
+      "application_url": "https://www.wyze.com/pages/wyze-insiders",
+      "source_url": "https://www.wyze.com/pages/wyze-insiders",
+      "title": "Wyze Insiders Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 17,
+      "compensation": 13,
+      "contact_access": 13,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Affordable smart cameras and smart home gear are proven UGC demo products",
+        "ugc_evidence": "Official Insiders program with dedicated application page and support documentation",
+        "compensation": "Published up to 10% commission on eligible wyze.com sales",
+        "contact_access": "Published program-manager email plus application page",
+        "opportunity_availability": "Free, open application now (US commissions only)",
+        "credibility": "Established US smart-home brand with a documented, managed program"
+      }
+    }
+  },
+  {
+    "name": "Sijo",
+    "website": "https://sijohome.com",
+    "country": null,
+    "category_slug": "home",
+    "description": "Sijo is a mindful lifestyle brand making bedding and home products from carefully curated, sustainable materials, including bamboo and French linen bedding and loungewear. Its affiliate program, run via ShareASale, pays commissions starting at 10% of sales with 30-day tracking and monthly net-30 payments, and frames affiliates as brand ambassadors using banners and tracking links across websites, blogs, social posts and email.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": "https://sijohome.com/en-ca/pages/affiliate-program",
+        "email": "care@sijohome.com",
+        "source_url": "https://sijohome.com/en-ca/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://sijohome.com/en-ca/pages/affiliate-program",
+        "summary": "Official page fetched in full: commissions start at 10% of all sales from affiliate links; tracked via ShareASale for 30 days; payments monthly net 30; join link to ShareASale; questions to care@sijohome.com."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://sijohome.com/en-ca/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://sijohome.com/en-ca/pages/affiliate-program"
+    },
+    "opportunity": {
+      "application_url": "https://sijohome.com/en-ca/pages/affiliate-program",
+      "source_url": "https://sijohome.com/en-ca/pages/affiliate-program",
+      "title": "Sijo Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 16,
+      "contact_access": 12,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Premium bedding/sleep and mindful-home niche for lifestyle creators",
+        "ugc_evidence": "Complete official program page with ambassador framing and social/email link use",
+        "compensation": "Published 10% starting commission, 30-day cookie, monthly payments",
+        "contact_access": "ShareASale join link plus published contact email on the program page",
+        "opportunity_availability": "Open join link live on official page",
+        "credibility": "Established premium bedding DTC brand"
+      }
+    }
+  },
+  {
+    "name": "Honest Paws",
+    "website": "https://www.honestpaws.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Honest Paws is a U.S. pet-wellness brand (founded 2017) selling natural supplements, CBD oils, treats, probiotics and grooming products for dogs and cats. It runs both an affiliate program and a Brand Ambassador Program open to customers, influencers and bloggers. Ambassadors earn commission via a personal discount code or link, paid through PayPal.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.honestpaws.com/pages/ambassador-program",
+        "email": null,
+        "source_url": "https://www.honestpaws.com/pages/ambassador-program"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "handle": "honestpaws",
+        "url": "https://www.instagram.com/honestpaws"
+      },
+      {
+        "platform": "tiktok",
+        "handle": "honestpaws",
+        "url": "https://www.tiktok.com/@honestpaws"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.honestpaws.com/pages/ambassador-program",
+        "summary": "Official ambassador page: program open to 'customers, influencers, bloggers, and all passionate advocates'; 'You earn a 15% commission on new customer sales generated using your unique discount code,' paid via PayPal 30 days after sale; ambassadors must follow @honestpaws on Instagram and TikTok."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.honestpaws.com/pages/terms-conditions-ambassador-program",
+        "summary": "Official ambassador terms confirm compensation: 'The ambassador will be paid 15% of every sale generated through their promo code or unique link'; returned sales are non-commissionable."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://www.honestpaws.com/pages/ambassador-program",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": null,
+      "source_url": "https://www.honestpaws.com/pages/ambassador-program"
+    },
+    "opportunity": {
+      "application_url": "https://www.honestpaws.com/pages/ambassador-program",
+      "source_url": "https://www.honestpaws.com/pages/ambassador-program",
+      "title": "Honest Paws Ambassador Program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 18,
+      "compensation": 16,
+      "contact_access": 9,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Supplements/CBD wellness is a core pet-UGC review category for dog and cat creators",
+        "ugc_evidence": "Dedicated ambassador program with published terms, perks and free-product positioning",
+        "compensation": "Published 15% commission confirmed in both the program page and its official terms",
+        "contact_access": "Dedicated application page; no published program email verified",
+        "opportunity_availability": "Open join page live; 18+ and brand-follow requirements only",
+        "credibility": "Operating since 2017 with a separate Awin affiliate program also live"
+      }
+    }
+  },
+  {
+    "name": "Shokz",
+    "website": "https://shokz.com",
+    "country": null,
+    "category_slug": "technology",
+    "description": "Shokz is an open-ear and sports headphone brand whose headphones are engineered for comfort, safety and sport, with flagship products including OpenRun Pro 2, OpenFit Pro and OpenDots 2. Its US Affiliate Program invites bloggers, content creators, online communities and review platforms to promote the products and earn commission on qualifying sales.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://shokz.com/pages/become-an-affiliate",
+        "email": null,
+        "source_url": "https://shokz.com/pages/become-an-affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://shokz.com/pages/become-an-affiliate",
+        "summary": "Official affiliate page: 'Earn up to 10% commission on all sales', 'Earn a minimum of 5% commission', 30-day cookies, free to join, approval within 5-7 business days, with an 'Apply now' link to app.impact.com on the page."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://shokz.com/pages/become-an-affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://shokz.com/pages/become-an-affiliate"
+    },
+    "opportunity": {
+      "application_url": "https://shokz.com/pages/become-an-affiliate",
+      "source_url": "https://shokz.com/pages/become-an-affiliate",
+      "title": "Shokz Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 17,
+      "compensation": 13,
+      "contact_access": 10,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Open-ear audio is a core consumer-tech UGC category, especially for active-lifestyle creators",
+        "ugc_evidence": "Official affiliate page explicitly invites content creators with full terms and FAQ",
+        "compensation": "Published minimum 5% and up to 10% commission",
+        "contact_access": "Application via the official page/Impact; no published email on the fetched page",
+        "opportunity_availability": "Open, free sign-up now via Apply now",
+        "credibility": "Page claims #1 brand in sports headphones sales and average order value over $140"
+      }
+    }
+  },
+  {
+    "name": "Blueland",
+    "website": "https://www.blueland.com",
+    "country": null,
+    "category_slug": "home",
+    "description": "Blueland makes plastic-free, refillable cleaning and home care products, including dishwasher tablets, built around easy eco swaps. Its affiliate program recruits content creators who care about sustainability, cleaning and home organization to earn commission sharing products they trust, with payouts via Impact every month.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.blueland.com/pages/affiliate",
+        "email": null,
+        "source_url": "https://www.blueland.com/pages/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.blueland.com/pages/affiliate",
+        "summary": "Official affiliate page fetched: program gives creators opportunity to earn commission for sharing eco swaps; explicitly looking for content creators; bloggers/publications welcome; payouts via Impact monthly; Apply Now links to Impact."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://www.bravodm.com/brands/blueland",
+        "summary": "BravoDM listing (checked Oct 2026) describes Blueland creator program targeting sustainability/low-waste and cleaning/home-organization creators to promote refillable tablet-based cleaning products via Impact."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://www.blueland.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://www.blueland.com/pages/affiliate"
+    },
+    "opportunity": {
+      "application_url": "https://www.blueland.com/pages/affiliate",
+      "source_url": "https://www.blueland.com/pages/affiliate",
+      "title": "Blueland Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 18,
+      "compensation": 8,
+      "contact_access": 11,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Core home cleaning/organization niche, explicitly creator-focused",
+        "ugc_evidence": "Official page directly recruits content creators, payouts via Impact",
+        "compensation": "Commission offered but no percentage published on official page",
+        "contact_access": "Open application page; no published program email",
+        "opportunity_availability": "Apply Now live via Impact",
+        "credibility": "Established DTC eco-cleaning brand with monthly payout infrastructure"
+      }
+    }
+  }
+]

@@ -1,0 +1,661 @@
+[
+  {
+    "name": "OSEA Malibu",
+    "website": "https://oseamalibu.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Clean skincare brand founded by a mother-daughter team and 'Clean since 1996', selling seaweed-based skincare through its own store and built around ocean and climate responsibility.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliates@oseamalibu.com",
+        "source_url": "https://oseamalibu.com/pages/affiliates"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://oseamalibu.com/pages/affiliates",
+        "email": null,
+        "source_url": "https://oseamalibu.com/pages/affiliates"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://oseamalibu.com/pages/affiliates",
+        "summary": "OSEA's official affiliates page publishes tiered commissions — Basic 16%, Gold 18%, Platinum 20% by monthly revenue — and prints affiliates@oseamalibu.com as the program contact. Applications route to the brand's Refersion portal; the page invites creators with under 4,000 followers to still apply."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://oseamalibu.com/pages/partnerships",
+        "summary": "OSEA's official Partnerships page runs four creator routes — the Seaweed Society Affiliate Program ('Earn up to 20% commission through your custom link and community discount code'), Paid Brand Partnerships, Creator Gifting and a UGC Creator Program — with applications routed through Superfiliate."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/osea-malibu",
+        "summary": "Beacons Universe reports posts from 4,050 creators all time and 1,596 sponsored posts mentioning OSEA Malibu in the last 12 months — clear evidence of high creator saturation, so saturation is marked high, not low."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion / Superfiliate",
+      "commission_rate": 16,
+      "application_url": "https://oseamalibu.com/pages/affiliates",
+      "source_url": "https://oseamalibu.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "Seaweed Society Affiliate Program",
+      "application_url": "https://oseamalibu.com/pages/affiliates",
+      "source_url": "https://oseamalibu.com/pages/partnerships"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 18,
+      "compensation": 15,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Seaweed-based clean skincare sold direct — squarely in the skincare UGC niche.",
+        "ugc_evidence": "Four structured creator routes on the brand's own site (affiliate, paid partnerships, gifting, UGC program) and thousands of creators already posting — the deepest creator infrastructure in this group.",
+        "compensation": "Published tiers of 16% base rising to 20% on the brand's own page; no cap statement is published, so the cap stays unknown.",
+        "contact_access": "A published program email (affiliates@oseamalibu.com) plus application pages on the official site — top band per the rubric.",
+        "opportunity_availability": "Applications are open now; the page suggests 4,000+ followers but explicitly invites smaller creators to apply.",
+        "credibility": "Operating since 1996 with national brand recognition and a large verified creator footprint."
+      }
+    }
+  },
+  {
+    "name": "Cocokind",
+    "website": "https://cocokind.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "San Francisco conscious beauty brand formulating gentle yet effective skincare with sustainably sourced superfoods, offered at affordable prices through its own store and retailers.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/68628",
+        "email": null,
+        "source_url": "https://ui.awin.com/merchant-profile/68628"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/68628",
+        "summary": "Cocokind's Awin merchant profile publishes 'Commission Rate: Up to 25% on new customer transactions and 10% for returning' with a 7-day cookie, with applications reviewed for approval to join ShareASale and the Cocokind program. No cap statement appears on the profile."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/cocokind/",
+        "summary": "An older LinkClicky listing (last updated March 10, 2024) reports 5% per sale via ShareASale, which conflicts with the current Awin merchant profile; the Awin figure is recorded as the current published rate."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/cocokind",
+        "summary": "Beacons Universe reports posts from 1,011 creators all time (122 in the last 30 days) and 58 sponsored posts in the last 12 months — evidence of high creator saturation."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin / ShareASale",
+      "commission_rate": 25,
+      "application_url": "https://ui.awin.com/merchant-profile/68628",
+      "source_url": "https://ui.awin.com/merchant-profile/68628",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "Cocokind Affiliate Program (Awin)",
+      "application_url": "https://ui.awin.com/merchant-profile/68628",
+      "source_url": "https://ui.awin.com/merchant-profile/68628"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 15,
+      "compensation": 17,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Affordable conscious skincare built for everyday routine content — a core skincare UGC niche.",
+        "ugc_evidence": "A live network program with over a thousand creators already posting about the brand on Beacons.",
+        "compensation": "Up to 25% on new-customer sales per the current Awin profile (10% returning) — among the highest published rates in this group; no cap statement published.",
+        "contact_access": "Application runs through the Awin merchant profile only; no published partnerships email was found on a fetched page.",
+        "opportunity_availability": "Open to apply now through Awin/ShareASale, subject to site review.",
+        "credibility": "Established San Francisco brand with broad retail presence and a large verified creator footprint."
+      }
+    }
+  },
+  {
+    "name": "LiLash Beauty",
+    "website": "https://www.lilash.com",
+    "country": null,
+    "category_slug": "beauty",
+    "description": "Lash and brow serum brand founded in 2007, selling physician-formulated, ophthalmologist-tested LiLash and LiBrow serums through luxury spas and its own store, with over a million tubes sold worldwide.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliate@beautifuleasy.com",
+        "source_url": "https://www.lilash.com/pages/affiliate-program"
+      },
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.lilash.com/pages/affiliate-program",
+        "email": null,
+        "source_url": "https://www.lilash.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.lilash.com/pages/affiliate-program",
+        "summary": "LiLash's official affiliate page publishes a 10% baseline commission, a 30-day cookie window, a dedicated support team, vanity codes on request and paid placement opportunities, with higher tiers for top performers. Joining is free and applications are reviewed within 5-7 business days."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://www.lilash.com/pages/affiliate-program",
+        "summary": "The same page publishes affiliate@beautifuleasy.com as the affiliate team's contact, states the program runs on an Impact dashboard, and says the affiliate program 'also accepts micro-influencers so if you're just getting started, this is for you!' No cap statement is published on the page."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 10,
+      "application_url": "https://www.lilash.com/pages/affiliate-program",
+      "source_url": "https://www.lilash.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "LiLash Beauty Affiliate Program",
+      "application_url": "https://www.lilash.com/pages/affiliate-program",
+      "source_url": "https://www.lilash.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 12,
+      "compensation": 12,
+      "contact_access": 13,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Lash and brow serums are a focused beauty niche — strong for lash-content creators, narrower than general skincare.",
+        "ugc_evidence": "A structured affiliate program on Impact that explicitly accepts micro-influencers, plus a separate influencer route described on the page.",
+        "compensation": "A published 10% baseline on the brand's own page with higher tiers for top performers; no cap statement published.",
+        "contact_access": "A published affiliate team email plus a dedicated support team named on the official page — top band per the rubric.",
+        "opportunity_availability": "Open now, free to join, and explicitly welcoming to creators just getting started.",
+        "credibility": "In lash enhancement since 2007, physician-formulated and sold in luxury spas worldwide, with over a million tubes sold."
+      }
+    }
+  },
+  {
+    "name": "Typology",
+    "website": "https://us.typology.com/",
+    "country": "France",
+    "category_slug": "skincare",
+    "description": "Paris-founded minimalist skincare brand created to strip formulas back to essential ingredients, with skincare made in France and sold direct through its own stores.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/32257?setLocale=sv_SE",
+        "email": null,
+        "source_url": "https://ui.awin.com/merchant-profile/32257?setLocale=sv_SE"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/32257?setLocale=sv_SE",
+        "summary": "Typology's Awin merchant profile states verbatim: 'When you join the Typology affiliate program, you'll earn between 8% and 17% of sales including VAT.' The base of the published range (8%) is recorded as the rate. No cap statement appears on the profile."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/typology",
+        "summary": "Beacons Universe reports posts from 527 creators all time (50 in the last 30 days) and 65 sponsored posts in the last 12 months — evidence of high creator saturation."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 8,
+      "application_url": "https://ui.awin.com/merchant-profile/32257?setLocale=sv_SE",
+      "source_url": "https://ui.awin.com/merchant-profile/32257?setLocale=sv_SE",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "Typology Affiliate Program (Awin)",
+      "application_url": "https://ui.awin.com/merchant-profile/32257?setLocale=sv_SE",
+      "source_url": "https://ui.awin.com/merchant-profile/32257?setLocale=sv_SE"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Minimalist, ingredient-led French skincare — a strong fit for skincare education and routine content.",
+        "ugc_evidence": "A live Awin program with over 500 creators already posting about the brand on Beacons.",
+        "compensation": "A published 8-17% range on the network's own merchant profile; the 8% base is recorded. No cap statement published.",
+        "contact_access": "Application runs through the Awin profile only; no published partnerships email was found on a fetched page.",
+        "opportunity_availability": "Open to join now through Awin.",
+        "credibility": "Established Paris brand with international direct stores and a verified network program."
+      }
+    }
+  },
+  {
+    "name": "Earth Harbor",
+    "website": "https://earthharbor.com/",
+    "country": null,
+    "category_slug": "skincare",
+    "description": "Woman-owned, independently run natural skincare brand founded by toxicologist and herbalist Ali Perry-Hatch, making ocean-powered, plant-based formulas in small batches and selling them through its own store.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://getlasso.co/affiliate/earth-harbor/",
+        "email": null,
+        "source_url": "https://getlasso.co/affiliate/earth-harbor/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/earth-harbor/",
+        "summary": "Lasso's Earth Harbor listing publishes a 20% per sale commission with a 15-day cookie, and its 'Join the Earth Harbor affiliate program today' link routes to ShareASale. No cap statement appears on the listing."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://earthharbor.com/",
+        "summary": "Earth Harbor's own site tells its grassroots story — founded by Ali Perry-Hatch, MPH, toxicologist and herbalist, first sold at farmers' markets — and describes the brand as a small, woman-owned, independently operated family business making ocean and earth active skincare."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 20,
+      "application_url": "https://getlasso.co/affiliate/earth-harbor/",
+      "source_url": "https://getlasso.co/affiliate/earth-harbor/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Earth Harbor Affiliate Program (ShareASale)",
+      "application_url": "https://getlasso.co/affiliate/earth-harbor/",
+      "source_url": "https://getlasso.co/affiliate/earth-harbor/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 11,
+      "compensation": 16,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Ocean-powered natural skincare with a strong sustainability story — a clear clean-beauty UGC niche.",
+        "ugc_evidence": "A live ShareASale program aimed at bloggers and creators in the vegan and eco niches, though no creator counts were published on the pages fetched.",
+        "compensation": "A published 20% per sale rate via the Lasso/ShareASale listing — one of the highest in this group; no cap statement published.",
+        "contact_access": "Join route runs through the network listing; no published partnerships email was found on a fetched page.",
+        "opportunity_availability": "Open to apply now through ShareASale.",
+        "credibility": "Small independent family business with an established product range and press coverage quoted on its own site."
+      }
+    }
+  },
+  {
+    "name": "LYS Beauty",
+    "website": "https://lysbeauty.com/",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Atlanta-based clean beauty brand founded by Tisha Thompson, selling high-performance makeup and skincare for an inclusive range of skin tones, on a mission to diversify clean beauty.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://lysbeauty.com/pages/ambassador",
+        "email": null,
+        "source_url": "https://lysbeauty.com/pages/ambassador"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://lysbeauty.com/pages/ambassador",
+        "summary": "LYS Beauty's official ambassador page runs the #ConfidenceCrew Ambassador Program (join links route to Brandbassador): ambassadors get a discount code and 'earning yourself commission when your code is used', plus free products, gift cards and cash offers — but the brand publishes no percentage on its own page. A separate College Confidence Crew application runs for the 2026/2027 academic year."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/lys-beauty/",
+        "summary": "LinkClicky's listing for LYS Beauty's Rakuten Advertising program publishes 10% per sale. Other third-party listings conflict (Lasso reports 5% and up to 15% on separate pages), so the Rakuten figure is recorded with the conflict noted."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/lys-beauty",
+        "summary": "Beacons Universe reports posts from 1,119 creators all time (107 in the last 30 days) — evidence of high creator saturation."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": 10,
+      "application_url": "https://lysbeauty.com/pages/ambassador",
+      "source_url": "https://linkclicky.com/affiliate-program/lys-beauty/",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "LYS Beauty #ConfidenceCrew Ambassador Program",
+      "application_url": "https://lysbeauty.com/pages/ambassador",
+      "source_url": "https://lysbeauty.com/pages/ambassador"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 11,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Inclusive clean makeup and skincare — a core beauty UGC niche with strong shade-range content potential.",
+        "ugc_evidence": "An official ambassador crew plus a college ambassador route, with over a thousand creators already posting about the brand.",
+        "compensation": "10% per sale per the Rakuten listing; the brand's own page confirms commission is paid but publishes no percentage, and third-party listings conflict (5% / up to 15%). No cap statement published.",
+        "contact_access": "A full program page on the official site with a direct join route, but no published email.",
+        "opportunity_availability": "Applications are open now through the official page, with an additional seasonal college crew route.",
+        "credibility": "Established clean beauty brand with a large verified creator community and multiple network listings."
+      }
+    }
+  },
+  {
+    "name": "U Beauty",
+    "website": "https://ubeauty.com",
+    "country": null,
+    "category_slug": "skincare",
+    "description": "Premium skincare brand selling science-led formulas through its own store, running a creator-focused Affiliate Network with commissionable discount codes, gifting opportunities and curated shopping lists.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ubeauty.com/pages/affiliate-program",
+        "email": null,
+        "source_url": "https://ubeauty.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://ubeauty.com/pages/affiliate-program",
+        "summary": "U Beauty's official Affiliate Network page promises 'Earn commission on all U Beauty orders driven through your unique links', commissionable discount codes, exclusive gifting for new drops and insider content for creators, with a Creator Program sign-up and a separate Affiliate Partner Inquiry form. No percentage is published on the page."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/u-beauty/",
+        "summary": "Lasso's U Beauty listing publishes 'Up to 10.5%' commission with a 14-day cookie. No cap statement appears on the official page or the listing."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 10.5,
+      "application_url": "https://ubeauty.com/pages/affiliate-program",
+      "source_url": "https://ubeauty.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "U Beauty Affiliate Network — Creator Program",
+      "application_url": "https://ubeauty.com/pages/affiliate-program",
+      "source_url": "https://ubeauty.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 12,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Premium science-led skincare — a strong fit for results-focused skincare content.",
+        "ugc_evidence": "A dedicated creator program on the brand's own site with gifting, curated lists and insider content built for creators.",
+        "compensation": "Up to 10.5% per the Lasso listing; the brand's own page confirms commission on all orders but publishes no rate. No cap statement published.",
+        "contact_access": "Creator sign-up and an affiliate partner inquiry form on the official page, but no published email.",
+        "opportunity_availability": "Open now — creators sign up on the official page and send their social handles to join.",
+        "credibility": "Established premium skincare brand with an official affiliate network page and retail recognition."
+      }
+    }
+  },
+  {
+    "name": "Princippeza Skincare",
+    "website": "https://www.princippezaskincare.com",
+    "country": "Canada",
+    "category_slug": "skincare",
+    "description": "Growing Canadian luxury skincare brand selling handcrafted skincare, bodycare, haircare and fragrance collections through its own website.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.princippezaskincare.com/brand-ambassador",
+        "email": null,
+        "source_url": "https://www.princippezaskincare.com/brand-ambassador"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.princippezaskincare.com/brand-ambassador",
+        "summary": "Princippeza's official Brand Ambassador Program page publishes a 10% commission on qualifying purchases through a referral code or link, a 40% personal shopping discount, a complimentary welcome gift, monthly payments and no minimum payout threshold. No cap statement is published on the page."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.princippezaskincare.com/brand-ambassador",
+        "summary": "The same page describes Princippeza as 'a growing Canadian luxury skincare brand' actively recruiting ambassadors and states 'You do not need a large social media following to apply' — direct evidence of a small, still-recruiting creator base, so saturation is marked low."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 10,
+      "application_url": "https://www.princippezaskincare.com/brand-ambassador",
+      "source_url": "https://www.princippezaskincare.com/brand-ambassador",
+      "commission_cap": "unknown",
+      "creator_saturation": "low"
+    },
+    "opportunity": {
+      "title": "Princippeza Skincare Brand Ambassador Program",
+      "application_url": "https://www.princippezaskincare.com/brand-ambassador",
+      "source_url": "https://www.princippezaskincare.com/brand-ambassador"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 11,
+      "compensation": 11,
+      "contact_access": 8,
+      "opportunity_availability": 9,
+      "credibility": 2,
+      "reasons": {
+        "niche_fit": "Handcrafted luxury skincare, bodycare and fragrance — a clear beauty UGC niche fit.",
+        "ugc_evidence": "A named ambassador program with welcome gifts and launch opportunities, run at small-brand scale and still recruiting.",
+        "compensation": "A published 10% commission plus a 40% personal discount and no minimum payout, all on the brand's own page; no cap statement published.",
+        "contact_access": "A full application route on the official program page, but no published email.",
+        "opportunity_availability": "Applications are open now with no following requirement, no purchase requirement and no posting quota.",
+        "credibility": "New, small Canadian brand with little independent coverage found — scored low per the rubric."
+      }
+    }
+  },
+  {
+    "name": "Rizos Curls",
+    "website": "https://rizoscurls.com/",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Latina-owned Los Angeles haircare brand founded by Julissa Prado, selling products that embrace and celebrate curls, coils and waves through its own store and retail partners.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://rizoscurls.com/en-ca/pages/rizos-curls-insider-programs",
+        "email": null,
+        "source_url": "https://rizoscurls.com/en-ca/pages/rizos-curls-insider-programs"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://instagram.com/rizoscurls"
+      },
+      {
+        "platform": "tiktok",
+        "url": "http://tiktok.com/@rizoscurlshair"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://rizoscurls.com/en-ca/pages/rizos-curls-insider-programs",
+        "summary": "Rizos Curls' official Insider Programs page runs two creator routes: Rizos Ambassadors (application via Aspire; perks include campaigns, product access, events and giveaways — note the Aspire join link returned a 404 when fetched on 2026-11-20) and Pro-Squad (application via AvantLink), which states an 'Opportunity to earn commission on all Rizos Curls product sales' but publishes no percentage."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://universe.beacons.ai/brands/rizos-curls",
+        "summary": "Beacons Universe reports posts from 674 creators all time (72 in the last 30 days) but only 24 sponsored posts in the last 12 months — a large organic creator footprint, so saturation is marked high on creator count."
+      }
+    ],
+    "affiliate": {
+      "network": "Aspire / AvantLink",
+      "commission_rate": null,
+      "application_url": "https://rizoscurls.com/en-ca/pages/rizos-curls-insider-programs",
+      "source_url": "https://rizoscurls.com/en-ca/pages/rizos-curls-insider-programs",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": {
+      "title": "Rizos Curls Insider Programs (Ambassadors & Pro-Squad)",
+      "application_url": "https://rizoscurls.com/en-ca/pages/rizos-curls-insider-programs",
+      "source_url": "https://rizoscurls.com/en-ca/pages/rizos-curls-insider-programs"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 14,
+      "compensation": 7,
+      "contact_access": 8,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Curl, coil and wave haircare with a strong community identity — a proven hair-content UGC niche.",
+        "ugc_evidence": "Two official insider programs (ambassadors and a pro squad) with hundreds of creators already posting about the brand.",
+        "compensation": "Commission is confirmed for Pro-Squad members but no percentage is published anywhere fetched, so this stays low per the rubric. No cap statement published.",
+        "contact_access": "A dedicated program page on the official site with two application routes, but no published email; the ambassador join link was dead when fetched.",
+        "opportunity_availability": "Programs are published and joinable via AvantLink; the Aspire ambassador link returned a 404 on 2026-11-20, which may limit that route until fixed.",
+        "credibility": "Established Latina-owned brand with national retail presence and a large organic creator community."
+      }
+    }
+  },
+  {
+    "name": "Luxe Spa Formulas",
+    "website": "https://luxespaformulas33.refersion.com/",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Female-owned Austin, Texas skincare brand whose formulas were once available only to medical spas and dermatologists and are now sold online, best known for its No. 33 skin firming and tightening cream.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://luxespaformulas33.refersion.com/",
+        "email": null,
+        "source_url": "https://luxespaformulas33.refersion.com/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://luxespaformulas33.refersion.com/",
+        "summary": "Luxe Spa Formulas' official affiliate program agreement (run on Refersion) states verbatim in its Commissions section: 'There is no maximum commission limit.' The same terms confirm affiliates earn commission on products purchased by their referrals, tracked through Refersion — commissions are explicitly uncapped."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://commission.academy/blog/best-spa-affiliate-programs/",
+        "summary": "Commission Academy's spa affiliate roundup reports the Luxe Spa Formulas program pays 8% commission per sale with a 30-day cookie, managed on Refersion, with applications reviewed within 3 business days. The percentage is not published in the brand's own terms, so it is recorded as publicly reported."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://www.healthwebmagazine.com/luxe-spa-formula-no-33-reviews",
+        "summary": "Health Web Magazine describes Luxe Spa Formulas as a female-owned company in Austin, Texas whose No. 33 cream was initially sold only to medical spas and physicians before becoming available online."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion",
+      "commission_rate": 8,
+      "application_url": "https://luxespaformulas33.refersion.com/",
+      "source_url": "https://luxespaformulas33.refersion.com/",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Luxe Spa Formulas Affiliate Program (Refersion)",
+      "application_url": "https://luxespaformulas33.refersion.com/",
+      "source_url": "https://luxespaformulas33.refersion.com/"
+    },
+    "score": {
+      "niche_fit": 20,
+      "ugc_evidence": 8,
+      "compensation": 11,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Spa-grade firming and tightening skincare — a narrower, treatment-focused corner of the skincare niche.",
+        "ugc_evidence": "A real, long-running affiliate program, but built on referral links rather than a creator or ambassador layer, so UGC-specific evidence is limited.",
+        "compensation": "Commissions are explicitly uncapped in the program's own terms ('There is no maximum commission limit'), with 8% per sale reported by affiliate roundups; the brand does not publish the percentage itself.",
+        "contact_access": "A public application on the brand's Refersion portal with review promised within 3 business days per roundups, but no published email.",
+        "opportunity_availability": "Open to apply now through the Refersion portal.",
+        "credibility": "Long-running niche brand (program terms date to 2018) with spa and dermatologist heritage, but a modest public footprint."
+      }
+    }
+  }
+]
