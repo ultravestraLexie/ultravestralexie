@@ -10,7 +10,7 @@ export default function LandingPage() {
           Smarter brand partnerships.
         </h1>
         <p style={{ fontSize: 18, color: "#444", maxWidth: 640, margin: "0 auto" }}>
-          TRYBE is the UGC brand intelligence platform. Find the brands worth
+          Ultra Vestra is the UGC brand intelligence platform. Find the brands worth
           pitching, see the right contact, understand what creators actually
           earn, and send a professional pitch — all in one place.
         </p>
@@ -54,11 +54,11 @@ export default function LandingPage() {
         {[
           {
             title: "Brands worth pursuing",
-            body: "Every worthwhile brand can be researched — even if it is not running a campaign right now. A brand worth pitching is not the same as an open opportunity, and TRYBE shows you both.",
+            body: "Every worthwhile brand can be researched — even if it is not running a campaign right now. A brand worth pitching is not the same as an open opportunity, and Ultra Vestra shows you both.",
           },
           {
             title: "Opportunity scores that explain themselves",
-            body: "Each brand gets a 0–100 TRYBE Opportunity Score built from niche fit, UGC evidence, compensation, contact access, availability and credibility — with the reasons shown, not just a number.",
+            body: "Each brand gets a 0–100 Ultra Vestra Opportunity Score built from niche fit, UGC evidence, compensation, contact access, availability and credibility — with the reasons shown, not just a number.",
           },
           {
             title: "Contacts and compensation, with sources",

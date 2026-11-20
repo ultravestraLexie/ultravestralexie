@@ -31,11 +31,11 @@ export default function LoginPage() {
 
   return (
     <div style={{ maxWidth: 420, margin: "0 auto" }}>
-      <h1>Log in to TRYBE</h1>
+      <h1>Log in to Ultra Vestra</h1>
       {sent ? (
         <p>
           Check your email — we sent you a sign-in link. After signing in,
-          complete your creator profile so TRYBE can match you to the right
+          complete your creator profile so Ultra Vestra can match you to the right
           brands.
         </p>
       ) : (

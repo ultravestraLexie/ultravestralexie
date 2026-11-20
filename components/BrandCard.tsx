@@ -27,7 +27,7 @@ export default function BrandCard({
         </h3>
         {typeof score === "number" && (
           <span
-            title="TRYBE Opportunity Score"
+            title="Ultra Vestra Opportunity Score"
             style={{
               background: "#111",
               color: "#fff",

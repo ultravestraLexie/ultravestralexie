@@ -1,9 +1,9 @@
-# TRYBE — UGC Brand Intelligence Platform
+# Ultra Vestra — UGC Brand Intelligence Platform
 
 > **Less time searching. More time creating. Smarter brand partnerships.**
 
-TRYBE helps creators find the brands worth pursuing for UGC work. For every
-researched brand, TRYBE shows what the brand does, the evidence that it works
+Ultra Vestra helps creators find the brands worth pursuing for UGC work. For every
+researched brand, Ultra Vestra shows what the brand does, the evidence that it works
 with creators, the right public contact or creator application page, what
 creators have actually reported earning, and a 0–100 **Opportunity Score**
 with the reasons behind it — plus ready-to-use pitch templates and outreach
@@ -12,7 +12,7 @@ tracking. Creators pay a recurring subscription (Starter / Pro / Elite).
 Two ideas sit at the center of the product:
 
 - **Every worthwhile brand can be researched**, even if it is not running a
-  campaign right now. TRYBE separates "worth pitching" from "verified open
+  campaign right now. Ultra Vestra separates "worth pitching" from "verified open
   opportunity."
 - **Trust is the product.** Every fact carries its source, the date it was
   collected, the date it was last checked, and a verification status

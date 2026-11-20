@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TRYBE — UGC Brand Intelligence",
+  title: "Ultra Vestra — UGC Brand Intelligence",
   description:
     "Less time searching. More time creating. Smarter brand partnerships.",
 };
@@ -26,7 +26,7 @@ export default function RootLayout({
           }}
         >
           <Link href="/" style={{ fontWeight: 800, fontSize: 20 }}>
-            TRYBE
+            Ultra Vestra
           </Link>
           <nav style={{ display: "flex", gap: 16, fontSize: 15 }}>
             <Link href="/brands">Brands</Link>
@@ -49,7 +49,7 @@ export default function RootLayout({
             textAlign: "center",
           }}
         >
-          TRYBE — Less time searching. More time creating. Smarter brand
+          Ultra Vestra — Less time searching. More time creating. Smarter brand
           partnerships.
         </footer>
       </body>
