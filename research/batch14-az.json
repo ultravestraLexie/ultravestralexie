@@ -1,0 +1,612 @@
+[
+  {
+    "name": "Silvery",
+    "website": "https://www.mysilvery.com",
+    "country": null,
+    "category_slug": "home",
+    "description": "Home bedding brand selling silver-infused Restcool bed sheets and sleep products through its own store, with a creator-facing affiliate program that grants every approved affiliate a free set of sheets to promote.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.mysilvery.com/pages/affiliate-q-a",
+        "email": null,
+        "source_url": "https://www.mysilvery.com/pages/affiliate-q-a"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.mysilvery.com/pages/affiliate-q-a",
+        "summary": "Official Silvery affiliate FAQ fetched: tiered commission — Tier 1 (0-25 referrals) 10%, Tier 2 (26-75) 15%, Tier 3 (76+) 20% — on all products, 30-day attribution window, monthly payouts via Tremendous with a $50 minimum. The FAQ answers 'Is there a limit to how much I can earn?' with 'No. There is no cap on earnings.' — an explicit no-cap statement on the brand's own page, so the commission cap is recorded as UNCAPPED. The recorded 20% is the published top-tier ceiling. Applications run through a form hosted on Social Snowball."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.mysilvery.com/pages/affiliate-q-a",
+        "summary": "The same FAQ says the program is open to creators, influencers, bloggers and content publishers, encourages authentic original content on social media, blogs, newsletters and video platforms, grants a free set of Silvery Restcool Silver-Infused Bed Sheets on joining, and notes top-performing affiliates may be invited to paid collaborations, ambassador programs or early product launches. Support is via the site's email/call options (Mon-Fri 9am-5pm EST, phone +1 762-920-1623); no program email address is published in the page text."
+      }
+    ],
+    "affiliate": {
+      "network": "Social Snowball",
+      "commission_rate": 20,
+      "application_url": "https://www.mysilvery.com/pages/affiliate-q-a",
+      "source_url": "https://www.mysilvery.com/pages/affiliate-q-a",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Silvery Affiliate Program — tiered 10/15/20% via Social Snowball, no cap on earnings, free sheet set on joining",
+      "application_url": "https://www.mysilvery.com/pages/affiliate-q-a",
+      "source_url": "https://www.mysilvery.com/pages/affiliate-q-a"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 17,
+      "compensation": 18,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Bedding and sleep products are a staple, demonstrable category for home and sleep-wellness UGC",
+        "ugc_evidence": "Program explicitly recruits creators and influencers, encourages original social and video content, gifts product, and offers paid-collaboration invitations to top performers",
+        "compensation": "Tiered commission up to a 20% ceiling with an explicit 'No. There is no cap on earnings' FAQ answer — verified uncapped",
+        "contact_access": "No program email is published on the fetched page; contact is via the site's support options and a published phone number, so access is scored lower",
+        "opportunity_availability": "Free to join with application review for brand fit via the Social Snowball form",
+        "credibility": "Established DTC bedding brand with published payout terms, thresholds and a support phone line"
+      }
+    }
+  },
+  {
+    "name": "Northern Knife",
+    "website": "https://northernknife.com",
+    "country": null,
+    "category_slug": "home",
+    "description": "Kitchen knife brand handcrafting Viking-inspired chef's and cooking knives, sold through its own store, with a dedicated Content Creator Program that ships free product to approved creators in exchange for monthly content.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://northernknife.com/pages/become-an-ambassadors",
+        "email": "contact@northernknife.com",
+        "source_url": "https://northernknife.com/pages/become-an-ambassadors"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://northernknife.com/pages/become-an-ambassadors",
+        "summary": "Official Northern Knife Content Creator Program page fetched: creators earn 15% commission on every sale made through their link or code, followers get 10% off, commissions are paid via PayPal, and approved creators are shipped requested product. Under 'Sales and Commission' the page states 'No limits. There is no cap on your commission earnings.' — an explicit no-cap statement on the brand's own page, so the commission cap is recorded as UNCAPPED. Commission is on the net price after discounts, excluding tax and shipping."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://northernknife.com/pages/become-an-ambassadors",
+        "summary": "The same page describes a genuinely creator-run program: application reviewed by the internal team, one piece of unique content per product per month (Instagram feed post, IGTV, YouTube video or blog post) shared with the brand via Instagram DM, applications welcomed from most countries, and the published program contact contact@northernknife.com with a stated 24-hour response time."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 15,
+      "application_url": "https://northernknife.com/pages/become-an-ambassadors",
+      "source_url": "https://northernknife.com/pages/become-an-ambassadors",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Northern Knife Content Creator Program — 15% commission, no cap on earnings, free product shipped (contact@northernknife.com)",
+      "application_url": "https://northernknife.com/pages/become-an-ambassadors",
+      "source_url": "https://northernknife.com/pages/become-an-ambassadors"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 18,
+      "compensation": 17,
+      "contact_access": 12,
+      "opportunity_availability": 7,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Handcrafted kitchen knives are visual, demonstrable products that fit cooking, BBQ and men's-lifestyle home UGC well",
+        "ugc_evidence": "A dedicated Content Creator Program (not a generic link scheme): free product shipped, defined monthly content deliverables, YouTube and Instagram explicitly named",
+        "compensation": "15% flat commission with an explicit 'No limits. There is no cap on your commission earnings' statement — verified uncapped",
+        "contact_access": "Published program email contact@northernknife.com with a stated 24-hour response time on the official page",
+        "opportunity_availability": "Free application with team review, but a monthly posting requirement per product applies, so availability is scored lower",
+        "credibility": "Niche DTC knife brand with published program terms and payment method; smaller than national kitchen brands"
+      }
+    }
+  },
+  {
+    "name": "Amerisleep",
+    "website": "https://amerisleep.com",
+    "country": null,
+    "category_slug": "home",
+    "description": "Online mattress brand selling memory-foam and hybrid mattresses direct to consumers since 2010, with an affiliate program run through ShareASale aimed at sleep reviewers and publishers.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://amerisleep.com/ca/affiliates/",
+        "email": null,
+        "source_url": "https://amerisleep.com/ca/affiliates/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://amerisleep.com/ca/affiliates/",
+        "summary": "Official Amerisleep affiliate page fetched (the brand's Canadian storefront page; sign-up routes to ShareASale): free to join, monthly payouts through ShareASale, 90-day cookie, last-click attribution, performance-based bonuses and seasonal cash incentives, high-converting creative assets provided. The FAQ answers 'How much can I earn?' with 'The sky's the limit! Your earning potential is uncapped and is based on your ability to drive purchases to Amerisleep.com.' — an explicit uncapped statement on the brand's own page, so the commission cap is recorded as UNCAPPED. No percentage or flat rate is published on the page, so commission_rate is recorded as null rather than guessed."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://amerisleep.com/ca/affiliates/",
+        "summary": "The same page states Amerisleep has been at the forefront of the online mattress industry since 2010, publishes phone help at (800) 500-4233, and carries testimonials from established sleep-review publishers (Sleepyard, Sleepopolis, Mattress Clarity) describing a responsive affiliate team and custom coupon codes. No affiliate email is published on the fetched page."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": null,
+      "application_url": "https://amerisleep.com/ca/affiliates/",
+      "source_url": "https://amerisleep.com/ca/affiliates/",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Amerisleep Affiliate Program — via ShareASale, 90-day cookie, earning potential explicitly uncapped (rate unpublished on the page)",
+      "application_url": "https://amerisleep.com/ca/affiliates/",
+      "source_url": "https://amerisleep.com/ca/affiliates/"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 12,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Mattresses and sleep products are a proven, high-ticket category for home and sleep UGC and review content",
+        "ugc_evidence": "Program supports review content with creative assets and custom coupon codes, but is publisher-leaning rather than a dedicated social creator program",
+        "compensation": "Earnings are explicitly uncapped on the brand's own FAQ, but no rate is published on the page, so compensation is scored mid-range and the rate recorded as null",
+        "contact_access": "No affiliate email is published on the fetched page; contact is via phone and the ShareASale program, so access is scored lower",
+        "opportunity_availability": "Free registration through ShareASale with approval, open to publishers and reviewers",
+        "credibility": "Mattress brand operating since 2010 with named publisher testimonials and published support phone number"
+      }
+    }
+  },
+  {
+    "name": "Tech Supply Shop",
+    "website": "https://techsupplyshop.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "US online software retailer (in business since 2011, Wilmington, Delaware) selling business and consumer software with USA-based tech support, running its Partners Program through ShareASale for tech bloggers and video creators.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://techsupplyshop.com/pages/partners-program-faq",
+        "email": "support@techsupplyshop.com",
+        "source_url": "https://techsupplyshop.com/pages/partners-program-faq"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://techsupplyshop.com/pages/partners-program-faq",
+        "summary": "Official Tech Supply Shop Partners Program FAQ fetched: free registration through ShareASale, payments handled by ShareASale with a $50 minimum payout, open to publishers worldwide. Commission is tiered by monthly sales volume — Bronze 5%, Silver 6%, Gold 7%, Platinum 8% — and the FAQ states 'There's no limit to how much you can earn!' — an explicit no-limit statement on the brand's own page, so the commission cap is recorded as UNCAPPED. The recorded 8% is the published top-tier ceiling; the base rate is 5%."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://techsupplyshop.com/pages/partners-program-faq",
+        "summary": "The same FAQ says many of its affiliates are tech bloggers and channel owners who write a blog or shoot a video with their special link, and that the company provides professional content and media, weekly updates and live support. The page publishes the address 2810 N Church St, Wilmington, DE 19802, phone (408) 850-0818 and the email support@techsupplyshop.com, and states the business has operated since 2011 with Google Trusted Store status."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 8,
+      "application_url": "https://techsupplyshop.com/pages/partners-program-faq",
+      "source_url": "https://techsupplyshop.com/pages/partners-program-faq",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Tech Supply Shop Partners Program — tiered 5-8% via ShareASale, no limit on earnings (support@techsupplyshop.com)",
+      "application_url": "https://techsupplyshop.com/pages/partners-program-faq",
+      "source_url": "https://techsupplyshop.com/pages/partners-program-faq"
+    },
+    "score": {
+      "niche_fit": 21,
+      "ugc_evidence": 13,
+      "compensation": 13,
+      "contact_access": 11,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "A software retailer is a narrower fit for consumer UGC than physical gadgets; strongest for tech bloggers and software-review creators",
+        "ugc_evidence": "FAQ explicitly describes affiliates blogging and shooting videos with their links, with promotional materials and content support provided",
+        "compensation": "Tiered 5-8% rates are modest, but the FAQ's 'There's no limit to how much you can earn!' makes earnings verified uncapped",
+        "contact_access": "Published support email and phone number on the official FAQ page",
+        "opportunity_availability": "Free ShareASale registration, open to publishers worldwide with multiple websites allowed",
+        "credibility": "In business since 2011 with a published Delaware address, phone support hours and Google Trusted Store status cited on its own page"
+      }
+    }
+  },
+  {
+    "name": "Grenaro",
+    "website": "https://www.grenaro.com",
+    "country": "India",
+    "category_slug": "technology",
+    "description": "Indian audio brand selling wireless microphones and creator audio gear, positioned as a best-selling audio brand on Amazon India and Flipkart, with a creator-first affiliate program run through GoAffPro.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.grenaro.com/pages/affiliate-program",
+        "email": null,
+        "source_url": "https://www.grenaro.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.grenaro.com/pages/affiliate-program",
+        "summary": "Official Grenaro affiliate program page fetched (page updated April 29, 2026): base commission of 12-15% fixed on every sale, plus monthly cash bonuses (up to 35,000 rupees) and lifetime achievement bonuses, 30-day tracking, monthly payouts via UPI/Paytm/bank transfer with a 500-rupee minimum, sign-up through grenaro.goaffpro.com with a 100-rupee signup bonus. The benefits table lists 'Unlimited Earnings — No cap on how much you can earn' — an explicit no-cap statement on the brand's own page, so the commission cap is recorded as UNCAPPED. The recorded 15% is the top of the published 12-15% base range."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.grenaro.com/pages/affiliate-program",
+        "summary": "The same page is explicitly built for content creators: no follower minimum, no approval process, full creative freedom with no scripts or templates imposed, free product samples automatically sent to affiliates making 50+ sales in a month, and named long-term partnerships with Indian tech and lifestyle creators. Questions go through WhatsApp (+91-9667585067) published on the page; no program email is published."
+      }
+    ],
+    "affiliate": {
+      "network": "GoAffPro",
+      "commission_rate": 15,
+      "application_url": "https://www.grenaro.com/pages/affiliate-program",
+      "source_url": "https://www.grenaro.com/pages/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Grenaro Affiliate Program — 12-15% base via GoAffPro, unlimited earnings / no cap, instant signup, free samples for top affiliates",
+      "application_url": "https://www.grenaro.com/pages/affiliate-program",
+      "source_url": "https://www.grenaro.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 17,
+      "compensation": 17,
+      "contact_access": 8,
+      "opportunity_availability": 10,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Wireless microphones and creator audio gear are directly demonstrable products for tech and creator-economy UGC, though the program is India-market focused",
+        "ugc_evidence": "Program is designed for creators, names established creator partners, guarantees full creative freedom and sends free samples to active affiliates",
+        "compensation": "12-15% base commission plus cash bonuses, with an explicit 'Unlimited Earnings — No cap' statement — verified uncapped",
+        "contact_access": "Contact is via a published WhatsApp number only; no program email is published, so access is scored lower",
+        "opportunity_availability": "Instant free signup with no approval process and no follower minimum — the most open application in this batch",
+        "credibility": "Self-reported bestseller status on Amazon India and Flipkart and INR/UPI payout rails make it a regional, smaller-scale brand"
+      }
+    }
+  },
+  {
+    "name": "FindBuyTool",
+    "website": "https://www.findbuytool.com",
+    "country": null,
+    "category_slug": "technology",
+    "description": "Online retailer of woodworking and DIY tools and accessories (router bits, jigs, measuring and workshop gear) sold through its own store, with an affiliate program run on the Awin network.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.findbuytool.com/pages/affiliate-program-faq",
+        "email": "affiliate@findbuytool.com",
+        "source_url": "https://www.findbuytool.com/pages/affiliate-program-faq"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.findbuytool.com/pages/affiliate-program-faq",
+        "summary": "Official FindBuyTool affiliate FAQ fetched: program run through Awin (tracking, reporting and monthly payments from Awin, $50 payment threshold), applications manually reviewed within 2 business days, free to join, applications welcomed from most countries. The FAQ answers 'How much can I earn?' with 'That's completely up to you. There is no cap on your commission earnings.' and gives a standard commission rate of 10% on every sale — an explicit no-cap statement on the brand's own page, so the commission cap is recorded as UNCAPPED."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://www.findbuytool.com/pages/affiliate-program-faq",
+        "summary": "The same FAQ publishes the affiliate contact affiliate@findbuytool.com with a stated 24-hour response time, and describes affiliates earning by placing links, banners and product reviews on websites, social media accounts, video channels and emails."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://www.findbuytool.com/pages/affiliate-program-faq",
+      "source_url": "https://www.findbuytool.com/pages/affiliate-program-faq",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "FindBuyTool Affiliate Program — 10% standard rate via Awin, no cap on commission earnings (affiliate@findbuytool.com)",
+      "application_url": "https://www.findbuytool.com/pages/affiliate-program-faq",
+      "source_url": "https://www.findbuytool.com/pages/affiliate-program-faq"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 15,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Woodworking and DIY tools are a strong, demonstrable niche for maker and workshop UGC, though narrower than mainstream consumer tech",
+        "ugc_evidence": "FAQ contemplates product reviews across social media and video channels with banners and links supplied through Awin; no dedicated creator cohort was found",
+        "compensation": "10% standard commission with an explicit 'There is no cap on your commission earnings' FAQ answer — verified uncapped",
+        "contact_access": "Dedicated affiliate@findbuytool.com published on the official FAQ with a stated 24-hour response time",
+        "opportunity_availability": "Join via Awin with manual review within 2 business days; applications from most countries welcomed",
+        "credibility": "Specialist tool retailer running its program on the major Awin network with published payment terms"
+      }
+    }
+  },
+  {
+    "name": "Pet Snacks",
+    "website": "https://petsnacks.com",
+    "country": "Australia",
+    "category_slug": "pets",
+    "description": "Australian pet brand selling 100% natural, Australian-made dog treats through its own store, with an Ambassador Program for dog creators run through Shopify Collabs.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://petsnacks.com/pages/ambassador-program",
+        "email": null,
+        "source_url": "https://petsnacks.com/pages/ambassador-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://petsnacks.com/pages/ambassador-program",
+        "summary": "Official Pet Snacks Ambassador Program page fetched: ambassadors earn 15% commission on every order placed through their unique link or personalised code, tracked in a real-time ambassador dashboard, with applications through Shopify Collabs. The page states 'Earn 15% commission on every order placed through your unique link or personalised code — with no cap on what you can earn' and its FAQ repeats 'There's no cap on your earnings — the more you share, the more you earn.' — explicit no-cap statements on the brand's own page, so the commission cap is recorded as UNCAPPED."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://petsnacks.com/pages/ambassador-program",
+        "summary": "The same page says the program welcomes dog owners, pet content creators, trainers, groomers and rescue advocates, offers free treats and gifting, first access to new products, seasonal campaigns, giveaways and content collabs, and names Instagram, TikTok, YouTube, Facebook, blogs and newsletters as promotion channels. The brand cites 140,000+ pet parents on the page; contact is via its contact page (no program email published)."
+      }
+    ],
+    "affiliate": {
+      "network": "Shopify Collabs",
+      "commission_rate": 15,
+      "application_url": "https://petsnacks.com/pages/ambassador-program",
+      "source_url": "https://petsnacks.com/pages/ambassador-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Pet Snacks Ambassador Program — 15% on every order via Shopify Collabs, no cap on earnings, free treats and gifting",
+      "application_url": "https://petsnacks.com/pages/ambassador-program",
+      "source_url": "https://petsnacks.com/pages/ambassador-program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 17,
+      "compensation": 17,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Natural dog treats are a staple, highly demonstrable category for pet UGC and dog-owner content",
+        "ugc_evidence": "Ambassador program explicitly built for pet content creators, with gifting, campaigns and content collaborations beyond plain affiliate links",
+        "compensation": "15% flat commission with explicit 'no cap on what you can earn' wording in two places on the brand's own page — verified uncapped",
+        "contact_access": "No program email is published on the fetched page; contact runs through the site's contact page, so access is scored lower",
+        "opportunity_availability": "Application via Shopify Collabs with personal review of every application",
+        "credibility": "Established Australian DTC pet brand citing 140,000+ customers on its own page, with published ambassador terms"
+      }
+    }
+  },
+  {
+    "name": "HolistaPet",
+    "website": "https://www.holistapet.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US online pet retailer specialising in hemp-derived CBD oils, capsules, treats and chews for dogs, cats and horses, all third-party lab tested, with an affiliate program run through GoAffPro.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.holistapet.com/pages/affiliate-register?itm_source=affstuff",
+        "email": "affiliates@holistapet.com",
+        "source_url": "https://www.holistapet.com/pages/affiliate-register?itm_source=affstuff"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.holistapet.com/pages/affiliate-register?itm_source=affstuff",
+        "summary": "Official HolistaPet affiliate page fetched: affiliates earn 35% of the total purchase when customers buy through their link on their website or social media page, payouts are made on the 10th of every month, sign-up runs through the brand's GoAffPro portal (holistapet.goaffpro.com), and anyone interested in the pet niche may apply — no pet-ownership or CBD experience required. No 'no cap' / 'unlimited' / earnings-limit statement appears anywhere on the fetched page (full-text check), so the commission cap is honestly recorded as UNKNOWN."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://www.holistapet.com/pages/affiliate-register?itm_source=affstuff",
+        "summary": "The same page publishes the affiliate support email affiliates@holistapet.com, describes founders with a combined 25 years in the organic food industry, third-party lab testing with Certificates of Analysis on product pages, and a 30-day full-refund return policy."
+      }
+    ],
+    "affiliate": {
+      "network": "GoAffPro",
+      "commission_rate": 35,
+      "application_url": "https://www.holistapet.com/pages/affiliate-register?itm_source=affstuff",
+      "source_url": "https://www.holistapet.com/pages/affiliate-register?itm_source=affstuff",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "HolistaPet Affiliate Program — 35% of total purchase via GoAffPro, monthly payouts (affiliates@holistapet.com)",
+      "application_url": "https://www.holistapet.com/pages/affiliate-register?itm_source=affstuff",
+      "source_url": "https://www.holistapet.com/pages/affiliate-register?itm_source=affstuff"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 19,
+      "contact_access": 13,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Pet CBD and wellness products for dogs, cats and horses are a strong, content-rich niche for pet-health creators",
+        "ugc_evidence": "Program welcomes pet-niche affiliates promoting across websites and social media; no dedicated creator perks or gifting were found on the fetched page",
+        "compensation": "35% of the total purchase is the highest published rate in this batch; no cap statement is published, so the cap is honestly unknown",
+        "contact_access": "Dedicated affiliates@holistapet.com published on the official program page",
+        "opportunity_availability": "Open application through the brand's GoAffPro portal; anyone in the pet niche can apply",
+        "credibility": "Established pet CBD brand with third-party lab testing, published COAs and a 30-day return policy"
+      }
+    }
+  },
+  {
+    "name": "OLLO Audio",
+    "website": "https://olloaudio.com",
+    "country": "Slovenia",
+    "category_slug": "technology",
+    "description": "Slovenian pro-audio brand handcrafting studio headphones for mixing and mastering, sold through its own store and pro-audio retailers, with a creator partnership program for audio professionals and reviewers.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://olloaudio.com/pages/affiliate",
+        "email": null,
+        "source_url": "https://olloaudio.com/pages/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://olloaudio.com/pages/affiliate",
+        "summary": "Official OLLO Audio affiliate page fetched: partners earn 20% commission on every sale made through their unique affiliate link or code with 100% attribution, their audience receives 10% off, and partners get creator benefits, complimentary products, early product access and priority support. Payments are made against official invoices following monthly sales reports, so partners must have a registered company or sole-trader status. No 'no cap' / 'unlimited' / earnings-limit statement appears on the fetched page, so the commission cap is honestly recorded as UNKNOWN."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://olloaudio.com/pages/affiliate",
+        "summary": "The same page is explicitly creator-facing: it targets content creators, audio professionals, engineers, musicians and educators who review or discuss pro-audio gear, showcases product reviews, unboxing videos, product placement and workflow content, and carries video testimonials from named mixing and mastering engineers. WhatsApp support (+386 697 128 41, a Slovenian number) is published on the page; no program email is published."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 20,
+      "application_url": "https://olloaudio.com/pages/affiliate",
+      "source_url": "https://olloaudio.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "OLLO Audio Affiliate Program — 20% commission with 100% attribution, complimentary products and early access for audio creators",
+      "application_url": "https://olloaudio.com/pages/affiliate",
+      "source_url": "https://olloaudio.com/pages/affiliate"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 18,
+      "compensation": 17,
+      "contact_access": 8,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Studio headphones are a focused but highly demonstrable product for audio, music-production and gear-review creators",
+        "ugc_evidence": "One of the most creator-built programs in this batch: reviews, unboxings and workflow content showcased, complimentary products and early access offered",
+        "compensation": "20% flat commission on all attributed sales is strong; no cap statement is published, so the cap is honestly unknown",
+        "contact_access": "No program email is published on the fetched page; contact is via the application and a published WhatsApp number, so access is scored lower",
+        "opportunity_availability": "Application is reviewed for audience fit and payouts require a registered company or sole-trader status for invoicing, so availability is scored lower",
+        "credibility": "Established pro-audio brand with named engineer testimonials and retail presence through major pro-audio dealers"
+      }
+    }
+  },
+  {
+    "name": "Hepper",
+    "website": "https://www.hepper.com",
+    "country": null,
+    "category_slug": "pets",
+    "description": "Pet brand designing modern, furniture-style cat products — beds, scratchers, bowls, toys and grooming — that blend with home decor, sold through its own store with an affiliate program for cat and home creators.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.hepper.com/join-hepper-cat-affiliate-program/",
+        "email": null,
+        "source_url": "https://www.hepper.com/join-hepper-cat-affiliate-program/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://uppromote.com/affiliate-programs/cat/",
+        "summary": "Affiliate-program listings consistently report the Hepper program at a 12% starting commission (higher for proven partners), 30-day cookie, $50 payment threshold and payouts via AffiliateWP by bank transfer, with applications reviewed within about 48 hours and 1:1 support from an in-house affiliate team; average order value is reported at $60+. The brand's own program URL (hepper.com/join-hepper-cat-affiliate-program/) redirected to the shop page when fetched this round, and the 'no limit to how much you can earn' wording appears only in third-party blog write-ups, not on a fetched Hepper page — so the commission cap is honestly recorded as UNKNOWN rather than uncapped."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://www.hepper.com/join-hepper-cat-affiliate-program/",
+        "summary": "Hepper's own site fetched this round: a design-led cat range (Nest bed, Hi-Lo scratcher, NomNom whisker-relief bowl, toys, grooming and harness products), a 4.9 rating based on 423 reviews displayed on the shop, free 2-year warranty extension and free shipping on orders $25+."
+      }
+    ],
+    "affiliate": {
+      "network": "AffiliateWP",
+      "commission_rate": 12,
+      "application_url": "https://www.hepper.com/join-hepper-cat-affiliate-program/",
+      "source_url": "https://www.hepper.com/join-hepper-cat-affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Hepper Cat Affiliate Program — 12% starting commission via AffiliateWP, 30-day cookie (terms per program listings)",
+      "application_url": "https://www.hepper.com/join-hepper-cat-affiliate-program/",
+      "source_url": "https://www.hepper.com/join-hepper-cat-affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 12,
+      "compensation": 14,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Design-led cat furniture sits at the pets x home-decor crossover and is highly visual, giftable UGC material",
+        "ugc_evidence": "Listings describe referral links embeddable in blogs, home-decor roundups, social channels and newsletters with in-house affiliate support; no dedicated creator program page could be fetched",
+        "compensation": "12% starting commission, rising for proven partners per listings; no cap statement verified on the brand's own page, so the cap is honestly unknown",
+        "contact_access": "No program email could be verified on a fetched page this round, so contact access is scored lower",
+        "opportunity_availability": "Application reviewed within about 48 hours per program listings, with a $50 payout threshold",
+        "credibility": "Established cat brand with a 4.9 rating across 423 reviews on its own store and a long-running pet-care blog"
+      }
+    }
+  }
+]

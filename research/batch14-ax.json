@@ -1,0 +1,679 @@
+[
+ {
+  "name": "HelloRoam",
+  "website": "https://www.helloroam.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel eSIM brand selling data plans for 185+ destinations on 212+ partner networks, with plans from $1.03. Its own affiliate programme pays 20% commission on every sale including repeat purchases, with a 90-day cookie, a dedicated partnership manager, and an FAQ that states there is no cap on earnings.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "help@helloroam.com",
+    "source_url": "https://www.helloroam.com/en-IN/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.helloroam.com/en-IN/affiliate",
+    "summary": "Official affiliate page: 20% commission on every sale, 90-day cookie, monthly payouts via PayPal or Wise with a USD 50 minimum, real-time dashboard, creative assets provided, and a dedicated partnership manager for every affiliate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.helloroam.com/en-IN/affiliate",
+    "summary": "Commission cap answered explicitly in the official FAQ: 'You earn 20% commission on every sale made through your unique affiliate link. There is no cap on earnings.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.helloroam.com/en-IN/affiliate",
+    "summary": "Programme is built for travel creators: the page publishes partner success stories (a travel blogger, a YouTube creator and a digital-nomad community leader), encourages Instagram Reels, YouTube vlogs and WhatsApp promotion, and confirms affiliates earn 20% on repeat purchases too, not just first orders. Account opens instantly on sign-up with no approval wait."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://www.helloroam.com/en-IN/affiliate",
+   "source_url": "https://www.helloroam.com/en-IN/affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.helloroam.com/en-IN/affiliate",
+   "source_url": "https://www.helloroam.com/en-IN/affiliate",
+   "title": "HelloRoam Affiliate Programme"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 18,
+   "contact_access": 13,
+   "opportunity_availability": 10,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "eSIM data is a core, repeatedly promoted product for travel creators, and the page gives route-specific content angles for travel audiences.",
+    "ugc_evidence": "Named partner success stories across blogging, YouTube and community channels plus platform-specific creative assets, but no published creator counts.",
+    "compensation": "20% on every sale including repeat purchases, 90-day cookie, and an explicit no-cap statement in the official FAQ.",
+    "contact_access": "Published affiliate support email (help@helloroam.com, 24/7) and a dedicated partnership manager for each affiliate.",
+    "opportunity_availability": "Instant account on sign-up with no approval wait; link and marketing materials issued the same day.",
+    "credibility": "Young eSIM brand; the earnings figures in its success stories are the brand's own claims, so credibility stays mid-low."
+   }
+  }
+ },
+ {
+  "name": "TechGeeksApparel",
+  "website": "https://techgeeksapparel.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Premium apparel brand for software engineers, developers and tech enthusiasts, selling graphic t-shirts ($22.49-$32.49) with coding puns and tech-culture designs. Its own affiliate programme pays 20% of every t-shirt sale, states there is no cap on earnings, and requires no minimum following.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "info@techgeeksapparel.com",
+    "source_url": "https://techgeeksapparel.com/affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://techgeeksapparel.com/affiliate-program/",
+    "summary": "Official affiliate page: 20% of every t-shirt sale referred (shirts $22.49-$32.49, so $4.50-$6.50 per sale), 30-day click tracking, real-time dashboard, payouts via PayPal once the balance reaches $20."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://techgeeksapparel.com/affiliate-program/",
+    "summary": "Commission cap stated explicitly twice on the official page: 'There is no cap on earnings. The more you refer, the more you earn', and the FAQ answer to 'How much can I earn?' ends 'There is no cap.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://techgeeksapparel.com/affiliate-program/",
+    "summary": "Programme targets tech bloggers, YouTube channels, newsletters, Discord/Slack communities and podcast hosts; no minimum follower count or monthly traffic is required, applications are reviewed within 3 business days, and applicants worldwide are accepted."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://techgeeksapparel.com/affiliate-program/",
+   "source_url": "https://techgeeksapparel.com/affiliate-program/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://techgeeksapparel.com/affiliate-program/",
+   "source_url": "https://techgeeksapparel.com/affiliate-program/",
+   "title": "TechGeeksApparel Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 14,
+   "compensation": 18,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 2,
+   "reasons": {
+    "niche_fit": "Developer-humour apparel is a natural fit for tech and coding creators, narrower for general fashion creators because commission applies to t-shirts only.",
+    "ugc_evidence": "The official page names the creator channels it wants (YouTube reviews, tutorials, newsletters, podcasts) but publishes no creator counts or partner stories.",
+    "compensation": "20% of the sale price on every referred t-shirt sale with an explicit no-cap statement in both the body copy and the FAQ.",
+    "contact_access": "Published contact email (info@techgeeksapparel.com) with a stated 2-business-day response time.",
+    "opportunity_availability": "Open application on the brand's own page with no follower or traffic minimum; worldwide applicants accepted.",
+    "credibility": "Small, young niche brand with a narrow catalogue, so credibility stays low."
+   }
+  }
+ },
+ {
+  "name": "IRONBODY",
+  "website": "https://ironbody.in",
+  "country": "India",
+  "category_slug": "fitness",
+  "description": "Indian manufacturer of functional trainers and home-gym setups (power racks and Smith-machine trainers, roughly Rs 69,000-Rs 149,000). Its partner programme for fitness coaches pays 10% of the sale price on every sale with a unique code and link, states 'No caps', and is run through GoAffPro.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "contact@ironbody.in",
+    "source_url": "https://ironbody.in/pages/partner-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://ironbody.in/pages/partner-program",
+    "summary": "Official partner page: 10% referral cash on every sale, paid monthly to UPI/bank; a per-model table confirms the cut is 10% of the sale price (e.g. Rs 14,927 on the Rs 1,49,270 X50 flagship), plus a Rs 2,000 bonus on the first order within 30 days."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://ironbody.in/pages/partner-program",
+    "summary": "Earnings cap addressed explicitly on the official page: 'No stock. No targets. No caps.' and joining is 'free, there are no targets and no exclusivity'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://ironbody.in/pages/partner-program",
+    "summary": "Programme is built for fitness coaches and creators: a welcome kit with product photos and videos ready for stories, ready-to-post captions, a partner price list and a client FAQ sheet; enrolment takes 2 minutes with activation within 24 hours via the brand's GoAffPro portal (ironbody.goaffpro.com)."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 10,
+   "application_url": "https://ironbody.in/pages/partner-program",
+   "source_url": "https://ironbody.in/pages/partner-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ironbody.in/pages/partner-program",
+   "source_url": "https://ironbody.in/pages/partner-program",
+   "title": "IRONBODY Partner Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 2,
+   "reasons": {
+    "niche_fit": "High-ticket home-gym equipment is a strong demo and review fit for fitness coaches and home-gym creators, though the audience is India-based.",
+    "ugc_evidence": "Creator-first design with ready-to-post captions and product video assets, but no published partner counts.",
+    "compensation": "10% of the sale price on equipment priced up to about Rs 1.49 lakh makes per-sale payouts large, and the page states there are no caps.",
+    "contact_access": "Published email (contact@ironbody.in) and phone number on the official page, with a physical address in Maharashtra.",
+    "opportunity_availability": "Open enrolment on the brand's own page, activated within 24 hours, no targets or exclusivity.",
+    "credibility": "Young, little-known Indian manufacturer, so credibility stays low despite the detailed published terms."
+   }
+  }
+ },
+ {
+  "name": "AMAVII Eyewear",
+  "website": "https://www.amavii.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Eyewear brand selling sunglasses and optical frames plus online courses. Its affiliate programme runs on ShareASale with a standard commission rate of 12%-20% per sale, a 45-day cookie, and an FAQ that states there is no cap on commission earnings.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@amavii.com",
+    "source_url": "https://www.amavii.com/pages/affiliate-faq"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.amavii.com/pages/affiliate-faq",
+    "summary": "Official affiliate FAQ: the programme is partnered with ShareASale for tracking and monthly payments, applications are manually reviewed within 2 business days, cookies last 45 days, and commission is paid on the net price after discounts (not tax or shipping)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.amavii.com/pages/affiliate-faq",
+    "summary": "Earnings answered explicitly in the official FAQ: 'How much can I earn? That's completely up to you. There is no cap on your commission earnings... Our standard commission rate is 12%-20% for every sale you make.' The recorded rate is the 12% floor of that published standard range."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 12,
+   "application_url": "https://www.amavii.com/pages/affiliate-faq",
+   "source_url": "https://www.amavii.com/pages/affiliate-faq",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.amavii.com/pages/affiliate-faq",
+   "source_url": "https://www.amavii.com/pages/affiliate-faq",
+   "title": "AMAVII Affiliate Program (ShareASale)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 16,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Sunglasses and frames are an easy try-on and styling fit for fashion and lifestyle creators.",
+    "ugc_evidence": "The FAQ encourages product reviews and video creatives, but the programme is a classic network affiliate setup with no published creator counts.",
+    "compensation": "Standard rate published as a 12%-20% range with an explicit 'no cap on your commission earnings' statement; the floor of the range is recorded.",
+    "contact_access": "Published affiliate email (affiliates@amavii.com) with a stated 24-hour reply time.",
+    "opportunity_availability": "Open via ShareASale sign-up with manual review inside 2 business days; most countries eligible.",
+    "credibility": "Small eyewear brand running a standard network programme; mid-low credibility."
+   }
+  }
+ },
+ {
+  "name": "Yoga Design Lab",
+  "website": "https://yogadesignlab.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Design-led yoga brand (Yoga Design Lab, Inc.) selling printed yoga mats, towels and accessories. Its affiliate programme runs on GoAffPro with structured creator expectations (monthly posts and regular video content), and its official programme terms state there is no ceiling on commissions; the terms do not publish a commission rate.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@yogadesignlab.com",
+    "source_url": "https://yogadesignlab.com/en-in/pages/yoga-design-lab-affiliate-program-terms-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://yogadesignlab.com/en-in/pages/yoga-design-lab-affiliate-program-terms-conditions",
+    "summary": "Official affiliate programme terms: tracking and commission records run through the GoAffPro platform with a 30-day cookie; payments via PayPal after a 30-day hold, with a $50 minimum threshold."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://yogadesignlab.com/en-in/pages/yoga-design-lab-affiliate-program-terms-conditions",
+    "summary": "Commission cap stated explicitly in the official terms, Commissions section: 'Yoga Design Lab can adjust commission rates at its discretion. There is no ceiling on commissions.' No commission percentage is published anywhere in the terms, so the rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://yogadesignlab.com/en-in/pages/yoga-design-lab-affiliate-program-terms-conditions",
+    "summary": "The programme is creator-structured: affiliates must be 18+, run an engaged social audience relevant to the brand, post at least one unique post per month and create reel/story/video content bi-monthly, with quarterly performance reviews; affiliate@yogadesignlab.com is named as the primary contact."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": null,
+   "application_url": "https://yogadesignlab.com/en-in/pages/yoga-design-lab-affiliate-program-terms-conditions",
+   "source_url": "https://yogadesignlab.com/en-in/pages/yoga-design-lab-affiliate-program-terms-conditions",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://yogadesignlab.com/en-in/pages/yoga-design-lab-affiliate-program-terms-conditions",
+   "source_url": "https://yogadesignlab.com/en-in/pages/yoga-design-lab-affiliate-program-terms-conditions",
+   "title": "Yoga Design Lab Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 11,
+   "contact_access": 13,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Visually distinctive yoga mats and gear are a natural fit for yoga and fitness creators' practice content.",
+    "ugc_evidence": "The terms build in monthly posts and bi-monthly video content with engagement expectations, showing an active creator programme, though no creator counts are published.",
+    "compensation": "No ceiling on commissions is stated in the official terms, but no rate is published there either, so compensation scores mid-range.",
+    "contact_access": "A dedicated affiliate email (affiliate@yogadesignlab.com) is named in the terms as the primary contact channel.",
+    "opportunity_availability": "Application-based with eligibility conditions, content expectations and quarterly reviews, so availability is more selective than an open programme.",
+    "credibility": "Established, internationally sold yoga brand with formal published programme terms."
+   }
+  }
+ },
+ {
+  "name": "Cate & Chloe",
+  "website": "https://www.cateandchloe.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Women's jewellery brand selling necklaces, earrings and bracelets (average order size $99, ships to the US and Canada). Its affiliate programme runs on Awin with a dedicated affiliate manager, and its official FAQ states there are no limits on the amount of commission an affiliate can earn; the page's own rate figures conflict, so no single rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@cateandchloe.com",
+    "source_url": "https://gma.cateandchloe.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://gma.cateandchloe.com/pages/affiliates",
+    "summary": "Official affiliates page: the programme runs through Awin (the page links to the Awin express sign-up), with a 45-day cookie, a product datafeed, monthly Awin payments, and a dedicated affiliate manager contactable at affiliates@cateandchloe.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://gma.cateandchloe.com/pages/affiliates",
+    "summary": "Earnings cap answered explicitly in the official FAQ: 'there are no limitations or restrictions on what Cate & Chloe products can be sold through our affiliate program, AND there are no limits on the amount of commission you can earn as an affiliate.'"
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://gma.cateandchloe.com/pages/affiliates",
+    "summary": "RATE CONFLICT on the brand's own page: the highlights state '10% commission on all sales', the FAQ body states the Awin account 'is credited 15% of the entire order', and the commission-levels answer states 'a commission up to 20% with increased commissions offered for exceptional performance'. The figures cannot be reconciled from the page, so commission_rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://gma.cateandchloe.com/pages/affiliates",
+   "source_url": "https://gma.cateandchloe.com/pages/affiliates",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://gma.cateandchloe.com/pages/affiliates",
+   "source_url": "https://gma.cateandchloe.com/pages/affiliates",
+   "title": "Cate & Chloe Affiliate Program (Awin)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Affordable women's jewellery with a $99 average order is a strong unboxing and styling fit for fashion creators.",
+    "ugc_evidence": "Awin programme with a datafeed and creative assets for publishers; no creator counts published.",
+    "compensation": "No limit on commission earnings is stated explicitly, but the page conflicts on the rate itself (10% vs 15% vs up to 20%), so compensation scores low until the rate is settled inside Awin.",
+    "contact_access": "A dedicated affiliate manager with a published email (affiliates@cateandchloe.com).",
+    "opportunity_availability": "Open to any family-friendly website via Awin sign-up; shipping limited to the US and Canada.",
+    "credibility": "Established jewellery brand running on a major network with a named programme manager."
+   }
+  }
+ },
+ {
+  "name": "Lifespan Fitness",
+  "website": "https://www.lifespanfitness.com.au",
+  "country": "Australia",
+  "category_slug": "fitness",
+  "description": "Australian fitness equipment retailer selling treadmills, bikes, gym gear and rehabilitation supports. Its affiliate programme is open to fitness professionals, influencers, bloggers and online coaches, offers a dedicated affiliate manager, and its official FAQ states there is no cap on earnings; the commission breakdown is only given after acceptance, so no rate is recorded.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.lifespanfitness.com.au/pages/affiliate",
+    "summary": "Official affiliate page: apply on the page, acceptance review by the team, then an account on the brand's affiliate platform with customised linking tools; commissions on all orders at lifespanfitness.com.au, paid to a nominated bank account about 45-60 days after month end, with no minimum payout threshold and a dedicated affiliate manager."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.lifespanfitness.com.au/pages/affiliate",
+    "summary": "Earnings cap answered explicitly in the official FAQ: 'How much can I earn as a Lifespan Fitness affiliate? There is no cap on earnings.' The page does not publish a commission percentage (the breakdown is provided on acceptance), so commission_rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.lifespanfitness.com.au/pages/affiliate",
+    "summary": "The programme explicitly recruits health service providers, fitness professionals, bloggers, social media influencers and online coaches, and joining is free."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.lifespanfitness.com.au/pages/affiliate",
+   "source_url": "https://www.lifespanfitness.com.au/pages/affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.lifespanfitness.com.au/pages/affiliate",
+   "source_url": "https://www.lifespanfitness.com.au/pages/affiliate",
+   "title": "Lifespan Fitness Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A full range of home fitness and rehab equipment gives fitness creators broad, high-ticket products to demonstrate.",
+    "ugc_evidence": "The page explicitly recruits influencers, bloggers and online coaches and offers a dedicated manager, but publishes no creator counts.",
+    "compensation": "No cap on earnings is stated in the FAQ and higher tiers unlock with performance, but the actual rate is unpublished until acceptance, so compensation stays mid-range.",
+    "contact_access": "No affiliate email is published on the page; contact is the on-page application form or the retail phone line (1300 169 600).",
+    "opportunity_availability": "Application with a team review before acceptance; free to join with no payout threshold.",
+    "credibility": "Established Australian fitness retailer with a physical support line and detailed published FAQ."
+   }
+  }
+ },
+ {
+  "name": "Zizuka",
+  "website": "https://zizuka.in",
+  "country": "India",
+  "category_slug": "fashion",
+  "description": "Indian baby-clothing brand selling 100% natural muslin and cotton baby essentials. Its own affiliate programme recruits parent creators, mom bloggers and YouTubers, pays monthly to bank/UPI with a 30-day cookie, and its FAQ states there is no cap on earnings; the page conflicts on the rate (3% vs 10%), so no single rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "customercare@zizuka.in",
+    "source_url": "https://zizuka.in/pages/affiliate"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/zizuka.in"
+   },
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/zizuka.in"
+   },
+   {
+    "platform": "pinterest",
+    "url": "https://in.pinterest.com/zizuka_in/"
+   },
+   {
+    "platform": "snapchat",
+    "url": "https://www.snapchat.com/add/zizukaclothing"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/channel/UCp5W7vmicqZVjmT2EdHKQrQ"
+   },
+   {
+    "platform": "x",
+    "url": "https://twitter.com/ZizukaIN"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://zizuka.in/pages/affiliate",
+    "summary": "Official affiliate page: open application on the page (reviewed within 2-3 business days), unique tracking link and real-time dashboard, ready-to-use product images and banners, affiliate-only discount codes, 30-day cookie, monthly payouts to bank account or UPI on confirmed, non-returned orders."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://zizuka.in/pages/affiliate",
+    "summary": "Earnings cap answered explicitly in the official FAQ: 'How much can I earn? There is no cap on your earnings. The more your audience shops, the more you earn.'"
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://zizuka.in/pages/affiliate",
+    "summary": "RATE CONFLICT on the brand's own page: the 'What You Earn' section states '3% commission on every confirmed sale' and the FAQ example pays Rs 30 on a Rs 1,000 order (3%), but Step 4 of 'How It Works' states 'you earn 10% of the order value'. The figures conflict, so commission_rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://zizuka.in/pages/affiliate",
+    "summary": "The programme is aimed at mom bloggers, parenting Instagram creators and YouTubers, explicitly welcomes small followings ('a parent with 2,000 highly engaged followers... is far more valuable than an account with 100,000 passive followers'), and states 'hundreds of creators and parents' already earn with it - a few hundred is mid-size, so saturation is recorded as unknown, not low."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://zizuka.in/pages/affiliate",
+   "source_url": "https://zizuka.in/pages/affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://zizuka.in/pages/affiliate",
+   "source_url": "https://zizuka.in/pages/affiliate",
+   "title": "Zizuka Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 14,
+   "compensation": 9,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 2,
+   "reasons": {
+    "niche_fit": "Muslin baby essentials fit parenting and family creators rather than general fashion creators, so niche fit is narrower.",
+    "ugc_evidence": "The page is written directly for parent creators and small engaged followings, with content ideas and creative assets provided.",
+    "compensation": "No cap on earnings is stated, but the page's own rate figures conflict (3% vs 10%) and even the higher figure is modest, so compensation scores low.",
+    "contact_access": "Published contact email (customercare@zizuka.in) and phone number on the affiliate page.",
+    "opportunity_availability": "Open application on the brand's own page; small followings explicitly welcome.",
+    "credibility": "Small young Indian DTC brand, so credibility stays low."
+   }
+  }
+ },
+ {
+  "name": "Pravacana Mats",
+  "website": "https://www.pravacanamats.com",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "US yoga-mat brand (Raleigh, NC) selling artist-designed, eco-focused yoga mats. It runs both an affiliate programme (commissions start at 5% and can range up to 25% during promotions or on performance) and an exclusive ambassador programme, and its FAQ states there is no limit or cap to monthly commissions.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.pravacanamats.com/affiliates-ambassadors",
+    "summary": "Official affiliates page: affiliates earn commission via a custom link or code on tracked purchases, paid monthly on the 7th via PayPal, Stripe or cheque; 'Affiliate commissions levels start at 5% and can range up to 25% during specific promotions or based on performance.' The recorded rate is the 5% starting level."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.pravacanamats.com/affiliates-ambassadors",
+    "summary": "Commission cap answered explicitly in the official FAQ: 'What is the cost to join either program? There is absolutely no cost to you... There is no limit or cap to monthly commissions, nor is any amount deducted from your commissions (except refunds), ever.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.pravacanamats.com/affiliates-ambassadors",
+    "summary": "Alongside the open affiliate tier, an Ambassador tier offers co-branded promotions and exclusive commission levels for partners with an existing fan base or following of at least 3,000+; promotion via social media, blogs and websites is spelled out on the page. No contact email is published on the page."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 5,
+   "application_url": "https://www.pravacanamats.com/affiliates-ambassadors",
+   "source_url": "https://www.pravacanamats.com/affiliates-ambassadors",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.pravacanamats.com/affiliates-ambassadors",
+   "source_url": "https://www.pravacanamats.com/affiliates-ambassadors",
+   "title": "Pravacana Mats Affiliate & Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 14,
+   "compensation": 13,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Artist-designed yoga mats are a natural visual fit for yoga creators' practice and studio content.",
+    "ugc_evidence": "Two creator tiers (affiliate plus ambassador with co-branded promotions) and named promotion channels, but no creator counts published.",
+    "compensation": "Starting rate is a modest 5%, rising to 25% only in promotions or on performance, with an explicit no-limit-or-cap statement on monthly commissions.",
+    "contact_access": "No email is published on the programme page; contact is via the on-site application links (a Raleigh, NC postal address is shown).",
+    "opportunity_availability": "Affiliate tier is open to apply; the ambassador tier requires an existing following of at least 3,000.",
+    "credibility": "Small US niche brand with a published postal address and detailed programme FAQ."
+   }
+  }
+ },
+ {
+  "name": "Best Western",
+  "website": "https://www.bestwestern.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Global hotel brand (Best Western Hotels & Resorts) with individually owned properties in over 100 countries and territories. Its affiliate marketing programme runs through Commission Junction and pays 3% commission on completed stays from online reservations within a 30-day referral period, with no minimum sales and no limit on what affiliates earn.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "http://www.bestwestern.com/content/best-western/en_US/about/affiliate-program.html",
+    "summary": "Official affiliate page: join free through Commission Junction; each completed stay booked from the affiliate's site earns a 3% commission payout on a 30-day referral period; CJ provides tracking, reporting and payment fulfilment; no cost, no fee and no minimum sales required."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "http://www.bestwestern.com/content/best-western/en_US/about/affiliate-program.html",
+    "summary": "Earnings limit stated explicitly on the official page: 'No minimum sales. No limit on what you earn.'"
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": 3,
+   "application_url": "http://www.bestwestern.com/content/best-western/en_US/about/affiliate-program.html",
+   "source_url": "http://www.bestwestern.com/content/best-western/en_US/about/affiliate-program.html",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "http://www.bestwestern.com/content/best-western/en_US/about/affiliate-program.html",
+   "source_url": "http://www.bestwestern.com/content/best-western/en_US/about/affiliate-program.html",
+   "title": "Best Western Affiliate Marketing Program (CJ)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Hotels in 100+ countries are a staple booking link for travel creators, though the programme is banner-and-link based rather than creator-led.",
+    "ugc_evidence": "A classic website affiliate programme with banners and links; no creator-specific programme, assets or counts are published.",
+    "compensation": "Only 3% on completed stays, but with an explicit 'No limit on what you earn' statement and no minimum sales threshold.",
+    "contact_access": "No direct affiliate email is published on the page; contact runs through Commission Junction after sign-up.",
+    "opportunity_availability": "Free, open sign-up through CJ's registration with no minimum sales requirement.",
+    "credibility": "One of the world's largest hotel brands with properties in over 100 countries and territories."
+   }
+  }
+ }
+]

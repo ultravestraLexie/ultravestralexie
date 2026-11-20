@@ -1,0 +1,658 @@
+[
+ {
+  "name": "MAKE UP FOR EVER",
+  "website": "https://www.makeupforever.com",
+  "country": null,
+  "category_slug": "beauty",
+  "description": "LVMH professional makeup brand (founded by makeup artists, known for HD Skin and Artist Color lines) running an Affiliate Partner Program on Rakuten Advertising: makeup artists and creators earn 20%+ commission on all sales, publishers negotiate rates with the brand's affiliate team, and select creator partners are eligible for free samples and product.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "makeupforeveraffiliateteam@assemblyglobal.com",
+    "source_url": "https://www.makeupforever.com/us/en/affiliates.html"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.makeupforever.com/us/en/affiliates.html",
+    "email": null,
+    "source_url": "https://www.makeupforever.com/us/en/affiliates.html"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.makeupforever.com/us/en/affiliates.html",
+    "summary": "MAKE UP FOR EVER's own affiliates page routes sign-up through Rakuten Advertising (create a Rakuten account, request to join the program, then submit the brand's required form; approval can take up to 2 weeks) and publishes the program highlights: '20%+* Commission on all sales' for makeup artists & creators (publishers agree rates directly with the affiliate team at makeupforeveraffiliateteam@assemblyglobal.com), increased rates for high performers, and free samples/product for select creator partners. The page publishes NO statement about an earnings cap or maximum, so commission_cap is recorded as unknown, never guessed."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.makeupforever.com/us/en/affiliates.html",
+    "summary": "No Beacons brand page or other hard creator count for MAKE UP FOR EVER surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": 20,
+   "application_url": "https://www.makeupforever.com/us/en/affiliates.html",
+   "source_url": "https://www.makeupforever.com/us/en/affiliates.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MAKE UP FOR EVER Affiliate Partner Program (Rakuten)",
+   "application_url": "https://www.makeupforever.com/us/en/affiliates.html",
+   "source_url": "https://www.makeupforever.com/us/en/affiliates.html"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 15,
+   "compensation": 16,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pro-artist makeup (complexion, color, brushes) is core beauty-UGC material with endless tutorial and review formats.",
+    "ugc_evidence": "A structured network program explicitly recruiting makeup artists and content creators, with free product for select creator partners.",
+    "compensation": "20%+ published for makeup artists & creators with increases for high performers — strong rate, but no no-cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "Published affiliate-team email plus a step-by-step sign-up page on the brand's own site.",
+    "opportunity_availability": "Open application via Rakuten plus a required brand form; approval can take up to 2 weeks.",
+    "credibility": "Global LVMH prestige brand sold in Sephora and professional channels worldwide."
+   }
+  }
+ },
+ {
+  "name": "amika",
+  "website": "https://www.loveamikapro.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Salon haircare brand (shampoos, masks, styling and tools sold through salons and Sephora) running a Salon Affiliate Program on Refersion: licensed US cosmetologists get a unique ordering URL for clients and earn 20% commission on sales through it, paid bi-weekly via Trolley once $150 of product has been ordered through the URL in a six-month period.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://amika.refersion.com/?oid=43923",
+    "email": null,
+    "source_url": "https://amika.refersion.com/?oid=43923"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://amika.refersion.com/?oid=43923",
+    "summary": "amika's own Refersion program page publishes the full Salon Affiliate Program terms: enrollment requires a licensed cosmetologist located in the United States with a current valid license; on acceptance the affiliate receives a unique URL, and once $150 of amika products has been ordered through it within a six-month period, 'a commission in the amount of 20% of the amount of sales made through your URL will be paid to you on a bi-weekly basis' (paid via a Trolley account; commission totals under $30 in any six-month period are not paid out). The terms publish NO statement about an earnings cap or maximum, so commission_cap is recorded as unknown, never guessed. The page's contact addresses render masked in text form, so no email is recorded."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://amika.refersion.com/?oid=43923",
+    "summary": "No Beacons brand page or other hard creator count for amika surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 20,
+   "application_url": "https://amika.refersion.com/?oid=43923",
+   "source_url": "https://amika.refersion.com/?oid=43923",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "amika Salon Affiliate Program (Refersion)",
+   "application_url": "https://amika.refersion.com/?oid=43923",
+   "source_url": "https://amika.refersion.com/?oid=43923"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 16,
+   "contact_access": 8,
+   "opportunity_availability": 5,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Colorful, shelf-famous haircare with strong routine and transformation content potential for stylist-creators.",
+    "ugc_evidence": "A structured salon affiliate program with a client-ordering URL; it is a professional channel rather than an open creator program, and no creator count is published.",
+    "compensation": "20% is a top-tier published rate, but it only starts after $150 of URL sales per six months and no cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "Full terms and application on the brand's Refersion page; the page's email addresses render masked, so no public email is recorded.",
+    "opportunity_availability": "Restricted: licensed US cosmetologists only, which excludes general UGC creators.",
+    "credibility": "Major professional haircare brand (Amika LLC, Brooklyn NY) sold in salons and Sephora."
+   }
+  }
+ },
+ {
+  "name": "Allies of Skin",
+  "website": "https://us.allies.shop",
+  "country": null,
+  "category_slug": "skincare",
+  "description": "Premium clinical skincare brand (Allies of Skin — peptide, retinal and antioxidant formulas) whose own North America store runs The Allies Affiliate Programme: affiliates earn from a minimum of 15% commission, higher depending on performance, with affiliate-only offers, dedicated support and bonuses for top performers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.allies.shop/pages/affiliates",
+    "email": null,
+    "source_url": "https://us.allies.shop/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.allies.shop/pages/affiliates",
+    "summary": "The Allies of Skin North America store's own affiliate page ('Become an ALLIES AFFILIATE') publishes a 'High Commission Rate — From a minimum of 15% and higher depending on performance', exclusive newsletter updates, affiliate-only offers, dedicated affiliate support, bonuses and incentives for top performers, and a 'Special Brand Commission Rates' line ('Earn up to $15k+ per month'). That $15k+ figure is a marketing claim about special rates, NOT a statement that earnings are uncapped, and the page publishes no no-cap/no-maximum statement — so commission_cap is recorded as unknown, never guessed."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://us.allies.shop/pages/affiliates",
+    "summary": "No Beacons brand page or other hard creator count for Allies of Skin surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 15,
+   "application_url": "https://us.allies.shop/pages/affiliates",
+   "source_url": "https://us.allies.shop/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "The Allies Affiliate Programme",
+   "application_url": "https://us.allies.shop/pages/affiliates",
+   "source_url": "https://us.allies.shop/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 16,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "High-potency serums and creams with visible-results positioning are proven premium skincare-UGC material.",
+    "ugc_evidence": "An own-store affiliate programme with dedicated support and top-performer bonuses; no hard creator count was published.",
+    "compensation": "Minimum 15% rising with performance is a strong published floor, but no cap statement is published, so the cap stays honestly unknown.",
+    "contact_access": "Program page on the brand's own North America store; no public affiliate email published on the page.",
+    "opportunity_availability": "Programme is presented as open to join from the brand's own page.",
+    "credibility": "Internationally distributed premium clinical brand with major beauty-retail presence."
+   }
+  }
+ },
+ {
+  "name": "Delux Tanners",
+  "website": "https://deluxtanning.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK sunbed and self-tan brand (tanning creams and intensifiers such as Bubblegum Mania and Tropic Like It's Hot) running an affiliate programme through Shopify Collabs: followers get 10% off with the creator's code, affiliates earn 10% commission on every sale including repeat orders, there is no minimum follower count, and the page states there is no cap on what you can earn, with an invite-only Creator tier above it.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://deluxtanning.com/pages/collab",
+    "email": null,
+    "source_url": "https://deluxtanning.com/pages/collab"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://deluxtanning.com/pages/collab",
+    "summary": "Delux Tanners' own Collabs page publishes the programme in a stat strip — 10% off for followers, 10% commission on every sale, 0 minimum followers, 'No cap on what you can earn' — and repeats in its programme summary: 'No minimum followers. No earning limits.' Tracking and payment run through the Shopify Collabs dashboard, repeat orders from returning customers count, and regular posters who drive sales can be invited into a higher-rate Creator programme with product to try and payment when content runs as ads. The earnings cap is therefore recorded as uncapped on the brand's own explicit statements."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://deluxtanning.com/pages/collab",
+    "summary": "The page is built around creator content — it lists the content that works (routines, sunbed and holiday glow selfies, unboxings, honest reviews), shows named Delux creators, and offers a paid Creator tier where the brand pays when it runs creator content as an ad."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://deluxtanning.com/pages/collab",
+    "summary": "No Beacons brand page or other hard creator count for Delux Tanners surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": 10,
+   "application_url": "https://deluxtanning.com/pages/collab",
+   "source_url": "https://deluxtanning.com/pages/collab",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Delux Tanners Affiliate Programme (Shopify Collabs)",
+   "application_url": "https://deluxtanning.com/pages/collab",
+   "source_url": "https://deluxtanning.com/pages/collab"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 15,
+   "compensation": 14,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Tanning routines and glow results are a defined beauty-UGC niche, though UV-tan positioning narrows the audience versus self-tan-only brands.",
+    "ugc_evidence": "A creator-first programme page with content guidance, featured creators and a paid Creator tier on top of the affiliate rate.",
+    "compensation": "10% on every sale including repeats, with the brand's own page stating 'No cap' and 'No earning limits' — verified uncapped at a mid rate.",
+    "contact_access": "Short application form on the brand's own Collabs page; applications are reviewed by the brand itself.",
+    "opportunity_availability": "Open to everyone with zero minimum followers — the lowest barrier in this round.",
+    "credibility": "Trading UK tanning brand with a live Shopify Collabs programme; smaller and younger than the prestige names in this batch."
+   }
+  }
+ },
+ {
+  "name": "Luxy Hair",
+  "website": "https://www.luxyhair.com",
+  "country": null,
+  "category_slug": "beauty",
+  "description": "Clip-in human hair extensions brand running an Ambassador Program on Aspire: ambassadors share a code/link giving customers $20 off orders of $80+, earn tiered commission of 5% base, 7% after $5,000 in sales and 10% after $10,000, receive free extension sets twice a year, and commit to one original content post per month for a minimum of three months.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.luxyhair.com/pages/ambassador-program-terms",
+    "email": null,
+    "source_url": "https://www.luxyhair.com/pages/ambassador-program-terms"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.luxyhair.com/pages/ambassador-program-terms",
+    "summary": "Luxy Hair's own Ambassador Program Terms publish the full structure: the ambassador network is provided by Aspire; 'All ambassadors will earn up to 10% commission' when their code or link is used to redeem $20 USD off orders of $80 USD or more — base 5%, promoted to 7% after $5,000 USD in sales and 10% after $10,000 USD (with demotion after 6 months without converting); customers must purchase within 30 days of click-through; a PayPal address is required at registration; and the brand provides new extension sets twice a year. The terms publish NO statement about an earnings cap or maximum, so commission_cap is recorded as unknown, never guessed. The terms' email addresses render masked in text form, so no email is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.luxyhair.com/pages/ambassador-program-terms",
+    "summary": "The terms set explicit creator obligations: a minimum 3-month commitment, one piece of unique original content per month (Instagram post/reel/stories, YouTube review or tutorial, or TikTok post) tagging @luxyhair and #luxyhairpartner, following the brand on Instagram, TikTok and YouTube, and an exclusivity clause barring promotion of other hair-extension brands while enrolled."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.luxyhair.com/pages/ambassador-program-terms",
+    "summary": "No Beacons brand page or other hard creator count for Luxy Hair surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Aspire",
+   "commission_rate": 10,
+   "application_url": "https://www.luxyhair.com/pages/ambassador-program-terms",
+   "source_url": "https://www.luxyhair.com/pages/ambassador-program-terms",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Luxy Hair Ambassador Program (Aspire)",
+   "application_url": "https://www.luxyhair.com/pages/ambassador-program-terms",
+   "source_url": "https://www.luxyhair.com/pages/ambassador-program-terms"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Extensions are a core hair-UGC category — transformations, tutorials and shade matching are proven formats.",
+    "ugc_evidence": "A formal ambassador program with defined monthly content deliverables, tracked tags, and free product sets twice a year.",
+    "compensation": "Tiered 5-10% is modest and commission only applies to $80+ orders using the $20-off code; no cap statement is published, so the cap stays honestly unknown. The recorded rate is the published top tier.",
+    "contact_access": "Terms and application route on the brand's own site (Aspire network); the terms' email addresses render masked, so no public email is recorded.",
+    "opportunity_availability": "Application-based, with a 3-month minimum commitment, monthly posting duty and a no-competing-extensions exclusivity clause.",
+    "credibility": "Long-established extensions brand with fully published ambassador terms."
+   }
+  }
+ },
+ {
+  "name": "Lyssa Lashes",
+  "website": "https://lyssalashes.com",
+  "country": null,
+  "category_slug": "beauty",
+  "description": "False-eyelash brand running its affiliate program on GoAffPro: affiliates earn 10% commission on every referral order through their link or code, get 30% off personal purchases and a 10% follower discount code, are paid via PayPal on the first Monday of each month with no minimum payout threshold, and the brand's own program page headlines the offer as 'Unlimited Earning Potential'.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@lyssalashes.com",
+    "source_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program",
+    "email": null,
+    "source_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program",
+    "summary": "Lyssa Lashes' own affiliate program article (published 2024-10-28 on lyssalashes.com) details the GoAffPro-run program (signup portal at lyssalashes.goaffpro.com): 10% commission on every referral order, a 10% follower discount code, 30% off personal purchases, no strict posting requirements, and PayPal payments processed the first Monday of each month with no minimum payout threshold. Its benefits section is headed 'Unlimited Earning Potential' and explains affiliates earn on all purchases made through their link — the earnings cap is therefore recorded as uncapped on the brand's own explicit statement. Affiliate support is via the published info@lyssalashes.com."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program",
+    "summary": "No Beacons brand page or other hard creator count for Lyssa Lashes surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 10,
+   "application_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program",
+   "source_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lyssa Lashes Affiliate Program (GoAffPro)",
+   "application_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program",
+   "source_url": "https://lyssalashes.com/blogs/blog/lyssa-lashes-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Lashes are a staple makeup-UGC category (tutorials, try-ons, GRWM), though a single-category brand narrows content range.",
+    "ugc_evidence": "A creator-welcoming program page aimed at enthusiasts, creators and makeup artists with dashboard tracking and promo tools; no hard creator count published.",
+    "compensation": "10% on every referral order with the brand's own page headlining 'Unlimited Earning Potential' — verified uncapped at a standard lash rate.",
+    "contact_access": "Published support email (info@lyssalashes.com) plus a live GoAffPro signup portal linked from the brand's own article.",
+    "opportunity_availability": "Open join — 'everyone is welcome' — with no posting requirements after signup.",
+    "credibility": "Small independent lash brand; program article dates from October 2024 and the portal is live."
+   }
+  }
+ },
+ {
+  "name": "FullerSkin",
+  "website": "https://fullerskin.hk",
+  "country": "Hong Kong",
+  "category_slug": "skincare",
+  "description": "Hong Kong C60-fullerene skincare brand whose own Affiliate Agreement publishes a flat 20% commission on every referred sale, a 30-day referral cookie, monthly payouts in HKD to bank or PayPal in the first week of each month, a $500 minimum payout balance — and no maximum payout balance.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://fullerskin.hk/pages/affiliate-agreement",
+    "email": null,
+    "source_url": "https://fullerskin.hk/pages/affiliate-agreement"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://fullerskin.hk/pages/affiliate-agreement",
+    "summary": "FullerSkin's own Affiliate Agreement (fullerskin.hk) publishes the full program terms: 'You'll earn a sweet 20% commission when a customer purchases a FullerSkin product using your referral link', a 30-day cookie, direct-link tracking from the affiliate's own site, commissions paid in HKD to bank or PayPal in the first week of each month on commissions older than 30 days, and — in both the commissions section and the summary bullets — a minimum payout balance of $500 with 'no maximum payout balance' / 'no maximum payout'. With no maximum on what the program pays out, the earnings cap is recorded as uncapped on the brand's own explicit terms. Registrations are reviewed and moderated by the brand."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://fullerskin.hk/pages/affiliate-agreement",
+    "summary": "No Beacons brand page or other hard creator count for FullerSkin surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 20,
+   "application_url": "https://fullerskin.hk/pages/affiliate-agreement",
+   "source_url": "https://fullerskin.hk/pages/affiliate-agreement",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "FullerSkin Affiliate Program",
+   "application_url": "https://fullerskin.hk/pages/affiliate-agreement",
+   "source_url": "https://fullerskin.hk/pages/affiliate-agreement"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 17,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Single-ingredient-story (C60 fullerene) anti-aging skincare gives creators a clear review and routine angle.",
+    "ugc_evidence": "A complete published affiliate agreement encouraging reviews and blog posts; no creator program extras or hard creator count published.",
+    "compensation": "Flat 20% on every referred sale with 'no maximum payout' stated twice in the brand's own terms — verified uncapped at a high rate, tempered by the $500 payout threshold and HKD payment.",
+    "contact_access": "Program terms and registration on the brand's own site; no public affiliate email is published.",
+    "opportunity_availability": "Applications are reviewed and moderated; dormant accounts are deactivated after 6 months without visits.",
+    "credibility": "Small Hong Kong skincare label (Fullerskin HK Limited) with fully published program terms."
+   }
+  }
+ },
+ {
+  "name": "MintPear",
+  "website": "https://www.mintpear.com",
+  "country": null,
+  "category_slug": "beauty",
+  "description": "Cruelty-free beauty brand (skincare and makeup) running a code-based Promoter program on its own site: promoters share a unique code giving followers free shipping on orders $45+ or 10% off the store, earn 15% of each sale made with their code in the first month and renew the code monthly to keep earning, are paid via PayPal or store credit, and the page states there are no limits to how much you can earn.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.mintpear.com/pages/become-a-promoter",
+    "email": null,
+    "source_url": "https://www.mintpear.com/pages/become-a-promoter"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.mintpear.com/pages/become-a-promoter",
+    "summary": "MintPear's own Become A Promoter page publishes the program mechanics: apply with name and email, create your own promo code, and 'For the first month, every time someone uses your code to make a valid, processed, online payment, you'll earn 15% of the sale. There are no limits to how much you can earn, so share away!' — then renew the code each month to continue. The code gives followers free standard shipping on orders $45+ or 10% off the entire store, and payment is via PayPal (PayPal email required) or store credit. The earnings cap is therefore recorded as uncapped on the brand's own explicit statement."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.mintpear.com/pages/become-a-promoter",
+    "summary": "No Beacons brand page or other hard creator count for MintPear surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 15,
+   "application_url": "https://www.mintpear.com/pages/become-a-promoter",
+   "source_url": "https://www.mintpear.com/pages/become-a-promoter",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MintPear Promoter Program",
+   "application_url": "https://www.mintpear.com/pages/become-a-promoter",
+   "source_url": "https://www.mintpear.com/pages/become-a-promoter"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Cruelty-free skincare and makeup staples suit everyday beauty-routine content, without a sharp single-category hook.",
+    "ugc_evidence": "A promoter model built for social sharing with a personal code and link; no hard creator count published.",
+    "compensation": "15% per code sale with the brand's own page stating 'There are no limits to how much you can earn' — verified uncapped; the monthly code-renewal step adds friction.",
+    "contact_access": "Online application form on the brand's own site; no public affiliate email published.",
+    "opportunity_availability": "Open application with approval confirmation; promoters must renew their code monthly to keep earning.",
+    "credibility": "Small independent cruelty-free brand with a long-running promoter page."
+   }
+  }
+ },
+ {
+  "name": "BIOS Apothecary",
+  "website": "https://www.biosapothecary.com",
+  "country": null,
+  "category_slug": "skincare",
+  "description": "All-natural skincare and bath/body brand (BIOS Institute LLC) running its affiliate program on Affiliatly: affiliates earn 10% commission on new-customer purchases made within 30 days of the referral visit (or via their exclusive 10%-off coupon code), track everything in a private portal with creative assets, and are paid in USD via PayPal on the 1st of each month — with the brand's terms stating there is no minimum or maximum payout amount.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.biosapothecary.com/pages/become-an-affiliate",
+    "email": null,
+    "source_url": "https://www.biosapothecary.com/pages/become-an-affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.biosapothecary.com/pages/become-an-affiliate",
+    "summary": "BIOS Apothecary's own Affiliates Program page publishes the offer: 10% commission when a new customer buys via your referral link or 10%-off coupon code, applications reviewed within 24 hours, a private affiliate portal with real-time traffic/sales statistics and creative assets, and payouts 'in US dollars using Paypal on the 1st day of every month. There is no minimum or maximum payout amount.' Signup runs through Affiliatly, linked from the brand's page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.biosapothecary.com/pages/affiliates-terms-and-conditions",
+    "summary": "The brand's own Affiliate Terms and Conditions repeat the economics in full: 10% commission on all sales generated within the first 30 days of the referral visit (each order in that window earns), the coupon 'can be used by an unlimited number of customers and never expires', all products eligible, no application fees or minimum sales quotas, and in the Commissions section: 'There is no minimum or maximum payout amount.' With the program's own terms setting no maximum on payouts, the earnings cap is recorded as uncapped."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.biosapothecary.com/pages/become-an-affiliate",
+    "summary": "No Beacons brand page or other hard creator count for BIOS Apothecary surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliatly",
+   "commission_rate": 10,
+   "application_url": "https://www.biosapothecary.com/pages/become-an-affiliate",
+   "source_url": "https://www.biosapothecary.com/pages/become-an-affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "BIOS Apothecary Affiliates Program (Affiliatly)",
+   "application_url": "https://www.biosapothecary.com/pages/become-an-affiliate",
+   "source_url": "https://www.biosapothecary.com/pages/become-an-affiliate"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 11,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Natural skincare and bath/body products aimed at beauty editors and bloggers fit clean-beauty content, in a crowded botanical field.",
+    "ugc_evidence": "A structured program recruiting editors, bloggers and websites with a creative-assets library; no hard creator count published.",
+    "compensation": "10% is a standard rate, and the brand's own terms state 'no minimum or maximum payout amount' — verified uncapped on payouts.",
+    "contact_access": "Signup via the brand's own affiliate page (Affiliatly portal); no public affiliate email published.",
+    "opportunity_availability": "Free to join with applications reviewed within 24 hours and no sales quotas.",
+    "credibility": "Small natural brand (BIOS Institute LLC) with fully published affiliate terms."
+   }
+  }
+ },
+ {
+  "name": "Clear Skin Solutions",
+  "website": "https://clearskinsolutions.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Acne-focused med spa and skincare brand in Ardmore, Oklahoma, whose Affiliate Referral Program (announced on its own blog) pays a base 10% commission with bonus commissions for top performers, monthly PayPal payouts above a $150 threshold, and an FAQ stating there is no maximum cap on referral commission payouts — but the program's linked application page returns 404 on a final re-check, so current enrollment is unconfirmed.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@clearskinsolutions.com",
+    "source_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program",
+    "email": null,
+    "source_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program",
+    "summary": "Clear Skin Solutions' own blog announcement of its Affiliate Referral Program answers the FAQ 'Is it really true that there is no maximum cap on referral commission payouts?' with 'That's right: with a base commission of 10%, we put no cap on your earning potential as a CSS Affiliate' plus individual bonus commissions for top performers, a $150 minimum payment threshold, and automated payouts within the first week of each month via PayPal. No prerequisites beyond an application form and approval. The cap is recorded as uncapped on the brand's own explicit statement, but the announcement dates from December 2020, so this evidence is marked needs_review."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program",
+    "summary": "FINAL RE-CHECK FLAG: the program page the announcement links to (clearskinsolutions.com/affiliate-program/) returned HTTP 404 when re-checked on 2026-11-20, so the program's current enrollment route could not be confirmed even though the announcement and its no-cap FAQ remain live on the brand's site. The brand's published contact on the same page is info@clearskinsolutions.com (808 16th Ave NW, Ardmore, OK). Treat enrollment as unconfirmed until the brand responds."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program",
+    "summary": "No Beacons brand page or other hard creator count for Clear Skin Solutions surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 10,
+   "application_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program",
+   "source_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Clear Skin Solutions Affiliate Referral Program",
+   "application_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program",
+   "source_url": "https://clearskinsolutions.com/blogs/news/introducing-the-clear-skin-solutions-affiliate-referral-program"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 10,
+   "compensation": 13,
+   "contact_access": 12,
+   "opportunity_availability": 4,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Acne-transformation skincare from a working med spa is credible before/after UGC material, though the brand is local-first.",
+    "ugc_evidence": "A referral program pitched at clients and social sellers; no creator tools or hard creator count published.",
+    "compensation": "Base 10% with top-performer bonuses and the brand's own FAQ stating 'no cap on your earning potential' — uncapped on its own words, but from a 2020 announcement.",
+    "contact_access": "Published email (info@clearskinsolutions.com) and phone/address on the brand's own announcement page.",
+    "opportunity_availability": "Scored low: the linked application page (clearskinsolutions.com/affiliate-program/) returned 404 on the 2026-11-20 re-check, so enrollment is unconfirmed.",
+    "credibility": "Established Oklahoma med spa with a physical clinic; the affiliate program's current status is the open question."
+   }
+  }
+ }
+]
