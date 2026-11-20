@@ -1,0 +1,682 @@
+[
+ {
+  "name": "Factor",
+  "website": "https://www.factor75.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Prepared meal-delivery service founded in 2013 and based in Batavia, Illinois, acquired by HelloFresh Group in November 2020, delivering ready-to-eat fresh meals by subscription.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "collab@factor75.com",
+    "source_url": "https://www.factor75.com/pages/us-ambassador-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.factor75.com/pages/us-ambassador-program",
+    "summary": "Factor's official US Ambassador Program page publishes a tiered flat CPA of $50 per customer at 1-19 customers, rising through $60 (20-49) and $65 (50-99) to $70 at 100+, states the rate increases permanently once each band is hit, that commissions carry a 30-day hold and are paid in USD via Lumanu, and that applications are reviewed personally. It also publishes collab@factor75.com for the Ambassador team. Because pay is a flat per-customer bounty rather than a percentage, commission_rate is recorded as null. No explicit no-cap or unlimited-earnings statement appears on the page, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/factor-meals",
+    "summary": "Referly's listing describes a separate Factor network program paying a fixed $20 per new customer tracked through CJ Affiliate with a 14-day cookie, and notes some third-party sources cite around $25 - a different track from the official Ambassador tiers, flagged here rather than merged."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_directory",
+    "source_url": "https://universe.beacons.ai/brands/factor",
+    "summary": "Beacons Universe reports posts from 564 creators all time, 70 sponsored posts in the last 12 months and 138 public posts in the last 12 months - a mid-size footprint, neither low (~100 scale) nor high (1,000+), so saturation is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "article",
+    "source_url": "https://www.cbinsights.com/company/factor-2",
+    "summary": "CB Insights records Factor as founded in 2013, headquartered at Batavia, Illinois, and acquired by HelloFresh Group in November 2020."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand portal (Factor Ambassador Program) / CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.factor75.com/pages/us-ambassador-program",
+   "source_url": "https://www.factor75.com/pages/us-ambassador-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Factor US Ambassador Program",
+   "application_url": "https://www.factor75.com/pages/us-ambassador-program",
+   "source_url": "https://www.factor75.com/pages/us-ambassador-program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 16,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Ready-meal delivery is a core food-creator niche with strong unboxing and meal-prep content angles.",
+    "ugc_evidence": "564 creators all time and 70 sponsored posts in 12 months on Beacons, plus an official ambassador program.",
+    "compensation": "Official tiered flat bounty of $50-$70 per new customer - strong per-conversion pay, recorded as a bounty not a percentage.",
+    "contact_access": "Published collab@factor75.com ambassador-team email plus the official program page.",
+    "opportunity_availability": "Applications are personally reviewed rather than instant, in the US and EU.",
+    "credibility": "Founded 2013 and owned by HelloFresh Group since 2020."
+   }
+  }
+ },
+ {
+  "name": "Magic Spoon",
+  "website": "https://magicspoon.com",
+  "country": null,
+  "category_slug": "food-drink",
+  "description": "Direct-to-consumer cereal brand launched in 2019, selling high-protein, low-sugar cereals positioned as grown-up versions of childhood cereals; Awin reports it has raised over $100M in funding.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/magic-spoon/",
+    "summary": "LinkClicky's Magic Spoon listing states the program runs on Impact and pays 20% commission per sale, with joining via app.impact.com. UpPromote's keto directory corroborates an up-to-20% rate via Impact Radius. No earnings-cap statement was found on any fetched page, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/129965",
+    "summary": "Magic Spoon's Awin merchant profile publishes a separate network track: 10% commission structure with a 30-day cookie, and states the brand launched direct-to-consumer in 2019 and has raised over $100M. The 20% Impact rate is recorded as the primary rate; the Awin figure is network-specific, not a contradiction to merge."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-programs/keto/",
+    "summary": "UpPromote's keto program roundup lists Magic Spoon at a 20% commission rate via Impact Radius and notes a minimum of about 10 cases of cereal per month (~$400 revenue) on that track."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 20,
+   "application_url": "https://linkclicky.com/affiliate-program/magic-spoon/",
+   "source_url": "https://linkclicky.com/affiliate-program/magic-spoon/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Magic Spoon Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/magic-spoon/",
+   "source_url": "https://linkclicky.com/affiliate-program/magic-spoon/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 17,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "High-protein cereal is a proven food and fitness-snack creator niche with nostalgic, demo-friendly product.",
+    "ugc_evidence": "Live programs on two networks (Impact and Awin) show an established affiliate channel, though no creator counts were published on fetched pages.",
+    "compensation": "20% per sale on Impact is well above the food norm; a separate Awin track pays 10%.",
+    "contact_access": "No published program email was found; joining runs through the network listings.",
+    "opportunity_availability": "Open application routes on both Impact and Awin.",
+    "credibility": "Launched 2019 with over $100M raised per its Awin profile."
+   }
+  }
+ },
+ {
+  "name": "Nutrafol",
+  "website": "https://nutrafol.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "New York-based hair-growth supplement brand selling physician-formulated nutraceuticals for men and women through its own store and professional partners.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "partners@nutrafol.com",
+    "source_url": "https://nutrafol.com/hair/benefits/services/professionals/become-a-partner/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/nutrafol/",
+    "summary": "Lasso's Nutrafol program page states a 10% per-sale commission with a 30-day cookie, with joining via FlexOffers. No earnings-cap statement was found, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://katalys.com/brands/nutrafol-affiliate-program/",
+    "summary": "Katalys hosts a separate Nutrafol program quoting a default $40-$200 CPA with VIP rates case-by-case - a different network model from the FlexOffers percentage, so rates are quoted per network and never merged; the 10% FlexOffers rate is the recorded one."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_directory",
+    "source_url": "https://universe.beacons.ai/brands/nutrafol",
+    "summary": "Beacons Universe reports posts from 603 creators all time, 55 sponsored posts in the last 12 months and 285 public posts in the last 12 months - mid-size, neither low nor high in absolute terms, so saturation is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://nutrafol.com/hair/benefits/services/professionals/become-a-partner/",
+    "summary": "Nutrafol's official partner page (aimed at professional/wholesale partners) publishes partners@nutrafol.com as a contact email; the on-site route itself is professional-only, so creator entry is via the network programs above."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/nutrafol/",
+   "source_url": "https://getlasso.co/affiliate/nutrafol/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nutrafol Affiliate Program (FlexOffers)",
+   "application_url": "https://getlasso.co/affiliate/nutrafol/",
+   "source_url": "https://getlasso.co/affiliate/nutrafol/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Hair-growth supplements sit squarely in the beauty-meets-health creator niche with strong before/after content.",
+    "ugc_evidence": "603 creators all time and 55 sponsored posts in 12 months on Beacons show steady creator activity.",
+    "compensation": "10% per sale on FlexOffers; a separate Katalys track pays a $40-$200 CPA, so confirm the track at sign-up.",
+    "contact_access": "Published partners@nutrafol.com email, though the on-site partner route is professional-focused.",
+    "opportunity_availability": "Multiple live network routes (FlexOffers, Katalys, ShareASale per directories).",
+    "credibility": "Established New York-based brand per Beacons, with a large professional partner network."
+   }
+  }
+ },
+ {
+  "name": "ARMRA",
+  "website": "https://armra.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Health and wellness brand founded in 2020 by Dr. Sarah Rahal, selling bovine colostrum concentrates for immune, gut and skin health; based in Bonita Springs, Florida per Beacons.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "practitioners@armra.com",
+    "source_url": "https://armra.com/pages/practitioner-program-terms"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/armra/",
+    "summary": "LinkClicky's ARMRA listing states the program uses ShareASale and pays 10% commission per sale, described as the officially listed payout. UpPromote's directory gives a 10-15% range on ShareASale, so the 10% base is recorded. No earnings-cap statement was found on any fetched page, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_directory",
+    "source_url": "https://universe.beacons.ai/brands/armra",
+    "summary": "Beacons Universe reports posts from 549 creators all time and 61 sponsored posts in the last 12 months - mid-size in absolute terms, neither low nor high, so saturation is recorded as unknown. Beacons also states the brand's official website is armra.com and that it is based in Bonita Springs, United States."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://armra.com/pages/practitioner-program-terms",
+    "summary": "ARMRA's official practitioner program terms describe a separate practitioner-only track (licensed medical/health professionals, run on Superfiliate) that publishes no percentage, and publish practitioners@armra.com as its contact - it is not the general creator route, which is the ShareASale program above."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-directory/armra/",
+    "summary": "UpPromote's ARMRA profile describes it as a health and wellness brand founded in 2020 by Dr. Sarah Rahal, a double board-certified pediatric neurologist, and notes influencer/ambassador relationships are also managed via GRIN."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/armra/",
+   "source_url": "https://linkclicky.com/affiliate-program/armra/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ARMRA Affiliate Program (ShareASale)",
+   "application_url": "https://linkclicky.com/affiliate-program/armra/",
+   "source_url": "https://linkclicky.com/affiliate-program/armra/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Colostrum and gut-health supplements are a fast-growing wellness-creator topic.",
+    "ugc_evidence": "549 creators all time and 61 sponsored posts in 12 months on Beacons, plus GRIN-managed ambassador relationships.",
+    "compensation": "10% per sale on ShareASale, with directories citing up to 15% at higher tiers.",
+    "contact_access": "A published brand email exists (practitioners@armra.com) but it serves the practitioner track, not general creators.",
+    "opportunity_availability": "Open ShareASale application for general affiliates.",
+    "credibility": "Founded 2020 by a physician founder; younger brand, so credibility held at 4."
+   }
+  }
+ },
+ {
+  "name": "WHOOP",
+  "website": "https://www.whoop.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Boston-based health and fitness wearable company founded in 2012, selling the WHOOP screen-free activity, sleep and recovery tracker with membership plans.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.whichprogram.com/en/p/whoop",
+    "summary": "WhichProgram's WHOOP listing reproduces the Impact network statement: a $50.00 flat commission per order of an eligible 12- or 24-month WHOOP membership (ONE, PEAK and LIFE plans), 30-day cookie, application required, free trials not commissioned. Because pay is a flat bounty, commission_rate is recorded as null. A CommissionDex listing citing $20-$40 per membership conflicts and is flagged here. No earnings-cap statement was found, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "article",
+    "source_url": "https://www.healthfitnesscoupon.com/deals/whoop/",
+    "summary": "HealthFitnessCoupon reports WHOOP runs its own affiliate application through a Typeform linked from the whoop.com footer, and that admitted affiliates earn a $50 commission on every new member they refer - corroborating the $50 Impact figure via the brand's own route."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_directory",
+    "source_url": "https://universe.beacons.ai/brands/whoop",
+    "summary": "Beacons Universe reports posts from 434 creators all time, only 7 sponsored posts in the last 12 months and 307 public posts in 12 months - mid-size creator count, so saturation is recorded as unknown despite the low sponsored-post volume."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.whoop.com/us/en/press-center/the-boston-globe-names-will-ahmed-ryan-durkin-to-2026-tech-power-players-50-list/",
+    "summary": "WHOOP's official press page states the company was founded in 2012 and is headquartered in Boston."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.whichprogram.com/en/p/whoop",
+   "source_url": "https://www.whichprogram.com/en/p/whoop",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "WHOOP Affiliate Program (Impact)",
+   "application_url": "https://www.whichprogram.com/en/p/whoop",
+   "source_url": "https://www.whichprogram.com/en/p/whoop"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Recovery and sleep tracking is a staple of fitness and wellness creator content with high demo value.",
+    "ugc_evidence": "434 creators all time on Beacons and a live Impact program with the brand's own Typeform application route.",
+    "compensation": "Flat $50 per eligible 12/24-month membership order - strong per-conversion pay on a high-value membership; a $20-$40 listing conflicts, so confirm in Impact.",
+    "contact_access": "No published program email was found; contact runs through the application.",
+    "opportunity_availability": "Application required on Impact; the brand also links its own affiliate Typeform from whoop.com.",
+    "credibility": "Founded 2012, Boston-headquartered, category-defining wearable brand."
+   }
+  }
+ },
+ {
+  "name": "Graza",
+  "website": "https://www.graza.co",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Brooklyn-based olive oil brand selling single-origin Spanish olive oils in squeeze bottles ('Drizzle' finishing oil and 'Sizzle' cooking oil) direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/graza/",
+    "summary": "LinkClicky's Graza listing states the program runs on ShareASale and pays 10% commission per sale, with joining via shareasale.com. No earnings-cap statement was found, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "article",
+    "source_url": "https://www.superfiliate.com/field-guide/video/links-codes-superfiliate-by-kendall-dickieson",
+    "summary": "Superfiliate's field guide with Graza's Head of Social and Influencer describes its ambassador program (moved from Shopify Collabs to Superfiliate after scaling past 450 creators) paying a standard 10% baseline, with rates scaling up to 25% for negotiated high-ask creators - corroborating the 10% baseline; the 25% is a negotiated tier ceiling, not an earnings-cap statement."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_directory",
+    "source_url": "https://universe.beacons.ai/brands/graza",
+    "summary": "Beacons Universe reports posts from 526 creators all time and 33 sponsored posts in the last 12 months, and states Graza is based in Brooklyn, United States with official website graza.co - mid-size in absolute terms, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/graza/",
+   "source_url": "https://linkclicky.com/affiliate-program/graza/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Graza Affiliate Program (ShareASale)",
+   "application_url": "https://linkclicky.com/affiliate-program/graza/",
+   "source_url": "https://linkclicky.com/affiliate-program/graza/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Single-origin olive oil in squeeze bottles is a distinctive, highly visual cooking-creator product.",
+    "ugc_evidence": "526 creators on Beacons and an ambassador program documented past 450 creators on Superfiliate.",
+    "compensation": "10% baseline per sale on ShareASale, with negotiated ambassador rates up to 25% documented.",
+    "contact_access": "No verified published program email was found; joining runs through ShareASale.",
+    "opportunity_availability": "Open ShareASale application plus the Superfiliate ambassador route.",
+    "credibility": "Brooklyn-based DTC brand with national retail presence; founding details were not on fetched pages, so held at 4."
+   }
+  }
+ },
+ {
+  "name": "Noom",
+  "website": "https://www.noom.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Behavior-change weight-loss and health platform founded in 2008, using psychology-based coaching and tracking; Beacons lists the brand as based in Princeton, United States.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "support@noom.com",
+    "source_url": "https://www.noom.com/cookie-policy/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-directory/noom/",
+    "summary": "UpPromote's Noom directory states the program pays a flat $10-$15 per qualified trial/sign-up (varies by network), runs on Impact (and sometimes ShareASale) with a 30-day cookie. Because pay is a flat per-trial bounty, commission_rate is recorded as null. A separate GLP-1 offer quoting a $160 payout per purchase on FlexOffers is a different payout event and is not merged. No earnings-cap statement was found, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_directory",
+    "source_url": "https://universe.beacons.ai/brands/noom",
+    "summary": "Beacons Universe reports posts from only 24 creators all time, 12 sponsored posts in the last 12 months and 21 public posts in the last 12 months - a small absolute creator footprint for a major health platform, so creator saturation is recorded as low."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.noom.com/cookie-policy/",
+    "summary": "Noom's official cookie policy page publishes support@noom.com as the contact email ('The best way to get in touch with us is by emailing support@noom.com'); no affiliate-specific email was published on fetched official pages."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://uppromote.com/affiliate-directory/noom/",
+   "source_url": "https://uppromote.com/affiliate-directory/noom/",
+   "commission_cap": "unknown",
+   "creator_saturation": "low"
+  },
+  "opportunity": {
+   "title": "Noom Affiliate Program (Impact)",
+   "application_url": "https://uppromote.com/affiliate-directory/noom/",
+   "source_url": "https://uppromote.com/affiliate-directory/noom/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Weight-loss and behavior-change content is a large, evergreen health-creator niche.",
+    "ugc_evidence": "Only 24 creators all time on Beacons - a genuinely open field, though it also means limited documented campaign volume.",
+    "compensation": "Flat $10-$15 per qualified trial on Impact; a separate GLP-1 purchase offer elsewhere quotes $160, so confirm the track in-network.",
+    "contact_access": "Published general support email; no affiliate-specific contact was published.",
+    "opportunity_availability": "Joinable via Impact/ShareASale network application.",
+    "credibility": "Founded 2008, one of the largest behavior-change health platforms."
+   }
+  }
+ },
+ {
+  "name": "Everlywell",
+  "website": "https://www.everlywell.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Austin, Texas at-home health testing company founded in 2015, selling lab tests for food sensitivity, hormones, sexual health and more with physician-reviewed results.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://app.impact.com/advertiser-campaign-info/Everlywell.brand?lang=en&c=___9XpvYq1Sf0-BHmwgf1a9MF16NJlCGrfj",
+    "summary": "Everlywell's own Impact campaign page publishes flat payouts: $20.00 for an Everlywell 360 purchase and $7.00 for an online sale, each with a 30-day referral period. Because pay is flat per sale rather than a percentage, commission_rate is recorded as null. Other routes conflict (Lasso lists 4.8%-9.6% per sale via FlexOffers; a GLP-1 partner offer quotes $45 per sale) and are flagged rather than merged. No earnings-cap statement was found, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_directory",
+    "source_url": "http://universe.beacons.ai/brands/everlywell",
+    "summary": "Beacons Universe reports posts from only 70 creators all time, 10 sponsored posts in the last 12 months and 16 public posts in the last 12 months, and states Everlywell is based in Austin, United States - a small absolute footprint, so creator saturation is recorded as low."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "article",
+    "source_url": "https://glp1.partners/offers/everlywell-lab-tests",
+    "summary": "This partner offer page describes Everlywell as an Austin, Texas company founded in 2015 and quotes its own $45-per-sale CPA route for approved affiliates and Instagram influencers - a conflicting network-specific figure, recorded here for transparency."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://app.impact.com/advertiser-campaign-info/Everlywell.brand?lang=en&c=___9XpvYq1Sf0-BHmwgf1a9MF16NJlCGrfj",
+   "source_url": "https://app.impact.com/advertiser-campaign-info/Everlywell.brand?lang=en&c=___9XpvYq1Sf0-BHmwgf1a9MF16NJlCGrfj",
+   "commission_cap": "unknown",
+   "creator_saturation": "low"
+  },
+  "opportunity": {
+   "title": "Everlywell Affiliate Program (Impact)",
+   "application_url": "https://app.impact.com/advertiser-campaign-info/Everlywell.brand?lang=en&c=___9XpvYq1Sf0-BHmwgf1a9MF16NJlCGrfj",
+   "source_url": "https://app.impact.com/advertiser-campaign-info/Everlywell.brand?lang=en&c=___9XpvYq1Sf0-BHmwgf1a9MF16NJlCGrfj"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "At-home health testing fits health, wellness and family creator content with strong explainer angles.",
+    "ugc_evidence": "Only 70 creators all time on Beacons - a small, uncrowded program for a national brand.",
+    "compensation": "Flat $7 per online sale / $20 per 360 purchase on the brand's own Impact listing; other networks quote conflicting figures, so confirm in Impact.",
+    "contact_access": "No published program email was found; joining is via the Impact listing.",
+    "opportunity_availability": "Live, joinable Impact campaign page with published payouts.",
+    "credibility": "Founded 2015 in Austin, established national at-home testing brand."
+   }
+  }
+ },
+ {
+  "name": "Hungryroot",
+  "website": "https://www.hungryroot.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "New York City-based online grocery and meal-planning company founded in 2015 by Ben McKean, delivering personalized groceries and recipes matched to dietary preferences.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "help@hungryroot.com",
+    "source_url": "https://support.hungryroot.com/hc/en-us/articles/360055163993-Why-haven-t-I-received-a-reply"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.whichprogram.com/en/p/hungryroot",
+    "summary": "WhichProgram's Hungryroot listing states the network's own terms: $15-$25 per new subscriber on CJ Affiliate, 30-day cookie, application required. Lasso instead lists $8.00 per sale via FlexOffers. The flat-bounty figures conflict by network, so commission_rate is recorded as null and the conflict flagged for in-network confirmation. No earnings-cap statement was found, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://support.hungryroot.com/hc/en-us/articles/4411134454675-I-m-interested-in-partnering-with-Hungryroot",
+    "summary": "Hungryroot's official Help Center partnering page invites like-minded creators to fill out its Airtable partner form, after which the team follows up if there is an opportunity to partner - an official creator route alongside the network programs, with no rate published there."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://support.hungryroot.com/hc/en-us/articles/360055163993-Why-haven-t-I-received-a-reply",
+    "summary": "Hungryroot's official support article publishes help@hungryroot.com as its contact email."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "article",
+    "source_url": "https://en.wikipedia.org/wiki/Hungryroot",
+    "summary": "Wikipedia describes Hungryroot as an American online grocery and meal-planning company headquartered in New York City, founded in 2015 by Ben McKean."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.whichprogram.com/en/p/hungryroot",
+   "source_url": "https://www.whichprogram.com/en/p/hungryroot",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Hungryroot Affiliate Program (CJ Affiliate)",
+   "application_url": "https://www.whichprogram.com/en/p/hungryroot",
+   "source_url": "https://www.whichprogram.com/en/p/hungryroot"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Personalized grocery and meal planning fits food, family and healthy-eating creator content well.",
+    "ugc_evidence": "An official creator partner form exists, but no Beacons Universe brand page or creator counts were found on fetched pages.",
+    "compensation": "Flat bounty per new subscriber - $15-$25 on CJ per the network statement vs $8 via FlexOffers, so confirm in-network; recorded as null because it is not a percentage.",
+    "contact_access": "Published help@hungryroot.com plus the official creator partner form.",
+    "opportunity_availability": "CJ application required; the brand's own creator form is open to pitches.",
+    "credibility": "Founded 2015, headquartered in New York City, established grocery-delivery brand."
+   }
+  }
+ },
+ {
+  "name": "Apollo Neuro",
+  "website": "https://apolloneuro.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Pittsburgh, Pennsylvania wellness-technology company founded in 2017, selling the Apollo wearable that uses vibration frequencies intended to improve stress resilience, sleep and focus; born from University of Pittsburgh research.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/apollo-neuroscience/",
+    "summary": "LinkClicky's Apollo Neuroscience listing states the program runs on Impact and pays 4% commission per sale, joining via app.impact.com. The listing was last updated March 10, 2024, so the rate is flagged for re-confirmation inside Impact; an unopened directory figure of 10% was not used. No earnings-cap statement was found, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "creator_directory",
+    "source_url": "http://universe.beacons.ai/brands/apollo-neuroscience",
+    "summary": "Beacons Universe reports posts from only 20 creators all time, just 1 sponsored post in the last 12 months and 7 public posts in the last 12 months, and lists the brand as based in Pittsburgh, United States - a very small absolute footprint, so creator saturation is recorded as low."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "article",
+    "source_url": "https://www.cbinsights.com/company/apollo-neuroscience",
+    "summary": "CB Insights records Apollo Neuroscience as founded in 2017 and based in Pittsburgh, Pennsylvania, at 1942 5th Avenue."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 4,
+   "application_url": "https://linkclicky.com/affiliate-program/apollo-neuroscience/",
+   "source_url": "https://linkclicky.com/affiliate-program/apollo-neuroscience/",
+   "commission_cap": "unknown",
+   "creator_saturation": "low"
+  },
+  "opportunity": {
+   "title": "Apollo Neuro Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/apollo-neuroscience/",
+   "source_url": "https://linkclicky.com/affiliate-program/apollo-neuroscience/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Stress, sleep and focus wearables fit wellness and biohacking creator content, a narrower niche than food or supplements.",
+    "ugc_evidence": "Only 20 creators all time on Beacons - a wide-open field, but very little documented campaign volume.",
+    "compensation": "4% per sale on Impact is low, and the only opened listing is dated March 2024, so re-confirm before relying on it.",
+    "contact_access": "No published program email was verified on an opened page; joining runs through Impact.",
+    "opportunity_availability": "Joinable via Impact per the directory listing.",
+    "credibility": "Founded 2017 out of University of Pittsburgh research, Pittsburgh-based."
+   }
+  }
+ }
+]
