@@ -1,0 +1,644 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://zomasleep.com/affiliates",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://zomasleep.com/affiliates"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://zomasleep.com/affiliates",
+    "email": null,
+    "source_url": "https://zomasleep.com/affiliates"
+   }
+  ],
+  "country": "United States",
+  "description": "US mattress brand (Zoma Sleep LLC, Scottsdale, Arizona) selling sports-recovery-focused memory-foam and hybrid mattresses, pillows, adjustable beds and bedding direct through Zomasleep.com. Its affiliate program is built around product reviewers: affiliates receive and test a mattress, publish their review, and earn commission on referred sales through Impact.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://zomasleep.com/affiliates",
+    "summary": "Official Zoma affiliate page fetched in full: free to join with no startup or maintenance fees, a 90-day cookie duration, creative and marketing assets and dedicated affiliate support; affiliates are paid every month through Impact (the page's Become an Affiliate button leads to app.impact.com). Its FAQ answers the earnings question directly: 'How much can I earn? The sky's the limit! Your earning potential is uncapped and is based on your ability to drive purchases to Zomasleep.com.' The explicit uncapped statement on the brand's own page makes the commission cap UNCAPPED. The page publishes no percentage rate ('competitive payout terms', 'earn more as you sell more'), so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://zomasleep.com/affiliates",
+    "summary": "The same official page describes a reviewer workflow: 'After you receive and test your mattress, start publishing your review on your website with your affiliate link' — a product-seeded review program aimed at content publishers, with last-click attribution inside the 90-day cookie window."
+   }
+  ],
+  "name": "Zoma Sleep",
+  "opportunity": {
+   "application_url": "https://zomasleep.com/affiliates",
+   "source_url": "https://zomasleep.com/affiliates",
+   "title": "Zoma Affiliate Program — earning potential uncapped per official FAQ, paid monthly via Impact, 90-day cookie"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Explicit uncapped earnings statement on the brand's own page and a long 90-day cookie, but no percentage rate is published, so compensation cannot be graded higher",
+    "contact_access": "Impact application linked from the brand's own affiliate page, plus a published phone number (888-400-8856); no public program email found",
+    "credibility": "Established US mattress brand with BBB profile linked from its own site and national press coverage quoted on the page",
+    "niche_fit": "Mattresses and sleep products are a core home UGC review category, and the athlete-recovery angle gives creators a distinct content hook",
+    "opportunity_availability": "Free Impact registration with no follower minimum published",
+    "ugc_evidence": "The program is structured around seeded product reviews published by affiliates, though it is framed for review sites rather than social-first creators"
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [
+   {
+    "handle": "zomasleep",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/zomasleep"
+   },
+   {
+    "handle": "zoma",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/zoma/"
+   },
+   {
+    "handle": "zomasleep",
+    "platform": "x",
+    "url": "https://twitter.com/zomasleep"
+   },
+   {
+    "handle": "zomasleep",
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@zomasleep"
+   }
+  ],
+  "website": "https://zomasleep.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://myessentia.com/pages/affiliate-program",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://myessentia.com/pages/affiliate-program"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://myessentia.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://myessentia.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Organic mattress and pillow brand (Essentia Organic Mattress - USA, Boca Raton, Florida) selling natural-memory-foam mattresses made with organic latex and plant-based ingredients through MyEssentia.com. Its affiliate program gives publishers a dashboard, banners, social assets and video to promote the range.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://myessentia.com/pages/affiliate-program",
+    "summary": "Official Essentia affiliate page fetched in full: 'Join Essentia's affiliate program on AWIN to earn when you share!' — the program provides a dashboard to track real-time performance, banners, social media assets, videos and exclusive offers, and states 'There is no limit to how much you can earn!' Its FAQ repeats the point: 'What is my commission? Once approved, you will have full access to your affiliate dashboard. Your earning potential is unlimited.' The explicit no-limit statements on the brand's own page make the commission cap UNCAPPED. No percentage rate is published on the page (rates sit inside the dashboard), so commission_rate is null. Note: the page's 'apply here' link still points to shareasale.com even though the page text names AWIN as the network — the stale link is recorded here and Awin is recorded as the network the brand itself names."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://myessentia.com/pages/affiliate-program",
+    "summary": "The same official page states joining is free, sites are reviewed manually and approved quickly, coupon/promo sites are not accepted, and trademark/URL bidding is not allowed; the brand's US address (6510 W Rogers Cir, Boca Raton, FL 33487) and phone (+1-888-752-0335) are published on the page."
+   }
+  ],
+  "name": "Essentia",
+  "opportunity": {
+   "application_url": "https://myessentia.com/pages/affiliate-program",
+   "source_url": "https://myessentia.com/pages/affiliate-program",
+   "title": "Essentia Affiliate Program — 'no limit to how much you can earn' per official page, via Awin"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Explicit 'no limit' and 'unlimited' earnings statements on the brand's own page, but the percentage rate is not published outside the dashboard",
+    "contact_access": "Application linked from the brand's own page and a phone number published; no public program email found, and the apply link still points to ShareASale while the page names Awin",
+    "credibility": "Long-running organic mattress brand with full program FAQ published on its own storefront",
+    "niche_fit": "Organic mattresses and pillows are a proven home/wellness UGC category with a clear clean-sleep content angle",
+    "opportunity_availability": "Free to join but sites are manually reviewed and coupon/promo sites are excluded",
+    "ugc_evidence": "Publisher program with social media assets and video provided, but framed for websites rather than social-first creators"
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://myessentia.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://diamondmattress.com/pages/affiliate-programs",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://diamondmattress.com/pages/affiliate-programs"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://diamondmattress.com/pages/affiliate-programs",
+    "email": null,
+    "source_url": "https://diamondmattress.com/pages/affiliate-programs"
+   }
+  ],
+  "country": "United States",
+  "description": "US mattress manufacturer selling mattresses, adjustable bases and sleep accessories direct through DiamondMattress.com. Its affiliate program runs through Impact and rewards partners per referred customer, with higher commission rates and cash bonuses for top performers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://diamondmattress.com/pages/affiliate-programs",
+    "summary": "Official Diamond Mattress affiliate page fetched in full: the program is free to join through Impact (the page links to app.impact.com and states 'we use Impact ... as our Affiliate Marketing Network'); affiliates receive all needed creatives and are paid for every referred customer who purchases. Its Growth Potential section states: 'When you partner with Diamond Mattress, you're joining one of the leaders in a booming industry. There is no limit to what you can earn.' The explicit no-limit statement on the brand's own page makes the commission cap UNCAPPED. Rates are tiered ('The more you sell, the higher your comission rates', plus cash bonuses for top partners) but no percentage is published, so commission_rate is null."
+   }
+  ],
+  "name": "Diamond Mattress",
+  "opportunity": {
+   "application_url": "https://diamondmattress.com/pages/affiliate-programs",
+   "source_url": "https://diamondmattress.com/pages/affiliate-programs",
+   "title": "Diamond Mattress Affiliate Program — 'no limit to what you can earn' per official page, via Impact"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Explicit 'no limit to what you can earn' statement on the brand's own page with performance rewards and bonuses, but no published percentage rate",
+    "contact_access": "Impact application linked from the brand's own affiliate page; no public program email found",
+    "credibility": "Established US mattress manufacturer with program terms published on its own storefront",
+    "niche_fit": "Mattresses are a core home UGC review category with high order values",
+    "opportunity_availability": "Free Impact application with no follower minimum published",
+    "ugc_evidence": "Standard publisher program with creatives provided; no creator-specific tier or content program published"
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://diamondmattress.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/brentwood-home/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/brentwood-home/"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/brentwood-home/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/brentwood-home/"
+   }
+  ],
+  "country": "United States",
+  "description": "California-made mattress and home brand selling mattresses, bedding, pillows, kids' and pet beds handcrafted in its Los Angeles factory with natural and organic materials, through BrentwoodHome.com. Its affiliate program is managed on Impact and pays commission across the full catalogue, not just mattresses.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/brentwood-home/",
+    "summary": "LinkClicky program listing (which reads the network's published terms): the Brentwood Home affiliate program runs on Impact and pays 5%-8% per sale. CompareEPC's furniture-program index likewise lists Brentwood Home on Impact at 5%. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/brentwood-home/",
+    "summary": "Older roundups report a different, historical structure: Lasso lists Brentwood Home at 15% per sale, and mattress-program roundups describe a 15% ShareASale program with a 120-day cookie and $50 payout threshold. Because the published figures conflict (15% on the old ShareASale program vs 5%-8% on the current Impact listings), commission_rate is null with the conflict recorded here; the Impact route is the one current network listings agree on."
+   }
+  ],
+  "name": "Brentwood Home",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/brentwood-home/",
+   "source_url": "https://linkclicky.com/affiliate-program/brentwood-home/",
+   "title": "Brentwood Home Affiliate Program — mattresses and natural home goods via Impact (published rates conflict at 5%-15%)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 6,
+   "reasons": {
+    "compensation": "Published rates conflict between the historical 15% ShareASale figure and current 5%-8% Impact listings, so no rate can be credited until verified in-network",
+    "contact_access": "Application runs through Impact; no public partnerships email found",
+    "credibility": "Long-running US mattress maker with consistent program listings across networks over many years",
+    "niche_fit": "Mattresses, bedding and pet beds made in California from natural materials give home creators several content angles",
+    "opportunity_availability": "Roundups describe the program as selective/exclusive, with brand fit reviewed before acceptance",
+    "ugc_evidence": "Network publisher program; no dedicated creator page published"
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.brentwoodhome.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.identitypet.com/pages/identity-creative-creators",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.identitypet.com/pages/identity-creative-creators"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.identitypet.com/pages/identity-creative-creators",
+    "email": null,
+    "source_url": "https://www.identitypet.com/pages/identity-creative-creators"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": "https://www.identitypet.com/pages/identity-creative-creators",
+    "email": "customercare@identitypet.com",
+    "source_url": "https://www.identitypet.com/pages/identity-creative-creators"
+   }
+  ],
+  "country": "United States",
+  "description": "US pet-food brand (Identity Pet Nutrition, LLC, Windsor, Colorado) selling gently cooked and raw-inspired dog and cat foods made with high meat inclusion, through IdentityPet.com. Its Identity Creative Affiliate Program is written specifically for content creators and influencers, who earn commission through personal SafeLinks and single-use customer coupon codes.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.identitypet.com/pages/identity-creative-creators",
+    "summary": "Official Identity Creative Content Creators Affiliate Program terms (effective January 1, 2025) fetched in full: the program is open to 'content creators, influencers, or marketing affiliates with an active online presence'; affiliates earn a 15% commission on qualifying sales through their SafeLink (15% of the net purchase amount, excluding taxes, shipping and discounts), with a 30-day cookie, a $59 minimum order, new customers only, and payouts via Trolley monthly at a $100 threshold. Referred customers get 20% off via single-use codes. The terms publish the program contact email customercare@identitypet.com and the company address in Windsor, CO. The terms make no statement about an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://www.identitypet.com/pages/identity-creative-creators",
+    "summary": "The same official terms are creator-specific throughout: acceptance requires a separate Influencer Agreement, accepted affiliates may receive a free welcome gift valued at up to $175, coupon codes may not be posted to coupon sites or forums, and paid ads redirecting to the brand's site need prior approval — a managed creator program rather than an open publisher feed."
+   }
+  ],
+  "name": "Identity Pet Nutrition",
+  "opportunity": {
+   "application_url": "https://www.identitypet.com/pages/identity-creative-creators",
+   "source_url": "https://www.identitypet.com/pages/identity-creative-creators",
+   "title": "Identity Creative Affiliate Program — 15% commission for pet content creators, brand direct ($100 payout threshold)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 11,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 6,
+   "reasons": {
+    "compensation": "15% of net purchase is a solid pet-food rate, tempered by a $100 payout threshold, a $59 minimum order and new-customer-only qualification",
+    "contact_access": "Application on the brand's own site plus a published program contact email (customercare@identitypet.com) in the official terms",
+    "credibility": "Full program terms published on the brand's own storefront; a smaller, younger brand than the pet-food leaders",
+    "niche_fit": "Premium dog and cat food is a core pet UGC category (feeding routines, picky-eater and transition content)",
+    "opportunity_availability": "Application-based and selective — acceptance is at the brand's sole discretion and requires signing a separate Influencer Agreement",
+    "ugc_evidence": "The program is explicitly a creator/influencer program with personal links, customisable landing pages and a welcome product gift"
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://www.identitypet.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://petwellbeing.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://petwellbeing.com/pages/affiliate-program"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://petwellbeing.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://petwellbeing.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "US pet-supplement brand selling vet-formulated, NASC-certified herbal supplements for dogs and cats (organ support, immunity, digestion, mobility) through PetWellbeing.com. Its affiliate program on Awin has two tracks: a practitioner track for vet clinics and a creator track for pet health advocates, bloggers and social channels.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://petwellbeing.com/pages/affiliate-program",
+    "summary": "Official Pet Wellbeing affiliate page fetched in full: the 'Pet Health Advocates & Creators' track pays 'Up to 10% commission on every referred sale' with a 60-day tracking cookie, joining through AWIN (Merchant ID: 87939, published on the page). The separate 20% tier is stated on the same page to be 'exclusive to vet clinics' under the practitioner track, so the creator rate recorded here is the 10% ceiling of the creator track, following the directory's rate-ceiling convention. The page makes no statement about an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://petwellbeing.com/pages/affiliate-program",
+    "summary": "The same official page addresses the creator track directly: 'If you run an established pet wellness blog, community, or social channel, partner with a trusted brand in natural pet health', with Awin handling tracking, reporting and monthly payment, and the brand citing veterinarian formulation, NASC certification and third-party testing."
+   }
+  ],
+  "name": "Pet Wellbeing",
+  "opportunity": {
+   "application_url": "https://petwellbeing.com/pages/affiliate-program",
+   "source_url": "https://petwellbeing.com/pages/affiliate-program",
+   "title": "Pet Wellbeing Affiliate Program — creators earn up to 10% via Awin, 60-day cookie (Merchant ID 87939)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Up to 10% on the creator track is mid-range for pet supplements; the higher 20% tier is clinics-only and is not credited here",
+    "contact_access": "Awin application with the merchant ID published on the brand's own page; no public partnerships email found",
+    "credibility": "NASC-certified, vet-formulated brand with its full two-track program published on its own storefront",
+    "niche_fit": "Vet-formulated pet supplements are a proven pet-health UGC category with strong problem/solution content angles",
+    "opportunity_availability": "Standard Awin application, though the page speaks to 'established' blogs, communities and channels",
+    "ugc_evidence": "A dedicated creator/advocate track is published alongside the clinic track, with a 60-day cookie aimed at considered purchases"
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://petwellbeing.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://wildearth.com/pages/veterinarians",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://wildearth.com/pages/veterinarians"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://wildearth.com/pages/veterinarians",
+    "email": "support@wildearth.com",
+    "source_url": "https://wildearth.com/pages/veterinarians"
+   }
+  ],
+  "country": "United States",
+  "description": "US pet-nutrition company founded in 2017 making plant-based and fermentation-derived (koji) protein dog food and treats, sold by subscription through WildEarth.com. Its affiliate program runs through Impact, with tracking links, QR codes and custom promo codes for partners.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://wildearth.com/pages/veterinarians",
+    "summary": "Wild Earth's official affiliate-program page (framed for its veterinary partners) confirms the program mechanics on the brand's own site: 'Tracking links, tracking QR codes, or custom promo codes are essential for our affiliate program', partners create tracking links 'within your Impact Radius dashboard', and 'Contact support@wildearth.com with any questions about our affiliate program' — the recorded route is the brand's Impact program, not any marketplace channel. The page publishes no commission figure and no earnings-cap statement, so the rate is null and the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://runtheaffiliatemarket.com/can-you-make-money-with-the-wild-earth-affiliate-program-review/",
+    "summary": "A program review reports Wild Earth's affiliate compensation as a flat fee of up to $60 for new subscriptions purchasing certain bag sizes, with a 30-day cookie — a flat bounty rather than a percentage. A coupon-site listing separately claims 'up to 30% commission', which conflicts with the flat-fee report and is not credited. Because the published compensation is a reported flat bounty with a conflicting percentage claim, commission_rate is null with the flat structure recorded here."
+   }
+  ],
+  "name": "Wild Earth",
+  "opportunity": {
+   "application_url": "https://wildearth.com/pages/veterinarians",
+   "source_url": "https://wildearth.com/pages/veterinarians",
+   "title": "Wild Earth Affiliate Program — plant-based dog food via Impact (flat per-subscription bounty reported, up to $60)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 9,
+   "credibility": 3,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A reported flat bounty of up to $60 per new subscription can pay well per conversion, but the figure is dated and conflicts with a percentage claim elsewhere, so it is graded cautiously",
+    "contact_access": "Program contact email (support@wildearth.com) published on the brand's own program page; application runs through Impact",
+    "credibility": "Well-known plant-based pet-food pioneer, but program details on its own site are thin and partly dated",
+    "niche_fit": "Plant-based dog food is a distinctive, debate-friendly pet-nutrition niche with a loyal niche audience",
+    "opportunity_availability": "Standard Impact application, no follower minimum published",
+    "ugc_evidence": "The brand runs a network affiliate program and a listed creator program, but its own program page is framed for veterinary partners rather than creators"
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://wildearth.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.neurable.com/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.neurable.com/affiliate-program"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.neurable.com/affiliate-program",
+    "email": null,
+    "source_url": "https://www.neurable.com/affiliate-program"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://www.neurable.com/affiliate-program",
+    "email": "affiliate@neurable.com",
+    "source_url": "https://www.neurable.com/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "US neurotechnology company selling the Neurable One: $499 premium noise-cancelling headphones with twelve EEG sensors in the ear pads that track focus, stress, load and sleepiness in its app. Its affiliate program pays partners a percentage of every referred sale, with a personal free-shipping code and a long cookie.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.neurable.com/affiliate-program",
+    "summary": "Official Neurable affiliate page fetched in full: 'It costs $499 and we ship in the US. You earn 10% of that on every referred sale' — about $49.90 a unit, paid on the product price before tax and shipping; a 120-day cookie plus a personal code; 'No minimum payout' (one sale a quarter gets paid; commission held 30 days for the return window, payouts monthly in USD). The page publishes the program email affiliate@neurable.com. It makes no statement about an earnings cap — 'no minimum payout' is a payout-threshold statement, not an earnings statement — so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://www.neurable.com/affiliate-program",
+    "summary": "The same official page is creator-first: 'Promote it your way — Video, newsletter, blog, social, whatever you already do', a partner portal with product shots, logos and a creator brief, and first looks at new products for approved partners. Applications are read by hand and approved on audience fit, size and quality; the audience must be in the US; coupon/cashback sites and brand-name paid search are not eligible; the brand reviews health claims (not creative) before publication."
+   }
+  ],
+  "name": "Neurable",
+  "opportunity": {
+   "application_url": "https://www.neurable.com/affiliate-program",
+   "source_url": "https://www.neurable.com/affiliate-program",
+   "title": "Neurable Affiliate Program — 10% on $499 EEG headphones, 120-day cookie, no minimum payout (affiliate@neurable.com)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 12,
+   "credibility": 3,
+   "niche_fit": 26,
+   "opportunity_availability": 6,
+   "reasons": {
+    "compensation": "10% of a $499 product is about $49.90 per sale with an unusually long 120-day cookie and no minimum payout; no cap statement published",
+    "contact_access": "Dedicated program email (affiliate@neurable.com) published on the brand's own page, plus the application form",
+    "credibility": "CES award and Forbes/Wired/CNN coverage cited on the page, but a young single-product company",
+    "niche_fit": "EEG focus-tracking headphones are a highly demonstrable, novel tech product for review and productivity content",
+    "opportunity_availability": "Applications are hand-reviewed on audience fit, size and quality, and the audience must be US-based",
+    "ugc_evidence": "Creator-first program copy, a partner portal with a creator brief, and first-look access for approved partners"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.neurable.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://us.store.tapo.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://us.store.tapo.com/pages/affiliates"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.store.tapo.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://us.store.tapo.com/pages/affiliates"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://us.store.tapo.com/pages/affiliates",
+    "email": "affiliates.shopus@tp-link.com",
+    "source_url": "https://us.store.tapo.com/pages/affiliates"
+   }
+  ],
+  "country": "United States",
+  "description": "TP-Link's smart-home line sold through its official US Tapo store: smart cameras, video doorbells, smart plugs, bulbs, sensors and robot vacuums. The Tapo store's own affiliate program pays partners a flat percentage on every confirmed purchase they refer.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.store.tapo.com/pages/affiliates",
+    "summary": "Official TP-Link Tapo US store affiliate page fetched in full: 'Earn 10% on Every Sale — Share TP-Link Tapo's trusted tech products and earn a strong 10% payout on each confirmed purchase'; 'Get your commissions paid just 20 days after approval'; affiliates create a free account, get a unique referral link and are paid for every referred sale. The page publishes the program contact affiliates.shopus@tp-link.com for eligibility questions. It makes no statement about an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://us.store.tapo.com/pages/affiliates",
+    "summary": "The same official page lists the partner types it works with: 'Bloggers & product review sites, Forums & tech communities, Social media influencers, Email & software marketers, Publishers and content creators', with flexible promotion across social and email — a store-run program that explicitly welcomes social media influencers."
+   }
+  ],
+  "name": "TP-Link Tapo",
+  "opportunity": {
+   "application_url": "https://us.store.tapo.com/pages/affiliates",
+   "source_url": "https://us.store.tapo.com/pages/affiliates",
+   "title": "Tapo Affiliates Program — 10% on every sale from TP-Link's US smart-home store (affiliates.shopus@tp-link.com)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 11,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A flat 10% on every confirmed purchase is a strong smart-home rate, with fast payment 20 days after approval; no cap statement published",
+    "contact_access": "Program email (affiliates.shopus@tp-link.com) published on the brand's own affiliate page, plus free account sign-up",
+    "credibility": "TP-Link is a global networking and smart-home leader running the program from its official US storefront",
+    "niche_fit": "Smart cameras, doorbells, plugs and lighting are among the most reviewed and demonstrated smart-home products in UGC",
+    "opportunity_availability": "Free account creation on the brand's own store; no follower minimum published",
+    "ugc_evidence": "The store's own program explicitly welcomes social media influencers and content creators alongside review sites"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://us.store.tapo.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/withings/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://getlasso.co/affiliate/withings/"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/withings/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/withings/"
+   }
+  ],
+  "country": "United States",
+  "description": "Health-technology brand selling hybrid smartwatches (ScanWatch), smart scales (Body Scan), blood-pressure monitors and sleep trackers through Withings.com. Its affiliate program runs through CJ Affiliate and pays commission on referred device sales.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.whichprogram.com/en/p/withings-affiliate",
+    "summary": "WhichProgram's Withings entry records the program on CJ Affiliate and states, as stated by the network, a '5% standard commission per sale'; the same index also surfaces an Awin listing at up to 6.9% with a 3-day cookie. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/withings/",
+    "summary": "Lasso's Withings listing reports a split rate of 5.6% per sale for new customers and 4% for existing customers with a 30-day cookie, while older roundups cite 7%-9% from the brand's own page against 5%-7% on its CJ profile. Because the published figures conflict (4% / 5% / 5.6% / up to 6.9% / 7%-9% depending on source and network), commission_rate is null with the conflict recorded here; the CJ Affiliate route is the one consistently documented, including in Trainerize's step-by-step Withings-via-CJ sign-up guide."
+   }
+  ],
+  "name": "Withings",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/withings/",
+   "source_url": "https://getlasso.co/affiliate/withings/",
+   "title": "Withings Affiliate Program — smartwatches and smart scales via CJ Affiliate (published rates conflict at 4%-9%)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published rates conflict across sources and networks (4% to 9%), so no rate can be credited until verified in-network",
+    "contact_access": "Application runs through CJ Affiliate; no public partnerships email found",
+    "credibility": "Pioneer health-tech brand with a long-established device ecosystem and network program",
+    "niche_fit": "Smart scales, hybrid smartwatches and blood-pressure monitors are staple health-tech review products with rich app data to show on camera",
+    "opportunity_availability": "Standard CJ application, no follower minimum published",
+    "ugc_evidence": "Long-running network publisher program aimed at tech and fitness reviewers; no dedicated creator tier published"
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.withings.com"
+ }
+]

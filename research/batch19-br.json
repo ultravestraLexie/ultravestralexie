@@ -1,0 +1,577 @@
+[
+ {
+  "name": "Squaremouth",
+  "website": "https://www.squaremouth.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "America's largest travel insurance comparison marketplace, letting travellers quote and buy 100+ policies from 20 top insurers in one place. Its own affiliate program is open to anyone with no minimum commitment, pays commission on every referred policy sale through a 60-day cookie, and states explicitly that it does not cap earnings (non-licensed referrers earn up to $50 per sale).",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@squaremouth.com",
+    "source_url": "https://www.squaremouth.com/about/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_program_page",
+    "source_url": "https://www.squaremouth.com/about/affiliates",
+    "summary": "Official affiliate page FAQ, 'Is There A Limit To How Much I Can Make?': 'Squaremouth does not set a cap on your potential earnings. The more you refer, the more you can make. Non-licensed referrers can make up to $50 per sale. Licensed referrers may qualify for a volume-based commission structure.' The page also lists 'No minimum commitments and no cap on earning potential' as a program benefit."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.squaremouth.com/about/affiliates",
+    "summary": "Program mechanics from the official page: free to join, anyone eligible with no minimum commitments or qualifications, sign-up in minutes with same-day earning, 60-day cookie lifetime, real-time reporting dashboard, payment by ACH direct deposit once accrued credits exceed $50, paid within 45 days after month-end. The page names small social media influencers, bloggers and independent creators with a travel audience as partners. No percentage commission rate is published on the page, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_program_page",
+    "source_url": "https://www.squaremouth.com/about/affiliates",
+    "summary": "The official page gives the affiliate team email affiliates@squaremouth.com for account structuring questions, and shows the company address in Summit, NJ."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.squaremouth.com/about/affiliates",
+   "source_url": "https://www.squaremouth.com/about/affiliates",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.squaremouth.com/about/affiliates",
+   "source_url": "https://www.squaremouth.com/about/affiliates",
+   "title": "Squaremouth Travel Insurance Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "Explicit no-cap statement on the brand's own page ('does not set a cap on your potential earnings'); held below maximum because no percentage rate is published and non-licensed referrers are limited to $50 per individual sale.",
+    "contact_access": "A named affiliate-team email (affiliates@squaremouth.com) is published on the official program page.",
+    "credibility": "20+ years in business, describes itself as America's largest travel insurance marketplace, 4.9/5 from 55,204 ratings shown on the page.",
+    "niche_fit": "Travel insurance is a natural add-on for travel creators selling trips, itineraries and travel-safety content.",
+    "opportunity_availability": "Anyone can join with no minimum commitments or qualifications, sign-up in minutes and same-day earning.",
+    "ugc_evidence": "The official page explicitly names small social media influencers, bloggers and independent creators as partners, though the product is a quote widget/link rather than physical-product UGC."
+   }
+  }
+ },
+ {
+  "name": "Suunto",
+  "website": "https://us.suunto.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Finnish sports-watch and dive-computer brand for runners, triathletes and outdoor athletes, with average order values above $300. Its affiliate program pays a 10% base commission (top performers up to 15% with brand approval) on confirmed sales, with a 30-day cookie and monthly payouts, and explicitly welcomes creators, bloggers and social media partners.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@suunto.com",
+    "source_url": "https://us.suunto.com/pages/suunto-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://us.suunto.com/pages/suunto-affiliate-program",
+    "summary": "Official US program page FAQ, 'How much can I earn?': 'Base commission starts at 10%. Top-performing affiliates earn up to 15% with brand approval.' The 15% is a rate ceiling for approved top performers, not the base rate; the page also states average order value above $300, a 30-day cookie window, monthly payouts and free joining. No earnings-cap statement appears anywhere on the page, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://us.suunto.com/pages/suunto-affiliate-program",
+    "summary": "The page says 'Anyone. We welcome creators, publishers, bloggers, and social media partners' (all applications reviewed), sign-up is via 'one of our affiliate platforms' (the platforms are not named on the page), and support is via affiliate@suunto.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (via affiliate platforms, unnamed on page)",
+   "commission_rate": 10,
+   "application_url": "https://us.suunto.com/pages/suunto-affiliate-program",
+   "source_url": "https://us.suunto.com/pages/suunto-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://us.suunto.com/pages/suunto-affiliate-program",
+   "source_url": "https://us.suunto.com/pages/suunto-affiliate-program",
+   "title": "Suunto Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 15,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "10% base commission on an average order value above $300 is strong per-sale pay; the up-to-15% figure is a ceiling for approved top performers and no cap statement is published.",
+    "contact_access": "A dedicated affiliate support email (affiliate@suunto.com) is published on the official page.",
+    "credibility": "Long-established premium sports-watch brand with a global retail presence.",
+    "niche_fit": "GPS watches are core gear for running, triathlon and outdoor fitness creators.",
+    "opportunity_availability": "Open to anyone with applications reviewed for alignment; free to join.",
+    "ugc_evidence": "Creators, bloggers and social media partners are explicitly welcomed, though the program is link/code based rather than a structured UGC campaign program."
+   }
+  }
+ },
+ {
+  "name": "437",
+  "website": "https://shop437.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Social-media-first luxe activewear and swim brand whose styles have been worn by major Instagram celebrities and whose content is mostly user-generated. Its Awin affiliate program pays 10% commission on net sales with a 30-day cookie, monthly payments and real-time reporting; applications are reviewed and coupon/deal sites are not allowed.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "careers@shop437.com",
+    "source_url": "https://ui.awin.com/merchant-profile/29465?setLocale=da_DK"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/29465?setLocale=da_DK",
+    "summary": "Official Awin merchant profile for 437 (US): 'We offer a 10% commission on net sales, excluding shipping, taxes and returns', 30-day cookie/conversion window, payments every 30 days, real-time reporting; blogs/sites/publications are reviewed for approval and coupons, discounts, deals and cashback sites are not allowed. No earnings-cap statement is published, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "network_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/29465?setLocale=da_DK",
+    "summary": "The Awin profile describes 437 as 'a social media-first brand' and states 'Most of our content is user-generated as we believe they are the most powerful marketers', inviting publishers to 'put in a good word for us on your platform and earn money while you're at it'. Affiliate management contact given as careers@shop437.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/29465?setLocale=da_DK",
+   "source_url": "https://ui.awin.com/merchant-profile/29465?setLocale=da_DK",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/29465?setLocale=da_DK",
+   "source_url": "https://ui.awin.com/merchant-profile/29465?setLocale=da_DK",
+   "title": "437 Affiliate Program (Awin)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 14,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "compensation": "Flat 10% on net sales via Awin is a solid, clearly published rate; no cap statement is published.",
+    "contact_access": "An affiliate management email (careers@shop437.com) is published on the Awin profile, though it is a general careers address rather than a dedicated partnerships inbox.",
+    "credibility": "Well-known social-first activewear label worn by major celebrities, but a smaller company than the global sportswear majors.",
+    "niche_fit": "Activewear and swim are core fitness/fashion creator categories and the brand is built around social content.",
+    "opportunity_availability": "Applications are reviewed for approval and coupon/deal/cashback publishers are excluded, which narrows who can join.",
+    "ugc_evidence": "The brand states most of its content is user-generated and explicitly frames creators as its marketers \u2014 strong UGC evidence."
+   }
+  }
+ },
+ {
+  "name": "Glamourange",
+  "website": "https://glamourange.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Luxury-fashion retailer focused on sunglasses, eyewear and tailored apparel, running a global influencer/ambassador affiliate program. Commission is tiered by audience size \u2014 10% for nano creators (400\u201310K followers) up to 25% for mega influencers, 30% for existing customers and 35% for brand ambassadors \u2014 paid via PayPal. Its 'no maximum' wording covers the number of referrals, not an earnings cap, so the cap is honestly unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://glamourange.com/en-gh/pages/faq-frequently-asked-questions-glamourange-affiliate-program",
+    "summary": "Official affiliate FAQ commission table: Tier 1 Nano influencers/inspirers (400\u201310K followers) 10%, Tier 2 Micro (10K\u2013100K) 15%, Tier 3 Macro (100K\u20131M) 20%, Tier 4 Mega (1M+) 25%, Tier 5 existing customers 30%, Tier 6 brand ambassadors 35%, Tier 7 blogs/YouTube/websites/podcasts/print 15%. The recorded 10% is the starting social-creator tier."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_program_page",
+    "source_url": "https://glamourange.com/en-gh/pages/faq-frequently-asked-questions-glamourange-affiliate-program",
+    "summary": "The FAQ says 'No maximum number of referrals you can refer. We want you to earn more money' \u2014 a statement about referral COUNT, not an earnings cap, so per the directory standard commission_cap stays unknown. Program is free and global, applications reviewed in 1\u20135 business days on follower and engagement metrics, commissions paid by direct deposit to PayPal."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://glamourange.com/en-gh/pages/faq-frequently-asked-questions-glamourange-affiliate-program",
+   "source_url": "https://glamourange.com/en-gh/pages/faq-frequently-asked-questions-glamourange-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://glamourange.com/en-gh/pages/faq-frequently-asked-questions-glamourange-affiliate-program",
+   "source_url": "https://glamourange.com/en-gh/pages/faq-frequently-asked-questions-glamourange-affiliate-program",
+   "title": "Glamourange Influencer / Ambassador Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 16,
+   "compensation": 15,
+   "contact_access": 4,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "10% starting rate for nano creators rising to 35% for ambassadors is generous on paper; no earnings-cap statement is published (only a no-maximum-referrals statement).",
+    "contact_access": "No partnerships email is published on the FAQ page \u2014 contact is via a website form only.",
+    "credibility": "Small, little-known luxury retailer; the fetched FAQ is served from the brand's Ghana locale and independent track record is thin.",
+    "niche_fit": "Sunglasses and fashion outfits are natural fashion-creator content, though the catalogue is narrower than full-range fashion brands.",
+    "opportunity_availability": "Free and global with a low 400-follower entry tier, but applications are reviewed on follower and engagement metrics.",
+    "ugc_evidence": "The program is explicitly built for influencers, inspirers and ambassadors promoting on social media, blogs and YouTube."
+   }
+  }
+ },
+ {
+  "name": "Stasher",
+  "website": "https://stasher.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "The world's largest luggage-storage platform, with 10,200+ vetted Stashpoints in hotels and shops across 1,200+ cities, letting travellers store bags for half the price of station lockers. Its affiliate program (run on Tapfiliate) pays 10% recurring commission on bookings with a 30-day cookie, monthly payouts from a \u00a350 threshold, and explicitly lists social media creators among its channels.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://tapfiliate.com/offers/stasher-affiliate-program/",
+    "summary": "Stasher's official program listing on its Tapfiliate portal: 'Commission, 10% Recurring', cookie duration 30 days, payment monthly via PayPal and bank transfer with a \u00a350 payout threshold, worldwide geography, channels include travel blogs, city guides and 'Social Media Creators'. Join portal is stasher.tapfiliate.com. No earnings-cap statement is published, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://stasher.com",
+    "summary": "The brand's homepage states 4.94 from 1.5M+ worldwide ratings, 10,200+ Stashpoints, millions of bags stored, and every booking includes insurance cover up to $1,000 per bag (per the program listing)."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (Tapfiliate)",
+   "commission_rate": 10,
+   "application_url": "https://stasher.tapfiliate.com",
+   "source_url": "https://tapfiliate.com/offers/stasher-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://stasher.tapfiliate.com",
+   "source_url": "https://tapfiliate.com/offers/stasher-affiliate-program/",
+   "title": "Stasher Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 4,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "compensation": "10% recurring commission is fairly paid, but luggage-storage bookings are low-value, so per-sale earnings are small; no cap statement is published.",
+    "contact_access": "No partnerships email is published on the program listing \u2014 joining is self-serve through the Tapfiliate portal.",
+    "credibility": "Established platform: world's largest luggage-storage network, 1,200+ cities and 1.5M+ ratings at 4.94.",
+    "niche_fit": "A genuinely useful service for travel creators making city guides and travel-hack content.",
+    "opportunity_availability": "Open self-serve sign-up, worldwide, with social media creators an explicitly listed channel.",
+    "ugc_evidence": "Social media creators are a named channel, though much of the program is aimed at hosts, venues and travel blogs."
+   }
+  }
+ },
+ {
+  "name": "Novelship",
+  "website": "https://novelship.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Asia-based marketplace for authentic limited-edition sneakers, streetwear and collectibles. Its affiliate program runs through Impact and is aimed squarely at content creators and influencers: commissions vary by country and customer type up to 5% of the order amount (a ceiling, so no base rate is recorded), with monthly payments, promotional materials and early release information.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "marketing@novelship.com",
+    "source_url": "https://novelship.com/news/novelship-affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://novelship.com/news/novelship-affiliate-program/",
+    "summary": "Official program announcement: 'Apply: Sign up through our affiliate portal, Impact', 'Earn a commission up to 5% of order sale amount for each new successful order', and FAQ 'Commission rates vary based on countries & customer type from which purchases are made, up to 5% of order sale amount.' Only a ceiling is published \u2014 no base rate \u2014 so commission_rate is null. Payments monthly subject to a minimum payout threshold; no earnings-cap statement, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://novelship.com/news/novelship-affiliate-program/",
+    "summary": "The page targets 'content creators, influencers, and anyone passionate about sneakers, streetwear, and collectibles' with a blog, YouTube channel or social presence, offers banners/graphics and early release information, and gives marketing@novelship.com for affiliate inquiries."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://novelship.com/news/novelship-affiliate-program/",
+   "source_url": "https://novelship.com/news/novelship-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://novelship.com/news/novelship-affiliate-program/",
+   "source_url": "https://novelship.com/news/novelship-affiliate-program/",
+   "title": "Novelship Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "compensation": "Only an up-to-5% ceiling is published, varying by country and customer type \u2014 a low and uncertain rate, so no base rate is recorded.",
+    "contact_access": "A marketing email (marketing@novelship.com) is published on the official program page for affiliate inquiries.",
+    "credibility": "Established sneaker marketplace in Asia with an authenticity focus, though less known in the US/EU.",
+    "niche_fit": "Sneakers and streetwear are a strong fashion-creator niche.",
+    "opportunity_availability": "Free to join via Impact with applications reviewed for fit; no sales targets.",
+    "ugc_evidence": "The program explicitly recruits creators, influencers and bloggers and supplies promotional materials."
+   }
+  }
+ },
+ {
+  "name": "Atlas Swimwear",
+  "website": "https://www.atlasswimwear.co",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Small swimwear brand running a three-tier creator ladder: an open Explorer community tier, an application-only Ambassador tier paying 10% commission on sales through a personal code (ambassadors must buy a suit and post ATLAS content on TikTok/Instagram), and an invite-or-50-sales Voyager sponsorship tier at 15% commission with free product.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ambassador_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.atlasswimwear.co/affiliates.html",
+    "summary": "Official affiliates page: Ambassador tier is application-only; to qualify you must purchase at least one ATLAS bathing suit, actively repost ATLAS videos on TikTok and/or Instagram, create your own ATLAS video and submit a screenshot or DM. Accepted ambassadors get a custom 10%-off follower code and '10% commission on all sales through your code'. The recorded 10% is this Ambassador rate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ambassador_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.atlasswimwear.co/affiliates.html",
+    "summary": "Voyager sponsorship tier (sell 50 bathing suits through your code, or be personally invited) pays '15% commission on all referred sales' plus two free bathing suits and 20% off gear. No earnings-cap statement appears on the page, so commission_cap is unknown; no partnerships email is published."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://www.atlasswimwear.co/affiliates.html",
+   "source_url": "https://www.atlasswimwear.co/affiliates.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.atlasswimwear.co/affiliates.html",
+   "source_url": "https://www.atlasswimwear.co/affiliates.html",
+   "title": "Atlas Swimwear Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 4,
+   "opportunity_availability": 6,
+   "credibility": 3,
+   "reasons": {
+    "compensation": "10% Ambassador commission rising to 15% at the sponsorship tier is fair for a small brand; no cap statement is published.",
+    "contact_access": "No partnerships email is published \u2014 application is via the website/DM only.",
+    "credibility": "Very small, young swimwear brand with limited public track record.",
+    "niche_fit": "Swimwear is a proven fashion-creator category, though the range is a single product type.",
+    "opportunity_availability": "The earning tier is application-only and requires buying a suit and posting brand content before acceptance, which limits availability.",
+    "ugc_evidence": "The program is built entirely around creator content \u2014 reposting and original TikTok/Instagram videos are explicit requirements."
+   }
+  }
+ },
+ {
+  "name": "StockX",
+  "website": "https://stockx.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "The live bid/ask marketplace for sneakers, streetwear, collectibles, watches and handbags. Its affiliate program runs on Impact: 3% on sneakers, streetwear and collectibles for new customers (1% returning) and 4% on watches and handbags for new customers (2% returning), earned on any bid that converts to a sale within 15 days, backed by a dedicated affiliate team.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://stockx.com/news/stockx-affiliate-program/",
+    "summary": "Official StockX program announcement: 'To get started, login or sign up with Impact'; 'Commissions You Earn: Sneakers, Streetwear, & Collectibles: 3% for new customers (first time purchasers), 1% for returning customers. Watches & Handbags: 4% for new customers, 2% for returning customers'; commission is earned on any bid that converts to a sale within 15 days. The recorded 3% is the headline sneakers/streetwear new-customer rate. No earnings-cap statement is published, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://stockx.com/news/stockx-affiliate-program/",
+    "summary": "The announcement (published 2019-07-09) highlights high average order values, monthly newsletters on top-selling products and a 'Dedicated Affiliate Team for collaboration and assistance'. The affiliate contact email shown on the page could not be read in full, so no contact row is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 3,
+   "application_url": "https://stockx.com/news/stockx-affiliate-program/",
+   "source_url": "https://stockx.com/news/stockx-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://stockx.com/news/stockx-affiliate-program/",
+   "source_url": "https://stockx.com/news/stockx-affiliate-program/",
+   "title": "StockX Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "Rates are low \u2014 3% new / 1% returning on sneakers and streetwear \u2014 partly offset by high average order values; no cap statement is published.",
+    "contact_access": "A dedicated affiliate team is named on the official page, but the contact email could not be read in full, so no email is recorded.",
+    "credibility": "One of the largest and best-known resale marketplaces in sneakers and streetwear.",
+    "niche_fit": "Sneaker and streetwear drops are a core fashion-creator beat with constant new-release content.",
+    "opportunity_availability": "Self-serve sign-up via Impact with a brand-fit review; open to social and media publishers.",
+    "ugc_evidence": "The program is pitched at social and media outlets and supplies creative assets, but it is a link-based affiliate program rather than a UGC campaign program."
+   }
+  }
+ },
+ {
+  "name": "RVshare",
+  "website": "https://rvshare.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "The largest US peer-to-peer RV rental marketplace, with 100,000+ listed vehicles and average bookings around $699\u2013$900. Its affiliate program is offered through CJ Affiliate (and Travelpayouts), but published rates conflict across sources \u2014 4% per rental on CJ, 5\u20137% in one directory, 6.5% on Travelpayouts \u2014 so no rate is recorded, only the conflict.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "third_party_directory",
+    "source_url": "https://commission.academy/blog/best-rv-affiliate-programs/",
+    "summary": "Commission Academy reports the RVshare program as integrated with Commission Junction (CJ Advertiser ID 5126501), paying '4% per referred RV Rental Order' plus '$7 per referred New RV Listing', with 30-day (rental) and 45-day (listing) cookie life and a $900 average order value."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "third_party_directory",
+    "source_url": "https://www.travelpayouts.com/blog/rvshare-affiliate-program/",
+    "summary": "Travelpayouts, which also carries the RVshare offer (US travel projects only, advertiser pre-approval required), publishes a different figure: 'Affiliates can earn 6.5% commission on each completed booking (after check-in) and $12 for every new listing of an RV', with a $699 average booking value. A third directory (Lasso) reports 5\u20137% per order. Because the published rates conflict (4% vs 5\u20137% vs 6.5%), commission_rate is null. No earnings-cap statement was found, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.travelpayouts.com/blog/rvshare-affiliate-program/",
+   "source_url": "https://commission.academy/blog/best-rv-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.travelpayouts.com/blog/rvshare-affiliate-program/",
+   "source_url": "https://www.travelpayouts.com/blog/rvshare-affiliate-program/",
+   "title": "RVshare Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 4,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "High booking values ($699\u2013$900 average) make even a mid-single-digit rate meaningful, but published rates conflict across sources (4% / 5\u20137% / 6.5%), so no rate is recorded and compensation is scored cautiously.",
+    "contact_access": "No affiliate partnerships email was verified from a fetched source.",
+    "credibility": "The largest RV rental marketplace in the US with 100,000+ vehicles and millions of nights booked.",
+    "niche_fit": "RV and road-trip content is a strong, growing travel-creator niche.",
+    "opportunity_availability": "Available via CJ Affiliate and Travelpayouts, but the advertiser requires pre-approval and the Travelpayouts offer is limited to US travel projects.",
+    "ugc_evidence": "The program targets travel publishers and bloggers; creator-specific UGC campaigns are not evidenced."
+   }
+  }
+ },
+ {
+  "name": "Mountain Warehouse",
+  "website": "https://www.mountainwarehouse.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "Large UK outdoor retailer selling own-brand clothing and gear for camping, hiking, running, skiing and travel at budget prices. It runs territory affiliate programs through networks including Awin and Rakuten with a 30-day cookie and manual application approval, but its own affiliates page publishes no rate and third-party figures conflict (around 4% in recent directories vs 8.4% in an older listing), so no rate is recorded.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.mountainwarehouse.com/us/affiliates/",
+    "summary": "Official US affiliates page: the program is aimed at sites covering camping, cycling, outdoors, running, skiing, swimming, yoga, walking and travelling; it promises 'High commission rates on every sale you make' without publishing a figure, a 30-day cookie length, and notes 'all affiliate applications are manually approved' and that affiliates join only the territory program matching their audience. No earnings-cap statement is published, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "third_party_directory",
+    "source_url": "https://getlasso.co/affiliate/mountain-warehouse/",
+    "summary": "Directories conflict on the rate: Lasso reports 4% per sale with a 30-day cookie, Shopper reports up to 3.99%, and an older affjumbo listing reports 8.4%. Groupon reports the program runs 'through Rakuten/Linkshare and AWIN'. Because the figures conflict and the brand publishes none, commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin / Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.mountainwarehouse.com/us/affiliates/",
+   "source_url": "https://www.mountainwarehouse.com/us/affiliates/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.mountainwarehouse.com/us/affiliates/",
+   "source_url": "https://www.mountainwarehouse.com/us/affiliates/",
+   "title": "Mountain Warehouse Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 9,
+   "contact_access": 4,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "No rate is published by the brand and directory figures conflict (about 4% recently, 8.4% in an older listing), so no rate is recorded and compensation scores low.",
+    "contact_access": "No partnerships email is published on the official affiliates page \u2014 contact is via territory web forms.",
+    "credibility": "One of the UK's largest outdoor retailers with a long trading history and stores internationally.",
+    "niche_fit": "Affordable outdoor clothing and gear fits fashion, fitness and travel creators making outdoor content.",
+    "opportunity_availability": "Programs run per territory via Awin/Rakuten with manual approval of every application.",
+    "ugc_evidence": "The official page addresses website owners placing banners and text links; there is little evidence of creator-specific UGC work."
+   }
+  }
+ }
+]
