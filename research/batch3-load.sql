@@ -423,7 +423,7 @@ begin
   insert into public.brand_categories (brand_id, category_id, is_primary) values (bid, (select id from public.categories where slug = 'food-drink'), true);
   insert into public.brand_socials (brand_id, platform, handle, url) values (bid, 'instagram', 'bravusbrewco', 'https://www.instagram.com/bravusbrewco/');
   insert into public.brand_socials (brand_id, platform, handle, url) values (bid, 'facebook', 'bravusbrewco', 'https://www.facebook.com/bravusbrewco');
-  insert into public.brand_socials (brand_id, platform, handle, url) values (bid, 'twitter', 'bravusbrewco', 'https://twitter.com/bravusbrewco');
+  insert into public.brand_socials (brand_id, platform, handle, url) values (bid, 'x', 'bravusbrewco', 'https://twitter.com/bravusbrewco');
   insert into public.brand_socials (brand_id, platform, handle, url) values (bid, 'linkedin', 'bravusbrewco', 'https://www.linkedin.com/company/bravusbrewco/');
   insert into public.brand_contacts (brand_id, contact_type, email, contact_url, source_url, verification_status, last_verified_at) values (bid, 'general', 'help@bravus.com', null, 'https://bravus.com/', 'verified', now());
   insert into public.brand_contacts (brand_id, contact_type, email, contact_url, source_url, verification_status, last_verified_at) values (bid, 'creator_application', null, 'https://linkclicky.com/affiliate-program/bravus/', 'https://linkclicky.com/affiliate-program/bravus/', 'needs_review', null);

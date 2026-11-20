@@ -58,7 +58,7 @@ for f in FILES:
                 continue  # brand_socials is unique on (brand_id, platform): keep the first/main handle
             seen_platforms.add(plat)
             handle = s.get("handle") or urlparse(url).path.rstrip("/").split("/")[-1].lstrip("@")
-            lines.append(f"  insert into public.brand_socials (brand_id, platform, handle, url) values (bid, {q(s.get('platform'))}, {q(handle)}, {q(url)});")
+            lines.append(f"  insert into public.brand_socials (brand_id, platform, handle, url) values (bid, {q('x' if plat == 'twitter' else s.get('platform'))}, {q(handle)}, {q(url)});")
             counts["socials"] += 1
         for c in b.get("contacts") or []:
             if not c.get("email") and not c.get("contact_url"):
