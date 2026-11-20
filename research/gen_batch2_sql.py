@@ -13,6 +13,23 @@ def q(v):
         return str(v)
     return "'" + str(v).replace("'", "''") + "'"
 
+ALLOWED_CT = {"partnerships", "creator_application", "pr", "marketing", "general", "other"}
+
+def norm_ct(raw, email, contact_url):
+    ct = (raw or "general").strip()
+    if ct in ALLOWED_CT:
+        return ct
+    low = ct.lower()
+    if "pr" == low or "press" in low or low.startswith("pr_") or low.endswith("_pr") or "pr_email" in low:
+        return "pr"
+    if contact_url and not email:
+        return "creator_application"
+    if any(k in low for k in ("affiliate", "partner", "collab", "ambassador", "creator")):
+        return "partnerships"
+    if "market" in low:
+        return "marketing"
+    return "general"
+
 def domain(url):
     if not url:
         return ""
@@ -44,7 +61,7 @@ for f in FILES:
             verified = domain(c.get("source_url")) and domain(c.get("source_url")) == bdom
             vs = "verified" if verified else "needs_review"
             lva = "now()" if verified else "null"
-            lines.append(f"  insert into public.brand_contacts (brand_id, contact_type, email, contact_url, source_url, verification_status, last_verified_at) values (bid, {q(c.get('contact_type') or 'general')}, {q(c.get('email'))}, {q(c.get('contact_url'))}, {q(c.get('source_url'))}, '{vs}', {lva});")
+            lines.append(f"  insert into public.brand_contacts (brand_id, contact_type, email, contact_url, source_url, verification_status, last_verified_at) values (bid, {q(norm_ct(c.get('contact_type'), c.get('email'), c.get('contact_url')))}, {q(c.get('email'))}, {q(c.get('contact_url'))}, {q(c.get('source_url'))}, '{vs}', {lva});")
             counts["contacts"] += 1
         aff = b.get("affiliate") or {}
         if aff.get("network") or aff.get("commission_rate") is not None or aff.get("application_url") or aff.get("commission_cap"):
