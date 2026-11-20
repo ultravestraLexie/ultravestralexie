@@ -1,0 +1,549 @@
+[
+ {
+  "name": "Heather Robertson",
+  "website": "https://heatherrobertson.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Home-workout fitness app from trainer Heather Robertson, with structured programs and a large follow-along workout following. Its Community Affiliate Program (run through Rewardful) is built for fitness bloggers, influencers and creators: it pays 25% of net revenue on each referred paid subscription, including renewals for 12 months, and its official FAQ states there is no limit to how much an affiliate can earn.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@heatherrobertson.com",
+    "source_url": "https://support.heatherrobertson.com/article/279-affiliate-faqs"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_program_page",
+    "source_url": "https://support.heatherrobertson.com/article/279-affiliate-faqs",
+    "summary": "Official affiliate FAQ, 'How much commission do I earn?': 'Earn 25% for each paid subscription member you refer. There's no limit to how much you can earn.' That is an explicit no-limit earnings statement on the brand's own support site, so commission_cap is uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://support.heatherrobertson.com/article/279-affiliate-faqs",
+    "summary": "Program mechanics from the official FAQ: commissions are 25% calculated on NET revenue (excluding fees, taxes, refunds, chargebacks and discounts) — recorded as 25 with that basis, not as 25% of sale price. Commissions are also paid on renewals within a 12-month period and on discounted subscriptions (25% of the amount actually paid). Sign-up is through Rewardful, cookies last 60 days, first-touch attribution, commissions payable after 30 days, minimum payout $50 USD, paid via Wise in USD."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://support.heatherrobertson.com/article/279-affiliate-faqs",
+    "summary": "The FAQ defines the program as 'a way for fitness and wellness bloggers, writers, community owners, entrepreneurs, influencers, creators, and others to spread the word', recommends promoting via Instagram, YouTube, TikTok, blogs, newsletters and private communities, and gives affiliates@heatherrobertson.com for support (1–2 business day response). Restrictions: no paid-media use of the link, no brand keyword bidding, no self-referrals, no incentivised sign-ups."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (Rewardful)",
+   "commission_rate": 25,
+   "application_url": "https://support.heatherrobertson.com/article/279-affiliate-faqs",
+   "source_url": "https://support.heatherrobertson.com/article/279-affiliate-faqs",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://support.heatherrobertson.com/article/279-affiliate-faqs",
+   "source_url": "https://support.heatherrobertson.com/article/279-affiliate-faqs",
+   "title": "Heather Robertson Community Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 18,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "compensation": "25% of net revenue per referred subscription, paid on renewals for 12 months, with an explicit 'no limit to how much you can earn' statement on the brand's own FAQ — strong, verified-uncapped pay; held below maximum because the rate is on net revenue, not sale price.",
+    "contact_access": "A dedicated affiliates@heatherrobertson.com support email is published in the official FAQ with a stated 1–2 business day response time.",
+    "credibility": "Established trainer-led fitness app with a large established workout audience; terms are unusually fully documented, though it is a single-trainer brand rather than a major platform.",
+    "niche_fit": "Home-workout programs are core fitness-creator content, and the app is designed to be promoted through workout and routine content.",
+    "opportunity_availability": "Open sign-up through Rewardful with no follower minimum stated; a few promotion restrictions (no paid media, no brand bidding) apply.",
+    "ugc_evidence": "The program is explicitly built for fitness influencers and creators and names Instagram, YouTube and TikTok promotion as recommended channels."
+   }
+  }
+ },
+ {
+  "name": "Bagsmart",
+  "website": "https://www.bagsmart.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel-organisation brand selling packing cubes, toiletry bags, backpacks and luggage accessories designed to make packing systematic. Its affiliate program runs on Awin: the brand's Awin merchant profile states a flexible base commission with performance boosts up to 10%, and a commission structure headed 'No Cap on Earnings: Unlimited potential for top performers', with a named affiliate manager and contact email.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "marketingus01@bagsmart.com",
+    "source_url": "https://ui.awin.com/merchant-profile/28621?setLocale=da_DK"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "network_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/28621?setLocale=da_DK",
+    "summary": "The brand's own Awin (US) merchant profile, Commission Structure section: 'Base Commission: Flexible, adjustable commission structure to maximize your earnings. Performance Boost: Earn up to 10% with tiered rewards for high-volume affiliates. No Cap on Earnings: Unlimited potential for top performers.' The no-cap statement is explicit and appears on the network profile the brand itself maintains, so commission_cap is uncapped. The 'up to 10%' is a tier ceiling and no fixed base percentage is published, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/28621?setLocale=da_DK",
+    "summary": "Joining is via the AWIN platform with brand approval; the profile lists promotional resources (banners and creatives, a deeplink generator, exclusive discount codes, a regularly updated product feed and content inspiration such as packing guides), target audiences of travel enthusiasts, backpackers, digital nomads, frequent flyers, commuters and students, and names affiliate manager Lydia Lynn with contact email marketingus01@bagsmart.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/28621?setLocale=da_DK",
+   "source_url": "https://ui.awin.com/merchant-profile/28621?setLocale=da_DK",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/28621?setLocale=da_DK",
+   "source_url": "https://ui.awin.com/merchant-profile/28621?setLocale=da_DK",
+   "title": "Bagsmart Affiliate Program (Awin US)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 16,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "compensation": "Verified-uncapped on the brand's own Awin profile ('No Cap on Earnings'); scored below the top because no fixed base rate is published — only a flexible base with tiered boosts up to a 10% ceiling.",
+    "contact_access": "A named affiliate manager (Lydia Lynn) and a direct email (marketingus01@bagsmart.com) are published on the Awin profile.",
+    "credibility": "Well-known travel-organisation label sold worldwide with strong product reviews, per its Awin profile.",
+    "niche_fit": "Packing and travel-organisation products are a staple of travel-creator content — packing videos, carry-on guides and gear lists.",
+    "opportunity_availability": "Join through Awin with brand approval; resources and discount codes are provided to approved affiliates.",
+    "ugc_evidence": "The profile supplies content inspiration (travel tips, packing guides, gift ideas) and discount codes for creators, though it is a conventional affiliate program rather than a structured UGC campaign program."
+   }
+  }
+ },
+ {
+  "name": "Japan Wireless",
+  "website": "https://www.japan-wireless.com",
+  "country": "Japan",
+  "category_slug": "travel",
+  "description": "Japan travel-connectivity company renting pocket Wi-Fi and selling SIM/eSIM products to visitors to Japan. Its own affiliate page invites partners to join its affiliate network, promises 'generous commissions for every referral, with the potential for unlimited earnings', and provides a dedicated affiliate dashboard after application review — but publishes no commission percentage, so no rate is recorded.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_program_page",
+    "source_url": "https://www.japan-wireless.com/en/affiliate?code=013",
+    "summary": "Official affiliate page, 'Lucrative commissions': 'Earn generous commissions for every referral, with the potential for unlimited earnings.' That is an explicit unlimited-earnings statement on the brand's own page, so commission_cap is uncapped. No percentage rate, cookie or payout terms are published anywhere on the page, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.japan-wireless.com/en/affiliate?code=013",
+    "summary": "Mechanics from the official page: partners apply, the brand reviews the application and contacts accepted affiliates directly, and accepted partners get a dedicated affiliate dashboard showing sales and commissions, plus dedicated team support. The page describes Japan Wireless as 'a trusted name in the travel industry in Japan' and lists a phone contact (+81-50-1807-9771); no affiliate email is published, so no contact row is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.japan-wireless.com/en/affiliate?code=013",
+   "source_url": "https://www.japan-wireless.com/en/affiliate?code=013",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.japan-wireless.com/en/affiliate?code=013",
+   "source_url": "https://www.japan-wireless.com/en/affiliate?code=013",
+   "title": "Japan Wireless Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 13,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "compensation": "Explicit 'potential for unlimited earnings' wording on the brand's own affiliate page makes it verified-uncapped, but no commission percentage or payout terms are published at all, so pay cannot be judged higher.",
+    "contact_access": "Only a general phone number is published on the affiliate page — no partnerships email or named affiliate contact.",
+    "credibility": "An established Japan travel-connectivity provider with a long operating history serving inbound tourists.",
+    "niche_fit": "Pocket Wi-Fi and eSIMs are a practical, frequently recommended product for Japan travel creators and itinerary content.",
+    "opportunity_availability": "Applications are reviewed by the brand before acceptance and dashboard access, which narrows open availability.",
+    "ugc_evidence": "The page pitches passive-income partnerships for travel publishers generally; creator-specific UGC campaigns are not evidenced."
+   }
+  }
+ },
+ {
+  "name": "Backcountry",
+  "website": "https://www.backcountry.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Major US outdoor retailer for ski, climb, hike, camp and travel gear and apparel. Its official Partner Program page offers three tracks: Storyteller (bloggers and gear reviewers, via Impact, 30-day cookie), Creator (Instagram/TikTok/YouTube creators via Popfly, with tracked storefront links, product gifting and paid campaign opportunities) and Community Partner (clubs and groups, via Impact). The official page publishes no commission figure; directories consistently report a sliding 4–12% scale, so the 4% starting tier is recorded.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.backcountry.com/info/affiliate-program",
+    "summary": "Official Partner Program page: three tracks — 'The Storyteller' (bloggers, gear reviewers, editorial writers; 30-day cookie, banners, text links and product data feed, dedicated program management, apply via Impact), 'The Creator' (Instagram, TikTok, YouTube, Reels; tracked storefront links plus UTM-ready deep links, product gifting, paid campaign opportunities, first dibs on new drops and creator spotlights, apply via Popfly) and 'The Community Partner' (clubs, camps, coaches and adventure groups earning commissions via Impact). Every application is reviewed by hand with a reply within five business days. No commission rate or earnings-cap statement is published on the page, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "third_party_directory",
+    "source_url": "https://getlasso.co/affiliate/backcountry/",
+    "summary": "Directories consistently report a sliding commission scale starting at 4% and rising to 12% with volume on a 30-day cookie via Impact (Lasso reports the 4%–12% range; other directories report the same range averaging about 8%). The recorded 4% is the starting tier of that published range."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 4,
+   "application_url": "https://www.backcountry.com/info/affiliate-program",
+   "source_url": "https://www.backcountry.com/info/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.backcountry.com/info/affiliate-program",
+   "source_url": "https://www.backcountry.com/info/affiliate-program",
+   "title": "Backcountry Partner Program (Storyteller / Creator / Community Partner)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 18,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "A sliding scale reported consistently as 4% starting, rising to 12% with volume — a modest starting rate, and the brand's own page publishes no figure; no cap statement is published.",
+    "contact_access": "Dedicated program management is promised on the official page, but no partnerships email is published — contact is through the Impact/Popfly applications.",
+    "credibility": "One of the largest and longest-established US outdoor retailers, founded in 1996.",
+    "niche_fit": "Outdoor gear and apparel sits at the centre of travel, adventure and outdoor-fitness creator content.",
+    "opportunity_availability": "Three open application tracks including a dedicated social Creator track, though every application is hand-reviewed (reply within five business days).",
+    "ugc_evidence": "A dedicated Creator track for Instagram, TikTok and YouTube with storefront links, product gifting, paid campaign opportunities and creator spotlights — strong, explicit UGC evidence."
+   }
+  }
+ },
+ {
+  "name": "HOKA",
+  "website": "https://www.hoka.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Premium cushioned running-shoe brand (part of Deckers Outdoor) for road, trail and race-day runners. Its official affiliate page states the program offers '3-14% commissions on all HOKA products sold' and 'a flat 3-14% commission level through Rakuten Advertising' on hoka.com sales, free to apply and join, with dedicated affiliate staff, creative and a daily product feed. The recorded 3% is the floor of that published range.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.hoka.com/en/us/hoka-affiliate-program.html",
+    "summary": "Official HOKA affiliate page (Deckers Outdoor Affiliate Program): 'We offer 3-14% commissions on all HOKA® products sold' and 'We offer a flat 3-14% commission level through Rakuten Advertising on all of our products sold through the HOKA.com website. It's free to apply and join.' The recorded 3% is the floor of the brand's own published range. No earnings-cap statement is published, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.hoka.com/en/us/hoka-affiliate-program.html",
+    "summary": "The same official page promises a 'healthy partnership with Rakuten Advertising', dedicated affiliate program staff, fresh creative, performance tracking and reporting, and a product feed updated daily. No affiliate contact email is published on the page."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 3,
+   "application_url": "https://www.hoka.com/en/us/hoka-affiliate-program.html",
+   "source_url": "https://www.hoka.com/en/us/hoka-affiliate-program.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.hoka.com/en/us/hoka-affiliate-program.html",
+   "source_url": "https://www.hoka.com/en/us/hoka-affiliate-program.html",
+   "title": "HOKA Affiliate Program (Deckers Outdoor, via Rakuten Advertising)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "The brand itself publishes a 3–14% commission range through Rakuten — a low floor but a genuinely high ceiling for a premium-price shoe; no cap statement is published.",
+    "contact_access": "Dedicated affiliate program staff are promised on the official page, but no partnerships email is published.",
+    "credibility": "One of the world's best-known performance running brands, part of Deckers Outdoor.",
+    "niche_fit": "Running shoes are core gear for running and fitness creators, with constant review, rotation and race content.",
+    "opportunity_availability": "Free to apply and join via Rakuten Advertising, open to site owners and publishers.",
+    "ugc_evidence": "The program is a conventional link/feed affiliate program aimed at publishers; creator-specific UGC campaigns are not evidenced on the page."
+   }
+  }
+ },
+ {
+  "name": "Free People",
+  "website": "https://www.freepeople.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Bohemian women's fashion brand (Urban Outfitters group) covering clothing, intimates, swim and the FP Movement activewear line. Its official affiliates page invites blogs, communities and content sites to add banners and links, with 'an easy sign-up process through Rakuten Advertising' and commission on all approved sales generated from banners and posts; US directories consistently report 3% with a 14-day cookie, so 3% is recorded.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.freepeople.com/uk/help/affiliates/",
+    "summary": "Official Free People affiliates page: 'If you have a blog, community, content site, or other website, you can add a banner or link back to us at FreePeople.com. There's an easy sign-up process through Rakuten Advertising, or you can connect with us directly if you're already an established publisher. If you're approved, all sales generated from your banners and posts will receive a commission.' The brand publishes no rate or earnings-cap statement on the page, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "third_party_directory",
+    "source_url": "https://getlasso.co/affiliate/free-people/",
+    "summary": "US directories consistently report the Free People program at 3% per sale with a 14-day cookie (Lasso US listing: 3%, 14 days; the UK listing differs at 2.4% with a 1-day cookie). The recorded 3% is the US figure."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 3,
+   "application_url": "https://www.freepeople.com/uk/help/affiliates/",
+   "source_url": "https://www.freepeople.com/uk/help/affiliates/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.freepeople.com/uk/help/affiliates/",
+   "source_url": "https://www.freepeople.com/uk/help/affiliates/",
+   "title": "Free People Affiliate Program (via Rakuten Advertising)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "A low 3% US rate on a short 14-day cookie; the brand publishes no figure itself and no cap statement is published.",
+    "contact_access": "Established publishers can 'connect with us directly' per the official page, but no partnerships email is published.",
+    "credibility": "A major, long-established women's fashion brand within the Urban Outfitters group.",
+    "niche_fit": "Boho fashion, outfits and the FP Movement activewear line are heavily covered by fashion and lifestyle creators.",
+    "opportunity_availability": "Easy sign-up through Rakuten Advertising with approval; open to blogs, communities and content sites.",
+    "ugc_evidence": "The official page explicitly recruits outfit-sharing followers, blogs and content sites to post and promote the brand, though the program is link/banner based."
+   }
+  }
+ },
+ {
+  "name": "Rumpl",
+  "website": "https://www.rumpl.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Outdoor blanket brand making technical, recycled-material blankets for camping, road trips and outdoor lounging. Its affiliate program runs on Impact at 8% per sale, and directories describe it as aimed at publishers and influencers promoting through blogs, social media and YouTube; no earnings-cap statement is published, so the cap is honestly unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "third_party_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/rumpl/",
+    "summary": "LinkClicky's program listing for Rumpl: affiliate platform Impact, commission 8% per sale, all regions, joining via Rumpl's Impact application; its monetisation section addresses 'publishers and influencers' promoting across blogs, social media, podcasts and YouTube. Lasso's directory independently reports the same 8% per sale with a 30-day cookie. No earnings-cap statement is published in either source, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 8,
+   "application_url": "https://linkclicky.com/affiliate-program/rumpl/",
+   "source_url": "https://linkclicky.com/affiliate-program/rumpl/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/rumpl/",
+   "source_url": "https://linkclicky.com/affiliate-program/rumpl/",
+   "title": "Rumpl Affiliate Program (Impact)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 4,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "compensation": "A clean, consistently reported 8% per sale via Impact; no cap statement is published.",
+    "contact_access": "No partnerships email is published in the fetched sources — joining is through the Impact application.",
+    "credibility": "A well-known outdoor blanket brand with national retail presence and a recycled-materials story, though smaller than the outdoor majors.",
+    "niche_fit": "Camp blankets are a natural fit for camping, vanlife, road-trip and outdoor travel creators.",
+    "opportunity_availability": "Open application through Impact with approval typically within days, per directory guidance.",
+    "ugc_evidence": "Directories frame the program for publishers and influencers on social media and YouTube, but there is no dedicated creator campaign track."
+   }
+  }
+ },
+ {
+  "name": "Columbia Sportswear",
+  "website": "https://www.columbia.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Heritage US outdoor apparel and footwear brand (founded 1938) for hiking, fishing, snow and everyday outdoor wear. Its US affiliate program runs on CJ Affiliate: the brand's own affiliate page advertises 'up to 10% commissions' with a 21-day cookie, a complete product data feed and a dedicated affiliate manager — an up-to ceiling, and other published figures conflict, so no base rate is recorded.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "third_party_directory",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/columbia-sportswear",
+    "summary": "Referly's listing, summarising the terms on Columbia's own affiliate page (columbia.com/t/affiliates): the US program is managed through CJ Affiliate, pays 'up to 10% commission' on referred sales with a 21-day cookie window, and offers the largest Columbia selection online, a complete product data feed and exclusive offers on approval; the UK program runs through Impact with up to 10% and a 30-day cookie. 'Up to 10%' is a ceiling, not a base rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "third_party_directory",
+    "source_url": "https://www.fmtc.co/fmtc-featured-merchant-columbia-sportswear/",
+    "summary": "Published figures conflict: FMTC's featured-merchant summary says content/influencer partners may receive up to 10% with a 30-day referral window on the CJ-managed US/CA programs, LinkClicky reports 8% per sale via CJ, and Columbia's program manager Acceleration Partners has referenced up to 15%. Because the brand publishes only an up-to ceiling and sources conflict, commission_rate is null. No earnings-cap statement was found, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.columbia.com/t/affiliates",
+   "source_url": "https://marketplace.referly.so/affiliate-programs/columbia-sportswear",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.columbia.com/t/affiliates",
+   "source_url": "https://marketplace.referly.so/affiliate-programs/columbia-sportswear",
+   "title": "Columbia Sportswear Affiliate Program (CJ Affiliate)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "Only an 'up to 10%' ceiling is advertised by the brand and other published figures conflict (8% / up to 15%), so no rate is recorded and compensation scores cautiously; no cap statement is published.",
+    "contact_access": "The brand's page offers a dedicated affiliate manager contact route, but no partnerships email is published in the fetched sources.",
+    "credibility": "One of the world's largest outdoor apparel brands, trading since 1938.",
+    "niche_fit": "Outdoor jackets, footwear and fishing/hiking apparel are staples for outdoor, travel and seasonal fashion creators.",
+    "opportunity_availability": "Apply to the CJ program from the brand's affiliate page and promote on approval; the UK runs separately on Impact.",
+    "ugc_evidence": "FMTC notes content/influencer partners are a recognised publisher type, but the program is primarily a link and data-feed affiliate program."
+   }
+  }
+ },
+ {
+  "name": "Sweaty Betty",
+  "website": "https://www.sweatybetty.com",
+  "country": "United Kingdom",
+  "category_slug": "fitness",
+  "description": "Premium women's activewear and lifestyle brand founded in Notting Hill, London in 1998. Its affiliate programme runs on Awin: the brand's Awin merchant profile promises free joining, competitive commission opportunities, strong average order value and increased commission and tailored campaign opportunities for top-performing publishers — but publishes no rate, and directory figures conflict, so no rate is recorded.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/32543",
+    "summary": "The brand's Awin merchant profile (Sweaty Betty IE): 'Free to join with competitive commission opportunities', 'Strong average order value and a highly engaged customer base', regular promotional campaigns and seasonal trading moments, early visibility of launches and offers, and 'Opportunities for increased commission, exclusive partnerships and tailored campaign opportunities for top-performing publishers.' No percentage or earnings-cap statement is published on the profile, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "third_party_directory",
+    "source_url": "https://getlasso.co/affiliate/sweaty-betty-uk/",
+    "summary": "Directory figures for Sweaty Betty conflict: Lasso reports 2.4% per sale with a 30-day cookie, other directories report up to 8% or up to 12% via Awin. Because the brand's own Awin profile publishes no figure and sources conflict, commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/32543",
+   "source_url": "https://ui.awin.com/merchant-profile/32543",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/32543",
+   "source_url": "https://ui.awin.com/merchant-profile/32543",
+   "title": "Sweaty Betty Affiliate Programme (Awin)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 4,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "No rate is published by the brand and directory figures conflict (2.4% / up to 8% / up to 12%), so no rate is recorded and compensation scores low; no cap statement is published.",
+    "contact_access": "No partnerships email is published on the Awin profile — joining is through the network.",
+    "credibility": "One of the UK's leading premium women's activewear brands, founded in 1998.",
+    "niche_fit": "Women's premium activewear is a core fitness-fashion creator category.",
+    "opportunity_availability": "Free to join via Awin with the brand's programme open to publishers, with increased-commission opportunities for top performers.",
+    "ugc_evidence": "The Awin profile speaks to publishers and campaign partnerships rather than a structured creator UGC program, though the brand is heavily creator-promoted in practice."
+   }
+  }
+ },
+ {
+  "name": "Champion",
+  "website": "https://www.champion.com",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "Heritage American athleticwear brand founded in 1919 — inventor of the hoodie — selling sportswear, sweats and team apparel. Its affiliate program is administered by Rakuten Advertising: Rakuten's own Champion store page states affiliates earn a 4% commission on every referred sale, need a website to start, receive banners, and are paid monthly once they reach $25 in earnings, with a 7-day referral window reported by directories.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "third_party_directory",
+    "source_url": "https://www.rakuten.com/memorial-day-sale/store/championusa",
+    "summary": "Rakuten's own Champion store page describes the program: 'Champion's affiliate program allows individuals and businesses to earn a generous 4% commission for every sale they refer to the brand's online store. All you need to get started as a Champion affiliate is a website... The brand pays out commissions every month to affiliates who have accumulated a minimum of $25 in commission earnings', with banners provided. Commission Academy's activewear roundup independently reports the same terms: 4% commission, 7-day referral window, administered by Rakuten Advertising. No earnings-cap statement is published, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 4,
+   "application_url": "https://www.rakuten.com/memorial-day-sale/store/championusa",
+   "source_url": "https://www.rakuten.com/memorial-day-sale/store/championusa",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.rakuten.com/memorial-day-sale/store/championusa",
+   "source_url": "https://www.rakuten.com/memorial-day-sale/store/championusa",
+   "title": "Champion Affiliate Program (Rakuten Advertising)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 4,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "compensation": "A flat 4% published by the network itself, but the 7-day referral window is short, limiting realised earnings; no cap statement is published.",
+    "contact_access": "No partnerships email is published in the fetched sources — joining is through Rakuten Advertising.",
+    "credibility": "A century-old, world-famous athletic brand with very high recognition.",
+    "niche_fit": "Athletic staples, hoodies and sweats are everyday fitness and streetwear creator content.",
+    "opportunity_availability": "Open to individuals and businesses with a website via Rakuten Advertising, with monthly payouts from a $25 threshold.",
+    "ugc_evidence": "The program is a conventional banner/link affiliate program for websites; creator-specific UGC campaigns are not evidenced."
+   }
+  }
+ }
+]

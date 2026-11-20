@@ -1,0 +1,638 @@
+[
+  {
+    "name": "Perricone MD",
+    "website": "https://www.perriconemd.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Dermatologist-founded clinical skincare brand (Dr Nicholas Perricone, THG-owned) running its affiliate program through Awin: the Awin profile publishes publisher-type rates including Content & Influencers at 10% on new-customer sales (5% existing) and a dedicated UGC & Communities tier at 8% new / 2% existing, with a 31-day cancellation period; the brand's own affiliate page confirms 'We work with Awin' and free joining.",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "partnerships",
+        "email": "DL-Beautyaffiliates@thehutgroup.com",
+        "notes": "Affiliate support email published on Perricone MD's own affiliate program page (THG beauty affiliates team).",
+        "url": "https://www.perriconemd.com/c/affiliate-program/"
+      },
+      {
+        "contact_name": null,
+        "contact_type": "partnerships",
+        "email": "victoria.gois@awin.com",
+        "notes": "Awin-side contact published on the Perricone MD US Awin merchant profile.",
+        "url": "https://ui.awin.com/merchant-profile/21122?setLocale=pl_PL"
+      }
+    ],
+    "socials": [
+      {
+        "handle": "Perriconemd",
+        "platform": "facebook",
+        "url": "https://www.facebook.com/Perriconemd"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.perriconemd.com/c/affiliate-program/",
+        "summary": "Perricone MD's own affiliate page states the brand works with Awin, joining is free, and affiliates get creative assets, logos and special promotional offers; the page publishes the support email DL-Beautyaffiliates@thehutgroup.com."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/21122?setLocale=pl_PL",
+        "summary": "The brand's Awin US merchant profile publishes standard rates by publisher type: Content & Influencers 10% on new-customer sales and 5% on existing; UGC & Communities 8% new / 2% existing; commissions confirm after a 31-day cancellation period. The recorded 10% is the content/influencer new-customer rate. No earnings-cap statement is published, so commission_cap stays unknown, and no absolute creator counts are published, so creator_saturation stays unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://ui.awin.com/merchant-profile/21122?setLocale=pl_PL",
+      "source_url": "https://ui.awin.com/merchant-profile/21122?setLocale=pl_PL",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Perricone MD Affiliate Program (Awin)",
+      "application_url": "https://ui.awin.com/merchant-profile/21122?setLocale=pl_PL",
+      "compensation_notes": "Awin rates by publisher type: Content & Influencers 10% new / 5% existing customers; dedicated UGC & Communities tier 8% new / 2% existing. No published earnings cap.",
+      "description": "Join free through Awin: apply to the Perricone MD program, use the creative assets and promotional offers, and earn the publisher-type rates published on its Awin profile.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 18,
+      "compensation": 15,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Premium clinical skincare with high order values - ideal for routine, ingredient and results-led UGC.",
+        "ugc_evidence": "The Awin rate card has a dedicated UGC & Communities publisher tier alongside Content & Influencers - the program is explicitly built for creator content.",
+        "compensation": "10% new-customer rate for content/influencer publishers (5% existing); UGC tier 8%/2%. Solid for luxury skincare, though no uncapped statement is published.",
+        "contact_access": "Two published emails: the brand-page affiliate support address and a named Awin contact on the merchant profile.",
+        "opportunity_availability": "Open, free application through Awin with creative assets and promotional offers.",
+        "credibility": "Long-established dermatologist brand owned by THG, with a complete published Awin rate card."
+      }
+    }
+  },
+  {
+    "name": "Olive Young",
+    "website": "https://global.oliveyoung.com",
+    "country": null,
+    "category_slug": "beauty",
+    "description": "CJ Olive Young's global health & beauty mall runs its own Influencer Program under published terms on its global site: any holder of a social account (YouTube, Facebook, Instagram, TikTok, Twitter/X or Weibo) can apply, approved influencers get a custom Reward Code/Link giving followers 5% off, earn 5-13% of sales as commission points depending on influencer revenue, tracked on a 30-day cookie, convertible to cash via PayPal once points reach USD 20.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://m.global.oliveyoung.com/foot-info/footer-contents?foterSeq=94",
+        "summary": "Olive Young Global's own Influencer Terms & Conditions (CJ Olive Young Co., Ltd.) govern the program: eligibility requires a social media account, approved members become Influencer Members, create a custom Reward Code automatically included in Reward Links, and sales are counted on a 30-day cookie with last-click attribution."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "brand_site",
+        "source_url": "https://m.global.oliveyoung.com/foot-info/footer-contents?foterSeq=94",
+        "summary": "Article 6 of the brand's own terms: followers get a 5% discount via the Reward Code/Link and the influencer receives 5% - 13% of the sales amount as commission points depending on influencer revenues, with the exact rate designated by separately notified criteria; points post three days after delivery and convert to cash via PayPal at USD 20, withdrawn monthly. Because only a range is published and each member's rate is set separately, commission_rate is recorded as null. No earnings-cap statement and no absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct (Olive Young Global Influencer Program)",
+      "commission_rate": null,
+      "application_url": "https://global.oliveyoung.com",
+      "source_url": "https://m.global.oliveyoung.com/foot-info/footer-contents?foterSeq=94",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Olive Young Global Influencer Program",
+      "application_url": "https://global.oliveyoung.com",
+      "compensation_notes": "Commission points of 5% - 13% of sales depending on influencer revenue (exact per-member rate set by separately notified criteria, so no single rate is recorded); followers save 5% via the reward code; 30-day cookie; cash conversion via PayPal from USD 20.",
+      "description": "Apply inside Olive Young Global Mall with a social account, get a custom Reward Code/Link, and earn commission points on follower purchases across the K-beauty catalogue; top performers are invited into further partnership collaborations.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 19,
+      "compensation": 12,
+      "contact_access": 8,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "The largest K-beauty catalogue in this batch - endless skincare and makeup material for hauls, routines and reviews.",
+        "ugc_evidence": "A creator-native program: custom reward codes and links for social followers, monthly reliability checks on influencer accounts, and a partnership tier for outstanding performers.",
+        "compensation": "Published 5-13% range depending on revenue, but the per-member rate is set by unpublished criteria, so no single rate can be recorded; PayPal cash-out from USD 20.",
+        "contact_access": "Full program terms published on the brand's own global site with in-account application; no public program email is published.",
+        "opportunity_availability": "Any social account holder can apply; reapplication is allowed 30 days after a rejection.",
+        "credibility": "Operated by CJ Olive Young, South Korea's dominant health & beauty retailer, under complete published legal terms."
+      }
+    }
+  },
+  {
+    "name": "DERMAdoctor",
+    "website": "https://dermadoctor.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "US dermatologist-formulated skincare brand founded by Dr Audrey Kunin, with an affiliate program running since 2000: its own affiliate page states it is currently paying 15% of sale on all goods, paid monthly with 30 return days, managed through Shopify Collabs (named on the page as its Affiliate Solutions Manager), free to join with no minimum sales requirement.",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "general",
+        "email": "service@dermadoctor.com",
+        "notes": "Customer service email published at the foot of the brand's affiliate program page (hours M-F 9am-5pm PST).",
+        "url": "https://dermadoctor.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://dermadoctor.com/pages/affiliate-program",
+        "summary": "DERMAdoctor's own affiliate page invites affiliates to join free with no minimum sales requirement, names Shopify Collabs as its Affiliate Solutions Manager, and states 'We are currently paying 15% of sale on all goods, payout monthly and feature 30 return days'; monthly direct deposit and daily sales reporting are described in the page FAQ."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://dermadoctor.com/pages/affiliate-program",
+        "summary": "The brand's affiliate page publishes no earnings-cap statement and no creator counts, so commission_cap and creator_saturation stay unknown. The page also carries a legacy LinkShare signup reference alongside the current Shopify Collabs management note; the 15% rate and monthly payout are stated in the page's current wording."
+      }
+    ],
+    "affiliate": {
+      "network": "Shopify Collabs",
+      "commission_rate": 15,
+      "application_url": "https://dermadoctor.com/pages/affiliate-program",
+      "source_url": "https://dermadoctor.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "DERMAdoctor Affiliate Program (Shopify Collabs)",
+      "application_url": "https://dermadoctor.com/pages/affiliate-program",
+      "compensation_notes": "15% of sale on all goods as stated on the brand's own affiliate page; payout monthly; 30 return days. No published earnings cap.",
+      "description": "Apply free on the brand's affiliate page, get tracked links and creative, and earn 15% on referred sales with monthly direct-deposit payouts.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 14,
+      "compensation": 17,
+      "contact_access": 11,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Problem-solution dermatologist skincare (50+ formulas) - strong before/after and routine UGC material.",
+        "ugc_evidence": "A long-running affiliate program with tracked links, creative assets and daily reporting; no separate creator-content tier is published.",
+        "compensation": "15% on all goods stated on the brand's own page - one of the higher clean rates this round; cap honestly unknown.",
+        "contact_access": "Published service email and phone number on the affiliate page itself; application is self-serve.",
+        "opportunity_availability": "Free to join, no minimum sales requirement, anyone may apply.",
+        "credibility": "Program running since 2000 under founder Dr Audrey Kunin; the page mixes in a legacy LinkShare reference, so terms should be reconfirmed in the Collabs dashboard."
+      }
+    }
+  },
+  {
+    "name": "Dr Sebagh",
+    "website": "https://www.drsebagh.com",
+    "country": "United Kingdom",
+    "category_slug": "skincare",
+    "description": "London luxury clinical skincare brand whose own Affiliate Programme page (join links route to Awin) offers members a base rate of 10% commission on every confirmed sale with a 30-day cookie, an initial gift of a personalised skincare routine, early access to new products, in-house design assets for content creation, a named social-team point of contact after acceptance, and an annual affiliate event.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.drsebagh.com/pages/dr-sebagh-affiliate-programme-dr-sebagh-skincare",
+        "summary": "Dr Sebagh's own affiliate programme page states members earn a base rate of 10% commission on every confirmed sale with a 30-day cookie window, receive a personalised routine as an initial gift, visual materials from the in-house design team, and a direct social-team contact once accepted; the page's Join links route to Awin, and approval is required after application."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://www.drsebagh.com/pages/dr-sebagh-affiliate-programme-dr-sebagh-skincare",
+        "summary": "The brand's page says exclusive rates can be negotiated subject to sales but publishes no earnings-cap statement and no creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://www.drsebagh.com/pages/dr-sebagh-affiliate-programme-dr-sebagh-skincare",
+      "source_url": "https://www.drsebagh.com/pages/dr-sebagh-affiliate-programme-dr-sebagh-skincare",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Dr Sebagh Affiliate Programme (Awin)",
+      "application_url": "https://www.drsebagh.com/pages/dr-sebagh-affiliate-programme-dr-sebagh-skincare",
+      "compensation_notes": "Base 10% commission on every confirmed sale; higher exclusive rates negotiable subject to sales; 30-day cookie. No published earnings cap.",
+      "description": "Apply on the brand's affiliate page (joining via Awin), receive a personalised routine gift, and earn 10% on confirmed sales with design-team assets for content.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 16,
+      "compensation": 14,
+      "contact_access": 9,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Luxury clinical skincare with premium price points - good economics per sale for skincare creators.",
+        "ugc_evidence": "Programme is pitched at content creators and bloggers with in-house visual materials, product gifting and a social-team contact - a genuine creator route, run through Awin.",
+        "compensation": "Clean published base rate of 10% on confirmed sales with negotiable uplifts; cap unknown.",
+        "contact_access": "Full programme page on the brand's own domain; a named social-team contact is assigned after acceptance, but no public email is published.",
+        "opportunity_availability": "All interested parties are encouraged to apply, subject to approval; the brand notes high application volume.",
+        "credibility": "Established London clinic brand with complete programme terms on its own site and Awin tracking."
+      }
+    }
+  },
+  {
+    "name": "Sunday Riley",
+    "website": "https://sundayriley.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "US clinical skincare brand (Good Genes, C.E.O.) whose affiliate program runs through CJ Affiliate according to network directories; published rate figures conflict across current listings (12% per Lasso and LinkClicky, 10% per LinkApprove, 5-10% per Shopper), so no single rate is recorded. The brand publishes press@ and partnerships@ inboxes for media/influencer and partnership requests.",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "pr",
+        "email": "press@sundayriley.com",
+        "notes": "Email the brand lists for media and influencer requests, per a directory that checked the brand's own pages on 2026-11-14.",
+        "url": "https://usesnippet.app/pr-emails/sunday-riley"
+      },
+      {
+        "contact_name": null,
+        "contact_type": "partnerships",
+        "email": "partnerships@sundayriley.com",
+        "notes": "Email the brand lists for partnership requests, per a directory that checked the brand's own pages on 2026-11-14.",
+        "url": "https://usesnippet.app/pr-emails/sunday-riley"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/sunday-riley/",
+        "summary": "LinkClicky's program listing records Sunday Riley's affiliate platform as CJ Affiliate with a 12% commission; the brand itself does not publish an affiliate page, so the route is network-reported."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "directory",
+        "source_url": "https://linkapprove.com/affiliate-programs/category/beauty-skincare",
+        "summary": "Published rate figures conflict: LinkApprove lists Sunday Riley at 10% per sale with a 45-day cookie, Lasso lists 12%, and Shopper lists 5-10% - no settleable single rate, so commission_rate is null with the conflict documented. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "contact",
+        "source_type": "directory",
+        "source_url": "https://usesnippet.app/pr-emails/sunday-riley",
+        "summary": "A PR-directory page that checked the brand's own pages on 2026-11-14 records press@sundayriley.com for media and influencer requests and partnerships@sundayriley.com for partnership requests; it also notes the brand lists no affiliate program on its own pages."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/sunday-riley/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Sunday Riley Affiliate Program (CJ Affiliate)",
+      "application_url": null,
+      "compensation_notes": "Rate not recorded: current listings conflict (10% / 12% / 5-10% across directories). Confirm the live rate inside CJ Affiliate before promoting.",
+      "description": "Join through CJ Affiliate per network listings and promote the clinical skincare range; verify the current rate in the network, as directories disagree.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 10,
+      "contact_access": 12,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Hero-product clinical skincare with a huge creator following - among the strongest content fits in this batch.",
+        "ugc_evidence": "Affiliate route exists via CJ plus published influencer/partnership inboxes, but the brand publishes no creator program page of its own.",
+        "compensation": "Directories conflict between 5-10%, 10% and 12%, so no rate is recorded; that uncertainty caps the compensation score.",
+        "contact_access": "Two published inboxes on the brand side - press for influencer requests and partnerships for partnership requests.",
+        "opportunity_availability": "Network application via CJ; brand-side creator contact is email-based rather than a public portal.",
+        "credibility": "Major, long-established skincare brand; the affiliate facts are network-reported rather than brand-published, which is noted in the evidence."
+      }
+    }
+  },
+  {
+    "name": "Westman Atelier",
+    "website": "https://www.westman-atelier.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Luxury clean makeup brand founded by makeup artist Gucci Westman; network listings record its affiliate program on CJ Affiliate at 5% per sale, and the brand has an established creator-affiliate presence through ShopMy (reported by Glossy). Its own FAQ publishes social@westman-atelier.com for social media collaborations and contact@westman-atelier.com for press.",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "partnerships",
+        "email": "social@westman-atelier.com",
+        "notes": "Email published in the brand's own FAQ for social media collaborations.",
+        "url": "https://www.westman-atelier.com/en-bs/pages/faq"
+      },
+      {
+        "contact_name": null,
+        "contact_type": "pr",
+        "email": "contact@westman-atelier.com",
+        "notes": "Email published in the brand's own FAQ for press opportunities.",
+        "url": "https://www.westman-atelier.com/en-bs/pages/faq"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/westman-atelier/",
+        "summary": "LinkClicky's listing records Westman Atelier's affiliate platform as CJ Affiliate (US) at 5% per sale; the brand does not publish its own affiliate page, so the route is network-reported."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "brand_site",
+        "source_url": "https://www.westman-atelier.com/en-bs/pages/faq",
+        "summary": "The brand's own FAQ publishes its collaboration routes: social media collaborations to social@westman-atelier.com, press to contact@westman-atelier.com, and wholesale to sales@westman-atelier.com. No earnings-cap statement or absolute creator counts are published anywhere found, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": 5,
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/westman-atelier/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Westman Atelier Affiliate Program (CJ Affiliate)",
+      "application_url": null,
+      "compensation_notes": "5% per sale per the CJ Affiliate listing on LinkClicky. No published earnings cap.",
+      "description": "Apply through CJ Affiliate and promote the luxury clean-makeup range; the brand also works with creators through ShopMy and takes collaboration pitches at social@westman-atelier.com.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 13,
+      "compensation": 9,
+      "contact_access": 12,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Luxury clean makeup with strong artist-led storytelling - excellent tutorial and complexion UGC material.",
+        "ugc_evidence": "CJ affiliate listing plus a documented ShopMy creator partnership and a published social-collaborations inbox; no brand-run affiliate page.",
+        "compensation": "5% is low for the category and comes from a single network listing; cap unknown.",
+        "contact_access": "Dedicated social-collaborations and press emails published in the brand's own FAQ.",
+        "opportunity_availability": "Network application via CJ; creator pitches also accepted by email.",
+        "credibility": "Established luxury brand (reported $100M annual net revenue); affiliate terms are network-reported, not brand-published."
+      }
+    }
+  },
+  {
+    "name": "Peter Thomas Roth",
+    "website": "https://www.peterthomasroth.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Clinical skincare brand sold in over 80 countries whose own affiliate program page routes publishers to Rakuten Advertising (LinkSynergy) - separate apply links for publishers already on Rakuten and those new to it. The brand publishes no commission percentage on its page, so no rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.peterthomasroth.com/pages/affiliate-program",
+        "summary": "Peter Thomas Roth's own affiliate page explains the program - post links, earn commission on resulting purchases, brand handles shipping - and routes applications to Rakuten: 'For publishers already on Rakuten click here' and 'For publishers not on Rakuten click here', with apply links to Rakuten's LinkSynergy platform."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "brand_site",
+        "source_url": "https://www.peterthomasroth.com/pages/affiliate-program",
+        "summary": "The brand's affiliate page publishes no commission percentage, cookie or cap statement, and no creator counts, so commission_rate is null and cap and saturation stay unknown; the live rate is set inside Rakuten."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": null,
+      "application_url": "https://www.peterthomasroth.com/pages/affiliate-program",
+      "source_url": "https://www.peterthomasroth.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Peter Thomas Roth Affiliate Program (Rakuten Advertising)",
+      "application_url": "https://www.peterthomasroth.com/pages/affiliate-program",
+      "compensation_notes": "Rate unpublished by the brand - set inside Rakuten Advertising. No published earnings cap.",
+      "description": "Apply from the brand's affiliate page into Rakuten (existing or new publisher), place tracked links, and earn commission on purchases at PeterThomasRoth.com.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 9,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Broad clinical skincare range with strong retail recognition - reliable review and routine content.",
+        "ugc_evidence": "Brand-run affiliate page feeding a major network; pitched at publishers rather than social creators specifically.",
+        "compensation": "No published rate - affiliates learn terms only inside Rakuten, which limits planning; cap unknown.",
+        "contact_access": "Program page on the brand's own domain with direct apply routes; no public affiliate email is published.",
+        "opportunity_availability": "Open application for both existing and new Rakuten publishers.",
+        "credibility": "Long-established global clinical brand sold in 80+ countries, with its program on a major network."
+      }
+    }
+  },
+  {
+    "name": "Lash Star Beauty",
+    "website": "https://www.lashstarbeauty.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Specialist lash makeup brand ('The Lash Authority') whose own affiliate page says it partners with creators, runs the program through ShareASale, and pays 10% commission on all sales generated through an affiliate's website, with creative assets, special offers and a dedicated ShareASale program manager; free to join.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.lashstarbeauty.com/pages/affiliates",
+        "summary": "Lash Star Beauty's own affiliate page states it works with ShareASale for program management and tracking, affiliates earn 10% commission on all sales generated through their web site, joining is free, and a dedicated program manager through ShareASale supports affiliates; the page opens by saying the brand is excited to partner with creators."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://www.lashstarbeauty.com/pages/affiliates",
+        "summary": "The brand's affiliate page publishes no earnings-cap statement and no creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 10,
+      "application_url": "https://www.lashstarbeauty.com/pages/affiliates",
+      "source_url": "https://www.lashstarbeauty.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Lash Star Beauty Affiliate Program (ShareASale)",
+      "application_url": "https://www.lashstarbeauty.com/pages/affiliates",
+      "compensation_notes": "10% commission on all sales per the brand's own affiliate page. No published earnings cap.",
+      "description": "Sign up to ShareASale from the brand's affiliate page, get creative assets and offers, and earn 10% on lash-product sales with a dedicated program manager.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 20,
+      "ugc_evidence": 15,
+      "compensation": 14,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Single-category lash specialist - narrow but very focused material for eye-makeup creators.",
+        "ugc_evidence": "The brand's page explicitly pitches partnering with creators and provides creative assets and promotional offers through ShareASale.",
+        "compensation": "Clean 10% on all sales stated on the brand's own page; cap unknown.",
+        "contact_access": "No public email; support runs through the dedicated ShareASale program manager after joining.",
+        "opportunity_availability": "Free, open sign-up via ShareASale.",
+        "credibility": "Smaller specialist brand; programme terms are fully published on its own site, but scale is modest."
+      }
+    }
+  },
+  {
+    "name": "Bondi Sands",
+    "website": "https://bondisands.com",
+    "country": "Australia",
+    "category_slug": "beauty",
+    "description": "Australian self-tanning and suncare brand (founded 2012) whose North America affiliate program runs on Impact (merchant #19100 per FMTC's merchant listing; LinkClicky also records Impact). Published rate figures conflict - LinkClicky lists 10% / 6% dual rates and Shopper lists 5.09% - so no single rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-bondi-sands-boohoo-iherb-magnesium-lotion-shop-philips/",
+        "summary": "FMTC's new-merchant listing records Bondi Sands North America on Impact (merchant #19100, Beauty & Cosmetics), and LinkClicky's program listing independently records the affiliate platform as Impact."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "directory",
+        "source_url": "https://linkclicky.com/affiliate-program/bondi-sands/",
+        "summary": "Rate figures conflict across current listings: LinkClicky lists dual rates of 10% and 6% per sale, InfluencerRate says up to 10%, and Shopper lists 5.09% - no settleable single rate, so commission_rate is null with the conflict documented. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/bondi-sands/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Bondi Sands Affiliate Program (Impact)",
+      "application_url": null,
+      "compensation_notes": "Rate not recorded: listings conflict (10% / 6% dual rates vs 5.09%). Confirm the live rate inside Impact before promoting.",
+      "description": "Join Bondi Sands North America through Impact and promote the self-tan and SPF range; verify the current rate in the network, as directories disagree.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 14,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Self-tan is one of the most UGC-friendly beauty categories - application, shade and routine content performs well.",
+        "ugc_evidence": "Network affiliate program on Impact for a social-first tanning brand; no brand-published creator page was found.",
+        "compensation": "Conflicting published figures (10%/6% vs 5.09%) mean no rate can be recorded; cap unknown.",
+        "contact_access": "No published program email was found; contact runs through Impact after application.",
+        "opportunity_availability": "Open network application through Impact (North America program).",
+        "credibility": "Established Australian tanning brand founded in 2012 with global retail distribution."
+      }
+    }
+  },
+  {
+    "name": "Milk Makeup",
+    "website": "https://www.milkmakeup.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "New York clean, vegan, cruelty-free makeup and skincare brand whose affiliate program runs on Impact (merchant #21499 per FMTC's merchant listing). The only published rate figure found is a single 1.6% payout on Shopper while other listings describe the rate as varying by partner, so no rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-100-thieves-govplus-milk-makeup-rover-and-square-keg/",
+        "summary": "FMTC's new-merchant listing records Milk Makeup on Impact (merchant #21499, Beauty & Cosmetics) with a network signup route."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "directory",
+        "source_url": "https://www.shopper.com/partnerships/milkmakeup-com-affiliate-program",
+        "summary": "Shopper's listing claims a 1.6% payout while Shopday describes the commission as varying by partner with no figure - a single weak figure against unpublished terms, so commission_rate is null. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-100-thieves-govplus-milk-makeup-rover-and-square-keg/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Milk Makeup Affiliate Program (Impact)",
+      "application_url": null,
+      "compensation_notes": "Rate not recorded: only a single directory figure (1.6%) against listings that say it varies by partner. Confirm the live rate inside Impact before promoting.",
+      "description": "Join through Impact (merchant #21499) and promote the clean makeup and skincare range; verify current terms in the network first.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 14,
+      "compensation": 8,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Cult clean-beauty brand with highly visual, social-native products - strong makeup UGC fit.",
+        "ugc_evidence": "Affiliate program on a major creator network (Impact); the brand is social-first, though it publishes no creator program page of its own.",
+        "compensation": "No settleable published rate - a lone 1.6% directory figure versus 'varies by partner' listings; cap unknown.",
+        "contact_access": "No published program email was found; contact runs through Impact after application.",
+        "opportunity_availability": "Application through Impact; approval terms are not published.",
+        "credibility": "Well-known US clean-beauty brand; affiliate facts are network-reported only, which is noted in the evidence."
+      }
+    }
+  }
+]

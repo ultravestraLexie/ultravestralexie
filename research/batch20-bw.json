@@ -1,0 +1,562 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://zerolongevity.com/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 40,
+   "creator_saturation": "unknown",
+   "network": "Everflow",
+   "source_url": "https://zerolongevity.com/affiliate"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "United States",
+  "description": "Zero is a leading intermittent-fasting and nutrition app (Zero Longevity) with over 20 million downloads, now covering fasting, meal and protein tracking, hydration and metabolic health, led by a board-certified Chief Medical Officer.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://zerolongevity.com/affiliate",
+    "summary": "Zero's own affiliate page states affiliates earn 40% on every new Zero Plus subscription they refer, tracking and reporting are powered by Everflow, joining is free, and payouts run on a net-30 schedule with a dedicated account manager."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://zerolongevity.com/affiliate",
+    "summary": "No earnings-cap statement is published on the program page, so commission_cap is recorded as unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Zero",
+  "opportunity": {
+   "application_url": "https://zerolongevity.com/affiliate",
+   "source_url": "https://zerolongevity.com/affiliate",
+   "title": "Zero Affiliate Program"
+  },
+  "score": {
+   "compensation": 20,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "40% on every new Zero Plus subscription is the highest percentage rate in this batch; no published cap statement, so the cap is unknown.",
+    "contact_access": "No public partnerships email is published; partners get a dedicated account manager after joining.",
+    "credibility": "20M+ downloads, a 4.8 app rating from 500K+ reviews, and a board-certified Chief Medical Officer.",
+    "niche_fit": "Fasting, protein tracking and metabolic health sit at the centre of the health-creator niche.",
+    "opportunity_availability": "Program is open now, free to join, with an annual-subscription funnel built for payouts.",
+    "ugc_evidence": "The brand runs a dedicated affiliate program explicitly recruiting a growing network of creators and partners."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://zerolongevity.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://energybits.com/pages/partners",
+   "commission_cap": "uncapped",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://energybits.com/pages/partners"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://energybits.com/pages/partners",
+    "email": "affiliates@energybits.com",
+    "source_url": "https://energybits.com/pages/partners"
+   }
+  ],
+  "country": "United States",
+  "description": "ENERGYbits sells organically grown, non-GMO algae tablets — spirulina ENERGYbits and chlorella RECOVERYbits — as nutrient-dense whole food for energy, focus, immune support and recovery, endorsed by doctors, nutritionists and professional athletes.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://energybits.com/pages/partners",
+    "summary": "ENERGYbits' own Partners page publishes 10% commission on all referrals, a custom 20% audience discount code, a $100 minimum payout paid monthly, free marketing tools and training, and the contact affiliates@energybits.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://energybits.com/pages/partners",
+    "summary": "The same official page's Program Details state 'Earning potential: Unlimited' and note top affiliates have earned $25,000-$50,000 annually — the explicit unlimited-earnings statement on the brand's own page is why commission_cap is recorded as uncapped; the page also says it works with thousands of smaller affiliates, so creator_saturation is not low and stays unknown."
+   }
+  ],
+  "name": "ENERGYbits",
+  "opportunity": {
+   "application_url": "https://energybits.com/pages/partners",
+   "source_url": "https://energybits.com/pages/partners",
+   "title": "ENERGYbits Ambassador Affiliate Partner Program"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% on all referrals with earning potential stated as unlimited on the brand's own page, so the cap is verified uncapped.",
+    "contact_access": "The program page publishes a direct affiliates@ email and an interest form.",
+    "credibility": "Long-running algae-nutrition brand, the only algae company it states is endorsed by doctors, nutritionists and pro athletes nationwide, with US third-party lab testing.",
+    "niche_fit": "Algae superfood tablets fit wellness, biohacking and plant-based nutrition creators well.",
+    "opportunity_availability": "Interest form is open now; partners receive free tools, training and a nutritionist contact.",
+    "ugc_evidence": "The brand runs a dedicated ambassador affiliate program and showcases named wellness partners."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [
+   {
+    "handle": "energybits",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/energybits"
+   }
+  ],
+  "website": "https://energybits.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.verifoods.com/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.verifoods.com/affiliates"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "VeriFoods is a food-transparency subscription service publishing independent lab-test data on contaminants (glyphosate, heavy metals, PFAS) across thousands of grocery foods, built as a content engine for health creators and professionals.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.verifoods.com/affiliates",
+    "summary": "VeriFoods' own affiliates page offers 20% of every subscription a referral generates, for life, with permanent attribution, a 30-day attribution window, vanity links, a free Pro subscription for partners and a 15% follower discount, joined by named health voices including Paul Saladino MD and Ben Greenfield."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://www.verifoods.com/affiliates",
+    "summary": "No earnings-cap statement is published on the program page, so commission_cap is recorded as unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "VeriFoods",
+  "opportunity": {
+   "application_url": "https://www.verifoods.com/affiliates",
+   "source_url": "https://www.verifoods.com/affiliates",
+   "title": "VeriFoods Affiliate Program"
+  },
+  "score": {
+   "compensation": 18,
+   "contact_access": 6,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "20% recurring commission for life on every referred subscription, with permanent attribution; no published cap statement.",
+    "contact_access": "Application runs through the brand's own affiliates page; no public partnerships email was found.",
+    "credibility": "Newer, deliberately provocative food-testing service; partner names are prominent but the company itself is young, so credibility is scored conservatively.",
+    "niche_fit": "Food-safety lab data is highly shareable content for health, nutrition and grocery creators.",
+    "opportunity_availability": "Program is open now with a quick application and free Pro access for partners.",
+    "ugc_evidence": "The program is explicitly built for creators and health professionals, with full rights to use its lab data in content."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.verifoods.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ayamveda.com/pages/affiliate-ab-2",
+   "commission_cap": "uncapped",
+   "commission_rate": 30,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://ayamveda.com/pages/affiliate-ab-2"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://ayamveda.com/pages/affiliate-ab-2",
+    "email": "arunish@ayamveda.com",
+    "source_url": "https://ayamveda.com/pages/affiliate-ab-2"
+   }
+  ],
+  "country": "India",
+  "description": "Ayamveda is an Indian Ayurvedic wellness brand selling doctor-formulated, clinically tested Ayurvedic formulations for men's health, fitness and overall well-being, with a high average order value of about Rs 2,150.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://ayamveda.com/pages/affiliate-ab-2",
+    "summary": "Ayamveda's own affiliate page offers a minimum 30% commission per sale (up to 60% on bulk sales), monthly payouts after a minimum of 5 orders, a marketing toolkit and real-time dashboard, and publishes arunish@ayamveda.com for influencer collabs."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://ayamveda.com/pages/affiliate-ab-2",
+    "summary": "The same official page invites partners to 'start earning UNLIMITED commissions today' with no minimum sale amount requirement — the explicit unlimited-commissions statement on the brand's own page is why commission_cap is recorded as uncapped; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Ayamveda",
+  "opportunity": {
+   "application_url": "https://ayamveda.com/pages/affiliate-ab-2",
+   "source_url": "https://ayamveda.com/pages/affiliate-ab-2",
+   "title": "Ayamveda Affiliate Program"
+  },
+  "score": {
+   "compensation": 19,
+   "contact_access": 12,
+   "credibility": 2,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Minimum 30% per sale with unlimited commissions stated on the brand's own page, so the cap is verified uncapped.",
+    "contact_access": "The affiliate page publishes a named email for influencer collabs and a separate support email.",
+    "credibility": "India-based brand whose page leans on individual earnings testimonials; doctor-formulated and clinically tested claims are its own, so credibility is scored low.",
+    "niche_fit": "Ayurvedic men's-health and wellness formulations fit Ayurveda and natural-health creators, with an India-centred audience.",
+    "opportunity_availability": "Program is open now with no minimum sales requirement; payouts monthly after 5 orders.",
+    "ugc_evidence": "The brand runs its own affiliate program with social, email and site promotion explicitly encouraged."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://ayamveda.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://us.lifecykel.com/pages/affiliate-terms-conditions",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Refersion",
+   "source_url": "https://us.lifecykel.com/pages/affiliate-terms-conditions"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "Australia",
+  "description": "Life Cykel is an Australian mushroom company growing functional mushroom extracts (lion's mane, reishi, cordyceps, turkey tail and others) outside China and selling them direct in Australia, the US and the UK.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://us.lifecykel.com/pages/affiliate-terms-conditions",
+    "summary": "Life Cykel's own US affiliate terms state participation is for advertising the brand in exchange for commission on products purchased by referrals, tracked through the Refersion affiliate system, calculated on the GST-exclusive product value excluding shipping and discount-code orders."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://us.lifecykel.com/pages/affiliate-terms-conditions",
+    "summary": "The same official terms state verbatim 'There is no maximum commission limit' — the explicit no-maximum statement in the brand's own program terms is why commission_cap is recorded as uncapped. Published rates conflict across directories (8% per Lasso vs 4.66% per Shopper) and the brand's terms publish no percentage, so commission_rate is recorded as null; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Life Cykel",
+  "opportunity": {
+   "application_url": "https://us.lifecykel.com/pages/affiliate-terms-conditions",
+   "source_url": "https://us.lifecykel.com/pages/affiliate-terms-conditions",
+   "title": "Life Cykel Affiliate Program"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Cap is verified uncapped in the brand's own terms, but the percentage rate is unpublished by the brand and conflicts across directories, so it is recorded as null.",
+    "contact_access": "No public partnerships email was verified on the program terms; application runs through the brand's Refersion program.",
+    "credibility": "Established mushroom grower selling across Australia, the US and the UK with detailed published program terms.",
+    "niche_fit": "Functional mushroom extracts are a staple topic for wellness, focus and biohacking creators.",
+    "opportunity_availability": "Program terms are live on the brand's US store; self-referral conversions are not approved.",
+    "ugc_evidence": "The brand runs a formal affiliate program with tracking, assets licensing and social-media promotion rules for partners."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://us.lifecykel.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/69428",
+   "commission_cap": "unknown",
+   "commission_rate": 7,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/69428"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "India",
+  "description": "Ultrahuman is a health-technology brand whose flagship Ring AIR is an ultra-light smart ring tracking sleep, HRV, temperature and recovery with no recurring subscription, alongside glucose and preventive blood-testing products, with a global community across 105 geographies.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/69428",
+    "summary": "Ultrahuman's Awin merchant profile states affiliates earn a minimum of 7% on every sale for the first $10k of sales, rising to 10% from $10k-$35k and 15% thereafter, on a Ring AIR averaging $349 with no subscription fee."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission",
+    "source_type": "third_party_review",
+    "source_url": "https://getlasso.co/affiliate/ultrahuman/",
+    "summary": "A Lasso directory page claims 20% per sale, which conflicts with the network's own published tier schedule, so the corroborated Awin base rate of 7% is recorded instead; no earnings-cap statement is published, so commission_cap is unknown, and the profile's 450,000+ user community is a customer figure, not a creator count, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Ultrahuman",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/69428",
+   "source_url": "https://ui.awin.com/merchant-profile/69428",
+   "title": "Ultrahuman Affiliate Program"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "7% base commission on a $349 ring (about $24 per sale), rising to 10% then 15% at sales tiers; no published cap statement.",
+    "contact_access": "Application runs through Awin; no public partnerships email was found.",
+    "credibility": "Leading smart-ring brand, top-ranked on Amazon, official fitness partner of UAE Team Emirates, sold in 105 geographies.",
+    "niche_fit": "Sleep, recovery and longevity tracking is a core topic for health-tech and biohacking creators.",
+    "opportunity_availability": "Program is listed as active on Awin and open to affiliates.",
+    "ugc_evidence": "The brand runs a structured affiliate program on Awin aimed at health-tracking promoters."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.ultrahuman.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.naturalcycles.com/c/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://www.naturalcycles.com/c/affiliate"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "Sweden",
+  "description": "Natural Cycles is the first FDA-cleared birth-control app, using basal body temperature (via thermometer, Oura Ring or its own band) to identify fertile days for contraception or pregnancy planning.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.naturalcycles.com/c/affiliate",
+    "summary": "Natural Cycles' own affiliate page invites content creators who provide credible fertility information to become affiliates, earn commission on every sale connected to their page, and join its community."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission",
+    "source_type": "third_party_review",
+    "source_url": "https://freeaffiliatemarketingcourse.com/blog/best-family-planning-affiliate-programs/",
+    "summary": "A family-planning affiliate roundup records the program on Awin (Merchant ID 23212) paying a flat $5 fixed commission on each referred annual subscription with a 30-day cookie, with an affiliate code giving referrals 20% off and a free thermometer; because pay is a flat bounty rather than a percentage, commission_rate is null; webshop and monthly-subscription sales do not qualify; no earnings-cap statement is published, so commission_cap is unknown."
+   }
+  ],
+  "name": "Natural Cycles",
+  "opportunity": {
+   "application_url": "https://www.naturalcycles.com/c/affiliate",
+   "source_url": "https://www.naturalcycles.com/c/affiliate",
+   "title": "Natural Cycles Affiliate Program"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Flat $5 per referred annual subscription; no percentage rate, so commission_rate is null, and no published cap statement.",
+    "contact_access": "Application runs through the brand's own affiliate page and Awin; no public partnerships email was found.",
+    "credibility": "The first FDA-cleared birth-control app, founded by a former CERN physicist, with a long operating history.",
+    "niche_fit": "Fertility and cycle tracking is a dedicated, high-trust women's-health creator niche.",
+    "opportunity_availability": "Program is live on Awin with a 30-day cookie and affiliate-exclusive referral offers.",
+    "ugc_evidence": "The brand's own page explicitly recruits top content creators in women's health."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.naturalcycles.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://konaearth.com/pages/affiliate-registration",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.einpresswire.com/article_print/823537334/kona-earth-coffee-launches-new-affiliate-program"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Kona Earth is a Hawaii specialty-coffee brand growing and selling premium Kona coffee (beans at $50 per pound and up), plus Hawaiian chocolates, coffee BBQ rub, accessories and gift bundles, from Holualoa, Hawaii.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "third_party_review",
+    "source_url": "https://www.einpresswire.com/article_print/823537334/kona-earth-coffee-launches-new-affiliate-program",
+    "summary": "Kona Earth's own June 19, 2025 launch release, distributed via EIN Presswire, announces its affiliate program for specialty coffee, gourmet food and luxury-goods marketers, with registration at konaearth.com/pages/affiliate-registration, unique tracking links and marketing support."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission",
+    "source_type": "third_party_review",
+    "source_url": "https://www.einpresswire.com/article_print/823537334/kona-earth-coffee-launches-new-affiliate-program",
+    "summary": "The same brand-issued release states affiliates earn a competitive 10% commission on every sale with a generous 30-day tracking window; no earnings-cap statement is published, so commission_cap is unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Kona Earth",
+  "opportunity": {
+   "application_url": "https://konaearth.com/pages/affiliate-registration",
+   "source_url": "https://www.einpresswire.com/article_print/823537334/kona-earth-coffee-launches-new-affiliate-program",
+   "title": "Kona Earth Affiliate Program"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 6,
+   "credibility": 3,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "10% commission on every sale with a 30-day window, per the brand's own launch release; no published cap statement.",
+    "contact_access": "Registration is on the brand's own site; the release lists a phone contact for the owners rather than a partnerships email.",
+    "credibility": "Small, owner-run Hawaii coffee farm brand; the program is documented mainly through its launch release, so credibility is scored conservatively.",
+    "niche_fit": "Premium Kona coffee fits gourmet food, coffee and farm-to-table creators.",
+    "opportunity_availability": "Program launched in June 2025 and is recruiting affiliates through the brand's registration page.",
+    "ugc_evidence": "The brand launched a dedicated affiliate program aimed at bloggers and social-media promoters."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://konaearth.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ancaster.io/offers/oura",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://ancaster.io/offers/oura"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "Finland",
+  "description": "Oura is a Finnish health-technology company whose Oura Ring tracks sleep, readiness, activity, heart rate and temperature, starting at $349 plus a monthly membership, and is one of the best-known smart rings in the world.",
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program",
+    "source_type": "third_party_review",
+    "source_url": "https://ancaster.io/offers/oura",
+    "summary": "Ancaster's verified profile records that Oura's real partner program is invitation-only, run in-house through the Inflektion platform at partners.ouraring.com, with a commission structured as either a percent-of-sale or flat per-sale amount that only becomes visible once a partner is accepted, and a $50 minimum payout."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission",
+    "source_type": "third_party_review",
+    "source_url": "https://commissiondex.com/program/oura-ring/",
+    "summary": "Other directories conflict widely on the rate (8-12% via Impact in one, a flat $40 per sale in another, about 10% or $50 in partner-tier reporting) and the brand publishes no public rate, so commission_rate is recorded as null rather than guessed; no earnings-cap statement is published, so commission_cap is unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Oura",
+  "opportunity": {
+   "application_url": "https://ancaster.io/offers/oura",
+   "source_url": "https://ancaster.io/offers/oura",
+   "title": "Oura Partner Program"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 5,
+   "reasons": {
+    "compensation": "Commission is private and only revealed after acceptance into the invitation-only program, so the rate is recorded as null.",
+    "contact_access": "No public partnerships email or open application was verified; the partner program is invitation-only.",
+    "credibility": "Category-defining premium smart-ring brand with global distribution and extensive press coverage.",
+    "niche_fit": "Sleep and recovery tracking is a flagship topic for health-tech, fitness and biohacking creators.",
+    "opportunity_availability": "Invitation-only with acceptance at the program operator's sole discretion, so availability is scored low.",
+    "ugc_evidence": "Oura runs a creator partner program through Inflektion, but it is closed rather than open enrollment."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://ouraring.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.beesandtrees.com/pages/become-an-affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.beesandtrees.com/pages/become-an-affiliate"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "New Zealand",
+  "description": "Bees & Trees sells premium Manuka honey and bee-inspired products direct to consumers, positioned on purity and the health benefits of raw Manuka honey.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.beesandtrees.com/pages/become-an-affiliate",
+    "summary": "Bees & Trees' own Become an Affiliate page states the program is free and easy to join, is open to marketplaces, content sites, social media influencers and bloggers with simple linking tools, and pays 10% in commissions on all successful referrals from all qualifying purchases."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://www.beesandtrees.com/pages/become-an-affiliate",
+    "summary": "No earnings-cap statement is published on the program page, so commission_cap is recorded as unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Bees & Trees",
+  "opportunity": {
+   "application_url": "https://www.beesandtrees.com/pages/become-an-affiliate",
+   "source_url": "https://www.beesandtrees.com/pages/become-an-affiliate",
+   "title": "Bees & Trees Affiliate Program"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 6,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% commission on all successful referrals and qualifying purchases; no published cap statement.",
+    "contact_access": "Application runs through the brand's own affiliate page; no public partnerships email was found.",
+    "credibility": "Niche premium Manuka honey brand with a direct storefront; limited third-party coverage, so credibility is scored conservatively.",
+    "niche_fit": "Raw Manuka honey fits natural-food, wellness and pantry creators.",
+    "opportunity_availability": "Program is open now and free to join through the brand's own page.",
+    "ugc_evidence": "The brand's own page explicitly recruits social media influencers and bloggers as affiliates."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.beesandtrees.com"
+ }
+]

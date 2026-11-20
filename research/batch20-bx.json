@@ -1,0 +1,643 @@
+[
+ {
+  "name": "Aviya Mattress",
+  "website": "https://aviyamattress.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US mattress brand selling premium hybrid mattresses that combine pocketed innerspring coils with plant-based cooling foams, direct through AviyaMattress.com, with a 100-night trial and 10-year warranty. Its affiliate program runs on Awin and is pitched at sleep, home-decor and wellness publishers and reviewers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/89261",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/89261"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://ui.awin.com/merchant-profile/89261",
+    "email": "nick@aviyamattress.com",
+    "source_url": "https://ui.awin.com/merchant-profile/89261"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/89261",
+    "summary": "Aviya's own Awin merchant profile (the brand's network program page) fetched in full: headline 'Partner with Aviya Mattress: Premium Hybrid Comfort, Uncapped Earnings' and the benefits table states 'High Base Commission — Earn competitive, uncapped payouts on every referred sale', with a 30-day tracking cookie, high average order value, a 4.7/5 rating and a 100-night trial. The explicit uncapped-earnings statements on the brand's own network profile make the commission cap UNCAPPED. The profile publishes no percentage, so the rate comes from the listing evidence below."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/aviya-mattress/",
+    "summary": "Lasso's Aviya program listing reports a 10% per-sale commission rate. A Shopper listing separately reports a 10-20% payout range; the 10% figure is the one the dedicated program listing states as the rate, so commission_rate is recorded as 10 with the range noted here."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/89261",
+    "summary": "The same Awin profile invites review platforms, YouTube review channels and interior-design publications to discuss performance-based tier increases, exclusive audience promo codes and product samples for hands-on testing, and publishes the affiliate manager's direct email: nick@aviyamattress.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/89261",
+   "source_url": "https://ui.awin.com/merchant-profile/89261",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Aviya Mattress Affiliate Program — uncapped payouts per the brand's Awin profile, 30-day cookie, manager nick@aviyamattress.com",
+   "application_url": "https://ui.awin.com/merchant-profile/89261",
+   "source_url": "https://ui.awin.com/merchant-profile/89261"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 15,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hybrid mattresses are a core home/sleep UGC review category and Aviya's innerspring-vs-foam angle gives creators a clear comparison hook",
+    "ugc_evidence": "The program explicitly courts YouTube reviewers and offers product samples for hands-on testing, though it is framed for review publishers rather than social-first creators",
+    "compensation": "Explicit uncapped payouts on the brand's own network profile plus a reported 10% rate on a high-AOV mattress; tier increases negotiable for top performers",
+    "contact_access": "A named affiliate manager's direct email (nick@aviyamattress.com) is published on the program profile, plus the Awin application",
+    "opportunity_availability": "Standard Awin application; custom collaborations are aimed at higher-traffic review platforms",
+    "credibility": "Established DTC mattress brand with a 4.7/5 rating and full program terms published on its network profile"
+   }
+  }
+ },
+ {
+  "name": "XGIMI",
+  "website": "https://us.xgimi.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Global projector brand (10 years in projectors) selling home and portable smart projectors through its official stores, including us.xgimi.com. Its affiliate program is open to forums, bloggers, influencers, reviewers and content creators, who earn commission on every referred sale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.xgimi.com/pages/affiliate-guide",
+    "email": null,
+    "source_url": "https://us.xgimi.com/pages/affiliate-guide"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://us.xgimi.com/pages/affiliate-guide",
+    "email": "affiliate@xgimi.com",
+    "source_url": "https://us.xgimi.com/pages/affiliate-guide"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.xgimi.com/pages/affiliate-guide",
+    "summary": "XGIMI's official US affiliate guide page fetched: the program is open to 'Forums, bloggers, influencers, reviewers, content creators and more', links to its Impact and Awin program pages, and publishes the program email affiliate@xgimi.com. The page's FAQ (as indexed from the same official page) states the terms: commission on the product's official price, a 30-day cookie window, payment 60 days after a successful purchase, monthly payouts, free to join — and answers the earnings question directly: 'There's no cap on commissions — the more you promote, the more you earn!' The explicit no-cap statement on the brand's own page makes the commission cap UNCAPPED."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://global.xgimi.com/pages/affiliate-guide",
+    "summary": "XGIMI's official global affiliate guide fetched in full: affiliates register on ShareASale, applications are approved automatically, and the published benefits are '5% Commission — 5% commission on sales', a 30-day cookie window, and commission paid within 60 days of a completed order. The 5% rate from the brand's own guide is the recorded rate; a third-party influencer directory's 'up to 10%' claim is not credited over the brand's own published figure."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 5,
+   "application_url": "https://global.xgimi.com/pages/affiliate-guide",
+   "source_url": "https://global.xgimi.com/pages/affiliate-guide",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "XGIMI Affiliate Program — 'no cap on commissions' per official US guide FAQ, 5% per global guide, via ShareASale (Impact/Awin also linked from US store)",
+   "application_url": "https://us.xgimi.com/pages/affiliate-guide",
+   "source_url": "https://us.xgimi.com/pages/affiliate-guide"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Smart projectors are a highly demonstrable tech product for home-theatre, gaming and room-tour content",
+    "ugc_evidence": "The program explicitly welcomes influencers, reviewers and content creators and supplies banners, coupons and content resources",
+    "compensation": "Explicit 'no cap on commissions' statement on the brand's own US page; the rate itself is a modest 5% per the global guide",
+    "contact_access": "Dedicated program email (affiliate@xgimi.com) published on the US guide page, plus network applications",
+    "opportunity_availability": "Applications are approved automatically on ShareASale per the global guide — the lowest-friction entry in this batch",
+    "credibility": "A decade-old global projector brand with official stores and programs on three major networks"
+   }
+  }
+ },
+ {
+  "name": "Yogasleep",
+  "website": "https://yogasleep.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US sleep-wellness brand founded in 1962, inventor of the original Dohm sound machine, selling sound machines, mattresses and sleep accessories through Yogasleep.com. Its affiliate program runs through Awin and partners with content creators, publishers and sleep experts.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://yogasleep.com/pages/yogasleep-ambassador-program",
+    "email": null,
+    "source_url": "https://yogasleep.com/pages/yogasleep-ambassador-program"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": "https://yogasleep.com/pages/yogasleep-ambassador-program",
+    "email": "marketing@yogasleep.com",
+    "source_url": "https://yogasleep.com/pages/yogasleep-ambassador-program"
+   }
+  ],
+  "socials": [
+   {
+    "handle": "yogasleepusa",
+    "platform": "x",
+    "url": "https://twitter.com/yogasleepusa"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://yogasleep.com/pages/yogasleep-ambassador-program",
+    "summary": "Official Yogasleep Ambassador Program page fetched in full: affiliates apply through Awin and earn 10% commission on all sound machine sales (Dohm, Dohm Classic and digital multi-sound products) with a 90-day cookie window and monthly payouts through Awin. Mattresses pay a FLAT per-sale commission instead — $65 base per sale, rising with monthly volume bonuses to $90 (11-30 sales), $115 (31-50) and $215 (51+) per sale — a flat bounty structure recorded here, with the 10% sound-machine rate recorded as the percentage rate. The page makes no statement about an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://yogasleep.com/pages/yogasleep-ambassador-program",
+    "summary": "The same official page is creator-facing throughout: it names parenting and family creators, health and wellness advocates, home and lifestyle reviewers and digital publishers as partner types, offers a media toolkit and brand portal assets, and invites qualified partners to request sample sound machines or mattresses for review via marketing@yogasleep.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://yogasleep.com/pages/yogasleep-ambassador-program",
+   "source_url": "https://yogasleep.com/pages/yogasleep-ambassador-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Yogasleep Affiliate Program — 10% on sound machines plus flat $65-$215 per mattress via Awin, 90-day cookie",
+   "application_url": "https://yogasleep.com/pages/yogasleep-ambassador-program",
+   "source_url": "https://yogasleep.com/pages/yogasleep-ambassador-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 13,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Sound machines and sleep products are a staple home/parenting UGC category, with the nursery and bedtime-routine angles especially strong",
+    "ugc_evidence": "A dedicated creator-facing program page naming creator types, with sample products for review and a media toolkit",
+    "compensation": "10% on sound machines plus flat mattress payouts rising to $215 per sale at volume; no cap statement published",
+    "contact_access": "Awin application plus a published team email (marketing@yogasleep.com) for sample and partnership requests",
+    "opportunity_availability": "Application through Awin takes under two minutes per the brand, with immediate link access once approved",
+    "credibility": "Founded 1962, inventor of the Dohm, clinician-recommended, with over a million families as customers"
+   }
+  }
+ },
+ {
+  "name": "PlushBeds",
+  "website": "https://www.plushbeds.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "California-based maker of organic latex, hybrid and eco-luxury mattresses, toppers, pillows and bedding, handcrafted in the USA with GOTS/GOLS and Greenguard Gold certified materials, sold through PlushBeds.com. It runs affiliate, ambassador, product-review and publishing partnership programs.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.plushbeds.com/pages/partner-with-us",
+    "email": null,
+    "source_url": "https://www.plushbeds.com/pages/partner-with-us"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.plushbeds.com/pages/partner-with-us",
+    "summary": "PlushBeds' official Partner With Us page fetched in full: 'We offer 15% payouts (the highest in the industry) on an average order value of more than $1,500. Plus, we give you a big 90-day window to earn credit for the sale', with a dedicated affiliate manager, banners, text links and coupon codes. Program listings agree the program can be joined through ShareASale or Impact. The page makes no statement about an earnings cap, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://www.plushbeds.com/pages/partner-with-us",
+    "summary": "The same official page runs separate creator routes alongside the affiliate program: a Brand Ambassador Program for influencers and content creators (complimentary products and discounts, social collaboration, no minimum following — 'Your message is more important than the size of your tribe') and a product-review program sending mattresses to industry experts for honest reviews."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "https://www.plushbeds.com/pages/partner-with-us",
+   "source_url": "https://www.plushbeds.com/pages/partner-with-us",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "PlushBeds Affiliate Program — 15% commission, 90-day cookie, $1,500+ average order value (official partner page)",
+   "application_url": "https://www.plushbeds.com/pages/partner-with-us",
+   "source_url": "https://www.plushbeds.com/pages/partner-with-us"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 16,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Organic latex mattresses are a premium home/wellness UGC niche with strong natural-living and latex-vs-foam content angles",
+    "ugc_evidence": "Affiliate program plus a dedicated influencer ambassador program and a seeded product-review program on the same official page",
+    "compensation": "15% on an average order value above $1,500 (roughly $225+ per sale) with a long 90-day cookie — among the strongest mattress economics published",
+    "contact_access": "Partner page application routes and network listings; the ambassador/review routes are email-based but the page's email addresses do not render, so no email is recorded",
+    "opportunity_availability": "Affiliate entry via ShareASale or Impact; ambassador route is application-based",
+    "credibility": "Long-running US organic mattress maker whose hospitality clients include major hotel brands, per its own page"
+   }
+  }
+ },
+ {
+  "name": "Naturepedic",
+  "website": "https://www.naturepedic.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US organic mattress brand selling certified-organic, non-toxic mattresses and bedding for adults, kids and babies (crib mattresses are a signature line) through Naturepedic.com. Its affiliate program runs through Rakuten Advertising (LinkShare).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.naturepedic.com/affiliate-program",
+    "email": null,
+    "source_url": "https://www.naturepedic.com/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.naturepedic.com/affiliate-program",
+    "summary": "Naturepedic's official affiliate page fetched: affiliates earn a commission on all goods purchased by visitors referred through their unique link, and sign-up runs through Rakuten Advertising — 'Head over to Rakuten Advertising to sign up for a FREE account. Once you are accepted into the Rakuten Linkshare Publisher Network, apply to the Naturepedic affiliate program', after which the brand reviews the applicant's website. The brand's own page publishes NO percentage rate and no earnings-cap statement, so the cap is unknown and the rate is settled from listings below."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/naturepedic/",
+    "summary": "Published rate figures conflict: Lasso and older program roundups report 15% per sale with a 90-day cookie; a network index (CompareEPC) lists 12% via FlexOffers; a creator-program roundup reports 'starting at 10%'; and a Shopper listing reports up to 6%. Because the published figures conflict (6% / 10% / 12% / 15%) and the brand's own page publishes none, commission_rate is null with the conflict recorded here; the Rakuten Advertising route is the one the brand itself names."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.naturepedic.com/affiliate-program",
+   "source_url": "https://www.naturepedic.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Naturepedic Affiliate Program — organic mattresses via Rakuten Advertising (brand publishes no rate; listings conflict at 6%-15%)",
+   "application_url": "https://www.naturepedic.com/affiliate-program",
+   "source_url": "https://www.naturepedic.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Organic, non-toxic mattresses — including crib and kids lines few competitors offer — are a strong family and healthy-home UGC niche",
+    "ugc_evidence": "Standard network publisher program framed for websites; no dedicated creator tier published",
+    "compensation": "Listings report 6%-15% but conflict and the brand publishes no figure, so compensation is graded cautiously until verified in-network",
+    "contact_access": "Application via Rakuten Advertising linked from the brand's own affiliate page; no public program email found",
+    "opportunity_availability": "Rakuten account plus a brand review of the applicant's website before approval",
+    "credibility": "Category-defining organic mattress brand with deep certifications and a long-established program"
+   }
+  }
+ },
+ {
+  "name": "Boll & Branch",
+  "website": "https://www.bollandbranch.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US luxury bedding brand selling organic cotton sheets, duvets, blankets, towels and bath linens through BollandBranch.com, built on Fair Trade and sustainable sourcing. Its affiliate program runs through ShareASale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.whichprogram.com/en/p/boll-branch-shareasale-us",
+    "email": null,
+    "source_url": "https://www.whichprogram.com/en/p/boll-branch-shareasale-us"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.whichprogram.com/en/p/boll-branch-shareasale-us",
+    "summary": "WhichProgram's Boll & Branch entry, sourced from the network, records the program on ShareASale (worldwide) at 4% to 16% per sale with a 30-day cookie. Lasso's program listing independently reports the same 4%-16% per-sale range and 30-day cookie. The recorded rate is the 4% floor of the published range. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/boll-branch/",
+    "summary": "Lasso's Boll & Branch listing confirms the 4%-16% per-sale commission and 30-day cookie, and notes an average order value around $250 for the brand's organic bedding and home textiles."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 4,
+   "application_url": "https://www.whichprogram.com/en/p/boll-branch-shareasale-us",
+   "source_url": "https://www.whichprogram.com/en/p/boll-branch-shareasale-us",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Boll & Branch Affiliate Program — 4%-16% per sale via ShareASale, 30-day cookie",
+   "application_url": "https://www.whichprogram.com/en/p/boll-branch-shareasale-us",
+   "source_url": "https://www.whichprogram.com/en/p/boll-branch-shareasale-us"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Luxury organic bedding and bath linens are a proven home UGC category with strong bedroom-refresh and sustainable-living angles",
+    "ugc_evidence": "Network publisher program that roundups describe as open to influencers and content creators; no dedicated creator page verified",
+    "compensation": "A published 4%-16% range on a ~$250 average order; the wide range means realised rates vary by tier or category",
+    "contact_access": "Application through ShareASale; no public partnerships email found",
+    "opportunity_availability": "Standard ShareASale application, worldwide per the network listing",
+    "credibility": "Well-known premium bedding brand with an established network program and ethical-sourcing positioning"
+   }
+  }
+ },
+ {
+  "name": "Nectar Sleep",
+  "website": "https://www.nectarsleep.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Value-focused US boxed mattress brand selling memory-foam mattresses with a 365-night trial and lifetime warranty through NectarSleep.com, part of the Resident home group (sister brand to DreamCloud). Its affiliate program pays per referred mattress sale through Impact / ShareASale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/nectar-sleep/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/nectar-sleep/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/nectar-sleep/",
+    "summary": "Lasso's Nectar Sleep listing reports a FLAT $50 per sale commission with a 180-day cookie and a $50 payout threshold — a flat bounty, not a percentage. Because the compensation is a reported flat fee, commission_rate is null with the flat structure recorded here. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://brandid.app/blog/mattress-affiliate-programs/",
+    "summary": "A 2026 mattress-program roundup reports Nectar at roughly $50-$100 flat (or ~8%) via Impact / ShareASale with a 30-to-90-day cookie, and an older tiered account describes $50 per sale rising to $70/$90/$100 at 20/35/55 mattresses a month plus a $100 first-sale bonus; a Shopper listing separately claims up to 4.03%. The figures conflict in form (flat vs percentage), which is why no rate is recorded — the consistent core is a flat per-mattress bounty in the $50-$100 range."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/nectar-sleep/",
+   "source_url": "https://getlasso.co/affiliate/nectar-sleep/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nectar Sleep Affiliate Program — flat per-mattress bounty reported ($50-$100 tiered), via Impact / ShareASale",
+   "application_url": "https://getlasso.co/affiliate/nectar-sleep/",
+   "source_url": "https://getlasso.co/affiliate/nectar-sleep/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Value memory-foam mattresses are one of the most reviewed products in sleep UGC, and the 365-night trial is a strong content hook",
+    "ugc_evidence": "Long-running network program aimed at sleep bloggers and reviewers; no dedicated creator tier published",
+    "compensation": "Flat per-sale bounties reported at $50-$100 (tiered by volume) can pay predictably, but published forms conflict so nothing firmer can be credited",
+    "contact_access": "Application through Impact / ShareASale; no public program email found",
+    "opportunity_availability": "Standard network application, no follower minimum published",
+    "credibility": "One of the largest boxed-mattress brands, part of the Resident group, with a program documented since 2018"
+   }
+  }
+ },
+ {
+  "name": "Casper",
+  "website": "https://casper.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Pioneering US bed-in-a-box brand selling mattresses, pillows, bedding and sleep accessories direct through Casper.com and retail partners. Its professional affiliate program for creators and publishers runs through affiliate networks, principally Impact (a separate customer refer-a-friend scheme also exists and is not the route recorded here).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/casper/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/casper/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/casper/",
+    "summary": "LinkClicky's Casper listing (which reads the network's published terms) records the program on Impact at 2%-5% per sale. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today",
+    "summary": "Published Casper figures conflict widely: one checked roundup reports a flat $50-$75 per mattress via Rakuten with a 30-day cookie; another directory reports 5-10% one-time via Impact/FlexOffers; a third reports typically 4%-8.4% per sale. Because the published figures conflict in both form (flat vs percentage) and size (2% to 10%), commission_rate is null with the conflict recorded here; the Impact route is the one most listings agree on for the professional program."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/casper/",
+   "source_url": "https://linkclicky.com/affiliate-program/casper/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Casper Affiliate Program — professional creator/publisher program via Impact (published rates conflict at flat $50-$75 vs 2%-10%)",
+   "application_url": "https://linkclicky.com/affiliate-program/casper/",
+   "source_url": "https://linkclicky.com/affiliate-program/casper/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Casper is one of the most recognisable names in sleep, and its mattresses and bedding are staple review and bedroom-content products",
+    "ugc_evidence": "A professional affiliate program for creators/publishers distinct from its customer referral scheme; no creator-specific tier published",
+    "compensation": "Published figures conflict in form and size (flat $50-$75 vs 2%-10%), so no rate can be credited until verified in-network",
+    "contact_access": "Application through Impact; no public partnerships email found",
+    "opportunity_availability": "Standard network application, 30-day cookie commonly reported",
+    "credibility": "The original bed-in-a-box pioneer with national retail presence and a long-running network program"
+   }
+  }
+ },
+ {
+  "name": "Petco",
+  "website": "https://www.petco.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Major US pet retailer (1,500+ stores) selling pet food, supplies, toys and accessories online at Petco.com, alongside grooming, training and veterinary services and repeat-delivery subscriptions. Its affiliate program pays publishers commission on referred online sales through Impact (also listed via Rakuten Advertising and FlexOffers).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.petco.com/affiliate",
+    "email": null,
+    "source_url": "https://marketplace.referly.so/affiliate-programs/petco"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/petco",
+    "summary": "Referly's Petco program profile reports around 2% commission on most products and up to 10% on services and repeat-delivery orders, with a 7-day cookie window, and notes Petco's own affiliate page at petco.com/affiliate describes joining as free. An independent program index (Affiliate Orchard) likewise records a 2% default on item sale amount under Petco's public Impact template, excluding gift cards and donations. The recorded rate is the 2% base. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://beforeyoubuys.com/best-pet-affiliate-programs/",
+    "summary": "A pet-program roundup reports Petco at 2% to 4% via Rakuten with a 7-day cookie, while other directories cite up to 8%-10% headline figures; the consistent core across sources is a ~2% base rate on product sales with higher rates on services/repeat delivery, recorded here with the variance noted."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 2,
+   "application_url": "https://www.petco.com/affiliate",
+   "source_url": "https://marketplace.referly.so/affiliate-programs/petco",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Petco Affiliate Program — ~2% base on product sales (up to 10% on services/repeat delivery reported), 7-day cookie, via Impact",
+   "application_url": "https://marketplace.referly.so/affiliate-programs/petco",
+   "source_url": "https://marketplace.referly.so/affiliate-programs/petco"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A full-catalogue pet retailer fits almost any pet content — food, toys, aquatics, small pets — though it is a retailer rather than a single-product brand",
+    "ugc_evidence": "Publisher program with promotional tools and exclusive offers; no dedicated creator tier verified",
+    "compensation": "A low ~2% base rate and a short 7-day cookie; higher reported rates apply only to services and repeat-delivery orders",
+    "contact_access": "Brand affiliate page (petco.com/affiliate) plus network applications; no public program email found",
+    "opportunity_availability": "Free network application; pet-focused site or channel expected per directory requirements",
+    "credibility": "One of America's largest pet retailers with 1,500+ stores and a long-established affiliate program"
+   }
+  }
+ },
+ {
+  "name": "Chewy",
+  "website": "https://www.chewy.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Largest US online pet retailer, selling food, supplies, toys and pharmacy products for dogs, cats, horses, reptiles and fish through Chewy.com, known for its Autoship subscription service. It runs an affiliate program through Impact for publishers, alongside a separate Creator Track for social-first creators.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://app.impact.com/advertiser-campaign-info/Chewy.brand?lang=en&c=___9XpvYq1Sf08ai2jmVgvAaBi2tdEoZV3N",
+    "email": null,
+    "source_url": "https://www.affiliateorchard.com/programs/chewy/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://app.impact.com/advertiser-campaign-info/Chewy.brand?lang=en&c=___9XpvYq1Sf08ai2jmVgvAaBi2tdEoZV3N",
+    "summary": "Chewy's own public Impact campaign page states the current US template terms directly: Payout 1% on online sales, a 15-day referral period, and payout scheduling 27 days after the end of the month. An independent index (WhichProgram) records the same 1% / 15-day terms on impact.com, and a program analysis (Affiliate Orchard) confirms the 1% default on item sale amount with pharmacy items, prescription food and treats, and gift cards excluded. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.affiliateorchard.com/programs/chewy/",
+    "summary": "Affiliate Orchard's Chewy profile adds that Chewy directs website/blog publishers to Impact for tracked links while social-first creators are directed to its separate Creator Track, and that the program page conflicts on whether existing-customer orders qualify. Widely quoted 4% figures trace to Chewy Canada's separate contract and older Partnerize/CJ routes, and one directory's flat '$15 per sale' claim conflicts with the network template — the US Impact template's 1% is the recorded rate with those conflicts noted here."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 1,
+   "application_url": "https://app.impact.com/advertiser-campaign-info/Chewy.brand?lang=en&c=___9XpvYq1Sf08ai2jmVgvAaBi2tdEoZV3N",
+   "source_url": "https://app.impact.com/advertiser-campaign-info/Chewy.brand?lang=en&c=___9XpvYq1Sf08ai2jmVgvAaBi2tdEoZV3N",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Chewy Affiliate Program — 1% on online sales via Impact (US template), 15-day window, plus a separate Creator Track",
+   "application_url": "https://app.impact.com/advertiser-campaign-info/Chewy.brand?lang=en&c=___9XpvYq1Sf08ai2jmVgvAaBi2tdEoZV3N",
+   "source_url": "https://app.impact.com/advertiser-campaign-info/Chewy.brand?lang=en&c=___9XpvYq1Sf08ai2jmVgvAaBi2tdEoZV3N"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "The broadest pet catalogue in the directory — every species and product type a pet creator covers is sold here",
+    "ugc_evidence": "A separate Creator Track for social-first creators (TikTok, Instagram, YouTube) alongside the publisher program — a route most retailers do not offer",
+    "compensation": "Only 1% on the US Impact template — the lowest rate in this batch — partly offset by very high brand conversion and Autoship repeat orders",
+    "contact_access": "Application through Impact from Chewy's official program page; no public program email found",
+    "opportunity_availability": "Standard Impact application; affiliate acceptance and promotion methods need confirmation per the program analysis",
+    "credibility": "The largest US online pet retailer, with the program's current terms published on its own Impact campaign page"
+   }
+  }
+ }
+]
