@@ -1,0 +1,758 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.ableclothing.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/able/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": "United States",
+  "description": "ABLE is a socially conscious lifestyle brand dedicated to creating sustainable business opportunities for women to promote economic change, headquartered in Nashville, Tennessee. It sells ethically produced women's clothing, handbags, accessories and footwear, with a mission focused on ending generational poverty by providing economic opportunities for women.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.ableclothing.com/pages/affiliates",
+    "summary": "Official affiliates page describes ABLE as a socially conscious lifestyle brand, invites anyone with a website, blog or other online presence to consider partnership, and links 'APPLY HERE to join us on SHAREASALE.COM'. No rate or contact email is published on this page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/able/",
+    "summary": "Listing reports ABLE on the Impact platform at 15% per sale, website ableclothing.com, niche Women's Clothing, regions ALL. This conflicts with the official page's ShareASale call, so the network is recorded from the official page and the rate is treated as publicly reported."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.ableclothing.com/pages/affiliates",
+    "summary": "Commission-cap check: neither the official affiliates page nor the LinkClicky listing states 'no cap', 'unlimited earnings', an earnings-limit FAQ answer, or program terms removing a cap, so commission_cap is unknown, not uncapped."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/able/",
+    "summary": "Creator-saturation check: no Beacons/CollabFeed/NewCollab creator count, sponsored-post count, or ambassador-army size was found in the fetched official or listing sources, so creator_saturation is unknown, not low."
+   }
+  ],
+  "name": "ABLE",
+  "opportunity": {
+   "application_url": "https://www.ableclothing.com/pages/affiliates",
+   "source_url": "https://www.ableclothing.com/pages/affiliates",
+   "title": "ABLE Affiliate Program"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 28,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "15% published in a listing, but cap is unknown with no uncapped statement.",
+    "contact_access": "No published email or direct contact; application only via network link on the official page.",
+    "credibility": "Official affiliates page verified, with HQ/mission corroborated by other fetched sources.",
+    "niche_fit": "Ethical, women-focused slow-fashion brand is a core fit for this batch.",
+    "opportunity_availability": "Open apply link on the official affiliates page.",
+    "ugc_evidence": "Official page explicitly recruits websites, blogs and online presences, but no UGC/creator program specifics were published."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.ableclothing.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://intl.tentree.com/pages/ambassadors",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "medium",
+   "network": "Impact",
+   "source_url": "https://getlasso.co/affiliate/tentree/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": "Canada",
+  "description": "tentree is a sustainable apparel brand headquartered in Vancouver, Canada, founded in 2012. It plants ten trees for every item sold and states a commitment to plant 1 billion trees by 2030, selling apparel and accessories for women, men and kids.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/tentree/",
+    "summary": "Lasso listing reports the tentree affiliate program at 15% per sale with a 7-day cookie, in the Fashion category, describing a brand known for eco-friendly clothing that plants ten trees for every item sold."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/niche/fashion/?ref=ntu1yzb",
+    "summary": "Lasso fashion list reports tentree at 15% per sale, 7-day cookie, affiliate network Impact, $50 payout threshold, with application via Impact.com requiring ownership/admin rights to a website or social account and content aligned with tentree's brand values."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://intl.tentree.com/pages/ambassadors",
+    "summary": "Official ambassadors page for the #EarthStuff Collective invites applications ('Apply today and join the collective'), describes missions such as creating your own tentree content and engaging with social content, and lists perks including product, gift cards, commission, cash, VIP rewards, early access and discount codes."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/tentree/",
+    "summary": "Commission-cap check: neither the Lasso listing nor the fetched official ambassador description states 'no cap', 'unlimited earnings', an earnings-limit FAQ answer, or terms removing a cap, so commission_cap is unknown, not uncapped."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.tentree.com/blogs/environmentor/what-a-year/",
+    "summary": "Creator-saturation check: tentree's own 2018 recap said its Ambassador Program amassed over 2,600 members on Facebook, and a GRIN case study reported scaling its influencer program from 20 to 80 influencers producing 800+ pieces of content. That is an established, mid-size creator community rather than a small/new program, so creator_saturation is medium, not low."
+   }
+  ],
+  "name": "tentree",
+  "opportunity": {
+   "application_url": "https://intl.tentree.com/pages/ambassadors",
+   "source_url": "https://intl.tentree.com/pages/ambassadors",
+   "title": "tentree #EarthStuff Collective Ambassador Program"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 4,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "15% published in listings, but cap is unknown and the cookie is only 7 days.",
+    "contact_access": "No published email or direct contact found; join routes are the ambassador page and Impact.",
+    "credibility": "Official ambassador and blog pages verified, with rate/network corroborated by listings.",
+    "niche_fit": "Sustainable, tree-planting apparel is a strong ethical/slow-fashion fit.",
+    "opportunity_availability": "Ambassador page actively says 'Apply today' and Impact application is open to qualifying sites/social accounts.",
+    "ugc_evidence": "Official ambassador collective with content missions and commission/cash perks, plus a documented influencer program."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://www.tentree.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.everlane.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Pepperjam (Ascend by Partnerize)",
+   "source_url": "https://www.creator-hero.com/blog/everlane-affiliate-program-in-depth-review-pros-and-cons"
+  },
+  "category_slug": "fashion",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://www.everlane.com/pages/affiliates",
+    "email": "press@everlane.com",
+    "source_url": "https://www.everlane.com/pages/affiliates"
+   }
+  ],
+  "country": "United States",
+  "description": "Everlane is an American clothing retailer headquartered in San Francisco, California, founded in 2010 and known for 'Radical Transparency' about the true cost behind its products. Its official affiliate page offers commission on net sales made through affiliate links and banners, with reporting through the Pepperjam network.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.everlane.com/pages/affiliates",
+    "summary": "Official affiliate page says Everlane offers commission on net sales (excluding shipping, taxes and returns) through affiliate links and banners, with real-time reporting through the Pepperjam network, an 'APPLY NOW' link to Ascend Partner, and 'Feel free to contact press@everlane.com for more information about this program.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.everlane.com/pages/affiliates",
+    "summary": "Published program contact: press@everlane.com is listed on the official affiliates page specifically for more information about the affiliate program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/everlane-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator Hero review reports the Everlane Affiliate Program at a 10% commission rate and a 30-day cookie duration for creators promoting its sustainable and ethically produced clothing; Uppromote's directory independently reports up to 10%."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.everlane.com/pages/affiliates",
+    "summary": "Commission-cap check: neither the official affiliates page nor the fetched listings state 'no cap', 'unlimited earnings', an earnings-limit FAQ answer, or terms removing a cap, so commission_cap is unknown, not uncapped."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/everlane-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator-saturation check: no Beacons/CollabFeed/NewCollab creator count, sponsored-post count, or ambassador-army size was found in the fetched official or listing sources, so creator_saturation is unknown, not low."
+   }
+  ],
+  "name": "Everlane",
+  "opportunity": {
+   "application_url": "https://www.everlane.com/pages/affiliates",
+   "source_url": "https://www.everlane.com/pages/affiliates",
+   "title": "Everlane Affiliate Program"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 12,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% published in listings, but cap is unknown with no uncapped statement.",
+    "contact_access": "press@everlane.com is published on the official affiliates page specifically for program questions.",
+    "credibility": "Official affiliates page verified, with rate corroborated by two independent listings.",
+    "niche_fit": "Transparent-pricing, ethically positioned basics fit the batch, though the brand is larger and more mainstream than the other keepers.",
+    "opportunity_availability": "Open 'APPLY NOW' route from the official page via Ascend Partner.",
+    "ugc_evidence": "Official page targets bloggers/audiences and says Everlane works closely with affiliates, but no dedicated UGC/creator program was documented."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.everlane.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/spell-designs/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/spell-designs/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": "Australia",
+  "description": "Spell is an Australian fashion label founded in Byron Bay in 2009 by sisters Elizabeth Abegg and Isabella Pennefather, originally known as Spell & The Gypsy Collective. It sells women's bohemian, vintage-inspired clothing including printed dresses, blouses, skirts, knitwear, swimwear and accessories, distinguished by in-house prints and flowing silhouettes.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/spell-designs/",
+    "summary": "LinkClicky lists Spell Designs on ShareASale with 10% per sale commission, 30-day cookie, regions ALL, website https://usa.spell.co/."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/spell-co-affiliate-program",
+    "summary": "Shopper.com lists the Spell Designs (USA) US affiliate program at 5-10% payout per sale, corroborating a joinable network program; the single-rate ShareASale listing (10%) is used as the published rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/171314/spell-designs-usa-inc-affiliate-program",
+    "summary": "Sovrn describes Spell as the Australian label founded in Byron Bay in 2009 by Elizabeth Abegg and Isabella Pennefather, with dresses, swimwear and accessories for fashion, travel and lifestyle publishers. Commission-cap check: this page, LinkClicky and Shopper.com contain no 'no cap', 'unlimited earnings' or earnings-limit FAQ statement, so commission_cap is unknown, not uncapped."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/171314/spell-designs-usa-inc-affiliate-program",
+    "summary": "Creator-saturation check: no Beacons, CollabFeed or NewCollab creator count, sponsored-post count, or small/new-program or first-creator recruiting evidence was found in the fetched Spell listings, so creator_saturation is unknown, not low."
+   }
+  ],
+  "name": "Spell",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/spell-designs/",
+   "source_url": "https://linkclicky.com/affiliate-program/spell-designs/",
+   "title": "Spell Designs Affiliate Program via ShareASale"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 3,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% per sale on ShareASale; no published cap statement so cap is unknown",
+    "contact_access": "No partnerships email published on fetched pages; access is via the network listing only",
+    "credibility": "Established Byron Bay label founded 2009, corroborated across Sovrn and press sources",
+    "niche_fit": "Core Australian boho/swim fashion label, exact fit for this batch",
+    "opportunity_availability": "Joinable ShareASale program listed on LinkClicky and Shopper.com",
+    "ugc_evidence": "Listings target fashion, travel and lifestyle publishers, but no public UGC brief was found"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://spell.co"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/cleobella/",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/cleobella/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": "United States",
+  "description": "Cleobella is a globally inspired, bohemian fashion brand founded in 2006 by Angela O'Brien, crafting pieces that celebrate traditional artistry and sustainability. Its collections, handmade with artisans in Bali and elsewhere, include women's clothing, handbags and accessories, and the brand also runs a creator gifting programme documented by NewCollab.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/cleobella/",
+    "summary": "LinkClicky lists Cleobella on ShareASale with 20% per sale commission, 30-day cookie, regions ALL, website https://cleobella.com, niche Fashion."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://newcollab.co/brand/cleobella",
+    "summary": "NewCollab states Cleobella does not publish an open creator programme, works with creators worldwide via a direct pitch to its team, looks for around 500+ followers with niche fit mattering more than the number, and mainly runs a gifting programme of free product with no fee, typical PR package about $120."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/cleobella/",
+    "summary": "Commission-cap check: the LinkClicky ShareASale listing and the NewCollab page contain no 'no cap', 'unlimited earnings' or earnings-limit FAQ statement, so commission_cap is unknown, not uncapped, despite the published 20% rate."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://newcollab.co/brand/cleobella",
+    "summary": "Creator-saturation check: NewCollab reports no open creator programme and no public UGC programme, but publishes no creator count, sponsored-post count or first-creator recruiting claim, so there is insufficient evidence for 'low' and creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "article",
+    "source_url": "https://www.fastcompany.com/90974971/how-cleobella-scaled-from-an-la-farmers-market-stand-to-global-clothing-powerhouse",
+    "summary": "Fast Company reports Angela O'Brien founded Cleobella in 2006, grew it from a Los Angeles farmer's market stall, and works with artisans in Bali and elsewhere, corroborating brand credibility and origin."
+   }
+  ],
+  "name": "Cleobella",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/cleobella/",
+   "source_url": "https://linkclicky.com/affiliate-program/cleobella/",
+   "title": "Cleobella Affiliate Program via ShareASale"
+  },
+  "score": {
+   "compensation": 16,
+   "contact_access": 5,
+   "credibility": 4,
+   "niche_fit": 27,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published 20% per sale on ShareASale, the highest rate in this batch; no published cap statement so cap is unknown",
+    "contact_access": "No partnerships email published on fetched pages; NewCollab routes creators to a direct pitch only",
+    "credibility": "Founded 2006, scaled to 500+ boutiques per Fast Company, corroborated across listings",
+    "niche_fit": "Globally inspired boho fashion and accessories, exact fit for this batch",
+    "opportunity_availability": "Joinable ShareASale program listed, plus a documented gifting pitch route",
+    "ugc_evidence": "NewCollab documents a gifting programme and direct creator pitch route, though no public UGC brief"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://cleobella.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://wolventhreads.com/pages/ambassadors",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://getlasso.co/affiliate/wolven/"
+  },
+  "category_slug": "fitness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://wolventhreads.com/pages/ambassadors",
+    "email": null,
+    "source_url": "https://wolventhreads.com/pages/ambassadors"
+   }
+  ],
+  "country": "US",
+  "description": "Wolven is a sustainable fashion brand specializing in eco-friendly activewear and swimwear, listed with the website wolventhreads.com. Its official ambassador page says ambassadors earn commission selling Wolven products, create content for a chance to be featured on the Wolven Instagram, and support its mission against fast fashion, and notes its 1% for the Planet membership.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://wolventhreads.com/pages/ambassadors",
+    "summary": "Official Wolven Ambassadors page: ambassadors earn commission selling Wolven products, create beautiful content in Wolven for a chance to be featured on the Wolven Instagram @wolven, contribute to the Wolfpack Blog, and get exclusive discounts and first access; page names Alyssa as Ambassador Program Lead. No commission percentage or email is published on the fetched page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/wolven/",
+    "summary": "Lasso listing: Wolven affiliate program commission rate 10% per sale, 30-day cookie. LinkClicky listing corroborates 10% per sale on the Impact platform."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/wolven/",
+    "summary": "Commission-cap check: this listing and the Lasso listing publish a 10% rate with no statement of 'no cap', 'unlimited earnings', or an earnings-limit FAQ/term, and the official ambassador page publishes no cap statement either, so commission_cap is unknown, not uncapped."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://wolventhreads.com/pages/ambassadors",
+    "summary": "Creator-saturation check: no Beacons, CollabFeed or NewCollab creator count, sponsored-post count, or evidence of a small/new or first-creator program was found for Wolven in the fetched sources, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Wolven",
+  "opportunity": {
+   "application_url": "https://wolventhreads.com/pages/ambassadors",
+   "source_url": "https://wolventhreads.com/pages/ambassadors",
+   "title": "Wolven Ambassadors - earn commission selling Wolven products"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% per sale via Impact listings; cap unknown with no uncapped statement, so no uncapped bonus.",
+    "contact_access": "Official ambassador application page and a named Ambassador Program Lead, but no published email on the fetched page.",
+    "credibility": "Official program page plus two independent listings agree on the 10% rate and Impact platform.",
+    "niche_fit": "Sustainable activewear and swimwear is a direct fitness/activewear fit.",
+    "opportunity_availability": "Official ambassador page is live and the Impact program is listed as joinable.",
+    "ugc_evidence": "Official ambassador page explicitly invites content creation for Instagram featuring and Wolfpack Blog contribution."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://wolventhreads.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/girlfriend-collective/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://getlasso.co/affiliate/girlfriend-collective/"
+  },
+  "category_slug": "fitness",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://newcollab.co/brand/girlfriend-collective",
+    "email": null,
+    "source_url": "https://newcollab.co/brand/girlfriend-collective"
+   }
+  ],
+  "country": "US",
+  "description": "Girlfriend Collective is a Seattle-based sustainable activewear brand creating stylish workout clothes from recycled materials like water bottles and fishing nets, and is size-inclusive and ethically made. Its range spans XXS to 6XL, and it works with creators through PR gifting as well as an affiliate program listed at 10% per sale.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/girlfriend-collective/",
+    "summary": "Lasso listing: Girlfriend Collective affiliate program commission rate 10% per sale, 30-day cookie, in the Fashion category. CompareEPC's activewear table also lists Girlfriend Collective on Impact at 10%."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://compareepc.com/activewear-affiliate-programs/",
+    "summary": "CompareEPC activewear affiliate table lists Girlfriend Collective with network 'impact' and a 10% rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://newcollab.co/brand/girlfriend-collective",
+    "summary": "NewCollab PR & Influencer Gifting Program page: Girlfriend Collective works with creators through its PR team via a short email pitch, looks for around 500 followers or more with niche fit mattering more, works with creators worldwide, mainly runs a gifting programme with no fee, and states 'We haven't found a public UGC program, open brief or creator ads'; it also notes @girlfriend has 44K followers on TikTok across 18 posts. No PR email address is published in the fetched text, so none is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/girlfriend-collective/",
+    "summary": "Commission-cap check: the Lasso and CompareEPC listings publish a 10% rate with no statement of 'no cap', 'unlimited earnings', or an earnings-limit FAQ/term, so commission_cap is unknown, not uncapped."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://newcollab.co/brand/girlfriend-collective",
+    "summary": "Creator-saturation check: NewCollab gives no creator count for Girlfriend Collective and reports no public UGC program was found, and no Beacons/CollabFeed creator count was found in the fetched sources, so creator_saturation is unknown rather than low or high."
+   }
+  ],
+  "name": "Girlfriend Collective",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/girlfriend-collective/",
+   "source_url": "https://newcollab.co/brand/girlfriend-collective",
+   "title": "Girlfriend Collective Affiliate Program / PR & Influencer Gifting Program"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published 10% per sale on Impact listings; cap unknown with no uncapped statement, and PR gifting itself is no-fee.",
+    "contact_access": "PR pitch route is described on NewCollab, but no email or direct contact was published on the fetched pages, so contacts carry no email.",
+    "credibility": "Established Seattle brand; two listings agree on 10% and a podcast transcript confirms a dedicated affiliate/influencer marketing role at the brand.",
+    "niche_fit": "Size-inclusive sustainable activewear in XXS-6XL is a strong fitness fit.",
+    "opportunity_availability": "Affiliate program is listed as joinable and the PR route is open to creators with around 500+ followers worldwide.",
+    "ugc_evidence": "NewCollab verifies PR/influencer gifting for creators, but explicitly found no public UGC program or open brief."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://girlfriend.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://unboundmerino.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://unboundmerino.com/pages/affiliate-program"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://unboundmerino.com/pages/affiliate-program",
+    "email": "unboundmerinoinfluencer@accelerationpartners.com",
+    "source_url": "https://unboundmerino.com/pages/affiliate-program"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": "https://unboundmerino.com/pages/affiliate-program",
+    "email": "unboundmerino@accelerationpartners.com",
+    "source_url": "https://unboundmerino.com/pages/affiliate-program"
+   }
+  ],
+  "country": null,
+  "description": "Unbound Merino was created by three friends looking to pack light and own less, according to its official affiliate page. A network listing describes it as crafting high-quality, versatile merino wool clothing designed for the modern traveler seeking style and functionality. Its program works with media publishers, bloggers, review sites and creators across YouTube, Instagram, TikTok and Facebook.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://unboundmerino.com/pages/affiliate-program",
+    "summary": "Official affiliate page states: 'The program offers a 10-12% baseline commission on all orders through your links, with a 30-day cookie window.' It says applicants must first become a member of the Impact network, its third-party program administrator, and should receive a confirmation within 24 to 48 hours. Commission rate is recorded as 10, the low end of the published 10-12% baseline range."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://unboundmerino.com/pages/affiliate-program",
+    "summary": "Commission-cap check: the fetched official affiliate page contains no 'no cap', 'unlimited earnings', earnings-limit FAQ or program-terms statement about a commission cap. A published percentage alone is not an uncapped statement, so commission_cap is 'unknown', not 'uncapped'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://unboundmerino.com/pages/affiliate-program",
+    "summary": "Creator-saturation check: no creator count, sponsored-post count or Beacons/CollabFeed/NewCollab figure was found on the fetched official page or listings, so creator_saturation is 'unknown', not 'low'. The same page does evidence creator work: 'We typically work with creators on a CPA (Cost Per Acquisition) basis and we're also willing to offer samples depending on the opportunity.'"
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://unboundmerino.com/pages/affiliate-program",
+    "summary": "Two emails are published on the official page: unboundmerino@accelerationpartners.com for affiliate-program help if no confirmation email arrives, and unboundmerinoinfluencer@accelerationpartners.com for discussing influencer/creator partnerships outside the affiliate program."
+   }
+  ],
+  "name": "Unbound Merino",
+  "opportunity": {
+   "application_url": "https://unboundmerino.com/pages/affiliate-program",
+   "source_url": "https://unboundmerino.com/pages/affiliate-program",
+   "title": "Unbound Merino Affiliate Program (via Impact)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 15,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Published 10-12% baseline on the official page, but no published cap statement, so no uncapped credit.",
+    "contact_access": "Two published emails, including a dedicated influencer partnerships address.",
+    "credibility": "Established DTC travel-apparel brand with a detailed official program FAQ.",
+    "niche_fit": "Merino travel clothing built for packing light; squarely travel-clothing for the directory.",
+    "opportunity_availability": "Joinable now via Impact from the official page, with confirmation stated at 24-48 hours.",
+    "ugc_evidence": "Official page explicitly works with YouTube/Instagram/TikTok/Facebook creators on CPA and offers samples depending on opportunity."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://unboundmerino.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "AvantLink",
+   "source_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program",
+    "email": null,
+    "source_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program"
+   }
+  ],
+  "country": null,
+  "description": "Pacsafe's own partner page describes it as a global anti-theft bag brand trusted in 90+ countries since 1998. A travel affiliate review summarises it as a well-known travel gear brand specialising in anti-theft backpacks, bags and accessories designed to help travellers protect their valuables on the go. Its official affiliate page targets sustainable and solo travellers and offers collaboration opportunities.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program",
+    "summary": "Official affiliate page states: 'Join the Pacsafe family with our premium affiliate program, offering an 8% commission on sales' and 'Being a Pacsafe affiliate, you will earn a 8% commission, get 60 day cookie tracking and have the opportunity to collaborate with us.' Its Join Our Program / More Info links point to avantlink.com, evidencing AvantLink as the network route."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program",
+    "summary": "Commission-cap check: the fetched official affiliate page contains no 'no cap', 'unlimited earnings', earnings-limit FAQ or terms statement about a commission cap. A published 8% rate alone is not an uncapped statement, so commission_cap is 'unknown', not 'uncapped'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program",
+    "summary": "Creator-saturation check: no creator count, sponsored-post count or Beacons/CollabFeed/NewCollab figure was found on the fetched official page or listings, so creator_saturation is 'unknown', not 'low'. Creator relevance is evidenced by the page's invitation to sustainable/solo travellers and its stated opportunity to collaborate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.pacsafe.marketing/",
+    "summary": "Pacsafe's partner page describes Pacsafe as 'a global anti-theft bag brand, trusted in 90+ countries since 1998', supporting the brand description and credibility. That page is an agency performance-partner offer, not the creator affiliate route, so it was not used for the affiliate rate."
+   }
+  ],
+  "name": "Pacsafe",
+  "opportunity": {
+   "application_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program",
+   "source_url": "https://pacsafe.com/en-ca/pages/pacsafe-affiliate-program",
+   "title": "Pacsafe Affiliate Program (via AvantLink)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Published 8% with a 60-day cookie on the official page, but no published cap statement.",
+    "contact_access": "No published email on the fetched page; access is via the AvantLink join links only.",
+    "credibility": "Brand states it has been trusted in 90+ countries since 1998.",
+    "niche_fit": "Anti-theft travel backpacks and bags are a core travel-gear fit.",
+    "opportunity_availability": "Joinable now through the Join Our Program links on the official page.",
+    "ugc_evidence": "Official page invites travellers to join and collaborate, but gives less creator-specific detail than Unbound Merino."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://pacsafe.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.avantlink.com/signup/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "AvantLink",
+   "source_url": "https://onemorecupof-coffee.com/best-travel-accessories-affiliate-programs/"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.avantlink.com/signup/affiliate",
+    "email": null,
+    "source_url": "https://onemorecupof-coffee.com/best-travel-accessories-affiliate-programs/"
+   }
+  ],
+  "country": null,
+  "description": "A travel brands directory describes Tortuga as making carry-on travel backpacks, daypacks and travel accessories for city travel. A travel-accessories affiliate listing adds that Tortuga is best known for its travel backpacks and also sells small daily backpacks, travel cubes and waterproof covers for backpacks. Its affiliate program is reported to run through AvantLink, with separate options for website publishers and social media influencers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-travel-accessories-affiliate-programs/",
+    "summary": "Listing states for Tortuga: Commission 10%, Cookie 60 days, 'The affiliate program is run through AvantLink, and there are separate options for website publishers and social media influencers' and 'High-performing affiliates can get sample products to review.' The same 10% / 60-day / AvantLink terms are corroborated by a second fetched listing at runtheaffiliatemarket.com and by carlbroadbent.com. No official Tortuga affiliate page was located in search, so this rate is listing-sourced, not official-site verified."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-travel-accessories-affiliate-programs/",
+    "summary": "Commission-cap check: none of the fetched Tortuga listings contains a 'no cap', 'unlimited earnings', earnings-limit FAQ or program-terms statement about a commission cap. A published 10% rate alone is not an uncapped statement, so commission_cap is 'unknown', not 'uncapped'."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "article",
+    "source_url": "https://fairing.co/customers/tortuga-backpacks",
+    "summary": "Creator-saturation check: no creator count, sponsored-post count or Beacons/CollabFeed/NewCollab figure was found, so creator_saturation is 'unknown', not 'low'. The fetched Fairing case study does show a mature affiliate/influencer channel — it reports affiliate or influencer referrals drove 49% of Tortuga's business per customer responses and that Tortuga formalised seeding 15-20 sample packages per launch — which is why saturation is not claimed as low."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.bravodm.com/brands/category/travel",
+    "summary": "BravoDM's travel brands directory, checked October 2026, lists Tortuga as 'Carry-on travel backpacks, daypacks and travel accessories for city travel' and lists it among travel brands with creator programs, supporting niche fit and that a creator route exists."
+   }
+  ],
+  "name": "Tortuga Backpacks",
+  "opportunity": {
+   "application_url": "https://www.avantlink.com/signup/affiliate",
+   "source_url": "https://onemorecupof-coffee.com/best-travel-accessories-affiliate-programs/",
+   "title": "Tortuga Affiliate Program via AvantLink (publisher and influencer options)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 5,
+   "credibility": 4,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% with a 60-day cookie reported consistently across multiple listings, but not on an official Tortuga page and with no published cap statement.",
+    "contact_access": "No published email found; access is only via the AvantLink affiliate application.",
+    "credibility": "Long-running travel backpack brand, but program terms here rest on listings rather than an official program page.",
+    "niche_fit": "Carry-on travel backpacks and travel accessories are a direct travel-gear fit.",
+    "opportunity_availability": "Joinable via AvantLink, though one listing reports traffic/authority thresholds favouring larger publishers, so availability is not fully open.",
+    "ugc_evidence": "Listings report a separate social-media-influencer option and sample products for high-performing affiliates; Fairing documents an active influencer seeding process."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.tortugabackpacks.com"
+ }
+]

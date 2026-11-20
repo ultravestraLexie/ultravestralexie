@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Real Mushrooms",
+    "website": "https://realmushrooms.com",
+    "country": "Canada",
+    "category_slug": "wellness",
+    "description": "Real Mushrooms sells organic mushroom supplement extract powders and capsules, built on transparency, quality and education. Beacons Universe lists it as a health & wellness brand based in Calgary, Canada, and its own affiliate page calls it the '#1 Rated Mushroom Supplement Brand'.",
+    "contacts": [
+      {"contact_type": "general", "email": "hello@realmushrooms.com", "contact_url": "https://realmushrooms.com/pages/contact-us", "source_url": "https://realmushrooms.com/pages/contact-us"},
+      {"contact_type": "creator_application", "email": null, "contact_url": "https://api.socialsnowball.io/register-form/18985/e3b65cb9-3ff9-46b3-b474-cd1fa5ec49c2", "source_url": "https://realmushrooms.com/pages/affiliate-program"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://realmushrooms.com/pages/affiliate-program", "summary": "Official affiliate page: 'Earn 15% commission on every sale you refer' and VERBATIM cap wording: 'No cap on earnings'. Also 30-day cookie, monthly PayPal payouts over $100, Creator Marketing Kit, applicants must be based in Canada or the United States, 18+.", "confidence": "verified"},
+      {"evidence_type": "affiliate", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/real-mushrooms", "summary": "Beacons Universe: 26 creators all time, 2 posted in last 30 days, 16 public posts in last 12 months — low creator count.", "confidence": "verified"},
+      {"evidence_type": "contact", "source_type": "official_site", "source_url": "https://realmushrooms.com/pages/contact-us", "summary": "Official contact page lists hello@realmushrooms.com and states the affiliate page offers support from a Partnerships Manager (no partnerships email published).", "confidence": "verified"}
+    ],
+    "affiliate": {"network": "Social Snowball", "commission_rate": 15, "application_url": "https://api.socialsnowball.io/register-form/18985/e3b65cb9-3ff9-46b3-b474-cd1fa5ec49c2", "source_url": "https://realmushrooms.com/pages/affiliate-program", "commission_cap": "uncapped", "creator_saturation": "low"},
+    "opportunity": {"title": "Real Mushrooms Affiliate Program", "application_url": "https://api.socialsnowball.io/register-form/18985/e3b65cb9-3ff9-46b3-b474-cd1fa5ec49c2", "source_url": "https://realmushrooms.com/pages/affiliate-program"},
+    "score": {"niche_fit": 28, "ugc_evidence": 18, "compensation": 19, "contact_access": 10, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Mushroom wellness supplements, direct Ultra Vestra health/wellness fit", "ugc_evidence": "26 Beacons creators plus Creator Marketing Kit on official page", "compensation": "Published 15% AND explicit 'No cap on earnings'", "contact_access": "Open application form + general email, but no published partnerships/affiliate email", "opportunity_availability": "Live application, personally reviewed", "credibility": "Official program page and contact page verified"}}
+  },
+  {
+    "name": "Needed",
+    "website": "https://thisisneeded.com",
+    "country": "United States",
+    "category_slug": "health",
+    "description": "Needed makes perinatal and prenatal nutrition products, with HQ in West Los Angeles per its official FAQ. Its Needed Academy is a free education program for affiliate, ambassador and practitioner partners, and its Partner Hub pays partners commission via ShopMy, Impact and TikTok Shop plus a paid UGC program.",
+    "contacts": [
+      {"contact_type": "partnerships", "email": "ambassadors@thisisneeded.com", "contact_url": null, "source_url": "https://www.neededpartnerhub.com/"},
+      {"contact_type": "general", "email": "hello@thisisneeded.com", "contact_url": null, "source_url": "https://thisisneeded.com/pages/faq"},
+      {"contact_type": "partnerships", "email": "practitioners@thisisneeded.com", "contact_url": null, "source_url": "https://thisisneeded.com/pages/faq"}
+    ],
+    "socials": [
+      {"platform": "Instagram", "handle": "@needed", "url": "https://www.instagram.com/needed"}
+    ],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.neededpartnerhub.com/", "summary": "Official Needed Partner Hub fetched: 'ShopMy — 16% commission on every sale. Impact — Up to $75 per new customer you influence. TikTok Shop — Up to 20% commission on every sale.' Also: 'Top partners are making thousands monthly.' That earnings line is NOT an explicit no-cap/unlimited statement, and no other cap wording appears — commission_cap is unknown. Ambassador contact on the page: ambassadors@thisisneeded.com. Rate field = 20, the highest published % (TikTok Shop).", "confidence": "verified"},
+      {"evidence_type": "ugc_collab", "source_type": "official_site", "source_url": "https://www.neededpartnerhub.com/", "summary": "Partner Hub: 'Join our UGC Program and create content for Needed to launch in paid ads. We'll pay you $100 for every selected piece.' Perks also include regular gifting to creators, increased-commission opportunities, content boosting, and top-partner paid campaigns, whitelisting, event invites and features.", "confidence": "verified"},
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://thisisneeded.com/pages/needed-academy", "summary": "Official Needed Academy page: completing the free program and a short quiz lets you 'partner with us, which unlocks perks including commission, free products, discounts to share with your community, exclusive sneak peeks.' It also states partners 'join our community of thousands of partners for life' — evidence of a large existing partner base, recorded as high creator saturation.", "confidence": "verified"},
+      {"evidence_type": "contact", "source_type": "official_site", "source_url": "https://thisisneeded.com/pages/faq", "summary": "Official FAQ: 'you can email us at hello@thisisneeded.com or message us through Instagram at @needed'; 'Needed HQ is located in sunny West Los Angeles'; for the Practitioner Referral Program rewards, 'email us at practitioners@thisisneeded.com'.", "confidence": "verified"}
+    ],
+    "affiliate": {"network": "ShopMy, Impact, TikTok Shop", "commission_rate": 20, "application_url": "https://www.neededpartnerhub.com/", "source_url": "https://www.neededpartnerhub.com/", "commission_cap": "unknown", "creator_saturation": "high"},
+    "opportunity": {"title": "Needed UGC Program — $100 for every selected piece (via Partner Hub)", "application_url": "https://www.neededpartnerhub.com/", "source_url": "https://www.neededpartnerhub.com/"},
+    "score": {"niche_fit": 26, "ugc_evidence": 18, "compensation": 14, "contact_access": 13, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Perinatal nutrition is a strong, specific health niche", "ugc_evidence": "Explicit paid UGC program ($100 per selected piece) plus gifting and content boosting on official Partner Hub", "compensation": "Multiple published rates (16% ShopMy, up to $75 Impact, up to 20% TikTok Shop) but no explicit uncapped statement", "contact_access": "Published ambassadors email plus Partner Hub and Academy application routes", "opportunity_availability": "Partner Hub, Academy/Champion route and UGC program all open", "credibility": "Practitioner-developed positioning, HQ and full FAQ on official domain"}}
+  },
+  {
+    "name": "Curious Elixirs",
+    "website": "https://curiouselixirs.com/",
+    "country": "United States",
+    "category_slug": "food-drink",
+    "description": "Curious Elixirs are sophisticated nonalcoholic craft drinks inspired by cocktails, wine, and beer, made with real fruit juices, herbs, spices and botanical extracts. Each Elixir is infused with adaptogens like ashwagandha, lion's mane, and ginseng to boost mood and help unwind, with zero alcohol and no added sugar.",
+    "contacts": [
+      {"contact_type": "general", "email": "gethelp@curiouselixirs.com", "contact_url": null, "source_url": "https://curiouselixirs.com/pages/affiliate-program"},
+      {"contact_type": "partnerships", "email": "gethelp@curiouselixirs.com", "contact_url": null, "source_url": "https://curiouselixirs.com/pages/faq-1"},
+      {"contact_type": "creator_application", "email": null, "contact_url": "https://curiouselixirs.com/pages/curious-elixirs-ambassador-program", "source_url": "https://curiouselixirs.com/pages/curious-elixirs-ambassador-program"}
+    ],
+    "socials": [
+      {"platform": "tiktok", "handle": "@curiouselixirs", "url": "https://www.tiktok.com/@curiouselixirs"}
+    ],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://curiouselixirs.com/pages/affiliate-program", "summary": "Official affiliate page: 'Commissions start at 10% for most eligible partners.' 'Curious Elixirs has partnered with Impact and will pay you through your account on the Impact platform.' No cap / no 'unlimited' / 'no cap' wording found on the fetched page, so cap is unknown, not uncapped.", "confidence": "verified"},
+      {"evidence_type": "ugc_collab", "source_type": "official_site", "source_url": "https://curiouselixirs.com/pages/curious-elixirs-ambassador-program", "summary": "Ambassador program is separate and unpaid: 'Ambassadors are not compensated; however, you will get some free Curious Elixirs to taste, create content around (if you wish) and share with friends.' 'Space in our program is limited, so we can't select everyone that applies.' Page directs earners to the Affiliate program.", "confidence": "verified"},
+      {"evidence_type": "contact", "source_type": "official_site", "source_url": "https://curiouselixirs.com/pages/faq-1", "summary": "FAQ contact section: PARTNERS 'Email us at gethelp@curiouselixirs.com', content creators directed to a form, and 'Members of our affiliate program can earn money by promoting Curious Elixirs to their audiences.' Also states shipping within the United States.", "confidence": "verified"}
+    ],
+    "affiliate": {"network": "Impact", "commission_rate": 10, "application_url": "https://curiouselixirs.com/pages/affiliate-program", "source_url": "https://curiouselixirs.com/pages/affiliate-program", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Curious Elixirs Affiliate Program (Impact) + unpaid Brand Ambassador Program", "application_url": "https://curiouselixirs.com/pages/affiliate-program", "source_url": "https://curiouselixirs.com/pages/affiliate-program"},
+    "score": {"niche_fit": 28, "ugc_evidence": 16, "compensation": 10, "contact_access": 13, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Booze-free adaptogen cocktails directly match sober-curious / wellness drink niche", "ugc_evidence": "Official ambassador page explicitly asks ambassadors to create content around free product", "compensation": "Published 10% starting rate on official site, but no explicit uncapped statement, so cannot score high", "contact_access": "Published general/partnerships email gethelp@curiouselixirs.com plus affiliate and ambassador application routes", "opportunity_availability": "Open affiliate signup via Impact and open ambassador application, though ambassador space is limited", "credibility": "All key terms verified on the brand's own site"}}
+  },
+  {
+    "name": "Anima Mundi Herbals",
+    "website": "https://www.animamundiherbals.com",
+    "country": "United States",
+    "category_slug": "wellness",
+    "description": "Brooklyn apothecary brand founded by herbalist Adriana Ayales bridging ancient remedies to the modern world with potent, ethically sourced botanicals. Offers herbal extracts, powders, teas and elixirs sourced from ethical farms across the Americas and Asia.",
+    "contacts": [
+      {"contact_type": "partnerships", "email": "partnerships@animamundiherbals.com", "contact_url": "https://animamundiherbals.grin.live/", "source_url": "https://animamundiherbals.grin.live/"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://animamundiherbals.grin.live/", "summary": "Official GRIN page: 'Join the Anima Mundi Herbals affiliate program!' — partners get early access to releases, curated imagery/creative assets/copy and partner-only offerings; 'We keep our partnerships considered and collaborative.' Application form on page. NO commission rate published and NO earnings-cap wording ('no cap'/'unlimited') on the page, so cap = unknown. Verbatim contact notice: 'all official partnership and affiliate inquiries from Anima Mundi Herbals will come exclusively from partnerships@animamundiherbals.com.'", "confidence": "verified"},
+      {"evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/anima-mundi-apothecary/", "summary": "Third-party listing reports 'Up to 10.5%' commission, 14-day cookie — not published on the brand's own program page and carries no cap statement; treated as publicly reported only.", "confidence": "publicly_reported"},
+      {"evidence_type": "general", "source_type": "listing", "source_url": "https://www.zoominfo.com/c/anima-mundi-herbals/369175724", "summary": "'Anima Mundi Herbals specializes in crafting high-quality plant medicines, including herbal extracts, powders, and teas, sourced from ethical farms across the Americas and Asia. Founded by herbalist Adriana Ayales.' Official website listed as www.animamundiherbals.com.", "confidence": "publicly_reported"}
+    ],
+    "affiliate": {"network": "GRIN", "commission_rate": 10.5, "application_url": "https://animamundiherbals.grin.live/", "source_url": "https://animamundiherbals.grin.live/", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Anima Mundi Herbals Affiliate Program", "application_url": "https://animamundiherbals.grin.live/", "source_url": "https://animamundiherbals.grin.live/"},
+    "score": {"niche_fit": 27, "ugc_evidence": 16, "compensation": 8, "contact_access": 13, "opportunity_availability": 8, "credibility": 5, "reasons": {"niche_fit": "Herbal apothecary/ritual wellness is a core Ultra Vestra niche fit", "ugc_evidence": "Official page actively recruits creators who share on wellness, food and ritual, with creative assets provided", "compensation": "Rate unpublished on official page (listing reports up to 10.5%) and no uncapped statement, so capped at mid-low per rubric", "contact_access": "Published partnerships@ email PLUS on-page application form — top band", "opportunity_availability": "Live GRIN application, though partnerships are curated/reviewed", "credibility": "Established brand, USDA-organic positioning, retail presence incl. Ulta/Thrive"}}
+  },
+  {
+    "name": "Perelel",
+    "website": "https://perelelhealth.com/",
+    "country": "United States",
+    "category_slug": "health",
+    "description": "Perelel is a direct-to-consumer women's health company and the first and only OB/GYN-founded vitamin brand, offering targeted, stage-specific nutrition for fertility, menstrual health, pregnancy, postpartum and beyond. Its official affiliate page invites affiliates with a social audience or notable blog to share Perelel and educate their community.",
+    "contacts": [
+      {"contact_type": "creator_application", "email": null, "contact_url": "https://perelelhealth.com/pages/affiliate", "source_url": "https://perelelhealth.com/pages/affiliate"}
+    ],
+    "socials": [
+      {"platform": "instagram", "handle": "@perelelhealth", "url": "https://www.instagram.com/perelelhealth"},
+      {"platform": "tiktok", "handle": "@perelelhealth", "url": "https://www.tiktok.com/@perelelhealth"}
+    ],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://perelelhealth.com/pages/affiliate", "summary": "Official Affiliate page fetched in full: 'Receive minimum 15% commission on sales from affiliate links' and 'Earn minimum 15% commission on purchases made through your link & code'; 'Apply via our Impact affiliate program and create your profile'; perks include free products and unique discount codes. The contact email on the page was masked in fetched text, so no email is recorded. No cap/uncapped wording found.", "confidence": "verified"},
+      {"evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://www.systemaic.com/teardowns/perelel", "summary": "Teardown reports 'Dozens of creator posts tagging @Perelel' and creator ShopMy codes (e.g. individual creator codes) plus a TikTok Shop presence. Dozens is not enough evidence for low or clearly high saturation, so saturation stays unknown.", "confidence": "publicly_reported"},
+      {"evidence_type": "general", "source_type": "official_site", "source_url": "https://perelelhealth.com/blogs/news/social-media-coordinator", "summary": "Official Perelel page describes it as 'a direct-to-consumer women's health company' and 'The first and only OB/GYN-founded vitamin brand, Perelel offers targeted nutrition for different stages of a woman's hormonal journey', headquartered in Santa Monica, CA in its hiring pages.", "confidence": "verified"}
+    ],
+    "affiliate": {"network": "Impact", "commission_rate": 15, "application_url": "https://perelelhealth.com/pages/affiliate", "source_url": "https://perelelhealth.com/pages/affiliate", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Perelel Affiliate Program via Impact", "application_url": "https://perelelhealth.com/pages/affiliate", "source_url": "https://perelelhealth.com/pages/affiliate"},
+    "score": {"niche_fit": 22, "ugc_evidence": 14, "compensation": 12, "contact_access": 10, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Stage-specific women's health vitamins are a strong health/wellness fit, narrower to women/motherhood audiences.", "ugc_evidence": "Official affiliate/advocate structure plus dozens of creator posts and individual ShopMy creator codes reported.", "compensation": "Minimum 15% published on the official page, but no explicit uncapped statement, so not top band.", "contact_access": "Clear Impact application route on official page, but the affiliate contact email was masked in fetched text and could not be recorded.", "opportunity_availability": "Live JOIN THE PROGRAM / Impact application linked directly from the official page.", "credibility": "Rate, network and perks all verified on perelelhealth.com."}}
+  },
+  {
+    "name": "Further Food",
+    "website": "https://www.furtherfood.com/",
+    "country": "United States",
+    "category_slug": "wellness",
+    "description": "Further Food is a women- and minority-owned US supplements brand inspired by Eastern remedies and backed by modern science, selling collagen peptides, creatine, gelatin, plant-based protein and superfood turmeric made with real-food ingredients. Its site states products are health-expert approved and 3rd-party tested.",
+    "contacts": [
+      {"contact_type": "general", "email": "wecare@furtherfood.com", "contact_url": null, "source_url": "https://www.furtherfood.com/pages/accessibility"},
+      {"contact_type": "creator_application", "email": null, "contact_url": "https://furtherfood.refersion.com/affiliate/registration", "source_url": "https://furtherfood.refersion.com/"}
+    ],
+    "socials": [],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://furtherfood.refersion.com/", "summary": "Official Refersion program terms, fetched in full: 'Commission amount: 10% on all sales made through unique link and/or discount code*', '*Contingent on sales volume', 30-day cookie, $10 payout minimum, up to 18% off code for audience. Ambassadors must post at least 1x/month and make at least 3 sales/month. NO cap / unlimited / no-cap wording anywhere in the terms — cap is unknown, not uncapped.", "confidence": "verified"},
+      {"evidence_type": "contact", "source_type": "official_site", "source_url": "https://www.furtherfood.com/pages/accessibility", "summary": "Official site publishes wecare@furtherfood.com for customer service. No dedicated partnerships/affiliate email in the program terms.", "confidence": "verified"},
+      {"evidence_type": "general", "source_type": "official_site", "source_url": "https://www.furtherfood.com/", "summary": "Official homepage: 'Inspired by Eastern remedies, backed by modern science', Women & Minority Owned, Health Expert Approved, 3rd Party Tested, Real Food Ingredients; testimonial credited to 'Bella, Ambassador'.", "confidence": "verified"}
+    ],
+    "affiliate": {"network": "Refersion", "commission_rate": 10, "application_url": "https://furtherfood.refersion.com/affiliate/registration", "source_url": "https://furtherfood.refersion.com/", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Further Food Ambassador / Health Professional Program", "application_url": "https://furtherfood.refersion.com/affiliate/registration", "source_url": "https://furtherfood.refersion.com/"},
+    "score": {"niche_fit": 25, "ugc_evidence": 15, "compensation": 10, "contact_access": 8, "opportunity_availability": 9, "credibility": 5, "reasons": {"niche_fit": "Collagen/real-food supplements fit wellness niche strongly", "ugc_evidence": "Official Ambassador program requires monthly Instagram/TikTok posting; ambassador testimonials on site", "compensation": "Official published 10% rate, but no explicit uncapped statement", "contact_access": "Open application route plus general email; no published partnerships email", "opportunity_availability": "Open Refersion registration, review up to 2 weeks per terms", "credibility": "Full official program terms, established brand, 3rd-party tested claims"}}
+  },
+  {
+    "name": "Timeline (Mitopure)",
+    "website": "https://www.timeline.com/",
+    "country": "Switzerland",
+    "category_slug": "health",
+    "description": "Timeline is a Swiss science-first longevity brand dedicated to improving healthspan, built around Mitopure, its patented Urolithin A ingredient clinically shown to support mitochondrial and cellular health. Its official affiliate page says it has been committed to longevity for 18+ years and runs separate Creator and Impact affiliate programs.",
+    "contacts": [
+      {"contact_type": "partnerships", "email": "affiliates@timeline.com", "contact_url": "https://www.timeline.com/pages/affiliate-program", "source_url": "https://www.timeline.com/pages/affiliate-program"},
+      {"contact_type": "general", "email": "care@timeline.com", "contact_url": null, "source_url": "https://www.timeline.com/pages/affiliate-program"}
+    ],
+    "socials": [
+      {"platform": "instagram", "handle": "@timeline_longevity", "url": "https://www.instagram.com/timeline_longevity"},
+      {"platform": "facebook", "handle": "TimelineLongevity", "url": "https://www.facebook.com/TimelineLongevity"},
+      {"platform": "youtube", "handle": "@timelinelongevity", "url": "https://www.youtube.com/@timelinelongevity/videos"},
+      {"platform": "tiktok", "handle": "@timelinelongevity", "url": "https://www.tiktok.com/@timelinelongevity"}
+    ],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.timeline.com/pages/affiliate-program", "summary": "Official Affiliate Page fetched in full: Apply / Get approved / Share / Earn monthly commissions. FAQ: 'The Creator Affiliate Program is for individual creators and influencers who create content on social media. The Impact Affiliate Program is for publishers, websites, blogs, newsletters' ; 'Anyone 18+ with an active audience in the United States, France, Switzerland, the United Kingdom, Germany, and Canada can apply' ; 'Creators are paid via Paypal on a monthly basis. Impact partners are paid through Impact.com' ; 'You can email affiliates@timeline.com with questions about either program.' No commission % and no cap/uncapped wording on this page.", "confidence": "verified"},
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.timeline.com/promotions/timeline-mitopure-events", "summary": "Official Timeline promotion page in search results describes an Affiliate Community Program: 'Share a discount code with your community / Earn 10% / Earn 10% of all valid redemptions / Unlock more rewards as you hit sales targets.' No cap statement.", "confidence": "verified"},
+      {"evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://newcollab.co/brand/timeline", "summary": "NewCollab: 'We haven't found a public UGC program, open brief or creator ads from Timeline' and 'Timeline doesn't publish UGC rates'; collaboration type listed as affiliate commission on sales, minimum 500+ followers noted. This is absence of UGC evidence, not a creator-count proving low saturation, so saturation stays unknown.", "confidence": "publicly_reported"},
+      {"evidence_type": "general", "source_type": "listing", "source_url": "https://newcollab.co/brand/timeline", "summary": "NewCollab describes Timeline as 'a Swiss science-first longevity brand dedicated to improving people's healthspan' backed by +15 years of research on Mitopure.", "confidence": "publicly_reported"}
+    ],
+    "affiliate": {"network": "Impact", "commission_rate": 10, "application_url": "https://www.timeline.com/pages/affiliate-program", "source_url": "https://www.timeline.com/pages/affiliate-program", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Creator Affiliate Program / Impact Affiliate Program", "application_url": "https://www.timeline.com/pages/affiliate-program", "source_url": "https://www.timeline.com/pages/affiliate-program"},
+    "score": {"niche_fit": 24, "ugc_evidence": 8, "compensation": 10, "contact_access": 13, "opportunity_availability": 8, "credibility": 5, "reasons": {"niche_fit": "Longevity, mitochondria and healthy aging are a strong health/wellness fit.", "ugc_evidence": "Creator program exists officially, but NewCollab found no public UGC program/brief.", "compensation": "10% shown on an official community-program page, but main affiliate page publishes no rate and no uncapped statement.", "contact_access": "Published affiliates@timeline.com plus a clear application route on the official page.", "opportunity_availability": "Open application for creators 18+ in listed countries, decision within seven business days per FAQ.", "credibility": "Full official affiliate FAQ, contact and socials verified on timeline.com."}}
+  },
+  {
+    "name": "Sprout Living",
+    "website": "https://sproutliving.com",
+    "country": "United States",
+    "category_slug": "food-drink",
+    "description": "Sprout Living crafts organic, plant-based protein powders, adaptogenic drink mixes and single-ingredient superfood powders made from 100% real whole-food ingredients, per its own site. Its affiliate page invites passionate individuals who engage with their audience to help spread healthy habits with real healthy products.",
+    "contacts": [
+      {"contact_type": "creator_application", "email": null, "contact_url": "https://sproutliving.com/pages/affiliates", "source_url": "https://sproutliving.com/pages/affiliates"},
+      {"contact_type": "general", "email": "care@sproutliving.com", "contact_url": null, "source_url": "https://sproutliving.com/pages/privacy-policy"}
+    ],
+    "socials": [
+      {"platform": "Instagram", "handle": "@sproutliving", "url": "https://www.instagram.com/sproutliving"}
+    ],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://sproutliving.com/pages/affiliates", "summary": "Official Affiliates page fetched: 'Earn 10-25% commissions on all sales generated, and track your sales through your affiliate dashboard. Get paid as soon as you hit $50 in commissions.' Setup gives a custom code and link. NO cap / no-cap wording appears on the page — commission_cap is unknown despite the published % range.", "confidence": "verified"},
+      {"evidence_type": "contact", "source_type": "official_site", "source_url": "https://sproutliving.com/pages/privacy-policy", "summary": "Official privacy policy lists Sprout Living contact information as care@sproutliving.com, PO Box 14188, Chicago, IL 60614, United States.", "confidence": "verified"},
+      {"evidence_type": "general", "source_type": "official_site", "source_url": "https://sproutliving.com/blogs/news/2024-healthy-holiday-gift-guide", "summary": "Sprout Living's own blog post refers readers to its Instagram as @sproutliving and describes its products as organic, plant-based protein powders, adaptogenic drink mixes, probiotic almonds and vitamin sprays.", "confidence": "verified"}
+    ],
+    "affiliate": {"network": null, "commission_rate": 25, "application_url": "https://sproutliving.com/pages/affiliates", "source_url": "https://sproutliving.com/pages/affiliates", "commission_cap": "unknown", "creator_saturation": "unknown"},
+    "opportunity": {"title": "Become a Sprout Living Affiliate (10-25% commission)", "application_url": "https://sproutliving.com/pages/affiliates", "source_url": "https://sproutliving.com/pages/affiliates"},
+    "score": {"niche_fit": 26, "ugc_evidence": 8, "compensation": 12, "contact_access": 8, "opportunity_availability": 9, "credibility": 4, "reasons": {"niche_fit": "Organic plant-based protein and superfoods fit food-drink/wellness directly", "ugc_evidence": "Affiliate program targets community creators, but no explicit paid UGC program found", "compensation": "Published 10-25% range (rate field = 25, the top of the range) but no explicit uncapped statement", "contact_access": "Application form plus a published general email, but no dedicated partnerships email", "opportunity_availability": "Affiliate application is open on the official page", "credibility": "Established brand with full policy/contact pages on its own domain"}}
+  },
+  {
+    "name": "Silver Fern Brand",
+    "website": "https://www.silverfernbrand.com",
+    "country": "United States",
+    "category_slug": "wellness",
+    "description": "Silver Fern Brand is a dietary supplements and gut-health wellness company based in Salt Lake City, United States, offering probiotics, prebiotics and supplements for digestive health, stress and metabolism. Its ambassador program rewards authentic sharing, campaigns and content creation with points for free products.",
+    "contacts": [
+      {"contact_type": "creator_application", "email": null, "contact_url": "https://www.silverfernbrand.com/pages/brand-ambassador", "source_url": "https://www.silverfernbrand.com/pages/brand-ambassador"}
+    ],
+    "socials": [
+      {"platform": "instagram", "handle": "silverfernbrand", "url": "https://www.instagram.com/silverfernbrand/"}
+    ],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://www.silverfernbrand.com/pages/brand-ambassador", "summary": "Official Ambassador page: points for referred orders/campaigns redeemable for free products; tiers Tier 1 300 points=$30 in free products up to Tier 5 1,600 points=$100 in free products + Elite eligibility; 'Ambassadors who reach Tier 5 earn access to our Elite Ambassador Program, allowing them to receive 10% commission on referred orders'. NO cap/unlimited wording for that 10% — base rewards are finite product tiers. Questions phone (888)-525-9605, no email published.", "confidence": "verified"},
+      {"evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/silver-fern-brand", "summary": "Beacons Universe: 25 creators all time, 0 creators in last 30 days to 2026-11-20, only 1 public post in last 12 months — low saturation.", "confidence": "verified"}
+    ],
+    "affiliate": {"network": null, "commission_rate": 10, "application_url": "https://www.silverfernbrand.com/pages/brand-ambassador", "source_url": "https://www.silverfernbrand.com/pages/brand-ambassador", "commission_cap": "unknown", "creator_saturation": "low"},
+    "opportunity": {"title": "Silver Fern Brand Ambassador Program (Elite: 10% commission)", "application_url": "https://www.silverfernbrand.com/pages/brand-ambassador", "source_url": "https://www.silverfernbrand.com/pages/brand-ambassador"},
+    "score": {"niche_fit": 26, "ugc_evidence": 14, "compensation": 8, "contact_access": 6, "opportunity_availability": 8, "credibility": 4, "reasons": {"niche_fit": "Gut-health supplements, strong wellness/food fit", "ugc_evidence": "Official ambassador campaigns/feature promise plus 25 Beacons creators", "compensation": "Cash 10% only after Tier 5; base pay is capped product-point tiers, no uncapped statement", "contact_access": "Ambassador application page + phone, no published email", "opportunity_availability": "Open ambassador page on own site", "credibility": "Official program page and Beacons brand page verified"}}
+  },
+  {
+    "name": "Just Thrive",
+    "website": "https://justthrivehealth.com/",
+    "country": "United States",
+    "category_slug": "health",
+    "description": "Just Thrive makes spore-based probiotic and gut-health supplements; its official affiliate toolkit says its probiotic is the only probiotic to arrive 100% alive to the digestive tract, where it creates antioxidants and supports a balanced microbiome. The brand runs an affiliate program through Refersion with dedicated affiliate contacts and swipe copy, photos and social examples for partners.",
+    "contacts": [
+      {"contact_type": "partnerships", "email": "Beth@justthrivehealth.com", "contact_url": "https://justthrivehealth.com/pages/affiliate-tool-kit", "source_url": "https://justthrivehealth.com/pages/affiliate-tool-kit"},
+      {"contact_type": "partnerships", "email": "Sara@justthrivehealth.com", "contact_url": "https://justthrivehealth.com/pages/affiliate-tool-kit", "source_url": "https://justthrivehealth.com/pages/affiliate-tool-kit"},
+      {"contact_type": "general", "email": "support@justthrivehealth.com", "contact_url": null, "source_url": "https://get.justthrivehealth.com/"}
+    ],
+    "socials": [
+      {"platform": "instagram", "handle": "@justthrivehealth", "url": "https://www.instagram.com/justthrivehealth/"}
+    ],
+    "evidence": [
+      {"evidence_type": "affiliate", "source_type": "official_site", "source_url": "https://justthrivehealth.com/pages/affiliate-tool-kit", "summary": "Official Affiliate Tool Kit fetched in full: 'Welcome to the Just Thrive Affiliate Program', 'Log Into Refersion', images 'also available in your affiliate dashboard in Refersion under Creatives', hashtag #justthrivepartner, and 'You have 2 dedicated contacts! Please email Beth@justthrivehealth.com and Sara@justthrivehealth.com.' No commission % and no cap/uncapped wording on the official page.", "confidence": "verified"},
+      {"evidence_type": "affiliate", "source_type": "listing", "source_url": "https://getlasso.co/affiliate/just-thrive/", "summary": "Lasso listing reports 5% per sale, 45-day cookie. Another listing (Strackr) reports 10% and 6-month cookie, so published listing rates conflict; official rate is unpublished, hence commission_rate is null.", "confidence": "publicly_reported"},
+      {"evidence_type": "ugc_collab", "source_type": "listing", "source_url": "https://universe.beacons.ai/brands/just-thrive", "summary": "Beacons Universe: 'Just Thrive is a health & wellness brand based in Park Ridge, United States, with posts from 60 creators (all time)' ; '2 posted in the last 30 days'; '32 public posts mentioned Just Thrive in the last 12 months'; 17 sponsored posts in last 12 months. Small creator count is evidence for low saturation.", "confidence": "publicly_reported"},
+      {"evidence_type": "general", "source_type": "official_site", "source_url": "https://justthrivehealth.com/pages/affiliate-tool-kit", "summary": "Official description: 'Just Thrive spore probiotic is the foundation of a healthy lifestyle...for life! Just Thrive is the only probiotic to arrive 100% alive to the digestive tract.'", "confidence": "verified"}
+    ],
+    "affiliate": {"network": "Refersion", "commission_rate": null, "application_url": "https://justthrivehealth.com/pages/affiliate-tool-kit", "source_url": "https://justthrivehealth.com/pages/affiliate-tool-kit", "commission_cap": "unknown", "creator_saturation": "low"},
+    "opportunity": {"title": "Just Thrive Affiliate Program (Refersion)", "application_url": "https://justthrivehealth.com/pages/affiliate-tool-kit", "source_url": "https://justthrivehealth.com/pages/affiliate-tool-kit"},
+    "score": {"niche_fit": 24, "ugc_evidence": 12, "compensation": 4, "contact_access": 12, "opportunity_availability": 5, "credibility": 4, "reasons": {"niche_fit": "Gut health / probiotic is a core health and wellness fit.", "ugc_evidence": "Official toolkit with social post examples plus Beacons sponsored posts, but only 60 creators all-time.", "compensation": "No rate on official page and listings conflict at 5% vs 10%; no uncapped statement, so low.", "contact_access": "Two named dedicated affiliate emails published on the official toolkit page.", "opportunity_availability": "Program exists via Refersion, but no public join/application form was found, only a toolkit/login page.", "credibility": "Official toolkit, contacts and network verified; rate credibility weakened by conflicting listings."}}
+  }
+]
