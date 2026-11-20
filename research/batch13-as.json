@@ -1,0 +1,632 @@
+[
+ {
+  "name": "LYMA",
+  "website": "https://us.lyma.life",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Premium beauty-tech brand behind the LYMA Laser and Laser PRO at-home cold-laser devices plus skincare and supplement starter kits; its own Professional partner program pays clinics and partners 20% on devices and 10% on kits, with an FAQ that states there is no cap on earnings.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "professional@lyma.life",
+    "source_url": "https://us.lyma.life/pages/professional"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.lyma.life/pages/professional",
+    "email": null,
+    "source_url": "https://us.lyma.life/pages/professional"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.lyma.life/pages/professional",
+    "summary": "LYMA's own Professional page publishes its commission table (LYMA Laser $2,695 at 20% = $539; Laser PRO $5,995 at 20% = $1,199; Skincare & Supplement Starter Kits at 10%), a 90-day credit window after a client clicks, automatic monthly payment, and the FAQ answer to 'How much can I earn?': 'There's no cap. 20% on every Laser and 10% across skincare and supplements, for as long as your clients keep buying.' The program is pitched to clinics and professionals, and the page gives professional@lyma.life for support. Earnings cap is therefore recorded as uncapped on the brand's own explicit statement."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://us.lyma.life/pages/professional",
+    "summary": "No Beacons brand page or other hard creator count for LYMA surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 20,
+   "application_url": "https://us.lyma.life/pages/professional",
+   "source_url": "https://us.lyma.life/pages/professional",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "LYMA Professional Affiliate Partner Program",
+   "application_url": "https://us.lyma.life/pages/professional",
+   "source_url": "https://us.lyma.life/pages/professional"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 19,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "FDA-cleared at-home laser devices with dramatic 30-day before/after imagery are proven skincare-UGC material, though the program is framed around clinics.",
+    "ugc_evidence": "A structured own-site partner program with email templates, talking points, assets and tracked recommendations; no hard creator count was published.",
+    "compensation": "20% on devices worth $2,695-$5,995 ($539-$1,199 per sale) and 10% on kits, with the brand's own FAQ stating 'There's no cap' — the strongest verified-uncapped economics in this round.",
+    "contact_access": "Published partner email (professional@lyma.life) plus the full program page on the brand's own US site.",
+    "opportunity_availability": "Applications are open on the brand's page with no minimum referrals or targets, but approval is aimed at professionals and clinics.",
+    "credibility": "Peer-reviewed clinical backing (Aesthetic Surgery Journal), 50 global patents, TIME Best Inventions and major beauty-award recognition."
+   }
+  }
+ },
+ {
+  "name": "Tallowtan",
+  "website": "https://www.tallowtan.com",
+  "country": "Canada",
+  "category_slug": "skincare",
+  "description": "Grass-fed tallow self-tan brand (three DHA shades at $89) shipping to Canada, the US, Australia and New Zealand; runs a Creator Program on UpPromote with a UGC Creator path and an Affiliate Partner path, a free jar every month a creator posts four times, and an FAQ stating there is no cap on earnings — but its own page conflicts on the rate (20% flat in the headline and terms, 15% in the FAQ).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.tallowtan.com/pages/creator-program",
+    "email": null,
+    "source_url": "https://www.tallowtan.com/pages/creator-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.tallowtan.com/pages/creator-program",
+    "summary": "Tallowtan's own Creator Program page states 'There is no cap on earnings' and, in its tracking FAQ, 'commission is calculated at 15% per sale with no cap' — so the earnings cap is recorded as uncapped on explicit brand statements. However the same page's headline and terms sections state '20% flat on every sale you drive, at every tier', an unresolved conflict with the FAQ's 15%, so no single commission rate is recorded (rate null). Applications run through UpPromote; creators get a free full-size jar on approval and another each month they post four times."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.tallowtan.com/pages/creator-program",
+    "summary": "The page defines a dedicated UGC Creator path ('You make the content and we use it in our ads, site and emails') with usage rights and raw files, TikTok/Instagram Reels content, gifted product plus commission, and welcomes micro- and nano-creators in its FAQ."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.tallowtan.com/pages/creator-program",
+    "summary": "No Beacons brand page or other hard creator count for Tallowtan surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": null,
+   "application_url": "https://www.tallowtan.com/pages/creator-program",
+   "source_url": "https://www.tallowtan.com/pages/creator-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tallowtan Creator Program (UpPromote)",
+   "application_url": "https://www.tallowtan.com/pages/creator-program",
+   "source_url": "https://www.tallowtan.com/pages/creator-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Tallow-based self-tan with shade-matching and before/after application content is a natural short-form skincare format.",
+    "ugc_evidence": "An explicit UGC Creator track whose content the brand uses in ads, plus gifted product monthly — strong structured creator evidence on the brand's own page.",
+    "compensation": "Earnings are explicitly uncapped (stated twice), but the page conflicts on the rate itself (20% flat in the terms vs 15% in the FAQ), so no rate is recorded and compensation scores mid-range.",
+    "contact_access": "Applications run through the brand's own program page into UpPromote; no partnerships email is published.",
+    "opportunity_availability": "Open applications; the header asks for 1,000+ followers on TikTok or Instagram while the FAQ says no minimum is required — an inconsistency to confirm at sign-up.",
+    "credibility": "Small, young DTC brand with a 30-day guarantee and free CA/US shipping; no retail distribution or press record verified."
+   }
+  }
+ },
+ {
+  "name": "LaJeanell",
+  "website": "https://lajeanell.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Natural and organic makeup and skincare brand running its own affiliate program from its website: affiliates earn 25% commission on sales through a personal promo code, with 'Unlimited earnings' listed as a program benefit and dropshipping handled by the brand.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://lajeanell.com/affiliate-program-application",
+    "email": null,
+    "source_url": "https://lajeanell.com/affiliate-program-application"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://lajeanell.com/affiliate-program-application",
+    "summary": "LaJeanell's own affiliate application page states affiliates 'Earn 25% profit on sales you make through the use of your personal promo code', 'You'll earn commission starting at 25% on all LaJeanell sales you generate', and lists 'Unlimited earnings' among the program benefits — the brand's own no-limit statement, so the cap is recorded as uncapped. The application form is on the brand's own site; no network is named."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://lajeanell.com/affiliate-program-application",
+    "summary": "No Beacons brand page or other hard creator count for LaJeanell surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 25,
+   "application_url": "https://lajeanell.com/affiliate-program-application",
+   "source_url": "https://lajeanell.com/affiliate-program-application",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "LaJeanell Affiliate Program",
+   "application_url": "https://lajeanell.com/affiliate-program-application",
+   "source_url": "https://lajeanell.com/affiliate-program-application"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 17,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Natural/organic makeup and skincare with a clean-beauty angle fits ingredient-led beauty UGC.",
+    "ugc_evidence": "An own-site affiliate team recruited from beauty enthusiasts with personal promo codes; no dedicated UGC content program or creator count was published.",
+    "compensation": "25% commission is among the highest rates in this round and the brand lists 'Unlimited earnings' as a benefit — verified uncapped on its own page.",
+    "contact_access": "The application form sits on the brand's own site; no partnerships email is published on the page.",
+    "opportunity_availability": "Open application with three joining options stated; the brand reviews fit before onboarding.",
+    "credibility": "Small independent brand; site imagery dates to 2020 and no retail distribution was verified."
+   }
+  }
+ },
+ {
+  "name": "AMORY London",
+  "website": "https://amorylondon.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "London hair-styling tools brand running its own ambassador/affiliate program: free to join, 15% commission on each sale through personal links and discount codes, and an 'UNLIMITED EARNINGS' section stating 'we're not holding you back'; payments are monthly in GBP via PayPal or bank transfer.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://amorylondon.com/pages/ambassadors",
+    "email": null,
+    "source_url": "https://amorylondon.com/pages/ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://amorylondon.com/pages/ambassadors",
+    "summary": "AMORY London's own ambassadors page carries an 'UNLIMITED EARNINGS' section: 'When it comes to earnings, we're not holding you back... you'll earn a competitive 15% commission on each sale', repeated in its summary badges ('FREE TO JOIN / UNLIMITED EARNINGS / 15% SALES COMMISSION'). The no-limit wording is the brand's own, so the cap is recorded as uncapped. The FAQ states payments are issued in GBP, monthly, via PayPal or bank account."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://amorylondon.com/pages/ambassadors",
+    "summary": "No Beacons brand page or other hard creator count for AMORY London surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 15,
+   "application_url": "https://amorylondon.com/pages/ambassadors",
+   "source_url": "https://amorylondon.com/pages/ambassadors",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "AMORY London Ambassadors / Affiliate Program",
+   "application_url": "https://amorylondon.com/pages/ambassadors",
+   "source_url": "https://amorylondon.com/pages/ambassadors"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 15,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Hair styling tools are demo-driven products well suited to tutorial and transformation UGC.",
+    "ugc_evidence": "An own-site ambassador program that reposts high-quality creator content; no creator count was published.",
+    "compensation": "15% per sale with an explicit 'UNLIMITED EARNINGS' statement on the brand's own page — verified uncapped.",
+    "contact_access": "Application form on the brand's own site with a stated support team; no partnerships email is published.",
+    "opportunity_availability": "Free to join with an open application form and immediate link/code issue after review.",
+    "credibility": "Small UK DTC brand; payments in GBP only and no retail distribution verified."
+   }
+  }
+ },
+ {
+  "name": "UVe Beauty",
+  "website": "https://uvebeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Makeup brushes and beauty-tools brand with its own affiliate program page headed 'Unlimited Earnings', a 60-day cookie and affiliates@uvebeauty.com published for questions; the same page states both 15% and 20% commission in different blocks, so no single rate can be recorded.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@uvebeauty.com",
+    "source_url": "https://uvebeauty.com/pages/uve-beauty-affiliate-program-new"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://uvebeauty.com/pages/uve-beauty-affiliate-program-new",
+    "summary": "UVe Beauty's own affiliate program page (fetched and confirmed earlier in this research round) is headed 'Unlimited Earnings' with copy about 'unlimited financial potential', publishes a 60-day cookie and the contact affiliates@uvebeauty.com — the brand's own no-limit statement, so the cap is recorded as uncapped. The page conflicts on the rate: its hero and program-offers blocks say 15% while a duplicated block on the same page says 20%, so no rate is recorded. NOTE: the page returned 404 on a re-check at the end of this round, so the program URL should be re-verified before outreach."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://uvebeauty.com/pages/uve-beauty-affiliate-program-new",
+    "summary": "No Beacons brand page or other hard creator count for UVe Beauty surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": null,
+   "application_url": "https://uvebeauty.com/pages/uve-beauty-affiliate-program-new",
+   "source_url": "https://uvebeauty.com/pages/uve-beauty-affiliate-program-new",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "UVe Beauty Affiliate Program",
+   "application_url": "https://uvebeauty.com/pages/uve-beauty-affiliate-program-new",
+   "source_url": "https://uvebeauty.com/pages/uve-beauty-affiliate-program-new"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 6,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Makeup brushes and tools are staple review and routine content for beauty creators.",
+    "ugc_evidence": "A dedicated own-site affiliate program page; no hard creator count was published.",
+    "compensation": "Earnings are stated as unlimited on the brand's own page (verified uncapped), but the page conflicts on the rate (15% vs 20%), so no rate is recorded.",
+    "contact_access": "Published affiliates email (affiliates@uvebeauty.com) on the program page — direct contact access.",
+    "opportunity_availability": "The program page returned 404 on the final re-check of this round, so availability scores conservatively until the URL is re-verified.",
+    "credibility": "Small DTC tools brand; no retail distribution verified."
+   }
+  }
+ },
+ {
+  "name": "AQ Gimel",
+  "website": "https://aqgimel.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Custom cosmetics store running an affiliate program from its own site: 30-day cookie, monthly payouts via PayPal or bank transfer on net-60 terms, an affiliate manager at affiliates@aqgimel.com, and an FAQ answering 'How much can I earn?' with 'There's no cap on earnings' — but no commission percentage is published anywhere on the page.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@aqgimel.com",
+    "source_url": "https://aqgimel.com/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://aqgimel.com/affiliate-program",
+    "summary": "AQ Gimel's own affiliate program page (fetched earlier in this research round; the site was unreachable on the final re-check) answers its earnings FAQ with 'There's no cap on earnings. The more you promote, the more you can earn' — an explicit no-limit statement, so the cap is recorded as uncapped. The page publishes a 30-day cookie, monthly PayPal/bank payouts on net-60 terms and the manager contact affiliates@aqgimel.com, but no commission percentage anywhere, so the rate is recorded as null."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://aqgimel.com/affiliate-program",
+    "summary": "No Beacons brand page or other hard creator count for AQ Gimel surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": null,
+   "application_url": "https://aqgimel.com/affiliate-program",
+   "source_url": "https://aqgimel.com/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "AQ Gimel Affiliate Program",
+   "application_url": "https://aqgimel.com/affiliate-program",
+   "source_url": "https://aqgimel.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 2,
+   "reasons": {
+    "niche_fit": "A custom cosmetics store fits general beauty content, though the catalogue is less focused than a single-line brand.",
+    "ugc_evidence": "A structured own-site affiliate program with a dashboard and manager contact; no creator count was published.",
+    "compensation": "The no-cap statement is explicit and verified in the brand's FAQ, but with no percentage published anywhere the earning rate itself is unknown.",
+    "contact_access": "Published affiliate manager email (affiliates@aqgimel.com) plus the sign-up form on the brand's own site.",
+    "opportunity_availability": "Open registration from the program page; payouts are net-60, slower than most programs in this round.",
+    "credibility": "Very small, little-known store with no verified retail presence or press record."
+   }
+  }
+ },
+ {
+  "name": "Bio Ionic",
+  "website": "https://bioionic.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Professional hair-tools brand (dryers, irons, brushes) whose Professional Affiliate Program pays stylists and creators 20% on retail sales through a personal link, tracked through Rakuten with an unusual 1-year customer-ownership cookie, monthly payouts from a $50 minimum, and repeated statements that there is no limit on earnings.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "ProAffiliate@bbicompany.com",
+    "source_url": "https://bioionic.com/pages/professional-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://bioionic.com/pages/professional-affiliate-program",
+    "summary": "Bio Ionic's own Professional Affiliate Program page states 'There is no limit to how much you can earn or limitations on who can use your link', lists 'Unlimited earning' among its highlights, and repeats in its FAQ 'There is no limit on how much you can earn!' — explicit no-limit statements, so the cap is recorded as uncapped. The page also states 'Earn 20% on all retail sales' (elsewhere phrased 'up to 20%'), tracking through Rakuten, a 1-year customer-ownership cookie, monthly payouts once $50 is earned, and the contact ProAffiliate@bbicompany.com."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://bioionic.com/pages/professional-affiliate-program",
+    "summary": "No Beacons brand page or other hard creator count for Bio Ionic surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": 20,
+   "application_url": "https://bioionic.com/pages/professional-affiliate-program",
+   "source_url": "https://bioionic.com/pages/professional-affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bio Ionic Professional Affiliate Program (Rakuten)",
+   "application_url": "https://bioionic.com/pages/professional-affiliate-program",
+   "source_url": "https://bioionic.com/pages/professional-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 17,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Professional styling tools are a core hair-UGC category (routines, comparisons, salon content).",
+    "ugc_evidence": "A structured professional affiliate program that explicitly encourages social-media promotion of personal links; no hard creator count was published.",
+    "compensation": "20% on all retail sales, a 1-year ownership cookie and repeated 'no limit' statements — verified uncapped with the longest attribution window in this round.",
+    "contact_access": "Published program email (ProAffiliate@bbicompany.com) plus the full program page on the brand's own site.",
+    "opportunity_availability": "Free to join with no monthly fees and no website required; approval via the Join Now flow into Rakuten tracking.",
+    "credibility": "Established professional hair brand sold through salons and major beauty retailers."
+   }
+  }
+ },
+ {
+  "name": "Professional Hair Labs",
+  "website": "https://shop.prohairlabs.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Zephyrhills, Florida manufacturer of premium cosmetic adhesives and products for wigs and hairpieces, trusted by over 10,000 companies; its own affiliate program pays a clean 10% commission and promises 'an unlimited number of referrals and no commission caps' — though the program carries an annual affiliate subscription, promoted at 50% off on the page.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@prohairlabs.com",
+    "source_url": "https://shop.prohairlabs.com/professional-hair-labs-affililate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://shop.prohairlabs.com/professional-hair-labs-affililate-program/",
+    "summary": "Professional Hair Labs' own affiliate page states 'You get an unlimited number of referrals and no commission caps' and 'You get a clean 10% commission for all user purchases within the cookie lifetime', with a dedicated affiliate manager and applications approved within 24 hours — the no-cap statement is explicit, so the cap is recorded as uncapped. Caveats on the same page: the program is sold with an annual affiliate subscription ('Limited-Time Offer: Sign Up Now & Save 50% Of Your Annual Affiliate Subscription'), and the fetched copy of the page is dated 2021 with an April 2026 crawl, so current terms should be confirmed at sign-up. The page publishes info@prohairlabs.com, +1 800 778 4247 and the Zephyrhills, Florida address."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://shop.prohairlabs.com/professional-hair-labs-affililate-program/",
+    "summary": "No Beacons brand page or other hard creator count for Professional Hair Labs surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 10,
+   "application_url": "https://shop.prohairlabs.com/professional-hair-labs-affililate-program/",
+   "source_url": "https://shop.prohairlabs.com/professional-hair-labs-affililate-program/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Professional Hair Labs Affiliate Program",
+   "application_url": "https://shop.prohairlabs.com/professional-hair-labs-affililate-program/",
+   "source_url": "https://shop.prohairlabs.com/professional-hair-labs-affililate-program/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 11,
+   "opportunity_availability": 6,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Wig and hairpiece adhesives serve a real but narrow beauty niche (wig creators and wearers).",
+    "ugc_evidence": "An influencer-addressed affiliate program with affiliate testimonials on the page; no creator count was published.",
+    "compensation": "10% commission with an explicit 'no commission caps' statement (verified uncapped), reduced by the annual affiliate subscription the program charges.",
+    "contact_access": "Published email, phone and street address on the program page, plus a dedicated affiliate manager.",
+    "opportunity_availability": "Applications are reviewed within 24 hours, but the paid annual subscription is a barrier most programs in this round do not have.",
+    "credibility": "Established niche manufacturer claiming 10,000+ company customers; the program page itself is dated, so terms need re-confirmation."
+   }
+  }
+ },
+ {
+  "name": "The Golden Secrets",
+  "website": "https://www.thegoldensecrets.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Founder-led clean skincare brand (Jesse Golden) whose affiliate community page promises 'Grow your income by earning commission on sales. No cap on commissions!', personal evergreen discount codes, monthly product bonuses and a private affiliate community, with applications handled through Refersion; no commission percentage is published on the page.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://thegoldensecrets.refersion.com",
+    "email": null,
+    "source_url": "https://www.thegoldensecrets.com/en-au/pages/test"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.thegoldensecrets.com/en-au/pages/test",
+    "summary": "The Golden Secrets' own affiliate page (live on the brand's official domain, though the page is titled 'test') lists under Program Outline + Perks: 'Grow your income by earning commission on sales. No cap on commissions!' — an explicit no-cap statement, so the cap is recorded as uncapped. The page's Apply Here link leads to the brand's Refersion registration (thegoldensecrets.refersion.com); no commission percentage is published on the page, so the rate is recorded as null. The page also notes monthly posting requirements and a minimum sales threshold to remain an active affiliate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.thegoldensecrets.com/en-au/pages/test",
+    "summary": "The same page describes a creator community model: personal evergreen discount codes, monthly product bonuses on top of commission, exclusive perks and a private Instagram affiliate page — structured UGC/affiliate collaboration evidence from the brand itself."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.thegoldensecrets.com/en-au/pages/test",
+    "summary": "No Beacons brand page or other hard creator count for The Golden Secrets surfaced in this research, so creator saturation is recorded as unknown rather than estimated."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": null,
+   "application_url": "https://thegoldensecrets.refersion.com",
+   "source_url": "https://www.thegoldensecrets.com/en-au/pages/test",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "The Golden Secrets Affiliate Program (Refersion)",
+   "application_url": "https://thegoldensecrets.refersion.com",
+   "source_url": "https://www.thegoldensecrets.com/en-au/pages/test"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean, glow-led skincare with a strong founder story is well suited to routine and results UGC.",
+    "ugc_evidence": "A defined affiliate community with codes, bonuses and a private creator group described on the brand's own page; no hard creator count was published.",
+    "compensation": "'No cap on commissions!' is explicit (verified uncapped), but no percentage is published on the page, so the rate is unknown.",
+    "contact_access": "Applications run from the brand's page into its Refersion registration; no partnerships email is published.",
+    "opportunity_availability": "Open application via Refersion, with monthly posting and minimum-sales requirements to stay active; the source page's 'test' title suggests it may be a staging page, so confirm at sign-up.",
+    "credibility": "Established founder-led clean-beauty brand with a long-running product line and press presence."
+   }
+  }
+ },
+ {
+  "name": "CUSKIN",
+  "website": "https://www.cuskin.com.au",
+  "country": "Australia",
+  "category_slug": "skincare",
+  "description": "Australian dermatologist-developed cosmeceutical skincare brand whose affiliate program is launching now: founding partners lock in 20% commission (standard rate 15% afterwards), a 30-day cookie, monthly bank payouts from A$100, and an FAQ stating 'There is no cap on earnings' — applications require a valid Australian Business Number (ABN).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.cuskin.com.au/affiliate-program",
+    "email": null,
+    "source_url": "https://www.cuskin.com.au/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.cuskin.com.au/affiliate-program",
+    "summary": "CUSKIN's own affiliate page FAQ answers 'How much can I earn?' with 'You earn 20% commission on every sale made through your referral link... There is no cap on earnings' — an explicit no-limit statement, so the cap is recorded as uncapped. The 20% is a limited-time launch rate (standard 15% afterwards; early affiliates keep 20% while active). The page also publishes a 30-day cookie, A$100 minimum payout, monthly bank transfer, and an application requirement of a valid Australian ABN plus an active social presence."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.cuskin.com.au/affiliate-program",
+    "summary": "The page states 'We're launching our affiliate program and offering our founding partners an exclusive 20% commission rate' — a brand-new program still recruiting its founding cohort, which is absolute evidence of low creator saturation at this time."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 20,
+   "application_url": "https://www.cuskin.com.au/affiliate-program",
+   "source_url": "https://www.cuskin.com.au/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "low"
+  },
+  "opportunity": {
+   "title": "CUSKIN Affiliate Program (launch / founding partners)",
+   "application_url": "https://www.cuskin.com.au/affiliate-program",
+   "source_url": "https://www.cuskin.com.au/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 16,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Dermatologist-developed cosmeceuticals with A$80-150 average orders fit ingredient- and results-led skincare UGC.",
+    "ugc_evidence": "A new program explicitly recruiting influencers and creators alongside clinics and salons; the cohort is still forming, so published creator evidence is thin.",
+    "compensation": "20% launch commission (15% standard later) with an explicit 'no cap on earnings' FAQ answer — verified uncapped; A$100 payout threshold applies.",
+    "contact_access": "Application form on the brand's own site with personal review in 2-3 business days; no partnerships email is published.",
+    "opportunity_availability": "Applications are open now for founding partners, but a valid Australian ABN is required, which limits it to Australian creators.",
+    "credibility": "Small, newly launching Australian brand; dermatologist-developed positioning but no verified retail distribution yet."
+   }
+  }
+ }
+]

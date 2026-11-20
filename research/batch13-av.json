@@ -1,0 +1,618 @@
+[
+  {
+    "name": "KIKA USA",
+    "website": "https://kika-usa.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US pet-care brand (KIKA USA, LLC, Aventura, Florida) selling top-rated pet products through its own store, promoted on the page alongside the Superior Care Pet range, with monthly-payout affiliate marketing aimed at pet bloggers and social influencers.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://kika-usa.com/pages/affiliate-program",
+        "email": "hello@kika-usa.com",
+        "source_url": "https://kika-usa.com/pages/affiliate-program"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": "https://kika-usa.com/pages/affiliate-program",
+        "email": "support@kika-usa.com",
+        "source_url": "https://kika-usa.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://kika-usa.com/pages/affiliate-program",
+        "summary": "Official KIKA USA affiliate page fetched: earn up to 15% commission on every sale through affiliate links, program run on Impact.com (sign-up and payouts through Impact), monthly payouts, banners/text links/product images provided, open to pet bloggers, social media influencers and anyone. The FAQ answers 'How much can I earn?' with 'You can earn up to 15% commission on every sale generated through your affiliate links. There's no limit to how much you can earn!' — an explicit no-limit statement on the brand's own page, so the commission cap is recorded as UNCAPPED. 'Up to 15%' is the rate ceiling, recorded as the published rate."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://kika-usa.com/pages/affiliate-program",
+        "summary": "The same official page publishes affiliate support contact hello@kika-usa.com and company contact support@kika-usa.com, with the company address KIKA USA, LLC, 20801 Biscayne Blvd Suite 403 Office 415, Aventura, FL 33180."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 15,
+      "application_url": "https://kika-usa.com/pages/affiliate-program",
+      "source_url": "https://kika-usa.com/pages/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "KIKA USA Affiliate Program — up to 15% via Impact, no limit on earnings (hello@kika-usa.com)",
+      "application_url": "https://kika-usa.com/pages/affiliate-program",
+      "source_url": "https://kika-usa.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 16,
+      "compensation": 18,
+      "contact_access": 13,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Pet care products are a staple, demonstrable category for pet UGC and influencer content",
+        "ugc_evidence": "Official page explicitly recruits pet bloggers and social media influencers and supplies banners, text links and product images for social promotion",
+        "compensation": "Up to 15% commission with an explicit 'no limit to how much you can earn' statement on the brand's own FAQ — verified uncapped",
+        "contact_access": "Dedicated affiliate support email hello@kika-usa.com plus a general support email, both published on the official program page",
+        "opportunity_availability": "Open application through Impact.com with team review; anyone can apply",
+        "credibility": "Named US LLC with a published Florida address and phone number; smaller brand, so credibility is scored mid-range"
+      }
+    }
+  },
+  {
+    "name": "Dr. Ruth Roberts",
+    "website": "https://drruthroberts.com",
+    "country": null,
+    "category_slug": "pets",
+    "description": "Pet-health brand founded around veterinarian Dr. Ruth Roberts, selling organic pet supplements and products plus pet wellness courses and a Holistic Pet Health Coaching Program through its own store, with the Happy Paws affiliate partnership program for pet creators and professionals.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://affiliate.drruthroberts.com",
+        "email": null,
+        "source_url": "https://drruthroberts.com/pages/happy-paws-affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://drruthroberts.com/pages/happy-paws-affiliate-program",
+        "summary": "Official Happy Paws Affiliate Program page fetched: affiliates earn a 10% commission on every sale made through their exclusive referral link, promoting natural pet supplements, pet wellness courses and the Holistic Pet Health Coaching Program; sign-up is via the brand's own affiliate portal (affiliate.drruthroberts.com) with team review and approval by email. The page states the program 'is free and easy to join, with no setup fees or hidden costs. Plus, there's no limit to how much you can earn!' — an explicit no-limit statement, so the commission cap is recorded as UNCAPPED."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://drruthroberts.com/pages/happy-paws-affiliate-program",
+        "summary": "The same page says the program is open to pet parents, pet bloggers, pet social media influencers, pet shop owners, vets and vet technicians, and provides banners, images, text links and real-time reporting/analytics to affiliates."
+      }
+    ],
+    "affiliate": {
+      "network": "Dr. Ruth Roberts direct affiliate program",
+      "commission_rate": 10,
+      "application_url": "https://drruthroberts.com/pages/happy-paws-affiliate-program",
+      "source_url": "https://drruthroberts.com/pages/happy-paws-affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Happy Paws Affiliate Program — 10% on every sale, no limit on earnings, own affiliate portal",
+      "application_url": "https://drruthroberts.com/pages/happy-paws-affiliate-program",
+      "source_url": "https://drruthroberts.com/pages/happy-paws-affiliate-program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 16,
+      "contact_access": 8,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Organic pet supplements and pet wellness education are strong, demonstrable topics for pet-health creators",
+        "ugc_evidence": "Official page explicitly welcomes pet bloggers and pet social media influencers, not just professionals",
+        "compensation": "10% commission on every sale with an explicit 'no limit to how much you can earn' statement — verified uncapped",
+        "contact_access": "Application runs through the brand's own affiliate portal; no program email is published on the fetched page, so contact access is scored lower",
+        "opportunity_availability": "Open to anyone passionate about pet health, free to join, approval by email",
+        "credibility": "Built around a named veterinarian founder with a long-running pet-health content and coaching business"
+      }
+    }
+  },
+  {
+    "name": "Poclink",
+    "website": "https://poclink.com",
+    "country": null,
+    "category_slug": "technology",
+    "description": "Radio-technology brand selling its own original-design POC (push-to-talk over cellular) radios — the POC-1 and POC-2 series LTE/WiFi/analog handhelds with $500+ average order value — for schools, logistics, warehouses, enterprises and outdoor users, through its own store with free global shipping.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://poclink.com/pages/become-an-affiliate",
+        "email": "marketing@poclink.com",
+        "source_url": "https://poclink.com/pages/become-an-affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://poclink.com/pages/become-an-affiliate",
+        "summary": "Official Poclink affiliate page fetched: 10% commission on all sales, 30-day cookies, $500+ average order value, applications run through UpPromote (Apply Now link), review within 2 business days, payments via PayPal every Friday. The FAQ answers 'Is there a limit to how much I can earn?' with 'Not at all! The more customers you refer, the more you will earn. There is no cap on your potential earnings.' — an explicit no-cap statement on the brand's own page, so the commission cap is recorded as UNCAPPED."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://poclink.com/pages/become-an-affiliate",
+        "summary": "The same page publishes the program contact marketing@poclink.com for affiliate questions and promotional materials after approval."
+      }
+    ],
+    "affiliate": {
+      "network": "UpPromote",
+      "commission_rate": 10,
+      "application_url": "https://poclink.com/pages/become-an-affiliate",
+      "source_url": "https://poclink.com/pages/become-an-affiliate",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Poclink Radios Affiliate Program — 10% on all sales, 30-day cookie, no cap on earnings (marketing@poclink.com)",
+      "application_url": "https://poclink.com/pages/become-an-affiliate",
+      "source_url": "https://poclink.com/pages/become-an-affiliate"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 16,
+      "contact_access": 13,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Niche professional radios are a narrower UGC fit than consumer gadgets, but highly demonstrable for outdoor, logistics and school-safety content; $500+ average order value lifts per-sale value",
+        "ugc_evidence": "The program welcomes anyone passionate about the brand and supplies product images, banners and logos for social and blog promotion; no dedicated creator program page was found",
+        "compensation": "10% commission with an explicit 'no cap on your potential earnings' FAQ answer — verified uncapped",
+        "contact_access": "Published program email marketing@poclink.com on the official affiliate page",
+        "opportunity_availability": "Open application via UpPromote, reviewed within 2 business days, free to join",
+        "credibility": "Original-design product line with published phone support, warranty and money-back terms; smaller specialist brand"
+      }
+    }
+  },
+  {
+    "name": "HVACDirect",
+    "website": "https://hvacdirect.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "US online HVAC retailer selling heating, cooling and air-quality systems and equipment direct to homeowners, with real-people sizing and product advice, phone/chat support, and a family of sister sites (BBQDirect.com, OnlineSupply.com).",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://hvacdirect.com/affiliates-home",
+        "email": null,
+        "source_url": "https://hvacdirect.com/affiliates-home"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://hvacdirect.com/affiliates-home",
+        "summary": "Official HVACDirect affiliate page fetched: 5% pay-per-sale commission for each sale delivered, $100 minimum payout balance, join free by creating an account (affiliate section inside the account, no separate network named), real-time tracking and reports, coupon/discount sites excluded. The page states 'There's no cap on how much you can earn' and, under Why Join, 'Unlimited Earning Potential: The more you share, the more you earn! There's no maximum limit.' — explicit no-cap/no-maximum statements on the brand's own page, so the commission cap is recorded as UNCAPPED."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://hvacdirect.com/affiliates-home",
+        "summary": "The same page/site publishes US phone support (1-800-397-1392), Eastern-time business hours and sister sites BBQDirect.com and OnlineSupply.com, supporting an established US retailer."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 5,
+      "application_url": "https://hvacdirect.com/affiliates-home",
+      "source_url": "https://hvacdirect.com/affiliates-home",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "HVACDirect Affiliate Program — 5% pay-per-sale, no cap / no maximum limit, free account sign-up",
+      "application_url": "https://hvacdirect.com/affiliates-home",
+      "source_url": "https://hvacdirect.com/affiliates-home"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 10,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "HVAC systems are high-ticket home purchases; fit is strongest for home-improvement and DIY creators rather than general home decor UGC",
+        "ugc_evidence": "Program is link-sharing based (social media, website, email) with banners and text links; no dedicated creator program was found",
+        "compensation": "5% pay-per-sale is a modest rate, but on big-ticket HVAC systems the dollars per sale are large, and earnings are explicitly uncapped with no maximum limit — verified uncapped",
+        "contact_access": "No affiliate email is published on the fetched page; contact is via account, phone and live chat, so contact access is scored lower",
+        "opportunity_availability": "Free, automatic affiliate activation on account creation, open to everyone with no experience requirement",
+        "credibility": "Established US HVAC e-retailer with published phone support, sizing guides, rebate center and a family of sister retail sites"
+      }
+    }
+  },
+  {
+    "name": "Cleanblend",
+    "website": "https://cleanblend.com",
+    "country": null,
+    "category_slug": "home",
+    "description": "Kitchen-appliance brand selling high-powered blenders for home and commercial use through its own store, promoted heavily through recipe, review and video content, with its affiliate program run on the Awin network.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://cleanblend.com/pages/cleanblend-affiliate-faq",
+        "email": "affiliates@cleanblend.com",
+        "source_url": "https://cleanblend.com/pages/cleanblend-affiliate-faq"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://cleanblend.com/pages/cleanblend-affiliate-faq",
+        "summary": "Official Cleanblend affiliate FAQ fetched: the program is partnered with Awin for tracking, reporting and monthly payments; standard commission rate is 10% for every sale; 30-day cookie; applications reviewed manually within 2 business days. The FAQ answers 'How much can I earn?' with 'That is completely up to you. There is no cap on your commission earnings.' — an explicit no-cap statement on the brand's own page, so the commission cap is recorded as UNCAPPED."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://cleanblend.com/pages/cleanblend-affiliate-faq",
+        "summary": "The same FAQ publishes the affiliate contact affiliates@cleanblend.com with a 48-hour response promise, and states most blogs and websites qualify, including promotion via social media accounts and video channels."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://cleanblend.com/pages/cleanblend-affiliate-faq",
+      "source_url": "https://cleanblend.com/pages/cleanblend-affiliate-faq",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Cleanblend Affiliate Program — 10% standard rate via Awin, no cap on commission earnings (affiliates@cleanblend.com)",
+      "application_url": "https://cleanblend.com/pages/cleanblend-affiliate-faq",
+      "source_url": "https://cleanblend.com/pages/cleanblend-affiliate-faq"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 14,
+      "compensation": 16,
+      "contact_access": 14,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Blenders are a staple demonstrable kitchen product for recipe, wellness and home UGC video",
+        "ugc_evidence": "Official FAQ explicitly contemplates promotion through social media accounts and video channels, with banners and links supplied through Awin",
+        "compensation": "10% standard commission with an explicit 'no cap on your commission earnings' FAQ answer — verified uncapped",
+        "contact_access": "Dedicated affiliates@cleanblend.com published on the official FAQ with a stated 48-hour response time",
+        "opportunity_availability": "Join via Awin with manual review within 2 business days; applications from most countries welcomed",
+        "credibility": "Established blender brand running its program on the major Awin network with published payment terms"
+      }
+    }
+  },
+  {
+    "name": "One Fur All",
+    "website": "https://www.onefurallpets.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US pet-home brand behind Pet House candles, mini candles, wax melts and car fresheners designed for pet-owning households, sold through its own store, with a creator affiliate program run on Refersion.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": "https://www.onefurallpets.com/pages/affiliate-program",
+        "email": "info@onefurallpets.com",
+        "source_url": "https://www.onefurallpets.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.onefurallpets.com/pages/affiliate-program",
+        "summary": "Official One Fur All affiliate page fetched: 10% commission on all orders using the affiliate's link or code (followers get 5% off with the code), payouts monthly once commissions exceed $20, registration via the brand's Refersion portal (onefurallpets.refersion.com). The page states 'It's that simple and easy and there's no limit to how much you can earn!' — an explicit no-limit statement on the brand's own page, so the commission cap is recorded as UNCAPPED."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.onefurallpets.com/pages/affiliate-program",
+        "summary": "The same page sets creator requirements: at least one social platform (Instagram, Twitter, Facebook or Pinterest) with at least 10,000 followers, or a blog with 5,000 unique monthly visitors, and at least two posts per month — a genuinely creator-facing program, but gated, which lowers availability."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion",
+      "commission_rate": 10,
+      "application_url": "https://www.onefurallpets.com/pages/affiliate-program",
+      "source_url": "https://www.onefurallpets.com/pages/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "One Fur All Affiliate Program — 10% via Refersion, no limit on earnings; requires 10k followers or 5k monthly blog visitors (info@onefurallpets.com)",
+      "application_url": "https://www.onefurallpets.com/pages/affiliate-program",
+      "source_url": "https://www.onefurallpets.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 15,
+      "compensation": 16,
+      "contact_access": 12,
+      "opportunity_availability": 6,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Pet-odor candles and home fresheners sit right at the pets x home crossover that performs well in pet-parent UGC",
+        "ugc_evidence": "Program is explicitly built for social media followers, with a unique coupon code for followers and provided banners/images",
+        "compensation": "10% commission with an explicit 'no limit to how much you can earn' statement — verified uncapped",
+        "contact_access": "Published brand email info@onefurallpets.com and phone on the official program page",
+        "opportunity_availability": "Gated: 10,000+ social followers or 5,000 monthly blog visitors and two posts a month are required, so availability is scored lower",
+        "credibility": "Established niche brand (Pet House line) with a published US phone number; smaller than national pet brands"
+      }
+    }
+  },
+  {
+    "name": "DirectDeals",
+    "website": "https://directdeals.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "US technology reseller (service-disabled veteran-owned, serving customers since 1999) selling genuine software licenses, cloud subscriptions and hardware from Microsoft, Lenovo, Logitech and others to businesses, IT professionals, government, education and home users.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": "https://directdeals.com/affiliate-program/",
+        "email": "support@directdeals.com",
+        "source_url": "https://directdeals.com/affiliate-program/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://directdeals.com/affiliate-program/",
+        "summary": "Official DirectDeals affiliate page fetched: 'Earn up to 30% Commission' on select high-demand items, real-time tracking and prompt payouts through its own affiliate dashboard, free application. The page headlines 'Unlimited Earnings. No Quotas. No Cap.' and repeats 'your commissions are unlimited' and 'Earn high commissions on every qualified sale — with no cap' — explicit uncapped statements on the brand's own page, so the commission cap is recorded as UNCAPPED. The recorded 30% is the published ceiling on select items, not a base rate."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://directdeals.com/affiliate-program/",
+        "summary": "The same page states DirectDeals is an authorized US reseller working directly with Microsoft, Lenovo, Core Brands and Logitech, is a service-disabled veteran-owned business with more than 27 years in business (since 1999), and publishes support@directdeals.com and 1-800-983-2471."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 30,
+      "application_url": "https://directdeals.com/affiliate-program/",
+      "source_url": "https://directdeals.com/affiliate-program/",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "DirectDeals Affiliate Program — up to 30% on select items, unlimited earnings / no cap, own dashboard",
+      "application_url": "https://directdeals.com/affiliate-program/",
+      "source_url": "https://directdeals.com/affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 20,
+      "ugc_evidence": 10,
+      "compensation": 19,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "A B2B-leaning software and IT reseller is a weaker fit for consumer UGC than gadget brands; strongest for tech, IT and business-software creators",
+        "ugc_evidence": "The page addresses influencers among its partner types and offers dashboard tracking and promotional partnership, but no dedicated creator program was found",
+        "compensation": "Up to 30% commission on select items — the highest published ceiling in this batch — with explicit 'Unlimited Earnings. No Cap.' wording — verified uncapped",
+        "contact_access": "Published support email and phone on the official page, though no affiliate-specific email is named",
+        "opportunity_availability": "Free application on the official page, open to influencers, integrators, marketers and resellers",
+        "credibility": "27+ years in business since 1999, authorized reseller for major manufacturers, Fortune 500 and government customers cited on the official page"
+      }
+    }
+  },
+  {
+    "name": "Bitch New York",
+    "website": "https://bitchnewyork.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US luxury pet boutique selling designer dog carriers, custom collars, luxury dog beds, bowls, toys and accessories through its own store, positioning itself as a premiere source for designer dog products online.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": "https://bitchnewyork.com/pages/affiliate-program",
+        "email": "bark@bitchnewyork.com",
+        "source_url": "https://bitchnewyork.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://bitchnewyork.com/pages/affiliate-program",
+        "summary": "Official Bitch New York affiliate page fetched: 8% starting commission rate (higher-volume affiliates may be eligible for more), 30-day cookie, monthly PayPal payments once $50 is earned, no minimum sales level, registration via Affiliatly from the program page, coupon/incentive sites not accepted. The page states 'It's simple and there is no limit to the amount of money you can earn by partnering with us' — an explicit no-limit statement on the brand's own page, so the commission cap is recorded as UNCAPPED."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://bitchnewyork.com/pages/affiliate-program",
+        "summary": "The same page publishes the contact bark@bitchnewyork.com and phone 877.269.3647, and confirms affiliates from anywhere in the world are accepted with a PayPal account."
+      }
+    ],
+    "affiliate": {
+      "network": "Affiliatly",
+      "commission_rate": 8,
+      "application_url": "https://bitchnewyork.com/pages/affiliate-program",
+      "source_url": "https://bitchnewyork.com/pages/affiliate-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Bitch New York Affiliate Program — 8% starting rate via Affiliatly, no limit on earnings (bark@bitchnewyork.com)",
+      "application_url": "https://bitchnewyork.com/pages/affiliate-program",
+      "source_url": "https://bitchnewyork.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 11,
+      "compensation": 14,
+      "contact_access": 11,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Designer dog accessories are visual, giftable products that suit pet-fashion UGC, though the luxury niche is narrower than mainstream pet care",
+        "ugc_evidence": "Program supplies tracked links and banners for websites and accepts worldwide affiliates; no dedicated social creator program was found",
+        "compensation": "8% starting rate with higher rates for volume, and an explicit 'no limit to the amount of money you can earn' statement — verified uncapped",
+        "contact_access": "Published bark@bitchnewyork.com and phone on the official program page",
+        "opportunity_availability": "Open worldwide application via Affiliatly, no minimum sales threshold; discount/coupon sites excluded",
+        "credibility": "Long-running luxury pet boutique with published phone, policies and worldwide affiliate acceptance"
+      }
+    }
+  },
+  {
+    "name": "QualityPet",
+    "website": "https://qualitypet.co",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Brooklyn-based US pet company making 100% natural and organic dog health products crafted in the USA, sold through its own store, with a form-based affiliate program aimed at pet bloggers, influencers and YouTube creators.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://qualitypet.co/pages/programs",
+        "email": null,
+        "source_url": "https://qualitypet.co/pages/programs"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://qualitypet.co/pages/programs",
+        "summary": "Official QualityPet program page fetched: affiliates earn a 20% commission from the whole cart, 30-day cookies, monthly PayPal payouts at the beginning of the month for balances of at least $50, personal tracking link and advertising materials on a partner dashboard, applications answered within 2 working days. No 'no cap' / 'unlimited' / earnings-limit statement appears anywhere on the fetched page, so the commission cap is honestly recorded as UNKNOWN."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://qualitypet.co/pages/programs",
+        "summary": "The same page says the program 'is a great fit for pet-loving bloggers, influencers, Youtube creators, freelancers, and small businesses' and invites creators to make quality content with supplied or custom advertising materials — an explicitly creator-facing program on the brand's own site."
+      }
+    ],
+    "affiliate": {
+      "network": null,
+      "commission_rate": 20,
+      "application_url": "https://qualitypet.co/pages/programs",
+      "source_url": "https://qualitypet.co/pages/programs",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "QualityPet Affiliate Program — 20% of the whole cart, 30-day cookie, form application on the official page",
+      "application_url": "https://qualitypet.co/pages/programs",
+      "source_url": "https://qualitypet.co/pages/programs"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 16,
+      "compensation": 17,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Organic, USA-made dog health products are a strong, demonstrable fit for pet wellness UGC",
+        "ugc_evidence": "Official page explicitly recruits influencers and YouTube creators and offers custom advertising materials for their content",
+        "compensation": "20% commission on the whole cart is the highest flat published rate in this batch; no cap statement is published, so cap is unknown",
+        "contact_access": "Application is form-based on the official page; the partnerships email was masked in the fetched page text, so no email is recorded and access is scored mid-range",
+        "opportunity_availability": "Open form application with a stated 2-working-day response; no follower minimum published",
+        "credibility": "Brooklyn-based brand with published program terms and privacy documents; smaller than national pet brands"
+      }
+    }
+  },
+  {
+    "name": "MOES",
+    "website": "https://moeshouse.com",
+    "country": "China",
+    "category_slug": "technology",
+    "description": "Smart-home brand (parent Wenzhou Nova New Energy, headquartered in China) making Tuya-based smart switches, sockets, thermostats, sensors and central control devices for intelligent living, sold globally through its own store with a 2-year warranty.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://moeshouse.com/pages/affiliate-program/",
+        "email": "service@moeshouse.com",
+        "source_url": "https://moeshouse.com/pages/affiliate-program/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://moeshouse.com/pages/affiliate-program/",
+        "summary": "Official MOES affiliate page fetched: up to 20% commission on each successful referral sale with performance-based tiers, real-time tracking and marketing materials, joining via ShareASale or GoAffPro. No 'no cap' / 'unlimited' / earnings-limit statement appears on the fetched page, so the commission cap is honestly recorded as UNKNOWN. 'Up to 20%' is a rate ceiling, recorded as the published maximum."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://smarthomecompared.com/buttons/moes-wireless-smart-scene-switch-button",
+        "summary": "Smart Home Compared's MOES brand profile lists MOES as headquartered in China and built largely on the Tuya platform, offering switches, dimmers, thermostats, curtain motors and sensors in Wi-Fi and Zigbee versions."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 20,
+      "application_url": "https://moeshouse.com/pages/affiliate-program/",
+      "source_url": "https://moeshouse.com/pages/affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "MOES Affiliate Program — up to 20% via ShareASale or GoAffPro (service@moeshouse.com)",
+      "application_url": "https://moeshouse.com/pages/affiliate-program/",
+      "source_url": "https://moeshouse.com/pages/affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 13,
+      "compensation": 16,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Affordable smart switches, thermostats and sensors are staple, demonstrable products for smart-home UGC",
+        "ugc_evidence": "Program supplies marketing materials and product resources and runs on creator-friendly networks (ShareASale, GoAffPro); no dedicated creator cohort page was found",
+        "compensation": "Up to 20% commission with performance tiers is a strong published ceiling; no cap statement is published, so cap is unknown",
+        "contact_access": "Published program contact service@moeshouse.com on the official affiliate page",
+        "opportunity_availability": "Open application through ShareASale or GoAffPro from the official page",
+        "credibility": "Established global smart-home brand with a wide Tuya device catalogue and 2-year warranty"
+      }
+    }
+  }
+]
