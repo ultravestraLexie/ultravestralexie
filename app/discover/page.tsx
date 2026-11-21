@@ -44,16 +44,17 @@ const POPULAR: [string, string][] = [
 export default async function DiscoverPage({
   searchParams,
 }: {
-  searchParams: Promise<{ q?: string; cat?: string; platform?: string; uncapped?: string; small?: string; apply?: string }>;
+  searchParams: Promise<{ q?: string; cat?: string; platform?: string; uncapped?: string; captype?: string; network?: string; small?: string; apply?: string }>;
 }) {
   const sp = await searchParams;
   const q = (sp.q ?? "").trim();
   const intent = extractIntent(q);
-  const wantUncapped = intent.uncapped || sp.uncapped === "1";
+  const capType = sp.captype || (intent.uncapped || sp.uncapped === "1" ? "uncapped" : intent.capped ? "capped" : "");
   const wantSmall = intent.small || sp.small === "1";
   const minRate = intent.minRate;
   const catFilter = sp.cat ?? "";
   const platformSel = sp.platform || intent.platform;
+  const networkSel = (sp.network || intent.network || "").toLowerCase();
   const applyOnly = sp.apply === "1";
 
   const supabaseCats = await createClient();
@@ -63,7 +64,7 @@ export default async function DiscoverPage({
   interface Row {
     brand: Brand; score: number; network: string | null; rate: number | null; notes: string | null; checkedAt: string | null;
     appUrl: string | null; contactEmail: string | null; contactUrl: string | null; hasOpenOpp: boolean;
-    uncapped: boolean; low: boolean; cats: { slug: string; name: string }[]; relevance: number; reasons: string[];
+    uncapped: boolean; capped: boolean; low: boolean; cats: { slug: string; name: string }[]; relevance: number; reasons: string[];
   }
   let rows: Row[] = [];
   let loggedOut = false;
@@ -113,18 +114,23 @@ export default async function DiscoverPage({
           appUrl: aff?.appUrl ?? oppAppMap.get(brand.id) ?? null,
           contactEmail: contactMap.get(brand.id)?.email ?? null, contactUrl: contactMap.get(brand.id)?.url ?? null,
           hasOpenOpp: openSet.has(brand.id),
-          uncapped: Boolean(notes && notes.includes("UNCAPPED")), low: Boolean(notes && notes.includes("Creator saturation: low")),
+          uncapped: Boolean(notes && notes.includes("UNCAPPED")), capped: Boolean(notes && notes.includes("cap: capped")), low: Boolean(notes && notes.includes("Creator saturation: low")),
           cats: catsOf, relevance, reasons,
         };
       });
     }
   }
 
-  const passes = (r: Row) => (!wantUncapped || r.uncapped) && (!wantSmall || r.low) && (minRate == null || (r.rate != null && r.rate >= minRate));
+  const passesCap = (r: Row) => capType === "uncapped" ? r.uncapped : capType === "capped" ? r.capped : capType === "unknown" ? (!r.uncapped && !r.capped) : true;
+  const passes = (r: Row) => passesCap(r) && (!wantSmall || r.low) && (minRate == null || (r.rate != null && r.rate >= minRate));
   const matched = rows.filter((r) => r.relevance > 0);
   let pool = intent.tokens.length && matched.length >= 3 ? matched : rows;
   if (catFilter) pool = pool.filter((r) => r.cats.some((c) => c.slug === catFilter));
+  if (networkSel) pool = pool.filter((r) => (r.network ?? "").toLowerCase().includes(networkSel));
   if (applyOnly) pool = pool.filter((r) => r.appUrl);
+  const networkCounts = new Map<string, number>();
+  for (const r of rows) if (r.network) networkCounts.set(r.network, (networkCounts.get(r.network) ?? 0) + 1);
+  const networkOptions = [...networkCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 16).map(([n]) => n);
   const ranked = [...pool].sort((a, b) => {
     const pa = passes(a) ? 1 : 0; const pb = passes(b) ? 1 : 0;
     if (pb !== pa) return pb - pa;
@@ -161,7 +167,16 @@ export default async function DiscoverPage({
               <option value="YouTube">YouTube</option>
               <option value="Instagram">Instagram</option>
             </select>
-            <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="uncapped" value="1" defaultChecked={wantUncapped} /> Uncapped only</label>
+            <select name="captype" defaultValue={capType} style={{ padding: "9px 13px", borderRadius: 999 }}>
+              <option value="">Any commission type</option>
+              <option value="uncapped">Uncapped ∞</option>
+              <option value="capped">Capped</option>
+              <option value="unknown">Cap unknown</option>
+            </select>
+            <select name="network" defaultValue={networkSel} style={{ padding: "9px 13px", borderRadius: 999 }}>
+              <option value="">Any affiliate program</option>
+              {networkOptions.map((n) => (<option key={n} value={n.toLowerCase()}>{n}</option>))}
+            </select>
             <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="small" value="1" defaultChecked={wantSmall} /> Smaller creators</label>
             <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="apply" value="1" defaultChecked={applyOnly} /> Accepting applications</label>
           </div>
@@ -187,7 +202,7 @@ export default async function DiscoverPage({
           <h2 style={h2style}>🏆 From the UltraVestra database</h2>
           <p style={sub}>
             Searched {rows.length} researched brands — {matched.length} matched your words
-            {wantUncapped ? " · filter: UNCAPPED ✓" : ""}{wantSmall ? " · filter: smaller creators" : ""}{minRate != null ? ` · filter: pays at least ${minRate}%` : ""}.
+            {capType === "uncapped" ? " · filter: UNCAPPED ✓" : capType === "capped" ? " · filter: capped" : capType === "unknown" ? " · filter: cap unknown" : ""}{networkSel ? ` · program: ${networkSel}` : ""}{wantSmall ? " · filter: smaller creators" : ""}{minRate != null ? ` · filter: pays at least ${minRate}%` : ""}.
             Ranked by filters, match, then Opportunity Score. Open a profile to see every fact&rsquo;s source.
           </p>
           {top.length === 0 && <p style={{ color: "#f0abfc", margin: 0 }}>Not enough verified information in the database for this search yet — see the live web results below, and try wider words.</p>}
