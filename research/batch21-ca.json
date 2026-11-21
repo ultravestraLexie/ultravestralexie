@@ -1,0 +1,576 @@
+[
+ {
+  "name": "Key Nutrients",
+  "website": "https://keynutrients.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Key Nutrients makes clean, transparent electrolyte and hydration supplements — zero-sugar, zero-calorie electrolyte powders with disclosed dosing, plus collagen, keto and sleep products — and states it has shipped 250,000+ orders with 25,000+ five-star reviews.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://keynutrients.com/pages/affiliate-faq",
+    "summary": "Key Nutrients' own Affiliate FAQ states the default commission is 15% for every conversion, rising by monthly sales volume to 20% at $500-$1,000 and 25% at $1,000+, with a 45-day cookie, PayPal payouts, and sign-up open to anyone including social-media-only promoters."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://keynutrients.com/pages/affiliate-faq",
+    "summary": "The same FAQ answers the question 'Is there any cap on the number of referrals I can generate?' with 'No! Your earning potential is unlimited' — an explicit unlimited-earnings statement about earning potential on the brand's own page, which is why commission_cap is recorded as uncapped; the companion program page repeats 'Unlimited Referrals — you will get paid on every sale'. No absolute creator-count data is published, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://keynutrients.com/pages/become-an-affiliate",
+    "summary": "The brand's Become an Affiliate page routes sign-up through Rakuten LinkShare (signup.linkshare.com), pays by check or direct deposit on the 20th of each month, and summarises the offer as 15-25% on each conversion."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": 15,
+   "application_url": "https://keynutrients.com/pages/become-an-affiliate",
+   "source_url": "https://keynutrients.com/pages/affiliate-faq",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Key Nutrients Affiliate Program",
+   "application_url": "https://keynutrients.com/pages/become-an-affiliate",
+   "source_url": "https://keynutrients.com/pages/affiliate-faq"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 17,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Electrolyte hydration, collagen and keto supplements are core topics for fitness, wellness and everyday-athlete creators.",
+    "ugc_evidence": "The brand runs a formal affiliate program explicitly welcoming social-media promoters, with creatives and custom URLs.",
+    "compensation": "15% default commission rising to 25% on monthly volume, with earning potential stated as unlimited on the brand's own FAQ, so the cap is verified uncapped.",
+    "contact_access": "Application runs through the brand's own affiliate pages and Rakuten; no public partnerships email was usable from the fetched pages.",
+    "opportunity_availability": "Program is open now, free to join, with a 45-day cookie and monthly payouts.",
+    "credibility": "The brand states 250,000+ orders shipped, 25,000+ five-star reviews and a #1 best-seller position on Amazon for its electrolytes."
+   }
+  }
+ },
+ {
+  "name": "UNI KEY Health",
+  "website": "https://unikeyhealth.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "UNI KEY Health is a Hayden, Idaho-based supplement brand selling its products direct to consumers through unikeyhealth.com, with a US-based customer care team and a long-term-trusted-affiliate positioning.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "info@unikeyhealth.com",
+    "contact_url": "https://unikeyhealth.com/pages/affiliate-program",
+    "source_url": "https://unikeyhealth.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://unikeyhealth.com/pages/affiliate-program",
+    "summary": "UNI KEY Health's own affiliate page states affiliates earn a 10% commission each time someone orders via their link or coupon code on unikeyhealth.com, the program is built on the UpPromote platform for long-term trusted affiliates, and affiliates get a dashboard with per-order notifications."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://unikeyhealth.com/pages/affiliate-program",
+    "summary": "The same official page carries the heading 'Unlimited Earnings' directly above '10% commission on all sales!' — the explicit unlimited-earnings statement on the brand's own page is why commission_cap is recorded as uncapped; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 10,
+   "application_url": "https://unikeyhealth.com/pages/affiliate-program",
+   "source_url": "https://unikeyhealth.com/pages/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "UNI KEY Health Affiliate Program",
+   "application_url": "https://unikeyhealth.com/pages/affiliate-program",
+   "source_url": "https://unikeyhealth.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Direct-to-consumer supplements fit weight-management, detox and healthy-ageing creator content.",
+    "ugc_evidence": "The brand runs a dedicated affiliate program on UpPromote aimed at long-term trusted affiliates sharing on social channels.",
+    "compensation": "10% commission on all sales with earnings headed 'Unlimited Earnings' on the brand's own page, so the cap is verified uncapped.",
+    "contact_access": "The program page publishes a general contact email and a US phone line for its customer care team.",
+    "opportunity_availability": "Application is open now through the brand's UpPromote application link.",
+    "credibility": "Established direct supplement brand with a published US address and phone support; limited third-party coverage, so credibility is scored conservatively."
+   }
+  }
+ },
+ {
+  "name": "Riva",
+  "website": "https://getrivanutrition.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Riva makes sugar-free, plant-based, Halal-certified gummy supplements — creatine, pre-workout, NAD+ and sleep formulas in full disclosed doses — shipping from its New Jersey facility with free US shipping over $40.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://affiliates.getrivanutrition.com/",
+    "summary": "Riva's own affiliate page pays 20% commission on a referred customer's first order and 10% on every reorder for the life of the customer, tracked by discount code rather than cookies, with monthly PayPal payouts, a 15% audience discount, and applications reviewed by a human within a couple of days."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://affiliates.getrivanutrition.com/",
+    "summary": "The page's 'no cap' wording ('There's no cap and no limit on how many people you refer' and 'No cap on how many people you refer') is tied to the NUMBER of people referred, not to total earnings, so under the strict standard commission_cap is recorded as unknown rather than uncapped; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://affiliates.getrivanutrition.com/",
+   "source_url": "https://affiliates.getrivanutrition.com/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Riva Affiliate Program",
+   "application_url": "https://affiliates.getrivanutrition.com/",
+   "source_url": "https://affiliates.getrivanutrition.com/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 15,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Creatine, pre-workout and sleep gummies are staple products for fitness, strength and daily-energy creators.",
+    "ugc_evidence": "The brand runs its own affiliate program built for creators, coaches and trainers, with brand assets and early formula access.",
+    "compensation": "20% on first orders and 10% on every reorder for the life of the customer; the published no-cap wording covers referral count only, so the earnings cap is unknown.",
+    "contact_access": "Application runs through the brand's own affiliate site; no public partnerships email was published on the fetched pages.",
+    "opportunity_availability": "Program is open now, free to join, with human review in a couple of days.",
+    "credibility": "Small, newer brand, but with third-party-tested, fully disclosed labels, Halal certification and a US fulfilment facility."
+   }
+  }
+ },
+ {
+  "name": "BariSlim",
+  "website": "https://barislim.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "BariSlim sells bariatric supplements and post-surgery vitamins — multivitamins, iron with vitamin C, calcium citrate, protein supplements and bundles — built for people recovering from weight-loss surgery.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "support@barislim.com",
+    "contact_url": "https://barislim.com/pages/affiliate-program",
+    "source_url": "https://barislim.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://barislim.com/pages/affiliate-program",
+    "summary": "BariSlim's own affiliate page offers up to 10% commission on every processed order depending on monthly sales volume, a 60-day cookie, monthly payouts via PayPal or bank transfer after a $50 threshold, exclusive follower discount codes, and eligibility for bariatric influencers, bloggers, healthcare providers and post-op patients; sign-up runs through its GoAffPro portal."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission",
+    "source_type": "brand_website",
+    "source_url": "https://barislim.com/pages/affiliate-program",
+    "summary": "The brand publishes only an 'up to 10%' ceiling with no base rate, and an up-to figure is a rate ceiling rather than a published base rate, so commission_rate is recorded as null; no earnings-cap statement is published, so commission_cap is unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": null,
+   "application_url": "https://barislim.com/pages/affiliate-program",
+   "source_url": "https://barislim.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "BariSlim Affiliate Program",
+   "application_url": "https://barislim.com/pages/affiliate-program",
+   "source_url": "https://barislim.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 16,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Bariatric supplements serve a dedicated, high-trust niche of weight-loss-surgery and recovery creators.",
+    "ugc_evidence": "The brand runs a structured affiliate program explicitly recruiting bariatric influencers on Instagram, TikTok, YouTube and Facebook, with banners, templates and swipe copy.",
+    "compensation": "Only an up-to-10% ceiling is published with no base rate, so the rate is recorded as null; no published cap statement.",
+    "contact_access": "The program page publishes a support email and a toll-free phone number.",
+    "opportunity_availability": "Program is open now, free to join, with applications reviewed within 24-48 hours and no massive-following requirement.",
+    "credibility": "Focused niche brand with a complete post-surgery catalog; limited third-party coverage, so credibility is scored conservatively."
+   }
+  }
+ },
+ {
+  "name": "Life Gardening Tools",
+  "website": "https://lifegardeningtools.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Life Gardening Tools is a Black-owned herbal apothecary and holistic wellness shop in Lauderhill, Florida, carrying loose herbs, herbal teas, sea moss, capsules, botanical wellness products and natural oral care, with free US shipping on orders over $100.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://lifegardeningtools.com/pages/brand-ambassador-program",
+    "summary": "Life Gardening Tools' own creator page offers a standard 15% cash commission on qualifying referred product sales through Shopify Collabs, a 10% customer discount via the creator's link or code, a 30-day holding period, and applications reviewed for audience fit, trust and content quality rather than follower count alone."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://lifegardeningtools.com/pages/brand-ambassador-program",
+    "summary": "The page's 'No 90-day earning cutoff' wording describes how long a partnership keeps earning while active, not a cap on total earnings, so commission_cap is recorded as unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": 15,
+   "application_url": "https://lifegardeningtools.com/pages/brand-ambassador-program",
+   "source_url": "https://lifegardeningtools.com/pages/brand-ambassador-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Life Gardening Tools Affiliate + Creator Program",
+   "application_url": "https://lifegardeningtools.com/pages/brand-ambassador-program",
+   "source_url": "https://lifegardeningtools.com/pages/brand-ambassador-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Herbs, sea moss, teas and botanical wellness fit herbal-wellness, natural-living and gut-health education creators directly.",
+    "ugc_evidence": "The brand runs a dedicated affiliate and creator program on Shopify Collabs with gifting and campaign-bonus paths for strong partners.",
+    "compensation": "15% standard cash commission on qualifying sales; no published earnings-cap statement.",
+    "contact_access": "Application runs through the brand's own creator page; no usable public partnerships email was published in the fetched text.",
+    "opportunity_availability": "Applications are open now and reviewed on fit and trust, not follower count alone.",
+    "credibility": "Small single-store apothecary with a published Florida address; limited third-party coverage, so credibility is scored conservatively."
+   }
+  }
+ },
+ {
+  "name": "Who's Brew",
+  "website": "https://whosbrewshop.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Who's Brew is a specialty coffee and tea marketplace connecting drinkers with independent roasters worldwide — 753 offerings across 26 origins, rated 4.7 stars from 2,784 customer reviews, with multi-vendor single-checkout and direct-from-roaster shipping.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://whosbrewshop.com/affiliates",
+    "summary": "Who's Brew's own affiliate page runs a four-tier Brew Influencer program — Bronze 5%, Silver 7%, Gold 9%, Platinum 10% commission — reviewed monthly on performance, with a monthly product credit of $20-$50 at every tier, a 30-day referral window, real-time dashboard, and payouts every Friday via Stripe Connect or PayPal once the balance reaches $100."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://whosbrewshop.com/affiliates",
+    "summary": "No earnings-cap statement is published on the program page, so commission_cap is recorded as unknown; no absolute creator-count data is published, so creator_saturation is unknown; the recorded 5% rate is the Bronze starting tier every approved creator begins on."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 5,
+   "application_url": "https://whosbrewshop.com/affiliates",
+   "source_url": "https://whosbrewshop.com/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Who's Brew Affiliate Program",
+   "application_url": "https://whosbrewshop.com/affiliates",
+   "source_url": "https://whosbrewshop.com/affiliates"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Specialty coffee and tea from independent roasters fits coffee, tea and café-culture creators with hundreds of products to feature.",
+    "ugc_evidence": "The brand runs a structured influencer program explicitly for beverage creators, bloggers and podcast hosts, with monthly content expectations per tier.",
+    "compensation": "5% starting commission rising to 10% at the top tier, plus a $20-$50 monthly product credit; no published cap statement.",
+    "contact_access": "Application runs through the brand's own affiliates page; no public partnerships email was published.",
+    "opportunity_availability": "Program is open now to anyone with an online presence, with applications reviewed within a few business days.",
+    "credibility": "Operating marketplace with 753 offerings, 26 origins and a 4.7-star rating from 2,784 reviews on its own site."
+   }
+  }
+ },
+ {
+  "name": "Rising For People Coffee Co",
+  "website": "https://risingforpeoplecoffeeco.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Rising For People Coffee Co is a specialty, farm-direct coffee roaster in Reno, Nevada, whose Rising Society membership bundles daily drinks, tasting kits and coffee bags with a mangrove tree planted in every member's name.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "Info@risingforpeoplecoffeeco.com",
+    "contact_url": "https://risingforpeoplecoffeeco.com/influencer-program-coffee",
+    "source_url": "https://risingforpeoplecoffeeco.com/influencer-program-coffee"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "handle": "risingforpeoplecoffeeco",
+    "url": "https://www.instagram.com/risingforpeoplecoffeeco/"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://risingforpeoplecoffeeco.com/influencer-program-coffee",
+    "summary": "Rising For People Coffee Co's own Rising Society Creator Program pays Standard creators 25% of a referred member's first month plus 7% recurring monthly for 12 months, auto-graduating to Society Partner (30% first month, 10% recurring) at 3+ conversions and an invite-only Founding Ambassador tier (40% first month, 15% recurring), applied through Shopify Collabs with monthly PayPal payouts and no minimum."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://risingforpeoplecoffeeco.com/influencer-program-coffee",
+    "summary": "No earnings-cap statement is published on the program page, so commission_cap is recorded as unknown; the recorded 25% is the Standard first-month rate every approved creator starts on, not the invite-only 40% ceiling; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": 25,
+   "application_url": "https://risingforpeoplecoffeeco.com/influencer-program-coffee",
+   "source_url": "https://risingforpeoplecoffeeco.com/influencer-program-coffee",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Rising Society Creator Program",
+   "application_url": "https://risingforpeoplecoffeeco.com/influencer-program-coffee",
+   "source_url": "https://risingforpeoplecoffeeco.com/influencer-program-coffee"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 17,
+   "compensation": 16,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Coffee-membership rituals fit reading, cozy-lifestyle, wellness-ritual and café-culture creators the program is built for.",
+    "ugc_evidence": "The brand runs a dedicated creator program with a content brief, sample-post grid, lifestyle photos and three named content formats on sign-up.",
+    "compensation": "25% first-month commission at the starting tier plus 7% recurring for 12 months, rising with tiers; no published cap statement.",
+    "contact_access": "The program page publishes a general contact email and a phone number for the Reno café.",
+    "opportunity_availability": "Applications are open now through Shopify Collabs with approval usually within 48 hours.",
+    "credibility": "Single-location specialty roaster with a published Reno address and impact reporting; small scale, so credibility is scored conservatively."
+   }
+  }
+ },
+ {
+  "name": "Nashville Grind",
+  "website": "https://www.nashvillegrind.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Nashville Grind is a small-batch coffee roaster in Nashville, Tennessee, selling its own blends direct to consumers and recruiting coffee lovers of any audience size into its Brew Crew creator program.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.nashvillegrind.com/pages/brew-crew",
+    "summary": "Nashville Grind's own Brew Crew page pays 15% commission on every sale sent through a creator's personal link, gives the audience 10% off via that link, tracks clicks, orders and earnings in a dashboard, and is free to join with no follower minimums; the social-media lane runs through its own UpPromote portal (af.uppromote.com)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://www.nashvillegrind.com/pages/brew-crew",
+    "summary": "The brand also offers a separate TikTok Shop lane at the same 15%, but the recorded route in is its OWN UpPromote program, so it qualifies under the directory rule (TikTok Shop is an extra channel, never the only route); no earnings-cap statement is published, so commission_cap is unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 15,
+   "application_url": "https://www.nashvillegrind.com/pages/brew-crew",
+   "source_url": "https://www.nashvillegrind.com/pages/brew-crew",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nashville Grind Brew Crew",
+   "application_url": "https://www.nashvillegrind.com/pages/brew-crew",
+   "source_url": "https://www.nashvillegrind.com/pages/brew-crew"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 15,
+   "compensation": 14,
+   "contact_access": 5,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Small-batch Nashville coffee fits coffee, local-food and lifestyle creators, including very small audiences.",
+    "ugc_evidence": "The brand runs its own Brew Crew creator program with a personal link, dashboard and featured creator content on the program page.",
+    "compensation": "15% commission on every sale through the creator's own-program link; no published cap statement.",
+    "contact_access": "Sign-up runs through the brand's own Brew Crew page and UpPromote portal; no public partnerships email was published.",
+    "opportunity_availability": "Program is open now, free forever, with no follower minimums — a group chat or handful of followers qualifies.",
+    "credibility": "Small single-roaster brand; limited third-party coverage, so credibility is scored conservatively."
+   }
+  }
+ },
+ {
+  "name": "Gold Roast Coffee",
+  "website": "https://shopusa.sawilsons.com",
+  "country": "Canada",
+  "category_slug": "food-drink",
+  "description": "Gold Roast Coffee is S.A. Wilson's premium coffee line — a Canadian brand trusted since 1998 with a loyal repeat-buying customer base, sold to US customers through its shopusa storefront.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://shopusa.sawilsons.com/affiliate-program/",
+    "summary": "S.A. Wilson's own US affiliate page pays 10% commission on every new order a partner refers and 5% on all repeat orders from that customer, with a real-time dashboard at its own portal (ourpartners.sawilsons.com), monthly payouts via PayPal, bank transfer or store credit after a $65 minimum, and free instant sign-up with applications reviewed before approval."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_website",
+    "source_url": "https://shopusa.sawilsons.com/affiliate-program/",
+    "summary": "No earnings-cap statement is published on the program page, so commission_cap is recorded as unknown; no absolute creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://shopusa.sawilsons.com/affiliate-program/",
+   "source_url": "https://shopusa.sawilsons.com/affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Gold Roast Coffee Affiliate Partner Program",
+   "application_url": "https://shopusa.sawilsons.com/affiliate-program/",
+   "source_url": "https://shopusa.sawilsons.com/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 14,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium coffee with a repeat-buying base fits coffee and pantry creators, with ongoing repeat-order commission.",
+    "ugc_evidence": "The brand runs its own affiliate partner program with a dedicated portal, live tracking and creator-facing sign-up.",
+    "compensation": "10% on new orders and 5% on repeat orders from referred customers; no published cap statement.",
+    "contact_access": "Application runs through the brand's own affiliate page and partner portal; no public partnerships email was published.",
+    "opportunity_availability": "Program is open now, free to join with instant account creation and review before approval.",
+    "credibility": "Canadian coffee brand operating since 1998, the longest track record in this group."
+   }
+  }
+ },
+ {
+  "name": "BariBowl",
+  "website": "https://baribowl.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "BariBowl and its sister brand BiteSized make portion-control bowls, meal systems and bariatric-portioned meal prep — high-protein bites, sampler packs and bundles built for every post-op stage and for GLP-1 and portion-control audiences.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://baribowl.com/pages/affiliate",
+    "summary": "BariBowl's own affiliate page for the BiteSized x BariBowl Creator Program pays a 10% starter commission on every sale from a creator's link or code including bundles and repeat/subscription orders, rising to 25% at $2,000/month in sales, with a 30-day cookie, a free starter kit on approval, a ready-made content kit, monthly payouts via PayPal or direct deposit after a $25 minimum, and no follower minimum."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_saturation",
+    "source_type": "brand_website",
+    "source_url": "https://baribowl.com/pages/affiliate",
+    "summary": "The same page states '500+ creators' and '$250K+ paid out' — a few hundred creators is mid-size under the strict absolute standard, so creator_saturation is recorded as unknown, not low; no earnings-cap statement is published, so commission_cap is unknown; the page also notes both brands sell on Shopify and TikTok Shop, but the recorded route in is the brand's own creator program, so it qualifies under the directory rule."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://baribowl.com/pages/affiliate",
+   "source_url": "https://baribowl.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "BiteSized x BariBowl Creator Program",
+   "application_url": "https://baribowl.com/pages/affiliate",
+   "source_url": "https://baribowl.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 13,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Bariatric meal prep and portion control serve bariatric, GLP-1 and weight-management creator audiences directly.",
+    "ugc_evidence": "The brand runs a creator-first program with a free product starter kit, B-roll and talking-point content kit, a private creator community and named earning creators on the page.",
+    "compensation": "10% starter commission on all sales including repeats, rising to 25% at $2,000/month in sales; no published cap statement.",
+    "contact_access": "Application runs through the brand's own affiliate page; no public partnerships email was published.",
+    "opportunity_availability": "Now accepting its fall launch cohort, with no follower minimum, no exclusivity and a 48-hour response.",
+    "credibility": "The brand's own page claims 500+ creators and $250K+ paid out with a 4.9 creator rating; these are self-reported figures, so credibility is scored conservatively."
+   }
+  }
+ }
+]

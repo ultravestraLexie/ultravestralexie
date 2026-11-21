@@ -1,0 +1,594 @@
+[
+  {
+    "name": "SEW-WHAT?",
+    "website": "https://sewwhatvirginhair.com",
+    "country": null,
+    "category_slug": "beauty",
+    "description": "Premium virgin-hair brand running its own SEW-WHAT? Creator Program on its own site: creators earn 10% commission on every sale through a unique referral link and personal discount code, paid monthly via PayPal, and the program page states twice that there is no cap on earnings. Creators must post at least twice a month; 5,000+ followers is preferred but micro-creators with strong engagement are accepted.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://sewwhatvirginhair.com/pages/sew-what-creator-program",
+        "summary": "SEW-WHAT?'s own Creator Program page recruits beauty, hair and lifestyle content creators (stylists/salon owners are also welcomed, but the program is creator-first with Instagram/TikTok/YouTube/blog content expectations), gives each approved creator a unique referral link, a personal discount code and a creator dashboard, and requires at least 2 posts per month; 5,000+ followers is preferred, with micro-creators accepted on engagement."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "brand_site",
+        "source_url": "https://sewwhatvirginhair.com/pages/sew-what-creator-program",
+        "summary": "The brand's own page publishes the commission structure: 'Earn 10% commission on every sale', monthly payouts via PayPal on the 1st of the month for the previous month's approved sales, plus performance-based bonuses."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://sewwhatvirginhair.com/pages/sew-what-creator-program",
+        "summary": "The brand's own page states the earnings cap explicitly twice: 'No earning cap' in the commission structure list and 'There is no cap on earnings - the more you promote, the more you earn' in the program detail, so commission_cap is recorded as uncapped. No absolute creator counts are published, so creator_saturation stays unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct (SEW-WHAT? Creator Program)",
+      "commission_rate": 10,
+      "application_url": "https://sewwhatvirginhair.com/pages/sew-what-creator-program",
+      "source_url": "https://sewwhatvirginhair.com/pages/sew-what-creator-program",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "SEW-WHAT? Creator Program",
+      "application_url": "https://sewwhatvirginhair.com/pages/sew-what-creator-program",
+      "compensation_notes": "10% commission on every qualifying sale; monthly PayPal payouts; the brand's own page states there is no cap on earnings (verified uncapped). Performance-based bonuses available.",
+      "description": "Apply on the brand's Creator Program page, get a unique referral link and personal discount code, post at least twice a month featuring the hair products, and earn 10% on every sale with no earnings cap.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 18,
+      "compensation": 17,
+      "contact_access": 7,
+      "opportunity_availability": 7,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Premium virgin hair is highly visual, tutorial-friendly material for hair and beauty creators, though narrower than skincare or makeup.",
+        "ugc_evidence": "A creator-native program: referral links, personal codes, a creator dashboard, defined monthly content expectations across Instagram, TikTok, YouTube and blogs, and social feature opportunities.",
+        "compensation": "Clean 10% on every sale with an explicit no-cap statement on the brand's own page - verified uncapped - plus performance bonuses.",
+        "contact_access": "Application and dashboard are on the brand's own site; no public program email is published.",
+        "opportunity_availability": "Open application; 5,000+ followers preferred but micro-creators with strong engagement are accepted; a 2-posts-per-month commitment is required.",
+        "credibility": "Smaller specialist brand; program terms are fully published on its own site, but scale and track record are modest."
+      }
+    }
+  },
+  {
+    "name": "Glo Skin Beauty",
+    "website": "https://www.gloskinbeauty.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Pro-heritage mineral makeup and skincare brand whose own affiliate page splits the program in two: an Influencer route for influencers, publishers and fans with a social following, paying 10% commission on all new consumer orders, and a separate Professional route for existing trade accounts. The influencer program runs through Refersion, whose terms confirm the standard non-professional payout at 10% for new customers (1% for past purchasers).",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.gloskinbeauty.com/pages/glo-affiliate-program",
+        "summary": "Glo Skin Beauty's own affiliate page offers two routes: 'For Influencers' - only for influencers, publishers and other fans of the brand with a social following - paying 10% commission on all new consumer orders with ongoing commission on associated customers; and 'For Professional Accounts' - only for current professional trade accounts - at 15%. Selected influencers earn on all net sales and receive free products monthly. Only the influencer route is recorded here; the professional route is a trade program."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_network",
+        "source_url": "https://glopartners.refersion.com/?oid=102564&cs=2db8ddc5e2a7e035c8838043a0c50d3b10f564069ef722805b1528892dc3a8a1",
+        "summary": "The program's Refersion terms publish the Default Standard Payout (non-professional) at 10% commission for new customers and 1% for past purchasers/existing customers on MSRP orders, with a 30-day attribution window - matching the 10% influencer rate on the brand's page, which is the rate recorded. The same terms show a 20%/15% tier tied to keeping a Professional account active; that is the trade route and is not the creator rate. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion",
+      "commission_rate": 10,
+      "application_url": "https://www.gloskinbeauty.com/pages/glo-affiliate-program",
+      "source_url": "https://www.gloskinbeauty.com/pages/glo-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Glo Skin Beauty Affiliate Program - Influencer Route (Refersion)",
+      "application_url": "https://www.gloskinbeauty.com/pages/glo-affiliate-program",
+      "compensation_notes": "10% commission on all new consumer orders for influencers (Refersion standard non-professional payout: 10% new customers, 1% past purchasers, MSRP orders only); ongoing commission on associated customers. A separate 15-20% professional trade route exists and is not the creator rate. No published earnings cap.",
+      "description": "Apply under the Influencer option on the brand's affiliate page, and if selected earn 10% on new consumer orders with free products monthly; tracking and terms run through Refersion.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 17,
+      "compensation": 15,
+      "contact_access": 7,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Mineral makeup plus clinical skincare from a pro-heritage brand - strong tutorial, complexion and routine UGC material.",
+        "ugc_evidence": "A dedicated influencer route on the brand's own page, explicitly for social followings, with free product for selected creators and Refersion tracking behind it.",
+        "compensation": "10% on new consumer orders is clean and confirmed in both the brand page and the Refersion terms; repeat-customer payout drops to 1% for non-professionals, and no uncapped statement is published.",
+        "contact_access": "Application is on the brand's own domain with a 48-hour follow-up promise if interested; no public program email is published.",
+        "opportunity_availability": "Selective - the brand follows up only if interested - and the influencer route requires a social following.",
+        "credibility": "Established professional beauty brand with complete, consistent terms published in two places (brand page and Refersion)."
+      }
+    }
+  },
+  {
+    "name": "Shankara",
+    "website": "https://shankara.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Ayurvedic skincare brand (100% natural, cruelty-free; 100% of net profits support humanitarian initiatives) whose own affiliate page offers commission starting at 10% on every purchase made through an affiliate's link and code, with bonuses for high performers, free products and samples, exclusive audience discount codes and dedicated support; payments run through the affiliate network (the page names Awin as the example) and tracking uses a 30-day cookie.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://shankara.com/pages/affiliate",
+        "summary": "Shankara's own affiliate page states affiliates earn 'commission starting at 10% on every purchase made through your link and code', with bonuses and perks for high performers, free products and samples, exclusive discount codes, early access to launches and dedicated affiliate support; the application includes a brand education course and a 1:1 expert consultation, and there is no strict minimum sales requirement."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "brand_site",
+        "source_url": "https://shankara.com/pages/affiliate",
+        "summary": "The brand's FAQ states sales are tracked through unique links on a 30-day cookie window and 'Payments are processed through the affiliate network (e.g., Awin) via methods like BACS or wire transfer', with schedule and thresholds set by the network - so the network is recorded as Awin per the brand's own wording. The recorded 10% is the published starting rate. The page publishes no earnings-cap statement and no creator counts, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://shankara.com/pages/affiliate",
+      "source_url": "https://shankara.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Shankara Affiliate Program (Awin)",
+      "application_url": "https://shankara.com/pages/affiliate",
+      "compensation_notes": "Commission starting at 10% on every purchase through the affiliate link and code, per the brand's own page; bonuses for high performers; payments via the affiliate network (Awin named on the page). No published earnings cap.",
+      "description": "Apply on the brand's affiliate page, complete the brand education course and 1:1 consultation, then earn starting at 10% on referred purchases with free products, samples and audience discount codes.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 16,
+      "compensation": 14,
+      "contact_access": 8,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Ayurvedic, natural skincare with a strong ritual and ingredients story - good routine and wellness-led UGC material.",
+        "ugc_evidence": "Brand-run affiliate page with link-and-code tracking, audience discount codes, free products and samples, and dedicated affiliate support.",
+        "compensation": "Published starting rate of 10% with performance bonuses; the page does not publish the top of the range or any cap statement, so cap stays unknown.",
+        "contact_access": "Full program page and FAQ on the brand's own domain; support is offered to affiliates, though no public program email is published.",
+        "opportunity_availability": "Open application with no strict minimum sales requirement; onboarding includes a required education course and consultation.",
+        "credibility": "Established Ayurvedic brand with a stated humanitarian profit model and complete program terms on its own site."
+      }
+    }
+  },
+  {
+    "name": "Cult Beauty",
+    "website": "https://www.cultbeauty.co.uk",
+    "country": "United Kingdom",
+    "category_slug": "beauty",
+    "description": "UK-born prestige beauty retailer (THG) running its Global Affiliate Programme on Awin: the Awin rate card pays Content publishers 10% on new-customer sales and 5% on existing, with dedicated UGC & Communities (2%) and Influencer (1%) tiers; the profile notes influencers are managed in-house rather than through Awin and publishes influencer@cultbeauty.co.uk for partnership discussions.",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "partnerships",
+        "email": "influencer@cultbeauty.co.uk",
+        "notes": "Influencer partnership email published on Cult Beauty's Awin merchant profile, which states influencers are managed in-house, not via the Awin channel.",
+        "url": "https://ui.awin.com/merchant-profile/29063?setLocale=pl_PL"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/29063?setLocale=pl_PL",
+        "summary": "Cult Beauty's Awin Global profile describes a curated prestige beauty retailer with a 30-day cookie, app tracking, a dedicated in-house affiliate team, weekly exclusive offers and product sampling opportunities; it also states 'Cult Beauty does not work with influencers via the Awin affiliate channel, as this is managed in-house' and publishes influencer@cultbeauty.co.uk for influencer partnerships."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/29063/commission-groups?setLocale=de_DE",
+        "summary": "The Awin commission-groups page publishes CPA by publisher type: Content 10% new customer / 5% existing, Shopping Directory 10%/5%, UGC & Communities 2%/2%, Influencer 1%/1%, with exclusions (0% gift cards, 1% electricals and selected brands, 2% advent calendars). The recorded 10% is the Content new-customer rate - the main creator-publisher tier on the network. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://ui.awin.com/merchant-profile/29063?setLocale=pl_PL",
+      "source_url": "https://ui.awin.com/merchant-profile/29063?setLocale=pl_PL",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Cult Beauty Global Affiliate Programme (Awin)",
+      "application_url": "https://ui.awin.com/merchant-profile/29063?setLocale=pl_PL",
+      "compensation_notes": "Awin CPA by publisher type: Content 10% new / 5% existing customers; UGC & Communities 2%; Influencer 1% via Awin (influencer partnerships are managed in-house - see the published contact). No published earnings cap.",
+      "description": "Join through Awin as a content publisher to earn 10% on new-customer orders across the prestige catalogue, or pitch the in-house influencer team directly at the published email for managed partnerships.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 15,
+      "compensation": 14,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "A huge prestige and indie catalogue in one basket - ideal for discovery, haul and hero-product UGC.",
+        "ugc_evidence": "Awin programme with a dedicated UGC & Communities tier and an in-house influencer team; note the dedicated UGC network rate is only 2%, with the stronger 10% paid to Content publishers.",
+        "compensation": "10% new-customer rate for content publishers (5% existing) is solid for a retailer; UGC and influencer network tiers are much lower, and no cap statement is published.",
+        "contact_access": "Published influencer partnership email on the Awin profile plus a dedicated in-house affiliate team.",
+        "opportunity_availability": "Open Awin application for publishers; influencer partnerships are application-by-email to the in-house team.",
+        "credibility": "Long-established UK prestige retailer (THG-owned) with a complete published Awin rate card."
+      }
+    }
+  },
+  {
+    "name": "Clinique",
+    "website": "https://www.clinique.co.uk",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Estée Lauder's dermatologist-developed, allergy-tested, fragrance-free skincare and makeup brand. Network listings record its affiliate program on Rakuten Advertising, but published rate figures conflict across current sources (6% per LinkClicky, 7-10% per Brandid, up to 6% per LinkApprove, 1.5% per Shopper), so no single rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/clinique/",
+        "summary": "LinkClicky's program listing records Clinique's affiliate platform as Rakuten Advertising with a 6% per-sale commission for CA/GB regions; the brand does not publish an affiliate page of its own in the sources found, so the route is network-reported."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "directory",
+        "source_url": "https://brandid.app/blog/best-beauty-affiliate-programs/",
+        "summary": "Published rate figures conflict: Brandid's 2026 guide lists Clinique at 7-10% with a 30-day cookie via Estée Lauder networks, LinkApprove lists up to 6%, LinkClicky lists 6%, and Shopper lists 1.5% - no settleable single rate, so commission_rate is null with the conflict documented. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/clinique/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Clinique Affiliate Program (Rakuten Advertising)",
+      "application_url": null,
+      "compensation_notes": "Rate not recorded: current listings conflict (6% / up to 6% / 7-10% / 1.5% across directories). Confirm the live rate inside Rakuten Advertising before promoting.",
+      "description": "Join through Rakuten Advertising per network listings and promote the dermatologist-developed skincare and makeup range; verify the current rate in the network, as directories disagree.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 13,
+      "compensation": 9,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Iconic dermatologist-developed skincare with universal recognition - among the strongest routine and sensitive-skin content fits available.",
+        "ugc_evidence": "Affiliate route exists via Rakuten, but the brand publishes no creator program page of its own and listings describe selective approval for quality sites.",
+        "compensation": "Directories conflict between 1.5%, 6% and 7-10%, so no rate is recorded; that uncertainty caps the compensation score.",
+        "contact_access": "No published program email was found; contact runs through Rakuten after application.",
+        "opportunity_availability": "Network application via Rakuten; approval is described as selective in current guides.",
+        "credibility": "Estée Lauder flagship brand founded in 1968; the affiliate facts are network-reported rather than brand-published, which is noted in the evidence."
+      }
+    }
+  },
+  {
+    "name": "e.l.f. Cosmetics",
+    "website": "https://www.elfcosmetics.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Mass-market vegan, cruelty-free makeup and skincare brand (e.l.f. Beauty, Oakland CA) whose affiliate program runs on Rakuten Advertising (CID 39724 per a network listing). Published rate figures conflict across current sources (5% per LinkClicky, 2-5% per HiEnergy's Rakuten listing, 5-12% network-dependent per Brandid and Clickwire), so no single rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/e-l-f-cosmetics/",
+        "summary": "LinkClicky's program listing records e.l.f. Cosmetics' affiliate platform as Rakuten Advertising at 5% per sale for CA/GB/US regions; a HiEnergy listing independently records the program on Rakuten (CID 39724, based in Oakland, CA)."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "directory",
+        "source_url": "https://brandid.app/blog/best-beauty-affiliate-programs/",
+        "summary": "Published rate figures conflict by network and source: Brandid lists 5-12% depending on network, HiEnergy's Rakuten listing lists 2-5%, and LinkClicky lists 5% - no settleable single rate, so commission_rate is null with the conflict documented. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/e-l-f-cosmetics/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "e.l.f. Cosmetics Affiliate Program (Rakuten Advertising)",
+      "application_url": null,
+      "compensation_notes": "Rate not recorded: listings conflict (5% vs 2-5% on Rakuten vs 5-12% network-dependent). Confirm the live rate inside Rakuten before promoting.",
+      "description": "Join through Rakuten Advertising and promote the affordable vegan makeup and skincare range; verify the current rate in the network, as published figures disagree by source and network.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 14,
+      "compensation": 9,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Gen-Z favourite mass beauty brand - dupe, budget and viral-product content is some of the highest-converting UGC in the category.",
+        "ugc_evidence": "Affiliate program on a major network (Rakuten) for a social-first brand; the brand publishes no creator program page of its own in the sources found.",
+        "compensation": "No settleable published rate - figures range from 2-5% to 5-12% depending on source and network - so no rate is recorded; cap unknown.",
+        "contact_access": "No published program email was found; contact runs through Rakuten after application.",
+        "opportunity_availability": "Open network application through Rakuten (also listed on Sovrn/Skimlinks-type aggregators).",
+        "credibility": "Major public US beauty company with global retail distribution; affiliate terms are network-reported only."
+      }
+    }
+  },
+  {
+    "name": "L'Occitane",
+    "website": "https://ie.loccitane.com",
+    "country": "France",
+    "category_slug": "skincare",
+    "description": "French Provence beauty house (founded 1976) whose own affiliate programme page (Irish storefront) offers free signup, real-time tracking and 'up to 10% commission' on uk.loccitane.com sales within a 30-day cookie, with applications routed to Impact and management by Silverbean. 'Up to 10%' is a ceiling and a CJ listing elsewhere claims 2.5%, so no single rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://ie.loccitane.com/affiliate-programme",
+        "summary": "L'Occitane's own affiliate programme page states signup is free, affiliates get campaign newsletters, real-time reporting and sales tracking, a product feed and collaboration opportunities, and applications go through Impact ('Click here to apply' routes to app.impact.com) with a dedicated management team at Silverbean."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "brand_site",
+        "source_url": "https://ie.loccitane.com/affiliate-programme",
+        "summary": "The brand's page publishes only a ceiling - 'Earn up to 10% commission on all sales on uk.loccitane.com within a 30-day cookie window' - while LinkClicky lists the program on CJ Affiliate at 2.5% per sale; a ceiling plus a conflicting network figure is not a settleable rate, so commission_rate is null. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "contact",
+        "source_type": "brand_site",
+        "source_url": "https://ie.loccitane.com/affiliate-programme",
+        "summary": "The affiliate page's contact link for its management team resolves through a staging subdomain (staging-eu01-loccitane.demandware.net), so no affiliate-team email is recorded as a contact; this needs review against a live-domain source before use."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://ie.loccitane.com/affiliate-programme",
+      "source_url": "https://ie.loccitane.com/affiliate-programme",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "L'Occitane Affiliate Programme (Impact)",
+      "application_url": "https://ie.loccitane.com/affiliate-programme",
+      "compensation_notes": "Rate not recorded: the brand publishes only an 'up to 10%' ceiling (30-day cookie, UK storefront) and a CJ listing elsewhere claims 2.5%. Confirm the live rate inside Impact before promoting.",
+      "description": "Apply from the brand's affiliate programme page into Impact, get real-time tracking and a product feed, and promote the Provence skincare, body and fragrance range.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 9,
+      "contact_access": 7,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Premium natural skincare, body and fragrance with strong gifting and ritual content angles.",
+        "ugc_evidence": "Brand-run affiliate programme page feeding Impact, with collaboration opportunities named; pitched at publishers generally rather than social creators specifically.",
+        "compensation": "Only an 'up to 10%' ceiling is brand-published and a 2.5% CJ figure conflicts, so no rate is recorded; cap unknown.",
+        "contact_access": "Programme page on the brand's own domain with a named management agency (Silverbean); the page's team email link resolves via a staging subdomain, so no email is recorded.",
+        "opportunity_availability": "Free, open application through Impact from the brand's page.",
+        "credibility": "Global French beauty house founded in 1976 with its programme on a major network and agency management."
+      }
+    }
+  },
+  {
+    "name": "JLo Beauty",
+    "website": "https://jlobeauty.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Jennifer Lopez's skincare brand, whose own affiliates page routes signups to Rakuten (LinkShare) and promises commissions, exclusive affiliate offers and social feature opportunities for tagging the brand - but publishes no commission percentage. A single third-party guide claims 21% via Impact, which conflicts with the Rakuten route recorded by both the brand page and FMTC (Rakuten #53046), so no rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://jlobeauty.com/pages/affiliates",
+        "summary": "JLo Beauty's own affiliates page states affiliates earn commissions sharing products across website or social channels with unique affiliate links, get exclusive offers and promotions, and can be featured by tagging the brand on Instagram and TikTok; signup is explicitly 'Sign Up for your Rakuten Account' with LinkShare sign-in links."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.fmtc.co/new-fmtc-merchants-include-foreo-hamilton-watch-jlo-beauty-trivago-wonderbly/",
+        "summary": "FMTC's merchant listing independently records JLO Beauty on Rakuten Advertising (#53046, Health & Beauty). The brand's page publishes no rate; a 2026 guide (Brandid) claims 21% via Impact, which conflicts with the Rakuten route on both brand and FMTC sources, so commission_rate is null with the conflict documented. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": null,
+      "application_url": "https://jlobeauty.com/pages/affiliates",
+      "source_url": "https://jlobeauty.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "JLo Beauty Affiliate Program (Rakuten Advertising)",
+      "application_url": "https://jlobeauty.com/pages/affiliates",
+      "compensation_notes": "Rate not recorded: the brand publishes no percentage, and the only published figure (21%, via Impact, in one guide) conflicts with the Rakuten route on the brand's own page and FMTC. Confirm the live rate inside Rakuten before promoting.",
+      "description": "Sign up for a Rakuten account from the brand's affiliates page, share products across website or social channels with unique links, and earn commission with exclusive affiliate offers.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 9,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Celebrity glow skincare with premium price points - strong routine and results-led UGC angles.",
+        "ugc_evidence": "Brand-run affiliates page pitched directly at social sharing, with a social-feature incentive for tagging the brand on Instagram and TikTok.",
+        "compensation": "No brand-published rate, and the single 21% third-party claim conflicts with the verified Rakuten route, so no rate is recorded; cap unknown.",
+        "contact_access": "Program page on the brand's own domain with Rakuten signup routes; no public program email is published.",
+        "opportunity_availability": "Open signup through Rakuten from the brand's page.",
+        "credibility": "Well-known celebrity-founded brand on a major network; the rate conflict is documented honestly in the evidence."
+      }
+    }
+  },
+  {
+    "name": "Tata Harper",
+    "website": "https://www.tataharperskincare.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Vermont farm-to-face luxury clean skincare brand whose affiliate program is listed on FlexOffers at 16% of sales from new customers (8% existing) with a 30-day cookie - but other current listings conflict sharply (around 7-10% in a 2026 guide, 3.2% on Shopper, 1-4% on InfluencerRate), so no single rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.flexoffers.com/affiliate-programs/tata-harper-affiliate-program/",
+        "summary": "FlexOffers' program page (updated 2026-11-18) records the Tata Harper payout as 16% of sales from new customers and 8% for existing customers with a 30-day cookie, a dedicated affiliate management team and application via the brand's website or social profile."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "directory",
+        "source_url": "https://brandid.app/blog/best-beauty-affiliate-programs/",
+        "summary": "Published rate figures conflict sharply: FlexOffers lists 16% new / 8% existing, Brandid's guide lists around 7-10% via ShareASale, Shopper lists 3.2% and InfluencerRate lists 1-4% - no settleable single rate, so commission_rate is null with the conflict documented. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "FlexOffers",
+      "commission_rate": null,
+      "application_url": "https://www.flexoffers.com/affiliate-programs/tata-harper-affiliate-program/",
+      "source_url": "https://www.flexoffers.com/affiliate-programs/tata-harper-affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Tata Harper Affiliate Program (FlexOffers)",
+      "application_url": "https://www.flexoffers.com/affiliate-programs/tata-harper-affiliate-program/",
+      "compensation_notes": "Rate not recorded: listings conflict (16% new / 8% existing on FlexOffers vs ~7-10% vs 3.2% vs 1-4% elsewhere). Confirm the live rate inside the network before promoting.",
+      "description": "Apply through FlexOffers (or the ShareASale listings other guides cite) and promote the farm-to-face luxury clean skincare range; verify the current rate first, as published figures disagree widely.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 9,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Luxury clean skincare made on the brand's own Vermont farm - premium ingredient and ritual storytelling for UGC.",
+        "ugc_evidence": "Affiliate listings on major networks with a dedicated management team; the brand publishes no creator program page of its own in the sources found.",
+        "compensation": "Published figures range from 1-4% to 16%, so no rate can be recorded; that spread caps the compensation score despite the high FlexOffers figure.",
+        "contact_access": "No published program email was found; contact runs through the network after application.",
+        "opportunity_availability": "Network application via FlexOffers; approval terms are not published.",
+        "credibility": "Established luxury clean-beauty brand sold in 30+ countries; affiliate facts are network-reported, which is noted in the evidence."
+      }
+    }
+  },
+  {
+    "name": "RMS Beauty",
+    "website": "https://www.rmsbeauty.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Clean makeup and skincare brand founded in 2009 by makeup artist Rose-Marie Swift, with its own 'Join the RMS Beauty Affiliate Program' page on its site. Published rate figures conflict across current sources (a 5-15% range in a 2026 program review, up to 4.2% on Refermate, and network panels ranging from 2.8% to 10.5%), so no single rate is recorded.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.rmsbeauty.com/pages/affiliate",
+        "summary": "RMS Beauty's own site hosts a 'Join the RMS Beauty Affiliate Program' page, confirming a brand-run affiliate route; the fetched page copy focuses on the founder story and publishes no commission percentage, cookie or cap statement."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "directory",
+        "source_url": "https://www.affiliateworldforums.com/threads/rms-beauty-affiliate-program-review.17065/",
+        "summary": "Published rate figures conflict: a 2026 program review lists a 5-15% range with a 30-day cookie aimed at bloggers, influencers and creators, Refermate lists up to 4.2%, and a network-availability roundup lists RMS panels from 2.8% to 10.5% - no settleable single rate, so commission_rate is null with the conflict documented. No earnings-cap statement or absolute creator counts are published, so cap and saturation stay unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct (RMS Beauty Affiliate Program)",
+      "commission_rate": null,
+      "application_url": "https://www.rmsbeauty.com/pages/affiliate",
+      "source_url": "https://www.rmsbeauty.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "RMS Beauty Affiliate Program",
+      "application_url": "https://www.rmsbeauty.com/pages/affiliate",
+      "compensation_notes": "Rate not recorded: published figures conflict (5-15% range vs up to 4.2% vs network panels at 2.8-10.5%). Confirm the live rate in the program terms before promoting.",
+      "description": "Join from the brand's own affiliate page and promote the clean, skin-loving makeup range to beauty audiences; verify the current rate in the program dashboard first.",
+      "status": "unverified",
+      "type": "affiliate"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 15,
+      "compensation": 9,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Pioneer clean-beauty brand with skincare-infused makeup - excellent natural-look tutorial and review material.",
+        "ugc_evidence": "Brand-run affiliate page on its own domain, and program reviews describe it as aimed at beauty bloggers, influencers, makeup artists and content creators.",
+        "compensation": "Published figures conflict from 2.8% up to a 5-15% range, so no rate is recorded; cap unknown.",
+        "contact_access": "Affiliate page on the brand's own domain; no public program email is published in the sources found.",
+        "opportunity_availability": "Application from the brand's affiliate page; eligibility terms are not published on the fetched page.",
+        "credibility": "Established clean-beauty pioneer founded in 2009 by a working makeup artist, with wide retail recognition."
+      }
+    }
+  }
+]

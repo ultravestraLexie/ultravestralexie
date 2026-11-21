@@ -1,0 +1,637 @@
+[
+ {
+  "name": "Farm to Pet",
+  "website": "https://farmtopettreats.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Chicago-based independent maker of premium single-ingredient treats for dogs and cats, plus antler chews and food toppers, sold through FarmToPetTreats.com. Its Treat Ambassador (Our Pack) program runs through Shopify Collabs and pays creators flat cash commissions on code/link sales.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://farmtopettreats.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://farmtopettreats.com/pages/affiliate"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://farmtopettreats.com/pages/press-releases",
+    "email": "ourpack@farmtopettreats.com",
+    "source_url": "https://farmtopettreats.com/pages/press-releases"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://farmtopettreats.com/pages/affiliate",
+    "summary": "Farm to Pet's official Treat Ambassador page fetched in full: accepted ambassadors receive a unique unlimited 10% discount code and link, and 'For every sale that is made using your personalized code or link, you will earn a commission of up to $10! - based on whether the customer is new or returning. There is no commission limit!' The explicit no-limit statement on the brand's own program page makes the commission cap UNCAPPED. The pay is a FLAT bounty (not a percentage), so commission_rate is null with the flat structure recorded here and in the terms evidence below."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://farmtopettreats.com/pages/affiliate-program-disclosures",
+    "summary": "The brand's official program terms confirm the flat structure exactly: $10.00 on all eligible purchases by NEW customers and $2.00 on purchases by RETURNING customers using the ambassador's code/link, paid via Shopify Collabs once at least $25.00 in commission is reached; eligibility requires age 18+ and a valid Shopify Collabs account."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://help.farmtopettreats.com/en-US/articles/treat-ambassador-program-259115",
+    "summary": "The brand's official help centre states the gate honestly: ambassadors must have an active US-based pet-focused social media presence (Instagram, TikTok, Facebook and/or YouTube) with at least 1K followers, are chosen at the brand's discretion, and must post at least once per month and share content to the brand's upload app monthly. The brand's press page also publishes the program email ourpack@farmtopettreats.com. TikTok Shop and Amazon routes exist as extra channels but the recorded route is the brand's own Shopify Collabs program."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": null,
+   "application_url": "https://farmtopettreats.com/pages/affiliate",
+   "source_url": "https://farmtopettreats.com/pages/affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Farm to Pet Treat Ambassador Program — flat $10 new / $2 returning per sale, 'no commission limit' per official page, via Shopify Collabs (1K+ follower gate)",
+   "application_url": "https://farmtopettreats.com/pages/affiliate",
+   "source_url": "https://farmtopettreats.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 14,
+   "contact_access": 13,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Single-ingredient dog and cat treats are a natural, highly demonstrable pet UGC product with an easy taste-test content format",
+    "ugc_evidence": "A dedicated creator ambassador program requiring monthly social posts and content uploads, with a welcome gift and collaborator invites on Instagram",
+    "compensation": "Verified uncapped per the brand's own page, but the pay itself is a modest flat $10 per new-customer sale and $2 per returning sale",
+    "contact_access": "Published program email (ourpack@farmtopettreats.com) plus the Shopify Collabs application on the official page",
+    "opportunity_availability": "Gated: US-based pet-focused account with at least 1K followers, brand discretion, and monthly posting duties",
+    "credibility": "Established independent Chicago treat maker with full program terms and disclosures published on its own site"
+   }
+  }
+ },
+ {
+  "name": "Belkin",
+  "website": "https://www.belkin.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "US consumer-electronics brand founded in 1983 selling chargers, cables, audio, smart-home and connectivity accessories through Belkin.com. It runs a Creator Affiliate program for social creators (10% commission, free product) alongside a publisher affiliate program on Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://belkin.grin.live/",
+    "email": null,
+    "source_url": "https://belkin.grin.live/"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://belkin.grin.live/",
+    "email": "globalsocial@belkin.com",
+    "source_url": "https://belkin.grin.live/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://belkin.grin.live/",
+    "summary": "Belkin's official Creator Affiliate application page (on its GRIN creator platform) fetched in full: 'Apply below to be a part of Belkin's Creator Affiliate program. As a creator affiliate, you'll receive: 10% commission on sales, free product to try, review, and experience, early access to new product releases, exclusive event invites.' It publishes the affiliate support email globalsocial@belkin.com. The 10% creator rate stated on the brand's own creator page is the recorded rate. The page makes no earnings-cap statement, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.belkin.com/ca/company/affiliates-2/",
+    "summary": "Belkin's official publisher affiliate page fetched in full: affiliates earn a commission based on the product's sale price, joining is free with no minimum sales requirements, and 'Impact Radius will pay by check, ACH, wire, or PayPal for a percentage of the sales you referred to our site after you have earned $50 in commissions.' Third-party listings for this separate publisher route conflict (4% / 8% / up to 10%), which is why the recorded rate rests on the creator program's own published 10%."
+   }
+  ],
+  "affiliate": {
+   "network": "GRIN (Creator Affiliate) / Impact (publisher)",
+   "commission_rate": 10,
+   "application_url": "https://belkin.grin.live/",
+   "source_url": "https://belkin.grin.live/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Belkin Creator Affiliate Program — 10% commission on sales plus free product per the brand's creator page; publisher route via Impact",
+   "application_url": "https://belkin.grin.live/",
+   "source_url": "https://belkin.grin.live/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 14,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Chargers, MagSafe accessories and audio are everyday-carry tech staples with endless desk-setup, travel and unboxing content angles",
+    "ugc_evidence": "A dedicated creator affiliate track with free product to review, early access and event invites — separate from the publisher program",
+    "compensation": "10% on sales per the brand's own creator page; accessories are mid-priced so per-sale dollars are moderate; no cap statement published",
+    "contact_access": "Published affiliate support email (globalsocial@belkin.com) plus creator and Impact applications",
+    "opportunity_availability": "Creator application reviewed by the brand; publisher route is a standard Impact application, free with no sales minimum",
+    "credibility": "Four-decade global accessories brand, now part of Foxconn Interconnect, with both programs documented on its own pages"
+   }
+  }
+ },
+ {
+  "name": "Peak Design",
+  "website": "https://www.peakdesign.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Crowdfunded US carry and camera-gear brand selling backpacks, slings, tripods, straps and mobile accessories through PeakDesign.com, known for minimalist design and a lifetime guarantee. Its affiliate program runs through AvantLink (also listed via FlexOffers).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.whichprogram.com/en/topic/photo-print",
+    "email": null,
+    "source_url": "https://www.whichprogram.com/en/topic/photo-print"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.whichprogram.com/en/topic/photo-print",
+    "summary": "WhichProgram's network index records Peak Design on AvantLink at 'up to 10%' with a 30-day cookie and application required, and separately on FlexOffers at 8% with a 30-day cookie. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://brandid.app/blog/best-affiliate-programs-for-photographers/",
+    "summary": "Published Peak Design rates conflict: a 2026 photography-program roundup reports 7%, FlexOffers' own program page states an 8% payout, and several photography guides report 10%. Because the published figures conflict (7% / 8% / 10%) and the brand publishes no rate on its own site, commission_rate is null with the conflict recorded here; the AvantLink route is the one the network index names for the main program."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": null,
+   "application_url": "https://www.whichprogram.com/en/topic/photo-print",
+   "source_url": "https://www.whichprogram.com/en/topic/photo-print",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Peak Design Affiliate Program — camera/carry gear via AvantLink (published rates conflict at 7%-10%)",
+   "application_url": "https://www.whichprogram.com/en/topic/photo-print",
+   "source_url": "https://www.whichprogram.com/en/topic/photo-print"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Camera bags, everyday carry and travel gear are a premium, highly visual tech niche with a devoted creator community",
+    "ugc_evidence": "A long-running publisher/creator program aimed at photography and travel creators; no dedicated social-first tier published",
+    "compensation": "Listings report 7%-10% on premium-priced gear but conflict, so no rate is credited until verified in-network",
+    "contact_access": "Application through AvantLink/FlexOffers; no public program email found",
+    "opportunity_availability": "Standard network application with manual review of the applicant's site or channels",
+    "credibility": "Category-defining crowdfunded brand with a lifetime guarantee and an unusually loyal customer base"
+   }
+  }
+ },
+ {
+  "name": "DreamCloud",
+  "website": "https://dreamcloudsleep.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US luxury-hybrid mattress brand (sister brand to Nectar Sleep, part of the Resident group) selling mattresses, bedding and accessories through DreamCloudSleep.com with a 365-night trial and lifetime warranty. Its affiliate program runs through Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/dreamcloud/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/dreamcloud/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/dreamcloud/",
+    "summary": "Lasso's DreamCloud listing reports a FLAT $150 per mattress sale with a 180-day cookie. The flat bounty is the core pay; a percentage also applies to accessories (see below), so the percentage is recorded as the rate with the flat structure documented here. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/dreamcloud/",
+    "summary": "LinkClicky's network-sourced listing records DreamCloud on Impact at '$150, 12% per sale' — the $150 flat per mattress plus 12% on accessories (bedding, pillows) — and multiple 2026 roundups (Whop, UpPromote, BrandID) independently agree on the $150 flat / 12% accessories structure via Impact with a ~30-day cookie (cookie figures conflict at 30 vs 180 days and are not recorded). The recorded 12% is the accessories percentage; mattress pay is the flat $150."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 12,
+   "application_url": "https://getlasso.co/affiliate/dreamcloud/",
+   "source_url": "https://getlasso.co/affiliate/dreamcloud/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "DreamCloud Affiliate Program — flat $150 per mattress plus 12% on accessories via Impact",
+   "application_url": "https://getlasso.co/affiliate/dreamcloud/",
+   "source_url": "https://getlasso.co/affiliate/dreamcloud/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Luxury-hybrid mattresses at a mid-range price are a proven sleep-review category, and the 365-night trial is a strong content hook",
+    "ugc_evidence": "Network program aimed at sleep bloggers and reviewers; no dedicated creator tier published",
+    "compensation": "A predictable flat $150 per mattress plus 12% on accessories — among the easiest mattress payouts to forecast; no cap statement published",
+    "contact_access": "Application through Impact; no public program email found",
+    "opportunity_availability": "Standard Impact application with brand review (reported ~24 hours)",
+    "credibility": "Part of the Resident group alongside Nectar, with national brand awareness and a long-running program"
+   }
+  }
+ },
+ {
+  "name": "Leesa",
+  "website": "https://www.leesa.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US B Corp mattress brand selling foam and hybrid mattresses, bedding and bed frames through Leesa.com, known for donating one mattress for every ten sold. Its affiliate program has run through ShareASale and Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/leesa/",
+    "email": null,
+    "source_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today",
+    "summary": "A checked mattress-program roundup (last checked April 2025) reports Leesa at a FLAT $100 per mattress via ShareASale with a 30-day cookie and a $50 payout threshold, noting same-day approval for most established sites. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/leesa/",
+    "summary": "Published Leesa figures conflict in both form and size: LinkClicky's network listing records 2% per sale via Impact, a CommissionDex index reports $75 per mattress sale via ShareASale, older guides report 8%-10%, and the roundup above reports a flat $100. Because the published figures conflict (2% / $75 flat / $100 flat / 8-10%), commission_rate is null with the conflict recorded here."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today",
+   "source_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Leesa Affiliate Program — B Corp mattresses via ShareASale/Impact (published pay conflicts: flat $75-$100 vs 2%-10%)",
+   "application_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today",
+   "source_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium foam mattresses with a social-impact story (one donated per ten sold) give sleep and lifestyle creators a distinctive angle",
+    "ugc_evidence": "Long-running network program for sleep publishers and reviewers; no dedicated creator tier published",
+    "compensation": "Published pay conflicts in form and size (flat $75-$100 vs 2%-10%), so nothing firmer can be credited until verified in-network",
+    "contact_access": "Application through ShareASale/Impact; no public program email found",
+    "opportunity_availability": "ShareASale approval reported as fast (same-day for established sites)",
+    "credibility": "B Corp-certified brand that has donated tens of thousands of mattresses, with a program documented for years"
+   }
+  }
+ },
+ {
+  "name": "Purple",
+  "website": "https://purple.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US sleep brand built on its proprietary GelFlex Grid, selling mattresses, pillows, bedding and seat cushions through Purple.com, with 94% customer satisfaction and 125k+ five-star reviews per its own program page. It runs separate Creator and Publisher affiliate programs tracked in Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://purple.com/affiliate-program",
+    "email": null,
+    "source_url": "https://purple.com/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://purple.com/affiliate-program",
+    "summary": "Purple's official affiliate page fetched in full: it runs two tracks — a 'Creator affiliate program' for individual creators and influencers and a 'Publisher affiliate program' for reviews and publications — both earning 'a competitive commission' through a unique attribution link, with performance tracked in Impact and the exact compensation structure sent in the approval email. Gifted product is explored with creators individually. The brand publishes NO rate and no earnings-cap statement on the page, so the cap is unknown and the rate is settled from listings below."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/niche/mattress/",
+    "summary": "Published Purple figures conflict in both form and size: Lasso's mattress index reports 3.2% per sale via ShareASale, a checked roundup reports a flat $150-$200 per mattress via Impact with a 45-day cookie, and a creator-program review reports up to 15% via Impact. Because the published figures conflict (3.2% / flat $150-$200 / up to 15%), commission_rate is null with the conflict recorded here; the Impact route is the one the brand's own page names for tracking."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://purple.com/affiliate-program",
+   "source_url": "https://purple.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Purple Creator + Publisher Affiliate Programs — GelFlex Grid mattresses via Impact (brand publishes no rate; listings conflict)",
+   "application_url": "https://purple.com/affiliate-program",
+   "source_url": "https://purple.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 9,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "The GelFlex Grid is one of the most demonstrable, viral-friendly mattress technologies in sleep UGC (the famous egg-test format)",
+    "ugc_evidence": "A dedicated creator track distinct from the publisher program, with gifted product explored per creator, per the brand's own page",
+    "compensation": "The brand publishes no rate and listings conflict (3.2% vs flat $150-$200 vs up to 15%), so compensation is graded cautiously",
+    "contact_access": "Application from the brand's own affiliate page for both tracks; no public program email found",
+    "opportunity_availability": "Application reviewed by the brand, with terms revealed only in the approval email",
+    "credibility": "Publicly traded sleep brand with 125k+ five-star reviews and heavy national advertising"
+   }
+  }
+ },
+ {
+  "name": "Tuft & Needle",
+  "website": "https://www.tuftandneedle.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US value mattress brand (owned by Serta Simmons) selling adaptive-foam mattresses, bedding and furniture through TuftAndNeedle.com, built on transparent pricing. Its Partner Program runs through Impact, with a published affiliate contact email.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://help.tuftandneedle.com/article/206-affiliate-program",
+    "email": null,
+    "source_url": "https://help.tuftandneedle.com/article/206-affiliate-program"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://help.tuftandneedle.com/article/206-affiliate-program",
+    "email": "affiliates@tuftandneedle.com",
+    "source_url": "https://help.tuftandneedle.com/article/206-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://help.tuftandneedle.com/article/206-affiliate-program",
+    "summary": "Tuft & Needle's official help-centre affiliate page fetched in full (last updated September 16, 2026): 'You can connect with us through our Tuft & Needle Partner Program... Please email us at affiliates@tuftandneedle.com and apply through this link here' — the apply link points to Impact (app.impact.com). The brand publishes NO rate and no earnings-cap statement, so the cap is unknown and the rate is settled from listings below."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://affiliatemarketinggirl.io/blog/10-mattress-affiliate-programs-you-can-promote-today",
+    "summary": "Published Tuft & Needle figures conflict in both form and size: a checked roundup reports a flat $50-$100 per mattress via CJ Affiliate ($50 Original / $100 Mint), LinkClicky's network listing records 2%-5% via Impact, a network index reports 2% via Impact, and creator guides report 5%-10%. Because the published figures conflict (flat $50-$100 vs 2%-10%), commission_rate is null with the conflict recorded here; the Impact route is the one the brand's own help page names."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://help.tuftandneedle.com/article/206-affiliate-program",
+   "source_url": "https://help.tuftandneedle.com/article/206-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tuft & Needle Partner Program — value mattresses via Impact, contact affiliates@tuftandneedle.com (published pay conflicts)",
+   "application_url": "https://help.tuftandneedle.com/article/206-affiliate-program",
+   "source_url": "https://help.tuftandneedle.com/article/206-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 9,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Budget-friendly foam mattresses are an evergreen first-apartment and guest-room UGC category",
+    "ugc_evidence": "Standard partner program for publishers and reviewers; a creator roundup notes free product reviews for qualified influencers",
+    "compensation": "Published pay conflicts in form and size (flat $50-$100 vs 2%-10%) and the brand publishes none, so no rate is credited",
+    "contact_access": "A published program email (affiliates@tuftandneedle.com) on the brand's own help page, plus the Impact application",
+    "opportunity_availability": "Impact application linked from the brand's help centre; CJ listing suggests a stricter compliance review on that route",
+    "credibility": "A founding bed-in-a-box brand, now part of Serta Simmons, with a program documented across networks for years"
+   }
+  }
+ },
+ {
+  "name": "Thuma",
+  "website": "https://www.thuma.co",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "San Francisco DTC furniture brand founded in 2018, known for its platform bed frame with Japanese joinery-inspired construction, plus bedroom furniture and accessories sold through Thuma.co. It runs an affiliate program for readers/followers-based publishers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.thuma.co/pages/affiliate",
+    "email": null,
+    "source_url": "https://www.thuma.co/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.thuma.co/pages/affiliate",
+    "summary": "Thuma's official affiliate page fetched in full: 'As an affiliate, you will earn commission when your readers or followers make a purchase with Thuma. Join us and be rewarded.' The page publishes NO percentage, NO network name and NO earnings-cap statement, so the cap is unknown and commission_rate is null, with the network settled cautiously from the listing below."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/180246/thuma-affiliate-program",
+    "summary": "Sovrn Commerce's Thuma merchant page states that Thuma's current availability, publisher eligibility and merchant-specific terms through Sovrn 'must be verified within Sovrn Commerce' and that a current partnership 'cannot be independently confirmed' from the page; no commission rate or cookie could be verified there either. The Sovrn route is recorded as the network with this verification caveat attached."
+   }
+  ],
+  "affiliate": {
+   "network": "Sovrn Commerce",
+   "commission_rate": null,
+   "application_url": "https://www.thuma.co/pages/affiliate",
+   "source_url": "https://www.thuma.co/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Thuma Affiliate Program — platform-bed furniture; brand publishes no rate or network (Sovrn listing unverified)",
+   "application_url": "https://www.thuma.co/pages/affiliate",
+   "source_url": "https://www.thuma.co/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "The joinery platform bed is a cult home product with strong assembly-demo, Japandi and room-makeover content angles",
+    "ugc_evidence": "Affiliate page framed for readers/followers; no dedicated creator tier, gifting or creator terms published",
+    "compensation": "No rate published anywhere verifiable — the weakest compensation evidence in this batch",
+    "contact_access": "Application from the brand's own affiliate page; no public program email found",
+    "opportunity_availability": "Network availability itself could not be independently confirmed from the Sovrn merchant page — verify in-network before pitching",
+    "credibility": "Well-known DTC furniture brand founded in 2018 with a lifetime warranty on select products"
+   }
+  }
+ },
+ {
+  "name": "PetSafe",
+  "website": "https://www.petsafe.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Global pet-products brand founded in 1991 and headquartered in Knoxville, Tennessee, selling wireless fences, training collars, automatic feeders, fountains, litter boxes and pet doors through PetSafe.com (Radio Systems Corporation; sister brands include Kurgo, SportDOG and Invisible Fence). Its affiliate program is aimed at influencers, content creators, bloggers and publishers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://staging.petsafe.com/about-us/petsafe-affiliate-program/",
+    "email": null,
+    "source_url": "https://staging.petsafe.com/about-us/petsafe-affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://staging.petsafe.com/about-us/petsafe-affiliate-program/",
+    "summary": "PetSafe's affiliate program page was found and fetched ONLY on the brand's STAGING subdomain (staging.petsafe.com), so this evidence is flagged needs_review per the staging rule. The page states the program is 'perfect for pet parents, influencers and publishers with a strong online presence and loyal following', lists ideal partners as influencers, content creators, bloggers and publishers (coupon sites and sub-affiliate networks excluded), and sets guidelines including no bidding on PetSafe trademark terms. It publishes no rate and no earnings-cap statement, so the cap is unknown and the rate is settled from listings below."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/petsafe/",
+    "summary": "Lasso's PetSafe listing reports up to 9.0% commission with a 14-day cookie; a pet-program guide reports 8% with a long cookie, and Commission Factory's AU listing states 8% on every qualified sale with a 30-day cookie and AUD $100-$150 average order value. The recorded rate is the 8% figure two sources agree on, with the up-to-9% ceiling noted here."
+   }
+  ],
+  "affiliate": {
+   "network": "Commission Factory",
+   "commission_rate": 8,
+   "application_url": "https://staging.petsafe.com/about-us/petsafe-affiliate-program/",
+   "source_url": "https://staging.petsafe.com/about-us/petsafe-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "PetSafe Affiliate Program — pet tech and training products, ~8% reported (official program page found only on staging subdomain — needs review)",
+   "application_url": "https://staging.petsafe.com/about-us/petsafe-affiliate-program/",
+   "source_url": "https://staging.petsafe.com/about-us/petsafe-affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Feeders, fountains, litter tech and training gear are core demonstrable pet-tech products for review and problem-solution content",
+    "ugc_evidence": "The program page explicitly names influencers and content creators as ideal partners, with a strong-online-presence expectation",
+    "compensation": "Listings agree around 8% (up to 9% reported) on a $100+ average order; short reported cookie windows temper the value",
+    "contact_access": "Program page application route only; no public program email found",
+    "opportunity_availability": "Application-based with brand guidelines; the live (non-staging) program page could not be confirmed, hence the needs_review flag",
+    "credibility": "Three-decade global pet brand within Radio Systems Corporation, though the staging-only program page lowers verification confidence"
+   }
+  }
+ },
+ {
+  "name": "Rover",
+  "website": "https://www.rover.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "The world's largest marketplace for pet care, connecting pet owners with 200,000+ sitters and dog walkers for boarding, dog walking, house sitting, day care and drop-in visits, booked through Rover.com. Its affiliate program for publishers and creators runs through Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/rover/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/rover/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/rover/",
+    "summary": "Lasso's Rover listing reports 15% per sale with a 30-day cookie via Impact and a $50 payout threshold. A Referly network profile likewise reports up to 15% per sale with a 30-day cookie and monthly payouts. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.magentheme.com/rover-affiliate-program-review-commissions-payouts/",
+    "summary": "Other published accounts conflict on the pay FORM: a detailed program review states Rover actually pays a FLAT CPA per new-customer first booking (low-to-mid two-digit USD, varying by region/campaign), and a pet-program roundup reports $20 per qualified signup / $15 per booking. Because published sources conflict between a 15% percentage and flat per-booking bounties, commission_rate is null with the conflict recorded here; the Impact route is consistent across sources. A separate customer refer-a-friend credit scheme exists and is NOT the recorded route."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/rover/",
+   "source_url": "https://getlasso.co/affiliate/rover/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Rover Affiliate Program — pet-sitting marketplace via Impact (published pay conflicts: 15% vs flat per-booking CPA)",
+   "application_url": "https://getlasso.co/affiliate/rover/",
+   "source_url": "https://getlasso.co/affiliate/rover/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pet sitting and dog walking is a service every travelling or working pet owner needs — a natural fit for pet and travel-lifestyle content",
+    "ugc_evidence": "Program open to pet blogs, city guides and social creators on YouTube, Instagram and TikTok per program reviews; no dedicated creator tier published",
+    "compensation": "Published pay conflicts in form (15% of booking vs flat $15-$25 CPA on first bookings only), so no rate is credited until verified in Impact",
+    "contact_access": "Application through Impact; no public program email found",
+    "opportunity_availability": "Standard Impact application with manual review; no minimum traffic threshold disclosed",
+    "credibility": "The world's largest pet-care marketplace with 200,000+ providers and a long-running network program"
+   }
+  }
+ }
+]
