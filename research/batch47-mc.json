@@ -1,0 +1,513 @@
+[
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://app.createfunmcn.com/products?department=other&category=Bars"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Protein snack brand from Alpha Prime selling soft-baked protein brownies (19g protein, 5g collagen per brownie), mini muffins and rice treats baked in its Miami bakery. It bills itself as the #1 Food & Snack brand on TikTok Shop with 20,000,000 brownies sold, and is also stocked at Target, Walmart, Costco and BJ's.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://app.createfunmcn.com/products?department=other&category=Bars",
+    "summary": "Creative Fun's TikTok Shop product marketplace lists multiple Prime Bites Protein Treats products at a 10% public commission rate, including a brownie variety pack with 457,195 reported sales and a cinnamon roll pack with 17,286 reported sales. The listing states final eligibility and commission settlement are determined by TikTok Shop. No earnings-cap statement appears, so commission_cap is unknown; the very large sales and affiliate volume give no basis for low saturation."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://primebites.com/",
+    "summary": "Prime Bites' official store sells protein brownies, mini muffins and rice treats, states '20,000,000 brownies sold' and '15,000+ 5-star reviews', calls itself the #1 Food & Snack brand on TikTok Shop, and lists retail availability at Target, Walmart, Costco and BJ's."
+   }
+  ],
+  "name": "Prime Bites",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://app.createfunmcn.com/products?department=other&category=Bars",
+   "title": "Prime Bites Protein Treats — TikTok Shop affiliate products (10% public rate)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Published 10% public commission rate on TikTok Shop offers; no cap statement found, so cap is honestly unknown.",
+    "contact_access": "No published creator email or application page found; the route in is the TikTok Shop affiliate program itself.",
+    "credibility": "20M+ brownies sold and national retail distribution at Target, Walmart, Costco and BJ's.",
+    "niche_fit": "Protein dessert snacks built for TikTok food content — a top-selling TikTok Shop food brand with highly demonstrable, taste-test-friendly products.",
+    "opportunity_availability": "Products are openly listed for TikTok Shop affiliates at a public rate, so any eligible creator can promote them.",
+    "ugc_evidence": "The brand's growth is TikTok Shop creator-driven; marketplace listings show hundreds of thousands of reported sales through creator-sold offers."
+   },
+   "ugc_evidence": 19
+  },
+  "socials": [],
+  "website": "https://primebites.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://gfuel.com/en-ca/pages/community",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "GoAffPro",
+   "source_url": "https://gfuel.com/en-ca/pages/community"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "ambassadors@gfuel.com",
+    "source_url": "https://gfuel.com/en-ca/pages/community"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://gfuel.com/en-ca/pages/community",
+    "email": null,
+    "source_url": "https://gfuel.com/en-ca/pages/community"
+   }
+  ],
+  "country": "United States",
+  "description": "Gaming energy drink brand founded in 2012 selling sugar-free energy formula tubs, ready-to-drink cans and hydration products aimed at gamers and streamers. Runs a large creator affiliate program on GoAffPro with a public ambassador application page.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_terms",
+    "source_type": "official_site",
+    "source_url": "https://gfuel.com/en-ca/pages/community",
+    "summary": "G Fuel's official Ambassador page invites content creators to apply: affiliates receive a personal code giving fans 20% off at GFUEL.com and earn commission on every sale, paid via PayPal, plus free product, merch and early flavor access. Applicants must be 18+. Program questions go to ambassadors@gfuel.com. The page confirms commission is paid but does not publish the percentage."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/g-fuel-affiliate-program/",
+    "summary": "The Affiliate Monkey's program review states the G Fuel affiliate program is managed through the GoAffPro platform and pays a 10% commission on qualified transactions, paid monthly via PayPal. The brand's own page does not publish the rate, so 10% is recorded as publicly reported."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://goaffpro.com/case-study/gfuel",
+    "summary": "GoAffPro's own case study confirms G Fuel runs its affiliate program on GoAffPro (portal at affiliates.gfuel.com) with 1100+ affiliates generating eight figures in referral revenue. An affiliate count above 1,100 is far above the ~100-creator scale required for a 'low' saturation mark, so creator_saturation is unknown."
+   }
+  ],
+  "name": "G Fuel",
+  "opportunity": {
+   "application_url": "https://gfuel.com/en-ca/pages/community",
+   "source_url": "https://gfuel.com/en-ca/pages/community",
+   "title": "G FUEL Affiliate / Ambassador Program"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 13,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% commission publicly reported by program reviews plus free product and merch; no cap statement found, so cap is unknown.",
+    "contact_access": "Public application form on the official page plus a published program email (ambassadors@gfuel.com) — top band.",
+    "credibility": "Founded 2012, category-defining gaming energy brand with national retail presence and eight figures of affiliate-driven revenue.",
+    "niche_fit": "Energy drinks are a staple creator category; G Fuel is gaming/streamer-skewed rather than general wellness, which trims the fit slightly.",
+    "opportunity_availability": "Applications are publicly open on the official site to creators 18+.",
+    "ugc_evidence": "A dedicated ambassador program built for content creators, with 1100+ affiliates per the platform's own case study."
+   },
+   "ugc_evidence": 18
+  },
+  "socials": [],
+  "website": "https://gfuel.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 7,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/oats-overnight/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Breakfast brand selling high-protein overnight oat blends in ready-to-mix pouches and cups — just add milk, refrigerate overnight, and eat. Sold through its own site and grocery retail.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/oats-overnight/",
+    "summary": "LinkClicky's affiliate directory lists the Oats Overnight affiliate program on ShareASale at 7% commission per sale with a 30-day cookie, described as the rate officially listed with the program (page last updated March 11, 2024). A second directory has reported the program on a different network (Impact), so the network attribution should be re-confirmed at application; the 7% rate is consistent across reports. No earnings-cap statement appears, so commission_cap is unknown."
+   }
+  ],
+  "name": "Oats Overnight",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/oats-overnight/",
+   "title": "Oats Overnight Affiliate Program (ShareASale, 7%)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 7% per-sale commission with a 30-day cookie — modest rate; no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through the ShareASale network listing; no brand creator email was published on the sources checked.",
+    "credibility": "Established DTC breakfast brand with grocery retail distribution.",
+    "niche_fit": "High-protein breakfast oats are a strong fit for food, fitness and morning-routine creators.",
+    "opportunity_availability": "Program is listed as open to affiliates through the network.",
+    "ugc_evidence": "An open network affiliate program exists, but no brand-run creator community or UGC program was documented."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.oatsovernight.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://linkclicky.com/affiliate-program/the-ayurveda-experience/"
+  },
+  "category_slug": "wellness",
+  "contacts": [],
+  "country": "United States",
+  "description": "Ayurvedic wellness brand selling skincare oils, supplements and herbal formulations based on traditional Ayurveda, plus educational courses and content on Ayurvedic living.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/the-ayurveda-experience/",
+    "summary": "LinkClicky's affiliate directory lists The Ayurveda Experience affiliate program on CJ Affiliate at 15% commission per sale for the US region, described as the rate officially listed with the program (page last updated March 11, 2024). No earnings-cap statement appears, so commission_cap is unknown, and no creator-count evidence supports a low saturation mark."
+   }
+  ],
+  "name": "The Ayurveda Experience",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/the-ayurveda-experience/",
+   "title": "The Ayurveda Experience Affiliate Program (CJ Affiliate, 15%)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 15% per-sale commission on CJ Affiliate — one of the stronger rates in this group; no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through the CJ Affiliate network listing; no brand creator email was published on the sources checked.",
+    "credibility": "Established global Ayurvedic brand with its own education platform and courses.",
+    "niche_fit": "Ayurvedic skincare and supplements sit squarely in the wellness niche, with a more specialized audience than mainstream beauty.",
+    "opportunity_availability": "Program is listed as open to affiliates through the network.",
+    "ugc_evidence": "An open network affiliate program exists; no brand-run creator program was documented on the sources checked."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://theayurvedaexperience.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/karma-nuts/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Snack brand selling wrapped and roasted cashews in sweet and savory flavors — minimally processed, gluten-free, non-GMO and vegan-friendly — through its own site and retail.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/karma-nuts/",
+    "summary": "LinkClicky's affiliate directory lists the Karma Nuts affiliate program on ShareASale at 10% commission per sale with a 90-day cookie, described as the rate officially listed with the program (page last updated March 11, 2024). No earnings-cap statement appears, so commission_cap is unknown."
+   }
+  ],
+  "name": "Karma Nuts",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/karma-nuts/",
+   "title": "Karma Nuts Affiliate Program (ShareASale, 10%, 90-day cookie)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% per-sale commission with an unusually long 90-day cookie; no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through the ShareASale network listing; no brand creator email was published on the sources checked.",
+    "credibility": "Smaller DTC snack brand with retail presence; less established than the national brands in this group.",
+    "niche_fit": "Better-for-you snacks fit food and wellness creators well, though the single-product focus narrows content angles.",
+    "opportunity_availability": "Program is listed as open to affiliates through the network.",
+    "ugc_evidence": "An open network affiliate program exists; no brand-run creator program was documented."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.karmanuts.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/aura-bora/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Sparkling water brand crafting herbal, floral and fruit-extract sparkling waters with no sugar, calories or artificial ingredients, sold through its own site and national grocery retail.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/aura-bora/",
+    "summary": "LinkClicky's affiliate directory lists the Aura Bora affiliate program on ShareASale at 10% commission per sale with a 7-day cookie, described as the rate officially listed with the program (page last updated March 10, 2024). No earnings-cap statement appears, so commission_cap is unknown."
+   }
+  ],
+  "name": "Aura Bora",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/aura-bora/",
+   "title": "Aura Bora Affiliate Program (ShareASale, 10%)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% per-sale commission, held back by a short 7-day cookie; no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through the ShareASale network listing; no brand creator email was published on the sources checked.",
+    "credibility": "Established beverage brand with national grocery distribution.",
+    "niche_fit": "Botanical sparkling water is a natural fit for wellness, beverage and aesthetic food content.",
+    "opportunity_availability": "Program is listed as open to affiliates through the network.",
+    "ugc_evidence": "An open network affiliate program exists; the brand is social-first in its marketing, though no formal creator program was documented."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://aurabora.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.nuttzo.com/pages/nuttzo-affiliate-info",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.nuttzo.com/pages/nuttzo-affiliate-info"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.nuttzo.com/pages/nuttzo-affiliate-info",
+    "email": null,
+    "source_url": "https://www.nuttzo.com/pages/nuttzo-affiliate-info"
+   }
+  ],
+  "country": "United States",
+  "description": "Nut butter brand selling mixed nut and seed butters (including its signature 7 Nut & Seed Butter) in jars and bars through its own site and grocery retail. Runs its own affiliate program with a public application page.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_terms",
+    "source_type": "official_site",
+    "source_url": "https://www.nuttzo.com/pages/nuttzo-affiliate-info",
+    "summary": "NuttZo's official affiliate page invites applications to its own affiliate program: approved affiliates get an account with their commission structure, payment details and referral codes, and earn commission on purchases made through their link or code. The brand does not publish the commission percentage publicly — it is revealed in the affiliate account after approval — so commission_rate is null. Affiliates are expected to promote at least quarterly, with an annual partnership evaluation. No earnings-cap statement appears, so commission_cap is unknown."
+   }
+  ],
+  "name": "NuttZo",
+  "opportunity": {
+   "application_url": "https://www.nuttzo.com/pages/nuttzo-affiliate-info",
+   "source_url": "https://www.nuttzo.com/pages/nuttzo-affiliate-info",
+   "title": "NuttZo Affiliate Program"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 11,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Commission is confirmed on the brand's own page but the percentage is not published (revealed after approval), so this stays low per the rubric.",
+    "contact_access": "Public application form on the brand's own affiliate page.",
+    "credibility": "Established DTC nut butter brand with national grocery distribution.",
+    "niche_fit": "Premium nut butters fit food, recipe and wellness creators well.",
+    "opportunity_availability": "Applications are publicly open on the official site, subject to brand review.",
+    "ugc_evidence": "The brand runs its own affiliate program with a public recruitment page aimed at fans who create and share content."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.nuttzo.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/nutsla/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Health food brand built around DIY Superfood Bar Mixes made from simple ingredients like nuts, seeds and fruit, letting customers make their own bars at home.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/nutsla/",
+    "summary": "LinkClicky's affiliate directory lists the NUTSÓLA affiliate program on ShareASale at 20% commission per sale with a 30-day cookie, described as the rate officially listed with the program (page last updated March 11, 2024). No earnings-cap statement appears, so commission_cap is unknown."
+   }
+  ],
+  "name": "NUTSÓLA",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/nutsla/",
+   "title": "NUTSÓLA Affiliate Program (ShareASale, 20%)"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 8,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 20% per-sale commission — the highest rate in this group — with a 30-day cookie; no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through the ShareASale network listing; no brand creator email was published on the sources checked.",
+    "credibility": "Small, younger DTC brand; less established than the national brands in this group.",
+    "niche_fit": "DIY superfood bar mixes give food and wellness creators a demonstrable, make-it-yourself content angle.",
+    "opportunity_availability": "Program is listed as open to affiliates through the network.",
+    "ugc_evidence": "An open network affiliate program exists; no brand-run creator program was documented."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://nutsola.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/wilde-brands/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Protein snack brand selling chicken chips and protein bars made from lean chicken breast, egg whites and bone broth — positioned as a crunchy, high-protein alternative to traditional chips and bars.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/wilde-brands/",
+    "summary": "LinkClicky's affiliate directory lists the Wilde Brands affiliate program on ShareASale at 10% commission per sale with a 30-day cookie, described as the rate officially listed with the program (page last updated March 11, 2024). No earnings-cap statement appears, so commission_cap is unknown."
+   }
+  ],
+  "name": "Wilde Brands",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/wilde-brands/",
+   "title": "Wilde Brands Affiliate Program (ShareASale, 10%)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% per-sale commission with a 30-day cookie; no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through the ShareASale network listing; no brand creator email was published on the sources checked.",
+    "credibility": "Established protein snack brand with national retail distribution.",
+    "niche_fit": "High-protein savory snacks fit fitness, keto and snack-review creators well.",
+    "opportunity_availability": "Program is listed as open to affiliates through the network.",
+    "ugc_evidence": "An open network affiliate program exists; no brand-run creator program was documented."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.wildebrands.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/93823"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "Canada",
+  "description": "Canadian brand selling organic overnight muesli built for active lifestyles — vegan, gluten-free, with 20g plant-based protein, 12g fiber, probiotics and superfoods per serving.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_terms",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/93823",
+    "summary": "HOLOS Foods Inc.'s own merchant profile on Awin states affiliates enjoy a 10% base commission and up to 15%, with a 30-day cookie and creatives/banners provided. The base 10% is recorded as the rate; 'up to 15%' is a tier ceiling, not an earnings-cap statement, so commission_cap is unknown."
+   }
+  ],
+  "name": "HOLOS",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/93823",
+   "title": "HOLOS Affiliate Program (Awin, 10% base up to 15%)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 8,
+   "credibility": 3,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% base commission rising to 15% per the network's own merchant profile, with a 30-day cookie; no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through the Awin merchant profile; no brand creator email was published on the sources checked.",
+    "credibility": "Smaller Canadian DTC brand; less established than the US national brands in this group.",
+    "niche_fit": "Organic overnight muesli for active lifestyles fits fitness, running and wellness creators well.",
+    "opportunity_availability": "Program is listed as open to affiliates through Awin.",
+    "ugc_evidence": "An open network affiliate program exists on Awin; no brand-run creator program was documented."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://holos.ca"
+ }
+]

@@ -1,0 +1,626 @@
+[
+ {
+  "name": "Levi's",
+  "website": "https://www.levi.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Iconic American denim brand founded in 1853, selling jeans, jackets and casual apparel for men, women and kids through levi.com, its own stores and wholesale partners worldwide.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.levi.com/US/en_US/features/affiliate-program",
+    "summary": "Levi's official affiliate program page invites content creators, publishers, bloggers, media partners and loyalty/deal partners to apply; it promises a 'competitive commission structure with category-based earning opportunities' and partnership opportunities for select affiliates, but publishes no rate and no earnings-cap statement."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://whopaysinfluencers.com/brands/fashion/",
+    "summary": "WhoPaysInfluencers' brand-confirmed listing says Levi's affiliate applications go through the Rakuten (LinkShare) network and are reviewed by Levi's, with category-based commission per sale and rates not published."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/levis/",
+    "summary": "Lasso lists the Levi's program at 10% per sale with a 5-day cookie, but other directories conflict (4% per Creator Hero's men's guide and Post Affiliate Pro, 8% per LinkApprove, 4-7% on Impact per Affboosters), so no single commission rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://whopaysinfluencers.com/brands/fashion/",
+    "summary": "The same listing records 13 Levi's ambassadors on record with an open application, offering gifted product, early access, discounts, affiliate commission and features on brand channels."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.levi.com/US/en_US/features/affiliate-program",
+   "source_url": "https://www.levi.com/US/en_US/features/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.levi.com/US/en_US/features/affiliate-program",
+   "source_url": "https://www.levi.com/US/en_US/features/affiliate-program",
+   "title": "Levi's Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 16,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Denim is a core fashion-creator category and Levi's is the category-defining brand for try-on, styling and thrift-flip content.",
+    "ugc_evidence": "An official affiliate community page aimed at creators plus a recorded ambassador program with gifting, features and affiliate commission.",
+    "compensation": "The official page confirms category-based commission but publishes no rate, and directory figures conflict (4%, 8%, 10%), so no rate is recorded and no cap statement was found.",
+    "contact_access": "Application runs through Levi's own affiliate page into the Rakuten network; no published partnerships email was found.",
+    "opportunity_availability": "Open application for creators, publishers and bloggers, with Levi's reviewing each application.",
+    "credibility": "Levi Strauss & Co. is a publicly traded, 170-year-old global apparel company."
+   }
+  }
+ },
+ {
+  "name": "The North Face",
+  "website": "https://www.thenorthface.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "VF Corporation's flagship outdoor brand, founded in 1966, selling technical apparel, footwear, backpacks and equipment for climbing, skiing, trail running and everyday exploration.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/the-north-face-affiliate-program/",
+    "summary": "FlexOffers' own program page for The North Face confirms an open affiliate program directing traffic to TheNorthFace.com with a 7-day cookie on that network; the page does not publish the commission percentage or any earnings-cap statement."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/the-north-face-au/",
+    "summary": "Lasso lists The North Face affiliate program at 4% per sale with a 30-day cookie; Creator Hero's in-depth review independently reports the same 4% via FlexOffers."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/sports-outdoors",
+    "summary": "LinkApprove's directory lists The North Face at 6% per sale, which conflicts with the 4% FlexOffers-channel figure, so the recorded rate is tied to the FlexOffers route and the conflict is documented here."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.thenorthface.com",
+    "summary": "The brand's homepage runs a standing UGC feature program: 'Share your photos with #neverstopexploring, and tag @thenorthface to be featured here.'"
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 4,
+   "application_url": "https://www.flexoffers.com/affiliate-programs/the-north-face-affiliate-program/",
+   "source_url": "https://getlasso.co/affiliate/the-north-face-au/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 14,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Technical outerwear and outdoor apparel are staples of fashion and adventure creator content, with very high average order values.",
+    "ugc_evidence": "A homepage UGC feature program built around creator photos plus a long-running publisher affiliate program.",
+    "compensation": "A published 4% per sale on the FlexOffers channel (30-day cookie per Lasso); an aggregator's 6% figure conflicts and no cap statement was found on any fetched page.",
+    "contact_access": "Access is through the FlexOffers network application; no direct creator or partnerships email is published.",
+    "opportunity_availability": "Open network application for publishers and creators in the US, UK, EU and Canada.",
+    "credibility": "One of the world's largest outdoor brands, owned by VF Corporation."
+   }
+  }
+ },
+ {
+  "name": "Dr. Martens",
+  "website": "https://www.drmartens.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "British footwear brand founded in 1947, known for its air-cushioned 1460 boot and shoes; a streetwear and alternative-fashion staple sold through drmartens.com and retailers globally.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/dr-martens/",
+    "summary": "LinkClicky lists the Dr. Martens affiliate program on CJ Affiliate at 4% per sale, described as the rate officially listed with the program (page updated March 10, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/dr-martens/",
+    "summary": "Lasso lists Dr. Martens on Awin at 3% to 6% per sale with a 30-day cookie, which conflicts with the CJ channel's 4% listing, so no single commission rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/dr-martens-affiliate-program/",
+    "summary": "Post Affiliate Pro's directory states the Dr. Martens affiliate program uses CJ Affiliate software to manage its campaigns in the USA, corroborating the CJ route."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/dr-martens/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Iconic boots with a devoted streetwear and alternative-fashion following - strong fit for styling and footwear content.",
+    "ugc_evidence": "Long-running network affiliate programs on two major networks accepting fashion content sites and creators.",
+    "compensation": "Published figures conflict by channel (CJ lists 4%; Awin lists 3-6%), so no rate is recorded and no cap statement was found.",
+    "contact_access": "Applications run through CJ Affiliate and Awin dashboards; no published creator email was found.",
+    "opportunity_availability": "Open applications on both networks for content websites, fashion platforms and blogs.",
+    "credibility": "Publicly listed British footwear company trading since 1947 with global retail distribution."
+   }
+  }
+ },
+ {
+  "name": "UGG",
+  "website": "https://www.ugg.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Deckers Brands' sheepskin footwear label, founded in Southern California in 1978 around the Classic boot; now sells boots, slippers, shoes, apparel, accessories and home textiles.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "UGGpr@deckers.com",
+    "source_url": "https://usesnippet.app/pr-emails/ugg"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/3382?setLocale=it_IT",
+    "summary": "UGG's own Awin merchant profile states the programme pays 3% commission on full-price products (outlet products 2%, voucher-code sites 2.5%), with strict approval for offer-led and discounting sites; no earnings-cap statement appears."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/ugg/",
+    "summary": "Lasso lists a UGG affiliate rate of 0.8% per sale with a 30-day cookie, which conflicts with Awin's published 3% programme terms, so the Awin-listed rate is recorded and the conflict documented."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://usesnippet.app/pr-emails/ugg",
+    "summary": "Snippet (checked November 13, 2026) lists UGGpr@deckers.com for media inquiries from deckers.com, and notes UGG publishes no creator, influencer or ambassador route on its own pages."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 3,
+   "application_url": "https://ui.awin.com/merchant-profile/3382?setLocale=it_IT",
+   "source_url": "https://ui.awin.com/merchant-profile/3382?setLocale=it_IT",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Season-defining boots and slippers with huge seasonal demand in fashion and comfort-footwear content.",
+    "ugc_evidence": "A formal network affiliate programme exists, but the brand publishes no creator or ambassador route of its own, so UGC runs through affiliates only.",
+    "compensation": "Awin's merchant profile publishes 3% on full-price products (2% outlet); a conflicting 0.8% directory figure is documented and no cap statement was found.",
+    "contact_access": "A published press email (UGGpr@deckers.com) plus the Awin application route; the press inbox is media-only per Snippet's check.",
+    "opportunity_availability": "Open Awin programme application, with stricter approval for voucher and cashback sites.",
+    "credibility": "Flagship brand of Deckers Brands, a publicly traded footwear group."
+   }
+  }
+ },
+ {
+  "name": "Arc'teryx",
+  "website": "https://arcteryx.com",
+  "country": "Canada",
+  "category_slug": "fashion",
+  "description": "Premium Canadian outdoor apparel company founded in 1989 in North Vancouver, making technical shells, insulation, footwear and climbing gear sold through arcteryx.com and its own stores.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/arcteryx/",
+    "summary": "Lasso lists the Arc'teryx affiliate program at 7% per sale with a 30-day cookie on AvantLink, with approval requiring an active site or social channel with original outdoor content (coupon-only sites not accepted)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/arcteryx",
+    "summary": "Referly's program profile reports a baseline 7% of sale with a 30-day cookie, managed by agency All Inclusive Marketing and distributed through CJ Affiliate and Impact, with creatives and publisher incentives."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/arcteryx-affiliate-program/",
+    "summary": "Post Affiliate Pro lists Arc'teryx at a 7% commission rate and states the program uses CJ Affiliate software to manage its portfolio in the USA."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/sports-outdoors",
+    "summary": "LinkApprove lists Arc'teryx at 'up to 6%' per sale on a $340 average order, a lower conflicting aggregator figure; three other sources corroborate the 7% baseline recorded here."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 7,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/arcteryx/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium technical apparel with one of the highest baskets in outdoor fashion ($340 average order per LinkApprove) - strong for gear and gorpcore content.",
+    "ugc_evidence": "An agency-managed affiliate program supplying creatives, content inspiration and publisher incentives to outdoor creators.",
+    "compensation": "A 7% baseline per sale is corroborated by three independent program listings; one aggregator's 'up to 6%' conflicts and is documented. No cap statement was found.",
+    "contact_access": "Applications run through network dashboards (CJ, Impact, AvantLink) and the managing agency; no published brand email.",
+    "opportunity_availability": "Open but reviewed case-by-case; coupon and deal-aggregation sites are excluded per the program's approval requirements.",
+    "credibility": "Established premium outdoor brand owned by Amer Sports, sold globally through its own stores."
+   }
+  }
+ },
+ {
+  "name": "Shopbop",
+  "website": "https://www.shopbop.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Amazon-owned online retailer of contemporary and designer women's fashion - clothing, shoes, handbags and accessories from hundreds of labels - founded in 2000 and headquartered in New York.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "shopbopcampus@amazon.com",
+    "source_url": "https://www.shopbop.com/ci/v2/shopbop_affiliate_program.html?ref_=SB_D_GBP_FTR_SB_AFL"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.shopbop.com/ci/v2/shopbop_affiliate_program.html?ref_=SB_D_GBP_FTR_SB_AFL",
+    "summary": "Shopbop's official affiliate page runs a Campus Ambassador program: undergraduates apply by emailing shopbopcampus@amazon.com with their Instagram/TikTok handles, post at least 3 Shopbop affiliate links per month through ShopMy, and can earn a 15% commission rate on qualifying affiliate purchases."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.shopbop.com/ci/v2/influencerprogramterms.html",
+    "summary": "Shopbop's official Influencer Program Terms (updated October 29, 2026) state commissions are earned through third-party affiliates Rakuten, LTK, ShopMy and Split, that Shopbop sets the rates paid to those affiliates, and that enrollment is by application with approval at Shopbop's discretion."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/shopbop/",
+    "summary": "LinkClicky lists Shopbop's general affiliate program on Rakuten Advertising at 1% per sale (updated March 11, 2024); the 15% figure on Shopbop's own page applies only to the student Campus Ambassador route via ShopMy."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 1,
+   "application_url": "https://www.shopbop.com/ci/v2/shopbop_affiliate_program.html?ref_=SB_D_GBP_FTR_SB_AFL",
+   "source_url": "https://linkclicky.com/affiliate-program/shopbop/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.shopbop.com/ci/v2/shopbop_affiliate_program.html?ref_=SB_D_GBP_FTR_SB_AFL",
+   "source_url": "https://www.shopbop.com/ci/v2/shopbop_affiliate_program.html?ref_=SB_D_GBP_FTR_SB_AFL",
+   "title": "Shopbop Influencer Program & Campus Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 6,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Designer and contemporary women's fashion is a core creator category, and Shopbop is a long-standing influencer-shopping destination.",
+    "ugc_evidence": "Two official creator structures: an Influencer Program built on LTK/ShopMy-style linking and a Campus Ambassador program requiring monthly Instagram/TikTok content.",
+    "compensation": "The general Rakuten program is listed at just 1% per sale; the official 15% rate is limited to undergraduate Campus Ambassadors via ShopMy. No cap statement was found.",
+    "contact_access": "A published creator application email (shopbopcampus@amazon.com) plus the official influencer program enrollment route.",
+    "opportunity_availability": "Influencer Program enrollment is open by application; the higher-rate campus route is restricted to undergraduate students.",
+    "credibility": "Established retailer owned by Amazon, operating since 2000."
+   }
+  }
+ },
+ {
+  "name": "Trip.com",
+  "website": "https://www.trip.com",
+  "country": "Singapore",
+  "category_slug": "travel",
+  "description": "International online travel agency of Trip.com Group (founded 1999, listed on Nasdaq and HKEX), offering 1.7M+ hotels, flights with 600+ airlines, trains, tours and attraction tickets worldwide.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.trip.com/partners/index?locale=zh-TW&curr=IDR",
+    "summary": "Trip.com's official affiliate program page headlines 'up to 7% commission' (7% stated as the maximum basic commission), a 30-day website cookie, and 20,000+ existing affiliate partners; its FAQ says everyone can apply, no website is required, and there is no cost to join. No earnings-cap statement appears."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.affiliates-directory.com/websites/trip-com",
+    "summary": "Affiliates-Directory's breakdown of the Trip.com offer via Travelpayouts gives category rates: hotels up to 5.5%, international flights 1%, trains 1.8%, car rentals and transfers up to 4.5%, attractions about 1.36% - product-based, one-time commissions paid after travel completes."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://affiliateprogramsguru.com/programs/trip-com-affiliate-program/",
+    "summary": "AffiliateProgramsGuru describes the Trip.com program running through Awin with hotels up to 6%, flights up to 3% and attractions up to 8%, which conflicts with both the official 'up to 7%' headline and the Travelpayouts category table, so no single rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Trip.com Affiliate Program",
+   "commission_rate": null,
+   "application_url": "https://www.trip.com/partners/index?locale=zh-TW&curr=IDR",
+   "source_url": "https://www.trip.com/partners/index?locale=zh-TW&curr=IDR",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.trip.com/partners/index?locale=zh-TW&curr=IDR",
+   "source_url": "https://www.trip.com/partners/index?locale=zh-TW&curr=IDR",
+   "title": "Trip.com Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A full-service OTA covering hotels, flights, trains and attractions in one program - a core monetization route for travel creators.",
+    "ugc_evidence": "The program explicitly welcomes bloggers and individual creators and reports 20,000+ affiliate partners, though it is publisher-led rather than a structured creator program.",
+    "compensation": "The official page publishes only an 'up to 7%' ceiling and category rates conflict across channels (hotels 5.5% vs 6%; attractions 1.36% vs 8%), so no rate is recorded and no cap statement was found.",
+    "contact_access": "Direct partner signup on Trip.com's own partners page; no published partnerships email.",
+    "opportunity_availability": "Open to everyone including individuals without a website, per the official FAQ.",
+    "credibility": "Trip.com Group is one of the world's largest travel companies, listed on Nasdaq and the Hong Kong Stock Exchange."
+   }
+  }
+ },
+ {
+  "name": "Priceline",
+  "website": "https://www.priceline.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Booking Holdings' discount online travel agency, known for Express Deals on hotels, flights, rental cars, vacation packages and cruises, headquartered in Norwalk, Connecticut.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/priceline/",
+    "summary": "Lasso lists the Priceline affiliate program at 3% to 5% per sale with a 30-day cookie, requiring a live website or app with original travel content and manual review of applications."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://empireflippers.com/travel-affiliate-programs/",
+    "summary": "Empire Flippers' travel affiliate guide states the Priceline program is available through CJ Affiliate and pays 3-7% commission with a 30-day referral window."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/priceline/",
+    "summary": "UpPromote describes the Priceline Partner Network paying 3%-7% per sale by product (typically 3% flights and car rentals, 3%-7% hotels) on a single-tier CPS model; the range conflicts with Lasso's 3-5%, so no single rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/priceline/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A major US OTA whose hotel and flight deals are a staple of budget-travel content.",
+    "ugc_evidence": "A long-running affiliate program accepting blogs and influencer channels, but no structured creator or ambassador program.",
+    "compensation": "Published ranges conflict (3-5% per Lasso; 3-7% per UpPromote and Empire Flippers), so no rate is recorded and no cap statement was found.",
+    "contact_access": "Access is via network application (CJ Affiliate; one directory also names Rakuten); no published partnerships email.",
+    "opportunity_availability": "Open application through the network with manual review; Lasso notes a live site or app with original travel content is required.",
+    "credibility": "Part of Booking Holdings, the world's largest online travel group."
+   }
+  }
+ },
+ {
+  "name": "Busbud",
+  "website": "https://www.busbud.com",
+  "country": "Canada",
+  "category_slug": "travel",
+  "description": "Montreal-based intercity bus booking platform founded in 2011, selling tickets for nearly 4,000 bus companies across 80+ countries and 2.3M+ routes in 11 languages.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/busbud-affiliate-program/",
+    "summary": "Travelpayouts' official Busbud program page states affiliates earn 5% of the cost of each order, with a high average order of about $45, monthly promotions and a dedicated marketing support team; no earnings-cap statement appears."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/bus-and-train-affiliate-programs/",
+    "summary": "Travelpayouts' ground-transportation program list repeats Busbud at 5% on bus tickets across 80+ countries, and notes the partnership program is open to partners worldwide."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/busbud/",
+    "summary": "Lasso lists a separate Busbud channel on CJ at 2% per sale with a 7-day cookie; the recorded 5% rate is the Travelpayouts channel rate and the CJ alternative is documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Travelpayouts",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://www.travelpayouts.com/blog/busbud-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Intercity bus travel is a narrower niche than flights or hotels, but Busbud is the category's global booking leader and fits budget and overland travel content.",
+    "ugc_evidence": "An open partner program marketed to content and travel sites with banners, links and a support team; no dedicated creator program.",
+    "compensation": "Travelpayouts publishes 5% of each order for its channel; a separate CJ channel is listed at 2% and is documented. No cap statement was found.",
+    "contact_access": "Joining runs through the Travelpayouts network; no published Busbud partnerships email was found.",
+    "opportunity_availability": "Partnership program open to partners worldwide through Travelpayouts.",
+    "credibility": "Operating since 2011 with nearly 4,000 bus-company partners across 80+ countries."
+   }
+  }
+ },
+ {
+  "name": "Sixt",
+  "website": "https://www.sixt.com",
+  "country": "Germany",
+  "category_slug": "travel",
+  "description": "German premium car rental and mobility company founded in 1912, operating around 2,200 locations in 100+ countries with a fleet weighted toward premium and luxury vehicles.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "florian.orthofer@sixt.com",
+    "source_url": "https://ui.awin.com/merchant-profile/16864?setLocale=fr_FR"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/16864?setLocale=fr_FR",
+    "summary": "Sixt's Awin merchant profile publishes a standard commission of 7% for publishers (premium commission possible on request), notes commissions apply to rentals in Sixt corporate countries (AT, BE, CH, DE, ES, FR, GB, IT, NL, US), and gives the Sixt affiliate team's contact email; no earnings-cap statement appears."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/sixt-rent-a-car/",
+    "summary": "Lasso's two Sixt pages conflict with each other and with Awin (8% per sale on one page, 6.4% on another), so the Awin-published 7% standard rate is recorded and the directory conflict documented."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://advertiserreview.com/affiliate/programs/rental-car/",
+    "summary": "AdvertiserReview's rental-car program analysis puts Sixt's base commission at 5% to 8% CPS on completed rentals across Impact, CJ Affiliate and Awin, with a 30-day cookie and $50 minimum payment."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 7,
+   "application_url": "https://ui.awin.com/merchant-profile/16864?setLocale=fr_FR",
+   "source_url": "https://ui.awin.com/merchant-profile/16864?setLocale=fr_FR",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium car rental fits road-trip, luxury travel and business-travel creator content, with high daily rental rates lifting order values.",
+    "ugc_evidence": "A publisher affiliate program across three major networks; creator-specific structures are not published, so UGC evidence is thinner than fashion picks.",
+    "compensation": "Awin's merchant profile publishes a 7% standard commission (premium on request); directory figures of 8% and 6.4% conflict and are documented. No cap statement was found.",
+    "contact_access": "The Sixt affiliate team's email is published on its Awin profile (florian.orthofer@sixt.com), plus standard network applications.",
+    "opportunity_availability": "Open network applications with screening for site quality and audience fit.",
+    "credibility": "Sixt SE is a publicly listed mobility company founded in 1912, operating in more than 100 countries."
+   }
+  }
+ }
+]

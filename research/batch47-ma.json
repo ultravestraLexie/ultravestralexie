@@ -1,0 +1,784 @@
+[
+ {
+  "name": "HoliFrog",
+  "website": "https://holifrog.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare brand built on 'Situational Skincare' — cleansers, serums and moisturizers formulated for what skin is doing right now rather than fixed skin types, sold through its own website and beauty retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/holifrog/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/holifrog/"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/holifrog"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/holifrog/",
+    "summary": "Lasso's affiliate directory lists the HoliFrog affiliate program at 8% to 12% commission per sale, and its join link routes to ShareASale (shareasale.com), confirming the program runs on the ShareASale network."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://holifrog.com",
+    "summary": "HoliFrog's official homepage presents 'Situational Skincare for what your skin is doing right now, not just your skin type' across cleansers, serums and moisturizers, with press features from The New York Times, Cosmopolitan and E!."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/DHMNJJxynRX/",
+    "summary": "HoliFrog's official Instagram account @holifrog is verified with about 37K followers and posts skincare routine content featuring its cleansers, creams and SPF."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/holifrog/",
+    "summary": "The only published commission figure is Lasso's 8-12% per-sale band; no earnings cap statement appears in any fetched source, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/holifrog/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure skincare brand with a distinctive 'situational skincare' angle that gives creators an easy content hook.",
+    "ugc_evidence": "An active affiliate program recruiting skincare bloggers and creators exists on ShareASale, but there is no brand-run ambassador community page.",
+    "compensation": "A published commission band of 8-12% per sale exists via the network directory; the band is recorded in evidence rather than as a single rate.",
+    "contact_access": "The join route is the ShareASale listing documented by Lasso; no public partnerships email or application page on the brand's own site was found.",
+    "opportunity_availability": "Open network application with approval typically taking a few days per the directory listing.",
+    "credibility": "Established brand with press coverage in The New York Times and Cosmopolitan and a verified Instagram presence."
+   }
+  }
+ },
+ {
+  "name": "Modelones",
+  "website": "https://modelones.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Nail beauty brand established in Los Angeles in 2015 selling gel polish, dip powder, acrylic and press-on nail systems and tools for at-home and professional manicures through its own website and Amazon.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://mmodelones.refersion.com",
+    "email": null,
+    "source_url": "https://mmodelones.refersion.com"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/modelones"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://mmodelones.refersion.com",
+    "summary": "Modelones' own affiliate program portal, powered by Refersion, states 'Standard Commission Rates: 10%' and notes influencers are assigned to a private program on negotiated terms; payment is via PayPal and PPC brand bidding is prohibited."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.crunchbase.com/organization/modelones",
+    "summary": "Crunchbase lists Modelones (legal name MORE JOY MORE FUN INC) headquartered in San Gabriel, California, United States, selling dipping powders, gel nail polishes and acrylic powders plus nail tools."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DXFTPSXiKVR/",
+    "summary": "Modelones Official (@modelones) has about 110K Instagram followers and posts nail tutorial Reels for its press-on and gel systems."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://mmodelones.refersion.com",
+    "summary": "The program page publishes the 10% standard rate but makes no statement about an earnings cap, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 10,
+   "application_url": "https://mmodelones.refersion.com",
+   "source_url": "https://mmodelones.refersion.com",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Modelones Affiliate Program (Refersion)",
+   "application_url": "https://mmodelones.refersion.com",
+   "source_url": "https://mmodelones.refersion.com"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 15,
+   "compensation": 13,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "DIY nail art is one of the highest-volume beauty UGC categories, and Modelones covers gel, dip, acrylic and press-ons.",
+    "ugc_evidence": "The brand runs a structured affiliate program explicitly open to worldwide nail enthusiasts and influencers, with negotiated private terms for influencers.",
+    "compensation": "The brand's own program page publishes a 10% standard commission rate; influencer rates are negotiated privately.",
+    "contact_access": "A public program portal on Refersion is the application route, with affiliate support contact offered through the portal.",
+    "opportunity_availability": "Open signup through the public Refersion portal; no follower minimum is stated for the standard program.",
+    "credibility": "Established 2015 Los Angeles brand with about 110K Instagram followers and major Amazon presence; some third-party sources conflict on company details."
+   }
+  }
+ },
+ {
+  "name": "Snif",
+  "website": "https://snif.co",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US fragrance brand selling fine fragrances, scented candles and body products with a try-before-you-buy model, clean vegan and cruelty-free formulas, through its own website and Ulta Beauty.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://snif.co/pages/ambassador",
+    "email": null,
+    "source_url": "https://snif.co/pages/ambassador"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/snif"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://snif.co/pages/ambassador",
+    "summary": "Snif's official Ambassador page runs an open application: accepted ambassadors get a welcome gift, complete social challenges for points redeemable in an ambassador shop, and listed perks include free product, product testing and an 'opportunity to earn commission'."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getsaral.com/academy/snif-influencer-landing-page",
+    "summary": "Saral's academy article on Snif's influencer program reports accepted influencers earn 10% commission; the rate is not published on Snif's own page, so it is recorded as publicly reported."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://snif.co",
+    "summary": "Snif's homepage sells fine fragrances, candles and body products, noting vegan and cruelty-free formulas, ethically sourced ingredients and no preservatives or synthetic dyes, with press quotes from Allure and The Cut."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DVtjV3EDng-/",
+    "summary": "Snif's official Instagram @snif is verified with about 190K followers and launches influencer collaboration scents, including an 'Only Sunshine' fragrance with Mikayla Nogueira."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://snif.co/pages/ambassador",
+   "source_url": "https://snif.co/pages/ambassador",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Snif Ambassador Program",
+   "application_url": "https://snif.co/pages/ambassador",
+   "source_url": "https://snif.co/pages/ambassador"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Fragrance is a fast-growing creator category and Snif's playful scent launches are built for social content.",
+    "ugc_evidence": "A formal ambassador program on the brand's own site is built around social challenges and creator content, with named ambassadors featured on the page.",
+    "compensation": "The brand page confirms an opportunity to earn commission and a third-party program guide reports 10%, but Snif itself does not publish the rate.",
+    "contact_access": "A public application on the brand's own ambassador page is the direct route in.",
+    "opportunity_availability": "Applications are publicly open, though acceptance is selective ('once accepted').",
+    "credibility": "Established US fragrance brand sold at Ulta Beauty with a verified 190K-follower Instagram and national press coverage."
+   }
+  }
+ },
+ {
+  "name": "Beetles Gel Polish",
+  "website": "https://beetlesgel.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "DIY nail beauty brand founded in the US in 2017, the No.1 selling gel nail polish brand on Amazon, selling gel polish kits, nail tips and tools in 30+ countries through its website, Amazon and TikTok Shop.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://beetlesgel.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://beetlesgel.com/pages/affiliate"
+   },
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "brand@beetlesgel.com",
+    "source_url": "https://en.prnasia.com/releases/global/beetles-gel-polish-launches-beetles-so-in-love-valentine-collection-and-kicks-off-the-beetles-date-night-campaign-518622.shtml"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/beetlesgelpolish"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@beetlesgelpolishofficial"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://beetlesgel.com/pages/affiliate",
+    "summary": "Beetles' own affiliate page recruits nail art bloggers and KOLs on Instagram, YouTube and TikTok plus beginners, and routes joining through Awin (Merchant ID 68958) with a 30-day cookie and monthly commission payouts; the page publishes no percentage rate."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/beetles-gel-polish/",
+    "summary": "Lasso lists a Beetles Gel Polish offer at 5% per sale with a 15-day cookie and a join link routing to ShareASale, which conflicts with the brand's own Awin program (30-day cookie, no published rate); because the figures conflict, no commission rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.advfn.com/stock-market/stock-news/98083993/beetles-gel-polish-presents-mani-time-with-mom-t",
+    "summary": "PR Newswire release states Beetles Gel Polish was founded in the US in 2017 and is a leading DIY nail beauty brand; the brand's own page claims 50,000,000+ pieces sold and 8,600,000+ users."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://en.prnasia.com/releases/global/beetles-gel-polish-launches-beetles-so-in-love-valentine-collection-and-kicks-off-the-beetles-date-night-campaign-518622.shtml",
+    "summary": "PR Newswire names brand@beetlesgel.com as the Beetles Gel Polish PR team media contact and identifies its official accounts as Instagram @beetlesgelpolish and TikTok @beetlesgelpolishofficial."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://beetlesgel.com/pages/affiliate",
+   "source_url": "https://beetlesgel.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Beetles Gel Polish Affiliate Program (Awin)",
+   "application_url": "https://beetlesgel.com/pages/affiliate",
+   "source_url": "https://beetlesgel.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 16,
+   "compensation": 9,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "At-home gel nails are a core TikTok/Instagram tutorial category and Beetles is the category's best-known Amazon brand.",
+    "ugc_evidence": "The brand's own affiliate page explicitly recruits nail bloggers and KOLs across Instagram, YouTube and TikTok, backed by a 430K-follower Instagram tutorial feed.",
+    "compensation": "A real commission program exists with monthly payouts, but the brand publishes no rate and third-party figures conflict, so compensation scores mid-low.",
+    "contact_access": "A dedicated affiliate page on the brand's own site plus a published PR email (brand@beetlesgel.com).",
+    "opportunity_availability": "Open joining through Awin from the brand's page, explicitly welcoming beginners ('anyone who loves Beetlesgel').",
+    "credibility": "Founded 2017, No.1 selling gel polish brand on Amazon per the brand and PR Newswire, with a Pantone collaboration announced for 2026."
+   }
+  }
+ },
+ {
+  "name": "I Dew Care",
+  "website": "https://idewcare.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "K-beauty skincare and hair care brand (a Memebox brand) known for playful sheet masks, wash-off masks and the Tap Secret dry shampoo, sold through its own website and retailers including Target.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://idewcare.com/pages/brand-ambassador-program",
+    "email": null,
+    "source_url": "https://idewcare.com/pages/brand-ambassador-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/idewcare"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-aerosoles-egg-new-york-georgie-and-toms-mooni-lighting-pig-and-hen/",
+    "summary": "FMTC's merchant feed lists 'I Dew Care' as a ShareASale merchant (#125884) in Health & Beauty with a signup route, confirming an affiliate program on ShareASale; no commission rate is published in the listing."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://idewcare.com/pages/brand-ambassador-program",
+    "summary": "I Dew Care's official site runs a Brand Ambassador Program page alongside its skincare, hair care and tools ranges."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DXhyJOjkoBo/",
+    "summary": "The brand's official Instagram @idewcare (about 140K followers) markets the Tap Secret dry shampoo with in-store Target availability; the brand is positioned as a Korean-beauty brand."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-aerosoles-egg-new-york-georgie-and-toms-mooni-lighting-pig-and-hen/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "I Dew Care Brand Ambassador Program",
+   "application_url": "https://idewcare.com/pages/brand-ambassador-program",
+   "source_url": "https://idewcare.com/pages/brand-ambassador-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 6,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Playful K-beauty masks and viral dry shampoo are proven UGC formats in the skincare niche.",
+    "ugc_evidence": "The brand runs its own Brand Ambassador Program page and maintains a ShareASale affiliate presence.",
+    "compensation": "No commission rate is published in any fetched source, so compensation stays low.",
+    "contact_access": "A brand ambassador program page on the official site plus the ShareASale merchant listing give two routes in.",
+    "opportunity_availability": "Ambassador and affiliate routes are public, though program terms are not published.",
+    "credibility": "Established Memebox K-beauty brand with Target retail distribution and about 140K Instagram followers."
+   }
+  }
+ },
+ {
+  "name": "Primally Pure",
+  "website": "https://primallypure.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Non-toxic skincare brand handcrafted in Southern California using sustainably sourced natural ingredients — deodorants, balms, mists, masks and lip care — sold through its own website.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/primally-pure/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/primally-pure/"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/primallypure"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/primally-pure/",
+    "summary": "Lasso's directory lists the Primally Pure affiliate program at 7% per sale."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.shopper.com/partnerships/primallypure-com-affiliate-program",
+    "summary": "Shopper lists the Primally Pure affiliate program at 1-20% payout per sale, which conflicts with Lasso's 7% figure; because published figures conflict, no commission rate is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://primallypure.com",
+    "summary": "Primally Pure's homepage states its non-toxic skincare is made in the USA, handcrafted in Southern California, from sustainably sourced ingredients with nothing artificial."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/DF0jwrwScg8/",
+    "summary": "Primally Pure's verified Instagram @primallypure has about 650K followers; a February 2025 post marks the brand's 10-year anniversary."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/primally-pure/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Clean, non-toxic skincare with strong before/after and routine content potential.",
+    "ugc_evidence": "An affiliate program is documented by two directories, but no creator or ambassador page was found on the brand's own site.",
+    "compensation": "Published figures exist but conflict (7% vs a 1-20% range), so no rate is recorded and compensation scores low-mid.",
+    "contact_access": "The documented route is the affiliate program listing; no public partnerships email was verified.",
+    "opportunity_availability": "A program exists to join, but application details are not published on the brand's own pages.",
+    "credibility": "Ten-year-old US brand headquartered in Southern California with about 650K Instagram followers."
+   }
+  }
+ },
+ {
+  "name": "UpCircle",
+  "website": "https://upcirclebeauty.com",
+  "country": "United Kingdom",
+  "category_slug": "skincare",
+  "description": "London-based circular skincare brand founded in 2016 that upcycles leftover ingredients such as coffee grounds and chai spices into vegan, cruelty-free skincare, sold through its own website and retailers including Ulta Beauty and Credo.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/upcircle-beauty/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/upcircle-beauty/"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hello@upcirclebeauty.com",
+    "source_url": "https://upcirclebeauty.com/pages/upcircle-x-too-good-to-go-competition-t-cs"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/upcirclebeauty"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/upcirclebeauty"
+   },
+   {
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/company/upcirclebeauty"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/upcircle-beauty/",
+    "summary": "Lasso's directory lists the UpCircle Beauty affiliate program at 5% commission per sale with a 14-day cookie; the program runs through ShareASale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://uk.linkedin.com/company/upcirclebeauty",
+    "summary": "UpCircle's LinkedIn page places the company in London, England, founded 2016, describing it as 'The UK's #1 circular skincare brand' with @upcirclebeauty socials."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://upcirclebeauty.com/pages/upcircle-x-too-good-to-go-competition-t-cs",
+    "summary": "UpCircle's own site terms name hello@upcirclebeauty.com as a contact email and @upcirclebeauty as its Instagram handle."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DM0bJ3_o3v-/",
+    "summary": "UpCircle's Instagram @upcirclebeauty has about 190K followers and posts sustainability-led skincare content."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/upcircle-beauty/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Sustainable, upcycled-ingredient skincare gives creators a strong story angle in the clean beauty niche.",
+    "ugc_evidence": "A network affiliate program exists, but there is no brand-run creator community or ambassador page.",
+    "compensation": "A published 5% per-sale rate exists via the network directory — real but modest.",
+    "contact_access": "A published general email on the brand's own site plus the network join route.",
+    "opportunity_availability": "Open network application; the directory notes a website/blog requirement and manual review.",
+    "credibility": "Founded 2016 in London, self-described UK #1 circular skincare brand, sold at Ulta Beauty and Credo with about 190K Instagram followers."
+   }
+  }
+ },
+ {
+  "name": "Flower Knows",
+  "website": "https://flowerknows.co",
+  "country": "China",
+  "category_slug": "beauty",
+  "description": "Chinese color-cosmetics brand known for ornate, fairytale-style packaging and viral collections such as Strawberry Rococo, sold globally through its own website and its official TikTok Shop store.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://flowerknows.co/pages/affiliate-program-agreement",
+    "email": null,
+    "source_url": "https://flowerknows.co/pages/affiliate-program-agreement"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/flowerknows_global"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://flowerknows.co/pages/affiliate-program-agreement",
+    "summary": "Flower Knows' own Affiliate Program Operating Agreement (last updated November 6, 2025) governs its affiliate program and states the program runs on Impact.com, with commissions ('Advertising Fees') earned on qualifying purchases through referral links; the agreement publishes no percentage rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DLF-FdRIWlx/",
+    "summary": "A creator tutorial walks through joining the Flower Knows affiliate program from the brand's own site (About Flower Knows > Affiliate Program > Join Now), noting a 1K follower requirement on TikTok or Instagram and a welcome email on acceptance."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.threads.com/@leenzglamdiaries/post/DEMrzPmN6Vp",
+    "summary": "A creator's screenshot of her 'Welcome to the Flower Knows Affiliate Program!' email confirms affiliates receive a unique referral link and an exclusive promo code to earn commissions."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://flowerknows.co/pages/affiliate-program-agreement",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Flower Knows Affiliate Program (Impact)",
+   "application_url": "https://flowerknows.co/pages/affiliate-program-agreement",
+   "source_url": "https://flowerknows.co/pages/affiliate-program-agreement"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 6,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Highly visual, collectible makeup packaging makes Flower Knows a staple of beauty unboxing and GRWM content.",
+    "ugc_evidence": "An active affiliate program on Impact with documented creator onboarding, referral links and promo codes, plus a TikTok Shop storefront.",
+    "compensation": "The program's own agreement confirms commissions but publishes no rate, so compensation stays low.",
+    "contact_access": "The affiliate program and its full agreement are published on the brand's own site as the route in.",
+    "opportunity_availability": "Public joining route exists with a reported 1K follower minimum on TikTok or Instagram.",
+    "credibility": "Large global C-beauty brand with millions of social followers; China-based with program terms administered through Impact."
+   }
+  }
+ },
+ {
+  "name": "Dashing Diva",
+  "website": "https://dashingdiva.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US nail brand selling semi-cured gel nail strips (Glaze), press-on nails and nail care, positioned as vegan and cruelty-free, through its own website and major US retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.shopper.com/partnerships/dashingdiva-com-affiliate-program",
+    "email": null,
+    "source_url": "https://www.shopper.com/partnerships/dashingdiva-com-affiliate-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/dashingdiva_usa"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://emazinglypolished.com/dashing-diva-the-diva-life-2023/",
+    "summary": "A January 2023 nail-blog report states Dashing Diva's affiliate program pays 8% earnings on sales and is separate from 'The Diva Life' social-selling scheme, which the brand shut down the same month; the article says the affiliate program would not be going away."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-nail-art-affiliate-programs/",
+    "summary": "An affiliate-program roundup lists Dashing Diva at 8% commission with a 30-day cookie and says the program is run through Refersion; a separate tech-stack report has also associated dashingdiva.com with Rakuten Advertising, so the current network needs review."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.shopper.com/partnerships/dashingdiva-com-affiliate-program",
+    "summary": "Shopper lists a Dashing Diva affiliate program at 6.05-6.98% payout per sale (an EPC-derived range, not a published rate), which conflicts with the 8% figure reported elsewhere; no commission rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/DHEO9UFOpOs/",
+    "summary": "In a March 2025 post on the brand's verified Instagram @dashingdiva_usa (about 140K followers), commenters asked about affiliate and ambassador opportunities and the brand directed them to its affiliate program, indicating the program is still active."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://onemorecupof-coffee.com/best-nail-art-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 7,
+   "opportunity_availability": 5,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Semi-cured gel strips and press-ons sit squarely in the at-home nail UGC niche.",
+    "ugc_evidence": "An affiliate program is documented by multiple sources and the brand itself directed followers to it in March 2025, but there is no public program page on its own site.",
+    "compensation": "Published figures conflict (8% reported vs a 6.05-6.98% EPC range), so no rate is recorded.",
+    "contact_access": "No public application page or partnerships email was verified; the route is via network listings and the brand's social replies.",
+    "opportunity_availability": "The program appears active but joining details are not published on the brand's own site.",
+    "credibility": "Established US nail brand with a verified 140K-follower Instagram; its separate 2023 direct-selling scheme was launched and closed within weeks and is not the affiliate program recorded here."
+   }
+  }
+ },
+ {
+  "name": "Glow Hub",
+  "website": "https://glowhub.com",
+  "country": "United Kingdom",
+  "category_slug": "skincare",
+  "description": "UK Gen Z skincare brand selling targeted serums and treatments (including its Zit Zap Wand) through its own website, with a creator community program at the center of its marketing.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://glowhub.com/pages/gh-creator-community",
+    "email": null,
+    "source_url": "https://glowhub.com/pages/gh-creator-community"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://glowhub.com/pages/gh-creator-community",
+    "summary": "Glow Hub's own GH Creator Community page states the program is open to applications and that members receive free products monthly, earn commission, get follower discounts, join a product testing panel and attend events; any content creator age 13+ with an active Instagram or TikTok account can apply."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.shopper.com/partnerships/glowhub-com-affiliate-program",
+    "summary": "Shopper lists a Glow Hub UK affiliate program at 2.55-6.38% payout per sale, an EPC-derived range rather than a published rate; the brand's own page confirms commission without publishing a percentage, so no rate is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://glowhub.com/pages/gh-creator-community",
+    "summary": "The program page frames members as #TEAMGLOW brand advocates who share skincare content, test products pre-launch and help guide formula development."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://glowhub.com/pages/gh-creator-community",
+   "source_url": "https://glowhub.com/pages/gh-creator-community",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "GH Creator Community",
+   "application_url": "https://glowhub.com/pages/gh-creator-community",
+   "source_url": "https://glowhub.com/pages/gh-creator-community"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 6,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Gen Z-targeted skincare serums are a core UGC category and the brand markets almost entirely through creators.",
+    "ugc_evidence": "A named creator community on the brand's own site with defined creator activities — advocacy content, product testing panel, photoshoots and bundles.",
+    "compensation": "The brand confirms members earn commission but publishes no rate, so compensation stays low.",
+    "contact_access": "A public application on the brand's own program page is the direct route in.",
+    "opportunity_availability": "Applications are open to any creator 13+ with an active Instagram or TikTok account — no follower minimum stated.",
+    "credibility": "Smaller UK brand with limited third-party coverage compared with the other brands in this batch."
+   }
+  }
+ }
+]

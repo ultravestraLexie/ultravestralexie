@@ -1,0 +1,705 @@
+[
+ {
+  "name": "Crossrope",
+  "website": "https://www.crossrope.com",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "Weighted jump rope fitness brand selling interchangeable weighted ropes, smart AMP handles and sets such as Get Lean and Get Fit, paired with an app offering 2,500+ jump rope workouts, aimed at home-fitness consumers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.crossrope.com/pages/partner-lp-affiliates",
+    "email": null,
+    "source_url": "https://www.crossrope.com/pages/partner-lp-affiliates"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "ap@crossrope.com",
+    "source_url": "https://www.crossrope.com/pages/partner-lp-affiliates"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/crossropejumpropes"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@crossrope"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/@Crossrope"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/crossrope/",
+    "summary": "Lasso's affiliate directory lists the Crossrope affiliate program on ShareASale at 10% commission per sale with a 30-day cookie and a $50 payout threshold."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.crossrope.com/pages/partner-lp-affiliates",
+    "summary": "Crossrope's own partner page (fetched) is a creator partnership hub: brand guide, demo videos, B-roll and photo collections for partners, video content tips (transformations, unboxings, tutorials), and an iDev-based partner account where partners earn commission on purchases within 30 days of a click; partners submit W-9/W-8BEN forms to ap@crossrope.com for payment setup."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.crossrope.com/pages/partner-lp-affiliates",
+    "summary": "The partner page states Crossrope has 'over half a million happy customers', sells interchangeable weighted ropes with precision handles, and offers 2,500+ app workouts; its linked Instagram (@crossropejumpropes) is verified with ~118K followers and its TikTok (@crossrope) hosts 861 videos."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.crossrope.com/pages/partner-lp-affiliates",
+    "summary": "No earnings-cap statement appears anywhere on Crossrope's partner page or in the ShareASale listing, so the commission cap is recorded as unknown, not uncapped."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/crossrope/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.crossrope.com/pages/partner-lp-affiliates",
+   "source_url": "https://www.crossrope.com/pages/partner-lp-affiliates",
+   "title": "Crossrope Creator Partnership Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 13,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure fitness brand built around short-form-friendly jump rope workouts, challenges and transformations — a strong fit for fitness creators.",
+    "ugc_evidence": "The brand runs a structured creator partnership program with its own partner hub, brand guide, B-roll, demo videos and content tips, plus 861 videos on its TikTok account.",
+    "compensation": "A published 10% per-sale commission on ShareASale with a 30-day cookie; no cap statement found, so cap stays unknown.",
+    "contact_access": "A public partner page on the official site plus a published partner payments email (ap@crossrope.com).",
+    "opportunity_availability": "Open application routes via ShareASale and the brand's direct partner program.",
+    "credibility": "Established US fitness brand claiming 500K+ customers, with a verified ~118K-follower Instagram account."
+   }
+  }
+ },
+ {
+  "name": "Monoprice",
+  "website": "https://www.monoprice.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Online electronics retailer founded in 2002 selling affordable cables, adapters, home-theater and PC gear, professional audio equipment, networking products and 3D printers under its own name and house brands.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/monoprice-com/",
+    "summary": "LinkClicky's affiliate directory lists Monoprice.com's affiliate program on CJ Affiliate at 2% commission per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/monoprice-uk/",
+    "summary": "Lasso's Monoprice listing corroborates a 2% per-sale commission and adds a 7-day cookie duration and $50 payout threshold."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/monoprice-com-affiliate-program",
+    "summary": "Shopper's partnership listing describes Monoprice, Inc. as a US technology retailer specializing in cable assemblies for home theater, PC and high-technology industries, with an affiliate payout of up to 2% per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/monoprice-com/",
+    "summary": "No earnings-cap statement is published in either directory listing, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 2,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/monoprice-com/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 8,
+   "compensation": 5,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Broad tech-accessories catalog (cables, audio, 3D printers) that tech and desk-setup creators regularly feature, though it is a retailer rather than a creator-first brand.",
+    "ugc_evidence": "No creator or ambassador program evidence found — a standard network affiliate program only.",
+    "compensation": "Published rate is a low 2% per sale with a short 7-day cookie.",
+    "contact_access": "No public creator contact found; the only route is the CJ Affiliate network listing.",
+    "opportunity_availability": "Open to CJ Affiliate publishers.",
+    "credibility": "Large US electronics retailer operating since 2002 with thousands of products."
+   }
+  }
+ },
+ {
+  "name": "Branch",
+  "website": "https://www.branchfurniture.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Direct-to-consumer office furniture brand selling ergonomic chairs, standing desks, modular workstations and accessories for home offices and teams, known for high average order values above $400.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.branchfurniture.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://www.branchfurniture.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.branchfurniture.com/pages/affiliate-program",
+    "summary": "Branch's own affiliate program page (fetched) invites publications and voices to apply, promises an 'above average commission rate', high average order value and conversion, and a dedicated program manager; sign-up routes through CJ Affiliate (signup.cj.com link on the page). The page does not publish the exact percentage."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/branch/",
+    "summary": "LinkClicky's directory lists the Branch affiliate program on CJ Affiliate at 5% commission per sale; Lasso's Branch listing independently reports 5% per sale with a 30-day cookie."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://theaffiliateslist.com/furniture-affiliate-programs/",
+    "summary": "The Affiliates List describes Branch as a DTC brand designing modern ergonomic office furniture for home workspaces and corporate teams, with average order values exceeding $400 and team orders reaching thousands of dollars, joined via CJ Affiliate at 5%."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.branchfurniture.com/pages/affiliate-program",
+    "summary": "Branch's own page makes no earnings-cap statement, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 5,
+   "application_url": "https://www.branchfurniture.com/pages/affiliate-program",
+   "source_url": "https://linkclicky.com/affiliate-program/branch/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.branchfurniture.com/pages/affiliate-program",
+   "source_url": "https://www.branchfurniture.com/pages/affiliate-program",
+   "title": "Branch Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Home-office furniture is a staple of desk-setup, WFH and productivity creator content.",
+    "ugc_evidence": "Branch says it partners with 'leading publications and voices' and offers a dedicated manager, but no structured UGC/ambassador program was found.",
+    "compensation": "5% per sale on CJ with a 30-day cookie; modest percentage but average order values above $400 make per-sale earnings meaningful.",
+    "contact_access": "A dedicated affiliate page on the brand's own site with a direct CJ sign-up route and a named program manager offer.",
+    "opportunity_availability": "Open application via CJ Affiliate linked from the brand's own page.",
+    "credibility": "Established DTC office-furniture brand selling to consumers and corporate teams."
+   }
+  }
+ },
+ {
+  "name": "Drowsy",
+  "website": "https://www.drowsysleepco.com",
+  "country": "United Kingdom",
+  "category_slug": "home",
+  "description": "Sleep accessories brand (Drowsy Sleep Co) best known for its padded silk sleep mask that blocks 100% of light, plus silk pillowcases and sleep sprays, sold through its own UK and US online stores.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/drowsysleepco"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/61589",
+    "summary": "Drowsy LLC's Awin merchant profile (fetched) states '15% commission on every sale', a 30-day cookie duration, 3.8% store conversion rate and ~$100 average order value; coupon/discount sites are not allowed on the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/drowsy/",
+    "summary": "LinkClicky lists Drowsy's affiliate program at 15% per sale with a 30-day cookie (via ShareASale), corroborating the 15% rate on a second network."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.drowsysleepco.com/pages/affiliate-terms",
+    "summary": "Drowsy's own affiliate terms (fetched) define the affiliate's services as creating and posting original photo, video and/or written content promoting Drowsy products and sharing a personal promo code — a creator-content program, paid monthly on net sales."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.instagram.com/p/DbVK0DnlaZz/",
+    "summary": "Drowsy's official Instagram account @drowsysleepco (71K followers) actively promotes the silk sleep mask line; the Awin profile describes a large beauty-sector customer base buying for sleep problems, upgrades and gifting."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/61589",
+    "summary": "Neither the Awin profile nor Drowsy's affiliate terms state an earnings cap, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/61589",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.drowsysleepco.com/pages/affiliate-terms",
+   "title": "Drowsy Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A hero sleep product at the center of the TikTok/Instagram sleep-hack and night-routine niche, with a beauty crossover.",
+    "ugc_evidence": "The brand's own affiliate terms require original photo/video content creation, and its Instagram actively drives creator-style mask content.",
+    "compensation": "A flat published 15% commission on every sale (Awin profile), with ~$100 average order value.",
+    "contact_access": "Network application route plus published affiliate terms on the brand's own site; no public email found.",
+    "opportunity_availability": "Open on Awin (and listed on ShareASale), though coupon sites are excluded.",
+    "credibility": "Established sleep brand (Drowsy Sleep Co Ltd / Drowsy LLC) with 71K Instagram followers and press coverage."
+   }
+  }
+ },
+ {
+  "name": "Revival Rugs",
+  "website": "https://www.revivalrugs.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Home goods brand and marketplace selling one-of-a-kind vintage and handmade rugs sourced from makers around the world, plus washable rugs and complementary home goods, through its own online store.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.revivalrugs.com/pages/brand-ambassadors",
+    "email": null,
+    "source_url": "https://www.revivalrugs.com/pages/brand-ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.revivalrugs.com/pages/brand-ambassadors",
+    "summary": "Revival's own Brand Ambassadors page (fetched) offers 'FREE PRODUCTS' and '10% COMMISSION' to ambassadors who apply through the page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/90189",
+    "summary": "Revival Rugs Inc also runs an affiliate program listed on Awin (merchant profile fetched) with a 30-day attribution period; the profile describes Revival as a home goods brand and marketplace that began with handmade oriental rugs."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/revivalrugs",
+    "summary": "InfluencerRate's listing claims Revival affiliates can earn 'up to 15%' commission, which conflicts with the 10% figure on Revival's own ambassador page; the brand's own published 10% governs."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.revivalrugs.com/pages/brand-ambassadors",
+    "summary": "No earnings-cap statement appears on the ambassador page or the Awin profile, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://www.revivalrugs.com/pages/brand-ambassadors",
+   "source_url": "https://www.revivalrugs.com/pages/brand-ambassadors",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.revivalrugs.com/pages/brand-ambassadors",
+   "source_url": "https://www.revivalrugs.com/pages/brand-ambassadors",
+   "title": "Revival Brand Ambassadors"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Statement rugs and room transformations are core home-decor creator content, and washable rugs target pet-owning households.",
+    "ugc_evidence": "A named Brand Ambassador program on the brand's own site offering free product plus commission, alongside heavy creator content around its rugs on social media.",
+    "compensation": "10% commission per the brand's own ambassador page, plus free products; a third-party 'up to 15%' claim conflicts and is not used.",
+    "contact_access": "Public ambassador application page on the official site.",
+    "opportunity_availability": "Ambassador applications open on the brand's site; a parallel affiliate listing runs on Awin.",
+    "credibility": "Established DTC home-goods brand and marketplace with a globally distributed sourcing team."
+   }
+  }
+ },
+ {
+  "name": "Gravity Blankets",
+  "website": "https://gravityblankets.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Sleep brand that popularized the weighted blanket, selling weighted blankets in 15/20/25 lb weights plus cooling covers, sleep masks and other rest accessories through its own online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/gravity-blankets/",
+    "summary": "Lasso's Gravity Blankets listing (fetched) gives a 3% per-sale commission and a 45-day cookie, and its join link routes to account.shareasale.com, confirming the program runs on ShareASale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://runtheaffiliatemarket.com/can-you-make-money-with-the-gravity-blanket-affiliate-program-review/",
+    "summary": "An independent affiliate review independently reports the same Gravity Blanket terms: 3% commission and a 45-day tracking cookie."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/gravity-blankets/",
+    "summary": "No earnings-cap statement is published in the program listing, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 3,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/gravity-blankets/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 9,
+   "compensation": 5,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Weighted blankets are a recurring sleep and anxiety-relief topic for home and wellness creators.",
+    "ugc_evidence": "No creator or ambassador program evidence found — a standard network affiliate program only.",
+    "compensation": "A low published 3% per-sale rate, partly offset by a long 45-day cookie.",
+    "contact_access": "No public creator contact found; application is through ShareASale only.",
+    "opportunity_availability": "Open to ShareASale publishers with approval.",
+    "credibility": "The category-defining weighted-blanket brand with national retail and press presence."
+   }
+  }
+ },
+ {
+  "name": "Hydrow",
+  "website": "https://hydrow.com",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "Connected fitness brand selling premium indoor rowing machines (Hydrow Arc, Wave and Pro) with immersive on-water workout content and a membership, sold through its own online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/hydrow/",
+    "summary": "LinkClicky's directory lists Hydrow's affiliate program on the Impact platform at 1%-2% commission per sale."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/hydrow-us-preferred/",
+    "summary": "Published Hydrow rates conflict across directories: Lasso's 'Hydrow US Preferred' listing says 1% per sale, LinkClicky says 1%-2%, and Shopper's partnership page says up to 4% — so no single rate is recorded and commission_rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/hydrow/",
+    "summary": "Hydrow sells connected rowing machines offering an immersive on-water experience for at-home fitness. No earnings-cap statement is published in any listing, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/hydrow/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 9,
+   "compensation": 4,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium connected rowers are a fixture of home-gym and fitness-tech creator content.",
+    "ugc_evidence": "No creator or ambassador program evidence found — a standard network affiliate program only.",
+    "compensation": "Published rates conflict (1% to 4% across directories) and sit at the low end even at the top figure, so no rate is recorded.",
+    "contact_access": "No public creator contact found; the route is the Impact network listing.",
+    "opportunity_availability": "Listed for Impact publishers; exact terms are set inside the network.",
+    "credibility": "Well-known US connected-fitness brand with national retail presence."
+   }
+  }
+ },
+ {
+  "name": "Food52",
+  "website": "https://food52.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Food media community and shop founded in 2009, built around a community of millions of home cooks, selling curated cookware, dinnerware, pantry goods and home accessories through its online shop.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://bootstrapped.ventures/food-blog-affiliate-programs/",
+    "summary": "Bootstrapped Ventures' affiliate guide states the Food52 affiliate program is hosted on Partnerize at 9% standard commission with a 7-day cookie, and that a separate Food52 Curator creator program runs through Captiv8 at 12% on the first $100,000 of sales and 15% above that."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/food52/",
+    "summary": "Published Food52 rates conflict: Lasso and Commission Academy report a 6% base commission while several other guides report 9% on Partnerize — so no single standard rate is recorded and commission_rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.getvendo.com/b/food52-marketplace-affiliate-program",
+    "summary": "Vendo's program summary describes the Food52 affiliate/creator offer as including a customizable digital storefront for showcasing favorite products, recipes and stories, plus invitations to events at Food52's Brooklyn headquarters."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://cybernaira.com/best-food-affiliate-programs/",
+    "summary": "CyberNaira describes Food52 as a community of over 13 million cooks, recipe makers and food content editors selling kitchen tools, food and gifts. No earnings-cap statement is published for the program, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://bootstrapped.ventures/food-blog-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://bootstrapped.ventures/food-blog-affiliate-programs/",
+   "title": "Food52 Curator Program (via Captiv8)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Kitchenware, tableware and pantry goods curated for exactly the food-creator audience.",
+    "ugc_evidence": "A community-built brand with a dedicated Curator creator program offering personal storefronts, on top of the standard affiliate program.",
+    "compensation": "Standard Partnerize rates conflict across sources (6% vs 9%), so no rate is recorded; the selective Curator tier is reported at 12-15%.",
+    "contact_access": "Applications run through Partnerize (standard) and Captiv8 (Curator); no public creator email found.",
+    "opportunity_availability": "Standard program open on Partnerize; the higher-paying Curator program is a separate creator application.",
+    "credibility": "Long-running US food media brand with a community reported at 13M+ cooks and a Brooklyn headquarters."
+   }
+  }
+ },
+ {
+  "name": "PitPat",
+  "website": "https://www.pitpat.com",
+  "country": "United Kingdom",
+  "category_slug": "pets",
+  "description": "UK pet-tech brand selling the PitPat dog GPS tracker and activity monitor — collar-mounted devices that track a dog's location, exercise, rest, weight and calories through an app — through its own online store.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@pitpatpet.com",
+    "source_url": "https://ui.awin.com/merchant-profile/43513?setLocale=pt_BR"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/pitpatpet"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/43513?setLocale=pt_BR",
+    "summary": "PitPat's Awin programme profile (fetched) states affiliates 'Earn up to 10% commission per sale' with quick payments, weekly validation and a 30-day cookie, UK sign-ups only, and publishes the contact affiliates@pitpatpet.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.pitpat.com/affiliate-publisher-terms/",
+    "summary": "PitPat's own Affiliate Publisher Terms (fetched, Pitpatpet Ltd, Cambridge, UK) confirm the programme runs through an affiliate network, pays commission on approved direct-to-consumer sales within a 30-day cookie, and excludes commercial/reseller sales."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/Dds9p7aChsv/",
+    "summary": "PitPat's official Instagram (@pitpatpet, 37K followers) ran a 'UGC Rep Search' recruiting dog-owner content creators, with rep benefits including gifted items, a commission scheme, an exclusive rep community and launch sneak peeks."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/43513?setLocale=pt_BR",
+    "summary": "The Awin profile publishes only a ceiling ('up to 10%') with no base rate, so commission_rate is null; no earnings-cap statement is made, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/43513?setLocale=pt_BR",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 12,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Dog GPS and activity tracking is highly demonstrable pet-tech content for dog creators.",
+    "ugc_evidence": "The brand publicly recruited UGC reps on Instagram with gifted product and a commission scheme, beyond its standard Awin programme.",
+    "compensation": "Awin publishes only an 'up to 10%' ceiling with no base rate, so no rate is recorded.",
+    "contact_access": "A published affiliate contact email (affiliates@pitpatpet.com) on the Awin profile, plus full programme terms on the brand's own site.",
+    "opportunity_availability": "Open on Awin but restricted to UK sign-ups only.",
+    "credibility": "Established UK pet-tech company (Pitpatpet Ltd, Cambridge) with 37K Instagram followers."
+   }
+  }
+ },
+ {
+  "name": "PetLink",
+  "website": "https://www.petlink.net",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Pet safety brand with 30+ years in pet identification, selling microchips, QR tags and the PetLinkGPS dog tracker and activity monitor (live location, geofence alerts, activity tracking) through its online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/111234",
+    "summary": "PetLink's Awin (US) merchant profile (fetched) publishes a '20% Standard Commission' (5% for coupon/discount sites) calculated on the final transaction amount excluding VAT and shipping, a 30-day cookie, and an average order value of $99."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/111234",
+    "summary": "The profile states PetLink has been in pet safety for over 30 years, launched its GPS product in 2024, is growing its direct-to-consumer offering with 'growing volumes of sales each month', and offers a reactive account manager and private commission rates for valuable exposure."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/111234",
+    "summary": "No earnings-cap statement appears in the Awin profile, so the commission cap is recorded as unknown; the GPS line's 2024 launch is noted but is not, by itself, evidence of low creator saturation."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 20,
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/111234",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 8,
+   "compensation": 16,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "GPS pet tracking (lost-dog recovery, geofence alerts, activity) is demonstrable, story-driven pet content.",
+    "ugc_evidence": "No creator or ambassador program evidence found — a standard network affiliate program, though the brand invites tailored partnership proposals.",
+    "compensation": "A strong published 20% standard commission on Awin with a $99 average order value and 30-day cookie.",
+    "contact_access": "Awin application route; the profile offers a reactive account manager and invites private-rate proposals, but no public email is published.",
+    "opportunity_availability": "Open on Awin (US) with the brand actively pushing direct-to-consumer growth since the 2024 GPS launch.",
+    "credibility": "Pet-identification brand claiming 30+ years in pet safety, now expanding into GPS trackers."
+   }
+  }
+ }
+]
