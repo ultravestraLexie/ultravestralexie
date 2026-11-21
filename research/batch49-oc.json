@@ -1,0 +1,500 @@
+[
+ {
+  "name": "Waka Coffee",
+  "website": "https://www.wakacoffee.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US instant coffee brand built around making instant coffee taste good for people on the go, selling instant coffee and instant tea through its own website; the brand supports clean-water initiatives in drought-affected regions.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "business@wakacoffee.com",
+    "source_url": "https://www.wakacoffee.com/pages/waka-coffee-affiliate-program-share-a-sale"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.wakacoffee.com/pages/waka-coffee-affiliate-program-share-a-sale",
+    "summary": "Waka Coffee's own affiliate program page states affiliates receive a 10% commission on every purchase with a 30-day return cookie, receive a free data feed via Share-A-Sale, and get banners and affiliate support; the page publishes business@wakacoffee.com for questions. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/wakacoffee-com-affiliate-program",
+    "summary": "Shopper's listing quotes a conflicting 3.19% payout for Waka Coffee; the brand's own program page (10%) governs, so 10% is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://www.wakacoffee.com/pages/waka-coffee-affiliate-program-share-a-sale",
+   "source_url": "https://www.wakacoffee.com/pages/waka-coffee-affiliate-program-share-a-sale",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.wakacoffee.com/pages/waka-coffee-affiliate-program-share-a-sale",
+   "source_url": "https://www.wakacoffee.com/pages/waka-coffee-affiliate-program-share-a-sale",
+   "title": "Waka Coffee Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Instant coffee and tea is a staple food-drink niche with strong recipe, morning-routine and travel content angles.",
+    "ugc_evidence": "The brand runs an open affiliate program with banners and creatives supplied, but no separate creator/UGC program was found on the fetched pages.",
+    "compensation": "The brand's own program page publishes a clear 10% commission per purchase with a 30-day cookie.",
+    "contact_access": "The program page itself is the application route and it publishes a business email (business@wakacoffee.com) for affiliate questions.",
+    "opportunity_availability": "Open affiliate program on ShareASale via the brand's own program page; sign-up is public.",
+    "credibility": "Established DTC instant coffee brand with its own store and a published affiliate support contact."
+   }
+  }
+ },
+ {
+  "name": "Spicewalla",
+  "website": "https://www.spicewallabrand.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US spice brand selling high-quality spices, seasonings and chef-crafted blends for home cooks through its own online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/spicewalla/",
+    "summary": "Lasso's affiliate directory lists the Spicewalla affiliate program at 6% commission per sale with a 30-day cookie, and its join link points to signup.cj.com, i.e. the program runs on CJ Affiliate. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 6,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/spicewalla/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/spicewalla/",
+   "source_url": "https://getlasso.co/affiliate/spicewalla/",
+   "title": "Spicewalla Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 9,
+   "compensation": 8,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Spices and blends are a core cooking-content niche; recipes and seasoning demos are natural creator formats.",
+    "ugc_evidence": "An open network affiliate program exists, but no dedicated creator or ambassador program was found on the fetched pages.",
+    "compensation": "Published rate of 6% per sale on CJ Affiliate per the network directory — modest but clearly stated.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the CJ Affiliate network listing.",
+    "opportunity_availability": "Open affiliate program on CJ Affiliate; applications run through the network.",
+    "credibility": "Established DTC spice brand with its own store and a listed program on a major affiliate network."
+   }
+  }
+ },
+ {
+  "name": "Nick's",
+  "website": "https://www.nicks.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Swedish-born brand selling no-added-sugar, low-carb ice cream, chocolate and snack bars through its US online store, positioned as Swedish-style treats with 4-7g net carbs per serving.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/nicks-ice-creams/",
+    "summary": "Lasso's directory lists the Nick's Ice Creams affiliate program at 20% per sale with a 30-day cookie in the Food category, and the join link points to ShareASale. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/nicks-com-affiliate-program",
+    "summary": "Published rates conflict: Lasso lists 20% per sale, Shopper lists 5-10%, and The Affiliate Monkey lists up to 15% while naming Impact as the network. Because the sources conflict, commission_rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/nicks-ice-creams/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/nicks-ice-creams/",
+   "source_url": "https://getlasso.co/affiliate/nicks-ice-creams/",
+   "title": "Nick's Ice Creams Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 9,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "No-added-sugar ice cream and snack bars sit squarely in the better-for-you food niche that performs well in creator taste-test and haul content.",
+    "ugc_evidence": "A network affiliate program exists, but no dedicated creator program or ambassador application was found on the fetched pages.",
+    "compensation": "Published rates conflict across directories (20% vs 5-10% vs up to 15%), so no rate is recorded and compensation stays at the conflict cap.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the network listing.",
+    "opportunity_availability": "Affiliate program is publicly listed, but the network/rate conflict means terms need confirmation at application.",
+    "credibility": "Established Swedish better-for-you sweets brand with a US store and national retail presence."
+   }
+  }
+ },
+ {
+  "name": "Eu Natural",
+  "website": "https://eunatural.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US supplement brand selling natural, plant-based dietary supplements for everyday health and wellness concerns through its own online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/eu-natural/",
+    "summary": "Lasso's Eu Natural Preferred listing shows the program paying 10% per sale with a 30-day cookie in the Health and Wellness / Supplements categories, with joining through ShareASale. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/eu-natural/",
+    "summary": "Published rates conflict: Lasso's Preferred listing shows 10% per sale, Lasso's main Eu Natural listing shows up to 18.75%, and Affilorama reports 25-40% on ShareASale. Because the sources conflict, commission_rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/eu-natural/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/eu-natural/",
+   "source_url": "https://getlasso.co/affiliate/eu-natural/",
+   "title": "Eu Natural Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 9,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Natural supplements are a core wellness niche with strong routine and results-content angles.",
+    "ugc_evidence": "A network affiliate program exists, but no dedicated creator or ambassador program was found on the fetched pages.",
+    "compensation": "Published rates conflict across directories (10% vs up to 18.75% vs 25-40%), so no rate is recorded and compensation stays at the conflict cap.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the ShareASale listing.",
+    "opportunity_availability": "Affiliate program is publicly listed on ShareASale, but the rate conflict means terms need confirmation at application.",
+    "credibility": "Established DTC supplement brand with its own store and long-running network affiliate presence."
+   }
+  }
+ },
+ {
+  "name": "Casa M Spice Co",
+  "website": "https://casamspice.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US spice brand selling spice blends and seasonings aimed at food lovers and home cooks through its own online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/casa-m-spice-co/",
+    "summary": "Lasso's affiliate directory lists the Casa M Spice Co affiliate program at 8% commission per sale with a 30-day cookie in the Cooking / Food categories, with joining through ShareASale. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 8,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/casa-m-spice-co/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/casa-m-spice-co/",
+   "source_url": "https://getlasso.co/affiliate/casa-m-spice-co/",
+   "title": "Casa M Spice Co Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 9,
+   "compensation": 9,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Spice blends are a natural fit for recipe, grilling and cooking-demo creator content.",
+    "ugc_evidence": "An open network affiliate program exists, but no dedicated creator or ambassador program was found on the fetched pages.",
+    "compensation": "Published rate of 8% per sale on ShareASale per the network directory, with a 30-day cookie.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the ShareASale listing.",
+    "opportunity_availability": "Open affiliate program on ShareASale; applications run through the network.",
+    "credibility": "Smaller DTC spice brand with its own store and a listed program on a major affiliate network."
+   }
+  }
+ },
+ {
+  "name": "Remi",
+  "website": "https://getremi.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "US dental health brand selling custom-made night guards for teeth grinding and related oral-care products through its own online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/remi/",
+    "summary": "Lasso's affiliate directory lists the Remi affiliate program at 16% commission per sale with a 30-day cookie in the Dental and Health and Wellness categories, with joining through ShareASale. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 16,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/remi/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/remi/",
+   "source_url": "https://getlasso.co/affiliate/remi/",
+   "title": "Remi Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 10,
+   "compensation": 13,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Custom night guards are a focused health product with a clear problem/solution story for wellness and sleep-content creators.",
+    "ugc_evidence": "An open network affiliate program exists and the product lends itself to unboxing and impression-kit content, but no dedicated creator program was found on the fetched pages.",
+    "compensation": "Published rate of 16% per sale on ShareASale per the network directory — above average for the niche.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the ShareASale listing.",
+    "opportunity_availability": "Open affiliate program on ShareASale; applications run through the network.",
+    "credibility": "Established DTC dental brand with its own store and a listed program on a major affiliate network."
+   }
+  }
+ },
+ {
+  "name": "Top Note Tonics",
+  "website": "https://topnotetonic.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US beverage brand crafting a premium line of mixers and tonics — including Indian Tonic Water and Ginger Beer — for cocktail enthusiasts and sober-curious drinkers, sold through its online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/top-note-tonics/",
+    "summary": "LinkClicky's affiliate directory lists the Top Note Tonics affiliate program on ShareASale at 7% commission per sale with a 90-day cookie, joining via shareasale.com. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 7,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/top-note-tonics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/top-note-tonics/",
+   "source_url": "https://linkclicky.com/affiliate-program/top-note-tonics/",
+   "title": "Top Note Tonics Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 9,
+   "compensation": 8,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Premium mixers and tonics fit cocktail, mocktail and hosting content — a growing food-drink creator niche.",
+    "ugc_evidence": "An open network affiliate program exists, but no dedicated creator or ambassador program was found on the fetched pages.",
+    "compensation": "Published rate of 7% per sale on ShareASale with a long 90-day cookie per the network directory.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the ShareASale listing.",
+    "opportunity_availability": "Open affiliate program on ShareASale; applications run through the network.",
+    "credibility": "Smaller premium beverage brand with its own store and a listed program on a major affiliate network."
+   }
+  }
+ },
+ {
+  "name": "RawSpiceBar",
+  "website": "https://rawspicebar.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US spice brand selling freshly ground, small-batch spice blends and seasonings with no additives or fillers, through subscriptions and individual purchases on its own website.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/rawspicebar/",
+    "summary": "LinkClicky's affiliate directory lists the RawSpiceBar affiliate program on ShareASale at 20% commission per sale with a 90-day cookie, joining via shareasale.com. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 20,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/rawspicebar/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/rawspicebar/",
+   "source_url": "https://linkclicky.com/affiliate-program/rawspicebar/",
+   "title": "RawSpiceBar Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 14,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Global spice blends and a subscription format are a strong fit for recipe, unboxing and monthly-haul creator content.",
+    "ugc_evidence": "An open network affiliate program exists, but no dedicated creator or ambassador program was found on the fetched pages.",
+    "compensation": "Published rate of 20% per sale on ShareASale with a 90-day cookie per the network directory — one of the strongest rates in this group.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the ShareASale listing.",
+    "opportunity_availability": "Open affiliate program on ShareASale; applications run through the network.",
+    "credibility": "Established DTC spice subscription brand with its own store and a listed program on a major affiliate network."
+   }
+  }
+ },
+ {
+  "name": "SkinnyFit",
+  "website": "https://www.skinnyfit.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US wellness supplement brand selling premium supplements made with natural ingredients for health, fitness and beauty goals through its own online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/skinnyfit/",
+    "summary": "Lasso's affiliate directory lists the SkinnyFit affiliate program at 8% commission per sale with a 30-day cookie in the Beauty, Fitness, Health and Wellness, Nutrition and Supplements categories, with joining through ShareASale. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 8,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/skinnyfit/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/skinnyfit/",
+   "source_url": "https://getlasso.co/affiliate/skinnyfit/",
+   "title": "SkinnyFit Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 9,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Wellness supplements aimed at fitness and beauty goals are a core creator niche across TikTok and Instagram.",
+    "ugc_evidence": "An open network affiliate program exists, but no dedicated creator or ambassador program was found on the fetched pages.",
+    "compensation": "Published rate of 8% per sale on ShareASale per the network directory, with a 30-day cookie.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the ShareASale listing.",
+    "opportunity_availability": "Open affiliate program on ShareASale; applications run through the network.",
+    "credibility": "Established DTC supplement brand with its own store and a listed program on a major affiliate network."
+   }
+  }
+ },
+ {
+  "name": "Total Tea",
+  "website": "https://totaltea.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US tea brand selling herbal and wellness teas made with natural ingredients through its own online store, aimed at tea drinkers focused on health benefits.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/total-tea/",
+    "summary": "Lasso's affiliate directory lists the Total Tea affiliate program at 10% commission per sale with a 90-day cookie in the Drink, Supplements and Tea categories, with joining through ShareASale. No earnings-cap statement appears on the fetched page, so commission_cap is recorded as unknown; no absolute creator-count evidence was found, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/total-tea/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/total-tea/",
+   "source_url": "https://getlasso.co/affiliate/total-tea/",
+   "title": "Total Tea Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 9,
+   "compensation": 11,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Wellness teas fit tea-routine, detox and evening-wind-down creator content in the food-drink and wellness niches.",
+    "ugc_evidence": "An open network affiliate program exists, but no dedicated creator or ambassador program was found on the fetched pages.",
+    "compensation": "Published rate of 10% per sale on ShareASale with a long 90-day cookie per the network directory.",
+    "contact_access": "No public partnerships email or application page was found on the fetched pages; joining runs through the ShareASale listing.",
+    "opportunity_availability": "Open affiliate program on ShareASale; applications run through the network.",
+    "credibility": "Smaller DTC tea brand with its own store and a listed program on a major affiliate network."
+   }
+  }
+ }
+]

@@ -1,0 +1,512 @@
+[
+ {
+  "name": "Neal's Yard Remedies",
+  "website": "https://www.nealsyardremedies.com",
+  "country": "United Kingdom",
+  "category_slug": "skincare",
+  "description": "UK natural and organic skincare, body care and aromatherapy brand that promotes an affiliate program on its own website, run through Awin.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.nealsyardremedies.com/pages/affiliate-program",
+    "email": "affiliates@nealsyardremedies.com",
+    "source_url": "https://www.nealsyardremedies.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.nealsyardremedies.com/pages/affiliate-program",
+    "summary": "The brand's own affiliate page (fetched) invites publishers to 'earn up to 8%' commission, states the program is managed through Awin, and publishes the program contact affiliates@nealsyardremedies.com. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.nealsyardremedies.com/pages/affiliate-program",
+    "summary": "The brand's Awin US program profile, as surfaced in search, splits the rate at 6% for existing customers and 8% for new customers with a 30-day cookie and roughly $90 average order value. The base (existing-customer) rate of 6% is recorded, with the new-customer 8% documented here. No creator-count or cohort-size figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 6,
+   "application_url": "https://www.nealsyardremedies.com/pages/affiliate-program",
+   "source_url": "https://www.nealsyardremedies.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Neal's Yard Remedies Affiliate Program (Awin)",
+   "application_url": "https://www.nealsyardremedies.com/pages/affiliate-program",
+   "source_url": "https://www.nealsyardremedies.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Long-established organic skincare and wellness brand whose products fit skincare-routine and clean-beauty creator content.",
+    "ugc_evidence": "A public affiliate program promoted on the brand's own site; no dedicated creator-content program details are published.",
+    "compensation": "6% base commission (existing customers) rising to 8% for new customers, 30-day cookie; no published cap statement, so the cap stays unknown.",
+    "contact_access": "A named program email, affiliates@nealsyardremedies.com, is published on the brand's own affiliate page.",
+    "opportunity_availability": "Applications are open through Awin from the brand's own affiliate page.",
+    "credibility": "Major UK high-street and online natural beauty brand with decades of trading history."
+   }
+  }
+ },
+ {
+  "name": "Velour Beauty",
+  "website": "https://www.velourbeauty.com",
+  "country": "Canada",
+  "category_slug": "beauty",
+  "description": "Canadian cruelty-free false lash brand (formerly Velour Lashes) selling faux mink lashes, adhesives and tools in eco-friendly packaging, for beginners and professionals.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/velour-beauty/",
+    "summary": "LinkClicky's program listing (fetched) records Velour Beauty on the ShareASale platform at 13% commission per sale with a 30-day cookie, open to all regions, with applications routed through ShareASale. No statement about an earnings cap is published, so the cap is recorded as unknown, and no creator-count figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 13,
+   "application_url": "https://linkclicky.com/affiliate-program/velour-beauty/",
+   "source_url": "https://linkclicky.com/affiliate-program/velour-beauty/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Velour Beauty Affiliate Program (ShareASale)",
+   "application_url": "https://linkclicky.com/affiliate-program/velour-beauty/",
+   "source_url": "https://linkclicky.com/affiliate-program/velour-beauty/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "False lashes are a staple of makeup-tutorial and get-ready-with-me creator content.",
+    "ugc_evidence": "An open network affiliate program aimed at beauty bloggers and influencers; no separate creator cohort details are published.",
+    "compensation": "13% per sale with a 30-day cookie via ShareASale; no published cap statement, so the cap stays unknown.",
+    "contact_access": "Applications run through ShareASale; no direct program email is published.",
+    "opportunity_availability": "Listed as open to all regions on ShareASale.",
+    "credibility": "Established lash brand with retail presence and a long-running network program listing."
+   }
+  }
+ },
+ {
+  "name": "111SKIN",
+  "website": "https://111skin.com",
+  "country": "United Kingdom",
+  "category_slug": "skincare",
+  "description": "Luxury London skincare brand founded by plastic surgeon Dr. Yannis Alexandrides of 111 Harley Street, selling serums, masks and creams built around the patented NAC Y2 formula.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/111skin/",
+    "summary": "LinkClicky's program listing (fetched) records 111SKIN on the Awin platform for the US region with a 30-day cookie and commission listed as N/A; its FAQ states the rate is not publicly known and is typically negotiable with the merchant. A UK directory listing elsewhere cites 5%, which conflicts with the unpublished US rate, so commission_rate is recorded as null. No cap statement is published (cap unknown) and no creator-count figure is published (saturation unknown)."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/111skin/",
+   "source_url": "https://linkclicky.com/affiliate-program/111skin/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "111SKIN Affiliate Program (Awin)",
+   "application_url": "https://linkclicky.com/affiliate-program/111skin/",
+   "source_url": "https://linkclicky.com/affiliate-program/111skin/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Luxury clinical skincare with strong appeal for skincare-routine and premium beauty creators.",
+    "ugc_evidence": "A live Awin program listing; no dedicated creator-content program details are published.",
+    "compensation": "The US rate is unpublished and negotiable and a UK listing cites 5%, so the rate is recorded as null rather than guessed; no cap statement is published.",
+    "contact_access": "Applications run through Awin; no direct program email is published.",
+    "opportunity_availability": "Open Awin listing for the US region, subject to merchant approval.",
+    "credibility": "Internationally distributed luxury brand founded by a named Harley Street surgeon, sold through major premium retailers."
+   }
+  }
+ },
+ {
+  "name": "Philip Kingsley",
+  "website": "https://www.philipkingsley.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "Premium British haircare brand created by trichologists, focused on hair and scalp concerns such as thinning, dryness and frizz, with trichological clinics alongside its product range.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-programs/hair-products/",
+    "summary": "UpPromote's hair-program guide (fetched) lists Philip Kingsley at a 16% commission with a 30-day cookie, exclusive discount codes for affiliates and a dedicated affiliate team; program roundups report the program on Awin (also surfaced via Webgains and sub-networks). A second guide phrases the rate as 'up to 16%', so the flat-versus-ceiling wording conflicts and commission_rate is recorded as null. No cap statement is published (cap unknown) and no creator-count figure is published (saturation unknown)."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "source_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Philip Kingsley Affiliate Program (Awin)",
+   "application_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "source_url": "https://uppromote.com/affiliate-programs/hair-products/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium scalp and hair-health brand that fits haircare-routine and problem-solution creator content.",
+    "ugc_evidence": "Affiliate support includes exclusive audience discount codes and a dedicated affiliate team, per the fetched guide.",
+    "compensation": "Rates are reported at 16% but worded inconsistently ('16%' vs 'up to 16%'), so the rate is null; no cap statement is published.",
+    "contact_access": "Applications run through the network listing; no direct program email is published.",
+    "opportunity_availability": "Open network program with a 30-day cookie.",
+    "credibility": "Long-established trichology brand with clinics in London and New York and global retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Christophe Robin",
+  "website": "https://www.christopherobin.com",
+  "country": "France",
+  "category_slug": "beauty",
+  "description": "French luxury haircare brand using natural ingredients such as prickly pear oil, sea salt and rose extracts for color preservation, scalp care, hydration and repair.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-programs/hair-products/",
+    "summary": "UpPromote's hair-program guide (fetched) states Christophe Robin's program is managed through the Awin network with tiered rates of up to 10% per order; the same section states the earning window as 2 weeks in prose but 30 days in its spec list. Because the headline rate is a ceiling ('up to 10%') and the cookie wording is inconsistent, commission_rate is recorded as null. No cap statement is published (cap unknown) and no creator-count figure is published (saturation unknown)."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "source_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Christophe Robin Affiliate Program (Awin)",
+   "application_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "source_url": "https://uppromote.com/affiliate-programs/hair-products/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Luxury French haircare with strong fit for premium haircare and scalp-care creator content.",
+    "ugc_evidence": "A live Awin-managed program; no dedicated creator-content program details are published.",
+    "compensation": "Rates are tiered up to 10% (a ceiling, not a base rate) and cookie wording conflicts, so the rate is null; no cap statement is published.",
+    "contact_access": "Applications run through Awin; no direct program email is published.",
+    "opportunity_availability": "Open Awin program, subject to merchant approval.",
+    "credibility": "Established luxury brand within a major beauty group, distributed through premium retailers internationally."
+   }
+  }
+ },
+ {
+  "name": "St. Tropez",
+  "website": "https://www.sttropez.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK self-tanning brand selling mousses, lotions and gradual-tan products for a sun-kissed glow without UV exposure.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/st-tropez/",
+    "summary": "Lasso's St Tropez UK program page (fetched) lists commission at 5% and 7% per sale with a 30-day cookie, and its join links route to ui.awin.com, confirming the program runs on Awin. The 5%/7% split is not labelled by tier or customer type on the page, and another directory reports 5-10%, so no single base rate can be verified and commission_rate is recorded as null. No cap statement is published (cap unknown) and no creator-count figure is published (saturation unknown)."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/st-tropez/",
+   "source_url": "https://getlasso.co/affiliate/st-tropez/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "St. Tropez Affiliate Program (Awin)",
+   "application_url": "https://getlasso.co/affiliate/st-tropez/",
+   "source_url": "https://getlasso.co/affiliate/st-tropez/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Self-tan application and results content is a proven beauty-creator format, and this is the category's best-known brand.",
+    "ugc_evidence": "A live Awin program marketed to skin care bloggers and beauty affiliates; no separate creator cohort details are published.",
+    "compensation": "Published rates split 5% and 7% with no labelled base tier (and 5-10% reported elsewhere), so the rate is null; no cap statement is published.",
+    "contact_access": "Applications run through Awin; no published creator or PR email was found on the fetched pages.",
+    "opportunity_availability": "Open Awin listing with a 30-day cookie.",
+    "credibility": "Market-leading tanning brand with global retail distribution and a long trading history."
+   }
+  }
+ },
+ {
+  "name": "Lilly Lashes",
+  "website": "https://lillylashes.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Luxury false lash brand founded by Lilly Ghalichi, known for handmade 3D lashes spanning natural to dramatic styles, worn by celebrities and makeup artists; cruelty-free.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/lilly-lashes/",
+    "summary": "LinkClicky's program listing (fetched) records Lilly Lashes on the Impact platform at 15% per sale and 10% per recurring subscription, with applications routed to app.impact.com. No cap statement is published (cap unknown) and no creator-count figure is published (saturation unknown)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affjumbo.com/new-offer-launched-lilly-lashes-affiliate-program/",
+    "summary": "AffJumbo's program page (fetched) instead lists commission at 8%-12% with a 30-day last-click cookie and US service area. Because two fetched directories conflict on the rate (15% vs 8-12%), commission_rate is recorded as null with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/lilly-lashes/",
+   "source_url": "https://linkclicky.com/affiliate-program/lilly-lashes/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lilly Lashes Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/lilly-lashes/",
+   "source_url": "https://linkclicky.com/affiliate-program/lilly-lashes/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Glam lashes are core makeup-creator content, and the brand is built around influencer and makeup-artist visibility.",
+    "ugc_evidence": "A live Impact program aimed at beauty publishers and influencers; no separate creator cohort details are published.",
+    "compensation": "Directories conflict on the rate (15% per sale on one, 8-12% on another), so the rate is null until verified at application; no cap statement is published.",
+    "contact_access": "Applications run through Impact; no direct program email is published.",
+    "opportunity_availability": "Open Impact listing, subject to the brand's site-quality review.",
+    "credibility": "Well-known lash brand founded in 2013 with celebrity and MUA adoption; directory data conflicts slightly dent confidence."
+   }
+  }
+ },
+ {
+  "name": "Lola's Lashes",
+  "website": "https://lolaslashes.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK false lash brand running a Refersion referral partner programme whose terms require affiliates to post monthly social content tagging the brand.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://lolaslashes.refersion.com",
+    "email": null,
+    "source_url": "https://lolaslashes.com/pages/affiliate-programme-terms-and-conditions"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/lolaslashesofficial"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://lolaslashes.com/pages/affiliate-programme-terms-and-conditions",
+    "summary": "The brand's own affiliate programme terms (fetched) govern its 'Referral Partner Programme': registration runs on its Refersion portal (lolaslashes.refersion.com) and partners earn a Referral Fee of 10% of the net value of each referred product purchase (excluding VAT and shipping), paid by bank transfer or PayPal within 30 days of a valid invoice. The terms contain no statement capping total earnings, so the cap is recorded as unknown; no creator-count figure is published, so saturation is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://lolaslashes.com/pages/affiliate-programme-terms-and-conditions",
+    "summary": "The same terms impose explicit creator-content obligations: affiliates must post on social media at least once per month (Story or in-feed), tag @lolaslashesofficial on the photo and in the caption, use #lolaslashes, and follow the brand, with removal for non-compliance - direct evidence the program is built on ongoing creator content."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 10,
+   "application_url": "https://lolaslashes.refersion.com",
+   "source_url": "https://lolaslashes.com/pages/affiliate-programme-terms-and-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lola's Lashes Referral Partner Programme (Refersion)",
+   "application_url": "https://lolaslashes.refersion.com",
+   "source_url": "https://lolaslashes.com/pages/affiliate-programme-terms-and-conditions"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "False lashes fit makeup and beauty creator content directly.",
+    "ugc_evidence": "The program contractually requires monthly tagged social posts from every affiliate - unusually direct creator-content evidence from the brand's own terms.",
+    "compensation": "10% of the net product value per referred purchase, published in the brand's own terms; no cap statement appears in the terms, so the cap stays unknown.",
+    "contact_access": "Registration is via the brand's Refersion portal; no direct program email is published in the terms.",
+    "opportunity_availability": "Open registration on the Refersion portal for adults able to receive PayPal payments.",
+    "credibility": "Trading UK lash brand with full published programme terms; smaller than the category's global leaders."
+   }
+  }
+ },
+ {
+  "name": "Navy Hair Care",
+  "website": "https://navyhaircare.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US haircare brand selling shampoos, treatments and styling products formulated with nutrient-rich ingredients to nourish, strengthen and promote healthy hair growth, at salon quality.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-programs/hair-products/",
+    "summary": "UpPromote's hair-program guide (fetched) lists Navy Hair Care at a 10% commission per sale with a 45-day referral window, sign-up through the CJ Affiliate network, Payoneer payments and banner support; Lasso's program page independently lists the same 10% rate and 45-day cookie. No cap statement is published (cap unknown) and no creator-count figure is published (saturation unknown)."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "source_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Navy Hair Care Affiliate Program (CJ Affiliate)",
+   "application_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "source_url": "https://uppromote.com/affiliate-programs/hair-products/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Salon-quality haircare and styling products fit haircare-routine and styling creator content.",
+    "ugc_evidence": "A live CJ Affiliate program with banner support; no dedicated creator-content program details are published.",
+    "compensation": "10% per sale with a comparatively long 45-day cookie, consistent across two fetched directories; no cap statement is published.",
+    "contact_access": "Applications run through CJ Affiliate; no direct program email is published.",
+    "opportunity_availability": "Open CJ Affiliate listing.",
+    "credibility": "Smaller US DTC haircare brand with a consistent network program presence."
+   }
+  }
+ },
+ {
+  "name": "Grow Gorgeous",
+  "website": "https://www.growgorgeous.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "Hair and scalp brand using skincare-inspired ingredients such as caffeine and botanical extracts to support fuller, thicker, healthier-looking hair growth from the roots.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://uppromote.com/affiliate-programs/hair-products/",
+    "summary": "UpPromote's hair-program guide (fetched) states Grow Gorgeous partners with the Awin network and pays up to 10% commission on referred purchases, with earnings on purchases made within about a month of the first click. Because 'up to 10%' is a ceiling and other directories report 7% and 5-10%, no single base rate is verified and commission_rate is recorded as null. No cap statement is published (cap unknown) and no creator-count figure is published (saturation unknown)."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "source_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Grow Gorgeous Affiliate Program (Awin)",
+   "application_url": "https://uppromote.com/affiliate-programs/hair-products/",
+   "source_url": "https://uppromote.com/affiliate-programs/hair-products/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Hair-growth serums and scalp care are high-engagement topics for haircare creators.",
+    "ugc_evidence": "A live Awin program with a personal tracking dashboard; no dedicated creator cohort details are published.",
+    "compensation": "Only a ceiling ('up to 10%') is published and other directories differ (7%, 5-10%), so the rate is null; no cap statement is published.",
+    "contact_access": "Applications run through Awin; no direct program email is published.",
+    "opportunity_availability": "Open Awin program with roughly a one-month cookie.",
+    "credibility": "Part of a major UK beauty retail group with international distribution."
+   }
+  }
+ }
+]
