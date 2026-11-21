@@ -64,6 +64,18 @@ export default function CoachPage() {
         <Link href="/creator-growth/human-emotion-video-playbook" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Open the Playbook &amp; the Lab →</Link>
       </section>
 
+      <section style={{ ...panel, textAlign: "center", border: "1px solid #e879f9", boxShadow: "0 0 44px rgba(217,70,239,0.4)" }}>
+        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "4px 14px", fontSize: 12.5, fontWeight: 700, letterSpacing: 2 }}>⭐ SIGNATURE EXPERIENCE</span>
+        <h2 style={{ fontSize: 26, margin: "12px 0 6px", fontWeight: 800 }}>The Art of Human Connection &amp; Conversion</h2>
+        <p style={{ ...sub, maxWidth: 640, margin: "0 auto 16px" }}>
+          UltraVestra&rsquo;s LIVE mastery philosophy: the 12 Pillars of Creator Mastery, the 60-second attention
+          and conversion cycle, the professional host checklist, and the Creator Code — with the Pillar
+          Self-Diagnostic, the LIVE Cycle Builder, and the Host Checklist as working tools.
+        </p>
+        <p style={{ color: "#f0abfc", fontWeight: 800, fontSize: 17, margin: "0 auto 16px" }}>Don&rsquo;t just go LIVE. Become the reason people stay.</p>
+        <Link href="/creator-growth/art-of-human-connection" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Enter the LIVE Mastery Experience →</Link>
+      </section>
+
       <VideoLab />
 
       <section style={panel}>
