@@ -129,7 +129,7 @@ export default async function AskPage({
 
   const platform =
     sp.platform ||
-    (text.includes("youtube") ? "YouTube" : text.includes("instagram") ? "Instagram" : text.includes("tiktok") || text.includes("tik tok") ? "TikTok" : "");
+    (text.includes("trybe") ? "Trybe" : text.includes("youtube") ? "YouTube" : text.includes("instagram") ? "Instagram" : text.includes("tiktok") || text.includes("tik tok") ? "TikTok" : "");
   let categorySlug = sp.category || "";
   if (!categorySlug) {
     for (const [kw, slug] of KEYWORD_CATEGORIES) {
@@ -262,6 +262,7 @@ ${platformLabel} creator — ${nicheLabel}`;
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
             <select name="platform" defaultValue={platform} style={{ padding: "11px 14px", borderRadius: 999 }}>
               <option value="">Any platform</option>
+              <option value="Trybe">Trybe</option>
               <option value="TikTok">TikTok</option>
               <option value="YouTube">YouTube</option>
               <option value="Instagram">Instagram</option>
