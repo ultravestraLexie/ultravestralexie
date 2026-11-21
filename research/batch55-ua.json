@@ -1,0 +1,681 @@
+[
+  {
+    "name": "beecee",
+    "website": "https://beecee.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Clean beauty and skincare brand founded by Gregg Renfrew, the founder of Beautycounter; its Rec Club creator program pays commission on tracked link sales through Superfiliate, with no follower minimum and an explicit no-limit answer on commissions in the brand's own FAQ.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "email": "support@beecee.com",
+        "contact_url": null,
+        "source_url": "https://beecee.com/pages/faq"
+      },
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://beeceerecclub.superfiliate.com",
+        "source_url": "https://beecee.com/pages/faq"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_cap",
+        "source_type": "official_site",
+        "source_url": "https://beecee.com/pages/faq",
+        "summary": "beecee's own FAQ answers the question 'Is there a limit on commissions or bonuses?' with 'No. There is no limit on the number of commissions or bonuses you can receive.' — an explicit no-cap statement on the brand's own page, so commission_cap is recorded as uncapped."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://beecee.com/pages/faq",
+        "summary": "The same FAQ describes the Rec Club: 25% commission on sales through a creator's link, 15% on subscription renewals from October 1, 2026, a $50 bonus for every 10th sale, a 90-day cookie, no follower minimum, applications via Superfiliate, and an explicit statement that the program is not an MLM. The support email support@beecee.com is published on the page."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://beecee.com/pages/faq",
+        "summary": "No absolute creator count is published on the pages checked; the brand is newly launched, but a launch date alone is not low-saturation evidence, so creator_saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Superfiliate",
+      "commission_rate": 25,
+      "application_url": "https://beeceerecclub.superfiliate.com",
+      "source_url": "https://beecee.com/pages/faq",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "beecee Rec Club Creator Program (Superfiliate)",
+      "application_url": "https://beeceerecclub.superfiliate.com",
+      "source_url": "https://beecee.com/pages/faq"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 16,
+      "compensation": 18,
+      "contact_access": 12,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Clean skincare and body care with simple, demo-friendly routines that suit short-form product content.",
+        "ugc_evidence": "A named creator program (Rec Club) built around link-based selling, bonuses and creator recruitment, with no follower minimum.",
+        "compensation": "25% on link sales plus 15% on subscription renewals and a $50 bonus per 10th sale, with an explicitly uncapped FAQ answer on the brand's own page.",
+        "contact_access": "A published support email and a direct Superfiliate application link, both from the brand's own FAQ.",
+        "opportunity_availability": "Open enrollment through Superfiliate with no follower minimum stated.",
+        "credibility": "Founded by Beautycounter's founder; a new brand, so its track record is still short."
+      }
+    }
+  },
+  {
+    "name": "Patchology",
+    "website": "https://www.patchology.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Skincare brand built on patch and mask formats (eye gels and face masks); its affiliate program pays 14% per sale and is listed on Impact in current network data.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://linkclicky.com/affiliate-program/patchology/",
+        "source_url": "https://linkclicky.com/affiliate-program/patchology/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+        "summary": "compareepc's live network data lists Patchology on Impact at 14% commission with a $3.65 EPC. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/patchology/",
+        "summary": "LinkClicky's older listing (March 2024) also gives 14% per sale with a 30-day cookie but places the program on ShareASale; the rate agrees across sources while the network has evidently migrated, so the current Impact listing is recorded and the older network noted here."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "creator_report",
+        "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+        "summary": "No absolute creator count is published on the pages checked, so creator saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 14,
+      "application_url": "https://linkclicky.com/affiliate-program/patchology/",
+      "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Patchology Affiliate Program (Impact)",
+      "application_url": "https://linkclicky.com/affiliate-program/patchology/",
+      "source_url": "https://compareepc.com/skincare-affiliate-programs/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Eye gels and sheet masks are visual, quick-result products that demo well in short videos.",
+        "ugc_evidence": "A long-running network affiliate program with live EPC data; no structured creator program page was found on the brand's own site.",
+        "compensation": "14% per sale, corroborated by two independent network sources.",
+        "contact_access": "Applications run through the network listing; no partnerships email is published on the pages checked.",
+        "opportunity_availability": "Program is live on Impact with performance data, indicating active participation.",
+        "credibility": "Established skincare brand sold through major beauty retailers."
+      }
+    }
+  },
+  {
+    "name": "Versed",
+    "website": "https://versedskin.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Clean, affordable skincare brand sold at major US retailers; it runs an influencer affiliate program open to creators of any size, with affiliate sign-up routed through Pepperjam.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://www.bravodm.com/brands/versed",
+        "source_url": "https://www.bravodm.com/brands/versed"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "creator_program",
+        "source_type": "creator_report",
+        "source_url": "https://www.bravodm.com/brands/versed",
+        "summary": "BravoDM (checked October 2026) describes Versed's program as an influencer affiliate program open to creators of any size — signup asks only for an email and a social account, applications run through the brand's own program page, and creators also link Versed products through LTK and ShopMy. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "commission_rate_conflict",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/versed-skin/",
+        "summary": "Rate claims conflict: Lasso lists 5% per sale with a 30-day cookie and its join link routes to Pepperjam (id.pepperjam.com), Shopper lists 6.98%, and another guide cited up to 15%. No figure is corroborated by the brand, so commission_rate is recorded as null and the network as Pepperjam."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "creator_report",
+        "source_url": "https://www.bravodm.com/brands/versed",
+        "summary": "The program is open to creators of any size, but no absolute creator count is published, so saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Pepperjam",
+      "commission_rate": null,
+      "application_url": "https://getlasso.co/affiliate/versed-skin/",
+      "source_url": "https://www.bravodm.com/brands/versed",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Versed Creator Program (Pepperjam)",
+      "application_url": "https://getlasso.co/affiliate/versed-skin/",
+      "source_url": "https://www.bravodm.com/brands/versed"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 14,
+      "compensation": 6,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Clean, affordable skincare staples with strong mass-market recognition — a proven social content category.",
+        "ugc_evidence": "A brand-run influencer affiliate program open to any creator size, plus LTK and ShopMy linking routes.",
+        "compensation": "Commission exists but published figures conflict (5% / 6.98% / up to 15%), so no rate is recorded and compensation scores low.",
+        "contact_access": "Applications run through the brand's own program page; no PR email is published on the pages checked.",
+        "opportunity_availability": "Open to creators of any size with a lightweight email-and-social signup.",
+        "credibility": "Major clean skincare brand with wide US retail distribution."
+      }
+    }
+  },
+  {
+    "name": "Wander Beauty",
+    "website": "https://www.wanderbeauty.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Multitasking makeup and skincare brand; its own affiliate page offers commission on every completed purchase, with sign-up routed to ShareASale (US only).",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://www.wanderbeauty.com/pages/affiliate",
+        "source_url": "https://www.wanderbeauty.com/pages/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program_page",
+        "source_type": "official_site",
+        "source_url": "https://www.wanderbeauty.com/pages/affiliate",
+        "summary": "Wander Beauty's own affiliate page states 'Earn 10% commission on every completed purchase' and 'Join an affiliate network exclusively available in the US'; its Join Now button links to account.shareasale.com, identifying ShareASale as the network. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "commission_rate_conflict",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/wander-beauty/",
+        "summary": "Lasso lists 15% per sale for the same program and Shopper lists 5-10%, conflicting with the 10% stated on the brand's own page; because sources conflict, commission_rate is recorded as null with the brand-page figure documented here."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "official_site",
+        "source_url": "https://www.wanderbeauty.com/pages/affiliate",
+        "summary": "No creator count is published on the brand's page, so saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": null,
+      "application_url": "https://www.wanderbeauty.com/pages/affiliate",
+      "source_url": "https://www.wanderbeauty.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Wander Beauty Affiliate Program (ShareASale)",
+      "application_url": "https://www.wanderbeauty.com/pages/affiliate",
+      "source_url": "https://www.wanderbeauty.com/pages/affiliate"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 8,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Multitasking makeup-skincare hybrids made for on-the-go routines — strong demo and GRWM content fit.",
+        "ugc_evidence": "A brand-published affiliate page with a direct network sign-up route aimed at creators and publishers.",
+        "compensation": "The brand's own page states 10%, but third-party figures conflict (15% / 5-10%), so no rate is recorded.",
+        "contact_access": "Applications run through the brand's own affiliate page into ShareASale; no partnerships email is published there.",
+        "opportunity_availability": "Open online registration in three steps, US network only.",
+        "credibility": "Established beauty brand with national retail history."
+      }
+    }
+  },
+  {
+    "name": "Youth To The People",
+    "website": "https://www.youthtothepeople.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Superfood-ingredient skincare brand; the creator route published on its own site is 'YTTP Affiliate Partners' on Impact, and the brand publishes no PR email.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://usesnippet.app/pr-emails/youth-to-the-people",
+        "source_url": "https://usesnippet.app/pr-emails/youth-to-the-people"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "creator_program",
+        "source_type": "creator_report",
+        "source_url": "https://usesnippet.app/pr-emails/youth-to-the-people",
+        "summary": "Snippet's check of youthtothepeople.com (November 12, 2026) records the brand's own published creator route as 'YTTP Affiliate Partners' on Impact, with no follower requirement stated and no PR email published. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "commission_rate_conflict",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/youth-to-the-people/",
+        "summary": "Rate and legacy network claims conflict: LinkClicky (March 2024) lists 7% per sale on CJ Affiliate, while Lasso lists up to 5.25%. The brand's current published route is Impact and no rate is corroborated, so commission_rate is recorded as null."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "creator_report",
+        "source_url": "https://usesnippet.app/pr-emails/youth-to-the-people",
+        "summary": "No absolute creator count is published on the pages checked, so saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://usesnippet.app/pr-emails/youth-to-the-people",
+      "source_url": "https://usesnippet.app/pr-emails/youth-to-the-people",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "YTTP Affiliate Partners (Impact)",
+      "application_url": "https://usesnippet.app/pr-emails/youth-to-the-people",
+      "source_url": "https://usesnippet.app/pr-emails/youth-to-the-people"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 6,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Superfood cleansers and treatments are established, highly searchable skincare content subjects.",
+        "ugc_evidence": "A named affiliate partner program published on the brand's own site as its creator route.",
+        "compensation": "Published rates conflict (7% on a legacy CJ listing vs up to 5.25%), so no rate is recorded.",
+        "contact_access": "The program is the published route in; the brand publishes no PR or partnerships email.",
+        "opportunity_availability": "Applications run through Impact with no follower requirement stated on the brand's pages.",
+        "credibility": "Prestige skincare brand with national Sephora distribution."
+      }
+    }
+  },
+  {
+    "name": "The INKEY List",
+    "website": "https://www.theinkeylist.com",
+    "country": "United Kingdom",
+    "category_slug": "skincare",
+    "description": "Ingredient-led, affordable skincare brand; its affiliate program runs on Impact, while its separate INKEY Collective community route is perks-only and pays no commission.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://linkclicky.com/affiliate-program/the-inkey-list/",
+        "source_url": "https://linkclicky.com/affiliate-program/the-inkey-list/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/the-inkey-list/",
+        "summary": "LinkClicky lists The INKEY List's affiliate program on Impact at 1%-5% per sale. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "commission_rate_conflict",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/the-inkey-list/",
+        "summary": "Lasso lists up to 7.5% for the same program, conflicting with LinkClicky's 1%-5% range, so commission_rate is recorded as null. Separately, the brand's own Collective page states that route pays no commission ('No commission. No affiliate sales tracking') — perks only — so the Impact affiliate program is the qualifying route recorded here."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/the-inkey-list/",
+        "summary": "No absolute creator count is published on the pages checked, so saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://linkclicky.com/affiliate-program/the-inkey-list/",
+      "source_url": "https://linkclicky.com/affiliate-program/the-inkey-list/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "The INKEY List Affiliate Program (Impact)",
+      "application_url": "https://linkclicky.com/affiliate-program/the-inkey-list/",
+      "source_url": "https://linkclicky.com/affiliate-program/the-inkey-list/"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 6,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Ingredient-first, budget skincare with strong education-led content demand (routines, layering, actives).",
+        "ugc_evidence": "A network affiliate program on Impact plus a large creator community around the brand's education content.",
+        "compensation": "Published figures conflict (1%-5% vs up to 7.5%) and sit at the low end, so no rate is recorded.",
+        "contact_access": "Applications run through the Impact listing; no partnerships email is published on the pages checked.",
+        "opportunity_availability": "Program is listed and joinable on Impact.",
+        "credibility": "Global skincare brand with wide retail distribution in the UK, US and beyond."
+      }
+    }
+  },
+  {
+    "name": "LOUM Beauty",
+    "website": "https://loumbeauty.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Vegan, cruelty-free skincare brand focused on stress-relief beauty; its affiliate program on Impact pays 10% per sale.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://linkclicky.com/affiliate-program/loum-beauty/",
+        "source_url": "https://linkclicky.com/affiliate-program/loum-beauty/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/loum-beauty/",
+        "summary": "LinkClicky lists LOUM Beauty's affiliate program on Impact at 10% per sale. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/loum-beauty/",
+        "summary": "Lasso independently lists the same program at 10% per sale with a 14-day cookie, corroborating the rate."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/loum-beauty/",
+        "summary": "No absolute creator count is published on the pages checked, so saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 10,
+      "application_url": "https://linkclicky.com/affiliate-program/loum-beauty/",
+      "source_url": "https://linkclicky.com/affiliate-program/loum-beauty/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "LOUM Beauty Affiliate Program (Impact)",
+      "application_url": "https://linkclicky.com/affiliate-program/loum-beauty/",
+      "source_url": "https://linkclicky.com/affiliate-program/loum-beauty/"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 11,
+      "compensation": 12,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Stress-relief, vegan skincare — a clear clean-beauty niche with routine-based content angles.",
+        "ugc_evidence": "A network affiliate program listed by two independent directories; no brand-run creator program page was found.",
+        "compensation": "10% per sale, corroborated by two independent sources.",
+        "contact_access": "Applications run through the Impact listing; no partnerships email is published on the pages checked.",
+        "opportunity_availability": "Program is listed and joinable on Impact.",
+        "credibility": "Smaller indie brand; less public track record than the larger names in this batch."
+      }
+    }
+  },
+  {
+    "name": "Laura Geller Beauty",
+    "website": "https://www.laurageller.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "Makeup brand known for baked formulas and makeup for mature skin (Spackle primer, Baked Balance-n-Brighten foundation); it runs a TikTok Shop affiliate program for approved creators alongside a tracked affiliate program listed at 10%.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://getlasso.co/affiliate/laura-geller/",
+        "source_url": "https://getlasso.co/affiliate/laura-geller/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "tiktok_shop_data",
+        "source_url": "https://whopaysinfluencers.com/brands/affiliate-programs/",
+        "summary": "A 2026 roundup of brand affiliate programs lists a 'Laura Geller TikTok Shop Affiliate Program': open to approved TikTok Shop creators, with commission tiers reviewed monthly on sales generated and rates that can change month to month — so no fixed rate is recorded for that route. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/laura-geller/",
+        "summary": "Lasso lists a Laura Geller affiliate program at 10% per sale with a 30-day cookie but does not name its network; because the named TikTok Shop route publishes no fixed rate, commission_rate is recorded as null."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/laura-geller/",
+        "summary": "No absolute creator count is published on the pages checked, so saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "TikTok Shop",
+      "commission_rate": null,
+      "application_url": "https://getlasso.co/affiliate/laura-geller/",
+      "source_url": "https://whopaysinfluencers.com/brands/affiliate-programs/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Laura Geller TikTok Shop Affiliate Program",
+      "application_url": "https://getlasso.co/affiliate/laura-geller/",
+      "source_url": "https://whopaysinfluencers.com/brands/affiliate-programs/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 8,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Baked makeup for mature skin is a strong, underserved demo niche on TikTok Shop.",
+        "ugc_evidence": "A TikTok Shop affiliate program for approved creators plus a tracked affiliate listing and visible ambassador recruitment on social.",
+        "compensation": "A 10% figure is listed for the tracked program, but the named TikTok Shop route uses monthly-reviewed tiers with no published rate, so no rate is recorded.",
+        "contact_access": "Applications run through TikTok Shop and the affiliate listing; no partnerships email is published on the pages checked.",
+        "opportunity_availability": "Open to approved TikTok Shop creators; tier terms are reviewed monthly.",
+        "credibility": "Long-established makeup brand with national retail and TV-shopping history."
+      }
+    }
+  },
+  {
+    "name": "YSE Beauty",
+    "website": "https://www.ysebeauty.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "Premium skincare brand focused on brightening and resurfacing products; its affiliate program on Impact pays 10% per sale.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://linkclicky.com/affiliate-program/yse-beauty/",
+        "source_url": "https://linkclicky.com/affiliate-program/yse-beauty/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/yse-beauty/",
+        "summary": "LinkClicky lists YSE Beauty's affiliate program on Impact at 10% per sale, open to all regions. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/yse-beauty/",
+        "summary": "No absolute creator count is published on the pages checked, so saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 10,
+      "application_url": "https://linkclicky.com/affiliate-program/yse-beauty/",
+      "source_url": "https://linkclicky.com/affiliate-program/yse-beauty/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "YSE Beauty Affiliate Program (Impact)",
+      "application_url": "https://linkclicky.com/affiliate-program/yse-beauty/",
+      "source_url": "https://linkclicky.com/affiliate-program/yse-beauty/"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 11,
+      "compensation": 12,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Brightening and resurfacing skincare aimed at adult skin concerns — clear before/after content angles.",
+        "ugc_evidence": "A network affiliate program on Impact; no brand-run creator program page was found.",
+        "compensation": "10% per sale from the network listing; single-source, so scored conservatively.",
+        "contact_access": "Applications run through the Impact listing; no partnerships email is published on the pages checked.",
+        "opportunity_availability": "Program is listed and joinable on Impact, all regions.",
+        "credibility": "Premium DTC skincare brand with celebrity-founder profile and retail presence."
+      }
+    }
+  },
+  {
+    "name": "Savor Beauty",
+    "website": "https://savorbeauty.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "New York organic skincare brand founded by Angela Jia Kim, handmade in small batches; its affiliate program runs on Impact.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://linkclicky.com/affiliate-program/savor-beauty/",
+        "source_url": "https://linkclicky.com/affiliate-program/savor-beauty/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/savor-beauty/",
+        "summary": "LinkClicky lists Savor Beauty's affiliate program on Impact at 20% per sale. No cap on earnings is stated, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "commission_rate_conflict",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/savor-beauty-inc/",
+        "summary": "Lasso lists 10% per sale for the same program, conflicting with LinkClicky's 20%, so commission_rate is recorded as null; the Impact network is consistent across sources."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "creator_saturation",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/savor-beauty/",
+        "summary": "No absolute creator count is published on the pages checked, so saturation is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://linkclicky.com/affiliate-program/savor-beauty/",
+      "source_url": "https://linkclicky.com/affiliate-program/savor-beauty/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Savor Beauty Affiliate Program (Impact)",
+      "application_url": "https://linkclicky.com/affiliate-program/savor-beauty/",
+      "source_url": "https://linkclicky.com/affiliate-program/savor-beauty/"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 10,
+      "compensation": 6,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Organic, small-batch skincare with a spa heritage — fits clean-beauty and ritual content.",
+        "ugc_evidence": "A network affiliate program on Impact; no brand-run creator program page was found.",
+        "compensation": "Published figures conflict (20% vs 10%), so no rate is recorded.",
+        "contact_access": "Applications run through the Impact listing; no partnerships email is published on the pages checked.",
+        "opportunity_availability": "Program is listed on Impact.",
+        "credibility": "Established NYC indie brand with its own spa footprint."
+      }
+    }
+  }
+]

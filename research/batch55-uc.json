@@ -1,0 +1,601 @@
+[
+  {
+    "name": "Vitauthority",
+    "website": "https://vitauthority.com",
+    "country": "US",
+    "category_slug": "wellness",
+    "description": "Supplement brand selling vitamins, collagen, protein powders and other health products for everyday wellness routines.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/vitauthority/",
+        "summary": "Lasso lists the Vitauthority affiliate program at 15% per sale with a 14-day cookie; the join link routes to ShareASale."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 15,
+      "application_url": "https://www.shareasale.com",
+      "source_url": "https://getlasso.co/affiliate/vitauthority/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Open ShareASale program at a mid-teens rate across a broad supplement catalog.",
+      "audience_fit": "Wellness, weight-management and everyday-supplement audiences.",
+      "content_angles": [
+        "Collagen and vitamin routine reviews",
+        "Before/after wellness routine content",
+        "Supplement stack comparisons"
+      ],
+      "risks": [
+        "14-day cookie is short",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 15,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Broad supplement catalog fits general wellness content.",
+        "ugc_evidence": "Active affiliate recruitment through a major network, but no creator program page was captured.",
+        "compensation": "15% per sale is a solid mid-range supplement rate.",
+        "contact_access": "No public partnerships email was captured; contact runs through ShareASale.",
+        "opportunity_availability": "Open network application.",
+        "credibility": "Established DTC supplement brand; terms come from a directory listing rather than a brand page."
+      }
+    }
+  },
+  {
+    "name": "BioTrust",
+    "website": "https://biotrust.com",
+    "country": "US",
+    "category_slug": "wellness",
+    "description": "Premium natural nutrition brand founded by Joel Marion and Josh Bezoni, selling protein powders, collagen, probiotics and other supplements.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/biotrust/",
+        "summary": "LinkClicky (listing updated March 10, 2024) lists BioTrust on CJ Affiliate at 12% commission per sale ($0-$18 per sale), US region, with joining through CJ."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": 12,
+      "application_url": "https://signup.cj.com",
+      "source_url": "https://linkclicky.com/affiliate-program/biotrust/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Established nutrition brand running its affiliate program through CJ at 12%.",
+      "audience_fit": "Protein, collagen and gut-health audiences.",
+      "content_angles": [
+        "Protein powder taste tests",
+        "Collagen routine content",
+        "Probiotic explainers"
+      ],
+      "risks": [
+        "Directory listing last updated March 2024; confirm live terms inside CJ before promoting",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 14,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Core supplement categories map cleanly to wellness content.",
+        "ugc_evidence": "Long-running network program; no creator-specific page captured.",
+        "compensation": "12% per sale via CJ is mid-range for supplements.",
+        "contact_access": "No public partnerships email captured; contact runs through CJ.",
+        "opportunity_availability": "Open CJ publisher application.",
+        "credibility": "Well-known premium nutrition brand founded by named founders."
+      }
+    }
+  },
+  {
+    "name": "InsideTracker",
+    "website": "https://insidetracker.com",
+    "country": "US",
+    "category_slug": "health",
+    "description": "Blood biomarker analysis platform that turns blood test results into personalized nutrition, fitness and lifestyle recommendations, used by athletes and longevity-focused consumers.",
+    "contacts": [
+      {
+        "type": "email",
+        "value": "sales@insidetracker.com",
+        "contact_type": "general",
+        "source_url": "https://info.insidetracker.com/npti"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_official",
+        "source_url": "https://store.insidetracker.com/pages/ambassador",
+        "summary": "InsideTracker's own Collabs page invites health, wellness and fitness partners and lists affiliate marketing, discount codes, content creation and usage rights as partnership opportunities."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/insidetracker-preferred/",
+        "summary": "Lasso lists the InsideTracker Preferred affiliate program at 8% per sale."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.afflemi.com/affiliate-programs/health-fitness",
+        "summary": "Afflemi lists InsideTracker at around 8% per sale through Awin (also in-house), with manual review via Awin approval."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 8,
+      "application_url": "https://store.insidetracker.com/pages/ambassador",
+      "source_url": "https://getlasso.co/affiliate/insidetracker-preferred/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Science-led biomarker platform with an Awin affiliate route at 8% plus a brand-run collabs program.",
+      "audience_fit": "Longevity, biohacking, endurance and performance audiences.",
+      "content_angles": [
+        "My biomarker results walkthroughs",
+        "Training and recovery optimization content",
+        "Longevity routine breakdowns"
+      ],
+      "risks": [
+        "High product price point can slow conversion",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 10,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Biomarker testing is a strong fit for health-optimization creators.",
+        "ugc_evidence": "Brand-run ambassador/collabs page plus a network program.",
+        "compensation": "8% per sale is modest, partly offset by high order values.",
+        "contact_access": "Published sales email and a dedicated collabs page.",
+        "opportunity_availability": "Open Awin application with manual review plus direct collabs route.",
+        "credibility": "Established, science-positioned health platform."
+      }
+    }
+  },
+  {
+    "name": "Biostrap",
+    "website": "https://biostrap.com",
+    "country": "US",
+    "category_slug": "health",
+    "description": "Wearable health platform tracking sleep, recovery, heart rate variability and activity, sold with a subscription analytics app.",
+    "contacts": [
+      {
+        "type": "email",
+        "value": "support@biostrap.com",
+        "contact_type": "general",
+        "source_url": "https://biostrap.com/affiliates/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_official",
+        "source_url": "https://biostrap.com/affiliates/",
+        "summary": "Biostrap's own affiliates page (page metadata last updated 2022-03-08) describes a Tapfiliate-run program applied for at affiliates.biostrap.com: option 1 gives customers a unique 10%-off code and pays the affiliate 10% commission after each sale; approval requires completing Biostrap Academy courses; payouts are monthly via PayPal once the commission balance reaches $101."
+      }
+    ],
+    "affiliate": {
+      "network": "Tapfiliate",
+      "commission_rate": 10,
+      "application_url": "https://affiliates.biostrap.com",
+      "source_url": "https://biostrap.com/affiliates/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Brand-direct wearable affiliate program paying 10% on code-driven sales, tracked on Tapfiliate.",
+      "audience_fit": "Sleep, recovery, HRV and quantified-self audiences.",
+      "content_angles": [
+        "Sleep tracker comparison content",
+        "Recovery data diaries",
+        "HRV explainer videos"
+      ],
+      "risks": [
+        "Program page metadata was last updated in March 2022, so confirm the program is still active before creating content",
+        "Approval requires completing Biostrap Academy courses",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 11,
+      "compensation": 12,
+      "contact_access": 12,
+      "opportunity_availability": 7,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Sleep and recovery wearables fit health-tech creators well.",
+        "ugc_evidence": "Detailed brand-run affiliate page with a structured onboarding path.",
+        "compensation": "10% commission on a premium wearable is reasonable.",
+        "contact_access": "Published affiliate support email on the program page.",
+        "opportunity_availability": "Open application, but gated by required Academy coursework.",
+        "credibility": "Program page appears stale (2022 update metadata), which lowers confidence."
+      }
+    }
+  },
+  {
+    "name": "VIM & VIGR",
+    "website": "https://vimvigr.com",
+    "country": "US",
+    "category_slug": "health",
+    "description": "Compression legwear brand selling stylish compression socks for travel, work, sport and everyday leg health.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_official",
+        "source_url": "https://vimvigr.com/pages/affiliate",
+        "summary": "VIM & VIGR's own affiliate page states bloggers join through ShareASale (Merchant ID 72414) and earn 15% commission on every sale their site drives, paid through ShareASale; influencers are routed to its Aspire creator program."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 15,
+      "application_url": "https://account.shareasale.com",
+      "source_url": "https://vimvigr.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Niche compression-legwear brand paying 15% via ShareASale, with a separate Aspire route for social creators.",
+      "audience_fit": "Travel, nursing/healthcare, running and standing-all-day audiences.",
+      "content_angles": [
+        "Long-flight essentials content",
+        "Nurse and shift-worker gear reviews",
+        "Recovery sock comparisons"
+      ],
+      "risks": [
+        "Narrow product category limits content range",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 21,
+      "ugc_evidence": 11,
+      "compensation": 15,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Compression legwear is a focused health niche with clear use cases.",
+        "ugc_evidence": "Own page runs both an affiliate route and an Aspire influencer route.",
+        "compensation": "15% of the total order amount is a healthy rate for apparel-adjacent health products.",
+        "contact_access": "Clear application routing on the brand's own page, though no email was published there.",
+        "opportunity_availability": "Open ShareASale application with brand review.",
+        "credibility": "Established specialty brand with first-party program terms."
+      }
+    }
+  },
+  {
+    "name": "Focus Factor",
+    "website": "https://focusfactor.com",
+    "country": "US",
+    "category_slug": "wellness",
+    "description": "Long-running brain-health supplement brand selling its Focus Factor nootropic formula for memory, concentration and focus.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/focus-factor/",
+        "summary": "Lasso lists the Focus Factor affiliate program at 5%-20% per sale with a 30-day cookie; the join link routes to CJ Affiliate signup (signup.cj.com)."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": "5-20%",
+      "application_url": "https://signup.cj.com",
+      "source_url": "https://getlasso.co/affiliate/focus-factor/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Legacy nootropic brand on CJ with a wide 5%-20% rate band depending on placement or volume.",
+      "audience_fit": "Study, productivity, gaming and cognitive-performance audiences.",
+      "content_angles": [
+        "Focus routine and study-with-me content",
+        "Nootropic comparison reviews",
+        "Work-from-home productivity stacks"
+      ],
+      "risks": [
+        "Actual rate inside the 5%-20% band is only visible after joining CJ",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 13,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Cognitive supplements fit productivity and study niches.",
+        "ugc_evidence": "Network-listed program; no creator page captured.",
+        "compensation": "Top of the 5%-20% band is attractive, but the entry rate is unverified.",
+        "contact_access": "No public partnerships email captured; contact runs through CJ.",
+        "opportunity_availability": "Open CJ publisher application.",
+        "credibility": "One of the longest-running brain supplement brands in the US."
+      }
+    }
+  },
+  {
+    "name": "Physician's Choice",
+    "website": "https://physicianschoice.com",
+    "country": "US",
+    "category_slug": "wellness",
+    "description": "Gut-health supplement brand selling probiotics and related digestive formulas, reporting more than 6 million units sold.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/physicians-choice/",
+        "summary": "Lasso lists the Physician's Choice affiliate program at 25% per sale with a 90-day cookie."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://offers.maxfunnels.com/offer/physicians-choice-affiliate-program/",
+        "summary": "Maxfunnels' dedicated program page reports 25% per sale (product-specific), a 90-day cookie, a $100 minimum payout and the Refersion network, with applications reviewed manually on the brand's website. Rate conflict: an older Maxfunnels roundup cites 20% with a two-month cookie, and a FlexOffers listing (marked deactivated, January 2025) cited 8% with a 30-day cookie, so the rate is recorded as null until confirmed inside Refersion."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion",
+      "commission_rate": null,
+      "application_url": "https://physicianschoice.com",
+      "source_url": "https://getlasso.co/affiliate/physicians-choice/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Popular probiotic brand on Refersion; two dedicated listings report 25% but older and deactivated listings conflict, so the rate needs in-network confirmation.",
+      "audience_fit": "Gut health, bloating and digestive wellness audiences.",
+      "content_angles": [
+        "Probiotic routine reviews",
+        "Gut-health myth-busting content",
+        "Bloating remedy comparisons"
+      ],
+      "risks": [
+        "Published rates conflict (25% vs 20% vs a deactivated 8% listing); confirm the live rate inside Refersion before promoting",
+        "Manual application review",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Probiotics are a core wellness-creator category.",
+        "ugc_evidence": "Multiple affiliate directories track an active program.",
+        "compensation": "Headline 25% is strong but unverified against conflicting listings, so it is scored conservatively and recorded as null.",
+        "contact_access": "No public partnerships email captured; applications run through the brand site.",
+        "opportunity_availability": "Application with manual review.",
+        "credibility": "Large, well-known gut-health brand; rate documentation is inconsistent across sources."
+      }
+    }
+  },
+  {
+    "name": "MTN OPS",
+    "website": "https://mtnops.com",
+    "country": "US",
+    "category_slug": "wellness",
+    "description": "Outdoor performance nutrition brand selling supplements for hunters, anglers, hikers and backcountry athletes.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/mtn-ops/",
+        "summary": "Lasso lists the MTN OPS affiliate program at 8% per sale with a 30-day cookie; the join link routes to FlexOffers (publisherpro.flexoffers.com)."
+      }
+    ],
+    "affiliate": {
+      "network": "FlexOffers",
+      "commission_rate": 8,
+      "application_url": "https://publisherpro.flexoffers.com",
+      "source_url": "https://getlasso.co/affiliate/mtn-ops/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Outdoor-niche supplement brand paying 8% through FlexOffers.",
+      "audience_fit": "Hunting, fishing, hiking and backcountry fitness audiences.",
+      "content_angles": [
+        "Backcountry nutrition kit videos",
+        "Hunt-camp meal and supplement routines",
+        "Trail performance reviews"
+      ],
+      "risks": [
+        "8% is a low rate for supplements",
+        "Niche audience is narrower than general fitness",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Strong fit for outdoor and hunting creators, narrower for general wellness.",
+        "ugc_evidence": "Network-listed program; no creator page captured.",
+        "compensation": "8% per sale is below the supplement norm.",
+        "contact_access": "No public partnerships email captured; contact runs through FlexOffers.",
+        "opportunity_availability": "Open FlexOffers application.",
+        "credibility": "Recognized brand in the outdoor industry."
+      }
+    }
+  },
+  {
+    "name": "1MD Nutrition",
+    "website": "https://1md.org",
+    "country": "US",
+    "category_slug": "wellness",
+    "description": "Physician-formulated supplement brand (sold as 1MD) covering gut health, heart health, immunity and joint support.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/1md/",
+        "summary": "Lasso lists the 1MD affiliate program at 5% to 10% per sale; the join link routes to ShareASale."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": "5-10%",
+      "application_url": "https://www.shareasale.com",
+      "source_url": "https://getlasso.co/affiliate/1md/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Doctor-formulated supplement line on ShareASale with a 5%-10% rate band.",
+      "audience_fit": "Gut health, heart health and healthy-aging audiences.",
+      "content_angles": [
+        "Doctor-formulated supplement explainers",
+        "Gut-health routine content",
+        "Supplement ingredient breakdowns"
+      ],
+      "risks": [
+        "Rate band is modest and the exact tier structure is not published in the listing",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 9,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Broad supplement range fits general wellness content.",
+        "ugc_evidence": "Network-listed program; no creator page captured.",
+        "compensation": "5%-10% is at the low end for supplements.",
+        "contact_access": "No public partnerships email captured; contact runs through ShareASale.",
+        "opportunity_availability": "Open ShareASale application.",
+        "credibility": "Established physician-branded supplement company."
+      }
+    }
+  },
+  {
+    "name": "Wai Lana",
+    "website": "https://www.wailana.com",
+    "country": "US",
+    "category_slug": "wellness",
+    "description": "Yoga and wellness brand from Hawaii selling yoga media and gear alongside packaged superfood snacks, chips and supplements.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/wai-lana/",
+        "summary": "Lasso lists the Wai Lana affiliate program at 15% per sale with a long 120-day cookie; the join link routes to the brand's own site, wailana.com."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 15,
+      "application_url": "https://www.wailana.com",
+      "source_url": "https://getlasso.co/affiliate/wai-lana/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "status": "unverified",
+      "summary": "Long-running yoga-wellness brand paying 15% with an unusually long 120-day cookie through its own program.",
+      "audience_fit": "Yoga, vegan and mindful-living audiences.",
+      "content_angles": [
+        "Yoga snack and pantry content",
+        "At-home yoga routine videos",
+        "Vegan snack reviews"
+      ],
+      "risks": [
+        "Smaller brand with a narrower product range",
+        "Program details come from a directory listing rather than a captured brand page",
+        "No published earnings cap found, so the cap is recorded as unknown"
+      ]
+    },
+    "score": {
+      "niche_fit": 20,
+      "ugc_evidence": 10,
+      "compensation": 15,
+      "contact_access": 5,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Yoga-plus-food niche is specific but coherent for wellness creators.",
+        "ugc_evidence": "Directory-listed program only; no creator page captured.",
+        "compensation": "15% per sale plus a 120-day cookie is generous.",
+        "contact_access": "No public partnerships email captured.",
+        "opportunity_availability": "Open application through the brand's site.",
+        "credibility": "Decades-old yoga brand with a real product line."
+      }
+    }
+  }
+]

@@ -1,0 +1,703 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://mistlebanon.com/become-our-partner/",
+   "commission_cap": "uncapped",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://mistlebanon.com/become-our-partner/"
+  },
+  "category_slug": "fashion",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://mistlebanon.com/become-our-partner/",
+    "email": null,
+    "source_url": "https://mistlebanon.com/become-our-partner/"
+   }
+  ],
+  "country": "Lebanon",
+  "description": "Lebanese direct-to-consumer handbag brand selling women's bags through its own website and app, running a direct ambassador program that pays creators a percentage of every delivered order their personal code brings in.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://mistlebanon.com/become-our-partner/",
+    "summary": "Mist's own ambassador page states the program terms: 10% commission on every delivered order placed with the ambassador's personal code, a 10% follower discount, free first bags, 50% off showcase bags, a 6-month term, and monthly payouts by the 10th via Whish Money, OMT or bank transfer."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://mistlebanon.com/become-our-partner/",
+    "summary": "The brand's own program page states 'No cap on earnings' in its headline terms and repeats 'No cap' in the commission section ('Your commission — On every delivered order your code brings in. No cap.'), so commission_cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://mistlebanon.com/become-our-partner/",
+    "summary": "The page is built for content creators: ambassadors post Mist bags on their own terms with no minimum posting, sales are tracked live in the Mist app, and Mist may reshare ambassador content with credit during the term."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://mistlebanon.com/become-our-partner/",
+    "summary": "Program terms state Lebanese law applies and Beirut courts decide disputes, and payouts are made in US dollars — a small, Lebanon-based brand running the program directly rather than through a network."
+   }
+  ],
+  "name": "Mist Lebanon",
+  "opportunity": {
+   "application_url": "https://mistlebanon.com/become-our-partner/",
+   "source_url": "https://mistlebanon.com/become-our-partner/",
+   "title": "Mist Ambassador Program"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 10,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% commission on the brand's own page with an explicit no-cap statement, plus free product and 50% off showcase bags — strong, fully published terms for a small brand.",
+    "contact_access": "A public application form on the brand's own program page; no email is published, so contact stays mid-range.",
+    "credibility": "Small Lebanon-based DTC bag brand with its own store and app; limited third-party footprint, so credibility is scored conservatively.",
+    "niche_fit": "Women's handbags are a core fashion-accessory UGC niche, and the program is designed around creator codes and social posting.",
+    "opportunity_availability": "Applications are publicly open on the brand's site and reviewed individually; no follower minimum is stated.",
+    "ugc_evidence": "A formal ambassador program with free product, live in-app sales tracking and brand resharing of ambassador content — clear, structured creator collaboration."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://mistlebanon.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://shopakira.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://shopakira.com/pages/affiliate-program"
+  },
+  "category_slug": "fashion",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://shopakira.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://shopakira.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Chicago-based women's fashion retailer founded in 2002, selling trend-led apparel, shoes and accessories online and through 35+ stores across the US, with an affiliate and influencer program promoted on its own site.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://shopakira.com/pages/affiliate-program",
+    "summary": "AKIRA's own affiliate page invites influencers to join its team, feature banners and text links, and monetize their influence; the page describes the brand as founded in 2002 with 35+ retail locations and a size-inclusive range of apparel, shoes and accessories."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/akira-affiliate-program/",
+    "summary": "Post Affiliate Pro's program directory lists the AKIRA affiliate program as managed on CJ Affiliate in the USA at a 5% percentage commission, paid monthly via PayPal with no minimum payout."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://shopakira.gorgias.help/en-US/where-can-i-sign-up-to-be-a-brand-ambassador-for-akira-1081956",
+    "summary": "AKIRA's own help center answers the brand-ambassador question by directing creators to its affiliate program page and inviting them to DM its Instagram with a portfolio and tag @shopAKIRA."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://shopakira.com/pages/affiliate-program",
+    "summary": "No fetched page states an earnings cap or unlimited earnings for this program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "name": "AKIRA",
+  "opportunity": {
+   "application_url": "https://shopakira.com/pages/affiliate-program",
+   "source_url": "https://shopakira.com/pages/affiliate-program",
+   "title": "AKIRA Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 11,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 5% commission via CJ per the program directory — real, joinable terms, but at the modest end for fashion.",
+    "contact_access": "A public affiliate page on the brand's own site plus a help-center route telling creators exactly how to pitch as ambassadors.",
+    "credibility": "Established 2002 Chicago retailer with 35+ stores and celebrity placements named on its own site (Gwen Stefani, Carrie Underwood, Hilary Duff).",
+    "niche_fit": "Trend-led women's apparel, shoes and accessories with an explicit influencer focus — squarely in the fashion UGC niche.",
+    "opportunity_availability": "The program is publicly promoted on the brand's site and joined through CJ; no follower minimum is published.",
+    "ugc_evidence": "The brand's own pages actively recruit influencers and ambassadors and describe tailored collaborations, though there is no published UGC rate card."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://shopakira.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://getlasso.co/affiliate/into-the-am/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": "United States",
+  "description": "US apparel brand founded in 2012 selling graphic tees, hoodies, basics and accessories with bold, pop-culture-inspired designs through its own online store, with an affiliate program listed at 10% per sale.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/into-the-am/",
+    "summary": "Lasso's affiliate directory lists the INTO THE AM program at 10% commission per sale with a 30-day cookie and a $50 payout threshold, pitched at fashion bloggers and social media influencers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/niche/t-shirt/",
+    "summary": "Lasso's t-shirt affiliate guide (updated November 17, 2026) lists Into The AM at 10% per sale, 30-day cookie, $50 threshold, on the ShareASale network."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.shopday.com/into-the-am",
+    "summary": "Shopday describes INTO THE AM as an apparel brand founded in 2012 known for graphic designs and everyday basics — tees, hoodies, bottoms and accessories — with YouTube, Instagram, TikTok, Facebook and X among its allowed affiliate channels."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/into-the-am/",
+    "summary": "No fetched page states an earnings cap or unlimited earnings for this program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "name": "Into The AM",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/niche/t-shirt/",
+   "title": "INTO THE AM Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% per sale with a 30-day cookie and $50 threshold — solid mid-range fashion terms.",
+    "contact_access": "Joining runs through the network listing; no direct brand contact or application page was found on fetched pages.",
+    "credibility": "Operating since 2012 as a direct-to-consumer apparel brand with a long-running affiliate presence.",
+    "niche_fit": "Graphic streetwear and basics are a staple of fashion creator content, and social channels are explicitly allowed affiliate channels.",
+    "opportunity_availability": "Open application through the affiliate network; no follower minimum is published.",
+    "ugc_evidence": "The program is marketed to bloggers and influencers per Lasso, but no formal ambassador or UGC program was found on fetched pages."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.intotheam.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/red-dress-boutique-affiliate-program/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": "United States",
+  "description": "US online women's fashion boutique (reddress.com) selling trendy dresses, clothing, shoes and accessories with frequent new arrivals, running a single-tier affiliate program managed on CJ Affiliate.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/red-dress-boutique-affiliate-program/",
+    "summary": "Post Affiliate Pro's directory lists the Red Dress Boutique affiliate program as a single-tier CPS program managed on CJ Affiliate in the USA, paid monthly via PayPal with no minimum payout."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/red-dress-boutique/",
+    "summary": "Published rates conflict: Lasso and UpPromote list 8% per sale with a 45-day cookie, while Post Affiliate Pro's directory and Shopper list 5%. Because the sources conflict, commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.retailmenot.com/view/reddress.com",
+    "summary": "RetailMeNot describes Red Dress as a US women's apparel brand selling stylish, affordable clothing, beachwear, shoes and accessories, with a free Red Dress Loyalty Club."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/red-dress-boutique-affiliate-program/",
+    "summary": "No fetched page states an earnings cap or unlimited earnings for this program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "name": "Red Dress Boutique",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/red-dress-boutique-affiliate-program/",
+   "title": "Red Dress Boutique Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "An affiliate program with published rates exists, but the two published figures (5% and 8%) conflict, so no rate is recorded and compensation scores below the verified-rate band.",
+    "contact_access": "Joining runs through the CJ network listing; no direct brand application page or email was found on fetched pages.",
+    "credibility": "Long-running US online women's boutique with a loyalty program and consistent affiliate-directory presence.",
+    "niche_fit": "Trendy women's boutique fashion — dresses, shoes and accessories — is a core fashion UGC niche.",
+    "opportunity_availability": "Open application through the affiliate network; no follower minimum is published.",
+    "ugc_evidence": "A standing affiliate program exists, but no formal ambassador or UGC program was found on fetched pages."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.reddress.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://www.awin.com/us/news-and-events/interviews/advertiser-interview-missguided"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": "United Kingdom",
+  "description": "UK fast-fashion brand selling trend-led women's clothing, shoes and accessories online, with an affiliate program that runs on Awin and an influencer route documented by affiliate trade press.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.awin.com/us/news-and-events/interviews/advertiser-interview-missguided",
+    "summary": "Awin's own advertiser interview states Missguided migrated its affiliate program exclusively to Awin in April 2016 and promoted joining the program on Awin."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "listing",
+    "source_url": "https://www.netinfluencer.com/missguided-influencer-program/",
+    "summary": "Published rates conflict: Awin's interview promoted 8% commission, while NetInfluencer, citing program manager Affko, reports up to 6% with a 30-day cookie. Because the sources conflict, commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.netinfluencer.com/missguided-influencer-program/",
+    "summary": "NetInfluencer documents that Missguided works with influencers through its affiliate program — commission on sales plus opportunities for exclusive partnerships — with sign-up via Awin or Sovrn."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.awin.com/us/news-and-events/interviews/advertiser-interview-missguided",
+    "summary": "No fetched page states an earnings cap or unlimited earnings for this program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "name": "Missguided",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.awin.com/us/news-and-events/interviews/advertiser-interview-missguided",
+   "title": "Missguided Affiliate Program (via Awin)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published figures exist (8% in Awin's own interview; up to 6% per a program-manager-sourced report) but conflict, so no rate is recorded and compensation scores below the verified-rate band.",
+    "contact_access": "Joining runs through the Awin network; no direct brand application page or email was found on fetched pages.",
+    "credibility": "Major UK fast-fashion brand with a long-standing, network-verified affiliate program.",
+    "niche_fit": "Trend-led fast fashion for young women is a central fashion UGC niche, and the brand works with influencers through the program.",
+    "opportunity_availability": "Application through Awin with network approval; no public follower minimum is published.",
+    "ugc_evidence": "Influencer participation via the affiliate program and exclusive-partnership opportunities are documented, but there is no public UGC rate card."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.missguided.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "OSI Affiliate",
+   "source_url": "https://iflytravelpartners.au/faq/"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": "Australia",
+  "description": "Partner program of iFly, an Australian online travel agency (subsidiary of Magic Tours International) accredited with ATAS/AFTA and IATA, paying partners a percentage of every flight ticket sold through their affiliate site, with reporting run through OSI Affiliate.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://iflytravelpartners.au/faq/",
+    "summary": "The program's own FAQ answers 'How much can I earn?' with: 'We do not place an upper limit on how much you can earn with the IAP. The more travel is booked via your IAP link, the more commission you will earn.' — so commission_cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://iflytravelpartners.au/faq/",
+    "summary": "The FAQ states partners earn a percentage of the value of every ticket sold via their affiliate site, with a worked example: at an average flight of $2000 AUD the commission would be $20 (implying roughly 1%, though no headline rate is published — so commission_rate is null). Approved partners get a dashboard login, and the program is managed with OSI Affiliate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://iflytravelpartners.au/faq/",
+    "summary": "The FAQ states iFly is a licensed Australian online travel agent operating online for more than 10 years, a subsidiary of Magic Tours International Pty Ltd (operating 30+ years), accredited with the Australian Federation of Travel Agents (AFTA/ATAS) and IATA, and headquartered on the Gold Coast."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://iflytravelpartners.au/faq/",
+    "summary": "The program is pitched at referrers who recommend iFly to friends, family and contacts; iFly handles all ticketing, changes and customer support for referred clients."
+   }
+  ],
+  "name": "iFly Travel Partners",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://iflytravelpartners.au/faq/",
+   "title": "iFly Affiliate Program (IAP)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Earnings are explicitly uncapped on the brand's own FAQ, but no headline percentage is published — the worked example implies roughly 1% of ticket value, which is low per sale.",
+    "contact_access": "A dedicated partner site with a detailed FAQ exists, but no public email or application form was found on fetched pages.",
+    "credibility": "Licensed, IATA- and ATAS-accredited Australian agency with a 30-year parent company and 10+ years operating online.",
+    "niche_fit": "Flight booking is a universal travel-creator topic, though the program is referral-style rather than built for content creators specifically.",
+    "opportunity_availability": "Partners are approved before receiving dashboard access; the application route is via the partner site.",
+    "ugc_evidence": "The program targets referrers and affiliates generally; no creator-specific UGC program or content collaboration is documented."
+   },
+   "ugc_evidence": 8
+  },
+  "socials": [],
+  "website": "https://iflytravelpartners.au"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://getlasso.co/affiliate/nanny-bag/"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": "France",
+  "description": "Paris-based luggage-storage network letting travelers store bags at verified local shops, hotels and restaurants in hundreds of cities worldwide, with an affiliate program on Impact paying 10% per sale.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/nanny-bag/",
+    "summary": "Lasso's directory lists the Nannybag affiliate program at 10% commission per sale with a 30-day cookie, and its join link routes to app.impact.com, confirming the program runs on Impact."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/nannybag/",
+    "summary": "LinkClicky's directory independently lists Nannybag on the Impact platform at 10% per sale, available in all regions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.cbinsights.com/company/nannybag",
+    "summary": "CB Insights profiles Nannybag as a collaborative luggage-storage network headquartered at 66 avenue des Champs-Élysées, Paris, France; it also reports Nannybag was acquired by Bounce in February 2026, though the brand continues to operate its own site and program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/nanny-bag/",
+    "summary": "No fetched page states an earnings cap or unlimited earnings for this program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "name": "Nannybag",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/nanny-bag/",
+   "title": "Nannybag Affiliate Program (via Impact)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% per sale with a 30-day cookie, corroborated by two independent network directories.",
+    "contact_access": "Joining runs through the Impact listing linked from Lasso; no direct brand contact was found on fetched pages.",
+    "credibility": "Paris-based network with storage locations in hundreds of cities and venture funding coverage; acquired by Bounce in 2026 while continuing to operate independently.",
+    "niche_fit": "Luggage storage is a practical, frequently filmed travel problem, and the program is marketed to travel bloggers.",
+    "opportunity_availability": "Open application through Impact; no follower minimum is published.",
+    "ugc_evidence": "The program is promoted for travel bloggers and content sites, but no formal ambassador or UGC program was found on fetched pages."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.nannybag.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 50,
+   "creator_saturation": "unknown",
+   "network": "Travelpayouts",
+   "source_url": "https://www.travelpayouts.com/blog/earn-on-selling-transfers-with-kiwitaxi/amp/"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "International booking service for pre-booked airport transfers and car tours in 100+ countries, whose partner program on Travelpayouts pays partners 50% of Kiwitaxi's own service revenue on each booking.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/earn-on-selling-transfers-with-kiwitaxi/amp/",
+    "summary": "Travelpayouts' own program guide states the partner reward is 50% of Kiwitaxi's service revenue — averaging about $8 per transfer order and about $44 for automobile tours — with around 36% of orders being round trips that earn twice."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "listing",
+    "source_url": "https://www.affiliates-directory.com/websites/kiwitaxi",
+    "summary": "A directory review of the live Travelpayouts offer records the same model expressed against order value: 9–11% of the order amount for standard transfers, which is the order-value equivalent of the 50% revenue share. commission_rate is recorded as 50 on the revenue-share basis stated by the network."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/kiwitaxi-transfers/amp/",
+    "summary": "Travelpayouts' program page reports more than 3,000 partners have joined — a large absolute count that rules out 'low', but short of the 10,000+ scale recorded as 'high' elsewhere in this directory, so creator_saturation is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/earn-on-selling-transfers-with-kiwitaxi/amp/",
+    "summary": "No fetched page states an earnings cap or unlimited earnings for this program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "name": "Kiwitaxi",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.travelpayouts.com/blog/earn-on-selling-transfers-with-kiwitaxi/amp/",
+   "title": "Kiwitaxi Partner Program (via Travelpayouts)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Partners earn 50% of Kiwitaxi's service revenue (about 9–11% of order value; ~$8 average per transfer, ~$44 per car tour) — an above-average effective rate for transfers, published by the network itself.",
+    "contact_access": "Joining runs through the Travelpayouts offer page; no direct brand contact was found on fetched pages.",
+    "credibility": "Long-running international transfer-booking service with a large, network-run partner program.",
+    "niche_fit": "Airport transfers are a staple, highly searchable travel topic that fits naturally into trip-planning content.",
+    "opportunity_availability": "Open to join through Travelpayouts with widgets, banners and white-label tools; no follower minimum is published.",
+    "ugc_evidence": "The program supplies partner content tools and reports influencer/blogger promotion routes, but there is no formal UGC or ambassador program."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://kiwitaxi.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Travelpayouts",
+   "source_url": "https://www.travelpayouts.com/blog/gettransfer-affiliate-program/"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "Global marketplace for booking private transfers, airport rides and hourly chauffeur services in 150+ countries, with an affiliate program on Travelpayouts paying 10% of the order value including extra services.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/gettransfer-affiliate-program/",
+    "summary": "Travelpayouts' own program page states the GetTransfer affiliate reward is 10% of the order value (average order about $100) with a 30-day cookie, and that social networks, messengers, email, coupons and cashback traffic are allowed."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/gettransfer-affiliate-program/",
+    "summary": "Travelpayouts reports that, per GetTransfer's own data, most affiliate traffic comes from Facebook and Instagram Stories — evidence the program is actively used by social content creators."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.feechecked.com/referral-codes/gettransfer",
+    "summary": "FeeChecked's editorial card, read from GetTransfer's official pages (checked November 15, 2026), names the operator as KG Global Limited of Strovolos, Nicosia, Cyprus, and describes a bid-based private transfer and chauffeur marketplace."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/gettransfer-affiliate-program/",
+    "summary": "No fetched page states an earnings cap or unlimited earnings for this program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "name": "GetTransfer",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.travelpayouts.com/blog/gettransfer-affiliate-program/",
+   "title": "GetTransfer Affiliate Program (via Travelpayouts)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10% of order value including extra services, on an average order of about $100, per the network's own program page.",
+    "contact_access": "Joining runs through the Travelpayouts offer; no direct brand contact was found on fetched pages.",
+    "credibility": "Established transfer marketplace operating in 150+ countries with a named operating company in its terms.",
+    "niche_fit": "Private transfers and airport rides are a standard travel-planning topic, and the program explicitly welcomes social traffic.",
+    "opportunity_availability": "Open to join through Travelpayouts; broad traffic sources allowed, no follower minimum published.",
+    "ugc_evidence": "The network reports most program traffic comes from Facebook and Instagram Stories, showing active creator use, though there is no formal UGC program."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://gettransfer.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.simoptions.com/become-affiliate-sim-options/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.simoptions.com/become-affiliate-sim-options/"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@simoptions.com",
+    "source_url": "https://www.simoptions.com/become-affiliate-sim-options/"
+   }
+  ],
+  "country": null,
+  "description": "Online marketplace for international travel eSIMs and SIM cards covering 200+ destinations, running its own affiliate program paying 10%+ commission on every eSIM sale with tiered rates for top partners.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://www.simoptions.com/become-affiliate-sim-options/",
+    "summary": "SimOptions' own affiliate page states: 10%+ commission on every eSIM sale, average order over US$40, 30-day cookie, free to join, applications reviewed within 2 working days, payouts by PayPal or bank transfer, US$1M+ paid to partners, and a published contact email, affiliate@simoptions.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.techradar.com/pro/simoptions-review",
+    "summary": "TechRadar's review independently confirms SimOptions runs an affiliate program paying customers 10% commission on referred data-plan purchases."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.simoptions.com/become-affiliate-sim-options/",
+    "summary": "The brand's page describes a marketplace working directly with top-tier mobile networks to offer data plans in 200+ destinations, trusted by 50,000+ travellers every month."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.simoptions.com/become-affiliate-sim-options/",
+    "summary": "No fetched page states an earnings cap or unlimited earnings for this program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "name": "SimOptions",
+  "opportunity": {
+   "application_url": "https://www.simoptions.com/become-affiliate-sim-options/",
+   "source_url": "https://www.simoptions.com/become-affiliate-sim-options/",
+   "title": "SimOptions Affiliate Program"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published 10%+ commission on the brand's own page with higher tiered rates for top performers and US$1M+ already paid to partners.",
+    "contact_access": "A dedicated affiliate page with a published program email (affiliate@simoptions.com) and a 2-minute application — top band per the rubric.",
+    "credibility": "Established eSIM marketplace covering 200+ destinations with mainstream review coverage (TechRadar).",
+    "niche_fit": "Travel eSIMs are one of the most creator-promoted travel products, and the program explicitly recruits sites and channels.",
+    "opportunity_availability": "Free to join with applications reviewed by hand within 2 working days; no follower minimum is published.",
+    "ugc_evidence": "The program recruits travel sites and channels and is also distributed via publisher networks, but no formal ambassador/UGC program was found."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.simoptions.com"
+ }
+]
