@@ -1,0 +1,541 @@
+[
+ {
+  "name": "GoMacro",
+  "website": "https://www.gomacro.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Plant-based, organic nutrition bar brand (MacroBars) founded in Wisconsin. It runs its own Brand Ambassador Program: ambassadors get a custom code giving their audience 25% off gomacro.com, earn 10% commission on every purchase made with the code, receive a free tray of bars monthly, and are paid monthly through the Impact platform. Ambassadors must post at least once a month tagging @GoMacro.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": "ambassadors@gomacro.com",
+    "contact_url": "https://gomacro.com/pages/brand-ambassador",
+    "source_url": "https://gomacro.com/pages/brand-ambassador"
+   },
+   {
+    "contact_type": "partnerships",
+    "email": "mia@gomacro.com",
+    "contact_url": "https://gomacro.com/pages/brand-ambassador-requirements",
+    "source_url": "https://gomacro.com/pages/brand-ambassador-requirements"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gomacro.com/pages/brand-ambassador-requirements",
+    "summary": "GoMacro's official Brand Ambassador Requirements page, fetched in full: ambassadors earn 10% commission on purchases made with their custom code (25% off for the audience), receive one free tray of MacroBars monthly, and 'Payments are made through the Impact platform and are distributed monthly.' Ambassadors are expected to post at least once per month tagging @GoMacro with #gomacropartner. The page publishes the contact mia@gomacro.com for event/partnership outreach. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gomacro.com/pages/brand-ambassador",
+    "summary": "GoMacro's official Brand Ambassador page describes the program's pillars (earn commission, collect rewards, community, sneak peeks), a challenge/rewards structure run through a management platform, 6-monthly ambassador reviews, and the application contact ambassadors@gomacro.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://gomacro.com/pages/brand-ambassador",
+   "source_url": "https://gomacro.com/pages/brand-ambassador-requirements",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "GoMacro Brand Ambassador Program — 10% commission via custom code, paid monthly through Impact, free product monthly",
+   "application_url": "https://gomacro.com/pages/brand-ambassador",
+   "source_url": "https://gomacro.com/pages/brand-ambassador-requirements"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 18,
+   "compensation": 12,
+   "contact_access": 14,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Organic plant-based bars are core food/wellness creator content, and the brand brief explicitly spans Instagram, TikTok, YouTube and Facebook.",
+    "ugc_evidence": "A structured ambassador program with monthly posting requirements, branded hashtags, challenges and rewards — built for recurring UGC.",
+    "compensation": "10% commission is mid-band for food; the 25%-off audience code and free monthly product add value, but no cap statement is published.",
+    "contact_access": "Two published brand emails (ambassadors@ and a named partnerships contact) plus an open application page.",
+    "opportunity_availability": "Applications are open on the brand's own site now; ambassadors are reviewed every six months rather than the program being closed.",
+    "credibility": "Long-established national bar brand sold across US grocery; program terms are published on its own domain."
+   }
+  }
+ },
+ {
+  "name": "Lemme",
+  "website": "https://lemme.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Botanical gummy vitamin and supplement brand co-founded by Kourtney Kardashian Barker (Lemme Debloat, Purr, Glow). Its Ambassador and Affiliate Program runs primarily through the Impact network and TikTok Shop; reported commission is 10%-20% per sale. Lemme's TikTok Shop affiliate engine is one of the largest in wellness — reported at more than 13,000 commission-paid creators producing 53,000+ videos in a single quarter — so saturation is high even though entry is open.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://www.affililist.com/affiliate/lemme",
+    "summary": "AffiliList's Lemme program profile, fetched in full: the Lemme Ambassador and Affiliate Program 'primarily operates through the Impact network and TikTok Shop', with a dedicated tracking dashboard, ambassador gifting and early product access; the directory's program listing reports commission of 10%-20% per sale, paid monthly via PayPal or ACH. The recorded rate is the 10% floor of that reported range. No earnings-cap statement is published, so cap stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "directory",
+    "source_url": "https://femfounded.org/case-studies/lemme/",
+    "summary": "Femfounded's Lemme case study reports the brand's TikTok Shop affiliate engine at more than 13,000 creators and 53,000+ videos in a single quarter, driving $13M through TikTok Shop in November 2025, with commission-only affiliate links as the core model. That absolute creator count (13,000+) is the basis for the 'high' creator saturation rating."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": 10,
+   "application_url": "https://www.affililist.com/affiliate/lemme",
+   "source_url": "https://www.affililist.com/affiliate/lemme",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Lemme Ambassador & Affiliate Program — 10%-20% reported via Impact and TikTok Shop; 13,000+ creators already in (high saturation)",
+   "application_url": "https://www.affililist.com/affiliate/lemme",
+   "source_url": "https://femfounded.org/case-studies/lemme/"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 20,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Gummy vitamins for debloat, sleep, focus and beauty are peak wellness-creator content with proven TikTok demand.",
+    "ugc_evidence": "53,000+ affiliate videos in a quarter is the strongest UGC evidence in this group — the whole growth model is creator content.",
+    "compensation": "Reported 10%-20% per sale is top-band for supplements; the recorded 10 is the published floor of the range, and no cap statement is published.",
+    "contact_access": "No public creator email was found on the fetched pages; entry is via Impact/TikTok Shop dashboards only.",
+    "opportunity_availability": "Open enrollment through TikTok Shop and Impact, but a new creator competes with 13,000+ existing affiliates.",
+    "credibility": "Celebrity-founded brand with national retail (Target, Walmart, Erewhon) and verified nine-figure-scale sales reporting."
+   }
+  }
+ },
+ {
+  "name": "Vital Proteins",
+  "website": "https://www.vitalproteins.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "The leading US collagen brand (Collagen Peptides, marine collagen, beauty collagen), owned by Nestlé Health Science. It runs an affiliate/influencer program through Impact plus a self-hosted influencer route. Published commission figures conflict across sources (4%, 6%/13% UK tiers, 10%, 15% self-hosted, and a 25% Impact Amazon-seller listing), so the rate is recorded as null with the conflict documented rather than guessed.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://www.creator-hero.com/blog/top-20-best-us-health-wellness-influencer-affiliate-programs",
+    "summary": "Creator Hero's program roundup lists Vital Proteins at 10% per sale with a 30-day cookie, free shipping perks and influencer campaigns, with sign-up via vitalproteins.com. This conflicts with other published figures (below), so no single rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://www.netinfluencer.com/vital-proteins-influencer-program/",
+    "summary": "NetInfluencer's Vital Proteins profile states the brand runs both an affiliate program and an influencer/ambassador program, describing a self-hosted program paying 15% commission with a 7-day cookie. Other fetched sources report 6% and 13% tiers for the UK Impact program, 4% for the CA program and a 25% Impact listing for its Amazon Seller storefront. Because the published rates conflict (4%-25% depending on route/region), commission_rate is null; no earnings-cap statement or creator count is published in any fetched source, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.vitalproteins.com/",
+   "source_url": "https://www.netinfluencer.com/vital-proteins-influencer-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Vital Proteins Affiliate & Influencer Program via Impact — rate unpublished consistently (4%-25% reported by route); confirm in-network before promoting",
+   "application_url": "https://www.vitalproteins.com/",
+   "source_url": "https://www.creator-hero.com/blog/top-20-best-us-health-wellness-influencer-affiliate-programs"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Collagen is a staple of beauty-from-within, fitness and wellness content; the product line maps to many creator niches.",
+    "ugc_evidence": "Both an affiliate program and a separate influencer/ambassador program with campaign access are documented.",
+    "compensation": "Held down: published rates conflict across routes and regions (4%-25%), so no rate is recorded until confirmed inside Impact.",
+    "contact_access": "Application runs through the brand site and Impact; no public creator email was published on the fetched pages.",
+    "opportunity_availability": "Program is live and recruiting across several network storefronts (US, UK, CA, Amazon Seller).",
+    "credibility": "Category-defining brand owned by Nestlé Health Science, with the #1 collagen powder position in the US."
+   }
+  }
+ },
+ {
+  "name": "WelleCo",
+  "website": "https://www.welleco.com",
+  "country": "Australia",
+  "category_slug": "wellness",
+  "description": "Premium plant-based wellness brand founded by Elle Macpherson (The Super Elixir greens, Nourishing Protein, ingestible beauty). Its affiliate program runs through the Impact network. Published rates conflict — one directory reports 5% per sale while another reports 10% per sale on Impact — so the rate is recorded as null with the conflict documented. WelleCo also maintains an official affiliate program page on its Australian store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://linkclicky.com/affiliate-program/welleco/",
+    "summary": "LinkClicky's WelleCo profile lists the affiliate platform as Impact with a commission of 10% per sale. A second directory (GetLasso) reports 5% per sale for the same program. The two published figures conflict, so commission_rate is recorded as null rather than picking one. No earnings-cap statement and no creator count are published in either source, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://welleco.com.au/pages/affiliate-program",
+    "summary": "WelleCo's official Australian store carries a dedicated Affiliate Program page (fetched; the page body is a sign-up promotion for the program), confirming the brand operates its own affiliate program page alongside the Impact listing."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://welleco.com.au/pages/affiliate-program",
+   "source_url": "https://linkclicky.com/affiliate-program/welleco/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "WelleCo Affiliate Program via Impact — premium greens/protein brand; published rate conflicts (5% vs 10%), confirm in-network",
+   "application_url": "https://welleco.com.au/pages/affiliate-program",
+   "source_url": "https://linkclicky.com/affiliate-program/welleco/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium greens and ingestible beauty fit wellness and beauty-from-within creators well, at a higher price point than most.",
+    "ugc_evidence": "An official affiliate page plus an Impact listing show a standing program, but creator-specific content evidence is thinner than peers.",
+    "compensation": "Held down: the two published rates conflict (5% vs 10%), so no rate is recorded until confirmed inside Impact.",
+    "contact_access": "Routes are the official affiliate page and Impact application; no public creator email found on fetched pages.",
+    "opportunity_availability": "Program is listed as open on Impact and promoted on the brand's own AU store.",
+    "credibility": "Established premium brand founded by Elle Macpherson with international retail presence; a point held back for the rate conflict."
+   }
+  }
+ },
+ {
+  "name": "Supersmart",
+  "website": "https://us.supersmart.com",
+  "country": "France",
+  "category_slug": "health",
+  "description": "Long-running supplement brand (founded 1992) selling a wide catalogue of vitamins, antioxidants and specialty formulas through its US storefront. Its affiliate program runs on CJ Affiliate (tiered 10% base, rising to 11%/12%/13% at $1,000/$2,000/$5,000 in sales) and Webgains (fixed 11%) — all stated on the brand's own official FAQ page. Free to join with no minimum sales requirement.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.supersmart.com/en/faq/affiliate-program",
+    "summary": "Supersmart's official affiliate FAQ, fetched in full: 'Supersmart's CJ Affiliate Program provides commissions that begin at 10%' with performance tiers of 11% at $1,000+ sales, 12% at $2,000+ and 13% at $5,000+; the Webgains program pays a fixed 11%. Registration is free, there is no minimum sales amount, and affiliates apply by searching 'SuperSmart' inside CJ Affiliate or Webgains. The FAQ answers the commission-rate question but publishes no earnings-cap statement and no creator count, so cap and saturation stay unknown. The recorded route is CJ Affiliate at the 10% base rate."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": 10,
+   "application_url": "https://us.supersmart.com/en/faq/affiliate-program",
+   "source_url": "https://us.supersmart.com/en/faq/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Supersmart Affiliate Program on CJ — 10% base commission tiering to 13%, free to join, terms on the brand's own FAQ",
+   "application_url": "https://us.supersmart.com/en/faq/affiliate-program",
+   "source_url": "https://us.supersmart.com/en/faq/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A broad supplement catalogue gives health creators many angles, though the brand is less social-first than DTC peers.",
+    "ugc_evidence": "Classic link/banner affiliate structure rather than a creator-content program; UGC evidence is the weakest in this group.",
+    "compensation": "10% base verified on the brand's own FAQ, tiering to 13% on CJ and a fixed 11% alternative on Webgains; no cap statement published.",
+    "contact_access": "Clear application route inside CJ/Webgains plus a contact link on the official FAQ page.",
+    "opportunity_availability": "Free to join with no minimum sales requirement, per the brand's own FAQ — open now.",
+    "credibility": "Operating since 1992 with terms published on its own domain; a point held back for limited creator-program presence."
+   }
+  }
+ },
+ {
+  "name": "Three Spirit",
+  "website": "https://threespiritdrinks.com",
+  "country": "United Kingdom",
+  "category_slug": "food-drink",
+  "description": "B Corp functional non-alcoholic spirits brand (Livener, Social Elixir, Nightcap) built on botanical alchemy. Three Spirit lists affiliate marketing among the partnership opportunities on its official US Community/Collabs page and runs network affiliate programs on Awin (merchant #19933) and Impact. Published rate ranges conflict between networks (1.6%-6.4% on the Awin-side listing vs 2%-8% on Impact), so the rate is recorded as null with the conflict documented.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.threespiritdrinks.com/pages/collab",
+    "summary": "Three Spirit's official US Community page, fetched in full: under 'Partnership opportunities' the brand lists affiliate marketing, gifting, discount codes and content creation, inviting creators to 'become a Three Spirit alchemist'. (Its separate US referral program pays store-credit coupons and is not the recorded route.)"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://linkclicky.com/affiliate-program/three-spirit/",
+    "summary": "LinkClicky lists Three Spirit's affiliate platform as Impact at 2%-8% per sale, while an Awin-side program listing (FMTC merchant record: Three Spirit Drinks, Awin #19933) is reported at 1.6%-6.4% with a 30-day cookie. Because the published ranges conflict by network, commission_rate is null; no earnings-cap statement or creator count is published in any fetched source, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://us.threespiritdrinks.com/pages/collab",
+   "source_url": "https://us.threespiritdrinks.com/pages/collab",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Three Spirit Affiliate & Collabs — non-alcoholic functional spirits on Awin/Impact plus an official collabs route; rates conflict by network",
+   "application_url": "https://us.threespiritdrinks.com/pages/collab",
+   "source_url": "https://linkclicky.com/affiliate-program/three-spirit/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Non-alcoholic functional drinks are a fast-growing sober-curious niche with strong cocktail-content potential.",
+    "ugc_evidence": "The official collabs page names affiliate marketing and content creation as standing partnership routes, plus a brand ambassador program.",
+    "compensation": "Held down: published ranges are low and conflict by network (1.6%-6.4% vs 2%-8%), so no rate is recorded.",
+    "contact_access": "Official US collab application page is the way in; no public creator email on the fetched pages.",
+    "opportunity_availability": "Collabs and network programs are live, though the brand states it works with a limited number of sites on the network side.",
+    "credibility": "Certified B Corp with US and UK stores and established retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Koa Coffee",
+  "website": "https://koacoffee.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Hawaiian coffee grower selling 100% Kona coffee direct from its Kona Belt plantation (Forbes-dubbed 'Best Coffee in America'; Gevalia Kona Coffee Cupping Competition winner). Its official Awin merchant profile states affiliates are paid 10%-20% commission with a 45-day cookie. The recorded rate is the 10% floor of the profile's published range.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ui.awin.com/merchant-profile/88019",
+    "summary": "Koa Coffee's official Awin merchant profile, fetched in full: 'We pay affiliates 10%-20% commission, with a 45 day cookie.' The profile confirms the coffee is 100% Kona, grown, processed, roasted and shipped from the brand's own Hawaiian plantation. It publishes no earnings-cap statement and no creator count, so cap and saturation stay unknown. The recorded rate is the 10% floor of the published range."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/88019",
+   "source_url": "https://ui.awin.com/merchant-profile/88019",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Koa Coffee Affiliate Program on Awin — 10%-20% commission and a 45-day cookie, stated on the official merchant profile",
+   "application_url": "https://ui.awin.com/merchant-profile/88019",
+   "source_url": "https://ui.awin.com/merchant-profile/88019"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium single-origin Kona coffee suits coffee, food and morning-routine creators; a narrower niche than snacks or supplements.",
+    "ugc_evidence": "A classic network affiliate program rather than a creator-content scheme; UGC evidence is limited to the Awin listing.",
+    "compensation": "10%-20% published on the official Awin profile with a generous 45-day cookie; recorded at the 10% floor, no cap statement published.",
+    "contact_access": "Application is through the Awin merchant profile; no public creator email on the fetched page.",
+    "opportunity_availability": "Program is live on Awin and open to publisher applications.",
+    "credibility": "Estate grower with named competition wins and national press recognition, per its own Awin profile."
+   }
+  }
+ },
+ {
+  "name": "Fly By Jing",
+  "website": "https://flybyjing.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Premium Chinese chili crisp and pantry brand founded by chef Jing Gao (Sichuan Chili Crisp). Food creators sell Fly By Jing through TikTok Shop affiliate codes and links — its listed creator route is the TikTok Shop affiliate program. No commission rate is published in the checked sources, so the rate is null. The brand's published PR contact is flybyjing@isetta.co (press inquiries).",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "email": "flybyjing@isetta.co",
+    "contact_url": "https://usesnippet.app/pr-emails/fly-by-jing",
+    "source_url": "https://usesnippet.app/pr-emails/fly-by-jing"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://www.bravodm.com/brands/flybyjing",
+    "summary": "BravoDM's Fly By Jing creator-program profile (checked October 2026), fetched in full: 'Food creators to sell through TikTok Shop affiliate codes and links', and 'How it is listed: TikTok Shop affiliate program.' No commission rate, earnings-cap statement or creator count is published on the page, so rate is null and cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "directory",
+    "source_url": "https://usesnippet.app/pr-emails/fly-by-jing",
+    "summary": "UseSnippet's Fly By Jing PR listing states the brand lists flybyjing@isetta.co for press inquiries (checked November 2026) and publishes no separate creator/ambassador program page; the TikTok Shop affiliate route is the creator entry point."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://www.bravodm.com/brands/flybyjing",
+   "source_url": "https://www.bravodm.com/brands/flybyjing",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Fly By Jing TikTok Shop Affiliate — chili crisp creators earn via TikTok Shop codes/links; rate set inside TikTok Shop",
+   "application_url": "https://www.bravodm.com/brands/flybyjing",
+   "source_url": "https://www.bravodm.com/brands/flybyjing"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 8,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Chili crisp is one of the most viral pantry products on food TikTok; the brand is social-first by design.",
+    "ugc_evidence": "A TikTok Shop affiliate listing plus heavy organic creator content around the brand show a working creator channel.",
+    "compensation": "Held down: no commission rate is published in any checked source, so the rate is null until seen inside TikTok Shop.",
+    "contact_access": "A published PR email (flybyjing@isetta.co) plus TikTok Shop enrollment; no dedicated creator inbox is published.",
+    "opportunity_availability": "TikTok Shop affiliate enrollment is open to eligible creators now.",
+    "credibility": "Well-known DTC brand with major retail distribution and a $12M Series B reported in teardown coverage."
+   }
+  }
+ },
+ {
+  "name": "Partake Foods",
+  "website": "https://partakefoods.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Black-owned, women-led allergy-friendly food brand (cookies, baking mixes, breakfast products free from the top 9 allergens), founded by Denise Woodard and sold nationally at Target, Walmart and Kroger. Partake runs an affiliate program through an affiliate network at roughly 5% commission, open to creator applicants (program facts checked by BravoDM, October 2026).",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://www.bravodm.com/brands/partake-foods",
+    "summary": "BravoDM's Partake Foods creator-program profile (checked October 2026), fetched in full: 'Affiliate program at roughly 5% commission, open to creator applicants', running through an affiliate network (the network listing BravoDM checked is its linked GetLasso program page, which also reports 5% per sale). No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliate Network",
+   "commission_rate": 5,
+   "application_url": "https://www.bravodm.com/brands/partake-foods",
+   "source_url": "https://www.bravodm.com/brands/partake-foods",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Partake Foods Affiliate Program — roughly 5% commission via its network listing, open to creator applicants",
+   "application_url": "https://www.bravodm.com/brands/partake-foods",
+   "source_url": "https://www.bravodm.com/brands/partake-foods"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Allergy-friendly cookies and mixes serve a loyal parent and allergy-community creator niche underserved by mainstream snack brands.",
+    "ugc_evidence": "A standing affiliate program open to creator applicants is documented, though content-program detail is thinner than peers.",
+    "compensation": "Roughly 5% is low-band for food; two independent directories agree on the figure, and no cap statement is published.",
+    "contact_access": "Application runs through the network listing; no public creator email was published on the fetched pages.",
+    "opportunity_availability": "Program is listed as open to creator applicants now.",
+    "credibility": "National retail distribution and a well-documented founder story; a point held back for the low rate and thin program detail."
+   }
+  }
+ },
+ {
+  "name": "Vive Organic",
+  "website": "https://viveorganic.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Wellness-shot brand (immunity, energy and glow shots with turmeric, ginger and adaptogens). Vive Organic runs its own Adventure Ambassadors program from its official site — its ambassadors page showcases named creator ambassadors (including professional surfer Brianna Cope and adventurer Mirna Valerio) with an open 'Become a Vive Ambassador' join route. No commission rate is published on the fetched official pages, so the rate is null.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://viveorganic.com/pages/ambassadors",
+    "source_url": "https://viveorganic.com/pages/ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://viveorganic.com/pages/ambassadors",
+    "summary": "Vive Organic's official ambassadors page, fetched in full: it presents a roster of named 'Vive Adventure ambassadors' with creator spotlights and a 'BECOME A VIVE AMBASSADOR — Join Now' application route. The page publishes no commission rate, earnings-cap statement or creator count, so rate is null and cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand Portal",
+   "commission_rate": null,
+   "application_url": "https://viveorganic.com/pages/ambassadors",
+   "source_url": "https://viveorganic.com/pages/ambassadors",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Vive Organic Adventure Ambassadors — own ambassador program with open join route on the brand's site; terms shared on application",
+   "application_url": "https://viveorganic.com/pages/ambassadors",
+   "source_url": "https://viveorganic.com/pages/ambassadors"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 6,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Wellness shots fit health, outdoor and adventure creator content — the brand's ambassador roster is built around exactly those niches.",
+    "ugc_evidence": "Named, spotlighted ambassadors on the official page prove an active creator program, though content requirements aren't published.",
+    "compensation": "Lowest in this group: no commission rate is published anywhere fetched, so the rate is null and terms only surface on application.",
+    "contact_access": "Open 'Join Now' route on the official ambassadors page; no public program email published.",
+    "opportunity_availability": "The ambassador program is live and recruiting from the brand's own site.",
+    "credibility": "Established wellness-shot brand with national grocery distribution; a point held back for unpublished terms."
+   }
+  }
+ }
+]

@@ -1,0 +1,556 @@
+[
+ {
+  "name": "ALT. Fragrances",
+  "website": "https://altfragrances.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US direct-to-consumer fragrance brand (handcrafted in Miami, Florida) selling designer-inspired extrait de parfum at accessible prices, with 120+ scents. Its affiliate program runs on Awin with payouts starting at 20% and a published average sale amount of $75-$100.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://ui.awin.com/merchant-profile/103251"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://ui.awin.com/merchant-profile/103251",
+    "summary": "ALT. Fragrances' Awin merchant profile (fetched) states: 'Affiliates earn generous commissions on all referred sales, with payouts starting at 20%. With an average sale amount of $75-$100.' It explicitly pitches content creators, influencers and bloggers in beauty, lifestyle and fashion. No statement about an earnings cap appears anywhere in the profile, so commission_cap is recorded as unknown, not uncapped. No creator count is published, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://altfragrances.com/products/executive-bundle",
+    "summary": "The brand's own store describes clean, vegan, cruelty-free fragrances handcrafted in Miami, Florida, and claims 1.5M+ customers, 50,000+ reviews and 120+ scents (self-reported marketing figures)."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 20,
+   "application_url": "https://ui.awin.com/merchant-profile/103251",
+   "source_url": "https://ui.awin.com/merchant-profile/103251",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ALT. Fragrances Affiliate Program (Awin)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://ui.awin.com/merchant-profile/103251",
+   "compensation_notes": "Payouts starting at 20% per the Awin merchant profile; average sale amount $75-$100. No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through Awin and promote designer-inspired fragrances with fragrance-review, dupe-comparison and scent-layering content."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 18,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "20% starting commission published on the brand's Awin profile, with a $75-$100 average order value",
+    "Program explicitly welcomes beauty and lifestyle creators and influencers",
+    "No published affiliate contact email; application runs through Awin",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Ethique",
+  "website": "https://www.ethique.com",
+  "country": "New Zealand",
+  "category_slug": "beauty",
+  "description": "New Zealand-founded plastic-free beauty and personal-care brand known for solid shampoo, conditioner and moisturizer bars in compostable packaging. Its affiliate program runs on ShareASale at 15% per sale with a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/ethique/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/ethique/",
+    "summary": "LinkClicky's Ethique program page (fetched; page last updated March 10, 2024) lists: affiliate platform ShareASale, commission 15% per sale, cookie duration 30 days, regions ALL, website www.ethique.com. It describes Ethique as a plastic-free solid-bar beauty and hygiene brand with compostable packaging. No earnings-cap statement and no creator count are published, so commission_cap and creator_saturation are both recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "https://linkclicky.com/affiliate-program/ethique/",
+   "source_url": "https://linkclicky.com/affiliate-program/ethique/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ethique Affiliate Program (ShareASale)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://linkclicky.com/affiliate-program/ethique/",
+   "compensation_notes": "15% per sale with a 30-day cookie, per the LinkClicky program listing (updated March 2024). No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through ShareASale and create zero-waste beauty content around solid shampoo, conditioner and skincare bars."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "15% per sale on ShareASale with a 30-day cookie, per a fetched program listing",
+    "Established, widely retailed zero-waste beauty brand with a strong sustainability story for content",
+    "Rate comes from a directory listing rather than the brand's own page, so it is marked publicly reported",
+    "No cap or creator-count information is published"
+   ]
+  }
+ },
+ {
+  "name": "IL MAKIAGE",
+  "website": "https://www.ilmakiage.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US direct-to-consumer makeup brand ('beauty for maximalists') known for its Woke Up Like This foundation and shade-matching quiz, claiming over 1 million 5-star reviews. Its affiliate program runs on the Impact network; published rate figures conflict, so no single rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/il-makiage/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/il-makiage/",
+    "summary": "LinkClicky's IL MAKIAGE program page (fetched via search result; page last updated March 11, 2024) lists the affiliate platform as Impact and the commission as 5% per sale, described as 'what's officially listed with their affiliate program'. However, Shopper.com lists the same program at 5-10% payout and LinkApprove lists up to 12% per sale on a 30-day cookie. Because the published figures conflict (5% vs 5-10% vs up to 12%), commission_rate is recorded as null rather than guessing. No earnings-cap statement or creator count is published, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/il-makiage/",
+   "source_url": "https://linkclicky.com/affiliate-program/il-makiage/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "IL MAKIAGE Affiliate Program (Impact)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://linkclicky.com/affiliate-program/il-makiage/",
+   "compensation_notes": "Published figures conflict: LinkClicky lists 5% per sale as the officially listed Impact payout, Shopper.com lists 5-10%, and LinkApprove lists up to 12%. Rate left null until confirmed inside Impact. No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through Impact and create shade-match, foundation-wear-test and maximalist makeup content."
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Large, creator-led DTC makeup brand with heavy social and tutorial content",
+    "Affiliate program on Impact confirmed by multiple directory listings",
+    "Published commission figures conflict (5% vs 5-10% vs up to 12%), so the rate is honestly left null",
+    "No cap or creator-count information is published"
+   ]
+  }
+ },
+ {
+  "name": "UASLIDER",
+  "website": "https://uaslider.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Nail-art brand selling water-slide nail decals and wraps (1,500+ designs) through its own affiliate program: 15% commission on every order, rising to 20% for top partners, a 30-day cookie, and monthly PayPal payouts at a $50 threshold.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://uaslider.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://uaslider.com/pages/affiliate",
+    "summary": "UASLIDER's own affiliate page (fetched in full) states: 15% commission on every order placed with a link or code; partners rise to 20% after at least 15 confirmed orders and at least 6 posts/reels in a 90-day period; 30-day cookie; monthly payouts via PayPal once the balance reaches $50; a personal 10% follower discount code; applications reviewed by hand, with 5,000+ Instagram followers (or comparable TikTok views) the usual bar for the paid tier. Under-5,000-follower applicants are offered a separate Creator track of free product plus a code instead of cash commission, so smaller creators should note the paid tier is not automatic. No earnings-cap statement appears, so commission_cap is unknown; no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Own affiliate program",
+   "commission_rate": 15,
+   "application_url": "https://uaslider.com/pages/affiliate",
+   "source_url": "https://uaslider.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "UASLIDER Affiliate Program",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://uaslider.com/pages/affiliate",
+   "compensation_notes": "15% commission on every order (20% for partners meeting the 90-day order and posting thresholds), 30-day cookie, monthly PayPal payouts at a $50 minimum, per the brand's own affiliate page. No earnings cap is stated, so the cap is unknown.",
+   "description": "Apply on the brand's affiliate page, receive a link and 10% follower code, and post nail-art content tagging @uaslider; paid tier usually expects 5,000+ followers."
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 16,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": [
+    "15% base commission rising to 20%, with cookie and payout terms published on the brand's own page",
+    "Clear, detailed program terms including content and tagging rules",
+    "Paid tier usually expects 5,000+ followers; smaller creators start on a free-product Creator track",
+    "Small niche brand (nail decals), so reach and sales volume are unproven"
+   ]
+  }
+ },
+ {
+  "name": "Elyel Beauty",
+  "website": "https://af.uppromote.com/elyel-beauty/register",
+  "country": null,
+  "category_slug": "skincare",
+  "description": "Small independent skincare brand running its own affiliate program on UpPromote: a standard 15% commission on referral sales, with brand ambassadors receiving 20% and possible lifetime commission at the brand's discretion. NOTE: the website recorded here is the brand's program registration page; the brand's standalone storefront URL and country were not published on the program page and could not be confirmed.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "info.elyel@gmail.com",
+    "contact_url": null
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://af.uppromote.com/elyel-beauty/register",
+    "summary": "Elyel Beauty's own UpPromote registration page (fetched in full) states: 'All affiliates will be paid based on commission which is 15%'; ambassadors receive 20% commission and 'may be offered lifetime commission under our sole discretion'; contact email info.elyel@gmail.com; Instagram @elyel_radiant_skin. Applications can be approved or rejected at the brand's discretion. Transparency note: the page's terms are the platform's standard template and include a conditional clause (section 5) under which, IF a 'Network' tab is activated, affiliates could earn commission on downline affiliates' orders; the base program itself pays 15% on the affiliate's own referral sales. No earnings-cap statement appears, so commission_cap is unknown; no creator count is published, so creator_saturation is unknown. The page does not state the brand's country or a standalone storefront URL."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 15,
+   "application_url": "https://af.uppromote.com/elyel-beauty/register",
+   "source_url": "https://af.uppromote.com/elyel-beauty/register",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Elyel Beauty Affiliate Program",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://af.uppromote.com/elyel-beauty/register",
+   "compensation_notes": "15% standard commission on referral sales; ambassadors 20% with possible lifetime commission at the brand's discretion, per the program's own registration page. No earnings cap is stated, so the cap is unknown.",
+   "description": "Register on the brand's UpPromote page or email info.elyel@gmail.com about the ambassador tier, then post radiant-skin routine content."
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 11,
+   "compensation": 15,
+   "contact_access": 14,
+   "opportunity_availability": 8,
+   "credibility": 2,
+   "reasons": [
+    "15% standard commission (20% for ambassadors) published on the program's own registration page",
+    "Published contact email info.elyel@gmail.com",
+    "Very small, little-known brand; storefront and country not confirmed from the program page",
+    "Terms are a platform template, including a conditional downline clause, which tempers credibility"
+   ]
+  }
+ },
+ {
+  "name": "Tubby Todd",
+  "website": "https://tubbytodd.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US family skincare brand (Tubby Todd Bath Co.) making bath and body products for babies, kids and parents, including its well-known All Over Ointment. Its creator program runs through Aspire, with a join page linked from the brand's own homepage; published commission figures conflict, so no single rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://tubbytodd.aspireiq.com/join/tubby-todd-bath-co-partnerships"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory_listing",
+    "source_url": "https://www.bravodm.com/brands/tubbytodd",
+    "summary": "BravoDM's Tubby Todd creator-program page (facts checked October 2026) states the program targets parenting and baby-care creators promoting bath and skincare products for babies and kids, runs through an affiliate network, and is listed at tubbytodd.aspireiq.com/join/tubby-todd-bath-co-partnerships, linked from tubbytodd.com's homepage. Published commission figures conflict: a bath-and-body program roundup lists 10% with a 30-day cookie, Lasso lists up to 11.25% with a 14-day cookie, and Shopper.com lists up to 1.2%. Because the figures conflict, commission_rate is recorded as null. A creator's post of a brand DM indicates the program looks for creators with 1,000+ followers posting at least weekly. No earnings-cap statement or creator count is published, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Aspire",
+   "commission_rate": null,
+   "application_url": "https://tubbytodd.aspireiq.com/join/tubby-todd-bath-co-partnerships",
+   "source_url": "https://www.bravodm.com/brands/tubbytodd",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tubby Todd Creator Program (Aspire)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://tubbytodd.aspireiq.com/join/tubby-todd-bath-co-partnerships",
+   "compensation_notes": "Published figures conflict (10% in a program roundup, up to 11.25% on Lasso, up to 1.2% on Shopper.com), so the rate is left null until confirmed inside Aspire. No earnings cap is stated, so the cap is unknown.",
+   "description": "Apply through the brand's Aspire join page (linked from tubbytodd.com) and create baby and family skincare content; the brand looks for creators with 1,000+ followers posting consistently."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Established family-skincare brand with an active creator program on Aspire",
+    "Join page is linked from the brand's own homepage, per a checked program listing",
+    "Published commission figures conflict widely (1.2% to 11.25%), so the rate is honestly left null",
+    "No cap or creator-count information is published"
+   ]
+  }
+ },
+ {
+  "name": "OUAI",
+  "website": "https://theouai.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US prestige haircare and body brand (pronounced 'way') founded by a celebrity hairstylist, sold DTC and at major beauty retailers. An affiliate program is listed through Sovrn Commerce and other directories, but published rate figures conflict and the Sovrn listing itself is unverified, so no rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://merchants.sovrn.com/merchants/186000/ouai-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://merchants.sovrn.com/merchants/186000/ouai-affiliate-program",
+    "summary": "Sovrn Commerce's OUAI merchant page (fetched via search result) explicitly states that OUAI's current commission rates through Sovrn 'could not be independently verified' and that a current OUAI partnership with Sovrn 'could not be independently confirmed'. Shopper.com lists the OUAI affiliate program at up to 5.99% payout per sale, while a hair-program roundup claims typically 10-15%. Because the sources conflict and the network listing is unverified, commission_rate is recorded as null and this entry is flagged needs_review. No earnings-cap statement or creator count is published, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Sovrn Commerce",
+   "commission_rate": null,
+   "application_url": "https://merchants.sovrn.com/merchants/186000/ouai-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/theouai-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "OUAI Affiliate Program (Sovrn Commerce)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://merchants.sovrn.com/merchants/186000/ouai-affiliate-program",
+   "compensation_notes": "Published figures conflict (up to 5.99% on Shopper.com vs typically 10-15% in a roundup) and Sovrn could not verify its own listing, so the rate is left null and flagged needs_review. No earnings cap is stated, so the cap is unknown.",
+   "description": "Check OUAI's current availability inside a Sovrn Commerce account before planning content; confirm the live rate and terms there."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Prestige haircare brand with strong social visibility and creator content",
+    "Affiliate access is listed through Sovrn Commerce and Shopper.com",
+    "Rate sources conflict and the Sovrn listing is explicitly unverified, so the rate is left null and flagged for review",
+    "No cap or creator-count information is published"
+   ]
+  }
+ },
+ {
+  "name": "Olive & June",
+  "website": "https://oliveandjune.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US at-home nail care brand selling manicure systems, polishes, treatments and press-ons. A program roundup lists an Olive & June affiliate program at up to 12% with a 30-day cookie, and the brand also runs ambassador routes (including a campus ambassador application); the rate is not published on the brand's own pages, so it is recorded as null.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://oliveandjune.com/campus-ambassador-application"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory_listing",
+    "source_url": "https://umatechnology.org/12-best-nail-affiliate-programs-in-2025-top-offers-2/",
+    "summary": "A nail affiliate-program roundup (fetched via search result) lists an 'Olive & June Affiliate Program' with commission 'up to 12%' and a 30-day cookie, covering nail kits, polishes, tools and accessories. A single 'up to' figure from a roundup is not a published rate, so commission_rate is recorded as null. Separately, coverage of the brand's ambassador program (Lemon8) references an application at oliveandjune.com/campus-ambassador-application and describes ambassador perks centered on product and early access rather than a published commission. No earnings-cap statement or creator count is published, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://oliveandjune.com/campus-ambassador-application",
+   "source_url": "https://umatechnology.org/12-best-nail-affiliate-programs-in-2025-top-offers-2/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Olive & June Affiliate / Ambassador Program",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://oliveandjune.com/campus-ambassador-application",
+   "compensation_notes": "A roundup lists up to 12% with a 30-day cookie, but the brand does not publish a rate on its own pages, so the rate is left null. No earnings cap is stated, so the cap is unknown.",
+   "description": "Watch the brand's site and socials for ambassador application windows, and create at-home manicure tutorials and nail-care routine content."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Well-known at-home nail brand with a large tutorial and routine-content community",
+    "An affiliate program is listed in a program roundup (up to 12%, 30-day cookie)",
+    "The brand's own pages do not publish a commission rate, so the rate is honestly left null",
+    "Ambassador perks skew toward product and early access rather than published pay"
+   ]
+  }
+ },
+ {
+  "name": "Illamasqua",
+  "website": "https://www.illamasqua.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "British prestige makeup brand founded in 2008 (owned by THG), known for bold, professional-grade, vegan and cruelty-free cosmetics. Its US affiliate program runs on Awin; published rate figures are ambiguous and conflicting, so no single rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/illamasqua-us/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory_listing",
+    "source_url": "https://getlasso.co/affiliate/illamasqua-us/",
+    "summary": "Lasso's Illamasqua US program page (fetched in full) lists commission as '1.6% and 8% Per Sale' with a 30-day cookie, and its join link routes to ui.awin.com, identifying Awin as the network. The two-figure rate is not explained on the page, and Shopper.com separately lists the Illamasqua program at up to 5-10% payout. Because the published figures are ambiguous and conflicting, commission_rate is recorded as null rather than picking one. No earnings-cap statement or creator count is published, so commission_cap and creator_saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "brand_overview",
+    "source_type": "publisher_article",
+    "source_url": "https://www.lookfantastic.com/c/brands/illamasqua/about-illamasqua/",
+    "summary": "LOOKFANTASTIC's brand page describes Illamasqua as a British beauty brand launched in 2008, known for professional, theatrical makeup artistry and vegan, cruelty-free products."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/illamasqua-us/",
+   "source_url": "https://getlasso.co/affiliate/illamasqua-us/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Illamasqua US Affiliate Program (Awin)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://getlasso.co/affiliate/illamasqua-us/",
+   "compensation_notes": "Lasso lists '1.6% and 8% per sale' with a 30-day cookie (split unexplained) and Shopper.com lists up to 5-10%, so the rate is left null until confirmed inside Awin. No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through Awin and create bold, artistry-led makeup content around the brand's vegan, cruelty-free range."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Established British prestige makeup brand (founded 2008, THG-owned) with an Awin-run US program",
+    "Program details are publicly listed, including a 30-day cookie",
+    "Published rates are ambiguous (1.6% and 8%) and conflict with another listing (up to 5-10%), so the rate is left null",
+    "No cap or creator-count information is published"
+   ]
+  }
+ },
+ {
+  "name": "nails inc",
+  "website": "https://nailsinc.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "London-founded nail brand (Nails.INC) selling salon-quality polish, nail care and treatments. An affiliate and partnership program is listed on Shopper.com at up to 6% payout per sale; because only an 'up to' figure is published, no exact rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.shopper.com/partnerships/nailsinc-com-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory_listing",
+    "source_url": "https://www.shopper.com/partnerships/nailsinc-com-affiliate-program",
+    "summary": "Shopper.com's nailsinc partnership page (fetched via search result) lists: website nailsinc.com, country United States, category Drugstore Pharmacy, CPA type, and 'nailsinc Affiliate Program - Get up to 6% payout per sale'. An 'up to' figure is a ceiling, not a published rate, so commission_rate is recorded as null. The listing does not name the underlying affiliate network. No earnings-cap statement or creator count is published, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliate network (directory-listed)",
+   "commission_rate": null,
+   "application_url": "https://www.shopper.com/partnerships/nailsinc-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/nailsinc-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "nails inc Affiliate and Partnership Program",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.shopper.com/partnerships/nailsinc-com-affiliate-program",
+   "compensation_notes": "Shopper.com lists up to 6% payout per sale; an 'up to' ceiling is not a confirmed rate, so the rate is left null. No earnings cap is stated, so the cap is unknown.",
+   "description": "Partner through the Shopper.com listing and create nail polish swatch, nail-care and at-home manicure content."
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Long-established nail brand with broad retail recognition",
+    "Affiliate program is publicly listed with instant-approval positioning on Shopper.com",
+    "Only an 'up to 6%' ceiling is published and the underlying network is not named, so the rate is left null",
+    "No cap or creator-count information is published"
+   ]
+  }
+ }
+]

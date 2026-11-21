@@ -1,0 +1,605 @@
+[
+ {
+  "name": "SabaiDee",
+  "website": "https://www.getsabaidee.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "SabaiDee makes broad-spectrum CBD oils and related wellness products from organically grown hemp, with public lab tests, sold direct to consumers through its own store.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "hello@getsabaidee.com",
+    "source_url": "https://www.getsabaidee.com/pages/CBD-affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.getsabaidee.com/pages/CBD-affiliate",
+    "summary": "SabaiDee's own affiliate page offers a 30% commission from every online sale with a 30-day cookie and a bonus program, and states verbatim that it offers affiliates 'uncapped earning potential'. Enrollment runs through Refersion (sabaidee.refersion.com); the program is described as invite-only."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "brand_site",
+    "source_url": "https://www.getsabaidee.com/pages/CBD-affiliate",
+    "summary": "The program page's FAQ directs affiliate questions to hello@getsabaidee.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "company",
+    "source_type": "brand_site",
+    "source_url": "https://www.getsabaidee.com/pages/CBD-affiliate",
+    "summary": "The page states its products are broad-spectrum CBD created using organic hemp, with public lab tests and premium-quality positioning."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 30,
+   "application_url": "https://sabaidee.refersion.com",
+   "source_url": "https://www.getsabaidee.com/pages/CBD-affiliate",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://sabaidee.refersion.com",
+   "source_url": "https://www.getsabaidee.com/pages/CBD-affiliate",
+   "title": "SabaiDee affiliate program via Refersion - 30% commission, uncapped earning potential stated on the brand's own program page"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 20,
+   "contact_access": 13,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "CBD oil sits squarely in the wellness niche, with strong educational and routine-based content angles for health creators.",
+    "ugc_evidence": "The brand's own program page is written for affiliates and influencers, offering exclusive banners, a promo code and sales-tracking tools.",
+    "compensation": "A 30% base commission - among the highest published in CBD - plus a bonus program, and the brand's own page explicitly states 'uncapped earning potential', so the cap is verified uncapped.",
+    "contact_access": "A published email (hello@getsabaidee.com) appears directly in the program page's FAQ.",
+    "opportunity_availability": "The program is invite-only and approval-based, which limits open availability despite the public enrollment form.",
+    "credibility": "Organic hemp sourcing and public lab tests are claimed on the brand's own page; a smaller, single-category brand than the largest CBD names."
+   }
+  }
+ },
+ {
+  "name": "Primal Harvest",
+  "website": "https://primalharvest.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Primal Harvest is a direct-to-consumer supplement brand selling collagen, greens powders, probiotics, turmeric and other everyday wellness formulas through its own store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://primalharvest.com/pages/partner-program",
+    "summary": "Primal Harvest's own Partner Program page states that through the Shopify Collabs dashboard affiliates receive a discount code and trackable link and earn '30% on new customers, 15% on returning'. The page also lists TikTok Shop as an alternative sign-up route, but the Collabs route is a brand-portal program in its own right. No cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "brand_site",
+    "source_url": "https://primalharvest.com/pages/collab",
+    "summary": "The brand's Collabs page recruits influencers, reviewers, comparison sites and bloggers, and promises complimentary Primal Harvest products plus commission on purchases through each partner's link."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": 30,
+   "application_url": "https://primalharvest.com/pages/partner-program",
+   "source_url": "https://primalharvest.com/pages/partner-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://primalharvest.com/pages/partner-program",
+   "source_url": "https://primalharvest.com/pages/partner-program",
+   "title": "Primal Harvest Partner Program via Shopify Collabs - 30% on new customers, 15% on returning"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 19,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A broad everyday-supplement range (collagen, greens, probiotics) gives health and wellness creators many routine-based content angles.",
+    "ugc_evidence": "The brand runs a dedicated partner program and a Collabs page aimed at influencers, reviewers and bloggers, with gifted product.",
+    "compensation": "30% on new customers and 15% on returning customers, published on the brand's own partner page; the 30% new-customer rate is recorded. No cap statement is published, so the cap is unknown, not uncapped.",
+    "contact_access": "No public affiliate email is published; contact runs through the Shopify Collabs dashboard.",
+    "opportunity_availability": "Applications are open through Shopify Collabs from the brand's own partner page.",
+    "credibility": "An established DTC supplement brand with a full public store and partner infrastructure."
+   }
+  }
+ },
+ {
+  "name": "ZBiotics",
+  "website": "https://zbiotics.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "ZBiotics is a direct-to-consumer biotech company selling genetically engineered probiotic drinks - a Pre-Alcohol Probiotic Drink designed to break down a toxic alcohol byproduct, and a Sugar-to-Fiber Probiotic Drink Mix for microbiome health.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@zbiotics.com",
+    "source_url": "https://af.uppromote.com/zbiotics/register?p=34992"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://zbiotics.com/pages/affiliate",
+    "summary": "ZBiotics' own affiliate page invites anyone who uses the product to apply; affiliates receive complimentary product to start creating content, a customised discount code and URL, and earn commission on every new customer purchase. No rate or cap statement is published on the page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/zbiotics/",
+    "summary": "LinkClicky lists the ZBiotics program at 10% per sale (listing dated March 2024). The brand's live registration now runs on UpPromote, whose published terms do not state a rate, so the 10% directory figure is recorded as publicly reported."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "review",
+    "source_url": "https://www.tremendous.com/case-studies/zbiotics-superfiliate-affiliate-payouts/",
+    "summary": "A Tremendous case study of the ZBiotics program states it 'scaled from a handful of influencers and affiliates to over 1000' before the program moved to Superfiliate in 2024 - absolute-terms evidence that creator saturation is high, not low."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "brand_site",
+    "source_url": "https://af.uppromote.com/zbiotics/register?p=34992",
+    "summary": "ZBiotics' affiliate terms on its own UpPromote registration page direct program contact to affiliates@zbiotics.com and state commissions are paid only to affiliates based in the United States."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 10,
+   "application_url": "https://zbiotics.com/pages/affiliate",
+   "source_url": "https://zbiotics.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "application_url": "https://zbiotics.com/pages/affiliate",
+   "source_url": "https://zbiotics.com/pages/affiliate",
+   "title": "ZBiotics affiliate program - 10% per sale per directory listing; program reported at over 1,000 affiliates"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 18,
+   "compensation": 12,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A genuinely novel probiotic with a clear before/after story gives health creators a distinctive, demonstrable product.",
+    "ugc_evidence": "Influencers and affiliates are the brand's core growth channel - a vendor case study documents the program scaling past 1,000 participants, and affiliates receive free product for content.",
+    "compensation": "10% per sale per the LinkClicky directory listing; the brand does not publish a current rate or any cap statement, so the cap is unknown.",
+    "contact_access": "A named affiliate inbox (affiliates@zbiotics.com) is published in the program's own terms.",
+    "opportunity_availability": "Applications are open on the brand's site, restricted to US-based affiliates.",
+    "credibility": "A science-led biotech brand with named team members and third-party case-study coverage of its program."
+   }
+  }
+ },
+ {
+  "name": "YO Home Sperm Test",
+  "website": "https://www.yosperm.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "The YO Home Sperm Test is an FDA-cleared, smartphone-based at-home sperm test developed by Medical Electronic Systems (MES); it measures motile sperm concentration, shows a live sperm video, and is aligned to WHO 6th Edition standards.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.yosperm.com/company/affiliates/",
+    "summary": "YO's own affiliates page publishes its commission structure: affiliates choose to keep the full 25% commission, or offer followers a 10% discount and keep 15%, or offer a 15% discount and keep 10%. The full-keep 25% rate is recorded. No cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.yosperm.com/company/affiliates/",
+    "summary": "The page offers affiliates a full marketing content pack - professional product images, lifestyle photography, video demos, and pre-written social captions and hashtags - plus a real-time affiliate dashboard and seasonal campaigns."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "company",
+    "source_type": "brand_site",
+    "source_url": "https://www.yosperm.com/company/affiliates/",
+    "summary": "The page states YO is the world's first FDA-cleared smartphone-based sperm test with 97% accuracy, developed by MES, described as a global leader with 25+ years in automated semen analysis."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 25,
+   "application_url": "https://www.yosperm.com/company/affiliates/",
+   "source_url": "https://www.yosperm.com/company/affiliates/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.yosperm.com/company/affiliates/",
+   "source_url": "https://www.yosperm.com/company/affiliates/",
+   "title": "YO Home Sperm Test affiliate program - keep the full 25% commission, or trade rate for a follower discount"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 16,
+   "compensation": 18,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "At-home fertility testing is a growing, underserved niche for men's-health and family-planning creators.",
+    "ugc_evidence": "The brand supplies a ready-made content pack with video demos and pre-written captions, and runs seasonal campaigns for affiliates.",
+    "compensation": "A published 25% commission when the affiliate keeps the full rate; no cap statement is published, so the cap is unknown.",
+    "contact_access": "No public affiliate email is published; contact is via the sign-up form on the affiliates page.",
+    "opportunity_availability": "Open sign-up through the affiliate form on the brand's own page.",
+    "credibility": "FDA clearance, WHO 6th Edition alignment and a 25+ year diagnostics parent company are stated on the brand's own page."
+   }
+  }
+ },
+ {
+  "name": "Natural Shilajit",
+  "website": "https://naturalshilajit.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Natural Shilajit, operated by Healthy Nutrition Group LLC, sells shilajit resin and related fulvic-acid supplements direct to consumers, positioning on laboratory authentication of its raw material.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://naturalshilajit.refersion.com/?oid=114821",
+    "summary": "The program's official terms, published on its Refersion portal, state: 'The standard commission rate is 25% of eligible product revenue attributed to the affiliate', with a standard 45-day attribution window. The terms publish no earnings-cap statement, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "company",
+    "source_type": "affiliate_network",
+    "source_url": "https://naturalshilajit.refersion.com/?oid=114821",
+    "summary": "The terms name the operator as Healthy Nutrition Group LLC and set detailed affiliate content rules, including FTC disclosure and a prohibition on disease claims."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 25,
+   "application_url": "https://naturalshilajit.refersion.com/?oid=114821",
+   "source_url": "https://naturalshilajit.refersion.com/?oid=114821",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://naturalshilajit.refersion.com/?oid=114821",
+   "source_url": "https://naturalshilajit.refersion.com/?oid=114821",
+   "title": "Natural Shilajit affiliate program via Refersion - 25% standard commission per the published program terms"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 14,
+   "compensation": 18,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Shilajit is a trending supplement ingredient with strong interest among men's-health and biohacking creators.",
+    "ugc_evidence": "The program terms directly govern creator content - disclosure, claims and lab-data rules - showing an active affiliate channel, though no content pack is published.",
+    "compensation": "A 25% standard commission published in the program's own terms; no cap statement is published, so the cap is unknown.",
+    "contact_access": "No public affiliate email is published in the terms; contact runs through the Refersion portal.",
+    "opportunity_availability": "Applications are open on Refersion, subject to program approval.",
+    "credibility": "A named operating LLC and unusually detailed compliance terms, including laboratory-authentication requirements for content."
+   }
+  }
+ },
+ {
+  "name": "Intimina",
+  "website": "https://www.intimina.com",
+  "country": "Sweden",
+  "category_slug": "health",
+  "description": "Intimina is a Swedish brand dedicated exclusively to women's intimate health - menstrual cups, smart Kegel exercisers and pelvic-health products - sold worldwide through its own store.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@intimina.com",
+    "source_url": "https://www.intimina.com/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.intimina.com/affiliates",
+    "summary": "Intimina's own affiliates page offers '8-10% commission paid on all affiliate sales', affiliate-only coupon codes, and product discounts or samples for reviews, aimed at websites, blogs and YouTube channels. The 8% floor of the published range is recorded. No cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "brand_site",
+    "source_url": "https://www.intimina.com/affiliates",
+    "summary": "The page publishes affiliates@intimina.com for affiliate questions."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "company",
+    "source_type": "brand_site",
+    "source_url": "https://www.intimina.com/affiliates",
+    "summary": "The page describes Intimina as a Swedish brand offering a complete range dedicated to women's intimate health, from menstrual cups to the world's first smart Kegel exerciser."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 8,
+   "application_url": "https://www.intimina.com/affiliates",
+   "source_url": "https://www.intimina.com/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.intimina.com/affiliates",
+   "source_url": "https://www.intimina.com/affiliates",
+   "title": "Intimina affiliate program - 8-10% commission paid on all affiliate sales"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Women's intimate health is a loyal, content-rich niche, though narrower than general wellness.",
+    "ugc_evidence": "The program page explicitly recruits websites, blogs and YouTube channels and offers review samples.",
+    "compensation": "A published 8-10% commission range; the 8% floor is recorded. No cap statement is published, so the cap is unknown.",
+    "contact_access": "A named affiliate inbox (affiliates@intimina.com) is published on the program page.",
+    "opportunity_availability": "Open sign-up from the brand's own affiliates page.",
+    "credibility": "A long-established Swedish brand with a full product range and global store."
+   }
+  }
+ },
+ {
+  "name": "Mycroboost",
+  "website": "https://mycroboost.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Mycroboost sells vegan mushroom supplement softgels made from certified organic fruiting-body extracts - a range of dozens of functional-mushroom products sold direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/40960",
+    "summary": "Mycroboost's Awin merchant profile offers 'a commission of 20% per sale' when a visitor buys within 90 days of clicking, with banners, text links, data feeds and a dedicated affiliate marketing manager. No cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "company",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/40960",
+    "summary": "The profile states Mycroboost's softgels are filled with certified organic fruiting-body extracts rather than mycelium ground with its growing substrate."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 20,
+   "application_url": "https://ui.awin.com/merchant-profile/40960",
+   "source_url": "https://ui.awin.com/merchant-profile/40960",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/40960",
+   "source_url": "https://ui.awin.com/merchant-profile/40960",
+   "title": "Mycroboost affiliate program via Awin - 20% per sale, 90-day cookie"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 16,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Functional mushrooms are a fast-growing wellness category with strong ingredient-education content angles.",
+    "ugc_evidence": "The Awin profile offers banners, data feeds and widgets and a monthly promotional newsletter for partners.",
+    "compensation": "20% per sale with a long 90-day cookie, published on the network profile; no cap statement, so the cap is unknown.",
+    "contact_access": "A dedicated affiliate marketing manager is advertised on the profile, though no direct email is published.",
+    "opportunity_availability": "Open to join on Awin with a free, self-serve sign-up.",
+    "credibility": "Certified-organic fruiting-body positioning is stated on the network profile; a smaller brand than the category leaders."
+   }
+  }
+ },
+ {
+  "name": "Wild Alaskan Company",
+  "website": "https://wildalaskancompany.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Wild Alaskan Company is a subscription service delivering wild-caught, sustainably sourced Alaskan seafood to members across the United States, founded by a third-generation commercial fisherman.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/81949",
+    "summary": "Wild Alaskan Company's Awin merchant profile lists a '$30 Default Commission Rate' with a 30-day cookie period - a flat $30 bounty per subscription rather than a percentage of sale, so commission_rate is null and the flat bounty is recorded here. No cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission",
+    "source_type": "review",
+    "source_url": "https://runtheaffiliatemarket.com/is-there-a-wild-alaskan-company-affiliate-program-review/",
+    "summary": "An older affiliate review described a $75 flat fee per new subscriber; the current Awin profile's $30 default supersedes it, and the change is documented rather than averaged."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "company",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/81949",
+    "summary": "The Awin profile describes the company's mission to accelerate the transition to sustainable food systems and its founding by Arron Kallenberg, the son and grandson of commercial fishermen."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/81949",
+   "source_url": "https://ui.awin.com/merchant-profile/81949",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/81949",
+   "source_url": "https://ui.awin.com/merchant-profile/81949",
+   "title": "Wild Alaskan Company affiliate program via Awin - flat $30 default commission per new subscription"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 15,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium seafood subscription boxes are a strong fit for food, cooking and sustainability creators.",
+    "ugc_evidence": "The program runs through Awin with standard creative support; the brand's story-driven sourcing suits unboxing and recipe content.",
+    "compensation": "A flat $30 bounty per new subscription on boxes priced well above that; recorded as a flat bounty, not a percentage. No cap statement is published, so the cap is unknown.",
+    "contact_access": "No public affiliate email is published; contact runs through Awin.",
+    "opportunity_availability": "Open to join on Awin.",
+    "credibility": "A well-known national subscription brand with a published sustainability mission and founder story."
+   }
+  }
+ },
+ {
+  "name": "Genexa",
+  "website": "https://www.genexa.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Genexa makes clean over-the-counter medicine - the same active ingredients as leading brands, without artificial dyes, preservatives, sweeteners or common allergens - across pain and fever, cold and flu, allergy, digestion and sleep, for infants, kids and adults. The company is a Certified B Corp.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.instagram.com/p/DQxJfr3EmKN/",
+    "summary": "Genexa's own Instagram post (November 2025) invites anyone to join its free affiliate program, stating 'It's through Levanta and it's free to join', with sign-up via the link in the brand's bio."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/genexa/",
+    "summary": "Lasso lists Genexa at 'up to 26.25%' - a ceiling, not a base rate - while Shopper lists a 5-10% payout range. The published figures conflict, so commission_rate is null and the conflict is documented here. No cap statement is published, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Levanta",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/genexa/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.instagram.com/p/DQxJfr3EmKN/",
+   "title": "Genexa affiliate program via Levanta - free to join per the brand's own Instagram announcement"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Clean medicine for kids and families is a strong fit for parenting and family-health creators.",
+    "ugc_evidence": "The brand actively recruits everyday recommenders on its own Instagram, framing the program around people already sharing the products.",
+    "compensation": "No settled rate could be verified - directory figures conflict (up to 26.25% vs 5-10%) - so the rate is null and compensation scores low until the program publishes terms.",
+    "contact_access": "No public affiliate email is published; joining runs through Levanta via the brand's bio link.",
+    "opportunity_availability": "Free and open to join per the brand's own announcement.",
+    "credibility": "Certified B Corp status and clean-label positioning are published by the brand and its directory listings."
+   }
+  }
+ },
+ {
+  "name": "Bokksu",
+  "website": "https://www.bokksu.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Bokksu delivers curated boxes of authentic Japanese snacks and teas sourced from local makers in Japan, sold as subscriptions and gifts through its own store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/bokksu-com/",
+    "summary": "LinkClicky lists the Bokksu program on Impact at '5% per sale, $10 per recurring subscription' with a 14-day cookie. The 5% sale rate is recorded and the $10 recurring-subscription bounty documented here. No cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/bokksu/",
+    "summary": "Lasso lists Bokksu at 5%-10% per sale with a 14-day cookie, consistent with the 5% base rate recorded from LinkClicky."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/bokksu-com/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/bokksu-com/",
+   "title": "Bokksu affiliate program via Impact - 5% per sale plus $10 per recurring subscription"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 9,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Japanese snack boxes are a natural unboxing and taste-test format for food creators.",
+    "ugc_evidence": "Directory listings describe an established program used by gift and food bloggers; the subscription box format is inherently creator-friendly.",
+    "compensation": "5% per sale plus a $10 bounty per recurring subscription; modest rates, and no cap statement is published, so the cap is unknown.",
+    "contact_access": "No public affiliate email is published; contact runs through Impact.",
+    "opportunity_availability": "Joinable through Impact, subject to network approval.",
+    "credibility": "A well-known subscription brand with consistent directory coverage of its program."
+   }
+  }
+ }
+]

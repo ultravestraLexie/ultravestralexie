@@ -8,11 +8,31 @@
 
 export interface SearchIntent {
   uncapped: boolean;
+  capped: boolean;
   small: boolean;
   platform: string;
+  network: string;
   minRate: number | null;
   tokens: string[];
 }
+
+/* Affiliate programs / networks a creator can search by name. The key
+ * is matched inside the stored network field, case-insensitively. */
+const NETWORK_KEYS: [string, string][] = [
+  ["tiktok shop", "tiktok shop"],
+  ["shopify collabs", "collabs"],
+  ["shareasale", "shareasale"],
+  ["avantlink", "avantlink"],
+  ["flexoffers", "flexoffers"],
+  ["skimlinks", "skimlinks"],
+  ["pepperjam", "pepperjam"],
+  ["refersion", "refersion"],
+  ["rakuten", "rakuten"],
+  ["impact", "impact"],
+  ["sovrn", "sovrn"],
+  ["awin", "awin"],
+  ["cj", "cj"],
+];
 
 const STOPWORDS = new Set([
   "the", "and", "for", "with", "that", "this", "want", "wants", "need", "needs",
@@ -105,8 +125,11 @@ export function extractIntent(q: string): SearchIntent {
       }
     }
   }
+  const networkHit = NETWORK_KEYS.find(([phrase]) => text.includes(phrase));
   return {
     uncapped: text.includes("uncapped") || text.includes("no cap") || text.includes("unlimited earning"),
+    capped: !text.includes("uncapped") && (text.includes("capped") || text.includes("with a cap") || text.includes("earnings cap")),
+    network: networkHit ? networkHit[1] : "",
     small:
       text.includes("smaller creator") || text.includes("small creator") || text.includes("beginner") ||
       text.includes("new creator") || text.includes("micro") || text.includes("small audience") ||

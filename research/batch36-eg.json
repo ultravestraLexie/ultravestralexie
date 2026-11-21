@@ -1,0 +1,582 @@
+[
+ {
+  "name": "Biodance",
+  "website": "https://biodance.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Korean skincare brand famous for its Bio-Collagen Real Deep Mask hydrogel mask that turns transparent on camera. It ranked #1 for organic (non-ad) growth on US TikTok Shop in October 2026, reaching $18.63M in monthly GMV driven largely by affiliate creators, including many with under 50K followers.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/biodance_official"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "industry_press",
+    "source_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+    "summary": "Beauty Independent (fetched), reporting FastMoss TikTok Shop data, ranks Biodance #1 of 15 indie beauty brands for October 2026 organic growth: non-ad GMV up 2,361% month over month to $10.19M and total October GMV of $18.63M, with affiliate creators responsible for a substantial share of sales (about half of sales for the typical ranked brand came through affiliate content, versus under 2% from the brand's own account). This confirms Biodance runs an active TikTok Shop affiliate program that creators join inside TikTok Shop. Commission is set per product inside TikTok Shop and is not published in the article, so commission_rate is null; no cap statement exists, so commission_cap is unknown. No Biodance-specific creator count is published, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://biodance.com",
+    "summary": "The brand's own store (fetched) leads with its hydrogel mask line ('Who's behind the #1 hydrogel mask?'), collagen serums and toner pads, and lists its Instagram handle as @biodance_official. A TikTok Shop search result for the Biodance Store US showed a 4.8 rating with 53.2K sold."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+   "source_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Biodance TikTok Shop Affiliate",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+   "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside TikTok Shop; no public rate or cap statement was found, so both are recorded as unpublished/unknown.",
+   "description": "Add Biodance masks and serums to your TikTok Shop showcase and film the mask-turns-clear reveal; the brand's TikTok Shop growth is affiliate-led and it actively empowers smaller creators."
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 20,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 10,
+   "credibility": 5,
+   "reasons": [
+    "#1 organic-growth beauty brand on TikTok Shop in Oct 2026 with $18.63M GMV, affiliate-led",
+    "Viral visual product (mask turns transparent) is proven UGC material",
+    "Commission is set per product inside TikTok Shop and is not published, so the rate is null",
+    "No published creator contact; joining happens inside TikTok Shop",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Dr.Melaxin",
+  "website": "https://shop.tiktok.com/us/store/dr-melaxin/7495830785034323995",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Korean skincare brand (calcium collagen balms, peel-shot exfoliants, TXA dark-spot care) running an official US TikTok Shop store with over 1.2M units sold on its hero eye balm alone. It added more than 49,000 affiliate creators in a single month, so creator saturation is high.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "industry_press",
+    "source_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+    "summary": "Beauty Independent (fetched), reporting FastMoss data, states Dr.Melaxin added more than 49,000 affiliate creators during October 2026 while cutting ad spend 27% — an absolute creator count in the tens of thousands, so creator_saturation is recorded as high, not low. This confirms an active, large-scale TikTok Shop affiliate program. Commission is set per product inside TikTok Shop and is not published, so commission_rate is null and commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "brand_overview",
+    "source_type": "tiktok_shop_data",
+    "source_url": "https://shop.tiktok.com/us/store/dr-melaxin/7495830785034323995",
+    "summary": "Dr.Melaxin's official TikTok Shop store (surfaced in TikTok Shop search results) lists its Calcium Multi Balm Eye Care at 1.2M sold and its Peel Shot exfoliating spray at 750.1K sold, with the brand's gift set at roughly 505-527K sold — very large TikTok Shop volumes consistent with a mass affiliate program."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/store/dr-melaxin/7495830785034323995",
+   "source_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Dr.Melaxin TikTok Shop Affiliate",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://shop.tiktok.com/us/store/dr-melaxin/7495830785034323995",
+   "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside TikTok Shop; no public rate or cap statement was found, so both are recorded as unpublished/unknown.",
+   "description": "Add Dr.Melaxin balms and peel shots to your TikTok Shop showcase; the program is huge (49,000+ creators added in one month), so expect heavy competition and lean on a distinctive angle."
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 20,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 10,
+   "credibility": 4,
+   "reasons": [
+    "More than 49,000 affiliate creators added in October 2026 alone - proven, open program",
+    "Hero products have 1.2M+ units sold on TikTok Shop",
+    "Creator saturation is high on absolute-count evidence, so competition is intense",
+    "Commission is set per product inside TikTok Shop and is not published, so the rate is null",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "VT Cosmetics",
+  "website": "https://gb.vt-cosmetics.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Korean skincare and makeup brand behind the viral Reedle Shot microneedle-essence line and Cica care. Its official US TikTok Shop store has sold 527K+ units with 251.5K+ followers, its product pages carry commission-earning creator videos, and it launched at 1,500 Ulta Beauty stores in July 2025.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/vtcosmetics_global"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "tiktok_shop_data",
+    "source_url": "https://shop.tiktok.com/us/pdp/lip-plumper-vt-cosmetics-reedle-shot-gloss-with-cica-jojoba-oil/1730766974399910277",
+    "summary": "VT Cosmetics' official TikTok Shop product page (fetched) shows the VT Cosmetics US OFFICIAL SHOP with 527.0K sold and 251.5K+ followers; the search-indexed version of the same product page displays creator videos tagged 'Creator earns commission', confirming the brand sells through TikTok Shop's affiliate program, where creators add products to their showcase and earn the per-product commission set inside TikTok Shop. No public rate or cap statement is published, so commission_rate is null and commission_cap is unknown; no creator count is published, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "brand_overview",
+    "source_type": "industry_press",
+    "source_url": "https://www.prnewswire.com/news-releases/vt-cosmetics-launches-k-beauty-innovation-reedle-shot-at-ulta-beauty-302511423.html",
+    "summary": "PR Newswire release (surfaced in search results) announces VT Cosmetics' US in-store debut at over 1,410 Ulta Beauty locations from July 13, 2025, led by the Reedle Shot series and Vegan PDRN Essence, and notes 265+ global beauty awards — a credible, expanding US retail presence."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/pdp/lip-plumper-vt-cosmetics-reedle-shot-gloss-with-cica-jojoba-oil/1730766974399910277",
+   "source_url": "https://shop.tiktok.com/us/pdp/lip-plumper-vt-cosmetics-reedle-shot-gloss-with-cica-jojoba-oil/1730766974399910277",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "VT Cosmetics TikTok Shop Affiliate",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://shop.tiktok.com/us/pdp/lip-plumper-vt-cosmetics-reedle-shot-gloss-with-cica-jojoba-oil/1730766974399910277",
+   "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside TikTok Shop; no public rate or cap statement was found, so both are recorded as unpublished/unknown.",
+   "description": "Add Reedle Shot and Cica products to your TikTok Shop showcase; the tingle-test format is proven creator content and the brand already runs commission-tagged creator videos on its listings."
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 19,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 10,
+   "credibility": 4,
+   "reasons": [
+    "Official TikTok Shop store with 527K+ units sold and commission-tagged creator videos on listings",
+    "Reedle Shot's tingle/reaction format is proven viral UGC material",
+    "Also stocked at 1,500 Ulta Beauty stores, supporting credibility",
+    "Commission is set per product inside TikTok Shop and is not published, so the rate is null",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Manyo Factory",
+  "website": "https://manyo.us",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Korean skincare brand (Pure Cleansing Oil, Bifida Biome, Galactomy lines) built on fermentation science and plant-based ingredients. Its affiliate program runs on ShareASale at 10% per sale with a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/manyo-factory/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/manyo-factory/",
+    "summary": "LinkClicky's affiliate directory page for Manyo Factory (fetched) lists: website manyo.us, affiliate platform ShareASale, commission 10% per sale, cookie duration 30 days, regions ALL. No statement about an earnings cap appears on the page, so commission_cap is recorded as unknown, not uncapped. No creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/manyo-factory/",
+   "source_url": "https://linkclicky.com/affiliate-program/manyo-factory/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Manyo Factory Affiliate Program (ShareASale)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://linkclicky.com/affiliate-program/manyo-factory/",
+   "compensation_notes": "10% per sale with a 30-day cookie, per the LinkClicky directory listing of the ShareASale program. No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through ShareASale and promote the Pure Cleansing Oil and Bifida lines with routine and ingredient-education content."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "10% per sale published on the program's directory listing, with a 30-day cookie",
+    "Established K-beauty brand with hero products suited to routine content",
+    "Application runs through ShareASale; no published affiliate contact email",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Virtue Labs",
+  "website": "https://www.virtuelabs.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US biotech haircare brand built on patented Alpha Keratin 60ku human keratin protein (shampoos, treatments, stylers sold at Sephora and Ulta). Its consumer affiliate program runs on Impact at 10% per sale; a separate stylist referral program exists but is professional-only and closed to new affiliates as of October 2026.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "customercare@virtuelabs.com",
+    "contact_url": null
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/virtue-labs/",
+    "summary": "LinkClicky's affiliate directory page for Virtue Labs (fetched) lists: website virtuelabs.com, affiliate platform Impact, commission 10% per sale, regions ALL. No statement about an earnings cap appears on the page, so commission_cap is recorded as unknown, not uncapped. No creator count is published, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "program_terms",
+    "source_type": "brand_site",
+    "source_url": "https://www.virtueprofessional.com/pen/terms-of-service-v2",
+    "summary": "Virtue's own professional site (surfaced in search results) publishes the separate Stylist Referral Program terms (30% commission, licensed cosmetologists only) and the brand's general contact email customercare@virtuelabs.com; the brand's October 2026 affiliate update states that stylist program is no longer accepting new affiliates, so the consumer route recorded here is the Impact program, not the pro program."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/virtue-labs/",
+   "source_url": "https://linkclicky.com/affiliate-program/virtue-labs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Virtue Labs Affiliate Program (Impact)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://linkclicky.com/affiliate-program/virtue-labs/",
+   "compensation_notes": "10% per sale per the LinkClicky directory listing of the Impact program. No earnings cap is stated, so the cap is unknown. The 30% stylist program is professional-only and closed to new affiliates, so it is not the recorded route.",
+   "description": "Join through Impact and promote the Alpha Keratin repair line with damage-repair and hair-transformation content."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "10% per sale published on the program's directory listing via Impact",
+    "Premium biotech haircare with strong before/after content potential",
+    "Published general contact email on the brand's own site",
+    "Pro stylist program is closed to new affiliates, so the consumer Impact route is the way in",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Haus Labs",
+  "website": "https://www.hauslabs.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Lady Gaga's clean makeup brand (Triclone Skin Tech foundation, Color Fuse blush) sold at Sephora. Its affiliate program runs on Rakuten Advertising (merchant #49024), and the brand also runs its own Affiliate Partner Program for creators and ambassadors with the commission rate not published.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.fmtc.co/fmtc-new-merchants-include-coco-and-bark-displays2go-gaomon-haus-labs-little-toes/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-coco-and-bark-displays2go-gaomon-haus-labs-little-toes/",
+    "summary": "FMTC's new-merchant listing (fetched) records Haus Labs (hauslabs.com) on Rakuten Advertising, merchant #49024, primary category Beauty & Cosmetics, with a Rakuten signup link. No commission rate is published in the listing, so commission_rate is null; no cap statement exists, so commission_cap is unknown; no creator count is published, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "directory",
+    "source_url": "https://whopaysinfluencers.com/brands/affiliate-programs/",
+    "summary": "WhoPaysInfluencers' affiliate-program directory (surfaced in search results) lists a 'Haus Labs Affiliate Partner Program' aimed at creators and brand ambassadors with no follower, age or region thresholds published, paying commission on all sales at a rate that is not published — consistent with the null rate recorded here."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.fmtc.co/fmtc-new-merchants-include-coco-and-bark-displays2go-gaomon-haus-labs-little-toes/",
+   "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-coco-and-bark-displays2go-gaomon-haus-labs-little-toes/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Haus Labs Affiliate Program (Rakuten Advertising)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.fmtc.co/fmtc-new-merchants-include-coco-and-bark-displays2go-gaomon-haus-labs-little-toes/",
+   "compensation_notes": "Commission on all sales via Rakuten Advertising; the rate is not published in any fetched source, so it is recorded as null. No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through Rakuten Advertising and promote Triclone foundation shade-matching and clean-makeup content; the brand also recruits creator ambassadors directly."
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Sephora-distributed celebrity-founded brand with strong creator demand",
+    "Affiliate program confirmed on Rakuten Advertising by FMTC's merchant listing",
+    "Commission rate is not published anywhere fetched, so it is honestly recorded as null",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Instytutum",
+  "website": "https://instytutum.com",
+  "country": "Switzerland",
+  "category_slug": "skincare",
+  "description": "Swiss premium skincare brand offering high-performance, science-led cleansers, serums, masks and creams. Its affiliate program runs on Impact at 10% per sale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/instytutum/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/instytutum/",
+    "summary": "LinkClicky's affiliate directory page for Instytutum (fetched) lists: website instytutum.com, affiliate platform Impact, commission 10% per sale, regions ALL. No statement about an earnings cap appears on the page, so commission_cap is recorded as unknown, not uncapped. No creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/instytutum/",
+   "source_url": "https://linkclicky.com/affiliate-program/instytutum/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Instytutum Affiliate Program (Impact)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://linkclicky.com/affiliate-program/instytutum/",
+   "compensation_notes": "10% per sale per the LinkClicky directory listing of the Impact program. No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through Impact and promote the Swiss clinical line with ingredient-led, results-focused skincare content."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "10% per sale published on the program's directory listing via Impact",
+    "Premium price points mean meaningful per-sale payouts despite a standard rate",
+    "Application runs through Impact; no published affiliate contact email",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Ongredients",
+  "website": "https://ongredients.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Korean clean skincare brand known for its Skin Barrier Calming Lotion. It was the #2 organic-growth beauty brand on US TikTok Shop in October 2026, with non-ad GMV up 1,338% month over month to $602K on the strength of affiliate creators.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "industry_press",
+    "source_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+    "summary": "Beauty Independent (fetched), reporting FastMoss TikTok Shop data, ranks Ongredients #2 of 15 indie beauty brands for October 2026 organic growth: non-ad GMV up 1,338% month over month to $602,000, in a ranking whose sales are driven substantially by affiliate creators rather than brand accounts. This confirms Ongredients sells through TikTok Shop's affiliate program. Commission is set per product inside TikTok Shop and is not published, so commission_rate is null; no cap statement exists, so commission_cap is unknown; no creator count is published, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "brand_overview",
+    "source_type": "tiktok_shop_data",
+    "source_url": "https://shop.tiktok.com/us/k/face-moisturizers",
+    "summary": "TikTok Shop's US moisturizer category page (surfaced in search results) lists the '[Ongredients Official Shop] Skin Barrier Calming Lotion EX' with a 4.8 rating and 31.5K sold, confirming an official, actively selling TikTok Shop storefront."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+   "source_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ongredients TikTok Shop Affiliate",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.beautyindependent.com/indie-beauty-brands-leading-organic-sales-growth-tiktok-shop/",
+   "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside TikTok Shop; no public rate or cap statement was found, so both are recorded as unpublished/unknown.",
+   "description": "Add the Skin Barrier Calming Lotion to your TikTok Shop showcase; the brand is early in its US growth curve compared with the mega-programs, with makeup-prep/glow positioning that films well."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 18,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "#2 organic-growth beauty brand on TikTok Shop in Oct 2026 (non-ad GMV +1,338%)",
+    "Official TikTok Shop store with 31.5K sold on its hero lotion",
+    "Smaller US footprint than the mega K-beauty programs, though no creator count is published so saturation stays unknown",
+    "Commission is set per product inside TikTok Shop and is not published, so the rate is null",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Innisfree",
+  "website": "https://us.innisfree.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Amorepacific's clean K-beauty brand (Green Tea Seed, Volcanic Pore lines), largely vegan and PETA-certified with eco packaging. Its US affiliate presence runs through networks including Rakuten Advertising, Skimlinks and Sovrn, but published rates conflict, so no single rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkmydeals.com/affiliate-programs/info/us.innisfree.com/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://linkmydeals.com/affiliate-programs/info/us.innisfree.com/",
+    "summary": "LinkMyDeals' affiliate page for us.innisfree.com (fetched) lists the store on multiple networks with conflicting terms: Skimlinks 'Minimum 6% CPA', mrge '2.4% CPA', Sovrn 'See Affiliate Panel', and a Linkbux 'Revshare 70%' entry that is not credible. Because the published rates conflict, commission_rate is recorded as null with the conflict documented here. No cap statement appears, so commission_cap is unknown; no creator count is published, so creator_saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-all-circles-bare-home-keurig-commercial-live-good-swarovski/",
+    "summary": "FMTC's new-merchant listing (surfaced in search results) records Innisfree on Rakuten Advertising, merchant #48045, primary category Beauty & Cosmetics — the network recorded for this entry. FMTC publishes no rate in the listing, consistent with the null rate."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://linkmydeals.com/affiliate-programs/info/us.innisfree.com/",
+   "source_url": "https://linkmydeals.com/affiliate-programs/info/us.innisfree.com/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Innisfree Affiliate Program (Rakuten Advertising)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://linkmydeals.com/affiliate-programs/info/us.innisfree.com/",
+   "compensation_notes": "Published rates conflict across networks (2.4% CPA via mrge vs minimum 6% CPA via Skimlinks, Rakuten rate unpublished), so commission_rate is null and the conflict is documented in the evidence. No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through Rakuten Advertising (or Skimlinks/Sovrn) and promote Green Tea and Volcanic Pore staples with clean-beauty routine content."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Major Amorepacific brand with several live network routes (Rakuten, Skimlinks, Sovrn)",
+    "Published rates conflict across sources (2.4% vs 6%+), so the rate is honestly recorded as null",
+    "Strong clean-beauty positioning for routine content",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ },
+ {
+  "name": "Skintensive",
+  "website": "https://www.skintensive.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare brand offering cruelty-free serums, moisturizers and treatments built on natural ingredients and dermatological research. Its affiliate program runs on ShareASale at 10% per sale with a long 90-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/skintensive/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/skintensive/",
+    "summary": "LinkClicky's affiliate directory page for Skintensive (fetched) lists: website skintensive.com, affiliate platform ShareASale, commission 10% per sale, cookie duration 90 days, regions ALL. No statement about an earnings cap appears on the page, so commission_cap is recorded as unknown, not uncapped. No creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/skintensive/",
+   "source_url": "https://linkclicky.com/affiliate-program/skintensive/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Skintensive Affiliate Program (ShareASale)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://linkclicky.com/affiliate-program/skintensive/",
+   "compensation_notes": "10% per sale with a 90-day cookie, per the LinkClicky directory listing of the ShareASale program. No earnings cap is stated, so the cap is unknown.",
+   "description": "Join through ShareASale and promote the cruelty-free line with ingredient and routine content; the 90-day cookie is unusually generous for skincare."
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "10% per sale published on the program's directory listing, with an unusually long 90-day cookie",
+    "Smaller US brand, so likely less affiliate competition, though no creator count is published so saturation stays unknown",
+    "Application runs through ShareASale; no published affiliate contact email",
+    "No earnings cap is stated, so the cap is honestly recorded as unknown"
+   ]
+  }
+ }
+]

@@ -1,0 +1,596 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://ora.organic/pages/partnership",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://getlasso.co/affiliate/ora-organic/"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ora.organic/pages/partnership",
+    "email": null,
+    "source_url": "https://ora.organic/pages/partnership"
+   }
+  ],
+  "country": "United States",
+  "description": "Plant-based supplement brand (organic protein, probiotics, creatine and greens) selling clean, third-party-tested, vegan products. Its own 'Ora partner' program page offers commission on referred sales plus free product and social features; third-party program sources report the affiliate program running on ShareASale at 20% commission, including 20% lifetime commissions on subscriptions.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ora.organic/pages/partnership",
+    "summary": "Ora Organic's own Partnership page (fetched in full for this batch): 'Join the Ora inner circle \u2014 apply to become an Ora partner and get your favorite supplements, swag, commission on sales and more.' Listed perks include free product and swag, commission on referred sales, early access, features on the brand's socials, giveaways and exclusive discounts, with an application form on the page. The page does not publish a commission rate, and no earnings-cap statement or creator count appears, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/ora-organic/",
+    "summary": "Lasso's Ora Organic program listing: header rate shown as 'Varies' with a 30-day cookie, while the listing body states 'Affiliates earn 20% on all purchases and 20% lifetime commissions on all subscriptions.' The recorded 20% rate follows the convergent reporting across sources."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://3hundrd.com/vegan-affiliate-programs",
+    "summary": "3hundrd's vegan program roundup states the Ora Organic affiliate program is managed by ShareASale at 20% commission; it lists a 90-day cookie, which conflicts with Lasso's 30 days \u2014 the network and rate agree across sources, the cookie duration does not, and the conflict is recorded here rather than resolved by guesswork."
+   }
+  ],
+  "name": "Ora Organic",
+  "opportunity": {
+   "application_url": "https://ora.organic/pages/partnership",
+   "source_url": "https://ora.organic/pages/partnership",
+   "title": "Ora Organic Partner Program \u2014 commission on referred sales (reported 20%, incl. lifetime subscription commissions, via ShareASale)"
+  },
+  "score": {
+   "compensation": 16,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A reported 20% on purchases plus 20% lifetime commissions on subscriptions is strong for supplements; the brand's own page confirms commission on sales but does not publish the rate.",
+    "contact_access": "A public application form sits on the brand's own partnership page; no public partnerships email was found on a fetched page.",
+    "credibility": "Established USDA-organic, certified-vegan supplement brand with third-party testing published on its own pages.",
+    "niche_fit": "Plant-based protein, gut-health and greens content is a core health-creator niche, and the products demo easily in routines and recipes.",
+    "opportunity_availability": "The partner application is open on the brand's site now.",
+    "ugc_evidence": "The brand runs its own partner program with social features and giveaways for partners \u2014 a structured creator route, not just a network listing."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://ora.organic"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/ready-set-food/",
+   "commission_cap": "unknown",
+   "commission_rate": 40,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://getlasso.co/affiliate/ready-set-food/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/ready-set-food/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/ready-set-food/"
+   }
+  ],
+  "country": "United States",
+  "description": "Baby early-allergen-introduction brand: 100% organic, non-GMO daily mixes (peanut, egg, milk and other allergens) added to breastmilk, formula or food. Its affiliate program runs on ShareASale with a published 40% commission per sale and a 30-day cookie \u2014 the highest percentage rate in this batch.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/ready-set-food/",
+    "summary": "Lasso's Ready, Set, Food! program listing (listing updated November 17, 2026; fetched for this batch): commission 40% per sale, cookie duration 30 days, categories High-Paying / Supplements; the page's join route leads to the program's ShareASale signup. Shopper.com's 'up to 8%' figure is that aggregator's own sub-network payout, not the program rate, and is disregarded. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "name": "Ready, Set, Food!",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/ready-set-food/",
+   "source_url": "https://getlasso.co/affiliate/ready-set-food/",
+   "title": "Ready, Set, Food! Affiliate Program on ShareASale \u2014 40% per sale, 30-day cookie"
+  },
+  "score": {
+   "compensation": 20,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A published 40% per sale with a 30-day cookie is top-band compensation for a consumer food brand.",
+    "contact_access": "Application route is documented through the program's ShareASale listing; no public partnerships email was found on a fetched page.",
+    "credibility": "Established baby-nutrition brand built around pediatric allergen-introduction guidance, sold nationally.",
+    "niche_fit": "Early allergen introduction is a high-intent topic for parent and baby-feeding creators, with a clear daily-use demo format.",
+    "opportunity_availability": "Program is live and joinable now through ShareASale.",
+    "ugc_evidence": "The program listing is written for influencers and bloggers; no separate brand-run creator page was fetched."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://readysetfood.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/90589",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/90589"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partnerships@burlapandbarrel.com",
+    "source_url": "https://ui.awin.com/merchant-profile/90589"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/burlap-barrel/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/burlap-barrel/"
+   }
+  ],
+  "country": "United States",
+  "description": "Single-origin spice brand (a Public Benefit Corporation) sourcing directly from farmers worldwide for home cooks and professional kitchens. Its affiliate program is powered by Awin at a published 10% commission per sale with a 24-hour cookie, and its Awin profile publishes a direct partnerships email for affiliates.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/90589",
+    "summary": "Burlap & Barrel's Awin merchant profile (90589): 'Sign up and join our affiliate program, powered by AWIN' \u2014 approved affiliates get creative files, text links and exclusive promotions, and 'Affiliates can always reach out to our affiliate team (partnerships@burlapandbarrel.com)'. The profile publishes the partnerships email but no rate, cap statement or creator count."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/burlap-barrel/",
+    "summary": "Lasso's Burlap & Barrel program listing (fetched for this batch): commission 10% per sale, cookie duration 24 hours (unusually short, as published), categories Cooking / Food. BravoDM (checked October 2026) corroborates the 10% rate and notes no follower minimum is stated. Shopper.com's 3.72% is that aggregator's own sub-network payout and is disregarded. No earnings-cap statement is published, so cap and saturation stay unknown."
+   }
+  ],
+  "name": "Burlap & Barrel",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/90589",
+   "source_url": "https://ui.awin.com/merchant-profile/90589",
+   "title": "Burlap & Barrel Affiliate Program on Awin \u2014 10% per sale, partnerships email published"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 12,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 10% per sale is mid-band, and the 24-hour cookie is the shortest in this batch, which limits attribution.",
+    "contact_access": "A direct affiliate-team email (partnerships@burlapandbarrel.com) is published on the brand's own Awin profile \u2014 rare and valuable.",
+    "credibility": "Well-known Public Benefit Corporation with national retail and restaurant presence and a long-standing network program.",
+    "niche_fit": "Single-origin spices are a proven cooking-creator staple \u2014 recipe demos, pantry tours and chef endorsements are natural formats.",
+    "opportunity_availability": "Open enrollment through Awin with application approval, per the profile and listing.",
+    "ugc_evidence": "The Awin profile speaks directly to chefs, bakers and home-cook creators and offers creative files and exclusive affiliate promotions."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.burlapandbarrel.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/no-cow/",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "CJ",
+   "source_url": "https://getlasso.co/affiliate/no-cow/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/no-cow/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/no-cow/"
+   }
+  ],
+  "country": "United States",
+  "description": "Plant-based protein bar and cookie brand (dairy-free, soy-free, high-protein snacks). Its affiliate program runs on CJ with a published 15% commission per sale and a 30-day cookie.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/no-cow/",
+    "summary": "Lasso's No Cow program listing (fetched in full for this batch): commission 15% per sale, cookie duration 30 days; the page's join buttons route to signup.cj.com, i.e. the program runs on CJ. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "name": "No Cow",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/no-cow/",
+   "source_url": "https://getlasso.co/affiliate/no-cow/",
+   "title": "No Cow Affiliate Program on CJ \u2014 15% per sale, 30-day cookie"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A published 15% per sale with a 30-day cookie is solid mid-to-upper band for packaged snacks.",
+    "contact_access": "Application route is documented through the program's CJ listing; no public partnerships email was found on a fetched page.",
+    "credibility": "Long-running national protein-bar brand with broad grocery and e-commerce distribution.",
+    "niche_fit": "Protein snacks are a staple of fitness, gym-bag and healthy-snacking content, and bars demo quickly in short video.",
+    "opportunity_availability": "Program is live and joinable now through CJ.",
+    "ugc_evidence": "The program listing targets influencers and bloggers; no separate brand-run creator page was fetched."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://nocow.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/good-chop/",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "CJ",
+   "source_url": "https://getlasso.co/affiliate/good-chop/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/good-chop/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/good-chop/"
+   }
+  ],
+  "country": "United States",
+  "description": "American meat and seafood subscription service delivering sustainably sourced cuts to customers' doors. Its affiliate program runs on CJ Affiliate and pays a flat $20 per order (recorded as a flat bounty, not a percentage), with a 45-day cookie \u2014 the longest attribution window in this batch.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/good-chop/",
+    "summary": "Lasso's Good Chop program listing (fetched for this batch): commission '$20 Per Order' (a flat bounty per order, not a percentage), cookie duration 45 days, category Food. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://linkclicky.com/affiliate-program/good-chop/",
+    "summary": "LinkClicky's Good Chop profile (updated March 2024): affiliate platform CJ Affiliate, commission '$20 per sale', website goodchop.com \u2014 corroborating both the network and the flat $20 bounty. Shopper.com's '5-10%' figure is that aggregator's own sub-network payout and is disregarded."
+   }
+  ],
+  "name": "Good Chop",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/good-chop/",
+   "source_url": "https://getlasso.co/affiliate/good-chop/",
+   "title": "Good Chop Affiliate Program on CJ \u2014 flat $20 per order, 45-day cookie"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A flat $20 per order on subscription boxes with a 45-day cookie pays predictably regardless of basket size \u2014 strong for a food program.",
+    "contact_access": "Application route is documented through the program's CJ listing; no public partnerships email was found on a fetched page.",
+    "credibility": "Established national meat-delivery subscription with a long-running network program.",
+    "niche_fit": "Meat and seafood unboxings, freezer tours and cook-alongs are established food-creator formats, and subscription boxes repeat monthly.",
+    "opportunity_availability": "Program is live and joinable now through CJ.",
+    "ugc_evidence": "The program listing is written for influencers and food bloggers; no separate brand-run creator page was fetched."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.goodchop.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/chamberlain-coffee/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising",
+   "source_url": "https://linkclicky.com/affiliate-program/chamberlain-coffee/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://usesnippet.app/pr-emails/chamberlain-coffee",
+    "email": "hi@chamberlaincoffee.com",
+    "source_url": "https://usesnippet.app/pr-emails/chamberlain-coffee"
+   },
+   {
+    "contact_type": "pr",
+    "contact_url": "https://usesnippet.app/pr-emails/chamberlain-coffee",
+    "email": "business@chamberlaincoffee.com",
+    "source_url": "https://usesnippet.app/pr-emails/chamberlain-coffee"
+   }
+  ],
+  "country": "United States",
+  "description": "Emma Chamberlain's coffee and matcha brand (beans, cold brew, matcha and accessories). Its affiliate program runs on Rakuten Advertising, and the brand publishes hi@chamberlaincoffee.com for influencer and affiliate support. The commission rate is left null: published figures conflict across eras and networks (see evidence).",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://linkclicky.com/affiliate-program/chamberlain-coffee/",
+    "summary": "LinkClicky's Chamberlain Coffee profile (updated March 2024): affiliate platform Rakuten Advertising, commission 7% per sale, regions CA/GB/US, website chamberlaincoffee.com. The brand's own site stack also lists Rakuten Advertising, corroborating the current network. An older (2021) source reported 20% via ShareASale, and Shopper.com's 5-10% is a sub-network payout \u2014 the figures conflict across eras, so commission_rate is recorded as null with the conflict noted here. An affjumbo listing under the same name describes a different Spokane roaster and was excluded. No cap statement or creator count is published."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://usesnippet.app/pr-emails/chamberlain-coffee",
+    "summary": "Snippet's contact research (checked against the brand's own pages on November 13, 2026): Chamberlain Coffee lists hi@chamberlaincoffee.com 'for influencer & affiliate support' \u2014 quoting the site: 'If you would like to contact us about our influencer and affiliate program, email us at' \u2014 and business@chamberlaincoffee.com for press & collaborations. Snippet also notes the brand lists no program page of its own, so the email is the creator route in."
+   }
+  ],
+  "name": "Chamberlain Coffee",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/chamberlain-coffee/",
+   "source_url": "https://linkclicky.com/affiliate-program/chamberlain-coffee/",
+   "title": "Chamberlain Coffee Affiliate Program on Rakuten Advertising \u2014 rate unpublished (conflicting reports); creator contact email published"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 11,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No rate could be recorded: reports conflict (7% on Rakuten in 2024 vs 20% on ShareASale in 2021), so compensation scores low until the live network terms are checked.",
+    "contact_access": "A published creator email (hi@chamberlaincoffee.com, explicitly for influencer & affiliate support) plus a separate press email.",
+    "credibility": "Nationally distributed, celebrity-founded beverage brand with major retail placement.",
+    "niche_fit": "A creator-founded coffee and matcha brand is native to drink-routine, GRWM and recipe content \u2014 among the strongest niche fits in this batch.",
+    "opportunity_availability": "Program runs on Rakuten Advertising with application; the brand lists no program page of its own.",
+    "ugc_evidence": "The brand maintains a named influencer/affiliate support route and runs its program on a major network; it was itself built by a creator."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://chamberlaincoffee.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/goldbelly/",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://www.whichprogram.com/en/topic/food-drink"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/goldbelly/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/goldbelly/"
+   }
+  ],
+  "country": "United States",
+  "description": "Online food marketplace shipping iconic regional dishes and restaurant specialties (pizza, bagels, cakes, barbecue) nationwide. Its affiliate program runs on ShareASale with a published 8% commission and an application requirement, per the whichprogram directory.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://www.whichprogram.com/en/topic/food-drink",
+    "summary": "whichprogram's Food & Drink program directory lists Goldbelly at 8% commission, 30-day cookie, application required, network ShareASale. Lasso's Goldbelly listing leaves the rate unpublished and shows a 7-day cookie \u2014 the cookie durations conflict (30 vs 7 days) and are recorded as unresolved; Shopper.com's 1% is that aggregator's own sub-network payout and is disregarded. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/goldbelly/",
+    "summary": "Lasso's Goldbelly program listing (fetched for this batch): commission rate 'Unknown', cookie duration 7 days, categories Cooking / Food / Restaurant \u2014 confirming an active program while not publishing the rate itself."
+   }
+  ],
+  "name": "Goldbelly",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/goldbelly/",
+   "source_url": "https://www.whichprogram.com/en/topic/food-drink",
+   "title": "Goldbelly Affiliate Program on ShareASale \u2014 8% per sale, application required"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 8% per sale is modest, though Goldbelly's high order values lift the dollar payout per conversion.",
+    "contact_access": "Application route is documented through the program's ShareASale listing; no public partnerships email was found on a fetched page.",
+    "credibility": "Well-known national food marketplace partnered with famous restaurants and bakeries across the US.",
+    "niche_fit": "Famous regional foods shipped to your door is a proven unboxing and taste-test format with very high basket values.",
+    "opportunity_availability": "Program is live on ShareASale with an application step.",
+    "ugc_evidence": "The program is listed for food influencers and publishers on ShareASale; no separate brand-run creator page was fetched."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.goldbelly.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.influencerrate.com/affiliate-program/questnutrition",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Quest Nutrition (own program)",
+   "source_url": "https://www.influencerrate.com/affiliate-program/questnutrition"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.influencerrate.com/affiliate-program/questnutrition",
+    "email": null,
+    "source_url": "https://www.influencerrate.com/affiliate-program/questnutrition"
+   }
+  ],
+  "country": "United States",
+  "description": "Protein snack brand (Quest bars, cookies, chips and shakes) for low-carb and fitness audiences. Its own affiliate program pays a reported 5%-10% per sale depending on product (recorded at the 5% floor of the published range), with a 30-day cookie and monthly payouts.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/questnutrition",
+    "summary": "InfluencerRate's Quest Nutrition affiliate program review (updated July 2025): commission rates 5-10% per sale (varies by product), cookie duration 30 days, payout monthly via PayPal or bank transfer; sign-up is through the official Quest Nutrition affiliate program page with approval in 24-48 hours. Following directory convention for published ranges, the recorded rate is the 5% floor. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown. (Other 'Quest' entities in search results \u2014 Quest Diagnostics, Quest Products Inc \u2014 are different companies and were excluded.)"
+   }
+  ],
+  "name": "Quest Nutrition",
+  "opportunity": {
+   "application_url": "https://www.influencerrate.com/affiliate-program/questnutrition",
+   "source_url": "https://www.influencerrate.com/affiliate-program/questnutrition",
+   "title": "Quest Nutrition Affiliate Program (own program) \u2014 5%-10% per sale (recorded at the 5% floor), 30-day cookie"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "The published range is 5%-10% per sale; recorded at the 5% floor, it is the lowest percentage in this batch, partly offset by a 30-day cookie and monthly payouts.",
+    "contact_access": "Application route is documented through the program review; no public partnerships email was found on a fetched page.",
+    "credibility": "One of the largest protein-snack brands in the US, with mass grocery distribution.",
+    "niche_fit": "Protein bars, cookies and chips are everyday content for fitness, macro-tracking and snack-review creators.",
+    "opportunity_availability": "Own-program application with a stated 24-48 hour approval window.",
+    "ugc_evidence": "The program is documented as an influencer-facing affiliate program with its own application page; no creator counts are published."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.questnutrition.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/smartsweets/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Lasso",
+   "source_url": "https://getlasso.co/affiliate/smartsweets/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/smartsweets/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/smartsweets/"
+   }
+  ],
+  "country": "Canada",
+  "description": "Low-sugar candy brand (gummies, lollipops and chews with up to 92% less sugar than traditional candy), founded in Canada and sold across North America. Its affiliate program is listed in the Lasso marketplace at up to 15.0% commission \u2014 a ceiling, not a base rate, so the recorded rate is null \u2014 with a 14-day cookie and no approval requirements.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/smartsweets/",
+    "summary": "Lasso's SmartSweets program listing (fetched for this batch): commission 'Up to 15.0%', cookie duration 14 days, approval requirements 'None', affiliate network shown as Lasso (its marketplace), payout threshold $10. 'Up to 15.0%' is a rate ceiling, not a published base rate, so commission_rate is recorded as null; Lasso names no underlying network for this program. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "name": "SmartSweets",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/smartsweets/",
+   "source_url": "https://getlasso.co/affiliate/smartsweets/",
+   "title": "SmartSweets Affiliate Program via Lasso \u2014 up to 15.0% (ceiling; base rate unpublished), 14-day cookie"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Only a ceiling ('up to 15.0%') is published, with no base rate, so compensation scores low until the live terms are checked.",
+    "contact_access": "Application route is documented through the Lasso marketplace listing; no public partnerships email was found on a fetched page.",
+    "credibility": "Well-known North American candy brand with national grocery distribution, founded in Canada.",
+    "niche_fit": "Low-sugar candy is a natural fit for snack-review, grocery-haul and 'better swaps' content, and gummies demo well in short video.",
+    "opportunity_availability": "Listed with no approval requirements and a $10 payout threshold \u2014 open now via Lasso.",
+    "ugc_evidence": "The marketplace listing is written for influencers and grocery bloggers; no separate brand-run creator page was fetched."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://smartsweets.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/sports-research-sweet-sweat/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Lasso",
+   "source_url": "https://getlasso.co/affiliate/sports-research-sweet-sweat/"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/sports-research-sweet-sweat/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/sports-research-sweet-sweat/"
+   }
+  ],
+  "country": "United States",
+  "description": "Supplement and wellness brand (collagen, omega-3, MCT oil, vitamins and the Sweet Sweat fitness line) sold nationally. Its affiliate program is listed in the Lasso marketplace at up to 11.25% commission \u2014 a ceiling, not a base rate, so the recorded rate is null \u2014 with a 14-day cookie and no approval requirements.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/sports-research-sweet-sweat/",
+    "summary": "Lasso's 'Sports Research & Sweet Sweat' program listing (fetched for this batch): commission 'Up to 11.25%', cookie duration 14 days, approval requirements 'None', affiliate network shown as Lasso (its marketplace), payout threshold $10. 'Up to 11.25%' is a rate ceiling, not a published base rate, so commission_rate is recorded as null; the brand's own site is JavaScript-heavy and its own affiliate page could not be read in this pass. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "name": "Sports Research",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/sports-research-sweet-sweat/",
+   "source_url": "https://getlasso.co/affiliate/sports-research-sweet-sweat/",
+   "title": "Sports Research Affiliate Program via Lasso \u2014 up to 11.25% (ceiling; base rate unpublished), 14-day cookie"
+  },
+  "score": {
+   "compensation": 5,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Only a ceiling ('up to 11.25%') is published, with no base rate, so compensation scores at the floor until live terms are checked.",
+    "contact_access": "Application route is documented through the Lasso marketplace listing; no public partnerships email was found on a fetched page.",
+    "credibility": "Long-running national supplement brand with wide retail and marketplace distribution.",
+    "niche_fit": "Collagen, omega-3 and workout staples fit fitness and wellness routines; the line is broad enough for repeat content.",
+    "opportunity_availability": "Listed with no approval requirements and a $10 payout threshold \u2014 open now via Lasso.",
+    "ugc_evidence": "The marketplace listing targets influencers in the supplements space; no separate brand-run creator page was fetched."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.sportsresearch.com"
+ }
+]

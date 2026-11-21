@@ -1,0 +1,563 @@
+[
+ {
+  "name": "Puraclenz",
+  "website": "https://puraclenz.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Air and surface purification brand (Photon and Core purifiers using PCO/ionization technology for homes, offices and clinics). Its affiliate program runs on CJ with a published 25% commission per sale and a 30-day cookie — the highest published rate in this batch.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/puraclenz/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/puraclenz/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/puraclenz/",
+    "summary": "Lasso's Puraclenz program listing (fetched in full for this batch): commission rate 25% per sale, cookie duration 30 days, categories Cleaning / Health and Wellness / High-Paying. The page's join buttons route to signup.cj.com, i.e. the program runs on CJ. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": 25,
+   "application_url": "https://getlasso.co/affiliate/puraclenz/",
+   "source_url": "https://getlasso.co/affiliate/puraclenz/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Puraclenz Affiliate Program on CJ — 25% per sale, 30-day cookie",
+   "application_url": "https://getlasso.co/affiliate/puraclenz/",
+   "source_url": "https://getlasso.co/affiliate/puraclenz/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 19,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Home air-quality and germ-conscious cleaning content is an established home-creator niche, and purifiers demo visibly (dust, odors, filter changes).",
+    "ugc_evidence": "The program listing is written for bloggers and influencers, but the brand publishes no creator program page of its own that was fetched.",
+    "compensation": "A published 25% per sale with a 30-day cookie is the strongest rate in this batch, on premium-priced purification hardware.",
+    "contact_access": "Application route is documented through the program's CJ listing; no public partnerships email was found on a fetched page.",
+    "opportunity_availability": "Program is live and joinable now through CJ, per the listing's sign-up route.",
+    "credibility": "Operating DTC purification brand with a live network program; smaller and less widely retailed than the batch's big-name brands."
+   }
+  }
+ },
+ {
+  "name": "Pura",
+  "website": "https://trypura.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Smart home fragrance brand: an app-controlled plug-in diffuser (intensity and scheduling from a phone) with scents made with premium fragrance houses. Its affiliate program runs on Impact with a published commission range of 8%-15% per sale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/pura/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/pura/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://linkclicky.com/affiliate-program/pura/",
+    "summary": "LinkClicky's Pura program profile (page updated March 2024, fetched in full for this batch): affiliate platform Impact, commission 8%-15% per sale, regions ALL, niche Consumer Electronics; the apply step routes to Pura's program page on app.impact.com. The recorded rate is the 8% floor of the published range. No cookie duration, earnings-cap statement or creator count is published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 8,
+   "application_url": "https://linkclicky.com/affiliate-program/pura/",
+   "source_url": "https://linkclicky.com/affiliate-program/pura/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pura Affiliate Program on Impact — 8%-15% per sale (recorded at the 8% floor)",
+   "application_url": "https://linkclicky.com/affiliate-program/pura/",
+   "source_url": "https://linkclicky.com/affiliate-program/pura/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A phone-controlled scent diffuser is highly demonstrable smart-home content — scent swaps, schedules and room tours are proven home-creator formats.",
+    "ugc_evidence": "The program runs on Impact, a creator-recruiting network, and the profile is written for publishers and influencers; Pura is also a familiar brand in influencer home content.",
+    "compensation": "Published 8%-15% per sale; recorded at the 8% floor. The range's top end is attractive, but no cookie duration is published.",
+    "contact_access": "Application route is documented through the program's Impact listing; no public creator contact email was found on a fetched page.",
+    "opportunity_availability": "Program is live and joinable now through Impact.",
+    "credibility": "Well-known DTC smart-fragrance brand with mass influencer awareness and national retail presence."
+   }
+  }
+ },
+ {
+  "name": "dbrand",
+  "website": "https://dbrand.com",
+  "country": "Canada",
+  "category_slug": "technology",
+  "description": "Toronto device-customization brand selling precision-cut vinyl skins and Grip cases for phones, laptops, consoles and controllers. Its affiliate program runs on CJ Affiliate with a published 7% commission per sale and a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/dbrand/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/dbrand/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://linkclicky.com/affiliate-program/dbrand/",
+    "summary": "LinkClicky's dbrand program profile (page updated March 2024, fetched in full for this batch): affiliate platform CJ Affiliate, commission 7% per sale, region US, and the join step routes to signup.cj.com. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "third_party",
+    "source_url": "https://getlasso.co/affiliate/dbrand/",
+    "summary": "Lasso's dbrand program listing (fetched for this batch) corroborates the 7% per sale commission and adds a 30-day cookie duration, categories Electronics / Tech."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": 7,
+   "application_url": "https://linkclicky.com/affiliate-program/dbrand/",
+   "source_url": "https://linkclicky.com/affiliate-program/dbrand/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "dbrand Affiliate Program on CJ — 7% per sale, 30-day cookie",
+   "application_url": "https://linkclicky.com/affiliate-program/dbrand/",
+   "source_url": "https://linkclicky.com/affiliate-program/dbrand/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Device skins and cases are core tech-creator content — installs, teardowns and desk setups film in seconds and refresh with every device launch.",
+    "ugc_evidence": "The program is listed for tech bloggers and influencers on two directories; dbrand's brand is built on creator and social culture, though no dedicated creator page was fetched.",
+    "compensation": "Published 7% per sale with a 30-day cookie, corroborated by two independent listings; a mid-range accessories rate.",
+    "contact_access": "Application route is documented through the CJ listing; no public partnerships email was found on a fetched page.",
+    "opportunity_availability": "Program is live and joinable now through CJ.",
+    "credibility": "Category-defining device-skin brand with a decade-plus track record and a long-running network program."
+   }
+  }
+ },
+ {
+  "name": "Bully Beds",
+  "website": "https://bullybeds.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Premium dog-bed brand built for large and giant breeds: orthopedic memory-foam beds with washable, chew-resistant microfiber covers and long warranties. Its affiliate program runs on ShareASale with a published 6% commission per sale and a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/bully-beds/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/bully-beds/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/bully-beds/",
+    "summary": "Lasso's Bully Beds program listing (fetched in full for this batch): commission rate 6% per sale, cookie duration 30 days, categories Dog / Pet. The page's join buttons route to shareasale.com, i.e. the program runs on ShareASale. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 6,
+   "application_url": "https://getlasso.co/affiliate/bully-beds/",
+   "source_url": "https://getlasso.co/affiliate/bully-beds/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bully Beds Affiliate Program on ShareASale — 6% per sale, 30-day cookie",
+   "application_url": "https://getlasso.co/affiliate/bully-beds/",
+   "source_url": "https://getlasso.co/affiliate/bully-beds/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Big-dog comfort is a loyal pet niche; orthopedic beds for giant breeds demo well in dog-home and senior-dog content.",
+    "ugc_evidence": "The program listing addresses pet bloggers and influencers; no brand-run creator page was fetched.",
+    "compensation": "Published 6% per sale with a 30-day cookie; beds are premium-priced, so per-sale payouts are meaningful despite the modest percentage.",
+    "contact_access": "Application route is documented through the program listing into ShareASale; no public creator email was found on a fetched page.",
+    "opportunity_availability": "Program is live and joinable now through ShareASale.",
+    "credibility": "Established specialist DTC brand with long warranties and a long-running affiliate presence."
+   }
+  }
+ },
+ {
+  "name": "Ultraloq",
+  "website": "https://ultraloq.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Smart-lock brand by U-tec (Xthings Group): fingerprint, keypad and UWB smart deadbolts sold to millions of households. It runs a ShareASale affiliate program and its own creator program, but published commission figures conflict (5% / 10% / 15%), so no rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/ultraloq/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/ultraloq/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/ultraloq/",
+    "summary": "Lasso's Ultraloq program listing (fetched in full for this batch): commission rate 5% per sale, cookie duration 60 days, categories Electronics / Home Security / Tech. The page's join buttons route to shareasale.com, i.e. the program runs on ShareASale. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "third_party",
+    "source_url": "https://www.shopper.com/partnerships/u-tec-com-affiliate-program",
+    "summary": "Shopper.com's Ultraloq (U-tec) US listing reports a 10% payout per sale with a 1-month cookie, and the brand's own Instagram creator-program post advertises 15% commission on approved creator sales. Because published rates conflict across fetched sources (5% / 10% / 15%), commission_rate is recorded as null; the ShareASale route and the existence of a brand creator program are the consistent facts."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/ultraloq/",
+   "source_url": "https://getlasso.co/affiliate/ultraloq/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ultraloq Affiliate Program on ShareASale — rate not recorded (published sources conflict at 5% / 10% / 15%), 60-day cookie per Lasso",
+   "application_url": "https://getlasso.co/affiliate/ultraloq/",
+   "source_url": "https://getlasso.co/affiliate/ultraloq/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 6,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Smart locks are staple smart-home and rental/renovation content — installs and fingerprint demos are highly watchable.",
+    "ugc_evidence": "The brand runs its own creator program ('Co-create with us', per its official Instagram post) alongside the network program — the strongest creator evidence in this batch.",
+    "compensation": "No rate can be honestly recorded: fetched sources conflict at 5% (ShareASale listing), 10% (Shopper) and 15% (brand creator post).",
+    "contact_access": "Application routes are documented through ShareASale and the brand's creator outreach; no public partnerships email was found on a fetched page.",
+    "opportunity_availability": "Programs are live now through ShareASale and the brand's creator program.",
+    "credibility": "Established smart-lock brand under Xthings Group, sold through major US retailers."
+   }
+  }
+ },
+ {
+  "name": "GoPro",
+  "website": "https://gopro.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Action-camera brand (HERO and MAX 360 cameras, mounts and accessories) built for creators, athletes and travelers. Its official affiliate program runs through Partnerize with sign-up from GoPro's own site; published rates conflict across directories (3% vs 4%), so no rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.creator-hero.com/blog/gopro-affiliate-program-in-depth-review-pros-and-cons",
+    "email": null,
+    "source_url": "https://www.creator-hero.com/blog/gopro-affiliate-program-in-depth-review-pros-and-cons"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "third_party",
+    "source_url": "https://www.creator-hero.com/blog/gopro-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator Hero's in-depth GoPro program review (published Nov 2024, updated May 2026; fetched in full for this batch): GoPro runs its affiliate program exclusively through the Partnerize network at 3% per sale with a 30-day cookie, global availability, and sign-up via GoPro's official affiliate page (gopro.com/en/us/legal/gopro-affiliate-program), with manual brand-fit review. A second directory (UpPromote) independently reports the same Partnerize management and 3% flat rate. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "third_party",
+    "source_url": "https://getlasso.co/affiliate/gopro/",
+    "summary": "Lasso's GoPro program listing instead reports the program on Impact at 4% per sale with a 7-day cookie. Because the network and rate conflict with the Partnerize / 3% / 30-day terms reported by two other fetched sources, commission_rate is recorded as null and the conflict is documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": null,
+   "application_url": "https://www.creator-hero.com/blog/gopro-affiliate-program-in-depth-review-pros-and-cons",
+   "source_url": "https://www.creator-hero.com/blog/gopro-affiliate-program-in-depth-review-pros-and-cons",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "GoPro Affiliate Program via Partnerize — rate not recorded (sources conflict at 3% Partnerize vs 4% Impact), 30-day cookie per Partnerize reports",
+   "application_url": "https://www.creator-hero.com/blog/gopro-affiliate-program-in-depth-review-pros-and-cons",
+   "source_url": "https://www.creator-hero.com/blog/gopro-affiliate-program-in-depth-review-pros-and-cons"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 6,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Action cameras are creator tools first — travel, sports and POV content is the product's native habitat, and every launch is a content event.",
+    "ugc_evidence": "The program is documented across multiple creator-focused directories and GoPro's brand is built on user-generated footage, though approval is a manual brand-fit review.",
+    "compensation": "No rate can be honestly recorded: two fetched sources report 3% via Partnerize while Lasso reports 4% via Impact.",
+    "contact_access": "Sign-up runs from GoPro's own affiliate page into the network, as documented by the fetched review; no public partnerships email was found.",
+    "opportunity_availability": "Program is live globally, but applications are manually reviewed for brand fit, which narrows instant availability.",
+    "credibility": "Category-defining public camera brand with over $1B in reported 2024 revenue."
+   }
+  }
+ },
+ {
+  "name": "SimpliSafe",
+  "website": "https://simplisafe.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "DIY home-security brand (wireless alarm systems, cameras and sensors with optional monitoring). Its affiliate program is reachable through FlexOffers; published payouts conflict (a flat $8 per sale vs 10% claims), so no rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/simplisafe/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/simplisafe/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/simplisafe/",
+    "summary": "Lasso's SimpliSafe program listing (fetched in full for this batch): commission $8 per sale (flat), cookie duration 1 day, payout threshold $50, categories Electronics / Home Security. The page's join buttons route to publisherpro.flexoffers.com, i.e. this route runs through FlexOffers. Roundup sources elsewhere claim 10% per sale and a 30-day cookie, and another directory describes the program as Awin-managed — because the published payouts conflict, commission_rate is recorded as null. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/simplisafe/",
+   "source_url": "https://getlasso.co/affiliate/simplisafe/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "SimpliSafe Affiliate Program via FlexOffers — rate not recorded ($8 flat per Lasso vs 10% claims elsewhere), 1-day cookie per Lasso",
+   "application_url": "https://getlasso.co/affiliate/simplisafe/",
+   "source_url": "https://getlasso.co/affiliate/simplisafe/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 6,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "DIY security installs, camera tests and renter-friendly setups are proven smart-home content with high purchase intent.",
+    "ugc_evidence": "The program listing targets home-security bloggers and publishers; no creator-specific recruitment was found on a fetched page.",
+    "compensation": "No rate can be honestly recorded: Lasso reports a flat $8 per sale with a 1-day cookie, while roundups claim 10% — the conflict and the very short cookie cap the grade.",
+    "contact_access": "Application route is documented through the listing into FlexOffers; no public partnerships email was found on a fetched page.",
+    "opportunity_availability": "Program is live and joinable now through FlexOffers.",
+    "credibility": "One of the largest DIY security brands in the US, with mass retail and advertising presence."
+   }
+  }
+ },
+ {
+  "name": "Winix",
+  "website": "https://winix.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Air-purifier brand (True HEPA and PlasmaWave models for large rooms, pet dander and allergies) with a long-running US retail presence. Its affiliate listing publishes only an 'up to 6.0%' ceiling with a 14-day cookie, so no base rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/winix/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/winix/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/winix/",
+    "summary": "Lasso's Winix program listing (fetched in full for this batch): commission 'Up to 6.0%', cookie duration 14 days, approval requirements none, payout threshold $10, affiliate network listed as Lasso (no underlying network named). 'Up to' is a rate ceiling rather than a published base rate, so commission_rate is recorded as null. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Lasso",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/winix/",
+   "source_url": "https://getlasso.co/affiliate/winix/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Winix Affiliate Program via Lasso — 'up to 6.0%' ceiling published (no base rate stated), 14-day cookie",
+   "application_url": "https://getlasso.co/affiliate/winix/",
+   "source_url": "https://getlasso.co/affiliate/winix/"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 10,
+   "compensation": 6,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Air quality, allergies and pet-dander content is a steady home-health niche; purifiers are considered purchases, so the audience is narrower than gadget content.",
+    "ugc_evidence": "The listing is beginner- and blogger-oriented; no brand-run creator page was fetched.",
+    "compensation": "Only an 'up to 6.0%' ceiling is published with the underlying network unnamed, so no base rate can be honestly recorded.",
+    "contact_access": "Join route runs through the Lasso listing; no public creator contact was found on a fetched page.",
+    "opportunity_availability": "Listing is live with no approval requirements stated — the easiest join in this batch.",
+    "credibility": "Established purifier brand with wide US retail distribution and long-reviewed flagship models."
+   }
+  }
+ },
+ {
+  "name": "Homesick",
+  "website": "https://www.homesick.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Scented-candle brand built on place nostalgia — city, state and memory-themed soy candles and reed diffusers, heavily gifted. Its affiliate listing publishes an 'up to 5-10%' payout range with the underlying network unnamed, so no base rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.shopper.com/partnerships/homesickcandles-com-affiliate-program",
+    "email": null,
+    "source_url": "https://www.shopper.com/partnerships/homesickcandles-com-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "third_party",
+    "source_url": "https://www.shopper.com/partnerships/homesickcandles-com-affiliate-program",
+    "summary": "Shopper.com's Homesickcandles program listing (fetched in full for this batch): payout 'up to 5-10%' per sale, country United States, instant approval through Shopper.com; the listing does not name an underlying affiliate network or a cookie duration. A range stated as an 'up to' ceiling is not a published base rate, so commission_rate is recorded as null. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopper.com",
+   "commission_rate": null,
+   "application_url": "https://www.shopper.com/partnerships/homesickcandles-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/homesickcandles-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Homesick Affiliate Program via Shopper.com — 'up to 5-10%' range published (no base rate stated)",
+   "application_url": "https://www.shopper.com/partnerships/homesickcandles-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/homesickcandles-com-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 6,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Place-themed candles are gift-guide and cozy-home staples with strong seasonal peaks — natural home-creator content.",
+    "ugc_evidence": "The program listing addresses creators and bloggers, but the underlying network is not named and no brand creator page was fetched.",
+    "compensation": "Only an 'up to 5-10%' range is published, so no base rate can be honestly recorded.",
+    "contact_access": "Joining runs through the Shopper.com listing with instant approval; no public partnerships email was found on a fetched page.",
+    "opportunity_availability": "Listing is live and joinable now through Shopper.com.",
+    "credibility": "Well-known DTC candle brand with national gift retail presence."
+   }
+  }
+ },
+ {
+  "name": "Coyuchi",
+  "website": "https://www.coyuchi.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Organic home-textiles brand (GOTS-certified cotton and linen bedding, towels and sleepwear) with a 30-plus-year sustainability heritage. Its affiliate listing publishes only an 'up to 4.24%' payout with the underlying network unnamed, so no base rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.Shopper.com/partnerships/coyuchi-com-affiliate-program",
+    "email": null,
+    "source_url": "https://www.Shopper.com/partnerships/coyuchi-com-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "third_party",
+    "source_url": "https://www.Shopper.com/partnerships/coyuchi-com-affiliate-program",
+    "summary": "Shopper.com's Coyuchi program listing (fetched in full for this batch): payout 'up to 4.24%' per sale, country United States, desktop platform, deep-linking supported, instant approval through Shopper.com; the listing does not name an underlying affiliate network or a cookie duration. An 'up to' figure is a ceiling rather than a published base rate, so commission_rate is recorded as null. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopper.com",
+   "commission_rate": null,
+   "application_url": "https://www.Shopper.com/partnerships/coyuchi-com-affiliate-program",
+   "source_url": "https://www.Shopper.com/partnerships/coyuchi-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Coyuchi Affiliate Program via Shopper.com — 'up to 4.24%' ceiling published (no base rate stated)",
+   "application_url": "https://www.Shopper.com/partnerships/coyuchi-com-affiliate-program",
+   "source_url": "https://www.Shopper.com/partnerships/coyuchi-com-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 10,
+   "compensation": 6,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Organic bedding and linen care are steady slow-living and bedroom-refresh content; premium prices narrow the audience.",
+    "ugc_evidence": "The program listing addresses creators and bloggers, but the underlying network is not named and no brand creator page was fetched.",
+    "compensation": "Only an 'up to 4.24%' ceiling is published, so no base rate can be honestly recorded.",
+    "contact_access": "Joining runs through the Shopper.com listing with instant approval; no public partnerships email was found on a fetched page.",
+    "opportunity_availability": "Listing is live and joinable now through Shopper.com.",
+    "credibility": "Pioneer organic-textiles brand with three decades of operating history and national retail presence."
+   }
+  }
+ }
+]

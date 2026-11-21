@@ -1,0 +1,548 @@
+[
+ {
+  "name": "Horizn Studios",
+  "website": "https://horizn-studios.com",
+  "country": "Germany",
+  "category_slug": "travel",
+  "description": "Berlin-based smart luggage brand selling design-led suitcases, backpacks and travel accessories. Its affiliate program runs through CJ Affiliate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/horizn-studios/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/horizn-studios/",
+    "summary": "Lasso (fetched) lists the Horizn Studios affiliate program at 15% per sale with a 30-day cookie in the Luggage/Travel categories, and its join link routes to signup.cj.com, identifying CJ Affiliate as the network. Shopper independently reports the same 15% payout. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings. No source publishes an absolute creator count, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 15,
+   "application_url": "https://getlasso.co/affiliate/horizn-studios/",
+   "source_url": "https://getlasso.co/affiliate/horizn-studios/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Horizn Studios Affiliate Program (CJ Affiliate)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 17,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Smart luggage and travel gear are a core, high-intent niche for travel creators.",
+    "An established DTC travel brand with an active affiliate program marketed to travel bloggers and influencers.",
+    "A 15% per-sale commission - the highest verified rate in this group - on premium-priced luggage; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the CJ Affiliate listing; no public brand partnerships email was found.",
+    "Open application through CJ Affiliate, subject to network approval.",
+    "A well-known Berlin luggage brand founded in 2015, sold internationally."
+   ]
+  }
+ },
+ {
+  "name": "Toad&Co",
+  "website": "https://www.toadandco.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Santa Barbara-based sustainable apparel brand selling organic and recycled-fiber clothing for outdoor and everyday wear. Its affiliate program runs through Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.toadandco.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.toadandco.com/pages/affiliate-program",
+    "summary": "Toad&Co's own affiliate page (fetched) states the brand 'has partnered with Impact' to run its affiliate program, with a 30-day cookie duration and sign-up through app.impact.com. The page names outdoor lifestyle and travel bloggers and sustainable fashion influencers as its target partners. It does not publish a commission percentage or any earnings-cap statement, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/toadco/",
+    "summary": "Lasso (fetched) lists the Toad&Co affiliate program at 8% per sale with a 30-day cookie in the Fashion category, consistent with the 30-day cookie on the brand's own page. No fetched source states any earnings cap or an absolute creator count, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 8,
+   "application_url": "https://www.toadandco.com/pages/affiliate-program",
+   "source_url": "https://www.toadandco.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Toad&Co Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 13,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Sustainable everyday and outdoor apparel is a strong fit for fashion and travel creators.",
+    "A long-running, mission-led brand that explicitly recruits sustainable fashion influencers and travel bloggers.",
+    "An 8% per-sale commission reported by Lasso with a 30-day cookie confirmed on the brand's own page; no earnings cap is stated, so the cap stays unknown.",
+    "The brand's own affiliate page links straight to the Impact sign-up; no public partnerships email was found.",
+    "Open application through Impact, subject to network approval.",
+    "Founded in 1997 (as Horny Toad) and a well-established US sustainable apparel brand."
+   ]
+  }
+ },
+ {
+  "name": "Buck Mason",
+  "website": "https://www.buckmason.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Los Angeles menswear brand selling modern American wardrobe essentials. Its affiliate program is listed on Awin (the former ShareASale program) with applications via the brand's own affiliates page.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "affiliates@buckmason.com",
+    "contact_url": null
+   },
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.buckmason.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/91633?setLocale=nl_NL",
+    "summary": "Buck Mason's Awin merchant profile (fetched) publishes the program terms: 'up to 15% commission on net sales (excluding shipping, taxes and returns)', a 30-day conversion window, payments every 60 days, and the program contact affiliates@buckmason.com. 'Up to 15%' is a rate ceiling, not a published base rate, so commission_rate is null. The profile text still references ShareASale reporting; the program now sits on Awin, which absorbed ShareASale. No earnings-cap statement appears, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.buckmason.com/pages/affiliates",
+    "summary": "Buck Mason's own affiliates page (fetched) invites fashion and lifestyle publishers and websites to 'earn commissions with us' and routes applications into the program. It publishes no rate, cap, or creator-count figures."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://www.buckmason.com/pages/affiliates",
+   "source_url": "https://ui.awin.com/merchant-profile/91633?setLocale=nl_NL",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Buck Mason Affiliate Program (Awin)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 10,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Timeless American menswear essentials are a core niche for men's fashion creators.",
+    "A prominent DTC menswear brand with an established, actively promoted affiliate program.",
+    "Only an 'up to 15%' ceiling on net sales is published - no base rate - so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "A published program email (affiliates@buckmason.com) plus the brand's own affiliates page give two direct contact routes.",
+    "Open application through the brand's affiliates page into Awin, subject to approval.",
+    "One of the best-known US DTC menswear brands, founded in Los Angeles in 2013."
+   ]
+  }
+ },
+ {
+  "name": "Rains",
+  "website": "https://www.rains.com",
+  "country": "Denmark",
+  "category_slug": "fashion",
+  "description": "Danish contemporary rainwear lifestyle brand selling waterproof coats, bags and accessories. Its affiliate program runs through CJ Affiliate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/rains/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/rains/",
+    "summary": "LinkClicky (fetched) lists the RAINS affiliate program on CJ Affiliate at 10% per sale, with joining routed through signup.cj.com. The Post Affiliate Pro directory independently reports the same 10% rate with a 30-day cookie, monthly PayPal payouts and no minimum payout. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings. No source publishes an absolute creator count, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/rains/",
+   "source_url": "https://linkclicky.com/affiliate-program/rains/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Rains Affiliate Program (CJ Affiliate)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Waterproof outerwear and bags sit squarely in fashion and travel content.",
+    "An internationally distributed rainwear brand with an established affiliate program.",
+    "A 10% per-sale commission corroborated by two directories, with a 30-day cookie; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the CJ Affiliate listing; no public brand partnerships email was found.",
+    "Open application through CJ Affiliate, subject to network approval.",
+    "A well-known Danish rainwear brand founded in 2012, sold in stores worldwide."
+   ]
+  }
+ },
+ {
+  "name": "Christy Dawn",
+  "website": "https://christydawn.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Los Angeles sustainable dress brand sewing timeless pieces from deadstock and regenerative fabrics. Its affiliate program runs through FlexOffers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/christy-dawn/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/christy-dawn/",
+    "summary": "Lasso (fetched) lists the Christy Dawn affiliate program at 8% per sale with a 10-day cookie in the Fashion category, and its join link routes to publisherpro.flexoffers.com, identifying FlexOffers as the network. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings. No source publishes an absolute creator count, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 8,
+   "application_url": "https://getlasso.co/affiliate/christy-dawn/",
+   "source_url": "https://getlasso.co/affiliate/christy-dawn/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Christy Dawn Affiliate Program (FlexOffers)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Sustainable, romantic dresses are a proven niche for ethical-fashion creators.",
+    "A cult slow-fashion brand with a documented affiliate program and a referral program alongside it.",
+    "An 8% per-sale commission reported by Lasso; the 10-day cookie is short, and no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the FlexOffers listing; no public brand partnerships email was found.",
+    "Open application through FlexOffers, subject to network approval.",
+    "A recognized LA slow-fashion label founded in 2014 with celebrity and editorial coverage."
+   ]
+  }
+ },
+ {
+  "name": "ThirdLove",
+  "website": "https://www.thirdlove.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "San Francisco DTC intimates brand known for half-cup bra sizing and its online Fitting Room quiz. Its affiliate program runs through Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/thirdlove/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/thirdlove/",
+    "summary": "LinkClicky (fetched) lists the ThirdLove affiliate program on Impact at 3% per sale, with joining routed through app.impact.com; the brand's own job postings likewise describe its affiliate program running across Impact, ShopMy and LTK. Published rates conflict - Shopper reports 'up to 5.65%' - so commission_rate is null with the conflict documented here. No fetched source states any earnings cap, so commission_cap is unknown. No source publishes an absolute creator count, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/thirdlove/",
+   "source_url": "https://linkclicky.com/affiliate-program/thirdlove/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ThirdLove Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Intimates and fit-focused apparel are a core niche for women's fashion and lifestyle creators.",
+    "A large, creator-led DTC brand that runs dedicated influencer and affiliate programs across Impact, ShopMy and LTK.",
+    "Published rates conflict (3% per LinkClicky vs 'up to 5.65%' per Shopper), so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the Impact listing; no public brand partnerships email was found.",
+    "Open application through Impact, subject to network approval.",
+    "One of the best-known DTC intimates brands, founded in San Francisco in 2013."
+   ]
+  }
+ },
+ {
+  "name": "Stubble & Co",
+  "website": "https://www.stubbleandco.com",
+  "country": "United Kingdom",
+  "category_slug": "travel",
+  "description": "British bag brand selling durable backpacks, roll tops and holdalls for travel and everyday carry. It runs its own Ambassador Program giving creators personal links and commission.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.shopper.com/partnerships/stubbleandco-com-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.shopper.com/partnerships/stubbleandco-com-affiliate-program",
+    "summary": "Shopper (fetched) lists the Stubble & Co affiliate program at 'up to 5-10%' per sale - a range ceiling, not a published base rate. Multiple ambassador posts from the brand's own Ambassador Program state creators earn 10% commission through personal links at stubbleandco.com while followers get 15% off. Because no single authoritative base rate is published, commission_rate is null with the range and the ambassador reports documented here. No fetched source states any earnings cap, so commission_cap is unknown, and no absolute creator count is published, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program",
+   "commission_rate": null,
+   "application_url": "https://www.shopper.com/partnerships/stubbleandco-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/stubbleandco-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Stubble & Co Ambassador Program (Own program)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": [
+    "Backpacks and holdalls built for travel are a direct fit for travel and everyday-carry creators.",
+    "The brand actively recruits ambassadors, and multiple creators publicly document earning commission through personal links.",
+    "Only a 5-10% range is published (ambassadors report 10%), so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the brand's ambassador route; no public brand partnerships email was found.",
+    "Ambassador applications are open, though the application route is less formal than a network listing.",
+    "A growing UK bag brand with a visible creator community, though smaller than the network-listed brands in this group."
+   ]
+  }
+ },
+ {
+  "name": "Mizzen+Main",
+  "website": "https://www.mizzenandmain.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Dallas performance menswear brand selling moisture-wicking dress shirts and tailored staples. Its affiliate program runs through Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/mizzen-main/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/mizzen-main/",
+    "summary": "Lasso (fetched) lists the Mizzen+Main affiliate program at 5% per sale with a 15-day cookie in the Fashion category, and its join link routes to app.impact.com, identifying Impact as the network. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings. No source publishes an absolute creator count, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": "https://getlasso.co/affiliate/mizzen-main/",
+   "source_url": "https://getlasso.co/affiliate/mizzen-main/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mizzen+Main Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Performance dresswear is a defined niche for men's fashion and professional-style creators.",
+    "An established performance-menswear brand with an active affiliate program.",
+    "A 5% per-sale commission reported by Lasso with a short 15-day cookie; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the Impact listing; no public brand partnerships email was found.",
+    "Open application through Impact, subject to network approval.",
+    "A well-known Dallas menswear brand founded in 2012, widely retailed and reviewed."
+   ]
+  }
+ },
+ {
+  "name": "State & Liberty",
+  "website": "https://www.stateandliberty.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "US menswear brand selling athletic-fit suits, dress shirts and pants in stretch performance fabrics. Its affiliate program runs through Awin.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/state-and-liberty-us/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/state-and-liberty-us/",
+    "summary": "Lasso (fetched) lists the State and Liberty (US) affiliate program at 5% per sale with a 30-day cookie, and its join link routes to ui.awin.com, identifying Awin as the network; Awin's own published case study likewise describes State & Liberty's affiliate program being tracked through Awin. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings. No source publishes an absolute creator count, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://getlasso.co/affiliate/state-and-liberty-us/",
+   "source_url": "https://getlasso.co/affiliate/state-and-liberty-us/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "State & Liberty Affiliate Program (Awin)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Athletic-fit formalwear is a distinct, underserved niche for men's fashion creators.",
+    "A growing menswear brand whose affiliate program is featured in an Awin case study on content partnerships.",
+    "A 5% per-sale commission reported by Lasso with a 30-day cookie; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the Awin listing; no public brand partnerships email was found.",
+    "Open application through Awin, subject to network approval.",
+    "A recognized US athletic-fit menswear brand founded in 2015, sold online and in its own stores."
+   ]
+  }
+ },
+ {
+  "name": "Cabeau",
+  "website": "https://cabeau.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "US travel-comfort brand known for its Evolution memory-foam neck pillows, sleep masks and travel accessories. Directories conflict on its affiliate network and rate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/cabeau/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/cabeau/",
+    "summary": "LinkClicky (fetched) lists the Cabeau affiliate program on Rakuten Advertising at 5% per sale for AU/CA/US regions, with joining routed through signup.linkshare.com. No earnings-cap statement appears, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/cabeau-inc/",
+    "summary": "Lasso (fetched) instead lists Cabeau at 8% per sale with a 45-day cookie and its join link routes to ShareASale, conflicting with LinkClicky's Rakuten Advertising listing at 5%. Because the two fetched directories conflict on both network and rate, commission_rate is null and the conflict is documented here; the live join route (ShareASale) is recorded as the network. No fetched source states any earnings cap or an absolute creator count, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/cabeau-inc/",
+   "source_url": "https://linkclicky.com/affiliate-program/cabeau/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Cabeau Affiliate Program (ShareASale)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Travel comfort accessories are a staple category for travel creators and flight-content niches.",
+    "A category-leading neck pillow brand with an affiliate presence across directories.",
+    "Published rates and networks conflict (5% via Rakuten per LinkClicky vs 8% via ShareASale per Lasso), so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the network listings; no public brand partnerships email was found.",
+    "Open application through the network listings, subject to approval.",
+    "A well-known US travel accessories brand, founded in 2009 and widely retailed."
+   ]
+  }
+ }
+]

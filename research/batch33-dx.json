@@ -1,0 +1,551 @@
+[
+ {
+  "name": "Zendure",
+  "website": "https://www.zendure.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Portable power stations, solar generators and home energy storage (SuperBase and SolarFlow lines) from an EnergyTech brand founded in Silicon Valley. Its own affiliate page routes creators, influencers, publishers and bloggers into its Impact program with a published per-sale commission and a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://zendure.com/pages/affiliate-program",
+    "source_url": "https://zendure.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://zendure.com/pages/affiliate-program",
+    "summary": "Zendure's own affiliate program page fetched in full: 'Join us and enjoy upto 10% commission now', a commission panel stating 'Up to 5% commission on each sale', 'Use 30-day cookies duration', an extra audience discount, and a free three-step sign-up. The page's join link points to Zendure's Impact campaign ('Zendure-SuperCharged-EnergyTech-Start-ups' on app.impact.com), and the copy expressly invites social media influencers, content creators, publishers and bloggers. Recorded rate is the published 5% per-sale figure, with headline performance tiers up to 10%. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/68786",
+    "summary": "Zendure's EU program on Awin ('Zendure EU Marketing') lists 5% commission per sale and a 30-day cookie window for its SolarFlow home-storage line, corroborating the 5% base rate on the brand's own US page. No cap statement or creator count is published."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": "https://zendure.com/pages/affiliate-program",
+   "source_url": "https://zendure.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Zendure Affiliate Program on Impact \u2014 5% per sale (tiers to 10%), 30-day cookie",
+   "application_url": "https://zendure.com/pages/affiliate-program",
+   "source_url": "https://zendure.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Portable power and home-backup gear is proven tech/home creator content \u2014 reviews, outage prep and off-grid builds.",
+    "ugc_evidence": "The brand's own program page expressly recruits influencers, content creators, publishers and bloggers, with an audience discount to share.",
+    "compensation": "Published 5% per sale with headline tiers up to 10% and a 30-day cookie; high order values help, but the base rate is mid-band and no cap statement is published.",
+    "contact_access": "One route in: the Impact application linked from the brand's page. No published affiliate email.",
+    "opportunity_availability": "Program is live and free to join per the brand's page; approval sits with the network listing.",
+    "credibility": "Established energy-tech brand with consistent 5% reporting across its own page and its Awin EU listing."
+   }
+  }
+ },
+ {
+  "name": "ALLPOWERS",
+  "website": "https://iallpowers.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Portable power stations, solar panels and solar generator kits for camping, RV, emergency preparedness and home backup. Its own affiliate page is built around creators and influencers, publishes a 5% base rate with performance tiers to 10%, a 30-day cookie, a $500+ average order value and a named affiliate-team email, with joining via CJ, Awin, AvantLink or GoAffPro.",
+  "contacts": [
+   {
+    "contact_type": "marketing",
+    "email": "marketing@allpowers.com",
+    "contact_url": "https://iallpowers.com/pages/affiliate-program",
+    "source_url": "https://iallpowers.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://iallpowers.com/pages/affiliate-program",
+    "summary": "ALLPOWERS' own affiliate page fetched in full: 'Commission up to 10%', 'A 5%+ base rate with performance tiers up to 10%', 30-day cookie window, $500+ average order value, applications typically reviewed within 48 hours, and joining via 'CJ, Awin, AvantLink or GoAffPro'. The page names its audience as creators and influencers (outdoor, technology, RV, preparedness, home-energy), publishers and review sites, and publishes the affiliate team contact marketing@allpowers.com. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/40342",
+    "summary": "ALLPOWERS' Awin merchant profile (US & CA) lists commission of 5%-8% on all sales, a 30-day cookie, an average $500 order value and monthly performance incentives, corroborating the base rate on the brand's own page."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": 5,
+   "application_url": "https://iallpowers.com/pages/affiliate-program",
+   "source_url": "https://iallpowers.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ALLPOWERS Affiliate Program \u2014 5% base (tiers to 10%) via CJ, Awin, AvantLink or GoAffPro",
+   "application_url": "https://iallpowers.com/pages/affiliate-program",
+   "source_url": "https://iallpowers.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Power stations and solar kits anchor outdoor, RV, prepper and home-backup creator content; the brand lists exactly those niches.",
+    "ugc_evidence": "A creator-first program page: field tests, home-backup guides and outdoor stories are the named content formats, with banners and approved offers supplied.",
+    "compensation": "5% base with tiers to 10% on a $500+ average order and a 30-day cookie; exact rate varies by network and no cap statement is published.",
+    "contact_access": "Published affiliate-team email (marketing@allpowers.com) plus four network application routes \u2014 several ways in.",
+    "opportunity_availability": "Live program with a stated ~48-hour application review across four networks.",
+    "credibility": "Consistent terms across the brand's own page and its Awin profile; an established portable-power brand."
+   }
+  }
+ },
+ {
+  "name": "OUPES",
+  "website": "https://oupes.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Portable power stations and solar generators (Mega and Exodus lines) aimed at home backup, camping and RV use. Its own affiliate page publishes a flat 5% commission, a long 60-day cookie and a stated $1,000 average order value, with joining through its affiliate network partners including Awin.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://oupes.com/pages/affiliate-program",
+    "source_url": "https://oupes.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://oupes.com/pages/affiliate-program",
+    "summary": "OUPES' own affiliate page fetched in full: 'Join OUPES and Earn 5% for every referral', 'At least 5% commission', a stated $1,000 average order value, 'Cookies Last 60 days', exclusive discount codes and a dedicated marketing manager, with sign-up via its affiliate program partners. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/59365",
+    "summary": "OUPES' Awin merchant profile confirms 5% commission, exclusive discount codes and a 60-day cookie duration, matching the brand's own page."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://oupes.com/pages/affiliate-program",
+   "source_url": "https://oupes.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "OUPES Affiliate Program on Awin \u2014 5% commission, 60-day cookie, $1,000 average order",
+   "application_url": "https://oupes.com/pages/affiliate-program",
+   "source_url": "https://oupes.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Home-backup and off-grid power stations fit tech, prepper and RV creator content well.",
+    "ugc_evidence": "A live partner page with discount codes and a named dedicated marketing manager, though less creator-specific than rivals' pages.",
+    "compensation": "Flat published 5% on a stated $1,000 average order with a generous 60-day cookie; no cap statement published.",
+    "contact_access": "Network application routes from the brand's page; no published affiliate email.",
+    "opportunity_availability": "Program live on Awin with the brand actively promoting partner sign-up.",
+    "credibility": "Terms agree across the brand page and Awin; a smaller brand than the category leaders, so a point is held back."
+   }
+  }
+ },
+ {
+  "name": "TORRAS",
+  "website": "https://torraslife.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Consumer tech accessories brand founded in 2012, best known for Ostand phone cases, screen protectors and cooling chargers, claiming 100M+ customers across 148 regions. Its own affiliate page routes applicants to Impact, advertises commission rates going up to 15%, a 30-day cookie and a claimed 3%+ average conversion rate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://torraslife.com/pages/affiliate",
+    "source_url": "https://torraslife.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://torraslife.com/pages/affiliate",
+    "summary": "TORRAS' own affiliate page fetched in full: 'our commission rates go up to 15%', '30-Day cookies', 'averages 3%+ CVR', and instructions to apply through its Impact link and share 'an affiliate link provided by Impact'. The page publishes no base commission rate, no earnings-cap statement and no creator count, so the recorded rate is null and cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://www.wowtrk.com/offer/3826593",
+    "summary": "A network offer listing for TORRAS (ClickDealer/WOWTRK) shows an 8% of order sale amount base with bonus tiers to 8.8% and 9.6% at monthly revenue thresholds and a 30-day cookie \u2014 a different route from the Impact program on the brand's page, which is why no single rate is recorded. The listing describes TORRAS as founded in 2012 with 100M+ customers in 148 regions."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://torraslife.com/pages/affiliate",
+   "source_url": "https://torraslife.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TORRAS Affiliate Program on Impact \u2014 rates up to 15% published, 30-day cookie",
+   "application_url": "https://torraslife.com/pages/affiliate",
+   "source_url": "https://torraslife.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Phone cases and charging accessories are staple tech-creator review and roundup content with constant new-product cycles.",
+    "ugc_evidence": "A dedicated affiliate page on the brand's own store routing creators into Impact, with conversion claims aimed at promoters.",
+    "compensation": "Only a ceiling is published ('up to 15%') on the official page and a separate network lists 8% base, so no rate is recorded; no cap statement published.",
+    "contact_access": "Impact application linked from the brand's page; no published affiliate email.",
+    "opportunity_availability": "Program live on Impact, a mainstream creator-friendly network.",
+    "credibility": "Large claimed customer base and a long trading history since 2012; rate opacity keeps compensation scored conservatively."
+   }
+  }
+ },
+ {
+  "name": "VTOMAN",
+  "website": "https://vtoman.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Portable power station and solar generator brand (Jump and FlashSpeed lines) targeting outdoor, RV and home-backup buyers. Its official affiliate page publishes a flat 10% commission, a $600+ average customer order and a named affiliate contact email, with joining via ShareASale.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "affiliate@vtoman.com",
+    "contact_url": "https://uk.vtoman.com/en-pl/pages/affiliate-program",
+    "source_url": "https://uk.vtoman.com/en-pl/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://uk.vtoman.com/en-pl/pages/affiliate-program",
+    "summary": "VTOMAN's official affiliate page fetched in full: '10% Commission \u2014 Get 10% commission for you on rent sales from VTOMAN', a '$600+ average customer order', monthly commissions through affiliate links, exclusive marketing resources such as coupons and deals, a 'Join Us' link to ShareASale, and a published contact 'affiliate@vtoman.com'. The program invites review sites, online communities, bloggers and content owners who promote products referring to vtoman.com. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://uk.vtoman.com/en-pl/pages/affiliate-program",
+   "source_url": "https://uk.vtoman.com/en-pl/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "VTOMAN Affiliate Program on ShareASale \u2014 flat 10% commission, $600+ average order",
+   "application_url": "https://uk.vtoman.com/en-pl/pages/affiliate-program",
+   "source_url": "https://uk.vtoman.com/en-pl/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Jump-start power stations and solar generators are strong outdoor, automotive and home-backup creator content.",
+    "ugc_evidence": "The brand's page recruits review sites, communities and bloggers and promises coupons, deals and collaboration on new releases.",
+    "compensation": "A flat published 10% \u2014 the highest verified base rate in this group \u2014 on a $600+ average order; no cap statement published.",
+    "contact_access": "Published affiliate email (affiliate@vtoman.com) plus the ShareASale join route.",
+    "opportunity_availability": "Live program on ShareASale with open application from the brand's page.",
+    "credibility": "Single clear program page with consistent terms; a mid-size brand behind the category leaders."
+   }
+  }
+ },
+ {
+  "name": "Dupray",
+  "website": "https://dupray.com",
+  "country": "Canada",
+  "category_slug": "home",
+  "description": "Canadian premium home-appliance brand making steam cleaners, garment steamers, air purifiers and spot cleaners for chemical-free home cleaning. It runs its own creator affiliate program on Refersion whose published terms are written around social creators (Instagram, TikTok, YouTube, blogs), and a parallel ShareASale program reported at 10%.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://dupray.refersion.com",
+    "source_url": "https://dupray.com/en-gb/pages/faq"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://dupray.refersion.com",
+    "summary": "Dupray's own Refersion affiliate agreement fetched in full: the program is defined around creators displaying products on Instagram, Facebook, TikTok, YouTube or a blog in exchange for commission; commission fees are paid within 60 days once an affiliate's total exceeds $150 USD via PayPal or bank deposit. The agreement states the commission amount 'shall be determined by Dupray and the Affiliate', so no rate is published in the brand's own terms and the recorded rate is null. No earnings-cap statement and no creator count appear, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://dupray.com/en-gb/pages/faq",
+    "summary": "Dupray's official FAQ confirms the program publicly \u2014 'Do you have an affiliate or influencer program? Yes! If you're a content creator... we'd love to have you join our Dupray Affiliate Program' \u2014 and describes Dupray as 'a Canadian brand' of high-end household appliances including steam cleaners, clothes steamers, air purifiers and spot cleaners."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://linkmydeals.com/affiliate-programs/info/dupray.com/",
+    "summary": "Network listings for dupray.com report a parallel ShareASale program at a 10% sale commission (ShareASale CID 125866), with a high reported approval rate. This network rate is documented here rather than recorded, because the brand's own program terms do not publish a rate."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": null,
+   "application_url": "https://dupray.refersion.com",
+   "source_url": "https://dupray.refersion.com",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Dupray Affiliate Program (own program on Refersion) \u2014 creator program for steam-cleaning content; ShareASale route also reported at 10%",
+   "application_url": "https://dupray.refersion.com",
+   "source_url": "https://dupray.refersion.com"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 15,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Steam cleaning and chemical-free home care are durable home-creator niches with strong before/after video formats.",
+    "ugc_evidence": "The brand's own program terms are written specifically for social creators on TikTok, Instagram and YouTube, and its FAQ publicly recruits content creators.",
+    "compensation": "No rate is published in the brand's own terms (set per affiliate) and payouts need a $150 balance; a parallel ShareASale listing reports 10%, so compensation is scored cautiously.",
+    "contact_access": "Application through the brand's own program page; no published affiliate email.",
+    "opportunity_availability": "Program is live but acceptance is expressly at Dupray's discretion after review.",
+    "credibility": "Established premium Canadian brand selling into the US and Canada with full published program terms."
+   }
+  }
+ },
+ {
+  "name": "Geneverse",
+  "website": "https://geneverse.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Home backup-power brand (HomePower solar generators and power stations) positioned as emergency power for homes and communities. Its CJ Affiliate program description publishes 6% sale commissions, a 30-day cookie, exclusive payouts and bonus programs, with in-house affiliate management.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.affiliate-toolkit.com/program/geneverse-com/",
+    "source_url": "https://www.affiliate-toolkit.com/program/geneverse-com/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://www.affiliate-toolkit.com/program/geneverse-com/",
+    "summary": "Geneverse's CJ program description, reproduced in full: 'what you get\u2026 6% sale commissions, exclusive payouts, bonus payout program and vanities for custom placements, 30-day cookie, in-house affiliate management', describing Geneverse as 'the most reliable source of emergency backup power for your home and community' around its HomePower One station and SolarPower One panel. The recorded route is CJ at the published 6%. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://linkclicky.com/affiliate-program/geneverse/",
+    "summary": "A program directory lists Geneverse on CJ Affiliate at 3%-6% per sale, consistent with the 6% headline in the CJ program description; the range is why the recorded rate uses the program's own published 6% figure with this range noted."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": 6,
+   "application_url": "https://www.affiliate-toolkit.com/program/geneverse-com/",
+   "source_url": "https://www.affiliate-toolkit.com/program/geneverse-com/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Geneverse Affiliate Program on CJ \u2014 6% sale commissions, 30-day cookie, bonus payout program",
+   "application_url": "https://www.affiliate-toolkit.com/program/geneverse-com/",
+   "source_url": "https://www.affiliate-toolkit.com/program/geneverse-com/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Whole-home emergency backup power fits prepper, homestead and smart-home creator content.",
+    "ugc_evidence": "A CJ program with vanities for custom placements and in-house management suggests active publisher recruitment, though creator-specific evidence is thinner than rivals'.",
+    "compensation": "Published 6% sale commissions on high-value home power stations with bonus payouts; directory reporting of a 3%-6% range is noted and no cap statement is published.",
+    "contact_access": "CJ application route only; the program's agency contact was not cleanly published, so no email is recorded.",
+    "opportunity_availability": "Live CJ program with standard network application.",
+    "credibility": "A recognised home-backup brand; evidence rests on network-published program copy rather than the brand's own site, so a point is held back."
+   }
+  }
+ },
+ {
+  "name": "Alen",
+  "website": "https://www.alen.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US air-purifier brand (BreatheSmart line) selling HEPA purifiers and smart bundles direct to consumers. It runs an affiliate program paying commission on qualifying sales of purifiers and bundles, listed on FlexOffers at 4% with a 30-day cookie, and publishes an affiliate contact email on its program page.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "affiliates@alencorp.com",
+    "contact_url": "https://alencorp-development-store.myshopify.com/pages/alen-affiliate-program",
+    "source_url": "https://alencorp-development-store.myshopify.com/pages/alen-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://alencorp-development-store.myshopify.com/pages/alen-affiliate-program",
+    "summary": "Alen's own affiliate program page \u2014 found on a development-store subdomain of its Shopify store, which is why this evidence is flagged needs_review: 'Alen's affiliate program provides you with a way to link your site to our best-in-class air purifiers, all while earning a commission on all qualifying sales... Apply now to start earning commissions on Air Purifiers, Smart Bundles and more', with an approval process and the published contact affiliates@alencorp.com. The page publishes no rate, cap statement or creator count."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/alen-corporation-affiliate-program/",
+    "summary": "FlexOffers' listing for the Alen Air Purifiers affiliate program: affiliates 'can earn a 4% commission on online sales, and 1.6% for select items', with a 30-day cookie duration. The recorded rate is the headline 4%. No earnings-cap statement and no creator count are published anywhere fetched, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 4,
+   "application_url": "https://alencorp-development-store.myshopify.com/pages/alen-affiliate-program",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/alen-corporation-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Alen Affiliate Program \u2014 4% commission on air purifiers, 30-day cookie (program page flagged for review)",
+   "application_url": "https://alencorp-development-store.myshopify.com/pages/alen-affiliate-program",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/alen-corporation-affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Air quality, allergies and sleep are steady home and wellness creator topics, and purifiers demo well on video.",
+    "ugc_evidence": "A dedicated affiliate program page with application and resources, though it speaks to site publishers more than social creators.",
+    "compensation": "4% headline rate (1.6% on select items) is the lowest in this group, partly offset by premium unit prices; no cap statement published.",
+    "contact_access": "A published affiliate email (affiliates@alencorp.com) plus an application page \u2014 though the page sits on a development subdomain and is flagged for review.",
+    "opportunity_availability": "Program listed live on FlexOffers with an application and short approval process per the brand page.",
+    "credibility": "An established US purifier brand; the dev-subdomain program page is the one blemish and is flagged needs_review."
+   }
+  }
+ },
+ {
+  "name": "Meowant",
+  "website": "https://meowant.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "US smart cat-care brand founded in 2013, best known for self-cleaning litter boxes (MW-SC01/SC02/SC09/SC10) plus pet air purifiers, water fountains, feeders and a GPS dog fence. It runs its own affiliate program page and is listed across many networks including Awin and FlexOffers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://meowant.com/pages/affiliate",
+    "source_url": "https://meowant.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://meowant.com/pages/affiliate",
+    "summary": "Meowant's own affiliate program page fetched ('Join Our Pet Product Affiliate Program & Earn Commissions'), presenting its self-cleaning litter boxes, GPS dog fence, water fountains, feeders and pet air purifiers as the promotable range. The fetched page publishes no commission rate, no earnings-cap statement and no creator count, so the recorded rate is null and cap and saturation stay unknown. The page and network listings describe Meowant as a US pet brand founded in 2013."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "directory",
+    "source_url": "https://www.affiliate-program.io/en/brands/meowant",
+    "summary": "A network roundup lists 11-12 Meowant programs across Awin, FlexOffers, SaleGains, Skimlinks, Cuelinks, Sovrn and others, with conflicting reference rates \u2014 FlexOffers at 10.4% of sales, Cuelinks at 9.0% base (11.25% on the SC01), SaleGains references from 7.5% \u2014 which is why no single rate is recorded. The recorded route is Awin, one of the listed networks carrying the program."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://meowant.com/pages/affiliate",
+   "source_url": "https://meowant.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Meowant Affiliate Program \u2014 own program page plus Awin and other network routes; rates vary by network (7.5%-11.25% reported)",
+   "application_url": "https://meowant.com/pages/affiliate",
+   "source_url": "https://meowant.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Self-cleaning litter boxes are one of the most-reviewed products in cat-creator content, and the range extends to fountains, feeders and purifiers.",
+    "ugc_evidence": "An own affiliate page plus listings across a dozen networks show active, broad affiliate recruitment.",
+    "compensation": "Reported rates cluster around 7.5%-11.25% but conflict by network and product, and the brand's own page publishes none, so no rate is recorded.",
+    "contact_access": "Own program page and network applications; no published affiliate email.",
+    "opportunity_availability": "Many simultaneous network routes make joining easy; terms must be confirmed per network.",
+    "credibility": "Trading since 2013 with a broad retail footprint; thinner brand-published program detail than rivals keeps credibility mid-band."
+   }
+  }
+ }
+]

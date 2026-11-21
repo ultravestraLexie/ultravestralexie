@@ -1,0 +1,555 @@
+[
+ {
+  "name": "EVIL GOODS",
+  "website": "https://evilgoods.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US direct-to-consumer skincare brand built on beef-tallow and other all-natural formulations (balms, face moisturizers, lip care, magnesium cream) running its own affiliate program: 20% base commission, 60-day cookie, monthly payouts, and lifetime commission on referred customers.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "help@evilgoods.com",
+    "contact_url": null
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/evilgoods/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@evilgoods"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/@EvilGoods"
+   },
+   {
+    "platform": "x",
+    "url": "https://x.com/TheEVILGOODS"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://evilgoods.com/pages/over-1-7-million-already-paid-to-affiliates",
+    "summary": "Evil Goods' own affiliate page (fetched) states a 20% base commission on every sale regardless of volume, rising to 25% at $5,000+ in monthly sales and up to 30% during product launches, with lifetime commission on customers a creator refers and 20% recurring commission on subscription orders for 3 months. It also states a 60-day cookie, monthly payouts with a $50 minimum, a 15% follower discount code, applications reviewed within 48 business hours, and an affiliate contact email (help@evilgoods.com). No statement about an earnings cap appears anywhere on the page, so commission_cap is recorded as unknown, not uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://evilgoods.com/pages/over-1-7-million-already-paid-to-affiliates",
+    "summary": "The same page (fetched) says 'Join 2,500+ affiliates' and claims over $1.7 million already paid to affiliates and 400,000+ customers. A published affiliate count of 2,500+ is absolute evidence of a large creator pool (compare Paula's Choice at 1,607 recorded high in an earlier batch), so creator_saturation is recorded as high. The brand's marketing is hype-heavy and its earnings claims are self-reported, which tempers the credibility score."
+   }
+  ],
+  "affiliate": {
+   "network": "Own affiliate program",
+   "commission_rate": 20,
+   "application_url": "https://evilgoods.com/pages/over-1-7-million-already-paid-to-affiliates",
+   "source_url": "https://evilgoods.com/pages/over-1-7-million-already-paid-to-affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Evil Goods Affiliate Program",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://evilgoods.com/pages/over-1-7-million-already-paid-to-affiliates",
+   "compensation_notes": "20% base commission on every sale (25% at $5K+ monthly sales, up to 30% in launch promos), lifetime commission on referred customers, 60-day cookie, monthly payouts at a $50 minimum, per the brand's own affiliate page. No earnings cap is stated, so the cap is unknown.",
+   "description": "Apply on Evil Goods' affiliate page, get a link or 15% follower code, and post tallow-skincare content; the brand says posts over 5,000 organic views can be sent in for paid ad support."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 18,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": [
+    "20% base commission with lifetime customer commission, published on the brand's own page",
+    "Published affiliate contact email and 48-hour application review",
+    "2,500+ affiliates stated by the brand, so the program is already crowded",
+    "Self-reported earnings claims are hype-heavy and unverified, lowering credibility"
+   ]
+  }
+ },
+ {
+  "name": "Danessa Myricks Beauty",
+  "website": "https://danessamyricksbeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Pro-artist-founded US makeup brand (Yummy Skin, Colorfix, Lightwork palettes) whose TikTok Shop storefront is one of the most affiliate-driven in beauty: an estimated 94% of its roughly $194K in TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@danessamyricksbeauty"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "tiktok_shop_data",
+    "source_url": "https://rateful.ai/brand/danessa-myricks-beauty",
+    "summary": "Rateful's TikTok Shop data page (fetched) confirms Danessa Myricks Beauty runs a TikTok Shop affiliate program: creators with TikTok Shop affiliate access add its products to their showcase and earn commission on every sale. It estimates $194K in sales in the 30 days to Nov 6, 2026 across 4,437 items at a $43.70 average price, with 94% of sales through affiliate creators' videos and LIVEs, ranking the shop #336 in Beauty & Personal Care. TikTok Shop commission is set per product inside TikTok Shop and is not published on this page, so commission_rate is null and no cap statement exists, making commission_cap unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://rateful.ai/brand/danessa-myricks-beauty",
+   "source_url": "https://rateful.ai/brand/danessa-myricks-beauty",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Danessa Myricks Beauty TikTok Shop Affiliate",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://rateful.ai/brand/danessa-myricks-beauty",
+   "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside TikTok Shop; no public rate or cap statement was found, so both are recorded as unpublished/unknown.",
+   "description": "Add Danessa Myricks Beauty products to your TikTok Shop showcase, request samples in the affiliate center, and post videos or LIVEs; 94% of the brand's TikTok Shop sales already flow through affiliates."
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 20,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 10,
+   "credibility": 5,
+   "reasons": [
+    "94% of TikTok Shop sales come through affiliate creators - proven creator demand",
+    "$194K in 30-day TikTok Shop sales, up 51% on the prior period",
+    "Commission rate is set per product inside TikTok Shop and not published, so compensation is scored conservatively"
+   ]
+  }
+ },
+ {
+  "name": "Peach & Lily",
+  "website": "https://peachandlily.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US Korean-skincare brand and retailer (Glass Skin Refining Serum and curated K-beauty lines) with a heavily affiliate-driven TikTok Shop storefront - about 88% of its estimated TikTok Shop sales come through affiliate creators - plus published influencer and partnership contact emails.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": "peaches@peachandlily.com",
+    "contact_url": null
+   },
+   {
+    "contact_type": "partnerships",
+    "email": "brands@peachandlily.com",
+    "contact_url": null
+   }
+  ],
+  "socials": [
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@peachandlilyofficial"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "tiktok_shop_data",
+    "source_url": "https://rateful.ai/brand/peach-and-lily",
+    "summary": "Rateful's TikTok Shop data page (fetched) confirms Peach & Lily sells through TikTok Shop affiliates: creators add its products to their showcase and earn commission on every sale, with about 88% of an estimated $16.7K in sales in the 30 days to Nov 6, 2026 coming through affiliate creators (329 items, $50.65 average price, 40 products listed). A screenshot of a Peach & Lily TikTok Shop collab invite circulated in July 2026 showed a limited-time 50% organic commission sprint campaign, but that was a dated promotion, not a standing published rate, so commission_rate is recorded as null and commission_cap as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "directory",
+    "source_url": "https://usesnippet.app/pr-emails/peach-and-lily",
+    "summary": "A contact directory that checks the brand's own pages (fetched) lists peaches@peachandlily.com for influencers, media@peachandlily.com for press and brands@peachandlily.com for business and partnerships, checked November 13, 2026. The same source notes Peach & Lily does not list an influencer, ambassador or affiliate program on its own website pages, so the TikTok Shop route is the documented creator entry point."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://rateful.ai/brand/peach-and-lily",
+   "source_url": "https://rateful.ai/brand/peach-and-lily",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Peach & Lily TikTok Shop Affiliate",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://rateful.ai/brand/peach-and-lily",
+   "compensation_notes": "Commission per sale through TikTok Shop at product-level rates set inside TikTok Shop; a 50% organic commission appeared only as a dated July 2026 sprint promotion, so no standing rate is recorded and the cap is unknown.",
+   "description": "Add Peach & Lily products to your TikTok Shop showcase and post routine content; the brand also publishes peaches@peachandlily.com for influencer contact and brands@peachandlily.com for partnerships."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 19,
+   "compensation": 8,
+   "contact_access": 12,
+   "opportunity_availability": 10,
+   "credibility": 5,
+   "reasons": [
+    "88% of TikTok Shop sales flow through affiliate creators",
+    "Published influencer and partnership emails on the brand's own pages",
+    "No standing commission rate is published - a 50% rate was only a dated promotional sprint"
+   ]
+  }
+ },
+ {
+  "name": "Hyper Skin",
+  "website": "https://hyperskin.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare brand focused on hyperpigmentation and dark spots (Hyper Clear brightening vitamin C serum) running its own affiliate program open to creators of any follower count, paying commission on every sale plus free monthly product.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://hyperskin.com/pages/affiliates",
+    "summary": "Hyper Skin's own affiliates page (fetched) invites creators to 'Become a Hyper Affiliate': affiliates are paid commission every time someone buys through their link, tracked in an affiliate app, receive free Hyper Skin products each month, early access to launches, and consideration for paid content opportunities. The page states there is no follower-count requirement. It does not publish the commission percentage or any earnings-cap statement, so commission_rate is null and commission_cap is unknown. Sign-up runs through the brand's affiliate portal at affiliates.hyperskin.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Own affiliate program",
+   "commission_rate": null,
+   "application_url": "https://hyperskin.com/pages/affiliates",
+   "source_url": "https://hyperskin.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Hyper Skin Affiliate Program",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://hyperskin.com/pages/affiliates",
+   "compensation_notes": "Commission on every sale through the affiliate link plus free monthly product; the percentage is not published on the brand's program page, so the rate and cap are recorded as unpublished/unknown.",
+   "description": "Sign up on Hyper Skin's affiliates page (no follower minimum), share your link, and earn commission on dark-spot and brightening skincare sales while receiving monthly product."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 10,
+   "credibility": 4,
+   "reasons": [
+    "Own affiliate program confirmed on the brand's site, open with no follower minimum",
+    "Free monthly product and paid-content consideration for active affiliates",
+    "Commission percentage is not published anywhere fetched, so compensation is scored conservatively"
+   ]
+  }
+ },
+ {
+  "name": "Black Girl Sunscreen",
+  "website": "https://www.blackgirlsunscreen.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Black-owned US suncare brand (SPF 30/45/50 formulas made for melanin-rich skin, sold at Target and Ulta) whose TikTok Shop storefront is heavily affiliate-driven, with about 80% of its estimated TikTok Shop sales coming through affiliate creators.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@blackgirlsunscreen"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "tiktok_shop_data",
+    "source_url": "https://rateful.ai/brand/black-girl-sunscreen",
+    "summary": "Rateful's TikTok Shop data page (fetched) confirms Black Girl Sunscreen runs a TikTok Shop affiliate program: creators with affiliate access add its 22 listed products to their showcase and earn commission on every sale. It estimates $19K in sales in the 30 days to Nov 6, 2026 (1,680 items at an $11.30 average price), with about 80% of sales through affiliate creators' videos and LIVEs. TikTok Shop product pages for the brand likewise show 'Creator earns commission'. The per-product commission rate is set inside TikTok Shop and not published on the page, so commission_rate is null and commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://rateful.ai/brand/black-girl-sunscreen",
+   "source_url": "https://rateful.ai/brand/black-girl-sunscreen",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Black Girl Sunscreen TikTok Shop Affiliate",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://rateful.ai/brand/black-girl-sunscreen",
+   "compensation_notes": "Commission per sale through TikTok Shop at product-level rates set inside TikTok Shop; no public rate or cap statement found, so both are unpublished/unknown.",
+   "description": "Add Black Girl Sunscreen products to your TikTok Shop showcase, request a sample in the affiliate center, and post SPF routine content; the brand also recruits creators into its BGS affiliate community via Instagram DMs."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 18,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 10,
+   "credibility": 4,
+   "reasons": [
+    "80% of TikTok Shop sales come through affiliate creators",
+    "Low $11.30 average item price means volume-driven earnings",
+    "No published commission rate or direct creator contact found"
+   ]
+  }
+ },
+ {
+  "name": "Stratia",
+  "website": "https://www.stratiaskin.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Los Angeles indie skincare brand (Liquid Gold ceramide moisturizer, Velvet Cleansing Milk) built on simple, science-led formulations, with an affiliate and partnership program listed at a reported 5-10% payout per sale.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://www.shopper.com/partnerships/stratiaskin-com-affiliate-program",
+    "summary": "Shopper.com's partnership listing for stratiaskin.com (fetched) describes the Stratiaskin Affiliate Program as a partnership initiative where affiliates promote Stratia products with unique tracking links and promotional materials for a percentage of sales, and states a payout rate of 5-10% per sale. Because that figure is an aggregator-reported range rather than a single rate published in the brand's own program terms, commission_rate is recorded as null with the reported range noted here, and no cap statement was found, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Own affiliate program",
+   "commission_rate": null,
+   "application_url": "https://www.shopper.com/partnerships/stratiaskin-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/stratiaskin-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Stratia Affiliate Program",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.shopper.com/partnerships/stratiaskin-com-affiliate-program",
+   "compensation_notes": "Reported payout of 5-10% per sale via the Shopper.com partnership listing; the range is not a single published rate in fetched brand terms, so commission_rate is null and the cap is unknown.",
+   "description": "Partner with Stratia through its affiliate listing, share tracking links to Liquid Gold and the core routine range, and earn a percentage of referred sales."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "Cult science-led brand with a hero product (Liquid Gold) that suits ingredient-focused creators",
+    "Affiliate payout reported at 5-10% per sale by the partnership listing",
+    "Rate is an aggregator-reported range, not verified in the brand's own fetched terms"
+   ]
+  }
+ },
+ {
+  "name": "COOLA",
+  "website": "https://coola.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "San Diego organic suncare and SPF skincare brand (face and body sunscreens, SPF serums and drops, lip SPF, after-sun care) running its creator affiliate program through the Impact network.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/coola"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-curvy-sense-flos-padi-thermoflask-topresume/",
+    "summary": "An FMTC new-merchant listing (fetched) records COOLA as a merchant on the Impact affiliate network (merchant ID 22261, Beauty & Cosmetics), confirming the program's network route. BravoDM's COOLA creator-program page (fetched) likewise says the program runs through an affiliate network and is aimed at beauty, skincare and suncare creators promoting through affiliate links."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_terms",
+    "source_type": "network_listing",
+    "source_url": "https://www.bravodm.com/brands/coola",
+    "summary": "Published rate figures conflict: Lasso's listing reports 3.2% per sale while Shopper.com's listing reports a 5-10% payout range, and BravoDM (fetched) explicitly flags the differing terms between listings. Under the evidence standard the conflicting rate is recorded as null with the conflict noted here; no earnings-cap statement was found in any fetched source, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.bravodm.com/brands/coola",
+   "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-curvy-sense-flos-padi-thermoflask-topresume/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "COOLA Affiliate Program (Impact)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.bravodm.com/brands/coola",
+   "compensation_notes": "Commission via Impact; published third-party figures conflict (3.2% per one listing vs a 5-10% range from another), so commission_rate is null with the conflict documented, and no cap is published.",
+   "description": "Join COOLA's program through Impact and promote organic SPF skincare to suncare and summer-skincare audiences."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Established organic suncare brand with a live Impact network program",
+    "Rate figures conflict across listings (3.2% vs 5-10%), so no rate is recorded",
+    "Strong seasonal fit for SPF and summer skincare creators"
+   ]
+  }
+ },
+ {
+  "name": "Thrive Causemetics",
+  "website": "https://thrivecausemetics.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Los Angeles vegan, cruelty-free makeup and skincare brand (Liquid Lash Extensions Mascara) that donates a product to a woman in need for every product purchased, with an affiliate program listed on FlexOffers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/thrive-causemetics-affiliate-program/",
+    "summary": "FlexOffers' own program page for Thrive Causemetics (fetched) confirms an active affiliate program publishers can apply to, with promotional materials, tracking and a dedicated support team; it describes commission only as 'competitive' and states a 1-day cookie duration. A separate InfluencerRate listing reports up to 10% commission and a 30-day cookie, which conflicts with the network page on the cookie and gives only a ceiling for the rate, so commission_rate is recorded as null with the conflict noted and commission_cap as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": "https://www.flexoffers.com/affiliate-programs/thrive-causemetics-affiliate-program/",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/thrive-causemetics-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Thrive Causemetics Affiliate Program (FlexOffers)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.flexoffers.com/affiliate-programs/thrive-causemetics-affiliate-program/",
+   "compensation_notes": "Commission described only as 'competitive' on the network's program page (a third-party listing reports up to 10%); the rate is not definitively published, so it is null, and no cap statement exists.",
+   "description": "Apply through FlexOffers, promote the hero mascara and clean makeup range, and lean on the brand's one-for-one giving story in content."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Well-known hero product and a strong giving-back story for content",
+    "Active FlexOffers program with affiliate support team",
+    "Rate not definitively published - third-party ceiling of 10% conflicts with the network page's silence"
+   ]
+  }
+ },
+ {
+  "name": "Weleda",
+  "website": "https://www.weleda.com",
+  "country": "Switzerland",
+  "category_slug": "skincare",
+  "description": "Swiss-founded natural skincare pioneer (Skin Food, plant-based face and body care, est. 1921) running its own affiliate program with a 30-day cookie, dedicated affiliate manager, and vanity codes, administered through Rakuten Advertising.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.weleda.com/campaigns/affiliate-program",
+    "summary": "Weleda's own affiliate program page (fetched) offers 'competitive commission' (percentage not published), a 30-day cookie window, creative assets and deep-linking, a dedicated affiliate manager, monthly promotions, and openness to exclusives and vanity codes. Because the brand does not publish the rate, commission_rate is null; no earnings-cap statement appears, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "network",
+    "source_type": "directory",
+    "source_url": "https://linkwhisper.com/skincare-affiliate-programs/",
+    "summary": "A skincare affiliate directory (fetched) states Weleda's affiliate program is run through Rakuten and repeats that the exact rate is not public. Third-party rate claims conflict widely (1.6%, 3%, 5.85% and up to 10% across different network listings for different markets), which is why no rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.weleda.com/campaigns/affiliate-program",
+   "source_url": "https://www.weleda.com/campaigns/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Weleda Affiliate Program",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.weleda.com/campaigns/affiliate-program",
+   "compensation_notes": "Commission described by the brand as 'competitive' with a 30-day cookie via Rakuten; the percentage is not published and third-party figures conflict (1.6%-10%), so the rate is null and the cap unknown.",
+   "description": "Apply from Weleda's affiliate page, work with a dedicated affiliate manager, and promote Skin Food and natural face/body care with deep-linked content."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Century-old natural brand with a hero product (Skin Food) and its own program page",
+    "Dedicated affiliate manager and vanity codes offered",
+    "Rate unpublished by the brand and conflicting across third-party listings, so none is recorded"
+   ]
+  }
+ },
+ {
+  "name": "ZitSticka",
+  "website": "https://www.zitsticka.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Acne-focused skincare brand (KILLA microdart pimple patches, prevention and post-blemish care) with an affiliate program on FlexOffers paying 4% commission with a 30-day cookie.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/zitsticka-affiliate-program/",
+    "summary": "FlexOffers' own program page for ZitSticka (fetched) states affiliates earn a 4% commission on sales made through their referrals and that the program offers a 30-day cookie duration, with promotional materials and tracking provided. Other routes list different figures (Lasso reports 3%, which reflects its Amazon-based listing, and Yazing offers members 5% cashback from its negotiated share), so the recorded 4% is specifically the FlexOffers network rate. No earnings-cap statement was found, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 4,
+   "application_url": "https://www.flexoffers.com/affiliate-programs/zitsticka-affiliate-program/",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/zitsticka-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ZitSticka Affiliate Program (FlexOffers)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.flexoffers.com/affiliate-programs/zitsticka-affiliate-program/",
+   "compensation_notes": "4% commission on referred sales with a 30-day cookie via FlexOffers, per the network's own program page; no cap is published.",
+   "description": "Apply through FlexOffers and promote KILLA pimple patches and acne-care content to skincare and acne-community audiences."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "Clear published network terms: 4% commission, 30-day cookie",
+    "Single-focus acne niche suits before/after and routine content",
+    "4% is a low rate versus DTC skincare norms"
+   ]
+  }
+ }
+]

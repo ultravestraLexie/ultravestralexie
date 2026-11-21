@@ -1,6 +1,6 @@
 /* Creator Academy — UltraVestra's searchable library of creator lessons:
  * hooks, scripts, filming, pitching, money and growth. Original teaching
- * written for UGC creators. Searchable from /academy and linked from
+ * written for creators. Searchable from /academy and linked from
  * Discover results. */
 
 export interface Lesson {
@@ -32,7 +32,7 @@ export const LESSONS: Lesson[] = [
     title: "10 Hook Patterns That Stop the Scroll",
     category: "Hooks",
     minutes: 6,
-    summary: "Ten proven opening patterns for UGC ads and organic product videos, with the exact first line for each.",
+    summary: "Ten proven opening patterns for creator ads and organic product videos, with the exact first line for each.",
     points: [
       "The confession: 'I was wrong about this product.'",
       "The mistake: 'You are using this wrong — here is the fix.'",
@@ -48,10 +48,10 @@ export const LESSONS: Lesson[] = [
   },
   {
     id: "script-structure",
-    title: "The 60-Second UGC Script Structure",
+    title: "The 60-Second Script Structure",
     category: "Scripts",
     minutes: 5,
-    summary: "Hook, problem, demo, proof, honest line, call to action — the six beats of a UGC video that brands renew.",
+    summary: "Hook, problem, demo, proof, honest line, call to action — the six beats of a creator video that brands renew.",
     points: [
       "Hook (0–3s): the pattern from the hook lessons. One idea only.",
       "Problem (3–10s): name the pain in one sentence, on camera, in a real setting.",
@@ -82,7 +82,7 @@ export const LESSONS: Lesson[] = [
     minutes: 5,
     summary: "Brands ignore copy-paste pitches. This structure — researched, specific, one idea — is what gets opened and answered.",
     points: [
-      "Subject line: 'UGC idea for [Brand] — [platform] [niche] creator'. Specific beats clever.",
+      "Subject line: 'Partnership idea for [Brand] — [platform] [niche] creator'. Specific beats clever.",
       "Line one proves research: name their product, their audience or a gap you noticed.",
       "Give ONE video idea with its hook written out. Ideas are the currency.",
       "Make the first step tiny: product seeding or their affiliate program, results first, rates later.",
@@ -137,7 +137,7 @@ export const LESSONS: Lesson[] = [
     title: "What to Charge: Rates, Usage and Whitelisting",
     category: "Money",
     minutes: 6,
-    summary: "How UGC pricing actually works — base rate, usage rights, whitelisting, exclusivity — so you stop leaving money on the table.",
+    summary: "How creator pricing actually works — base rate, usage rights, whitelisting, exclusivity — so you stop leaving money on the table.",
     points: [
       "Separate the three prices: creating the video, the brand posting it (usage), the brand advertising with it (whitelisting).",
       "Usage is time-boxed: 3, 6 or 12 months. Perpetual usage costs much more — or is declined.",
@@ -177,7 +177,7 @@ export const LESSONS: Lesson[] = [
   },
   {
     id: "first-30-days",
-    title: "Your First 30 Days as a UGC Creator",
+    title: "Your First 30 Days as a Creator",
     category: "Growth",
     minutes: 6,
     summary: "A realistic month-one plan: portfolio first, pitches second, proof always. No audience required.",
@@ -186,8 +186,92 @@ export const LESSONS: Lesson[] = [
       "Week 2: build your list — 20 brands in one niche from the UltraVestra directory, scored and contacted properly.",
       "Week 3: pitch daily, five a day, each with one written-out video idea. Track everything.",
       "Week 4: take affiliate-first deals, film fast, deliver early, and collect your first results.",
-      "UGC is a business of evidence: every video you deliver makes the next pitch stronger.",
+      "This is a business of evidence: every video you deliver makes the next pitch stronger.",
       "Smaller creators win on speed, specificity and honesty — the three things big accounts cannot copy.",
+    ],
+  },
+  {
+    id: "storytelling-arc",
+    title: "Storytelling: Before, Problem, Change",
+    category: "Scripts",
+    minutes: 5,
+    summary: "Facts tell, stories sell. Every product video that converts follows the same three-beat arc — here is how to build it in 60 seconds.",
+    points: [
+      "Beat 1 — Before: show the honest starting point. 'My skin at 7am, no filter.' Viewers must recognize their own life.",
+      "Beat 2 — Problem: name the friction in one sentence, in the viewer's words, not the brand's words.",
+      "Beat 3 — Change: the product enters as the tool, not the hero. Show the after in the same light and angle as the before.",
+      "Example arc: 'I stopped buying three serums. This one replaced all of them — watch my morning routine shrink.'",
+      "Apply it today: take your last product video and re-cut it into the three beats. If a beat is missing, film just that beat.",
+    ],
+  },
+  {
+    id: "pacing-and-editing",
+    title: "Pacing & Editing: Never Give Them a Reason to Leave",
+    category: "Filming",
+    minutes: 5,
+    summary: "Retention is editing. Cut every dead second, move the payoff earlier, and let pattern interrupts do the holding.",
+    points: [
+      "Cut on movement or on the end of a breath — never mid-pause. Dead air over half a second is a swipe waiting to happen.",
+      "A visual change every 2–3 seconds: zoom punch-in, angle swap, on-screen text, product close-up.",
+      "Put a mini-payoff at second 8–12 (a result flash, a price reveal) so viewers trust the ending is worth reaching.",
+      "Captions on everything, always: most social video is first watched on mute.",
+      "Apply it today: re-edit one old video cutting 20% of its length. Post both versions a week apart and compare retention.",
+    ],
+  },
+  {
+    id: "cta-that-converts",
+    title: "Calls to Action That Don't Feel Like Ads",
+    category: "Scripts",
+    minutes: 4,
+    summary: "The CTA is a service, not a siren. One clear next step, tied to the problem you just solved, beats three desperate ones.",
+    points: [
+      "One CTA per video. Two choices means no choice — pick the single action that matches the video's promise.",
+      "Tie it to the problem: 'If your foundation does this too, the link is in my bio — check shade 4.' Specific beats generic.",
+      "Say it while the proof is on screen, not after a fade to black. The result sells; the CTA just points.",
+      "Never fake urgency. A real deadline (a sale end date you verified) is fine; invented scarcity destroys trust.",
+      "Apply it today: rewrite your last video's ending as problem + one action + where. Film it as a pinned comment if the video is already live.",
+    ],
+  },
+  {
+    id: "trust-and-proof",
+    title: "Trust & Proof: Show It, Date It, Admit the Downside",
+    category: "Scripts",
+    minutes: 5,
+    summary: "Trust is the currency every commission is paid in. Proof viewers can verify — and one honest downside — out-converts any claim.",
+    points: [
+      "Date your proof: 'Day 1 / Day 14' on screen turns a claim into a document. Undated results read as stock footage.",
+      "Show the unflattering angle too. One honest downside per video makes the ten positives believable.",
+      "Use the product in its real place — bathroom shelf, gym bag, kitchen counter — not a studio backdrop.",
+      "Disclose the relationship in the first lines of the caption. Hidden sponsorship is the fastest trust killer there is.",
+      "Apply it today: film a 20-second 'what I don't love about it' clip for a product you promote. Watch what it does to your comments.",
+    ],
+  },
+  {
+    id: "content-planning",
+    title: "Content Planning: The Two-Week Batch System",
+    category: "Growth",
+    minutes: 6,
+    summary: "Posting daily is a logistics problem, not a creativity problem. Plan in pillars, film in batches, and never face a blank camera at 9pm.",
+    points: [
+      "Pick three content pillars for your niche (teach, test, story). Every video belongs to one — planning becomes filling slots, not inventing ideas.",
+      "Keep a running idea bank: every comment question, DM and product complaint is a future hook. Capture them the day they appear.",
+      "Film in one weekly batch: same light, same setup, four to six videos. Editing is a second, separate session.",
+      "Schedule two weeks out, but leave two flex slots a week for trends and brand deadlines.",
+      "Apply it today: write next week's seven slots (pillar + hook line each) in one sitting. Filming day just got easy.",
+    ],
+  },
+  {
+    id: "platform-playbooks",
+    title: "Platform Playbooks: TikTok, Instagram, YouTube Play Different Games",
+    category: "Growth",
+    minutes: 6,
+    summary: "The same product wins differently on every platform. Match the format to the platform's buying behavior instead of cross-posting and hoping.",
+    points: [
+      "TikTok Shop: the video IS the storefront. Demo first, price anchor early, live-selling energy; viewers buy inside the app in under a minute.",
+      "Instagram: polish and saves win. Routines, lists and carousels get saved and shared; the link lives in stories and the bio.",
+      "YouTube: search and depth win. Titles answer a question ('X vs Y — honest test'), chapters help retention, and Shorts feed the long videos.",
+      "Trybe and brand programs: the deliverable is trust evidence — a clean pitch, a media kit, and videos a brand can whitelist.",
+      "Apply it today: take one product and write three different hooks — one per platform — using each platform's buying behavior above.",
     ],
   },
 ];

@@ -1,0 +1,604 @@
+[
+  {
+    "name": "Qure Skincare",
+    "website": "https://qureskincare.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "US skincare brand selling science-backed at-home devices and serums, known for the Micro-Infusion System and the Q-Rejuvalight Pro LED mask; it runs a tiered creator affiliate program powered by Social Snowball that a platform case study credits with $380K of affiliate revenue in one quarter.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://qureskincare.com/pages/affiliate-terms-and-conditions",
+        "summary": "Qure's own affiliate program terms page (fetched) states the Qure Skincare Affiliate Marketing Program is powered by Social Snowball, that affiliates receive a unique referral code and/or link, and that commissions are earned on qualifying sales directly attributable to the code or link; the terms do not publish a commission rate, so commission_rate is recorded as null."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.socialsnowball.io/post/qure-affiliate-program-case-study",
+        "summary": "Social Snowball's case study of the Qure program (fetched) reports Qure replaced flat commissions with tiered incentives, generated almost $380,000 from the affiliate program in one quarter (75% of its influencer marketing revenue), pays out automatically through Tremendous, and quotes Qure's affiliate manager by name. No rate or earnings-cap statement is published in either source, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "brand_overview",
+        "source_type": "brand_site",
+        "source_url": "https://qureskincare.com",
+        "summary": "The brand's own homepage (fetched) presents its Micro-Infusion System and Q-Rejuvalight Pro LED Mask, names co-founder Kristina Orlic-Edmonds, and features a panel of named dermatologists and doctors endorsing the products."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://qureskincare.com/pages/affiliate-terms-and-conditions",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Social Snowball (own program)",
+      "source_url": "https://qureskincare.com/pages/affiliate-terms-and-conditions"
+    },
+    "opportunity": {
+      "application_url": "https://qureskincare.com/pages/affiliate-terms-and-conditions",
+      "compensation_notes": "Tiered commission structure run through Social Snowball with automated payouts via Tremendous, per the platform's case study; the actual tier rates are not published on any fetched page, so commission_rate is null. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Qure's Social Snowball-powered affiliate program, create LED-mask and micro-infusion device content, and earn tiered commissions on tracked sales - confirm your tier rates inside the program dashboard, as they are not published publicly.",
+      "status": "unverified",
+      "title": "Qure Skincare Affiliate Program (Social Snowball)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 8,
+      "credibility": 4,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "A tiered structure exists and the brand says it wants to offer affiliates the highest commission possible, but no rate is published anywhere fetched, so compensation cannot be scored higher.",
+        "contact_access": "The program terms are published on the brand's own site; no public affiliate contact email was found on the pages checked.",
+        "credibility": "Established device brand with named dermatologist endorsements on its own homepage and a detailed third-party platform case study of its program.",
+        "niche_fit": "LED masks and micro-infusion devices are premium, highly demonstrable UGC skincare products with strong before/after content potential.",
+        "opportunity_availability": "Open affiliate program with published terms on the brand's own site.",
+        "ugc_evidence": "The program is creator-first by design: it drove 75% of the brand's influencer revenue in the case-study quarter, uses tracked creator links instead of leaked discount codes, and the brand actively recruits content creators."
+      },
+      "ugc_evidence": 18
+    }
+  },
+  {
+    "name": "Tarte",
+    "website": "https://tartecosmetics.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "US cosmetics brand founded on Amazonian-clay formulas, known for the Shape Tape concealer and cruelty-free color cosmetics; affiliate directories consistently report its network program at 8% per sale.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/tarte/",
+        "summary": "The Lasso directory (fetched) lists the Tarte affiliate program at 8% per sale across all products; Admitad's beauty program roundup and Tapfiliate's beauty list independently give the same 8% figure, and Brandid's creator comparison table gives around 8% with a 7-day cookie."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.whichprogram.com/en/country/us?category=beauty",
+        "summary": "WhichProgram's network listing names Partnerize as the network for the tarte Cosmetics affiliate offer at 8% with a 7-day cookie and application required; other roundups variously name Partnerize/Ascend, FlexOffers or Rakuten, so the network is recorded as Partnerize (reported). Shopper's 'up to 15%' is a ceiling figure and is not the base rate. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://getlasso.co/affiliate/tarte/",
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "unknown",
+      "network": "Partnerize (reported)",
+      "source_url": "https://getlasso.co/affiliate/tarte/"
+    },
+    "opportunity": {
+      "application_url": "https://getlasso.co/affiliate/tarte/",
+      "compensation_notes": "8% per sale, agreed by multiple affiliate directories (Lasso, Admitad, Tapfiliate, Brandid), with a 7-day cookie reported by network listings. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Tarte's affiliate program through its network listing, create Shape Tape and Amazonian-clay makeup content, and earn 8% per sale.",
+      "status": "unverified",
+      "title": "Tarte Affiliate Program (Partnerize, reported)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "A consistent 8% per sale across several directories is a fair mid-tier rate for a high-converting brand, though the reported 7-day cookie is short.",
+        "contact_access": "Join route is the network listing via directories; no public partnerships email was found.",
+        "credibility": "One of the largest US indie-born color brands with global retail distribution; program terms rest on consistent directory reporting.",
+        "niche_fit": "Viral concealer and color cosmetics are a core short-video UGC category for tutorials, shades and wear tests.",
+        "opportunity_availability": "Open network program with application, listed across multiple directories.",
+        "ugc_evidence": "The brand is a long-standing influencer-collaboration heavyweight and creator roundups single it out for short-video creators, though it publishes no own creator program page in the sources checked."
+      },
+      "ugc_evidence": 14
+    }
+  },
+  {
+    "name": "MO Clinical",
+    "website": "https://www.moclinical.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "US clinical skincare brand whose own affiliate page runs a tiered program for spa partners and content creators, paying 8% at the Bronze tier rising to 15% at Gold, with monthly cash payouts via Stripe.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.moclinical.com/affiliate-program",
+        "summary": "The brand's own affiliate page (fetched) publishes commission tiers that auto-promote on lifetime attributed sales: Bronze 8% for all approved affiliates, Silver 12% at $5,000+ lifetime sales, Gold 15% at $20,000+, with a 10% buyer discount code, 30-day attribution, a $50 minimum payout and monthly cash payouts via Stripe. The page explicitly recruits three audiences including content creators ('Beauty bloggers, TikTok, YouTube'), and states applications are reviewed within 48 hours and the program is US affiliates only at launch. The recorded rate is the 8% Bronze base."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://www.moclinical.com/affiliate-program",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched program page, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://www.moclinical.com/affiliate-program",
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "unknown",
+      "network": "Own program (brand direct)",
+      "source_url": "https://www.moclinical.com/affiliate-program"
+    },
+    "opportunity": {
+      "application_url": "https://www.moclinical.com/affiliate-program",
+      "compensation_notes": "8% base commission at the Bronze tier, rising to 12% (Silver, $5,000+ lifetime sales) and 15% (Gold, $20,000+), with 30-day attribution, a $50 minimum payout and monthly Stripe payouts, per the brand's own affiliate page. Commission cap: unknown - no cap statement is published.",
+      "description": "Apply to MO Clinical's own affiliate program, create clinical skincare content, and earn 8% base commission with published auto-promotion to 12% and 15% tiers.",
+      "status": "unverified",
+      "title": "MO Clinical Affiliate Program (brand direct)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 9,
+      "credibility": 3,
+      "niche_fit": 22,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "A published 8% base with transparent auto-promotion to 12% and 15% is a solid structure for a small brand; the $50 minimum payout is standard.",
+        "contact_access": "Applications run through the brand's own affiliate page with a stated 48-hour review; no public partnerships email is published.",
+        "credibility": "Full tier terms are published on the brand's own page, but the brand is small with limited independent coverage in the sources checked.",
+        "niche_fit": "Clinical skincare fits routine and results content, though the range is narrower and more treatment-led than mass skincare.",
+        "opportunity_availability": "Open application on the brand's own page; US affiliates only at launch.",
+        "ugc_evidence": "The program page names content creators as a core audience alongside spa partners, with branded codes at the Gold tier."
+      },
+      "ugc_evidence": 14
+    }
+  },
+  {
+    "name": "The Indie Earth",
+    "website": "https://theindieearth.in",
+    "country": "India",
+    "category_slug": "skincare",
+    "description": "Indian natural skincare and haircare brand whose Indie Circle creator program pays 10% commission at the Member tier rising to 25% at Inner Circle, with free monthly products, a personal code and links, and UPI or bank payouts from Rs 1,000.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://theindieearth.in/partners/",
+        "summary": "The brand's own Indie Circle creator program page (fetched) publishes four tiers based on delivered orders in the last 30 days: Member 10% for everyone, Insider 15% at 10+ orders, Icon 20% at 30+ orders and Inner Circle 25% at 75+ orders, with 2-8 free products a month by tier, a personal code and custom links, a 30-day click window, commission on the amount paid after discounts, and payouts to UPI or bank from Rs 1,000 once commission unlocks 15 days after delivery. The recorded rate is the 10% Member base."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://theindieearth.in/partners/",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched program page, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://theindieearth.in/partners/",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Own program (Indie Circle)",
+      "source_url": "https://theindieearth.in/partners/"
+    },
+    "opportunity": {
+      "application_url": "https://theindieearth.in/partners/",
+      "compensation_notes": "10% commission at the Member tier, rising to 15% / 20% / 25% at published delivered-order thresholds, plus free products monthly, per the brand's own Indie Circle page; payouts to UPI or bank from Rs 1,000. Commission cap: unknown - no cap statement is published.",
+      "description": "Join The Indie Earth's Indie Circle creator program, create natural skincare and haircare content, and earn 10% base commission with published tier upgrades to 25% and free products every month.",
+      "status": "unverified",
+      "title": "The Indie Earth Indie Circle Creator Program (brand direct)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 8,
+      "credibility": 3,
+      "niche_fit": 23,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "10% base rising to 25% at published order thresholds, plus 2-8 free products a month, is a generous published structure for a brand of this size.",
+        "contact_access": "Applications run through the brand's own program page with a stated two-working-day reply; no public partnerships email is published on the page.",
+        "credibility": "Full tier and payout terms are published on the brand's own page; the brand is India-focused with limited independent coverage in the sources checked.",
+        "niche_fit": "Natural skincare and haircare with creator content kits and product guides fits routine and review UGC well.",
+        "opportunity_availability": "Open application for creators on Instagram, YouTube or any platform, personally reviewed.",
+        "ugc_evidence": "A purpose-built creator program with content kits, approved captions, free review products and per-link analytics is strong creator evidence."
+      },
+      "ugc_evidence": 17
+    }
+  },
+  {
+    "name": "CurrentBody",
+    "website": "https://www.currentbody.com",
+    "country": "United Kingdom",
+    "category_slug": "beauty",
+    "description": "UK-founded beauty technology retailer and own-label device brand selling LED light-therapy masks, radio-frequency and microcurrent devices and laser hair removal; its affiliate program runs on Awin with category-based commissions.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://ui.awin.com/merchant-profile/16364",
+        "summary": "CurrentBody's own Awin merchant profile for the US & Canada program (fetched) describes the brand as the pioneering online destination for home-use health and beauty technology, listing categories including Health, Beauty, Facial Products, Hair, Skincare, Beauty Devices and Anti-Aging."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.affiliategraph.ai/programs/currentbody",
+        "summary": "Affiliate Graph's network-listing summary (fetched) reports a 4% default commission for CurrentBody with category rates of 20% on radio-frequency, wellness, LED and hair-growth products, 6% on Dermalux and 4% on laser hair removal, across Awin, Connexity, Digidip, Skimlinks and Webgains; the brand's Dutch Awin program terms reproduced on affi.io likewise show percentage groups (new customer 6%, existing customer 4%, brand groups 4-8%, voucher 2%). The recorded rate is the 4% default. Lasso's '$8 per sale' figure conflicts with every percentage source and is treated as that directory's artifact. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/16364",
+      "commission_cap": "unknown",
+      "commission_rate": 4,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/16364"
+    },
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/16364",
+      "compensation_notes": "4% default commission on Awin, with category rates reported up to 20% on radio-frequency, LED, wellness and hair-growth products and 6% on Dermalux, per network listing summaries; a 30-day cookie is widely reported. Commission cap: unknown - no cap statement is published.",
+      "description": "Join CurrentBody on Awin, create at-home beauty device content (LED masks, radio frequency, laser hair removal), and earn a 4% default commission with higher published category rates on device lines.",
+      "status": "unverified",
+      "title": "CurrentBody Affiliate Program (Awin)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "The 4% default is low, but published category rates reach 20% on the highest-value device lines and order values are premium; exact groups must be confirmed inside Awin.",
+        "contact_access": "Join route is the Awin merchant profile; applications are manually reviewed by the brand's affiliate team per directory reporting.",
+        "credibility": "Operating since 2009 and the best-known specialist retailer in home beauty technology, with programs on five networks.",
+        "niche_fit": "Beauty devices are a fast-growing, highly demonstrable UGC category, though the retailer range extends beyond skincare into wellness tech.",
+        "opportunity_availability": "Open Awin program across multiple regional storefronts with manual application review.",
+        "ugc_evidence": "An established multi-network program exists with creator-facing assets and codes, but the brand publishes no dedicated creator program page in the sources checked."
+      },
+      "ugc_evidence": 12
+    }
+  },
+  {
+    "name": "PÜR Minerals",
+    "website": "https://www.purcosmetics.com",
+    "country": "United States",
+    "category_slug": "beauty",
+    "description": "US clean-beauty brand with more than 20 years in multitasking mineral makeup and skincare, known for the 4-in-1 Pressed Mineral Makeup; its own affiliate page sends creators to sign up through Impact.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.purcosmetics.com/pages/affiliates",
+        "summary": "The brand's own affiliates page (fetched) invites bloggers and beauty influencers to join the PUR Affiliate Program, states affiliates receive a set commission on every sale through their unique link with tracking tools, exclusive promos and coupons, and states 'With Impact, you'll have access to real-time reporting, creative assets, and unique tools' with sign-up 'through Impact'. The page does not publish the commission rate, so commission_rate is recorded as null."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://www.purcosmetics.com/pages/affiliates",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched brand page, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://www.purcosmetics.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://www.purcosmetics.com/pages/affiliates"
+    },
+    "opportunity": {
+      "application_url": "https://www.purcosmetics.com/pages/affiliates",
+      "compensation_notes": "The brand confirms a set commission on every sale through Impact but does not publish the rate on its affiliates page, so commission_rate is null - confirm the rate inside Impact before posting. Commission cap: unknown - no cap statement is published.",
+      "description": "Sign up to the PUR Affiliate Program through Impact from the brand's own affiliates page, create clean mineral makeup content, and earn the program's set commission on every sale.",
+      "status": "unverified",
+      "title": "PÜR Minerals Affiliate Program (Impact)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 7,
+      "contact_access": 9,
+      "credibility": 4,
+      "niche_fit": 25,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "A commission is confirmed by the brand but the rate is unpublished, so compensation scores low until the rate is confirmed inside Impact.",
+        "contact_access": "The brand publishes its own affiliates page naming the network and sign-up route; no public partnerships email was found.",
+        "credibility": "Clean-beauty pioneer of over 20 years with national retail distribution; program existence is verified on the brand's own page.",
+        "niche_fit": "Mineral complexion products and multitasking makeup are a proven UGC category for base routines and wear tests.",
+        "opportunity_availability": "Open sign-up through Impact linked from the brand's own page.",
+        "ugc_evidence": "The brand directly recruits bloggers and beauty influencers on its own page with promos and creative support, though rates and creator terms sit inside the network."
+      },
+      "ugc_evidence": 13
+    }
+  },
+  {
+    "name": "Drunk Elephant",
+    "website": "https://www.drunkelephant.com",
+    "country": "United States",
+    "category_slug": "skincare",
+    "description": "US clean-skincare brand built on biocompatible ingredients and the 'Suspicious 6' elimination philosophy, owned by Shiseido; it runs network affiliate programs and a UK creator community, Skin Squad, with commission-based earnings.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.drunkelephant.co.uk/gb/en/drunk-elephant-skin-squad/",
+        "summary": "The brand's own Skin Squad page (fetched) describes a community for content creators and community engagers offering commission affiliate opportunities, personal discount links, free product vouchers and products for content creation, open to UK-based creators aged 18+ with 2,500+ followers on Instagram or TikTok, with tiered rewards as members progress."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://afftank.com/blog/skincare-affiliate-programs",
+        "summary": "Published US rates conflict: AffTank's skincare program guide reports 8% with a 30-day cookie managed through Impact, LinkApprove's comparison lists 10% per sale, and a Rakuten Advertising network listing for Canada shows a 3% base commission. With no single rate published on a brand or network page, commission_rate is recorded as null and the conflict documented here. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://www.drunkelephant.co.uk/gb/en/drunk-elephant-skin-squad/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact (reported)",
+      "source_url": "https://afftank.com/blog/skincare-affiliate-programs"
+    },
+    "opportunity": {
+      "application_url": "https://www.drunkelephant.co.uk/gb/en/drunk-elephant-skin-squad/",
+      "compensation_notes": "Rate not recorded: published figures conflict (8% via Impact per AffTank, 10% per LinkApprove, 3% base on Rakuten Canada). The UK Skin Squad creator community pays commission through tiered rewards (10-12% commission shown at higher tiers in member reports) alongside product vouchers. Confirm the live rate inside the network before posting. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Drunk Elephant's network affiliate program or its UK Skin Squad creator community, create smoothie-routine and ingredient-education content, and earn commission on sales - confirm the live rate inside the network first, as directories disagree.",
+      "status": "unverified",
+      "title": "Drunk Elephant Affiliate Program (Impact, reported) + Skin Squad",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 6,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "No reliable rate could be verified - published figures conflict between 3%, 8% and 10% across networks and directories.",
+        "contact_access": "Creator route is the brand's own Skin Squad page for the UK and network listings elsewhere; no public partnerships email was found.",
+        "credibility": "Global clean-skincare leader owned by Shiseido with mass Sephora distribution; program evidence is strong for existence, weak for terms.",
+        "niche_fit": "Iconic, colorful, ingredient-led skincare is a top UGC category for routines and 'smoothie' mixing content.",
+        "opportunity_availability": "Network programs are open, but the brand's own creator community is application-based, UK-only and requires 2,500+ followers.",
+        "ugc_evidence": "A dedicated creator community with commission earnings, vouchers and featuring opportunities is direct creator evidence, alongside gifted-plus-affiliate PR collaborations reported by creator platforms."
+      },
+      "ugc_evidence": 16
+    }
+  },
+  {
+    "name": "Dot & Key",
+    "website": "https://www.dotandkey.com",
+    "country": "India",
+    "category_slug": "skincare",
+    "description": "Indian skincare brand founded in 2018 by Anisha and Suyash Saraf, known for fruit-and-vitamin-led serums, sunscreens and moisturizers; its affiliate offers run through Indian affiliate platforms with rates that conflict across listings.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://earnkaro.com/blog/dot-key-affiliate-program/",
+        "summary": "EarnKaro's Dot & Key program page (fetched) offers a flat 15% commission for new and old users on purchases through Dot & Key affiliate links, with tracking inside 30 minutes, confirmation up to 50 days and bank withdrawal from Rs 10."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.cuelinks.com/blog/top-beauty-skincare-affiliate-programs-india/",
+        "summary": "Published rates conflict: EarnKaro lists a flat 15%, CueLinks' India beauty program guide lists 12.60% with a 1-day cookie, and Shopper lists 8.96%. With three different figures across platforms and no rate published on a brand page, commission_rate is recorded as null and the conflict documented here. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://earnkaro.com/blog/dot-key-affiliate-program/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "EarnKaro / CueLinks (reported)",
+      "source_url": "https://earnkaro.com/blog/dot-key-affiliate-program/"
+    },
+    "opportunity": {
+      "application_url": "https://earnkaro.com/blog/dot-key-affiliate-program/",
+      "compensation_notes": "Rate not recorded: platforms conflict (EarnKaro flat 15%, CueLinks 12.60%, Shopper 8.96%). Confirm the live rate inside the platform before posting. Commission cap: unknown - no cap statement is published.",
+      "description": "Promote Dot & Key through Indian affiliate platforms such as EarnKaro or CueLinks, create vitamin-C and sunscreen routine content, and earn commission on sales - confirm the live rate in-platform first, as listings disagree.",
+      "status": "unverified",
+      "title": "Dot & Key Affiliate Program (EarnKaro / CueLinks, reported)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 6,
+      "contact_access": 8,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Headline rates of 12.6-15% would be strong, but three platforms publish three different figures and none is confirmed on a brand page, so no rate could be recorded.",
+        "contact_access": "Join routes are published on the affiliate platforms; no public partnerships email was found.",
+        "credibility": "One of India's best-known D2C skincare brands, founded 2018, with wide marketplace and retail presence; program terms rest on platform listings.",
+        "niche_fit": "Affordable, colorful, ingredient-led skincare aimed at younger users is a strong UGC fit for routine and review content.",
+        "opportunity_availability": "Open joining through multiple Indian affiliate platforms with no stated approval requirements.",
+        "ugc_evidence": "Platforms actively market the program to creators, but the brand publishes no own creator program page in the sources checked."
+      },
+      "ugc_evidence": 12
+    }
+  },
+  {
+    "name": "Embryolisse",
+    "website": "https://www.embryolisse.com",
+    "country": "France",
+    "category_slug": "skincare",
+    "description": "French pharmacy skincare brand known for the Lait-Crème Concentré multi-purpose moisturizer created in 1950 and long used by makeup artists; its affiliate program runs on Awin in the US.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+        "summary": "CompareEPC's skincare program index (fetched) lists 'Embryolisse - The Dermo-cosmetic expertise' on the Awin network in the US with a 30-day cookie; the 10.64% figure shown there is an EPC-derived average rather than a published commission rate, so it is not recorded as the rate."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.shopper.com/partnerships/embryolisse-com-affiliate-program",
+        "summary": "Shopper's partnership listing reports a 5-10% payout range for the Embryolisse affiliate program, while Lasso lists the program with the rate unpublished. Because only a range is reported and no flat rate is published on a brand or network page, commission_rate is recorded as null with the range documented here. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://compareepc.com/skincare-affiliate-programs/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://compareepc.com/skincare-affiliate-programs/"
+    },
+    "opportunity": {
+      "application_url": "https://compareepc.com/skincare-affiliate-programs/",
+      "compensation_notes": "No flat rate is published; Shopper reports a 5-10% payout range on Awin with a 30-day cookie reported by program indexes, so commission_rate is null. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Embryolisse on Awin, create French-pharmacy and makeup-prep content around Lait-Crème Concentré, and earn within the reported 5-10% payout range.",
+      "status": "unverified",
+      "title": "Embryolisse Affiliate Program (Awin)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 7,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Only a 5-10% range is reported; the low end is modest and no flat rate could be recorded.",
+        "contact_access": "Join route is the Awin listing via program indexes; no public partnerships email was found.",
+        "credibility": "Heritage French pharmacy brand sold worldwide since the 1950s; program evidence is directory-based.",
+        "niche_fit": "The iconic multi-use cream is a makeup-artist staple and a strong UGC topic for prep and multi-use routines.",
+        "opportunity_availability": "Open application through Awin for the US program.",
+        "ugc_evidence": "An open Awin program exists, but the brand publishes no dedicated creator program page in the sources checked."
+      },
+      "ugc_evidence": 11
+    }
+  },
+  {
+    "name": "YOU Skincare",
+    "website": "https://www.youskincare.in",
+    "country": "India",
+    "category_slug": "skincare",
+    "description": "Indian skincare brand from Chandigarh selling capsule-cream formulations for pigmentation, hydration and glow; its YOU Insiders creator program, run through Shopify Collabs, pays a 10% starting commission with no minimum follower count.",
+    "contacts": [
+      {
+        "contact_name": "YOU Skincare Support",
+        "contact_type": "general",
+        "email": "support@youskincare.in",
+        "notes": "Published on the brand's own Collabs page as the contact email, with the brand's Chandigarh address and phone also listed there.",
+        "url": "https://www.youskincare.in/pages/collab"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/youskincare.in"
+      },
+      {
+        "platform": "youtube",
+        "url": "https://youtube.com/@youskincareindia"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/17yXdS2pJq/?mibextid=wwXIfr"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/company/youskincare/"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.youskincare.in/pages/collab",
+        "summary": "The brand's own Collabs page (fetched) describes the YOU Insiders program: a 10% starting commission on eligible sales through a personal referral link, free to apply with applications reviewed, no minimum follower count, commission calculated on eligible product revenue after discounts excluding GST, shipping and refunds, plus a separate Ambassador track with selected campaign and gifting opportunities. Applications run through Shopify Collabs (the page's apply buttons link to api.collabs.shopify.com). The page also publishes the support email support@youskincare.in and the brand's Chandigarh address."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://www.youskincare.in/pages/collab",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched program page, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "application_url": "https://www.youskincare.in/pages/collab",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Shopify Collabs (own program)",
+      "source_url": "https://www.youskincare.in/pages/collab"
+    },
+    "opportunity": {
+      "application_url": "https://www.youskincare.in/pages/collab",
+      "compensation_notes": "10% starting commission on eligible sales through a personal link, per the brand's own Collabs page; higher rates are implied by 'starting' but not published. Commission cap: unknown - no cap statement is published.",
+      "description": "Join YOU Insiders through the brand's Collabs page, create capsule-cream routine content, and earn a 10% starting commission with no minimum follower count.",
+      "status": "unverified",
+      "title": "YOU Skincare YOU Insiders Program (Shopify Collabs)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 12,
+      "credibility": 3,
+      "niche_fit": 22,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "A published 10% starting rate on the brand's own page is a fair base for a small brand, though payout timing follows an unpublished programme policy.",
+        "contact_access": "A support email, phone number and postal address are all published on the brand's own program page.",
+        "credibility": "Full program FAQs are published on the brand's own page, but the brand is young and small with limited independent coverage.",
+        "niche_fit": "Capsule creams with texture-led content ideas fit routine UGC, though the range is narrow and India-only.",
+        "opportunity_availability": "Open application with no minimum follower count, reviewed by the brand.",
+        "ugc_evidence": "A dedicated creator program with a creative library, campaign briefs, dashboard guidance and content ideas per product is strong creator evidence."
+      },
+      "ugc_evidence": 15
+    }
+  }
+]

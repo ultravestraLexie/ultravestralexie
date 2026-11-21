@@ -151,7 +151,8 @@ export default async function AskPage({
     brand: Brand; score: number; explanation: Record<string, string>;
     network: string | null; rate: number | null; notes: string | null; appUrl: string | null;
     contactEmail: string | null; contactUrl: string | null; hasOpenOpp: boolean;
-    uncapped: boolean; low: boolean;
+    uncapped: boolean; capped: boolean; low: boolean;
+    sourceUrl: string | null; verification: string | null;
     cats: { slug: string; name: string }[]; relevance: number; reasons: string[];
   }
   let rows: Row[] = [];
@@ -169,13 +170,23 @@ export default async function AskPage({
       loggedOutEmpty = !user;
     }
     if (list.length) {
-      const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }] = await Promise.all([
+      const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }, { data: evidence }] = await Promise.all([
         supabase.from("brand_scores").select("brand_id, total_score, explanation, scored_at").order("scored_at", { ascending: false }),
         supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url"),
         supabase.from("brand_contacts").select("brand_id, email, contact_url"),
         supabase.from("opportunities").select("brand_id, status, application_url"),
         supabase.from("brand_categories").select("brand_id, categories ( slug, name )"),
+        supabase.from("brand_evidence").select("brand_id, source_url, confidence"),
       ]);
+      const CONF_RANK: Record<string, number> = { verified: 3, publicly_reported: 2, needs_review: 1 };
+      const evMap = new Map<string, { sourceUrl: string | null; verification: string | null }>();
+      for (const e of evidence ?? []) {
+        const cur = evMap.get(e.brand_id as string) ?? { sourceUrl: null, verification: null };
+        if (!cur.sourceUrl && e.source_url) cur.sourceUrl = e.source_url as string;
+        const conf = (e.confidence as string) ?? "";
+        if (conf && (!cur.verification || (CONF_RANK[conf] ?? 0) > (CONF_RANK[cur.verification] ?? 0))) cur.verification = conf;
+        evMap.set(e.brand_id as string, cur);
+      }
       const catsMap = new Map<string, { slug: string; name: string }[]>();
       for (const l of links ?? []) {
         const row = l as unknown as { brand_id: string; categories: { slug: string; name: string } | null };
@@ -212,6 +223,9 @@ export default async function AskPage({
           contactUrl: contactMap.get(brand.id)?.url ?? null,
           hasOpenOpp: openSet.has(brand.id),
           uncapped: Boolean(notes && notes.includes("UNCAPPED")),
+          capped: Boolean(notes && notes.includes("cap: capped")),
+          sourceUrl: evMap.get(brand.id)?.sourceUrl ?? null,
+          verification: evMap.get(brand.id)?.verification ?? null,
           low: Boolean(notes && notes.includes("Creator saturation: low")),
           cats: catsOf,
           relevance,
@@ -248,8 +262,8 @@ export default async function AskPage({
   const platformLabel = platform || "TikTok";
 
   const pitchFor = (r: Row) => {
-    const who = creatorName || "a UGC creator";
-    return `Subject: UGC partnership idea for ${r.brand.name} — ${platformLabel} ${nicheLabel} creator
+    const who = creatorName || "a creator";
+    return `Subject: Partnership idea for ${r.brand.name} — ${platformLabel} ${nicheLabel} creator
 
 Hi ${r.brand.name} team,
 
@@ -257,7 +271,7 @@ I am ${who} creating ${nicheLabel.toLowerCase()} content on ${platformLabel}. I 
 
 My first video idea: "${concepts[0].title}" — ${concepts[0].hook}
 
-I can deliver one polished UGC video with full usage-ready files, captions and a posting version for my own channel. I am happy to start with product seeding or your affiliate program and prove results before we talk paid rates.
+I can deliver one polished creator video with full usage-ready files, captions and a posting version for my own channel. I am happy to start with product seeding or your affiliate program and prove results before we talk paid rates.
 
 Would you be open to a short intro this week? I can send examples of my work right away.
 
@@ -404,6 +418,34 @@ ${platformLabel} creator — ${nicheLabel}`;
                   <pre style={{ whiteSpace: "pre-wrap", wordBreak: "break-word", background: "#0d0221", border: "1px solid #4c1d95", borderRadius: 14, padding: "16px 18px", fontSize: 14, lineHeight: 1.6, color: "#f3e8ff", margin: 0 }}>{pitchFor(r)}</pre>
                 </article>
               ))}
+            </div>
+          </section>
+
+          <section style={panel}>
+            <h2 style={h2style}>🧾 Evidence, missing information &amp; next steps</h2>
+            <p style={sub}>Every report states what is proven, what is missing, and what to do next. Missing is never filled in by guessing — a cap that is not published is reported as not stated, never as uncapped.</p>
+            <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+              {mainList.slice(0, 5).map((r) => {
+                const missing: string[] = [];
+                if (r.rate == null) missing.push("commission rate not published");
+                if (!r.uncapped && !r.capped) missing.push("earnings cap not stated — treat as unknown");
+                if (!r.network) missing.push("affiliate program route not published");
+                if (!r.contactEmail && !r.contactUrl) missing.push("no public creator contact published");
+                if (!r.appUrl) missing.push("no open application route");
+                const capStatus = r.uncapped ? "UNCAPPED ✓ — evidence states no ceiling" : r.capped ? "CAPPED — a published limit applies (see the profile evidence)" : "Cap not stated (unknown)";
+                const nextStep = r.appUrl ? "Apply through the program page, then film concept one below." : (r.contactEmail || r.contactUrl) ? "Send the ready pitch above, with concept one as your proposed video." : "Open the brand profile and use the contact route on the brand's own site.";
+                return (
+                  <article key={r.brand.id} style={{ borderBottom: "1px solid rgba(168,85,247,0.18)", paddingBottom: 12 }}>
+                    <p style={{ margin: "0 0 4px", fontSize: 16 }}><strong>{r.brand.name}</strong> <span style={{ color: "#ddd0ff" }}>· Cap status: {capStatus}</span></p>
+                    <p style={{ margin: "0 0 4px", fontSize: 14.5, color: "#ddd0ff" }}>
+                      {r.sourceUrl ? <>Evidence: <a href={r.sourceUrl} target="_blank" rel="noreferrer" style={{ color: "#67e8f9" }}>source ↗</a>{r.verification ? ` · Verification: ${r.verification.replace("_", " ")}` : ""} · </> : "Evidence: on the brand profile · "}
+                      <Link href={`/brands/${r.brand.id}`} style={{ color: "#f0abfc" }}>Full evidence &amp; sources →</Link>
+                    </p>
+                    <p style={{ margin: "0 0 4px", fontSize: 14.5, color: "#ddd0ff" }}><strong style={{ color: "#f0abfc" }}>Missing:</strong> {missing.length ? missing.join(" · ") : "nothing material — rate, cap status, program and contact are all published"}</p>
+                    <p style={{ margin: 0, fontSize: 14.5, color: "#ddd0ff" }}><strong style={{ color: "#f0abfc" }}>Next step:</strong> {nextStep}</p>
+                  </article>
+                );
+              })}
             </div>
           </section>
 

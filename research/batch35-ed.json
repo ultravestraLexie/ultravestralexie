@@ -1,0 +1,536 @@
+[
+ {
+  "name": "Tropicfeel",
+  "website": "https://www.tropicfeel.com",
+  "country": "Spain",
+  "category_slug": "travel",
+  "description": "Barcelona-based travel gear brand known for versatile travel shoes, backpacks and apparel designed for travelers. Its affiliate program runs through CJ Affiliate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/tropicfeel/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/tropicfeel/",
+    "summary": "Lasso (fetched) lists the Tropicfeel affiliate program on CJ Affiliate paying 10% per sale with a 14-day cookie. A second directory agrees on the flat 10% rate; Shopper.com instead reports a 5-10% range, so the rate is recorded as the corroborated 10% with the range discrepancy noted. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/tropicfeel/",
+   "source_url": "https://getlasso.co/affiliate/tropicfeel/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tropicfeel Affiliate Program (CJ Affiliate)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Travel shoes and backpacks are a core, high-intent niche for travel creators and gear reviewers.",
+    "An established affiliate program on CJ Affiliate with directory coverage of the brand's creator activity.",
+    "A published 10% commission; the 14-day cookie is short, and no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "Applications run through the CJ Affiliate listing; no public brand partnerships email was found.",
+    "Open application through CJ Affiliate, subject to network approval.",
+    "Well-known travel gear brand with a large direct-to-consumer presence."
+   ]
+  }
+ },
+ {
+  "name": "CabinZero",
+  "website": "https://www.cabinzero.com",
+  "country": "United Kingdom",
+  "category_slug": "travel",
+  "description": "Travel bag brand crafting lightweight, durable cabin-sized backpacks that meet airline carry-on restrictions, with a built-in global luggage tracker and recycled materials. It runs an Ambassador creator program on its own site and an affiliate program through Rakuten Advertising.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.cabinzero.com/pages/ambassador"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.cabinzero.com/pages/ambassador",
+    "summary": "CabinZero's own site (fetched) runs an Ambassador page recruiting content creators with commissions on referred sales; the page states no follower minimum and publishes no rate and no creator count, so creator_saturation is recorded as unknown rather than low."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/cabin-zero/",
+    "summary": "LinkClicky (fetched) lists the Cabin Zero affiliate program on the Rakuten Advertising platform paying 8% per sale, with applications via Rakuten's LinkShare signup. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 8,
+   "application_url": "https://www.cabinzero.com/pages/ambassador",
+   "source_url": "https://linkclicky.com/affiliate-program/cabin-zero/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "CabinZero Ambassador Program + Affiliate Program (Rakuten Advertising)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Carry-on backpacks are a proven travel-creator niche with strong packing and review content demand.",
+    "The brand actively recruits creators through its own Ambassador page with no stated follower minimum.",
+    "A published 8% commission via Rakuten; no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "A public creator application page on the brand's own site, plus the Rakuten network listing.",
+    "Open application through the brand's Ambassador page and the Rakuten network.",
+    "Established niche travel brand sold internationally; smaller than the major luggage names."
+   ]
+  }
+ },
+ {
+  "name": "M.Gemi",
+  "website": "https://www.mgemi.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Direct-to-consumer women's footwear brand selling Italian-crafted shoes in small batches. Its affiliate program pays 10% and its live application page runs on the Partnerize (Ascend) platform.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://ascendpartner.com/affiliate/registration?refid=206593"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/m-gemi/",
+    "summary": "Lasso lists the M.Gemi affiliate program paying 10% with a 30-day cookie, and LinkClicky independently reports the same 10% rate. The directories disagree on the network: LinkClicky lists Impact, while the brand's live affiliate registration page runs on Partnerize's Ascend platform (ascendpartner.com), so the network is recorded as Partnerize with the conflict noted here. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": 10,
+   "application_url": "https://ascendpartner.com/affiliate/registration?refid=206593",
+   "source_url": "https://getlasso.co/affiliate/m-gemi/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "M.Gemi Affiliate Program (Partnerize)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": [
+    "Italian-crafted women's footwear is a strong fashion-creator niche with try-on and styling content demand.",
+    "A published affiliate program with directory coverage; creator-specific perks are not detailed publicly.",
+    "A published 10% commission with a 30-day cookie; no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "A live affiliate registration page on Partnerize; no public brand partnerships email was found.",
+    "Open registration through Partnerize, subject to program approval.",
+    "Established direct-to-consumer footwear brand with national press coverage."
+   ]
+  }
+ },
+ {
+  "name": "Ana Luisa",
+  "website": "https://www.analuisa.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "New York direct-to-consumer jewelry brand selling carbon-neutral, recycled-metal pieces. Its affiliate program runs on the Impact network.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/ana-luisa/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/ana-luisa/",
+    "summary": "LinkClicky (fetched) lists the Ana Luisa affiliate program on the Impact platform. Published rates conflict: LinkClicky reports 5%, Lasso reports 'up to 18.75%', and an older brand blog post cites a different figure, so commission_rate is recorded as null with the conflict noted here. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/ana-luisa/",
+   "source_url": "https://linkclicky.com/affiliate-program/ana-luisa/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ana Luisa Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Affordable fine jewelry is a high-performing fashion and gifting niche for creators.",
+    "The brand is heavily promoted by influencers and runs an established program on Impact.",
+    "Published commission rates conflict across sources (5% vs 'up to 18.75%'), so the rate is recorded as null and compensation scores conservatively; no cap statement was found.",
+    "Applications run through the Impact marketplace listing; no public brand partnerships email was found.",
+    "Open application through Impact, subject to program approval.",
+    "Well-known consumer jewelry brand with wide retail and press presence."
+   ]
+  }
+ },
+ {
+  "name": "Stio",
+  "website": "https://www.stio.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Jackson Hole, Wyoming outdoor apparel brand selling mountain lifestyle clothing direct-to-consumer. Its affiliate program runs on the Impact network.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/stio/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/stio/",
+    "summary": "Lasso lists the Stio affiliate program at 2.4%, while compareepc lists it on Impact at 8%; an impact.com case study confirms Stio migrated its affiliate program to impact.com. Because the published rates conflict (2.4% vs 8%), commission_rate is recorded as null with the conflict noted here, and the network is recorded as Impact. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/stio/",
+   "source_url": "https://getlasso.co/affiliate/stio/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Stio Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Outdoor apparel is a proven niche for travel and adventure creators.",
+    "An established program on Impact, confirmed by impact.com's own case study of the brand's migration.",
+    "Published commission rates conflict across sources (2.4% vs 8%), so the rate is recorded as null and compensation scores conservatively; no cap statement was found.",
+    "Applications run through the Impact marketplace; no public brand partnerships email was found.",
+    "Open application through Impact, subject to program approval.",
+    "Established outdoor brand with its own retail stores and national distribution."
+   ]
+  }
+ },
+ {
+  "name": "Vaer Watches",
+  "website": "https://www.vaerwatches.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Los Angeles direct-to-consumer watch brand selling American-assembled field and dive watches. Its affiliate program runs on the Impact network paying 10% per purchase.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/vaer-watches/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/vaer-watches/",
+    "summary": "LinkClicky (fetched) lists the Vaer Watches affiliate program on the Impact platform paying 10% per purchase. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/vaer-watches/",
+   "source_url": "https://linkclicky.com/affiliate-program/vaer-watches/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Vaer Watches Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Watches are a steady men's fashion and everyday-carry niche for review and styling creators.",
+    "A published affiliate program on Impact; the brand works with reviewers across watch media.",
+    "A published 10% commission per purchase; no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "Applications run through the Impact marketplace listing; no public brand partnerships email was found.",
+    "Open application through Impact, subject to program approval.",
+    "Established direct-to-consumer watch brand; smaller than the major fashion watch names."
+   ]
+  }
+ },
+ {
+  "name": "Organic Basics",
+  "website": "https://www.organicbasics.com",
+  "country": "Denmark",
+  "category_slug": "fashion",
+  "description": "Copenhagen basics brand selling underwear, activewear and essentials made from organic and recycled fabrics. Its affiliate program runs through Awin with a 10% base commission that rises with sales volume.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/organic-basics/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/organic-basics/",
+    "summary": "Lasso lists the Organic Basics affiliate program at a 10% base commission. InfluencerRate reports payments are made through AWIN and that the rate starts at 10% and rises to 20% by sales volume; a second directory reports a 10-15% range. One stale 40% figure appears in an older listing and is disregarded as an outlier. The network is recorded as Awin and the rate as the 10% base. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/organic-basics/",
+   "source_url": "https://getlasso.co/affiliate/organic-basics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Organic Basics Affiliate Program (Awin)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Sustainable basics and underwear are a strong fashion-creator niche with haul and review demand.",
+    "An established program on Awin with tiered rates that reward performing creators.",
+    "A published 10% base commission rising toward 20% by volume; no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "Applications run through the Awin network listing; no public brand partnerships email was found.",
+    "Open application through Awin, subject to network and program approval.",
+    "Well-known European basics brand with international shipping and press coverage."
+   ]
+  }
+ },
+ {
+  "name": "Troubadour",
+  "website": "https://www.troubadourgoods.com",
+  "country": "United Kingdom",
+  "category_slug": "travel",
+  "description": "London premium bag brand making waterproof leather and fabric backpacks, totes and carry goods; a certified B Corp. Its own affiliates page recruits content creators from 1,000 followers, pays 6% commission on an average order of about $275, and joins through Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.troubadourgoods.com/sitemap.html/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.troubadourgoods.com/sitemap.html/affiliates",
+    "summary": "Troubadour's own affiliates page (fetched) states: 'Earn 6% commission for each sale you refer - the average order is $275', a 30-day cookie window, applications reviewed within 3 business days, a dedicated affiliate management team, and that creators with 1,000 followers on Instagram up to 10,000,000 on TikTok are welcome; the JOIN NOW button links to app.impact.com, confirming the Impact network. The page states no earnings cap, so commission_cap is unknown, and publishes no creator count, so creator_saturation is unknown rather than low."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/troubadour/",
+    "summary": "LinkClicky and the Impact campaign listing independently confirm the 6% payout on Impact. One Lasso listing claims 20%, which conflicts with the brand's own published 6% and is disregarded as an outlier, noted here. Impact snippets variously show a 14-day and a 30-day referral period; the brand's own page states a 30-day cookie window."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 6,
+   "application_url": "https://www.troubadourgoods.com/sitemap.html/affiliates",
+   "source_url": "https://www.troubadourgoods.com/sitemap.html/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Troubadour Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 12,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Premium travel and work bags are a high-intent niche for travel and everyday-carry creators.",
+    "The brand's own affiliates page explicitly courts content creators, bloggers and YouTubers starting at 1,000 followers.",
+    "A verified 6% commission on a high ~$275 average order; no earnings cap is stated on the brand's page, so the cap stays unknown.",
+    "A public affiliates page on the brand's own site with a direct Impact join link and a dedicated affiliate team.",
+    "Applications reviewed within 3 business days per the brand's own page.",
+    "Certified B Corp featured by Forbes and Wirecutter."
+   ]
+  }
+ },
+ {
+  "name": "Maguire Shoes",
+  "website": "https://www.us.maguireshoes.com",
+  "country": "Canada",
+  "category_slug": "fashion",
+  "description": "Montreal women's footwear brand making shoes in family-owned factories with responsibly sourced materials and transparent pricing. Its affiliate program runs on ShareASale paying 10% per sale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/maguire-shoes/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/maguire-shoes/",
+    "summary": "LinkClicky (fetched) lists the Maguire Shoes affiliate program on the ShareASale platform paying 10% per sale with a 15-day cookie duration, open to all regions. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/maguire-shoes/",
+   "source_url": "https://linkclicky.com/affiliate-program/maguire-shoes/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Maguire Shoes Affiliate Program (ShareASale)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Designer-grade women's shoes at transparent prices are a strong fashion-creator niche.",
+    "A published affiliate program on ShareASale; creator-specific perks are not detailed publicly.",
+    "A published 10% commission; the 15-day cookie is short, and no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "Applications run through the ShareASale listing; no public brand partnerships email was found.",
+    "Open application through ShareASale, subject to program approval.",
+    "Established Canadian footwear brand with US and Canadian stores."
+   ]
+  }
+ },
+ {
+  "name": "Margaux",
+  "website": "https://www.margauxny.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "New York women's footwear brand known for comfortable ballet flats and boots offered in extended sizes and widths. Its affiliate program runs on ShareASale paying 7% per sale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/margaux/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/margaux/",
+    "summary": "LinkClicky (fetched) lists the Margaux affiliate program on the ShareASale platform paying 7% per sale with a 15-day cookie duration, open to all regions. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 7,
+   "application_url": "https://linkclicky.com/affiliate-program/margaux/",
+   "source_url": "https://linkclicky.com/affiliate-program/margaux/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Margaux Affiliate Program (ShareASale)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Comfort-first women's flats and boots in extended widths are a proven fashion-creator niche.",
+    "A published affiliate program on ShareASale; creator-specific perks are not detailed publicly.",
+    "A published 7% commission with a short 15-day cookie; no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "Applications run through the ShareASale listing; no public brand partnerships email was found.",
+    "Open application through ShareASale, subject to program approval.",
+    "Established New York footwear brand with its own retail stores."
+   ]
+  }
+ }
+]

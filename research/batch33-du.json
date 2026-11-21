@@ -1,0 +1,559 @@
+[
+ {
+  "name": "Hideaway",
+  "website": "https://www.hideaway.online",
+  "country": "Australia",
+  "category_slug": "beauty",
+  "description": "Australian direct-to-consumer fragrance and bath/body brand (designer-inspired perfumes, body mists and body treats, made on the Gold Coast) running a Creator Commission Program through Shopify Collabs: 30% commission on organic sales, and its own program page explicitly markets unlimited earnings with no cap.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.hideaway.online/pages/creators",
+    "summary": "Hideaway's own Creator Program page (fetched) states affiliates earn 30% commission on every sale through Shopify Collabs with a custom 10% follower discount code, under a page banner reading '30% Commission - Unlimited Earnings' and a stats block showing an infinity symbol for 'Earning Potential'. Its Paid Amplification tier states '10% on every sale those ads generate, with zero cost to you and no cap on earnings', 'Unlimited earning potential - no cap, ever' and 'Tier 2 creators earn an additional 10% on all ad-driven sales - with no ceiling', while the comparison table lists 'Capped earnings' as a drawback of other programs. That is an explicit no-earnings-cap statement on the brand's own program page, so commission_cap is recorded as uncapped and commission_rate as 30 (the Tier 1 organic rate)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://www.hideaway.online/pages/creators",
+    "summary": "The same page (fetched) describes designer-inspired perfumes and bath & body products made on the Gold Coast, Australia, says applications are reviewed within 3-5 business days, welcomes creators of all sizes (1,000 to 1,000,000 followers), and displays '500+ Active Creators' and '$180k+ Creator Earnings Paid'. A creator count in the several-hundreds is not ~100-scale absolute evidence of a small cohort, so creator_saturation is recorded as unknown, not low."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": 30,
+   "application_url": "https://www.hideaway.online/pages/creators",
+   "source_url": "https://www.hideaway.online/pages/creators",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Hideaway Creator Commission Program (Shopify Collabs)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.hideaway.online/pages/creators",
+   "compensation_notes": "30% commission on organic sales via Shopify Collabs plus a 10% follower discount code; the brand's own page states unlimited earnings / no cap, ever. Tier 2 paid amplification adds 10% on ad-driven sales by invitation.",
+   "description": "Apply on Hideaway's creator page, join Shopify Collabs for your link and code, post fragrance and bath/body content, and earn 30% on tracked sales with no published earnings ceiling."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 18,
+   "compensation": 20,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Fragrance and bath/body are strong TikTok/Instagram content categories and the brand builds its marketing around creator haul and review posts.",
+    "ugc_evidence": "The program page showcases named creator posts with like counts and states $180k+ in creator earnings paid.",
+    "compensation": "30% is a top-tier beauty rate and the brand's own page explicitly states unlimited earnings with no cap.",
+    "contact_access": "Application form on the brand's own page with a stated 3-5 business day review; no public email was published on the page fetched.",
+    "opportunity_availability": "Open application for creators of all sizes, though the affiliate tier is labelled invite-only after review.",
+    "credibility": "A smaller Australian DTC brand; it self-reports a 4.9-star average product rating on its own page."
+   }
+  }
+ },
+ {
+  "name": "Mario Badescu",
+  "website": "https://www.mariobadescu.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare brand founded in 1967 with 200+ products, running a tiered creator affiliate program through Aspire: creators start at the Skin Squad tier earning 10% commission on every sale, with rates growing through tiers, a 15% audience discount code and product gifting.",
+  "contacts": [
+   {
+    "contact_name": "Mario Badescu Affiliate Program",
+    "contact_type": "partnerships",
+    "email": "felicia@mariobadescu.com",
+    "notes": "Published at the bottom of the brand's own Aspire affiliate application page: 'Questions? Reach us at felicia@mariobadescu.com'.",
+    "url": "https://mariobadescu.aspireiq.com/join/mario-badescu-affiliate-program?clientId=L5a4kB7nX508VLjlSu9Bv4k1ElxBy7I7"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://mariobadescu.aspireiq.com/join/mario-badescu-affiliate-program?clientId=L5a4kB7nX508VLjlSu9Bv4k1ElxBy7I7",
+    "summary": "Mario Badescu's own affiliate application page on Aspire (fetched) states creators begin at the entry 'Skin Squad' tier earning a 10% commission on every sale they drive, with the rate growing as they move up program tiers, plus an exclusive 15% audience discount code, product gifting, monthly newsletters and training resources. 'The sky's the limit' on that page refers to tier progression and perks, not to an earnings-cap statement, so commission_cap is unknown. The page publishes the contact email felicia@mariobadescu.com for program questions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "network_listing",
+    "source_type": "affiliate_directory",
+    "source_url": "https://firstonlineprofits.com/new-fmtc-merchants-include-dollar-shave-club-spyder-brezza-myminipets-mario-badescu/",
+    "summary": "An FMTC merchant roundup (fetched) lists Mario Badescu as an Awin advertiser (Awin #122442, Personal Care), confirming the brand also runs a conventional network affiliate program alongside its Aspire creator program. No creator count is published in any source fetched, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (own program)",
+   "commission_rate": 10,
+   "application_url": "https://mariobadescu.aspireiq.com/join/mario-badescu-affiliate-program?clientId=L5a4kB7nX508VLjlSu9Bv4k1ElxBy7I7",
+   "source_url": "https://mariobadescu.aspireiq.com/join/mario-badescu-affiliate-program?clientId=L5a4kB7nX508VLjlSu9Bv4k1ElxBy7I7",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mario Badescu Affiliate Program (Aspire)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://mariobadescu.aspireiq.com/join/mario-badescu-affiliate-program?clientId=L5a4kB7nX508VLjlSu9Bv4k1ElxBy7I7",
+   "compensation_notes": "10% starting commission at the Skin Squad entry tier, rising through program tiers; 15% audience discount code and product gifting included. No cap statement published.",
+   "description": "Apply on the brand's Aspire page, start at Skin Squad with 10% commission and gifting, and level up through tiers by driving sales with skincare routine content."
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 17,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Iconic, affordable skincare with 200+ products is a staple of routine and empties content.",
+    "ugc_evidence": "A dedicated tiered creator program with gifting, newsletters and training, plus a separate college ambassador scheme reported in search results.",
+    "compensation": "10% starting rate that grows with tiers is solid for a mass skincare brand; cap not stated.",
+    "contact_access": "A named program contact email is published directly on the application page, which is rare and valuable.",
+    "opportunity_availability": "Open application for beauty and skincare creators; entry tier starts immediately on approval.",
+    "credibility": "Heritage US brand operating since 1967 with wide retail distribution."
+   }
+  }
+ },
+ {
+  "name": "TIRTIR",
+  "website": "https://tirtir.global",
+  "country": "South Korea",
+  "category_slug": "beauty",
+  "description": "Viral Korean beauty brand (Mask Fit Red Cushion, Milk Skin Toner) running TIRACLES, its own affiliate program for beauty influencers via Shopify Collabs with commissions starting at 5%, and one of the largest TikTok Shop affiliate operations in beauty, with tens of thousands of affiliates.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://tirtir.global/pages/affiliate-program",
+    "summary": "TIRTIR's own affiliate page (fetched) describes TIRACLES, its exclusive affiliate program for beauty influencers: apply through the Shopify Collabs form, and once approved receive a one-time 35% personal discount code for content products, a creator discount code starting at 5% for the audience, and commissions starting at 5% with higher rates unlocked as you grow. No earnings-cap statement appears on the page, so commission_cap is unknown and commission_rate is recorded as the 5% starting rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "platform_data",
+    "source_url": "https://www.fastmoss.com/shop-marketing/detail/7495857443730262618",
+    "summary": "FastMoss data for the TIRTIR Inc. TikTok Shop store (fetched) shows 26,061 affiliates on the promotion channel and roughly 13,400 affiliates in store analytics, with active products commonly paying 10% commission. Tens of thousands of affiliates is absolute-terms evidence of a heavily saturated creator program, so creator_saturation is recorded as high."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": 5,
+   "application_url": "https://tirtir.global/pages/affiliate-program",
+   "source_url": "https://tirtir.global/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "TIRACLES by TIRTIR (Shopify Collabs) + TikTok Shop",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://tirtir.global/pages/affiliate-program",
+   "compensation_notes": "Own program starts at 5% commission and rises with growth; TikTok Shop products commonly pay around 10% per FastMoss data. No cap statement published.",
+   "description": "Apply to TIRACLES via Shopify Collabs or promote TIRTIR products on TikTok Shop; expect heavy creator competition on the hero cushion products."
+  },
+  "score": {
+   "niche_fit": 29,
+   "ugc_evidence": 20,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "The Mask Fit cushion is one of the most-covered K-beauty products on TikTok; the brand recruits Instagram, TikTok and YouTube beauty creators directly.",
+    "ugc_evidence": "A named influencer program plus a TikTok Shop affiliate army of roughly 26,000 creators is maximal creator-program evidence.",
+    "compensation": "5% starting commission is low for beauty and only rises with performance; TikTok Shop rates around 10% are better but still mid-pack.",
+    "contact_access": "Application runs through the brand's own page and Shopify Collabs; no public program email was found.",
+    "opportunity_availability": "Applications are open, but with tens of thousands of affiliates the realistic opportunity per creator is diluted.",
+    "credibility": "Major K-beauty brand with 1.1M+ TikTok Shop sales and global retail presence."
+   }
+  }
+ },
+ {
+  "name": "PURITO Seoul",
+  "website": "https://www.purito.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Korean sensitive-skin brand (Centella, oat and panthenol lines) running the PURITO Seoul Privileges creator program: selected creators get a dedicated Amazon Attribution link through the Coral platform paying 15% of net sales, alongside recurring TikTok Shop affiliate challenges for hero products.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "program_page",
+    "source_url": "https://coral.ax/a/1onzo",
+    "summary": "The PURITO Seoul Privileges Amazon Sales Bonus sign-up page on the Coral affiliate platform (fetched) states selected creators receive a unique Amazon Attribution link and earn 15% of net sales generated through it, with commissions calculated monthly and creator payouts processed around the 15th of the month; only sales tracked through the official link qualify. No earnings-cap statement appears, so commission_cap is unknown, and the program is limited to selected creators invited from the Privileges campaign."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "program_page",
+    "source_url": "https://www.notion.so/PURITO-SEOUL-PeelForTheGold-Affiliate-Challenge-2f72ce2a77da807bac39eb97d8dd7a15",
+    "summary": "A PURITO Seoul affiliate challenge page (fetched) shows the brand also recruits TikTok Shop affiliates for product campaigns (post at least 5 TikTok shoppable videos of the Peel Shot Exfoliating Pad, minimum cumulative GMV target), confirming an active TikTok Shop affiliate route in addition to the Privileges/Coral program. No creator count is published in either source, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (own program)",
+   "commission_rate": 15,
+   "application_url": "https://coral.ax/a/1onzo",
+   "source_url": "https://coral.ax/a/1onzo",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "PURITO Seoul Privileges (Coral / Amazon Attribution) + TikTok Shop",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://coral.ax/a/1onzo",
+   "compensation_notes": "15% of net sales through the dedicated Amazon Attribution link for selected Privileges creators, paid monthly; TikTok Shop challenge rates are set per campaign. No cap statement published.",
+   "description": "Get selected into PURITO Seoul Privileges, register on Coral for an Amazon Attribution link paying 15% of net sales, and join TikTok Shop affiliate challenges for hero products."
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 16,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 5,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Barrier-care and sensitive-skin K-beauty is a central skincare content niche and the brand recruits skincare creators specifically.",
+    "ugc_evidence": "A named creator program (Privileges) with structured TikTok Shop affiliate challenges and content guidelines.",
+    "compensation": "15% of net sales is above the K-beauty norm; cap not stated.",
+    "contact_access": "Access runs through campaign selection and the Coral platform; no public partnership email was found on the pages fetched.",
+    "opportunity_availability": "The 15% program is limited to selected creators rather than open application; TikTok Shop challenges are the more open route.",
+    "credibility": "Well-established Korean skincare brand with strong Amazon and TikTok Shop presence."
+   }
+  }
+ },
+ {
+  "name": "Soko Glam",
+  "website": "https://sokoglam.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Leading US K-beauty retailer and curator whose Soko Ambassador affiliate program lets creators, publishers and skincare enthusiasts earn commission across its curated Korean skincare catalogue, via Pepperjam, Skimlinks, LTK, ShopMy and Shopify Collabs.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://sokoglam.com/pages/affiliate-program",
+    "summary": "Soko Glam's own affiliate page (fetched) invites creators to become a Soko Ambassador and earn commission on sales, with early access to launches, exclusive promos and dedicated affiliate support, and states the program is available on Pepperjam, Skimlinks, LTK, ShopMy and Shopify Collabs. The brand's own page does not publish a rate or any earnings-cap statement, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "network_listing",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/soko-glam-affiliate-program/",
+    "summary": "FlexOffers' Soko Glam program listing (fetched) reports a 4% commission on sales, while Shopper.com's partnership listing reports a 1% payout and other roundups claim up to 10%. Published rates conflict (1% / 4% / up to 10%), so commission_rate is recorded as null and must be confirmed inside the chosen network. No creator count is published in any source fetched, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Pepperjam",
+   "commission_rate": null,
+   "application_url": "https://sokoglam.com/pages/affiliate-program",
+   "source_url": "https://sokoglam.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Soko Ambassador Affiliate Program (Pepperjam and others)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://sokoglam.com/pages/affiliate-program",
+   "compensation_notes": "Published figures conflict - 4% per FlexOffers, 1% per Shopper, up to 10% in roundups - so commission_rate is null; confirm the live rate inside Pepperjam, Skimlinks, LTK, ShopMy or Shopify Collabs before promoting. No cap statement published.",
+   "description": "Join the Soko Ambassador program through one of its five listed platforms and earn commission promoting a curated K-beauty catalogue to skincare audiences."
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 15,
+   "compensation": 6,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A curated K-beauty catalogue gives skincare creators many products to build routines and haul content around.",
+    "ugc_evidence": "A named ambassador program with dedicated affiliate support and media assets across five creator platforms.",
+    "compensation": "Rates conflict across every published source (1% / 4% / up to 10%) and even the highest figure is modest for a retailer program.",
+    "contact_access": "Program page on the brand's own site with multiple join routes; no public program email found.",
+    "opportunity_availability": "Open to enthusiasts, creators and publishers through five different platforms, so access is easy.",
+    "credibility": "One of the best-known US K-beauty retailers, founded by a published skincare author, with a long operating history."
+   }
+  }
+ },
+ {
+  "name": "Then I Met You",
+  "website": "https://thenimetyou.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Premium Korean-inspired skincare brand founded by Soko Glam's Charlotte Cho (Living Cleansing Balm, The Giving Essence), sold with affiliate commission through TikTok Shop, where marketplace listings show a 10% base commission paid by TikTok Shop.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "platform_listing",
+    "source_url": "https://ambassador.seekjesus.co/marketplace/products/4588724",
+    "summary": "A TikTok Shop marketplace listing for Then I Met You's The Giving Essence (fetched) shows a 10% base commission (displayed as 11.3% with a Growi boost), $4.77 estimated per sale, 'Paid by TikTok Shop, directly to you', confirming the brand sells with creator commission through the TikTok Shop affiliate program. No earnings-cap statement is published, so commission_cap is unknown, and no total creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": 10,
+   "application_url": "https://ambassador.seekjesus.co/marketplace/products/4588724",
+   "source_url": "https://ambassador.seekjesus.co/marketplace/products/4588724",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Then I Met You TikTok Shop Affiliate",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://ambassador.seekjesus.co/marketplace/products/4588724",
+   "compensation_notes": "10% base commission on TikTok Shop sales per the marketplace listing (a further boost was shown via the Growi add-on); paid by TikTok Shop. No cap statement published.",
+   "description": "Promote Then I Met You products through TikTok Shop affiliate links and earn the listed commission on double-cleansing and essence content."
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 14,
+   "compensation": 11,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Double cleansing and fermented-essence routines are established K-beauty content formats and the brand is creator-recognised.",
+    "ugc_evidence": "Active TikTok Shop affiliate listings with per-sale commission displayed; the brand was also named among Shopify Collabs brands in a fetched industry roundup.",
+    "compensation": "10% on TikTok Shop is standard for premium skincare; cap not stated.",
+    "contact_access": "No public partnership contact was found on the pages fetched; access runs through TikTok Shop.",
+    "opportunity_availability": "TikTok Shop affiliate access is open to eligible creators, though only a small product range (9 items) is listed.",
+    "credibility": "Founder-led premium brand from the Soko Glam founder with strong editorial coverage."
+   }
+  }
+ },
+ {
+  "name": "Indeed Labs",
+  "website": "https://indeedlabs.com",
+  "country": "Canada",
+  "category_slug": "skincare",
+  "description": "Canadian science-based skincare brand (Nanoblur, Hydraluron, Snoxin) known for affordable, ingredient-led products, running an affiliate program on ShareASale paying 10% per sale with a 90-day cookie.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "network_listing",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/indeed-laboratories/",
+    "summary": "LinkClicky's Indeed Laboratories affiliate program listing (fetched) states the program runs on ShareASale, pays 10% commission per sale and uses a 90-day cookie duration. No earnings-cap statement is published in the listing, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown. The listing was last updated March 2024, so the live rate should be reconfirmed inside ShareASale."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/indeed-laboratories/",
+   "source_url": "https://linkclicky.com/affiliate-program/indeed-laboratories/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Indeed Labs Affiliate Program (ShareASale)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://linkclicky.com/affiliate-program/indeed-laboratories/",
+   "compensation_notes": "10% per sale with a 90-day cookie per the ShareASale listing summary; no cap statement published. Listing data dates from March 2024 - reconfirm in ShareASale.",
+   "description": "Apply to Indeed Labs on ShareASale and earn 10% on affordable ingredient-led skincare content with a long 90-day attribution window."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 11,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ingredient-education skincare (retinol, vitamin C, hydration) maps directly onto high-performing skincare explainer content.",
+    "ugc_evidence": "A long-running network affiliate program, though no dedicated creator or ambassador scheme was found.",
+    "compensation": "10% with an unusually long 90-day cookie is competitive for drugstore-priced skincare; cap not stated.",
+    "contact_access": "No public partnership email found; access runs through the ShareASale application.",
+    "opportunity_availability": "Standard open network application with no stated follower minimum.",
+    "credibility": "Established Canadian skincare brand with international retail distribution; program listing is somewhat dated."
+   }
+  }
+ },
+ {
+  "name": "Dr. Dennis Gross",
+  "website": "https://drdennisgross.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Dermatologist-founded US clinical skincare brand (Alpha Beta peel pads, LED devices) with an affiliate program on ShareASale offering commissions, bonuses and creative assets, with payouts every 30 days; published rates conflict across sources.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "network_listing",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkwhisper.com/skincare-affiliate-programs/",
+    "summary": "LinkWhisper's skincare affiliate roundup (fetched) reports that the Dr. Dennis Gross program runs on ShareASale at a 10% commission with a 30-day cookie, bonus opportunities, banners and creative assets, and payouts to bank account every 30 days. No earnings-cap statement is published, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "network_listing",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affjumbo.com/new-offer-launched-dr-dennis-gross-affiliate-program/",
+    "summary": "AffJumbo's Dr. Dennis Gross program page (fetched) reports a 12% commission and notes the brand 'only works with a limited number of high-quality sites', while an older dermatology roundup reported 6% via Pepperjam and another directory reported 15%. Published rates conflict (6% / 10% / 12% / 15%), so commission_rate is recorded as null and must be confirmed inside ShareASale. No creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://www.affjumbo.com/new-offer-launched-dr-dennis-gross-affiliate-program/",
+   "source_url": "https://linkwhisper.com/skincare-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Dr. Dennis Gross Affiliate Program (ShareASale)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.affjumbo.com/new-offer-launched-dr-dennis-gross-affiliate-program/",
+   "compensation_notes": "Published figures conflict - 10% per the ShareASale summary, 12% per AffJumbo, 6% via Pepperjam in an older roundup, 15% in another directory - so commission_rate is null; confirm the live rate inside ShareASale. No cap statement published.",
+   "description": "Apply to Dr. Dennis Gross on ShareASale, promote clinical peel and device content, and earn commission at the rate confirmed in your account."
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 15,
+   "compensation": 6,
+   "contact_access": 5,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Clinical, dermatologist-led skincare and at-home devices are premium creator content categories.",
+    "ugc_evidence": "A documented network affiliate program with banners, creative assets and affiliate-only promotions.",
+    "compensation": "Every published source disagrees on the rate (6-15%), so compensation cannot be scored as settled even though the likely range is decent.",
+    "contact_access": "No public partnership email found; access runs through the ShareASale application.",
+    "opportunity_availability": "Network application is open but one source notes the brand works with a limited number of high-quality sites.",
+    "credibility": "Nationally known dermatologist-founded brand sold at major US beauty retailers."
+   }
+  }
+ },
+ {
+  "name": "Kiyoko Beauty",
+  "website": "https://kiyoko.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US-based Asian beauty retailer curating K-beauty and J-beauty skincare, running its own creator affiliate program (via Refunnel): 10% commission on first-time customer purchases and 5% on repeat purchases, with monthly gifting campaigns, milestone cash bonuses and tiered perks.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://kiyoko.com/pages/kiyoko-affiliate-program",
+    "summary": "Kiyoko Beauty's own affiliate page (fetched) states affiliates earn 10% commission on every first-time customer purchase and 5% for repeat customers through their link or code, with tiered levels (Superstar on joining, Insider at 5+ lifetime sales, Affiliate at 10+), one-time cash milestone rewards ($5 at 1 sale up to $70 at 50 sales), monthly gifting campaigns and a WhatsApp affiliate community; sign-up runs through its Refunnel dashboard. No earnings-cap statement appears on the page, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://kiyoko.com/pages/kiyoko-affiliate-program",
+    "summary": "The same page (fetched) positions Kiyoko as a retailer built to support creators sharing Asian beauty, contrasting its 10% first-order rate with the 5-8% it says many retailers offer. No creator count is published anywhere on the page, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (own program)",
+   "commission_rate": 10,
+   "application_url": "https://kiyoko.com/pages/kiyoko-affiliate-program",
+   "source_url": "https://kiyoko.com/pages/kiyoko-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kiyoko Beauty Affiliate Program (Refunnel)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://kiyoko.com/pages/kiyoko-affiliate-program",
+   "compensation_notes": "10% on first-time customer purchases, 5% on repeat purchases, plus published cash milestone bonuses ($5-$70) and gifting campaigns. No cap statement published.",
+   "description": "Apply from Kiyoko's affiliate page, get your own code after approval, and earn 10%/5% promoting curated K-beauty and J-beauty products."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A curated K-beauty/J-beauty catalogue gives skincare creators a wide product range for routine and haul content.",
+    "ugc_evidence": "A creator-first program with monthly gifting campaigns, tier names, milestone rewards and an affiliate WhatsApp community.",
+    "compensation": "10% on first orders is fair for a retailer and milestone cash bonuses add upside; 5% on repeats and no cap statement keep it mid-pack.",
+    "contact_access": "Program page and dashboard sign-up on the retailer's own site; no public email found.",
+    "opportunity_availability": "Open application with the entry tier granted on joining and no stated follower minimum.",
+    "credibility": "A small, young US Asian-beauty retailer with limited public footprint compared with national chains."
+   }
+  }
+ },
+ {
+  "name": "Fresh",
+  "website": "https://www.fresh.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "LVMH-owned skincare brand (Soy Face Cleanser, Rose and Black Tea lines) whose own affiliate page invites publishers to earn commission through Rakuten Advertising at a 5% base rate, with affiliate-only promotions and launch previews.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.fresh.com/us/affiliatepage.html",
+    "summary": "Fresh's own affiliates page (fetched) states: 'Fresh publishers earn revenue by promoting fresh products and promotions that they love on their site. We work with Rakuten to make it even easier' and 'Receive a 5% base with opportunities to individually optimize your earnings', plus affiliate-only promotions, exclusive newsletters and product launch sneak peeks, with applications reviewed before approval. No earnings-cap statement appears on the page, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 5,
+   "application_url": "https://www.fresh.com/us/affiliatepage.html",
+   "source_url": "https://www.fresh.com/us/affiliatepage.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Fresh Affiliate Program (Rakuten Advertising)",
+   "status": "unverified",
+   "type": "affiliate",
+   "application_url": "https://www.fresh.com/us/affiliatepage.html",
+   "compensation_notes": "5% base commission via Rakuten per the brand's own page, with individually negotiated optimisation possible. No cap statement published.",
+   "description": "Apply through Fresh's affiliate page to join on Rakuten, then promote its cleanser, rose and tea lines to skincare audiences for a 5% base commission."
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Heritage skincare franchises (Soy, Rose, Black Tea) are reliable review and routine content subjects.",
+    "ugc_evidence": "A documented publisher affiliate program with affiliate-only promotions and launch previews, though it is publisher- rather than creator-led.",
+    "compensation": "5% base is low for beauty, partly offset by the stated possibility of individually optimised rates; cap not stated.",
+    "contact_access": "Program page on the brand's own site routes to the Rakuten application; no public program email found.",
+    "opportunity_availability": "Open publisher application on a major network, subject to site review and approval.",
+    "credibility": "An LVMH house brand with global retail presence and decades of operating history."
+   }
+  }
+ }
+]

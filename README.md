@@ -1,9 +1,9 @@
-# Ultra Vestra — UGC Brand Intelligence Platform
+# Ultra Vestra — Brand Intelligence Platform
 
 > **Search smarter. Find better brands. Create content that sells.**
 > Less time searching. More time creating. Smarter brand partnerships.
 
-Ultra Vestra helps creators find the brands worth pursuing for UGC work. For every
+Ultra Vestra helps creators find the brands worth pursuing for creator work. For every
 researched brand, Ultra Vestra shows what the brand does, the evidence that it works
 with creators, the right public contact or creator application page, what
 creators have actually reported earning, and a 0–100 **Opportunity Score**
@@ -159,7 +159,7 @@ Stored in `brand_scores`, always shown with its explanation:
 | Component | Points |
 | --- | --- |
 | Creator niche & content fit | 30 |
-| Evidence of UGC collaborations | 20 |
+| Evidence of creator collaborations | 20 |
 | Compensation attractiveness | 20 |
 | Contact accessibility | 15 |
 | Opportunity availability | 10 |
@@ -215,3 +215,32 @@ Known limitations:
   email must include unsubscribe handling and CAN-SPAM compliance.
 
 Deployment: the five-experience search platform (Discover, Brand Intelligence, Opportunities, Creator Academy, Video Coach) shipped 2026-11-20.
+
+## The vision — the intelligence layer (owner's positioning, 2026-11-20)
+
+UltraVestra does not compete with TikTok, Amazon, eBay, Instagram or Trybe.
+It is the intelligence platform that helps creators succeed on all five.
+
+- TikTok helps creators sell. Amazon helps creators monetize. eBay helps
+  creators refer buyers. Instagram helps creators collaborate. Trybe helps
+  creators work with brands.
+- **UltraVestra helps creators figure out where to go, what to promote,
+  what they could earn, and how to create content that converts.**
+
+## Intelligence centers (added 2026-11-20)
+
+- **Commission Intelligence Center** (`/commissions`) — every researched
+  program separated into verified uncapped, stated cap, and unknown limit;
+  published rates compared with the terms on record (cookie, payout,
+  recurring) quoted from sourced evidence. A rate is never shown unless
+  the brand publishes it.
+- **Creator Video Intelligence Lab** (`/coach`) — a working diagnostic
+  across the five performance areas (hook, demonstration, storytelling,
+  retention, sales conversion): scores the creator's own video, explains
+  why each weak area costs views and sales, and turns it into fixes plus
+  Academy lessons. Upload-based analysis stays honestly "coming" until
+  storage and an analysis provider are configured.
+- **Brand Opportunity Radar** (`/radar`) — four live lanes: accepting
+  creators now, worth pitching (score 70+, no advertised campaign),
+  emerging (newest researched), and under the radar (verified uncapped or
+  smaller-creator friendly, no open campaign).

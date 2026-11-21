@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { createClient } from "@/lib/supabase/server";
+
+export const dynamic = "force-dynamic";
 
 const WORLDS: {
   n: string;
@@ -8,55 +11,63 @@ const WORLDS: {
   img: string;
   href?: string;
   cta?: string;
+  tag?: string;
 }[] = [
   {
     n: "01",
     title: "THE BRAND GALAXY",
-    desc: "Discover brands worth knowing, researching and working with.",
+    desc: "Opportunity discovery: brands worth knowing, researching and working with — with the Opportunity Radar built in.",
     bullets: [
       "Brand intelligence database",
       "Affiliate program directory",
+      "Opportunity Radar — new programs & campaigns",
       "Commission and payment research",
       "Brand contact information",
       "Ready-to-use outreach pitches",
+      "Brand ambassador programs & product seeding",
       "Brand Trust Index",
     ],
     img: "/worlds/tablet.jpg",
     href: "/brands",
     cta: "Enter the Brand Galaxy",
+    tag: "NOW WITH THE OPPORTUNITY RADAR",
   },
   {
     n: "02",
     title: "THE CONTENT LAB",
-    desc: "Learn to create content that captures attention and converts.",
+    desc: "Video education: learn to create content that captures attention and converts.",
     bullets: [
       "Viral hook techniques",
       "Product-selling videos",
-      "UGC video tutorials",
+      "Creator video tutorials",
       "Filming and editing",
       "Storytelling and persuasion",
       "Video breakdowns",
     ],
     img: "/worlds/world2.jpg",
+    href: "/coach",
+    cta: "Enter the Content Lab",
   },
   {
     n: "03",
     title: "THE MONEY",
-    desc: "Understand how creators earn and keep more of their income.",
+    desc: "Earnings intelligence: understand how creators earn and keep more of their income.",
     bullets: [
       "Commission comparison",
       "Affiliate marketing education",
-      "UGC pricing",
+      "Creator pricing",
       "Brand deal negotiations",
       "Income calculators",
       "Monetization strategies",
     ],
     img: "/worlds/world3.jpg",
+    href: "/commissions",
+    cta: "Enter The Money",
   },
   {
     n: "04",
     title: "THE GROWTH ENGINE",
-    desc: "Improve your skills across every major creator platform.",
+    desc: "Platform growth: improve your skills across every major creator platform.",
     bullets: [
       "TikTok education",
       "YouTube education",
@@ -66,43 +77,29 @@ const WORLDS: {
       "Analytics education",
     ],
     img: "/worlds/world4.jpg",
+    href: "/academy?cat=Growth",
+    cta: "Enter the Growth Engine",
   },
   {
     n: "05",
     title: "THE CREATOR INTELLIGENCE",
-    desc: "Intelligent tools that help creators make better decisions.",
+    desc: "The central brain of UltraVestra. Ask it anything about your creator business — it answers from the researched database: brands worth approaching, published commissions, contacts, a ready pitch, video concepts and a filming blueprint.",
     bullets: [
-      "AI Video Doctor",
-      "Script generator",
-      "Hook generator",
-      "Content idea engine",
-      "Brand matching",
+      "Ask UltraVestra — sourced research reports",
+      "Video Lab — why a video performs or stalls",
+      "Script Studio — scripts built from your facts",
+      "Brand matching & Opportunity Scores",
       "Content improvement recommendations",
     ],
     img: "/worlds/control.jpg",
     href: "/ask",
-    cta: "Try Ask UltraVestra",
+    cta: "Ask the Brain",
+    tag: "THE CENTRAL BRAIN",
   },
   {
     n: "06",
-    title: "THE OPPORTUNITY RADAR",
-    desc: "Find ways to work with brands and discover new income opportunities.",
-    bullets: [
-      "New affiliate programs",
-      "UGC opportunities",
-      "Brand ambassador programs",
-      "Paid campaigns",
-      "Product seeding",
-      "Creator opportunities",
-    ],
-    img: "/worlds/dash.jpg",
-    href: "/brands",
-    cta: "Scan the Radar",
-  },
-  {
-    n: "07",
     title: "THE KNOWLEDGE VAULT",
-    desc: "An organized library of everything a creator needs to know.",
+    desc: "The creator resource center: an organized library of everything a creator needs to know.",
     bullets: [
       "Free guides",
       "Downloadable resources",
@@ -112,6 +109,8 @@ const WORLDS: {
       "Industry research",
     ],
     img: "/worlds/world7.jpg",
+    href: "/academy",
+    cta: "Open the Vault",
   },
 ];
 
@@ -157,7 +156,17 @@ const pillStyle: React.CSSProperties = {
   letterSpacing: 2,
 };
 
-export default function LandingPage() {
+export default async function LandingPage() {
+  /* The brand count is read live from the published database records —
+   * UltraVestra never advertises a number the records do not back. */
+  let brandCount = 0;
+  try {
+    const supabase = await createClient();
+    const { count } = await supabase.from("brands").select("id", { count: "exact", head: true }).eq("status", "published");
+    brandCount = count ?? 0;
+  } catch {
+    brandCount = 0;
+  }
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 56 }}>
       <section
@@ -192,8 +201,8 @@ export default function LandingPage() {
           >
             UltraVestra
           </h1>
-          <p style={{ fontSize: 27, margin: "0 auto", maxWidth: 680, fontWeight: 800 }}>
-            Find your next opportunity.
+          <p style={{ fontSize: 31, margin: "0 auto", maxWidth: 720, fontWeight: 800, lineHeight: 1.25 }}>
+            The Intelligence Behind Your Creator Business.
           </p>
           <p
             style={{
@@ -203,8 +212,8 @@ export default function LandingPage() {
               margin: "12px auto 0",
             }}
           >
-            Search brands, products, commissions, campaigns, creator tips, and more —
-            across the verified UltraVestra intelligence database <em>and</em> the live web.
+            Discover where to grow, what to promote, how to earn, and how to create
+            content that converts — across the platforms you already use.
           </p>
           <p style={{ fontSize: 15, color: "#f0abfc", fontWeight: 700, margin: "10px auto 0", letterSpacing: 0.4 }}>
             Search smarter. Find better brands. Create content that sells.
@@ -296,7 +305,7 @@ export default function LandingPage() {
             }}
           >
             {[
-              ["400+", "brands researched & sourced"],
+              brandCount > 0 ? [String(brandCount), "brands researched & sourced"] : ["New", "brands added every week"],
               ["2", "search engines — database + live web"],
               ["5", "connected experiences"],
             ].map(([num, label]) => (
@@ -336,7 +345,7 @@ export default function LandingPage() {
           EXPLORE THE UNIVERSE
         </h2>
         <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
-          Seven worlds. One platform. Everything a creator needs to find
+          Six worlds. One journey. Everything a creator needs to find
           brands, make content, and get paid.
         </p>
         <div
@@ -367,7 +376,12 @@ export default function LandingPage() {
                 style={{ width: "100%", display: "block", aspectRatio: "16/10", objectFit: "cover" }}
               />
               <div style={{ padding: "22px 24px 26px", display: "flex", flexDirection: "column", gap: 12, flex: 1 }}>
-                <span style={{ ...pillStyle, alignSelf: "flex-start" }}>WORLD {w.n}</span>
+                <span style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                  <span style={{ ...pillStyle, alignSelf: "flex-start" }}>WORLD {w.n}</span>
+                  {w.tag && (
+                    <span style={{ ...pillStyle, alignSelf: "flex-start", background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff" }}>{w.tag}</span>
+                  )}
+                </span>
                 <h3 style={{ margin: 0, fontSize: 27, fontWeight: 800, letterSpacing: 0.5 }}>
                   {w.title}
                 </h3>
@@ -413,6 +427,156 @@ export default function LandingPage() {
                 </p>
               </div>
             </article>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
+          THE INTELLIGENCE LAYER
+        </h2>
+        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16, maxWidth: 720 }}>
+          UltraVestra does not compete with the platforms you already create on.
+          It is the intelligence layer that helps you succeed on all of them.
+        </p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 720 }}>
+          {[
+            ["TikTok", "helps creators sell."],
+            ["Amazon", "helps creators monetize."],
+            ["eBay", "helps creators refer buyers."],
+            ["Instagram", "helps creators collaborate."],
+            ["Trybe", "helps creators work with brands."],
+          ].map(([name, line]) => (
+            <p key={name} style={{ margin: 0, fontSize: 16.5, color: "#ddd0ff" }}>
+              <strong style={{ color: "#f3e8ff" }}>{name}</strong> {line}
+            </p>
+          ))}
+          <p
+            style={{
+              margin: "12px 0 0",
+              fontSize: 19,
+              lineHeight: 1.5,
+              background: "linear-gradient(92deg, #f0abfc, #67e8f9)",
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+              fontWeight: 800,
+            }}
+          >
+            UltraVestra helps you figure out where to go, what to promote, what
+            you could earn, and how to create content that converts.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
+          FOUR QUESTIONS. ONE PLATFORM.
+        </h2>
+        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
+          Search smarter. Find better brands. Create content that sells.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: 18,
+          }}
+        >
+          {[
+            {
+              href: "/radar",
+              q: "Where should I go?",
+              a: "Find relevant creator opportunities across platforms.",
+            },
+            {
+              href: "/brands",
+              q: "What should I promote?",
+              a: "Research brands, products, and audience fit.",
+            },
+            {
+              href: "/commissions",
+              q: "What could I earn?",
+              a: "Compare commission structures and earning terms.",
+            },
+            {
+              href: "/coach",
+              q: "How do I sell better?",
+              a: "Learn hooks, scripts, video strategy, and conversion.",
+            },
+          ].map((c) => (
+            <Link key={c.href} href={c.href} style={{ textDecoration: "none" }}>
+              <article
+                className="glass-card"
+                style={{
+                  border: "1px solid #7e22ce",
+                  background: "rgba(26,8,54,0.78)",
+                  borderRadius: 20,
+                  padding: 22,
+                  height: "100%",
+                }}
+              >
+                <strong style={{ fontSize: 19 }}>{c.q}</strong>
+                <p style={{ margin: "8px 0 0", color: "#ddd0ff", fontSize: 15 }}>{c.a}</p>
+                <p style={{ margin: "12px 0 0", color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>Answer it →</p>
+              </article>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
+          THREE INTELLIGENCE CENTERS
+        </h2>
+        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
+          Built on the researched database — every number sourced, every limit
+          labeled honestly.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: 18,
+          }}
+        >
+          {[
+            {
+              href: "/commissions",
+              emoji: "💰",
+              title: "Commission Intelligence Center",
+              body: "Capped, uncapped and unknown commission limits — separated. Compare published rates, recurring terms and payment conditions before you create.",
+            },
+            {
+              href: "/coach",
+              emoji: "🔬",
+              title: "Creator Video Intelligence Lab",
+              body: "Run the diagnostic on your last video. Learn why it performed — or why it stalled — across hooks, demonstration, storytelling, retention and sales conversion.",
+            },
+            {
+              href: "/radar",
+              emoji: "📡",
+              title: "Brand Opportunity Radar",
+              body: "Brands accepting creators, brands worth pitching, emerging products, and quiet opportunities that are not widely advertised.",
+            },
+          ].map((c) => (
+            <Link key={c.href} href={c.href} style={{ textDecoration: "none" }}>
+              <article
+                className="glass-card"
+                style={{
+                  border: "1px solid #7e22ce",
+                  background: "rgba(26,8,54,0.78)",
+                  borderRadius: 20,
+                  padding: 22,
+                  height: "100%",
+                }}
+              >
+                <p style={{ margin: "0 0 10px", fontSize: 26 }}>{c.emoji}</p>
+                <strong style={{ fontSize: 18 }}>{c.title}</strong>
+                <p style={{ margin: "8px 0 0", color: "#ddd0ff", fontSize: 15 }}>{c.body}</p>
+                <p style={{ margin: "12px 0 0", color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>Open →</p>
+              </article>
+            </Link>
           ))}
         </div>
       </section>

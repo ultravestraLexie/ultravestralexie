@@ -1,0 +1,542 @@
+[
+ {
+  "name": "Vivaia",
+  "website": "https://www.vivaia.com/",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Sustainable women's footwear brand making washable flats, heels and sneakers from recycled materials with 3D-knit construction. Its affiliate program runs on Impact (also listed via ShareASale) and pays a 10% base commission with performance tiers up to 20%, a 30-day cookie, and a published affiliate contact email (affiliate@vivaia.com).",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@vivaia.com",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/vivaia-int-affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/vivaia/",
+    "summary": "The LinkClicky affiliate directory profile for VIVAIA (dated March 11, 2024) lists the program on the Impact platform, open to all regions, paying 10% per sale. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/vivaia-int-affiliate-program/",
+    "summary": "The Affiliate Monkey's fetched VIVAIA program page states in its FAQ: 'Affiliates earn a base commission of 10%, with the potential to earn up to 20% per sale depending on performance', gives a 30-day cookie, says creators can join 'through networks like ShareASale or Impact', and publishes the contact 'reach out to affiliate@vivaia.com'. The 10% base is recorded; the up-to-20% figure is a performance ceiling, not the base rate, and no cap statement is published."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/vivaia/",
+   "source_url": "https://linkclicky.com/affiliate-program/vivaia/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Vivaia Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/vivaia/",
+   "source_url": "https://linkclicky.com/affiliate-program/vivaia/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Washable, travel-friendly flats and sneakers are a proven fashion-UGC staple - styling, comfort-test and pack-with-me content.",
+    "ugc_evidence": "The program explicitly recruits influencers, bloggers and content creators and supplies creatives and promotional codes, per the fetched program pages.",
+    "compensation": "10% base with published performance tiers to 20% and a 30-day cookie is above standard footwear rates; figures are directory-reported, not brand-page-verified.",
+    "contact_access": "A public affiliate email (affiliate@vivaia.com) is published, plus join routes on Impact and ShareASale.",
+    "opportunity_availability": "Open network program, all regions per the directory profile; approval may take several days.",
+    "credibility": "Established global footwear brand; program terms rest on two independent directory listings that agree on the 10% base."
+   }
+  }
+ },
+ {
+  "name": "Metta Voyage",
+  "website": "https://mettavoyage.com",
+  "country": "Vietnam",
+  "category_slug": "travel",
+  "description": "Hanoi-based licensed international tour operator running private, tailor-made 4-5 star journeys across Vietnam, Cambodia, Laos, Thailand and Bali. Its own Ambassadors page recruits travel bloggers and creators with a 4-8% commission on confirmed trip prices (tiered by monthly sales), 90-day tracking, monthly payouts from $300, and an FAQ stating there is no cap on earnings.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://mettavoyage.com/affiliates-program/",
+    "summary": "The brand's own Ambassadors page: 'You earn 4-8% of every confirmed trip price, based on your confirmed sales in the month: 4% under $15,000, 6% from $15,000 to $49,999, 8% from $50,000', excluding international flights, taxes, insurance and card fees, with 90-day tracking and monthly payment by bank transfer, PayPal or Wise once approved commissions reach $300. The 4% tier floor is recorded as the base rate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://mettavoyage.com/affiliates-program/",
+    "summary": "The same page is creator-first - 'Travel bloggers & creators: Blogs, Instagram, YouTube, TikTok and newsletters' - with no minimum audience, approval within 2 business days, personal links and QR codes, a real-time dashboard and a marketing kit. Its 'How much can I earn?' FAQ repeats the 4-8% structure and states: 'There is no cap: every confirmed trip you refer counts.' The earnings question is answered with an explicit no-cap statement, so commission_cap is UNCAPPED. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 4,
+   "application_url": "https://mettavoyage.com/affiliates-program/",
+   "source_url": "https://mettavoyage.com/affiliates-program/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Metta Voyage Ambassadors (Brand direct)",
+   "application_url": "https://mettavoyage.com/affiliates-program/",
+   "source_url": "https://mettavoyage.com/affiliates-program/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Private Asia itineraries are high-value travel-creator content; one referred trip is worth $120-$240 at entry tier.",
+    "ugc_evidence": "The brand's own page names travel bloggers and creators across Instagram, YouTube and TikTok, and supplies ready-to-use photos and copy.",
+    "compensation": "4% base sounds low but applies to multi-thousand-dollar trips ($120 on a $3,000 trip), rising to 8%; verified uncapped on the brand's own FAQ.",
+    "contact_access": "A dedicated contact in the Hanoi team is promised in the dashboard, but no public affiliate email is published on the page (site emails are obfuscated).",
+    "opportunity_availability": "Free to join, no minimum audience, approval within 2 business days; $300 payout threshold is a friction point.",
+    "credibility": "Licensed international tour operator (licence 01-1167/2023/CDLQGVN-GP LHQT), 4.9 on Tripadvisor with 2,000+ bookings and 10,100+ travellers stated on the page."
+   }
+  }
+ },
+ {
+  "name": "Leatherology",
+  "website": "https://www.leatherology.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Personalizable full-grain leather goods brand - monogrammed wallets, bags, passport covers and travel sets aimed at gifting. Its own affiliate page for creators and bloggers runs through Rakuten Advertising and LTK, promises a dedicated Affiliate Manager, product samples and creative assets, and states twice that there is no cap on earnings; the commission rate itself is only shown inside the network dashboard after approval.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.leatherology.com/pages/affiliates/",
+    "summary": "The brand's own affiliate page: 'Earn commission on every qualifying order you refer, with no cap on your earnings' and 'You'll earn commission on the subtotal of every qualifying order placed through your link, and there's no cap on what you can make.' The fetched page explicitly states there is no earnings cap, so commission_cap is UNCAPPED. The page also states the rate is NOT published publicly: 'Your current rate and the full program terms are shown in your Rakuten or LTK dashboard once you're approved' - so commission_rate is recorded as null rather than guessed."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.leatherology.com/pages/affiliates/",
+    "summary": "The same page ('Affiliate Program for Creators & Bloggers', 'Calling All Influencers') recruits gift and lifestyle bloggers, wedding creators, everyday-carry channels and travel creators, is free to join with no minimum sales quota or exclusivity, offers product samples and a named Affiliate Manager after approval, and runs through Rakuten (long-form) and LTK (social). It points to an LTK brand profile showing 'nearly 2,000 creators' - a four-figure count is not low, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.leatherology.com/pages/affiliates/",
+   "source_url": "https://www.leatherology.com/pages/affiliates/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Leatherology Affiliate Program (Rakuten Advertising / LTK)",
+   "application_url": "https://www.leatherology.com/pages/affiliates/",
+   "source_url": "https://www.leatherology.com/pages/affiliates/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Monogrammed leather gifts are evergreen gift-guide, wedding and everyday-carry content with year-round gifting moments.",
+    "ugc_evidence": "Creator-first own page naming bloggers, YouTube channels and shoppable social, with samples, creative assets and launch previews.",
+    "compensation": "Verified uncapped, but the rate is dashboard-only after approval, so compensation cannot be graded higher until a rate is visible.",
+    "contact_access": "A dedicated Affiliate Manager is introduced after approval; no public partnerships email is published on the page.",
+    "opportunity_availability": "Free to join, no quota, no exclusivity, two network routes (Rakuten and LTK).",
+    "credibility": "Established personalization brand with a detailed, transparent program page; the LTK profile it cites shows nearly 2,000 creators already sharing its pieces."
+   }
+  }
+ },
+ {
+  "name": "Smart Birdy",
+  "website": "https://www.smartbirdy.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Premium women's luggage brand (Birdy Boutique) selling stackable leather carry-ons and travel accessories priced $250-$1,000. Its own affiliate page, run on ShareASale, offers content creators, bloggers and influencers a 15% commission on each sale, a 60-day tracking window, monthly payouts and ready-to-use marketing assets through its Jetsetter Club community.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.smartbirdy.com/pages/smart-birdy-affiliate",
+    "summary": "The brand's own affiliate page: 'Generous Commission: Earn a 15% commission on each sale', 'Extended Tracking Period: Enjoy a 60-day tracking window', monthly payouts, and a ShareASale join link (shareasale.com/join/smartbirdy) on the same page. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.smartbirdy.com/pages/smart-birdy-affiliate",
+    "summary": "The same page states the program 'is open to content creators, bloggers, social media influencers, and anyone who loves sharing travel tips', offers banners, links and promotional materials plus an affiliate team for support, and frames membership as the 'Birdy Jetsetters' community. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "https://www.smartbirdy.com/pages/smart-birdy-affiliate",
+   "source_url": "https://www.smartbirdy.com/pages/smart-birdy-affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Smart Birdy Affiliate Program (ShareASale)",
+   "application_url": "https://www.smartbirdy.com/pages/smart-birdy-affiliate",
+   "source_url": "https://www.smartbirdy.com/pages/smart-birdy-affiliate"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Luxury women's luggage is a focused but real travel-fashion niche - packing, carry-on and airport-style content.",
+    "ugc_evidence": "Own page explicitly recruits creators and influencers and provides ready-to-use marketing assets and a creator community.",
+    "compensation": "15% on $250-$1,000 products with a 60-day window is strong for luggage; rate is brand-published.",
+    "contact_access": "Apply via the ShareASale link on the brand page; no public affiliate email is published.",
+    "opportunity_availability": "Open application on the brand page; approval step applies.",
+    "credibility": "Small premium brand (Birdy Boutique) with a complete, transparent program page; no independent scale signals were verified."
+   }
+  }
+ },
+ {
+  "name": "ICEBUG",
+  "website": "https://icebug.com/",
+  "country": "Sweden",
+  "category_slug": "fashion",
+  "description": "Swedish footwear company making traction shoes and boots for running, hiking and icy conditions, with a strong sustainability profile. Its affiliate program runs on CJ Affiliate and pays 10% per sale with a 30-day cookie, as listed consistently across affiliate directories.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/icebug/",
+    "summary": "The LinkClicky affiliate directory profile for ICEBUG (dated March 11, 2024) describes 'a Swedish footwear company that specializes in creating high-performance shoes', lists the program on CJ Affiliate, and states a 10% per sale commission. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/icebug/",
+    "summary": "The Lasso directory profile independently lists ICEBUG at 10% per sale with a 30-day cookie, categorised under Fashion, Fitness and Sports - two directories agree on the 10% rate and the CJ route."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/icebug/",
+   "source_url": "https://linkclicky.com/affiliate-program/icebug/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ICEBUG Affiliate Program (CJ Affiliate)",
+   "application_url": "https://linkclicky.com/affiliate-program/icebug/",
+   "source_url": "https://linkclicky.com/affiliate-program/icebug/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Traction footwear fits outdoor, trail-running and winter-travel creators - a demonstrable product that films well.",
+    "ugc_evidence": "Open network program aimed at bloggers and influencers per the directories; no dedicated creator page was verified.",
+    "compensation": "10% per sale with a 30-day cookie is standard-good for performance footwear; directory-reported by two sources.",
+    "contact_access": "Join route is via CJ Affiliate through the directory profiles; no public partnerships email was verified.",
+    "opportunity_availability": "Open CJ program; standard network approval applies.",
+    "credibility": "Established Swedish outdoor footwear brand; terms rest on two agreeing directory listings."
+   }
+  }
+ },
+ {
+  "name": "LugLess",
+  "website": "https://www.lugless.com/",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Luggage-shipping service that lets travellers send bags door-to-door to their destination instead of checking them. Its affiliate program runs on CJ Affiliate and pays 10% per sale with a 30-day cookie, aimed at travel bloggers and influencers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/lugless/",
+    "summary": "The LinkClicky affiliate directory profile for LugLess (dated March 11, 2024) lists the program on CJ Affiliate with a 10% per sale commission. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/lugless/",
+    "summary": "The Lasso directory profile independently lists LugLess at 10% per sale with a 30-day cookie in the Travel category, describing it as a program for travel enthusiasts and influencers - two directories agree on rate, cookie and network."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/lugless/",
+   "source_url": "https://linkclicky.com/affiliate-program/lugless/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "LugLess Affiliate Program (CJ Affiliate)",
+   "application_url": "https://linkclicky.com/affiliate-program/lugless/",
+   "source_url": "https://linkclicky.com/affiliate-program/lugless/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Bag-shipping is a natural travel-hack topic - family trips, moves, ski and golf travel content all convert on convenience.",
+    "ugc_evidence": "Program is pitched at travel bloggers and influencers in the directory listings; no dedicated creator page was verified.",
+    "compensation": "10% per sale on a service with high average booking values (~$100+ shipments) is solid; directory-reported by two sources.",
+    "contact_access": "Join route is via CJ Affiliate through the directory profiles; no public partnerships email was verified.",
+    "opportunity_availability": "Open CJ program; standard network approval applies.",
+    "credibility": "Long-running US luggage-shipping service; terms rest on two agreeing directory listings."
+   }
+  }
+ },
+ {
+  "name": "Ridge Merino",
+  "website": "https://www.ridgemerino.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Independent merino wool apparel brand making base layers and outdoor clothing. Its own affiliate page invites website, blog and social creators to earn 8% commission on every qualified buyer, with the program run through AvantLink's affiliate tools and support.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.ridgemerino.com/pages/affiliates",
+    "summary": "The brand's own affiliate page: 'As a Ridge Merino affiliate, you'll earn 8% commission on every qualified buyer you send our way. We partner with AvantLink to provide you with a robust set of affiliate tools and the best affiliate support in the business', with an Apply Now button into AvantLink. No earnings-cap statement appears, so the cap is recorded as unknown, and no creator counts are published, so saturation stays unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.ridgemerino.com/pages/affiliates",
+    "summary": "The same page opens: 'If you share your passion for the outdoors and outdoor gear through your website, blog, or social media channels, you might be a good fit for our affiliate program' - an open creator invitation for its sustainable, high-performing merino apparel."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 8,
+   "application_url": "https://www.ridgemerino.com/pages/affiliates",
+   "source_url": "https://www.ridgemerino.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ridge Merino Affiliate Program (AvantLink)",
+   "application_url": "https://www.ridgemerino.com/pages/affiliates",
+   "source_url": "https://www.ridgemerino.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Merino base layers are an outdoor and travel-wardrobe staple - layering, backpacking and one-bag travel content.",
+    "ugc_evidence": "Own page explicitly invites website, blog and social-media creators; AvantLink provides standard creator tools.",
+    "compensation": "8% brand-published rate is mid-range for apparel; no cap statement published.",
+    "contact_access": "Apply through the brand page into AvantLink; no public affiliate email is published.",
+    "opportunity_availability": "Open application on the brand's own page via AvantLink.",
+    "credibility": "Established independent outdoor apparel brand; rate and network verified on its own page."
+   }
+  }
+ },
+ {
+  "name": "Composite Athlete",
+  "website": "https://compositeathlete.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Training-plan brand selling printable workbooks with app-delivered programs for everyday athletes (first half marathon, starting to lift, 5K to 10K). Its own partner page for athletes and creators pays 40% of workbook and store-program sales and 30% of Athlete Pro subscription payments for the first 12 months, with 60-day link credit and free access to every plan for approved partners.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://compositeathlete.com/partners",
+    "summary": "The brand's own partner page: 'Recommend the plan that fits, and earn 40% of every sale you send us', with a rate table - printable workbook or book with app program $9.99-$14.99 at 40%, store programs $19-$59 at 40%, Athlete Pro monthly/annual at 30% of payments for the first 12 paid months (Lead Partner tier at 25+ paid sales in 30 days pays 50%/40%). Commission is on collected revenue after refunds, link credit lasts 60 days, commissions pend 30 days then pay monthly at a $25 balance. The headline 40% product rate is recorded. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://compositeathlete.com/partners",
+    "summary": "The same page is addressed to 'Athletes and creators' whose followers ask what plan they follow: partners choose a link name, get a ?via= link and a 10%-off code for their audience, receive free access to every plan, and 'we reply to every application by email'. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 40,
+   "application_url": "https://compositeathlete.com/partners",
+   "source_url": "https://compositeathlete.com/partners",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Composite Athlete Partner Program (Brand direct)",
+   "application_url": "https://compositeathlete.com/partners",
+   "source_url": "https://compositeathlete.com/partners"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 14,
+   "compensation": 17,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Goal-based plans (first half marathon, first lifting program) map directly onto fitness-creator series content.",
+    "ugc_evidence": "Own page built for athletes and creators, with a personal link name, audience discount code and free access to every plan to film with.",
+    "compensation": "40% of product sales (30% on subscriptions for 12 months) is a top-tier digital-fitness rate, brand-published with full terms.",
+    "contact_access": "Apply on the brand's own page; every application gets an email reply, but no public email is published.",
+    "opportunity_availability": "Open application on the brand page; approval step applies.",
+    "credibility": "Small, newer plan brand; terms are transparent and complete, but scale is unproven."
+   }
+  }
+ },
+ {
+  "name": "Freeletics",
+  "website": "https://www.freeletics.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Europe's large AI-coached fitness app - personalised HIIT and strength training plans built by its AI Coach, with 57 million users claimed on its network profile. Its Brand Partnerships programme runs on Awin (UK profile fetched); the public profile does not publish a commission rate, so the rate is recorded as null.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/72497",
+    "summary": "Freeletics' Awin merchant profile (fetched, 'Freeletics Brand Partnerships UK Affiliate Programme', merchant ID 72497) confirms the brand runs an affiliate programme on Awin and describes the app: 'Freeletics, Europe's #1 fitness app... The heart of the app is the AI-powered Coach', with 'data-based insights from over 57 million users'. The public profile text does not publish a commission rate or any earnings-cap statement, so the rate is recorded as null and the cap as unknown rather than guessed."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/72497",
+   "source_url": "https://ui.awin.com/merchant-profile/72497",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Freeletics Brand Partnerships (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/72497",
+   "source_url": "https://ui.awin.com/merchant-profile/72497"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 6,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "AI-coached home workouts are a core fitness-creator topic - transformations, no-equipment routines and app reviews.",
+    "ugc_evidence": "Verified Awin programme from a mass-market fitness app; no creator-specific program page was verified.",
+    "compensation": "Rate is not published on the public network profile, so compensation scores low until confirmed inside Awin.",
+    "contact_access": "Join route is the public Awin merchant profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open Awin programme confirmed on the network profile (UK programme fetched).",
+    "credibility": "One of Europe's largest fitness apps, with 57 million users claimed on its Awin profile; programme existence verified on Awin itself."
+   }
+  }
+ },
+ {
+  "name": "Ultra+",
+  "website": "https://www.ultraplus.fit",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Training app for lifters (AI coach 'Blaze', workout and nutrition tracking) with a creator partner program on its own page: a flat $10 per yearly-plan conversion and $5 per monthly-plan conversion (one payment per conversion, not recurring), a 14-day hold, Stripe Connect payouts, a free Pro account for content, and manual review open to fitness creators of any size. Its 'no cap on how many' wording covers conversion count only, so the earnings cap is honestly recorded as unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.ultraplus.fit/affiliates",
+    "summary": "The brand's own partner page: 'One payment per conversion. No cap on how many. Yearly subscription $10 - one payment per conversion. Monthly subscription $5 - one payment per conversion', 'Commissions clear 14 days after the purchase... Paid through Stripe Connect', and its FAQ: 'Is the commission recurring? No. You earn one payment per conversion.' This is a flat bounty, so commission_rate is null with the bounty recorded here. The 'no cap' wording covers the NUMBER of conversions, not an earnings ceiling, so commission_cap stays unknown per the standing standard."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.ultraplus.fit/affiliates",
+    "summary": "The same page is creator-first: partners get a free Ultra+ Pro account 'so you can show real workouts', a personal discount code and trackable link, a partner dashboard and a private partner group; 'Do I need a large following? No... Fitness and strength creators of any size can apply', with manual review of content quality and any platform accepted (Instagram, TikTok, YouTube, X, newsletters, podcasts). No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.ultraplus.fit/affiliates",
+   "source_url": "https://www.ultraplus.fit/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ultra+ Partner Program (Brand direct)",
+   "application_url": "https://www.ultraplus.fit/affiliates",
+   "source_url": "https://www.ultraplus.fit/affiliates"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 16,
+   "compensation": 9,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A lifting-focused training app with screenshot-friendly tracking is natural strength-creator content.",
+    "ugc_evidence": "Own page built for creators: free Pro account to film real workouts, personal code and link, partner group and early creative access.",
+    "compensation": "Flat $10/$5 per conversion is modest and non-recurring, but terms are fully transparent and paid via Stripe Connect after 14 days.",
+    "contact_access": "Direct application on the brand's own page with human review and email replies; no public email is published.",
+    "opportunity_availability": "Open to creators of any size, but every application is manually reviewed for content fit.",
+    "credibility": "Small, newer app brand; program terms are unusually transparent, but scale and longevity are unproven."
+   }
+  }
+ }
+]

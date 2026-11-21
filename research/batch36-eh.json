@@ -1,0 +1,534 @@
+[
+ {
+  "name": "Mejuri",
+  "website": "https://mejuri.com",
+  "country": "Canada",
+  "category_slug": "fashion",
+  "description": "Toronto-founded direct-to-consumer fine jewelry brand selling everyday 14k gold, sterling silver and vermeil pieces. Its affiliate program runs through ShareASale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/mejuri/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/mejuri/",
+    "summary": "Lasso (fetched) lists the Mejuri affiliate program paying 5% per sale with a 7-day cookie, and its join link routes to ShareASale, identifying the network. UpPromote and Creator Hero independently report the same 5% base rate. Other directories report tiered rates of 5-10% (afftank, Shopper) and one lists 8% (LinkApprove), so the corroborated 5% base is recorded with the higher tier reports noted here. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 5,
+   "application_url": "https://getlasso.co/affiliate/mejuri/",
+   "source_url": "https://getlasso.co/affiliate/mejuri/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mejuri Affiliate Program (ShareASale)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Everyday fine jewelry is a core, high-intent niche for fashion and jewelry creators.",
+    "A large, influencer-led brand with an established affiliate program and heavy creator marketing.",
+    "A corroborated 5% base commission on high-AOV fine jewelry; tiered reports up to 10% exist but are not the published base, and no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the ShareASale listing; no public brand partnerships email was found.",
+    "Open application through ShareASale, subject to network approval.",
+    "One of the best-known DTC fine jewelry brands, founded in Toronto in 2015."
+   ]
+  }
+ },
+ {
+  "name": "Nordgreen",
+  "website": "https://nordgreen.com",
+  "country": "Denmark",
+  "category_slug": "fashion",
+  "description": "Copenhagen-based watch brand selling minimalist Scandinavian-design timepieces with a sustainability focus. Its affiliate program runs through Webgains.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/nordgreen-uk/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/nordgreen-uk/",
+    "summary": "Lasso (fetched) lists the Nordgreen UK affiliate program paying 10% per sale with a 30-day cookie, and its join link routes to Webgains, identifying the network. Shopper's US listing instead reports 8%, so the fetched UK figure of 10% is recorded with the US discrepancy noted. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   }
+  ],
+  "affiliate": {
+   "network": "Webgains",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/nordgreen-uk/",
+   "source_url": "https://getlasso.co/affiliate/nordgreen-uk/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nordgreen Affiliate Program (Webgains)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Minimalist watches are a staple accessory niche for fashion and lifestyle creators.",
+    "An established affiliate program on Webgains with directory coverage of the brand's creator activity.",
+    "A published 10% commission with a 30-day cookie on the UK program (US listing reports 8%); no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "Applications run through the Webgains listing; no public brand partnerships email was found.",
+    "Open application through Webgains, subject to network approval.",
+    "Well-known Copenhagen watch brand with international DTC reach."
+   ]
+  }
+ },
+ {
+  "name": "Monica Vinader",
+  "website": "https://www.monicavinader.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "British demi-fine jewelry brand founded in 2008, known for everyday luxury pieces in recycled metals. Its affiliate program runs through Rakuten Advertising.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://theaffiliateslist.com/jewelry-affiliate-programs/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://theaffiliateslist.com/jewelry-affiliate-programs/",
+    "summary": "The Affiliates List (fetched) describes the Monica Vinader program at 10% of revenue with a 30-day cookie and application through the Rakuten LinkShare (Rakuten Advertising) network; Buildapreneur likewise reports the program hosted through Rakuten at 10%. Published rates conflict, however - Lasso's UK listing reports 3.2% and other directories describe a 5-10% tiered structure by annual sales volume - so commission_rate is recorded as null with the conflict documented here. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://theaffiliateslist.com/jewelry-affiliate-programs/",
+   "source_url": "https://theaffiliateslist.com/jewelry-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Monica Vinader Affiliate Program (Rakuten Advertising)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Demi-fine everyday jewelry is a core niche for fashion and jewelry creators.",
+    "A globally recognised brand with an established network affiliate program and regular creator-facing promotions.",
+    "Published rates conflict (10% headline vs 3.2% UK listing vs 5-10% tiered reports), so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the Rakuten Advertising listing; no public brand partnerships email was found.",
+    "Open application through Rakuten Advertising, subject to network and brand approval.",
+    "Long-established British jewelry house founded in 2008, widely featured in fashion press."
+   ]
+  }
+ },
+ {
+  "name": "Astrid & Miyu",
+  "website": "https://www.astridandmiyu.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "London contemporary jewelry brand founded in 2012, known for ear stacking and piercing jewelry. It runs its own creator community, Astrid & You, with affiliate links and commission, alongside a network affiliate program.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.astridandmiyu.com/en-us/pages/astrid-and-you"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_page",
+    "source_url": "https://www.astridandmiyu.com/en-us/pages/astrid-and-you",
+    "summary": "The brand's own Astrid & You page (fetched) advertises 'Up to 15% commission' through a personal affiliate link. The structure is tiered: Chapters 1-2 earn points for orders placed through the link, and from Chapter 3 those points turn into cash commission (per the brand's own help centre). 'Up to 15%' is a rate ceiling with no published floor, so commission_rate is recorded as null. Entry requires age 18+, UK base (more regions coming), a public account and 1,000+ followers on Instagram or TikTok. No fetched source states any earnings cap, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/astrid-miyu/",
+    "summary": "LinkClicky (fetched) lists a parallel Astrid & Miyu affiliate program on Rakuten Advertising paying 6% per sale, a second route distinct from the brand's own creator community."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program (Astrid & You)",
+   "commission_rate": null,
+   "application_url": "https://www.astridandmiyu.com/en-us/pages/astrid-and-you",
+   "source_url": "https://www.astridandmiyu.com/en-us/pages/astrid-and-you",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Astrid & You Creator Community (own program)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 11,
+   "contact_access": 10,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": [
+    "Contemporary stacking and piercing jewelry is a strong niche for fashion and beauty creators.",
+    "A dedicated own-brand creator community built around UGC, with featured-content spotlights and event invites.",
+    "Only an 'up to 15%' ceiling is published and early chapters earn points before cash commission unlocks at Chapter 3, so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "A direct application route on the brand's own site, plus a parallel Rakuten program at a reported 6%.",
+    "Application is open but gated: UK-based, 18+, public account and 1,000+ followers required.",
+    "Established London jewelry brand founded in 2012 with a large retail and social presence."
+   ]
+  }
+ },
+ {
+  "name": "DIFF Eyewear",
+  "website": "https://www.diffeyewear.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "US eyewear brand founded in 2014 selling sunglasses and blue-light glasses, known for charitable giving. Its affiliate program application runs through Ascend (Partnerize).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.ascendpartner.com/affiliate/registration?refid=271128"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.ascendpartner.com/affiliate/registration?refid=271128",
+    "summary": "The DIFF Eyewear affiliate application page on Ascend (Partnerize) was fetched directly; it confirms the program and its application route but publishes no commission rate. Directory reports conflict - Lasso lists 'up to 22.5%' (a ceiling) and Shopper reports 5-10% - so commission_rate is recorded as null with the conflict documented here. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Ascend (Partnerize)",
+   "commission_rate": null,
+   "application_url": "https://www.ascendpartner.com/affiliate/registration?refid=271128",
+   "source_url": "https://www.ascendpartner.com/affiliate/registration?refid=271128",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "DIFF Eyewear Affiliate Program (Ascend)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Sunglasses and blue-light glasses are a proven accessory niche for fashion and lifestyle creators.",
+    "A well-known DTC eyewear brand with an established network affiliate program and ambassador activity.",
+    "The rate is not published on the program's own application page and directory reports conflict (up to 22.5% ceiling vs 5-10%), so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the Ascend (Partnerize) registration page; no public brand partnerships email was found.",
+    "Open application through Ascend, subject to brand approval.",
+    "Established US eyewear brand founded in 2014 with national retail presence."
+   ]
+  }
+ },
+ {
+  "name": "Koio",
+  "website": "https://www.koio.co",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "New York luxury sneaker brand whose shoes are handmade in Italy from premium leather. Its affiliate program runs through CJ Affiliate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/koio/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/koio/",
+    "summary": "LinkClicky (fetched) lists the Koio affiliate program on CJ Affiliate paying 10% per sale. Lasso and UpPromote independently agree on the 10% rate, and Lasso reports a 30-day cookie; Shopper's 2% figure is an outlier against three agreeing sources, so the corroborated 10% is recorded. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/koio/",
+   "source_url": "https://linkclicky.com/affiliate-program/koio/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Koio Affiliate Program (CJ Affiliate)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Premium sneakers are a core niche for fashion, footwear and luxury-review creators.",
+    "An established affiliate program on CJ Affiliate with directory coverage.",
+    "A corroborated 10% commission with a reported 30-day cookie; no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "Applications run through the CJ Affiliate listing; no public brand partnerships email was found.",
+    "Open application through CJ Affiliate, subject to network approval.",
+    "Recognised luxury DTC sneaker brand, handmade in Italy."
+   ]
+  }
+ },
+ {
+  "name": "Kapten & Son",
+  "website": "https://kapten-son.com",
+  "country": "Germany",
+  "category_slug": "fashion",
+  "description": "German accessories brand founded in 2014 selling watches, sunglasses, backpacks and luggage with a travel-adventure aesthetic. Its affiliate program runs through Awin.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://ui.awin.com/merchant-profile/11399"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/11399",
+    "summary": "Kapten & Son's own Awin merchant profile (fetched) confirms its partner program on Awin, citing attractive remuneration, an above-average basket value and a strong social media presence, but publishes no commission percentage. Shopper reports 3.5%, which no network source corroborates, so commission_rate is recorded as null with the single-source report noted here. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/11399",
+   "source_url": "https://ui.awin.com/merchant-profile/11399",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kapten & Son Affiliate Program (Awin)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Watches, sunglasses and travel accessories sit squarely in the fashion-meets-travel creator niche.",
+    "A brand built on influencer marketing with a long-running network affiliate program.",
+    "The rate is not published on the brand's Awin profile and only a single directory reports 3.5%, so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the Awin merchant profile; no public brand partnerships email was found.",
+    "Open application through Awin, subject to network approval.",
+    "Established European accessories brand founded in 2014, selling in 30+ countries."
+   ]
+  }
+ },
+ {
+  "name": "Blenders Eyewear",
+  "website": "https://www.blenderseyewear.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "San Diego eyewear brand selling bold, affordable sunglasses and snow goggles for an active-lifestyle audience. Its affiliate program runs through Awin, managed by Acceleration Partners.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://ui.awin.com/merchant-profile/60071"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/60071",
+    "summary": "Blenders Eyewear's own Awin merchant profile (fetched) states 'Commission Rate: Up to 12% on all sales' with a 30-day cookie, managed by Acceleration Partners. 'Up to 12%' is a rate ceiling with no published base, and a second route via FlexOffers is reported at 8% (compareepc), so commission_rate is recorded as null with both figures documented here. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/60071",
+   "source_url": "https://ui.awin.com/merchant-profile/60071",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Blenders Eyewear Affiliate Program (Awin)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Bold, affordable sunglasses are a strong fit for fashion, travel and outdoor creators.",
+    "A mature, agency-managed affiliate program that has driven a meaningful share of the brand's e-commerce revenue.",
+    "Only an 'up to 12%' ceiling is published on Awin (FlexOffers route reported at 8%), so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the Awin merchant profile; no public brand partnerships email was found.",
+    "Open application through Awin, subject to network approval.",
+    "One of America's best-known DTC eyewear brands, based in San Diego."
+   ]
+  }
+ },
+ {
+  "name": "Charles Tyrwhitt",
+  "website": "https://www.charlestyrwhitt.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "British menswear brand known for dress shirts, suits, shoes and accessories. Its USA affiliate programme runs through Commission Junction (CJ Affiliate).",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "affiliates@ctshirts.co.uk",
+    "contact_url": "https://www.charlestyrwhitt.com/us/affiliate-programme-new/affiliate-programme.html"
+   },
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.charlestyrwhitt.com/us/affiliate-programme-new/affiliate-programme.html"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_page",
+    "source_url": "https://www.charlestyrwhitt.com/us/affiliate-programme-new/affiliate-programme.html",
+    "summary": "The brand's own affiliate page (fetched) states 'Up to 9% commission for new customer orders and 2% for existing customer orders', confirms the USA programme runs through Commission Junction, offers a dedicated affiliate manager, and publishes the contact email affiliates@ctshirts.co.uk. Because the published structure splits by customer type with an 'up to' ceiling on new orders, no single rate applies, so commission_rate is recorded as null with the full structure documented here. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.charlestyrwhitt.com/us/affiliate-programme-new/affiliate-programme.html",
+   "source_url": "https://www.charlestyrwhitt.com/us/affiliate-programme-new/affiliate-programme.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Charles Tyrwhitt Affiliate Programme (CJ Affiliate)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Classic menswear - shirts, tailoring, shoes - serves menswear and professional-style creators.",
+    "A long-running affiliate programme, though oriented more to publishers than UGC creators.",
+    "The brand publishes its structure (up to 9% on new-customer orders, 2% on existing) but no single rate, so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "A partnerships email is published on the brand's own affiliate page, plus a CJ application route and a named affiliate manager.",
+    "Open application through CJ Affiliate, subject to site approval by the brand.",
+    "Established British menswear retailer with global stores and e-commerce."
+   ]
+  }
+ },
+ {
+  "name": "Timbuk2",
+  "website": "https://www.timbuk2.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "San Francisco bag brand founded in 1989, known for messenger bags, backpacks and travel luggage built for urban and travel use. Its affiliate program runs through Pepperjam (Ascend).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://affi.io/m/timbuk2"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://affi.io/m/timbuk2",
+    "summary": "Timbuk2's affiliate program agreement (fetched) requires affiliates to join Pepperjam and states that commission rates are set inside the Pepperjam program rather than published in the terms. Third-party reports are low and conflicting - affjumbo lists 1% and Shopper reports 1.44-2.55% - so commission_rate is recorded as null with the reports documented here. No fetched source states any earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Pepperjam (Ascend)",
+   "commission_rate": null,
+   "application_url": "https://affi.io/m/timbuk2",
+   "source_url": "https://affi.io/m/timbuk2",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Timbuk2 Affiliate Program (Pepperjam)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 6,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": [
+    "Messenger bags, backpacks and luggage are core gear for travel and everyday-carry creators.",
+    "A long-established bag brand with a network affiliate program, though creator-specific activity is modest.",
+    "Rates are not published in the program terms and third-party reports are low and conflicting (1% vs 1.44-2.55%), so the rate is honestly null; no earnings cap is stated, so the cap stays unknown.",
+    "Applications run through the Pepperjam program; no public brand partnerships email was found.",
+    "Open application through Pepperjam, subject to network approval.",
+    "Iconic San Francisco bag maker operating since 1989."
+   ]
+  }
+ }
+]

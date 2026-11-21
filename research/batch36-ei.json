@@ -1,0 +1,591 @@
+[
+  {
+    "name": "Snake River Farms",
+    "website": "https://snakeriverfarms.com",
+    "country": "United States",
+    "category_slug": "food-drink",
+    "description": "Premium American Wagyu beef and Kurobuta pork brand (part of Agri Beef, founded 1968). Its own affiliates page publishes a 10% commission on all sales with a 30-day cookie, product review opportunities, monthly sales incentives and dedicated affiliate managers, and its signup routes to Impact; the page explicitly recruits content creators ('We are looking for content creators to share about our delicious Wagyu Beef'). Older directory listings citing 7% via ShareASale appear to predate the current Impact terms and are documented as a conflict. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://snakeriverfarms.com/pages/affiliates",
+        "source_url": "https://snakeriverfarms.com/pages/affiliates"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://snakeriverfarms.com/pages/affiliates",
+        "summary": "Snake River Farms' own affiliates page, fetched in full: '10% Commission,' '30 Day Cookie Duration,' product review opportunities, monthly sales incentives and dedicated affiliate managers; '10% commission paid on all sales'; the 'Sign up now!' link routes to app.impact.com, confirming the Impact network; and the FAQ states 'We are looking for content creators to share about our delicious Wagyu Beef, Kurobuta Pork, and more.' No cap statement or creator count is published, so cap and saturation stay unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://linkclicky.com/affiliate-program/snake-river-farms/",
+        "summary": "LinkClicky lists Snake River Farms on Impact at 10% per sale ('just what's officially listed with their affiliate program'), corroborating the brand's own page. Older listings (Lasso and ShareASale roundups) cite 7% with a 60-day cookie via ShareASale, which conflicts with the current own-page/Impact terms and is documented here as a superseded route."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 10,
+      "application_url": "https://snakeriverfarms.com/pages/affiliates",
+      "source_url": "https://snakeriverfarms.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Snake River Farms Affiliate Program — 10% on all sales via Impact, 30-day cookie, creator recruitment on the brand's own page",
+      "application_url": "https://snakeriverfarms.com/pages/affiliates",
+      "source_url": "https://snakeriverfarms.com/pages/affiliates"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 13,
+      "contact_access": 8,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Premium Wagyu beef and pork are high-engagement content for grilling, BBQ and chef creators, with a reported ~$191–200 average order value that makes 10% worth ~$19–20 per sale.",
+        "ugc_evidence": "The brand's own page explicitly recruits content creators and offers product review opportunities — direct evidence of a creator route, not just a publisher program.",
+        "compensation": "10% commission on all sales published on the brand's own page and corroborated by LinkClicky's Impact listing; older 7% ShareASale reports are documented as superseded; no cap statement published.",
+        "contact_access": "Dedicated affiliate managers are published on the brand's own page, though no public partnerships email was found.",
+        "opportunity_availability": "Quick open signup from the brand's own page via Impact; approved affiliates 'can start earning commissions almost immediately' per the page.",
+        "credibility": "Heritage brand founded in 1968 (Agri Beef), featured on Michelin-starred menus per its own page, with terms published on its own domain."
+      }
+    }
+  },
+  {
+    "affiliate": {
+      "application_url": "https://mudwtrambassadors.superfiliate.com",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Own program",
+      "source_url": "https://mudwtr.com/pages/ambassador"
+    },
+    "category_slug": "food-drink",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://mudwtr.com/pages/ambassador",
+        "email": null,
+        "source_url": "https://mudwtr.com/pages/ambassador"
+      }
+    ],
+    "country": "United States",
+    "description": "Mushroom and herbal coffee-alternative brand (:rise morning blend, :balance, :rest evening blends) made with organic herbs, spices and mushrooms with no-to-low caffeine. Its own ambassador page publishes a flat $35 commission per new customer, a free starter kit, 25% off products, bonuses at the first 5 and 10 sales and a $500 bonus every 50 sales, and explicitly recruits content creators, health influencers and online affiliates; applications run through the brand's Superfiliate portal. A separate Expert Affiliate page pays flat bounties (up to $60 per referred subscription). Because the published pay is flat per-customer amounts rather than a percentage, commission_rate is null with the flat amounts documented. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://mudwtr.com/pages/ambassador",
+        "summary": "MUD\\WTR's own ambassador page, fetched in full: '$35 commission per new customer,' 'You get 25% off all products and merch,' 'Free starter kit,' 'Bonuses at your first 5 and 10 sales,' 'Every 50 sales earns a $500 bonus.' The page recruits 'Health influencers and experts,' 'Content creators & artists' and 'Online affiliates,' and its Apply buttons route to mudwtrambassadors.superfiliate.com. Pay is a flat per-customer amount, not a percentage, so commission_rate is null. No cap statement or creator count is published."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://mudwtr.com/pages/are-you-the-next-mud-wtr-expert",
+        "summary": "The brand's own Expert Affiliate page publishes a second, practitioner-oriented track paying flat bounties: up to $60 per subscription referred ($30/$20/$10 across the first three months), $20 on on-demand purchases and $5 on accessories. This track is documented as secondary; the consumer ambassador program above is the qualifying route. No cap statement or creator count is published."
+      }
+    ],
+    "name": "MUD\\WTR",
+    "opportunity": {
+      "application_url": "https://mudwtrambassadors.superfiliate.com",
+      "source_url": "https://mudwtr.com/pages/ambassador",
+      "title": "MUD\\WTR Ambassador Program — flat $35 per new customer plus sales bonuses, via the brand's Superfiliate portal"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Flat $35 per new customer published on the brand's own page, plus a free starter kit, 25% product discount and escalating sales bonuses ($500 per 50 sales); flat pay means no percentage rate is recorded; no cap statement published.",
+        "contact_access": "Application runs through the brand's own Superfiliate portal linked from its ambassador page; no public partnerships email was found.",
+        "credibility": "Established DTC wellness beverage brand with program terms published on its own domain.",
+        "niche_fit": "Coffee-alternative morning rituals are core wellness-creator content, and the brand's low/no-caffeine blends give creators a clear story for routine and focus videos.",
+        "opportunity_availability": "Open application on the brand's own site for the ambassador program.",
+        "ugc_evidence": "The brand's own page explicitly recruits content creators, artists, health influencers and online affiliates, and runs a second expert track — an active, structured creator strategy."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://mudwtr.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://alohaambassadors.superfiliate.com",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Own program",
+      "source_url": "https://aloha.com/pages/aloha-collective"
+    },
+    "category_slug": "food-drink",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://aloha.com/pages/aloha-collective",
+        "email": null,
+        "source_url": "https://aloha.com/pages/aloha-collective"
+      }
+    ],
+    "country": "United States",
+    "description": "Plant-based protein bars, drinks and powders brand. Its own ALOHA Collective page describes 'our affiliate program for people who genuinely love ALOHA': members receive free products based on engagement and program activity, earn commission by sharing a unique affiliate link, and give followers an exclusive welcome offer. Applications run through the brand's Superfiliate portal (alohaambassadors.superfiliate.com). The brand publishes no commission percentage on the page, so commission_rate is null. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://aloha.com/pages/aloha-collective",
+        "summary": "ALOHA's own Collective page, fetched in full: 'Meet the ALOHA Collective—our affiliate program for people who genuinely love ALOHA and want to share it with their community.' Perks listed: 'Receive FREE ALOHA products based on engagement and program activity,' 'Earn commission by sharing a unique affiliate link,' and an 'exclusive welcome offer' for followers; approved members receive a welcome gift. Apply buttons route to alohaambassadors.superfiliate.com. No percentage rate, cap statement or creator count is published on the page, so the rate is null and cap/saturation stay unknown."
+      }
+    ],
+    "name": "ALOHA",
+    "opportunity": {
+      "application_url": "https://alohaambassadors.superfiliate.com",
+      "source_url": "https://aloha.com/pages/aloha-collective",
+      "title": "ALOHA Collective — the brand's own affiliate program: free product by engagement, commission via unique link, follower welcome offer"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Commission via unique affiliate link is published on the brand's own page, but no percentage is stated anywhere fetched, so no rate is recorded; no cap statement published.",
+        "contact_access": "Application runs through the brand's own Superfiliate portal linked from its Collective page; no public partnerships email was found.",
+        "credibility": "Established US plant-based food brand with program details published on its own domain.",
+        "niche_fit": "Plant-based protein bars and drinks are everyday snack and wellness-routine content with broad creator appeal.",
+        "opportunity_availability": "Open application on the brand's own site; the page invites unsure applicants to apply anyway for routing to the best-fit track.",
+        "ugc_evidence": "A named own-site affiliate program (the ALOHA Collective) with engagement-based free product and a welcome gift for approved members."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://aloha.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://getlasso.co/affiliate/kachava-us/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "KaChava Affiliate Program",
+      "source_url": "https://getlasso.co/affiliate/kachava-us/"
+    },
+    "category_slug": "food-drink",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://getlasso.co/affiliate/kachava-us/",
+        "email": null,
+        "source_url": "https://getlasso.co/affiliate/kachava-us/"
+      }
+    ],
+    "country": "United States",
+    "description": "Plant-based superfood meal-replacement shake brand (whole-body meal with greens, adaptogens, probiotics and protein). Lasso's program listing reports 9.6% per sale with a 30-day cookie and a reviewed application, but Shopper.com's 2.1% figure is EPC-derived rather than a program rate, so the rates conflict and commission_rate is recorded as null with the conflict documented. The hosting network is not named by the fetched sources. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://getlasso.co/affiliate/kachava-us/",
+        "summary": "Lasso's Ka'Chava (US) listing: commission rate 9.6% per sale, 30-day cookie duration; applications are reviewed over a few days before dashboard/link access is granted. The listing does not name the hosting affiliate network. No cap statement or creator count is published."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://www.shopper.com/partnerships/kachava-com-affiliate-program",
+        "summary": "Shopper.com's KaChava listing states a 2.1% payout, but the figure is derived from its 1-month EPC (3.17213 GBP) rather than a published program rate; it conflicts with Lasso's 9.6%, so commission_rate is null with the conflict documented here."
+      }
+    ],
+    "name": "KaChava",
+    "opportunity": {
+      "application_url": "https://getlasso.co/affiliate/kachava-us/",
+      "source_url": "https://getlasso.co/affiliate/kachava-us/",
+      "title": "KaChava Affiliate Program — listed at 9.6% per sale with a 30-day cookie (rate unsettled; see evidence)"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Lasso reports 9.6% per sale with a 30-day cookie, but Shopper's EPC-derived 2.1% conflicts, so no rate is recorded; no cap statement published.",
+        "contact_access": "No public partnerships email was found on the fetched pages; application runs through the program listing.",
+        "credibility": "Well-known US DTC nutrition brand with wide retail and media presence.",
+        "niche_fit": "A premium all-in-one meal shake is a staple of wellness-routine, gut-health and busy-professional content, with a high basket size.",
+        "opportunity_availability": "Application with review (typically a few days per Lasso) rather than instant approval.",
+        "ugc_evidence": "A reviewed affiliate program with dashboard tracking is documented by Lasso; no structured on-site creator community is published."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.kachava.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://advertiserreview.com/affiliate/programs/keto/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://advertiserreview.com/affiliate/programs/keto/"
+    },
+    "category_slug": "wellness",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://advertiserreview.com/affiliate/programs/keto/",
+        "email": null,
+        "source_url": "https://advertiserreview.com/affiliate/programs/keto/"
+      }
+    ],
+    "country": "United States",
+    "description": "Drinkable ketone shots (pure R-1,3-butanediol ketone diol) for focus and energy, from the company founded as HVMN and rebranded to Ketone-IQ in 2024; distributed nationwide in Target and Sprouts. AdvertiserReview's keto program roundup reports a base commission of 10–15% CPS on one-time and recurring subscription sales, tracked via Impact / Refersion with a 30-day cookie, a $50 minimum payout and monthly Net-30 payments. Because the published figure is a range, commission_rate is null with the range documented. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://advertiserreview.com/affiliate/programs/keto/",
+        "summary": "AdvertiserReview's keto affiliate roundup entry for Ketone-IQ (by HVMN): base commission 10–15% CPS applying to both one-time purchases and recurring subscription sales, tracking via Impact / Refersion, 30-day cookie, $50 minimum payout, monthly payments on Net-30 terms. A range is not a settled single rate, so commission_rate is null with the range documented. No cap statement or creator count is published."
+      }
+    ],
+    "name": "Ketone-IQ",
+    "opportunity": {
+      "application_url": "https://advertiserreview.com/affiliate/programs/keto/",
+      "source_url": "https://advertiserreview.com/affiliate/programs/keto/",
+      "title": "Ketone-IQ Affiliate Program — reported 10–15% CPS on one-time and subscription sales via Impact / Refersion (range; no single rate recorded)"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 6,
+      "credibility": 4,
+      "niche_fit": 23,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "A 10–15% CPS range on both one-time and recurring subscription sales is reported with a 30-day cookie — a range, so no single rate is recorded; no cap statement published.",
+        "contact_access": "No public partnerships email was found on the fetched pages; application runs through the network listing.",
+        "credibility": "Category-creating brand (first drinkable ketone, 2017) with nationwide Target and Sprouts distribution and a World Tour cycling partnership.",
+        "niche_fit": "Ketone shots fit performance, focus and biohacking creator content, with a distinctive science-led story and premium pricing.",
+        "opportunity_availability": "Open network application via Impact / Refersion as reported.",
+        "ugc_evidence": "A network affiliate program covering creators and publishers is reported; no structured on-site creator community is published."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://ketone.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://gruns.co/pages/referrals",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "TikTok Shop",
+      "source_url": "https://gruns.co/pages/referrals"
+    },
+    "category_slug": "wellness",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://gruns.co/pages/referrals",
+        "email": null,
+        "source_url": "https://gruns.co/pages/referrals"
+      }
+    ],
+    "country": "United States",
+    "description": "Daily greens gummy supplement brand. Trade-press coverage of its agency (T-Bar Partners) documents a large TikTok Shop affiliate program: free samples with creative briefs, post-count contests with cash prizes, and retainers for top sellers. The brand's own referral page separately pays a flat $20 for every referral plus product rewards via a personal link. No TikTok Shop percentage is published in the fetched sources, so commission_rate is null with the flat referral documented. No cap statement and no absolute creator count are published (coverage implies thousands of creator videos, which is scale, not low saturation), so cap and saturation are unknown.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://gruns.co/pages/referrals",
+        "summary": "Grüns' own referral program page, fetched in full: 'Join the Grüns referral program! Earn product rewards and $20 for every single referral. It's as easy as sharing your personal link!' The page notes the program is 'designed for personal, unpaid referrals only' and that paid-ad arbitrage commissions are not honored. The $20 is a flat per-referral amount, not a percentage, so commission_rate is null. No cap statement or creator count is published."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://theinfluencermarketingnews.com/news/tiktok-shop-affiliate-program-three-videos-per-sample/",
+        "summary": "Trade-press account of a Commerce Roundtable talk by T-Bar Partners, the agency running Grüns' TikTok Shop affiliate program: creators receive free samples with a creative brief and Discord access, contests pay cash for post count (first place $3,000, second $2,000, plus a top-seller prize), and strong sellers are offered retainers; the agency describes shipping roughly 500 samples per month across its brands and aiming for at least three videos per sample. This documents an active, structured TikTok Shop creator program at scale — no commission percentage or absolute creator count for Grüns is published."
+      }
+    ],
+    "name": "Grüns",
+    "opportunity": {
+      "application_url": "https://gruns.co/pages/referrals",
+      "source_url": "https://gruns.co/pages/referrals",
+      "title": "Grüns TikTok Shop Affiliate Program (agency-run: samples, briefs, post-count contests, retainers) + own referral program paying a flat $20 per referral"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 7,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "The brand's own referral page pays a flat $20 per referral plus product rewards; the TikTok Shop percentage is not published in the fetched sources, so no rate is recorded; no cap statement published.",
+        "contact_access": "Join routes are the brand's own referral page and TikTok Shop's affiliate flow; no public partnerships email was found.",
+        "credibility": "Fast-scaling brand reported to have reached roughly $300M annualized revenue within two years and acquired by Unilever, per trade coverage.",
+        "niche_fit": "Greens gummies are highly demo-able daily-routine content, and Grüns is one of the most visible supplement brands on TikTok Shop.",
+        "opportunity_availability": "Open TikTok Shop affiliate enrollment plus an open own-site referral program.",
+        "ugc_evidence": "An agency-run TikTok Shop affiliate engine with samples, monthly-refreshed briefs, cash contests and retainers is documented in trade press — among the strongest creator-program evidence in this batch."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [],
+    "website": "https://gruns.co"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://brandambassadorapp.net/forms/register/builtbar",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Own program",
+      "source_url": "https://linkwhisper.com/keto-affiliate-programs/"
+    },
+    "category_slug": "food-drink",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://brandambassadorapp.net/forms/register/builtbar",
+        "email": null,
+        "source_url": "https://linkwhisper.com/keto-affiliate-programs/"
+      }
+    ],
+    "country": "United States",
+    "description": "Protein bars and Built Puffs brand. Its Built Ambassador Program is reported at 10% commission on all orders (with a 10% follower discount), with registration through the brand's ambassador portal; Shopper.com's 6.65% figure is EPC-derived and conflicts, so commission_rate is null with the conflict documented. The brand is also a major TikTok Shop seller, with a case study citing 710K+ units sold through creator affiliates. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://linkwhisper.com/keto-affiliate-programs/",
+        "summary": "LinkWhisper's keto affiliate roundup entry for Built Bar: the official program name is the Built Ambassador Program, commission rate 10% on all orders, affiliates also receive a 10% discount, and registration runs through brandambassadorapp.net/forms/register/builtbar. No cap statement or creator count is published."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://www.shopper.com/partnerships/builtbar-com-affiliate-program",
+        "summary": "Shopper.com's Built Bar listing states a 6.65% payout, an EPC-derived figure that conflicts with the 10% ambassador rate reported by LinkWhisper, so commission_rate is null with the conflict documented. A separate creator case study of Built's TikTok Shop engine cites 710.1K units sold and hundreds of creators posting organically for commission only, evidencing a large TikTok Shop affiliate route."
+      }
+    ],
+    "name": "Built Bar",
+    "opportunity": {
+      "application_url": "https://brandambassadorapp.net/forms/register/builtbar",
+      "source_url": "https://linkwhisper.com/keto-affiliate-programs/",
+      "title": "Built Ambassador Program — reported 10% on all orders via the brand's ambassador portal (rate unsettled; see evidence); large TikTok Shop affiliate presence"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "10% on all orders is reported for the ambassador program, but Shopper's EPC-derived 6.65% conflicts, so no rate is recorded; no cap statement published.",
+        "contact_access": "A direct public registration form for the ambassador program is published; no public partnerships email was found.",
+        "credibility": "Established national protein-snack brand sold widely in US retail with program details reported across directories.",
+        "niche_fit": "Candy-like protein bars and puffs are proven taste-test and snack-swap content for fitness and food creators, with many flavors to rotate.",
+        "opportunity_availability": "Open registration for the ambassador program, plus open TikTok Shop affiliate enrollment.",
+        "ugc_evidence": "A named ambassador program plus a documented TikTok Shop creator engine (hundreds of creators, 710K+ units sold per a case study)."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://built.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "http://myvega.com/pages/affiliates",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "http://myvega.com/pages/affiliates"
+    },
+    "category_slug": "wellness",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "http://myvega.com/pages/affiliates",
+        "email": "affiliates@myvega.com",
+        "source_url": "http://myvega.com/pages/affiliates"
+      }
+    ],
+    "country": "United States",
+    "description": "Plant-based protein and nutrition brand. Its own US affiliates page states the Vega Affiliate Program is managed through Awin, pays a competitive tiered commission on all referred eStore sales (including repeat tracked purchases for up to 60 days), cites an average order size over $80, offers a dedicated affiliate manager, and publishes the manager's email, affiliates@myvega.com. The brand's page publishes no percentage, and third-party reports conflict (5% via ShareASale historically, 8–15% per Lasso, 2–10% via CJ historically), so commission_rate is null with the conflict documented. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "http://myvega.com/pages/affiliates",
+        "summary": "Vega's own US affiliates page, fetched in full: 'The VEGA Affiliate Program is managed through Awin program software'; affiliates 'earn a commission on all sales that are referred to the VEGA eStore,' including 'any subsequent tracked purchases that a customer makes for up to 60 days'; 'Competitive, tiered commission structure'; average order size of $78 (body text says over $80); 'Dedicated affiliate manager'; and 'contact our affiliate program manager at affiliates@myvega.com.' The page publishes no percentage rate, cap statement or creator count."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://getlasso.co/affiliate/vega/",
+        "summary": "Lasso lists the Vega program at 8–15% per sale with a 7-day cookie, while a protein-powder roundup reports 5% via ShareASale (60-day cookie) and an older directory reports 2–10% via Commission Junction — three conflicting network/rate accounts against the brand's current own-page Awin statement, so commission_rate is null with the conflict documented and Awin recorded as the current network per the brand."
+      }
+    ],
+    "name": "Vega",
+    "opportunity": {
+      "application_url": "http://myvega.com/pages/affiliates",
+      "source_url": "http://myvega.com/pages/affiliates",
+      "title": "Vega Affiliate Program — tiered commissions via Awin with a dedicated affiliate manager (brand publishes no percentage; rate unsettled)"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 13,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "The brand publishes only a 'competitive, tiered' structure with repeat-purchase tracking up to 60 days and a ~$78–80 average order; third-party rates conflict (5% / 8–15% / 2–10%), so no rate is recorded; no cap statement published.",
+        "contact_access": "The affiliate program manager's email, affiliates@myvega.com, is published on the brand's own page, and a dedicated manager is offered — the strongest contact access in this batch.",
+        "credibility": "Long-established plant-based nutrition brand with program terms published on its own domain.",
+        "niche_fit": "Plant-based protein is foundational fitness and vegan-lifestyle content, and Vega is one of the category's most recognized names.",
+        "opportunity_availability": "Open application through Awin from the brand's own affiliates page, with quick review promised.",
+        "ugc_evidence": "A long-running network affiliate program aimed at health, fitness and nutrition sites; no structured creator community is published."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://myvega.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/75634?setLocale=da_DK",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/75634?setLocale=da_DK"
+    },
+    "category_slug": "food-drink",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/75634?setLocale=da_DK",
+        "email": null,
+        "source_url": "https://ui.awin.com/merchant-profile/75634?setLocale=da_DK"
+      }
+    ],
+    "country": "United States",
+    "description": "Noble kava root drinks and powders sourced directly from small South Pacific farmers, founded in 2010 and sold for relaxation and stress relief. Awin's merchant profile for the program (listed under Monsoon Beverages) publishes a 10% commission on every referred sale, a 90-day cookie and an average order value around $90. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "directory",
+        "source_url": "https://ui.awin.com/merchant-profile/75634?setLocale=da_DK",
+        "summary": "Awin's merchant profile for the Monsoon Beverages / Kalm with Kava Affiliate Program: 'Generous Commissions: Earn a lucrative 10% commission on every sale you refer,' attribution period (cookie length) 90 days, and an average order value of around $90, with marketing materials and personalized support offered. No cap statement or creator count is published."
+      }
+    ],
+    "name": "Kalm with Kava",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/75634?setLocale=da_DK",
+      "source_url": "https://ui.awin.com/merchant-profile/75634?setLocale=da_DK",
+      "title": "Kalm with Kava Affiliate Program — 10% commission via Awin, 90-day cookie, ~$90 average order value"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 6,
+      "credibility": 4,
+      "niche_fit": 21,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "10% commission published on Awin's own merchant profile, with a long 90-day cookie and ~$90 average order value; no cap statement published.",
+        "contact_access": "No public partnerships email was found; application and contact run through Awin.",
+        "credibility": "Specialist kava vendor operating since 2010, selling only certified Noble kava sourced from Pacific Island farmers.",
+        "niche_fit": "Kava is a niche but growing alcohol-alternative relaxation ritual with a devoted community — strong fit for a smaller set of wellness creators.",
+        "opportunity_availability": "Open application via Awin's merchant program.",
+        "ugc_evidence": "A standard network affiliate program with marketing materials and support; no structured creator community is published."
+      },
+      "ugc_evidence": 9
+    },
+    "socials": [],
+    "website": "https://kalmwithkava.com"
+  },
+  {
+    "name": "PUR Cold-Pressed",
+    "website": "https://purcoldpressed.com",
+    "country": "United States",
+    "category_slug": "food-drink",
+    "description": "Fresh cold-pressed juice brand (juice cleanses and daily juices; 40,000+ orders and 5,000+ members claimed on its own page). Its own affiliate page publishes 'Earn 10% on eligible sales' for partners who share through websites and social channels, with signup routed to Refersion (refr.cc). A separate creators/collabs page offers ambassador partnerships spanning affiliate commission, gifting and discount codes. No cap statement or creator count is published, so cap and saturation are unknown.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "contact_url": "https://purcoldpressed.com/pages/affiliate",
+        "source_url": "https://purcoldpressed.com/pages/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://purcoldpressed.com/pages/affiliate",
+        "summary": "PUR's own affiliate page, fetched in full: 'Join our cold-pressed juice affiliate program to share products you love with your wellness audience. Earn 10% on eligible sales by introducing more people to PUR Cold Pressed Juice through your website and social channels.' Signup buttons route to purcoldpressedjuic.refr.cc, Refersion's domain, confirming the Refersion platform. The page claims 40,000+ orders placed, 5,000+ members and 4.9/5 from 3,200+ reviews. No cap statement or creator count is published."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://purcoldpressed.com/pages/creators",
+        "summary": "The brand's own Collabs page invites creators to 'Become an ambassador' and lists partnership opportunities: affiliate marketing, gifting, discount codes and additional opportunities — 'We offer affiliate commission, our collaborators LOVE our brand.' This documents a creator-facing route alongside the affiliate program."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion",
+      "commission_rate": 10,
+      "application_url": "https://purcoldpressed.com/pages/affiliate",
+      "source_url": "https://purcoldpressed.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "PUR Cold-Pressed Affiliate Program — 10% on eligible sales via Refersion, plus a creator collabs/ambassador route",
+      "application_url": "https://purcoldpressed.com/pages/affiliate",
+      "source_url": "https://purcoldpressed.com/pages/affiliate"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 13,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Cold-pressed juices and cleanses are visual, routine-friendly wellness content for health and reset-focused creators.",
+        "ugc_evidence": "An own-site affiliate program plus a dedicated creators/collabs page recruiting ambassadors with affiliate commission and discount codes.",
+        "compensation": "10% on eligible sales published on the brand's own affiliate page; no cap statement published.",
+        "contact_access": "Application runs through the brand's own page into Refersion; no public partnerships email was found.",
+        "opportunity_availability": "Open application from the brand's own affiliate page.",
+        "credibility": "Operating DTC juice brand claiming 40,000+ orders and 4.9/5 across 3,200+ reviews on its own page, with terms published on its own domain."
+      }
+    }
+  }
+]

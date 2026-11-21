@@ -1,0 +1,555 @@
+[
+ {
+  "name": "Tortuga",
+  "website": "https://www.tortugabackpacks.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "US direct-to-consumer travel gear brand founded in 2010, known for carry-on travel backpacks, daypacks and packing accessories designed for city travel; a repeated Wirecutter top pick. It runs an affiliate program through AvantLink and its own Creator Program offering free products, paid content opportunities and commissions on referred sales.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.tortugabackpacks.com/pages/creators"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://affiliatetips.blog/travel-camera-backpacks-affiliate-programs-to-make-money/",
+    "summary": "AffiliateTips (fetched) lists the Tortuga affiliate program details: 10% commission on each sale (coupon sites not allowed), average order value $248, 60-day cookie period, dedicated affiliate manager and freebies for performing affiliates. Multiple travel-affiliate roundups (Carl Broadbent, One More Cup of Coffee) independently report the same 10% rate and 60-day cookie and state the program is delivered by the AvantLink network. No fetched source states any earnings cap, so commission_cap is unknown - a percentage alone is not evidence of uncapped earnings."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.tortugabackpacks.com/pages/creators",
+    "summary": "Tortuga's own site (via search-indexed page content) runs a 'Join the Tortuga Creator Program' page: accepted creators receive free products, paid content creation opportunities, and commissions on every sale they refer. The page says the brand can only accept a limited number of applicants, but publishes no creator count, so creator_saturation is recorded as unknown rather than low."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 10,
+   "application_url": "https://www.tortugabackpacks.com/pages/creators",
+   "source_url": "https://affiliatetips.blog/travel-camera-backpacks-affiliate-programs-to-make-money/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tortuga Affiliate Program (AvantLink) + Creator Program",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": [
+    "Carry-on travel backpacks are a core, high-intent niche for travel creators, with a $248 reported average order value.",
+    "Long-running affiliate and creator programs with product seeding for performing affiliates and a strong review-content culture around the brand.",
+    "A published 10% commission on a high average order value; no earnings cap is stated in any fetched source, so the cap stays unknown.",
+    "A public creator application page on the brand's own site plus a dedicated affiliate manager reported by program listings.",
+    "Applications are reviewed and the creator program accepts a limited number of applicants; AvantLink approval also applies.",
+    "Established brand founded in 2010 and a repeated Wirecutter best carry-on pick."
+   ]
+  }
+ },
+ {
+  "name": "Rothy's",
+  "website": "https://rothys.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "US sustainable fashion brand making machine-washable shoes and bags knitted from recycled plastic bottles, sold direct-to-consumer. Its affiliate program runs on the Impact network.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/rothys/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/rothys/",
+    "summary": "LinkClicky (fetched) lists Rothy's affiliate program on the Impact platform paying 2% per sale. ClickWire's sustainable sneakers roundup and Shopper.com independently report the same 2% rate, Impact network and a 7-day cookie; one Lasso listing shows 2.4%/4.8% figures, so the rate is recorded as the corroborated 2% with the tier discrepancy noted. No fetched source states an earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 2,
+   "application_url": "https://linkclicky.com/affiliate-program/rothys/",
+   "source_url": "https://linkclicky.com/affiliate-program/rothys/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Rothy's Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Sustainable, washable footwear is a proven fashion-creator niche with strong try-on and review demand.",
+    "An established program on Impact with wide publisher coverage of the brand.",
+    "Only 2% commission with a short 7-day cookie - well below fashion norms - and no published cap statement.",
+    "Applications run through the Impact marketplace listing; no public brand partnerships email was found.",
+    "Open application through Impact with a few days' typical approval per program listings.",
+    "Large, well-known consumer brand with national retail presence."
+   ]
+  }
+ },
+ {
+  "name": "Summersalt",
+  "website": "https://www.summersalt.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "US direct-to-consumer women's swimwear and travel-wear brand known for size-inclusive, eco-fabric one-piece swimsuits such as the Sidestroke. A published program review reports its affiliate program paying 15% via the Offerspilot network.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.bonbonpromo.com/summersalt-affiliate-program-review-earn-15-on-eco-swimwear/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "review_site",
+    "source_url": "https://www.bonbonpromo.com/summersalt-affiliate-program-review-earn-15-on-eco-swimwear/",
+    "summary": "BonbonPromo's program review (fetched) reports the Summersalt affiliate program pays 15% commission per successful referral with a 30-day cookie, targeted at US, Canada and UK audiences, with sign-up through the Offerspilot network. A 2020 creator blog post also confirms Summersalt has long run an affiliate program (then via ShopStyle). The 15% figure rests on a single review source, so it is marked publicly_reported. No fetched source states an earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Offerspilot",
+   "commission_rate": 15,
+   "application_url": "https://www.bonbonpromo.com/summersalt-affiliate-program-review-earn-15-on-eco-swimwear/",
+   "source_url": "https://www.bonbonpromo.com/summersalt-affiliate-program-review-earn-15-on-eco-swimwear/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Summersalt Affiliate Program (Offerspilot)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 16,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": [
+    "Swim and resort wear is a top-performing fashion/travel creator category, and Summersalt is a category-defining brand.",
+    "The brand is heavily promoted by swim and lifestyle creators, though tracked program data is thin.",
+    "A reported 15% commission is at the top of the fashion range; no cap statement was found, so the cap is unknown.",
+    "No public partnerships contact was found; access is via the network listing only.",
+    "Application through the Offerspilot network per the program review.",
+    "Well-known DTC brand, but the program terms rest on a single review source."
+   ]
+  }
+ },
+ {
+  "name": "Sézane",
+  "website": "https://www.sezane.com",
+  "country": "France",
+  "category_slug": "fashion",
+  "description": "Parisian fashion label founded in 2013 by Morgane Sézalory, selling limited-edition women's clothing, leather goods and accessories through drop-based launches. Its affiliate program runs on Awin (Sézane - US programme) and pays commission on validated sales; the brand has over 6.1 million Instagram followers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://ui.awin.com/merchant-profile/30299"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/sezane"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://ui.awin.com/merchant-profile/30299",
+    "summary": "Sézane's own Awin merchant profile (fetched) welcomes publishers to 'Sézane's affiliation program' and states partners earn a commission on validated sales, with strong results around its Sunday and Wednesday launches. The public profile does not publish the commission percentage or any earnings-cap statement, so commission_rate is null and commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_overview",
+    "source_type": "social_profile",
+    "source_url": "https://www.instagram.com/sezane",
+    "summary": "Sézane's verified Instagram profile (fetched) shows 6,113,252 followers, confirming a very large creator-driven audience for the brand's drop-based fashion content."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/30299",
+   "source_url": "https://ui.awin.com/merchant-profile/30299",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Sézane Affiliate Program (Awin)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Parisian fashion with limited-edition drops is an exceptionally strong fit for fashion creators.",
+    "Over 6.1M Instagram followers and a launch calendar built around creator sharing.",
+    "Commission on validated sales is confirmed by the brand's own Awin profile, but the percentage is not published, so compensation scores mid-range.",
+    "Application and contact run through the brand's Awin merchant profile.",
+    "Open publisher application on Awin.",
+    "Established Parisian label founded in 2013 with international stores."
+   ]
+  }
+ },
+ {
+  "name": "Andie",
+  "website": "https://andieswim.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "US women-founded direct-to-consumer swimwear brand selling fit-focused one-pieces and bikinis in extended sizes. Its storefront runs Awin's affiliate technology and a published network listing reports an 8% affiliate commission with a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "hello@andieswim.com",
+    "contact_url": "https://andieswim.com"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affjumbo.com/new-offer-launched-andie-swim-affiliate-program/",
+    "summary": "AffJumbo's Andie Swim listing (fetched) reports an 8% commission, 30-day last-touch cookie, 30-day hold period, deeplinking and a $100 payout threshold. Separately, a fetched store-profile of andieswim.com (Clipara) shows the 'Awin - Affiliate Marketing' app installed in the store's tech stack, corroborating that Andie runs its program on Awin. No fetched source states an earnings cap, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "brand_overview",
+    "source_type": "directory_listing",
+    "source_url": "https://www.getclipara.com/tools/brands/andie-swim",
+    "summary": "Clipara's store profile (fetched) describes Andie as a female-founded DTC swim brand on Shopify and publishes the contact email hello@andieswim.com. No creator count is published anywhere fetched, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 8,
+   "application_url": "https://www.affjumbo.com/new-offer-launched-andie-swim-affiliate-program/",
+   "source_url": "https://www.affjumbo.com/new-offer-launched-andie-swim-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Andie Swim Affiliate Program (Awin)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": [
+    "Fit-focused swimwear in extended sizes is a solid swim/travel creator niche.",
+    "A live affiliate program on Awin, though published creator campaign data is limited.",
+    "A reported 8% commission with a 30-day cookie; no cap statement found, so the cap is unknown.",
+    "A public brand contact email (hello@andieswim.com) is published in store profiles.",
+    "Network application with approval review; the listing notes the brand works with a limited number of sites, but no count is published.",
+    "Recognised DTC swim brand; program rate rests on directory reporting."
+   ]
+  }
+ },
+ {
+  "name": "Fjällräven",
+  "website": "https://www.fjallraven.com",
+  "country": "Sweden",
+  "category_slug": "travel",
+  "description": "Swedish outdoor clothing and equipment brand from Örnsköldsvik, best known for the Kånken backpack and durable travel and hiking gear. Its own affiliate program page offers a 10% base commission with a 30-day cookie through AvantLink, with a dedicated in-house affiliate manager.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://fjallraven.com.au/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://fjallraven.com.au/pages/affiliate-program",
+    "summary": "Fjällräven's own affiliate program page (fetched from the brand's official regional storefront) lists the perks verbatim: '10% base commission with opportunity to increase and/or bonus potential', a 30-day cookie window, free standard shipping, and a dedicated in-house affiliate manager, with sign-up via AvantLink. Commission Academy's camping roundup independently reports the same 10% / 30-day AvantLink terms for the US program. The brand page states no earnings cap, so commission_cap is unknown - the 'opportunity to increase' wording is about the rate, not a cap statement."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 10,
+   "application_url": "https://fjallraven.com.au/pages/affiliate-program",
+   "source_url": "https://fjallraven.com.au/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Fjällräven Affiliate Program (AvantLink)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Kånken backpacks and outdoor apparel sit squarely in the travel and outdoor creator niche.",
+    "A long-running program with seasonal campaigns; tracked creator data is not published.",
+    "A brand-published 10% base commission with stated room to increase; no cap statement, so the cap is unknown.",
+    "The brand's own program page promises a dedicated in-house affiliate manager and customer success team.",
+    "Open sign-up through AvantLink from the brand's own page.",
+    "Heritage Swedish outdoor brand with global retail presence."
+   ]
+  }
+ },
+ {
+  "name": "KEEN",
+  "website": "https://www.keenfootwear.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Portland, Oregon footwear brand founded in 2003, known for protective-toe outdoor, hiking and work shoes for men, women and kids. Its affiliate programme runs on Awin with a 30-day cookie, daily-updated product feed and dedicated account management.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://ui.awin.com/merchant-profile/123960"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_listing",
+    "source_url": "https://ui.awin.com/merchant-profile/123960",
+    "summary": "KEEN Footwear's Awin merchant profile (fetched) confirms the programme: 'attractive standard commission rates' (percentage not published on the profile), a 30-day cookie period, a daily-updated product feed and dedicated affiliate account management, open to outdoor and lifestyle bloggers, content creators and influencers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/keen-footwear/",
+    "summary": "Lasso's KEEN Footwear listing (fetched) reports 6% per sale with a 30-day cookie; an older boots roundup reported a 4-8% range via AvantLink. The 6% figure is recorded as publicly reported; Awin's own profile does not publish the rate. No fetched source states an earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 6,
+   "application_url": "https://ui.awin.com/merchant-profile/123960",
+   "source_url": "https://ui.awin.com/merchant-profile/123960",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "KEEN Footwear Affiliate Programme (Awin)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Outdoor and work footwear is a steady niche for footwear and outdoor creators.",
+    "An established Awin programme explicitly recruiting bloggers, creators and influencers.",
+    "A reported 6% commission; the network profile does not publish the rate and no cap statement exists, so the cap is unknown.",
+    "Dedicated affiliate account management is promised on the brand's Awin profile.",
+    "Open publisher application on Awin.",
+    "Major footwear brand founded in 2003 with global distribution."
+   ]
+  }
+ },
+ {
+  "name": "Paravel",
+  "website": "https://tourparavel.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "US sustainable luggage brand making carbon-neutral suitcases, duffels and packing accessories from recycled and upcycled materials. Its affiliate program, run through FlexOffers, is reported at 7% commission with a 10-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/paravel/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/paravel/",
+    "summary": "Lasso's Paravel listing (fetched) reports 7% per sale with a 10-day cookie in the luggage/travel categories. One More Cup of Coffee's luggage roundup independently reports the same 7% and 10-day cookie and states Paravel uses FlexOffers to run the program, giving affiliates banners, text links, coupons and product links. No fetched source states an earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 7,
+   "application_url": "https://getlasso.co/affiliate/paravel/",
+   "source_url": "https://getlasso.co/affiliate/paravel/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Paravel Affiliate Program (FlexOffers)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": [
+    "Premium sustainable luggage is a strong travel-creator niche.",
+    "A live network program with standard affiliate creative support; published creator data is limited.",
+    "A reported 7% commission, partly offset by a short 10-day cookie; no cap statement, so the cap is unknown.",
+    "No public partnerships contact found; access is via the network listing.",
+    "Application through FlexOffers with standard approval.",
+    "Established DTC luggage brand with sustainability credentials; terms rest on directory reporting."
+   ]
+  }
+ },
+ {
+  "name": "Matt & Nat",
+  "website": "https://mattandnat.com",
+  "country": "Canada",
+  "category_slug": "fashion",
+  "description": "Montreal-based vegan fashion brand founded in 1995, making bags, footwear and accessories from vegan leather and recycled materials such as plastic bottles and bicycle tires. Its affiliate program is distributed through FlexOffers and other networks, with the primary FlexOffers listing at 8% of sales.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/matt-nat/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/matt-nat/",
+    "summary": "Lasso's Matt & Nat listing (fetched) reports 8% per sale with a 30-day cookie, and LinkMyDeals' network table (fetched) likewise shows the FlexOffers campaign paying '8% of sales'. Lower figures (2.6%-4%) appear only on sub-network and cashback intermediaries that take a share, so the primary program rate is recorded as 8% with the discrepancy noted here. No fetched source states an earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 8,
+   "application_url": "https://getlasso.co/affiliate/matt-nat/",
+   "source_url": "https://getlasso.co/affiliate/matt-nat/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Matt & Nat Affiliate Program (FlexOffers)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": [
+    "Vegan leather bags are a distinctive, content-friendly fashion niche.",
+    "A distributed network program; published creator campaign data is limited.",
+    "An 8% primary rate with a 30-day cookie per two directory sources; sub-networks pay less, and no cap statement exists.",
+    "No public partnerships contact found; access is via network listings.",
+    "Applications run through FlexOffers and other networks.",
+    "Brand founded in 1995 with international retail presence."
+   ]
+  }
+ },
+ {
+  "name": "Birdies",
+  "website": "https://birdies.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "US women's footwear brand whose flats combine slipper comfort with designer styling, built on a seven-layer comfort system. Its affiliate program runs on ShareASale at a reported 15% per sale with a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/birdies/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/birdies/",
+    "summary": "LinkClicky's BIRDIES listing (fetched) reports the program on the ShareASale platform paying 15% per sale with a 30-day cookie, open to all regions. Sovrn Commerce also lists a BIRDIES affiliate program but does not publish its rate. The 15% figure rests on one directory source, so it is marked publicly_reported. No fetched source states an earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "https://linkclicky.com/affiliate-program/birdies/",
+   "source_url": "https://linkclicky.com/affiliate-program/birdies/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Birdies Affiliate Program (ShareASale)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 16,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Comfort-driven designer flats are a proven women's fashion creator niche.",
+    "A live ShareASale program; published creator campaign data is limited.",
+    "A reported 15% commission is top-tier for footwear; no cap statement found, so the cap is unknown.",
+    "Application via the ShareASale listing; no public brand partnerships email found.",
+    "Open application through ShareASale.",
+    "Well-known DTC footwear brand; rate rests on a single directory source."
+   ]
+  }
+ }
+]

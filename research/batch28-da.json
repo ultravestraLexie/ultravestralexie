@@ -1,0 +1,602 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://affiliate.danishskincare.com",
+      "commission_cap": "unknown",
+      "commission_rate": 28,
+      "creator_saturation": "unknown",
+      "network": "Own affiliate program",
+      "source_url": "https://affiliate.danishskincare.com"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "Denmark",
+    "description": "Danish skincare brand founded by Mads Timmermann and in business since 2011, selling its own skincare range online to 80+ countries; its affiliate page claims 118,179+ customers.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://affiliate.danishskincare.com",
+        "summary": "The brand's own affiliate portal (fetched) publishes a 28% commission on all sales, a 90-day cookie, monthly payouts over $50 via PayPal or bank transfer, a free product kit for qualified creators, a dedicated affiliate manager and automatic approval."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "brand_overview",
+        "source_type": "brand_site",
+        "source_url": "https://affiliate.danishskincare.com",
+        "summary": "The portal states the brand has been in business since 2011, ships to 80+ countries and has 118,179+ customers; founder is Mads Timmermann."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://affiliate.danishskincare.com",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears anywhere on the fetched portal page, so the cap is recorded as unknown - never assumed uncapped. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "name": "Danish Skin Care",
+    "opportunity": {
+      "application_url": "https://affiliate.danishskincare.com",
+      "compensation_notes": "28% commission on all sales with a 90-day cookie and monthly payouts over $50, per the brand's own affiliate portal. Commission cap: unknown - no cap statement is published on the portal.",
+      "description": "Join Danish Skin Care's own affiliate portal, create skincare routine and results content, and earn 28% commission with a 90-day cookie and automatic approval.",
+      "status": "unverified",
+      "title": "Danish Skin Care Affiliate Program (Own portal)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 20,
+      "contact_access": 10,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 10,
+      "reasons": {
+        "compensation": "28% flat on all sales with a 90-day cookie is a top-tier published rate, verified on the brand's own portal.",
+        "contact_access": "Dedicated affiliate manager is promised inside the portal, but no public partnerships email is published.",
+        "credibility": "Operating since 2011 with 118,179+ customers claimed on its own page; terms verified on the brand's own portal.",
+        "niche_fit": "Single-brand skincare with a large claimed customer base is a core UGC niche for routine and before/after content.",
+        "opportunity_availability": "Automatic approval and an open portal signup make this immediately available.",
+        "ugc_evidence": "The portal offers qualified creators a free product kit and a dedicated affiliate manager, though no separate creator content program is published."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://www.danishskincare.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://creators.elementbrooklyn.com",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": "Own creator program",
+      "source_url": "https://creators.elementbrooklyn.com"
+    },
+    "category_slug": "beauty",
+    "contacts": [],
+    "country": "United States",
+    "description": "Brooklyn-based brand selling soap, candles, hand cream and fragrance, running its own in-house Creator Program with lifetime customer attribution instead of third-party creator platforms.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://creators.elementbrooklyn.com",
+        "summary": "The brand's own Creator Program page (fetched) states the program is run in-house rather than through third-party platforms; it pays 15% on a customer's first order and 10% on every reorder and subscription, with lifetime customer attribution, a 30-day window, monthly payouts over $25 after a 90-day hold, two free full-size products, and a bimonthly sampling box for its top 100 creators in the US, UK and Australia."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://creators.elementbrooklyn.com",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched program page, so the cap is recorded as unknown. The top-100 sampling box is a cohort perk, not a published total creator count, so saturation is also unknown."
+      }
+    ],
+    "name": "Element Brooklyn",
+    "opportunity": {
+      "application_url": "https://creators.elementbrooklyn.com",
+      "compensation_notes": "15% commission on a customer's first order and 10% on every reorder and subscription, with lifetime customer attribution, per the brand's own program page; the recorded rate is the 15% first-order rate. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Element Brooklyn's in-house Creator Program, create home-fragrance and body-care content, and earn 15% on first orders with lifetime attribution on repeat purchases.",
+      "status": "unverified",
+      "title": "Element Brooklyn Creator Program (Own program)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 9,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "15% first-order plus 10% recurring with lifetime attribution is attractive; the recurring basis is documented in the compensation notes.",
+        "contact_access": "Applications run through the brand's own program page; no public partnerships email is published.",
+        "credibility": "Terms are published in full on the brand's own program page, including payout threshold and hold period.",
+        "niche_fit": "Soap, candles, hand cream and fragrance fit home-and-beauty UGC well, though the range is narrower than pure skincare.",
+        "opportunity_availability": "Open program page for creators in the US, UK and Australia.",
+        "ugc_evidence": "A purpose-built in-house creator program with free product and a sampling box for top creators is strong creator evidence."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [],
+    "website": "https://elementbrooklyn.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://basksuncare.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://basksuncare.com/pages/affiliate"
+    },
+    "category_slug": "skincare",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "creator_application",
+        "email": "friends@basksuncare.com",
+        "notes": "Affiliate contact email published on the brand's own affiliate page.",
+        "url": "https://basksuncare.com/pages/affiliate"
+      }
+    ],
+    "country": "United States",
+    "description": "US suncare brand whose own affiliate page publishes commissions starting at 10% of sales, 30-day tracking and monthly net-30 payments, with the program running on ShareASale.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://basksuncare.com/pages/affiliate",
+        "summary": "The brand's own affiliate page (fetched) states commissions start at 10% of sales, with 30-day tracking and monthly net-30 payments; the program runs on ShareASale (the brand also lists Shopify Collabs and LTK) and the page publishes the contact email friends@basksuncare.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://basksuncare.com/pages/affiliate",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched affiliate page, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "name": "Bask Suncare",
+    "opportunity": {
+      "application_url": "https://basksuncare.com/pages/affiliate",
+      "compensation_notes": "Commissions start at 10% of sales with 30-day tracking, per the brand's own affiliate page; 'starting at' means higher tiers may exist but are not published. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Bask Suncare on ShareASale, create suncare and summer-skin content, and earn commissions starting at 10% of sales with monthly net-30 payments.",
+      "status": "unverified",
+      "title": "Bask Suncare Affiliate Program (ShareASale)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 13,
+      "credibility": 4,
+      "niche_fit": 25,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "A published starting rate of 10% of sales is mid-tier; higher tiers are hinted at but not published.",
+        "contact_access": "A named affiliate contact email is published on the brand's own affiliate page.",
+        "credibility": "Terms are published on the brand's own page; no independent verification of payout history was found.",
+        "niche_fit": "Suncare is a proven UGC skincare niche with strong seasonal and routine content angles.",
+        "opportunity_availability": "Open application through the brand's affiliate page and ShareASale.",
+        "ugc_evidence": "The brand maintains a public affiliate page and multiple creator routes (ShareASale, Shopify Collabs, LTK)."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://basksuncare.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://getlasso.co/affiliate/koa/",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://getlasso.co/affiliate/koa/"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "Hawaii-rooted skincare brand launched in summer 2019 by Hiro Shinn, Ty McLaren and Kapono Chung, built on Hawaiian botanicals such as kukui nut, seaweed and hibiscus, with an affiliate program on ShareASale.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/koa/",
+        "summary": "The Lasso affiliate directory (fetched) lists the Koa affiliate program at 15% per sale with a 30-day cookie, and its join link points to ShareASale."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/koa/",
+        "summary": "LinkClicky independently lists Koa (website livingkoa.com) on ShareASale at 15% per sale with a 30-day cookie, corroborating the Lasso listing. No earnings-cap statement was found in either directory, so the cap is recorded as unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "name": "Koa",
+    "opportunity": {
+      "application_url": "https://getlasso.co/affiliate/koa/",
+      "compensation_notes": "15% per sale with a 30-day cookie, reported consistently by two affiliate directories (Lasso and LinkClicky); the brand publishes no program page of its own in the sources checked. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Koa on ShareASale, create Hawaiian-botanical skincare content, and earn 15% per sale with a 30-day cookie.",
+      "status": "unverified",
+      "title": "Koa Affiliate Program (ShareASale)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 9,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "15% per sale is a solid mid-high rate, corroborated by two independent directories.",
+        "contact_access": "Join route is the ShareASale listing via directories; no public partnerships email was found.",
+        "credibility": "Operating since 2019 with press coverage in Forbes, GQ and Wired reported by Shopper; rate rests on directory reporting.",
+        "niche_fit": "Botanical, sustainability-led skincare fits clean-beauty UGC well.",
+        "opportunity_availability": "Open ShareASale program listed across all regions by LinkClicky.",
+        "ugc_evidence": "The program is listed for creators on ShareASale, but the brand publishes no creator program page of its own in the sources checked."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://livingkoa.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://usesnippet.app/pr-emails/juvias-place",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Pepperjam",
+      "source_url": "https://usesnippet.app/pr-emails/juvias-place"
+    },
+    "category_slug": "beauty",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "creator_application",
+        "email": "affiliates@juviasplace.com",
+        "notes": "Published by the brand for affiliate program questions, checked on the brand's own pages on November 16, 2026.",
+        "url": "https://usesnippet.app/pr-emails/juvias-place"
+      }
+    ],
+    "country": "United States",
+    "description": "US makeup brand known for highly pigmented palettes and complexion products; it publishes an affiliate program on Pepperjam and an affiliates@ contact email for program questions.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://usesnippet.app/pr-emails/juvias-place",
+        "summary": "UseSnippet, checked against the brand's own pages on November 16, 2026, states the creator route Juvia's Place publishes is applying to its affiliate program on Pepperjam, and that the brand lists affiliates@juviasplace.com for affiliate program questions."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/juvias-place/",
+        "summary": "Published rates conflict: Lasso lists 2% per sale while InfluencerRate claims 'up to 10%'. With no rate published on a brand or network page, commission_rate is recorded as null and the conflict is documented here. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "name": "Juvia's Place",
+    "opportunity": {
+      "application_url": "https://usesnippet.app/pr-emails/juvias-place",
+      "compensation_notes": "Rate not recorded: directories conflict (Lasso 2% per sale vs InfluencerRate 'up to 10%') and no brand or network page publishes the rate. Commission cap: unknown - no cap statement is published.",
+      "description": "Apply to the Juvia's Place affiliate program on Pepperjam - the creator route the brand publishes - and create pigment-rich makeup content; confirm the live rate inside the network before posting.",
+      "status": "unverified",
+      "title": "Juvia's Place Affiliate Program (Pepperjam)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 6,
+      "contact_access": 13,
+      "credibility": 4,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "No reliable rate could be verified - directory figures conflict between 2% and 'up to 10%'.",
+        "contact_access": "A dedicated affiliates@ email for program questions is published by the brand.",
+        "credibility": "Established US makeup brand; the Pepperjam route is corroborated, but rate data is directory-only and conflicting.",
+        "niche_fit": "Pigment-rich makeup is a top UGC beauty category for swatch and tutorial content.",
+        "opportunity_availability": "Open application on Pepperjam with no stated follower minimum on the pages checked.",
+        "ugc_evidence": "The brand publishes the Pepperjam affiliate route for creators, though it runs no separate creator program page."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://www.juviasplace.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://magnoliaorchid.com/affiliate-program",
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "unknown",
+      "network": "Own affiliate program",
+      "source_url": "https://magnoliaorchid.com/affiliate-program"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "US skincare brand running its own tiered affiliate program for spa partners and beauty creators, paying 8% at the base Bronze tier up to 15% at Gold, with monthly cash payouts via Stripe.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://magnoliaorchid.com/affiliate-program",
+        "summary": "The brand's own affiliate program page (fetched) publishes tiered commissions: 8% Bronze base for all approved affiliates, 12% Silver at $5,000+ lifetime sales and 15% Gold at $20,000+; 30-day attribution, a $50 minimum payout, monthly cash payouts via Stripe, a 10% buyer discount code, applications reviewed within 48 hours, US affiliates only at launch, and the program is explicitly built for spa partners and beauty creators."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://magnoliaorchid.com/affiliate-program",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched program page - tier thresholds are sales milestones, not an earnings cap - so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "name": "Magnolia Orchid",
+    "opportunity": {
+      "application_url": "https://magnoliaorchid.com/affiliate-program",
+      "compensation_notes": "Tiered commission: 8% Bronze base (recorded rate), 12% Silver at $5,000+ lifetime sales, 15% Gold at $20,000+, per the brand's own program page; $50 minimum payout, monthly via Stripe. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Magnolia Orchid's own affiliate program, create skincare content, and earn 8% at the base tier, rising to 12% and 15% at published lifetime-sales milestones.",
+      "status": "unverified",
+      "title": "Magnolia Orchid Affiliate Program (Own program)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 9,
+      "credibility": 3,
+      "niche_fit": 23,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "8% base is modest, though published tiers rise to 15% at reachable-looking lifetime-sales milestones.",
+        "contact_access": "Applications run through the brand's own program page with a stated 48-hour review; no public email is published.",
+        "credibility": "Full terms are published on the brand's own page; the brand is smaller and less independently covered than others in this batch.",
+        "niche_fit": "Skincare aimed at spa and beauty-creator audiences fits routine and treatment UGC.",
+        "opportunity_availability": "Open application, but US affiliates only at launch.",
+        "ugc_evidence": "The program page explicitly recruits beauty creators alongside spa partners, with a buyer discount code for content."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [],
+    "website": "https://magnoliaorchid.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.ellisbrooklyn.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Rakuten",
+      "source_url": "https://www.ellisbrooklyn.com/pages/affiliate-program"
+    },
+    "category_slug": "beauty",
+    "contacts": [],
+    "country": "United States",
+    "description": "US fragrance brand whose own affiliate page routes creators to Rakuten, LTK or TikTok Shop; the recorded directory route is Rakuten, not a TikTok Shop listing.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://www.ellisbrooklyn.com/pages/affiliate-program",
+        "summary": "The brand's own affiliate page directs creators to join via Rakuten, LTK or TikTok Shop. The recorded route is Rakuten, an affiliate network; the TikTok Shop option is not the basis for this listing."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.shopper.com/partnerships/ellisbrooklyn-com-affiliate-program",
+        "summary": "Shopper lists the Ellis Brooklyn program at 'up to 6.5%' - a ceiling, not a flat rate - so commission_rate is recorded as null and the ceiling is documented here. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "name": "Ellis Brooklyn",
+    "opportunity": {
+      "application_url": "https://www.ellisbrooklyn.com/pages/affiliate-program",
+      "compensation_notes": "No flat rate is published; Shopper reports 'up to 6.5%', which is a ceiling, so commission_rate is null. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Ellis Brooklyn via Rakuten from the brand's own affiliate page, create fragrance content, and confirm the live rate inside the network before posting.",
+      "status": "unverified",
+      "title": "Ellis Brooklyn Affiliate Program (Rakuten)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 6,
+      "contact_access": 9,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Only an 'up to 6.5%' ceiling is reported by a directory; no flat rate could be recorded.",
+        "contact_access": "Join routes are published on the brand's own affiliate page; no public partnerships email was found.",
+        "credibility": "Established US fragrance brand; the Rakuten route is stated on the brand's own page.",
+        "niche_fit": "Fragrance is a high-engagement UGC beauty category for review and layering content.",
+        "opportunity_availability": "Open joining via Rakuten from the brand's affiliate page.",
+        "ugc_evidence": "The brand maintains its own affiliate page routing creators to networks, but publishes no program terms of its own."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.ellisbrooklyn.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/patrick-ta-beauty/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://linkclicky.com/affiliate-program/patrick-ta-beauty/"
+    },
+    "category_slug": "beauty",
+    "contacts": [],
+    "country": "United States",
+    "description": "Premium makeup brand launched in 2019 by celebrity makeup artist Patrick Ta with co-founders Rima Minasyan and Avo Minasyan; directories list an affiliate program on Impact, though the brand publishes no program on its own pages.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/patrick-ta-beauty/",
+        "summary": "LinkClicky (profile updated March 11, 2024) lists Patrick Ta Beauty (website patrickta.com) with its affiliate program on Impact at 8% per sale."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.shopper.com/partnerships/patrickta-com-affiliate-program",
+        "summary": "Published rates conflict: LinkClicky lists 8% per sale on Impact, Shopper lists 'up to 6%', and Lasso lists the rate as unknown; UseSnippet (checked November 12, 2026) notes the brand publishes no affiliate or creator program on its own pages. Commission_rate is therefore recorded as null. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+      }
+    ],
+    "name": "Patrick Ta Beauty",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/patrick-ta-beauty/",
+      "compensation_notes": "Rate not recorded: directories conflict (LinkClicky 8% per sale on Impact vs Shopper 'up to 6%' vs Lasso unknown) and the brand publishes no program on its own pages. Commission cap: unknown - no cap statement is published.",
+      "description": "Find Patrick Ta Beauty on Impact, create premium makeup content, and confirm the live rate inside the network - directories disagree on the published figure.",
+      "status": "unverified",
+      "title": "Patrick Ta Beauty Affiliate Program (Impact)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 6,
+      "contact_access": 9,
+      "credibility": 4,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "No reliable rate could be verified - directory figures conflict between 8%, 'up to 6%' and unknown.",
+        "contact_access": "Only a general contact route exists on the brand's pages; no partnerships email is published.",
+        "credibility": "Well-known brand founded in 2019; program evidence is directory-only and dated (LinkClicky profile from March 2024).",
+        "niche_fit": "Artist-led premium makeup is a strong UGC category for tutorial and transformation content.",
+        "opportunity_availability": "Program is listed on Impact via directories; availability rests on directory reporting.",
+        "ugc_evidence": "An Impact program is directory-listed, but the brand publishes no creator program or PR route on its own pages."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://patrickta.com"
+  },
+  {
+    "name": "Ameliorate",
+    "website": "https://www.ameliorate.com",
+    "country": "United Kingdom",
+    "category_slug": "skincare",
+    "description": "UK body-skincare brand founded by Annette Luck to tackle keratosis pilaris and rough, dry, bumpy skin; its hero Transforming Body Lotion uses the LaH6 hydration complex, and its US affiliate program runs on Awin.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/ameliorate/",
+        "summary": "The Lasso affiliate directory (fetched) lists the Ameliorate US affiliate program at 2% - 10% per sale with a 30-day cookie, and its join link points to Awin (ui.awin.com). Because only a range is published and no single flat rate, commission_rate is recorded as null with the range documented here."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "brand_overview",
+        "source_type": "brand_site",
+        "source_url": "https://www.ameliorate.com/blog/keratosis-pilaris-causes-symptoms-treatments/",
+        "summary": "The brand's own site states founder Annette Luck created Ameliorate after she and her three children experienced keratosis pilaris; its LaH6 complex combines lactic acid with hydrating ingredients, and the Transforming Body Lotion was designed for KP."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/ameliorate/",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears in the fetched directory listing, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": null,
+      "application_url": "https://getlasso.co/affiliate/ameliorate/",
+      "source_url": "https://getlasso.co/affiliate/ameliorate/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Ameliorate Affiliate Program (Awin)",
+      "type": "affiliate",
+      "status": "unverified",
+      "description": "Join Ameliorate's US affiliate program on Awin, create keratosis-pilaris and body-care routine content, and earn within the published 2% - 10% per-sale range.",
+      "application_url": "https://getlasso.co/affiliate/ameliorate/",
+      "compensation_notes": "Published commission is a 2% - 10% per-sale range (Lasso directory, join link to Awin) with a 30-day cookie; no single flat rate is published, so commission_rate is null. Commission cap: unknown - no cap statement is published."
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 11,
+      "compensation": 7,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Keratosis-pilaris and body-texture care is a specific, demonstrable UGC niche with strong before/after potential.",
+        "ugc_evidence": "An open Awin program exists, but the brand publishes no dedicated creator program page in the sources checked.",
+        "compensation": "Only a 2% - 10% range is published; the low end is weak and no flat rate could be recorded.",
+        "contact_access": "Join route is the Awin listing via the directory; no public partnerships email was found.",
+        "opportunity_availability": "Open application through Awin for the US program.",
+        "credibility": "Established UK brand developed with dermatology input; program evidence is directory-only."
+      }
+    }
+  },
+  {
+    "affiliate": {
+      "application_url": "https://brushonblock.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://brushonblock.com/pages/affiliate-program"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "US mineral sunscreen brand whose own affiliate page advertises earnings of up to 15% and routes its 'Join now' link to Awin; US applicants must supply a Tax ID/SSN and W9 on approval.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://brushonblock.com/pages/affiliate-program",
+        "summary": "The brand's own affiliate page (fetched) states only 'up to 15%' - a ceiling, not a flat rate - and its 'Join now' link points to Awin; US applicants must supply a Tax ID/SSN and a W9 on approval."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://brushonblock.com/pages/affiliate-program",
+        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched affiliate page - 'up to 15%' is a rate ceiling, not a cap statement - so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+      }
+    ],
+    "name": "Brush On Block",
+    "opportunity": {
+      "application_url": "https://brushonblock.com/pages/affiliate-program",
+      "compensation_notes": "No flat rate is published; the brand's page states only 'up to 15%', a ceiling, so commission_rate is null. Commission cap: unknown - no cap statement is published.",
+      "description": "Join Brush On Block via Awin from the brand's own affiliate page, create mineral-sunscreen content, and confirm the live rate inside the network before posting.",
+      "status": "unverified",
+      "title": "Brush On Block Affiliate Program (Awin)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 6,
+      "contact_access": 9,
+      "credibility": 4,
+      "niche_fit": 22,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Only an 'up to 15%' ceiling is published on the brand's page; no flat rate could be recorded.",
+        "contact_access": "Join route is published on the brand's own affiliate page; no public partnerships email was found.",
+        "credibility": "The Awin route is verified from the brand's own page; rate detail is thin.",
+        "niche_fit": "Mineral sunscreen fits skincare UGC, though the single-category range is narrower than full skincare lines.",
+        "opportunity_availability": "Open joining via Awin, with US tax documentation required on approval.",
+        "ugc_evidence": "The brand maintains its own affiliate page linked to Awin, but publishes no creator-specific program details."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://brushonblock.com"
+  }
+]

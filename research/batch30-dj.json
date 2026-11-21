@@ -1,0 +1,563 @@
+[
+ {
+  "name": "Concept2",
+  "website": "https://www.concept2.com/",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "The dominant indoor-rowing brand - RowErg, SkiErg and BikeErg ergs plus racing oars, sold direct online since 1976. Its US affiliate program runs on Awin and pays a published 5% commission on referrals to its online shop; the machines are big-ticket staples of home-gym, CrossFit and Hyrox training content. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/30151",
+    "summary": "Concept2's Awin merchant profile (US program) states: 'Referrals to our online shop via our affiliate program will currently pay 5% commission.' The 5% base rate is recorded. No earnings-cap statement appears on the profile, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/30151",
+    "summary": "The same Awin profile confirms an open affiliate program for the brand's direct online shop covering RowErgs, SkiErg, BikeErg, oars and accessories. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://ui.awin.com/merchant-profile/30151",
+   "source_url": "https://ui.awin.com/merchant-profile/30151",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Concept2 Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/30151",
+   "source_url": "https://ui.awin.com/merchant-profile/30151"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "The RowErg is the default rowing machine in home-gym tours, Hyrox prep and CrossFit content - erg scores and split times are inherently filmable, comparable content.",
+    "ugc_evidence": "Open Awin program for a brand whose machines anchor a huge volume of training content; no dedicated creator page was verified beyond the network profile.",
+    "compensation": "5% on machines that sell for around $1,000 means roughly $50 per sale; rate verified on the network profile itself.",
+    "contact_access": "Join route is via the Awin profile; no public affiliate email was verified.",
+    "opportunity_availability": "Open Awin program; standard network approval applies.",
+    "credibility": "Category-defining brand founded in 1976; rate verified on Awin itself."
+   }
+  }
+ },
+ {
+  "name": "Funwater",
+  "website": "https://www.funwaterboard.com/",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Inflatable stand-up paddle board brand (Funwater Outdoor) selling premium SUPs in 30+ countries, with a US & Canada affiliate program on Awin paying a published 10% commission - positioned by the brand as one of the highest in its industry - and a named partnerships contact on the profile. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "rhea_wang@funwateroutdoor.com",
+    "source_url": "https://ui.awin.com/merchant-profile/28519"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/28519",
+    "summary": "Funwater's Awin merchant profile (US & Canada) states: 'High Commission Rate: Enjoy a competitive 10% commission - one of the highest in the industry.' The 10% rate is recorded. No earnings-cap statement appears, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/28519",
+    "summary": "The same profile invites affiliates to partner and publishes a direct contact for getting started (rhea_wang@funwateroutdoor.com), which is the contact recorded. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/28519",
+   "source_url": "https://ui.awin.com/merchant-profile/28519",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Funwater Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/28519",
+   "source_url": "https://ui.awin.com/merchant-profile/28519"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 13,
+   "compensation": 15,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Inflatable SUPs are a growing summer fitness-and-outdoors staple - unboxings, inflation demos and lake-day content all convert.",
+    "ugc_evidence": "Open Awin program actively recruiting affiliates on the network profile; no separate creator page was verified.",
+    "compensation": "10% is a strong published rate for sports equipment; verified on the Awin profile itself.",
+    "contact_access": "A named partnerships email is published directly on the Awin profile - better than most network-only listings.",
+    "opportunity_availability": "Open Awin program (US & Canada); standard network approval applies.",
+    "credibility": "Large Amazon-led sales claims rest on the brand's own profile copy, so credibility is held mid-range despite the verified rate."
+   }
+  }
+ },
+ {
+  "name": "Kettlebell Kings",
+  "website": "https://www.kettlebellkings.com/",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Specialist kettlebell brand selling competition and cast-iron bells, weighted vests, battle ropes and training accessories. Its affiliate program runs on AvantLink at a published 5% sales commission with monthly payouts and a dedicated support team, but only a 1-day referral window, which the score reflects. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://commission.academy/blog/best-kettlebell-affiliate-programs/",
+    "summary": "The Commission Academy kettlebell-program directory lists Kettlebell Kings at a 5% sales commission on the AvantLink network, with a 1-day referral window, monthly payouts, a dedicated affiliate support team and a sub-1% return rate. The 5% rate is recorded. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://commission.academy/blog/best-kettlebell-affiliate-programs/",
+    "summary": "The same directory entry confirms signup via AvantLink for the brand's own program. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 5,
+   "application_url": "https://commission.academy/blog/best-kettlebell-affiliate-programs/",
+   "source_url": "https://commission.academy/blog/best-kettlebell-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kettlebell Kings Affiliate Program (AvantLink)",
+   "application_url": "https://commission.academy/blog/best-kettlebell-affiliate-programs/",
+   "source_url": "https://commission.academy/blog/best-kettlebell-affiliate-programs/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Kettlebell flows, swing tutorials and home-gym setups are a durable fitness-content niche, and this is a specialist brand in it.",
+    "ugc_evidence": "Open AvantLink program with a dedicated support team; no creator-specific page was verified.",
+    "compensation": "5% is mid-range and the 1-day cookie is the shortest in this batch, which caps the compensation score.",
+    "contact_access": "Join route is via AvantLink through the directory profile; no public affiliate email was verified.",
+    "opportunity_availability": "Open AvantLink program; standard network approval applies.",
+    "credibility": "Established specialist brand; terms rest on one detailed directory source."
+   }
+  }
+ },
+ {
+  "name": "Franklin Sports",
+  "website": "https://franklinsports.com/",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Family sporting-goods brand founded in 1946 - baseball, soccer, football and basketball gear, backyard games and fitness accessories, with official league partnerships. Its affiliate program runs on Impact at a published 3% per sale, open to all regions. The rate is low, which the score reflects. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/franklin-sports/",
+    "summary": "The LinkClicky directory profile for Franklin Sports lists the program on the Impact platform, open to all regions, paying 3% per sale, and its FAQ repeats: 'The commission rate for Franklin Sports is 3% per sale. This is just what's officially listed with their affiliate program as the payout.' The 3% rate is recorded. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/franklin-sports/",
+    "summary": "The same profile routes application into Impact (app.impact.com) for publishers and influencers. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 3,
+   "application_url": "https://linkclicky.com/affiliate-program/franklin-sports/",
+   "source_url": "https://linkclicky.com/affiliate-program/franklin-sports/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Franklin Sports Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/franklin-sports/",
+   "source_url": "https://linkclicky.com/affiliate-program/franklin-sports/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 11,
+   "compensation": 7,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Backyard games, pickleball and youth-sports gear are steady family-fitness content, though less creator-led than gym equipment.",
+    "ugc_evidence": "Open Impact program documented for publishers and influencers; no creator-specific page was verified.",
+    "compensation": "3% is a low rate even on mid-priced gear; directory-reported as the officially listed payout.",
+    "contact_access": "Join route is via Impact through the directory profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open Impact program, all regions; standard network approval applies.",
+    "credibility": "Sporting-goods brand operating since 1946 with major league partnerships; terms rest on one directory source."
+   }
+  }
+ },
+ {
+  "name": "Sunny Health & Fitness",
+  "website": "https://sunnyhealthfitness.com/",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Budget home-fitness equipment brand - indoor cycles, treadmills, rowers, ellipticals and steppers. Its own affiliate page describes tiered commissions reaching a 10% tier on named best-sellers with a 30-day cookie and publishes an affiliate contact email, but it never states a base rate, and an Impact performance listing shows 3% - so the rate is recorded as null rather than guessed from conflicting figures. No earnings-cap statement is published, so the cap stays unknown.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@sunnyhealthfitness.com",
+    "source_url": "https://sunnyhealthfitness.com/blogs/health-wellness/make-money-sunny-health-fitness-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://sunnyhealthfitness.com/blogs/health-wellness/make-money-sunny-health-fitness-affiliate-program",
+    "summary": "Sunny's own affiliate page states the program 'offers different tiers of commission for different exercise equipment products. You'll earn up to 10% commission' and names specific bikes (SF-B1986, SF-B1851, SF-B1879) in the 10% tier, with a 30-day attribution window. 'Up to 10%' is a tier ceiling, not a base rate, so no base rate is taken from this page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://compareepc.com/health-affiliate-programs/",
+    "summary": "CompareEPC's payout-data listing for Sunny Health & Fitness on Impact shows a 3% commission - which conflicts with the brand page's 10% top tier and cannot be reconciled into a single base rate. commission_rate is therefore recorded as null with the conflict documented here. No earnings-cap statement appears in either source, so the cap stays unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://sunnyhealthfitness.com/blogs/health-wellness/make-money-sunny-health-fitness-affiliate-program",
+    "summary": "The same brand page runs an open application (approval in 24-48 hours), explicitly welcomes influencers and bloggers, and publishes the contact affiliate@sunnyhealthfitness.com for program inquiries - the contact recorded. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://sunnyhealthfitness.com/blogs/health-wellness/make-money-sunny-health-fitness-affiliate-program",
+   "source_url": "https://sunnyhealthfitness.com/blogs/health-wellness/make-money-sunny-health-fitness-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Sunny Health & Fitness Affiliate Program (Impact)",
+   "application_url": "https://sunnyhealthfitness.com/blogs/health-wellness/make-money-sunny-health-fitness-affiliate-program",
+   "source_url": "https://sunnyhealthfitness.com/blogs/health-wellness/make-money-sunny-health-fitness-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Affordable home cardio gear is a volume category for review and setup content - bikes, rowers and treadmills at accessible prices.",
+    "ugc_evidence": "The brand's own page is written directly for influencers and affiliates with an open application route.",
+    "compensation": "Rate is null: the brand publishes only a 10% top tier while an Impact listing shows 3%, so compensation scores low until confirmed inside the program.",
+    "contact_access": "A public affiliate email (affiliate@sunnyhealthfitness.com) is published on the brand's own page.",
+    "opportunity_availability": "Open application on the brand page with stated 24-48 hour approval.",
+    "credibility": "Large, long-running budget equipment brand; the rate conflict is documented honestly rather than resolved by guessing."
+   }
+  }
+ },
+ {
+  "name": "KETL",
+  "website": "https://ketlmtn.com/",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Technical outdoor apparel brand (KETL Mountain) making travel, hiking, mountain-bike and trail clothing with a lifetime repair program. Its own affiliate page is built explicitly for established creators, reviewers and media sites, runs through its GoAffPro portal, and advertises 'up to 20% commission' with a 45-day cookie and a $135 average order - an 'up to' figure is a ceiling, so the base rate is recorded as null. Applications are individually reviewed. No earnings-cap statement is published, so the cap stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://ketlmtn.com/pages/affiliates",
+    "summary": "KETL's own affiliate page lists 'Up to 20% commission rate', a 45-day cookie, free US shipping and a $135 average order value. An 'up to' figure is a rate ceiling, not a base rate, so commission_rate is recorded as null rather than guessed. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://ketlmtn.com/pages/affiliates",
+    "summary": "The same page states the program 'is built for established creators, media sites, YouTube channels, gear reviewers, and social accounts with a real audience', that every application is reviewed, and routes signup to its GoAffPro portal (ketlmtn.goaffpro.com). No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://ketlmtn.com/pages/affiliates",
+   "source_url": "https://ketlmtn.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "KETL Affiliate Program (Brand direct)",
+   "application_url": "https://ketlmtn.com/pages/affiliates",
+   "source_url": "https://ketlmtn.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Technical travel-and-trail apparel sits right in the outdoor-creator wardrobe niche - packable, demonstrable, review-friendly.",
+    "ugc_evidence": "The brand's own page is explicitly creator-first, naming YouTube channels, reviewers and social accounts as its target partners.",
+    "compensation": "Only an 'up to 20%' ceiling is published, so the rate is null and compensation scores low until confirmed after application.",
+    "contact_access": "Apply on the brand's own page into its portal; no public affiliate email was verified.",
+    "opportunity_availability": "Open application but individually reviewed and selective by the brand's own description.",
+    "credibility": "Established DTC outdoor apparel brand with a lifetime repair program; ceiling-only rate keeps credibility mid-range."
+   }
+  }
+ },
+ {
+  "name": "Darn Tough",
+  "website": "https://www.darntough.com/",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Vermont merino-wool sock brand famous for its unconditional lifetime guarantee, spanning hiking, running, ski and everyday lines. The brand's own influencer FAQ confirms a running affiliate program (separate from its points-based friend referral scheme, which is not the route recorded here); the program sits on Impact per its affiliate agency's announcement, and directories publish only a 1.6%-8% range, so the base rate is recorded as null. No earnings-cap statement is published, so the cap stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://darntough.com/pages/faqs-influencers-pros",
+    "summary": "Darn Tough's own 'FAQ: Influencers & Pros' page answers 'How can I become a Darn Tough affiliate partner?' by linking to its affiliate program - confirming the program exists on the brand's own site, distinct from the Micro Crew Rewards friend-referral scheme described separately on the same page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/darn-tough-vermont/",
+    "summary": "The Lasso directory profile for Darn Tough Vermont lists a commission of '1.6% to 8% Per Sale' with a 60-day cookie - a range, not a base rate, so commission_rate is recorded as null. The brand's affiliate agency (Clique Affiliate Marketing) has separately announced the program as joinable on impact.com, which is the network recorded. No earnings-cap statement appears, so the cap stays unknown, and no creator counts are published, so saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://darntough.com/pages/faqs-influencers-pros",
+   "source_url": "https://darntough.com/pages/faqs-influencers-pros",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Darn Tough Affiliate Program (Impact)",
+   "application_url": "https://darntough.com/pages/faqs-influencers-pros",
+   "source_url": "https://darntough.com/pages/faqs-influencers-pros"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Guaranteed-for-life merino socks are a beloved thru-hiking, running and ski-wardrobe staple with a strong story for gear content.",
+    "ugc_evidence": "Program existence is confirmed on the brand's own influencer FAQ; no creator-specific program page was verified beyond it.",
+    "compensation": "Only a 1.6%-8% range is published, so the rate is null and compensation scores low until confirmed inside Impact.",
+    "contact_access": "Join route is via Impact, linked from the brand's own FAQ; no public partnerships email was verified.",
+    "opportunity_availability": "Open Impact program; standard network approval applies.",
+    "credibility": "Iconic US-made sock brand with a lifetime guarantee; the range-only rate is documented honestly."
+   }
+  }
+ },
+ {
+  "name": "OARS",
+  "website": "https://www.oars.com/",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Guided rafting and adventure-travel outfitter running professionally led river trips across the American West since 1969. Its own affiliate page publishes the full rate card - 4% on multi-day domestic river trips (average booking $3,000) and 6% on 1-day and 2-day American River trips (average booking $1,000) - through Awin with a 60-day cookie; the 4% flagship multi-day rate is recorded. The page explicitly recruits influencers and content creators. No earnings-cap statement is published, so the cap stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.oars.com/affiliate-program/",
+    "summary": "OARS' own affiliate page states: '4% commission on multi-day domestic river trips in the U.S., excluding Alaska and Grand Canyon (Average booking value: $3,000)' and '6% commission on 1-day trips and 2-day American River trips (Average booking value: $1,000)', tracked through Awin with a 60-day cookie. The 4% multi-day rate is recorded as the headline rate with the 6% tier documented here. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.oars.com/affiliate-program/",
+    "summary": "The same page says 'We work with high-caliber publishers, writers, influencers, and content creators' in outdoor and adventure travel, and routes signup through Awin. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 4,
+   "application_url": "https://www.oars.com/affiliate-program/",
+   "source_url": "https://www.oars.com/affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "OARS Affiliate Program (Awin)",
+   "application_url": "https://www.oars.com/affiliate-program/",
+   "source_url": "https://www.oars.com/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Guided river trips are premium adventure-travel content - Grand Canyon and Salmon River itineraries are bucket-list material creators film extensively.",
+    "ugc_evidence": "The brand's own page explicitly recruits influencers and content creators, not just publishers.",
+    "compensation": "4% of a $3,000 average multi-day booking is about $120 per sale (6% on shorter trips); full rate card verified on the brand's own page.",
+    "contact_access": "Apply via the brand page into Awin; a named program contact is referenced on the page but no readable email address was verified, so none is recorded.",
+    "opportunity_availability": "Open Awin program; standard network approval applies.",
+    "credibility": "Outfitter operating since 1969; complete published terms on its own page."
+   }
+  }
+ },
+ {
+  "name": "battleface",
+  "website": "https://www.battleface.com/",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Digital-first travel insurance specialist built for adventure travellers - customisable trip, medical and gear cover sold in 60+ countries. Its affiliate program runs direct through Refersion at a published 15% per sale with a 30-day cookie and monthly payouts, one of the highest flat percentage rates among travel-insurance programs. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://atlas.hellosafe.com/travel-insurance-affiliate-program/best-programs/",
+    "summary": "The HelloSafe Atlas comparison of travel-insurance affiliate programs lists battleface at '15% per sale', a 30-day cookie, network 'Direct (Refersion)' and monthly payouts, describing it as 'one of the highest flat-percentage rates in this comparison' with reach across 60+ countries. The 15% rate is recorded. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://atlas.hellosafe.com/travel-insurance-affiliate-program/best-programs/",
+    "summary": "The same comparison confirms an open, joinable affiliate program aimed at travel publishers; no creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 15,
+   "application_url": "https://atlas.hellosafe.com/travel-insurance-affiliate-program/best-programs/",
+   "source_url": "https://atlas.hellosafe.com/travel-insurance-affiliate-program/best-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "battleface Affiliate Program (Refersion)",
+   "application_url": "https://atlas.hellosafe.com/travel-insurance-affiliate-program/best-programs/",
+   "source_url": "https://atlas.hellosafe.com/travel-insurance-affiliate-program/best-programs/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 15,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Adventure-travel insurance is a natural sponsor fit for trekking, diving and expedition content where standard policies fall short.",
+    "ugc_evidence": "Open program documented in a structured program comparison; no dedicated creator page was verified.",
+    "compensation": "15% of premium is at the top of the travel-insurance range; directory-reported from a scored comparison of 20 programs.",
+    "contact_access": "Join route is via the Refersion program through the directory profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open direct program via Refersion; standard approval applies.",
+    "credibility": "Established specialist insurer in 60+ countries; terms rest on one comparison source rather than the brand's own page."
+   }
+  }
+ },
+ {
+  "name": "Faye",
+  "website": "https://www.withfaye.com/",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Modern, digital-first US travel protection brand - whole-trip cover with proactive care and fast claims, rated 4.8/5 on Trustpilot per its own site. Its partner page runs explicit tracks for content creators and affiliate partners, with the affiliate program on Impact; published flat-fee figures conflict ($4 per sale in one payout tracker, $30 in a network listing), so the rate is recorded as null with the conflict documented. No earnings-cap statement is published, so the cap stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.withfaye.com/partners/",
+    "summary": "Faye's own partner page lists dedicated tracks for 'Content creators' ('Recommend a travel product your audience will actually thank you for. Earn while building trust') and 'Affiliate partners' ('Turn travel intent into meaningful revenue... Apply here') - confirming a creator-facing affiliate route on the brand's own site. No creator counts are published, so creator_saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://compareepc.com/travel-insurance-affiliate-programs/",
+    "summary": "CompareEPC's payout-data table lists Faye Travel Insurance on Impact at a flat $4 per sale, while a SaleGains network listing for the same program shows a flat $30 per purchase with a 30-day cookie. The two published flat figures conflict and neither is a percentage base rate, so commission_rate is recorded as null with the conflict documented here. No earnings-cap statement appears, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.withfaye.com/partners/",
+   "source_url": "https://www.withfaye.com/partners/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Faye Affiliate Program (Impact)",
+   "application_url": "https://www.withfaye.com/partners/",
+   "source_url": "https://www.withfaye.com/partners/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 7,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Trip protection is a standard packing-list and booking-flow topic for travel creators, and Faye's app-first product demos well on camera.",
+    "ugc_evidence": "The brand's own partner page has an explicit content-creator track alongside its affiliate track.",
+    "compensation": "Rate is null: published flat fees conflict ($4 vs $30 per sale), so compensation scores low until confirmed inside Impact.",
+    "contact_access": "Apply via the brand's partner page into Impact; no public partnerships email was verified.",
+    "opportunity_availability": "Open Impact program; standard network approval applies.",
+    "credibility": "Highest-rated US travel protection brand per its own published Trustpilot/BBB figures; the rate conflict is documented honestly."
+   }
+  }
+ }
+]

@@ -1,0 +1,594 @@
+[
+ {
+  "name": "Kroma Wellness",
+  "website": "https://www.kromawellness.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Functional wellness brand selling superfood lattes, broths, porridges and a 5-day Reset program. Its own creator program, the Kroma Collective, gives members a unique 20%-off code plus referral link, pays 15% commission on first-time orders and 10% on repeat purchases, and states earnings are uncapped, paid monthly via PayPal.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.kromawellness.com/pages/ambassador",
+    "source_url": "https://www.kromawellness.com/pages/ambassador"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.kromawellness.com/pages/ambassador",
+    "summary": "Kroma's official Kroma Collective page, fetched in full: 'Uncapped earnings, paid monthly via PayPal. 15% on first-time orders, 10% on repeat purchases.' Members get a unique 20% discount code + referral link, early access to launches and product rewards. The explicit 'Uncapped earnings' statement on the brand's own program page verifies commission_cap = uncapped. No creator count is published, so saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://www.ascendpartner.com/affiliate/registration?refid=261816&referrer=RCT-KromaWellness",
+    "summary": "Ascend Partner (Partnerize) hosts the application for the 'Kroma Wellness Ambassador Program', confirming the Collective recruits individual creators promoting on personal social media or blogs through a managed partnership platform."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": 15,
+   "application_url": "https://www.kromawellness.com/pages/ambassador",
+   "source_url": "https://www.kromawellness.com/pages/ambassador",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kroma Collective Ambassador Program — 15% on first orders, uncapped earnings stated on the brand's own page",
+   "status": "unverified",
+   "application_url": "https://www.kromawellness.com/pages/ambassador",
+   "source_url": "https://www.kromawellness.com/pages/ambassador"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 18,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "Functional lattes, broths and Reset programs are core wellness-creator content.",
+    "A named creator community (the Collective) with ready-to-use content, messaging and templates supplied by the brand.",
+    "15% first-order commission with an explicit 'Uncapped earnings' statement on the brand's own page — rare and verified; 10% on repeat purchases.",
+    "Application runs through the brand's own ambassador page and a Partnerize registration form; no public program email is published.",
+    "Open application route for individual creators and wellness experts.",
+    "Established premium wellness brand with named expert/creator members shown on the program page."
+   ]
+  }
+ },
+ {
+  "name": "Clevr Blends",
+  "website": "https://clevrblends.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "California beverage brand selling powdered SuperLatte mixes (matcha, chai, coffee, sleeptime) with functional ingredients. Its own Team Latte Lovers creator program gives approved creators a unique link and 15%-off code and pays 15% commission on every order placed with the link or code; the brand notes space in the program is limited.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://clevrblends.com/pages/community",
+    "source_url": "https://clevrblends.com/pages/community"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://clevrblends.com/pages/community",
+    "summary": "Clevr's official Community page, fetched in full: 'Join Team Latte Lovers! STEP 1: If approved (space is limited!), you'll receive a unique link + code for 15% off Clevr Blends products. STEP 3: You earn 15% commission on every order placed using your link or code!' Perks include a personal 15%-off code and VIP launch access. No earnings-cap statement and no creator count are published ('space is limited' is not an absolute count), so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://merchants.sovrn.com/merchants/167162/clevr-blends-affiliate-program",
+    "summary": "Sovrn Commerce also lists Clevr Blends as a merchant for publisher link monetization, but could not verify a rate; the brand's own 15% program terms are the authoritative route."
+   }
+  ],
+  "affiliate": {
+   "network": "Own creator program",
+   "commission_rate": 15,
+   "application_url": "https://clevrblends.com/pages/community",
+   "source_url": "https://clevrblends.com/pages/community",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Team Latte Lovers Creator Program — 15% commission on every order via personal link/code",
+   "status": "unverified",
+   "application_url": "https://clevrblends.com/pages/community",
+   "source_url": "https://clevrblends.com/pages/community"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 14,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Superfood lattes are staple food/wellness creator content with strong recipe and ritual formats.",
+    "A structured own-brand creator team with codes, links and VIP campaign access built for recurring UGC.",
+    "15% on every order is a strong published food/drink rate; no cap statement is published, so the cap is honestly unknown.",
+    "Application is via the brand's own community page; no public program email is published.",
+    "Approval-based with limited space, which slightly reduces open availability.",
+    "Well-known brand (Oprah's Favorite Things history, national retail) with an established creator community."
+   ]
+  }
+ },
+ {
+  "name": "Alice Mushrooms",
+  "website": "https://alicemushrooms.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Functional mushroom chocolate brand (focus, energy and sleep chocolates with nootropics and adaptogens). Its own affiliate program, run on Refersion, pays 15% commission on every order through an affiliate's link or personal discount code, gives affiliates 40% off personal orders, and contacts accepted applicants from affiliate@alicemushrooms.com; influencer applicants need a minimum of 5K Instagram followers and must be US residents.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": "affiliate@alicemushrooms.com",
+    "contact_url": "https://alicemushrooms.com/pages/affiliate",
+    "source_url": "https://alicemushrooms.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://alicemushrooms.com/pages/affiliate",
+    "summary": "Alice Mushrooms' official affiliate page, fetched in full: 'You will earn 15% commission for every order purchased through your affiliate link or any order that uses your personal discount code.' Tracking and payout run through a Refersion dashboard with PayPal linked for payment; affiliates get 40% off personal orders. Accepted applicants are contacted via affiliate@alicemushrooms.com. Influencer applicants need a minimum of 5K followers on Instagram; open to US residents. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 15,
+   "application_url": "https://alicemushrooms.com/pages/affiliate",
+   "source_url": "https://alicemushrooms.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Alice Mushrooms Affiliate Program — 15% commission via Refersion link or personal code",
+   "status": "unverified",
+   "application_url": "https://alicemushrooms.com/pages/affiliate",
+   "source_url": "https://alicemushrooms.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 14,
+   "contact_access": 15,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": [
+    "Functional mushroom chocolates sit squarely in the wellness/supplement creator niche.",
+    "A dedicated affiliate program with personal codes pushed into bios and Linktrees — built for creator UGC.",
+    "15% on every order is a strong published wellness rate; no cap statement published, so cap stays unknown.",
+    "The brand publishes a dedicated program email (affiliate@alicemushrooms.com) and its own application pages.",
+    "A 5K-follower minimum and US-residency rule gate smaller creators.",
+    "Recognized functional-food brand with national press and retail presence."
+   ]
+  }
+ },
+ {
+  "name": "TRUFF",
+  "website": "https://www.truff.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Luxury truffle-infused hot sauce and pantry brand. Its affiliate program on ShareASale pays 10% per sale with a 30-day cookie (average order value about $54 in network listings), and the brand's affiliate agency Acceleration Partners states the program offers up to 12% commission for content partners.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "Michelle@TRUFF.com",
+    "contact_url": null,
+    "source_url": "https://boostedaffiliate.com/listings/programs/truff/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/truff/",
+    "summary": "Network directory listing for TRUFF's program: ShareASale platform, 10% per sale, 30-day cookie, all regions. Boosted Affiliate's ShareASale-sourced listing corroborates 10%, a 30-day cookie, $54.02 AOV and names the program contact Michelle@TRUFF.com. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "agency",
+    "source_url": "https://www.accelerationpartners.com/resources/truff-selects-acceleration-partners/",
+    "summary": "Acceleration Partners, the agency TRUFF selected to manage its affiliate program, states the program 'offers up to 12% commission' for affiliates, particularly content partners — so 10% is recorded as the base rate with up to 12% available."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/92505",
+   "source_url": "https://linkclicky.com/affiliate-program/truff/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TRUFF Affiliate Program — 10% per sale on ShareASale, up to 12% for content partners",
+   "status": "unverified",
+   "application_url": "https://ui.awin.com/merchant-profile/92505",
+   "source_url": "https://linkclicky.com/affiliate-program/truff/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Premium pantry staples are proven food-creator content with strong gifting and recipe angles.",
+    "A professionally managed program (Acceleration Partners) explicitly courting content partners.",
+    "10% base with up to 12% published by the brand's own agency, on a ~$54 average order; cap not stated, so unknown.",
+    "A named affiliate-program contact email (Michelle@TRUFF.com) appears in the network listing.",
+    "Open enrollment through ShareASale/Awin.",
+    "Widely distributed premium brand sold nationally, including major grocery and specialty retail."
+   ]
+  }
+ },
+ {
+  "name": "Momofuku Goods",
+  "website": "https://momofuku.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Pantry brand from David Chang's Momofuku restaurant group, selling air-dried noodles, chili crunch, sauces and seasoned salts. It runs an affiliate program listed on CJ Affiliate at 10% per sale, plus a Collabs program on its own store offering commission on orders, monthly gifts and discount codes for partners.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://canadashop.momofuku.com/pages/collab",
+    "source_url": "https://canadashop.momofuku.com/pages/collab"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/momofuku/",
+    "summary": "Network directory listing for Momofuku: CJ Affiliate platform, 10% commission per sale for the consumer-products (Goods) business. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://canadashop.momofuku.com/pages/collab",
+    "summary": "Momofuku Goods' own Collabs page states partners can expect 'commission on orders you direct to our site, monthly gifts, and exclusive access to products we're developing', with partnership opportunities listed as affiliate marketing, gifting and discount codes."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "agency_case_study",
+    "source_url": "https://www.reacherapp.com/customers/momofuku",
+    "summary": "Reacher's customer story confirms Momofuku Goods runs an actively managed creator/affiliate program with ongoing creator recruitment, cohort reporting and sample seeding — evidence of a live, staffed creator channel."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://canadashop.momofuku.com/pages/collab",
+   "source_url": "https://linkclicky.com/affiliate-program/momofuku/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Momofuku Goods Affiliate & Collabs Program — 10% per sale via CJ, plus own-store Collabs commissions",
+   "status": "unverified",
+   "application_url": "https://canadashop.momofuku.com/pages/collab",
+   "source_url": "https://linkclicky.com/affiliate-program/momofuku/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 11,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Chili crunch and noodle content is a proven viral food-creator category, and the brand is built by a celebrity chef.",
+    "An actively managed creator program with dedicated agency support, sampling and cohort recruitment.",
+    "10% per sale is a fair published grocery rate; no cap statement published, so cap stays unknown.",
+    "Partnerships route through the brand's own Collabs page and CJ; no public partnerships email is published.",
+    "Open affiliate enrollment plus an application-based Collabs track.",
+    "One of the most recognized chef brands in the US, with national grocery distribution."
+   ]
+  }
+ },
+ {
+  "name": "Kencko",
+  "website": "https://www.kencko.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Organic instant fruit and vegetable smoothie brand (freeze-dried produce, just add water or milk). It runs an affiliate program on Impact listed at 10% per sale, and its own Ambassador program (via the BrandBassador app) where accepted creators get a welcome product pack and a personal discount code and earn commission on every qualifying purchase.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.kencko.com/pages/become-an-ambassador",
+    "source_url": "https://www.kencko.com/pages/become-an-ambassador"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.kencko.com/pages/become-an-ambassador",
+    "summary": "Kencko's official ambassador page: 'As a kencko Ambassador, you can earn commission when you share your passion for organic produce!' Accepted ambassadors receive a pack of best-selling smoothies and a unique discount code, and 'every time someone uses your personal discount code for a purchase, you'll earn a commission', with extra rewards for content missions. Applications run through the BrandBassador app; creators must be active on Instagram, TikTok and/or YouTube. The page does not publish a rate, an earnings cap, or a creator count."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/kencko/",
+    "summary": "Network directory listing for kencko: Impact affiliate platform, 10% commission per sale. The 10% Impact rate is recorded as the program's published rate; the brand's own ambassador page confirms commission without restating the percentage."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://www.kencko.com/pages/become-an-ambassador",
+   "source_url": "https://linkclicky.com/affiliate-program/kencko/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kencko Ambassador & Affiliate Program — 10% per sale via Impact, own ambassador track with product pack",
+   "status": "unverified",
+   "application_url": "https://www.kencko.com/pages/become-an-ambassador",
+   "source_url": "https://linkclicky.com/affiliate-program/kencko/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 11,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "Fruit-and-veg smoothie content fits health, wellness and busy-lifestyle creators directly.",
+    "A structured ambassador program with content missions, welcome product and code-based commission — built for UGC.",
+    "10% per sale published via Impact; the own ambassador page confirms commission but not the rate or any cap, so cap stays unknown.",
+    "Application via the brand's own ambassador page; no public program email is published.",
+    "Two open routes (Impact and the ambassador app) for creators 18+ in the US, EU or UK.",
+    "Established D2C brand with national US retail presence (Walmart) and a long-running program."
+   ]
+  }
+ },
+ {
+  "name": "Fishwife",
+  "website": "https://www.eatfishwife.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Female-founded premium tinned seafood brand bringing European conservas culture to the US. Its affiliate program on ShareASale pays 10% per sale with a 30-day cookie, giving food creators a commission route on its tinned fish and seafood range.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": null,
+    "source_url": "https://linkclicky.com/affiliate-program/fishwife/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/fishwife/",
+    "summary": "Network directory listing for Fishwife: ShareASale platform, 10% commission per sale, 30-day cookie duration, all regions. A separate Yazing ambassador listing offers 3% of sales as a sub-affiliate route, which is lower than the direct ShareASale rate recorded here. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/fishwife/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Fishwife Affiliate Program — 10% per sale on ShareASale with a 30-day cookie",
+   "status": "unverified",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/fishwife/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Tinned fish is a breakout food-creator niche and Fishwife is its most visible US brand.",
+    "An open network affiliate program suited to recipe and pantry content; the brand also runs influencer seeding.",
+    "10% per sale with a 30-day cookie is a solid published grocery rate; cap not stated, so unknown.",
+    "Joining is via ShareASale; no public partnerships email is published.",
+    "Open network enrollment, all regions.",
+    "Shark Tank-featured brand with national grocery distribution and strong press."
+   ]
+  }
+ },
+ {
+  "name": "UNREAL Snacks",
+  "website": "https://www.unrealsnacks.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Better-for-you candy brand making chocolate snacks with less sugar and no artificial ingredients, sold in 35,000+ US stores. Its affiliate program on ShareASale pays 9% per sale with a 7-day cookie; the brand also appears as a merchant on Impact.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": null,
+    "source_url": "https://linkclicky.com/affiliate-program/unreal-brands/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/unreal-brands/",
+    "summary": "Network directory listing for Unreal Brands: ShareASale platform, 9% commission per sale, 7-day cookie duration, all regions. FMTC's merchant feed separately lists Unreal Snacks on Impact (merchant #23971), a second network route. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 9,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/unreal-brands/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "UNREAL Snacks Affiliate Program — 9% per sale on ShareASale (also listed on Impact)",
+   "status": "unverified",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/unreal-brands/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": [
+    "Lower-sugar candy is high-performing snack content for food and family creators.",
+    "Open network programs on two networks; the brand also runs paid creator ads recruiting snack reviewers.",
+    "9% per sale is mid-band, and the 7-day cookie is short; cap not stated, so unknown.",
+    "Joining is via the networks; no public partnerships email is published.",
+    "Open enrollment on ShareASale and Impact.",
+    "Sold in 35,000+ stores including Target, Costco and Whole Foods — strong brand credibility."
+   ]
+  }
+ },
+ {
+  "name": "Grüvi",
+  "website": "https://www.getgruvi.com",
+  "country": "Canada",
+  "category_slug": "food-drink",
+  "description": "Toronto-founded brand of award-winning non-alcoholic craft beers and wines (its Golden Lager won the World Beer Cup gold for non-alcoholic beer). Its affiliate program runs on ShareASale with a 30-day cookie; published rate listings conflict (10% vs 15%), so no single rate is recorded.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.shareasale.com/shareasale.cfm?merchantID=112482",
+    "source_url": "https://linkclicky.com/affiliate-program/grvi/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/grvi/",
+    "summary": "CONFLICTING RATES: LinkClicky's ShareASale-sourced listing states Grüvi pays 15% per sale with a 30-day cookie, while Creator Hero's and UpPromote's program listings state 10% per sale with a 30-day cookie via the same ShareASale program (merchant ID 112482). Because the published sources conflict, commission_rate is recorded as null. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://www.shareasale.com/shareasale.cfm?merchantID=112482",
+   "source_url": "https://linkclicky.com/affiliate-program/grvi/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Grüvi Affiliate Program — ShareASale with 30-day cookie; published rate listings conflict (10% vs 15%)",
+   "status": "unverified",
+   "application_url": "https://www.shareasale.com/shareasale.cfm?merchantID=112482",
+   "source_url": "https://linkclicky.com/affiliate-program/grvi/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "Non-alcoholic beer and wine is a fast-growing mindful-drinking niche for wellness and food creators.",
+    "An open ShareASale program aimed at beverage influencers, with creator-program listings on multiple directories.",
+    "Rate cannot be scored higher: published listings conflict between 10% and 15%, so the rate is honestly recorded as null; cap not stated, so unknown.",
+    "Direct ShareASale merchant join link is published; no public partnerships email.",
+    "Open network enrollment with a 30-day cookie.",
+    "World Beer Cup gold-medal product credibility, though a smaller brand than national NA leaders."
+   ]
+  }
+ },
+ {
+  "name": "Nutricost",
+  "website": "https://nutricost.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Utah-based supplements brand selling single-ingredient sports nutrition and everyday vitamins at budget prices, all third-party tested. Its affiliate program on Awin pays 6% commission with a 30-day cookie according to the official Awin merchant profile; a separate FlexOffers listing shows 4%.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://ui.awin.com/merchant-profile/16896",
+    "source_url": "https://ui.awin.com/merchant-profile/16896"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://ui.awin.com/merchant-profile/16896",
+    "summary": "Nutricost's official Awin merchant profile states the program highlights: '6% commission, 30 day cookie', with exclusive affiliate and ambassador promotions in monthly newsletters. A separate FlexOffers listing shows 4% of online sales for its route — a different network's terms, noted here; the Awin 6% is recorded as the primary published rate. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 6,
+   "application_url": "https://ui.awin.com/merchant-profile/16896",
+   "source_url": "https://ui.awin.com/merchant-profile/16896",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nutricost Affiliate Program — 6% commission on Awin with a 30-day cookie",
+   "status": "unverified",
+   "application_url": "https://ui.awin.com/merchant-profile/16896",
+   "source_url": "https://ui.awin.com/merchant-profile/16896"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "Budget supplements and creatine are constant fitness/wellness creator topics.",
+    "The brand actively recruits ambassadors on social (code-based creator posts are common), and Awin runs ambassador promotions.",
+    "6% is a low published rate for supplements, though the network profile is explicit; cap not stated, so unknown.",
+    "Joining is via the Awin merchant profile; no public partnerships email is published.",
+    "Open network enrollment with a 30-day cookie.",
+    "Large Amazon-led supplement brand with third-party testing, but commodity positioning."
+   ]
+  }
+ }
+]

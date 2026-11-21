@@ -1,0 +1,584 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://bodybio.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "Superfiliate",
+   "source_url": "https://bodybio.com/pages/affiliate"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://bodybio.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://bodybio.com/pages/affiliate"
+   }
+  ],
+  "country": "United States",
+  "description": "BodyBio makes science-backed cellular-health supplements - phospholipids, balanced fatty acids and gut and nervous-system formulas - sold direct to consumers, with a 25-plus-year practitioner-trusted history.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://bodybio.com/pages/affiliate",
+    "summary": "BodyBio's own affiliate page runs two tracks. The Creator/Influencer Affiliate track - the consumer creator route recorded here - pays 20% commission with a 15% audience discount code that applies to all products including first-time subscription orders and is valid for first-time and returning customers; the program is managed through Superfiliate. A separate Practitioner Affiliate track (15%, private clients only, strictly prohibited from being shared on online platforms) is not the route recorded here."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate",
+    "source_type": "third_party",
+    "source_url": "https://getlasso.co/affiliate/bodybio/",
+    "summary": "Third-party figures conflict with the brand's own page - Lasso lists BodyBio at 3% to 10% per sale and Shopper lists 5-10% - against the 20% creator-track rate published on BodyBio's own current affiliate page; the brand's own page governs and the dissent is documented here."
+   }
+  ],
+  "name": "BodyBio",
+  "opportunity": {
+   "application_url": "https://bodybio.com/pages/affiliate",
+   "source_url": "https://bodybio.com/pages/affiliate",
+   "title": "BodyBio Creator/Influencer affiliate program via Superfiliate - 20% commission published on the brand's own affiliate page"
+  },
+  "score": {
+   "compensation": 17,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 20% commission on the brand's own page, valid on subscriptions and returning customers; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Application runs through the brand's own affiliate page into Superfiliate; no direct affiliate email is published.",
+    "credibility": "A 25-plus-year science-backed supplement company with a strong practitioner reputation.",
+    "niche_fit": "Cellular-health and functional-medicine supplements sit squarely in the health and wellness content niche.",
+    "opportunity_availability": "Open application from the brand's affiliate page, with no follower minimum stated for the creator track.",
+    "ugc_evidence": "A dedicated Creator/Influencer track with an audience discount code and a managed Superfiliate portal shows a real creator channel, separate from its practitioner track."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://bodybio.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://javvycoffee.com/ambassador-signup",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://javvycoffee.com/ambassador-signup"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://javvycoffee.com/ambassador-signup",
+    "email": null,
+    "source_url": "https://javvycoffee.com/ambassador-signup"
+   }
+  ],
+  "country": "United States",
+  "description": "Javvy Coffee sells coffee concentrate and protein coffee products direct to consumers, built around fast iced-coffee and protein-drink routines.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://javvycoffee.com/ambassador-signup",
+    "summary": "Javvy Coffee's own Ambassador Program page offers 10% commission on every qualifying purchase made through a member's link, an extra 10% off for referred customers and an exclusive extra 20% off for ambassadors, tracked in a Growi dashboard; joining is free, applications are reviewed within 3 business days, commissions are paid after a 60-day waiting period for returns, and the page states no influencer status is needed."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate",
+    "source_type": "third_party",
+    "source_url": "https://getlasso.co/affiliate/javvy-coffee/",
+    "summary": "Third-party figures conflict with the brand's own page - Lasso lists up to 15% and FindAffiliates lists 5% - so the 10% published on Javvy's own ambassador page governs and the dissent is documented here."
+   }
+  ],
+  "name": "Javvy Coffee",
+  "opportunity": {
+   "application_url": "https://javvycoffee.com/ambassador-signup",
+   "source_url": "https://javvycoffee.com/ambassador-signup",
+   "title": "Javvy Coffee Ambassador Program - 10% commission published on the brand's own signup page; open to non-influencers"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A published 10% commission on the brand's own page; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Signup runs through the brand's own ambassador page; no direct email is published there.",
+    "credibility": "A fast-growing DTC coffee brand with wide social visibility; younger than the legacy coffee names.",
+    "niche_fit": "Coffee concentrate and protein coffee are proven short-form food and drink content categories.",
+    "opportunity_availability": "Free to join and explicitly open to people without influencer status, subject to a short review.",
+    "ugc_evidence": "A named ambassador program with a public signup page, a Discord community and a large visible TikTok-selling creator base."
+   },
+   "ugc_evidence": 17
+  },
+  "socials": [],
+  "website": "https://javvycoffee.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://plantoflife.co/affiliate/",
+   "commission_cap": "uncapped",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://plantoflife.co/affiliate/"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://plantoflife.co/affiliate/",
+    "email": null,
+    "source_url": "https://plantoflife.co/affiliate/"
+   }
+  ],
+  "country": "Canada",
+  "description": "PLANT OF LIFE is a Canadian CBD brand selling hemp-derived CBD oils, drinks and pet products direct to consumers, with third-party lab reports attached to every product batch.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://plantoflife.co/affiliate/",
+    "summary": "PLANT OF LIFE's own affiliate page offers 10% of every referred order with a 60-day referral cookie; applications are reviewed by hand, usually within 2 business days, commissions are confirmed 30 days after the order and paid by Interac e-Transfer on the 15th of the month once the balance reaches $25, and the page names fitness, yoga, health and nutrition and lifestyle as collaborator niches."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://plantoflife.co/affiliate/",
+    "summary": "The page states verbatim: 'No commitments, no initial investment, and no cap on how much you can earn.' - an explicit no-cap statement about earnings on the brand's own page, so the cap is verified uncapped."
+   }
+  ],
+  "name": "PLANT OF LIFE",
+  "opportunity": {
+   "application_url": "https://plantoflife.co/affiliate/",
+   "source_url": "https://plantoflife.co/affiliate/",
+   "title": "PLANT OF LIFE affiliate program - 10% commission with an explicit no-cap earnings statement on the brand's own page"
+  },
+  "score": {
+   "compensation": 16,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "10% of every order plus an explicit 'no cap on how much you can earn' statement on the brand's own page - the cap is verified uncapped.",
+    "contact_access": "Application runs through the brand's own affiliate page; no email is published there.",
+    "credibility": "A Canadian CBD brand publishing third-party lab reports per batch; smaller and less covered than the big US CBD names.",
+    "niche_fit": "CBD oils and wellness drinks fit daily-routine, sleep and recovery content well.",
+    "opportunity_availability": "Open application with hand review inside about 2 business days; Canadian Interac payout suits Canadian creators best.",
+    "ugc_evidence": "The program page recruits passionate individuals in fitness, yoga, health and lifestyle niches and hand-reviews applications - a real but small creator channel."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://plantoflife.co"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://pulsetto.tech/pages/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://pulsetto.tech/pages/affiliate"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://pulsetto.tech/pages/affiliate",
+    "email": null,
+    "source_url": "https://pulsetto.tech/pages/affiliate"
+   }
+  ],
+  "country": "Lithuania",
+  "description": "Pulsetto makes a wearable vagus nerve stimulation device for stress, sleep and focus, sold direct to consumers worldwide with no geographic restrictions.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://pulsetto.tech/pages/affiliate",
+    "summary": "Pulsetto's own affiliate page states commissions start at 5% with potential increases based on promotional quality and volume, a $10 minimum payment paid 20 days after a 30-day locking period following the month-end of the sale, creatives and codes provided, no geographic limitations, and registration through Impact - the page's register link points to app.impact.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "network_listing",
+    "source_url": "https://ui.awin.com/merchant-profile/81357",
+    "summary": "Pulsetto's Awin merchant profile (ID 81357) lists a 'PO - 20% commission per purchase' campaign on a 30-day cookie - a campaign-specific rate above the 5% starting rate on the brand's own page; the own-page starting rate is recorded and the campaign figure is documented here."
+   }
+  ],
+  "name": "Pulsetto",
+  "opportunity": {
+   "application_url": "https://pulsetto.tech/pages/affiliate",
+   "source_url": "https://pulsetto.tech/pages/affiliate",
+   "title": "Pulsetto affiliate program via Impact - 5% starting commission on the brand's own page, scaling with volume"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A 5% starting rate is modest even though it scales with volume and a 20% PO campaign exists on Awin; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Two live routes in: registration via Impact from the brand's own page, and the Awin merchant profile.",
+    "credibility": "A well-known biohacking device brand with global storefronts and heavy influencer coverage.",
+    "niche_fit": "Vagus nerve stimulation for stress and sleep is a fast-growing wellness-device content category.",
+    "opportunity_availability": "Open registration with approval and no geographic restrictions.",
+    "ugc_evidence": "The brand's own page and Awin profile both cite recognition by wellness influencers, and the program supplies creatives and codes to partners."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://pulsetto.tech"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://lovewellness.com/pages/tiktok-contest-2025-official-rules",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://lovewellness.com/pages/tiktok-contest-2025-official-rules"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://lovewellness.com/pages/tiktok-contest-2025-official-rules",
+    "email": null,
+    "source_url": "https://lovewellness.com/pages/tiktok-contest-2025-official-rules"
+   }
+  ],
+  "country": "United States",
+  "description": "Love Wellness sells clinically-studied supplements and care for vaginal, gut and hormone health through its own store and major retailers including Target, Walmart and Ulta Beauty.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://lovewellness.com/pages/tiktok-contest-2025-official-rules",
+    "summary": "Love Wellness's own published TikTok contest rules define its affiliates as promoters, endorsers or marketers of its products via the TikTok Shop platform, and document brand-run affiliate competitions - a Fresh Start GMV Challenge and a 72-hour Blitz Challenge - with cash and product awards by GMV tier, a weekly TikTok LIVE prize, and an official affiliate leaderboard run through the brand's Discord. No commission rate is published on the brand's pages; TikTok Shop commissions are set per product by the seller."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate",
+    "source_type": "third_party",
+    "source_url": "https://www.shopper.com/partnerships/lovewellness-com-affiliate-program",
+    "summary": "Shopper lists a Love Wellness affiliate payout of 3% through its own partnership route - not the TikTok Shop route recorded here, and not a figure the brand publishes - so commission_rate is recorded null with the listing documented here."
+   }
+  ],
+  "name": "Love Wellness",
+  "opportunity": {
+   "application_url": "https://lovewellness.com/pages/tiktok-contest-2025-official-rules",
+   "source_url": "https://lovewellness.com/pages/tiktok-contest-2025-official-rules",
+   "title": "Love Wellness TikTok Shop affiliate program - brand-run GMV challenges for TikTok Shop affiliates in the brand's own contest rules; rate set per product in TikTok Shop"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "No commission rate is published on the brand's pages and TikTok Shop rates are set per product, so the rate is honestly null.",
+    "contact_access": "The route in is TikTok Shop itself plus the brand's affiliate Discord; no direct affiliate email is published.",
+    "credibility": "A national retail brand (Target, Walmart, Ulta) founded by a well-known creator, with about $10M reported revenue.",
+    "niche_fit": "Women's vaginal, gut and hormone health is a core wellness-content niche with strong routine angles.",
+    "opportunity_availability": "Any TikTok Shop affiliate can promote the products and enter the brand's challenges - no separate application.",
+    "ugc_evidence": "The brand runs structured TikTok Shop affiliate competitions with GMV tiers, cash prizes and a Discord leaderboard - unusually deep creator infrastructure."
+   },
+   "ugc_evidence": 18
+  },
+  "socials": [],
+  "website": "https://lovewellness.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://resona.health/join-our-affiliate/",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://resona.health/join-our-affiliate/"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://resona.health/join-our-affiliate/",
+    "email": null,
+    "source_url": "https://resona.health/join-our-affiliate/"
+   }
+  ],
+  "country": "United States",
+  "description": "Resona Health sells the VIBE, a pocket-sized PEMF (pulsed electromagnetic field) device positioned for energy, calm, sleep and focus, plus the VaguVibe pendant, direct to consumers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://resona.health/join-our-affiliate/",
+    "summary": "Resona Health's own affiliate page offers a flat 20% commission on referred sales, paid monthly via PayPal around the 1st of the month after a 30-day delay for returns, with no minimum payout threshold and 21-day attribution; customers buying through an affiliate link receive a doubled 60-day money-back guarantee and entry into a monthly sweepstakes, and affiliates get a dashboard with links, banners, images and videos."
+   }
+  ],
+  "name": "Resona Health",
+  "opportunity": {
+   "application_url": "https://resona.health/join-our-affiliate/",
+   "source_url": "https://resona.health/join-our-affiliate/",
+   "title": "Resona Health affiliate program - flat 20% commission with no payout threshold, stated on the brand's own affiliate page"
+  },
+  "score": {
+   "compensation": 16,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A flat published 20% with no payout threshold and monthly PayPal payment; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Signup and login run through the brand's own affiliate page; no direct email is published there.",
+    "credibility": "A smaller device brand with a single flagship product; less third-party coverage than the big stimulator names.",
+    "niche_fit": "PEMF energy-therapy devices fit biohacking, sleep and recovery content, a narrower but active wellness niche.",
+    "opportunity_availability": "Open signup from the brand's page.",
+    "ugc_evidence": "A public affiliate page with a dashboard, marketing assets and customer incentives shows an operating advocate program."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://resona.health"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.skratchlabs.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": null,
+   "source_url": "https://www.skratchlabs.com/pages/affiliates"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://www.skratchlabs.com/pages/affiliates",
+    "email": "info@skratchlabs.com",
+    "source_url": "https://www.skratchlabs.com/pages/affiliates"
+   }
+  ],
+  "country": "United States",
+  "description": "Skratch Labs makes real-food sports nutrition - hydration mixes, energy chews and bars and recovery drinks - for endurance athletes, sold direct and through specialty retailers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.skratchlabs.com/pages/affiliates",
+    "summary": "Skratch Labs' own affiliates page ('the Skratch Collective') offers members a personal affiliate code and tracking link and commission on every first-time purchase made through their code, plus a personal restock discount, early access to product drops and a chance to be featured in brand content; the page targets people who train, race, coach or create in endurance sports, gives a sub-5-minute application, and publishes the contact info@skratchlabs.com. No commission percentage is published on the page, so the rate is recorded null."
+   }
+  ],
+  "name": "Skratch Labs",
+  "opportunity": {
+   "application_url": "https://www.skratchlabs.com/pages/affiliates",
+   "source_url": "https://www.skratchlabs.com/pages/affiliates",
+   "title": "Skratch Labs Skratch Collective affiliate program - commission on first-time purchases; percentage not published by the brand"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 12,
+   "credibility": 5,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Commission on first-time purchases is confirmed on the brand's own page but no percentage is published, so the rate is honestly null.",
+    "contact_access": "A contact email (info@skratchlabs.com) is published directly on the affiliates page alongside the application.",
+    "credibility": "A long-established Boulder sports-nutrition brand with national specialty retail presence.",
+    "niche_fit": "Endurance sports nutrition is a staple food-and-drink content niche with strong race-day and training angles.",
+    "opportunity_availability": "Application-based and aimed at people already active in endurance sports communities.",
+    "ugc_evidence": "A named Collective with codes, tracking links and brand featuring for members shows a genuine creator and athlete channel."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.skratchlabs.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.amymyersmd.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.amymyersmd.com/pages/affiliates"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partners@amymyersmd.com",
+    "source_url": "https://ammd-next.netlify.app/pages/affiliates"
+   }
+  ],
+  "country": "United States",
+  "description": "Amy Myers MD sells physician-formulated supplements and protocols for gut health, thyroid and autoimmune support, built around Dr. Amy Myers's functional-medicine approach and sold through its own store.",
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://ammd-next.netlify.app/pages/affiliates",
+    "summary": "The brand's affiliate and influencer program copy states the program is hosted on the Impact network, with an Affiliate track paying up to 15% commission and an Influencer track paying up to 10% plus free product, both with a custom $10-off customer promo, 30-day last-touch attribution, creative support and a dedicated account manager; the influencer track requires a minimum of 2,500 followers on at least one social channel, and questions go to partners@amymyersmd.com. Flagged needs_review because the detailed copy was found on the brand's staging subdomain; the live site carries the affiliates page at amymyersmd.com/pages/affiliates."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_rate",
+    "source_type": "third_party",
+    "source_url": "https://linkclicky.com/affiliate-program/amy-myers-md/",
+    "summary": "Published rates conflict - linkclicky and Lasso report 10% per sale via Impact, affjumbo reports 12%, and affpaying reports figures from 15% to 25% - and the brand publishes no single settled rate, so commission_rate is recorded null with the conflict documented here."
+   }
+  ],
+  "name": "Amy Myers MD",
+  "opportunity": {
+   "application_url": "https://www.amymyersmd.com/pages/affiliates",
+   "source_url": "https://www.amymyersmd.com/pages/affiliates",
+   "title": "Amy Myers MD affiliate and influencer program via Impact - brand-published tracks; rates conflict across sources, recorded null"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 11,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published figures conflict (10% vs 12% vs up to 15% vs 25%) and no single rate is settled by the brand, so the rate is honestly null; no cap statement is published.",
+    "contact_access": "A partnerships email (partners@amymyersmd.com) is published in the brand's program copy, flagged needs_review as it was found on the staging copy.",
+    "credibility": "A well-known functional-medicine brand founded in 2010 by a bestselling author-physician.",
+    "niche_fit": "Physician-formulated gut, thyroid and autoimmune supplements fit health-education content squarely.",
+    "opportunity_availability": "The influencer track requires at least 2,500 followers on one channel; the affiliate track is aimed at health-focused publishers.",
+    "ugc_evidence": "Separate affiliate and influencer tracks with free product, promo codes and a dedicated account manager show a structured creator program."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.amymyersmd.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://apogeeagency.com/truvaga-affiliate-program-now-on-impact/",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://apogeeagency.com/truvaga-affiliate-program-now-on-impact/"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://apogeeagency.com/truvaga-affiliate-program-now-on-impact/",
+    "email": null,
+    "source_url": "https://apogeeagency.com/truvaga-affiliate-program-now-on-impact/"
+   }
+  ],
+  "country": "United States",
+  "description": "Truvaga sells a handheld vagus nerve stimulator for stress, sleep and focus, made by Sterling Medical and sold direct to consumers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "third_party",
+    "source_url": "https://apogeeagency.com/truvaga-affiliate-program-now-on-impact/",
+    "summary": "Apogee, the agency that manages the program, announced that the Truvaga affiliate program is exclusively on the Impact network and offers a 5% commission with a 30-day tracking window. The brand's own site publishes no rate or cap statement, so the cap stays unknown."
+   }
+  ],
+  "name": "Truvaga",
+  "opportunity": {
+   "application_url": "https://apogeeagency.com/truvaga-affiliate-program-now-on-impact/",
+   "source_url": "https://apogeeagency.com/truvaga-affiliate-program-now-on-impact/",
+   "title": "Truvaga affiliate program on Impact - 5% commission announced by the program's managing agency"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 5% commission is modest for a premium device; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Application runs through Impact; the public announcement is the program manager's page and no brand affiliate email is published.",
+    "credibility": "A real device brand from an established medical-device maker, with a smaller public profile than Pulsetto.",
+    "niche_fit": "Vagus nerve stimulation for stress and sleep fits the same growing wellness-device content niche as its competitors.",
+    "opportunity_availability": "Open application through the Impact network.",
+    "ugc_evidence": "A professionally managed Impact program from an established affiliate agency indicates a real publisher and creator channel."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.truvaga.com"
+ },
+ {
+  "name": "Verdant Tea",
+  "website": "https://verdanttea.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Verdant Tea is a farmer-first tea company representing a dozen small family tea farmers and teaware artisans across China, selling single-origin teas direct to consumers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://verdanttea.com/verdant-tea-affiliate-program",
+    "email": null,
+    "source_url": "https://verdanttea.com/verdant-tea-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://verdanttea.com/verdant-tea-affiliate-program",
+    "summary": "Verdant Tea's own affiliate page states the program runs through AWIN: partners sign up on the brand's affiliate page, email the brand for a verification code if they are new to AWIN, and once approved earn commission on all sales generated through their banner or link. The page publishes no commission rate and no cap statement, so the rate is recorded null and the cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://verdanttea.com/verdant-tea-affiliate-program",
+   "source_url": "https://verdanttea.com/verdant-tea-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://verdanttea.com/verdant-tea-affiliate-program",
+   "source_url": "https://verdanttea.com/verdant-tea-affiliate-program",
+   "title": "Verdant Tea affiliate program via AWIN - farmer-first specialty tea; rate not published by the brand"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Single-origin specialty tea fits tea ritual, food and drink education content well.",
+    "ugc_evidence": "A standing AWIN program recruited from the brand's own page, aimed at blogs and websites in the tea community.",
+    "compensation": "No commission rate is published on the brand's page or in a fetched network listing, so the rate is honestly null; no cap statement is published.",
+    "contact_access": "The brand invites direct email contact from its affiliate page for AWIN verification codes, alongside the application route.",
+    "opportunity_availability": "Open signup through AWIN, subject to approval.",
+    "credibility": "A long-running, well-regarded farmer-first tea company with deep sourcing transparency."
+   }
+  }
+ }
+]

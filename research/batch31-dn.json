@@ -1,0 +1,563 @@
+[
+ {
+  "name": "Lord Tshirt",
+  "website": "https://lordtshirt.com/",
+  "country": "Turkey",
+  "category_slug": "fashion",
+  "description": "Turkish direct-to-consumer graphic T-shirt store (prices in TL, Turkish-language storefront) selling music, anime, film and pop-culture print tees. Its own affiliate page pays a published 10% commission and states there is no limit on earnings, which makes it this round's one verified-uncapped program. No creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://lordtshirt.com/en/pages/collab",
+    "summary": "Lord Tshirt's own affiliate page states affiliates 'earn 10% commission on all qualifying purchases' and, under the heading 'Unlimited Earning Potential': 'There is no limit to how much you can earn with our affiliate program. The more sales you make, the more commission you earn.' That explicit no-limit earnings statement on the brand's own page is why commission_cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://lordtshirt.com/en/pages/collab",
+    "summary": "The same page opens the program to 'influencers, bloggers, content creators, website owners' with monthly payouts via the customer's preferred method and a private tracking panel. The storefront itself is Turkish (TL pricing, Turkish product copy), which is the basis for the country recorded. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://lordtshirt.com/en/pages/collab",
+   "source_url": "https://lordtshirt.com/en/pages/collab",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lord Tshirt Affiliate Program",
+   "application_url": "https://lordtshirt.com/en/pages/collab",
+   "source_url": "https://lordtshirt.com/en/pages/collab"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 15,
+   "compensation": 16,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Graphic tees are everyday creator wardrobe content - haul, styling and print-on-demand design videos all fit, though the catalog is Turkey-focused.",
+    "ugc_evidence": "Own program page explicitly recruits influencers and content creators, with a tracking panel and monthly payouts.",
+    "compensation": "10% commission plus the round's only verified uncapped statement, published on the brand's own page.",
+    "contact_access": "Registration is on the brand's own page; no public affiliate email was verified.",
+    "opportunity_availability": "Open registration, free to join, no upfront investment stated.",
+    "credibility": "Small regional print-on-demand store with a thin public footprint beyond its own storefront; terms verified only on its own page."
+   }
+  }
+ },
+ {
+  "name": "Lilysilk",
+  "website": "https://www.lilysilk.com/",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Luxury silk and cashmere brand founded in 2010 - apparel, sleepwear, scarves and home essentials in Grade 6A mulberry silk, featured in Vogue, ELLE and Harper's Bazaar, with US stores in New York. Its US affiliate program runs on Awin with a published tiered commission of 8%-15%; the 8% base tier is recorded. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "pr@lilysilk.com",
+    "source_url": "https://www.newswire.ca/news-releases/from-little-threads-to-big-dreams-lilysilk-celebrates-15-years-of-innovation-sustainability-and-global-impact-808298435.html"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/87401",
+    "summary": "LILYSILK's Awin merchant profile (US program) states a 'Competitive tiered commission structure (8%-15%)' with a 30-day referral cookie and performance bonuses for top affiliates. The 8% base tier is recorded. No earnings-cap statement appears on the profile, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/87401",
+    "summary": "The same profile's Preferred Publisher Types explicitly include 'Influencer / KOL: Social media influencers and content creators' alongside content/editorial and community publishers. No creator counts are published, so creator_saturation stays unknown. A brand press release lists pr@lilysilk.com as the media contact, recorded as the PR contact."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 8,
+   "application_url": "https://ui.awin.com/merchant-profile/87401",
+   "source_url": "https://ui.awin.com/merchant-profile/87401",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "LILYSILK Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/87401",
+   "source_url": "https://ui.awin.com/merchant-profile/87401"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Silk sleepwear, pillowcases and blouses are premium fashion-and-beauty staples - GRWM, sleep-routine and luxury-haul content converts well.",
+    "ugc_evidence": "Awin profile explicitly names influencers/KOLs as a preferred publisher type - a direct creator welcome, not just a publisher program.",
+    "compensation": "8% base tier rising to 15% on a premium basket; rate verified on the network profile itself.",
+    "contact_access": "Join route is via the Awin profile; a published PR email (pr@lilysilk.com) is recorded from the brand's press release.",
+    "opportunity_availability": "Open Awin program; case-by-case publisher approval applies.",
+    "credibility": "Established global luxury brand founded in 2010 with flagship retail stores; rate verified on Awin itself."
+   }
+  }
+ },
+ {
+  "name": "Gaiam",
+  "website": "https://www.gaiam.com/",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "US yoga and wellness brand founded in 1988 - yoga mats, props, apparel, meditation and active-sitting goods across 1,000+ products. Its affiliate program, running on Rakuten LinkShare since 2001 and now managed through its sister site GetACTV, advertises generous commissions of up to 10% - a ceiling with no published base rate, so the rate is recorded as null. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.gaiam.com/pages/affiliate-program",
+    "summary": "Gaiam's own affiliate page lists as a program benefit: 'Generous Commissions of up to 10%'. 'Up to 10%' is a ceiling, not a base rate, so commission_rate is recorded as null rather than guessed. The page also confirms no minimum payout threshold and payments through the LinkShare network. No earnings-cap statement appears, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.gaiam.com/pages/affiliate-program",
+    "summary": "The same page confirms the program is free to join, covers 1,000+ products (yoga mats, props, apparel, meditation, active sitting), has run on Rakuten LinkShare since 2001 where it is recognized as a 'Premium Affiliate Program', and is now applied to via the GetACTV advertiser listing on LinkShare. Directory listings place the brand in the United States (founded in Boulder, Colorado). No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": null,
+   "application_url": "https://www.gaiam.com/pages/affiliate-program",
+   "source_url": "https://www.gaiam.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Gaiam Affiliate Program (Rakuten)",
+   "application_url": "https://www.gaiam.com/pages/affiliate-program",
+   "source_url": "https://www.gaiam.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Yoga is one of the largest creator fitness categories - mat reviews, flow follow-alongs and home-practice setups are evergreen UGC.",
+    "ugc_evidence": "Long-running open affiliate program recruiting promoters for 1,000+ consumer yoga products; classic affiliate structure rather than a creator-named program.",
+    "compensation": "Only an up-to-10% ceiling is published on the brand's own page, with no base rate to record.",
+    "contact_access": "Join route and program details are on the brand's own page; no public affiliate email was verified.",
+    "opportunity_availability": "Free to join via Rakuten LinkShare (GetACTV listing); brand approval within ~24 business hours per the page.",
+    "credibility": "Founded 1988, a Rakuten 'Premium Affiliate Program' since the 2000s with multiple network awards; terms verified on its own page."
+   }
+  }
+ },
+ {
+  "name": "NOBULL",
+  "website": "https://www.nobullproject.com/",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "Training footwear and apparel brand built around CrossFit and hard-training culture - minimalist trainers, lifters and graphic training apparel. Its affiliate program is reported on Impact at 10% per sale, and the brand runs its own partnership and sponsorship application route for athletes, creators and coaches. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "connect@nobullproject.com",
+    "source_url": "https://support.nobullproject.com/hc/en-us/articles/40798215851415-Partnership-and-Sponsorship-Inquiries-with-NOBULL"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/nobull/",
+    "summary": "LinkClicky's NOBULL affiliate listing reports the program runs on the Impact platform at 10% per sale, across all regions. The 10% figure is recorded as publicly reported - it was not confirmed on a network profile page. No earnings-cap statement is published, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://support.nobullproject.com/hc/en-us/articles/40798215851415-Partnership-and-Sponsorship-Inquiries-with-NOBULL",
+    "summary": "NOBULL's own help center maintains a 'Partnership and Sponsorship Inquiries' route inviting athletes, creators, coaches and NIL athletes to apply, with questions to connect@nobullproject.com - the contact recorded. It notes partnership opportunities are limited and reviewed for brand alignment. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/nobull/",
+   "source_url": "https://linkclicky.com/affiliate-program/nobull/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "NOBULL Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/nobull/",
+   "source_url": "https://linkclicky.com/affiliate-program/nobull/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "NOBULL trainers are default footwear in CrossFit, Hyrox and garage-gym content - shoe rotations and WOD footage are natural UGC.",
+    "ugc_evidence": "Impact affiliate program plus the brand's own creator/athlete partnership application route on its help center.",
+    "compensation": "10% per sale as reported by the directory listing; not network-profile verified, so scored a step below a verified rate.",
+    "contact_access": "Published partnership email (connect@nobullproject.com) and an application form on the brand's own help center.",
+    "opportunity_availability": "Affiliate route via Impact; the brand's own partnership route is application-based and explicitly limited.",
+    "credibility": "Category-defining training brand with a decade of retail presence; program reported consistently across directories."
+   }
+  }
+ },
+ {
+  "name": "Berlook",
+  "website": "https://www.berlook.com/",
+  "country": "China",
+  "category_slug": "fashion",
+  "description": "Sustainable women's swimwear and beachwear brand founded in 2020 and headquartered in Hong Kong/Guangzhou, China, making swimsuits from GRS-certified recycled fabrics including ECONYL regenerated nylon. Its affiliate program runs on ShareASale at a reported 10% per sale, and creator platforms count roughly 391 creators who have posted for the brand. No earnings-cap statement is published, so the cap stays unknown; a few hundred creators is mid-size, so saturation stays unknown rather than low.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/berlook/",
+    "summary": "LinkClicky's BERLOOK listing reports the program runs on ShareASale at 10% per sale with a 30-day cookie, open to all regions. The 10% figure is recorded as publicly reported. No earnings-cap statement is published, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://universe.beacons.ai/brands/berlook",
+    "summary": "Beacons' brand directory counts 391 creators who have posted for Berlook - real creator activity, but a few hundred creators is mid-size in absolute terms, so creator_saturation is recorded as unknown, not low. Brand background (founded 2020, HQ Hong Kong/Guangzhou, recycled-fabric swimwear) is corroborated by the brand's own site and independent brand reviews."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/berlook/",
+   "source_url": "https://linkclicky.com/affiliate-program/berlook/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "BERLOOK Affiliate Program (ShareASale)",
+   "application_url": "https://linkclicky.com/affiliate-program/berlook/",
+   "source_url": "https://linkclicky.com/affiliate-program/berlook/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Swimwear is peak seasonal UGC - try-on hauls, vacation packing and pool content; the recycled-fabric story gives creators a second angle.",
+    "ugc_evidence": "ShareASale program plus ~391 creators already posting for the brand on creator platforms - proven creator uptake.",
+    "compensation": "10% per sale as reported by the directory listing; not network-profile verified.",
+    "contact_access": "Join route is via ShareASale; no public affiliate email was verified.",
+    "opportunity_availability": "Open ShareASale program; standard network approval applies.",
+    "credibility": "Founded 2020 with consistent independent coverage of its sustainability positioning; younger and smaller than legacy swim brands."
+   }
+  }
+ },
+ {
+  "name": "Knockaround",
+  "website": "https://knockaround.com/",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "San Diego-designed affordable polarized sunglasses brand - durable, colorful shades at accessible prices with a $60 average order value. Its Awin profile advertises up to 15% commission (a ceiling, not a base rate), while a directory listing separately reports a ShareASale program at 10% per sale; with no network-verified base rate, the rate is recorded as null and both figures documented. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "knockaround@jackalopemediagroup.com",
+    "source_url": "https://ui.awin.com/merchant-profile/50995"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/50995",
+    "summary": "Knockaround's Awin merchant profile states 'Up to 15% commission on every referred sale' with a $60 average order value, high repeat purchase rate and a 30-day cookie. 'Up to 15%' is a ceiling, not a base rate, so commission_rate is recorded as null on the verified network evidence. The profile publishes knockaround@jackalopemediagroup.com for program questions - the contact recorded. No earnings-cap statement appears, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/knockaround/",
+    "summary": "LinkClicky separately lists Knockaround on ShareASale at 10% per sale with a 30-day cookie. That directory figure is documented here as publicly reported rather than recorded over the null, because it could not be confirmed on a network profile. No creator counts are published on either source, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/50995",
+   "source_url": "https://ui.awin.com/merchant-profile/50995",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Knockaround Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/50995",
+   "source_url": "https://ui.awin.com/merchant-profile/50995"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Affordable polarized shades are easy creator content - running, festival, beach and everyday-carry roundups; $60 baskets keep conversion realistic.",
+    "ugc_evidence": "Open Awin program actively pitched to affiliates with marketing assets and support; a second network route is also reported.",
+    "compensation": "Only an up-to-15% ceiling is network-published and the 10% figure is directory-reported, so compensation scores low despite the healthy AOV.",
+    "contact_access": "A program contact email (knockaround@jackalopemediagroup.com) is published on the Awin profile itself.",
+    "opportunity_availability": "Open Awin program for the US market; standard network approval applies.",
+    "credibility": "Long-running San Diego eyewear brand with national retail presence; program verified on Awin itself."
+   }
+  }
+ },
+ {
+  "name": "Shady Rays",
+  "website": "https://www.shadyrays.com/",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Louisville, Kentucky-founded polarized sunglasses brand (2012) built on its Lost & Broken replacement guarantee, shipping from its Simpsonville, KY headquarters. It runs a named Content Creator Program on Refersion whose published terms describe performance-based commissions on net sales for approved creators - but rates are communicated only on acceptance and treated as confidential, so the rate is recorded as null. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://n086p8.refersion.com/",
+    "summary": "Shady Rays' Refersion portal publishes the 'Shady Rays Content Creator Program' terms (effective 03/26/2026): a performance-based affiliate program in which approved participants ('Creators') promote Shady Rays products through digital content and earn commission on qualifying sales via unique affiliate links or codes, calculated monthly on net sales."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://n086p8.refersion.com/",
+    "summary": "The same published terms state 'Commission rates will be communicated upon acceptance and may vary based on performance tiers' and bar creators from disclosing commission rates - so no published rate exists and commission_rate is recorded as null rather than guessed. No earnings-cap statement appears in the terms, so commission_cap is unknown, and no creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": null,
+   "application_url": "https://n086p8.refersion.com/",
+   "source_url": "https://n086p8.refersion.com/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Shady Rays Content Creator Program (Refersion)",
+   "application_url": "https://n086p8.refersion.com/",
+   "source_url": "https://n086p8.refersion.com/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Adventure-lifestyle sunglasses with a lost-and-broken replacement story - strong outdoor, fishing, running and lake-life content fit.",
+    "ugc_evidence": "A dedicated, named Content Creator Program with published terms written for creators specifically - the clearest creator-first structure in this round.",
+    "compensation": "Rates are deliberately unpublished and confidential until acceptance, so compensation cannot be scored on evidence.",
+    "contact_access": "Application runs through the brand's Refersion portal; no public affiliate email was verified.",
+    "opportunity_availability": "Approval-based creator program; participation is subject to brand approval per the published terms.",
+    "credibility": "Founded 2012, independently owned, national retail stores and a 75,000-sq-ft Kentucky HQ; terms verified on the brand's own portal."
+   }
+  }
+ },
+ {
+  "name": "Diamondback Fitness",
+  "website": "https://www.diamondbackfitness.com/",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "US home-fitness equipment brand selling upright and recumbent bikes, ellipticals and indoor cycles factory-direct. Its own affiliate page offers up to 10% commission on qualified purchases through a program run exclusively on AvantLink - a ceiling with no published base rate, so the rate is recorded as null. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.diamondbackfitness.com/pages/affiliates",
+    "summary": "Diamondback Fitness's own affiliate page states: 'When a customer you have referred makes any purchase on our factory-direct site, you make a great commission! - Earn up to 10% for every qualified purchase.' 'Up to 10%' is a ceiling with no published base rate, so commission_rate is recorded as null. No earnings-cap statement appears, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.diamondbackfitness.com/pages/affiliates",
+    "summary": "The same page states the program is offered 'exclusively in the Avantlink affiliate network' and approval runs through AvantLink, with banners and text links provided. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": null,
+   "application_url": "https://www.diamondbackfitness.com/pages/affiliates",
+   "source_url": "https://www.diamondbackfitness.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Diamondback Fitness Affiliate Program (AvantLink)",
+   "application_url": "https://www.diamondbackfitness.com/pages/affiliates",
+   "source_url": "https://www.diamondbackfitness.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Home cardio equipment is steady home-gym content - setup, review and workout-follow-along formats; big-ticket items mean fewer but larger sales.",
+    "ugc_evidence": "Own affiliate page recruiting referrals with network-provided creative; no dedicated creator program was verified beyond the AvantLink route.",
+    "compensation": "Only an up-to-10% ceiling is published on the brand's own page, with no base rate to record.",
+    "contact_access": "Join route is via the brand's affiliate page into AvantLink; no public affiliate email was verified.",
+    "opportunity_availability": "Open AvantLink program; standard network approval applies.",
+    "credibility": "Long-running US fitness-equipment brand selling factory-direct; terms verified on its own page."
+   }
+  }
+ },
+ {
+  "name": "Trainline",
+  "website": "https://www.thetrainline.com/",
+  "country": "United Kingdom",
+  "category_slug": "travel",
+  "description": "London-headquartered rail and coach booking platform selling train tickets for 270+ operators across 45 countries, with an average European booking around EUR 80. Its affiliate program, run through Travelpayouts, pays a published 3% of the booking cost for new clients and 1% for existing clients on a 30-day cookie; the 3% new-client rate is recorded. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/earn-with-trainline/",
+    "summary": "Travelpayouts' Trainline program page states: 'Join the Trainline affiliate program and get 3% of the booking cost for new clients and 1% for existing clients,' with a 30-day cookie and an average check of ~EUR 80 in Europe and ~GBP 50 in the UK. The 3% new-client rate is recorded, with the 1% returning-client rate documented here. No earnings-cap statement appears, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/earn-with-trainline/",
+    "summary": "The same network page runs open enrollment for the Trainline program through Travelpayouts, aimed at travel publishers and creators monetizing European rail content. Trainline is headquartered in London and sells tickets for 270+ rail and coach companies. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Travelpayouts",
+   "commission_rate": 3,
+   "application_url": "https://www.travelpayouts.com/blog/earn-with-trainline/",
+   "source_url": "https://www.travelpayouts.com/blog/earn-with-trainline/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Trainline Affiliate Program (Travelpayouts)",
+   "application_url": "https://www.travelpayouts.com/blog/earn-with-trainline/",
+   "source_url": "https://www.travelpayouts.com/blog/earn-with-trainline/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "European rail is a core travel-creator topic - itinerary, Eurail-vs-point-to-point and budget-Europe content all link naturally to ticket booking.",
+    "ugc_evidence": "Open network enrollment with creator-facing tools (deep links, widgets, banners) via Travelpayouts; no brand-run creator page was verified.",
+    "compensation": "3% on new-client bookings (1% returning) is thin per sale, partly offset by ~EUR 80 average bookings and high conversion intent.",
+    "contact_access": "Join and support route runs through the Travelpayouts program page and dashboard.",
+    "opportunity_availability": "Open enrollment through the network; among the easiest travel programs to start with.",
+    "credibility": "Europe's leading rail retail platform, founded 1997 and London-headquartered; terms verified on the network's own page."
+   }
+  }
+ },
+ {
+  "name": "FlixBus",
+  "website": "https://www.flixbus.com/",
+  "country": "Germany",
+  "category_slug": "travel",
+  "description": "Munich-founded intercity bus network (Flix) running affordable coach routes across Europe and the US. Its affiliate program through Travelpayouts pays a published 5% of the order cost on US bookings (average order $34.92); separate network listings show different figures, documented in the evidence. No earnings-cap statement is published, so the cap stays unknown, and no creator counts are published, so saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/flixbus-affiliate-program/",
+    "summary": "Travelpayouts' FlixBus program page states: 'Commission for FlixBus affiliates is 5% of the order cost' for the FlixBus US affiliate program, with a $34.92 average order price and a customer-lifetime-value attribution model. The 5% Travelpayouts rate is recorded. Other listings differ by network - an Awin US data table shows 6% and a directory shows a $6 flat figure - documented here as separate network listings rather than a conflict on the recorded route. No earnings-cap statement appears, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/flixbus-affiliate-program/",
+    "summary": "The same network page offers open enrollment in the FlixBus program through the Travelpayouts dashboard, with link builder, links and poster tools for travel publishers and creators. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Travelpayouts",
+   "commission_rate": 5,
+   "application_url": "https://www.travelpayouts.com/blog/flixbus-affiliate-program/",
+   "source_url": "https://www.travelpayouts.com/blog/flixbus-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "FlixBus Affiliate Program (Travelpayouts)",
+   "application_url": "https://www.travelpayouts.com/blog/flixbus-affiliate-program/",
+   "source_url": "https://www.travelpayouts.com/blog/flixbus-affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Budget intercity bus travel is a staple of backpacker and budget-Europe content; low fares make it an easy recommendation in itinerary videos.",
+    "ugc_evidence": "Open network enrollment with creator tooling via Travelpayouts; no brand-run creator program was verified.",
+    "compensation": "5% of the order cost on the recorded network route; low average order (~$35) caps per-sale earnings despite the fair percentage.",
+    "contact_access": "Join and support route runs through the Travelpayouts program page and dashboard.",
+    "opportunity_availability": "Open enrollment through the network for the US program.",
+    "credibility": "Europe's dominant intercity bus brand, Munich-founded and operating globally; terms verified on the network's own page."
+   }
+  }
+ }
+]

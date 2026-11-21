@@ -1,0 +1,551 @@
+[
+ {
+  "name": "Lo & Sons",
+  "website": "https://www.loandsons.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "US direct-to-consumer bag brand founded by the Lo family, known for travel-light weekender bags, backpacks and work-to-gym bags that combine function and style. It recruits loyal customers, micro-influencers and large publishers into an affiliate program run through the Impact network.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "partnerships@loandsons.com",
+    "contact_url": "https://www.loandsons.com/pages/affiliate-sign-up"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.loandsons.com/pages/affiliate-sign-up",
+    "summary": "Lo & Sons' own Affiliates page (fetched) invites loyal customers, micro-influencers and large-scale publishers to apply. Getting started: join through the Impact.com network (free), get approved, then search for Lo & Sons inside Impact to access text links and banners and earn commission on every referred bag purchase. Program questions go to partnerships@loandsons.com, published on the page. The brand's own page publishes no commission rate and no earnings-cap statement, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.shopper.com/partnerships/loandsons-com-affiliate-program",
+    "summary": "Shopper.com's partnership listing (fetched) reports a 5% payout per sale for the Lo & Sons program, while affiliatesaz.com's directory describes the Lo & Sons commission as 'varies by product'. Because the two fetched sources conflict and the brand itself publishes no rate, commission_rate is recorded as null with the conflict documented here. No fetched source states any earnings cap or creator count, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.loandsons.com/pages/affiliate-sign-up",
+   "source_url": "https://www.loandsons.com/pages/affiliate-sign-up",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lo & Sons Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 9,
+   "contact_access": 14,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": [
+    "Travel-light bags are a core, high-intent niche for travel and everyday-carry creators.",
+    "The brand explicitly welcomes micro-influencers alongside large publishers, widening access for smaller creators.",
+    "A published partnerships email and a clear Impact application path make the program easy to reach and verify.",
+    "Commission rate is not published by the brand and directory reports conflict (5% vs varies by product), which caps the compensation score."
+   ]
+  }
+ },
+ {
+  "name": "Solgaard",
+  "website": "https://solgaard.co",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Sustainable travel gear brand founded in 2016, known for suitcases, backpacks, watches and speakers made with ocean-bound plastic through its Solgaard x ShoreTide material program. It runs an affiliate program with a dedicated affiliate team, recruited by email application and paid monthly via FlexOffers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "solgaard@dmipartners.com",
+    "contact_url": "https://solgaard.co/pages/become-an-affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://solgaard.co/pages/become-an-affiliate",
+    "summary": "Solgaard's own affiliate page (fetched) targets 'global citizens passionate about travel' and offers 'a great commission structure, a dedicated affiliate team, regular deals and an easy-to-use affiliate platform'. Joining is by email application to solgaard@dmipartners.com with URLs, handles, audience stats and brand alignment. The page publishes no rate and no earnings-cap statement, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/solgaard/",
+    "summary": "GetLasso's program listing (fetched) reports 10% per sale with a 90-day cookie for Solgaard; LinkWhisper and AffiliateCollective independently report the same 10% rate and 90-day cookie, and a MaxFunnels review reports monthly payment via FlexOffers. The 10% rate is corroborated across three fetched sources, so it is recorded. No fetched source states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 10,
+   "application_url": "https://solgaard.co/pages/become-an-affiliate",
+   "source_url": "https://solgaard.co/pages/become-an-affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Solgaard Affiliate Program (FlexOffers)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 13,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": [
+    "Sustainable luggage and backpacks sit squarely in the travel-gear niche, with a strong story angle around ocean plastic.",
+    "A corroborated 10% commission with a long 90-day cookie is above average for travel gear.",
+    "Application is a direct email to a named affiliate team, and the brand promises dedicated affiliate support.",
+    "No earnings-cap statement is published, so the cap stays honestly unknown."
+   ]
+  }
+ },
+ {
+  "name": "July",
+  "website": "https://july.com",
+  "country": "Australia",
+  "category_slug": "travel",
+  "description": "Melbourne-founded direct-to-consumer luggage brand known for design-led polycarbonate suitcases, bags and personalisation, selling in Australia, New Zealand and the United States. July runs a 'content partner' affiliate program promoted from its own site footer.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://july.com/nz/affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://july.com/nz/affiliate-program/",
+    "summary": "July's own site (fetched) runs a 'Brand Affiliates' page: 'Partner with us. Love July? Apply to become a content partner and earn commission on sales.' The live page does not publish a rate or any earnings-cap statement, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affjumbo.com/new-offer-launched-july-affiliate-program/",
+    "summary": "Published rates conflict across fetched sources: a mirrored copy of July's affiliate page reports 8% on all luggage and accessories, rising to 9% on sales over $500 and 10% over $1,000 with a 45-day referral cookie, while older network directories report 4% (AffJumbo, 30-day cookie, 60-day hold) and 6% (Mopubi). Because the sources conflict, commission_rate is recorded as null with the conflict documented here. No fetched source states an earnings cap or creator count."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program",
+   "commission_rate": null,
+   "application_url": "https://july.com/nz/affiliate-program/",
+   "source_url": "https://july.com/nz/affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "July Content Partner Affiliate Program",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": [
+    "Design-led luggage is a proven, high-intent category for travel creators, and July is a recognised DTC brand in AU/NZ/US.",
+    "July recruits content partners directly from its own site, signalling an active creator channel.",
+    "Reported tiered rates up to 10% are attractive, but published figures conflict (4%, 6%, 8% tiered), so the rate is recorded as null and compensation is scored cautiously.",
+    "No earnings-cap statement is published anywhere fetched, so the cap stays unknown."
+   ]
+  }
+ },
+ {
+  "name": "Pact",
+  "website": "https://wearpact.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Boulder, Colorado apparel brand (PACT Organic) making basics, underwear, maternity and baby clothing from organic cotton with Fair Trade Certified factories. It runs a flat-rate affiliate program and a separate invitation-based influencer program that the brand is currently revamping.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://wearpact.com/campaign/influencer-signup"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.bravodm.com/brands/pact",
+    "summary": "BravoDM's checked program facts (fetched; program checked October 2026) describe Pact's affiliate program as a flat 8% commission, plus a separate Influencer Program the brand recruits for by invitation. AffJumbo's listing independently reports the same flat 8% with a 30-day cookie and a $100 payout threshold, so the 8% rate is recorded. No fetched source states an earnings cap, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "brand_site",
+    "source_url": "https://wearpact.com/campaign/influencer-signup",
+    "summary": "Pact's own influencer signup page (fetched via the brand's site) states the brand is 'currently revamping our influencer program' and cannot accept new influencer applications at this time, with a relaunch planned within weeks. The affiliate route remains the open path; the influencer pause lowers the availability score. FlexOffers also lists a Pact Apparel affiliate program page. No creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 8,
+   "application_url": "https://www.flexoffers.com/affiliate-programs/pact-apparel-affiliate-program/",
+   "source_url": "https://www.bravodm.com/brands/pact",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pact Affiliate Program (flat 8%) + Influencer Program (revamping)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 5,
+   "credibility": 4,
+   "reasons": [
+    "Organic everyday basics and maternity are a steady, content-friendly fashion niche with a clear sustainability angle.",
+    "A flat 8% commission is corroborated by two independent fetched sources, including one checked in October 2026.",
+    "The separate influencer program is invite-based and currently paused for a revamp, which limits creator access today.",
+    "No earnings-cap statement is published, so the cap stays unknown."
+   ]
+  }
+ },
+ {
+  "name": "Outerknown",
+  "website": "https://www.outerknown.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Sustainable menswear and womenswear brand founded by pro surfer Kelly Slater and designer John Moore, built on organic, recycled and regenerative materials with Fair Trade Certified sewing. Its affiliate program runs on the AvantLink network.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.avantlink.com"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_site",
+    "source_url": "https://www.avantlink.com/the-benefits-of-partnering-with-a-dedicated-affiliate-network/",
+    "summary": "AvantLink's own site (fetched) names Outerknown among its Fashion advertisers alongside Patagonia and Flight Club, and AvantLink's classic merchant pages recommend Outerknown as a live replacement merchant, confirming an active AvantLink program. AvantLink does not publish per-merchant rates publicly, and no fetched source states Outerknown's rate, an earnings cap, or a creator count, so commission_rate is null and both filters are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": null,
+   "application_url": "https://www.avantlink.com",
+   "source_url": "https://www.avantlink.com/the-benefits-of-partnering-with-a-dedicated-affiliate-network/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Outerknown Affiliate Program (AvantLink)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": [
+    "A sustainability-first apparel brand co-founded by Kelly Slater, with strong storytelling for fashion and surf/outdoor creators.",
+    "Program confirmed live on AvantLink, a curated network that suits quality content publishers.",
+    "Rate, cap and creator counts are not published publicly, which limits the compensation and contact scores.",
+    "No earnings-cap statement exists in any fetched source, so the cap stays honestly unknown."
+   ]
+  }
+ },
+ {
+  "name": "Alo Yoga",
+  "website": "https://www.aloyoga.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Los Angeles premium activewear brand founded in 2007 (Alo), a celebrity- and creator-driven yoga-to-street label selling apparel, mats and accessories worldwide. Its affiliate program is applied for through the Impact network, with additional listings via FlexOffers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/alo-yoga/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/alo-yoga/",
+    "summary": "GetLasso's Alo Yoga listing (fetched) reports 14.4% per sale, a 30-day cookie, a $50 payout threshold and application via the Impact affiliate network with an active website or social presence required. Uppromote's directory describes an 8-15% range varying by network. No fetched source states an earnings cap, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://referralrocket.io/affiliate-program/alo-yoga_sB",
+    "summary": "Published rates conflict across fetched sources: 14.4% via Impact (GetLasso and Creator Hero), 15.2% via FlexOffers (ReferralRocket) and 16% in another Creator Hero roundup. Because the figures conflict by network and none comes from the brand's own published page, commission_rate is recorded as null with the conflict documented here. Alo's creator culture is extensive, but no fetched source publishes an absolute creator count, so creator_saturation is unknown rather than guessed."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/alo-yoga/",
+   "source_url": "https://getlasso.co/affiliate/alo-yoga/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Alo Yoga Affiliate Program (Impact)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": [
+    "Premium activewear with one of the strongest creator and celebrity content cultures in fashion; constant UGC demand.",
+    "Reported rates are high for apparel (14.4-16% across networks) with a 30-day cookie and roughly $150 average orders.",
+    "Rates conflict between networks and are not published by the brand, so the rate is null and compensation is scored mid-range.",
+    "No earnings-cap statement is published, so the cap stays unknown."
+   ]
+  }
+ },
+ {
+  "name": "Ministry of Supply",
+  "website": "https://ministryofsupply.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Boston apparel company founded in 2012 by MIT-rooted founders, making wrinkle-resistant, machine-washable work and travel clothing with performance materials. Its affiliate program is listed through FlexOffers with a 14-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.flexoffers.com/affiliate-programs/ministry-of-supply-affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/ministry-of-supply-affiliate-program/",
+    "summary": "FlexOffers' own program page (fetched) lists the Ministry of Supply affiliate program with a 14-day cookie duration and describes its wear-to-work performance clothing. Shopper.com's listing reports only a generic 5-10% payout range and Sovrn's merchant page could not verify a current rate, so commission_rate is recorded as null rather than guessed from a range. No fetched source states an earnings cap or creator count, so both filters are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": "https://www.flexoffers.com/affiliate-programs/ministry-of-supply-affiliate-program/",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/ministry-of-supply-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ministry of Supply Affiliate Program (FlexOffers)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": [
+    "Wrinkle-free work-and-travel apparel is a distinctive niche for business-travel and commuter creators.",
+    "Program is live on FlexOffers, but the cookie is a short 14 days and no rate is published by any fetched source.",
+    "The brand's separate $25 customer referral scheme is a consumer offer, not a creator program, and was not counted.",
+    "No earnings-cap statement is published, so the cap stays unknown."
+   ]
+  }
+ },
+ {
+  "name": "Senreve",
+  "website": "https://www.senreve.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Luxury handbag brand (SENREVE) known for the convertible Maestra bag and Italian-made leather goods for working women, with average orders reported at $500-$1,000. Its affiliate program runs on Ascend by Partnerize with monthly payouts.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.influencerrate.com/affiliate-program/senreve"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.influencerrate.com/affiliate-program/senreve",
+    "summary": "InfluencerRate's hands-on program review (fetched) reports the Senreve affiliate program pays 3% per sale through Ascend by Partnerize, with a 14-day cookie, monthly payouts and a $500-$1,000 average order value; approval reportedly takes 24-48 hours. Shopper.com's generic 5-10% template range was not treated as corroboration. No fetched source states an earnings cap or creator count, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": 3,
+   "application_url": "https://www.influencerrate.com/affiliate-program/senreve",
+   "source_url": "https://www.influencerrate.com/affiliate-program/senreve",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Senreve Affiliate Program (Ascend by Partnerize)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": [
+    "Luxury convertible work bags are a focused niche for professional and fashion creators, with very high order values.",
+    "The 3% rate is low, but $500-$1,000 average orders still produce meaningful per-sale earnings.",
+    "Program runs on Partnerize with monthly payouts and reportedly fast approval.",
+    "No earnings-cap statement is published, so the cap stays unknown."
+   ]
+  }
+ },
+ {
+  "name": "Madewell",
+  "website": "https://www.madewell.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "J.Crew Group clothing and lifestyle brand best known for denim, plus women's and men's apparel, shoes, bags and jewellery. Its affiliate program is managed through CJ Affiliate with a notably short 3-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://signup.cj.com/member/signup/publisher/?cid=5048992"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.creator-hero.com/blog/madewell-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator Hero's in-depth review (fetched) describes the Madewell affiliate program as managed through CJ Affiliate, paying 5% per sale with a 3-day cookie; GetLasso reports the same 5% and 3-day cookie. No fetched source states an earnings cap, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/madewell",
+    "summary": "Referly's marketplace listing (fetched) reports a conflicting 1.5% commission for the same CJ-managed program (3-day cookie, monthly PayPal payouts, US market), and Shopper.com also lists 1.5%. Because fetched sources conflict between 5% and 1.5%, commission_rate is recorded as null with the conflict documented here. No absolute creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": null,
+   "application_url": "https://signup.cj.com/member/signup/publisher/?cid=5048992",
+   "source_url": "https://www.creator-hero.com/blog/madewell-affiliate-program-in-depth-review-pros-and-cons",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Madewell Affiliate Program (CJ Affiliate)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": [
+    "Denim-led mainstream fashion with a large, content-hungry audience and constant new-arrival cycles.",
+    "Program is established on CJ Affiliate with a clear publisher signup path.",
+    "The 3-day cookie is among the shortest in fashion, and published rates conflict (5% vs 1.5%), so compensation scores low.",
+    "No earnings-cap statement is published, so the cap stays unknown."
+   ]
+  }
+ },
+ {
+  "name": "Icebreaker",
+  "website": "https://www.icebreaker.com",
+  "country": "New Zealand",
+  "category_slug": "fashion",
+  "description": "New Zealand-founded merino wool performance apparel pioneer (owned by VF Corporation), making plastic-free natural-fibre base layers, tees and outdoor clothing for travel and adventure. Regional affiliate programs are listed through FlexOffers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.flexoffers.com/affiliate-programs/icebreaker-australia-affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/icebreaker-australia-affiliate-program/",
+    "summary": "FlexOffers' program page (fetched) lists regional icebreaker affiliate programs (Australia/New Zealand) promoting its merino 'move to natural' apparel, with a 45-day cookie duration on the listed program. The FlexOffers listing publishes no commission rate. No fetched source states an earnings cap or creator count, so commission_cap and creator_saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://admin.shopper.com/partnerships/icebreaker-com-affiliate-program",
+    "summary": "Shopper.com's merchant listing (fetched) reports a 2% payout per sale for the Icebreaker program. It is a single directory figure with no corroborating second source, so it is recorded with publicly_reported confidence and should be re-verified inside the network before pitching."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 2,
+   "application_url": "https://www.flexoffers.com/affiliate-programs/icebreaker-australia-affiliate-program/",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/icebreaker-australia-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Icebreaker Affiliate Program (FlexOffers, regional)",
+   "status": "unverified"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Merino travel and outdoor apparel is a durable niche for travel and adventure creators, and Icebreaker is the category pioneer.",
+    "A generous 45-day cookie on the listed regional program partly offsets a low reported 2% rate.",
+    "The 2% figure rests on a single directory listing, so compensation is scored cautiously.",
+    "No earnings-cap statement is published, so the cap stays unknown."
+   ]
+  }
+ }
+]

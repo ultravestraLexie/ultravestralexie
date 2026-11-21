@@ -25,7 +25,7 @@ const SCORE_ROWS: {
   max: number;
 }[] = [
   { key: "niche_fit", label: "Niche & content fit", max: 30 },
-  { key: "ugc_evidence", label: "Evidence of UGC collaborations", max: 20 },
+  { key: "ugc_evidence", label: "Evidence of creator collaborations", max: 20 },
   { key: "compensation", label: "Compensation attractiveness", max: 20 },
   { key: "contact_access", label: "Contact accessibility", max: 15 },
   { key: "opportunity_availability", label: "Opportunity availability", max: 10 },

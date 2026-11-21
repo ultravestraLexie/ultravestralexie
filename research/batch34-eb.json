@@ -1,0 +1,589 @@
+[
+ {
+  "name": "Dreo",
+  "website": "https://www.dreo.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Smart home air brand (tower fans, space heaters, air purifiers, humidifiers and air fryers) built around air comfort. Its affiliate program runs on CJ with a published standard commission, a 45-day cookie and a dedicated affiliate manager, and the brand also sells heavily through TikTok Shop creator videos.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.affiliate-toolkit.com/program/dreo/",
+    "source_url": "https://www.affiliate-toolkit.com/program/dreo/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://www.affiliate-toolkit.com/program/dreo/",
+    "summary": "Dreo's CJ program details as reproduced from the network listing: 'standard commission 10, cookie duration 45 days, performance incentives 12 commission for actions >= 100, first sale bonus 10', plus up-to-date banners, coupons and a dedicated affiliate manager. Recorded rate is the published 10% standard commission on CJ. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/dreo-affiliate-program/",
+    "summary": "FlexOffers lists a parallel Dreo route at 8% for online sales (9.6% at 100+ actions) with a 45-day cookie, confirming the 45-day window while showing per-network rates vary; the CJ standard 10% is the recorded figure."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc",
+    "source_type": "third_party",
+    "source_url": "https://rateful.ai/brand/dreo",
+    "summary": "Rateful's TikTok Shop data (estimates, not Dreo figures) reports about 94% of Dreo's TikTok Shop sales in the 30 days to Nov 3, 2026 came through affiliate creators' videos and LIVEs, showing a heavily creator-driven sales mix. It publishes no absolute creator count, so saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ",
+   "commission_rate": 10,
+   "application_url": "https://www.affiliate-toolkit.com/program/dreo/",
+   "source_url": "https://www.affiliate-toolkit.com/program/dreo/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Dreo Affiliate Program on CJ - 10% standard commission, 45-day cookie",
+   "application_url": "https://www.affiliate-toolkit.com/program/dreo/",
+   "source_url": "https://www.affiliate-toolkit.com/program/dreo/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Tower fans, heaters and purifiers are proven home-tech review and demo content with strong seasonal demand.",
+    "ugc_evidence": "Creator-driven selling is core to the brand - most of its TikTok Shop sales are reported to come through affiliate creators.",
+    "compensation": "Published 10% standard commission on CJ, rising to 12% at 100+ actions, with a 45-day cookie; no cap statement published.",
+    "contact_access": "One route in: the CJ application. No verified affiliate email could be confirmed from a fetched page.",
+    "opportunity_availability": "Program is live on CJ with a first-sale bonus and a dedicated manager per the listing.",
+    "credibility": "Consistent 45-day cookie across network listings; rates vary by network (8% FlexOffers vs 10% CJ), which is normal multi-network practice."
+   }
+  }
+ },
+ {
+  "name": "COSORI",
+  "website": "https://www.cosori.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "VeSync kitchen appliance brand best known for air fryers, multi-cookers, kettles and coffee makers, sold across Amazon, Target and Walmart. Its own affiliate page recruits content creators, food bloggers and influencers with a 30-day last-click cookie and USD payments.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://cosori.com/pages/affiliates",
+    "source_url": "https://cosori.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://cosori.com/pages/affiliates",
+    "summary": "COSORI's own affiliate page fetched in full. The hero panel states 'Earn up to 15% commission on every qualifying sale', while the page's own FAQ answers the commission question with 'Affiliates can earn up to 10% commission on every qualifying sale'. The FAQ also states a 30-day last-click cookie, free joining for creators/bloggers/influencers, and payment locked 27 days after month end and issued 20 days later in USD. Because the brand's own page publishes two different ceilings (15% vs 10%), the rate is recorded as null with the conflict documented rather than guessed."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://linkclicky.com/affiliate-program/cosori/",
+    "summary": "Network directories disagree on COSORI's route: LinkClicky lists CJ Affiliate at 3%-10% per sale, while affiliate-forum reporting describes an Awin PPS program at 5%-10%. Awin is recorded as the network with the conflict noted; no cap statement or creator count is published anywhere fetched."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://cosori.com/pages/affiliates",
+   "source_url": "https://cosori.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "COSORI Affiliate Program - up to 10-15% published ceilings (conflicting), 30-day cookie",
+   "application_url": "https://cosori.com/pages/affiliates",
+   "source_url": "https://cosori.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Air fryers and small kitchen appliances are evergreen creator content - recipes, tests and comparisons.",
+    "ugc_evidence": "The brand's own page expressly recruits content creators, food bloggers, recipe sites and influencers.",
+    "compensation": "No single rate can be recorded: the brand's own page conflicts with itself (up to 15% hero vs up to 10% FAQ), so the rate is honestly null; 30-day cookie confirmed.",
+    "contact_access": "One route in: the application linked from the brand's own affiliate page. No published affiliate email.",
+    "opportunity_availability": "Program is live and free to join per the brand's page.",
+    "credibility": "Major retail presence (Amazon, Target, Walmart) under VeSync; the self-conflicting rate copy is the only blemish and is documented."
+   }
+  }
+ },
+ {
+  "name": "Waterdrop",
+  "website": "https://www.waterdropfilter.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Water purification brand founded in 2015 - refrigerator filters, reverse-osmosis systems, pitchers and under-sink filtration across 200+ products. Its affiliate program runs on Awin, CJ and Admitad with a 45-day cookie and performance incentives.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.affiliate-toolkit.com/program/waterdrop/",
+    "source_url": "https://www.affiliate-toolkit.com/program/waterdrop/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://www.affiliate-toolkit.com/program/waterdrop/",
+    "summary": "Waterdrop's program description as carried on its network listings: 'commission up to 10 with performance incentives and special promotion opportunities, high unit price, 45 day cookie duration', free to join, with Awin, CJ and Admitad all carrying the program (Awin is the primary join route). 'Up to 10%' is a ceiling, not a base rate, and other routes report different figures (FlexOffers 6.4%, Yazing 8%), so the rate is recorded as null with the spread documented. No earnings-cap statement and no creator count are published."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/waterdrop-affiliate-program/",
+    "summary": "FlexOffers lists the Waterdrop program at 6.4% on online sales with a 30-day cookie, a materially different figure from the 'up to 10%' program headline - part of the rate conflict documented in the main evidence entry."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://www.affiliate-toolkit.com/program/waterdrop/",
+   "source_url": "https://www.affiliate-toolkit.com/program/waterdrop/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Waterdrop Affiliate Program on Awin - up to 10% ceiling, 45-day cookie",
+   "application_url": "https://www.affiliate-toolkit.com/program/waterdrop/",
+   "source_url": "https://www.affiliate-toolkit.com/program/waterdrop/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Home water filtration is steady home-improvement and wellness content; RO systems carry high order values.",
+    "ugc_evidence": "The program courts publishers broadly with banners, coupons and a monthly newsletter, but publishes no creator-specific program page.",
+    "compensation": "Only a ceiling is published ('up to 10%') and network routes conflict (6.4%-8%), so the rate is honestly null; 45-day cookie is a plus.",
+    "contact_access": "Network applications only (Awin/CJ/Admitad); no verified affiliate email could be confirmed from a fetched page.",
+    "opportunity_availability": "Live on three networks and free to join per the program description.",
+    "credibility": "Established 2015 brand with 200+ products and consistent multi-network presence."
+   }
+  }
+ },
+ {
+  "name": "iSpring Water Systems",
+  "website": "https://www.ispringfilter.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Residential water filtration specialist - reverse-osmosis, whole-house and under-sink systems with a $220+ average order value. Its own affiliate page openly recruits creators and influencers alongside publications, with on-time payments and a stated average order value.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.ispringfilter.com/pages/affiliate",
+    "source_url": "https://www.ispringfilter.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.ispringfilter.com/pages/affiliate",
+    "summary": "iSpring's own affiliate page fetched in full: 'Competitive Commission Rates: Up to 10%', '30-Day Cookie Tracking', '$220+ Average Order Value', on-time payments, and a partner section that expressly welcomes 'Creators & Influencers - anyone with a social media presence'. The page also markets '$10K+ Monthly Earning Potential' - that is a potential claim, not a statement that earnings are uncapped, so the cap stays unknown under the strict filter. Third-party reporting of the portal's terms conflicts on the actual rate (8% on first purchases per SimplyCodes' reading of the affiliate portal vs 10% per initial sale per Way2Earning, which also reports a 90-day cookie against the page's 30 days), so the rate is recorded as null with the conflict documented."
+   }
+  ],
+  "affiliate": {
+   "network": "Post Affiliate Pro (own program)",
+   "commission_rate": null,
+   "application_url": "https://www.ispringfilter.com/pages/affiliate",
+   "source_url": "https://www.ispringfilter.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "iSpring Water Systems Affiliate Program - up to 10% ceiling, $220+ AOV, rate reports conflict",
+   "application_url": "https://www.ispringfilter.com/pages/affiliate",
+   "source_url": "https://www.ispringfilter.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "RO and whole-house filtration installs are strong DIY/home content, and the $220+ AOV lifts per-sale value.",
+    "ugc_evidence": "The brand's own page has a dedicated Creators & Influencers partner lane, not just publisher recruitment.",
+    "compensation": "Ceiling-only on the brand page ('up to 10%') and conflicting third-party rate reports (8% vs 10%), so the rate is honestly null.",
+    "contact_access": "One route in: the brand's own affiliate page and portal. No published affiliate email.",
+    "opportunity_availability": "Program is live and free to join per the brand's page.",
+    "credibility": "Long-running filtration brand; the '$10K+ monthly earning potential' marketing line is noted but correctly not treated as a no-cap statement."
+   }
+  }
+ },
+ {
+  "name": "LifeStraw",
+  "website": "https://www.lifestraw.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Water filtration brand for home, travel and emergency use - personal straws, pitchers and dispensers - with a Give Back model that funds a year of safe water for a child with every product sold. Its affiliate program joins through Impact or Shopify Collabs.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://lifestraw.com/pages/affiliate-program",
+    "source_url": "https://lifestraw.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://lifestraw.com/pages/affiliate-program",
+    "summary": "LifeStraw's own affiliate page: the program 'allows you to advertise LifeStraw products and receive commissions', joining is free 'through Impact Radius or Shopify Collabs', and the FAQ expressly states 'the page does not list specific commission rates'. Third-party reports conflict - Impact listings at 5% per sale (LinkClicky, CompareEPC), an 8% / 90-day-cookie report (BMF), and a legacy 10% / 30-day AvantLink listing - so the rate is recorded as null with the spread documented. No earnings-cap statement and no creator count are published."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://lifestraw.com/pages/affiliate-program",
+   "source_url": "https://lifestraw.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "LifeStraw Affiliate Program on Impact / Shopify Collabs - rate not published by the brand",
+   "application_url": "https://lifestraw.com/pages/affiliate-program",
+   "source_url": "https://lifestraw.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Home water pitchers plus travel/emergency filters span home, outdoor and preparedness creator niches.",
+    "ugc_evidence": "Two creator-friendly join routes (Impact and Shopify Collabs) with ready marketing assets per the brand's page.",
+    "compensation": "The brand publishes no rate and third-party figures conflict (5% vs 8% vs 10%), so the rate is honestly null.",
+    "contact_access": "Applications via Impact or Shopify Collabs from the brand's page. No published affiliate email.",
+    "opportunity_availability": "Free and open to join on both routes per the brand's page.",
+    "credibility": "Category-defining brand with a long-running Give Back program; terms are consistent apart from the unpublished rate."
+   }
+  }
+ },
+ {
+  "name": "SteelSeries",
+  "website": "https://steelseries.com",
+  "country": "Denmark",
+  "category_slug": "technology",
+  "description": "Danish gaming peripherals maker (Arctis headsets, Apex keyboards, Rival mice) founded in 2001. Its creator affiliate program for streamers and YouTubers pays through Impact Radius - but its own support page states signup is currently closed to new applications.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "affiliates@steelseries.com",
+    "contact_url": "https://support.steelseries.com/hc/en-us/articles/14819474302989-Sponsorship-or-Affiliate-Request",
+    "source_url": "https://support.steelseries.com/hc/en-us/articles/14819474302989-Sponsorship-or-Affiliate-Request"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://support.steelseries.com/hc/en-us/articles/14819474302989-Sponsorship-or-Affiliate-Request",
+    "summary": "SteelSeries' own support page fetched in full: 'We are not currently accepting new applications' and 'Sorry, signup is closed for now.' The FAQ states affiliates 'can earn up to 8% commission on the sale of all SteelSeries products', commissions are 'paid through Impact Radius', eligibility is streamers, YouTube personalities and gaming community managers, and questions go to affiliates@steelseries.com. 'Up to 8%' is a ceiling and third-party reports vary (5%-10%), so the rate is recorded as null; the closed signup is the dominant fact for availability. No cap statement or creator count is published."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://support.steelseries.com/hc/en-us/articles/14819474302989-Sponsorship-or-Affiliate-Request",
+   "source_url": "https://support.steelseries.com/hc/en-us/articles/14819474302989-Sponsorship-or-Affiliate-Request",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "SteelSeries Affiliate Program on Impact - up to 8% ceiling; signup currently CLOSED",
+   "application_url": "https://support.steelseries.com/hc/en-us/articles/14819474302989-Sponsorship-or-Affiliate-Request",
+   "source_url": "https://support.steelseries.com/hc/en-us/articles/14819474302989-Sponsorship-or-Affiliate-Request"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 8,
+   "contact_access": 11,
+   "opportunity_availability": 2,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Esports-grade headsets and keyboards are core gaming-creator content with high branded search demand.",
+    "ugc_evidence": "The program is built specifically for streamers and YouTube personalities, with a dedicated Impact dashboard.",
+    "compensation": "Only a ceiling is published ('up to 8%') and reports vary, so the rate is honestly null.",
+    "contact_access": "Published affiliate email (affiliates@steelseries.com) plus the support-page route - better access than most closed programs.",
+    "opportunity_availability": "Signup is closed to new applications per the brand's own page - existing affiliates only until it reopens.",
+    "credibility": "Category-leading brand since 2001 with consistent program reporting across sources."
+   }
+  }
+ },
+ {
+  "name": "Jiminy's",
+  "website": "https://jiminys.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Berkeley-based sustainable dog food brand making kibble and treats from cricket and insect protein. It runs an Impact affiliate program for publishers and its own 'Chirper' ambassador program on Club, where creators earn cash commission on their affiliate code plus mission rewards.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://jiminys.com/pages/ambassador-program",
+    "source_url": "https://jiminys.com/pages/ambassador-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/jiminysforpets"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://affi.io/m/jiminys",
+    "summary": "Affi.io's network index lists 'Jiminys on Impact.com' with status Open. The program's published terms as reproduced by AffJumbo: 12% commission across the board on eligible purchases, 30-day last-click cookie, $100 payout threshold (wire, PayPal, Payoneer), free to join, closed PPC policy, and the note that 'Jiminy's only works with a limited number of high-quality sites' - a quality bar, not an absolute creator count, so saturation stays unknown. Recorded rate is the 12% Impact figure. No earnings-cap statement is published."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc",
+    "source_type": "official_site",
+    "source_url": "https://jiminys.com/pages/ambassador-program",
+    "summary": "Jiminy's own Chirper ambassador page fetched in full: creators join on Club with 'no minimum followers', pick social missions for store credit and free products, and 'GET 10% OFF AFFILIATE CODE - for every use it gets, you earn a CASH commission', with higher tiers available. The cash percentage is not published on the brand's page, so the recorded rate rests on the Impact terms in the network evidence."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 12,
+   "application_url": "https://jiminys.com/pages/ambassador-program",
+   "source_url": "https://affi.io/m/jiminys",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Jiminy's Affiliate Program on Impact - 12% commission, 30-day cookie; Chirper ambassador tier on Club",
+   "application_url": "https://jiminys.com/pages/ambassador-program",
+   "source_url": "https://jiminys.com/pages/ambassador-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Insect-protein dog food is a distinctive sustainability story that pet creators can build content around.",
+    "ugc_evidence": "Two creator routes: the Impact program plus a no-minimum-followers ambassador program with missions and a personal code.",
+    "compensation": "Published 12% across the board on Impact with a 30-day cookie; ambassador cash rate is unpublished. No cap statement.",
+    "contact_access": "Applications via Impact or the Club ambassador page; questions by Instagram DM per the brand's page. No published email.",
+    "opportunity_availability": "Impact program listed as Open; ambassador program openly recruiting.",
+    "credibility": "Established Berkeley brand with retail distribution; terms consistently reported."
+   }
+  }
+ },
+ {
+  "name": "Chippin",
+  "website": "https://chippinpet.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Sustainable dog food and treats made with eco-friendly proteins (cricket, silver carp, algae), formulated with veterinarians and founded in 2019. It lists on ShareASale and runs its own creator programs (Pawbassador, Pawfessional) through an UpPromote portal.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://af.uppromote.com/chipper-pet/register_aff",
+    "source_url": "https://af.uppromote.com/chipper-pet/register_aff"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://getlasso.co/affiliate/chippin-inc/",
+    "summary": "Lasso's program entry for Chippin, Inc. reports 20% per sale and links the ShareASale listing (merchant ID 100179). The brand's own UpPromote portal, however, publishes different live offers - a 10% commission on first purchases via code/link in one program, and flat $10-per-first-order terms in its Pawbassador and Pawfessional programs - while Shopper reports 5-10%. With the brand's own portal and the network listing in conflict, the rate is recorded as null with the spread documented. No earnings-cap statement and no creator count are published."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://af.uppromote.com/chipper-pet/register_aff",
+   "source_url": "https://getlasso.co/affiliate/chippin-inc/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Chippin Affiliate Programs - ShareASale listing vs own-portal offers conflict (20% vs 10% / $10 flat)",
+   "application_url": "https://af.uppromote.com/chipper-pet/register_aff",
+   "source_url": "https://af.uppromote.com/chipper-pet/register_aff"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 14,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Eco-protein dog treats are a clear sustainability angle for pet creators, similar to the insect-protein niche.",
+    "ugc_evidence": "Named creator programs (Pawbassador, Pawfessional) with personal codes and community framing, plus a ShareASale listing.",
+    "compensation": "Rates conflict across the brand's own portal and network listings (20% vs 10% vs $10 flat), so the rate is honestly null.",
+    "contact_access": "Open registration on the brand's own portal; no published affiliate email.",
+    "opportunity_availability": "Multiple live registration routes on the brand's portal.",
+    "credibility": "Small 2019-founded team; the conflicting published offers lower confidence until one rate is confirmed in-portal."
+   }
+  }
+ },
+ {
+  "name": "PetSnowy",
+  "website": "https://petsnowy.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Smart pet appliance brand - SNOW+ self-cleaning litter box, pet air purifier, dryer box and app-connected fountains and feeders. It runs an Impact affiliate program and its own Creator & Media Program that recruits influencers through Upfluence with commissions up to 15% on eligible campaigns.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "email": "Support@petsnowy.com",
+    "contact_url": "https://petsnowy.com/pages/media-pr",
+    "source_url": "https://petsnowy.com/pages/media-pr"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc",
+    "source_type": "official_site",
+    "source_url": "https://petsnowy.com/pages/media-pr",
+    "summary": "PetSnowy's own Media & PR page fetched in full: its Creator & Media Program offers creators 'up to 15% commission and special rewards', early access to launches and gifts; influencers apply through Upfluence and media partners email the PR team at Support@petsnowy.com. The page showcases named creator collaborations (Girls and Their Cats, 911Studios, TechUtopia and others). 'Up to 15%' is a ceiling, and one publishing affiliate reports actually earning 2%, so the rate is recorded as null with the conflict documented. No earnings-cap statement and no creator count are published."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://linkclicky.com/affiliate-program/petsnowy/",
+    "summary": "LinkClicky lists PetSnowy's affiliate program on Impact at 15% per sale as the officially listed payout - consistent with the brand's 'up to 15%' ceiling but not a guaranteed base rate, which is why the recorded rate stays null."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://petsnowy.com/pages/media-pr",
+   "source_url": "https://petsnowy.com/pages/media-pr",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "PetSnowy Creator & Media Program + Impact affiliate - up to 15% ceiling, base rate not published",
+   "application_url": "https://petsnowy.com/pages/media-pr",
+   "source_url": "https://petsnowy.com/pages/media-pr"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 9,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Self-cleaning litter boxes and pet appliances are high-ticket, highly demonstrable pet-tech content.",
+    "ugc_evidence": "A named Creator & Media Program with showcased creator collaborations and an Upfluence application route, plus an Impact listing.",
+    "compensation": "Only a ceiling is published ('up to 15%') and a live affiliate reports 2%, so the rate is honestly null.",
+    "contact_access": "Published PR email on the brand's own media page plus the Upfluence route.",
+    "opportunity_availability": "Creator program openly recruiting worldwide per the brand's page.",
+    "credibility": "Established smart-pet brand with mainstream review coverage; rate opacity is the main caveat."
+   }
+  }
+ },
+ {
+  "name": "KittySpout",
+  "website": "https://www.kittyspout.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Cat hydration brand behind the KittySpout stainless-steel water fountain, claiming over 1,100,000 cat owners served. Its own affiliate program runs on Social Snowball with a personal link, an audience discount and VIP access to new drops.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.kittyspout.com/pages/affiliate-page",
+    "source_url": "https://www.kittyspout.com/pages/affiliate-page"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.kittyspout.com/pages/affiliate-page",
+    "summary": "KittySpout's own affiliate page fetched in full - and it conflicts with itself: the headline banner reads 'Earn 50% commission. Give your audience 20% off!', while the page's own step-by-step states 'Your audience gets 15% off' and 'You earn 18% commission on every sale', and the page's image copy also says 'Earn 18 commission. Give your audience 15 off.' Sign-up runs through Social Snowball (kittyspout.socialsnowball.io). Because the brand publishes two irreconcilable rates (50% vs 18%), the rate is recorded as null with the conflict documented. The '1,100,000+ cat owners' figure is a customer count, not a creator count, so saturation stays unknown; no cap statement is published."
+   }
+  ],
+  "affiliate": {
+   "network": "Social Snowball",
+   "commission_rate": null,
+   "application_url": "https://www.kittyspout.com/pages/affiliate-page",
+   "source_url": "https://www.kittyspout.com/pages/affiliate-page",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "KittySpout Affiliate Program on Social Snowball - published rates conflict (50% headline vs 18% steps)",
+   "application_url": "https://www.kittyspout.com/pages/affiliate-page",
+   "source_url": "https://www.kittyspout.com/pages/affiliate-page"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 15,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A single-hero-product cat fountain is easy, focused content for cat creators, though the catalog is narrow.",
+    "ugc_evidence": "Creator-built program page ('Made for Creators') with named affiliates showcased and link-in-bio promotion guidance.",
+    "compensation": "The brand's own page conflicts with itself (50% headline vs 18% in the steps), so the rate is honestly null until confirmed in-portal.",
+    "contact_access": "One route in: the Social Snowball sign-up linked from the brand's page. No published affiliate email.",
+    "opportunity_availability": "Open self-serve sign-up, live now.",
+    "credibility": "Large claimed customer base, but the self-conflicting rate copy is a real caution flag and is documented."
+   }
+  }
+ }
+]

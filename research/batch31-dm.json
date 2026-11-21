@@ -1,0 +1,552 @@
+[
+ {
+  "name": "MyCospara",
+  "website": "https://mycospara.com",
+  "country": "France",
+  "category_slug": "beauty",
+  "description": "French house of Arab perfumery selling vegan, plant-based fragrances inspired by oud, musk and Damascus rose; it runs its own ambassador affiliate program whose page promises commissions with no earning limit and provides marketing tools, personalised support and real-time tracking.",
+  "contacts": [
+   {
+    "contact_name": "MyCospara Contact",
+    "contact_type": "general",
+    "email": "Contact@mycospara.com",
+    "notes": "Published on the brand's own affiliate program page, alongside the phone number +33 (0) 1 75 15 73 60.",
+    "url": "https://mycospara.com/en/content/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://mycospara.com/en/content/affiliate-program",
+    "summary": "MyCospara's own affiliate program page (fetched) states verbatim that affiliates earn a percentage of every sale through a personalised link 'with no earning limit', calls the income 'transparent, unlimited', and says 'The system is simple, with no cap' - an explicit earnings-cap statement on the brand's own page, so commission_cap is recorded as uncapped. No percentage rate is published anywhere on the page, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://mycospara.com/en/content/affiliate-program",
+    "summary": "The same brand page (fetched) describes the house as a committed, ethical Arab perfumery brand that rejects synthetic fragrances and celebrates plant-based, vegan ingredients, and publishes the contact email Contact@mycospara.com and a French phone number on the page. No creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://mycospara.com/en/content/affiliate-program",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Brand direct (own program)",
+   "source_url": "https://mycospara.com/en/content/affiliate-program"
+  },
+  "opportunity": {
+   "application_url": "https://mycospara.com/en/content/affiliate-program",
+   "compensation_notes": "Percentage-of-sale commission at an unpublished rate; the brand's own page explicitly states there is no earning limit and no cap, so the cap is verified uncapped. Commission rate is not published, so commission_rate is null.",
+   "description": "Join MyCospara's own ambassador affiliate program, share its Arab perfumery fragrances with your audience, and earn a percentage of every sale through your personalised link with no cap on earnings - confirm your percentage inside the program, as it is not published publicly.",
+   "status": "unverified",
+   "title": "MyCospara Affiliate Program (Own Program, Uncapped)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 13,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Verified uncapped earnings on the brand's own page, but the percentage rate itself is unpublished, which holds the score back.",
+    "contact_access": "A contact email and phone number are published on the brand's own affiliate page.",
+    "credibility": "A small French fragrance house with a complete, transparent program page but a limited third-party footprint.",
+    "niche_fit": "Fragrance sits inside beauty UGC, though it is a narrower niche than skincare or makeup.",
+    "opportunity_availability": "The program is open to creators, bloggers and enthusiasts through the brand's own page.",
+    "ugc_evidence": "The program is explicitly pitched at content creators with marketing tools, visuals and personalised strategy support, but no tracked creator campaign data was found."
+   },
+   "ugc_evidence": 12
+  }
+ },
+ {
+  "name": "CeraVe",
+  "website": "https://www.cerave.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "L'Oréal Groupe's dermatologist-developed drugstore skincare brand, famous for its ceramide cleansers and moisturisers and a phenomenon on SkinTok; creators earn through its official TikTok Shop affiliate program, with terms published on CeraVe's own domain and joining inside TikTok Shop's Add Products flow.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "creator_platform",
+    "source_url": "https://collabfeed.io/blog/how-cerave-runs-their-creator-program",
+    "summary": "CollabFeed's route-verified breakdown (fetched) states CeraVe has no standalone influencer program on cerave.com, that CeraVe publishes official TikTok Shop affiliate terms on its own domain, and that joining happens inside TikTok Shop's 'Add Products' flow with no application and commission on sales. It also documents the LOREALISTAR creator club as the application route, with compensation starting as gifting, so the TikTok Shop affiliate is the recorded commission route."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation_data",
+    "source_type": "affiliate_directory",
+    "source_url": "https://tokconnect.com/guides/tiktok-shop-affiliate-commission-rates/",
+    "summary": "TokConnect's TikTok Shop listing data (fetched) shows a CeraVe Sheer Tint Mineral Sunscreen SPF 30 listing carrying a 17% open affiliate commission with 937 creators selling it in the measured window. TikTok Shop rates are set per product by the seller, so no single program rate exists and commission_rate is null; 937 creators on one listing is a mid-to-large absolute count, not low, so creator_saturation is unknown. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://collabfeed.io/blog/how-cerave-runs-their-creator-program",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://collabfeed.io/blog/how-cerave-runs-their-creator-program"
+  },
+  "opportunity": {
+   "application_url": "https://collabfeed.io/blog/how-cerave-runs-their-creator-program",
+   "compensation_notes": "TikTok Shop commissions are set per product by the seller; one measured top listing paid a 17% open commission. No single published program rate and no cap statement, so commission_rate is null and the cap is unknown.",
+   "description": "Open CeraVe products inside TikTok Shop's Add Products flow, post derm-education skincare content, and earn the per-product commission shown on each listing - no application or approval wait.",
+   "status": "unverified",
+   "title": "CeraVe TikTok Shop Affiliate Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 29,
+   "opportunity_availability": 10,
+   "reasons": {
+    "compensation": "Real commissions exist and one measured listing paid 17%, but rates are per-product and unpublished at program level, so the score stays mid-range.",
+    "contact_access": "There is deliberately no public partnership email; access is self-serve inside TikTok Shop.",
+    "credibility": "A L'Oréal Groupe flagship with dermatologist positioning and enormous retail distribution.",
+    "niche_fit": "Core SkinTok brand; ceramide routines and derm education are exactly what skincare creators post.",
+    "opportunity_availability": "Open affiliate route with no application - any eligible TikTok Shop creator can add the products today.",
+    "ugc_evidence": "A year of tracked paid placements from nano to celebrity accounts, plus 937 creators selling one measured TikTok Shop listing."
+   },
+   "ugc_evidence": 19
+  }
+ },
+ {
+  "name": "La Roche-Posay",
+  "website": "https://www.laroche-posay.com",
+  "country": "France",
+  "category_slug": "skincare",
+  "description": "French pharmacy skincare brand built on La Roche-Posay thermal spring water, maker of Effaclar, Anthelios and Cicaplast; it runs an open affiliate program through CJ Affiliate in the US alongside the L'Oréal group creator pipeline.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "creator_platform",
+    "source_url": "https://collabfeed.io/blog/how-to-reach-brands-with-no-partnership-email",
+    "summary": "CollabFeed's route table (fetched), verified against official brand domains, lists La Roche-Posay's official route as a CJ affiliate program - an open affiliate - separate from the gifting-first LOREALISTAR creator club."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.whichprogram.com/en/p/la-roche-posay-affiliate-program",
+    "summary": "WhichProgram's program listing (fetched) records the La Roche-Posay affiliate program on CJ Affiliate at an 8% base commission per sale with a 30-day cookie, US reach, listed as active from a provider source. Other fetched directories conflict - LinkApprove says up to 7% and Shopper says 5-10% - so commission_rate is recorded as null with the conflict documented. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.whichprogram.com/en/p/la-roche-posay-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ",
+   "source_url": "https://www.whichprogram.com/en/p/la-roche-posay-affiliate-program"
+  },
+  "opportunity": {
+   "application_url": "https://www.whichprogram.com/en/p/la-roche-posay-affiliate-program",
+   "compensation_notes": "Published figures conflict across directories (8% base on the CJ listing, up to 7% and 5-10% elsewhere), so commission_rate is null; confirm the live rate inside CJ before promoting. No cap statement is published.",
+   "description": "Apply to La Roche-Posay's program inside CJ Affiliate, promote Effaclar, Anthelios and Cicaplast content to a skincare audience, and earn commission on tracked sales at the rate shown in your CJ account.",
+   "status": "unverified",
+   "title": "La Roche-Posay Affiliate Program (CJ)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 28,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A real network program exists, but published rates conflict between 5% and 10% depending on source, so it cannot be scored as a settled rate.",
+    "contact_access": "No public partnership email exists by design; access runs through the CJ application.",
+    "credibility": "One of the world's largest dermatologist-recommended pharmacy brands, owned by L'Oréal.",
+    "niche_fit": "Effaclar, Anthelios and Cicaplast are staple SkinTok products with constant creator demand.",
+    "opportunity_availability": "Open affiliate application through CJ, subject to network approval.",
+    "ugc_evidence": "Tracked paid placements run regularly, including on nano creators, per CollabFeed's monitoring."
+   },
+   "ugc_evidence": 18
+  }
+ },
+ {
+  "name": "Neutrogena",
+  "website": "https://www.neutrogena.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Kenvue's mass-market dermatologist brand behind Hydro Boost and the Collagen Bank pre-aging line, which Kenvue chose to debut through TikTok Shop; creators sell its products through TikTok Shop affiliate links and earn commission on purchases.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "trade_publication",
+    "source_url": "https://files.constantcontact.com/50fb5b07101/42114b8a-5418-4891-81b2-3a156be85ae9.pdf",
+    "summary": "A beauty-industry newsletter (fetched) reports Kenvue's announcement that Neutrogena's Collagen Bank line made its retail debut through TikTok Shop, putting the brand's products into TikTok Shop's affiliate commerce system where creators earn commission on tagged sales."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "social_post",
+    "source_url": "https://www.instagram.com/reel/Dc_0pPtml-h/",
+    "summary": "A creator post from September 2026 (fetched) announces Neutrogena's official arrival on TikTok Shop, stating the brand is offering higher commission rates and free samples to affiliate creators; a second fetched creator post discloses earning commission on Neutrogena purchases made through his TikTok Shop links. Rates are set per product and are not published at program level, so commission_rate is null; no cap statement or creator count is published, so cap and saturation are unknown. An August 2026 CollabFeed check found no public route beyond agency casting, which the later TikTok Shop launch supersedes for the affiliate layer."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.instagram.com/reel/Dc_0pPtml-h/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://www.instagram.com/reel/Dc_0pPtml-h/"
+  },
+  "opportunity": {
+   "application_url": "https://www.instagram.com/reel/Dc_0pPtml-h/",
+   "compensation_notes": "TikTok Shop commissions are set per product by the seller and are not published at program level, so commission_rate is null; launch coverage reported boosted rates and free samples for affiliate creators. No cap statement is published.",
+   "description": "Find Neutrogena products in the TikTok Shop Product Marketplace, tag them in Hydro Boost and Collagen Bank content, and earn the per-product commission shown on each listing.",
+   "status": "unverified",
+   "title": "Neutrogena TikTok Shop Affiliate Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 4,
+   "credibility": 5,
+   "niche_fit": 28,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Commissions are real but undisclosed and set per product, with only launch-period reporting of boosted rates.",
+    "contact_access": "No public partnership contact exists; the brand's own FAQ warns legitimate outreach never comes from free email accounts, and access is self-serve in TikTok Shop.",
+    "credibility": "A flagship Kenvue brand and one of the most recognised skincare names in US mass retail.",
+    "niche_fit": "Hydro Boost is a perennial creator favourite and the Collagen Bank launch was aimed squarely at TikTok skincare audiences.",
+    "opportunity_availability": "Open through TikTok Shop's product marketplace to eligible affiliate creators.",
+    "ugc_evidence": "Regular tracked paid placements plus disclosed affiliate hauls after the TikTok Shop debut, though the paid layer remains agency-led."
+   },
+   "ugc_evidence": 16
+  }
+ },
+ {
+  "name": "L'Oréal Paris",
+  "website": "https://www.lorealparisusa.com",
+  "country": "France",
+  "category_slug": "beauty",
+  "description": "The world's largest beauty brand, spanning Elvive haircare, Revitalift skincare and True Match makeup; in the US it publishes TikTok Shop affiliate terms on its own domain, letting creators earn commission through TikTok Shop's Add Products flow with no application.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "creator_platform",
+    "source_url": "https://collabfeed.io/blog/how-to-reach-brands-with-no-partnership-email",
+    "summary": "CollabFeed's route-verified guide (fetched) states that L'Oréal runs open affiliate programs through TikTok Shop in the US and that L'Oréal Paris publishes TikTok Shop terms on its own brand domain; its route table lists 'CeraVe, L'Oréal Paris (US) - TikTok Shop affiliate - Open affiliate, no application'. Rates are set per product inside TikTok Shop and are not published at program level, so commission_rate is null; no cap statement or creator count is published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://collabfeed.io/blog/how-to-reach-brands-with-no-partnership-email",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://collabfeed.io/blog/how-to-reach-brands-with-no-partnership-email"
+  },
+  "opportunity": {
+   "application_url": "https://collabfeed.io/blog/how-to-reach-brands-with-no-partnership-email",
+   "compensation_notes": "TikTok Shop commissions are set per product by the seller under terms L'Oréal Paris publishes on its own domain; no program-level rate or cap statement is published, so commission_rate is null and the cap is unknown.",
+   "description": "Add L'Oréal Paris products inside TikTok Shop, post haircare, skincare or makeup content, and earn the per-product commission shown on each listing - no application or approval wait.",
+   "status": "unverified",
+   "title": "L'Oréal Paris TikTok Shop Affiliate Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 10,
+   "reasons": {
+    "compensation": "Open commissions exist but are set per product and unpublished at program level.",
+    "contact_access": "No public partnership email by design; the route in is self-serve through TikTok Shop.",
+    "credibility": "The flagship brand of the world's largest beauty group.",
+    "niche_fit": "Elvive, Revitalift and True Match give beauty creators proven, high-search-volume products across three categories.",
+    "opportunity_availability": "Open affiliate with no application, per the route-verified source.",
+    "ugc_evidence": "Constant tracked paid creator placements across the L'Oréal portfolio, with the affiliate layer open to any eligible creator."
+   },
+   "ugc_evidence": 18
+  }
+ },
+ {
+  "name": "Bioderma",
+  "website": "https://www.bioderma.com",
+  "country": "France",
+  "category_slug": "skincare",
+  "description": "NAOS's French dermatological brand, maker of the Sensibio H2O micellar water; regional brand accounts actively invite content creators to join its affiliate program with free samples and commission, with affiliate requests handled through its TikTok Shop store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "social_post",
+    "source_url": "https://www.threads.com/@biodermamalaysia/post/Dd3Cv0KkYol",
+    "summary": "Bioderma Malaysia's own verified Threads post (fetched, September 2026) invites content creators to join the Bioderma affiliate program with free samples and commission, and the brand's replies on the post direct shoppers to TikTok Shop links and confirm affiliate requests can be sent through the store. No rate is published in the post, so commission_rate is null; no cap statement or creator count is published, so cap and saturation are unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.influencerrate.com/affiliate-program/naos",
+    "summary": "InfluencerRate's NAOS program page (fetched) describes earning commission promoting NAOS skincare brands including Bioderma, but the page dates from 2023 and mixes in unrelated content, so it is recorded as needs_review supporting evidence only; the live, current route evidenced is the brand's TikTok Shop affiliate recruitment."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.threads.com/@biodermamalaysia/post/Dd3Cv0KkYol",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://www.threads.com/@biodermamalaysia/post/Dd3Cv0KkYol"
+  },
+  "opportunity": {
+   "application_url": "https://www.threads.com/@biodermamalaysia/post/Dd3Cv0KkYol",
+   "compensation_notes": "The brand's own recruitment post promises commission plus free samples but publishes no rate, so commission_rate is null; TikTok Shop rates are set per product. No cap statement is published.",
+   "description": "Request affiliate access through Bioderma's TikTok Shop store in your market, create Sensibio micellar water content, and earn commission on tagged sales - confirm your market's program and per-product rates inside TikTok Shop.",
+   "status": "unverified",
+   "title": "Bioderma TikTok Shop Affiliate Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Commission is promised by the brand itself but no rate is published anywhere fetched.",
+    "contact_access": "The brand answers affiliate requests through its TikTok Shop store, per its own post replies; no public email is published.",
+    "credibility": "A flagship NAOS brand and one of the most recommended pharmacy skincare lines worldwide.",
+    "niche_fit": "Sensibio H2O is an iconic creator product, especially in K-beauty-influenced and pharmacy-skincare content.",
+    "opportunity_availability": "The evidenced recruitment is regional (Malaysia), so availability is narrower than a global open program.",
+    "ugc_evidence": "The brand is actively recruiting creators on its own social accounts, but tracked campaign volume is modest."
+   },
+   "ugc_evidence": 13
+  }
+ },
+ {
+  "name": "rhode",
+  "website": "https://rhodeskin.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Hailey Bieber's minimalist skincare brand, known for the Peptide Lip Treatment and Glazing Milk and now owned by e.l.f. Beauty; it runs an affiliate program on Impact that directories also surface through Skimlinks.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/rhode-skin/",
+    "summary": "LinkClicky's program listing (fetched) records rhode skin's affiliate program on the Impact platform at 5% per sale, open to all regions. Skimlinks' beauty affiliate roundup (fetched) instead describes the rhode program as paying up to 12% - a ceiling figure on a different network - so the published figures conflict and commission_rate is recorded as null with the conflict documented. No earnings-cap statement is published, so the cap is unknown; no creator count is published, so saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.skimlinks.com/insights/beauty-affiliate-programs/",
+    "summary": "Skimlinks' beauty affiliate programs guide (fetched) lists the Rhode skin affiliate program at up to 12% commission, available internationally through Skimlinks, and pitches it to skincare-first editorial and lifestyle creators - corroborating that a commission program exists while conflicting with the 5% Impact figure."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/rhode-skin/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/rhode-skin/"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/rhode-skin/",
+   "compensation_notes": "Published figures conflict - 5% per sale on the Impact listing versus up to 12% through Skimlinks - so commission_rate is null; confirm the live rate on the network before promoting. No cap statement is published.",
+   "description": "Apply to rhode's affiliate program on Impact, create barrier-care and lip treatment content, and earn commission on tracked sales at the rate confirmed in your account.",
+   "status": "unverified",
+   "title": "rhode Affiliate Program (Impact)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Two network listings exist, but the 5% and up-to-12% figures conflict, so compensation is scored on an unsettled rate.",
+    "contact_access": "Access runs through network applications; the brand publishes no creator contact route on its own pages.",
+    "credibility": "A celebrity-founded brand acquired by e.l.f. Beauty, with sustained sell-out demand.",
+    "niche_fit": "Peptide lip and glazing products are among the most-posted skincare items on TikTok and Instagram.",
+    "opportunity_availability": "Open network applications on Impact and access via Skimlinks for publishers.",
+    "ugc_evidence": "Enormous organic creator coverage; the brand's own creator layer leans gifting, but the affiliate program is a documented commission route."
+   },
+   "ugc_evidence": 15
+  }
+ },
+ {
+  "name": "Milani",
+  "website": "https://www.milanicosmetics.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Los Angeles drugstore makeup brand known for prestige-grade foundations, blushes and lipsticks at mass prices; it runs an affiliate program listed on Rakuten Advertising with additional access surfaced through other networks.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/milani/",
+    "summary": "Lasso's Milani program page (fetched) records a 3% per sale commission with a 14-day cookie on Rakuten Advertising. Brandid's makeup affiliate roundup (fetched) instead claims Milani pays up to 12% through ShareASale, and aggregator listings show still other figures (2.4%, up to 1.44%), so the published rates conflict and commission_rate is recorded as null with the conflict documented. No earnings-cap statement is published, so the cap is unknown; no creator count is published, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/milani/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising",
+   "source_url": "https://getlasso.co/affiliate/milani/"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/milani/",
+   "compensation_notes": "Published figures conflict - a detailed listing shows 3% per sale on Rakuten Advertising while a roundup claims up to 12% via ShareASale - so commission_rate is null; confirm the live rate and network inside your account. No cap statement is published.",
+   "description": "Join Milani's affiliate program through Rakuten Advertising, post drugstore-dupe and foundation content, and earn commission on tracked sales at the confirmed rate.",
+   "status": "unverified",
+   "title": "Milani Affiliate Program (Rakuten Advertising)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A program exists with a documented 3% base listing, but higher ceiling claims elsewhere keep the rate unsettled.",
+    "contact_access": "Network application only; no public creator contact was found on the pages checked.",
+    "credibility": "A long-established US drugstore brand with wide retail distribution, though its affiliate data is messier than peers'.",
+    "niche_fit": "Drugstore makeup and dupe content is a proven UGC category, and Milani's foundations review exceptionally well.",
+    "opportunity_availability": "Open application through the network, with approval requirements around an active content presence.",
+    "ugc_evidence": "Roundups aimed at Latina-focused and drugstore reviewers recommend it, but tracked program data is thinner than for top-tier brands."
+   },
+   "ugc_evidence": 13
+  }
+ },
+ {
+  "name": "Laneige",
+  "website": "https://www.laneige.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Amorepacific's K-beauty hydration brand, maker of the Lip Sleeping Mask and Water Bank line; it works with affiliate creators on TikTok Shop, building holiday campaigns around affiliate-posted gifting content.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "trade_publication",
+    "source_url": "https://later.com/blog/how-to-build-a-tiktok-shop-holiday-strategy-that-converts/",
+    "summary": "Later's TikTok Shop strategy guide (fetched) uses Laneige as its worked example, stating that starting in October the brand partnered with affiliates on TikTok Shop to talk about holiday gifting must-haves and promote its holiday bundle - direct evidence of an operating TikTok Shop affiliate route. TikTok Shop rates are set per product and no Laneige program rate is published, so commission_rate is null; a Shopper aggregator page claims 3.2% but is generic boilerplate and is not relied on. No cap statement or creator count is published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://later.com/blog/how-to-build-a-tiktok-shop-holiday-strategy-that-converts/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://later.com/blog/how-to-build-a-tiktok-shop-holiday-strategy-that-converts/"
+  },
+  "opportunity": {
+   "application_url": "https://later.com/blog/how-to-build-a-tiktok-shop-holiday-strategy-that-converts/",
+   "compensation_notes": "TikTok Shop commissions are set per product by the seller and no Laneige rate is published at program level, so commission_rate is null. No cap statement is published.",
+   "description": "Pick up Laneige products in the TikTok Shop Product Marketplace, post Lip Sleeping Mask and Water Bank hydration content, and earn the per-product commission shown on each listing.",
+   "status": "unverified",
+   "title": "Laneige TikTok Shop Affiliate Program",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Commissions operate per product on TikTok Shop but no rate is published at program level.",
+    "contact_access": "No public creator contact route; access is self-serve inside TikTok Shop.",
+    "credibility": "A flagship Amorepacific brand with global retail distribution through Sephora and beyond.",
+    "niche_fit": "The Lip Sleeping Mask is one of the most viral skincare products on TikTok, squarely in creator territory.",
+    "opportunity_availability": "Open to eligible TikTok Shop affiliate creators in markets where the brand's shop operates.",
+    "ugc_evidence": "A documented affiliate-driven holiday campaign on TikTok Shop, on top of constant organic creator coverage."
+   },
+   "ugc_evidence": 16
+  }
+ },
+ {
+  "name": "Revolution Beauty",
+  "website": "https://www.revolutionbeauty.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "British mass beauty group behind Makeup Revolution, known for fast, affordable, influencer-collaboration-led makeup and skincare; it runs an affiliate program on Awin with a US program paying tiered per-sale commissions.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/revolution-beauty-us/",
+    "summary": "Lasso's Revolution Beauty US program page (fetched) records tiered commissions of 2% and 4% per sale with a 30-day cookie; because the rate is tiered rather than a single published rate, commission_rate is recorded as null with the tiers documented. A UK affiliate-programme directory for beauty bloggers (fetched) lists Revolution Beauty on the Awin network. No earnings-cap statement is published, so the cap is unknown; no creator count is published, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/revolution-beauty-us/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://getlasso.co/affiliate/revolution-beauty-us/"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/revolution-beauty-us/",
+   "compensation_notes": "The US program pays tiered commissions of 2% and 4% per sale on a 30-day cookie, per the program listing, so no single commission_rate is recorded. No cap statement is published.",
+   "description": "Apply to Revolution Beauty's program on Awin, post affordable makeup and collab-launch content, and earn tiered per-sale commissions on tracked sales.",
+   "status": "unverified",
+   "title": "Revolution Beauty Affiliate Program (Awin)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Tiered 2% and 4% rates are at the low end for beauty, which caps the score despite the program being well documented.",
+    "contact_access": "Network application only; no public creator email was found on the pages checked.",
+    "credibility": "A listed UK beauty group with global retail presence, though its affiliate rates are modest.",
+    "niche_fit": "Fast-launch, collab-driven makeup is built for creator content and dupe culture.",
+    "opportunity_availability": "Open application through Awin for US-based beauty publishers and creators.",
+    "ugc_evidence": "The brand's growth model is influencer collaborations, and affiliate roundups consistently list its program for beauty bloggers."
+   },
+   "ugc_evidence": 14
+  }
+ }
+]

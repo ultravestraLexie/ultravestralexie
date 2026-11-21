@@ -34,22 +34,27 @@ const POPULAR: [string, string][] = [
   ["Brands accepting applications", "/discover?q=brands+accepting+applications"],
   ["Pet brands worth pitching", "/discover?q=pet+brands+worth+pitching"],
   ["Highest published commissions", "/discover?q=brands+paying+at+least+20%25+commission"],
-  ["UGC hooks and video tips", "/academy"],
+  ["TikTok Shop brands", "/discover?q=tiktok+shop+brands"],
+  ["Travel eSIM & connectivity products", "/discover?q=esim+travel+connectivity+products"],
+  ["Home gadgets & devices", "/discover?q=home+gadget+devices"],
+  ["Supplement & protein brands", "/discover?q=supplement+protein+brands"],
+  ["Creator hooks and video tips", "/academy"],
 ];
 
 export default async function DiscoverPage({
   searchParams,
 }: {
-  searchParams: Promise<{ q?: string; cat?: string; platform?: string; uncapped?: string; small?: string; apply?: string }>;
+  searchParams: Promise<{ q?: string; cat?: string; platform?: string; uncapped?: string; captype?: string; network?: string; small?: string; apply?: string }>;
 }) {
   const sp = await searchParams;
   const q = (sp.q ?? "").trim();
   const intent = extractIntent(q);
-  const wantUncapped = intent.uncapped || sp.uncapped === "1";
+  const capType = sp.captype || (intent.uncapped || sp.uncapped === "1" ? "uncapped" : intent.capped ? "capped" : "");
   const wantSmall = intent.small || sp.small === "1";
   const minRate = intent.minRate;
   const catFilter = sp.cat ?? "";
   const platformSel = sp.platform || intent.platform;
+  const networkSel = (sp.network || intent.network || "").toLowerCase();
   const applyOnly = sp.apply === "1";
 
   const supabaseCats = await createClient();
@@ -57,9 +62,9 @@ export default async function DiscoverPage({
   const allCats = (catData ?? []) as Category[];
 
   interface Row {
-    brand: Brand; score: number; network: string | null; rate: number | null; notes: string | null;
+    brand: Brand; score: number; network: string | null; rate: number | null; notes: string | null; checkedAt: string | null;
     appUrl: string | null; contactEmail: string | null; contactUrl: string | null; hasOpenOpp: boolean;
-    uncapped: boolean; low: boolean; cats: { slug: string; name: string }[]; relevance: number; reasons: string[];
+    uncapped: boolean; capped: boolean; low: boolean; cats: { slug: string; name: string }[]; relevance: number; reasons: string[];
   }
   let rows: Row[] = [];
   let loggedOut = false;
@@ -75,15 +80,15 @@ export default async function DiscoverPage({
     if (list.length) {
       const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }] = await Promise.all([
         supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }),
-        supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url"),
+        supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url, last_checked_at"),
         supabase.from("brand_contacts").select("brand_id, email, contact_url"),
         supabase.from("opportunities").select("brand_id, status, application_url"),
         supabase.from("brand_categories").select("brand_id, categories ( slug, name )"),
       ]);
       const scoreMap = new Map<string, number>();
       for (const s of scores ?? []) if (!scoreMap.has(s.brand_id as string)) scoreMap.set(s.brand_id as string, Number(s.total_score));
-      const affMap = new Map<string, { network: string | null; rate: number | null; notes: string | null; appUrl: string | null }>();
-      for (const a of affiliates ?? []) if (!affMap.has(a.brand_id as string)) affMap.set(a.brand_id as string, { network: (a.network as string) ?? null, rate: a.commission_rate != null ? Number(a.commission_rate) : null, notes: (a.commission_notes as string) ?? null, appUrl: (a.application_url as string) ?? null });
+      const affMap = new Map<string, { network: string | null; rate: number | null; notes: string | null; appUrl: string | null; checkedAt: string | null }>();
+      for (const a of affiliates ?? []) if (!affMap.has(a.brand_id as string)) affMap.set(a.brand_id as string, { network: (a.network as string) ?? null, rate: a.commission_rate != null ? Number(a.commission_rate) : null, notes: (a.commission_notes as string) ?? null, appUrl: (a.application_url as string) ?? null, checkedAt: (a.last_checked_at as string) ?? null });
       const contactMap = new Map<string, { email: string | null; url: string | null }>();
       for (const c of contacts ?? []) { const cur = contactMap.get(c.brand_id as string); if (!cur) contactMap.set(c.brand_id as string, { email: (c.email as string) ?? null, url: (c.contact_url as string) ?? null }); else { if (!cur.email && c.email) cur.email = c.email as string; if (!cur.url && c.contact_url) cur.url = c.contact_url as string; } }
       const openSet = new Set<string>(); const oppAppMap = new Map<string, string>();
@@ -105,22 +110,27 @@ export default async function DiscoverPage({
           intent.tokens,
         );
         return {
-          brand, score: scoreMap.get(brand.id) ?? 0, network: aff?.network ?? null, rate: aff?.rate ?? null, notes,
+          brand, score: scoreMap.get(brand.id) ?? 0, network: aff?.network ?? null, rate: aff?.rate ?? null, notes, checkedAt: aff?.checkedAt ?? null,
           appUrl: aff?.appUrl ?? oppAppMap.get(brand.id) ?? null,
           contactEmail: contactMap.get(brand.id)?.email ?? null, contactUrl: contactMap.get(brand.id)?.url ?? null,
           hasOpenOpp: openSet.has(brand.id),
-          uncapped: Boolean(notes && notes.includes("UNCAPPED")), low: Boolean(notes && notes.includes("Creator saturation: low")),
+          uncapped: Boolean(notes && notes.includes("UNCAPPED")), capped: Boolean(notes && notes.includes("cap: capped")), low: Boolean(notes && notes.includes("Creator saturation: low")),
           cats: catsOf, relevance, reasons,
         };
       });
     }
   }
 
-  const passes = (r: Row) => (!wantUncapped || r.uncapped) && (!wantSmall || r.low) && (minRate == null || (r.rate != null && r.rate >= minRate));
+  const passesCap = (r: Row) => capType === "uncapped" ? r.uncapped : capType === "capped" ? r.capped : capType === "unknown" ? (!r.uncapped && !r.capped) : true;
+  const passes = (r: Row) => passesCap(r) && (!wantSmall || r.low) && (minRate == null || (r.rate != null && r.rate >= minRate));
   const matched = rows.filter((r) => r.relevance > 0);
   let pool = intent.tokens.length && matched.length >= 3 ? matched : rows;
   if (catFilter) pool = pool.filter((r) => r.cats.some((c) => c.slug === catFilter));
+  if (networkSel) pool = pool.filter((r) => (r.network ?? "").toLowerCase().includes(networkSel));
   if (applyOnly) pool = pool.filter((r) => r.appUrl);
+  const networkCounts = new Map<string, number>();
+  for (const r of rows) if (r.network) networkCounts.set(r.network, (networkCounts.get(r.network) ?? 0) + 1);
+  const networkOptions = [...networkCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 16).map(([n]) => n);
   const ranked = [...pool].sort((a, b) => {
     const pa = passes(a) ? 1 : 0; const pb = passes(b) ? 1 : 0;
     if (pb !== pa) return pb - pa;
@@ -157,7 +167,16 @@ export default async function DiscoverPage({
               <option value="YouTube">YouTube</option>
               <option value="Instagram">Instagram</option>
             </select>
-            <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="uncapped" value="1" defaultChecked={wantUncapped} /> Uncapped only</label>
+            <select name="captype" defaultValue={capType} style={{ padding: "9px 13px", borderRadius: 999 }}>
+              <option value="">Any commission type</option>
+              <option value="uncapped">Uncapped ∞</option>
+              <option value="capped">Capped</option>
+              <option value="unknown">Cap unknown</option>
+            </select>
+            <select name="network" defaultValue={networkSel} style={{ padding: "9px 13px", borderRadius: 999 }}>
+              <option value="">Any affiliate program</option>
+              {networkOptions.map((n) => (<option key={n} value={n.toLowerCase()}>{n}</option>))}
+            </select>
             <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="small" value="1" defaultChecked={wantSmall} /> Smaller creators</label>
             <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="apply" value="1" defaultChecked={applyOnly} /> Accepting applications</label>
           </div>
@@ -183,7 +202,7 @@ export default async function DiscoverPage({
           <h2 style={h2style}>🏆 From the UltraVestra database</h2>
           <p style={sub}>
             Searched {rows.length} researched brands — {matched.length} matched your words
-            {wantUncapped ? " · filter: UNCAPPED ✓" : ""}{wantSmall ? " · filter: smaller creators" : ""}{minRate != null ? ` · filter: pays at least ${minRate}%` : ""}.
+            {capType === "uncapped" ? " · filter: UNCAPPED ✓" : capType === "capped" ? " · filter: capped" : capType === "unknown" ? " · filter: cap unknown" : ""}{networkSel ? ` · program: ${networkSel}` : ""}{wantSmall ? " · filter: smaller creators" : ""}{minRate != null ? ` · filter: pays at least ${minRate}%` : ""}.
             Ranked by filters, match, then Opportunity Score. Open a profile to see every fact&rsquo;s source.
           </p>
           {top.length === 0 && <p style={{ color: "#f0abfc", margin: 0 }}>Not enough verified information in the database for this search yet — see the live web results below, and try wider words.</p>}
@@ -206,6 +225,7 @@ export default async function DiscoverPage({
                 <p style={{ margin: 0, color: "#ddd0ff", fontSize: 14.5 }}>
                   {r.cats.map((c) => c.name).join(" · ")}{r.network ? ` · via ${r.network}` : " · Brand direct"}
                   {r.appUrl ? <> · <a href={r.appUrl} target="_blank" rel="noreferrer" style={{ color: "#67e8f9" }}>Apply</a></> : " · Worth pitching (no open campaign found)"}
+                  {r.checkedAt ? ` · Facts last checked ${new Date(r.checkedAt).toISOString().slice(0, 10)}` : ""}
                   {" "}· <Link href={`/brands/${r.brand.id}`} style={{ color: "#f0abfc" }}>Full profile &amp; sources →</Link>
                 </p>
               </article>
