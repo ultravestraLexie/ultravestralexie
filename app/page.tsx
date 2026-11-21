@@ -192,57 +192,60 @@ export default function LandingPage() {
           >
             UltraVestra
           </h1>
-          <p style={{ fontSize: 21, margin: "0 auto", maxWidth: 640, fontWeight: 600 }}>
-            Less time searching. More time creating.
-            <br />
-            Smarter brand partnerships.
+          <p style={{ fontSize: 27, margin: "0 auto", maxWidth: 680, fontWeight: 800 }}>
+            Find your next opportunity.
           </p>
           <p
             style={{
-              fontSize: 16,
+              fontSize: 16.5,
               color: "#ddd0ff",
-              maxWidth: 620,
-              margin: "14px auto 0",
+              maxWidth: 640,
+              margin: "12px auto 0",
             }}
           >
-            The UGC brand intelligence platform. Find the brands worth pitching,
-            see the right contact, understand what creators actually earn, and
-            send a professional pitch — all in one place.
+            Search brands, products, commissions, campaigns, creator tips, and more —
+            across the verified UltraVestra intelligence database <em>and</em> the live web.
+          </p>
+          <p style={{ fontSize: 15, color: "#f0abfc", fontWeight: 700, margin: "10px auto 0", letterSpacing: 0.4 }}>
+            Search smarter. Find better brands. Create content that sells.
           </p>
           <form
-            action="/brands"
+            action="/discover"
             method="get"
             style={{
               display: "flex",
               gap: 10,
               justifyContent: "center",
-              marginTop: 28,
+              marginTop: 26,
               flexWrap: "wrap",
             }}
           >
             <input
               type="text"
               name="q"
-              placeholder="Search brands in the Galaxy…"
+              placeholder="Search anything… e.g. beauty brands with uncapped commissions"
               style={{
-                width: 340,
-                maxWidth: "85vw",
-                padding: "13px 18px",
+                width: 460,
+                maxWidth: "88vw",
+                padding: "14px 20px",
                 borderRadius: 999,
                 border: "1px solid #a855f7",
-                background: "rgba(10,5,28,0.82)",
-                boxShadow: "0 0 22px rgba(168,85,247,0.35)",
+                background: "rgba(10,5,28,0.85)",
+                boxShadow: "0 0 26px rgba(168,85,247,0.4)",
+                fontSize: 16,
               }}
             />
             <button
               type="submit"
+              className="neon-btn"
               style={{
-                padding: "13px 26px",
+                padding: "14px 30px",
                 borderRadius: 999,
                 border: "none",
                 background: "linear-gradient(92deg, #a855f7, #e879f9)",
                 color: "#ffffff",
-                fontWeight: 700,
+                fontWeight: 800,
+                fontSize: 16,
                 boxShadow: "0 0 26px rgba(232,121,249,0.5)",
               }}
             >
@@ -253,37 +256,35 @@ export default function LandingPage() {
             style={{
               marginTop: 20,
               display: "flex",
-              gap: 12,
+              gap: 10,
               justifyContent: "center",
               flexWrap: "wrap",
             }}
           >
-            <Link
-              href="/brands"
-              style={{
-                border: "1px solid #c084fc",
-                background: "rgba(27,18,61,0.75)",
-                padding: "11px 22px",
-                borderRadius: 999,
-                textDecoration: "none",
-                fontWeight: 600,
-              }}
-            >
-              Browse brands
-            </Link>
-            <Link
-              href="/pricing"
-              style={{
-                border: "1px solid #3d2a6e",
-                background: "rgba(10,5,28,0.6)",
-                padding: "11px 22px",
-                borderRadius: 999,
-                textDecoration: "none",
-                fontWeight: 600,
-              }}
-            >
-              See plans
-            </Link>
+            {[
+              ["Find brands", "/discover?q=brands+with+affiliate+programs"],
+              ["Find commissions", "/discover?q=uncapped+commissions"],
+              ["Find campaigns", "/discover?q=brands+accepting+applications"],
+              ["Improve my videos", "/academy"],
+              ["Find brand contacts", "/discover?q=brand+contacts"],
+              ["Learn creator skills", "/academy"],
+            ].map(([label, href]) => (
+              <Link
+                key={label}
+                href={href}
+                style={{
+                  border: "1px solid #c084fc",
+                  background: "rgba(27,18,61,0.78)",
+                  padding: "10px 20px",
+                  borderRadius: 999,
+                  textDecoration: "none",
+                  fontWeight: 600,
+                  fontSize: 15,
+                }}
+              >
+                {label}
+              </Link>
+            ))}
           </p>
           <div
             style={{
@@ -295,9 +296,9 @@ export default function LandingPage() {
             }}
           >
             {[
-              ["330+", "brands researched & sourced"],
-              ["7", "worlds in one universe"],
-              ["8", "answers in every Ask report"],
+              ["400+", "brands researched & sourced"],
+              ["2", "search engines — database + live web"],
+              ["5", "connected experiences"],
             ].map(([num, label]) => (
               <div
                 key={label}

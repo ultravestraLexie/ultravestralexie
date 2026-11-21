@@ -76,7 +76,11 @@ export default async function RootLayout({
             </span>
           </Link>
           <nav style={{ display: "flex", gap: 16, fontSize: 15 }}>
-            <Link href="/brands">Brands</Link>
+            <Link href="/discover">Discover</Link>
+            <Link href="/brands">Brand Intelligence</Link>
+            <Link href="/opportunities">Opportunities</Link>
+            <Link href="/academy">Creator Academy</Link>
+            <Link href="/coach">Video Coach</Link>
             <Link href="/ask" style={{ fontWeight: 700, color: "#f0abfc" }}>Ask UltraVestra</Link>
             <Link href="/saved">Saved</Link>
             <Link href="/pricing">Pricing</Link>
