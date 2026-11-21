@@ -1,0 +1,624 @@
+[
+ {
+  "name": "Swarovski",
+  "website": "https://www.swarovski.com",
+  "country": "Austria",
+  "category_slug": "fashion",
+  "description": "Austrian luxury brand founded in 1895 in Wattens, known for precision-cut crystal jewelry, watches, accessories and home decor, sold through its own site and boutiques worldwide.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/swarovski/",
+    "summary": "LinkClicky's program listing (read first-hand) states Swarovski's affiliate program runs on the Impact platform at 4% per sale, described as the rate officially listed with the program; applications go through app.impact.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://merchants.sovrn.com/merchants/134/swarovski-affiliate-program",
+    "summary": "Sovrn Commerce's merchant page independently lists Swarovski at 4% per sale with a 30-day cookie, corroborating the 4% figure."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/swarovski/",
+    "summary": "Lasso's directory lists 3.2% per sale and LinkApprove's category table lists up to 8%, both conflicting with the 4% officially listed figure, so the recorded rate follows the network listing and the conflict is documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/swarovski/",
+    "summary": "Swarovski, founded 1895, is renowned for precision-cut crystals across jewelry, watches and home decor, sold globally via swarovski.com and boutiques."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 4,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/swarovski/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/swarovski/",
+   "title": "Swarovski Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Crystal jewelry and accessories are core fashion-creator content — styling, gifting and occasion looks.",
+    "ugc_evidence": "A long-running network affiliate program that fashion and jewelry creators routinely promote; no brand-run creator community is published.",
+    "compensation": "A published 4% per sale on Impact per the network listing, corroborated by Sovrn at 4%; Lasso's 3.2% and LinkApprove's up-to-8% figures conflict and are documented.",
+    "contact_access": "Application runs through the Impact platform; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Impact, subject to standard network approval.",
+    "credibility": "Heritage luxury brand founded in 1895 with global boutiques and its own e-commerce."
+   }
+  }
+ },
+ {
+  "name": "Pandora",
+  "website": "https://us.pandora.net",
+  "country": "Denmark",
+  "category_slug": "fashion",
+  "description": "Danish jewelry brand headquartered in Copenhagen, the world's largest jewelry manufacturer by volume, known for customizable charm bracelets plus rings, necklaces and earrings sold in 100+ countries.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/pandora/",
+    "summary": "LinkClicky lists Pandora's affiliate program on Rakuten Advertising at 2% per sale for CA/GB/US, described as the rate officially listed with the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.fmtc.co/fmtc-featured-merchant-pandora/",
+    "summary": "FMTC's featured-merchant profile confirms the Pandora Jewelry Affiliate Program is live on Rakuten Advertising, with baseline rates plus higher commissions for new-customer acquisitions and flat-fee partnership opportunities for strong performers."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkapprove.com/affiliate-programs/category/jewelry-watches",
+    "summary": "Rate conflict: LinkApprove's jewelry table lists Pandora at 6% per sale and other roundups cite 5-8%, against LinkClicky's officially listed 2% on Rakuten, so no single rate could be verified and commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/pandora/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.fmtc.co/fmtc-featured-merchant-pandora/",
+   "title": "Pandora Jewelry Affiliate Program (via Rakuten Advertising)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Charm bracelets and accessible jewelry are staple fashion and gifting content for creators.",
+    "ugc_evidence": "An established network program with performance incentives and flat-fee partnership opportunities for strong affiliates per FMTC.",
+    "compensation": "Program confirmed on Rakuten Advertising, but published rates conflict (2% officially listed vs 6% and 5-8% elsewhere), so the rate is recorded as null rather than guessed.",
+    "contact_access": "Application runs through Rakuten Advertising; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Rakuten Advertising, subject to network approval.",
+    "credibility": "The world's largest jewelry brand by volume, headquartered in Copenhagen and sold in more than 100 countries."
+   }
+  }
+ },
+ {
+  "name": "Tommy Hilfiger",
+  "website": "https://usa.tommy.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American premium lifestyle brand founded in 1985 by Tommy Hilfiger (part of PVH Corp.), selling classic American apparel, footwear and accessories in more than 100 countries.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/tommy-hilfiger/",
+    "summary": "LinkClicky lists the Tommy Hilfiger affiliate program on Rakuten Advertising at 2% per sale for CA/US, described as the rate officially listed with the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.affjumbo.com/new-offer-launched-tommy-hilfiger-affiliate-program/",
+    "summary": "Affjumbo's offer page independently lists Tommy Hilfiger at a flat 2% commission with a 30-day cookie, corroborating the 2% figure."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/tommy-hilfiger/",
+    "summary": "Lasso lists 8% per sale, conflicting with the 2% figures; the recorded rate follows the two corroborating 2% listings and the conflict is documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 2,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/tommy-hilfiger/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Classic American apparel and accessories with broad creator appeal across men's and women's fashion content.",
+    "ugc_evidence": "A long-standing network affiliate program used by fashion publishers; no brand-run creator community is published.",
+    "compensation": "Published 2% per sale on Rakuten Advertising, corroborated by a second listing; Lasso's 8% conflicts and is documented.",
+    "contact_access": "Application runs through Rakuten Advertising; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Rakuten Advertising, though the brand states it works with a limited number of high-quality sites.",
+    "credibility": "Global PVH brand founded in 1985, sold in 2,000+ stores across 100+ countries."
+   }
+  }
+ },
+ {
+  "name": "Vans",
+  "website": "https://www.vans.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American footwear and apparel brand founded in 1966 in California (part of VF Corporation), an icon of skate and youth culture selling sneakers, clothing and accessories worldwide.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/vans/",
+    "summary": "Lasso's directory lists the Vans affiliate program at 1.6% per sale with a 30-day cookie."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.whichprogram.com/en/country/us?network=flexoffers",
+    "summary": "WhichProgram's FlexOffers network listing shows Vans at up to 8% per sale with a 30-day cookie, application required — conflicting with Lasso's 1.6%, so no single rate could be verified."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/top-10-best-us-shoes-influencer-affiliate-programs",
+    "summary": "Creator Hero's shoe-program roundup confirms Vans runs an affiliate program with sign-up via the affiliate page on vans.com, citing the same 1.6% per sale figure."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.whichprogram.com/en/country/us?network=flexoffers",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Skate and streetwear staples with a young, content-native audience — strong fashion and footwear creator fit.",
+    "ugc_evidence": "Vans is deeply embedded in skate and creator culture and maintains a public affiliate route on its own site.",
+    "compensation": "Published figures conflict (1.6% per Lasso vs up to 8% on the FlexOffers listing vs 5% elsewhere), so the rate is recorded as null rather than guessed.",
+    "contact_access": "Routes run through the network listing and the brand's own affiliate page; no public partnerships email could be verified (the brand's own page could not be fetched directly).",
+    "opportunity_availability": "Application required via the network; approval standards are not published.",
+    "credibility": "Iconic VF Corporation brand founded in 1966 with global retail and e-commerce."
+   }
+  }
+ },
+ {
+  "name": "VICI Collection",
+  "website": "https://www.vici.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "California-based women's fashion boutique selling trend-led clothing, shoes and accessories online, built around influencer and social-media-driven merchandising.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.netinfluencer.com/vici-collection-influencer-program/",
+    "summary": "NetInfluencer's profile of VICI's own brand ambassador program (read from VICI's website) states ambassadors earn 5% commission on purchases made using their code, plus a 20% off personalized link for followers and a 40% personal discount up to $350."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.netinfluencer.com/vici-collection-influencer-program/",
+    "summary": "The same profile lists the program's creator requirements: minimum 5,000 social followers, a public Instagram account, US-based, 18+, fashion and lifestyle curated feeds, with monthly posting requirements across TikTok and Instagram."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://www.netinfluencer.com/vici-collection-influencer-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.netinfluencer.com/vici-collection-influencer-program/",
+   "title": "VICI Brand Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 17,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 6,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A women's boutique whose entire merchandising model is influencer-led — near-perfect fashion creator fit.",
+    "ugc_evidence": "The brand runs its own ambassador program with defined monthly content requirements on TikTok and Instagram and features ambassador content.",
+    "compensation": "Published 5% commission on code purchases per the program profile, plus follower discounts; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "A public ambassador program page on the brand's own site with a sign-in/application route.",
+    "opportunity_availability": "Open to apply but gated: 5,000+ followers, public Instagram, US-based and 18+ required.",
+    "credibility": "Established online boutique, smaller and less independently documented than the public-company brands in this batch."
+   }
+  }
+ },
+ {
+  "name": "American Eagle",
+  "website": "https://www.ae.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American specialty retailer (American Eagle Outfitters, founded 1977, Pittsburgh) selling jeans, apparel and accessories for young customers through ae.com and stores across North America and beyond.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/american-eagle-outfitters/",
+    "summary": "LinkClicky lists the American Eagle Outfitters affiliate program on CJ Affiliate at 1%-2% per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://gosavify.com/affiliate-programs/american-eagle/",
+    "summary": "GoSavify's program profile reports American Eagle on CJ Affiliate (US) with a base rate of about 2% for most publishers, noting the brand does not publish its terms itself."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/aerie",
+    "summary": "Referly's AEO program coverage notes American Eagle also runs an AE Creator Community offering affiliate commission, gifting and marketing features, parallel to the Aerie Realmakers community."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 2,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/american-eagle-outfitters/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Denim and casual apparel for a young audience — a core fashion-creator category.",
+    "ugc_evidence": "Alongside the network program, AEO runs creator communities (AE Creator Community) blending commission, gifting and brand features.",
+    "compensation": "Base rate of about 2% per sale on CJ Affiliate per corroborating listings (range listings run 1-2%); the brand publishes no terms itself.",
+    "contact_access": "Application runs through CJ Affiliate; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through CJ Affiliate; the company has described the program as being in a test-and-learn phase, so terms may change.",
+    "credibility": "Publicly traded specialty retailer founded in 1977 with a large North American store base."
+   }
+  }
+ },
+ {
+  "name": "Marriott",
+  "website": "https://www.marriott.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Marriott International, the world's largest hotel company, headquartered in Bethesda, Maryland, operating 30+ hotel brands and over 8,500 properties across 138 countries and territories.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "affiliatemanager@marriott.com",
+    "source_url": "https://www.marriott.com/marriott/affiliateprogramfaq.mi"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.marriott.com/marriott/affiliateprogramfaq.mi",
+    "summary": "Marriott's own Affiliate Program FAQ (fetched first-hand) states Marriott has partnered with Partnerize for its affiliate program, that joining is free via the Partnerize sign-up link, and that affiliates earn commissions on completed stays across 8,500+ properties in 138 countries with a 7-day latency period."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.marriott.com/marriott/affiliateprogramfaq.mi",
+    "summary": "The same official FAQ states commissions are paid on the net base sales amount (excluding taxes, fees, food and beverage) and that the referral fee rate is only shown in the console after becoming an affiliate — no public rate is published, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.marriott.com/marriott/affiliateprogramfaq.mi",
+    "summary": "The official FAQ publishes affiliatemanager@marriott.com for affiliate inquiries and declined-application appeals, and lists a dedicated Affiliate Support Team as a program benefit."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/niche/hotel/",
+    "summary": "Third-party roundups cite 3%-6% per sale for Marriott, but the brand's own page publishes no rate, so those figures are documented here only and not recorded as the rate."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.marriott.com/marriott/affiliateprogramfaq.mi",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.marriott.com/marriott/affiliateprogramfaq.mi",
+   "title": "Marriott International Affiliate Program (via Partnerize)"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Hotels are a primary travel-creator category, and Marriott's 30+ brands cover every budget and content style.",
+    "ugc_evidence": "A formal affiliate program with data feeds, deep linking and creator-ready tools, though aimed at publishers generally rather than a creator community.",
+    "compensation": "The program is confirmed on the brand's own page, but Marriott publishes no rate publicly (shown only in the affiliate console); third parties cite 3-6%, documented but not recorded.",
+    "contact_access": "A published affiliate-manager email and dedicated support team on the brand's own FAQ page.",
+    "opportunity_availability": "Free to join via Partnerize, but every application is manually reviewed and can be declined at Marriott's discretion.",
+    "credibility": "The world's largest hotel company, founded 1927, headquartered in Bethesda, Maryland."
+   }
+  }
+ },
+ {
+  "name": "Hilton",
+  "website": "https://www.hilton.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Hilton Worldwide, a leading global hospitality company headquartered in McLean, Virginia, operating 24 brands and more than 8,000 properties across 100+ countries.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.nichepursuits.com/hilton-affiliate-program/",
+    "summary": "NichePursuits' program review states the Hilton Global Affiliate Program pays a flat 4% commission on bookings and is operated through Awin and Skimlinks, with a 7-day cookie."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-programs/hotel/",
+    "summary": "Uppromote's hotel program list states the Hilton affiliate program is managed through Awin at 4% commission with a 30-day cookie and a free-access property data feed for affiliates."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/hilton/",
+    "summary": "Lasso lists tiered rates of 1.6%, 3.2% and 4%, and Commissiondex lists the program on Impact at 4% — the recorded 4% follows the corroborated headline figure, with the network recorded as Awin per two sources and the Impact listing documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 4,
+   "application_url": null,
+   "source_url": "https://www.nichepursuits.com/hilton-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Hotels across 24 brands from luxury to budget give travel creators inventory for every audience.",
+    "ugc_evidence": "A formal network affiliate program with a property data feed; no brand-run creator community is published.",
+    "compensation": "Published 4% per booking via Awin, corroborated by multiple program reviews; tiered lower rates appear in one directory and are documented.",
+    "contact_access": "Application runs through Awin; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Awin, with approval favoring established travel sites and creators.",
+    "credibility": "One of the world's largest hospitality companies, founded 1919, headquartered in McLean, Virginia."
+   }
+  }
+ },
+ {
+  "name": "Rail Europe",
+  "website": "https://www.raileurope.com",
+  "country": "France",
+  "category_slug": "travel",
+  "description": "Rail Europe, headquartered in Paris and backed by SNCF and other European rail operators, is the global reference for booking European train tickets and rail passes from 100+ operators including Eurostar, SNCF and Trenitalia.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "affiliates@raileurope.com",
+    "source_url": "https://www.raileurope.com/en-us/blog/how-to-earn-with-the-rail-europe-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.raileurope.com/en-us/blog/how-to-earn-with-the-rail-europe-affiliate-program",
+    "summary": "Rail Europe's own affiliate guide states commissions are tracked and paid via Rakuten Advertising (Program ID 42638), open to travel bloggers, content creators and social-media publishers, with affiliates@raileurope.com published for questions."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://files.statics.raileurope.com/Rail_Europe_Affiliate_Program.pdf",
+    "summary": "Rail Europe's official Program Welcome Guide confirms the program runs on the Rakuten Advertising platform, that requests are approved manually (approval can take up to a week), and that commission is paid monthly via Rakuten."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/train-affiliate-programs/",
+    "summary": "Rate conflict: Travelpayouts lists Rail Europe at 1.3% on tickets and 1.8% on passes through its own network route, its brand page elsewhere cites 3%/4%, and directories cite 1-3% — the brand's own pages publish no rate, so commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.raileurope.com/en-us/blog/how-to-earn-with-the-rail-europe-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.raileurope.com/en-us/blog/how-to-earn-with-the-rail-europe-affiliate-program",
+   "title": "Rail Europe Affiliate Program (via Rakuten Advertising, Program ID 42638)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "European rail is a high-intent niche for travel creators making itinerary and transport content.",
+    "ugc_evidence": "The brand's own guide explicitly invites travel bloggers, content creators and social publishers, with banners and tracking assets provided.",
+    "compensation": "Program confirmed on the brand's own pages, but no rate is published there and third-party figures conflict (1.3%/1.8% vs 3%/4%), so the rate is recorded as null.",
+    "contact_access": "A published affiliate contact email on the brand's own site plus a detailed official welcome guide.",
+    "opportunity_availability": "Open application via Rakuten Advertising with manual approval that can take up to a week.",
+    "credibility": "The reference booking platform for European rail for 90 years, working with 15,000+ partners in 70+ countries."
+   }
+  }
+ },
+ {
+  "name": "Enterprise Rent-A-Car",
+  "website": "https://www.enterprise.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Enterprise Rent-A-Car, founded in 1957 and headquartered in St. Louis, Missouri, is the flagship brand of Enterprise Mobility and one of the world's largest car rental companies, with thousands of neighborhood and airport locations.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "EnterpriseAffiliate@ehi.com",
+    "source_url": "https://www.enterprise.com/en/about/enterprise-affiliate.html"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.enterprise.com/en/about/enterprise-affiliate.html",
+    "summary": "Enterprise's own affiliate program page states partners can earn a commission of up to 2.5% on all qualifying revenue from reservations made via their links, and publishes EnterpriseAffiliate@ehi.com for program questions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/enterprise-rent-a-car/",
+    "summary": "LinkClicky lists the Enterprise Rent-A-Car affiliate program on the Impact platform at 2% per car rental for CA/US, described as the rate officially listed with the program."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/enterprise-rent-a-car-usa/",
+    "summary": "Lasso lists 2.4% per sale; the recorded 2% follows LinkClicky's officially listed Impact figure inside the brand's own up-to-2.5% ceiling, with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 2,
+   "application_url": "https://www.enterprise.com/en/about/enterprise-affiliate.html",
+   "source_url": "https://linkclicky.com/affiliate-program/enterprise-rent-a-car/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.enterprise.com/en/about/enterprise-affiliate.html",
+   "source_url": "https://www.enterprise.com/en/about/enterprise-affiliate.html",
+   "title": "Enterprise Rent-A-Car Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 8,
+   "compensation": 8,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Car rental is a practical travel-creator category for road-trip, itinerary and travel-hack content.",
+    "ugc_evidence": "A formal affiliate program with banners, text links and search boxes; aimed at publishers generally rather than a creator community.",
+    "compensation": "Published 2% per rental on Impact per the network listing, inside the brand's own published ceiling of up to 2.5% of qualifying revenue; Lasso's 2.4% conflicts and is documented.",
+    "contact_access": "A published affiliate program email on the brand's own affiliate page, plus a full program information page.",
+    "opportunity_availability": "Open application via the brand's affiliate page and Impact, covering US and Canada programs.",
+    "credibility": "Flagship brand of Enterprise Mobility, one of the world's largest rental car companies, founded in 1957."
+   }
+  }
+ }
+]

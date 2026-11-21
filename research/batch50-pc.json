@@ -1,0 +1,521 @@
+[
+ {
+  "name": "GamerSupps",
+  "website": "https://gamersupps.gg",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US gaming beverage brand selling sugar-free powdered energy and focus drink mixes, hydration products and merchandise direct to consumers, with creator partnerships at the center of its marketing.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gamersupps.gg/pages/partnership",
+    "summary": "GamerSupps' official Partnerships page invites creator applications with no follower minimum, offers partners flexible discount codes, and describes an Infantry Program pathway into full partnership."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://gamersupps.gg/pages/partnership",
+    "summary": "The page states partner compensation is worked out individually at an onboarding meeting and publishes no commission rate, so no rate could be recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://gamersupps.gg/pages/partnership",
+   "source_url": "https://gamersupps.gg/pages/partnership",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "GamerSupps Partnership Program",
+   "application_url": "https://gamersupps.gg/pages/partnership",
+   "source_url": "https://gamersupps.gg/pages/partnership"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 4,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Powdered gaming energy and focus drinks are a core creator niche product, sold almost entirely through streamer and gaming content.",
+    "ugc_evidence": "The official Partnerships page documents a structured creator program with discount codes and an Infantry Program pathway for smaller creators.",
+    "compensation": "Compensation is set individually at an onboarding meeting and no rate is published anywhere found, so this stays at or below 5.",
+    "contact_access": "A public partnership application page exists on the official site, though no partnerships email is published.",
+    "opportunity_availability": "Applications are publicly open with no follower minimum stated on the program page.",
+    "credibility": "Established DTC gaming beverage brand with a large creator roster and national online retail presence."
+   }
+  }
+ },
+ {
+  "name": "Dubby Energy",
+  "website": "https://www.dubby.gg",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US brand selling sugar-free powdered energy drink mixes for gamers and streamers, promoted through a large creator discount-code partner program run on GoAffPro.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.dubby.gg/pages/dubby-partner",
+    "summary": "Dubby's partner page routes creators into its sponsorship program, which runs on the GoAffPro platform at dubbysponsorship.goaffpro.com and is built around personal discount codes."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.dubby.gg/pages/dubby-partner",
+    "summary": "Partner approval emails from the brand, shared publicly by partners, state a 10% commission on sales made with a partner's code plus a 30% lifetime personal discount; one email showed a temporary 20% rate during a Partner Appreciation Week."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.dubby.gg/pages/dubby-partner",
+    "summary": "The brand's partner approval emails put its partner Discord community at over 28,000 creators — an absolute-terms count, so creator saturation is recorded as high."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 10,
+   "application_url": "https://dubbysponsorship.goaffpro.com",
+   "source_url": "https://www.dubby.gg/pages/dubby-partner",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Dubby Energy Partner Program",
+   "application_url": "https://dubbysponsorship.goaffpro.com",
+   "source_url": "https://www.dubby.gg/pages/dubby-partner"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Gaming energy drink mixes promoted through streamers are squarely in the food-drink creator niche.",
+    "ugc_evidence": "A formal partner program with tens of thousands of creators in its Discord and code-based selling across Twitch and TikTok.",
+    "compensation": "A 10% commission on code sales is documented in the brand's own partner approval emails, with a 30% personal discount on top.",
+    "contact_access": "A public partner page and a direct GoAffPro application portal; no published partnerships email.",
+    "opportunity_availability": "Partner applications are open through the GoAffPro portal, though the program is already very large.",
+    "credibility": "Operating DTC gaming brand with a big creator community, but a smaller and younger company than national retail brands."
+   }
+  }
+ },
+ {
+  "name": "Sneak Energy",
+  "website": "https://sneakenergy.com",
+  "country": "United Kingdom",
+  "category_slug": "food-drink",
+  "description": "UK gaming energy brand selling powdered energy drink mixes and shakers direct to consumers, running both a network affiliate program on Impact and its own Sneak Legion streamer scheme.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/sneak-energy/",
+    "summary": "LinkClicky's affiliate directory lists Sneak Energy's program on the Impact platform at 8% commission per sale, described as the rate officially listed with the program (page last updated March 11, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/DGN7LhBx4Yl/",
+    "summary": "A February 2025 post on the brand's official Instagram announced the Sneak Legion affiliate scheme was accepting Twitch streamers with an average viewership of at least 15, confirming an active creator recruitment channel beyond the network program."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 8,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/sneak-energy/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 5,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Gaming energy drinks built for streamer audiences — a proven creator-led food-drink niche.",
+    "ugc_evidence": "Two creator channels are documented: the Impact affiliate program and the brand's own Sneak Legion streamer scheme with public recruitment posts.",
+    "compensation": "A published 8% per sale rate on Impact per the network directory listing.",
+    "contact_access": "No public application page or partnerships email was verified; joining runs through the Impact network.",
+    "opportunity_availability": "The Impact program is joinable through the network and Legion recruits publicly, but Legion is limited to Twitch streamers meeting a viewership floor.",
+    "credibility": "Established UK DTC brand with a large social following and international shipping."
+   }
+  }
+ },
+ {
+  "name": "Zhou Nutrition",
+  "website": "https://www.zhounutrition.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Utah-founded US supplement brand (founded 2014) selling vitamins, minerals and targeted wellness formulas — including creatine, sleep and women's health products — direct to consumers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "social@zhounutrition.com",
+    "source_url": "https://www.zhounutrition.com/pages/affiliate-program-terms-and-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.zhounutrition.com/pages/affiliate-program-terms-and-conditions",
+    "summary": "Zhou's own affiliate terms state the program is powered by Social Snowball, affiliates earn on qualifying sales through a unique referral link or code, and commissions are paid monthly via PayPal after the return period; eligibility is US-based affiliates aged 18+."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.zhounutrition.com/pages/affiliate-program-terms-and-conditions",
+    "summary": "The brand's affiliate terms direct affiliates to contact social@zhounutrition.com for marketing materials."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/zhou-nutrition/",
+    "summary": "Third-party rates conflict: Lasso lists 10% per sale with a 30-day cookie, while Shopper lists up to 1.13% per sale (shopper.com/partnerships/zhounutrition-com-affiliate-program), and the brand's own terms do not publish a rate — so no commission rate could be verified and none is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Social Snowball",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.zhounutrition.com/pages/affiliate-program-terms-and-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 4,
+   "contact_access": 9,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Mainstream supplements (creatine, sleep, women's health) are a core wellness creator niche.",
+    "ugc_evidence": "A formal affiliate program with referral links/codes and published terms exists on the brand's own site, but no structured ambassador or UGC program was documented.",
+    "compensation": "The brand publishes no rate in its terms and third-party listings conflict (10% vs up to 1.13%), so this stays at or below 5.",
+    "contact_access": "A program contact email (social@zhounutrition.com) is published in the brand's own affiliate terms.",
+    "opportunity_availability": "The program is live under published terms, but no public application form was verified and approval is at the brand's discretion.",
+    "credibility": "Founded 2014 in Utah with national DTC and marketplace distribution."
+   }
+  }
+ },
+ {
+  "name": "Nested Naturals",
+  "website": "https://nestednaturals.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US supplement brand selling plant-based sleep, probiotic, magnesium and wellness formulas direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/nested-naturals/",
+    "summary": "Lasso's affiliate directory lists the Nested Naturals program at 15% per sale with a 30-day cookie, and its join link routes to the Impact platform (app.impact.com)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/nestednaturals-com-affiliate-program",
+    "summary": "Shopper lists the Nested Naturals US program at up to 3.53% per sale, which conflicts with Lasso's 15%, so no commission rate could be verified and none is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/nested-naturals/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 9,
+   "compensation": 4,
+   "contact_access": 5,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sleep and gut-health supplements are a staple wellness creator niche.",
+    "ugc_evidence": "A network affiliate program on Impact is documented, but no brand-run ambassador or UGC program was found.",
+    "compensation": "Third-party rates conflict (15% on Lasso vs up to 3.53% on Shopper) with no rate published by the brand, so this stays at or below 5.",
+    "contact_access": "No public application page or contact email was verified; joining runs through Impact.",
+    "opportunity_availability": "The Impact listing is active and joinable through the network.",
+    "credibility": "Established US supplement brand with long-running DTC and Amazon sales."
+   }
+  }
+ },
+ {
+  "name": "Santevia",
+  "website": "https://santevia.com",
+  "country": "Canada",
+  "category_slug": "health",
+  "description": "Canadian water filtration brand selling alkaline water pitchers, filters and shower filters that mineralize tap water and raise its pH.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/santevia/",
+    "summary": "Lasso's affiliate directory lists the Santevia affiliate program at 10% per sale, and its join link routes to ShareASale."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.Shopper.com/partnerships/santevia-com-affiliate-program",
+    "summary": "Shopper lists a 5-10% payout range for Santevia; Lasso's 10% sits at the top of that range, so 10% is recorded with the range noted for review."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/santevia/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 8,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Alkaline water filtration fits the health and wellness niche, though it is a narrower product category than supplements or drinks.",
+    "ugc_evidence": "A ShareASale affiliate program is documented; no separate ambassador or UGC program was found.",
+    "compensation": "A 10% per sale rate is listed by Lasso with the ShareASale join route; a second directory's 5-10% range tops out at the same figure.",
+    "contact_access": "No public application page or contact email was verified; joining runs through ShareASale.",
+    "opportunity_availability": "The ShareASale program is active and open to network affiliates.",
+    "credibility": "Long-running Canadian water filtration brand with retail distribution in Canada and the US."
+   }
+  }
+ },
+ {
+  "name": "ZeroWater",
+  "website": "https://zerowater.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "US water filtration brand (Culligan ZeroWater) selling pitchers and dispensers with 5-stage filters, sold through its own website and major national retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://zerowater.com/pages/affiliate",
+    "summary": "ZeroWater's official affiliate page advertises 'Up to 20% Commission on Sales' with a free starter kit and a trackable affiliate link. 'Up to' is a rate ceiling rather than a single published rate, so no commission rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://zerowater.com/pages/affiliate",
+   "source_url": "https://zerowater.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ZeroWater Affiliate Program",
+   "application_url": "https://zerowater.com/pages/affiliate",
+   "source_url": "https://zerowater.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 5,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Water filtration is a steady health and home-wellness niche with strong review and demo content potential.",
+    "ugc_evidence": "The brand runs its own affiliate page with a starter kit and trackable links, aimed at content publishers.",
+    "compensation": "Only an 'up to 20%' ceiling is published — no base rate — so compensation scores low despite the high ceiling.",
+    "contact_access": "A public affiliate page on the official site is the application route; no separate partnerships email was verified.",
+    "opportunity_availability": "The affiliate page is live on the official site and invites sign-ups.",
+    "credibility": "National retail brand under Culligan with certified filtration claims and wide US distribution."
+   }
+  }
+ },
+ {
+  "name": "Nerdy Nuts",
+  "website": "https://www.nerdynuts.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "South Dakota peanut butter brand founded in 2019 by Craig Mount and Erika Peterson, selling small-batch flavored peanut butters direct to consumers; it grew past $500,000 in monthly sales largely through TikTok creator partnerships.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://collabstr.com/blog/How-a-Small-Business-Used-TikTok-Influencers-to-Drive-500k-a-Month-in-Sales",
+    "summary": "CollabStr's case study reports Nerdy Nuts was founded in summer 2019 in South Dakota by Craig Mount and Erika Peterson, starting at farmers markets before moving to direct-to-consumer sales."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://collabstr.com/blog/How-a-Small-Business-Used-TikTok-Influencers-to-Drive-500k-a-Month-in-Sales",
+    "summary": "The case study reports the founder offered TikTok influencers free product plus a 10% cut of all sales; the first campaign produced 5,947 sales and the brand passed $500,000 in monthly sales by August 2020, and the brand continues to run an ambassador program with personal discount codes."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://collabstr.com/blog/How-a-Small-Business-Used-TikTok-Influencers-to-Drive-500k-a-Month-in-Sales",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Flavored peanut butter is a highly visual, taste-test friendly food product — a proven TikTok food niche.",
+    "ugc_evidence": "Creator marketing is the brand's documented growth engine: a CollabStr case study details influencer campaigns driving 5,947 sales in one push and $500k monthly revenue, and an ambassador program continues today.",
+    "compensation": "A 10% cut of all sales for influencers is documented in the CollabStr case study of the brand's own program.",
+    "contact_access": "No public application page or partnerships email was verified in the sources read; recruitment appears to run through the brand's site and socials.",
+    "opportunity_availability": "The ambassador program is active, but no open application route was verified.",
+    "credibility": "Real operating DTC brand since 2019 with national press coverage, though still a small business."
+   }
+  }
+ },
+ {
+  "name": "Universal Yums",
+  "website": "https://www.universalyums.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US subscription box company delivering curated snack boxes from a different country each month, sold direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/universal-yums/",
+    "summary": "Lasso's listing (read in full) states the Universal Yums affiliate program pays a flat $10 per sale with a 30-day cookie, and its join link routes to ShareASale (account.shareasale.com). The flat bounty is recorded here; commission_rate is left null because that field carries percentage rates."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/universal-yums/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 8,
+   "compensation": 11,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "International snack boxes are built for unboxing and taste-test content — a strong food creator niche.",
+    "ugc_evidence": "A ShareASale affiliate program is documented; no brand-run ambassador program was found.",
+    "compensation": "A flat $10 per sale bounty with a 30-day cookie is published on the program listing — a solid, unambiguous payout, recorded in evidence rather than as a percentage.",
+    "contact_access": "No public application page or contact email was verified; joining runs through ShareASale.",
+    "opportunity_availability": "The ShareASale program is active and open to network affiliates.",
+    "credibility": "Well-known US subscription box brand operating since 2014 with a large subscriber base."
+   }
+  }
+ },
+ {
+  "name": "Monday",
+  "website": "https://drinkmonday.co",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US zero-proof spirits brand (Drink Monday Inc.) selling alcohol-free gin, whiskey and mezcal alternatives for the mindful-drinking market.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/drink-monday-inc/",
+    "summary": "Lasso's listing (read in full) states the Drink Monday Inc. affiliate program pays 10% per sale, and its join link routes to ShareASale (shareasale.com)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/drink-monday-inc/",
+    "summary": "The listing describes Monday as a maker of alcohol-free spirits positioned for health-conscious, mindful drinkers."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/drink-monday-inc/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 8,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Zero-proof spirits sit in the fast-growing mindful-drinking niche with strong mocktail content potential.",
+    "ugc_evidence": "A ShareASale affiliate program is documented; no brand-run ambassador program was found.",
+    "compensation": "A 10% per sale rate is published on the program listing with a ShareASale join route.",
+    "contact_access": "No public application page or contact email was verified; joining runs through ShareASale.",
+    "opportunity_availability": "The ShareASale program is active and open to network affiliates.",
+    "credibility": "Established US non-alcoholic spirits brand with national DTC and retail distribution."
+   }
+  }
+ }
+]

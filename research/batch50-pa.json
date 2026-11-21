@@ -1,0 +1,577 @@
+[
+ {
+  "name": "Beauty Pie",
+  "website": "https://www.beautypie.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "British membership beauty club founded in 2016 by Marcia Kilgore, selling own-label skincare, makeup and body care at members' prices through beautypie.com.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "kelly@goodkinddigital.com",
+    "source_url": "https://ui.awin.com/merchant-profile/12780"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/12780",
+    "summary": "Beauty Pie's Awin merchant profile (ID 12780, read first-hand) lists its affiliate program at 6% CPA on new members and 0.5% CPA on existing members with a 30-day cookie; the program is managed by Good Kind Digital."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/12780",
+    "summary": "The Awin profile names the program's management contact at Good Kind Digital (kelly@goodkinddigital.com)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/12780",
+    "summary": "Beauty Pie is a membership beauty club founded in 2016 by Marcia Kilgore, selling skincare, makeup and body products direct to consumers."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 6,
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/12780",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/12780",
+   "title": "Beauty Pie Affiliate Program (via Awin)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure skincare and makeup brand with a strong creator following — squarely in the beauty niche.",
+    "ugc_evidence": "Runs an open network affiliate program on Awin that beauty creators routinely promote; no separate brand-run creator community is published.",
+    "compensation": "Awin lists 6% CPA on new members but only 0.5% CPA on existing members, so effective earnings depend heavily on new-member mix.",
+    "contact_access": "A named program-management email (Good Kind Digital) is published on the Awin merchant profile.",
+    "opportunity_availability": "Open application through Awin, subject to network approval.",
+    "credibility": "Established brand founded in 2016 by serial beauty founder Marcia Kilgore, with its own e-commerce operation."
+   }
+  }
+ },
+ {
+  "name": "Wellnesse",
+  "website": "https://wellnesse.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US clean personal-care brand founded by Katie Wells of Wellness Mama, selling fluoride-free toothpaste, haircare and skincare made with natural ingredients.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_page",
+    "source_url": "https://wellnesse.com/pages/affiliates",
+    "summary": "Wellnesse's own affiliate page (read first-hand) offers 15% commission on products with a 30-day cookie, paid on the 15th of each month after a 45-day chargeback window; applications run through its Saral portal (wellnesse.trysaral.com)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_page",
+    "source_url": "https://wellnesse.com/pages/affiliates",
+    "summary": "Wellnesse is the personal-care brand founded by Katie Wells (Wellness Mama), selling clean toothpaste, haircare and skincare."
+   }
+  ],
+  "affiliate": {
+   "network": "Saral",
+   "commission_rate": 15,
+   "application_url": "https://wellnesse.trysaral.com",
+   "source_url": "https://wellnesse.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://wellnesse.trysaral.com",
+   "source_url": "https://wellnesse.com/pages/affiliates",
+   "title": "Wellnesse Affiliate Program (via Saral)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 15,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean toothpaste, haircare and skincare sit inside the beauty/personal-care creator niche, though the brand's wellness positioning broadens it.",
+    "ugc_evidence": "Runs its own open affiliate program with a public application portal aimed at creators and influencers.",
+    "compensation": "The brand's own page states a flat 15% product commission with a 30-day cookie — a solid published rate.",
+    "contact_access": "Application runs through the brand's Saral portal; no public partnerships email was verified from a fetched page.",
+    "opportunity_availability": "Open application on the brand's own affiliate page.",
+    "credibility": "Established brand built on the large Wellness Mama audience, selling through its own store."
+   }
+  }
+ },
+ {
+  "name": "Babe Lash",
+  "website": "https://babelash.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US beauty brand best known for its Essential eyelash serum and brow products, sold direct to consumers at babelash.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/babe-lash/",
+    "summary": "LinkClicky's program listing (read first-hand) states Babe Lash's affiliate program is officially listed on ShareASale at 10% per sale with a 90-day cookie; applications go through shareasale.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/babe-lash/",
+    "summary": "Babe Lash sells lash and brow serums and cosmetics direct to consumers through babelash.com."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/babe-lash/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/babe-lash/",
+   "title": "Babe Lash Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Lash and brow serums are a core beauty-creator product category, heavily demonstrated in short-form video.",
+    "ugc_evidence": "Open network affiliate program on ShareASale that beauty influencers routinely promote.",
+    "compensation": "10% per sale with an unusually long 90-day cookie, per the network listing.",
+    "contact_access": "Application runs through ShareASale; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through ShareASale, subject to standard network approval.",
+    "credibility": "Established DTC beauty brand with national retail presence for its hero lash serum."
+   }
+  }
+ },
+ {
+  "name": "Pat McGrath Labs",
+  "website": "https://www.patmcgrath.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Luxury makeup brand founded by makeup artist Pat McGrath, known for pigment-rich eyeshadow palettes, lipsticks and complexion products sold at patmcgrath.com and major beauty retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/pat-mcgrath/",
+    "summary": "Lasso's program page (read first-hand) routes Pat McGrath Labs affiliate sign-ups to FlexOffers (publisherpro.flexoffers.com), confirming the program runs on the FlexOffers network."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/pat-mcgrath/",
+    "summary": "Published rates conflict across listings — Lasso quotes 6.4%, InfluencerRate quotes 1-4% and Shopper quotes 5-10% — so no single commission rate could be verified and the rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/pat-mcgrath/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/pat-mcgrath/",
+   "title": "Pat McGrath Labs Affiliate Program (via FlexOffers)"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 14,
+   "compensation": 6,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Prestige makeup is a core beauty-creator category, and the brand's launches are heavily covered by creators.",
+    "ugc_evidence": "Runs a network affiliate program on FlexOffers open to beauty publishers and creators.",
+    "compensation": "Third-party listings conflict (6.4% vs 1-4% vs 5-10%), so no rate is verified; scored low until the network listing is confirmed.",
+    "contact_access": "Application runs through FlexOffers; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through FlexOffers, subject to network approval.",
+    "credibility": "Globally known luxury beauty house founded by Pat McGrath, sold through its own site and major retailers."
+   }
+  }
+ },
+ {
+  "name": "SNOW",
+  "website": "https://www.trysnow.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US oral-beauty brand selling LED teeth-whitening kits, whitening toothpaste and related products direct to consumers at trysnow.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/snow/",
+    "summary": "Lasso's program page (read first-hand) routes SNOW affiliate sign-ups to ShareASale, confirming an affiliate program on that network; Lasso quotes 15%."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/snow/",
+    "summary": "Published rates conflict — Lasso quotes 15%, another network listing quotes 10-20% on ShareASale with a 30-day cookie, Shopper quotes 5-10%, and the program has also been reported on Everflow — so no single rate could be verified and the rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/snow/",
+    "summary": "SNOW is a heavily creator-promoted teeth-whitening brand; its founder's public content cites roughly 20% creator commissions and up to 30% through TikTok Shop, figures that could not be reconciled with the network listings."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/snow/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/snow/",
+   "title": "SNOW Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 6,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Teeth whitening is a staple before/after beauty-creator category, especially on TikTok.",
+    "ugc_evidence": "One of the most heavily creator-promoted oral-beauty brands, with an open network program and TikTok Shop presence.",
+    "compensation": "Listings conflict widely (5-10% up to 15-20%, plus separate TikTok Shop figures), so no rate is verified; scored low until confirmed.",
+    "contact_access": "Application runs through ShareASale; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through ShareASale, subject to network approval.",
+    "credibility": "Well-known DTC oral-beauty brand with mass retail distribution."
+   }
+  }
+ },
+ {
+  "name": "milk_shake",
+  "website": "https://www.milkshakehair.com",
+  "country": "Italy",
+  "category_slug": "beauty",
+  "description": "Italian haircare brand from z.one concept, selling professional-formulated shampoos, treatments and styling products for salon and at-home use through milkshakehair.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/milkshake/",
+    "summary": "LinkClicky's program listing (read first-hand) states milk_shake's affiliate program runs on ShareASale at 6% per sale with a 60-day cookie; applications go through shareasale.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/milkshake/",
+    "summary": "milk_shake is the consumer-facing haircare line of Italy's z.one concept, formulated for both salon professionals and at-home users and sold direct to consumers."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 6,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/milkshake/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/milkshake/",
+   "title": "milk_shake Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Haircare is a core beauty-creator category; the line is professional-formulated but sold to consumers for at-home use.",
+    "ugc_evidence": "Open network affiliate program on ShareASale aimed at beauty publishers and influencers.",
+    "compensation": "6% per sale with a 60-day cookie, per the network listing — a modest but published rate.",
+    "contact_access": "Application runs through ShareASale; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through ShareASale, subject to standard network approval.",
+    "credibility": "Established Italian professional haircare brand with international distribution and its own consumer store."
+   }
+  }
+ },
+ {
+  "name": "Irresistible Me",
+  "website": "https://www.irresistibleme.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US hair brand selling 100% Remy human-hair clip-in extensions, tape-ins, wefts, wigs and styling tools direct to consumers at irresistibleme.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/irresistible-me/",
+    "summary": "LinkClicky's program listing (read first-hand) states Irresistible Me's affiliate program is officially listed on ShareASale at 4% per sale with a 30-day cookie; applications go through shareasale.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/irresistible-me/",
+    "summary": "Irresistible Me sells Remy human-hair extensions, wigs and hair tools direct to consumers, with tutorials aimed at at-home styling."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 4,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/irresistible-me/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/irresistible-me/",
+   "title": "Irresistible Me Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hair extensions and wigs are a strong beauty-creator category built on transformation content.",
+    "ugc_evidence": "Open network affiliate program on ShareASale that hair creators routinely promote.",
+    "compensation": "4% per sale with a 30-day cookie, per the network listing — a low published rate.",
+    "contact_access": "Application runs through ShareASale; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through ShareASale, subject to standard network approval.",
+    "credibility": "Long-running DTC hair brand with its own e-commerce store."
+   }
+  }
+ },
+ {
+  "name": "Flamingo Estate",
+  "website": "https://flamingoestate.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Los Angeles lifestyle brand selling garden-grown botanical skincare, body care, candles and pantry goods from its estate through flamingoestate.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/flamingo-estate/",
+    "summary": "LinkClicky's program listing (read first-hand) states Flamingo Estate's affiliate program runs on Impact at 10% per sale and 10% per recurring subscription; applications go through app.impact.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/flamingo-estate/",
+    "summary": "Flamingo Estate sells botanical skincare, body care and home goods made from garden-grown ingredients at its Los Angeles estate."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/flamingo-estate/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/flamingo-estate/",
+   "title": "Flamingo Estate Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 13,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Botanical skincare and body care fit the beauty niche, though the range also spans home and pantry, which dilutes pure-beauty fit.",
+    "ugc_evidence": "Open network affiliate program on Impact aimed at lifestyle and beauty publishers.",
+    "compensation": "10% per sale plus 10% on recurring subscriptions, per the network listing.",
+    "contact_access": "Application runs through Impact; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Impact, subject to standard network approval.",
+    "credibility": "Well-known premium lifestyle brand with its own estate and e-commerce operation."
+   }
+  }
+ },
+ {
+  "name": "PrettyBoy",
+  "website": "https://www.yoprettyboy.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Men's grooming brand selling skincare tailored to men — facial cleansers, moisturizers and beard care — direct to consumers at yoprettyboy.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/prettyboy/",
+    "summary": "LinkClicky's program listing (read first-hand) states PrettyBoy's affiliate program runs on ShareASale at 15% per sale with a 30-day cookie; applications go through shareasale.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/prettyboy/",
+    "summary": "PrettyBoy sells men's skincare and grooming products — cleansers, moisturizers and beard oils — direct to consumers."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/prettyboy/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/prettyboy/",
+   "title": "PrettyBoy Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 15,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Men's skincare is a growing skincare-creator segment; the range is focused and easy to demonstrate.",
+    "ugc_evidence": "Open network affiliate program on ShareASale; no brand-run creator community is published.",
+    "compensation": "15% per sale with a 30-day cookie, per the network listing — a strong published rate for skincare.",
+    "contact_access": "Application runs through ShareASale; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through ShareASale, subject to standard network approval.",
+    "credibility": "Smaller, newer DTC grooming brand with its own store; less track record than heritage brands."
+   }
+  }
+ },
+ {
+  "name": "Suu Balm",
+  "website": "https://suubalm.com",
+  "country": "Singapore",
+  "category_slug": "skincare",
+  "description": "Singapore skincare brand from Good Pharma Dermatology, selling menthol-based creams, washes and scalp care for dry, itchy, sensitive and eczema-prone skin.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@suubalm.com",
+    "source_url": "https://af.uppromote.com/sbap/register"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_page",
+    "source_url": "https://af.uppromote.com/sbap/register",
+    "summary": "Suu Balm's own Ambassador Programme agreement (read first-hand on its UpPromote registration page) pays a 10% commission on total cart-out value (after discounts, excluding shipping) with a 14-day cookie, paid monthly to PayPal in SGD; the agreement names info@suubalm.com for program questions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://af.uppromote.com/sbap/register",
+    "summary": "The brand actively recruits creators for the programme, including TikTok affiliates in Malaysia, where its social posts advertise tiered commissions of up to 18% through TikTok — a separate channel from the 10% DTC ambassador terms."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_page",
+    "source_url": "https://af.uppromote.com/sbap/register",
+    "summary": "Suu Balm is the consumer skincare brand of Singapore's Good Pharma Dermatology Pte. Ltd., focused on dry, itchy and eczema-prone skin."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 10,
+   "application_url": "https://af.uppromote.com/sbap/register",
+   "source_url": "https://af.uppromote.com/sbap/register",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://af.uppromote.com/sbap/register",
+   "source_url": "https://af.uppromote.com/sbap/register",
+   "title": "Suu Balm Ambassador Programme (via UpPromote)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sensitive-skin and eczema care is a focused, high-intent skincare niche with strong problem/solution content.",
+    "ugc_evidence": "The brand runs its own ambassador programme and actively recruits TikTok creators with samples and monthly campaigns.",
+    "compensation": "Its own programme agreement states 10% on cart-out value with a 14-day cookie and monthly PayPal payout; TikTok channel tiers advertise up to 18% separately.",
+    "contact_access": "The programme agreement itself publishes a contact email (info@suubalm.com) plus an open registration page.",
+    "opportunity_availability": "Open registration on the brand's own programme page.",
+    "credibility": "Established Singapore dermocosmetic brand (Good Pharma Dermatology) sold across Southeast Asia."
+   }
+  }
+ }
+]

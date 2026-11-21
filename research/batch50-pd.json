@@ -1,0 +1,573 @@
+[
+ {
+  "name": "Rad Power Bikes",
+  "website": "https://www.radpowerbikes.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Seattle-headquartered electric bike brand and one of North America's largest e-bike sellers, selling consumer e-bikes and accessories direct through radpowerbikes.com; its affiliate program runs on Impact.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "press@radlife.com",
+    "source_url": "https://us.hotcoupon.org/store/radpowerbikes.com"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/radpowerbikes"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/radpowerbikes"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "http://app.impact.com/advertiser-campaign-info/Rad-Power-Bikes-US-and-CA.brand?c=___9XpvYq1Sf08WbyalSQAkGNhGGBNAi_PC&lang=en",
+    "summary": "The Impact campaign page for Rad Power Bikes US and CA (fetched via search) lists an Online Sale payout of 5% for both the US and Canada with a 30-day referral period, paid about one month after month-end. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown, and it publishes no creator count, so saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.theveloindex.com/spotlight/rad-power-bikes-overview",
+    "summary": "Brand overview confirms Rad Power Bikes is headquartered in Seattle with official social accounts including Instagram @radpowerbikes (about 140K followers) and Facebook @RadPowerBikes; a store-listing page also publishes the press contact press@radlife.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": "http://app.impact.com/advertiser-campaign-info/Rad-Power-Bikes-US-and-CA.brand?c=___9XpvYq1Sf08WbyalSQAkGNhGGBNAi_PC&lang=en",
+   "source_url": "http://app.impact.com/advertiser-campaign-info/Rad-Power-Bikes-US-and-CA.brand?c=___9XpvYq1Sf08WbyalSQAkGNhGGBNAi_PC&lang=en",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Rad Power Bikes Affiliate Program (Impact)",
+   "application_url": "http://app.impact.com/advertiser-campaign-info/Rad-Power-Bikes-US-and-CA.brand?c=___9XpvYq1Sf08WbyalSQAkGNhGGBNAi_PC&lang=en",
+   "source_url": "http://app.impact.com/advertiser-campaign-info/Rad-Power-Bikes-US-and-CA.brand?c=___9XpvYq1Sf08WbyalSQAkGNhGGBNAi_PC&lang=en"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Consumer e-bikes are core tech/outdoor creator content — reviews, commutes, range tests and accessories.",
+    "ugc_evidence": "A public network affiliate program that bike and outdoor creators routinely promote; no brand-run creator program details are published.",
+    "compensation": "5% per sale on Impact for US and CA orders with a 30-day referral window; e-bike order values are high, and no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Applications run through Impact; a press email (press@radlife.com) is publicly listed, but no dedicated affiliate email is published.",
+    "opportunity_availability": "Open application through the Impact campaign page, subject to standard brand approval.",
+    "credibility": "One of North America's largest e-bike brands, headquartered in Seattle with retail stores and 500+ dealer locations."
+   }
+  }
+ },
+ {
+  "name": "Anycubic",
+  "website": "https://www.anycubic.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Shenzhen-founded consumer 3D printing brand (founded 2015) selling FDM and resin printers, filament and accessories worldwide through its own store; it promotes a creator-facing affiliate program on its store site and also runs a US program on Awin.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://store.anycubic.com/pages/affiliate-program",
+    "email": "taylorwang@anycubic.com",
+    "source_url": "https://store.anycubic.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/anycubicofficial/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@anycubic"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/c/ANYCUBIC3D"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/ANYCUBIC3dprinter"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://store.anycubic.com/pages/affiliate-program",
+    "summary": "Anycubic's own affiliate page (fetched) offers a minimum of 5% commission on every qualifying order, monthly bonuses and exclusive rate increases for top performers, a 60-day cookie window, free joining and approval usually within 2-3 business days; it explicitly invites makers, 3D printing fans and content creators, and publishes the program contact taylorwang@anycubic.com. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/advertiser-terms/129417?setLocale=en_GB",
+    "summary": "Awin hosts live program terms for 'Anycubic (US)', confirming a network route alongside the brand's own page. Lasso's listing for the company shows 4% with a 30-day cookie, which conflicts with the brand's own published minimum of 5% and 60-day cookie, so the brand's official figures are recorded. No creator-count figure is published anywhere fetched, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://store.anycubic.com/pages/affiliate-program",
+   "source_url": "https://store.anycubic.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Anycubic Affiliate Program (own program / Awin US)",
+   "application_url": "https://store.anycubic.com/pages/affiliate-program",
+   "source_url": "https://store.anycubic.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Desktop 3D printers are a staple of maker and tech creator content — unboxings, print tests, reviews and project builds.",
+    "ugc_evidence": "The brand's own program page targets content creators directly, and the brand runs UGC campaigns such as the AnycubicMaker Challenge across Instagram, TikTok and YouTube.",
+    "compensation": "Minimum 5% commission with monthly bonuses and rate increases for top performers and a 60-day cookie, per the brand's own page; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "A named program email, taylorwang@anycubic.com, is published on the brand's own affiliate page alongside the application.",
+    "opportunity_availability": "Free, open application on the brand's own page with approval typically in 2-3 business days; a US program also runs on Awin.",
+    "credibility": "Major global desktop 3D printing brand founded in Shenzhen in 2015, selling in over 200 countries."
+   }
+  }
+ },
+ {
+  "name": "Audioengine",
+  "website": "https://audioengine.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "US consumer audio brand selling powered speakers, DACs and wireless audio gear direct through audioengine.com; it publishes affiliate terms on its own site and its program runs on Impact.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://audioengine.com/affiliate-terms-and-conditions/",
+    "summary": "Audioengine's own Affiliate Terms and Conditions page (surfaced in search) states the company will pay affiliates a 10% commission on purchases made by referred customers using their affiliate code."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/audioengine/",
+    "summary": "LinkClicky lists Audioengine's affiliate platform as Impact with a 10% per sale commission described as officially listed; Lasso independently lists 10% per sale with a 60-day cookie. Neither source makes a statement about a cap on total earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/audioengine/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Audioengine Affiliate Program (Impact)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/audioengine/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium desktop speakers and home audio are steady tech and desk-setup creator content.",
+    "ugc_evidence": "A public affiliate program with published terms on the brand's own site; no dedicated creator community is published.",
+    "compensation": "10% per sale confirmed by the brand's own affiliate terms and the Impact listing, with a 60-day cookie per Lasso; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Application runs through Impact and the brand's published terms; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Impact, subject to standard network approval.",
+    "credibility": "Established US audio brand with its own e-commerce and wide review coverage."
+   }
+  }
+ },
+ {
+  "name": "Elvie",
+  "website": "https://www.elvie.com",
+  "country": "United Kingdom",
+  "category_slug": "technology",
+  "description": "UK femtech brand known for the Elvie Pump silent wearable breast pump, the Elvie Trainer and the Elvie Rise smart baby bouncer; its UK affiliate program runs on Awin.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/elvie"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/elvie-uk/",
+    "summary": "Lasso's Elvie UK program page lists the affiliate network as Awin with a 4.75% per sale commission and a 10-day cookie; the same figures appear in Lasso's pregnancy and women's-health program roundups. No fetched page makes a statement about a cap on total earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/elvie-com-affiliate-program",
+    "summary": "Shopper lists a 5.65% payout for Elvie, but that figure is derived from network EPC data rather than a stated program rate, so the Awin-listed 4.75% is recorded instead."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 4.75,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/elvie-uk/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Elvie Affiliate Program (Awin UK)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/elvie-uk/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Smart femtech and baby-tech devices fit mom-tech and women's-health creator content well.",
+    "ugc_evidence": "A public Awin affiliate program; the brand is heavily creator- and social-driven (@elvie, about 390K Instagram followers) but publishes no dedicated creator program page.",
+    "compensation": "4.75% per sale on Awin with a short 10-day cookie; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Application runs through Awin; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Awin UK, subject to standard network approval.",
+    "credibility": "Well-known UK femtech company with CES-launched products covered by Forbes, Bloomberg and The Independent."
+   }
+  }
+ },
+ {
+  "name": "Clearly Filtered",
+  "website": "https://www.clearlyfiltered.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US water-filtration brand selling filtered pitchers, bottles and under-sink systems tested to remove hundreds of contaminants, sold direct through clearlyfiltered.com; its affiliate program runs on CJ Affiliate.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/clearly-filtered/",
+    "summary": "LinkClicky lists Clearly Filtered's affiliate platform as CJ Affiliate with a 6% per sale commission described as officially listed with the program; Shopper independently lists the same 6% payout. No fetched page makes a statement about a cap on total earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 6,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/clearly-filtered/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Clearly Filtered Affiliate Program (CJ Affiliate)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/clearly-filtered/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 9,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Home water filtration fits home, kitchen and wellness creator content — filter tests and contaminant demos are highly visual.",
+    "ugc_evidence": "A public network affiliate program; no brand-run creator program details are published.",
+    "compensation": "6% per sale on CJ Affiliate, agreed by two independent listings; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Application runs through CJ Affiliate; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through CJ Affiliate, subject to standard network approval.",
+    "credibility": "Established US filtration brand with third-party tested products and its own e-commerce."
+   }
+  }
+ },
+ {
+  "name": "Latex For Less",
+  "website": "https://www.latexforless.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US direct-to-consumer retailer of two-sided 100% natural latex mattresses with organic cotton and natural wool covers, sold through latexforless.com; its affiliate program is listed on Awin.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/89993",
+    "summary": "The brand's Awin merchant profile (fetched) states each mattress carries a commission of 10%, paid within 90 days after delivery, with a 90-day attribution (cookie) period. The profile makes no statement about a cap on total earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/89993",
+    "summary": "Network conflict documented: the Awin profile text says the brand 'teamed up with ShareASale' for signup and a third-party listing claims Impact, but the live merchant profile is hosted on Awin, so Awin is recorded as the network. The 10% rate is consistent across all sources."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/89993",
+   "source_url": "https://ui.awin.com/merchant-profile/89993",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Latex For Less Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/89993",
+   "source_url": "https://ui.awin.com/merchant-profile/89993"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 8,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Natural latex mattresses fit home, sleep and wellness creator content, though the niche is narrower than general home goods.",
+    "ugc_evidence": "A public network affiliate program aimed at online marketers; no creator-specific program details are published.",
+    "compensation": "10% per sale with a long 90-day attribution window on high-value mattresses; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Application runs through the Awin merchant profile; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Awin, subject to standard network approval.",
+    "credibility": "Smaller US direct-to-consumer mattress retailer with its own e-commerce and a long-running network presence."
+   }
+  }
+ },
+ {
+  "name": "CamelBak",
+  "website": "https://www.camelbak.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US hydration brand that originated hands-free hydration systems and now sells water bottles, hydration packs and everyday drinkware through camelbak.com; its affiliate program runs on CJ Affiliate.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/camelbak/",
+    "summary": "Lasso lists CamelBak's affiliate program on CJ Affiliate with a 7-day cookie and the commission rate unpublished ('Unknown'); Lasso's bicycle roundup adds that applicants must apply through CJ Affiliate with high-quality original content relevant to outdoor apparel, home goods or travel. Because no rate is published, commission_rate is recorded as null. No cap statement or creator count is published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/camelbak/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "CamelBak Affiliate Program (CJ Affiliate)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/camelbak/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 9,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Everyday bottles and drinkware fit home and lifestyle creator content, though the brand leans outdoor/sport.",
+    "ugc_evidence": "A public network affiliate program that outdoor and lifestyle creators promote; no brand-run creator program is published.",
+    "compensation": "The commission rate is not published in any fetched source, so it is recorded as null and compensation scores low.",
+    "contact_access": "Application runs through CJ Affiliate only; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Application through CJ Affiliate with content-quality requirements, so approval is more selective than an open portal.",
+    "credibility": "Category-defining hydration brand with global retail distribution and its own e-commerce."
+   }
+  }
+ },
+ {
+  "name": "Takeya",
+  "website": "https://www.takeyausa.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US drinkware brand (Takeya USA) selling insulated stainless-steel water bottles, cold-brew coffee makers and beverage gear through takeyausa.com; its affiliate program runs on Impact.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/takeya/",
+    "summary": "LinkClicky lists Takeya's affiliate platform as Impact with a 7% per sale commission described as the rate officially listed with the program. No fetched page makes a statement about a cap on total earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/takeyausa-com-affiliate-program",
+    "summary": "Shopper lists an 8% payout for the same Takeya program, conflicting with LinkClicky's officially listed 7%; because the two figures conflict, commission_rate is recorded as null with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/takeya/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Takeya Affiliate Program (Impact)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/takeya/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 9,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Insulated bottles and cold-brew gear are everyday-carry staples in home, lifestyle and fitness creator content.",
+    "ugc_evidence": "A public network affiliate program; no brand-run creator program details are published.",
+    "compensation": "Published figures conflict (7% officially listed per LinkClicky vs 8% per Shopper), so the rate is recorded as null and compensation scores low.",
+    "contact_access": "Application runs through Impact; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Impact, subject to standard network approval.",
+    "credibility": "Established US drinkware brand with national retail distribution and its own e-commerce."
+   }
+  }
+ },
+ {
+  "name": "iFetch",
+  "website": "https://goifetch.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Austin, Texas family company (the Hamill family) making automatic ball launchers and interactive enrichment toys for dogs — iFetch, iFetch Too, iDig and iFetch Frenzy — sold through goifetch.com; it runs its own affiliate program through Refersion.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://goifetch.com/pages/affiliate-program",
+    "email": "info@goifetch.com",
+    "source_url": "https://goifetch.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://goifetch.com/pages/affiliate-program",
+    "summary": "iFetch's own affiliate page (fetched) states affiliates earn 8% on all iFetch products sold with their code except the iFetch Too, which pays 4%; the program runs on the Refersion platform with signup at goifetch.refersion.com, pays monthly via PayPal or check, is open to US-based affiliates, prefers 10K+ followers but considers smaller creators, and asks affiliates to post at least 3 videos with their code per year. The page publishes the contact info@goifetch.com. It makes no statement about a cap on total earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 8,
+   "application_url": "https://goifetch.com/pages/affiliate-program",
+   "source_url": "https://goifetch.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "iFetch Affiliate Program (Refersion)",
+   "application_url": "https://goifetch.com/pages/affiliate-program",
+   "source_url": "https://goifetch.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 12,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Automatic ball launchers and enrichment toys are highly demonstrable dog products, ideal for pet creator video content.",
+    "ugc_evidence": "The brand's own program is built around affiliate photos and videos — affiliates must post at least 3 videos a year — and smaller creators under 10K followers are still considered.",
+    "compensation": "8% per sale on most products (4% on the iFetch Too) per the brand's own page, on products priced $49.99-$229.99; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "The brand publishes its contact email, info@goifetch.com, and phone on its own affiliate page alongside the application.",
+    "opportunity_availability": "Open application through Refersion, but US-based affiliates only and 10K+ followers preferred, which narrows availability.",
+    "credibility": "Small family-run Austin company launched via Kickstarter, with its own e-commerce and a long product history."
+   }
+  }
+ },
+ {
+  "name": "Wiggle Kingdom",
+  "website": "https://wigglekingdom.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "US online pet retailer selling pet food, toys and accessories, known for its miniature training collars designed for small dog breeds, with a 30-day money-back guarantee; its affiliate program runs on Impact.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/wiggle-kingdom/",
+    "summary": "LinkClicky lists Wiggle Kingdom's affiliate platform as Impact with a 15% per sale commission described as officially listed with the program. No fetched page makes a statement about a cap on total earnings, so the cap is recorded as unknown, and no creator count is published, so saturation is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.meersworld.net/2024/05/best-pet-brands-affiliate-programs.html",
+    "summary": "Meer's World pet affiliate roundup independently lists the Wiggle Kingdom program on Impact at 15% commission per sale with a 60-day cookie period and US serviceable area, corroborating the rate and network."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/wiggle-kingdom/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Wiggle Kingdom Affiliate Program (Impact)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/wiggle-kingdom/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 8,
+   "compensation": 15,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Pet food, toys and small-dog gear fit pet creator content, though the retailer is narrower than the big pet brands.",
+    "ugc_evidence": "A public network affiliate program; no brand-run creator program details are published.",
+    "compensation": "15% per sale on Impact with a 60-day cookie, corroborated by two listings; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "Application runs through Impact; no public partnerships email could be verified from a fetched page.",
+    "opportunity_availability": "Open application through Impact, subject to standard network approval.",
+    "credibility": "Small US online pet retailer with its own e-commerce, a money-back guarantee and a 1-year warranty."
+   }
+  }
+ }
+]
