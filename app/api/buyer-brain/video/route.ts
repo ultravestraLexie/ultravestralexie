@@ -2,7 +2,7 @@ import { generateText, Output } from "ai";
 import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
-import { checkRateLimit, BUYER_BRAIN_RATE_LIMIT } from "@/lib/rate-limit";
+import { checkRateLimitShared, BUYER_BRAIN_RATE_LIMIT } from "@/lib/rate-limit";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -169,11 +169,11 @@ export async function POST(request: Request) {
     rateKey = `ip:${ip}`;
   }
   if (
-    !checkRateLimit(
+    !(await checkRateLimitShared(
       `video:${rateKey}`,
       BUYER_BRAIN_RATE_LIMIT.limit,
       BUYER_BRAIN_RATE_LIMIT.windowMs
-    )
+    ))
   ) {
     return Response.json(
       {
