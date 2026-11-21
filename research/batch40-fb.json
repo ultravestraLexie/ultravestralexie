@@ -1,0 +1,549 @@
+[
+  {
+    "name": "Samsonite",
+    "website": "https://shop.samsonite.com/",
+    "country": null,
+    "category_slug": "travel",
+    "description": "Global luggage leader founded in 1910, selling suitcases, backpacks, business cases and travel accessories under the Samsonite name and sub-brands worldwide.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/samsonite/",
+        "summary": "LinkClicky lists Samsonite's affiliate program on Impact at 5% per sale (AU/CA regions shown), describing Samsonite as a globally recognized leader in travel luggage at shop.samsonite.com."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/samsonite/",
+        "summary": "Other listings conflict with the 5% figure: Lasso reports 4.75% per sale with a 14-day cookie, Affjumbo reports 3.2%, and LinkApprove reports up to 6%. Because published rates conflict by network and region, the commission rate is recorded as null; the program's existence across Impact, CJ, Awin and Sovrn is consistent."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/samsonite/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Samsonite Affiliate Program (Impact)",
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/samsonite/"
+    },
+    "score": {
+      "niche_fit": 28,
+      "ugc_evidence": 12,
+      "compensation": 9,
+      "contact_access": 5,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "The default name in luggage; suitcases and travel accessories anchor packing, gear-review and travel content.",
+        "ugc_evidence": "Runs publisher programs on several major networks, a route travel bloggers and reviewers already use.",
+        "compensation": "Mid-single-digit rates are reported (roughly 3–6% depending on network/region) but they conflict, so no single rate is recorded.",
+        "contact_access": "No public creator contact was found; access is via network applications.",
+        "opportunity_availability": "Programs are listed on multiple networks, though Samsonite notes it works with a limited number of quality sites.",
+        "credibility": "A century-old, publicly traded global luggage company — about as established as the category gets."
+      }
+    }
+  },
+  {
+    "name": "Dollar Flight Club",
+    "website": "https://dollarflightclub.com/",
+    "country": null,
+    "category_slug": "travel",
+    "description": "Flight-deal subscription service that emails members mistake fares and cheap flight alerts from their home airports, claiming average savings of about $500 per ticket.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://dollarflightclub.com/affiliates/",
+        "summary": "Dollar Flight Club's own affiliates page states affiliates earn 40% for any Premium Member signups they drive, joining is free, commissions are paid in USD to affiliates worldwide, and top affiliates can win a free flight. The page does not state an earnings cap or a creator count, so both are recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://khrisdigital.com/best-airline-affiliate-programs/",
+        "summary": "Third-party roundups mostly corroborate the 40% headline (KhrisDigital and Cuelinks say 40% via Refersion with a 30-day cookie and PayPal payouts), while Lasso claims 50% recurring with a 90-day cookie via Impact. The brand's own published 40% is used; the network is reported as Refersion by two sources and Impact by Lasso, so both are recorded."
+      }
+    ],
+    "affiliate": {
+      "network": "Refersion / Impact",
+      "commission_rate": 40,
+      "application_url": "https://dollarflightclub.com/affiliates/",
+      "source_url": "https://dollarflightclub.com/affiliates/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Dollar Flight Club Affiliate Program",
+      "application_url": "https://dollarflightclub.com/affiliates/",
+      "source_url": "https://dollarflightclub.com/affiliates/"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 14,
+      "compensation": 19,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Cheap-flight alerts are core travel-hack content; the product is a natural fit for deal and itinerary creators.",
+        "ugc_evidence": "The brand's own page recruits affiliates who place links on websites and social feeds, with a free-flight bonus for top performers.",
+        "compensation": "40% per Premium signup, published on the brand's own page, is among the highest rates in travel; a third-party 50% claim is documented but not used.",
+        "contact_access": "Application runs through the brand's own affiliates page; no public program email was published there.",
+        "opportunity_availability": "Free and open to applicants worldwide, though the brand says it prefers regularly publishing creators and manually reviews applications.",
+        "credibility": "A long-running, widely covered flight-deal subscription service with a large member base."
+      }
+    }
+  },
+  {
+    "name": "Bee & Kin",
+    "website": "https://beeandkin.com",
+    "country": null,
+    "category_slug": "fashion",
+    "description": "Handbag and backpack brand blending fashion-forward design with tech-friendly features such as built-in charging and organized compartments for commuters and travelers.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/bee-kin/",
+        "summary": "LinkClicky lists the Bee & Kin affiliate program on ShareASale at 15% per sale with a 90-day cookie, describing handbags and backpacks with tech-savvy features at beeandkin.com."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/bee-and-kin/",
+        "summary": "Lasso reports a lower 10% per sale for the same program. Because the two published figures conflict (15% vs 10%), the commission rate is recorded as null; the ShareASale network attribution comes from LinkClicky."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/bee-kin/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Bee & Kin Affiliate Program (ShareASale)",
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/bee-kin/"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 11,
+      "contact_access": 5,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Work-and-travel bags sit at the fashion/travel crossover — commuter style, carry-on and everyday-carry content.",
+        "ugc_evidence": "Listed on ShareASale, a standard route for fashion and luggage publishers, with a long 90-day cookie reported.",
+        "compensation": "Reported rates are healthy (10–15%) but conflict between sources, so the rate is left unpublished rather than guessed.",
+        "contact_access": "No public creator contact was found; joining is through ShareASale.",
+        "opportunity_availability": "Open for application through the network, per the directory listing.",
+        "credibility": "A smaller DTC label with a distinctive product story but a thinner public track record than the majors."
+      }
+    }
+  },
+  {
+    "name": "KKday",
+    "website": "https://www.kkday.com/",
+    "country": null,
+    "category_slug": "travel",
+    "description": "Online travel platform founded in 2014 in Asia offering bookable tours, attraction tickets, transport passes, SIM/Wi-Fi and local experiences across destinations worldwide.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.affiliategraph.ai/programs/kkday",
+        "summary": "AffiliateGraph, compiled from network program listings (updated Nov 9, 2026), lists KKday at a 5% commission across five networks including Impact (tracked on Impact since Aug 2024), and describes KKday as a travel experiences platform founded in 2014 operating across JP, SG, MY, HK, AU, US, KR, TH, VN, CA and DE markets."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/kkday/",
+        "summary": "Lasso corroborates 5% per sale with a 30-day cookie. Higher figures seen elsewhere (up to 9.6% via Ecomobi) are time-limited upsized promotions on sub-networks, not the base rate, so the base 5% via Impact is recorded. No source states an earnings cap or creator count."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 5,
+      "application_url": null,
+      "source_url": "https://www.affiliategraph.ai/programs/kkday",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "KKday Affiliate Program (Impact)",
+      "application_url": null,
+      "source_url": "https://www.affiliategraph.ai/programs/kkday"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 12,
+      "compensation": 11,
+      "contact_access": 5,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Bookable tours, tickets and transport passes are the monetizable backbone of destination and itinerary content, especially Asia travel.",
+        "ugc_evidence": "Present on five affiliate networks including Impact, giving travel publishers a standard application route.",
+        "compensation": "A consistent 5% base rate across two independent listings, with periodic upsized promotions on some sub-networks.",
+        "contact_access": "No public creator contact was found; access is through network dashboards.",
+        "opportunity_availability": "Open to publishers on Impact and other networks across many markets.",
+        "credibility": "A decade-old, venture-backed travel platform with global inventory and sustained network presence."
+      }
+    }
+  },
+  {
+    "name": "InsureMyTrip",
+    "website": "https://www.insuremytrip.com/",
+    "country": "United States",
+    "category_slug": "travel",
+    "description": "Travel insurance comparison marketplace, one of the first of its kind, letting travelers compare and buy trip cancellation, medical and comprehensive policies from multiple rated providers.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliates@insuremytrip.com",
+        "source_url": "https://www.insuremytrip.com/about/affiliate-program/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.insuremytrip.com/about/affiliate-program/",
+        "summary": "InsureMyTrip's own Affiliate Partnership Program page says affiliates earn a referral fee for every policy purchased through their unique link, signup is free via an online application, and approved affiliates manage links, tracking and payments through their Impact account. The page publishes affiliates@insuremytrip.com for program questions and does not publish a rate, cap or creator count."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "affiliate_network",
+        "source_url": "https://compareepc.com/travel-insurance-affiliate-programs/",
+        "summary": "CompareEPC's network data reports InsureMyTrip paying a flat $7 per verified hit on Impact, while LinkClicky reports a $10 verified hit. Because the flat-fee figures conflict ($7 vs $10) and it is a per-action fee rather than a percentage, commission_rate is recorded as null with the flat-fee model documented here."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://www.insuremytrip.com/about/affiliate-program/",
+      "source_url": "https://www.insuremytrip.com/about/affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "InsureMyTrip Affiliate Partnership Program",
+      "application_url": "https://www.insuremytrip.com/about/affiliate-program/",
+      "source_url": "https://www.insuremytrip.com/about/affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 11,
+      "compensation": 10,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Travel insurance is a standard recommendation in trip-planning, cruising and international-travel content.",
+        "ugc_evidence": "The brand's own page encourages affiliates to create content about why travel insurance is essential, not just place links.",
+        "compensation": "Pays a flat fee per verified action on Impact (reported at $7–$10), which can outperform small percentage commissions on low policy counts, but the exact figure conflicts between sources.",
+        "contact_access": "Publishes a dedicated affiliate email (affiliates@insuremytrip.com) and an application on its own site.",
+        "opportunity_availability": "Free online application; selected affiliates get Impact tracking and payment access.",
+        "credibility": "A pioneer of travel-insurance comparison, operating for over two decades with millions of travelers served."
+      }
+    }
+  },
+  {
+    "name": "Frank And Oak",
+    "website": "https://www.frankandoak.com/",
+    "country": "Canada",
+    "category_slug": "fashion",
+    "description": "Canadian clothing retailer selling eco-conscious, minimalist apparel for men and women, known for recycled fabrics, circular-design initiatives and its Style Plan subscription roots.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/frank-oak/",
+        "summary": "Lasso lists the Frank And Oak affiliate program at 5%–10% per sale with a 30-day cookie in the fashion category. A published range is not a single rate, so commission_rate is recorded as null."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://merchants.sovrn.com/merchants/58007/frankandoak-com-affiliate-program",
+        "summary": "Sovrn Commerce carries a frankandoak.com merchant listing but states its commission rates, cookie duration and even current participation could not be independently verified there; the program is therefore recorded via Sovrn with terms to confirm inside the network. No fetched source states an earnings cap or creator count."
+      }
+    ],
+    "affiliate": {
+      "network": "Sovrn Commerce",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://merchants.sovrn.com/merchants/58007/frankandoak-com-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Frank And Oak Affiliate Program (Sovrn Commerce)",
+      "application_url": null,
+      "source_url": "https://merchants.sovrn.com/merchants/58007/frankandoak-com-affiliate-program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 11,
+      "compensation": 8,
+      "contact_access": 4,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Minimalist, sustainable wardrobe staples are a reliable fashion-content category for both men's and women's creators.",
+        "ugc_evidence": "Listed with affiliate directories and a Sovrn merchant presence, indicating an active publisher channel.",
+        "compensation": "A 5–10% range is reported but no single verified rate or network-published figure could be confirmed, so pay is left unpublished.",
+        "contact_access": "No public creator contact was found, and the network listing itself flags terms as unverified.",
+        "opportunity_availability": "Access appears to run through Sovrn Commerce signup, subject to confirming the merchant is currently active.",
+        "credibility": "A well-known Canadian retailer with a long sustainability track record and national store footprint."
+      }
+    }
+  },
+  {
+    "name": "Bounce",
+    "website": "https://bounce.com/",
+    "country": null,
+    "category_slug": "travel",
+    "description": "Global luggage-storage network that lets travelers book secure bag storage at local businesses in thousands of cities, with an app rated 4.9/5 and 24/7 support.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://fangwallet.com/2025/03/03/monetize-your-website-or-business-effortlessly-with-the-bounce-affiliate-program/",
+        "summary": "FangWallet's walkthrough of the Bounce Affiliate Program reports a 10% commission on each successful luggage-storage booking (affiliates may instead pass a 10% discount to their audience), monthly payments with no minimum payout, signup via an online form at partner.bounce.com, and a network of 14,000+ locations. No earnings cap or creator count is stated, so both are recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://bounce.com/partner",
+        "summary": "Bounce's own partner pages describe the world's largest luggage-storage network, operating in 4,000+ cities with bag protection up to $10,000, confirming the scale of the service affiliates promote."
+      }
+    ],
+    "affiliate": {
+      "network": "Own program",
+      "commission_rate": 10,
+      "application_url": "https://partner.bounce.com",
+      "source_url": "https://fangwallet.com/2025/03/03/monetize-your-website-or-business-effortlessly-with-the-bounce-affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Bounce Affiliate Program",
+      "application_url": "https://partner.bounce.com",
+      "source_url": "https://fangwallet.com/2025/03/03/monetize-your-website-or-business-effortlessly-with-the-bounce-affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 13,
+      "contact_access": 5,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Luggage storage is a universal travel pain point — day-trip, layover and checkout-day content converts naturally.",
+        "ugc_evidence": "The program is pitched directly at bloggers, website owners and social creators, with shareable referral links for social and email.",
+        "compensation": "10% of every booking with monthly payouts and no minimum threshold is clean, creator-friendly economics.",
+        "contact_access": "Signup is a self-serve form on Bounce's partner platform; no public affiliate email was published in the sources checked.",
+        "opportunity_availability": "Open application with approval and a unique link; usable across social, web and in-person channels.",
+        "credibility": "The category leader in luggage storage with a 4.9/5 app rating and locations in thousands of cities."
+      }
+    }
+  },
+  {
+    "name": "ROAM Luggage",
+    "website": "https://www.roamluggage.com",
+    "country": "United States",
+    "category_slug": "travel",
+    "description": "Premium customizable luggage brand founded by the creator of TUMI. Suitcases are designed in New York, hand-assembled in Vidalia, Georgia, made to order in the US and backed by a lifetime warranty.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_terms",
+        "source_type": "official_site",
+        "source_url": "https://www.roamluggage.com/pages/affiliate-terms-conditions",
+        "summary": "ROAM Luggage's own Affiliate Terms & Conditions page confirms the brand runs an affiliate marketing program powered by Social Snowball, with commissions earned on qualifying sales attributed to an affiliate's referral code or link. The page publishes no commission rate and no earnings cap, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/roam-luggage/",
+        "summary": "Lasso lists the ROAM Luggage affiliate program at 8% per sale with a 30-day cookie, and LinkClicky independently lists 8% per sale via ShareASale. The brand's own current terms name Social Snowball as the platform instead, so the network is recorded from the brand's own page and the platform discrepancy is flagged for review."
+      }
+    ],
+    "affiliate": {
+      "network": "Social Snowball",
+      "commission_rate": 8,
+      "application_url": "https://www.roamluggage.com/pages/affiliate-terms-conditions",
+      "source_url": "https://www.roamluggage.com/pages/affiliate-terms-conditions",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "ROAM Luggage Affiliate Program",
+      "application_url": "https://www.roamluggage.com/pages/affiliate-terms-conditions",
+      "source_url": "https://www.roamluggage.com/pages/affiliate-terms-conditions"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 12,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Customizable premium luggage is a natural fit for travel creators and packing/gear content.",
+        "ugc_evidence": "Creators already post ROAM affiliate content with tracked links and discount codes, including a fetched Instagram post offering $100 off via an affiliate link.",
+        "compensation": "8% per sale is reported by two independent directories; the brand's own terms publish no rate, so the figure is publicly reported rather than verified.",
+        "contact_access": "No public creator or partnerships email was found on the fetched pages; entry is through the program terms route.",
+        "opportunity_availability": "The program is live on the brand's own site with published terms; no creator count is published, so saturation is unknown.",
+        "credibility": "Established premium brand founded by the creator of TUMI, with Vogue and Esquire praise cited on its own channels."
+      }
+    }
+  },
+  {
+    "name": "Show Me Your Mumu",
+    "website": "https://www.showmeyourmumu.com",
+    "country": "United States",
+    "category_slug": "fashion",
+    "description": "US women's fashion brand known for bohemian clothing, bridesmaid dresses and bride-to-be apparel, plus rompers, jumpsuits and maxi dresses.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.ascendpartner.com/affiliate/registration?refid=130194%C2%A0",
+        "email": null,
+        "source_url": "https://www.ascendpartner.com/affiliate/registration?refid=130194%C2%A0"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.ascendpartner.com/affiliate/registration?refid=130194%C2%A0",
+        "summary": "Show Me Your Mumu's affiliate application page is hosted on AscendPartner and states the program runs on Partnerize; the application explicitly asks whether the applicant will promote on personal social media or a personal blog, confirming a creator route. The page states no commission rate and no earnings cap, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "commission_rate_conflict",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/show-me-your-mumu/",
+        "summary": "Published rates conflict: Lasso lists 0.8% to 4.8% per sale with a 7-day cookie, while Shopper lists 'up to 5-10%' payout per sale. Because the sources conflict, commission_rate is recorded as null."
+      }
+    ],
+    "affiliate": {
+      "network": "Partnerize",
+      "commission_rate": null,
+      "application_url": "https://www.ascendpartner.com/affiliate/registration?refid=130194%C2%A0",
+      "source_url": "https://www.ascendpartner.com/affiliate/registration?refid=130194%C2%A0",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Show Me Your Mumu Affiliate Program",
+      "application_url": "https://www.ascendpartner.com/affiliate/registration?refid=130194%C2%A0",
+      "source_url": "https://www.ascendpartner.com/affiliate/registration?refid=130194%C2%A0"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 13,
+      "compensation": 8,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Boho women's fashion, bridesmaid and occasion dresses are core creator-content categories.",
+        "ugc_evidence": "The application is built for social-media and blog promoters, and directory coverage describes the program as popular with fashion influencers and bloggers.",
+        "compensation": "No single rate could be verified: published figures conflict (0.8-4.8% per Lasso vs up to 5-10% per Shopper), so the rate is null and compensation scores low.",
+        "contact_access": "A public application page exists via Partnerize/AscendPartner; no public partnerships email was found.",
+        "opportunity_availability": "Open application route; no creator count is published, so saturation is unknown.",
+        "credibility": "Established US women's fashion brand with a long-running affiliate presence across directories."
+      }
+    }
+  },
+  {
+    "name": "Italic",
+    "website": "https://italic.com",
+    "country": "United States",
+    "category_slug": "fashion",
+    "description": "Direct-to-consumer platform founded in 2018 that sells luxury-quality fashion, leather goods, accessories and home goods made by the same manufacturers as high-end brands, without traditional retail markups.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://app.hienergyrocket.com/a/italic-hienergy-shareasale",
+        "summary": "The Hi Energy AI program listing states Italic's affiliate program runs on ShareASale and that publishers join through ShareASale; it describes Italic as a DTC platform (founded 2018 by Jeremy Cai) offering luxury-quality fashion accessories, clothing and home goods direct from premium manufacturers. The listing publishes no commission rate and no earnings cap, so the rate is null and the cap is unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": null,
+      "application_url": "https://app.hienergyrocket.com/a/italic-hienergy-shareasale",
+      "source_url": "https://app.hienergyrocket.com/a/italic-hienergy-shareasale",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Italic Affiliate Program",
+      "application_url": "https://app.hienergyrocket.com/a/italic-hienergy-shareasale",
+      "source_url": "https://app.hienergyrocket.com/a/italic-hienergy-shareasale"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 10,
+      "compensation": 8,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Luxury-quality fashion, leather goods and accessories at DTC prices suit fashion and quiet-luxury creator content.",
+        "ugc_evidence": "The program is listed for publishers and creators on ShareASale, but the fetched listing publishes no creator cohort size or UGC program detail.",
+        "compensation": "No commission rate is published in the fetched listing, so the rate is null and compensation scores low.",
+        "contact_access": "Joining runs through ShareASale; no public partnerships email was found on the fetched page.",
+        "opportunity_availability": "Program is listed as joinable via ShareASale; no creator count is published, so saturation is unknown.",
+        "credibility": "Established DTC company founded in 2018 with a documented manufacturer-direct model."
+      }
+    }
+  }
+]

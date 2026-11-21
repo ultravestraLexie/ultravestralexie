@@ -1,0 +1,506 @@
+[
+ {
+  "name": "Botslab",
+  "website": "https://www.botslab.com",
+  "country": null,
+  "category_slug": "technology",
+  "description": "Smart security brand (the security arm of 360) selling home security cameras and multi-channel dash cams. Its own affiliate page recruits creators, reviewers and publishers and routes applications through Awin, Impact or Shopify Collabs with published commission tiers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://au.botslab.com/pages/botslab-affiliate-program",
+    "email": null,
+    "source_url": "https://au.botslab.com/pages/botslab-affiliate-program"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "service@botslab.com",
+    "source_url": "https://au.botslab.com/pages/botslab-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://au.botslab.com/pages/botslab-affiliate-program",
+    "summary": "Botslab's own Affiliate Program page (fetched in full) states: 'Apply through Awin, Impact or Shopify Collabs and earn commissions on qualified sales', with published tiers - Starter: 10% base commission, Growth: 12%, Pro Partner: 15%. The 10% published base tier is recorded as the rate. No earnings-cap statement appears anywhere on the page, so commission_cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://au.botslab.com/pages/botslab-affiliate-program",
+    "summary": "Program mechanics from the same page: open to creators, reviewers, bloggers, comparison sites, newsletters and media partners (applications reviewed); creative resources and partner support offered; cookie duration and payout terms are set by the chosen network agreement and are not published on the page. The page publishes a US hotline and service@botslab.com. No creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://au.botslab.com/pages/botslab-affiliate-program",
+   "source_url": "https://au.botslab.com/pages/botslab-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Botslab affiliate program (Awin / Impact / Shopify Collabs)",
+   "application_url": "https://au.botslab.com/pages/botslab-affiliate-program",
+   "source_url": "https://au.botslab.com/pages/botslab-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 13,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Home security cameras and dash cams are core smart-home/tech review topics with strong demo content.",
+    "ugc_evidence": "The brand's own page explicitly recruits creators, reviewers and publishers and offers campaign codes and samples to qualified partners.",
+    "compensation": "Published tier ladder starting at a 10% base and rising to 15%; cap not stated, so no uncapped credit.",
+    "contact_access": "Open application routes on three platforms plus a published support email and US hotline on the program page.",
+    "opportunity_availability": "Applications are open now through Awin, Impact or Shopify Collabs.",
+    "credibility": "Established security-hardware brand with regional storefronts and published support channels; smaller Western creator footprint than category leaders."
+   }
+  }
+ },
+ {
+  "name": "Vivint",
+  "website": "https://www.vivint.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Provo, Utah smart-home and home-security company selling cameras, doorbell cameras, smart locks, sensors and professionally monitored systems through vivint.com/shop. Its publisher program runs on Awin.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/21822/commission-groups?setLocale=it_IT",
+    "summary": "Vivint's Awin program terms state it pays 'a commission equal to 30% of the pre-tax amounts collected by Vivint from the sale of any Smart Home Products' with a 30-day attribution period. However, multiple directories describe the same program as 'up to 30%' (a rate ceiling) and Lasso lists a separate $200 flat per-sale route, so the rate models conflict and commission_rate is recorded as null. No earnings-cap statement was found, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/vivint/",
+    "summary": "Lasso's Vivint listing quotes $200 per sale with a 45-day cookie and a $50 payout threshold - a flat-bounty model that conflicts with the Awin percentage terms, reinforcing the null rate. No creator count is published by any fetched source, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/21822/commission-groups?setLocale=it_IT",
+   "source_url": "https://ui.awin.com/merchant-profile/21822/commission-groups?setLocale=it_IT",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Vivint affiliate program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/21822/commission-groups?setLocale=it_IT",
+   "source_url": "https://ui.awin.com/merchant-profile/21822/commission-groups?setLocale=it_IT"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Smart security systems, doorbell cameras and smart locks are staple home-tech content.",
+    "ugc_evidence": "An open publisher program on Awin with internal affiliate managers and custom creative assets on request.",
+    "compensation": "Headline terms look strong (30% of pre-tax shop sales in Awin terms; $200 flat quoted elsewhere) but the models conflict, so the rate is unpublished for our purposes and scored mid-range.",
+    "contact_access": "Application runs through Awin; no public program email was published in the fetched sources.",
+    "opportunity_availability": "The Awin program is live and accepting publishers for vivint.com/shop sales.",
+    "credibility": "One of the largest US smart-home security brands, publicly traded history and nationwide installation network."
+   }
+  }
+ },
+ {
+  "name": "Aarke",
+  "website": "https://www.aarke.com",
+  "country": null,
+  "category_slug": "home",
+  "description": "Premium kitchen-appliance brand known for design-led sparkling water makers (Carbonator), kettles, coffee makers and water purifiers. Its affiliate program runs through CJ Affiliate.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/aarke/",
+    "summary": "Lasso's AARKE listing (fetched in full) gives a commission of 5% - 12% per sale with a 45-day cookie, and its join button routes to signup.cj.com, confirming CJ Affiliate as the network. Following the directory convention for published ranges, the 5% floor is recorded as the rate. No earnings-cap statement appears, so commission_cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.bravodm.com/brands/aarke",
+    "summary": "BravoDM's creator-program check (October 2026) describes Aarke recruiting kitchen and home creators and bloggers with no follower minimum stated, signup via CJ. No creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 5,
+   "application_url": "https://getlasso.co/affiliate/aarke/",
+   "source_url": "https://getlasso.co/affiliate/aarke/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Aarke affiliate program (CJ Affiliate)",
+   "application_url": "https://getlasso.co/affiliate/aarke/",
+   "source_url": "https://getlasso.co/affiliate/aarke/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Design-forward carbonators and kettles are highly visual kitchen content for home creators.",
+    "ugc_evidence": "Creator program actively recruits kitchen/home creators and bloggers with no follower minimum stated.",
+    "compensation": "Published 5-12% range on CJ with a long 45-day cookie; floor recorded. Cap not stated.",
+    "contact_access": "Application via CJ Affiliate; no public program email in the fetched sources.",
+    "opportunity_availability": "Program is open on CJ now.",
+    "credibility": "Established premium appliance brand sold internationally through major retailers."
+   }
+  }
+ },
+ {
+  "name": "Groomest",
+  "website": "https://www.groomest.com",
+  "country": null,
+  "category_slug": "pets",
+  "description": "Pet grooming brand selling clippers, grooming tools and care products for dogs and cats. Its affiliate program runs through ShareASale at a published 10% per sale.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/groomest/",
+    "summary": "Lasso's Groomest listing (fetched in full) states a commission rate of 10% per sale with a 30-day cookie, and its join buttons route to shareasale.com, confirming ShareASale as the network. No earnings-cap statement appears, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/groomest/",
+   "source_url": "https://getlasso.co/affiliate/groomest/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Groomest affiliate program (ShareASale)",
+   "application_url": "https://getlasso.co/affiliate/groomest/",
+   "source_url": "https://getlasso.co/affiliate/groomest/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "At-home pet grooming tools are a practical, demo-friendly topic for pet creators.",
+    "ugc_evidence": "Program is marketed to pet bloggers and partners through a public network listing.",
+    "compensation": "Clean published 10% per sale with a 30-day cookie; cap not stated.",
+    "contact_access": "Application via ShareASale only; no public program email in the fetched source.",
+    "opportunity_availability": "Listed and joinable on ShareASale now.",
+    "credibility": "Smaller specialist grooming brand; limited third-party footprint beyond the network listing."
+   }
+  }
+ },
+ {
+  "name": "Furbulous",
+  "website": "https://www.furbulouspet.com",
+  "country": null,
+  "category_slug": "pets",
+  "description": "Pet-tech brand built around the Furbulous Box, a self-cleaning automatic cat litter box with app control and auto-packing of waste. Its affiliate program runs through Impact.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/furbulous/",
+    "summary": "LinkClicky lists Furbulous on the Impact platform at 8% per sale. Lasso's listing instead quotes 'up to 11.25%' (a ceiling). The two published figures conflict, so commission_rate is recorded as null with the conflict documented here. No earnings-cap statement was found, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/furbulous/",
+   "source_url": "https://linkclicky.com/affiliate-program/furbulous/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Furbulous affiliate program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/furbulous/",
+   "source_url": "https://linkclicky.com/affiliate-program/furbulous/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Self-cleaning litter boxes are a headline pet-tech product with strong before/after content.",
+    "ugc_evidence": "Open affiliate program on Impact aimed at pet publishers.",
+    "compensation": "Published figures conflict (8% vs up-to-11.25%), so the rate is null and scored conservatively; cap not stated.",
+    "contact_access": "Application via Impact; no public program email in the fetched sources.",
+    "opportunity_availability": "Program listed as active on Impact.",
+    "credibility": "Single-product pet-tech brand with retail distribution; smaller track record than category leaders."
+   }
+  }
+ },
+ {
+  "name": "Sensibo",
+  "website": "https://sensibo.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Smart climate-control brand whose Sensibo Sky and Air devices make existing air conditioners and heat pumps smart, plus air-purifiers and air-quality monitors. It runs an affiliate and partnership program promoted from its own homepage.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://www.Shopper.com/partnerships/sensibo-com-affiliate-program",
+    "summary": "Shopper's Sensibo partnership listing quotes 'up to 14.4%' payout per sale - a ceiling, not a published flat rate - so commission_rate is recorded as null. Sensibo's own homepage footer likewise promotes an 'Affiliate Program - Promote green living and earn with Sensibo's affiliate program'. No earnings-cap statement was found, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopper",
+   "commission_rate": null,
+   "application_url": "https://www.Shopper.com/partnerships/sensibo-com-affiliate-program",
+   "source_url": "https://www.Shopper.com/partnerships/sensibo-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Sensibo affiliate and partnership program",
+   "application_url": "https://www.Shopper.com/partnerships/sensibo-com-affiliate-program",
+   "source_url": "https://www.Shopper.com/partnerships/sensibo-com-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Smart AC controllers are a focused smart-home gadget niche with clear energy-saving storylines.",
+    "ugc_evidence": "The brand promotes its affiliate program from its own homepage and through partnership platforms.",
+    "compensation": "Only an 'up to 14.4%' ceiling is published, so the rate is null; cap not stated.",
+    "contact_access": "Join route runs through the Shopper partnership listing; the brand's own site separately runs a reseller/distributor application, which is trade-only and not the creator route.",
+    "opportunity_availability": "Partnership listing is live with instant-approval positioning on Shopper.",
+    "credibility": "Long-running smart-climate brand sold globally; modest public affiliate footprint."
+   }
+  }
+ },
+ {
+  "name": "ZERO BREEZE",
+  "website": "https://www.zerobreeze.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Portable air-conditioning brand behind the Mark series of battery-powered portable ACs for camping, RVs, vans and off-grid use. Its affiliate program is listed on ShareASale.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/zero-breeze/",
+    "summary": "LinkClicky lists ZERO BREEZE on ShareASale at 8% per sale with a 30-day cookie. Lasso instead lists 6% per sale and Shopper quotes 'up to 2.1%'. The three published figures conflict, so commission_rate is recorded as null with the conflict documented here. No earnings-cap statement was found, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/zero-breeze/",
+   "source_url": "https://linkclicky.com/affiliate-program/zero-breeze/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ZERO BREEZE affiliate program (ShareASale)",
+   "application_url": "https://linkclicky.com/affiliate-program/zero-breeze/",
+   "source_url": "https://linkclicky.com/affiliate-program/zero-breeze/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Battery portable ACs are a distinctive gadget for camping, vanlife and outdoor-tech creators.",
+    "ugc_evidence": "Affiliate program listed across ShareASale and major directories, aimed at electronics and camping publishers.",
+    "compensation": "Published rates conflict across directories (8% / 6% / up-to-2.1%), so the rate is null; cap not stated.",
+    "contact_access": "Application via ShareASale; no public program email in the fetched sources.",
+    "opportunity_availability": "Program listed as active on ShareASale.",
+    "credibility": "Established niche hardware brand with multiple product generations; affiliate terms poorly documented."
+   }
+  }
+ },
+ {
+  "name": "Mysoda",
+  "website": "https://mysoda.com",
+  "country": null,
+  "category_slug": "home",
+  "description": "Eco-focused sparkling-water maker brand (Woody, Glassy and Toby machines) using wood-composite bodies and refillable CO2, sold across Europe and online. Its affiliate listing runs through the Lasso marketplace.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/mysoda/",
+    "summary": "Lasso's Mysoda listing (fetched in full) quotes 'Up to 11.25%' commission - a ceiling, not a published flat rate - with a 14-day cookie and a $10 payout threshold, network recorded as Lasso per the listing. commission_rate is therefore null. No earnings-cap statement appears, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Lasso",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/mysoda/",
+   "source_url": "https://getlasso.co/affiliate/mysoda/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mysoda affiliate program (Lasso)",
+   "application_url": "https://getlasso.co/affiliate/mysoda/",
+   "source_url": "https://getlasso.co/affiliate/mysoda/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Sustainable sparkling-water makers fit kitchen and eco-home content well.",
+    "ugc_evidence": "Program is promoted to home bloggers through the Lasso marketplace listing.",
+    "compensation": "Only an 'up to 11.25%' ceiling is published, so the rate is null; cap not stated.",
+    "contact_access": "Join route is the Lasso marketplace; no public program email in the fetched source.",
+    "opportunity_availability": "Listing is live with no approval requirements stated.",
+    "credibility": "Recognised European design brand in the carbonation category; US creator footprint still developing."
+   }
+  }
+ },
+ {
+  "name": "Cielo WiGle Inc.",
+  "website": "https://cielowigle.com",
+  "country": null,
+  "category_slug": "home",
+  "description": "Maker of the Cielo Breez range of smart Wi-Fi controllers and thermostats that turn mini-split, window and portable air conditioners into smart devices with scheduling, geofencing and voice control. Its affiliate listing runs through the Lasso marketplace.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/cielo-wigle-inc/",
+    "summary": "Lasso's Cielo WiGle Inc. listing quotes 'Up to 5.63%' commission - a ceiling, not a published flat rate - with a 14-day cookie and a $10 payout threshold, network recorded as Lasso per the listing. commission_rate is therefore null. No earnings-cap statement appears, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Lasso",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/cielo-wigle-inc/",
+   "source_url": "https://getlasso.co/affiliate/cielo-wigle-inc/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Cielo WiGle affiliate program (Lasso)",
+   "application_url": "https://getlasso.co/affiliate/cielo-wigle-inc/",
+   "source_url": "https://getlasso.co/affiliate/cielo-wigle-inc/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Smart AC controllers are a precise fit for smart-home and HVAC-upgrade content.",
+    "ugc_evidence": "Affiliate listing targets home-improvement publishers; the brand's own partner efforts focus on OEM/trade channels, so creator evidence is thinner.",
+    "compensation": "Only an 'up to 5.63%' ceiling is published, so the rate is null; cap not stated.",
+    "contact_access": "Join route is the Lasso marketplace; the brand's published partner contact is for trade/OEM orders, not creators.",
+    "opportunity_availability": "Listing is live with no approval requirements stated.",
+    "credibility": "Established ductless-controls brand with wide retail presence; consumer affiliate program is lightly documented."
+   }
+  }
+ },
+ {
+  "name": "Simple Modern",
+  "website": "https://www.simplemodern.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Drinkware brand selling insulated tumblers, water bottles and mugs (including licensed collegiate and character collections) direct and through major US retailers. Its affiliate and partnership program is listed on Shopper.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/simplemodern-com-affiliate-program",
+    "summary": "Shopper's Simplemodern partnership listing quotes 'up to 5-10%' payout per sale - a ceiling range, not a published flat rate - so commission_rate is recorded as null. No earnings-cap statement was found, so commission_cap is unknown, and no creator count is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopper",
+   "commission_rate": null,
+   "application_url": "https://www.shopper.com/partnerships/simplemodern-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/simplemodern-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Simple Modern affiliate and partnership program",
+   "application_url": "https://www.shopper.com/partnerships/simplemodern-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/simplemodern-com-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Tumblers and bottles are high-volume home/lifestyle products with constant color-drop content.",
+    "ugc_evidence": "Partnership program listed for creators and publishers; the brand is heavily promoted by deal and lifestyle creators on social platforms.",
+    "compensation": "Only an 'up to 5-10%' ceiling range is published, so the rate is null; cap not stated.",
+    "contact_access": "Join route is the Shopper partnership listing; no public program email in the fetched source.",
+    "opportunity_availability": "Partnership listing is live with instant-approval positioning on Shopper.",
+    "credibility": "Major US drinkware brand with national retail distribution and a large social following."
+   }
+  }
+ }
+]
