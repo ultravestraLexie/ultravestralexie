@@ -1,0 +1,673 @@
+[
+ {
+  "name": "Nature Spell",
+  "website": "https://www.naturespell.co.uk",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK hair and body care brand (Gold 22 (UK) Limited) best known for its Rosemary Oil and the Rosemary 360 Hair Growth Kit, sold through its own website and its official TikTok Shop UK store.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "customercare@naturespell.co.uk",
+    "source_url": "https://www.naturespell.co.uk/pages/creator-championship-terms-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.naturespell.co.uk/pages/creator-championship-terms-conditions",
+    "summary": "Nature Spell's own Creator Terms & Conditions for its TikTok Shop UK creator programme state the commission rewards verbatim: '15% Open Collaboration, 20% Target Collaboration', paid through TikTok Shop's Affiliate Programme on the official Nature Spell UK TikTok Shop."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.naturespell.co.uk/pages/creator-championship-terms-conditions",
+    "summary": "The same official terms run a creator championship (Nov-Dec 2026) with monthly leaderboards and up to GBP 20,000 in cash prizes on top of commission, requiring at least five qualifying creator videos per month - a structured, actively recruited creator programme."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.naturespell.co.uk/pages/creator-championship-terms-conditions",
+    "summary": "The terms name the promoter as Gold 22 (UK) Limited trading as Nature Spell and direct competition/creator enquiries to customercare@naturespell.co.uk."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.naturespell.co.uk/pages/creator-championship-terms-conditions",
+    "summary": "No earnings-cap statement appears anywhere in the fetched terms, so the cap is recorded as unknown; the 33% cash-prize-to-GMV ceiling in the terms applies only to competition cash prizes, not to affiliate commission."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://www.naturespell.co.uk/pages/creator-championship-terms-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.naturespell.co.uk/pages/creator-championship-terms-conditions",
+   "title": "Nature Spell TikTok Shop UK Affiliate - Open Collaboration (apply inside TikTok Shop)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 18,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Viral hair-growth oils and kits built for TikTok demonstration content - squarely in the beauty creator niche.",
+    "ugc_evidence": "The brand runs a formal creator programme on TikTok Shop with published commission tiers, monthly leaderboards and cash-prize incentives for creator videos.",
+    "compensation": "Published commission on the brand's own terms page: 15% Open Collaboration and 20% Target Collaboration via TikTok Shop UK.",
+    "contact_access": "A published customer/creator enquiries email on the official terms page, but no dedicated creator application form - mid-range.",
+    "opportunity_availability": "Open Collaboration on TikTok Shop UK is open to any eligible TikTok Shop affiliate creator.",
+    "credibility": "Established UK brand operated by Gold 22 (UK) Limited with a registered company address published in its own terms."
+   }
+  }
+ },
+ {
+  "name": "Aliver",
+  "website": "https://aliverbeauty.eu",
+  "country": "Slovakia",
+  "category_slug": "beauty",
+  "description": "European online store for the ALIVER cosmetics brand (founded in China in 2013), selling natural skincare, hair care and body care across the EU, and running its own Affiliate Centre for promoters.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "info@aliverbeauty.eu",
+    "source_url": "https://www.aliverbeauty.eu/cooperation/"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/aliverbeauty.eu"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/aliverbeauty"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://aliverbeauty.eu/affiliate-login/",
+    "summary": "Aliver Beauty's own Affiliate Centre page states the program conditions verbatim: 'the partner margin is set at 20% of the order value' with a 2-week attribution window, open to individuals and websites promoting on social media, blogs and websites."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.aliverbeauty.eu/cooperation/",
+    "summary": "The brand's Cooperation page invites TikTok/YouTube creators and influencers to collaborate, offers free products for testing by agreement, and describes its Commission System with affiliate links, banners and follower discount coupons."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.aliverbeauty.eu/cooperation/",
+    "summary": "The Cooperation page publishes info@aliverbeauty.eu for collaboration terms and lists EU-wide delivery; the affiliate program itself is the consumer-facing route (the same page's wholesale section is trade-only and is not the qualifying route)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://aliverbeauty.eu/affiliate-login/",
+    "summary": "No earnings-cap statement appears on the fetched program pages, so the cap is recorded as unknown; payout method and frequency are set by mutual agreement per the program conditions."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand portal",
+   "commission_rate": 20,
+   "application_url": "https://aliverbeauty.eu/affiliate-login/",
+   "source_url": "https://aliverbeauty.eu/affiliate-login/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://aliverbeauty.eu/affiliate-login/",
+   "source_url": "https://www.aliverbeauty.eu/cooperation/",
+   "title": "Aliver Beauty Affiliate Centre (own affiliate program)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 15,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Natural skincare, hair and body products sold for social promotion, though the store also carries third-party brands - good but not pure-play niche fit.",
+    "ugc_evidence": "A working Affiliate Centre plus an explicit influencer collaboration route with free test products for creators.",
+    "compensation": "Published 20% commission on order value on the brand's own program page - one of the stronger verified rates in this group.",
+    "contact_access": "Published partnerships email plus a self-serve affiliate registration on the official site.",
+    "opportunity_availability": "Affiliate registration is publicly open to individuals and websites; no follower threshold is published.",
+    "credibility": "Operating EU cosmetics store with published phone/email and delivery across the EU, but a smaller regional retailer rather than a global brand."
+   }
+  }
+ },
+ {
+  "name": "Glóavia",
+  "website": "https://gloavia.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Women-owned skincare and haircare brand (peptide elixirs, ceramide barrier care, vitamin C serum) selling direct to consumers and recruiting Community Partners through its own affiliate program on GoAffPro.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://gloavia.goaffpro.com",
+    "email": null,
+    "source_url": "https://gloavia.com/pages/creator-gifting"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gloavia.com/pages/creator-gifting",
+    "summary": "Gloavia's own community page states verbatim: 'Approved Community Partners earn 15% commission on eligible Gloavia purchases made through their personal affiliate link', with registration through its GoAffPro portal."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://gloavia.com/pages/creator-gifting",
+    "summary": "The page is explicitly built for small creators: no minimum follower count, no purchase required to apply or participate, and an optional $9.99 sample Discovery Bundle that is stated not to be an enrollment fee."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://gloavia.com/pages/creator-gifting",
+    "summary": "No earnings-cap statement appears on the fetched page, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 15,
+   "application_url": "https://gloavia.goaffpro.com",
+   "source_url": "https://gloavia.com/pages/creator-gifting",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://gloavia.goaffpro.com",
+   "source_url": "https://gloavia.com/pages/creator-gifting",
+   "title": "Gloavia Community Partner Program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 13,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 2,
+   "reasons": {
+    "niche_fit": "Skincare and haircare formulated for routine-based creator content - strong fit for the beauty/skincare niche.",
+    "ugc_evidence": "A named Community Partner program designed around creators sharing honest product experiences with their communities.",
+    "compensation": "Published 15% commission on the brand's own page.",
+    "contact_access": "A direct public application link (GoAffPro portal) on the official site; no published email.",
+    "opportunity_availability": "Open application with no follower minimum and no purchase requirement.",
+    "credibility": "Very small, new women-owned DTC brand; limited track record compared with established directory brands."
+   }
+  }
+ },
+ {
+  "name": "Glow For It",
+  "website": "https://glowforshop.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "Female-founded UK beauty brand best known for its TikTok-viral, award-winning Lash Growth Serum, plus brow and hair growth serums; vegan, cruelty-free and made in the UK by a B-Corp manufacturer.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@glowforshop.com",
+    "source_url": "https://ui.awin.com/merchant-profile/107910"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/107910",
+    "summary": "Glow For It's live Awin merchant profile describes its affiliate programme (generous commission, product sampling, paid partnership opportunities, fast payments) and names its affiliate manager contact, affiliates@glowforshop.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/107910",
+    "summary": "The Awin profile describes a female-founded brand whose Lash Growth Serum is TikTok-viral and award-winning, Vegan Society and Leaping Bunny approved, and prostaglandin analogue-free."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/107910",
+    "summary": "The Awin profile says only 'generous commission' and publishes no rate and no earnings-cap statement, so commission_rate is null and the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/107910",
+   "source_url": "https://ui.awin.com/merchant-profile/107910",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/107910",
+   "source_url": "https://ui.awin.com/merchant-profile/107910",
+   "title": "Glow For It Affiliate Programme (Awin)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 6,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A TikTok-viral lash serum brand - near-perfect fit for beauty creators.",
+    "ugc_evidence": "The Awin programme explicitly offers product sampling and paid partnership opportunities on top of affiliate commission.",
+    "compensation": "No published rate - the profile says only 'generous commission', so this stays low until the rate is confirmed inside Awin.",
+    "contact_access": "A named affiliate manager email published on the network profile - top band.",
+    "opportunity_availability": "Live Awin programme that creators can apply to join.",
+    "credibility": "Award-winning UK brand with Vegan Society and Leaping Bunny approvals and UK B-Corp manufacturing."
+   }
+  }
+ },
+ {
+  "name": "KIKO Milano",
+  "website": "https://www.kikocosmetics.com",
+  "country": "Italy",
+  "category_slug": "beauty",
+  "description": "Italian professional cosmetics brand founded in 1997 by the Percassi group, selling a wide range of makeup and face/body treatments through its own stores and website in dozens of countries.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/7885",
+    "summary": "KIKO Milano runs a live affiliate programme on Awin (UK programme profile fetched; the brand description confirms the Italian cosmetics house founded in 1997 by Percassi). Programmes are also listed open in several other European markets, with a US route via FlexOffers."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/7885",
+    "summary": "The Awin profile publishes no commission rate. Third-party figures conflict (a Partnerize programme description quotes 10%; Shopper quotes an 'up to 11.5%' ceiling), so commission_rate is null with the conflict recorded here; no earnings-cap statement was found, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/7885",
+   "source_url": "https://ui.awin.com/merchant-profile/7885",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/7885",
+   "source_url": "https://ui.awin.com/merchant-profile/7885",
+   "title": "KIKO Milano Affiliate Programme (Awin)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Full-range colour cosmetics brand - core beauty niche.",
+    "ugc_evidence": "A long-running network affiliate programme across multiple markets, though no dedicated creator/UGC programme was found on the brand's own pages.",
+    "compensation": "No rate published on the network profile and third-party figures conflict (10% vs an up-to-11.5% ceiling), so the rate is unverified.",
+    "contact_access": "No public partnerships contact was found; joining runs through the Awin network only.",
+    "opportunity_availability": "Programmes are open for application on Awin in the UK and other European markets, plus a US listing on FlexOffers.",
+    "credibility": "Major international cosmetics brand founded in 1997 by the Percassi group, with its own retail stores worldwide."
+   }
+  }
+ },
+ {
+  "name": "Davines",
+  "website": "https://www.davines.com",
+  "country": "Italy",
+  "category_slug": "beauty",
+  "description": "Family-owned Italian sustainable haircare company founded in Parma in 1983 by the Bollati family, selling professional-grade shampoos, treatments and styling products to consumers through its own site and salons.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.fmtc.co/fmtc-new-merchants-brityard-davines-mayors-tea-and-linen-the-cheeky-panda/",
+    "summary": "FMTC's merchant additions list Davines as a Rakuten Advertising programme (merchant #47284, Health & Beauty) with a publisher signup link - a live network affiliate route open to content publishers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://glamguide.co/disclosure",
+    "summary": "GlamGuide's affiliate disclosure lists Davines among its Rakuten Advertising network partners, corroborating the Rakuten route."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/davines-com-affiliate-program",
+    "summary": "Shopper quotes only an 'up to 5-10%' payout ceiling and other listings give different figures for other regions, so no verified base rate exists: commission_rate is null and the earnings cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.fmtc.co/fmtc-new-merchants-brityard-davines-mayors-tea-and-linen-the-cheeky-panda/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.fmtc.co/fmtc-new-merchants-brityard-davines-mayors-tea-and-linen-the-cheeky-panda/",
+   "title": "Davines Affiliate Program (Rakuten Advertising)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 8,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium sustainable haircare with strong creator appeal, though the brand's heritage is salon-professional rather than creator-first.",
+    "ugc_evidence": "A live network affiliate programme is the only public creator route found; no dedicated UGC or ambassador programme is published.",
+    "compensation": "No verified published rate - only an 'up to' ceiling from a third-party listing - so this stays at the low band.",
+    "contact_access": "No public partnerships contact found; access is through the Rakuten Advertising network.",
+    "opportunity_availability": "Publishers can apply to the Davines programme inside Rakuten Advertising.",
+    "credibility": "Established 1983 Parma family company and a certified B Corp with global distribution."
+   }
+  }
+ },
+ {
+  "name": "VEYES Beauty",
+  "website": "https://veyesbeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Direct-to-consumer false eyelash brand selling strip lashes and lash products through its own website, recruiting ambassadors through a public collaboration page.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://veyesbeauty.com/pages/collaboration",
+    "email": null,
+    "source_url": "https://veyesbeauty.com/pages/collaboration"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://veyesbeauty.com/pages/collaboration",
+    "summary": "VEYES Beauty's own ambassador page states ambassadors earn commissions for every sale made through their code or link ('High Commission'), with ambassador-only discounts, free and early-access products, and brand-provided photos and campaign assets."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://veyesbeauty.com/pages/collaboration",
+    "summary": "The page calls the commission 'generous' but publishes no percentage and no earnings-cap statement, so commission_rate is null and the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand portal",
+   "commission_rate": null,
+   "application_url": "https://veyesbeauty.com/pages/collaboration",
+   "source_url": "https://veyesbeauty.com/pages/collaboration",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://veyesbeauty.com/pages/collaboration",
+   "source_url": "https://veyesbeauty.com/pages/collaboration",
+   "title": "VEYES Beauty Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 6,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "False lashes are a core TikTok beauty category - strong niche fit.",
+    "ugc_evidence": "A public ambassador programme offering free and early-access products plus ready-made campaign assets for creator content.",
+    "compensation": "Commissions are promised per sale but no rate is published, so this stays low until terms are confirmed.",
+    "contact_access": "A public collaboration/ambassador page on the official site is the application route; no email published.",
+    "opportunity_availability": "Ambassador applications are publicly open via the collaboration page.",
+    "credibility": "Smaller DTC lash brand with an established Amazon and social presence but limited published company information."
+   }
+  }
+ },
+ {
+  "name": "CAKES body",
+  "website": "https://cakesbody.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US body-care brand known for grippy, reusable silicone nipple covers and body products, sold through its own website and a heavily creator-driven TikTok Shop store.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@cakesbody"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/cakes-body",
+    "summary": "Rateful's TikTok Shop analysis (30 days to Nov 6, 2026) reports about 80% of CAKES body's estimated $344K in TikTok Shop sales came through affiliate creators' videos and LIVEs, and that creators with TikTok Shop affiliate access can add its products to their showcase and earn commission on every sale."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/cakes-body",
+    "summary": "TikTok Shop rates are set per product and no headline rate is published in the fetched sources, so commission_rate is null; no earnings-cap statement was found, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://rateful.ai/brand/cakes-body",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://rateful.ai/brand/cakes-body",
+   "title": "CAKES body TikTok Shop Affiliate (open collaboration)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 19,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Body products sit at the beauty/fashion edge; the demo-friendly format performs strongly with beauty creators on TikTok Shop.",
+    "ugc_evidence": "About 80% of the brand's TikTok Shop sales are driven by affiliate creators - one of the most creator-dependent brands in this group.",
+    "compensation": "Commission is earned per TikTok Shop sale, but rates are per-product and unpublished in the fetched sources.",
+    "contact_access": "No public partnerships contact was found; the route in is TikTok Shop itself.",
+    "opportunity_availability": "Open collaboration: any creator with TikTok Shop affiliate access can promote its products.",
+    "credibility": "Established DTC brand with roughly $344K in estimated TikTok Shop sales in the measured 30 days."
+   }
+  }
+ },
+ {
+  "name": "Sud Scrub",
+  "website": "https://sudscrub.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare-tools brand selling antimicrobial silicone face and body scrubbers infused with silver and zinc, through its own website and TikTok Shop.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "support@sudscrub.com",
+    "source_url": "https://sudscrub.com/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/sud-scrub",
+    "summary": "Rateful's TikTok Shop analysis (30 days to Nov 6, 2026) reports affiliate creators drove about 21% of Sud Scrub's estimated $67.6K in TikTok Shop sales (2,524 items), and that creators with TikTok Shop affiliate access can add its products to their showcase and earn commission on every sale."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://sudscrub.com/",
+    "summary": "Sud Scrub's own site sells its antimicrobial silicone face and body scrubbers, states 100k+ happy customers, and publishes support@sudscrub.com."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://app.createfunmcn.com/products?department=home-supplies&category=Bathing+Accessories",
+    "summary": "A TikTok Shop MCN marketplace listing shows a 20% public rate for the hero Body Scrubber product, but TikTok Shop rates are set per product and no brand-published headline rate was found, so commission_rate is null and the earnings cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://rateful.ai/brand/sud-scrub",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://rateful.ai/brand/sud-scrub",
+   "title": "Sud Scrub TikTok Shop Affiliate (open collaboration)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Exfoliation tools for breakouts and sensitive skin - a natural fit for skincare routine content.",
+    "ugc_evidence": "A fifth of TikTok Shop sales already come through affiliate creators, with free samples available to creators through TikTok Shop.",
+    "compensation": "Commission is earned per TikTok Shop sale; a 20% public rate was seen for one hero product on an MCN marketplace, but no brand-published headline rate exists.",
+    "contact_access": "A published support email on the official site; no dedicated creator contact.",
+    "opportunity_availability": "Open collaboration: any creator with TikTok Shop affiliate access can promote its products.",
+    "credibility": "Established DTC brand claiming 100k+ customers with steady TikTok Shop sales."
+   }
+  }
+ },
+ {
+  "name": "Sydney Grace",
+  "website": "https://sydneygraceco.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Family-owned US indie cosmetics brand known for pressed eyeshadows and pigments, sold through its own website and promoted through a newly launched creator affiliate program.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "contact@sydneygraceco.com",
+    "source_url": "https://simplycodes.com/store/sydneygraceco.com"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/sydneygraceco"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.threads.com/@sydneygraceco/post/DWPngKAAWKh",
+    "summary": "Sydney Grace's official Threads announcement (March 2026) launches a 'NEW AFFILIATE PROGRAM', inviting creators to earn commissions by sharing a unique affiliate code and to apply with their full name, social links and email address."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://simplycodes.com/store/sydneygraceco.com",
+    "summary": "SimplyCodes, summarising the brand's official Facebook and Instagram posts, confirms Sydney Grace runs an active affiliate program and directs interested creators to apply by email at contact@sydneygraceco.com; creator affiliate codes are the brand's main discount channel."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.threads.com/@sydneygraceco/post/DWPngKAAWKh",
+    "summary": "No commission percentage and no earnings-cap statement are published in the announcement or listings, so commission_rate is null and the cap is unknown; the program's March 2026 launch date alone does not establish low creator saturation."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand portal",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://simplycodes.com/store/sydneygraceco.com",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.threads.com/@sydneygraceco/post/DWPngKAAWKh",
+   "title": "Sydney Grace Affiliate Program (apply by email)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 6,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Indie eyeshadow and pigment brand with a cult following among makeup creators - strong niche fit.",
+    "ugc_evidence": "A newly launched affiliate program actively recruiting creators, including smaller makeup creators, through the brand's own social channels.",
+    "compensation": "Commissions via affiliate codes are confirmed, but no rate is published, so this stays low until terms are shared on application.",
+    "contact_access": "A published application email (contact@sydneygraceco.com) on the brand's own posts - top band.",
+    "opportunity_availability": "Applications are open by email/DM per the launch announcement.",
+    "credibility": "Established family-owned indie brand with a long-running store and engaged social following."
+   }
+  }
+ }
+]

@@ -1,0 +1,554 @@
+[
+ {
+  "name": "US Wellness Meats",
+  "website": "https://grasslandbeef.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Family-farm-owned meat company based in Canton, Missouri, operating for over 25 years and selling 100% grass-fed and pasture-raised beef and other meats direct to consumers through Grassland Beef.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "eathealthy@grasslandbeef.com",
+    "source_url": "https://grasslandbeef.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://grasslandbeef.com/pages/affiliates",
+    "summary": "The brand's official affiliate page offers a competitive commission on all referral sales, paid monthly, with sign-up routed to Impact (app.impact.com) and promotional materials available on request; the page publishes no commission rate and states no earnings cap, so the rate is unpublished and the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://grasslandbeef.com/pages/affiliates",
+    "summary": "The same page states US Wellness Meats has been owned and operated by family farms for over 25 years, selling 100% grass-fed and pasture-raised meats raised without added hormones, GMOs or antibiotics, and lists the company at Canton, MO with the contact email eathealthy@grasslandbeef.com."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://grasslandbeef.com/pages/affiliates",
+   "source_url": "https://grasslandbeef.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "US Wellness Meats Affiliate Program (Impact)",
+   "application_url": "https://grasslandbeef.com/pages/affiliates",
+   "source_url": "https://grasslandbeef.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Grass-fed meat is a staple topic for food, homestead and carnivore/ancestral-health creators, though narrower than snack or beverage brands.",
+    "ugc_evidence": "An official affiliate page aimed at bloggers and website owners exists, but there is no structured creator community or ambassador program on the site.",
+    "compensation": "A real commission program with monthly payouts exists on Impact, but the brand publishes no rate, so compensation cannot be scored higher.",
+    "contact_access": "A published contact email (eathealthy@grasslandbeef.com) appears on the official affiliate page alongside the sign-up route.",
+    "opportunity_availability": "Open affiliate sign-up through Impact from the brand's own page.",
+    "credibility": "Operating for over 25 years under family-farm ownership with a fixed US address and phone contact."
+   }
+  }
+ },
+ {
+  "name": "Great Lakes Wellness",
+  "website": "https://greatlakeswellness.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Collagen and gelatin wellness brand selling bovine and MSC-certified marine collagen products aimed at healthy aging — skin, hair, nails, joints and digestion — direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/97015",
+    "summary": "Awin's merchant profile for Great Lakes Wellness describes a competitive tiered commission structure for content creators, bloggers and other publisher types, a 30-day cookie, average order size over $90, free shipping over $60 and affiliate manager support; the tier percentages are not published and no earnings cap is stated, so the rate is unpublished and the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/97015",
+    "summary": "The profile describes Great Lakes Wellness as a collagen brand built around healthy aging — including the first MSC-certified marine-based collagen — supporting skin, hair, joints and digestive health, and explicitly invites content creators and wellness bloggers to join."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/97015",
+   "source_url": "https://ui.awin.com/merchant-profile/97015",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Great Lakes Wellness Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/97015",
+   "source_url": "https://ui.awin.com/merchant-profile/97015"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Collagen is a core wellness-creator topic (morning routines, skin and joint health) with strong demo potential in drinks and recipes.",
+    "ugc_evidence": "The Awin program explicitly recruits content creators and bloggers, but no separate creator community or ambassador layer was verified.",
+    "compensation": "A tiered commission structure on Awin with a high average order value (over $90), but the tier percentages are unpublished.",
+    "contact_access": "No public program email was published on the profile; contact runs through Awin and its affiliate manager.",
+    "opportunity_availability": "Open network program on Awin with a published profile and application route.",
+    "credibility": "Established collagen brand with a differentiated MSC-certified marine product and network-managed program."
+   }
+  }
+ },
+ {
+  "name": "Thistle",
+  "website": "https://thistle.co",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Health-focused meal delivery service delivering fresh, organic and gluten-free ready-to-eat meals and juices direct to consumers on a subscription basis.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/thistle/",
+    "summary": "LinkClicky lists Thistle's affiliate program on Impact at a flat $20 per signup; other directories conflict (3% per sale, up to 20%, up to 4%), so no single rate could be verified and commission_rate is null. No source states an earnings cap, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.groupon.com/coupons/thistle",
+    "summary": "Groupon's Thistle page describes the Thistle Collective ambassador program — health and wellness influencers earn affiliate commissions for referrals, with early access to launches, community events and free meals — separate from the Thistle PALS customer referral scheme, which pays store credit and is not the creator program."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/thistle/",
+   "source_url": "https://linkclicky.com/affiliate-program/thistle/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Thistle Affiliate Program (Impact) & Thistle Collective",
+   "application_url": "https://linkclicky.com/affiliate-program/thistle/",
+   "source_url": "https://linkclicky.com/affiliate-program/thistle/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ready-to-eat healthy meal delivery is highly visual and fits food, fitness and busy-life creator content well.",
+    "ugc_evidence": "A named ambassador program (Thistle Collective) targets health and wellness influencers on top of the network affiliate program.",
+    "compensation": "Published figures conflict ($20 per signup vs percentage claims), so no rate could be verified; a working commission program exists on Impact.",
+    "contact_access": "No public program email found; applications run through Impact and the Collective.",
+    "opportunity_availability": "Open network program on Impact, plus an influencer-facing ambassador route.",
+    "credibility": "Established US meal-delivery brand with national press and coupon-site presence."
+   }
+  }
+ },
+ {
+  "name": "Art of Tea",
+  "website": "https://www.artoftea.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Los Angeles-based tea importer and blender selling organic loose-leaf teas, botanicals and teaware, hand-blended in California and sold direct to consumers and wholesale.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/art-tea/",
+    "summary": "Lasso lists the Art of Tea affiliate program at 10% per sale on ShareASale with a 90-day cookie, and LinkClicky independently lists the same 10% per sale on ShareASale; no earnings cap is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/85315",
+    "summary": "Art of Tea's Awin merchant profile describes a Los Angeles tea importer and wholesaler that hand-blends the world's finest organic teas and botanicals, and also offers affiliates 10% commission (30-day cookie on Awin)."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/art-tea/",
+   "source_url": "https://getlasso.co/affiliate/art-tea/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Art of Tea Affiliate Program (ShareASale)",
+   "application_url": "https://getlasso.co/affiliate/art-tea/",
+   "source_url": "https://getlasso.co/affiliate/art-tea/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 14,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium organic loose-leaf tea and gifting fit tea, wellness and lifestyle creators well.",
+    "ugc_evidence": "Long-running network affiliate program on two networks; no dedicated creator community was found.",
+    "compensation": "A consistent, verified 10% per sale across independent directories, with a long 90-day cookie on ShareASale.",
+    "contact_access": "No public program email found; applications run through the networks.",
+    "opportunity_availability": "Open network programs on ShareASale and Awin, listed for all regions.",
+    "credibility": "Established Los Angeles tea importer/blender with wholesale and DTC operations."
+   }
+  }
+ },
+ {
+  "name": "Rishi Tea",
+  "website": "https://rishi-tea.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Organic tea and botanicals brand (Rishi Tea & Botanicals) selling loose-leaf teas and sparkling botanicals direct to consumers, with a curated creator community called Tastemakers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://rishi-tea.com/pages/tastemakers",
+    "summary": "Rishi's official Tastemakers page runs a curated creator community: members share personalized discount links, earn commissions with monthly payouts and get early access to launches; the page says Rishi is only partnering with US-based creators with an active Instagram or TikTok presence, and publishes no commission rate."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://umatechnology.org/17-best-tea-affiliate-programs-to-promote-in-2025/",
+    "summary": "Third-party listings for Rishi's network program conflict — 10% per sale on ShareASale here, up to 4.5% via Lasso's marketplace and lower figures elsewhere — so no rate could be verified and commission_rate is null; no source states an earnings cap."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://rishi-tea.com/pages/tastemakers",
+   "source_url": "https://rishi-tea.com/pages/tastemakers",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Rishi Tastemakers Creator Community",
+   "application_url": "https://rishi-tea.com/pages/tastemakers",
+   "source_url": "https://rishi-tea.com/pages/tastemakers"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Organic loose-leaf tea with a storyteller-focused brand fits tea and wellness creators well.",
+    "ugc_evidence": "An official, named creator community (Tastemakers) with defined benefits — discount links, commissions, early access — aimed at Instagram and TikTok creators.",
+    "compensation": "Commissions with monthly payouts are promised on the official page, but rates conflict across network listings and none is published by the brand.",
+    "contact_access": "An ambassador inquiry form on the official Tastemakers page is the published route; no program email was found.",
+    "opportunity_availability": "Inquiry-based and curated, US-based creators only — open to apply but selective.",
+    "credibility": "Established organic tea brand with national DTC presence and a long-running network program."
+   }
+  }
+ },
+ {
+  "name": "Harney & Sons",
+  "website": "https://www.harney.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Family-owned premium tea company founded in 1983, selling 200+ loose-leaf teas, sachets, gifts and teaware direct to consumers and through hotels and gourmet shops.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/harney-sons/",
+    "summary": "Lasso lists the Harney & Sons affiliate program at 7.14% per sale with application through ShareASale; other sources conflict (around 8% via Refersion/FlexOffers, 10% in older CJ listings, 5% via FlexOffers), so no single rate could be verified and commission_rate is null. No earnings cap is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.harney.com",
+    "summary": "Harney & Sons' official site states the company was founded in 1983 by John Harney, sources and blends fine teas from around the world, packages in the USA, and is now run by his sons Michael and Paul Harney."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/harney-sons/",
+   "source_url": "https://getlasso.co/affiliate/harney-sons/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Harney & Sons Affiliate Program (ShareASale)",
+   "application_url": "https://getlasso.co/affiliate/harney-sons/",
+   "source_url": "https://getlasso.co/affiliate/harney-sons/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium tea with strong brand recognition and giftable products fits tea and lifestyle creators well.",
+    "ugc_evidence": "A long-standing multi-network affiliate program, but no dedicated creator community or ambassador layer was found.",
+    "compensation": "Programs exist on several networks, but published rates conflict (5%–10% depending on source and network), so no rate could be verified.",
+    "contact_access": "No public program email found; applications run through the networks.",
+    "opportunity_availability": "Open network programs with application routes on ShareASale and other networks.",
+    "credibility": "Family tea company founded in 1983, stocked in luxury hotels and gourmet shops for decades."
+   }
+  }
+ },
+ {
+  "name": "Stonewall Kitchen",
+  "website": "https://www.stonewallkitchen.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Specialty food company founded in 1991 in York, Maine, selling jams, jellies, sauces, baking mixes and other gourmet foods through its own site and 6,000+ stores.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/stonewall-kitchen/",
+    "summary": "LinkClicky lists Stonewall Kitchen's affiliate program on Rakuten Advertising at 5% per sale; other roundups conflict (5–8% ranges, an 8% base rate, 3–6%, 4.5%), so no single rate could be verified and commission_rate is null. No earnings cap is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://linkwhisper.com/cooking-affiliate-programs/",
+    "summary": "LinkWhisper describes Stonewall Kitchen as a family-owned Maine brand that started at a local farmers market and now sells award-winning jams, sauces and mixes in over 6,000 stores internationally."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/stonewall-kitchen/",
+   "source_url": "https://linkclicky.com/affiliate-program/stonewall-kitchen/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Stonewall Kitchen Affiliate Program (Rakuten Advertising)",
+   "application_url": "https://linkclicky.com/affiliate-program/stonewall-kitchen/",
+   "source_url": "https://linkclicky.com/affiliate-program/stonewall-kitchen/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Gourmet pantry staples and gift baskets fit food bloggers and seasonal gift-guide creators well.",
+    "ugc_evidence": "A long-running network affiliate program with a dedicated affiliate management team reported, but no creator community was found.",
+    "compensation": "A working Rakuten program exists, but published rates conflict across sources (roughly 3%–8%), so no rate could be verified.",
+    "contact_access": "No public program email found; applications run through Rakuten Advertising.",
+    "opportunity_availability": "Open network program on Rakuten Advertising.",
+    "credibility": "Specialty food company founded in 1991 with distribution in 6,000+ stores."
+   }
+  }
+ },
+ {
+  "name": "Swanson Vitamins",
+  "website": "https://www.swansonvitamins.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Vitamins and supplements retailer founded in 1969, selling its own Swanson brand plus other labels — vitamins, minerals, herbs, probiotics and organic foods — direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/swanson/",
+    "summary": "LinkClicky lists Swanson's affiliate program on Impact at 3% per sale, described as the rate officially listed with the program; other sources conflict (a 10% Katalys offer carried on Impact, 0.66–3.33% and up-to-10% ranges elsewhere), so no single rate could be verified and commission_rate is null. No earnings cap is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/swanson/",
+    "summary": "LinkClicky describes Swanson as a trusted retailer of vitamins, supplements and natural health products established in 1969, offering organic foods, herbs and probiotics, with the affiliate program open in all regions."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/swanson/",
+   "source_url": "https://linkclicky.com/affiliate-program/swanson/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Swanson Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/swanson/",
+   "source_url": "https://linkclicky.com/affiliate-program/swanson/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 8,
+   "compensation": 6,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A broad supplement catalogue fits health creators, though as a retailer it is less brand-distinctive than a single-product brand.",
+    "ugc_evidence": "A standard network affiliate program; no creator community, ambassador program or UGC focus was found.",
+    "compensation": "Published rates are low and conflicting (3% network listing vs higher third-party offers), so no rate could be verified.",
+    "contact_access": "No public program email found; applications run through Impact.",
+    "opportunity_availability": "Open network program on Impact, listed for all regions.",
+    "credibility": "Supplement retailer established in 1969 with a large catalogue and national recognition."
+   }
+  }
+ },
+ {
+  "name": "Earth Mama Organics",
+  "website": "https://earthmamaorganics.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Organic herbal care brand for pregnancy, postpartum, breastfeeding and baby — teas, balms, castile soaps, sunscreen and deodorants — sold direct to consumers and at retailers including Target.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/earthmamaorganics"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/advertiser-terms/59077/period",
+    "summary": "Earth Mama's current Awin program terms (last updated Oct 17, 2025) state that affiliates earn 10% commission on every qualified order made through their unique referral link, list social media content creators and influencers as an accepted partner type, and note US-only shipping; the terms state no earnings cap, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://earthmamaorganics.com",
+    "summary": "Earth Mama's official store describes over two decades of combining women's wisdom, traditional herbal remedies and evidence-based research to support pregnant and breastfeeding women and their families, across pregnancy, postpartum and baby care products."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://sweetandsimplelife.com/3-high-paying-affiliate-programs-for-crunchy-mom-bloggers/",
+    "summary": "Older mom-blogger guides describe a former ShareASale program paying 20% per sale with a 30-day cookie; the brand's current Awin terms state 10%, so the Awin program and its 10% rate are what is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/advertiser-terms/59077/period",
+   "source_url": "https://ui.awin.com/advertiser-terms/59077/period",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Earth Mama Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/advertiser-terms/59077/period",
+   "source_url": "https://ui.awin.com/advertiser-terms/59077/period"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pregnancy, postpartum and baby care is a high-trust, high-content niche for mom creators.",
+    "ugc_evidence": "The current Awin terms explicitly accept social media content creators and influencers, and the brand runs an active creator community on Instagram.",
+    "compensation": "A verified current rate of 10% on every qualified order, stated in the program's own Awin terms.",
+    "contact_access": "No public program email found; applications run through Awin.",
+    "opportunity_availability": "Open network program on Awin with published terms (US-focused).",
+    "credibility": "Two decades in business with retail distribution including Target."
+   }
+  }
+ },
+ {
+  "name": "Numi Tea",
+  "website": "https://numitea.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Organic tea company selling loose-leaf teas, tea bags and flowering teas direct to consumers, with an ambassador program for creators who share tea recipes and tea moments.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://numitea.com/pages/numi-ambassadors",
+    "summary": "Numi's official ambassador page invites creators to fill out an application form, share a personal referral link and earn commissions for every purchase made through it, with tracking and payments handled by a third-party network (Impact Radius) and a real-time dashboard; joining is free and no commission rate is published on the page, so the rate is unpublished and the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://numitea.com/pages/numi-ambassadors",
+   "source_url": "https://numitea.com/pages/numi-ambassadors",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Numi Ambassadors (creator affiliate program, Impact)",
+   "application_url": "https://numitea.com/pages/numi-ambassadors",
+   "source_url": "https://numitea.com/pages/numi-ambassadors"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Organic tea with recipe and ritual content angles fits tea and wellness creators well.",
+    "ugc_evidence": "An official ambassador program framed entirely around creators sharing tea recipes, moments and hacks, with referral links and a live dashboard.",
+    "compensation": "Commissions on every referred purchase are promised, but the brand publishes no rate on the program page.",
+    "contact_access": "A public application form on the official ambassador page is the route in; no program email was found.",
+    "opportunity_availability": "Free to join with a simple application form on the brand's own site, tracked through Impact.",
+    "credibility": "Established organic tea brand with national retail and DTC presence."
+   }
+  }
+ }
+]
