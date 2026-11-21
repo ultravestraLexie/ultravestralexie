@@ -82,6 +82,27 @@ export default function CoachPage() {
       </section>
 
       <section style={panel}>
+        <h2 style={h2style}>🎓 The Growth Center curriculum — ten skills, all practical</h2>
+        <p style={sub}>Every topic is a working lesson in the Creator Academy: instructions, a real example, and one thing to apply today. The Lab above tells you which one you need first.</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: 12 }}>
+          {[
+            ["Strong video hooks", "/academy?cat=Hooks"],
+            ["Product demonstrations", "/academy?cat=Filming"],
+            ["Storytelling", "/academy?cat=Scripts"],
+            ["Product review structure", "/academy?cat=Scripts"],
+            ["Video pacing & editing", "/academy?cat=Filming"],
+            ["Calls to action", "/academy?cat=Scripts"],
+            ["Trust & proof", "/academy?cat=Scripts"],
+            ["Sales-focused video scripts", "/academy?cat=Scripts"],
+            ["Content planning", "/academy?cat=Growth"],
+            ["Platform-specific strategies", "/academy?cat=Growth"],
+          ].map(([topic, href]) => (
+            <Link key={topic} href={href} style={{ border: "1px solid #4c1d95", borderRadius: 14, padding: "13px 16px", background: "rgba(13,2,33,0.65)", fontWeight: 700, fontSize: 15, textDecoration: "none" }}>{topic} →</Link>
+          ))}
+        </div>
+      </section>
+
+      <section style={panel}>
         <h2 style={h2style}>📤 Upload analysis — coming honestly</h2>
         <p style={sub}>
           Soon you will be able to upload a video and get an automated analysis on top of this diagnostic.

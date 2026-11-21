@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { createClient } from "@/lib/supabase/server";
+
+export const dynamic = "force-dynamic";
 
 const WORLDS: {
   n: string;
@@ -153,7 +156,17 @@ const pillStyle: React.CSSProperties = {
   letterSpacing: 2,
 };
 
-export default function LandingPage() {
+export default async function LandingPage() {
+  /* The brand count is read live from the published database records —
+   * UltraVestra never advertises a number the records do not back. */
+  let brandCount = 0;
+  try {
+    const supabase = await createClient();
+    const { count } = await supabase.from("brands").select("id", { count: "exact", head: true }).eq("status", "published");
+    brandCount = count ?? 0;
+  } catch {
+    brandCount = 0;
+  }
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 56 }}>
       <section
@@ -292,7 +305,7 @@ export default function LandingPage() {
             }}
           >
             {[
-              ["400+", "brands researched & sourced"],
+              brandCount > 0 ? [String(brandCount), "brands researched & sourced"] : ["New", "brands added every week"],
               ["2", "search engines — database + live web"],
               ["5", "connected experiences"],
             ].map(([num, label]) => (
