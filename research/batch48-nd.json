@@ -1,0 +1,730 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://www.kitchenaid.com/countertop-appliances/makers-club",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Brand direct",
+      "source_url": "https://www.kitchenaid.com/countertop-appliances/makers-club"
+    },
+    "category_slug": "home",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.kitchenaid.com/countertop-appliances/makers-club",
+        "email": null,
+        "source_url": "https://www.kitchenaid.com/countertop-appliances/makers-club"
+      }
+    ],
+    "country": "United States",
+    "description": "Iconic American kitchen appliance brand, part of Whirlpool Corporation and based in Benton Harbor, Michigan, selling stand mixers, countertop appliances and cookware; in October 2026 it launched the KitchenAid Makers Club, a creator network open to creators of all sizes with no follower minimum.",
+    "evidence": [
+      {
+        "claim": "The KitchenAid Makers Club is the brand's own creator program: free to join, open to creators of all sizes with no follower minimum, rolling applications, 18+, and Affiliate Collaborators earn commission, with full terms shared on acceptance.",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.kitchenaid.com/countertop-appliances/makers-club",
+        "summary": "The brand's own Makers Club page, fetched 2026-11-21, describes the creator network, its open eligibility and commission-earning collaborator tier; commission percentages are not published there."
+      },
+      {
+        "claim": "The Makers Club launched in October 2026, announced from Benton Harbor, Michigan.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://www.kitchenaid.com/countertop-appliances/makers-club",
+        "summary": "The launch timing is reported in the brand's October 2026 press release; a launch date alone is not treated as low creator saturation."
+      },
+      {
+        "claim": "KitchenAid's classic affiliate program runs on CJ Affiliate, but published rates conflict: a Lasso listing for the ShopKitchenAid CJ program cites 8% while other directories cite 5%, so no single rate is recorded.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://lasso.net/go/kitchenaid/",
+        "summary": "Conflicting third-party rate listings for the CJ program were found on 2026-11-21; the rate is left null rather than guessed."
+      },
+      {
+        "claim": "No fetched page states an earnings cap for either KitchenAid program, so commission_cap is recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.kitchenaid.com/countertop-appliances/makers-club",
+        "summary": "Cap status checked against the Makers Club page and CJ listings on 2026-11-21; no no-cap statement appears."
+      }
+    ],
+    "name": "KitchenAid",
+    "opportunity": {
+      "application_url": "https://www.kitchenaid.com/countertop-appliances/makers-club",
+      "source_url": "https://www.kitchenaid.com/countertop-appliances/makers-club",
+      "status": "accepting_applications",
+      "title": "KitchenAid Makers Club creator program"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 12,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Commission exists but percentages are unpublished for the creator program and conflicting for the network program, so the rate is null.",
+        "contact_access": "A dedicated creator application page on the brand's own domain.",
+        "credibility": "A century-old flagship appliance brand owned by Whirlpool.",
+        "niche_fit": "The stand mixer is one of the most demonstrated products in home and baking content.",
+        "opportunity_availability": "Rolling applications open to creators of all sizes with no follower minimum.",
+        "ugc_evidence": "The Makers Club is a purpose-built creator network with content briefs and an affiliate collaborator tier."
+      },
+      "ugc_evidence": 19
+    },
+    "socials": [],
+    "website": "https://www.kitchenaid.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/21028",
+      "commission_cap": "unknown",
+      "commission_rate": "10%",
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/21028"
+    },
+    "category_slug": "pets",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "kristina.cuza@goldenhippo.com",
+        "source_url": "https://ui.awin.com/merchant-profile/21028"
+      }
+    ],
+    "country": "United States",
+    "description": "American direct-to-consumer pet nutrition brand built around veterinarian Dr. Marty Goldstein, selling freeze-dried raw dog and cat food, supplements and treats, and citing more than 20,000 five-star reviews on its homepage.",
+    "evidence": [
+      {
+        "claim": "Dr. Marty Pets runs an affiliate program on Awin (merchant profile 21028) paying 10% commission with a 30-day cookie.",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/21028",
+        "summary": "The Awin merchant profile, fetched 2026-11-21, publishes the 10% rate and 30-day cookie."
+      },
+      {
+        "claim": "The Awin profile publishes a named affiliate contact, kristina.cuza@goldenhippo.com at the brand's agency Golden Hippo, and invites flexible collaboration.",
+        "confidence": "verified",
+        "evidence_type": "contact_page",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/21028",
+        "summary": "Contact details are printed on the network merchant profile itself."
+      },
+      {
+        "claim": "The brand's homepage presents freeze-dried raw pet food formulated by Dr. Marty Goldstein, citing 50+ years of veterinary experience and 20,000+ five-star reviews.",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://drmartypets.com/",
+        "summary": "Product positioning and review counts are stated on the brand homepage, fetched 2026-11-21."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/21028",
+        "summary": "Checked on the Awin profile and brand homepage on 2026-11-21."
+      }
+    ],
+    "name": "Dr. Marty Pets",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/21028",
+      "source_url": "https://ui.awin.com/merchant-profile/21028",
+      "status": "accepting_applications",
+      "title": "Dr. Marty Pets affiliate program on Awin"
+    },
+    "score": {
+      "compensation": 15,
+      "contact_access": 13,
+      "credibility": 4,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "A published 10% rate with a 30-day cookie on premium-priced food.",
+        "contact_access": "A named affiliate contact email is published on the network profile.",
+        "credibility": "Established direct-to-consumer brand with a large review base; its direct-response marketing model tempers the score.",
+        "niche_fit": "Premium freeze-dried pet food is a heavily reviewed, subscription-friendly pet niche.",
+        "opportunity_availability": "Open application through Awin.",
+        "ugc_evidence": "The brand is built on a veterinarian personality and video-led marketing, though no formal UGC program page was fetched."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://drmartypets.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.lenovo.com/us/en/affiliate-program/resources/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://www.lenovo.com/us/en/affiliate-program/resources/"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.lenovo.com/us/en/affiliate-program/resources/",
+        "email": null,
+        "source_url": "https://www.lenovo.com/us/en/affiliate-program/resources/"
+      }
+    ],
+    "country": "China",
+    "description": "The world's largest PC maker, founded in Beijing in 1984 with global headquarters in Beijing and Morrisville, North Carolina, selling ThinkPad, Yoga, IdeaPad and Legion laptops, desktops, tablets, monitors and accessories through lenovo.com.",
+    "evidence": [
+      {
+        "claim": "Lenovo's own affiliate resources page states partners earn a minimum of 2% commission with a 3-day cookie, that joining is free, and that the program runs on Impact (Lenovo NA 173567 / Lenovo USA 3808).",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.lenovo.com/us/en/affiliate-program/resources/",
+        "summary": "The brand's own affiliate page, fetched 2026-11-21, publishes only a 2% floor rather than a full rate schedule, so the rate is recorded as null with the floor documented here."
+      },
+      {
+        "claim": "The same page explicitly courts influencers and content creators and describes a Legion gaming-influencer partner track and a product review program.",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.lenovo.com/us/en/affiliate-program/resources/",
+        "summary": "Creator-facing language appears on the brand's own affiliate resources page."
+      },
+      {
+        "claim": "External listings conflict with the brand's floor: directories cite figures from about 1.6% to 2-4% depending on network and category.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://www.lenovo.com/us/en/affiliate-program/resources/",
+        "summary": "Because only a minimum is published by the brand and third-party figures conflict, commission_rate is left null."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.lenovo.com/us/en/affiliate-program/resources/",
+        "summary": "Checked on the brand affiliate page on 2026-11-21."
+      }
+    ],
+    "name": "Lenovo",
+    "opportunity": {
+      "application_url": "https://www.lenovo.com/us/en/affiliate-program/resources/",
+      "source_url": "https://www.lenovo.com/us/en/affiliate-program/resources/",
+      "status": "accepting_applications",
+      "title": "Lenovo affiliate program on Impact"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 12,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Only a 2% minimum is published by the brand and third-party figures conflict, so the rate is null.",
+        "contact_access": "A detailed affiliate resources page on the brand's own domain with the application route.",
+        "credibility": "The world's largest PC vendor, founded in 1984.",
+        "niche_fit": "Laptops and gaming PCs anchor tech review and desk-setup content.",
+        "opportunity_availability": "Free, open application through Impact.",
+        "ugc_evidence": "The brand's own page addresses influencers and content creators directly, with a Legion gaming-influencer track."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [],
+    "website": "https://www.lenovo.com"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": "7%",
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://commissiondex.com/wayfair-affiliate-program/"
+    },
+    "category_slug": "home",
+    "contacts": [],
+    "country": "United States",
+    "description": "The largest online-only home goods retailer in the United States, selling furniture, decor, rugs, lighting and renovation products across millions of listings, with an affiliate program aimed at publishers, bloggers and content creators.",
+    "evidence": [
+      {
+        "claim": "Wayfair's affiliate program runs on ShareASale paying 7% per sale with a 7-day cookie and a $50 minimum payout.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://commissiondex.com/wayfair-affiliate-program/",
+        "summary": "CommissionDex's program page, fetched 2026-11-21, lists the ShareASale network, 7% rate, 7-day cookie and $50 payout threshold."
+      },
+      {
+        "claim": "A second program tracker corroborates ShareASale at 7% with a 7-day cookie for Wayfair.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://commissiondex.com/wayfair-affiliate-program/",
+        "summary": "WhichProgram's Wayfair listing agrees on network, rate and cookie; an older claim of a CJ migration is documented as superseded."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://commissiondex.com/wayfair-affiliate-program/",
+        "summary": "Checked against the fetched program listings on 2026-11-21."
+      }
+    ],
+    "name": "Wayfair",
+    "opportunity": null,
+    "score": {
+      "compensation": 14,
+      "contact_access": 7,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "A corroborated 7% rate on high average orders, tempered by a short 7-day cookie.",
+        "contact_access": "Joining is network-only; no public brand affiliate contact was verified.",
+        "credibility": "The largest online-only home retailer in the United States.",
+        "niche_fit": "Furniture and home decor are staple home-content categories with very high order values.",
+        "opportunity_availability": "Open application through ShareASale with straightforward approval reported.",
+        "ugc_evidence": "The program is positioned for bloggers and content creators, though no formal UGC program page was fetched."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://www.wayfair.com"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": "6%",
+      "creator_saturation": "unknown",
+      "network": "Partnerize",
+      "source_url": "https://affi.io/sennheiser"
+    },
+    "category_slug": "technology",
+    "contacts": [],
+    "country": "Germany",
+    "description": "German family-owned audio company with a 70-plus-year history, selling consumer and professional headphones, earbuds, microphones, wireless systems and soundbars through its own webshop and retailers worldwide.",
+    "evidence": [
+      {
+        "claim": "Sennheiser's US affiliate program is open on Partnerize paying 6% commission with a 30-day cookie.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://affi.io/sennheiser",
+        "summary": "The affi.io program tracker page, fetched 2026-11-21, lists the open US Partnerize program at 6% with a 30-day cookie; WhichProgram's tracker corroborates Partnerize at 6% and 30 days."
+      },
+      {
+        "claim": "Regional variants exist: a UK listing on Impact shows a 1.5-8% range, which is a different network and region from the US Partnerize program recorded here.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://affi.io/sennheiser",
+        "summary": "The regional Impact range is documented so the US Partnerize figure is not mistaken for a global rate."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://affi.io/sennheiser",
+        "summary": "Checked against the fetched tracker pages on 2026-11-21."
+      }
+    ],
+    "name": "Sennheiser",
+    "opportunity": null,
+    "score": {
+      "compensation": 12,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "A corroborated 6% on Partnerize US with a 30-day cookie on premium-priced audio gear.",
+        "contact_access": "No public affiliate contact was verified on the fetched pages.",
+        "credibility": "A reference name in professional and consumer audio for over 70 years.",
+        "niche_fit": "Headphones and microphones are core gear for tech, gaming and creator content.",
+        "opportunity_availability": "Application through Partnerize, subject to network approval.",
+        "ugc_evidence": "The brand is a default recommendation in audio and streaming communities, though no formal creator program page was fetched."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://www.sennheiser.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "FlexOffers",
+      "source_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/",
+        "email": null,
+        "source_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/"
+      }
+    ],
+    "country": "United States",
+    "description": "American PC gaming hardware company founded by a team of gamers in 2004, selling prebuilt and custom gaming PCs, cases, cooling, motherboards, peripherals and the BLD custom-building service.",
+    "evidence": [
+      {
+        "claim": "NZXT's affiliate program runs on FlexOffers with a 30-day cookie; the network program page does not publish a commission rate.",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/",
+        "summary": "The FlexOffers program page, fetched 2026-11-21, confirms the network and cookie window and invites social promotion, but lists no rate."
+      },
+      {
+        "claim": "External rate figures for NZXT conflict, ranging from about 2.4% to roughly 4% and up to 8% across directories, so commission_rate is recorded as null.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/",
+        "summary": "Conflicting third-party figures found on 2026-11-21; no rate is guessed."
+      },
+      {
+        "claim": "NZXT's own homepage describes the company as a team of gamers building PC hardware since 2004, and the brand runs streamer and creator sponsorship activity under Team NZXT.",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://nzxt.com/",
+        "summary": "Brand positioning from the fetched homepage on 2026-11-21."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/",
+        "summary": "Checked on the FlexOffers program page on 2026-11-21."
+      }
+    ],
+    "name": "NZXT",
+    "opportunity": {
+      "application_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/",
+      "source_url": "https://www.flexoffers.com/affiliate-programs/nzxt-affiliate-program/",
+      "status": "accepting_applications",
+      "title": "NZXT affiliate program on FlexOffers"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 7,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "The rate is unpublished on the network page and external figures conflict, so it is null.",
+        "contact_access": "Joining runs through the FlexOffers program page; no public brand contact was verified.",
+        "credibility": "A recognized PC gaming hardware brand operating since 2004.",
+        "niche_fit": "PC builds, cases and cooling are central to gaming and tech content.",
+        "opportunity_availability": "Open network application with a 30-day cookie.",
+        "ugc_evidence": "A creator- and streamer-led brand with an established sponsorship culture and social promotion invited by its network listing."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://nzxt.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Partnerize",
+      "source_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program"
+    },
+    "category_slug": "technology",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program",
+        "email": null,
+        "source_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program"
+      }
+    ],
+    "country": "United States",
+    "description": "New York City-based company founded in 2006 making off-grid energy products: CampStove wood-burning stoves that generate electricity, FirePit, solar panels, power banks, headlamps and Luci solar lights, sold for camping, emergency backup and off-grid homes.",
+    "evidence": [
+      {
+        "claim": "BioLite's own affiliate program page invites creators who produce videos, articles and reviews to apply, offers photo and video assets and gear sends, and routes applications through Partnerize (Ascend).",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program",
+        "summary": "The brand's own affiliate page, fetched 2026-11-21, is explicitly creator-facing but does not publish a commission rate."
+      },
+      {
+        "claim": "Historical rate listings conflict across networks and eras, about 7% from its AvantLink period and 10-15% from CJ-era listings, so commission_rate is recorded as null.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program",
+        "summary": "Conflicting historical figures documented on 2026-11-21; the current Partnerize rate is unpublished."
+      },
+      {
+        "claim": "BioLite is headquartered in New York City, was founded in 2006, and its products have won a CES Innovation Award, per the brand's homepage and company profile.",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.bioliteenergy.com/",
+        "summary": "Company background from the fetched homepage and profile on 2026-11-21."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program",
+        "summary": "Checked on the brand's affiliate page on 2026-11-21."
+      }
+    ],
+    "name": "BioLite",
+    "opportunity": {
+      "application_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program",
+      "source_url": "https://www.bioliteenergy.com/pages/biolite-affiliate-program",
+      "status": "accepting_applications",
+      "title": "BioLite affiliate program via Partnerize"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 11,
+      "credibility": 5,
+      "niche_fit": 23,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "The current rate is unpublished and historical listings conflict, so it is null.",
+        "contact_access": "A dedicated affiliate page on the brand's own domain with the application route.",
+        "credibility": "An award-winning company founded in 2006 with retail distribution and a CES Innovation Award.",
+        "niche_fit": "Off-grid energy gear fits outdoor, van-life and home emergency-backup content.",
+        "opportunity_availability": "Application through Partnerize, subject to approval.",
+        "ugc_evidence": "The brand's own page explicitly addresses video, article and review creators and supplies assets and gear."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://www.bioliteenergy.com"
+  },
+  {
+    "name": "Bose",
+    "website": "https://www.bose.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "American audio company founded in 1964, selling premium noise-cancelling headphones, earbuds, soundbars, portable speakers and home audio systems through bose.com and retailers worldwide.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "claim": "Bose runs an affiliate program paying 2% - 3% per sale with a 30-day cookie; the program listing's join route leads to CJ Affiliate signup.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/bose/",
+        "summary": "Lasso's Bose program page, fetched 2026-11-21, lists 2% - 3% per sale and a 30-day cookie, with its join links pointing to signup.cj.com."
+      },
+      {
+        "claim": "Other program directories describe Bose as managed primarily through Impact Radius, also at 2% - 3% with a 30-day cookie and social media traffic accepted.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://uppromote.com/affiliate-directory/bose/",
+        "summary": "UpPromote's Bose directory entry reports the same 2% - 3% range and 30-day cookie via Impact Radius, so the brand operates the program across more than one network."
+      },
+      {
+        "claim": "Outlier listings claim 5% - 7% and 5% - 10% for Bose, which conflict with the 2% - 3% figure reported by the majority of sources, so commission_rate is recorded as null.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/bose/",
+        "summary": "Conflicting published figures documented on 2026-11-21; no single rate is guessed."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/bose/",
+        "summary": "Checked against the fetched program listings on 2026-11-21."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://getlasso.co/affiliate/bose/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 9,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Noise-cancelling headphones and speakers are staple gear in tech, travel and creator content.",
+        "ugc_evidence": "Program listings pitch the program to influencers and accept social media traffic, though no formal creator program page was fetched.",
+        "compensation": "Most listings converge on 2% - 3%, but outlier claims of 5% - 10% conflict, so the rate is null.",
+        "contact_access": "No public affiliate contact was verified on the fetched pages.",
+        "opportunity_availability": "Application through the network, with approval typically taking a few days per the listing.",
+        "credibility": "One of the world's best-known audio brands, founded in 1964."
+      }
+    }
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.1800petmeds.com/help.html",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Rakuten Advertising",
+      "source_url": "https://www.1800petmeds.com/help.html"
+    },
+    "category_slug": "pets",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "customerservice@1800petmeds.com",
+        "source_url": "https://www.1800petmeds.com/help.html"
+      }
+    ],
+    "country": "United States",
+    "description": "PetMed Express, Inc. of Delray Beach, Florida, operating as 1-800-PetMeds and PetMeds, is America's largest pet pharmacy, selling prescription and over-the-counter pet medications, supplements and supplies online.",
+    "evidence": [
+      {
+        "claim": "The brand's own affiliate FAQ states its program is administered by LinkShare (Rakuten Advertising), pays up to 16% commission on non-prescription over-the-counter items only, excludes prescription drugs, is free to join and has no minimum sales requirement.",
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.1800petmeds.com/help.html",
+        "summary": "Program terms from the brand's own help page, fetched in full on 2026-11-21; 'up to 16%' is a rate ceiling, not a flat rate, and is not an earnings-cap statement."
+      },
+      {
+        "claim": "Directories commonly cite about 8% for the PetMeds program, which conflicts with the brand's up-to-16% ceiling, so commission_rate is recorded as null; FlexOffers also carries the program.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://www.1800petmeds.com/help.html",
+        "summary": "Conflicting published figures documented on 2026-11-21; no single rate is guessed."
+      },
+      {
+        "claim": "The brand's help page publishes customerservice@1800petmeds.com as its customer contact.",
+        "confidence": "verified",
+        "evidence_type": "contact_page",
+        "source_type": "official_site",
+        "source_url": "https://www.1800petmeds.com/help.html",
+        "summary": "Contact email printed on the brand's own help page."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.1800petmeds.com/help.html",
+        "summary": "Checked on the brand's help page on 2026-11-21."
+      }
+    ],
+    "name": "PetMeds",
+    "opportunity": {
+      "application_url": "https://www.1800petmeds.com/help.html",
+      "source_url": "https://www.1800petmeds.com/help.html",
+      "status": "accepting_applications",
+      "title": "PetMeds affiliate program via Rakuten Advertising"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 10,
+      "credibility": 5,
+      "niche_fit": 22,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "The brand publishes only an up-to-16% ceiling on non-prescription items and directories cite about 8%, so the rate is null.",
+        "contact_access": "A customer contact email and an online application route are published on the brand's own site.",
+        "credibility": "America's largest pet pharmacy, founded in 1996 and publicly traded.",
+        "niche_fit": "Pet medication and flea-and-tick care are recurring pet-health content topics.",
+        "opportunity_availability": "Free to join with no minimum sales requirement, per the brand's own FAQ.",
+        "ugc_evidence": "The program is banner- and link-based and website-focused per the brand's own FAQ, so it is less creator-native."
+      },
+      "ugc_evidence": 9
+    },
+    "socials": [],
+    "website": "https://www.1800petmeds.com"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": "2%",
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://linkclicky.com/tempur-pedic-affiliate-program/"
+    },
+    "category_slug": "home",
+    "contacts": [],
+    "country": "United States",
+    "description": "American premium mattress and bedding brand selling TEMPUR material mattresses, adjustable bases, pillows and sleep accessories direct through tempurpedic.com and through retailers.",
+    "evidence": [
+      {
+        "claim": "Tempur-Pedic's affiliate program on Impact is officially listed at 2% per sale.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/tempur-pedic-affiliate-program/",
+        "summary": "The LinkClicky program listing, fetched 2026-11-21, describes the Impact program's 2% rate as officially listed, and an EPC tracker for the Impact program corroborates 2%."
+      },
+      {
+        "claim": "A FlexOffers listing shows 1.6% for Tempur-Pedic, which is a different network from the Impact program recorded here and does not change the Impact figure.",
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/tempur-pedic-affiliate-program/",
+        "summary": "Cross-network difference documented on 2026-11-21 so the two figures are not read as a conflict on the same program."
+      },
+      {
+        "claim": "No fetched page states an earnings cap or an absolute creator count, so commission_cap and creator_saturation are recorded as unknown.",
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/tempur-pedic-affiliate-program/",
+        "summary": "Checked against the fetched program listings on 2026-11-21."
+      }
+    ],
+    "name": "Tempur-Pedic",
+    "opportunity": null,
+    "score": {
+      "compensation": 8,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 22,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "An officially listed 2% on Impact is a low rate, partly offset by premium mattress prices.",
+        "contact_access": "No public affiliate contact was verified on the fetched pages.",
+        "credibility": "One of the best-known premium mattress brands in the United States.",
+        "niche_fit": "Sleep and mattress content is an established home niche, though purchase cycles are long.",
+        "opportunity_availability": "Application through Impact; the program is described as selective about partner sites.",
+        "ugc_evidence": "Publisher and influencer monetization guidance exists for the program, but no formal creator program page was fetched."
+      },
+      "ugc_evidence": 10
+    },
+    "socials": [],
+    "website": "https://www.tempurpedic.com"
+  }
+]

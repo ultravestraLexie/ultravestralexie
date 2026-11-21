@@ -1,0 +1,745 @@
+[
+ {
+  "name": "Avec Les Filles",
+  "website": "https://aveclesfilles.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Los Angeles-born women's fashion brand launched in 2017 ('avec les filles' means 'with the girls' in French), selling Parisian-inspired outerwear and ready-to-wear - coats, dresses, tailoring and occasion pieces - through its own online store.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://aveclesfilles.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://aveclesfilles.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://aveclesfilles.com/pages/affiliate-program",
+    "summary": "The brand's own affiliate program page states 'UNCAPPED EARNINGS: There is no cap on how much you can sell. The more you sell the more commission you earn. It's unlimited!' - an explicit no-earnings-cap statement on a page the brand itself publishes, so the program is recorded as uncapped."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://aveclesfilles.com/pages/affiliate-program",
+    "summary": "The same page advertises 'COMPETITIVE COMMISSION: Earn up to 20% on orders' - 'up to 20%' is a rate ceiling rather than a set rate, so no single commission rate is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://aveclesfilles.com/pages/affiliate-program",
+    "summary": "The page is written for content creators and influencers: it offers content assets, custom discount codes, monthly launch updates and occasional cash offers for high-converting content, and invites LTK creators to include their LTK details in the application form on the page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://aveclesfilles.com/",
+    "summary": "The brand's homepage positions Avec Les Filles as women's outerwear and ready-to-wear and describes its foundation donating a portion of every sale to women's empowerment charities."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://aveclesfilles.com/pages/affiliate-program",
+   "source_url": "https://aveclesfilles.com/pages/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Avec Les Filles Affiliate Program",
+   "application_url": "https://aveclesfilles.com/pages/affiliate-program",
+   "source_url": "https://aveclesfilles.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pure women's fashion - outerwear and ready-to-wear with a Parisian-inspired, highly shoppable aesthetic - squarely in the fashion creator niche.",
+    "ugc_evidence": "The brand's own program page speaks directly to content creators and influencers, supplies content assets and discount codes, pays cash offers for high-converting content and courts LTK creators.",
+    "compensation": "Verified uncapped earnings on the brand's own page with an advertised ceiling of up to 20% - strong terms, though the exact rate is set per affiliate, so it sits below the very top band.",
+    "contact_access": "A public application form on the brand's own affiliate page; no public partnerships email was found.",
+    "opportunity_availability": "Applications are publicly open on the official site, subject to brand review and approval.",
+    "credibility": "Established DTC brand launched in 2017 with its own store and a charitable foundation, but a smaller retail footprint than national chains."
+   }
+  }
+ },
+ {
+  "name": "New Balance",
+  "website": "https://www.newbalance.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Global athletic footwear and apparel brand headquartered in Boston, Massachusetts, selling running, lifestyle and sport shoes and clothing for men, women and kids through newbalance.com, its own stores and wholesale partners worldwide.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.newbalance.com/affiliate/",
+    "email": null,
+    "source_url": "https://www.newbalance.com/affiliate/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.newbalance.com/affiliate/",
+    "summary": "New Balance's own affiliate page says enrollment is open to family-friendly website operators subject to being an Impact member and the program terms, with no fee to join, and approved sites earn commissions on click-through sales to newbalance.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.newbalance.com/affiliate/",
+    "summary": "The page's FAQ states 'Commission rates start at 2% with opportunity to increase based on performance', a 30-day cookie, average order size of $125+, and gift cards and select products non-commissionable - the published 2% starting rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopify.com/blog/best-affiliate-programs",
+    "summary": "Shopify's affiliate program guide (details verified June 2026) corroborates a 2% base rate with increased commissions for high performers, a $10 minimum balance and payment via Impact."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/new-balance/",
+    "summary": "Lasso lists 4% per sale and other directories publish different regional and network figures (up to 6%), which conflict with the brand's own published starting rate; the brand's own page governs."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 2,
+   "application_url": "https://www.newbalance.com/affiliate/",
+   "source_url": "https://www.newbalance.com/affiliate/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "New Balance Affiliate Program",
+   "application_url": "https://www.newbalance.com/affiliate/",
+   "source_url": "https://www.newbalance.com/affiliate/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Footwear and apparel are core fashion-creator categories and New Balance's lifestyle lines are staples of sneaker and outfit content.",
+    "ugc_evidence": "The published program is publisher- and website-oriented rather than a structured creator community, though the brand is heavily featured in creator content; mid-range per the rubric.",
+    "compensation": "A published 2% starting rate on the brand's own page is low for the category, partly offset by $125+ average orders and performance increases.",
+    "contact_access": "A dedicated affiliate page on the brand's own site routes applications through Impact; no public partnerships email was published there.",
+    "opportunity_availability": "Enrollment is publicly open via Impact with no joining fee, subject to application review.",
+    "credibility": "One of the world's largest footwear brands, headquartered in Boston with global retail and wholesale distribution."
+   }
+  }
+ },
+ {
+  "name": "Club L London",
+  "website": "https://clubllondon.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "British online womenswear retailer founded in 2007, designing occasion, prom, bridal, maternity and going-out dresses and clothing in-house in sizes 0-20, sold through its own international online stores.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affilates@clubllondon.com",
+    "source_url": "https://ui.awin.com/merchant-profile/31523?setLocale=pl_PL"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/31523",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/31523?setLocale=pl_PL"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/clubllondon"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/31523?setLocale=pl_PL",
+    "summary": "Club L London's US Awin merchant profile offers 'Up to 7% commission' with a 30-day cookie, regular product feeds and exclusive partnership opportunities, and publishes the affiliate team email affilates@clubllondon.com (spelling as published on the profile)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/31523?setLocale=pl_PL",
+    "summary": "The profile describes the brand as connecting 'our global community of diverse consumers, international fashion influencers and content creators' with weekly collections, and states it was founded in 2007 and receives over a million visitors per month from 150+ territories."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://clubllondon.us/pages/become-an-affiliate",
+    "summary": "The brand's own US affiliate page advertises 'earn up to 10% commission', which conflicts with the Awin profile's up-to-7% ceiling; both figures are ceilings rather than set rates, so no single commission rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/DE68H9eqR9e/",
+    "summary": "The brand's official Instagram account (@clubllondon, reported at 1.5M followers) documents its scale, inclusive sizing (3,000+ styles) and occasionwear positioning with its creator community."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/31523",
+   "source_url": "https://ui.awin.com/merchant-profile/31523?setLocale=pl_PL",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Club L London Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/31523",
+   "source_url": "https://ui.awin.com/merchant-profile/31523?setLocale=pl_PL"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 8,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Occasion, prom and going-out dresses are a core fashion-creator category, and the brand designs specifically for social-first shoppers.",
+    "ugc_evidence": "Its Awin profile explicitly courts fashion influencers and content creators, offers exclusive partnerships, and the brand's social presence is built on creator and customer content.",
+    "compensation": "Commission exists with an advertised ceiling (up to 7% on Awin; up to 10% claimed on the brand's US page) but the conflicting ceilings mean no verified set rate - mid-range.",
+    "contact_access": "A published affiliate team email on the network profile plus a direct Awin application route.",
+    "opportunity_availability": "Open application through Awin with regular feeds and newsletters for affiliates.",
+    "credibility": "Established UK retailer founded in 2007 with nine international sites and over a million monthly visitors, though without major third-party retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Pit Viper",
+  "website": "https://pitviper.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Utah-based eyewear brand selling bold, retro-styled performance and lifestyle sunglasses and goggles for moto, snow, bike, golf and outdoor audiences through pitviper.com and specialty retailers.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/pitviper"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/pit-viper/",
+    "summary": "LinkClicky's affiliate directory (last updated March 11, 2024) lists Pit Viper's program on the Impact platform at 6% per sale across AU, CA and US, described as the rate officially listed with the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.jobless.dev/jobs/creator-social-commerce-manager-at-pit-viper-68814a4e",
+    "summary": "A Pit Viper job posting for a Creator & Social Commerce Manager states the role owns the brand's affiliate program, creator partnerships, TikTok Shop and TikTok Live selling end to end, including commission tiers, codes and monthly payouts - evidence of an active, staffed creator-affiliate operation."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DaEDyMFvpjr/",
+    "summary": "The brand's official Instagram (@pitviper, ~870K followers) shows the entertainment-led content style and community events its creator program is built around."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 6,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/pit-viper/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pit Viper Affiliate Program (Impact)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/pit-viper/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Statement sunglasses are a strong fashion-accessory niche with an especially loyal action-sports and festival audience.",
+    "ugc_evidence": "The brand runs a dedicated creator and social commerce function spanning affiliates, creator partnerships and TikTok Shop selling, and its marketing is built on creator content.",
+    "compensation": "A published 6% per sale on Impact per the network directory - a solid mid-range rate for eyewear.",
+    "contact_access": "Application is via the Impact marketplace listing; no public affiliate contact email was found on the pages checked.",
+    "opportunity_availability": "Open to publishers and influencers through Impact in AU, CA and US, subject to program approval.",
+    "credibility": "Established US eyewear brand with its own store, specialty retail presence and a large verified social following."
+   }
+  }
+ },
+ {
+  "name": "Spanx",
+  "website": "https://spanx.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American apparel brand founded in 2000 by Sara Blakely, known for inventing modern shapewear and now selling leggings, bras, activewear and clothing through spanx.com and major retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://spanx.com/pages/spanx-society",
+    "email": null,
+    "source_url": "https://spanx.com/pages/spanx-society"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://spanx.com/pages/spanx-society",
+    "summary": "SPANX's own SPANX Society page invites creators to join its official community: perks include gifted product for content creation, affiliate commission, exclusive promos, early access to viral launches and the opportunity to be featured on SPANX channels."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://spanx.com/pages/spanx-society",
+    "summary": "The same page sets eligibility - 18+, based in the US or Canada, with a public Instagram or TikTok of at least 500 followers - and confirms affiliate commission is part of the program, but publishes no commission rate and no earnings-cap statement."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://affiliate-watch.com/affiliate/spanx",
+    "summary": "Third-party figures for the network affiliate program conflict - 2% on Impact per Affiliate Watch, older sources citing up to 8% from the ShareASale era, and aggregator estimates of 5-10% - so no commission rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://spanx.com/pages/spanx-society",
+   "source_url": "https://spanx.com/pages/spanx-society",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "SPANX Society (brand ambassador & affiliate program)",
+   "application_url": "https://spanx.com/pages/spanx-society",
+   "source_url": "https://spanx.com/pages/spanx-society"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 6,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Shapewear, leggings and apparel from the category-defining brand - a staple of fashion and try-on creator content.",
+    "ugc_evidence": "A named creator community (SPANX Society) on the brand's own site with defined creator perks, gifting and channel features.",
+    "compensation": "Affiliate commission is confirmed by the brand but the rate is unpublished and third-party figures conflict, keeping this low-mid range.",
+    "contact_access": "A public application page for the creator program on the brand's own site; no public partnerships email was published there.",
+    "opportunity_availability": "Applications are open but gated: US/Canada, 18+, public Instagram or TikTok with at least 500 followers.",
+    "credibility": "Category-creating brand founded in 2000 with national retail distribution and a globally recognized name."
+   }
+  }
+ },
+ {
+  "name": "goodr",
+  "website": "https://goodr.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American sunglasses brand selling fun, affordable polarized active and lifestyle sunglasses (from $25) with no-slip, no-bounce frames through goodr.com and running and outdoor retailers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "skwon@goodr.com",
+    "source_url": "https://ui.awin.com/merchant-profile/99179"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/99179",
+    "summary": "goodr's Awin merchant profile describes its $25 active sunglasses (UV-protected, polarized, no slip, no bounce) and names its affiliate manager, skwon@goodr.com, as the program contact; the public profile publishes no commission rate and no earnings-cap statement, so the rate is recorded as unpublished."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://collabfeed.io/brands/goodr",
+    "summary": "CollabFeed has tracked goodr paid partnership posts on Instagram and YouTube and confirms the brand actively runs paid creator collaborations."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://builtin.com/job/affiliate-influencer-growth-manager/8468224",
+    "summary": "goodr's own job posting for an Affiliate & Influencer Growth Manager describes owning and scaling its creator ecosystem across paid influencer campaigns and affiliate-driven revenue, including setting commission structures and CPA targets."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://goodr.com/",
+    "summary": "The brand's homepage cites 100,095+ five-star reviews and gear awards from Runner's World, Outside and Women's Health for its $30 polarized sunglasses."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/99179",
+   "source_url": "https://ui.awin.com/merchant-profile/99179",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "goodr Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/99179",
+   "source_url": "https://ui.awin.com/merchant-profile/99179"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 5,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Affordable, colorful sunglasses sit at the fashion-running crossover and are heavily featured in creator content.",
+    "ugc_evidence": "Tracked paid partnerships on Instagram and YouTube plus a dedicated in-house affiliate and influencer role show an active creator program, though no public creator community page was found.",
+    "compensation": "No commission rate is published on the network profile or any page checked, so this stays at the no-data band.",
+    "contact_access": "A named affiliate manager email published on the brand's Awin profile, plus application through Awin.",
+    "opportunity_availability": "Open application through the Awin network, subject to merchant approval.",
+    "credibility": "Established DTC brand with 100,000+ five-star reviews and national running/outdoor retail presence."
+   }
+  }
+ },
+ {
+  "name": "Seven Corners",
+  "website": "https://www.sevencorners.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "American travel insurance company based in Carmel, Indiana, selling trip protection, travel medical and expatriate insurance plans to US and international travelers through its own site and partner channels.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.sevencorners.com/partners/affiliates",
+    "email": null,
+    "source_url": "https://www.sevencorners.com/partners/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.sevencorners.com/partners/affiliates",
+    "summary": "Seven Corners' own Marketing Affiliates page invites travel bloggers, content creators and social media influencers to join its marketing affiliate program to earn 'competitive marketing fees on every sale', with banners, links, customized content and a dedicated support team; it publishes no rate and no earnings-cap statement."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://atlas.hellosafe.com/travel-insurance-affiliate-program/best-programs/",
+    "summary": "Third-party rate reports conflict: HelloSafe's 2026 comparison lists up to 15% per sale via Commission Junction, another guide claims 20%+, and an older network listing cites 8% - so no commission rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.sevencorners.com/partners/affiliates",
+    "summary": "The same page describes Seven Corners as a trusted travel insurance leader with global reach, 24/7 assistance and a thorough product range spanning trip protection and expatriate coverage."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.sevencorners.com/partners/affiliates",
+   "source_url": "https://www.sevencorners.com/partners/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Seven Corners Marketing Affiliate Program",
+   "application_url": "https://www.sevencorners.com/partners/affiliates",
+   "source_url": "https://www.sevencorners.com/partners/affiliates"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Travel insurance is a standard monetization category for travel creators, though narrower than gear or booking brands.",
+    "ugc_evidence": "The brand's own program page explicitly names travel bloggers, content creators and influencers as target affiliates, but there is no public creator community or content program beyond that.",
+    "compensation": "Referral fees are confirmed by the brand but unpublished, and third-party rate reports conflict - low-mid range.",
+    "contact_access": "A dedicated program page on the brand's own site with a Partnership Team contact route.",
+    "opportunity_availability": "The marketing affiliate program is publicly open to bloggers, creators and influencers on the official site.",
+    "credibility": "Long-established US travel insurer with an A+ rated underwriting heritage, global assistance operations and a strong expatriate niche."
+   }
+  }
+ },
+ {
+  "name": "Nomad eSIM",
+  "website": "https://www.nomadesim.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Travel eSIM service launched in 2020 by LotusFlare of Santa Clara, California, selling prepaid mobile data plans for 200+ destinations through its app and website so travelers can skip roaming fees and local SIM cards.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.getnomad.app/affiliate",
+    "email": null,
+    "source_url": "https://affiliateresearch.info/affiliate/nomad-esim/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://cpsbee.com/en/programs/nomad-esim",
+    "summary": "CPSbee's program record, sourced from the program's official pages and verified October 14, 2026, states the standard Nomad eSIM affiliate rate starts at 10% per successful purchase via Impact.com, with 30-day attribution, monthly payouts and no follower minimum in the FAQ."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://affiliateresearch.info/affiliate/nomad-esim/",
+    "summary": "Affiliate Research's first-party-source review (September 2026) confirms Nomad migrated its affiliate program to Impact.com in August 2025, with a standard rate starting at 10%, higher tiers by partner type and performance, and a separate Creator Partner track for video creators."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/nomad-esim-affiliate-program/",
+    "summary": "A secondary FlexOffers listing pays 8-12% on sales; the Impact program's published starting rate of 10% is recorded as the primary route."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://en.wikipedia.org/wiki/Nomad_(eSIM)",
+    "summary": "Wikipedia records Nomad eSIM as a LotusFlare telecommunications service headquartered in Santa Clara, California, launched in 2020, with eSIM data coverage in over 200 destinations and more than 3 million registered users reported by the brand."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://www.getnomad.app/affiliate",
+   "source_url": "https://cpsbee.com/en/programs/nomad-esim",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nomad eSIM Affiliate Program (Impact)",
+   "application_url": "https://www.getnomad.app/affiliate",
+   "source_url": "https://cpsbee.com/en/programs/nomad-esim"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Travel data is a staple recommendation in travel content, and eSIMs are among the most promoted products in the niche.",
+    "ugc_evidence": "The program welcomes content creators with no follower minimum and runs a separate Creator Partner track, though the standard program is publisher-oriented.",
+    "compensation": "A published starting rate of 10% per purchase with higher performance tiers - a solid rate for a low-ticket digital product.",
+    "contact_access": "Application through Impact plus a brand affiliate page with partner contact options; no public affiliate email was verified.",
+    "opportunity_availability": "Publicly open via Impact with no stated follower or website minimum for the standard program.",
+    "credibility": "Established eSIM brand operated by LotusFlare since 2020 with 200+ destination coverage and millions of registered users."
+   }
+  }
+ },
+ {
+  "name": "Direct Ferries",
+  "website": "https://www.directferries.com",
+  "country": "United Kingdom",
+  "category_slug": "travel",
+  "description": "The world's largest ferry booking site, comparing more than 4,000 routes across 230+ ferry operators worldwide, with ferry, accommodation and insurance sales through its own localized websites.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliateteam@directferries.com",
+    "source_url": "https://cdn.directferries.co.uk/affiliate.htm"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://cdn.directferries.co.uk/affiliate.htm",
+    "email": null,
+    "source_url": "https://cdn.directferries.co.uk/affiliate.htm"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://cdn.directferries.co.uk/affiliate.htm",
+    "summary": "Direct Ferries' own affiliate page (Direct Ferries Connect) states partners earn 50% of the commission Direct Ferries receives from ferry operators on every confirmed sailed booking, with online real-time tracking, and publishes the partnerships email affiliateteam@directferries.com."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://compareepc.com/cruise-affiliate-programs/",
+    "summary": "Network listings conflict with the own-program model: CompareEPC's data lists a Direct Ferries program on CJ at 2% of sale and FlexOffers lists 1.6% per sale, while the brand's own program pays a 50% share of the commission it receives - different models, so no single percentage-of-sale rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://cdn.directferries.co.uk/affiliate.htm",
+    "summary": "The same page describes Direct Ferries as the world's largest ferry ticket booking site, offering access to over 4,000 routes and 230 ferry operators through its agent portal, booking widget, affiliate tracking links and API."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://cdn.directferries.co.uk/affiliate.htm",
+   "source_url": "https://cdn.directferries.co.uk/affiliate.htm",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Direct Ferries Affiliate Program",
+   "application_url": "https://cdn.directferries.co.uk/affiliate.htm",
+   "source_url": "https://cdn.directferries.co.uk/affiliate.htm"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 8,
+   "compensation": 7,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Ferry travel is a real but narrower slice of travel content, strongest for European and island-hopping creators.",
+    "ugc_evidence": "The program is oriented to agents, publishers and booking partners rather than creators specifically; no creator community or content program was found.",
+    "compensation": "A documented earning model exists (50% of the commission the company receives, via its own program; separate network listings at 1.6-2% of sale), but the models conflict so no single rate is recorded.",
+    "contact_access": "A published partnerships email and a dedicated affiliate page on the brand's own site.",
+    "opportunity_availability": "Partner and affiliate applications are publicly available, subject to approval.",
+    "credibility": "The world's largest ferry booking platform by its own account, operating 4,000+ routes with 230+ operators."
+   }
+  }
+ },
+ {
+  "name": "aloSIM",
+  "website": "https://alosim.com",
+  "country": "Canada",
+  "category_slug": "travel",
+  "description": "Canadian travel eSIM provider operated by AffinityClick Inc. of Ottawa, selling prepaid mobile data plans for 200+ countries through its app and website, with many packages including a Hushed phone number.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@alosim.com",
+    "source_url": "https://support.alosim.com/hc/en-us/articles/23962274615821-Do-you-have-an-aloSIM-affiliate-program"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://affinityclick.everflowclient.io/affiliate/signup",
+    "email": null,
+    "source_url": "https://alosim.com/affiliate-terms-of-service/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "http://alosim.com/blog/alosim-affiliate-esim/",
+    "summary": "aloSIM's own affiliate page invites influencers, travel agents, bloggers, content creators, publishers, YouTubers and TikTokers to join, and lists among the program benefits 'Fast payouts every month, with no minimum payout requirements' and 'High earning potential, with no commission caps' - an explicit no-cap statement on the brand's own page, so the program is recorded as uncapped."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://alosim.com/affiliate-terms-of-service/",
+    "summary": "The brand's own documents conflict on the rate: its affiliate page describes 'a base commission (starting at 10%)', while its Affiliate Program Terms of Service (updated August 14, 2025) specify $5.00 USD for each qualifying first-time purchase, and its Everflow listing offers both a 10% plan and a $5 flat plan - so no single commission rate is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://support.alosim.com/hc/en-us/articles/23962274615821-Do-you-have-an-aloSIM-affiliate-program",
+    "summary": "aloSIM's support center confirms the affiliate partner program for businesses, media organizations, content creators, influencers and bloggers, gives affiliates@alosim.com as the program contact, and states applicants do not need a blog or a successful social media account."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.crunchbase.com/organization/affinityclick",
+    "summary": "Crunchbase records AffinityClick as a Canadian mobile development company headquartered in Ottawa, Ontario, whose apps include Hushed and aloSIM prepaid mobile data for travelers."
+   }
+  ],
+  "affiliate": {
+   "network": "Everflow",
+   "commission_rate": null,
+   "application_url": "https://affinityclick.everflowclient.io/affiliate/signup",
+   "source_url": "http://alosim.com/blog/alosim-affiliate-esim/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "aloSIM Affiliate Program",
+   "application_url": "https://affinityclick.everflowclient.io/affiliate/signup",
+   "source_url": "http://alosim.com/blog/alosim-affiliate-esim/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Travel eSIM data is a staple travel-creator recommendation, and aloSIM explicitly markets to travel audiences.",
+    "ugc_evidence": "The brand's own pages name influencers, TikTokers and YouTubers as target affiliates and say the brand re-shares affiliate content on its social channels.",
+    "compensation": "Verified uncapped earnings with two documented pay plans (10% base or $5 flat per new sale); the conflict between the brand's own documents keeps it out of the top band.",
+    "contact_access": "A published program email (affiliates@alosim.com) plus a direct Everflow application link from the brand's own terms.",
+    "opportunity_availability": "Open application with no minimum payout and no blog or social following required, per the brand's support center.",
+    "credibility": "Established Canadian provider (AffinityClick, Ottawa) with app-store presence and 200+ country coverage, smaller than the largest eSIM rivals."
+   }
+  }
+ }
+]

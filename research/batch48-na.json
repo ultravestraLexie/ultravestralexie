@@ -1,0 +1,694 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://us.manucurist.com/pages/affiliate-programme",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "high",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/104809"
+  },
+  "category_slug": "beauty",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliation@manucurist.com",
+    "source_url": "https://us.manucurist.com/pages/affiliate-programme"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.manucurist.com/pages/affiliate-programme",
+    "email": null,
+    "source_url": "https://us.manucurist.com/pages/affiliate-programme"
+   }
+  ],
+  "country": "France",
+  "description": "French clean nail care brand founded in 1996, known for Green Flash LED gel polish and plant-based nail formulas, sold through its own US storefront and beauty retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/104809",
+    "summary": "Manucurist's Awin US merchant profile lists the affiliate program paying 20% of net sales revenue on packaged offers and 10% on individual products."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://us.manucurist.com/pages/affiliate-programme",
+    "summary": "Manucurist's own US affiliate page says anyone can join for free, affiliates receive a welcome kit and followers get 15% off, with sign-up routed via Superfiliate; the page states 'Over +2,500 affiliates members around the world', so creator saturation is recorded as high, and lists affiliation@manucurist.com as the program contact."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/104809",
+    "summary": "The published rate is recorded as 10 (individual products) with the 20% packaged-offer rate and the net-sales-revenue basis documented here; no earnings-cap statement appears in any fetched source, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://us.manucurist.com",
+    "summary": "Manucurist's official US storefront sells its Green Flash LED gel polish and clean nail care lines; the brand is a French clean nail brand founded in 1996."
+   }
+  ],
+  "name": "Manucurist",
+  "opportunity": {
+   "application_url": "https://us.manucurist.com/pages/affiliate-programme",
+   "source_url": "https://us.manucurist.com/pages/affiliate-programme",
+   "title": "Manucurist Affiliate Programme"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Published rates of 10% on individual products and 20% of net sales revenue on packaged offers via the Awin merchant profile; no cap statement found, so cap stays unknown.",
+    "contact_access": "A published program email (affiliation@manucurist.com) plus a public affiliate page on the brand's own storefront.",
+    "credibility": "Established French brand founded in 1996 with its own US storefront and retail distribution.",
+    "niche_fit": "Pure clean nail beauty brand with highly visual gel-polish products — a strong fit for beauty creator content.",
+    "opportunity_availability": "Anyone can join free via the brand's own affiliate page, with sign-up routed through Superfiliate and the program also listed on Awin.",
+    "ugc_evidence": "The brand runs an open affiliate programme with a welcome kit and follower discount code and reports 2,500+ affiliate members worldwide on its own page."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://us.manucurist.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://banilausa.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/83707"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "banilacousa@fnfcorp.com",
+    "source_url": "https://ui.awin.com/merchant-profile/83707"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://banilausa.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://banilausa.com/pages/affiliate-program"
+   }
+  ],
+  "country": "South Korea",
+  "description": "South Korean cleansing and skincare brand best known for the Clean It Zero cleansing balm, sold through its US storefront banilausa.com and beauty retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/83707",
+    "summary": "Banila Co's Awin US merchant profile lists 20% sale commissions with a 30-day cookie and an average order value of $50, and names banilacousa@fnfcorp.com as the program contact."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://banilausa.com/pages/affiliate-program",
+    "summary": "Banila Co's own US affiliate page offers commission on every order, a personal discount code, PR drops and ambassador invites for participating creators."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/83707",
+    "summary": "The published commission is 20% per sale on Awin; no earnings-cap statement appears in any fetched source, so the cap is recorded as unknown, and no absolute creator-count evidence was found, so saturation is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://banilausa.com",
+    "summary": "Banila Co's official US storefront sells the Clean It Zero cleansing line and wider K-beauty skincare range; its verified US Instagram @banilacousa has roughly 110K followers."
+   }
+  ],
+  "name": "Banila Co",
+  "opportunity": {
+   "application_url": "https://banilausa.com/pages/affiliate-program",
+   "source_url": "https://banilausa.com/pages/affiliate-program",
+   "title": "Banila Co Affiliate Program"
+  },
+  "score": {
+   "compensation": 16,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 20% per-sale commission on Awin with a 30-day cookie — one of the strongest rates in this group; no cap statement found, so cap stays unknown.",
+    "contact_access": "A named program contact email on the Awin profile plus a public affiliate page on the brand's own US storefront.",
+    "credibility": "Established South Korean beauty brand with a dedicated US storefront and a verified ~110K-follower US Instagram.",
+    "niche_fit": "Iconic K-beauty cleansing brand whose balm format is made for demo and routine content — near-perfect skincare niche fit.",
+    "opportunity_availability": "Open application through the brand's own affiliate page and the Awin network listing.",
+    "ugc_evidence": "Own affiliate page promises PR drops and ambassador invites on top of commission, showing an active creator programme beyond plain affiliate links."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/banilacousa"
+   }
+  ],
+  "website": "https://banilausa.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising",
+   "source_url": "https://getlasso.co/affiliate/bobbi-brown/"
+  },
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": "United States",
+  "description": "American prestige makeup and skincare brand (Estée Lauder) known for the Vitamin Enriched Face Base and skin-first complexion products, sold through bobbibrowncosmetics.com and department stores.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/bobbi-brown/",
+    "summary": "Affiliate directories list the Bobbi Brown program on Rakuten Advertising (LinkShare) at 8% commission with a 7-day cookie; Lasso's 8% and a Rakuten-based listing corroborate, while Tapfiliate's 6% is a documented minority conflict and a 1.73% EPC-derived figure was disregarded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/bobbi-brown/",
+    "summary": "The majority-corroborated rate of 8% is recorded; no earnings-cap statement appears in any fetched source, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.bobbibrowncosmetics.com",
+    "summary": "Bobbi Brown's official homepage leads with the Vitamin Enriched Face Base and states products are sold exclusively at bobbibrown.com alongside its wider retail presence."
+   }
+  ],
+  "name": "Bobbi Brown",
+  "opportunity": null,
+  "score": {
+   "compensation": 11,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A corroborated 8% commission on Rakuten Advertising; a minority 6% listing is documented as a conflict and no cap statement was found.",
+    "contact_access": "No public partnerships email or own-site application page was found; the route is the Rakuten network listing.",
+    "credibility": "Long-established prestige brand owned by Estée Lauder with department-store distribution.",
+    "niche_fit": "Prestige makeup and complexion brand with hero products that anchor tutorial and review content.",
+    "opportunity_availability": "Open application through the Rakuten Advertising network program.",
+    "ugc_evidence": "An active network affiliate program exists, but no brand-run ambassador or creator community page was found."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.bobbibrowncosmetics.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://linkclicky.com/affiliate-program/it-cosmetics/"
+  },
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": "United States",
+  "description": "American color cosmetics and skincare brand founded by Jamie Kern Lima and developed with dermatologists and plastic surgeons, known for CC+ complexion products, sold through itcosmetics.com and major beauty retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/it-cosmetics/",
+    "summary": "LinkClicky lists the IT Cosmetics affiliate program on CJ Affiliate at 5% commission, described as the officially listed rate; Lasso pages conflict between 5% and 6%, and an Awin Canada news post (10% standard / 20% influencers, 30-day cookie) describes the separate Canadian program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/it-cosmetics/",
+    "summary": "The US CJ rate of 5% is recorded with the 5%/6% directory conflict and the regional Canadian rates documented; no earnings-cap statement appears in any fetched source, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.itcosmetics.com",
+    "summary": "IT Cosmetics' official homepage presents the female-founded brand (Jamie Kern Lima) and its dermatologist- and plastic-surgeon-developed CC+ complexion range."
+   }
+  ],
+  "name": "IT Cosmetics",
+  "opportunity": null,
+  "score": {
+   "compensation": 9,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A published 5% US commission on CJ Affiliate; directory figures conflict at 5%/6% and Canadian rates differ regionally; no cap statement found.",
+    "contact_access": "No public partnerships email or own-site application page was found; the route is the CJ network listing.",
+    "credibility": "Established national brand founded by Jamie Kern Lima with major beauty-retail distribution.",
+    "niche_fit": "Complexion-led beauty brand whose CC+ products are staples of tutorial and before/after content.",
+    "opportunity_availability": "Open application through the CJ Affiliate network program.",
+    "ugc_evidence": "An active CJ Affiliate program exists, but no brand-run creator or ambassador page was found."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.itcosmetics.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.bhcosmetics.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising",
+   "source_url": "https://getlasso.co/affiliate/bh-cosmetics/"
+  },
+  "category_slug": "beauty",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.bhcosmetics.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://www.bhcosmetics.com/pages/affiliate"
+   }
+  ],
+  "country": "United States",
+  "description": "Los Angeles-based affordable color cosmetics brand, relaunched under 'WE'RE BACK' branding, selling trend-driven makeup through its own website bhcosmetics.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/bh-cosmetics/",
+    "summary": "Multiple affiliate directories (Lasso, APDB, Tapfiliate, Backlinko, Admitad) list the BH Cosmetics program on Rakuten Advertising at 8% commission, most citing a 60-day cookie (APDB says 90 days in one line — documented); one old 15% claim from 2020-era sources was disregarded, and FlexOffers also carries the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/bh-cosmetics/",
+    "summary": "The corroborated rate is 8% per sale; no earnings-cap statement appears in any fetched source, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.bhcosmetics.com",
+    "summary": "BH Cosmetics' official homepage announces the brand's 'WE'RE BACK' relaunch of its LA-based affordable color cosmetics line, and directory listings point to an affiliate page at bhcosmetics.com/pages/affiliate."
+   }
+  ],
+  "name": "BH Cosmetics",
+  "opportunity": {
+   "application_url": "https://www.bhcosmetics.com/pages/affiliate",
+   "source_url": "https://www.bhcosmetics.com/pages/affiliate",
+   "title": "BH Cosmetics Affiliate Program"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A widely corroborated 8% commission with a 60-day cookie per most directories; the cookie-length and old-rate conflicts are documented and no cap statement was found.",
+    "contact_access": "A program page on the brand's own site is the documented route; no public partnerships email was found.",
+    "credibility": "Long-running LA cosmetics brand, scored one notch lower while its relaunch is still recent.",
+    "niche_fit": "Affordable, trend-driven color cosmetics — a natural fit for high-volume beauty creator content.",
+    "opportunity_availability": "Open application through the Rakuten Advertising network program and the brand's affiliate page.",
+    "ugc_evidence": "An affiliate program carried on Rakuten and FlexOffers with its own program page, but no ambassador community was found."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.bhcosmetics.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 2,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/burts-bees/"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": "United States",
+  "description": "American natural personal care brand (Clorox-owned) selling lip care, skincare and body care made with natural ingredients through burtsbees.com and mass retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/burts-bees/",
+    "summary": "LinkClicky lists the Burt's Bees US affiliate program on Impact at 2% commission, described as the officially listed rate; the UK program pays 6-8% via Lasso's listing (regional difference), and a 10% EPC-derived figure was disregarded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/burts-bees/",
+    "summary": "The US rate of 2% is recorded with the UK regional rates documented; no earnings-cap statement appears in any fetched source, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.burtsbees.com",
+    "summary": "Burt's Bees' official homepage sells its natural lip and skin care range; the brand is owned by Clorox."
+   }
+  ],
+  "name": "Burt's Bees",
+  "opportunity": null,
+  "score": {
+   "compensation": 6,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A published US commission of only 2% on Impact (UK program pays 6-8% regionally) — the weakest rate in this group; no cap statement found.",
+    "contact_access": "No public partnerships email or own-site application page was found; the route is the Impact network listing.",
+    "credibility": "Iconic natural-care brand owned by Clorox with mass retail distribution.",
+    "niche_fit": "Natural lip and skin care staples with broad consumer recognition — solid skincare niche fit.",
+    "opportunity_availability": "Open application through the Impact network program.",
+    "ugc_evidence": "An active Impact affiliate program exists, but no brand-run creator or ambassador page was found."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.burtsbees.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://lofiskin.com/affiliate/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://lofiskin.com/affiliate/"
+  },
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://lofiskin.com/affiliate/",
+    "email": null,
+    "source_url": "https://lofiskin.com/affiliate/"
+   }
+  ],
+  "country": "United States",
+  "description": "Oregon outdoor skincare brand — 'Recovery gear for your skin' — making skin-protectant products for people who live outside, including an anti-chafe stick, face balm and foaming cleanser, sold through lofiskin.com.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://lofiskin.com/affiliate/",
+    "summary": "LOFI Skin's own Affiliate Terms (last updated September 2026) publish a standard 10% commission on qualifying merchandise sales (after discounts, excluding shipping, taxes and refunds), 30-day tracking, approval-based enrollment and Oregon governing law."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://lofiskin.com/affiliate/",
+    "summary": "The 10% rate comes from the brand's own published affiliate terms; the terms contain no earnings-cap statement, so the cap is recorded as unknown, and no creator-count evidence was found, so saturation is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://lofiskin.com",
+    "summary": "LOFI Skin's official homepage presents 'Recovery gear for your skin' — outdoor skin-protectant products from Oregon; ambassadors receive gear and discount codes with no follower minimums, and the brand posts as @lofi_skin on Instagram."
+   }
+  ],
+  "name": "LOFI Skin",
+  "opportunity": {
+   "application_url": "https://lofiskin.com/affiliate/",
+   "source_url": "https://lofiskin.com/affiliate/",
+   "title": "LOFI Skin Affiliate Program"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 2,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 10% commission in the brand's own affiliate terms (30-day tracking); no cap statement in the terms, so cap stays unknown.",
+    "contact_access": "A public affiliate terms and application page on the brand's own site; no public email was found.",
+    "credibility": "A very young, small Oregon brand founded in 2025 with a small social following — credibility scored accordingly.",
+    "niche_fit": "A distinctive outdoor-skincare angle ('for faces that live outside') that gives creators a clear, differentiated content hook.",
+    "opportunity_availability": "Approval-based enrollment open via the brand's own affiliate page, with no follower minimum for ambassadors.",
+    "ugc_evidence": "A brand-run affiliate and ambassador programme on its own site, with ambassadors receiving gear and codes and no follower minimums."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/lofi_skin"
+   }
+  ],
+  "website": "https://lofiskin.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "FlexOffers",
+   "source_url": "https://getlasso.co/affiliate/smashbox/"
+  },
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": "United States",
+  "description": "Los Angeles studio-born, cruelty-free makeup brand (Estée Lauder) known for Photo Finish primers and vegan formulas, sold through smashbox.com and beauty retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/smashbox/",
+    "summary": "FlexOffers' own program page for Smashbox lists a 7-day cookie but states no rate; published rates conflict — Lasso lists 5% while an Admitad blog lists 6% — so no single commission rate could be verified. Smashbox also sells through the TikTok Shop affiliate program, where roughly 95% of about $32.1K in 30-day sales came via affiliate creators per Rateful data."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/smashbox/",
+    "summary": "Commission rate is recorded as null because the only published figures conflict (5% vs 6%) and the network's own page states no rate; no earnings-cap statement appears in any fetched source, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.smashbox.com",
+    "summary": "Smashbox's official homepage presents its cruelty-free, vegan primers and makeup under its 'Born in the studio' LA positioning; the brand is owned by Estée Lauder."
+   }
+  ],
+  "name": "Smashbox",
+  "opportunity": null,
+  "score": {
+   "compensation": 5,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No verifiable rate: FlexOffers states none and directories conflict at 5% vs 6%, so the rate is null and compensation stays at the no-data band; no cap statement found.",
+    "contact_access": "No public partnerships email or own-site application page was found; routes are the network listing and TikTok Shop.",
+    "credibility": "Established studio-born brand owned by Estée Lauder with national retail distribution.",
+    "niche_fit": "Primer-led prestige makeup brand with strong demo potential — strong beauty niche fit.",
+    "opportunity_availability": "Open application through the FlexOffers network program and the TikTok Shop affiliate program.",
+    "ugc_evidence": "Affiliate selling is central to the brand's TikTok Shop presence (about 95% of recent 30-day sales via affiliate creators per Rateful), plus a FlexOffers network program."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.smashbox.com"
+ },
+ {
+  "name": "Adept Cosmetics",
+  "website": "https://www.adeptcosmetics.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Independent (indie) makeup brand known among beauty creators for its eyeshadow palettes (including the Unity Collection) and vegan, cruelty-free formulas, sold through its own website adeptcosmetics.com.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "pr@adeptcosmetics.com",
+    "source_url": "https://s2.affiliatly.com/af-1052238/affiliate.panel?mode=register"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.adeptcosmetics.com/pages/become-an-adept-cosmetics-beauty-affiliate",
+    "email": null,
+    "source_url": "https://www.adeptcosmetics.com/pages/become-an-adept-cosmetics-beauty-affiliate"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/adeptcosmetics"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.adeptcosmetics.com/pages/become-an-adept-cosmetics-beauty-affiliate",
+    "summary": "Adept Cosmetics' own site hosts a 'Become An Adept Cosmetics Affiliate' page stating the program is administered through Affiliatly."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://s2.affiliatly.com/af-1052238/affiliate.panel?mode=register",
+    "summary": "The program's Affiliatly panel states: 5% per sale on any referred purchase (new or existing customers), paid every 50 days via PayPal; commissions are earned via coupon code only, not links; affiliate codes give customers 10% off; a code must generate at least $200 a month to stay active. The panel contains no earnings-cap statement, so the cap is unknown (the $200/month figure is an activity threshold, not an earnings cap), and no creator-count evidence was found, so saturation is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_network",
+    "source_url": "https://s2.affiliatly.com/af-1052238/affiliate.panel?mode=register",
+    "summary": "The panel promises affiliates who create content with their own photos promotion on the brand's Instagram and website (notify via pr@adeptcosmetics.com or tag the brand), and top earners receive new releases for free."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.youtube.com/watch?v=MiMOspS17NA",
+    "summary": "Creator reviews cover Adept Cosmetics' Unity Collection palettes with 10%-off affiliate codes, confirming active creator use of the program; the brand posts as @adeptcosmetics on Instagram."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliatly",
+   "commission_rate": 5,
+   "application_url": "https://www.adeptcosmetics.com/pages/become-an-adept-cosmetics-beauty-affiliate",
+   "source_url": "https://www.adeptcosmetics.com/pages/become-an-adept-cosmetics-beauty-affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.adeptcosmetics.com/pages/become-an-adept-cosmetics-beauty-affiliate",
+   "source_url": "https://www.adeptcosmetics.com/pages/become-an-adept-cosmetics-beauty-affiliate",
+   "title": "Adept Cosmetics Affiliate Program (via Affiliatly)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 2,
+   "reasons": {
+    "niche_fit": "Indie makeup brand whose palettes are staples of creator swatch and review content — a good beauty niche fit.",
+    "ugc_evidence": "The brand explicitly promotes affiliates who create content with their own photos on its Instagram and website, and top earners receive new releases free.",
+    "compensation": "A published 5% per sale, paid via PayPal every 50 days; code-only tracking and a $200/month activity threshold for codes keep this modest; no cap statement found.",
+    "contact_access": "A published PR email (pr@adeptcosmetics.com) plus an affiliate application page on the brand's own site.",
+    "opportunity_availability": "Open registration through the brand's own affiliate page and Affiliatly panel, subject to the monthly activity threshold.",
+    "credibility": "A small independent brand with an engaged creator community but limited scale and press."
+   }
+  }
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://www.skinfix.com"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": "United States",
+  "description": "Clinically proven barrier skincare brand for sensitive skin, known for the Triple Lipid-Peptide Cream and carrying Allure Best of Beauty and National Eczema Association seals, sold through skinfix.com and Sephora.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.skinfix.com",
+    "summary": "Rateful's TikTok Shop brand data shows roughly 91% of Skinfix's estimated $48.8K in TikTok Shop sales in the 30 days to November 6, 2026 came through affiliate creators, who add products to their showcase and can request free samples via the affiliate center — confirming an active TikTok Shop affiliate program. No published commission percentage was found in any fetched source, so the rate is null. A Sovrn listing exists but its terms were not verified."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.skinfix.com",
+    "summary": "No published commission percentage or earnings-cap statement was found for the TikTok Shop program in any fetched source, so the rate is null and the cap and saturation are recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.skinfix.com",
+    "summary": "Skinfix's official homepage leads with the Triple Lipid-Peptide Cream and its clinically proven barrier skincare for sensitive skin, displaying Allure Best of Beauty and National Eczema Association / National Rosacea Society seals; the brand posts as @skinfix on Instagram and TikTok."
+   }
+  ],
+  "name": "Skinfix",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.skinfix.com",
+   "title": "Skinfix TikTok Shop Affiliate Program"
+  },
+  "score": {
+   "compensation": 5,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "No published commission percentage was found in any fetched source, so the rate is null and compensation stays at the no-data band; no cap statement found.",
+    "contact_access": "No public partnerships email or own-site application page was found; the route is the TikTok Shop affiliate center.",
+    "credibility": "Established clinical skincare brand with Sephora distribution and Allure Best of Beauty and National Eczema Association seals.",
+    "niche_fit": "Barrier-repair skincare for sensitive skin with award seals — a strong, content-friendly skincare niche fit.",
+    "opportunity_availability": "Open to TikTok Shop creators who can add products to their showcase and request samples via the affiliate center.",
+    "ugc_evidence": "Creator selling demonstrably drives the brand on TikTok Shop (about 91% of recent 30-day sales via affiliate creators per Rateful), with free samples available through the affiliate center."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/skinfix"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@skinfix"
+   }
+  ],
+  "website": "https://www.skinfix.com"
+ }
+]
