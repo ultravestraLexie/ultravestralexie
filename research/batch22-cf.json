@@ -1,0 +1,631 @@
+[
+ {
+  "name": "Glass Aqua",
+  "website": "https://shop.glassaqua.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Online retailer of planted-aquarium and aquascaping supplies — tanks, lighting, plants and gear from brands such as Ultum Nature Systems — sold through its own Shopify storefront. It runs its own affiliate program paying 5% on every sale, with a higher VIP tier, and its program page states there is no cap on how much can be earned.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://shop.glassaqua.com/pages/join-affiliate-program",
+    "email": null,
+    "source_url": "https://shop.glassaqua.com/pages/join-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://shop.glassaqua.com/pages/join-affiliate-program",
+    "summary": "Glass Aqua's own affiliate program page fetched in full: 'earn 5% on every sale you bring in. The sky is the limit with no cap on how much can be earned.' That explicit no-cap statement on the brand's own program page makes the commission cap UNCAPPED. The page also states a VIP affiliate tier with a higher percentage is available, commission is paid monthly, and the cookie duration is 30 days."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://shop.glassaqua.com/pages/join-affiliate-program",
+    "summary": "The same official page states joining is free and 'Approval is instant' with access to an affiliate dashboard, earnings and traffic reports at any time, and that anyone may join (accounts can be terminated for inappropriate content). Applications are taken by email with social media platforms and/or website links, or via the on-site sign-up."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 5,
+   "application_url": "https://shop.glassaqua.com/pages/join-affiliate-program",
+   "source_url": "https://shop.glassaqua.com/pages/join-affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Glass Aqua Affiliate Program — 5% on every sale, VERIFIED UNCAPPED ('no cap on how much can be earned' on the brand's own page), instant approval",
+   "application_url": "https://shop.glassaqua.com/pages/join-affiliate-program",
+   "source_url": "https://shop.glassaqua.com/pages/join-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Planted-aquarium and aquascaping gear is a visual, hobbyist niche with strong before/after content potential, though narrower than mainstream pet",
+    "ugc_evidence": "A standing affiliate program with an instant-approval dashboard; no dedicated creator or UGC programme is published",
+    "compensation": "Verified uncapped on the brand's own page, but the base rate is a modest 5% (higher VIP tier unpublished)",
+    "contact_access": "Application is via the program page sign-up or an email application; no direct affiliate email address is published",
+    "opportunity_availability": "Open to anyone with instant approval — among the lowest-friction entries in this batch",
+    "credibility": "Retailer claims more than 15 years in the industry on its own page; established specialist aquatics storefront"
+   }
+  }
+ },
+ {
+  "name": "FreePet",
+  "website": "https://freepetus.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Maker of welded-steel dog crates and playpens with a 10-year warranty, sold direct through freepetus.com. Its own affiliate program pays tiered commission — 8% starting, 12% at the Creator tier and 15% at the Partner tier — with no minimum audience size, a 60–90 day cookie and monthly payouts.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://freepetus.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://freepetus.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://freepetus.com/pages/affiliate",
+    "summary": "FreePet's official affiliate page fetched in full: commission tiers are 8% on the first $5,000 of monthly net sales, 12% from $5,000–$15,000 and 15% above $15,000, auto-upgraded monthly; cookies run 60 days at Starter and 90 days at Creator/Partner tiers; average order value is stated as $120; payouts land on the 15th monthly with a $50 minimum via PayPal, bank transfer or Shopify Collabs. No earnings-cap statement is published, so the cap is unknown; the recorded rate is the 8% starting tier."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://freepetus.com/pages/affiliate",
+    "summary": "The same page is explicitly creator-facing: it names YouTube and TikTok creators, dog blogs and review sites as target partners, states 'No hard minimum' audience size ('We review each application by content quality and audience fit, not follower count'), offers a full asset library (200+ photos, 4K clips, banners), custom discount codes at Creator tier and co-marketing/IG collabs at Partner tier, with approval typically within 3 business days."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 8,
+   "application_url": "https://freepetus.com/pages/affiliate",
+   "source_url": "https://freepetus.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "FreePet Affiliate Program — tiered 8%/12%/15% commission on steel dog crates and playpens, no minimum audience, via the brand's own program (payouts via PayPal, bank transfer or Shopify Collabs)",
+   "application_url": "https://freepetus.com/pages/affiliate",
+   "source_url": "https://freepetus.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Steel dog crates and playpens are demonstrable, review-friendly pet products with a clear unboxing and durability story",
+    "ugc_evidence": "A dedicated partner program courting YouTube/TikTok creators and review blogs, with a large cleared asset library and co-marketing at the top tier",
+    "compensation": "Tiered 8% rising to 15% on a $120 average order is solid mid-range pay; no cap statement is published, so the cap stays unknown",
+    "contact_access": "Application form on the official page with a promised dedicated partner contact and 24-hour email response; no public email address",
+    "opportunity_availability": "No minimum audience and approval within about 3 business days — very accessible",
+    "credibility": "Brand cites 28 years of manufacturing, a 4.9-star average and 6,200 homes on its own page"
+   }
+  }
+ },
+ {
+  "name": "A Pup Above",
+  "website": "https://apupabove.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Austin, Texas maker of gently cooked, sous-vide fresh dog food from 100% human-grade, non-GMO ingredients, sold by subscription through apupabove.com. Its affiliate program runs on Impact and is widely reported to pay a flat $60 per online sale or 5% recurring commission on subscriptions.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://apupabove.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://apupabove.com/pages/affiliate"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://apupabove.com/pages/affiliate",
+    "email": "contact@apupabove.com",
+    "source_url": "https://apupabove.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://apupabove.com/pages/affiliate",
+    "summary": "A Pup Above's official affiliate page fetched in full: it publishes no rate itself and directs applicants to apply through Impact ('To apply and learn more about our affiliate program, please go here' linking to app.impact.com). The page publishes the brand contact email contact@apupabove.com and states the brand was founded in Austin, TX."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://olavivo.com/dog-affiliate-programs/",
+    "summary": "Multiple affiliate roundups agree on the structure: $60 flat per online sale or 5% recurring commission on subscriptions, on the Impact network, with 30-day (flat) and 45-day (subscription) cookies — reported consistently by Olavivo, LinkClicky and Meer's World. One source (Creator Hero) reports $25–$40 per sale instead, so the flat figure varies by source; because a percentage is also published, commission_rate records the 5% recurring rate with the flat bounty documented here. No earnings-cap statement is published anywhere found, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": "https://apupabove.com/pages/affiliate",
+   "source_url": "https://apupabove.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "A Pup Above Affiliate Program — flat $60 per sale or 5% recurring on subscriptions (reported), via Impact; apply from the brand's affiliate page",
+   "application_url": "https://apupabove.com/pages/affiliate",
+   "source_url": "https://apupabove.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Fresh sous-vide dog food is a premium, highly demonstrable subscription product squarely in the pet UGC sweet spot",
+    "ugc_evidence": "An established network program on Impact aimed at creators, bloggers and pet influencers, with audience/blog eligibility reported",
+    "compensation": "A $60 flat bounty per sale is strong pay, plus 5% recurring on subscriptions; figures are third-party reported and one source differs, and no cap statement exists",
+    "contact_access": "Published contact email on the official affiliate page plus the Impact application route",
+    "opportunity_availability": "Application via Impact with reported audience and blog requirements — not instant or open to all",
+    "credibility": "Established fresh-pet-food brand with consistent program reporting across multiple independent roundups"
+   }
+  }
+ },
+ {
+  "name": "JustFoodForDogs",
+  "website": "https://justfoodfordogs.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Maker of fresh, human-grade, veterinarian-recommended dog food, treats and supplements, sold through justfoodfordogs.com and its own retail kitchens. Its official Ambassadors/Affiliates page recruits both social content creators and traditional affiliate partners, paying a percentage of every sale and subscription — but the brand publishes no percentage itself, and third-party rate reports conflict.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://justfoodfordogs.com/pages/ambassadors-affiliates",
+    "email": null,
+    "source_url": "https://justfoodfordogs.com/pages/ambassadors-affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://justfoodfordogs.com/pages/ambassadors-affiliates",
+    "summary": "JustFoodForDogs' official Ambassadors/Affiliates page fetched in full: two paths — 'Social Content Creater' for influencers, YouTubers, TikTokers and dog-loving content creators sharing links in bios, stories and videos, and 'Traditional Affiliate Partner' for bloggers, marketers and email list owners with dashboard tracking. Both 'earn a percentage of every product sale, subscription, or one-time purchase' through a referral link; the page publishes NO percentage and NO network name."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/justfoodfordogs/",
+    "summary": "Third-party rate reports conflict, so commission_rate is null: Lasso, Dogster and UpPromote report 10% per sale (UpPromote names CJ Affiliate as the network; Lasso's niche roundup names ShareASale), an older roundup reports 8%, and PostAffiliatePro claims 'up to 28%'. The network is recorded as CJ Affiliate per the most detailed recent sources, with the ShareASale conflict documented here. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://justfoodfordogs.com/pages/ambassadors-affiliates",
+   "source_url": "https://justfoodfordogs.com/pages/ambassadors-affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "JustFoodForDogs Ambassadors/Affiliates — dedicated social-creator path plus traditional affiliate path on the official page; published rate reports conflict (8%/10%/up to 28%), so the rate is unsettled",
+   "application_url": "https://justfoodfordogs.com/pages/ambassadors-affiliates",
+   "source_url": "https://justfoodfordogs.com/pages/ambassadors-affiliates"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 10,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Fresh human-grade dog food from a category-defining brand is a top-tier demonstrable pet product",
+    "ugc_evidence": "A dedicated social content creator path named on the brand's own page, alongside a traditional affiliate track — strong UGC evidence",
+    "compensation": "Pay is a percentage of every sale and subscription, but the brand publishes no figure and third-party reports conflict, so compensation is scored on the unsettled evidence",
+    "contact_access": "Application routes for both creator and affiliate paths are published on the official page; no direct email is published",
+    "opportunity_availability": "Open application on the brand's own page for creators and publishers alike",
+    "credibility": "Long-established, veterinarian-recommended fresh food brand with physical retail kitchens"
+   }
+  }
+ },
+ {
+  "name": "Jinx",
+  "website": "https://thinkjinx.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Premium pet food brand selling kibble, wet food, treats and toppers for dogs and cats with superfoods and probiotics, through thinkjinx.com and major retailers. Its affiliate program runs on the Rakuten network (Program ID 45890) and actively recruits pet bloggers and influencers; published rate reporting is limited to an 'up to 5–10%' range from aggregators.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://tbsmo.com/digital-marketing-services-nj/affiliate-marketing/affiliate-sign-up/jinx-affiliateprogram/",
+    "email": null,
+    "source_url": "https://tbsmo.com/digital-marketing-services-nj/affiliate-marketing/affiliate-sign-up/jinx-affiliateprogram/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://tbsmo.com/digital-marketing-services-nj/affiliate-marketing/affiliate-sign-up/jinx-affiliateprogram/",
+    "summary": "The Jinx affiliate program page operated by its affiliate agency (Today's Business) states the program runs on the Rakuten affiliate network with Program ID 45890, targets pet parents in the United States, and explicitly welcomes pet bloggers and dog influencers alongside content, review, cashback and loyalty publishers. The page publishes no commission percentage."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/thinkjinx-com-affiliate-program",
+    "summary": "Shopper's partnership listing reports the Jinx payout only as 'up to 5-10% per sale'. An 'up to' range from a single aggregator is a ceiling, not a settled rate, so commission_rate is null with the reported range documented here. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://thinkjinx.com",
+    "summary": "Jinx's official homepage fetched in full: premium food, toppers and treats 'expertly-crafted with high quality proteins, superfoods, and probiotics', recipes backed by a council of pet nutritionists, veterinarians and formulators, a public partnership with Chris Evans, and 1% of every purchase donated to pets in need."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": null,
+   "application_url": "https://tbsmo.com/digital-marketing-services-nj/affiliate-marketing/affiliate-sign-up/jinx-affiliateprogram/",
+   "source_url": "https://tbsmo.com/digital-marketing-services-nj/affiliate-marketing/affiliate-sign-up/jinx-affiliateprogram/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Jinx Affiliate Program — premium dog and cat food via Rakuten (Program ID 45890); rate reported only as an up-to 5–10% range, so unsettled",
+   "application_url": "https://tbsmo.com/digital-marketing-services-nj/affiliate-marketing/affiliate-sign-up/jinx-affiliateprogram/",
+   "source_url": "https://tbsmo.com/digital-marketing-services-nj/affiliate-marketing/affiliate-sign-up/jinx-affiliateprogram/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium kibble, treats and toppers for dogs and cats are mainstream, highly content-friendly pet products",
+    "ugc_evidence": "The program explicitly recruits pet bloggers and dog influencers, and the brand runs celebrity-led social campaigns",
+    "compensation": "Only an aggregator's 'up to 5–10%' range is published — a ceiling, not a settled rate — and no cap statement exists",
+    "contact_access": "Program application runs through Rakuten and the brand's affiliate agency page; no clean public program email (the agency page's contact address is a mangled staging address and is not recorded)",
+    "opportunity_availability": "Open to US-traffic publishers and influencers through a major network",
+    "credibility": "Established national brand sold in major retailers with a celebrity partnership, though program terms are thinly published"
+   }
+  }
+ },
+ {
+  "name": "KatKin",
+  "website": "https://katkin.com",
+  "country": "United Kingdom",
+  "category_slug": "pets",
+  "description": "UK maker of 100% fresh, gently cooked meat cat food, personalised per cat and delivered frozen by subscription through katkin.com. Its affiliate programme runs on Awin; the public Awin programme profile publishes the programme description and policies but no commission rate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/21501?setLocale=de_DE",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/21501?setLocale=de_DE"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/21501?setLocale=de_DE",
+    "summary": "KatKin's Awin merchant profile (programme 21501) fetched in full: it describes 100% fresh premium meat cat food developed by in-house vets and nutritionists, publishes keyword policy (no bidding on the KatKin brand) and voucher policy (no commission on orders using non-affiliate vouchers), and suggested affiliate copy. The public profile shows NO commission rate and NO earnings-cap statement, so commission_rate is null and the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://katkin.com",
+    "summary": "KatKin's official homepage fetched in full: fresh food made from 100% human-quality meats, recipes designed by a Board-Certified Vet Nutritionist, personalised portions delivered to the door, rated 4.7/5 from 14,445 Trustpilot reviews, with an active 'ad vocates' community invited to tag and share content."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/21501?setLocale=de_DE",
+   "source_url": "https://ui.awin.com/merchant-profile/21501?setLocale=de_DE",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "KatKin Affiliate Programme — UK fresh cat food via Awin (programme 21501); rate not published on the public programme profile",
+   "application_url": "https://ui.awin.com/merchant-profile/21501?setLocale=de_DE",
+   "source_url": "https://ui.awin.com/merchant-profile/21501?setLocale=de_DE"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Fresh personalised cat food is a premium subscription product with a passionate, content-active cat-parent audience",
+    "ugc_evidence": "A live programme on a major network with published affiliate copy and policies; no dedicated creator tier is published",
+    "compensation": "No commission rate is published on the public Awin profile, so compensation cannot be scored higher on evidence",
+    "contact_access": "Application is through the Awin programme page; no direct affiliate email is published",
+    "opportunity_availability": "Open to Awin publishers, but the brand ships UK-only, limiting the creator pool to UK audiences",
+    "credibility": "Highly rated UK brand (4.7/5 from 14,445 Trustpilot reviews on its own homepage) with vet-designed recipes"
+   }
+  }
+ },
+ {
+  "name": "FLAVORS Food Toppers",
+  "website": "https://basicsbrands.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Beaumont Products' pet brand of human-grade food toppers for picky dogs and cats, sold at basicsbrands.com. Its Basics Affiliate Program pays a published 10% starting commission (increases at the brand's discretion), with a 60-day cookie and monthly payouts — restricted to US-based outlets with a large pet-owner audience.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://flavorsfoodtoppers.com/pages/become-an-affiliate",
+    "email": null,
+    "source_url": "https://flavorsfoodtoppers.com/pages/become-an-affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://flavorsfoodtoppers.com/pages/become-an-affiliate",
+    "summary": "The official 'Become an Affiliate' page for Beaumont Products' Basics Affiliate Program fetched in full, including its FAQ: 'We pay a starting commission rate of 10%. Higher volume affiliates will eligible for commission up to 25%' with increases 'up to Basics' sole discretion', a 60-day cookie, no fees, and monthly payment by check, direct deposit or PayPal once a $50 balance is reached. The discretionary up-to-25% is not a guaranteed tier, so the recorded rate is the published 10% starting rate. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://flavorsfoodtoppers.com/pages/become-an-affiliate",
+    "summary": "The same official FAQ states the gates honestly: applications only from outlets based in the USA that 'appear to have a large audience of pet owners', and the brand may refuse or revoke membership at its sole discretion. It also confirms sales are generated at basicsbrands.com, whose storefront presents FLAVORS human-grade food toppers for picky dogs and cats (currently directing shoppers to Amazon while the site is refreshed)."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://flavorsfoodtoppers.com/pages/become-an-affiliate",
+   "source_url": "https://flavorsfoodtoppers.com/pages/become-an-affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Basics Affiliate Program (Beaumont Products) — FLAVORS food toppers; published 10% starting commission, 60-day cookie; US-based outlets with a large pet audience only",
+   "application_url": "https://flavorsfoodtoppers.com/pages/become-an-affiliate",
+   "source_url": "https://flavorsfoodtoppers.com/pages/become-an-affiliate"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Food toppers for picky eaters are an easy, demonstrable add-on product for dog and cat content",
+    "ugc_evidence": "A standing affiliate program explicitly open to social media personalities, bloggers and content publishers",
+    "compensation": "A published 10% starting rate is fair mid-range pay; increases to up to 25% are discretionary rather than a published tier, and no cap statement exists",
+    "contact_access": "Application via the official program page; no direct affiliate email is published",
+    "opportunity_availability": "Gated: US-based outlets only, and the brand expects a large pet-owner audience — smaller creators may be refused",
+    "credibility": "Program terms and FAQ are fully published by the parent company, though the brand itself is small and its storefront is mid-refresh"
+   }
+  }
+ },
+ {
+  "name": "My Dog Foo",
+  "website": "https://mydogfoo.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Small independent dog food brand running its own affiliate program through Affiliatly: a published starting commission of 10%, a 15-day cookie, monthly PayPal payouts at a $50 threshold, and affiliates accepted worldwide. Its program FAQ is hosted on its Affiliatly portal and publishes the contact email bark@mydogfoo.com.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text",
+    "email": null,
+    "source_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text",
+    "email": "bark@mydogfoo.com",
+    "source_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text",
+    "summary": "My Dog Foo's official affiliate FAQ on its Affiliatly portal fetched in full: 'We pay starting at a 10% commission rate. Higher volume affiliates are eligible for higher commission levels at our sole discretion', no participation fees, a 15-day cookie, payment via PayPal on the last Friday of the month at a $50 threshold, real-time portal reporting, and 'We accept affiliates from anywhere in the world'. No earnings-cap statement is published, so the cap is unknown; the recorded rate is the published 10% starting rate."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text",
+    "summary": "Verification note: the brand's storefront homepage could not be fetched in this research pass, so the entry rests on the brand's own Affiliatly program portal and its published program email bark@mydogfoo.com; the website field uses that published domain. Flagged needs_review for a storefront re-check."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliatly",
+   "commission_rate": 10,
+   "application_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text",
+   "source_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "My Dog Foo Affiliate Program — 10% starting commission via Affiliatly, affiliates worldwide, $50 PayPal threshold (storefront flagged for re-check)",
+   "application_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text",
+   "source_url": "https://www.affiliatly.com/af-1018498/affiliate.panel?mode=faq_text"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A small dog food brand is a plausible pet-content fit, though its product range and audience are narrow",
+    "ugc_evidence": "A real, terms-published affiliate program, but no dedicated creator or UGC programme is evidenced",
+    "compensation": "Published 10% starting rate with discretionary increases; fair for a small brand, with no cap statement published",
+    "contact_access": "Published program email (bark@mydogfoo.com) plus the Affiliatly application portal — the best contact access in this batch",
+    "opportunity_availability": "Open worldwide with no minimum sales level to stay in the program",
+    "credibility": "Very small brand; storefront could not be independently fetched in this pass, so credibility is scored conservatively"
+   }
+  }
+ },
+ {
+  "name": "Bedsure",
+  "website": "https://bedsurehome.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Large home-textiles brand selling bedding, sheets, blankets and pillows direct and through major marketplaces. An affiliate route is reported through Sovrn Commerce and aggregator listings, but published rates conflict (up to 7.5% vs up to 10%) and Sovrn itself flags that the brand's participation cannot be independently verified.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://merchants.sovrn.com/merchants/104272/bedsure-affiliate-program",
+    "email": null,
+    "source_url": "https://merchants.sovrn.com/merchants/104272/bedsure-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/bedsure/",
+    "summary": "Lasso's Bedsure program listing reports 'up to 7.5%' commission with a 14-day cookie for the home niche. An 'up to' figure is a ceiling, not a settled rate."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/104272/bedsure-affiliate-program",
+    "summary": "Sovrn Commerce's own Bedsure merchant page states that 'a live Bedsure–Sovrn partnership cannot be independently verified here' and that current commission rates through Sovrn could not be verified; Shopper separately reports 'up to 10%'. Because the reported rates conflict (7.5% vs 10%) and the network route is unverified by the network itself, commission_rate is null, the network is recorded as Sovrn Commerce with this caveat, and the cap is unknown (no cap statement anywhere). Flagged needs_review."
+   }
+  ],
+  "affiliate": {
+   "network": "Sovrn Commerce",
+   "commission_rate": null,
+   "application_url": "https://merchants.sovrn.com/merchants/104272/bedsure-affiliate-program",
+   "source_url": "https://merchants.sovrn.com/merchants/104272/bedsure-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bedsure Affiliate Program — bedding and home textiles; reported rates conflict (up to 7.5% vs up to 10%) and the Sovrn route is unverified, so the rate is unsettled",
+   "application_url": "https://merchants.sovrn.com/merchants/104272/bedsure-affiliate-program",
+   "source_url": "https://merchants.sovrn.com/merchants/104272/bedsure-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Bedding and home textiles are a staple home-content category with constant refresh and seasonal angles",
+    "ugc_evidence": "Affiliate listings exist and the brand is heavily promoted by creators on marketplaces, but no brand-published creator program was found",
+    "compensation": "Reported rates conflict and are only 'up to' ceilings, so compensation is scored low on evidence",
+    "contact_access": "No brand-published affiliate contact or application page could be settled; access is via network/aggregator listings",
+    "opportunity_availability": "Listings suggest open joining, but the underlying program route needs verification before creators rely on it",
+    "credibility": "A large, widely sold home-textiles brand, though its affiliate program documentation is unusually murky"
+   }
+  }
+ },
+ {
+  "name": "Mellanni",
+  "website": "https://mellanni.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Home bedding brand known for its microfiber sheet sets, sold through mellanni.com and major marketplaces. Aggregator listings report an affiliate program, but the reported payouts conflict (up to 4.5% vs 7.5%) and no brand-published program page or network could be settled from fetched sources.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.shopper.com/partnerships/mellanni-com-affiliate-program",
+    "email": null,
+    "source_url": "https://www.shopper.com/partnerships/mellanni-com-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/mellanni/",
+    "summary": "Lasso's Mellanni program listing reports 'up to 4.5%' commission with a 14-day cookie in the home category. An 'up to' figure is a ceiling, not a settled rate."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/mellanni-com-affiliate-program",
+    "summary": "Shopper's Mellanni partnership listing reports a 7.5% payout per sale, which conflicts with Lasso's up-to-4.5% figure, so commission_rate is null with the conflict documented here. No brand-published affiliate page, rate or network was found in fetched sources; the network is recorded as Shopper (the partnership platform carrying the listing) with low confidence, no earnings-cap statement exists (cap unknown), and the entry is flagged needs_review."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopper",
+   "commission_rate": null,
+   "application_url": "https://www.shopper.com/partnerships/mellanni-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/mellanni-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mellanni Affiliate Program — bedding; reported payouts conflict (up to 4.5% vs 7.5%) and no brand-published program page was found, so the rate is unsettled",
+   "application_url": "https://www.shopper.com/partnerships/mellanni-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/mellanni-com-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sheets and bedding are a proven, repeat-purchase home category with strong review and makeover content",
+    "ugc_evidence": "Only aggregator listings evidence a program; no creator programme is published by the brand",
+    "compensation": "The two reported figures conflict and both are ceilings, so compensation scores lowest in this batch",
+    "contact_access": "No brand-published affiliate contact or application route could be settled from fetched sources",
+    "opportunity_availability": "Listings imply open joining, but the route in is unverified at brand level",
+    "credibility": "A well-known, widely sold bedding brand, scored down only because its program documentation could not be verified"
+   }
+  }
+ }
+]

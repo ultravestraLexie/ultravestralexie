@@ -1,0 +1,510 @@
+[
+ {
+  "name": "Force of Nature",
+  "website": "https://forceofnature.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Force of Nature sells regenerative, 100% grass-fed and pasture-raised meats \u2014 beef, bison, chicken, pork and wild game \u2014 shipped direct to consumers, with a published affiliate program paying commission on referred orders.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://forceofnature.com/pages/faq",
+    "summary": "Force of Nature's own FAQ states: 'We do have an affiliate program! Our program offers a 10% affiliate commission', with onboarding routed through an app.impact.com sign-up link. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://forceofnature.com/pages/faq",
+   "source_url": "https://forceofnature.com/pages/faq",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Force of Nature Affiliate Program",
+   "application_url": "https://forceofnature.com/pages/faq",
+   "source_url": "https://forceofnature.com/pages/faq"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Regenerative grass-fed meats are a strong fit for food, homestead, carnivore and wellness creators.",
+    "ugc_evidence": "The brand runs a formal affiliate program through Impact with a published commission, open to promoters.",
+    "compensation": "10% commission published on the brand's own FAQ; no cap statement published, so the cap is honestly unknown.",
+    "contact_access": "Application runs through the brand FAQ's Impact link; no public partnerships email was published on the fetched page.",
+    "opportunity_availability": "Program is live and joinable now via Impact.",
+    "credibility": "Established regenerative-meat brand with a transparent sourcing story and a long-running direct-to-consumer store."
+   }
+  }
+ },
+ {
+  "name": "Fire Department Coffee",
+  "website": "https://www.firedeptcoffee.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Fire Department Coffee is a veteran- and firefighter-run coffee roaster selling small-batch coffee, with a charitable foundation supporting injured firefighters, and runs a published affiliate program for promoters.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.firedeptcoffee.com/pages/affiliate-program",
+    "summary": "Fire Department Coffee's own affiliate program page publishes a 15% commission with a 45-day cookie, run through AvantLink. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 15,
+   "application_url": "https://www.firedeptcoffee.com/pages/affiliate-program",
+   "source_url": "https://www.firedeptcoffee.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Fire Department Coffee Affiliate Program",
+   "application_url": "https://www.firedeptcoffee.com/pages/affiliate-program",
+   "source_url": "https://www.firedeptcoffee.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Coffee is an everyday staple with strong creator demand, and the first-responder angle gives creators a clear story.",
+    "ugc_evidence": "The brand runs a formal affiliate program on AvantLink with published terms on its own page.",
+    "compensation": "15% commission with a 45-day cookie published by the brand; no cap statement, so the cap is unknown.",
+    "contact_access": "Application runs through the brand's own affiliate page; no public partnerships email was published on the fetched page.",
+    "opportunity_availability": "Program is live and joinable now via AvantLink.",
+    "credibility": "Veteran/firefighter-run roaster with a named charitable foundation and an established retail and subscription business."
+   }
+  }
+ },
+ {
+  "name": "Coffee Bros.",
+  "website": "https://coffeebros.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Coffee Bros. is a New York City specialty coffee roaster founded in 2019, selling fresh-roasted beans and equipment, with a tiered affiliate program run through Impact that pays higher rates to VIP partners.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://coffeebros.com/pages/coffee-affiliate-program",
+    "summary": "Coffee Bros.' own affiliate page publishes 10% standard / 15% VIP commission on coffee, 6% standard / 10% VIP on equipment, plus referral bonuses rising to 25% at 200 referred customers; the program runs through Impact.com. The standard coffee rate of 10% is recorded. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://coffeebros.com/pages/coffee-affiliate-program",
+   "source_url": "https://coffeebros.com/pages/coffee-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Coffee Bros. Affiliate Program",
+   "application_url": "https://coffeebros.com/pages/coffee-affiliate-program",
+   "source_url": "https://coffeebros.com/pages/coffee-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Specialty coffee fits home-brewing, morning-routine and food creators well.",
+    "ugc_evidence": "The brand runs a formal tiered affiliate program through Impact with published rates on its own page.",
+    "compensation": "10% standard coffee commission rising to 15% VIP, with referral bonuses up to 25%; no cap statement, so the cap is unknown.",
+    "contact_access": "Application runs through the brand's own affiliate page and Impact; no public partnerships email was published on the fetched page.",
+    "opportunity_availability": "Program is live and joinable now via Impact.",
+    "credibility": "Operating NYC specialty roaster since 2019 with its own storefront and published program terms."
+   }
+  }
+ },
+ {
+  "name": "Joy Organics",
+  "website": "https://joyorganics.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Joy Organics makes USDA-organic, THC-free CBD oils, gummies, softgels and topicals, and runs an affiliate program through ShareASale reported at a high 25% commission; the program is US-focused and does not accept coupon or cashback publishers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/joy-organics/",
+    "summary": "Lasso's Joy Organics program page reports a 25% per-sale commission through ShareASale with a 90-day cookie. Multiple independent affiliate directories (AffRoom, AffTank, UpPromote, Tapfiliate) consistently report the same 25% ShareASale rate; cookie reports conflict across sources (30 days vs 90 days vs longer), so only the consistently reported 25% rate is recorded and the cookie is not relied on. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 25,
+   "application_url": "https://getlasso.co/affiliate/joy-organics/",
+   "source_url": "https://getlasso.co/affiliate/joy-organics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Joy Organics Affiliate Program (ShareASale)",
+   "application_url": "https://getlasso.co/affiliate/joy-organics/",
+   "source_url": "https://getlasso.co/affiliate/joy-organics/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 18,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Organic CBD for sleep, calm and recovery is a proven wellness-creator topic, though CBD promotion carries platform restrictions.",
+    "ugc_evidence": "A formal ShareASale affiliate program is consistently reported across multiple directories; the brand's own program page was not directly fetched, so evidence is publicly reported rather than verified.",
+    "compensation": "25% commission consistently reported by five independent sources; no cap statement published, so the cap is unknown.",
+    "contact_access": "Application runs through ShareASale; no public partnerships email was verified from a fetched page.",
+    "opportunity_availability": "Program is open now via ShareASale; US-focused and coupon/cashback publishers are excluded.",
+    "credibility": "USDA-organic certified CBD brand with third-party lab testing and an established retail presence."
+   }
+  }
+ },
+ {
+  "name": "HLTH Code",
+  "website": "https://gethlth.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "HLTH Code makes science-formulated meal-replacement shakes created by metabolic scientist Dr. Ben Bikman, positioned for weight management and metabolic health, and runs an affiliate program with a dedicated manager.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://gethlth.com/affiliate/",
+    "summary": "HLTH Code's own affiliate page states '20% commission on every new customer order!' with a 30-day referral cookie and a dedicated affiliate manager; the 20% brand-published rate is recorded. A third-party listing (LinkClicky) instead shows a conflicting '$20 per sale' figure on Impact, which appears to be an older/flat listing and is documented here as a conflict note only. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 20,
+   "application_url": "https://gethlth.com/affiliate/",
+   "source_url": "https://gethlth.com/affiliate/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "HLTH Code Affiliate Program",
+   "application_url": "https://gethlth.com/affiliate/",
+   "source_url": "https://gethlth.com/affiliate/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 17,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Metabolic-health shakes formulated by a named scientist fit health, keto and weight-management creators.",
+    "ugc_evidence": "The brand runs a formal affiliate program with a dedicated affiliate manager and published terms on its own page.",
+    "compensation": "20% on new-customer orders published by the brand; a conflicting older $20-flat third-party listing is documented in evidence; no cap statement, so the cap is unknown.",
+    "contact_access": "Application runs through the brand's own affiliate page with a dedicated manager; no public email was published on the fetched page.",
+    "opportunity_availability": "Program is live and joinable now; commission applies to new-customer orders with a 30-day cookie.",
+    "credibility": "Formulated by Dr. Ben Bikman with published formulation rationale; a smaller brand than category leaders."
+   }
+  }
+ },
+ {
+  "name": "Tomorrow's Nutrition",
+  "website": "https://tomorrowsnutrition.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Tomorrow's Nutrition makes gut-health supplements (prebiotic fiber and digestive products) and runs a Refersion affiliate program whose 10% commission recurs for as long as a referred customer keeps ordering; the program also covers sister brands Regular Girl and Spartan Nutrition.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "sales@tomorrowsnutrition.com",
+    "source_url": "https://tomorrowsnutrition.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://tomorrowsnutrition.com/pages/affiliate-program",
+    "summary": "Tomorrow's Nutrition's own affiliate page publishes a 10% commission on all orders including subscriptions \u2014 '10% lifetime recurring commission for as long as the customer orders product' \u2014 with registration via tomorrowsnutrition.refersion.com and the contact sales@tomorrowsnutrition.com printed on the page. Lifetime-recurring refers to commission duration per customer, not an earnings cap; no no-cap earnings statement is published, so commission_cap is unknown. No creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 10,
+   "application_url": "https://tomorrowsnutrition.com/pages/affiliate-program",
+   "source_url": "https://tomorrowsnutrition.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tomorrow's Nutrition Affiliate Program",
+   "application_url": "https://tomorrowsnutrition.com/pages/affiliate-program",
+   "source_url": "https://tomorrowsnutrition.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Gut-health and fiber supplements fit wellness and digestive-health creators, a narrower niche than general supplements.",
+    "ugc_evidence": "The brand runs a formal Refersion affiliate program with published terms on its own page, also covering two sister brands.",
+    "compensation": "10% commission that recurs for the customer's lifetime of ordering, including subscriptions; no earnings-cap statement, so the cap is unknown.",
+    "contact_access": "A contact email (sales@tomorrowsnutrition.com) is printed on the brand's own affiliate page.",
+    "opportunity_availability": "Program is live and joinable now via Refersion.",
+    "credibility": "Established gut-health supplement brand with clinically positioned fiber products and sister brands under the same program."
+   }
+  }
+ },
+ {
+  "name": "Timeline",
+  "website": "https://www.timeline.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Timeline makes Mitopure (Urolithin A) longevity supplements \u2014 softgels, powder and gummies \u2014 backed by published human clinical trials on muscle strength and mitochondrial health, and runs both a Creator Affiliate Program and an Impact publisher program.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "affiliates@timeline.com",
+    "source_url": "https://www.timeline.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/timeline_longevity"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@timelinelongevity"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/@timelinelongevity"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/TimelineLongevity"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.timeline.com/pages/affiliate-program",
+    "summary": "Timeline's own affiliate page runs two routes: a Creator Affiliate Program for individual creators/influencers (paid monthly via PayPal) and an Impact Affiliate Program for publishers (paid via Impact.com). Its FAQ states applicants must be 18+ with an active audience in the US, France, Switzerland, UK, Germany or Canada, decisions are emailed within seven business days, posts must carry #timelinepartner, and questions go to affiliates@timeline.com. No commission percentage is published on the page, so commission_rate is null. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.timeline.com/pages/affiliate-program",
+   "source_url": "https://www.timeline.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Timeline Creator Affiliate Program",
+   "application_url": "https://www.timeline.com/pages/affiliate-program",
+   "source_url": "https://www.timeline.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 6,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Longevity and Urolithin A are high-interest topics for health-optimization and biohacking creators.",
+    "ugc_evidence": "The brand runs a dedicated Creator Affiliate Program for social creators alongside its Impact publisher program, with a published FAQ and disclosure hashtag.",
+    "compensation": "No commission percentage is published on the brand's program page, so the rate is honestly null and compensation scores low.",
+    "contact_access": "A dedicated affiliates@timeline.com contact is published in the program FAQ on the brand's own page.",
+    "opportunity_availability": "Program is open now in six countries with decisions promised within seven business days.",
+    "credibility": "18+ years of longevity research with randomized double-blind human clinical trials cited on the brand's own pages."
+   }
+  }
+ },
+ {
+  "name": "Lazarus Naturals",
+  "website": "https://www.lazarusnaturals.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Lazarus Naturals is a farm-to-shelf CBD brand growing its own hemp and making full-spectrum oils, gummies and topicals, known for an assistance program offering up to 60% off to veterans, people on disability and low-income households.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.lazarusnaturals.com/pages/affiliates",
+    "summary": "Lazarus Naturals' own affiliates page confirms its Affiliate Partner Program \u2014 free to join, approval on a case-by-case basis \u2014 but publishes no percentage ('Typically you earn a percentage of each sale'). Third-party rates conflict (LinkClicky reports 2%-15% via Impact; Shopper reports roughly 1.33-9.97%), so commission_rate is null with the conflict documented here. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.lazarusnaturals.com/pages/affiliates",
+   "source_url": "https://www.lazarusnaturals.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lazarus Naturals Affiliate Partner Program",
+   "application_url": "https://www.lazarusnaturals.com/pages/affiliates",
+   "source_url": "https://www.lazarusnaturals.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Farm-to-shelf CBD fits wellness creators, though CBD promotion carries platform restrictions.",
+    "ugc_evidence": "The brand runs a formal Affiliate Partner Program confirmed on its own page, with case-by-case approval.",
+    "compensation": "No rate is published by the brand and third-party figures conflict (2%-15% vs ~1.3-10%), so the rate is honestly null.",
+    "contact_access": "Application runs through the brand's own affiliates page; no usable public email was visible on the fetched page.",
+    "opportunity_availability": "Program is open now and free to join, subject to case-by-case approval.",
+    "credibility": "Vertically integrated farm-to-shelf producer with third-party testing and a long-running assistance program for veterans and low-income customers."
+   }
+  }
+ },
+ {
+  "name": "Gaia Herbs",
+  "website": "https://www.gaiaherbs.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Gaia Herbs is a long-established herbal supplement brand (adaptogens, immune and stress formulas) that runs a brief-based affiliate program: creators promote products only through approved locations under individual Project Briefs and Service Agreements.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.gaiaherbs.com/pages/gaia-herbs-affiliate-terms-and-conditions",
+    "summary": "Gaia Herbs' own Affiliate Program Terms and Conditions (effective February 25, 2026) confirm a formal program: affiliates must be 18+ US legal residents, promote only through Approved Promotion Locations named in a Project Brief, follow FTC disclosure rules, and work under an individual Service Agreement. Compensation is set per Service Agreement/Project Brief and is not published; third-party figures conflict (about 2%, 3.39%, and 1-4% ranges), so commission_rate is null. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.gaiaherbs.com/pages/gaia-herbs-affiliate-terms-and-conditions",
+   "source_url": "https://www.gaiaherbs.com/pages/gaia-herbs-affiliate-terms-and-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Gaia Herbs Affiliate Program",
+   "application_url": "https://www.gaiaherbs.com/pages/gaia-herbs-affiliate-terms-and-conditions",
+   "source_url": "https://www.gaiaherbs.com/pages/gaia-herbs-affiliate-terms-and-conditions"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Herbal adaptogens and stress/immune formulas are staple wellness-creator topics.",
+    "ugc_evidence": "The brand's own published program terms describe a structured creator program with Project Briefs, approved promotion locations and content rules.",
+    "compensation": "Pay is set per individual Service Agreement and never published, with conflicting third-party figures, so the rate is honestly null.",
+    "contact_access": "No public application email was published in the fetched terms; entry runs through the brand's program/representative.",
+    "opportunity_availability": "Program exists and is governed by current (2026) terms, but entry is brief-based and US-only rather than open self-serve.",
+    "credibility": "One of the longest-established US herbal brands, with published program terms and formal FTC compliance requirements."
+   }
+  }
+ },
+ {
+  "name": "My SuperHero Foods",
+  "website": "https://mysuperherofoods.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "My SuperHero Foods teaches kids about real, whole foods through its rhyming children's book and food-education products, and runs the SuperHero Friends affiliate program for parents, teachers and mom creators \u2014 no minimum audience required.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hi@mysuperherofoods.com",
+    "source_url": "https://mysuperherofoods.com/affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://mysuperherofoods.com/affiliate-program/",
+    "summary": "My SuperHero Foods' own affiliate page publishes the SuperHero Friends tiers: Tier 1 gives a 15%-off audience code and link; Tier 2 (after the first order) pays 10% commission on all sales; Tier 3 (25 orders) pays 15% on physical and 25% on digital products; Tier 4 (150 orders) pays 20% physical / 30% digital plus a $100 reward. Creators with 10K+ followers start at Tier 3, but no audience minimum is required. Applicants must be US-based businesses with a public social account; payments are monthly at a $50 balance, and the contact hi@mysuperherofoods.com is printed on the page. The entry paid rate of 10% is recorded. No earnings-cap statement is published, so commission_cap is unknown; openness to small creators is not an absolute creator count, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://mysuperherofoods.com/affiliate-program/",
+   "source_url": "https://mysuperherofoods.com/affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "SuperHero Friends Affiliate Program",
+   "application_url": "https://mysuperherofoods.com/affiliate-program/",
+   "source_url": "https://mysuperherofoods.com/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 15,
+   "compensation": 12,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Kids' food education fits parent, teacher and family-food creators \u2014 a defined niche rather than general food.",
+    "ugc_evidence": "The brand runs a formal tiered affiliate program explicitly recruiting parents, teachers, bloggers and creators of any audience size.",
+    "compensation": "10% commission from the first order, rising to 20% physical / 30% digital at the top tier; no cap statement, so the cap is unknown.",
+    "contact_access": "A contact email (hi@mysuperherofoods.com) is printed on the brand's own affiliate page.",
+    "opportunity_availability": "Program is open now with no audience minimum; applicants must be US-based businesses.",
+    "credibility": "Published program terms since 2022 with endorsements from named nutrition professionals on its own page."
+   }
+  }
+ }
+]

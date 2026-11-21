@@ -1,0 +1,608 @@
+[
+ {
+  "name": "M.A.D MOSS",
+  "website": "https://madmoss.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Sea moss gel and mineral wellness brand running its own affiliate program on its own site: affiliates start at 10% commission on every order with room to grow the rate, get a custom link and discount code, a live earnings dashboard and one-tap payouts. The program page states repeatedly that there are no caps and no limits on earnings. Free to join; applications are reviewed personally, usually within a day.",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "general",
+    "email": "madmossbusiness@madmoss.com",
+    "notes": "Business contact email published at the bottom of the brand's own affiliate program page.",
+    "url": "https://madmoss.com/affiliate/apply"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://madmoss.com/affiliate/apply",
+    "summary": "M.A.D MOSS's own affiliate page recruits sharers and creators: apply in 60 seconds, get a custom code, deep product links and ready-to-post captions, a live earnings dashboard, weekly affiliate calls and one-tap payout requests. Free to join; approval usually within a day."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "brand_site",
+    "source_url": "https://madmoss.com/affiliate/apply",
+    "summary": "The brand's own page publishes the starting rate: 'Start at 10% commission on every order — with the opportunity to grow your rate as you sell', a 10% follower discount and a 30-day referral tracking window; monthly goal rewards can add +2% commission."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://madmoss.com/affiliate/apply",
+    "summary": "The brand's own page states the cap explicitly three times: 'Free to join, no caps, start today', 'No caps · no limits' in the program highlights, and 'No caps, no limits' under its earnings estimator, so commission_cap is recorded as uncapped. The page cites a 100k+ fan community, which is a customer audience figure, not an absolute creator count, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (M.A.D MOSS Affiliate Program)",
+   "commission_rate": 10,
+   "application_url": "https://madmoss.com/affiliate/apply",
+   "source_url": "https://madmoss.com/affiliate/apply",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "M.A.D MOSS Affiliate Program",
+   "application_url": "https://madmoss.com/affiliate/apply",
+   "compensation_notes": "Starts at 10% commission on every order with rate growth as you sell; the brand's own page states there is no cap on earnings (verified uncapped). Followers get 10% off; 30-day tracking window.",
+   "description": "Apply on the brand's affiliate page, get a custom link and discount code plus ready-to-post captions, share sea moss content, and earn from 10% on every order with no earnings cap.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 17,
+   "compensation": 17,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Sea moss gels and mineral wellness are highly demonstrable, routine-friendly products for wellness and beauty-from-within creators, though narrower than core skincare or makeup.",
+    "ugc_evidence": "A creator-native program: custom links and codes, done-for-you captions and brand assets, a live dashboard, posting goals, streaks and a leaderboard built around regular content.",
+    "compensation": "10% starting commission on every order with an explicit no-cap statement on the brand's own page — verified uncapped — plus rate growth and goal-based commission boosts.",
+    "contact_access": "Application is on the brand's own site and a business contact email is published on the program page.",
+    "opportunity_availability": "Free and publicly open to apply; applications reviewed personally, usually approved within a day.",
+    "credibility": "Operating brand with a real storefront, community events and a published contact email and phone number, but a young, single-product-line business."
+   }
+  }
+ },
+ {
+  "name": "Indie Lee",
+  "website": "https://indielee.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Clean skincare brand (cleansers, toners, serums and body care) whose affiliate program runs on the Impact network at 10% commission per sale, as listed in affiliate program directories. A second directory describes the offer as up to 10.5%, which reads as a ceiling rather than a base rate, so the Impact-listed 10% is recorded. No cap statement is published, so the cap stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/indie-lee-co/",
+    "summary": "LinkClicky's program listing for Indie Lee & Co. records the affiliate platform as Impact, open to all regions, with commission of 10% per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/indie-lee/",
+    "summary": "Lasso's Indie Lee listing describes the commission as 'Up to 10.5%' with a 14-day cookie — an 'up to' ceiling, not a base rate. The Impact listing's flat 10% per sale is recorded as the rate; no source publishes an earnings cap statement, so commission_cap stays unknown and creator_saturation stays unknown (no absolute creator counts published)."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/indie-lee-co/",
+   "source_url": "https://linkclicky.com/affiliate-program/indie-lee-co/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Indie Lee Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/indie-lee-co/",
+   "compensation_notes": "10% commission per sale via Impact (directory-listed). A second directory phrases the offer as up to 10.5%, a ceiling; no earnings cap statement is published, so the cap is unknown.",
+   "description": "Apply to Indie Lee's program on the Impact network, share clean skincare routines and reviews, and earn 10% on attributed sales.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean, ingredient-led skincare is core material for skincare UGC — routines, empties and ingredient explainers.",
+    "ugc_evidence": "A network-run affiliate program on Impact gives creators tracked links and standard publisher tools, though the brand publishes no creator-specific program page of its own.",
+    "compensation": "10% per sale on Impact is a fair mid-range rate; no cap statement is published, so the cap is honestly unknown, and a second listing's 'up to 10.5%' is a ceiling.",
+    "contact_access": "No public program email is published; contact runs through the Impact network application.",
+    "opportunity_availability": "Open application through Impact, listed for all regions.",
+    "credibility": "Long-established clean beauty brand with national retail presence and consistent directory listings across two sources."
+   }
+  }
+ },
+ {
+  "name": "Inna Organic",
+  "website": "https://innaorganic.co",
+  "country": "Taiwan",
+  "category_slug": "skincare",
+  "description": "Taiwanese certified-organic skincare brand — Asia's first brand dual-certified by COSMOS and EWG — known for organic sheet masks, face oils and sensitive-skin care. It runs its own Affiliate Program page on its own site and its program is listed on ShareASale at 15% commission per sale with a 30-day cookie. No cap statement is published, so the cap stays unknown.",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "general",
+    "email": "service@innaorganic.com",
+    "notes": "Customer service email published on the brand's own privacy policy page.",
+    "url": "https://innaorganic.co/private-policy/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://innaorganic.co/affiliate-program/",
+    "summary": "Inna Organic's own site carries an Affiliate Program page: 'Partner with Inna Organic, Asia's first dual COSMOS and EWG certified brand. Our Affiliate Program offers competitive commissions while advancing organic skincare, sustainability, and wellness.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/inna-organic/",
+    "summary": "Lasso's Inna Organic listing records the program on ShareASale at 15% commission per sale with a 30-day cookie duration. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "https://innaorganic.co/affiliate-program/",
+   "source_url": "https://getlasso.co/affiliate/inna-organic/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Inna Organic Affiliate Program",
+   "application_url": "https://innaorganic.co/affiliate-program/",
+   "compensation_notes": "15% commission per sale via ShareASale (directory-listed), 30-day cookie. No earnings cap statement is published, so the cap is unknown.",
+   "description": "Apply through Inna Organic's own affiliate page / ShareASale listing, share certified-organic skincare and sheet mask content, and earn 15% on attributed sales.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 14,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Certified-organic sheet masks and sensitive-skin care are strong, visual skincare UGC material with a clear clean-beauty angle.",
+    "ugc_evidence": "The brand maintains its own affiliate program page and a ShareASale listing, but publishes no creator-specific perks, gifting or content program details.",
+    "compensation": "15% per sale is an above-average skincare rate; no cap statement is published, so the cap is honestly unknown.",
+    "contact_access": "Own-site affiliate page plus a published customer service email on the brand's own site.",
+    "opportunity_availability": "Publicly listed application via ShareASale and the brand's own affiliate page.",
+    "credibility": "Dual COSMOS and EWG certification, operating since 2015 with international retail and press coverage; based in Taipei, Taiwan."
+   }
+  }
+ },
+ {
+  "name": "Castle Baths",
+  "website": "https://www.castlebaths.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Natural bath, body and spa products brand whose own affiliate FAQ page states its program runs through ShareASale: a base 10% commission for standard affiliates, with tier commissions for high-volume affiliates up to a maximum potential of 20%, paid monthly through ShareASale once $50 in commissions accrues. No cap statement is published, so the cap stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.castlebaths.com/affiliate-faq.html",
+    "summary": "Castle Baths' own affiliate FAQ page states: 'Affiliate programs are operated through affiliate hosting sites such as ShareASale.com' and that affiliates are paid through ShareASale every month."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "brand_site",
+    "source_url": "https://www.castlebaths.com/affiliate-faq.html",
+    "summary": "The brand's own FAQ publishes the structure: 'Castle Baths offers a base 10% commission for standard affiliates and tier commissions for super performing affiliates (those who produce high sales volume) for a maximum potential commission of 20%', with a $50 minimum before the first payment. The 10% base is recorded; 20% is a tier ceiling. No earnings cap statement or absolute creator counts are published, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://www.castlebaths.com/affiliate-faq.html",
+   "source_url": "https://www.castlebaths.com/affiliate-faq.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Castle Baths Affiliate Program",
+   "application_url": "https://www.castlebaths.com/affiliate-faq.html",
+   "compensation_notes": "Base 10% commission via ShareASale, with performance tiers up to a 20% maximum, per the brand's own FAQ; monthly ShareASale payments after a $50 threshold. No earnings cap statement published — cap unknown.",
+   "description": "Join Castle Baths on ShareASale, share natural bath and spa product content, and earn a 10% base commission with tiers up to 20% for high volume.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Bath, body and spa products fit self-care and pamper-routine UGC well, though the niche is narrower than skincare or makeup.",
+    "ugc_evidence": "A standard ShareASale affiliate program documented on the brand's own FAQ page; no creator-specific content program or gifting is published.",
+    "compensation": "10% base commission with published tiers up to 20% for high-volume affiliates is solid; no cap statement is published, so the cap is honestly unknown.",
+    "contact_access": "Program details are on the brand's own site; application runs through ShareASale and no public program email is published.",
+    "opportunity_availability": "Open application through ShareASale with a published $50 payout threshold.",
+    "credibility": "Long-running niche bath and spa retailer with its own detailed affiliate FAQ; a small brand, so reach is modest."
+   }
+  }
+ },
+ {
+  "name": "Inner Beauty Cosmetics",
+  "website": "https://www.innerbeautycosmetics.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Skincare and makeup brand whose affiliate program runs on ShareASale at 20% commission per sale with a 30-day cookie, as recorded in affiliate program directories. No cap statement is published, so the cap stays unknown and saturation stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/inner-beauty-cosmetics/",
+    "summary": "LinkClicky's listing for Inner Beauty Cosmetics records the affiliate platform as ShareASale, open to all regions, with a 30-day cookie duration."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/inner-beauty-cosmetics/",
+    "summary": "The same directory listing records commission of 20% per sale for the Inner Beauty Cosmetics ShareASale program. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 20,
+   "application_url": "https://linkclicky.com/affiliate-program/inner-beauty-cosmetics/",
+   "source_url": "https://linkclicky.com/affiliate-program/inner-beauty-cosmetics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Inner Beauty Cosmetics Affiliate Program",
+   "application_url": "https://linkclicky.com/affiliate-program/inner-beauty-cosmetics/",
+   "compensation_notes": "20% commission per sale via ShareASale (directory-listed), 30-day cookie. No earnings cap statement is published, so the cap is unknown.",
+   "description": "Apply to Inner Beauty Cosmetics on ShareASale, share skincare and makeup content, and earn 20% on attributed sales.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 10,
+   "compensation": 15,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A combined skincare and makeup range maps directly onto beauty UGC formats — routines, reviews and tutorials.",
+    "ugc_evidence": "A network-run ShareASale program gives creators tracked links and standard tools; no brand-run creator program details are published.",
+    "compensation": "20% per sale is a strong beauty rate; no cap statement is published, so the cap is honestly unknown.",
+    "contact_access": "No public program email is published; contact runs through the ShareASale application.",
+    "opportunity_availability": "Open application through ShareASale, listed for all regions.",
+    "credibility": "Smaller, less-documented brand; the program rests on a single directory listing, so credibility is scored conservatively."
+   }
+  }
+ },
+ {
+  "name": "Ranavat",
+  "website": "https://www.ranavat.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Ayurvedic luxury skincare brand inspired by Indian royal beauty rituals (hair and skin oils, serums and masques). Its affiliate program runs on ShareASale: one directory records 10% per sale with a 15-day cookie as the officially listed payout, while a second directory describes the offer as up to 5.25%. Because the two published figures conflict, commission_rate is recorded as null with the conflict documented. No cap statement is published.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/ranavat/",
+    "summary": "LinkClicky's Ranavat listing records the brand's website as www.ranavat.com, the affiliate platform as ShareASale, open to all regions, with a 15-day cookie and commission of 10% per sale, described as 'what's officially listed with their affiliate program as the payout'."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/ranavat-botanics/",
+    "summary": "Lasso's RANAVAT BOTANICS listing instead describes the commission as 'Up to 5.25%' with a 14-day cookie. The two published figures (10% flat vs up to 5.25%) conflict, so commission_rate is recorded as null rather than guessed. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/ranavat/",
+   "source_url": "https://linkclicky.com/affiliate-program/ranavat/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ranavat Affiliate Program",
+   "application_url": "https://linkclicky.com/affiliate-program/ranavat/",
+   "compensation_notes": "Rate conflict: LinkClicky lists 10% per sale on ShareASale while Lasso lists up to 5.25% — commission_rate recorded as null until the brand or network settles it. No earnings cap statement published — cap unknown.",
+   "description": "Apply to Ranavat on ShareASale, share Ayurvedic ritual and hair/skin oil content, and earn commission on attributed sales (confirm the current rate in the network before promoting).",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ayurvedic ritual skincare and hair oiling are distinctive, story-rich material for skincare and hair UGC.",
+    "ugc_evidence": "A network-run ShareASale program with tracked links; the brand's luxury positioning is creator-friendly, but no creator-specific program page is published.",
+    "compensation": "Published rates conflict (10% flat vs up to 5.25%), so the rate is recorded as null and compensation is scored down for the uncertainty; no cap statement is published.",
+    "contact_access": "No public program email is published; contact runs through the ShareASale application.",
+    "opportunity_availability": "Open application through ShareASale, listed for all regions.",
+    "credibility": "Established prestige brand with major retail distribution and press; only the rate documentation is inconsistent."
+   }
+  }
+ },
+ {
+  "name": "Divi",
+  "website": "https://www.diviofficial.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Scalp and hair health brand (scalp serum and hair wellness products) running its own Affiliate Program page on its own site: open to content creators, hair stylists and fans, with commission on every sale, a welcome gift, a friends & family promo code and early access to launches. The brand's own page does not publish a percentage; a directory describes the offer as up to 15%, which is a ceiling, so commission_rate is recorded as null. No cap statement is published.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.diviofficial.com/pages/affiliate-program",
+    "summary": "Divi's own Affiliate Program page invites content creators, hair stylists and fans to apply, with perks including a welcome gift, 'Commission on every sale', a friends & family promo code and early access to launches and sales. The page publishes no commission percentage."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/divi-scalp-care/",
+    "summary": "Lasso's Divi Scalp Care listing describes the commission as 'Up to 15.0%' with a 14-day cookie — an 'up to' ceiling, not a published base rate, and the brand's own page publishes no percentage, so commission_rate is recorded as null. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (Divi Affiliate Program)",
+   "commission_rate": null,
+   "application_url": "https://www.diviofficial.com/pages/affiliate-program",
+   "source_url": "https://www.diviofficial.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Divi Affiliate Program",
+   "application_url": "https://www.diviofficial.com/pages/affiliate-program",
+   "compensation_notes": "Commission on every sale per the brand's own page, but no percentage is published there; a directory's 'up to 15%' is a ceiling, so the rate is recorded as null. No earnings cap statement published — cap unknown.",
+   "description": "Apply on Divi's own affiliate page, get a welcome gift and a friends & family code, share scalp and hair health content, and earn commission on every sale.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Scalp care and hair-growth routines are a fast-growing, highly visual corner of beauty UGC.",
+    "ugc_evidence": "The brand's own program explicitly recruits content creators alongside stylists and fans, with a welcome gift, promo codes and early access — real creator-facing structure.",
+    "compensation": "Commission on every sale is promised but no percentage is published on the brand's page, and the only directory figure is an 'up to 15%' ceiling, so the rate is null and scored cautiously; cap unknown.",
+    "contact_access": "Application and program details are on the brand's own site; no separate program email is published.",
+    "opportunity_availability": "Publicly open application on the brand's own affiliate page.",
+    "credibility": "Well-known DTC hair wellness brand with national retail presence and an established social following."
+   }
+  }
+ },
+ {
+  "name": "No BS Skincare",
+  "website": "https://livenobs.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Clean, no-nonsense skincare brand (Simply Better Brands) sold at CVS and Walgreens nationwide, built on banned-ingredient transparency. Its affiliate program runs on ShareASale at 10% commission per sale with a 30-day cookie, as recorded in affiliate directories. No cap statement is published, so the cap stays unknown.",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "pr",
+    "email": "contact@livenobs.com",
+    "notes": "Media contact email published in the brand's own press materials.",
+    "url": "https://www.newswire.ca/news-releases/simply-better-brands-corp-s-no-b-s-skincare-brand-launches-in-walgreens-nationally-in-the-united-states-872039125.html"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/livenobs"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/no-bs-skincare/",
+    "summary": "Lasso's No BS Skincare listing records the program with a ShareASale join route, commission of 10% per sale and a 30-day cookie duration, in the Beauty and Skin Care categories."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "brand_site",
+    "source_url": "https://www.newswire.ca/news-releases/simply-better-brands-corp-s-no-b-s-skincare-brand-launches-in-walgreens-nationally-in-the-united-states-872039125.html",
+    "summary": "The brand's parent-company press release confirms No BS Skincare's official website as livenobs.com and national US retail distribution (4,450 Walgreens stores), supporting the brand's scale; the release publishes media contact contact@livenobs.com. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/no-bs-skincare/",
+   "source_url": "https://getlasso.co/affiliate/no-bs-skincare/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "No BS Skincare Affiliate Program",
+   "application_url": "https://getlasso.co/affiliate/no-bs-skincare/",
+   "compensation_notes": "10% commission per sale via ShareASale (directory-listed), 30-day cookie. No earnings cap statement is published, so the cap is unknown.",
+   "description": "Apply to No BS Skincare on ShareASale, share clean drugstore skincare routines and acne care content, and earn 10% on attributed sales.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Affordable clean skincare with acne and everyday-routine products is staple skincare UGC material.",
+    "ugc_evidence": "A network-run ShareASale program with tracked links; the brand is social-active (@livenobs) but publishes no creator-specific program page.",
+    "compensation": "10% per sale is a fair drugstore-skincare rate; no cap statement is published, so the cap is honestly unknown.",
+    "contact_access": "A media contact email is published in the brand's press materials, and application runs through ShareASale.",
+    "opportunity_availability": "Open application through ShareASale.",
+    "credibility": "Publicly traded parent (Simply Better Brands), nationwide CVS and Walgreens distribution and a long press trail."
+   }
+  }
+ },
+ {
+  "name": "Kora Organics",
+  "website": "https://www.koraorganics.com",
+  "country": "Australia",
+  "category_slug": "skincare",
+  "description": "Certified-organic skincare brand founded by Miranda Kerr in Australia in 2006/2009 and sold in 30 countries. Affiliate directories record its program at a 5–8% commission range per sale, and a separate Australian listing cites up to 4%. Because only a range and a conflicting ceiling are published — never a single base rate — commission_rate is recorded as null. No cap statement is published.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/kora-organics/",
+    "summary": "Lasso's Kora Organics listing records the affiliate program with commission of 5%–8% per sale — a range, not a single published base rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.shopper.com/partnerships/koraorganics-com-affiliate-program",
+    "summary": "Shopper's Kora Organics AU listing instead cites 'up to 4%' payout per sale. A 5–8% range in one directory and an up-to-4% ceiling in another cannot settle a single rate, so commission_rate is recorded as null. The brand's official website is koraorganics.com (its US storefront is us.koraorganics.com). No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliate network (directory-listed)",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/kora-organics/",
+   "source_url": "https://getlasso.co/affiliate/kora-organics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kora Organics Affiliate Program",
+   "application_url": "https://getlasso.co/affiliate/kora-organics/",
+   "compensation_notes": "Only a 5–8% range (Lasso) and a conflicting up-to-4% AU figure (Shopper) are published, so commission_rate is recorded as null. No earnings cap statement published — cap unknown.",
+   "description": "Join Kora Organics' affiliate program through its network listing, share certified-organic skincare and glow routine content, and earn commission on attributed sales (confirm the current rate in the network first).",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Certified-organic, founder-led skincare with hero products (Noni Glow, turmeric range) is premium skincare UGC material.",
+    "ugc_evidence": "The program is carried in affiliate directories with standard tracked links; the brand itself is heavily creator- and founder-content driven, though no public creator program page is published.",
+    "compensation": "Only a rate range and a conflicting regional ceiling are published, so the rate is recorded as null and compensation scored cautiously; cap unknown.",
+    "contact_access": "No public affiliate program email is published; access runs through the network listing.",
+    "opportunity_availability": "Listed as openly joinable through affiliate directories.",
+    "credibility": "Global certified-organic brand founded by Miranda Kerr, sold in 30 countries with extensive press — credibility is not the issue, rate documentation is."
+   }
+  }
+ },
+ {
+  "name": "Loved01",
+  "website": "https://loved01.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Unisex skincare brand founded by John Legend (2023), formulated with dermatologist Dr. Naana Boakye for melanin-rich skin, priced at $10–15 and sold at CVS and Walmart. Affiliate directories record its program at up to 10.5% commission — an 'up to' ceiling with no published base rate — so commission_rate is recorded as null. No cap statement is published.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/loved01/",
+    "summary": "Lasso's Loved01 listing records the affiliate program in the Beauty category with commission described as 'Up to 10.5%', a 14-day cookie and no approval requirements."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "press",
+    "source_url": "https://www.prnewswire.com/news-releases/john-legend-announces-loved01---affordable-skincare-for-melanin-rich-skin-301721926.html",
+    "summary": "The brand's launch release confirms Loved01 as John Legend's dermatologist-formulated skincare line for melanin-rich skin, priced $10–15 at loved01.com, CVS and Walmart. The only published commission figure is the directory's 'up to 10.5%' ceiling, so commission_rate is recorded as null. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliate network (directory-listed)",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/loved01/",
+   "source_url": "https://getlasso.co/affiliate/loved01/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Loved01 Affiliate Program",
+   "application_url": "https://getlasso.co/affiliate/loved01/",
+   "compensation_notes": "Only an 'up to 10.5%' ceiling is published (directory listing), with no base rate, so commission_rate is recorded as null. No earnings cap statement published — cap unknown.",
+   "description": "Join Loved01's affiliate program through its network listing, share affordable melanin-rich skincare routines, and earn commission on attributed sales (confirm the current rate in the network first).",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Affordable, dermatologist-formulated skincare for melanin-rich skin fills a clear, underserved UGC niche.",
+    "ugc_evidence": "A directory-listed affiliate program with tracked links; the celebrity-founded brand is social-first, but no public creator program page is published.",
+    "compensation": "Only an 'up to 10.5%' ceiling is published with no base rate, so the rate is recorded as null and compensation scored cautiously; cap unknown.",
+    "contact_access": "No public program email is published; access runs through the network listing.",
+    "opportunity_availability": "Directory-listed as open with no approval requirements.",
+    "credibility": "Founded by John Legend with A-Frame Brands, national CVS and Walmart distribution and major press coverage since its 2023 launch."
+   }
+  }
+ }
+]
