@@ -51,6 +51,18 @@ export default function CoachPage() {
         </p>
       </section>
 
+      <section style={{ ...panel, textAlign: "center", border: "1px solid #e879f9", boxShadow: "0 0 44px rgba(217,70,239,0.4)" }}>
+        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "4px 14px", fontSize: 12.5, fontWeight: 700, letterSpacing: 2 }}>⭐ SIGNATURE RESOURCE</span>
+        <h2 style={{ fontSize: 26, margin: "12px 0 6px", fontWeight: 800 }}>The Human Emotion Video Playbook</h2>
+        <p style={{ ...sub, maxWidth: 640, margin: "0 auto 16px" }}>
+          People don&rsquo;t watch videos only because they want information — they watch because they feel
+          something. The Playbook is UltraVestra&rsquo;s complete human-emotion video creation system:
+          15 emotions, the 10-second attention engine, 25 hooks, 30 concepts, five formulas, and the
+          interactive Human Emotion Video Lab.
+        </p>
+        <Link href="/creator-growth/human-emotion-video-playbook" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Open the Playbook &amp; the Lab →</Link>
+      </section>
+
       <VideoLab />
 
       <section style={panel}>
