@@ -91,6 +91,19 @@ export default async function CoachPage() {
       </section>
 
       <section style={{ ...panel, textAlign: "center", border: "1px solid #e879f9", boxShadow: "0 0 44px rgba(217,70,239,0.4)" }}>
+        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "4px 14px", fontSize: 12.5, fontWeight: 700, letterSpacing: 2 }}>⭐ SIGNATURE TOOL · VIDEO ANALYSIS</span>
+        <h2 style={{ fontSize: 26, margin: "12px 0 6px", fontWeight: 800 }}>The Video Autopsy</h2>
+        <p style={{ ...sub, maxWidth: 640, margin: "0 auto 16px" }}>
+          UltraVestra&rsquo;s video analysis experience: put one of your real videos on the table and walk it
+          through six stages — the stop, the hold, the reveal, the benefit, the proof, the decision. Every
+          stage graded from your honest answers, the damage ordered weakest-first, and one change handed back.
+          A guided self-analysis — it never pretends to have watched your video.
+        </p>
+        <p style={{ color: "#f0abfc", fontWeight: 800, fontSize: 17, margin: "0 auto 16px" }}>I know exactly what to change in my next video.</p>
+        <Link href="/creator-growth/video-autopsy" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Autopsy My Video →</Link>
+      </section>
+
+      <section style={{ ...panel, textAlign: "center", border: "1px solid #e879f9", boxShadow: "0 0 44px rgba(217,70,239,0.4)" }}>
         <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "4px 14px", fontSize: 12.5, fontWeight: 700, letterSpacing: 2 }}>⭐ CREATOR MASTERCLASS</span>
         <h2 style={{ fontSize: 26, margin: "12px 0 6px", fontWeight: 800 }}>The Art of Captivating Human Attention</h2>
         <p style={{ ...sub, maxWidth: 640, margin: "0 auto 16px" }}>
