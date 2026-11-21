@@ -1,0 +1,598 @@
+[
+  {
+    "name": "TweetDelete",
+    "website": "https://tweetdelete.net",
+    "country": "United Kingdom",
+    "category_slug": "technology",
+    "description": "Online service that bulk-deletes tweets and likes by age or keyword, founded in 2011 by software developer Richard West and used by more than 5 million people; its brand-direct affiliate program pays a flat 20% per order and explicitly states there are no limits on earnings.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://tweetdelete.net/affiliate-program/",
+        "summary": "The brand's own affiliate page states verbatim: 'No limits on earnings or payouts', and its FAQ answers 'What commission rate is offered?' with 'We offer a flat 20% commission rate per order. There are no monthly limits to how much you can earn from our affiliate program.' Terms on the page: 30-day cookie, monthly payouts by direct deposit or PayPal, no minimum payout, free to join, affiliates must be 18+ with a Twitter/X account, and referrals get a 10% discount code (example given: $99 Lifetime Plan earns $19.80)."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "official_site",
+        "source_type": "official_site",
+        "source_url": "https://tweetdelete.net/about-us/",
+        "summary": "The brand's About page says TweetDelete was developed in 2011 by software developer Richard West, has been used by more than 5 million unique people with over 2 million continuous users, and mass-deletes tweets and likes by age or text string."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_profile",
+        "source_type": "review",
+        "source_url": "https://www.trustpilot.com/review/tweetdelete.net",
+        "summary": "Trustpilot's company details for TweetDelete list the contact address 49 Gaunt Street, Lincoln LN5 7PU (a UK postcode), supporting the United Kingdom country entry."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 20,
+      "application_url": "https://tweetdelete.net/affiliate-program/",
+      "source_url": "https://tweetdelete.net/affiliate-program/",
+      "commission_cap": "uncapped",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://tweetdelete.net/affiliate-program/",
+      "source_url": "https://tweetdelete.net/affiliate-program/",
+      "title": "TweetDelete Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 12,
+      "compensation": 17,
+      "contact_access": 6,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "A focused tool for X/Twitter creators and social-media managers; narrower than a general tech product but squarely aimed at people who post for a living.",
+        "ugc_evidence": "The affiliate page courts website owners and creators with a referral discount code and worked earnings examples, though it is not a UGC-first program page.",
+        "compensation": "Flat 20% per order with an explicit no-limits statement on the brand's own page, no minimum payout and monthly payments — strong, verified-uncapped terms.",
+        "contact_access": "No public email appears on the fetched pages; contact is through the on-page affiliate application form only.",
+        "opportunity_availability": "Free to join for anyone 18+ with a Twitter/X account; approval appears self-serve via the on-page form.",
+        "credibility": "Operating since 2011 with a claimed 5M+ users, but a small private company and mixed public review presence, so mid-low credibility."
+      }
+    }
+  },
+  {
+    "name": "Surfshark",
+    "website": "https://surfshark.com",
+    "country": "Netherlands",
+    "category_slug": "technology",
+    "description": "Consumer VPN and online-security suite (VPN, antivirus, data-leak alerts, private search) founded in 2018 and operated by Surfshark B.V. in Amsterdam; its affiliate program pays 40% revenue share on new sales and explicitly courts YouTube, Facebook and X creators.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://surfshark.com/affiliate",
+        "summary": "The brand's own affiliate page advertises 'Competitive 40% revenue share on new sales', a 30-day cookie and a $100 minimum payout threshold, with a personal account manager. Its FAQ states Tune (HasOffers) is the main affiliate platform and that Surfshark can also be found on Impact Radius, Avant, CJ, AppsFlyer and Awin; it says no website is needed and names Facebook, X and YouTube as promotion channels, and notes CPA conditions can be discussed. The affiliate page itself makes no earnings-cap statement, so the cap is recorded as unknown (the separate Refer & Earn customer referral FAQ's no-limit wording does not cover this program and was not used)."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_profile",
+        "source_type": "review",
+        "source_url": "https://en.wikipedia.org/wiki/Surfshark",
+        "summary": "Wikipedia and company reporting describe Surfshark as a cybersecurity company founded in 2018, operated by Surfshark B.V. at Kabelweg 57, Amsterdam, Netherlands (headquarters moved from the British Virgin Islands to the Netherlands in October 2021), supporting the Netherlands country entry."
+      }
+    ],
+    "affiliate": {
+      "network": "Tune (HasOffers)",
+      "commission_rate": 40,
+      "application_url": "https://surfshark.com/affiliate",
+      "source_url": "https://surfshark.com/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://surfshark.com/affiliate",
+      "source_url": "https://surfshark.com/affiliate",
+      "title": "Surfshark Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 16,
+      "compensation": 18,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "VPN and online security is one of the most creator-promoted technology categories, and Surfshark's suite fits tech, privacy and lifestyle channels.",
+        "ugc_evidence": "The program page explicitly supports creators on YouTube, Facebook and X, offers a personal account manager and is open to negotiating CPA deals.",
+        "compensation": "40% revenue share on new sales is among the highest mainstream VPN rates, with custom CPA available; $100 payout threshold noted.",
+        "contact_access": "Application plus a named account-manager model, but no public email address appears on the fetched page.",
+        "opportunity_availability": "Open application and no website required; runs mainly through Tune with several network alternatives.",
+        "credibility": "Major global consumer brand founded in 2018 with award mentions (PCMag, CNET) cited on its own affiliate page."
+      }
+    }
+  },
+  {
+    "name": "Incogni",
+    "website": "https://incogni.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Personal-data removal service created by the Surfshark team that requests deletion from 420+ data brokers; its affiliate program starts at 40% revenue share with tiered rates for higher-volume partners and a dedicated affiliate manager.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://incogni.com/affiliate",
+        "summary": "The brand's own affiliate page states: 'Starting at a 40% revenue-based commission' with 'the potential to earn up to $100 per CPA commission, depending on your traffic or affiliate tier' and a standard 30-day cookie. Tiers: Verified Affiliates 40% revenue share (1-99 conversions/month), Rising Stars custom rates (100-399), Superhero Affiliates custom rates (400+). It offers a dedicated affiliate manager, a creative library and performance reports. No earnings-cap statement appears on the page, so the cap is unknown; the $100 figure is a per-conversion CPA ceiling, documented here rather than treated as a base rate."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_profile",
+        "source_type": "review",
+        "source_url": "https://safestackpro.com/incogni-review",
+        "summary": "Review research on Incogni's contracts reports that since October 2023 customer agreements run through Incogni Inc., a California corporation (principal office in Los Angeles, CA), supporting the United States country entry; some directories instead list Amsterdam, reflecting the Dutch Surfshark parent. The service was created by the Surfshark team in 2021 and launched in January 2022."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "review",
+        "source_type": "review",
+        "source_url": "https://locklore.com/incogni-review/",
+        "summary": "Hands-on review citing the brand's own site reports Incogni removes personal data from 420+ data brokers (up from 310+ previously) and operates independently of Surfshark's VPN despite the shared parent."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 40,
+      "application_url": "https://incogni.com/affiliate",
+      "source_url": "https://incogni.com/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://incogni.com/affiliate",
+      "source_url": "https://incogni.com/affiliate",
+      "title": "Incogni Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 15,
+      "compensation": 17,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Data-privacy removal is a heavily creator-promoted service that fits tech, privacy and general-audience channels.",
+        "ugc_evidence": "The program provides a dedicated affiliate manager, a creative library and custom assets, and is structured around content partners.",
+        "compensation": "40% revenue share at the entry tier with custom higher-volume tiers and CPA options up to $100 per conversion.",
+        "contact_access": "Affiliate team reachable through the program page and support channels; no direct public email on the fetched page.",
+        "opportunity_availability": "Open application with tiers starting at a single monthly conversion.",
+        "credibility": "Well-known consumer brand in the Surfshark group with a large broker-removal footprint and mainstream review coverage."
+      }
+    }
+  },
+  {
+    "name": "NordVPN",
+    "website": "https://nordvpn.com",
+    "country": "Panama",
+    "category_slug": "technology",
+    "description": "Flagship VPN service of Nord Security, provided by Panama-based nordvpn S.A.; its long-running affiliate program pays 100% on new 1-month plans and 40% on longer plans, with dedicated partnership managers for creators.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "payments@nordvpnmedia.com",
+        "source_url": "https://nordvpn.com/affiliate-guide/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://nordvpn.com/affiliate-guide/",
+        "summary": "The brand's own affiliate guide publishes its commission table: new sign-ups pay 100% (1-month offer) or 40% (all other offers) and renewals pay 30%. It states payouts can be sent once collected commission exceeds $100, via PayPal or wire transfer after a 40-day delay, and publishes the payments contact payments@nordvpnmedia.com. The guide describes a dedicated partnership manager, an in-house Affiliate Dashboard for tracking links, and a requirement to send content for approval at least two business days before publishing. No earnings-cap statement appears, so the cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_profile",
+        "source_type": "official_site",
+        "source_url": "https://nordvpn.com/terms-of-service/",
+        "summary": "NordVPN's own terms of service state the service is provided by nordvpn S.A., Panama City, Panama, under Panamanian law, supporting the Panama country entry."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_profile",
+        "source_type": "review",
+        "source_url": "https://en.wikipedia.org/wiki/Nord_Security",
+        "summary": "Wikipedia describes parent company Nord Security as founded in 2012 in Lithuania by Tomas Okmanas, Eimantas Sabaliauskas and Jonas Karklys, headquartered in the Netherlands, with NordVPN as its flagship product."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": 40,
+      "application_url": "https://nordvpn.com/affiliate-guide/",
+      "source_url": "https://nordvpn.com/affiliate-guide/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://nordvpn.com/affiliate-guide/",
+      "source_url": "https://nordvpn.com/affiliate-guide/",
+      "title": "NordVPN Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 17,
+      "compensation": 19,
+      "contact_access": 11,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "The most creator-sponsored VPN brand in its category; fits tech, gaming, privacy and general YouTube/TikTok audiences.",
+        "ugc_evidence": "Own guide describes partnership managers, SEO/design/CRO content support and a creator-focused approval workflow.",
+        "compensation": "100% on new 1-month plans, 40% on longer plans and 30% renewals — top-of-market VPN terms, published in the brand's own table.",
+        "contact_access": "A payments email is published on the brand's own guide and each partner gets a partnership manager.",
+        "opportunity_availability": "Open application through the affiliate dashboard; content pre-approval is required before publishing.",
+        "credibility": "One of the largest VPN brands worldwide, operating since 2012 under Nord Security."
+      }
+    }
+  },
+  {
+    "name": "Crate & Barrel",
+    "website": "https://www.crateandbarrel.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Major US home-furnishings retailer (Euromarket Designs, Inc., founded 1962) selling furniture, kitchen and decor; its affiliate program pays 5% per sale with a 45-day cookie, managed through Impact and other networks.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/crate-and-barrel/",
+        "summary": "Lasso's program listing for Crate and Barrel reports 5% commission per sale, a 45-day cookie duration and a $50 payout threshold in the Home Decor category."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://uppromote.com/affiliate-directory/crate-barrel/",
+        "summary": "Uppromote's directory reports the Crate & Barrel program is managed through Impact, pays up to 5% by category, pays monthly on Net 30/60 terms via Impact, and counts content creators and home-decor bloggers among its affiliate types."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_profile",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/crate-and-barrel/",
+        "summary": "Program materials identify the operator as Euromarket Designs, Inc. dba Crate & Barrel, Crate & Kids, CB2 and Hudson Grace, a United States retailer."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 5,
+      "application_url": null,
+      "source_url": "https://getlasso.co/affiliate/crate-and-barrel/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": null,
+      "source_url": "https://getlasso.co/affiliate/crate-and-barrel/",
+      "title": "Crate and Barrel Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 13,
+      "compensation": 10,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Core home-decor and furniture brand for home, DIY and lifestyle creators, with high average order values.",
+        "ugc_evidence": "Directory materials list content creators and home-decor bloggers as target affiliate types, and the retailer staffs creator-tier affiliate roles from nano to mega.",
+        "compensation": "5% per sale is modest, partly offset by expensive furniture baskets and a 45-day cookie.",
+        "contact_access": "No public program email on the fetched pages; contact runs through the network application.",
+        "opportunity_availability": "Joinable through Impact and other networks with standard approval.",
+        "credibility": "Established national retailer operating since 1962 under Euromarket Designs, Inc."
+      }
+    }
+  },
+  {
+    "name": "Skylight",
+    "website": "https://www.skylightframe.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "San Francisco company behind the Skylight Frame digital photo frame and the Skylight Calendar family organizer; its Awin affiliate program pays 2% per sale and up to 15% for content partners on a 90-day cookie.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/50821",
+        "summary": "Skylight's own Awin merchant profile states verbatim: 'Commission Rate: 2% Commission per Sale and Up to 15% for Content Partners! Cookie: 90 days', and describes the Skylight Frame and Smart Family Calendar products. The 2% base rate is recorded; the 15% figure is a ceiling for content partners, not the base rate."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_profile",
+        "source_type": "official_site",
+        "source_url": "https://www.skylightframe.com/policies/terms-of-service",
+        "summary": "Skylight Frame's published terms list the company at 101A Clay Street #144, San Francisco, CA 94111, supporting the United States country entry."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 2,
+      "application_url": "https://ui.awin.com/merchant-profile/50821",
+      "source_url": "https://ui.awin.com/merchant-profile/50821",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/50821",
+      "source_url": "https://ui.awin.com/merchant-profile/50821",
+      "title": "Skylight Affiliate Program (Awin)"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 14,
+      "compensation": 9,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Family photo frames and organizers fit parenting, family and gift-guide creators well, though the niche is narrower than general home decor.",
+        "ugc_evidence": "The Awin profile explicitly reserves its top rate (up to 15%) for content partners, signalling a deliberate creator tier.",
+        "compensation": "2% base is low; the up-to-15% content-partner ceiling and a generous 90-day cookie improve the picture but are not guaranteed.",
+        "contact_access": "Application runs through Awin; no public program email appears on the fetched pages.",
+        "opportunity_availability": "Open to join via Awin with a published merchant profile.",
+        "credibility": "Established consumer-electronics brand selling in the US, UK, Canada and Australia from a San Francisco base."
+      }
+    }
+  },
+  {
+    "name": "NutriMill",
+    "website": "https://nutrimill.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Utah kitchen-appliance brand selling home grain mills, Bosch mixers and accessories; its published affiliate agreement (enrollment via Shopify Collabs) pays a 10% base commission rising to 15% for approved online demonstrators.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliates@nutrimill.com",
+        "source_url": "https://nutrimill.com/pages/affiliate-agreement"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://nutrimill.com/pages/affiliate-agreement",
+        "summary": "NutriMill's own published Affiliate Program Agreement (effective September 28, 2026) sets commission tiers: Base 10% for all affiliates, Performance 12% after $20,000 in cumulative verified sales, and Online Demonstrator 15% with written approval, stating '15% is the maximum rate'. Enrollment and payment run through Shopify Collabs (commissions paid 30 days after the sale), and the agreement publishes the program contact affiliates@nutrimill.com. The 15% figure is a rate ceiling, not an earnings cap; no no-cap statement appears, so the earnings cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "company_profile",
+        "source_type": "official_site",
+        "source_url": "https://nutrimill.com/pages/affiliate-agreement",
+        "summary": "The agreement is governed by Utah law with arbitration in Washington County, Utah, and covers NutriMill's home grain mills and Bosch mixer lines, supporting the United States country entry and the home category."
+      }
+    ],
+    "affiliate": {
+      "network": "Shopify Collabs",
+      "commission_rate": 10,
+      "application_url": null,
+      "source_url": "https://nutrimill.com/pages/affiliate-agreement",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": null,
+      "source_url": "https://nutrimill.com/pages/affiliate-agreement",
+      "title": "NutriMill Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 21,
+      "ugc_evidence": 13,
+      "compensation": 13,
+      "contact_access": 13,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Grain mills and Bosch mixers fit baking, homestead and from-scratch cooking creators; a focused niche rather than general home.",
+        "ugc_evidence": "The agreement builds in creator mechanics: content and name/likeness rights, product gifting, an affiliate purchasing account and a paid demonstrator tier.",
+        "compensation": "10% base rising to 12% and a 15% maximum for demonstrators is solid for kitchen appliances, with terms published in full.",
+        "contact_access": "A dedicated program email (affiliates@nutrimill.com) is published in the brand's own agreement.",
+        "opportunity_availability": "Open enrollment through Shopify Collabs for affiliates 18+.",
+        "credibility": "Established US kitchen brand and Bosch mixer distributor with a formal published program agreement."
+      }
+    }
+  },
+  {
+    "name": "Spot Pet Insurance",
+    "website": "https://spotpet.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US pet insurance provider (Spot Pet Insurance Services, Miami, FL) whose referral partner program pays a flat fee per qualified lead generated through a partner's unique link, and whose affiliate program runs through Impact.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://spotpet.com/spot-referral-partner-terms-and-conditions",
+        "summary": "Spot's own published Referral Partner Terms state SPOT Pet Insurance Services, Inc. pays partners a lead fee when a referred potential customer submits their first and last name, email and ZIP code through the partner's unique link; partners must be located in the US and market only to US leads, fees are calculated at month end and paid before the end of the following month, and the terms are governed by Florida law. The footer gives Spot Pet Insurance Services, LLC, 100 Biscayne Blvd, Suite 400, Miami, FL 33132, with plans underwritten by Independence American Insurance Company or United States Fire Insurance Company. The terms do not state the fee amount."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://commissiondex.com/programs/spot-pet-insurance/",
+        "summary": "Commissiondex's program listing reports Spot Pet Insurance pays a flat $25 per lead (pay-per-lead), runs through the Impact network, with a 30-day cookie, $50 minimum payout and monthly payments via PayPal or direct deposit. The recorded rate of 25 is this flat per-lead bounty, not a percentage."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 25,
+      "application_url": null,
+      "source_url": "https://commissiondex.com/programs/spot-pet-insurance/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": null,
+      "source_url": "https://spotpet.com/spot-referral-partner-terms-and-conditions",
+      "title": "Spot Pet Insurance Referral Partner Program"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 10,
+      "compensation": 12,
+      "contact_access": 6,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Pet insurance is a major, recurring topic for pet creators, and Spot is a recognized US provider in that niche.",
+        "ugc_evidence": "The partner model is lead-generation oriented and the brand's own terms restrict social-media promotion without written consent, so creator evidence is thinner than pet-product brands.",
+        "compensation": "A flat $25 per qualified lead (per directory listing) is reasonable for a short quote form, though it is not a share of policy value.",
+        "contact_access": "Partner terms are public on the brand's site, but no program email appears on the fetched pages.",
+        "opportunity_availability": "Joinable via Impact and the brand's partner terms; US-based partners and US leads only.",
+        "credibility": "Licensed US pet insurer based in Miami with policies underwritten by established insurance companies."
+      }
+    }
+  },
+  {
+    "name": "Lemonade",
+    "website": "https://www.lemonade.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Licensed digital insurer founded in 2015 in New York selling renters, homeowners, pet, car and term life insurance; its affiliate program runs through Impact and pays flat fees per quote generated.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/lemonade/",
+        "summary": "LinkClicky's program profile lists Lemonade's affiliate platform as Impact with a commission of $15-$20 per quote. Lemonade is a licensed insurer (renters, homeowners, pet, car and term life) founded in 2015 and headquartered in New York."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://alanslui.com/best-affiliate-programmes-insurance-finance/",
+        "summary": "An insurance-programme comparison checked October 30, 2026 lists 'Lemonade (US pet insurance) — $15-$20 per quote generated, and $0 when the policy is bought', corroborating the per-quote range for the pet line."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "review",
+        "source_url": "https://meersworld.com/insurance-affiliate-programs/",
+        "summary": "CONFLICT: other directories report different figures — one review lists $15.00 to $35.00 depending on the plan via Impact Radius with a 30-day cookie, and another lists $25.50 per sale. Because published flat payouts conflict ($15-$20 per quote vs $25.50 per sale vs a $15-$35 range), commission_rate is recorded as null rather than guessed."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/lemonade/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": null,
+      "source_url": "https://linkclicky.com/affiliate-program/lemonade/",
+      "title": "Lemonade Affiliate Program"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 11,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Pet insurance is one of Lemonade's flagship creator-promoted lines and fits pet channels; renters and home lines widen the fit further.",
+        "ugc_evidence": "Directory profiles describe the program as targeting publishers, bloggers and influencers across its insurance lines.",
+        "compensation": "Flat per-quote payouts are reported around $15-$20, but published figures conflict, so the rate is honestly unrecorded and the score reflects the uncertainty.",
+        "contact_access": "Access runs through the Impact application; no public program email appears on the fetched pages.",
+        "opportunity_availability": "Open affiliate program on Impact with broad publisher acceptance.",
+        "credibility": "Publicly traded, licensed US insurer founded in 2015 with a well-known consumer brand."
+      }
+    }
+  },
+  {
+    "name": "Lesure",
+    "website": "https://lesurepet.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Modern pet lifestyle brand founded in 2021 (parent Bedshe International) selling dog and cat beds, travel and hygiene products; it sells heavily through its official TikTok Shop with creator commissions enabled and also lists an affiliate program through Lasso.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/lesure-bedsure-pet/",
+        "summary": "Lasso's listing for the 'Lesure & Bedsure Pet' affiliate program reports up to 7.5% commission, a 14-day cookie and a $10 payout threshold. 'Up to 7.5%' is a ceiling rather than a confirmed base rate, so commission_rate is recorded as null."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://shop.tiktok.com/us/pdp/donut-dog-bed-by-lesure-washable-plush-pet-bed-with-anti-slip-bottom/1729468671204299410?source=product_detail&enter_method=feed_list_recommended_category&first_entrance=product_detail&first_entrance_position=bread_crumbs&first_entrance_tt_scene=seo",
+        "summary": "Lesure's official TikTok Shop (Lesure Pet, OFFICIAL SHOP, 4.6 rating, roughly 271K-278K units sold, 59K+ followers) sells its pet beds with creator commission videos labelled 'Creator earns commission', evidencing an active TikTok Shop creator route. Seller information on the shop gives Bedshe International Co LTD, 1057 E Imperial Hwy, Placentia, California 92870, supporting the United States country entry."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "company_profile",
+        "source_type": "review",
+        "source_url": "https://www.prnewswire.com/news-releases/lesure-brings-human-sleep-standards-to-pets-with-realortho-dog-bed-launch-302828692.html",
+        "summary": "A PR Newswire release describes Lesure as a modern pet lifestyle brand founded in 2021, backed by parent Bedshe International, selling across Sleep & Rest, Travel, Smart, Play and Hygiene & Clean, and directs readers to lesurepet.com."
+      }
+    ],
+    "affiliate": {
+      "network": "TikTok Shop",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://getlasso.co/affiliate/lesure-bedsure-pet/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "application_url": null,
+      "source_url": "https://getlasso.co/affiliate/lesure-bedsure-pet/",
+      "title": "Lesure Pet Affiliate / TikTok Shop Creator Program"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 15,
+      "compensation": 8,
+      "contact_access": 5,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Pet beds and pet comfort products are a proven TikTok pet niche, and Lesure is a pet-only brand with broad product lines.",
+        "ugc_evidence": "Its official TikTok Shop surfaces creator commission videos on product pages and has sold roughly 271K-278K units, showing active creator selling.",
+        "compensation": "No single published rate: Lasso reports only an up-to-7.5% ceiling and TikTok Shop rates are set per product, so compensation scores low on certainty.",
+        "contact_access": "No public program email or contact appears on the fetched pages.",
+        "opportunity_availability": "TikTok Shop affiliate enrollment is open to creators and a Lasso-listed program route also exists.",
+        "credibility": "Large TikTok sales volume and national retail press coverage, but a young brand (founded 2021) with thin published company detail."
+      }
+    }
+  }
+]

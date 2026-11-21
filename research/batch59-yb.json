@@ -1,0 +1,563 @@
+[
+ {
+  "name": "Mott & Bow",
+  "website": "https://www.mottandbow.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Direct-to-consumer premium basics brand founded in New York, built on denim expertise and known for jeans, tees and sweaters sold at 'fair prices' by cutting out middlemen. Its affiliate program is free for publishers to join through Pepperjam (Ascend by Partnerize) and sends affiliates gifted product packages.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.mottandbow.com/en-tl/pages/affiliate-program",
+    "summary": "Mott & Bow's own affiliate page: free to sign up as a publisher, 'Attractive commission structure of up to 30%', exclusive offers for readers, gifted packages of product for affiliates, and joining instructions via Pepperjam (signup at Ascend) — search 'Mott & Bow' under Find New Advertisers and click Apply. Testimonials on the page come from creator affiliates (travel and menswear blogs). The 30% figure is published only as an 'up to' ceiling, not a flat rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/mott-bow/",
+    "summary": "Lasso's affiliate directory lists the Mott & Bow program at 20% per sale with a 14-day cookie, in the Fashion/T-Shirt categories."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/mott-bow-affiliate-program/",
+    "summary": "The Affiliate Monkey reports the program is hosted on Pepperjam with typical commissions of 10-15% per sale and up to 30% for top performers. Because published figures conflict (20% flat at Lasso vs 10-15% typical here vs an 'up to 30%' ceiling on the brand's own page), commission_rate is left null."
+   }
+  ],
+  "affiliate": {
+   "network": "Pepperjam (Ascend by Partnerize)",
+   "commission_rate": null,
+   "application_url": "https://www.mottandbow.com/en-tl/pages/affiliate-program",
+   "source_url": "https://www.mottandbow.com/en-tl/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mott & Bow Affiliate Program (via Pepperjam/Ascend)",
+   "application_url": "https://www.mottandbow.com/en-tl/pages/affiliate-program",
+   "source_url": "https://www.mottandbow.com/en-tl/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium denim and basics are core fashion-creator territory (jeans fit content, menswear and everyday style).",
+    "ugc_evidence": "The brand's own program page showcases working creator affiliates and sends affiliates gifted product packages to create content with.",
+    "compensation": "A published 'up to 30%' ceiling on the brand's own page and a 20% listing at Lasso suggest strong pay, but sources conflict on the standard rate, so this is mid-band rather than top.",
+    "contact_access": "A public program page with step-by-step joining instructions, but no published affiliate email — application runs through the network.",
+    "opportunity_availability": "Free, open publisher signup through Pepperjam/Ascend per the brand's own page.",
+    "credibility": "Established DTC brand operating since 2014 with a large direct customer base."
+   }
+  }
+ },
+ {
+  "name": "Sorel",
+  "website": "https://www.sorel.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Footwear brand founded in 1962 (now part of Columbia Sportswear) known for fashion-forward winter and all-season boots, sneakers and sandals for women, men and kids, including the Caribou and Joan of Arctic lines. Its affiliate program explicitly welcomes content partners and is managed by Acceleration Partners.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/sorel/",
+    "summary": "LinkClicky's affiliate directory lists the Sorel program on CJ Affiliate at 8% commission per sale (page last updated March 11, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.accelerationpartners.com/resources/sorel-selects-acceleration-partners/",
+    "summary": "Acceleration Partners, the agency that took over management of SOREL's affiliate program, states the program provides up to 10% commission per sale and a 30-day cookie window, and that 'if you're a content partner, loyalty affiliate, or mass media site, SOREL welcomes your application.'"
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/sorel-2/",
+    "summary": "Lasso lists Sorel at 10% per sale with a 21-day cookie. Published rates conflict (8% at LinkClicky/Post Affiliate Pro vs up to 10% from the program manager and Lasso) and cookie windows differ (21 vs 30 days), so commission_rate is left null."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/sorel/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Sorel Affiliate Program (CJ Affiliate)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/sorel/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Fashion-forward boots and seasonal footwear are a staple of style and winter-content creators.",
+    "ugc_evidence": "The program manager explicitly recruits content partners, but there is no public creator/ambassador program page on the brand's own site.",
+    "compensation": "Published figures of 8% to up to 10% per sale exist but conflict between directories, so the rate is unverified and scored mid-band.",
+    "contact_access": "No published affiliate email or own-site application page found; joining runs through the CJ network listing.",
+    "opportunity_availability": "Open network program that publicly welcomes content partner applications.",
+    "credibility": "Heritage footwear brand founded in 1962 and owned by Columbia Sportswear, sold through major retailers."
+   }
+  }
+ },
+ {
+  "name": "Indochino",
+  "website": "https://www.indochino.com",
+  "country": "Canada",
+  "category_slug": "fashion",
+  "description": "Canadian made-to-measure menswear company selling custom suits, shirts, chinos, blazers and overcoats online and through showrooms. Its affiliate page offers commission on every product sale with a 30-day tracking cookie and publishes a program contact email.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "Indochino@OPMpros.com",
+    "source_url": "https://www.indochino.com/become-an-affiliate?currency=AUD"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.indochino.com/become-an-affiliate?currency=AUD",
+    "summary": "Indochino's own 'Become an affiliate' page states affiliates earn 2% commission on every product sale, with a 30-day tracking cookie, dynamic banners and private commission offers, and gives the program contact email Indochino@OPMpros.com (OPMpros is its affiliate management agency)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/indochino/",
+    "summary": "Lasso's directory lists the Indochino program at 12% per sale with a 30-day cookie — a direct conflict with the 2% published on the brand's own affiliate page, so commission_rate is left null and the conflict is documented here."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": null,
+   "application_url": "https://www.indochino.com/become-an-affiliate?currency=AUD",
+   "source_url": "https://www.indochino.com/become-an-affiliate?currency=AUD",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Indochino Affiliate Program",
+   "application_url": "https://www.indochino.com/become-an-affiliate?currency=AUD",
+   "source_url": "https://www.indochino.com/become-an-affiliate?currency=AUD"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 6,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Custom suits and menswear are a strong fit for men's fashion, wedding and professional-style creators.",
+    "ugc_evidence": "A public affiliate program exists, but no dedicated creator or ambassador content program is published on the brand's pages.",
+    "compensation": "The brand's own page publishes only 2%, while a directory claims 12% — the conflict and the low own-page figure keep this low.",
+    "contact_access": "A program contact email (Indochino@OPMpros.com) is published on the brand's own affiliate page, plus an on-site application route.",
+    "opportunity_availability": "Public affiliate page with open application; exact network and approval terms are not stated on the page.",
+    "credibility": "Established made-to-measure retailer founded in Canada with showrooms across North America."
+   }
+  }
+ },
+ {
+  "name": "NA-KD",
+  "website": "https://www.na-kd.com",
+  "country": "Sweden",
+  "category_slug": "fashion",
+  "description": "Swedish global online fashion retailer selling trend-led women's clothing, shoes and accessories, heavily driven by influencer collaborations and social-first drops. Its affiliate program pays a percentage of each sale tracked over a 30-day cookie.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/na-kd-com-affiliate-program",
+    "summary": "Shopper's partnership directory lists the NA-KD affiliate program at a 5-10% payout per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/na-kd",
+    "summary": "InfluencerRate's program page states NA-KD commissions typically range from 5-10% of the sale value with a 30-day tracking cookie, and that the program is free to join. Only a range is published (no single rate), so commission_rate is left null."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.influencerrate.com/affiliate-program/na-kd",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "NA-KD Affiliate Program",
+   "application_url": null,
+   "source_url": "https://www.influencerrate.com/affiliate-program/na-kd"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Trend-driven women's fashion built around influencer drops — squarely in the fashion UGC niche.",
+    "ugc_evidence": "NA-KD is known for influencer collaboration collections, but no open creator application page was found on its own site.",
+    "compensation": "Two directories agree on a 5-10% per-sale range, but no single published rate or own-page terms could be verified.",
+    "contact_access": "No published affiliate contact or own-site program page found; discovery runs through third-party directories.",
+    "opportunity_availability": "Program is reported as free to join with a standard network-style application.",
+    "credibility": "Large Swedish online fashion retailer with international shipping and a substantial social following."
+   }
+  }
+ },
+ {
+  "name": "Dolce Vita",
+  "website": "https://www.dolcevita.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "New York-founded women's footwear brand (part of Steve Madden) selling trend-driven heels, boots, sandals and sneakers through its own site and major retailers. Its affiliate program runs on Rakuten Advertising.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/dolcevita-com/",
+    "summary": "LinkClicky's affiliate directory lists DolceVita.com on the Rakuten Advertising platform at 2% commission per sale (page last updated March 10, 2024)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/dolcevita-com/",
+    "summary": "Lasso lists the DolceVita.com program at 6.4% per sale with a 7-day cookie, and Shopper reports 2.56% — three conflicting published rates (2% / 2.56% / 6.4%), so commission_rate is left null."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/dolcevita-com/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Dolce Vita Affiliate Program (Rakuten Advertising)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/dolcevita-com/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Women's trend footwear is a reliable fashion-creator category, especially for outfit and occasion content.",
+    "ugc_evidence": "A standard network affiliate program exists; no public creator or ambassador program was found on the brand's own pages.",
+    "compensation": "Published rates are low and conflict across directories (2%, 2.56%, 6.4%), so this scores at the low end.",
+    "contact_access": "No published affiliate contact or own-site program page found; joining runs through the Rakuten network listing.",
+    "opportunity_availability": "Open network program on Rakuten Advertising with standard publisher application.",
+    "credibility": "Established footwear label owned by Steve Madden and distributed through major US retailers."
+   }
+  }
+ },
+ {
+  "name": "Uniplaces",
+  "website": "https://www.uniplaces.com",
+  "country": "Portugal",
+  "category_slug": "travel",
+  "description": "Lisbon-founded online marketplace for student and mid-term accommodation in cities across Europe. Alongside network affiliate programs, it runs a City Explorer Ambassador program — including a paid Content Creator track for TikTok, Instagram and YouTube creators — that pays commission on every booking made with an ambassador's code.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.uniplaces.com/city-explorer/ambassadors/",
+    "summary": "Uniplaces' own Ambassador page, fetched in full: 'Commission Model — Your monthly earnings are directly linked to the paid bookings you bring in. No ceilings, no gatekeeping.' and the FAQ states 'The more bookings you generate, the more you earn — there's no limit.' VERIFIED UNCAPPED on the brand's own page. The page also states 800+ active ambassadors (a few-hundred-scale figure, so saturation stays 'unknown'), a promo code giving tenants 25% off the service fee, payment via virtual card, and a Content Creator track paying creators (2K+ engaged followers) per piece and on bookings."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affiliate-program.io/en/programs/uniplaces-de-tradedoubler",
+    "summary": "Affiliate-program.io's network data lists a Uniplaces DE affiliate program on Tradedoubler at 11.5% per sale, showing the brand also runs conventional network affiliate programs alongside the ambassador scheme. The ambassador program itself publishes no percentage, so commission_rate is left null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/uniplaces-com-affiliate-program",
+    "summary": "Shopper's partnership directory reports a Uniplaces affiliate payout of 10-20% per sale (a range only, not a single verified rate)."
+   }
+  ],
+  "affiliate": {
+   "network": "Tradedoubler",
+   "commission_rate": null,
+   "application_url": "https://www.uniplaces.com/city-explorer/ambassadors/",
+   "source_url": "https://www.uniplaces.com/city-explorer/ambassadors/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Uniplaces City Explorer Ambassador Program (incl. Content Creator track)",
+   "application_url": "https://www.uniplaces.com/city-explorer/ambassadors/",
+   "source_url": "https://www.uniplaces.com/city-explorer/ambassadors/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Student housing and moving-abroad content is a proven travel/study-abroad creator niche, and the program has a dedicated creator track.",
+    "ugc_evidence": "The brand's own page runs a Content Creator track that pays TikTok/Instagram/YouTube creators per piece plus booking commissions, with content briefs from its marketing team.",
+    "compensation": "Earnings are verified uncapped on the brand's own page ('No ceilings'; 'there's no limit'), but no commission percentage is published for ambassadors, keeping this mid-band.",
+    "contact_access": "A public application form on the program page (reviewed within five business days), but no published program email.",
+    "opportunity_availability": "Open application; the Content Creator track asks for 2K+ engaged followers, and ambassadors must be 18+.",
+    "credibility": "Operating since 2012 as a major European student-accommodation marketplace."
+   }
+  }
+ },
+ {
+  "name": "Tortuga",
+  "website": "https://tortuga.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "US travel-gear company making carry-on travel backpacks, daypacks and packing accessories designed for city travel, with average order values around $214. Its affiliate program runs on AvantLink with separate routes for website publishers and social media influencers, and top affiliates can receive gear to review.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://carlbroadbent.com/affiliate-program/affiliate-programs-for-travel-bloggers/",
+    "summary": "Travel-blogger affiliate roundup lists Tortuga Backpacks at 10% commission with a 60-day cookie, pay-per-sale, delivered by AvantLink, with free travel gear available to test and review."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-travel-accessories-affiliate-programs/",
+    "summary": "One More Cup of Coffee's travel-accessories program guide independently lists Tortuga at 10% commission, 60-day cookie, run through AvantLink, noting separate options for website publishers and social media influencers and an average order value of $214."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://carlbroadbent.com/affiliate-program/affiliate-programs-for-travel-bloggers/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tortuga Affiliate Program (AvantLink)",
+   "application_url": null,
+   "source_url": "https://carlbroadbent.com/affiliate-program/affiliate-programs-for-travel-bloggers/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Carry-on travel backpacks are a core product category for travel-gear creators and packing-content channels.",
+    "ugc_evidence": "The program has a dedicated social-influencer route and sends sample gear to high-performing affiliates for review content.",
+    "compensation": "Two independent directories agree on a published 10% per sale with a 60-day cookie, on premium-priced products (~$214 average order).",
+    "contact_access": "No published affiliate email or own-site program page found; application runs through AvantLink.",
+    "opportunity_availability": "Network application on AvantLink; one source notes traffic/domain-authority expectations for easy approval, so not fully open.",
+    "credibility": "Well-known specialist travel-backpack brand with award-winning products and a long-running affiliate presence."
+   }
+  }
+ },
+ {
+  "name": "Aviasales",
+  "website": "https://www.aviasales.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Flight-search metasearch engine comparing fares from 1,000+ airlines and agencies. Its affiliate offer runs through the Travelpayouts network and pays partners a share of the revenue Aviasales receives from airlines and agencies on confirmed flight bookings, with lifetime attribution for bookings made in an Aviasales app installed via a partner's marker.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affiliates-directory.com/websites/aviasales",
+    "summary": "Affiliates Directory's 2026 review of the Aviasales offer on Travelpayouts: per Travelpayouts' current Aviasales guidance, affiliates receive 40% of the revenue Aviasales receives from agencies and airlines on confirmed bookings — explicitly not 40% of the ticket price; Travelpayouts gives an illustrative average of about 0.88% of ticket value. Lifetime attribution applies to purchases in an Aviasales app installed with the affiliate's marker."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.travelpayouts.com/blog/asian-affiliate-programs/",
+    "summary": "Travelpayouts' own (older) program page lists Aviasales at 'up to 70% revenue share', with a tier table of 60% below $3,500 monthly revenue and 70% above it. This conflicts with the 40%-of-revenue figure in current guidance reported by recent sources, so commission_rate is left null and the revenue-share basis is documented here instead."
+   }
+  ],
+  "affiliate": {
+   "network": "Travelpayouts",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.affiliates-directory.com/websites/aviasales",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Aviasales Affiliate Offer (via Travelpayouts)",
+   "application_url": null,
+   "source_url": "https://www.affiliates-directory.com/websites/aviasales"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Flight search is one of the highest-intent topics in travel content; the offer is built for travel publishers and creators.",
+    "ugc_evidence": "Travelpayouts supplies search forms, widgets and white-label tools aimed at content sites and creators, though there is no ambassador-style program.",
+    "compensation": "A revenue-share model (share of Aviasales' booking revenue, ~0.88% of ticket value illustratively) suits high-volume flight content, but published share figures conflict (40% current vs up to 70% older), so the rate is unverified.",
+    "contact_access": "No brand-published affiliate contact found; everything runs through the Travelpayouts network account.",
+    "opportunity_availability": "Open, free network signup on Travelpayouts with instant access to the Aviasales offer and tools.",
+    "credibility": "One of the largest flight metasearch brands, anchoring the Travelpayouts network since its launch."
+   }
+  }
+ },
+ {
+  "name": "Ye-sim",
+  "website": "https://ye-sim.app",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel eSIM provider selling local, regional and global data plans. Its own affiliate program pays a base 10% commission on referred users' first, second and recurring purchases — lifetime commissions — with instant payouts from €100 and a personal account manager for partners.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ye-sim.app/affiliate-program/",
+    "summary": "Ye-sim's own affiliate page, fetched in full: free to join with setup under a minute; 'Earn from 10% on every purchase'; the default base commission is 10% for the first purchase, 10% for the second purchase and 10% for recurring purchases, described as lifetime commissions on referred users; rates can be customized by volume; instant payouts from €100; the page states 1000+ bloggers, creators and travel experts already monetize with it (a thousand-scale claim, so saturation stays 'unknown' rather than low). No earnings-cap statement appears on the page, so the cap is honestly 'unknown'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://ye-sim.app/affiliate-program/",
+    "summary": "The same page explicitly welcomes influencers and content makers ('Ideal for influencers with a following in travel or technology'; 'Perfect for creators who want to offer their followers seamless mobile access') and provides marketing assets, a dashboard and a personal account manager."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": 10,
+   "application_url": "https://ye-sim.app/affiliate-program/",
+   "source_url": "https://ye-sim.app/affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ye-sim Affiliate Program",
+   "application_url": "https://ye-sim.app/affiliate-program/",
+   "source_url": "https://ye-sim.app/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Travel eSIMs are a natural, repeatable recommendation for travel creators; Ye-sim targets travel audiences specifically.",
+    "ugc_evidence": "The brand's own program page explicitly recruits influencers and content makers and supplies marketing assets for them.",
+    "compensation": "Published on the brand's own page: 10% base on first, second and recurring purchases with lifetime attribution — recurring revenue, though not a high headline rate.",
+    "contact_access": "Open program page with a personal account manager promised to partners, but no published contact email.",
+    "opportunity_availability": "Free to join, setup in under a minute, no minimum audience stated on the page.",
+    "credibility": "Smaller, newer eSIM brand; claims €1M+ paid to partners on its own page but has limited third-party coverage."
+   }
+  }
+ },
+ {
+  "name": "Dorms.com",
+  "website": "https://www.dorms.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Youth-travel accommodation platform (part of the Hostelworld Group) booking hostels and student accommodation worldwide, with over 1 million bed nights sold. Its affiliate program pays commissions on confirmed bookings driven through links, widgets or API integrations, with automated global payments.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://cdn.dorms.com/AffiliateProgram",
+    "summary": "Dorms.com's own affiliate program page, fetched in full: 'Earn money through your website, app, or content by driving confirmed bookings across our global network of hostels and student accommodations', with competitive commissions on confirmed bookings, real-time reporting, integration via links, widgets or live APIs, fast automated global payments and an affiliate support team. No commission rate is published on the page, so commission_rate is left null."
+   }
+  ],
+  "affiliate": {
+   "network": null,
+   "commission_rate": null,
+   "application_url": "https://cdn.dorms.com/AffiliateProgram",
+   "source_url": "https://cdn.dorms.com/AffiliateProgram",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Dorms.com Affiliate Program",
+   "application_url": "https://cdn.dorms.com/AffiliateProgram",
+   "source_url": "https://cdn.dorms.com/AffiliateProgram"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 7,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hostels and budget youth accommodation are a core topic for backpacker and student-travel creators.",
+    "ugc_evidence": "The own-site program page explicitly names content as a channel ('through your website, app, or content'), but there is no creator-specific program or ambassador scheme.",
+    "compensation": "The program promises 'competitive commissions' on confirmed bookings but publishes no rate anywhere found, so this stays low-mid.",
+    "contact_access": "A public program page with an affiliate team mentioned, but no published contact email or application form details in the fetched page.",
+    "opportunity_availability": "Public program page inviting websites, apps and content creators to integrate via links, widgets or API.",
+    "credibility": "Part of the Hostelworld Group with over 1 million bed nights sold, per its own program page."
+   }
+  }
+ }
+]
