@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  color: #111;
-  background: #fff;
+  color: #f4f8ff;
+  background: #0a1a3e;
   line-height: 1.5;
 }
 
@@ -18,8 +18,9 @@ button {
   font: inherit;
   padding: 8px 14px;
   border-radius: 8px;
-  border: 1px solid #111;
-  background: #fff;
+  border: 1px solid #8da6df;
+  background: #12234d;
+  color: #f4f8ff;
   cursor: pointer;
 }
 
@@ -28,5 +29,11 @@ select {
   font: inherit;
   padding: 8px 10px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #2a3d6e;
+  background: #0d1f45;
+  color: #f4f8ff;
+}
+
+input::placeholder {
+  color: #a8b8dd;
 }

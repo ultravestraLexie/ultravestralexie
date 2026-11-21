@@ -28,11 +28,38 @@ export default async function RootLayout({
             gap: 20,
             alignItems: "center",
             padding: "14px 24px",
-            borderBottom: "1px solid #e5e5e5",
+            borderBottom: "1px solid #2a3d6e",
           }}
         >
-          <Link href="/" style={{ fontWeight: 800, fontSize: 20 }}>
-            Ultra Vestra
+          <Link
+            href="/"
+            style={{
+              fontWeight: 800,
+              fontSize: 20,
+              display: "flex",
+              alignItems: "center",
+              gap: 10,
+              textDecoration: "none",
+              letterSpacing: 2,
+            }}
+          >
+            <span
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: 38,
+                height: 38,
+                borderRadius: "50%",
+                border: "2px solid #8da6df",
+                fontSize: 14,
+                fontWeight: 800,
+                letterSpacing: 1,
+              }}
+            >
+              UV
+            </span>
+            ULTRA VESTRA
           </Link>
           <nav style={{ display: "flex", gap: 16, fontSize: 15 }}>
             <Link href="/brands">Brands</Link>
@@ -50,7 +77,7 @@ export default async function RootLayout({
           >
             {user ? (
               <>
-                <span style={{ color: "#666" }}>{user.email}</span>
+                <span style={{ color: "#a8b8dd" }}>{user.email}</span>
                 <SignOutButton />
               </>
             ) : (
@@ -64,8 +91,8 @@ export default async function RootLayout({
         <footer
           style={{
             padding: "24px",
-            borderTop: "1px solid #e5e5e5",
-            color: "#666",
+            borderTop: "1px solid #2a3d6e",
+            color: "#a8b8dd",
             fontSize: 13,
             textAlign: "center",
           }}

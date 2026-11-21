@@ -9,7 +9,7 @@ export default function LandingPage() {
           <br />
           Smarter brand partnerships.
         </h1>
-        <p style={{ fontSize: 18, color: "#444", maxWidth: 640, margin: "0 auto" }}>
+        <p style={{ fontSize: 18, color: "#c3d0ee", maxWidth: 640, margin: "0 auto" }}>
           Ultra Vestra is the UGC brand intelligence platform. Find the brands worth
           pitching, see the right contact, understand what creators actually
           earn, and send a professional pitch — all in one place.
@@ -18,8 +18,8 @@ export default function LandingPage() {
           <Link
             href="/brands"
             style={{
-              background: "#111",
-              color: "#fff",
+              background: "#8da6df",
+              color: "#0a1a3e",
               padding: "12px 22px",
               borderRadius: 10,
               textDecoration: "none",
@@ -31,7 +31,7 @@ export default function LandingPage() {
           <Link
             href="/pricing"
             style={{
-              border: "1px solid #111",
+              border: "1px solid #8da6df",
               padding: "12px 22px",
               borderRadius: 10,
               textDecoration: "none",
@@ -71,10 +71,10 @@ export default function LandingPage() {
         ].map((f) => (
           <article
             key={f.title}
-            style={{ border: "1px solid #e5e5e5", borderRadius: 12, padding: 18 }}
+            style={{ border: "1px solid #2a3d6e", background: "#12234d", borderRadius: 12, padding: 18 }}
           >
             <h3 style={{ marginTop: 0 }}>{f.title}</h3>
-            <p style={{ margin: 0, color: "#444", fontSize: 15 }}>{f.body}</p>
+            <p style={{ margin: 0, color: "#c3d0ee", fontSize: 15 }}>{f.body}</p>
           </article>
         ))}
       </section>

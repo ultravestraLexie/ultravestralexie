@@ -106,7 +106,7 @@ export default async function BrandsPage({
       </form>
 
       {list.length === 0 ? (
-        <p style={{ color: "#666" }}>
+        <p style={{ color: "#a8b8dd" }}>
           No published brands found. If you are not signed in, brand data is
           protected — please <a href="/login">log in</a>. Researched brands
           will appear here as they are published.
