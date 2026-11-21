@@ -1,0 +1,623 @@
+[
+ {
+  "name": "Toplux Nutrition",
+  "website": "https://topluxnutrition.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US supplement brand (Lux Global Inc, Glendale, California) selling magnesium complexes, berberine, apple cider vinegar gummies and detox formulas. It has built its business almost entirely on TikTok Shop affiliate creators: its 8-form Magnesium Complex was the #2 best-selling product on TikTok Shop US in Q1 2026 with $9.5M in quarterly revenue, and third-party platform data attributes 99.7% of its sales to affiliates.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@topluxnutrition"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.fastmoss.com/blog/top-selling-products-tiktok-shop-us-q1-2026/",
+    "summary": "FastMoss's Q1 2026 TikTok Shop US top-10 (compiled from its platform sales data) ranks Toplux Magnesium Complex 8-in-1 #2 with $9,526,928 Q1 revenue, 414,503 orders and a 30% commission \u2014 the highest commission rate in the top 10."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://tokconnect.com/for/d2c-brands/",
+    "summary": "TokConnect's TikTok Shop data for the 30 days to October 18, 2026 shows Toplux's hero magnesium product paying 25% commission with 5,520 creators selling it, and Toplux Nutrition making $3.48M in 30 days of which 99.7% came through affiliates."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://shop.tiktok.com/us/pdp/magnesium-complex-by-toplux-8-essential-magnesium-forms-in-one-capsule/1729448464509734958?source=product_detail&enter_method=feed_list_recommended_category&first_entrance=product_detail&first_entrance_position=feed_list_recommended_category&first_entrance_tt_scene=seo",
+    "summary": "The Toplux Nutrition TikTok Shop product page shows an OFFICIAL SHOP with 4.1M units sold and 140.6K+ followers; seller information names Lux Global Inc, 1146 N Central Ave, Glendale, California, 91202."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.leadalliance.co/intelligence/zero-content-brand-affiliate-model",
+    "summary": "L.E.A.D. Alliance's analysis of public TikTok data notes the @topluxnutrition account carries ~117,500 followers with zero posts of its own, and its bio exists to route creators into an affiliate relationship ('Creator? Email us for collabs') \u2014 the brand owns its category entirely through other people's content."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.fastmoss.com/blog/top-selling-products-tiktok-shop-us-q1-2026/",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://shop.tiktok.com/us/pdp/magnesium-complex-by-toplux-8-essential-magnesium-forms-in-one-capsule/1729448464509734958?source=product_detail&enter_method=feed_list_recommended_category&first_entrance=product_detail&first_entrance_position=feed_list_recommended_category&first_entrance_tt_scene=seo",
+   "title": "TikTok Shop affiliate products \u2014 Toplux Nutrition official shop"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 20,
+   "compensation": 13,
+   "contact_access": 4,
+   "opportunity_availability": 10,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pure-play supplements in TikTok's strongest wellness niche (magnesium/sleep/stress), with low price points built for creator video conversion.",
+    "ugc_evidence": "99.7% of revenue is affiliate-driven per TokConnect platform data, the brand account posts nothing itself, and thousands of creators actively sell its products \u2014 the strongest possible UGC evidence.",
+    "compensation": "Platform data publishes real per-product rates (30% in Q1 2026 per FastMoss, 25% in October 2026 per TokConnect) \u2014 high rates, but they vary by product and period and are not published by the brand itself, so no single rate is recorded.",
+    "contact_access": "No public email or application page could be verified; the only creator route is the TikTok bio's 'email us for collabs' line and TikTok Shop itself.",
+    "opportunity_availability": "TikTok Shop affiliate products are open to creators without a separate brand application.",
+    "credibility": "US-registered seller (Lux Global Inc, Glendale CA) with 4.1M TikTok Shop units sold and a 4.5-rated official shop, though the brand is young and sells mainly through social commerce."
+   }
+  }
+ },
+ {
+  "name": "NeoCell",
+  "website": "https://www.neocell.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Collagen specialist founded in 1998 ('Collagen Experts Since 1998') selling collagen peptide powders, tablets and liquids plus hyaluronic acid, biotin and joint formulas, manufactured in the United States. Its Collagen Peptides Powder was the #4 best-selling product on TikTok Shop US in Q1 2026 with $8.3M in quarterly revenue.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "customerservice@neocell.com",
+    "source_url": "https://www.neocell.com/pages/frequently-asked-questions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.neocell.com/pages/frequently-asked-questions",
+    "summary": "NeoCell's own FAQ describes nearly 30 years as a collagen leader, products manufactured in the United States, and gives customerservice@neocell.com as the company email; its product pages claim the #1 beauty supplement brand position (SPINS data)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.fastmoss.com/blog/top-selling-products-tiktok-shop-us-q1-2026/",
+    "summary": "FastMoss's Q1 2026 TikTok Shop US top-10 ranks NeoCell Collagen Peptides Powder 20oz #4 with $8,303,193 Q1 revenue, 265,765 orders, 516,867 peak units sold and a 23% commission."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://loriballen.com/the-collagen-powder-thats-printing-money-on-tiktok-shop/",
+    "summary": "A TikTok Shop earnings roundup reports NeoCell Collagen Bio-Peptides paying up to 26% commission and ~$2.7M in 30-day revenue, while an older affiliate directory (AffJumbo) quotes 6% with a 30-day cookie for a legacy NeoCell program \u2014 the figures conflict across sources and periods, so no single commission rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.fastmoss.com/blog/top-selling-products-tiktok-shop-us-q1-2026/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.fastmoss.com/blog/top-selling-products-tiktok-shop-us-q1-2026/",
+   "title": "TikTok Shop affiliate products \u2014 NeoCell Collagen shop"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Collagen sits at the intersection of supplements and beauty-from-within \u2014 two of TikTok's strongest content categories \u2014 with an easy routine-demo format.",
+    "ugc_evidence": "A top-5 TikTok Shop product sustained across all three months of Q1 2026 on creator routine and before/after content, though the brand publishes no formal creator program page.",
+    "compensation": "Platform data publishes a 23% TikTok Shop rate for the hero product, but other reports say up to 26% and a legacy listing says 6%, so the rate is recorded as unpublished/conflicting rather than a single figure.",
+    "contact_access": "Only a general customer service email is published on the brand's own site; no creator or partnerships contact could be verified.",
+    "opportunity_availability": "TikTok Shop affiliate products are open to creators without a separate brand application.",
+    "credibility": "Founded 1998, US-manufactured, distributed in 20+ countries with national retail presence and category-leader claims backed by SPINS data."
+   }
+  }
+ },
+ {
+  "name": "GuruNanda",
+  "website": "https://gurunanda.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Buena Park, California wellness brand (GuruNanda LLC, founded 2015) built on Ayurvedic-inspired oral care \u2014 oil pulling, toothpaste, water flossers \u2014 plus essential oils and diffusers. Its influencer team runs one of TikTok Shop's largest affiliate engines: 85,000+ affiliate creators and $93M+ in lifetime GMV across 152 active products.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/company/gurunandallc"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gurunanda.com/pages/partner-program",
+    "summary": "GuruNanda's own Partner Program page runs its Affiliate Program: earn 10% on every order referred, 30-day cookie window, monthly payouts, your audience gets 10% off, and most affiliates are approved within 24 hours with instant dashboard access."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.linkedin.com/company/gurunandallc",
+    "summary": "A GuruNanda LLC LinkedIn post for YFCon 2026 describes its Director of Influencer Marketing running an affiliate network of 85,000+ creators driving $93M+ in lifetime GMV and 8M+ units sold across just 152 active products, with a 4.8-star TikTok shop rating."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/guru-nanda/",
+    "summary": "Lasso's directory lists Guru Nanda at 7.50% per sale with a 90-day cookie \u2014 an older network listing that conflicts with the brand's own current Partner Program page (10%, 30-day cookie), which is the figure recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program",
+   "commission_rate": 10,
+   "application_url": "https://gurunanda.com/pages/partner-program",
+   "source_url": "https://gurunanda.com/pages/partner-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "application_url": "https://gurunanda.com/pages/partner-program",
+   "source_url": "https://gurunanda.com/pages/partner-program",
+   "title": "GuruNanda Affiliate Program (Partner Program)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 20,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Oral care and natural wellness rituals are proven TikTok content categories, and the brand's oil-pulling products are built for demo videos.",
+    "ugc_evidence": "85,000+ affiliate creators, $93M+ lifetime GMV and a dedicated influencer marketing team \u2014 a maximal, quantified creator engine.",
+    "compensation": "The brand's own page publishes 10% on every order with monthly payouts plus a 10% audience discount; an older 7.5% network listing is superseded by the brand's own terms.",
+    "contact_access": "A public program page with an application form on the brand's own site; no direct email is published, keeping this mid-band.",
+    "opportunity_availability": "Open application on the official site with most affiliates approved within 24 hours.",
+    "credibility": "Established 2015 company (51-200 employees) with national retail distribution and a 4.8-star TikTok shop."
+   }
+  }
+ },
+ {
+  "name": "M3 Naturals",
+  "website": "https://m3naturals.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Florida-based beauty and body-care brand (M3 Naturals Ventures LLC) known for anti-cellulite massage oils, body scrubs, foot soaks and lymphatic drainage tools, made in the USA and also sold at Ulta Beauty. Its TikTok Shop official store has sold 677K+ units, with hero products carrying dense rows of commission-earning creator videos.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://m3naturals.com",
+    "summary": "M3 Naturals' official storefront sells its body care, oral care and face & hair care lines (anti-cellulite oils, scrubs, foot soaks, massage tools) and presents a medical/naturopathic advisory board."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://shop.tiktok.com/us/pdp/oil-lymphatic-drainage-massager-kit-8-fl-oz/1731962083853505300",
+    "summary": "The M3 Naturals TikTok Shop product page for its Anti Cellulite Oil & Lymphatic Massager Kit (55.7K sold; shop total 677.4K sold, OFFICIAL SHOP) carries repeated 'Creator earns commission' affiliate videos from multiple creators \u2014 evidence its products are open to TikTok Shop affiliates."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/m3-naturals/",
+    "summary": "Lasso lists an M3 Naturals affiliate offer at 'up to 13.5%' and a second 'M3 Naturals (NEW)' listing at 'up to 15%', both via the Lasso marketplace with a 14-day cookie \u2014 both are ceilings and they conflict, so no commission rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://shop.tiktok.com/us/pdp/oil-lymphatic-drainage-massager-kit-8-fl-oz/1731962083853505300",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://shop.tiktok.com/us/pdp/oil-lymphatic-drainage-massager-kit-8-fl-oz/1731962083853505300",
+   "title": "TikTok Shop affiliate products \u2014 M3 Naturals official shop"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 6,
+   "contact_access": 3,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Body care and beauty tools are a core TikTok UGC niche, and the massage-oil demo format is highly filmable.",
+    "ugc_evidence": "Hero TikTok Shop listings are covered in 'Creator earns commission' videos from many creators, but the brand publishes no formal creator program page.",
+    "compensation": "Only conflicting third-party ceiling figures (up to 13.5% vs up to 15%) exist; TikTok Shop per-product rates are not published in any fetched source.",
+    "contact_access": "No public creator, partnerships or general email could be verified from fetched pages.",
+    "opportunity_availability": "TikTok Shop affiliate products are open to creators without a separate brand application.",
+    "credibility": "US company with Ulta Beauty retail distribution, 677K+ TikTok Shop units and 36K+ reviews on its hero product."
+   }
+  }
+ },
+ {
+  "name": "Root Labs",
+  "website": "https://rootlabshealth.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Supplement gummy brand from Mosaic Wellness Inc (Philadelphia, Pennsylvania) selling shilajit Alpha gummies, sea moss gummies and liposomal magnesium gummies \u2014 all zero added sugar, vegan and third-party tested with published batch COAs. It has sold 1.8M units through TikTok Shop, where thousands of creators actively promote its products.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "support@rootlabshealth.com",
+    "source_url": "http://mosaicwellness-help.freshdesk.com/support/solutions/articles/1120000058924-root-labs-knowledge-base-customer-resolutions-basics"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://rootlabshealth.com/products/root-labs-liposomal-magnesium-ashwagandha-gummies-with-beadlet-technology-control",
+    "summary": "Root Labs' official product pages detail its gummy line (10-form liposomal magnesium with KSM-66 ashwagandha, sea moss, shilajit Alpha), third-party testing with transparent COAs, and US-only shipping; the brand's own support knowledge base publishes support@rootlabshealth.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://shop.tiktok.com/us/pdp/root-labs-peak-performance-pack-shilajit-sea-moss-gummies-120-count/1729988423172067417",
+    "summary": "The Root Labs TikTok Shop listing shows the RootLabs shop with a 4.4 rating, 1.8M units sold and 67K+ followers; seller information names Mosaic Wellness Inc, 1924 Arch St, Philadelphia, PA 19103."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.trenz.ai/radar/2026-11-01",
+    "summary": "Trenz.ai's TikTok Shop trend radar (November 1, 2026) reports Root Labs' Alpha 10-in-1 Shilajit Gummies generated $683,061 GMV in 30 days across 6,341 active creators and 25,996 linked videos."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://shop.tiktok.com/us/pdp/root-labs-peak-performance-pack-shilajit-sea-moss-gummies-120-count/1729988423172067417",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://shop.tiktok.com/us/pdp/root-labs-peak-performance-pack-shilajit-sea-moss-gummies-120-count/1729988423172067417",
+   "title": "TikTok Shop affiliate products \u2014 RootLabs shop"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 5,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Shilajit, sea moss and magnesium gummies sit squarely in TikTok's highest-velocity supplement niches.",
+    "ugc_evidence": "6,341 active creators and ~26,000 linked videos on a single SKU in 30 days is strong, quantified creator adoption.",
+    "compensation": "No commission rate is published in any fetched source, so this stays at the no-data band.",
+    "contact_access": "A support email is published in the brand's own help knowledge base, but there is no creator or partnerships contact.",
+    "opportunity_availability": "TikTok Shop affiliate products are open to creators without a separate brand application.",
+    "credibility": "US company with 1.8M TikTok Shop units sold and published third-party testing, tempered by some fulfillment complaints visible in product reviews."
+   }
+  }
+ },
+ {
+  "name": "Hillside Shilajit",
+  "website": "https://hillsideshilajit.com",
+  "country": "Malaysia",
+  "category_slug": "wellness",
+  "description": "Family-owned shilajit brand founded in 2018 selling 60-day sun-dried Himalayan shilajit resin, honey sticks, gummies and capsules worldwide (Halal certified, lab tested). It became Malaysia's #1 shilajit brand within 12 months by building a TikTok affiliate community of 145,000+ creators that contributes 86% of its total GMV, per TikTok's own published case study.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "Info@hillsideshilajit.com",
+    "source_url": "https://hillsideshilajit.com"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "reseller@hillsideshilajit.com",
+    "source_url": "https://hillsideshilajit.com/pages/wholesale"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ads.tiktok.com/business/en/inspiration/hillside-shilajit-case-study",
+    "summary": "TikTok for Business's published case study: Hillside Shilajit built a community of over 145,000 affiliates within 12 months, affiliates contributed 86% of total GMV, and Q4 2025 order volume rose 227% with 3.56x average ROI using Affiliate Creatives for Ads and Product GMV Max."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://hillsideshilajit.com",
+    "summary": "Hillside Shilajit's official site describes a family-owned brand founded in 2018, a 60-day sun-dried purification process, Halal certification and global shipping, and publishes Info@hillsideshilajit.com plus regional phone numbers; its wholesale page publishes reseller@hillsideshilajit.com for sellers and distributors."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.threads.com/@nihabkhan1/post/DfT6WTSEZGo",
+    "summary": "Founder Nihab Khan's Threads posts, citing the TikTok-published case study, state affiliates generated 86% of total GMV through a network of over 145,000 affiliates built within 12 months, corroborated by his own Malaysia partner dashboard showing 84.1% affiliate GMV share."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://ads.tiktok.com/business/en/inspiration/hillside-shilajit-case-study",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://ads.tiktok.com/business/en/inspiration/hillside-shilajit-case-study",
+   "title": "TikTok Shop affiliate community \u2014 Hillside Shilajit"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 19,
+   "compensation": 5,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A single-hero-ingredient wellness brand in TikTok's proven shilajit niche; narrower than multi-line supplement brands but perfectly matched to the platform.",
+    "ugc_evidence": "TikTok's own case study documents 145,000+ affiliates driving 86% of GMV \u2014 exceptional, platform-verified creator evidence.",
+    "compensation": "The case study calls commissions 'competitive' but no rate is published in any fetched source, so this stays at the no-data band.",
+    "contact_access": "Two published emails on the brand's own site, including a reseller/partnerships address that invites online sellers to send their TikTok profiles.",
+    "opportunity_availability": "TikTok Shop affiliate products are open to creators; the brand actively recruits sellers through its wholesale page.",
+    "credibility": "Operating since 2018 with a TikTok-published success case study and Halal/GMP certifications; its home market is Malaysia rather than the US."
+   }
+  }
+ },
+ {
+  "name": "Neurogum",
+  "website": "https://neurogum.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Functional gum and mints brand (Neuro) packing 40mg of natural caffeine plus L-theanine and B-vitamins into every piece for energy, focus and calm \u2014 zero sugar, vegan, with 10M+ pieces sold through its site and national retail. It runs an affiliate program through CJ and a tiered TikTok Shop creator ladder (levels L1-L7) with a Discord creator community, where a top creator reportedly earned ~$150,000 in one month.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affiliate-toolkit.com/program/neurogum/",
+    "summary": "Affiliate-toolkit's NeuroGum page, quoting the brand's own affiliate page, states a 3% default sales commission, 30-day cookie and in-house affiliate management with bonuses and customized offers for top partners, and instructs publishers to apply for NeuroGum at CJ."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/neurogum/",
+    "summary": "Lasso's NeuroGum program page lists 3% per sale with a 30-day cookie, and its join button routes to CJ's signup (signup.cj.com)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/neurogum-affiliate-program/",
+    "summary": "FlexOffers lists the NeuroGum program at a 2.4% payout with a 30-day cookie (updated February 2025) \u2014 conflicting with the 3% on the brand's own affiliate page and Lasso, so no single rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://briefread.com/en-GB/summary/how-brands-turn-small-influencers-into",
+    "summary": "A summary of founder Kent Yoshimura's interviews describes NeuroGum's creator system: samples and a Discord community for creators, tiered commissions unlocking higher rates and retainers at sales thresholds, and a top creator making around $150,000 in a single month."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://neurogum.com/products/energy-caffeine-gum?variant=12397826211930&view=lp2",
+    "summary": "Neuro's official store sells Energy & Focus gum and mints at $24.99 with 40mg natural caffeine and L-theanine per piece, zero sugar and vegan; the brand text quoted by affiliate-toolkit claims over 10 million pieces sold."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.affiliate-toolkit.com/program/neurogum/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.affiliate-toolkit.com/program/neurogum/",
+   "title": "NeuroGum affiliate program (via CJ Affiliate)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 6,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A novel functional format (caffeinated gum/mints) with strong productivity and study/work content angles for creators.",
+    "ugc_evidence": "A documented tiered creator ladder with a Discord community, sampling and reported six-figure top-creator months, though the web affiliate program itself is small.",
+    "compensation": "The web program's headline rate is low and conflicting (3% brand page/Lasso vs 2.4% FlexOffers), while the better-paying TikTok tier rates are not published \u2014 recorded as no verified rate.",
+    "contact_access": "Application runs through CJ; the brand page's contact email could not be cleanly verified from fetched text, so no contact is recorded.",
+    "opportunity_availability": "Open publisher application via CJ Affiliate.",
+    "credibility": "10M+ pieces sold, national retail distribution and repeat national media/Shark Tank exposure."
+   }
+  }
+ },
+ {
+  "name": "Rythm Health",
+  "website": "https://rythmhealth.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "At-home blood testing subscription founded in 2024 \u2014 a painless monthly self-collection kit (under 5 minutes, courier pickup) measuring 25+ biomarkers across hormones, heart health and metabolic fitness for $79/month, with personalized results in its app. Inc. reports $157M in total financing and celebrity users including Diplo and Sara Blakely; the company recruits creators through an open affiliate program on Dub and also appears among Trybe's brand programs.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://partners.dub.co/rythmhealth/apply",
+    "email": null,
+    "source_url": "https://partners.dub.co/rythmhealth"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://partners.dub.co/rythmhealth",
+    "summary": "Rythm Health's own affiliate program page (hosted on Dub) offers 10% cash commission on every new customer your content converts, paid weekly, plus a $50 commission on first use of your unique discount code and a free monthly blood testing subscription worth $1,200/year; affiliates must create at least two ad-ready short-form videos per month and attend weekly coaching calls, and all applications are approved by the Rythm team."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.inc.com/rachel-suleymanov/at-home-blood-testing-startups-celebrity-backers-theranos/91435303?utm_campaign=freeform&utm_source=linkedin&utm_medium=social&trk=organization_guest_main-feed-card",
+    "summary": "Inc.'s profile of the at-home testing boom reports Rythm Health was founded in 2024, has secured $157M in total financing, charges $79/month for testing of 25+ biomarkers, and confirms its affiliate program pays a 10% cash commission with some affiliates earning $5,000-$50,000 per month."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.seoaffiliatedomination.com/blog/trybe",
+    "summary": "A fetched guide to Trybe's creator platform lists Rythm Health among the brands with live Trybe programs, and Rythm's own 2026 job posts (TikTok Shop Lead; Creator Partnerships Specialist) describe a performance-driven UGC creator program it is actively staffing."
+   }
+  ],
+  "affiliate": {
+   "network": "Dub",
+   "commission_rate": 10,
+   "application_url": "https://partners.dub.co/rythmhealth/apply",
+   "source_url": "https://partners.dub.co/rythmhealth",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://partners.dub.co/rythmhealth/apply",
+   "source_url": "https://partners.dub.co/rythmhealth",
+   "title": "Rythm Health Affiliate Program (Dub)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 16,
+   "compensation": 14,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A health-data service rather than a classic shoppable product, but squarely in the wellness-creator niche with strong before/after biomarker content angles.",
+    "ugc_evidence": "A structured, staffed creator program (dedicated partnerships hires, weekly coaching, content briefs) plus a Trybe program listing \u2014 real infrastructure, though younger than the product brands here.",
+    "compensation": "Published on the brand's own program page: 10% cash commission paid weekly, a $50 flat bounty on first discount-code use, and a free $1,200/year testing subscription \u2014 the richest verified terms in this group.",
+    "contact_access": "A public application form on the program page collecting social profiles and content plans.",
+    "opportunity_availability": "Open application, but approval is selective and the program requires two ad-ready videos per month plus weekly calls.",
+    "credibility": "$157M raised since 2024 per Inc., national press coverage and named celebrity users."
+   }
+  }
+ },
+ {
+  "name": "Micro Ingredients",
+  "website": "https://www.microingredients.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Bulk supplements and superfoods brand (DPL Trading Inc) selling 270+ SKUs \u2014 collagen peptides, mushroom powders, vitamins, electrolytes and organic herb powders \u2014 through its own site, Amazon and a top-10 TikTok Shop US store. FastMoss put its Q1 2026 TikTok revenue at $26.1M with a 4.8 shop rating, powered by roughly 67,000 affiliated creators on an open, no-application affiliate model.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.fastmoss.com/blog/tiktok-shop-profitability-q1-2026-top-10-us-sellers/",
+    "summary": "FastMoss's Q1 2026 Top 10 US TikTok Shops analysis ranks Micro Ingredients #9 (Health, DPL Trading Inc, 4.8 shop rating) with $26.1M revenue, 811,700 units, 270 active products and 67,000 affiliated creators, noting health/supplement shops typically pay 20-30% creator commissions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://shop.tiktok.com/us/pdp/micro-ingredients-hair-thickening-supplement-bundle/1731721010660938413",
+    "summary": "Micro Ingredients' TikTok Shop product pages show an OFFICIAL SHOP with 7.4M units sold and repeated 'Creator earns commission' video rows; October 2026 case-study posts citing FastMoss data describe a flat 15% open commission on every SKU with no application or sample gatekeeping, and 389,200 shoppable videos."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/micro-ingredients/",
+    "summary": "Lasso lists Micro Ingredients at 'up to 15.0%' with a 14-day cookie via its marketplace \u2014 a ceiling figure consistent with the reported flat 15% TikTok Shop rate, but not a brand-published rate, so commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://microingredients.com/collections/vitamins",
+    "summary": "Micro Ingredients' official store catalogs hundreds of supplement and superfood SKUs across vitamins, energy/performance, cognition and immune support collections."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.fastmoss.com/blog/tiktok-shop-profitability-q1-2026-top-10-us-sellers/",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://shop.tiktok.com/us/pdp/micro-ingredients-hair-thickening-supplement-bundle/1731721010660938413",
+   "title": "TikTok Shop open affiliate products \u2014 Micro Ingredients official shop"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 19,
+   "compensation": 10,
+   "contact_access": 3,
+   "opportunity_availability": 10,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A 270-SKU supplement catalog means every wellness creator can find a matching product; simple powder-demo content is the platform's proven format.",
+    "ugc_evidence": "67,000 affiliated creators, ~389,000 shoppable videos and an explicitly open, faceless-friendly affiliate model documented in FastMoss-cited case studies.",
+    "compensation": "A flat 15% open commission is consistently reported from platform data, but the brand does not publish the rate itself, so it is documented rather than recorded.",
+    "contact_access": "No public creator or general contact could be verified from fetched pages.",
+    "opportunity_availability": "Open TikTok Shop affiliate access with no application or sample gatekeeping reported \u2014 maximal availability.",
+    "credibility": "Top-10 TikTok Shop US seller with a 4.8 shop rating, 7.4M units sold and a large established DTC catalog."
+   }
+  }
+ }
+]

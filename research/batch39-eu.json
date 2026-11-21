@@ -1,0 +1,690 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://rateful.ai/brand/seese-x",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "high",
+      "network": "TikTok Shop",
+      "source_url": "https://rateful.ai/brand/seese-x"
+    },
+    "category_slug": "home",
+    "contacts": [],
+    "country": "United States",
+    "description": "US cordless-tool brand ('Designed in the USA') selling a compact cordless pressure washer and a turbo blower through its own site and TikTok Shop, where its pressure washer is a top-selling affiliate product.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://seese.tools",
+        "summary": "SEESE's official site sells two cordless tools - a portable pressure washer and a turbo blower - with 'Designed in the USA' positioning, 30-day returns and 3-5 business-day delivery on most orders."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://rateful.ai/brand/seese-x",
+        "summary": "Rateful's TikTok Shop data for the SEESE X store (Tools & Hardware) estimates ~96% of its sales in the 30 days to Nov 3, 2026 came through affiliate creators; creators with TikTok Shop affiliate access can add the products to their showcase and earn commission on every sale."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://deviantly.ai/blog/who-is-the-top-earner-on-tiktok-shop-88921",
+        "summary": "Deviantly's TikTok Shop telemetry (data as of Nov 2, 2026) puts the SEESE Cordless Pressure Washer Gun at $2,273,223 in 30-day GMV with 3,332 creators promoting it - a large, crowded creator pool, so saturation is recorded as high."
+      }
+    ],
+    "name": "SEESE",
+    "opportunity": {
+      "application_url": "https://rateful.ai/brand/seese-x",
+      "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside TikTok Shop; no public rate or earnings-cap statement was found, so the rate is null and the cap is unknown.",
+      "description": "Add the SEESE cordless pressure washer and turbo blower to your TikTok Shop showcase and earn commission on every sale; demo-led cleaning content is the brand's proven format.",
+      "source_url": "https://rateful.ai/brand/seese-x",
+      "status": "unverified",
+      "title": "SEESE TikTok Shop Affiliate",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 3,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "No public commission rate or cap statement exists; TikTok Shop rates are set per product inside the platform, so this stays low-mid.",
+        "contact_access": "No public creator contact, email or application page was found; the only route is inside TikTok Shop.",
+        "credibility": "Real DTC storefront with published returns/shipping terms and a top-selling TikTok Shop product, but a young, small brand.",
+        "niche_fit": "Cordless cleaning tools are a natural demo-driven fit for home and DIY creators on TikTok Shop.",
+        "opportunity_availability": "Any creator with TikTok Shop affiliate access can add SEESE products to their showcase today.",
+        "ugc_evidence": "Affiliate creators drive ~96% of the SEESE X store's TikTok Shop sales (Rateful estimate), and the hero pressure washer drew 3,332 creators in 30 days (Deviantly)."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [],
+    "website": "https://seese.tools"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://storeprofiles.com/store/sweetcrispy",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "GoAffPro",
+      "source_url": "https://storeprofiles.com/store/sweetcrispy"
+    },
+    "category_slug": "home",
+    "contacts": [],
+    "country": "United States",
+    "description": "Shopify home-goods store (about 267 products - ergonomic chairs, storage, appliances and kitchenware) running its own affiliate program on GoAffPro, with additional listings on ShareASale and Yazing.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://sweetcrispy.com",
+        "summary": "Sweetcrispy's official Shopify store sells ergonomic furniture, storage, appliances and kitchenware under the line 'Buy it once, live with it for years.'"
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://storeprofiles.com/store/sweetcrispy",
+        "summary": "StoreProfiles, reading the store's own program page, reports sweetcrispy runs its own affiliate program on GoAffPro quoting '20% commission' and a '30-day tracking cookie term', with creators explicitly welcome; it counts 267 products and a 60-day return window (read Nov 20, 2026)."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "affiliate_network",
+        "source_url": "https://yazing.com/brand-ambassador-programs/sweetcrispy-influencer",
+        "summary": "Published rates conflict: Yazing lists 15% of sales and the brand's older ShareASale listing is inactive at 4%, against the 20% quoted from its own program page - so no single rate is recorded."
+      }
+    ],
+    "name": "Sweetcrispy",
+    "opportunity": {
+      "application_url": "https://storeprofiles.com/store/sweetcrispy",
+      "compensation_notes": "The brand's own program page quotes 20% commission with a 30-day cookie (via StoreProfiles' read), but Yazing lists 15% and an inactive ShareASale listing shows 4%, so the rate is recorded as null until confirmed in-program. No earnings cap is published, so the cap is unknown.",
+      "description": "Apply to sweetcrispy's own affiliate program (run on GoAffPro and linked from its store) and promote ergonomic chairs, storage and home appliances with a tracked link.",
+      "source_url": "https://storeprofiles.com/store/sweetcrispy",
+      "status": "unverified",
+      "title": "Sweetcrispy Affiliate Program (GoAffPro)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 5,
+      "credibility": 3,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "A 20% headline rate on the brand's own program page is attractive, but conflicting published figures (15% Yazing, 4% inactive ShareASale) keep this mid-range until confirmed.",
+        "contact_access": "The program is linked from the brand's own store; no public partnerships email was found.",
+        "credibility": "Operating since 2020 with a 267-product catalog and a 70/100 independent trust score (StoreProfiles), but a limited press footprint.",
+        "niche_fit": "Furniture and home essentials are a core home-creator niche with strong room-makeover content demand.",
+        "opportunity_availability": "The own-brand program is open to apply to directly, with creators explicitly welcome.",
+        "ugc_evidence": "The program explicitly welcomes creators and the brand also sells through TikTok Shop, but no large public creator program or ambassador community was documented."
+      },
+      "ugc_evidence": 10
+    },
+    "socials": [],
+    "website": "https://sweetcrispy.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://loriballen.com/tiktok-shop-brands-to-promote/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "high",
+      "network": "TikTok Shop",
+      "source_url": "https://loriballen.com/tiktok-shop-brands-to-promote/"
+    },
+    "category_slug": "home",
+    "contacts": [],
+    "country": "United States",
+    "description": "US bedding brand (Dover, Delaware) selling the CloudAlign ergonomic pillow, MarshMellow comforter and cooling bedding through its own site, Amazon and TikTok Shop, where affiliate creators drive the large majority of sales.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://mellowsleep.com",
+        "summary": "Mellow Sleep's official store sells the CloudAlign Pillow, MarshMellow Comforter and cooling sheet sets, and claims 2,000,000+ happy sleepers."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://loriballen.com/tiktok-shop-brands-to-promote/",
+        "summary": "Lori Ballen's top-50 TikTok Shop brands list (updated Nov 17, 2026) ranks Mellow Sleep #7 with an estimated $9.3M in 30-day sales and a 90% affiliate share."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://compareepc.com/mattress-affiliate-programs/",
+        "summary": "CompareEPC's sleep affiliate directory lists Mellow Sleep on CJ Affiliate at 10% and on Skimlinks at 18.4% - rates differ by channel, and a ~13% TikTok Shop figure circulates in MCN catalogs, so no single program rate is recorded."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://www.instagram.com/reel/DYOH1aRMTZm/",
+        "summary": "A creator-breakdown of Mellow's TikTok Shop dashboards cites over 38,000 affiliate videos in 30 days from more than 11,500 creators; other breakdowns put the affiliate pool at 21,000-22,000+. Either way the creator pool is in the tens of thousands, so saturation is recorded as high."
+      }
+    ],
+    "name": "Mellow Sleep",
+    "opportunity": {
+      "application_url": "https://loriballen.com/tiktok-shop-brands-to-promote/",
+      "compensation_notes": "Rates conflict by channel (CJ 10%, Skimlinks 18.4%, ~13% reported for TikTok Shop), so the rate is recorded as null; TikTok Shop pays per product at in-platform rates. No earnings cap is published, so the cap is unknown.",
+      "description": "Add the CloudAlign pillow and MarshMellow comforter to your TikTok Shop showcase; sleep-routine and pillow-squish demos are the brand's proven affiliate format. A CJ Affiliate route also exists for link-based promotion.",
+      "source_url": "https://loriballen.com/tiktok-shop-brands-to-promote/",
+      "status": "unverified",
+      "title": "Mellow Sleep TikTok Shop Affiliate",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 4,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Multiple paying routes exist (TikTok Shop, CJ, Skimlinks) but published rates conflict (10% vs 18.4% vs ~13%), so the rate is unrecorded and this stays mid-range.",
+        "contact_access": "No public creator email or application page was found; joining happens inside TikTok Shop or CJ.",
+        "credibility": "Fast-growing US brand with its own store, Amazon presence and trade-press coverage of its TikTok Shop scale.",
+        "niche_fit": "Bedding and sleep products are a proven home-creator niche, and the CloudAlign pillow is one of TikTok Shop's biggest home products.",
+        "opportunity_availability": "Open to any creator with TikTok Shop affiliate access; the CJ listing is also joinable.",
+        "ugc_evidence": "Affiliate creators drive ~90% of an estimated $9.3M in 30-day TikTok Shop sales, with tens of thousands of affiliate videos posted monthly."
+      },
+      "ugc_evidence": 17
+    },
+    "socials": [],
+    "website": "https://mellowsleep.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.prnewswire.com/news-releases/dr-dent-expands-tiktok-shop-affiliate-programme-to-the-uk-with-vidsight-302914976.html",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "TikTok Shop",
+      "source_url": "https://www.prnewswire.com/news-releases/dr-dent-expands-tiktok-shop-affiliate-programme-to-the-uk-with-vidsight-302914976.html"
+    },
+    "category_slug": "beauty",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "support@drdent.co",
+        "source_url": "https://drdent.co"
+      }
+    ],
+    "country": "United Kingdom",
+    "description": "Oral-care brand founded in 2018 selling peroxide-free PAP purple whitening strips, mouthwash sachets and toothpaste tablets; it became the #1 product on TikTok Shop US in February 2026 through its TikTok Shop affiliate programme.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://www.prnewswire.com/news-releases/dr-dent-expands-tiktok-shop-affiliate-programme-to-the-uk-with-vidsight-302914976.html",
+        "summary": "The brand's Oct 21, 2026 PR Newswire release confirms it runs a TikTok Shop affiliate programme: a US pilot launched Nov 2025 reached $2.6M in 30-day rolling GMV within 90 days and the #1 product spot on TikTok Shop US in Feb 2026, after GBP 5M UK GMV in its first 12 months; the programme was extended to the UK with affiliate platform Vidsight, which gives creators personalised briefs, sample requests and promo links."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://drdent.co",
+        "summary": "DR DENT's official store (founded 2018, founder & CEO Vlad G) sells PAP peroxide-free whitening products made in FDA-registered facilities and publishes support@drdent.co."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://www.instagram.com/p/DeR_MQjiOPY/",
+        "summary": "A January 2026 Instagram breakdown claims DR DENT ran ~3,800 affiliates at a 15% commission; this is a single third-party marketing post, not program terms, so the rate stays unrecorded and saturation stays unknown."
+      }
+    ],
+    "name": "DR DENT",
+    "opportunity": {
+      "application_url": "https://www.prnewswire.com/news-releases/dr-dent-expands-tiktok-shop-affiliate-programme-to-the-uk-with-vidsight-302914976.html",
+      "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates; a 15% figure appears only in a third-party social post, so the rate is recorded as null. No earnings cap is published, so the cap is unknown.",
+      "description": "Join DR DENT's TikTok Shop affiliate programme (supported by Vidsight creator briefs, sample requests and promo links) and film whitening-strip demos for the US or UK shops.",
+      "source_url": "https://www.prnewswire.com/news-releases/dr-dent-expands-tiktok-shop-affiliate-programme-to-the-uk-with-vidsight-302914976.html",
+      "status": "unverified",
+      "title": "DR DENT TikTok Shop Affiliate Programme",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 10,
+      "credibility": 4,
+      "niche_fit": 22,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "TikTok Shop pays per sale, but no rate is published in program terms (15% appears only in a third-party post), so this stays mid-range.",
+        "contact_access": "A published support email (support@drdent.co) plus a structured affiliate programme with creator support.",
+        "credibility": "Founded 2018 with FDA-registered manufacturing and national-press coverage of its #1 TikTok Shop US ranking.",
+        "niche_fit": "Teeth whitening is a staple beauty-demo niche with strong before/after content.",
+        "opportunity_availability": "The affiliate programme is active and expanding (US pilot renewed and extended to the UK in Oct 2026).",
+        "ugc_evidence": "The brand's growth is explicitly affiliate-led - its own release describes an affiliate community with personalised briefs and sample support via Vidsight."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [],
+    "website": "https://drdent.co"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://shop.tiktok.com/us/pdp/cordless-vacuum-cleaner-by-homeika-300w-23kpa-lightweight-with-led-display/1729406192892088964",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "TikTok Shop",
+      "source_url": "https://rateful.ai/brand/homeika-dog-grooming-vacuum"
+    },
+    "category_slug": "home",
+    "contacts": [],
+    "country": "United States",
+    "description": "Cordless-vacuum brand (H016 and H318/H320 stick vacuums plus a pet grooming vacuum) built for pet-hair cleaning; its cordless vacuum is one of TikTok Shop's top-selling home products with about $25.6M in tracked GMV.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://thehomeika.com/",
+        "summary": "Homeika's brand site presents its cordless vacuums (20-28Kpa suction, LED displays, detachable batteries) and pet grooming kits, backed by 24/7 customer service and 12-month warranties."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://rateful.ai/brand/homeika-dog-grooming-vacuum",
+        "summary": "Rateful confirms creators with TikTok Shop affiliate access can add Homeika's products to their showcase and earn commission on every sale; affiliate creators drove ~47% of the grooming vacuum store's sales in the 30 days to Nov 6, 2026."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://www.helium10.com/blog/top-20-best-selling-products-on-tiktok-shop/",
+        "summary": "Helium 10's TikTok Shop Product Finder ranks the Homeika Cordless Vacuum #4 of its top-20 best sellers with $25,622,975 in total sales; the H318 listing shows ~185K units sold on TikTok Shop."
+      }
+    ],
+    "name": "Homeika",
+    "opportunity": {
+      "application_url": "https://shop.tiktok.com/us/pdp/cordless-vacuum-cleaner-by-homeika-300w-23kpa-lightweight-with-led-display/1729406192892088964",
+      "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside the platform; no public rate or earnings-cap statement was found, so the rate is null and the cap is unknown.",
+      "description": "Add Homeika's cordless vacuums and pet grooming kit to your TikTok Shop showcase; pet-hair demo videos are the proven format for this catalog.",
+      "source_url": "https://rateful.ai/brand/homeika-dog-grooming-vacuum",
+      "status": "unverified",
+      "title": "Homeika TikTok Shop Affiliate",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 3,
+      "credibility": 3,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "TikTok Shop pays per sale, but rates are per-product inside the platform and unpublished, so this stays mid-low.",
+        "contact_access": "No public creator contact or application page was found; access is inside TikTok Shop only.",
+        "credibility": "Huge verified TikTok Shop sales volume, but the brand sells mainly through marketplaces and has a thin official-web footprint.",
+        "niche_fit": "Budget cordless vacuums and pet-hair cleaning are strong, demo-friendly home niches.",
+        "opportunity_availability": "Any creator with TikTok Shop affiliate access can promote Homeika products today.",
+        "ugc_evidence": "Affiliate creators drive about half of the grooming line's TikTok Shop sales, and the vacuum line is a top-5 TikTok Shop product by GMV (Helium 10)."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://thehomeika.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.helium10.com/blog/amazon-seller-spotlight/how-a-small-pet-product-company-found-success-on-tiktok-shop-with-helium-10/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "TikTok Shop",
+      "source_url": "https://www.helium10.com/blog/amazon-seller-spotlight/how-a-small-pet-product-company-found-success-on-tiktok-shop-with-helium-10/"
+    },
+    "category_slug": "pets",
+    "contacts": [],
+    "country": "United States",
+    "description": "North Carolina pet-toy brand (started 2023, still packing every order in-house) selling plush dog and cat toys - including a Pup Cup tumbler toy and a pickleball paddle toy - designed to perform naturally on TikTok and with affiliates; a seven-figure business across Amazon and TikTok Shop.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://www.helium10.com/blog/amazon-seller-spotlight/how-a-small-pet-product-company-found-success-on-tiktok-shop-with-helium-10/",
+        "summary": "Helium 10's case study: PUPROAR sells on TikTok Shop and leverages TikTok creators; 10-20% of its total e-commerce sales came from TikTok in its first year, with a halo effect on its Amazon rank."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://www.helium10.com/podcast/734-7-figure-amazon-seller-with-a-full-time-job/",
+        "summary": "On Helium 10's Serious Sellers Podcast (ep. 734), owner Jason Ross describes designing every product to perform 'naturally on TikTok and with affiliates' and running a TikTok Shop affiliate playbook in a seven-figure business."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://puproar.store",
+        "summary": "PUPROAR's own store says the brand started in North Carolina in 2023 and still packs every order itself; the trademark is held by Aspire Designs LLC."
+      }
+    ],
+    "name": "PUPROAR",
+    "opportunity": {
+      "application_url": "https://www.helium10.com/blog/amazon-seller-spotlight/how-a-small-pet-product-company-found-success-on-tiktok-shop-with-helium-10/",
+      "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside the platform; no public rate or earnings-cap statement was found, so the rate is null and the cap is unknown.",
+      "description": "Promote PUPROAR's plush pet toys on TikTok Shop - the catalog is designed for viral pet content and the brand actively works the affiliate channel.",
+      "source_url": "https://www.helium10.com/blog/amazon-seller-spotlight/how-a-small-pet-product-company-found-success-on-tiktok-shop-with-helium-10/",
+      "status": "unverified",
+      "title": "PUPROAR TikTok Shop Affiliate",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 4,
+      "credibility": 4,
+      "niche_fit": 22,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "TikTok Shop pays per sale, but no public rate or cap statement exists, so this stays mid-low.",
+        "contact_access": "No public creator email was found; the route is TikTok Shop, with the brand reachable through its own store.",
+        "credibility": "Seven-figure revenue per the owner's podcast account, with a registered trademark and its own storefront.",
+        "niche_fit": "Plush pet toys built from human trends are made for pet-creator content.",
+        "opportunity_availability": "Products are live on TikTok Shop for affiliate creators; no separate application exists.",
+        "ugc_evidence": "A documented TikTok Shop case study plus the owner's own account of an affiliate-first product strategy."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://puproar.store"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://influencermarketinghub.com/tiktok-shop-strategies/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "TikTok Shop",
+      "source_url": "https://influencermarketinghub.com/tiktok-shop-strategies/"
+    },
+    "category_slug": "fashion",
+    "contacts": [],
+    "country": "United States",
+    "description": "Las Vegas shapewear and body-sculpting brand founded by Nigerian immigrant Elizabeth Adeoye; a Black-owned business that passed $1M in sales through the TikTok Shop Affiliate program with 200M+ affiliate content views.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://influencermarketinghub.com/tiktok-shop-strategies/",
+        "summary": "Influencer Marketing Hub states: 'Soo Slick has a TikTok Shop Creator Affiliate Open Plan so creators can feature their products in their shoppable videos,' with more than 200 million affiliate content views and more than $1 million in sales generated by creator affiliates since the program launched."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://newsroom.tiktok.com/celebrating-the-impact-of-black-tiktok?lang=en",
+        "summary": "TikTok's own newsroom profiles @sooslick: founded by Nigerian immigrant Elizabeth Adeoye, a Black-owned body-sculpting and shapewear brand with over 200 million views, 40K orders and $1 million in sales through TikTok Shop."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://www.essence.com/news/money-career/entrepreneurship/tiktok-shop-black-women/",
+        "summary": "Essence reports SooSlick sold over $1 million in GMV through the TikTok Shop Affiliate program after opening its shop in February 2023."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://sooslick.com",
+        "summary": "SooSlick's official store sells its body-sculpting shapewear line."
+      }
+    ],
+    "name": "SooSlick",
+    "opportunity": {
+      "application_url": "https://influencermarketinghub.com/tiktok-shop-strategies/",
+      "compensation_notes": "Commission is paid per sale through the TikTok Shop Open Plan at product-level rates set inside the platform; no public rate or earnings-cap statement was found, so the rate is null and the cap is unknown.",
+      "description": "Join SooSlick's Open Plan inside TikTok Shop and feature its shapewear in shoppable videos - the whole catalog is open to creator affiliates.",
+      "source_url": "https://influencermarketinghub.com/tiktok-shop-strategies/",
+      "status": "unverified",
+      "title": "SooSlick TikTok Shop Creator Affiliate Open Plan",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 4,
+      "credibility": 4,
+      "niche_fit": 23,
+      "opportunity_availability": 10,
+      "reasons": {
+        "compensation": "Affiliates generated $1M+ in sales, proving real commission flow, but rates are per-product inside TikTok Shop and unpublished.",
+        "contact_access": "No public creator email was found; joining is self-serve inside TikTok Shop.",
+        "credibility": "Founder story and sales milestones verified by TikTok's own newsroom and Essence.",
+        "niche_fit": "Shapewear try-on and sculpting demos are a core fashion-creator format on TikTok.",
+        "opportunity_availability": "An Open Plan means any eligible creator can start promoting immediately - the most open route in this group.",
+        "ugc_evidence": "A named Creator Affiliate Open Plan with 200M+ affiliate content views, documented by Influencer Marketing Hub, TikTok Newsroom and Essence."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@sooslick"
+      }
+    ],
+    "website": "https://sooslick.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://digiday.com/media/live-shopping-companies-credit-marketers-rising-focus-on-influencer-performance-for-growth-in-2025/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "TikTok Shop",
+      "source_url": "https://digiday.com/media/live-shopping-companies-credit-marketers-rising-focus-on-influencer-performance-for-growth-in-2025/"
+    },
+    "category_slug": "beauty",
+    "contacts": [],
+    "country": "United States",
+    "description": "Orlando, Florida fragrance retailer (OUDWARE LLC, founded by Ziad Bon) importing Middle Eastern perfumes (Lattafa, Rasasi, Khadlaj) plus its own BON by Oudware line; it does $20M+ in annual revenue with TikTok live shopping and affiliate content at its core.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://digiday.com/media/live-shopping-companies-credit-marketers-rising-focus-on-influencer-performance-for-growth-in-2025/",
+        "summary": "Digiday quotes founder Ziad Bon on the brand's model: 'it's all about affiliate and commission-based content' - Oudware makes roughly $200,000 per month via live shopping on TikTok, with hundreds of thousands possible in a single Mega Live day."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://www.glossy.co/beauty/the-holiday-playbook-how-brands-are-banking-on-live-shopping-this-holiday-season/",
+        "summary": "Glossy reports Oudware hosts weekday live shopping shows for its ~215,000 TikTok followers, sells about 3,000 products a day on TikTok Shop, and does more than $20 million in annual revenue at $30-$100 per bottle."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://oudware.com",
+        "summary": "Oudware's official store sells Middle Eastern fragrance houses (Lattafa, Rasasi, Khadlaj) and its own BON by Oudware line; the TikTok Shop storefront 'Oudware, OFFICIAL SHOP' shows ~1.4M units sold with product videos labeled 'Creator earns commission'."
+      }
+    ],
+    "name": "Oudware",
+    "opportunity": {
+      "application_url": "https://digiday.com/media/live-shopping-companies-credit-marketers-rising-focus-on-influencer-performance-for-growth-in-2025/",
+      "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside the platform; no public rate or earnings-cap statement was found, so the rate is null and the cap is unknown.",
+      "description": "Promote Oudware's Middle Eastern fragrance catalog on TikTok Shop - the brand's stated model is affiliate and commission-based content, alongside its weekday live shows.",
+      "source_url": "https://digiday.com/media/live-shopping-companies-credit-marketers-rising-focus-on-influencer-performance-for-growth-in-2025/",
+      "status": "unverified",
+      "title": "Oudware TikTok Shop Affiliate",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 3,
+      "credibility": 4,
+      "niche_fit": 22,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Affiliate commission is the brand's core model, but rates are per-product inside TikTok Shop and unpublished.",
+        "contact_access": "No public creator email or application page was found; access runs through TikTok Shop.",
+        "credibility": "$20M+ annual revenue and founder interviews in Glossy and Digiday; a registered Florida LLC since 2023.",
+        "niche_fit": "Affordable Middle Eastern fragrance is one of TikTok's strongest beauty niches.",
+        "opportunity_availability": "Fragrance products are live on TikTok Shop for affiliate creators.",
+        "ugc_evidence": "The founder describes the business as built on affiliate and commission-based content, with ~3,000 products sold daily on TikTok Shop."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://oudware.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://rateful.ai/brand/aroma-concepts-fl",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "TikTok Shop",
+      "source_url": "https://rateful.ai/brand/aroma-concepts-fl"
+    },
+    "category_slug": "beauty",
+    "contacts": [],
+    "country": "United States",
+    "description": "Florida fragrance retailer (Aroma Concepts LLC, Orlando) selling Paris Corner and other Middle Eastern fragrance lines plus its own creations through aromaconcepts.com and its TikTok Shop 'AROMA CONCEPTS FL', where affiliates drive about 45% of sales.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://rateful.ai/brand/aroma-concepts-fl",
+        "summary": "Rateful's TikTok Shop data estimates affiliate creators drove ~45% of AROMA CONCEPTS FL's $130K in sales in the 30 days to Nov 6, 2026 across 110 products; creators can add products to their showcase and earn commission on every sale."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://theinfluencerprogram.com/guides/beauty/",
+        "summary": "The Influencer Program's sponsored-creator database (read Nov 16, 2026) shows Aroma Concepts sponsored 4 beauty creators in the prior 30 days - all of them small channels."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://aromaconcepts.com",
+        "summary": "Aroma Concepts' official store (Aroma Concepts LLC) sells Paris Corner lines and its own fragrance creations."
+      }
+    ],
+    "name": "Aroma Concepts",
+    "opportunity": {
+      "application_url": "https://rateful.ai/brand/aroma-concepts-fl",
+      "compensation_notes": "Commission is paid per sale through TikTok Shop at product-level rates set inside the platform; no public rate or earnings-cap statement was found, so the rate is null and the cap is unknown.",
+      "description": "Add Aroma Concepts' fragrance catalog to your TikTok Shop showcase; the brand also sponsors small beauty creators directly.",
+      "source_url": "https://rateful.ai/brand/aroma-concepts-fl",
+      "status": "unverified",
+      "title": "Aroma Concepts TikTok Shop Affiliate",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 3,
+      "credibility": 3,
+      "niche_fit": 22,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "TikTok Shop pays per sale, but rates are per-product and unpublished, so this stays mid-low.",
+        "contact_access": "No public creator email was found; routes are TikTok Shop and direct sponsorship outreach.",
+        "credibility": "A real LLC with its own store and 1.1M+ TikTok Shop units sold, but BBB reviews flag fulfilment and refund complaints.",
+        "niche_fit": "Middle Eastern fragrance is a proven TikTok beauty niche and the catalog is priced for impulse buys (~$41 average).",
+        "opportunity_availability": "110 products are live on TikTok Shop for affiliate creators.",
+        "ugc_evidence": "Affiliates drive ~45% of TikTok Shop sales (Rateful), and the brand sponsored 4 small beauty creators in the last 30 days."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@aroma_concepts_fl"
+      }
+    ],
+    "website": "https://aromaconcepts.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.affililist.com/affiliate/full-circle",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "UpPromote",
+      "source_url": "https://www.affililist.com/affiliate/full-circle"
+    },
+    "category_slug": "home",
+    "contacts": [],
+    "country": "United States",
+    "description": "Certified B Corporation making sustainable cleaning tools and home goods (Bubble Up brushes, cutting boards, composting, Soma water filtration) from bamboo, recycled plastic and organic cotton; runs a cash-commission affiliate program for creators, distinct from its store-credit refer-a-friend scheme.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.affililist.com/affiliate/full-circle",
+        "summary": "AffiliList describes Full Circle Home's affiliate program for creators, bloggers and influencers, managed through the UpPromote platform with a referral dashboard, creative assets and PayPal payouts - and notes it is distinct from the brand's 'Refer-a-Friend' program, which offers store credits rather than cash commissions."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.fmtc.co/fmtc-new-merchants-athena-club-fortnum-and-mason-hello-bello-woodwind-and-brasswind-your-moon-time/",
+        "summary": "FMTC's network feed lists Full Circle Home as a ShareASale merchant (#116622) in Home Improvement, and affi.io shows an open FlexOffers listing for the brand."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "affiliate_network",
+        "source_url": "https://admin.shopper.com/partnerships/fullcirclehome-com-affiliate-program",
+        "summary": "Published rates conflict: Shopper lists a 5-10% payout for the Full Circle Home US program while AffiliList's program summary has shown 15% - so no single rate is recorded."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://fullcirclehome.com/",
+        "summary": "Full Circle Home's official store sells its cleaning tools, cutting boards and composting lines and promotes its Full Circle Rewards program."
+      }
+    ],
+    "name": "Full Circle Home",
+    "opportunity": {
+      "application_url": "https://www.affililist.com/affiliate/full-circle",
+      "compensation_notes": "Published rates conflict (5-10% per Shopper vs 15% in AffiliList's summary), so the rate is recorded as null until confirmed in-program. No earnings cap is published, so the cap is unknown. The brand's separate refer-a-friend store-credit scheme is not the qualifying route.",
+      "description": "Join Full Circle Home's creator affiliate program (run on UpPromote, also listed on ShareASale and FlexOffers) and promote sustainable cleaning tools with tracked links and PayPal payouts.",
+      "source_url": "https://www.affililist.com/affiliate/full-circle",
+      "status": "unverified",
+      "title": "Full Circle Home Affiliate Program (UpPromote)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Cash commissions via PayPal are documented, but published rates conflict (5-10% vs 15%), keeping this mid-range.",
+        "contact_access": "Program pages exist on multiple networks; no public partnerships email was verified.",
+        "credibility": "Certified B Corporation with Wirecutter-cited products and national retail presence.",
+        "niche_fit": "Sustainable home and zero-waste cleaning is a dedicated creator niche, and the products are display-worthy by design.",
+        "opportunity_availability": "Open affiliate program on UpPromote with additional ShareASale and FlexOffers listings.",
+        "ugc_evidence": "The program is explicitly built for creators, bloggers and influencers in sustainability and home niches, with creative assets provided."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://fullcirclehome.com"
+  }
+]
