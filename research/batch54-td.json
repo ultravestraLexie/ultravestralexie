@@ -1,0 +1,549 @@
+[
+  {
+    "name": "Marshall Headphones",
+    "website": "https://www.marshallheadphones.com",
+    "country": "Sweden",
+    "category_slug": "technology",
+    "description": "Consumer audio brand from Stockholm-based Marshall Group (formerly Zound Industries) that carries the Marshall amplifier heritage into headphones, earbuds and home speakers, sold direct through marshallheadphones.com in more than 90 countries.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/marshall-headphones/",
+        "summary": "Lasso's programme listing states the Marshall Headphones affiliate programme pays 5% per sale with a 45-day cookie window, in the electronics category."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/marshall-headphones/",
+        "summary": "LinkClicky's programme directory lists Marshall Headphones on the CJ Affiliate platform at 5% per sale, with marshallheadphones.com as the brand website."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://news.cision.com/marshall-group/r/zound-is-now-marshall-group--and-set-to-take-the-company-to-the-next-level,c3787677",
+        "summary": "Marshall Group's own release confirms the consumer headphones and speakers business is run by the Stockholm-headquartered group formed from Zound Industries and Marshall Amplification. No earnings-cap statement appears in any fetched source, so the commission cap is recorded as unknown rather than assumed uncapped."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": 5,
+      "application_url": "https://getlasso.co/affiliate/marshall-headphones/",
+      "source_url": "https://getlasso.co/affiliate/marshall-headphones/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Marshall Headphones Affiliate Program (CJ Affiliate)",
+      "application_url": "https://getlasso.co/affiliate/marshall-headphones/",
+      "source_url": "https://getlasso.co/affiliate/marshall-headphones/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Premium headphones and speakers are core creator-review territory in consumer tech.",
+        "ugc_evidence": "Two independent programme listings confirm an open affiliate programme creators can join.",
+        "compensation": "Published 5% per sale on high-ticket audio gear is workable but not generous.",
+        "contact_access": "No public partnerships email surfaced; contact runs through the CJ application.",
+        "opportunity_availability": "Open application through CJ Affiliate with a 45-day cookie.",
+        "credibility": "Iconic global audio brand owned by Marshall Group of Stockholm."
+      }
+    }
+  },
+  {
+    "name": "ZAGG",
+    "website": "https://www.zagg.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Utah-founded mobile accessories company behind InvisibleShield screen protection, ZAGG cases and keyboards and mophie power products, sold direct at zagg.com.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/114430",
+        "summary": "ZAGG's Awin merchant profile (ZAGG EU programme) states a 6% commission, a 30-day cookie and a 2025 average order value of 37 EUR; the profile confirms ZAGG began in Utah selling InvisibleShield screen protectors, cases, keyboards and power products."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/zagg/",
+        "summary": "Lasso's US listing reports a 6-10% per-sale range with a 30-day cookie, consistent with a 6% base rate. No earnings cap is stated in either source, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 6,
+      "application_url": "https://ui.awin.com/merchant-profile/114430",
+      "source_url": "https://ui.awin.com/merchant-profile/114430",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "ZAGG Affiliate Program (Awin)",
+      "application_url": "https://ui.awin.com/merchant-profile/114430",
+      "source_url": "https://ui.awin.com/merchant-profile/114430"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 11,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Phone cases, screen protection and charging gear are staple tech-creator categories.",
+        "ugc_evidence": "A live Awin merchant profile confirms an open, joinable programme.",
+        "compensation": "6% base on accessories with a reported range up to 10% is mid-tier but real.",
+        "contact_access": "No public partnerships email surfaced; contact runs through Awin.",
+        "opportunity_availability": "Open application through the Awin merchant profile with a 30-day cookie.",
+        "credibility": "Long-established US accessories brand with global retail distribution."
+      }
+    }
+  },
+  {
+    "name": "AV Access",
+    "website": "https://www.avaccess.com",
+    "country": "China",
+    "category_slug": "technology",
+    "description": "Pro-AV manufacturer founded in 2015 in Zhejiang, China, selling KVM docking stations, HDMI and KVM extenders, switches and AV-over-IP products direct at avaccess.com to home-office and hybrid-work buyers.",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "info@avaccess.com",
+        "source_url": "https://www.crunchbase.com/organization/av-access"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.avaccess.com/affiliate-program/",
+        "summary": "AV Access's own affiliate programme page publishes tiered commissions - 10% on the first $4,999 of annual referred sales, 12% up to $19,999, 14% up to $49,999 and 16-18% above $50,000 - and routes applications through Awin. No earnings-cap statement appears on the page, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://www.crunchbase.com/organization/av-access",
+        "summary": "Crunchbase profiles AV Access as a professional Pro-AV and smart home-office device manufacturer headquartered in Zhejiang, China, and lists the contact email info@avaccess.com."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://www.avaccess.com/affiliate-program/",
+      "source_url": "https://www.avaccess.com/affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "AV Access Affiliate Program (Awin)",
+      "application_url": "https://www.avaccess.com/affiliate-program/",
+      "source_url": "https://www.avaccess.com/affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 13,
+      "compensation": 15,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "KVM docks and desk-setup gear fit the growing tech and home-office creator niche.",
+        "ugc_evidence": "The brand runs a dedicated affiliate page actively recruiting partners through Awin.",
+        "compensation": "10% base rising to 18% on published tiers is strong for consumer electronics.",
+        "contact_access": "A public contact email is published via the company's Crunchbase profile.",
+        "opportunity_availability": "Open application through the brand's own affiliate page into Awin.",
+        "credibility": "Established 2015 manufacturer selling globally, though less of a household name."
+      }
+    }
+  },
+  {
+    "name": "OtterBox",
+    "website": "https://www.otterbox.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Otter Products' mobile accessories brand, best known for Defender and Symmetry protective phone cases and MagSafe accessories, sold direct at otterbox.com and through global retail.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/otterbox/",
+        "summary": "Lasso's programme listing and its phone-accessory roundups place OtterBox's current US affiliate programme on Impact at 8% per sale with a 30-day cookie, noting approval requires an active content site rather than coupon-only or social-only channels."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "rate_conflict",
+        "source_type": "listing",
+        "source_url": "https://ui.awin.com/merchant-profile/24225",
+        "summary": "Other fetched sources conflict: an Awin merchant profile for OtterBox FR lists 7% as the default rate, and a mirrored copy of OtterBox's older programme page describes a Commission Junction programme at 10%. Because the current rate cannot be settled from published sources, commission_rate is left null."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://getlasso.co/affiliate/otterbox/",
+      "source_url": "https://getlasso.co/affiliate/otterbox/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "OtterBox Affiliate Program (Impact)",
+      "application_url": "https://getlasso.co/affiliate/otterbox/",
+      "source_url": "https://getlasso.co/affiliate/otterbox/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 8,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Protective phone cases are one of the most-reviewed accessories in tech content.",
+        "ugc_evidence": "A current programme listing confirms an open Impact programme for content publishers.",
+        "compensation": "The programme pays per sale, but published rates conflict (7-10%), so compensation is scored cautiously with the rate left null.",
+        "contact_access": "No public partnerships email surfaced; contact runs through Impact.",
+        "opportunity_availability": "Open application through Impact, with content-site approval requirements.",
+        "credibility": "Category-defining US case brand with worldwide retail presence."
+      }
+    }
+  },
+  {
+    "name": "WORX",
+    "website": "https://www.worx.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Positec's consumer power-tool and lawn-and-garden brand - cordless drills, robotic Landroid mowers, trimmers and the 20V Power Share battery platform - sold direct at worx.com and through major US retailers.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/worx/",
+        "summary": "Lasso's programme listing states the Worx affiliate programme pays 3% per sale with a 30-day cookie, across electronics, gardening and home-improvement categories."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/worx/",
+        "summary": "LinkClicky's directory lists Worx on the CJ Affiliate platform at 3% per sale for the US region, with worx.com as the brand website. No earnings cap is stated in either listing, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": 3,
+      "application_url": "https://getlasso.co/affiliate/worx/",
+      "source_url": "https://getlasso.co/affiliate/worx/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "WORX Affiliate Program (CJ Affiliate)",
+      "application_url": "https://getlasso.co/affiliate/worx/",
+      "source_url": "https://getlasso.co/affiliate/worx/"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 12,
+      "compensation": 7,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "DIY, lawn care and robot mowers are strong home-improvement creator categories.",
+        "ugc_evidence": "Two independent programme listings confirm an open affiliate programme.",
+        "compensation": "3% per sale is low, partly offset by high tool and mower price points.",
+        "contact_access": "No public partnerships email surfaced; contact runs through the CJ application.",
+        "opportunity_availability": "Open application through CJ Affiliate with a 30-day cookie.",
+        "credibility": "Established Positec brand sold through major US home retailers."
+      }
+    }
+  },
+  {
+    "name": "Best Choice Products",
+    "website": "https://bestchoiceproducts.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "US online retailer of value-priced home and outdoor products - furniture, bedding, garden, toys, musical instruments and seasonal decor - sold direct through bestchoiceproducts.com and major marketplaces.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/best-choice-products/",
+        "summary": "Lasso's programme listing states the Best Choice Products affiliate programme pays 5% per sale with a 30-day cookie."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/best-choice-products/",
+        "summary": "LinkClicky's directory lists Best Choice Products on the CJ Affiliate platform at 5% per sale and describes its range across home essentials, garden supplies, fitness equipment and toys. No earnings cap is stated, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": 5,
+      "application_url": "https://getlasso.co/affiliate/best-choice-products/",
+      "source_url": "https://getlasso.co/affiliate/best-choice-products/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Best Choice Products Affiliate Program (CJ Affiliate)",
+      "application_url": "https://getlasso.co/affiliate/best-choice-products/",
+      "source_url": "https://getlasso.co/affiliate/best-choice-products/"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 12,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "A broad home, garden and seasonal catalogue gives creators many angles.",
+        "ugc_evidence": "Two independent programme listings confirm an open affiliate programme.",
+        "compensation": "Published 5% per sale is a fair mid-tier rate for value home goods.",
+        "contact_access": "No public partnerships email surfaced; contact runs through the CJ application.",
+        "opportunity_availability": "Open application through CJ Affiliate with a 30-day cookie.",
+        "credibility": "Large US value retailer, though a less premium brand than category leaders."
+      }
+    }
+  },
+  {
+    "name": "X-Chair",
+    "website": "https://www.xchair.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Ergonomic office chair brand selling the X-Chair range with dynamic lumbar support and Elemax cooling and heating, aimed at home-office and executive buyers, direct at xchair.com.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/xchair-com/",
+        "summary": "LinkClicky's directory lists XChair.com on the ShareASale platform at 3% per sale with a 30-day cookie, describing its ergonomic office chairs for home and office settings. No earnings cap is stated, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 3,
+      "application_url": "https://linkclicky.com/affiliate-program/xchair-com/",
+      "source_url": "https://linkclicky.com/affiliate-program/xchair-com/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "X-Chair Affiliate Program (ShareASale)",
+      "application_url": "https://linkclicky.com/affiliate-program/xchair-com/",
+      "source_url": "https://linkclicky.com/affiliate-program/xchair-com/"
+    },
+    "score": {
+      "niche_fit": 20,
+      "ugc_evidence": 11,
+      "compensation": 7,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Desk-setup and home-office content is a proven creator niche, though narrower than general home.",
+        "ugc_evidence": "A programme directory listing confirms an open ShareASale programme.",
+        "compensation": "3% per sale is low, partly offset by premium chair prices.",
+        "contact_access": "No public partnerships email surfaced; contact runs through ShareASale.",
+        "opportunity_availability": "Open application through ShareASale with a 30-day cookie.",
+        "credibility": "Recognised ergonomic-chair brand in the US home-office market."
+      }
+    }
+  },
+  {
+    "name": "Cuisinart",
+    "website": "https://www.cuisinart.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Conair's kitchen brand, founded on the food processor and now spanning cookware, cutlery, bakeware, coffee makers, air fryers and small appliances, sold direct at cuisinart.com.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/cuisinart/",
+        "summary": "LinkClicky's directory lists Cuisinart on the CJ Affiliate platform at 5% per sale for the US region, with cuisinart.com as the brand website."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/cuisineart/",
+        "summary": "Lasso's listing reports 10% per sale with a 45-day cookie, while other directories describe a 5% baseline on CJ with performance incentives above it; the 5% CJ baseline is recorded and the higher figures treated as performance tiers. No earnings cap is stated, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": 5,
+      "application_url": "https://linkclicky.com/affiliate-program/cuisinart/",
+      "source_url": "https://linkclicky.com/affiliate-program/cuisinart/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Cuisinart Affiliate Program (CJ Affiliate)",
+      "application_url": "https://linkclicky.com/affiliate-program/cuisinart/",
+      "source_url": "https://linkclicky.com/affiliate-program/cuisinart/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Kitchen appliances and cookware anchor cooking and home creator content.",
+        "ugc_evidence": "Two programme listings confirm an open CJ programme.",
+        "compensation": "5% baseline per sale with reported performance tiers above it is mid-tier.",
+        "contact_access": "No public partnerships email surfaced; contact runs through the CJ application.",
+        "opportunity_availability": "Open application through CJ Affiliate.",
+        "credibility": "Iconic Conair kitchen brand with nationwide retail distribution."
+      }
+    }
+  },
+  {
+    "name": "ChomChom Roller",
+    "website": "https://www.chomchomroller.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Single-product pet care brand behind the ChomChom Roller, a reusable roller-style pet hair remover for furniture, carpets and clothing that became a staple of pet-cleaning creator content.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/chomchom-roller/",
+        "summary": "Lasso's programme listing states the ChomChom Roller affiliate programme pays 5% per sale with a 45-day cookie across cat, dog and pet categories, and its join link routes to the programme on Impact (app.impact.com). No earnings cap is stated, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 5,
+      "application_url": "https://getlasso.co/affiliate/chomchom-roller/",
+      "source_url": "https://getlasso.co/affiliate/chomchom-roller/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "ChomChom Roller Affiliate Program (Impact)",
+      "application_url": "https://getlasso.co/affiliate/chomchom-roller/",
+      "source_url": "https://getlasso.co/affiliate/chomchom-roller/"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 10,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "A single hero pet product with endless before-and-after demo potential.",
+        "ugc_evidence": "The product is a proven performer in short-form pet-cleaning content and has a confirmed Impact programme.",
+        "compensation": "Published 5% per sale with a 45-day cookie is fair for a low-ticket hero product.",
+        "contact_access": "No public partnerships email surfaced; contact runs through Impact.",
+        "opportunity_availability": "Open application through Impact with a 45-day cookie.",
+        "credibility": "Widely recognised pet brand built around one best-selling product."
+      }
+    }
+  },
+  {
+    "name": "kin+kind",
+    "website": "https://kin-kind.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Natural pet grooming and wellness brand (To Doggy With Love LLC) founded in 2015 and based in Roselle, New Jersey, selling plant-powered shampoos, coat sprays, flea and tick products and supplements for dogs and cats, hand-mixed in the USA.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program_terms",
+        "source_type": "official_site",
+        "source_url": "https://kin-kind.com/pages/kin-kind-affiliate-program-terms-and-conditions",
+        "summary": "kin+kind's own published Affiliate Program Terms and Conditions confirm an open affiliate programme run by To Doggy With Love LLC: affiliates earn referral fees on new-customer orders of all products (excluding gift cards, repeat-delivery purchases and donations), tracked through the programme platform."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://kin-kind.com/pages/kin-kind-affiliate-program-terms-and-conditions",
+        "summary": "The terms state the fee schedule is set in each affiliate's Tier Plan and do not publish a public percentage, so commission_rate is left null rather than guessed; no earnings-cap statement appears in the terms, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://www.cbinsights.com/company/kin-kind",
+        "summary": "CB Insights profiles kin+kind as founded in 2015 and headquartered in Roselle, New Jersey, specialising in grooming products and wellness supplements for pets."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://kin-kind.com/pages/kin-kind-affiliate-program-terms-and-conditions",
+      "source_url": "https://kin-kind.com/pages/kin-kind-affiliate-program-terms-and-conditions",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "kin+kind Affiliate Program",
+      "application_url": "https://kin-kind.com/pages/kin-kind-affiliate-program-terms-and-conditions",
+      "source_url": "https://kin-kind.com/pages/kin-kind-affiliate-program-terms-and-conditions"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 5,
+      "contact_access": 7,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Natural pet grooming and wellness is a strong fit for pet-care creators.",
+        "ugc_evidence": "The brand publishes full affiliate terms on its own site, confirming a real programme creators can join.",
+        "compensation": "The fee schedule sits in per-affiliate Tier Plans and is not published, so compensation is scored low with the rate left null.",
+        "contact_access": "Application runs through the brand's own site; no public email was published in the terms.",
+        "opportunity_availability": "Open application via the brand's affiliate programme page.",
+        "credibility": "Established 2015 US pet brand with retail distribution."
+      }
+    }
+  }
+]

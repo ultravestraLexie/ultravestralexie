@@ -1,0 +1,577 @@
+[
+ {
+  "name": "Shiseido",
+  "website": "https://www.shiseido.com",
+  "country": "Japan",
+  "category_slug": "skincare",
+  "description": "Japanese beauty house founded in Ginza, Tokyo in 1872, selling premium skincare, makeup, suncare and fragrance worldwide; it recruits affiliates and creators through its own affiliate program page and network listings.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.shiseido.co.uk/gb/en/shiseido-affiliate-program.html",
+    "source_url": "https://www.shiseido.co.uk/gb/en/shiseido-affiliate-program.html"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "brand_official",
+    "source_url": "https://www.shiseido.co.uk/gb/en/shiseido-affiliate-program.html",
+    "summary": "Shiseido's own affiliate program page (fetched 2026-11-21) confirms the program: affiliates earn commission on purchases made through their links, with competitive rates, a 30-day cookie window, banners and a product feed, a dedicated affiliate program contact, and free signup followed by an application review. The page publishes no commission rate and no earnings-cap statement, so commission_rate is null and the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.wowtrk.com/offer/3597655?return=%2Fcountry%2Faz",
+    "summary": "WOW TRK's index of Rakuten Advertising offers lists Shiseido as a Rakuten Advertising program with region-specific offers (EMEA offer ID 47620 at 5% base commission with a 30-day cookie; Canada offer ID 52915 at 3%; Brazil at 12%), and affi.io likewise lists Shiseido on Rakuten Advertising. Because the rate is set per region with no single global rate, commission_rate is recorded null."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.shiseido.co.uk/gb/en/shiseido-affiliate-program.html",
+   "source_url": "https://www.shiseido.co.uk/gb/en/shiseido-affiliate-program.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Shiseido Affiliate Program (via Rakuten Advertising)",
+   "application_url": "https://www.shiseido.co.uk/gb/en/shiseido-affiliate-program.html",
+   "source_url": "https://www.shiseido.co.uk/gb/en/shiseido-affiliate-program.html"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Global premium skincare and beauty house — squarely in the beauty/skincare niche with hero products creators already review.",
+    "ugc_evidence": "The brand's own program page invites site and channel owners to feature Shiseido in their content for commission; no creator cohort size is published.",
+    "compensation": "Regional Rakuten offers run 3%-12% base depending on market, but no single rate is published on the official page, so commission_rate is null and the cap is unknown.",
+    "contact_access": "Official affiliate program page with a dedicated affiliate contact promised and a direct application route.",
+    "opportunity_availability": "Program is open now — free signup with application review via the brand page and Rakuten Advertising.",
+    "credibility": "One of the world's oldest and largest beauty companies, founded 1872."
+   }
+  }
+ },
+ {
+  "name": "Estée Lauder",
+  "website": "https://www.esteelauder.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Flagship luxury brand of The Estée Lauder Companies, selling skincare, makeup and fragrance worldwide; its affiliate program is managed on Rakuten Advertising.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.wowtrk.com/offer/3597828",
+    "summary": "WOW TRK's index of Rakuten Advertising offers (offer ID 36314, fetched 2026-11-21) lists Estée Lauder on Rakuten Advertising at 4.00% payout: 4% base commission, 7-day cookie, with product feed and deep links. Regional offers on the same network differ (UK 4%, AU 4.5%, KR/TH/TW 5%)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/estee-lauder/",
+    "summary": "LinkClicky's program listing independently records Estée Lauder on the Rakuten Advertising platform for CA, GB and US at 4% per sale, matching the network's own base rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/estee-lauder",
+    "summary": "Referly's marketplace page describes the program as managed through Rakuten Advertising worldwide, with the UK reported up to 10% and North America around 4% — regional variation around the 4% base, so the recorded rate is the 4% base and the cap is unknown (no cap statement is published anywhere checked)."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 4,
+   "application_url": "https://www.wowtrk.com/offer/3597828",
+   "source_url": "https://www.wowtrk.com/offer/3597828",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Estée Lauder Affiliate Program (via Rakuten Advertising)",
+   "application_url": "https://www.wowtrk.com/offer/3597828",
+   "source_url": "https://www.wowtrk.com/offer/3597828"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Iconic luxury skincare, makeup and fragrance brand — core beauty niche with constant creator demand.",
+    "ugc_evidence": "Program is run for publishers and creators through Rakuten with a product feed and deep links; no creator count is published.",
+    "compensation": "4% base commission per the network's own offer listing (regional offers 4%-5%, UK reported up to 10%); no earnings-cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Rakuten Advertising; no brand-side partnerships email was verified.",
+    "opportunity_availability": "Program is open now on Rakuten Advertising across multiple regional storefronts.",
+    "credibility": "Flagship brand of a global beauty conglomerate."
+   }
+  }
+ },
+ {
+  "name": "Eucerin",
+  "website": "https://www.eucerinus.com",
+  "country": "Germany",
+  "category_slug": "skincare",
+  "description": "Beiersdorf's dermatological skincare brand for sensitive, dry and problem skin, sold in the US at eucerinus.com; US creators can earn commission through Beiersdorf's TikTok Shop affiliate program.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "consumerrelations@bdfusa.com",
+    "contact_url": null,
+    "source_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "program_terms",
+    "source_type": "brand_official",
+    "source_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program",
+    "summary": "Beiersdorf Inc.'s official Affiliate Program Terms & Conditions (fetched in full 2026-11-21) govern the affiliate program run on TikTok and TikTok Shop in the United States for Beiersdorf brands and expressly name the Eucerin website among the covered brand sites (with Nivea, Aquaphor and Coppertone). Participating creators must be US residents aged 18+ and earn commission under the TikTok Shop Creator Terms. The terms state no commission rate (rates are set per product inside TikTok Shop), so commission_rate is null, and they contain no earnings-cap statement, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program",
+   "source_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Eucerin Affiliate Program (via TikTok Shop, Beiersdorf US)",
+   "application_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program",
+   "source_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Dermatologist-positioned skincare for sensitive and problem skin — a core skincare niche with strong routine/review content demand.",
+    "ugc_evidence": "First-party program terms confirm a TikTok/TikTok Shop creator affiliate channel in the US — a direct short-video creator route; no creator count is published.",
+    "compensation": "Commission is earned under TikTok Shop Creator Terms and set per product inside TikTok Shop; Beiersdorf's terms publish no rate, so commission_rate is null and the cap is unknown.",
+    "contact_access": "Official program terms on Beiersdorf's own domain, including the company's consumer relations email.",
+    "opportunity_availability": "Program terms are live for US creators 18+ on TikTok Shop now.",
+    "credibility": "Beiersdorf is a global skincare major (Nivea, Eucerin, Aquaphor, La Prairie)."
+   }
+  }
+ },
+ {
+  "name": "Aquaphor",
+  "website": "https://www.aquaphor.com",
+  "country": "Germany",
+  "category_slug": "skincare",
+  "description": "Beiersdorf's healing skincare brand — ointments, lip repair and body care sold across the US; expressly covered by Beiersdorf's US TikTok Shop affiliate program terms.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "consumerrelations@bdfusa.com",
+    "contact_url": null,
+    "source_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "program_terms",
+    "source_type": "brand_official",
+    "source_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program",
+    "summary": "Beiersdorf Inc.'s official Affiliate Program Terms & Conditions (fetched in full 2026-11-21) govern the affiliate program run on TikTok and TikTok Shop in the United States for Beiersdorf brands and expressly name the Aquaphor website among the covered brand sites (with Nivea, Eucerin and Coppertone). Participating creators must be US residents aged 18+ and earn commission under the TikTok Shop Creator Terms. The terms state no commission rate (rates are set per product inside TikTok Shop), so commission_rate is null, and they contain no earnings-cap statement, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program",
+   "source_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Aquaphor Affiliate Program (via TikTok Shop, Beiersdorf US)",
+   "application_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program",
+   "source_url": "https://www.beiersdorfusa.com/meta-pages/local/us/beiersdorf-terms-and-conditions-for-participation-in-the-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Healing ointment and lip/skin repair staple — skincare-adjacent, heavily featured in routine and remedy content.",
+    "ugc_evidence": "First-party program terms confirm a TikTok/TikTok Shop creator affiliate channel in the US; no creator count is published.",
+    "compensation": "Commission is earned under TikTok Shop Creator Terms and set per product inside TikTok Shop; Beiersdorf's terms publish no rate, so commission_rate is null and the cap is unknown.",
+    "contact_access": "Official program terms on Beiersdorf's own domain, including the company's consumer relations email.",
+    "opportunity_availability": "Program terms are live for US creators 18+ on TikTok Shop now.",
+    "credibility": "Beiersdorf is a global skincare major; Aquaphor is a long-established US drugstore staple."
+   }
+  }
+ },
+ {
+  "name": "SkinCeuticals",
+  "website": "https://www.skinceuticals.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "L'Oréal's physician-dispensed, science-backed skincare brand known for antioxidant serums, corrective treatments and sunscreens; it runs affiliate programs on CJ Affiliate in the US and Awin in the UK.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": "skinceuticals@cj.com",
+    "contact_url": null,
+    "source_url": "https://marketplace.referly.so/affiliate-programs/skinceuticals"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "brand_official",
+    "source_url": "https://www.skinceuticals.co.uk/en_GB/skinc-affiliates.html",
+    "summary": "SkinCeuticals' own UK affiliate page invites sites to join the program and earn commission on sales, citing a 30-day cookie window, free joining, real-time reporting, scheduled payouts and dynamic commissions for high-selling affiliates. The page publishes no rate and no earnings-cap statement."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "listing",
+    "source_url": "https://marketplace.referly.so/affiliate-programs/skinceuticals",
+    "summary": "Referly's marketplace listing states the US program runs on CJ Affiliate with a 6% baseline commission and a 30-day cookie, and lists the program contact skinceuticals@cj.com; it also notes some directories cite a 5% payout instead, so the exact CJ rate is not settled."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "listing",
+    "source_url": "https://commission.academy/blog/best-skincare-affiliate-programs/",
+    "summary": "Commission Academy's program guide records the UK program on Awin (Merchant ID 15728) at a 5% baseline with a 30-day cookie and monthly payouts via Awin. Together with the 6% CJ figure and 'up to 10%' claims elsewhere, published rates conflict, so commission_rate is recorded null and the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.skinceuticals.co.uk/en_GB/skinc-affiliates.html",
+   "source_url": "https://www.skinceuticals.co.uk/en_GB/skinc-affiliates.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "SkinCeuticals Affiliate Program (via CJ Affiliate US / Awin UK)",
+   "application_url": "https://www.skinceuticals.co.uk/en_GB/skinc-affiliates.html",
+   "source_url": "https://www.skinceuticals.co.uk/en_GB/skinc-affiliates.html"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium clinical skincare with hero serums — a top creator niche for expert-led skincare content.",
+    "ugc_evidence": "The brand runs its own affiliate recruitment page and network programs aimed at publishers and creators; no creator count is published.",
+    "compensation": "Reported baselines are 6% on CJ (US) and 5% on Awin (UK), with other sources claiming up to 10% — conflicting, so commission_rate is null and the cap is unknown.",
+    "contact_access": "A program contact email (skinceuticals@cj.com) is published on the CJ listing, plus the brand's own affiliate page.",
+    "opportunity_availability": "Programs are open now on CJ Affiliate (US) and Awin (UK).",
+    "credibility": "L'Oréal-owned, dermatologist-dispensed brand with decades of clinical positioning."
+   }
+  }
+ },
+ {
+  "name": "Clarins",
+  "website": "https://www.clarinsusa.com",
+  "country": "France",
+  "category_slug": "beauty",
+  "description": "French premium skincare and makeup brand founded in Paris in 1954, sold in the US at clarinsusa.com; its affiliate program runs on the Impact network.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/clarins/",
+    "summary": "LinkClicky's Clarins listing (fetched 2026-11-21) records the affiliate platform as Impact for CA and US regions at 6% per sale, with the join link pointing to app.impact.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "network_tracker",
+    "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+    "summary": "CompareEPC's network-data table of skincare programs (fetched 2026-11-21) lists 'Clarins Canada' on Impact at 6%, corroborating both the network and the 6% figure for the Canadian program."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/clarins/",
+    "summary": "Other directories report different figures for the same program (5% in a 2024 list, 8% in another, and an inflated 16% on Lasso), so published rates conflict and commission_rate is recorded null; no source publishes an earnings-cap statement, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/clarins/",
+   "source_url": "https://linkclicky.com/affiliate-program/clarins/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Clarins Affiliate Program (via Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/clarins/",
+   "source_url": "https://linkclicky.com/affiliate-program/clarins/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium French skincare and makeup — core beauty niche with strong creator demand.",
+    "ugc_evidence": "Program recruits publishers and creators through Impact; no creator cohort size is published.",
+    "compensation": "Two sources put the Impact rate at 6%, but other directories report 5%, 8% and 16%, so commission_rate is null; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Impact; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is open now on Impact for US and CA.",
+    "credibility": "Established global premium beauty house, family-owned since 1954."
+   }
+  }
+ },
+ {
+  "name": "Augustinus Bader",
+  "website": "https://www.augustinusbader.com",
+  "country": "Germany",
+  "category_slug": "skincare",
+  "description": "German luxury skincare brand built on Professor Augustinus Bader's TFC8 technology, known for The Cream and The Rich Cream; its affiliate program is listed on the Impact network.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "network_tracker",
+    "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+    "summary": "CompareEPC's network-data table of skincare affiliate programs (fetched 2026-11-21) lists 'Augustinus Bader' on Impact with an EPC of $4.85 and a 5% commission. No earnings-cap statement and no creator count are published, so the cap and saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://newcollab.co/brand/augustinus-bader",
+    "summary": "Newcollab's brand page describes a separate creator/PR route — gifted product via the brand's own PR form, typically for creators around 25K followers or more, with no fee — which is distinct from the paid Impact affiliate program recorded here."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": "https://compareepc.com/skincare-affiliate-programs/",
+   "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Augustinus Bader Affiliate Program (via Impact)",
+   "application_url": "https://compareepc.com/skincare-affiliate-programs/",
+   "source_url": "https://compareepc.com/skincare-affiliate-programs/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Cult luxury skincare with two hero creams — strong fit for premium skincare creators.",
+    "ugc_evidence": "Affiliate route runs through Impact's partner marketplace; the brand's separate creator route is gifting-only, so UGC evidence is thinner.",
+    "compensation": "5% commission listed in network program data; no earnings-cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Impact; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is listed live on Impact now.",
+    "credibility": "Globally distributed luxury brand with major retail and press presence."
+   }
+  }
+ },
+ {
+  "name": "YSL Beauty",
+  "website": "https://www.yslbeautyus.com",
+  "country": "France",
+  "category_slug": "beauty",
+  "description": "Yves Saint Laurent's L'Oréal-owned luxury makeup, skincare and fragrance line (Touche Éclat, Black Opium, Libre); its affiliate program is managed through Awin, with listings also on CJ Affiliate and other networks.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-programs/luxury/",
+    "summary": "Uppromote's luxury affiliate programs guide records YSL Beauty as managed through Awin with a baseline commission of 5% (3% for cashback publishers, 2% for voucher publishers) and a 30-day cookie."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "listing",
+    "source_url": "https://imixxperfumes.com/ysl-affiliate-program/",
+    "summary": "An independent join guide likewise records the program on Awin with a 5% base rate for standard affiliates/content creators, 3% cashback and 2% voucher tiers, and a 30-day cookie, with approval typically in 5-7 business days."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/ysl/",
+    "summary": "Uppromote's YSL directory page notes the brand also runs through CJ Affiliate (US/global) and other networks, with rates spanning 2%-9% by network and publisher type; the recorded network and rate are the Awin program's 5% base for content publishers. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://uppromote.com/affiliate-directory/ysl/",
+   "source_url": "https://uppromote.com/affiliate-directory/ysl/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "YSL Beauty Affiliate Program (via Awin)",
+   "application_url": "https://uppromote.com/affiliate-directory/ysl/",
+   "source_url": "https://uppromote.com/affiliate-directory/ysl/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Iconic luxury makeup, fragrance and skincare — core beauty niche with evergreen creator demand.",
+    "ugc_evidence": "Program accepts content creators, bloggers and social influencers through Awin; no creator count is published.",
+    "compensation": "5% base commission for standard/content affiliates on Awin (3% cashback, 2% voucher tiers), corroborated by two sources; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Awin; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is open now on Awin, with parallel listings on CJ and other networks.",
+    "credibility": "L'Oréal Luxe flagship with global distribution."
+   }
+  }
+ },
+ {
+  "name": "Sulwhasoo",
+  "website": "https://www.sulwhasoo.com",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "Amorepacific's luxury Korean skincare brand built on ginseng research, known for the First Care Activating Serum and Concentrated Ginseng line, sold in the US at sulwhasoo.com; its affiliate program is listed on the Impact network.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_network_listing",
+    "source_type": "network_tracker",
+    "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+    "summary": "CompareEPC's network-data table of skincare affiliate programs (fetched 2026-11-21) lists 'Sulwhasoo' on Impact with an EPC of $3.96 and a 10% commission."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/sulwhasoo",
+    "summary": "InfluencerRate's listing describes earning up to 10% on sales with a 30-day cookie, while Shopper reports a 5-10% payout range — published figures span a range rather than one settled rate, so commission_rate is recorded null; no earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://compareepc.com/skincare-affiliate-programs/",
+   "source_url": "https://compareepc.com/skincare-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Sulwhasoo Affiliate Program (via Impact)",
+   "application_url": "https://compareepc.com/skincare-affiliate-programs/",
+   "source_url": "https://compareepc.com/skincare-affiliate-programs/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Luxury K-beauty skincare with global recognition — strong fit for premium skincare creators.",
+    "ugc_evidence": "Affiliate route runs through Impact's partner marketplace; the brand's separate creator route is gifting-oriented, so UGC evidence is thinner.",
+    "compensation": "Network program data lists 10% on Impact, but other sources frame it as a 5%-10% range, so commission_rate is null; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Impact; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is listed live on Impact now.",
+    "credibility": "Flagship luxury brand of Amorepacific, one of Asia's largest beauty groups."
+   }
+  }
+ },
+ {
+  "name": "Dr. Hauschka",
+  "website": "https://www.drhauschka.com",
+  "country": "Germany",
+  "category_slug": "skincare",
+  "description": "German natural skincare brand from WALA Heilmittel, known for biodynamic, certified-natural face and body care sold worldwide; its affiliate program is reported to run through Rakuten Marketing.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "review_listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/drhauschka",
+    "summary": "InfluencerRate's program page (fetched 2026-11-21) states the Dr. Hauschka affiliate program is managed through Rakuten Marketing, pays up to 15% per sale (a ceiling, not a base rate), uses a 30-day cookie and monthly PayPal payouts, with signup via Rakuten linked from the brand's official site. Because the only published figure is an 'up to' ceiling from a single review source, commission_rate is recorded null; no earnings-cap statement and no creator count are published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.influencerrate.com/affiliate-program/drhauschka",
+   "source_url": "https://www.influencerrate.com/affiliate-program/drhauschka",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Dr. Hauschka Affiliate Program (via Rakuten Advertising)",
+   "application_url": "https://www.influencerrate.com/affiliate-program/drhauschka",
+   "source_url": "https://www.influencerrate.com/affiliate-program/drhauschka"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Established natural skincare brand — fits clean-beauty creators well, though narrower than mass premium brands.",
+    "ugc_evidence": "Program is reported as open to affiliates through Rakuten with signup linked from the brand's site; single-source evidence and no creator count published.",
+    "compensation": "Only an 'up to 15%' ceiling is published by a single review source, so commission_rate is null; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Rakuten; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program reported live now; flagged needs_review pending a first-party or network listing.",
+    "credibility": "Long-established WALA brand with global natural-beauty distribution."
+   }
+  }
+ }
+]

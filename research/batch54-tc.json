@@ -1,0 +1,626 @@
+[
+ {
+  "name": "BulkSupplements",
+  "website": "https://www.bulksupplements.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "BulkSupplements.com (Hard Eight Nutrition LLC) sells 500+ pure single-ingredient dietary supplements and bulk powders — creatine, protein, vitamins, minerals and herbal extracts — at low prices through its own site and Amazon, with fulfillment centers in Las Vegas and Nashville.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://offers.maxfunnels.com/wp-content/uploads/2025/09/Become-a-BulkSupplements-Affiliate-Today.pdf",
+    "summary": "BulkSupplements.com's own affiliate program page states: 'Our programs offer a lucrative 15% base commission on all sales associated with your links,' identifies the brand as an 'AWIN top Power Rank merchant with thousands of sales a day and over 100,000 positive reviews,' directs applicants to create an Awin publisher account and search for BulkSupplements.com, and says it is looking for 'bloggers, YouTubers, Instagram promoters, TikTok Creators and social media influencers.' No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://theaffiliateslist.com/supplement-affiliate-programs/",
+    "summary": "The Affiliates List reports BulkSupplements pays 15% on standard retail sales and 2% on referred bulk/wholesale orders with a 90-day cookie — consistent with the brand's own published 15% base rate, with a lower wholesale tier."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/top-10-best-us-supplement-influencer-affiliate-programs",
+    "summary": "Creator Hero lists a 15% base commission and 2% wholesale rate but links signup through ShareASale, and another directory claims the program 'now runs through TikTok Shop' — platform claims conflict across directories; the brand's own affiliate page (Awin) governs, so the network is recorded as Awin."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://offers.maxfunnels.com/wp-content/uploads/2025/09/Become-a-BulkSupplements-Affiliate-Today.pdf",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://offers.maxfunnels.com/wp-content/uploads/2025/09/Become-a-BulkSupplements-Affiliate-Today.pdf",
+   "title": "BulkSupplements Affiliate Program (via Awin)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 16,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure single-ingredient supplements and DIY stack ingredients are a staple of fitness and wellness creator content.",
+    "ugc_evidence": "The brand's own affiliate page explicitly recruits TikTok Creators, YouTubers and Instagram promoters, though no structured ambassador program is published.",
+    "compensation": "A published 15% base commission on all sales from the brand's own affiliate page (third parties report a 2% tier on wholesale/bulk orders).",
+    "contact_access": "Application is via an Awin publisher account; no public partnerships email could be verified.",
+    "opportunity_availability": "Open application through Awin to bloggers and social creators per the brand's own page.",
+    "credibility": "Established merchant (Hard Eight Nutrition LLC) claiming thousands of sales a day and 100,000+ reviews on its own page."
+   }
+  }
+ },
+ {
+  "name": "Cronometer",
+  "website": "https://cronometer.com",
+  "country": "Canada",
+  "category_slug": "health",
+  "description": "Cronometer is a nutrition and health tracking app and website from Revelstoke, British Columbia, known for accurate macro and micronutrient data; it offers a free tier and a premium Gold subscription and reports more than 15 million users worldwide.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "support@cronometer.com",
+    "source_url": "https://ui.awin.com/merchant-profile/89125"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/89125",
+    "summary": "Cronometer's Awin merchant profile states affiliates 'get remunerated for lead generation, or signing up new users, and receive a commission on all Gold Subscription sales': $0.10 per lead generated (new user signup through the referral link) plus 35% per transaction on Gold Subscriptions within 365 days of the signup referral. The profile publishes support@cronometer.com for program questions and notes the program does not work with coupon websites. No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://cronometer.com/blog/canadian-food-tracker/",
+    "summary": "Cronometer's own blog states: 'We're incredibly proud to be a Canadian company based in Revelstoke, BC.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://cronometer.com/blog/partner-with-us/",
+    "summary": "Cronometer's Partner With Us page distinguishes its affiliate program ('Earn commission by recommending Cronometer to your audience') from customized partnerships, which it says include creator collaborations, co-marketing campaigns and content opportunities."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 35,
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/89125",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/89125",
+   "title": "Cronometer Affiliate Program (Awin)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 18,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Nutrition tracking is core content for health, fitness and weight-management creators.",
+    "ugc_evidence": "Awin program terms allow content creators, influencers and UGC communities, and the brand's partner page names creator collaborations, but there is no open creator application beyond the affiliate program.",
+    "compensation": "Published on the Awin merchant profile: 35% of Gold Subscription transactions within 365 days of referral, plus $0.10 per new-user lead — a strong, long-window structure.",
+    "contact_access": "A program contact email (support@cronometer.com) is published on the Awin profile, plus a partnerships page on the brand's blog.",
+    "opportunity_availability": "Open affiliate application through Awin.",
+    "credibility": "Operating since 2011 with 15M+ users per its Awin profile; an established, independent Canadian software company."
+   }
+  }
+ },
+ {
+  "name": "Fri Period",
+  "website": "https://www.friperiod.com",
+  "country": "Australia",
+  "category_slug": "health",
+  "description": "Fri Period is an Australian period-care brand selling reusable period underwear made from natural bamboo and organic cotton without intentionally added PFAS, shipping across the US and Australia, built around open conversation about menstrual health.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hello@friperiod.com",
+    "source_url": "https://www.friperiod.com/pages/fri-friends-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.friperiod.com/pages/fri-friends-affiliate-program",
+    "summary": "Fri Period's own Fri Friends Collective page states affiliates 'get 10% commission on every sale you refer' and 'earn 10% commission on every sale you drive' (excluding shipping, returns and taxes), with application buttons linking to app.impact.com — the program runs on Impact. No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.friperiod.com/pages/fri-friends-affiliate-program",
+    "summary": "The same official page publishes hello@friperiod.com for customer help and exchanges."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.friperiod.com/pages/fri-friends-affiliate-program",
+    "summary": "The page describes the product (reusable period underwear, main body 95% natural bamboo, inner lining 95% organic cotton, made without PFAS), states 'We ship across the US and Australia,' and carries reviews from Australian customers."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://www.friperiod.com/pages/fri-friends-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.friperiod.com/pages/fri-friends-affiliate-program",
+   "title": "Fri Friends Collective — Fri Period Affiliate Program (Impact)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 13,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sustainable period care is a focused women's-health niche with highly engaged creator communities.",
+    "ugc_evidence": "The program is explicitly built on customers and creators talking openly about periods and sharing referral links across socials; the page showcases customer reviews and community language throughout.",
+    "compensation": "A flat published 10% commission on every referred sale from the brand's own page.",
+    "contact_access": "A published brand email (hello@friperiod.com) plus an open Impact application route.",
+    "opportunity_availability": "Public application via the Fri Friends page through Impact.",
+    "credibility": "A young, growing company (its own wording) with a substantial base of detailed product reviews on its site."
+   }
+  }
+ },
+ {
+  "name": "DoFasting",
+  "website": "https://dofasting.com",
+  "country": "Lithuania",
+  "category_slug": "health",
+  "description": "DoFasting is an intermittent-fasting and weight-loss app from Fasting Solutions UAB, part of Lithuania's Kilo Health portfolio, offering personalized fasting plans, nutrition guidance, workouts and progress tracking by subscription.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hello@dofasting.com",
+    "source_url": "https://play.google.com/store/apps/details?id=com.kilofasting&gl=bw&hl=en"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/dofasting/",
+    "summary": "Lasso's program listing states the DoFasting affiliate program pays $20.00 per order with a 30-day cookie, and its join link routes to app.impact.com — the program runs on Impact. Because the payout is a flat per-order bounty rather than a percentage, commission_rate is recorded as null with the flat amount documented here. No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.Groupon.Co.Uk/discount-codes/dofasting",
+    "summary": "Groupon's DoFasting page describes the Affiliate Programme as starting at $20 per sale and rising to $45 with monthly performance bonuses, and a separate Ambassador programme starting at 20% per sale — multiple routes exist; the Impact listing's $20 flat starting bounty is the recorded baseline."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://play.google.com/store/apps/details?id=com.kilofasting&gl=bw&hl=en",
+    "summary": "The Google Play listing names the developer as FASTING SOLUTIONS UAB, J. Basanaviciaus g. 26, 03224 Vilnius, Lithuania, with support email hello@dofasting.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://link.springer.com/article/10.1186/s40795-022-00645-1",
+    "summary": "A peer-reviewed study of the app (BMC Nutrition) identifies DoFasting as developed by Kilo Health of Vilnius, Lithuania, in cooperation with certified nutritionists and physicians."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/dofasting/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/dofasting/",
+   "title": "DoFasting Affiliate Program (Impact)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Intermittent fasting and weight loss are major health-creator content categories.",
+    "ugc_evidence": "The program is marketed to bloggers and influencers and a separate Ambassador programme targets content creators, but no first-party creator page could be fetched.",
+    "compensation": "Published flat bounty of $20 per order via the Impact listing, reported to rise to $45 with performance tiers; a separate ambassador route reportedly starts at 20% per sale.",
+    "contact_access": "A published support email (hello@dofasting.com) via the app store listing; applications run through Impact.",
+    "opportunity_availability": "Open affiliate application through Impact.",
+    "credibility": "Part of the Kilo Health portfolio with a peer-reviewed published study of the app, though the consumer app market is crowded."
+   }
+  }
+ },
+ {
+  "name": "Intelligent Labs",
+  "website": "https://www.intelligentlabs.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Intelligent Labs is a supplements company founded in 2014 and headquartered in Sarasota, Florida, selling science-led probiotics, omega-3, nootropics, joint, sleep and hair/skin/nails supplements direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/intelligent-labs/",
+    "summary": "Lasso's program listing states Intelligent Labs pays 10% per sale with a 45-day cookie, and its join link routes to ui.awin.com — the program runs on Awin. No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.cbinsights.com/company/intelligent-labs",
+    "summary": "CB Insights profiles Intelligent Labs as founded in 2014, headquartered at 4283 Express Lane, Sarasota, Florida, developing and selling nutritional supplements across probiotics, joint support, hair/skin/nails, nootropics, mood and sleep."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/intelligent-labs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/intelligent-labs/",
+   "title": "Intelligent Labs Affiliate Program (Awin)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A broad science-led supplement catalog maps well onto wellness and biohacking creator content.",
+    "ugc_evidence": "The program is presented for bloggers and publishers; no dedicated creator or ambassador program could be verified.",
+    "compensation": "Published 10% per sale with a 45-day cookie via the network listing.",
+    "contact_access": "No public partnerships email could be verified; application is through Awin only.",
+    "opportunity_availability": "Open application through Awin.",
+    "credibility": "Founded 2014, US-headquartered, with a wide established catalog and a practitioner arm."
+   }
+  }
+ },
+ {
+  "name": "TokyoTreat",
+  "website": "https://tokyotreat.com",
+  "country": "Japan",
+  "category_slug": "food-drink",
+  "description": "TokyoTreat, by Japan's ICHIGO Inc., is a monthly subscription box of authentic Japanese snacks and candy — including limited-edition Kit Kats, dagashi and seasonal drinks — shipped worldwide from Japan.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://tokyotreat.refersion.com/",
+    "email": null,
+    "source_url": "https://tokyotreat.refersion.com/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://tokyotreat.refersion.com/",
+    "summary": "TokyoTreat's own Refersion affiliate portal terms confirm the program: last-click crediting, a 30-day referral/cookie period, payment via PayPal on the 10th of each month with a US$20 minimum, one Qualified Referral per referred customer (first purchase), and express permission to promote referral links 'on your own Youtube channel, social media accounts, blogs, and website' (paid search on brand terms is banned). The portal does not publish the payout amount, and no earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/tokyo-treat/",
+    "summary": "LinkClicky's directory states the TokyoTreat commission is $10 per sale, described as 'what's officially listed with their affiliate program as the payout.' Because it is a flat per-sale bounty, commission_rate is recorded as null with the amount documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://help.tokyotreat.com/hc/en-us/sections/1500000183742-Affiliate-Programs",
+    "summary": "TokyoTreat's official help center hosts a dedicated Affiliate Programs section documenting the program for creators with a YouTube channel, blog, website or social media presence."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": null,
+   "application_url": "https://tokyotreat.refersion.com/",
+   "source_url": "https://tokyotreat.refersion.com/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://tokyotreat.refersion.com/",
+   "source_url": "https://tokyotreat.refersion.com/",
+   "title": "TokyoTreat Affiliate Program (Refersion)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 11,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Japanese snack unboxings and taste-tests are a proven, highly shareable food-creator format.",
+    "ugc_evidence": "The brand's own program terms explicitly invite promotion on YouTube, TikTok-style social accounts and blogs, and the brand is built on unboxing content.",
+    "compensation": "A flat $10 per qualified first purchase per the network directory (the brand's portal confirms the structure but not the amount), paid monthly via PayPal.",
+    "contact_access": "An open affiliate portal for applications; the portal's support email was masked in the fetched page and is not recorded.",
+    "opportunity_availability": "Open self-serve application through the Refersion portal.",
+    "credibility": "Established global subscription brand operated by ICHIGO Inc. of Japan."
+   }
+  }
+ },
+ {
+  "name": "Encha",
+  "website": "https://www.encha.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Encha is a US matcha brand selling USDA-organic, first-harvest ceremonial and latte-grade matcha powder from Uji, Japan, through its own store, with ambassador and creator programs for matcha content.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "encha.social@elevatebrands.co",
+    "source_url": "https://af.uppromote.com/encha/register_aff"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://af.uppromote.com/encha/register_aff",
+    "summary": "Encha's own affiliate registration page (UpPromote) publishes the Encha Ambassador program terms: affiliates earn a commission calculated on order value excluding tax and shipping, commissions and discounts do not apply to subscription purchases, and the exact commission structure lives in the affiliate dashboard — no rate is published publicly, so commission_rate is null. No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://af.uppromote.com/encha/register_aff",
+    "summary": "The same official terms publish the program contact email encha.social@elevatebrands.co for removal requests and support."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://app.grin.ai/brands/encha.com",
+    "summary": "Encha's GRIN marketplace profile lists active creator partner programs — including a paid video program ($20 flat fee plus free product) and a gifting program for TikTok/Instagram posts — plus a brand ambassador application offering a personal discount, community code, early product access and free products."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": null,
+   "application_url": "https://af.uppromote.com/encha/register_aff",
+   "source_url": "https://af.uppromote.com/encha/register_aff",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://af.uppromote.com/encha/register_aff",
+   "source_url": "https://af.uppromote.com/encha/register_aff",
+   "title": "Encha Ambassador Program (UpPromote) + GRIN creator programs"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 8,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ceremonial matcha is a booming wellness-drink niche with strong recipe and ritual content.",
+    "ugc_evidence": "Active GRIN creator programs (paid video and gifting) plus a named ambassador program show structured, ongoing creator collaboration.",
+    "compensation": "No affiliate rate is published — the brand's terms put the structure behind the dashboard; a GRIN campaign offered a $20 flat fee plus product, but that is campaign pay, not the affiliate rate.",
+    "contact_access": "A published program email (encha.social@elevatebrands.co) in the brand's own affiliate terms, plus open registration.",
+    "opportunity_availability": "Open UpPromote registration and GRIN applications.",
+    "credibility": "An established premium matcha brand in the Elevate Brands portfolio with national retail presence."
+   }
+  }
+ },
+ {
+  "name": "NON",
+  "website": "https://us.non.world",
+  "country": "Australia",
+  "category_slug": "food-drink",
+  "description": "NON is an Australian culinary drinks brand crafting complex non-alcoholic wine alternatives from globally sourced ingredients, designed with chefs and sommeliers to pair with food, sold through its US storefront at us.non.world.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/non/",
+    "summary": "LinkClicky's directory lists NON's affiliate program on ShareASale at 10% per sale with a 30-day cookie, open to all regions, describing the payout as 'what's officially listed with their affiliate program.' No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/non/",
+    "summary": "The same listing describes NON as a culinary brand crafting alternatives to traditional wine — complex, chef- and sommelier-inspired non-alcoholic beverages built for food pairing — sold via us.non.world."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/non/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/non/",
+   "title": "NON Affiliate Program (ShareASale)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 9,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium non-alcoholic wine alternatives fit food, hosting and sober-curious creator content.",
+    "ugc_evidence": "An open affiliate program exists, but no dedicated creator or ambassador program could be verified.",
+    "compensation": "Published 10% per sale with a 30-day cookie via the network directory.",
+    "contact_access": "No public partnerships email could be verified; application is through ShareASale only.",
+    "opportunity_availability": "Open application through ShareASale.",
+    "credibility": "An established Australian NA drinks brand with a dedicated US storefront and fine-dining positioning."
+   }
+  }
+ },
+ {
+  "name": "Zach & Zoe Sweet Bee Farm",
+  "website": "https://zachandzoe.co",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Zach & Zoe Sweet Bee Farm is a family-owned New Jersey farm brand selling raw, unfiltered honey and bee-inspired products — flavored honeys, honeycomb and bee pollen — through its own site and retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/zach-zoe-sweet-bee-farm/",
+    "summary": "Lasso's program listing states Zach & Zoe Sweet Bee Farm pays 8% per sale with a notably long 90-day cookie, and its join link routes to ShareASale — the program runs on ShareASale. No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/zach-zoe-sweet-bee-farm/",
+    "summary": "The same listing describes Zach & Zoe as a family farm creating pure honey and bee-inspired products for food lovers and health enthusiasts, with a commitment to quality and sustainability."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 8,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/zach-zoe-sweet-bee-farm/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/zach-zoe-sweet-bee-farm/",
+   "title": "Zach & Zoe Sweet Bee Farm Affiliate Program (ShareASale)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 9,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Raw honey and farm-story foods are a natural fit for food and wellness creators.",
+    "ugc_evidence": "An open affiliate program exists, but no dedicated creator program could be verified.",
+    "compensation": "Published 8% per sale, offset by a long 90-day cookie window.",
+    "contact_access": "No public partnerships email could be verified; application is through ShareASale only.",
+    "opportunity_availability": "Open application through ShareASale.",
+    "credibility": "A family-owned farm brand with national name recognition and retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Oomph!",
+  "website": "https://oomphsweets.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Oomph! makes plant-based, low-sugar fruit-chew sweets free from gluten, dairy, soy and nuts, positioned as a better-for-you candy for health-conscious consumers, sold through its own site at oomphsweets.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/oomph/",
+    "summary": "LinkClicky's directory lists the Oomph! affiliate program on ShareASale at 15% per sale with a 60-day cookie, open to all regions, describing the payout as 'what's officially listed with their affiliate program.' No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/oomph/",
+    "summary": "The same listing describes Oomph! as crafting innovative plant-based sweets for health-conscious consumers and people with dietary restrictions, free from common allergens such as gluten, dairy, soy and nuts."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/oomph/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/oomph/",
+   "title": "Oomph! Affiliate Program (ShareASale)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 9,
+   "compensation": 15,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Better-for-you candy is a growing snack niche for health-conscious food creators.",
+    "ugc_evidence": "An open affiliate program exists, but no dedicated creator program could be verified.",
+    "compensation": "Published 15% per sale with a 60-day cookie — strong for a food brand.",
+    "contact_access": "No public partnerships email could be verified; application is through ShareASale only.",
+    "opportunity_availability": "Open application through ShareASale.",
+    "credibility": "A smaller direct-to-consumer sweets brand; established online store but limited public track record."
+   }
+  }
+ }
+]
