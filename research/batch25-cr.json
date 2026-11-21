@@ -1,0 +1,603 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.sharkninja.com/discover/community/storytellers",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.sharkninja.com/discover/community/storytellers"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.sharkninja.com/discover/community/storytellers",
+    "email": null,
+    "source_url": "https://www.sharkninja.com/discover/community/storytellers"
+   }
+  ],
+  "country": "United States",
+  "description": "Global home-appliance company behind the Shark cleaning and Ninja kitchen brands, sold through sharkninja.com. Its own Storytellers creator program, launched in October 2026, invites consumers to post unboxings, how-tos and honest reviews and earn storefront commission starting at 8% and growing to 10%; it is free to join for US advocates with at least 1,000 total followers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.sharkninja.com/discover/community/storytellers",
+    "summary": "SharkNinja's own Storytellers page fetched in full: 'Join SharkNinja Storytellers for free', creators post unboxings, how-tos and honest reviews, and 'Commissions start at 8% and grow to 10%' on orders from the creator's storefront, paid monthly after the return period closes. Requirements published on the page: at least 1,000 followers in total, posted in the last 30 days, US advocates only for now. The recorded 8% is the brand-published starting rate. No earnings-cap statement is published, so the cap is unknown, and no absolute creator count is published (the program launched in October 2026 per the company's launch release), so saturation stays unknown."
+   }
+  ],
+  "name": "SharkNinja",
+  "opportunity": {
+   "application_url": "https://www.sharkninja.com/discover/community/storytellers",
+   "source_url": "https://www.sharkninja.com/discover/community/storytellers",
+   "title": "SharkNinja Storytellers Creator Program — brand's own page publishes commissions starting at 8% and growing to 10%, free to join, US creators with 1,000+ followers"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 10,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A brand-published starting rate of 8% growing to 10% on high-ticket appliances is solid, transparent pay; no cap statement is published",
+    "contact_access": "Application runs through the brand's own Storytellers page; no direct affiliate email is published",
+    "credibility": "A large, publicly traded global appliance company with a terms-published creator program on its own site",
+    "niche_fit": "Shark vacuums and Ninja kitchen appliances are among the most demonstrated products in home UGC — air-fryer recipes, cleaning tests and unboxings are core creator content",
+    "opportunity_availability": "Free and open to US advocates meeting the published 1,000-follower minimum",
+    "ugc_evidence": "A brand-run creator program built for consumers' own content, with challenges, tiers, gifted products and a storefront — direct, explicit creator evidence on the brand's own page"
+   },
+   "ugc_evidence": 18
+  },
+  "socials": [],
+  "website": "https://www.sharkninja.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.sparkfun.com/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.sparkfun.com/affiliate-program"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.sparkfun.com/affiliate-program",
+    "email": null,
+    "source_url": "https://www.sparkfun.com/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Electronics retailer for makers, educators and engineers — development boards, sensors and DIY project components, including its own SparkFun Original product line — sold through sparkfun.com. Its own affiliate program pays 10% commission on eligible SparkFun Original products, is free to join, and pays out via PayPal with a $10 minimum.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.sparkfun.com/affiliate-program",
+    "summary": "SparkFun's own affiliate program page fetched in full: affiliates earn '10% commission on eligible SparkFun Original products' purchased through their referral links (third-party manufacturer products are not eligible), the program is free to join, commissions are paid via PayPal with a $10 minimum payout, and the page explicitly addresses creators, educators, makers and engineers who showcase projects on websites, blogs, YouTube and social media. The recorded 10% is the brand's own published figure. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "SparkFun",
+  "opportunity": {
+   "application_url": "https://www.sparkfun.com/affiliate-program",
+   "source_url": "https://www.sparkfun.com/affiliate-program",
+   "title": "SparkFun Affiliate Program — brand page publishes 10% commission on SparkFun Original products, free to join, PayPal payouts from $10"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A brand-published 10% is a fair rate, though it applies only to SparkFun Original products, not the whole catalogue; no cap statement is published",
+    "contact_access": "Signup runs through a SparkFun account from the official program page; no direct affiliate email is published",
+    "credibility": "A two-decade-old, well-known name in maker electronics with a complete terms-published program page",
+    "niche_fit": "DIY electronics, robotics and maker projects are a thriving tutorial and build-video UGC niche, though narrower than mainstream consumer tech",
+    "opportunity_availability": "Free to join from the brand's own page, with a low $10 payout minimum",
+    "ugc_evidence": "The brand's own page explicitly recruits creators, educators and makers producing project and tutorial content — direct creator-facing program evidence"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.sparkfun.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/59149",
+   "commission_cap": "unknown",
+   "commission_rate": 12,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/59149"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/59149",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/59149"
+   }
+  ],
+  "country": "Canada",
+  "description": "Design-led cat furniture and care brand — modern litter boxes, scratchers, beds, trees and flushable tofu litter — sold through tuftandpaw.com. Its affiliate program runs on Awin, whose merchant profile states a 12% commission on each sale and explicitly welcomes cat-parent content creators.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/59149",
+    "summary": "Tuft & Paw's own Awin merchant profile fetched: 'earn a competitive 12% commission on each sale', with a product feed, banners and text links, and the program is described as perfect for animal-focused websites, home-decor sites and 'Cat parent content creators'. The recorded 12% is the network profile's own published figure."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/59149",
+    "summary": "Corroboration and older-report note: Lasso, Catster, Hepper and Uppromote independently report the same 12% (with a 60-day cookie in several reports). One March 2026 comparison table instead reports 10% with a 30-day cookie via ShareASale — an older/alternate network report documented here; the current Awin profile's 12% governs. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Tuft & Paw",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/59149",
+   "source_url": "https://ui.awin.com/merchant-profile/59149",
+   "title": "Tuft & Paw Affiliate Program — 12% commission on each sale via Awin (network profile's own figure, corroborated by four independent listings)"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "12% on premium-priced furniture is strong pay, published on the network profile and agreed by four independent listings; no cap statement exists",
+    "contact_access": "Application runs through the Awin merchant profile; no direct affiliate email is published",
+    "credibility": "Established DTC cat brand with a long-running, consistently reported program",
+    "niche_fit": "Beautiful, home-friendly cat furniture is highly shareable pet-and-interiors content — litter-box reveals and cat-room makeovers are natural UGC",
+    "opportunity_availability": "Open application through Awin, subject to approval",
+    "ugc_evidence": "A live Awin program whose own profile names cat-parent content creators as a target partner type; no separate creator tier is published"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.tuftandpaw.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.myearfun.com/earfun-affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://www.myearfun.com/earfun-affiliate"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.myearfun.com/earfun-affiliate",
+    "email": null,
+    "source_url": "https://www.myearfun.com/earfun-affiliate"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://www.myearfun.com/earfun-affiliate",
+    "email": "affiliate@myearfun.com",
+    "source_url": "https://www.myearfun.com/earfun-affiliate"
+   }
+  ],
+  "country": "China",
+  "description": "Wireless audio brand — earbuds and speakers with multiple Red Dot and CES Innovation awards — sold through myearfun.com. Its own affiliate page recruits review sites, bloggers, communities and social publishers, publishes the contact affiliate@myearfun.com, and displays Awin and Impact as its networks; published rates conflict, so no single rate is settled.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.myearfun.com/earfun-affiliate",
+    "summary": "EarFun's own affiliate page fetched in full: it invites review sites, online communities, bloggers and social media publishers, advertises 'Earn up to 20% Commission' (a ceiling, not a settled rate), a 30-day order validation window, and the published contact affiliate@myearfun.com; the page displays Awin and Impact logos as its program networks. The brand page publishes no single settled rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/61233?setLocale=nb_NO",
+    "summary": "Rate-conflict note: EarFun's Awin profile states an 8%-15% commission range, Lasso reports 8% per sale, and Shopper reports 5-10%, while the brand's own page advertises up to 20%. Because the published sources span 5% to a 20% ceiling without settling, commission_rate is null with the conflict documented here; the recorded network is Awin per the brand page's own network display and its Awin profile. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "EarFun",
+  "opportunity": {
+   "application_url": "https://www.myearfun.com/earfun-affiliate",
+   "source_url": "https://www.myearfun.com/earfun-affiliate",
+   "title": "EarFun Affiliate Program — brand page advertises up to 20% and lists Awin/Impact, but published rates conflict (Awin 8-15% / Lasso 8% / Shopper 5-10%), so the rate is unsettled; contact affiliate@myearfun.com"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Every published figure sits in a healthy 5-20% band, but the sources conflict and the brand publishes only a ceiling, so compensation is scored on unsettled evidence; no cap statement exists",
+    "contact_access": "Published affiliate email (affiliate@myearfun.com) on the program page, plus the direct application route",
+    "credibility": "Award-winning, established budget-audio brand founded in 2018 with a complete program page",
+    "niche_fit": "Budget wireless earbuds are a staple of tech-review and comparison UGC — sound tests and best-under-$50 roundups are natural content",
+    "opportunity_availability": "Open application from the brand's own affiliate page",
+    "ugc_evidence": "A brand-published affiliate program aimed at reviewers, bloggers and social publishers; no dedicated creator tier is published"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.myearfun.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/breville/",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/breville/"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/breville/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/breville/"
+   }
+  ],
+  "country": "Australia",
+  "description": "Premium kitchen appliance brand founded in Australia in 1932 — espresso machines, ovens, blenders and juicers — sold through breville.com. Its affiliate program runs on Impact; the officially listed rate is reported at 8% per sale by multiple program directories, with lower figures reported elsewhere and documented.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/breville/",
+    "summary": "LinkClicky's Breville program listing fetched in full: affiliate platform Impact, commission '8% per sale', described as 'just what's officially listed with their affiliate program', with the join route leading to Breville's application on app.impact.com. AdCompares independently reports Breville at up to 8% per sale on Impact with a 30-day cookie, and a HowToJoin guide also reports 8% — three sources agree on 8% via Impact, so 8% is recorded as publicly_reported."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/breville/",
+    "summary": "Conflict note: Shopper reports a 3.96% payout and LinkApprove estimates about 2.2% per sale on its own sample — both documented here rather than recorded; the three agreeing 8% reports, including one describing the figure as the officially listed Impact rate, govern. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Breville",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/breville/",
+   "source_url": "https://linkclicky.com/affiliate-program/breville/",
+   "title": "Breville Affiliate Program — premium kitchen appliances via Impact at a reported 8% per sale (three listings agree; lower 3.96% and ~2.2% reports documented)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "8% agreed by three independent listings on premium-priced appliances is fair pay, though two lower reports exist and are documented; no cap statement exists",
+    "contact_access": "Application runs through the Impact join route on the program listing; no direct affiliate email is published",
+    "credibility": "A category-defining premium appliance brand operating since 1932",
+    "niche_fit": "Espresso machines and smart ovens are hero products of coffee and kitchen UGC — latte-art, unboxing and routine content are proven formats",
+    "opportunity_availability": "Open application through Impact, subject to approval",
+    "ugc_evidence": "A standing program on a major network with consistent reporting; it is publisher-oriented rather than a dedicated creator program"
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.breville.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.mykeyport.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 7,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://www.mykeyport.com/pages/affiliate"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.mykeyport.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://www.mykeyport.com/pages/affiliate"
+   }
+  ],
+  "country": "United States",
+  "description": "Modular everyday-carry brand — Pivot and Slide key organizers, Anywhere Tools and Versa58 scales for 58mm Swiss Army knives — sold through mykeyport.com. Its own affiliate page states the program runs on Awin with a 7% standard commission, up to 12% for top partners, and a 30-day cookie.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.mykeyport.com/pages/affiliate",
+    "summary": "Keyport's own affiliate page fetched in full: 'The Keyport affiliate program runs on Awin. Partners earn a 7% standard commission on referred sales, with rates up to 12% for top partners', a 30-day cookie, Awin advertiser ID 88217, and every product line earning the same commission. The page recruits content creators, review sites, gift-guide publishers and YouTube channels in EDC, gadgets and tech, and states ShareASale closed in October 2025 with the program now on Awin. The recorded 7% is the brand's own published standard rate. The page's partner-support email is masked in the fetched text, so no email is recorded. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Keyport",
+  "opportunity": {
+   "application_url": "https://www.mykeyport.com/pages/affiliate",
+   "source_url": "https://www.mykeyport.com/pages/affiliate",
+   "title": "Keyport Affiliate Program — brand page publishes 7% standard commission (up to 12% for top partners), 30-day cookie, via Awin"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A brand-published 7% standard rate rising to 12% for top partners is transparent, mid-range pay; no cap statement is published",
+    "contact_access": "Application via Awin from the brand's own program page; the support email is masked in the published page text, so no email is recorded",
+    "credibility": "Operating since 2005 with coverage in Forbes, Wired and CNET cited on its own program page, and complete published terms",
+    "niche_fit": "EDC gear, key organizers and pocket-dump content are a dedicated gadget UGC niche — smaller than mainstream tech but highly engaged",
+    "opportunity_availability": "Open application through Awin from the brand's own page, subject to a fit review",
+    "ugc_evidence": "A brand-published program that explicitly names content creators and YouTube channels as target partners; no separate creator tier is published"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.mykeyport.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.wisdompanel.com/en-us/affiliates-program",
+   "commission_cap": "unknown",
+   "commission_rate": 6,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.wisdompanel.com/en-us/affiliates-program"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.wisdompanel.com/en-us/affiliates-program",
+    "email": null,
+    "source_url": "https://www.wisdompanel.com/en-us/affiliates-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Pet DNA testing brand within Mars Petcare — breed, trait and health screening tests for dogs and cats — sold through wisdompanel.com. Its own affiliate page recruits content creators ('Calling all pet lovers with a following'), and the program runs on Impact, where two independent listings agree on a 6% commission.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.wisdompanel.com/en-us/affiliates-program",
+    "summary": "Wisdom Panel's own affiliate program page fetched: headed 'Calling all pet lovers with a following', it invites vets who share tips online, pet parents, pet hotels, shelters and grooming salons, stating 'We're open to creating relationships with all kinds of content creators.' The brand page publishes no commission percentage."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.wisdompanel.com/en-us/affiliates-program",
+    "summary": "Rate reporting: LinkClicky lists Wisdom Panel on Impact at 6% per sale ('just what's officially listed'), and Meer's World independently reports the Wisdom Panel program on Impact Radius at 6% commission — two sources agree, so 6% is recorded as publicly_reported. Shopper instead reports 4.8%, and one 2026 comparison guide describes the rate as unpublished; both are documented here. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Wisdom Panel",
+  "opportunity": {
+   "application_url": "https://www.wisdompanel.com/en-us/affiliates-program",
+   "source_url": "https://www.wisdompanel.com/en-us/affiliates-program",
+   "title": "Wisdom Panel Affiliate Program — pet DNA tests via Impact at a reported 6% (two listings agree; a 4.8% report documented); brand's own page recruits content creators"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 10,
+   "credibility": 5,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "6% agreed by two independent listings is modest pay on mid-priced test kits; a 4.8% report exists and is documented, and no cap statement exists",
+    "contact_access": "Application route from the brand's own affiliate page; no direct affiliate email is published",
+    "credibility": "The leading pet-genetics brand inside Mars Petcare — maximum credibility in this batch",
+    "niche_fit": "Pet DNA results reveals are proven shareable content — breed reveals and health-report reactions are natural UGC for dog and cat creators",
+    "opportunity_availability": "Open application through Impact, subject to approval",
+    "ugc_evidence": "The brand's own affiliate page explicitly recruits content creators with a following — direct creator-facing evidence, though no separate creator tier is published"
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.wisdompanel.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/110966",
+   "commission_cap": "unknown",
+   "commission_rate": 3,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/110966"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/110966",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/110966"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://ui.awin.com/merchant-profile/110966",
+    "email": "partner@deptagency.com",
+    "source_url": "https://ui.awin.com/merchant-profile/110966"
+   }
+  ],
+  "country": "United States",
+  "description": "Floorcare brand operating since 1876 — CrossWave multi-surface cleaners, SpotClean portable cleaners and pet-proven cleaning machines — sold through bissell.com. Its affiliate programme on Awin (the fetched UK programme profile) publishes a 3% base commission on validated sales with tiered rates up to 10%, a 30-day cookie and £150+ average order value.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/110966",
+    "summary": "BISSELL's Awin UK programme profile fetched in full: 'Competitive Base Rate: 3% commission on all validated sales', 'Tiered Commission: Up to 10% commission is available for different types of publishers', higher bespoke rates for content publishers and bloggers, a 30-day cookie, average order value of £150+, and the published account-team email partner@deptagency.com. The recorded 3% is the profile's own published base rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/110966",
+    "summary": "Region note: the fetched profile is the UK programme; a US-facing Shopper listing reports a 2.5% payout, close to the Awin base rate and documented here rather than recorded. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "BISSELL",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/110966",
+   "source_url": "https://ui.awin.com/merchant-profile/110966",
+   "title": "BISSELL Affiliate Programme — 3% base commission on validated sales via Awin (UK profile), tiered up to 10% with bespoke content-publisher rates; contact partner@deptagency.com"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 11,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A 3% base rate is low, though tiers reach 10% and bespoke content rates exist, on a £150+ average order; no cap statement exists",
+    "contact_access": "Published account-team email (partner@deptagency.com, the programme's agency team) on the Awin profile, plus the network application route",
+    "credibility": "A global floorcare leader operating since 1876 — maximum credibility in this batch",
+    "niche_fit": "Floorcare and pet-mess cleaning demos are a core home UGC category — before/after and stain-test content is natural and proven",
+    "opportunity_availability": "Open application through Awin, subject to approval",
+    "ugc_evidence": "A standing Awin programme whose profile offers bespoke higher rates to content publishers and bloggers; no dedicated creator tier is published"
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.bissell.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.vitamix.com/us/en_us/owners-resources/affiliates/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://www.vitamix.com/us/en_us/owners-resources/affiliates/"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.vitamix.com/us/en_us/owners-resources/affiliates/",
+    "email": null,
+    "source_url": "https://www.vitamix.com/us/en_us/owners-resources/affiliates/"
+   }
+  ],
+  "country": "United States",
+  "description": "High-performance blender brand — premium home blenders and accessories — sold through vitamix.com. Its own affiliates page confirms the program and its content-creator focus; the program is managed through CJ Affiliate, and published rate reports conflict widely, so no single rate is settled.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.vitamix.com/us/en_us/owners-resources/affiliates/",
+    "summary": "Vitamix's own affiliates page fetched: 'The Vitamix Affiliate Program allows you to generate passive income while sharing your love of food, fitness, life hacks and more... you'll earn commissions simply by including purchase links in the top-notch content you are already creating and sharing with your fans', with early access to products and news through the affiliate portal. The brand page publishes NO commission percentage."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.vitamix.com/us/en_us/owners-resources/affiliates/",
+    "summary": "Network and rate-conflict note: HowToJoin, Uppromote, Post Affiliate Pro and a long-standing program guide all agree the program is managed through CJ Affiliate. Rate reports conflict widely — starting at 3% in an older guide, 'starts at 10% for content-creating affiliates' per Uppromote, 15% per Lasso, and up to 10% per Shopper and Creator Hero — so commission_rate is null with the conflict documented here. One guide also reports a minimum of 6 machine sales per year to stay in the program. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Vitamix",
+  "opportunity": {
+   "application_url": "https://www.vitamix.com/us/en_us/owners-resources/affiliates/",
+   "source_url": "https://www.vitamix.com/us/en_us/owners-resources/affiliates/",
+   "title": "Vitamix Affiliate Program — premium blenders via CJ Affiliate (four sources agree on the network); published rates conflict (3% / 10% / 15% / up to 10%), so the rate is unsettled"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Reports span 3% to 15% on $400+ machines without settling, so compensation is scored on unsettled evidence; no cap statement exists",
+    "contact_access": "Application runs through CJ Affiliate from the brand's own affiliates page; no direct affiliate email is published",
+    "credibility": "The category-defining premium blender brand with a century of operating history",
+    "niche_fit": "High-performance blending is a staple of recipe, smoothie and kitchen-upgrade UGC, with strong demo value on premium machines",
+    "opportunity_availability": "Open application through CJ, though one guide reports a 6-machine annual sales minimum to remain in the program",
+    "ugc_evidence": "The brand's own affiliates page frames the program around creators sharing content with fans; no separate creator tier is published"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.vitamix.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://Misen.com/pages/partnerships",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://Misen.com/pages/partnerships"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://Misen.com/pages/partnerships",
+    "email": null,
+    "source_url": "https://Misen.com/pages/partnerships"
+   }
+  ],
+  "country": "United States",
+  "description": "Direct-to-consumer kitchenware brand — chef's knives, stainless and carbon-nonstick cookware and kitchen tools — sold through misen.com. Its own partnerships page routes creator/influencer applicants to its Misen Creator program and affiliate signups to Impact; no commission rate is published on any brand or network page fetched.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://Misen.com/pages/partnerships",
+    "summary": "Misen's own partnerships page fetched in full: 'We love connecting with creators and brands who share our passion for clean cookware', creators/influencers are directed to apply to the Misen Creator program (via Upfluence), and 'If you are interested in learning more about our affiliate program, sign up here' — with the affiliate signup link routing to app.impact.com, confirming the program runs on Impact. The brand publishes NO commission percentage."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://Misen.com/pages/partnerships",
+    "summary": "Rate note: Shopper's generic 5-10% payout figure for Misen is a boilerplate directory number, not a brand- or network-published rate, and is NOT credited; a Sovrn merchant page likewise could not verify any rate. Because no fetched brand or network source publishes a percentage, commission_rate is null. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Misen",
+  "opportunity": {
+   "application_url": "https://Misen.com/pages/partnerships",
+   "source_url": "https://Misen.com/pages/partnerships",
+   "title": "Misen Creator Program and Affiliate Program — brand's own partnerships page routes creators to its creator program and affiliate signups to Impact; no commission rate published"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "No commission rate is published on any fetched brand or network source, so compensation is scored low on transparency; no cap statement exists",
+    "contact_access": "Both the creator application and the affiliate signup are routed from the brand's own partnerships page; no direct email is published",
+    "credibility": "Established DTC kitchenware brand with a published partnerships page; rate transparency is the weak point",
+    "niche_fit": "Knives and cookware are a staple of cooking-demo and knife-skills UGC, with strong sharpness and sear-test angles",
+    "opportunity_availability": "Open creator application and Impact affiliate signup from the brand's own page",
+    "ugc_evidence": "The brand's own partnerships page runs both a named creator program and an affiliate program — direct creator-facing evidence"
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.misen.com"
+ }
+]

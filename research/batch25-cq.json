@@ -1,0 +1,486 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://enviromedica.refersion.com",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Refersion",
+      "source_url": "https://enviromedica.com/pages/affiliate-program"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Enviromedica is a US wellness brand behind the Ancient Minerals magnesium line and other ancestral-health products, and it runs an affiliate program through Refersion aimed at wellness, body-care and ancestral-health content creators.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://enviromedica.com/pages/affiliate-program",
+        "summary": "Enviromedica's own affiliate page, fetched first-hand, invites wellness, body-care and ancestral-health creators to apply and publishes recurring commission on qualifying sales, a 30-day cookie window, real-time reporting and free joining, with applications managed through the brand's Refersion portal. The only rate wording on the page is 'Receive up to 15% commission per sale' \u2014 an up-to ceiling, not a published flat rate \u2014 so commission_rate is null. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Enviromedica",
+    "opportunity": {
+      "application_url": "https://enviromedica.refersion.com",
+      "source_url": "https://enviromedica.com/pages/affiliate-program",
+      "title": "Enviromedica Affiliate Program"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 7,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Recurring commission is confirmed, but the only published figure is an 'up to 15%' ceiling, so no flat rate can be recorded.",
+        "contact_access": "Application runs through the brand's Refersion portal; no public partnerships email was published on the fetched page.",
+        "credibility": "An established US wellness brand with a long-running flagship product line (Ancient Minerals).",
+        "niche_fit": "Magnesium, body-care and ancestral-health products are everyday, demonstrable staples for wellness and routine creators.",
+        "opportunity_availability": "Program is live and free to apply now from the brand page.",
+        "ugc_evidence": "The brand's own page explicitly recruits affiliates with a trusted voice and a genuine audience connection, and reviews each application for fit."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [],
+    "website": "https://enviromedica.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://zivo-life.goaffpro.com",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "low",
+      "network": "GoAffPro",
+      "source_url": "https://zivo.life/pages/zivolife-partners"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Zivolife sells a single whole-food microalgae nutrition product built on ZL01, its patented Klebsormidium flaccidum strain, at $99 one-time or $69 on subscription, and has just opened a brand-new affiliate program through GoAffPro with a dedicated track for content creators and influencers.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://zivo.life/pages/zivolife-partners",
+        "summary": "Zivolife's own partners page, fetched first-hand, headlines 'New Affiliate Program \u2014 Now Open' and 'First In Wins \u2014 Ground Floor', and runs a dedicated Content Creators & Influencers track (YouTube, Instagram and TikTok creators, bloggers, podcasters) applying through GoAffPro with review inside 48 hours. The program pays a first-order percentage plus recurring commission on subscription renewals, but the full rate, cookie window and payout schedule are shared only with approved affiliates, so commission_rate is null and commission_cap is unknown. creator_saturation is low on brand-new-program evidence: the program has only just opened, per the brand's own page."
+      }
+    ],
+    "name": "Zivolife",
+    "opportunity": {
+      "application_url": "https://zivo-life.goaffpro.com",
+      "source_url": "https://zivo.life/pages/zivolife-partners",
+      "title": "Zivolife Affiliate Program"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 7,
+      "credibility": 3,
+      "niche_fit": 23,
+      "opportunity_availability": 10,
+      "reasons": {
+        "compensation": "Recurring subscription commission is confirmed, but no rate is published before approval, so no rate can be recorded.",
+        "contact_access": "Application runs through the brand's GoAffPro portal with a stated 48-hour review; no public partnerships email was published.",
+        "credibility": "A new, single-product brand; it cites human RCTs and third-party verification, but has little track record yet.",
+        "niche_fit": "A single, novel, science-led nutrition product gives health and wellness creators a story no competing product can tell.",
+        "opportunity_availability": "The program has just opened and is actively recruiting its first affiliates now.",
+        "ugc_evidence": "A dedicated creator/influencer track, a creative library with product photography and social assets, and compliance-approved messaging are all published on the brand's own page."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://zivo.life"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://enzymedica.com/pages/affiliate-program-2",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "brand direct",
+      "source_url": "https://enzymedica.com/pages/affiliate-program-2"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Enzymedica is a long-running US digestive-health brand \u2014 maker of Digest Gold and positioned as the #1 digestive enzyme brand in the U.S. \u2014 that runs a brand-direct affiliate program for customers and creators who share its products with their communities.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://enzymedica.com/pages/affiliate-program-2",
+        "summary": "Enzymedica's own affiliate page, fetched first-hand, confirms the program: affiliates earn a commission and give followers an exclusive discount, and joining starts by filling out the brand's contact form and selecting Marketing. The brand's own page publishes no commission rate; a Lasso directory listing reports 10% with a 45-day cookie, but a single third-party directory figure the brand itself does not publish is not recorded as the rate, so commission_rate is null. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Enzymedica",
+    "opportunity": {
+      "application_url": "https://enzymedica.com/pages/affiliate-program-2",
+      "source_url": "https://enzymedica.com/pages/affiliate-program-2",
+      "title": "Enzymedica Affiliate Program"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Commission is confirmed but the brand publishes no rate; a single directory reports 10%, which is documented but not recorded.",
+        "contact_access": "No application portal or partnerships email \u2014 joining starts from a general contact form (select Marketing).",
+        "credibility": "One of the most established digestive-enzyme brands in the US, with over two decades in natural digestive health.",
+        "niche_fit": "Digestive enzymes and gut-health products are a staple, highly searchable category for health and wellness creators.",
+        "opportunity_availability": "Program is live and joinable now from the brand page.",
+        "ugc_evidence": "A live brand-direct affiliate program with follower discounts, though the page speaks to customers more than to professional creators."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://enzymedica.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.organicolivia.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": "ShopMy",
+      "source_url": "https://www.organicolivia.com/pages/affiliate"
+    },
+    "category_slug": "wellness",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliates@organicolivia.com",
+        "source_url": "https://www.organicolivia.com/pages/affiliate"
+      }
+    ],
+    "country": "United States",
+    "description": "Organic Olivia is a US herbal wellness brand blending plant medicine, ancestral wisdom and modern science in tinctures and formulas, and runs an affiliate program through ShopMy that pays creators 15% on new sales they refer.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://www.organicolivia.com/pages/affiliate",
+        "summary": "Organic Olivia's own affiliate page, fetched first-hand, publishes the full offer: earn 15% commission on every new sale referred through a unique link or code, share across Instagram, TikTok, YouTube and Substack, get paid on a regular schedule through ShopMy, with top performers unlocking bonus tiers, gifting and early access. The page also publishes a dedicated affiliate contact email, affiliates@organicolivia.com. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Organic Olivia",
+    "opportunity": {
+      "application_url": "https://www.organicolivia.com/pages/affiliate",
+      "source_url": "https://www.organicolivia.com/pages/affiliate",
+      "title": "Organic Olivia Affiliate Program"
+    },
+    "score": {
+      "compensation": 15,
+      "contact_access": 12,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "15% on every new sale, published on the brand's own page; no cap statement, so the cap is unknown.",
+        "contact_access": "A dedicated affiliates@ email is published on the program page, alongside the ShopMy sign-up route.",
+        "credibility": "An established, founder-led herbal wellness brand with a loyal community.",
+        "niche_fit": "Herbal tinctures and daily wellness rituals are natural, repeatable content for wellness creators.",
+        "opportunity_availability": "Program is live and joinable now from the brand page.",
+        "ugc_evidence": "The brand calls affiliates the heart of its mission, supports link and list building through ShopMy, and rewards top creators with gifting and early access."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://www.organicolivia.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/98255",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/98255"
+    },
+    "category_slug": "food-drink",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "sofija@qforquinn.com",
+        "source_url": "https://ui.awin.com/merchant-profile/98255"
+      }
+    ],
+    "country": "United States",
+    "description": "Quinn (Q for Quinn Inc.) is an allergy-friendly snack brand selling through its own store, and runs a partner program on Awin paying 15% sale commissions, with in-house affiliate management and custom offers for creator audiences.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "network_profile",
+        "source_url": "https://ui.awin.com/merchant-profile/98255",
+        "summary": "Quinn's official Awin merchant profile (Q for Quinn Inc., profile 98255), fetched first-hand, publishes 15% sale commissions, 5% for existing customers, a 30-day cookie, vanity links for custom placements and in-house affiliate management, and invites partners to discuss custom, audience-tailored offers at sofija@qforquinn.com. The 15% new-sale rate is recorded. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Quinn",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/98255",
+      "source_url": "https://ui.awin.com/merchant-profile/98255",
+      "title": "Quinn Affiliate Program (Awin)"
+    },
+    "score": {
+      "compensation": 15,
+      "contact_access": 12,
+      "credibility": 3,
+      "niche_fit": 22,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "15% on sales published on the official Awin profile (5% on existing customers); no cap statement, so the cap is unknown.",
+        "contact_access": "A named affiliate contact email is published directly on the Awin profile.",
+        "credibility": "A smaller, growing food brand; the Awin listing is complete and actively managed in-house.",
+        "niche_fit": "Allergy-friendly snacks fit family, lunchbox, allergy-parent and snack-review creators well.",
+        "opportunity_availability": "Program is live and joinable now through Awin.",
+        "ugc_evidence": "A network partner program that explicitly offers custom placements and audience-tailored offers, though creator-specific perks are not detailed."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.qforquinn.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/elysium-health/",
+      "commission_cap": "unknown",
+      "commission_rate": 12,
+      "creator_saturation": "unknown",
+      "network": "CJ Affiliate",
+      "source_url": "https://linkclicky.com/affiliate-program/elysium-health/"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Elysium Health is a US consumer health company translating aging science into clinically validated supplements such as Basis, and runs its affiliate program through CJ Affiliate at a published 12% per sale.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/elysium-health/",
+        "summary": "Three independent program directories agree on Elysium Health's terms: LinkClicky's network listing (updated March 2024) records the program on CJ Affiliate at 12% per sale; Lasso likewise reports 12% per sale with a 45-day cookie; and UpPromote's supplement program roundup reports a 12% baseline commission on the net sale with a 45-day cookie. The agreeing 12% CJ rate is recorded. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Elysium Health",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/elysium-health/",
+      "source_url": "https://linkclicky.com/affiliate-program/elysium-health/",
+      "title": "Elysium Health Affiliate Program (CJ Affiliate)"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "12% per sale with a 45-day cookie, agreed by three independent directories; no cap statement, so the cap is unknown.",
+        "contact_access": "Access runs through CJ Affiliate only; no public partnerships email was published in the fetched sources.",
+        "credibility": "A well-known, science-led consumer health company with clinically validated products and high average order values.",
+        "niche_fit": "Longevity and healthy-aging supplements are a premium, fast-growing niche for health and biohacking creators.",
+        "opportunity_availability": "Program is live and joinable now through CJ Affiliate.",
+        "ugc_evidence": "A standard network affiliate program on CJ; creator-specific recruitment is not published."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://www.elysiumhealth.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/banza/",
+      "commission_cap": "unknown",
+      "commission_rate": 5,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://linkclicky.com/affiliate-program/banza/"
+    },
+    "category_slug": "food-drink",
+    "contacts": [],
+    "country": "United States",
+    "description": "Banza makes pasta, pizza and other familiar staples from chickpeas, selling direct to consumers and in national grocery retail, and runs an affiliate program through ShareASale at 5% per sale with a long 90-day cookie.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/banza/",
+        "summary": "Two sources agree on Banza's program: LinkClicky's network listing records Banza on ShareASale at 5% per sale with a 90-day cookie, and BravoDM's program check (October 2026) independently confirms an affiliate program on ShareASale at 5% commission. The agreeing 5% rate is recorded. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Banza",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/banza/",
+      "source_url": "https://linkclicky.com/affiliate-program/banza/",
+      "title": "Banza Affiliate Program (ShareASale)"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 6,
+      "credibility": 4,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "5% per sale is a low rate, partly offset by a long 90-day cookie; no cap statement, so the cap is unknown.",
+        "contact_access": "Access runs through ShareASale only; no public partnerships email was published in the fetched sources.",
+        "credibility": "A nationally distributed grocery brand with broad consumer recognition.",
+        "niche_fit": "Chickpea pasta and pizza are easy, visual recipe content for food, family and gluten-free creators.",
+        "opportunity_availability": "Program is live and joinable now through ShareASale.",
+        "ugc_evidence": "A standard network affiliate program on ShareASale; creator-specific perks are not published."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://www.eatbanza.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://associates.humantonik.com",
+      "commission_cap": "unknown",
+      "commission_rate": 30,
+      "creator_saturation": "unknown",
+      "network": "brand direct",
+      "source_url": "https://humantonik.com/supergreen-tonik-affiliate-program/"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Human Tonik makes Supergreen Tonik, a transparent-label greens powder manufactured in the US and third-party tested, and runs a brand-direct affiliate program paying 30% on a first referral and 15% lifetime commissions with a 365-day cookie.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://humantonik.com/supergreen-tonik-affiliate-program/",
+        "summary": "Human Tonik's own affiliate page, fetched first-hand, publishes the full structure: 30% commission on the first referral, lifetime commissions of 15%, a 365-day cookie duration and high average order values, with partner registration through the brand's own associates portal. The 30% first-referral rate is recorded, with the 15% lifetime rate documented here. The product has been on the market for five years and is US-manufactured and third-party tested, per the same page. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Human Tonik",
+    "opportunity": {
+      "application_url": "https://associates.humantonik.com",
+      "source_url": "https://humantonik.com/supergreen-tonik-affiliate-program/",
+      "title": "Human Tonik Affiliate Program"
+    },
+    "score": {
+      "compensation": 18,
+      "contact_access": 7,
+      "credibility": 3,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "30% on the first referral plus 15% lifetime commissions and a 365-day cookie \u2014 the strongest published compensation in this group; no cap statement, so the cap is unknown.",
+        "contact_access": "Registration runs through the brand's associates portal; no public partnerships email was published on the fetched page.",
+        "credibility": "Five years on the market with US manufacturing and third-party testing, but a small single-product brand.",
+        "niche_fit": "A daily greens powder is a repeatable morning-routine product for health, fitness and wellness creators.",
+        "opportunity_availability": "Program is live and joinable now from the brand page.",
+        "ugc_evidence": "A brand-direct program with its own partner registration portal, aimed at marketers and influencers; creator perks beyond commission are not detailed."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://humantonik.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/health-ade/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://linkclicky.com/affiliate-program/health-ade/"
+    },
+    "category_slug": "food-drink",
+    "contacts": [],
+    "country": "United States",
+    "description": "Health-Ade crafts premium organic kombucha and is one of the largest kombucha brands in the US, with an affiliate program listed on the Impact network.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate_conflict",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/health-ade/",
+        "summary": "Health-Ade's program route is settled but its rate is not: LinkClicky's network listing (updated March 2024) records Health-Ade on the Impact network at 10% per sale, while Shopper's partnership listing reports a 2.66% payout. Because the published figures conflict, commission_rate is null and the conflict is documented here; the Impact route itself is consistent. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Health-Ade",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/health-ade/",
+      "source_url": "https://linkclicky.com/affiliate-program/health-ade/",
+      "title": "Health-Ade Affiliate Program (Impact)"
+    },
+    "score": {
+      "compensation": 7,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Published figures conflict (10% vs 2.66%), so no rate is recorded until the brand or network settles it.",
+        "contact_access": "Access runs through Impact only; no public partnerships email was published in the fetched sources.",
+        "credibility": "One of the largest and most widely distributed kombucha brands in the US.",
+        "niche_fit": "Kombucha is a visual, everyday beverage that fits food, gut-health and grocery-haul creators.",
+        "opportunity_availability": "Program is live and joinable now through Impact.",
+        "ugc_evidence": "A standard network affiliate program on Impact; creator-specific recruitment is not published."
+      },
+      "ugc_evidence": 10
+    },
+    "socials": [],
+    "website": "https://health-ade.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://promix-nutrition.gorgias.help/en-US/how-does-the-referral-program-work-401532",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Shopify Collabs",
+      "source_url": "https://promix-nutrition.gorgias.help/en-US/how-does-the-referral-program-work-401532"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Promix Nutrition is a US sports-nutrition brand founded by a registered dietitian, selling clean protein and supplements, and runs a creator referral program through Shopify Collabs built around content creators and fitness enthusiasts.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://promix-nutrition.gorgias.help/en-US/how-does-the-referral-program-work-401532",
+        "summary": "Promix Nutrition's own help center, fetched first-hand, states the brand is 'now partnering with Shopify Collabs on our new referral program' and encourages applications, describing the program as 'made up of a community of talented content creators, fitness enthusiasts' united by the brand. Published rates conflict \u2014 Lasso lists 'up to 15%' (a ceiling) while Shopper reports 5\u201310% \u2014 so commission_rate is null and the conflict is documented here. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Promix Nutrition",
+    "opportunity": {
+      "application_url": "https://promix-nutrition.gorgias.help/en-US/how-does-the-referral-program-work-401532",
+      "source_url": "https://promix-nutrition.gorgias.help/en-US/how-does-the-referral-program-work-401532",
+      "title": "Promix Nutrition Creator Program (Shopify Collabs)"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 6,
+      "credibility": 4,
+      "niche_fit": 22,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Published figures conflict (an 'up to 15%' ceiling vs 5\u201310%), so no rate is recorded.",
+        "contact_access": "Application runs through Shopify Collabs; no public partnerships email was published in the fetched sources.",
+        "credibility": "A dietitian-founded US sports-nutrition brand with an established retail and DTC presence.",
+        "niche_fit": "Clean protein and sports nutrition fit fitness, training and active-lifestyle creators well.",
+        "opportunity_availability": "Program is live and joinable now through Shopify Collabs.",
+        "ugc_evidence": "The brand's own help center describes the Collabs program as a community of content creators and fitness enthusiasts and actively encourages applications."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [],
+    "website": "https://www.promixnutrition.com"
+  }
+]
