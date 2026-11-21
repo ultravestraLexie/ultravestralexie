@@ -8,27 +8,31 @@ const WORLDS: {
   img: string;
   href?: string;
   cta?: string;
+  tag?: string;
 }[] = [
   {
     n: "01",
     title: "THE BRAND GALAXY",
-    desc: "Discover brands worth knowing, researching and working with.",
+    desc: "Opportunity discovery: brands worth knowing, researching and working with — with the Opportunity Radar built in.",
     bullets: [
       "Brand intelligence database",
       "Affiliate program directory",
+      "Opportunity Radar — new programs & campaigns",
       "Commission and payment research",
       "Brand contact information",
       "Ready-to-use outreach pitches",
+      "Brand ambassador programs & product seeding",
       "Brand Trust Index",
     ],
     img: "/worlds/tablet.jpg",
     href: "/brands",
     cta: "Enter the Brand Galaxy",
+    tag: "NOW WITH THE OPPORTUNITY RADAR",
   },
   {
     n: "02",
     title: "THE CONTENT LAB",
-    desc: "Learn to create content that captures attention and converts.",
+    desc: "Video education: learn to create content that captures attention and converts.",
     bullets: [
       "Viral hook techniques",
       "Product-selling videos",
@@ -38,11 +42,13 @@ const WORLDS: {
       "Video breakdowns",
     ],
     img: "/worlds/world2.jpg",
+    href: "/coach",
+    cta: "Enter the Content Lab",
   },
   {
     n: "03",
     title: "THE MONEY",
-    desc: "Understand how creators earn and keep more of their income.",
+    desc: "Earnings intelligence: understand how creators earn and keep more of their income.",
     bullets: [
       "Commission comparison",
       "Affiliate marketing education",
@@ -52,11 +58,13 @@ const WORLDS: {
       "Monetization strategies",
     ],
     img: "/worlds/world3.jpg",
+    href: "/commissions",
+    cta: "Enter The Money",
   },
   {
     n: "04",
     title: "THE GROWTH ENGINE",
-    desc: "Improve your skills across every major creator platform.",
+    desc: "Platform growth: improve your skills across every major creator platform.",
     bullets: [
       "TikTok education",
       "YouTube education",
@@ -66,43 +74,29 @@ const WORLDS: {
       "Analytics education",
     ],
     img: "/worlds/world4.jpg",
+    href: "/academy?cat=Growth",
+    cta: "Enter the Growth Engine",
   },
   {
     n: "05",
     title: "THE CREATOR INTELLIGENCE",
-    desc: "Intelligent tools that help creators make better decisions.",
+    desc: "The central brain of UltraVestra. Ask it anything about your creator business — it answers from the researched database: brands worth approaching, published commissions, contacts, a ready pitch, video concepts and a filming blueprint.",
     bullets: [
-      "AI Video Doctor",
-      "Script generator",
-      "Hook generator",
-      "Content idea engine",
-      "Brand matching",
+      "Ask UltraVestra — sourced research reports",
+      "Video Lab — why a video performs or stalls",
+      "Script Studio — scripts built from your facts",
+      "Brand matching & Opportunity Scores",
       "Content improvement recommendations",
     ],
     img: "/worlds/control.jpg",
     href: "/ask",
-    cta: "Try Ask UltraVestra",
+    cta: "Ask the Brain",
+    tag: "THE CENTRAL BRAIN",
   },
   {
     n: "06",
-    title: "THE OPPORTUNITY RADAR",
-    desc: "Find ways to work with brands and discover new income opportunities.",
-    bullets: [
-      "New affiliate programs",
-      "Creator opportunities",
-      "Brand ambassador programs",
-      "Paid campaigns",
-      "Product seeding",
-      "Creator opportunities",
-    ],
-    img: "/worlds/dash.jpg",
-    href: "/brands",
-    cta: "Scan the Radar",
-  },
-  {
-    n: "07",
     title: "THE KNOWLEDGE VAULT",
-    desc: "An organized library of everything a creator needs to know.",
+    desc: "The creator resource center: an organized library of everything a creator needs to know.",
     bullets: [
       "Free guides",
       "Downloadable resources",
@@ -112,6 +106,8 @@ const WORLDS: {
       "Industry research",
     ],
     img: "/worlds/world7.jpg",
+    href: "/academy",
+    cta: "Open the Vault",
   },
 ];
 
@@ -336,7 +332,7 @@ export default function LandingPage() {
           EXPLORE THE UNIVERSE
         </h2>
         <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
-          Seven worlds. One platform. Everything a creator needs to find
+          Six worlds. One journey. Everything a creator needs to find
           brands, make content, and get paid.
         </p>
         <div
@@ -367,7 +363,12 @@ export default function LandingPage() {
                 style={{ width: "100%", display: "block", aspectRatio: "16/10", objectFit: "cover" }}
               />
               <div style={{ padding: "22px 24px 26px", display: "flex", flexDirection: "column", gap: 12, flex: 1 }}>
-                <span style={{ ...pillStyle, alignSelf: "flex-start" }}>WORLD {w.n}</span>
+                <span style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                  <span style={{ ...pillStyle, alignSelf: "flex-start" }}>WORLD {w.n}</span>
+                  {w.tag && (
+                    <span style={{ ...pillStyle, alignSelf: "flex-start", background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff" }}>{w.tag}</span>
+                  )}
+                </span>
                 <h3 style={{ margin: 0, fontSize: 27, fontWeight: 800, letterSpacing: 0.5 }}>
                   {w.title}
                 </h3>
