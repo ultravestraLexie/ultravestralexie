@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import type { Brand, Category } from "@/lib/types";
+import { extractIntent, scoreBrand } from "@/lib/search";
+import AskSearchBox from "@/components/AskSearchBox";
 
 export const dynamic = "force-dynamic";
 
@@ -127,17 +129,17 @@ export default async function AskPage({
   const asked = Boolean(q || sp.category || sp.platform || sp.uncapped || sp.small);
   const text = q.toLowerCase();
 
-  const platform =
-    sp.platform ||
-    (text.includes("trybe") ? "Trybe" : text.includes("youtube") ? "YouTube" : text.includes("instagram") ? "Instagram" : text.includes("tiktok") || text.includes("tik tok") ? "TikTok" : "");
+  const intent = extractIntent(q);
+  const platform = sp.platform || intent.platform;
   let categorySlug = sp.category || "";
   if (!categorySlug) {
     for (const [kw, slug] of KEYWORD_CATEGORIES) {
       if (text.includes(kw)) { categorySlug = slug; break; }
     }
   }
-  const wantUncapped = sp.uncapped === "1" || text.includes("uncapped") || text.includes("no cap") || text.includes("unlimited earning");
-  const wantSmall = sp.small === "1" || text.includes("smaller creator") || text.includes("small creator") || text.includes("beginner") || text.includes("new creator") || text.includes("micro");
+  const wantUncapped = sp.uncapped === "1" || intent.uncapped;
+  const wantSmall = sp.small === "1" || intent.small;
+  const minRate = intent.minRate;
   const creatorName = (sp.name ?? "").trim();
 
   const supabase = await createClient();
@@ -150,35 +152,38 @@ export default async function AskPage({
     network: string | null; rate: number | null; notes: string | null; appUrl: string | null;
     contactEmail: string | null; contactUrl: string | null; hasOpenOpp: boolean;
     uncapped: boolean; low: boolean;
+    cats: { slug: string; name: string }[]; relevance: number; reasons: string[];
   }
   let rows: Row[] = [];
   let loggedOutEmpty = false;
 
   if (asked) {
-    let ids: string[] | null = null;
-    if (categorySlug) {
-      const cat = cats.find((c) => c.slug === categorySlug);
-      if (cat) {
-        const { data: links } = await supabase.from("brand_categories").select("brand_id").eq("category_id", cat.id);
-        ids = (links ?? []).map((l) => l.brand_id as string);
-      } else ids = [];
-    }
-    let query = supabase.from("brands").select("*").eq("status", "published");
-    if (ids) query = query.in("id", ids.length ? ids : ["00000000-0000-0000-0000-000000000000"]);
-    const { data: brands } = await query;
+    /* REAL SEARCH: the whole published directory is the index. Every brand
+     * is scored against the words of the question (lib/search.ts) — name,
+     * niches, network, country and description — then ranked by intent
+     * filters, relevance and Opportunity Score. */
+    const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
     const list = (brands ?? []) as Brand[];
     if (!list.length) {
       const { data: { user } } = await supabase.auth.getUser();
       loggedOutEmpty = !user;
     }
     if (list.length) {
-      const bIds = list.map((b) => b.id);
-      const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }] = await Promise.all([
-        supabase.from("brand_scores").select("brand_id, total_score, explanation, scored_at").in("brand_id", bIds).order("scored_at", { ascending: false }),
-        supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url").in("brand_id", bIds),
-        supabase.from("brand_contacts").select("brand_id, email, contact_url").in("brand_id", bIds),
-        supabase.from("opportunities").select("brand_id, status, application_url").in("brand_id", bIds),
+      const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }] = await Promise.all([
+        supabase.from("brand_scores").select("brand_id, total_score, explanation, scored_at").order("scored_at", { ascending: false }),
+        supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url"),
+        supabase.from("brand_contacts").select("brand_id, email, contact_url"),
+        supabase.from("opportunities").select("brand_id, status, application_url"),
+        supabase.from("brand_categories").select("brand_id, categories ( slug, name )"),
       ]);
+      const catsMap = new Map<string, { slug: string; name: string }[]>();
+      for (const l of links ?? []) {
+        const row = l as unknown as { brand_id: string; categories: { slug: string; name: string } | null };
+        if (!row.categories) continue;
+        const arr = catsMap.get(row.brand_id) ?? [];
+        arr.push({ slug: row.categories.slug, name: row.categories.name });
+        catsMap.set(row.brand_id, arr);
+      }
       const scoreMap = new Map<string, { total: number; explanation: Record<string, string> }>();
       for (const s of scores ?? []) if (!scoreMap.has(s.brand_id as string)) scoreMap.set(s.brand_id as string, { total: Number(s.total_score), explanation: (s.explanation ?? {}) as Record<string, string> });
       const affMap = new Map<string, { network: string | null; rate: number | null; notes: string | null; appUrl: string | null }>();
@@ -190,6 +195,11 @@ export default async function AskPage({
       rows = list.map((brand) => {
         const aff = affMap.get(brand.id);
         const notes = aff?.notes ?? null;
+        const catsOf = catsMap.get(brand.id) ?? [];
+        const { relevance, reasons } = scoreBrand(
+          { name: brand.name, description: brand.description, categoryNames: catsOf.map((c) => c.name), categorySlugs: catsOf.map((c) => c.slug), network: aff?.network ?? null, country: brand.country },
+          intent.tokens,
+        );
         return {
           brand,
           score: scoreMap.get(brand.id)?.total ?? 0,
@@ -203,24 +213,38 @@ export default async function AskPage({
           hasOpenOpp: openSet.has(brand.id),
           uncapped: Boolean(notes && notes.includes("UNCAPPED")),
           low: Boolean(notes && notes.includes("Creator saturation: low")),
+          cats: catsOf,
+          relevance,
+          reasons,
         };
-      });
-      rows.sort((a, b) => {
-        const am = (wantUncapped && a.uncapped ? 1 : 0) + (wantSmall && a.low ? 1 : 0);
-        const bm = (wantUncapped && b.uncapped ? 1 : 0) + (wantSmall && b.low ? 1 : 0);
-        if (bm !== am) return bm - am;
-        return b.score - a.score;
       });
     }
   }
 
-  const filtered = rows.filter((r) => (!wantUncapped || r.uncapped) && (!wantSmall || r.low));
-  const mainList = (filtered.length >= 3 ? filtered : rows).slice(0, 8);
-  const usingFallback = filtered.length < 3 && rows.length > 0 && (wantUncapped || wantSmall);
-  const applyList = rows.filter((r) => r.appUrl).slice(0, 8);
-  const pitchList = rows.filter((r) => !r.hasOpenOpp).slice(0, 5);
+  /* Ranking: intent filters first, then search relevance, then score. */
+  const tokensActive = intent.tokens.length > 0;
+  const matchedCount = tokensActive ? rows.filter((r) => r.relevance > 0).length : rows.length;
+  let pool = tokensActive && matchedCount >= 3 ? rows.filter((r) => r.relevance > 0) : rows;
+  if (categorySlug) {
+    const inCat = pool.filter((r) => r.cats.some((c) => c.slug === categorySlug));
+    if (inCat.length >= 3) pool = inCat;
+  }
+  const passes = (r: Row) => (!wantUncapped || r.uncapped) && (!wantSmall || r.low) && (minRate == null || (r.rate != null && r.rate >= minRate));
+  const ranked = [...pool].sort((a, b) => {
+    const pa = passes(a) ? 1 : 0;
+    const pb = passes(b) ? 1 : 0;
+    if (pb !== pa) return pb - pa;
+    if (b.relevance !== a.relevance) return b.relevance - a.relevance;
+    return b.score - a.score;
+  });
+  const filtered = ranked.filter(passes);
+  const mainList = (filtered.length >= 3 ? filtered : ranked).slice(0, 8);
+  const usingFallback = filtered.length < 3 && ranked.length > 0 && (wantUncapped || wantSmall || minRate != null);
+  const applyList = ranked.filter((r) => r.appUrl).slice(0, 8);
+  const pitchList = ranked.filter((r) => !r.hasOpenOpp).slice(0, 5);
+  if (!categorySlug && mainList.length) categorySlug = mainList[0].cats[0]?.slug ?? "";
   const concepts = CONCEPTS[categorySlug] ?? DEFAULT_CONCEPTS;
-  const nicheLabel = catName || "your niche";
+  const nicheLabel = catName || mainList[0]?.cats[0]?.name || "your niche";
   const platformLabel = platform || "TikTok";
 
   const pitchFor = (r: Row) => {
@@ -258,7 +282,7 @@ ${platformLabel} creator — ${nicheLabel}`;
         <h2 style={h2style}>Ask your question</h2>
         <p style={sub}>Try the famous one: <em>&ldquo;I&rsquo;m a Trybe creator in beauty. I want brands with uncapped affiliate commissions. I need brands that work with smaller creators. Show me how to make better product videos.&rdquo;</em></p>
         <form method="get" style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-          <textarea name="q" defaultValue={q} placeholder="Ask UltraVestra anything about brands, commissions and content…" rows={3} style={{ width: "100%", borderRadius: 14, padding: "13px 16px", fontSize: 16.5 }} />
+          <AskSearchBox initialValue={q} />
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
             <select name="platform" defaultValue={platform} style={{ padding: "11px 14px", borderRadius: 999 }}>
               <option value="">Any platform</option>
@@ -300,13 +324,20 @@ ${platformLabel} creator — ${nicheLabel}`;
           <section style={{ textAlign: "center" }}>
             <span style={{ background: "#2e1065", color: "#67e8f9", border: "1px solid #22d3ee", borderRadius: 999, padding: "5px 16px", fontSize: 13, fontWeight: 700, letterSpacing: 2 }}>YOUR PERSONALIZED RESEARCH REPORT</span>
             <h2 className="wow-title" style={{ fontSize: 36, margin: "12px 0 4px", fontWeight: 800 }}>{nicheLabel} on {platformLabel}{wantUncapped ? " — uncapped commissions" : ""}{wantSmall ? " — smaller-creator friendly" : ""}</h2>
-            <p style={{ color: "#ddd0ff", margin: 0 }}>Built live from {rows.length} researched brands in this niche. Every fact links to its sourced profile.</p>
+            <p style={{ color: "#ddd0ff", margin: 0 }}>🔎 Searched all {rows.length} researched brands — {matchedCount} matched your words. Ranked by your filters, search match, then Opportunity Score. Every fact links to its sourced profile.</p>
+            <p style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap", margin: "12px 0 0" }}>
+              <span style={{ border: "1px solid #22d3ee", color: "#67e8f9", borderRadius: 999, padding: "3px 13px", fontSize: 13, fontWeight: 700 }}>Searching: {platformLabel}</span>
+              {catName && <span style={{ border: "1px solid #a855f7", color: "#e9d5ff", borderRadius: 999, padding: "3px 13px", fontSize: 13, fontWeight: 700 }}>{catName}</span>}
+              {wantUncapped && <span style={{ border: "1px solid #4ade80", color: "#4ade80", borderRadius: 999, padding: "3px 13px", fontSize: 13, fontWeight: 700 }}>UNCAPPED ✓</span>}
+              {wantSmall && <span style={{ border: "1px solid #fb923c", color: "#fb923c", borderRadius: 999, padding: "3px 13px", fontSize: 13, fontWeight: 700 }}>Smaller creators</span>}
+              {minRate != null && <span style={{ border: "1px solid #f0abfc", color: "#f0abfc", borderRadius: 999, padding: "3px 13px", fontSize: 13, fontWeight: 700 }}>Pays at least {minRate}%</span>}
+            </p>
             {usingFallback && <p style={{ color: "#f0abfc", margin: "8px 0 0" }}>Honest note: fewer than 3 brands in this niche are <strong>verified</strong> for every filter you picked, so your report leads with the verified matches, then the highest-scored brands overall. Nothing is guessed.</p>}
           </section>
 
           <section style={panel}>
             <h2 style={h2style}>🏆 Brands worth approaching</h2>
-            <p style={sub}>Ranked by your filters first, then by Opportunity Score.</p>
+            <p style={sub}>The search engine ranked these by how well each brand matches your words and filters, then by Opportunity Score. The cyan chips show why each brand matched.</p>
             <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
               {mainList.map((r) => (
                 <article key={r.brand.id} style={{ border: "1px solid #4c1d95", borderRadius: 16, padding: "16px 18px", background: "rgba(13,2,33,0.65)" }}>
@@ -315,6 +346,10 @@ ${platformLabel} creator — ${nicheLabel}`;
                     <span style={{ background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13.5 }}>Score {Math.round(r.score)}</span>
                     {r.uncapped && <span style={{ background: "#052e16", color: "#4ade80", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13.5 }}>UNCAPPED ✓</span>}
                     {r.low && <span style={{ background: "#3a1c05", color: "#fb923c", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13.5 }}>Smaller-creator friendly</span>}
+                    {r.reasons.map((reason) => (
+                      <span key={reason} style={{ border: "1px solid #22d3ee", color: "#67e8f9", borderRadius: 999, padding: "2px 11px", fontWeight: 700, fontSize: 12.5 }}>Matched: {reason}</span>
+                    ))}
+                    {r.rate != null && <span style={{ border: "1px solid #a855f7", color: "#e9d5ff", borderRadius: 999, padding: "2px 11px", fontWeight: 700, fontSize: 12.5 }}>Pays {r.rate}%</span>}
                   </p>
                   <p style={{ margin: 0, color: "#ddd0ff", fontSize: 15 }}>{r.explanation.niche_fit || r.brand.description || ""}</p>
                 </article>
