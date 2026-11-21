@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
-import type { Brand } from "@/lib/types";
+import type { Brand, Category } from "@/lib/types";
 import { extractIntent, scoreBrand } from "@/lib/search";
 import { webSearch } from "@/lib/websearch";
+import SaveBrandButton from "@/components/SaveBrandButton";
 
 export const dynamic = "force-dynamic";
 
@@ -39,14 +40,21 @@ const POPULAR: [string, string][] = [
 export default async function DiscoverPage({
   searchParams,
 }: {
-  searchParams: Promise<{ q?: string }>;
+  searchParams: Promise<{ q?: string; cat?: string; platform?: string; uncapped?: string; small?: string; apply?: string }>;
 }) {
   const sp = await searchParams;
   const q = (sp.q ?? "").trim();
   const intent = extractIntent(q);
-  const wantUncapped = intent.uncapped;
-  const wantSmall = intent.small;
+  const wantUncapped = intent.uncapped || sp.uncapped === "1";
+  const wantSmall = intent.small || sp.small === "1";
   const minRate = intent.minRate;
+  const catFilter = sp.cat ?? "";
+  const platformSel = sp.platform || intent.platform;
+  const applyOnly = sp.apply === "1";
+
+  const supabaseCats = await createClient();
+  const { data: catData } = await supabaseCats.from("categories").select("id, name, slug").order("name");
+  const allCats = (catData ?? []) as Category[];
 
   interface Row {
     brand: Brand; score: number; network: string | null; rate: number | null; notes: string | null;
@@ -110,7 +118,9 @@ export default async function DiscoverPage({
 
   const passes = (r: Row) => (!wantUncapped || r.uncapped) && (!wantSmall || r.low) && (minRate == null || (r.rate != null && r.rate >= minRate));
   const matched = rows.filter((r) => r.relevance > 0);
-  const pool = intent.tokens.length && matched.length >= 3 ? matched : rows;
+  let pool = intent.tokens.length && matched.length >= 3 ? matched : rows;
+  if (catFilter) pool = pool.filter((r) => r.cats.some((c) => c.slug === catFilter));
+  if (applyOnly) pool = pool.filter((r) => r.appUrl);
   const ranked = [...pool].sort((a, b) => {
     const pa = passes(a) ? 1 : 0; const pb = passes(b) ? 1 : 0;
     if (pb !== pa) return pb - pa;
@@ -130,9 +140,27 @@ export default async function DiscoverPage({
         <span style={{ background: "#2e1065", color: "#67e8f9", border: "1px solid #22d3ee", borderRadius: 999, padding: "5px 16px", fontSize: 13, fontWeight: 700, letterSpacing: 2 }}>DISCOVER</span>
         <h1 className="wow-title" style={{ fontSize: 42, margin: "12px 0 6px", fontWeight: 800 }}>Search the creator universe</h1>
         <p style={{ color: "#ddd0ff", margin: "0 auto", maxWidth: 620, fontSize: 16 }}>One search, two engines: the verified UltraVestra intelligence database, and the live public web. Database facts are researched and sourced. Web results are labeled and unverified.</p>
-        <form method="get" style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 20, flexWrap: "wrap" }}>
-          <input type="text" name="q" defaultValue={q} placeholder="Search brands, commissions, campaigns, creator tips…" style={{ width: 480, maxWidth: "88vw", padding: "14px 20px", borderRadius: 999, border: "1px solid #a855f7", background: "rgba(10,5,28,0.85)", fontSize: 16 }} />
-          <button type="submit" className="neon-btn" style={{ padding: "14px 30px", borderRadius: 999, border: "none", background: "linear-gradient(92deg, #a855f7, #d946ef 55%, #22d3ee 130%)", color: "#fff", fontWeight: 800, fontSize: 16 }}>Search</button>
+        <form method="get" style={{ display: "flex", flexDirection: "column", gap: 12, alignItems: "center", marginTop: 20 }}>
+          <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
+            <input type="text" name="q" defaultValue={q} placeholder="Search brands, commissions, campaigns, creator tips…" style={{ width: 480, maxWidth: "88vw", padding: "14px 20px", borderRadius: 999, border: "1px solid #a855f7", background: "rgba(10,5,28,0.85)", fontSize: 16 }} />
+            <button type="submit" className="neon-btn" style={{ padding: "14px 30px", borderRadius: 999, border: "none", background: "linear-gradient(92deg, #a855f7, #d946ef 55%, #22d3ee 130%)", color: "#fff", fontWeight: 800, fontSize: 16 }}>Search</button>
+          </div>
+          <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap", alignItems: "center", fontSize: 14.5 }}>
+            <select name="cat" defaultValue={catFilter} style={{ padding: "9px 13px", borderRadius: 999 }}>
+              <option value="">All niches</option>
+              {allCats.map((c) => (<option key={c.id} value={c.slug}>{c.name}</option>))}
+            </select>
+            <select name="platform" defaultValue={platformSel} style={{ padding: "9px 13px", borderRadius: 999 }}>
+              <option value="">Any platform</option>
+              <option value="Trybe">Trybe</option>
+              <option value="TikTok">TikTok</option>
+              <option value="YouTube">YouTube</option>
+              <option value="Instagram">Instagram</option>
+            </select>
+            <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="uncapped" value="1" defaultChecked={wantUncapped} /> Uncapped only</label>
+            <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="small" value="1" defaultChecked={wantSmall} /> Smaller creators</label>
+            <label style={{ display: "flex", gap: 6, alignItems: "center" }}><input type="checkbox" name="apply" value="1" defaultChecked={applyOnly} /> Accepting applications</label>
+          </div>
         </form>
         {!q && (
           <p style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap", marginTop: 18 }}>
@@ -171,6 +199,9 @@ export default async function DiscoverPage({
                   {r.reasons.map((reason) => (<span key={reason} style={chip("#22d3ee")}>Matched: {reason}</span>))}
                   {r.rate != null && <span style={chip("#e9d5ff")}>Pays {r.rate}%</span>}
                   {r.rate == null && <span style={chip("#a1a1aa")}>Rate not published</span>}
+                  {!r.uncapped && <span style={chip("#a1a1aa")}>Ceiling: not stated</span>}
+                  {!r.low && <span style={chip("#a1a1aa")}>Creator competition: insufficient data</span>}
+                  <SaveBrandButton brandId={r.brand.id} />
                 </p>
                 <p style={{ margin: 0, color: "#ddd0ff", fontSize: 14.5 }}>
                   {r.cats.map((c) => c.name).join(" · ")}{r.network ? ` · via ${r.network}` : " · Brand direct"}
@@ -182,7 +213,7 @@ export default async function DiscoverPage({
           </div>
           {top.length > 0 && (
             <p style={{ display: "flex", gap: 12, flexWrap: "wrap", margin: "18px 0 0" }}>
-              <Link href={`/ask?q=${encodeURIComponent(q)}`} className="neon-btn" style={{ padding: "11px 22px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15 }}>Get the full Ask UltraVestra report for this search →</Link>
+              <Link href={`/ask?q=${encodeURIComponent(q)}${platformSel ? `&platform=${encodeURIComponent(platformSel)}` : ""}${catFilter ? `&category=${encodeURIComponent(catFilter)}` : ""}`} className="neon-btn" style={{ padding: "11px 22px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15 }}>Get the full Ask UltraVestra report for this search →</Link>
               <Link href="/academy" style={{ padding: "11px 22px", borderRadius: 999, border: "1px solid #22d3ee", color: "#67e8f9", textDecoration: "none", fontWeight: 700, fontSize: 15 }}>Improve my videos — Creator Academy</Link>
             </p>
           )}

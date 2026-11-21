@@ -1,6 +1,7 @@
 # Ultra Vestra — UGC Brand Intelligence Platform
 
-> **Less time searching. More time creating. Smarter brand partnerships.**
+> **Search smarter. Find better brands. Create content that sells.**
+> Less time searching. More time creating. Smarter brand partnerships.
 
 Ultra Vestra helps creators find the brands worth pursuing for UGC work. For every
 researched brand, Ultra Vestra shows what the brand does, the evidence that it works
@@ -34,17 +35,62 @@ creator profiles, saved brands, subscriptions and research stay in sync.
 
 ```
 app/                  Next.js App Router pages
-  page.tsx            Landing page
+  page.tsx            Landing page — search-first hero into Discover
+  discover/page.tsx   Universal search: database + live web, with filters
+  ask/page.tsx        Ask UltraVestra — structured research reports
   brands/page.tsx     Brand directory (search + category filter)
   brands/[id]/        Brand profile (contacts, pay, score, evidence)
+  opportunities/      Opportunity Finder (apply now / worth pitching)
+  academy/page.tsx    Creator Academy — searchable lessons
+  coach/page.tsx      Video Coach (coming soon, honestly labeled)
   saved/page.tsx      Creator's saved brands
   pricing/page.tsx    Starter / Pro / Elite (from the plans table)
-  login/page.tsx      Supabase magic-link sign-in (placeholder onboarding)
-components/           BrandCard, SaveBrandButton
+  login/page.tsx      Supabase sign-in
+  api/suggest/        Live search suggestions for the Ask search box
+components/           BrandCard, SaveBrandButton, AskSearchBox, AcademySearch
 lib/supabase/         Browser + server Supabase clients (@supabase/ssr)
 lib/types.ts          Types mirroring the schema
+lib/search.ts         Search engine: tokenize, synonyms, intent, relevance
+lib/websearch.ts      Live-web provider adapter (normalized results)
+lib/academy.ts        Creator Academy lesson library
 supabase/schema.sql   The complete database schema (run once, see below)
 ```
+
+## The five experiences
+
+| Experience | Route | What it does |
+| --- | --- | --- |
+| Discover | `/discover` | Universal search across the verified database **and** the live public web; filters: niche, platform, uncapped, smaller-creator evidence, accepting applications |
+| Brand Intelligence | `/brands`, `/brands/[id]` | Sourced brand profiles: score with reasons, commissions, contacts, evidence with source URLs and check dates |
+| Opportunity Finder | `/opportunities` | Brands accepting applications now + high-score brands worth pitching without an advertised campaign |
+| Creator Academy | `/academy` | Searchable lessons: hooks, scripts, filming, pitching, pricing, growth |
+| Ask UltraVestra | `/ask` | One question → structured report: best-fit brands, commission evidence, application links, pitch-worthy brands, contacts + ready-to-use pitch, three video concepts, script + filming blueprint, why it works |
+| Video Coach | `/coach` | Coming soon. The scoring checklist is published there; uploads open only when secure storage and a real analysis pipeline exist |
+
+## Search architecture
+
+Two engines, always labeled separately:
+
+1. **UltraVestra database** — `lib/search.ts` tokenizes the question, expands
+   synonyms, extracts intent (uncapped, smaller creators, platform, minimum
+   published rate) and scores every published brand by relevance across name,
+   categories, network, country and description. Ranking: intent filters →
+   relevance → Opportunity Score. Every result explains why it matched.
+2. **Live web** — `lib/websearch.ts` is a provider adapter returning
+   normalized results (title, URL, snippet, domain). The current adapter is
+   keyless (DuckDuckGo Lite). To use Tavily or Brave, implement the same
+   `webSearch(query, max)` signature and add the key as a server-only env var.
+   Web results are always labeled **unverified** — no rate or term from the
+   web is ever presented as a verified fact.
+
+Data integrity rules (non-negotiable):
+
+- "Uncapped" appears only when a fetched source explicitly states no
+  earnings cap. Silence renders as "Ceiling: not stated", never as uncapped.
+- Low creator competition is shown only with absolute-count evidence;
+  otherwise "Creator competition: insufficient data".
+- Contacts are public business contacts from sources — never guessed.
+- Compensation comes only from published sources; unpublished = "Not published".
 
 ## Setup
 
@@ -71,9 +117,21 @@ Copy `.env.example` to `.env.local` and fill in, from
 NEXT_PUBLIC_SUPABASE_URL=...
 NEXT_PUBLIC_SUPABASE_ANON_KEY=...
 SUPABASE_SERVICE_ROLE_KEY=...   # server only — never expose to the browser
+STRIPE_SECRET_KEY=...           # server only
+STRIPE_WEBHOOK_SECRET=...       # verifies webhook signatures
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=...
+# Optional upgrades (server only):
+TAVILY_API_KEY=...              # swap the web-search adapter to Tavily
+BRAVE_SEARCH_API_KEY=...        # …or to Brave Search
+OPENAI_API_KEY=...              # future LLM report synthesis (reports are
+                                # currently generated deterministically
+                                # from the database)
 ```
 
-Stripe keys stay as placeholders until Phase 4.
+Stripe subscriptions unlock only via the verified webhook
+(`app/api/stripe/webhook`), never on a browser redirect. Stripe is currently
+in sandbox/test mode until the owner activates the account with business and
+bank details.
 
 ### 3. Run locally
 
@@ -115,6 +173,22 @@ this cadence: discover new brands and refresh opportunities **daily**;
 check broken links **weekly**; recheck contacts and affiliate programs
 **every 30 days**; review compensation reports **on submission and
 monthly**; recalculate scores **when material information changes**.
+
+## Build kit note and known limitations
+
+The AI build kit's starter migration (`001_ultravestra_core.sql`) was **not**
+applied: the live schema in `supabase/schema.sql` already implements that
+model more completely (33 tables), and the starter migration redefines core
+tables (e.g. `brands`) incompatibly. The kit's product requirements were
+implemented in the app layer instead.
+
+Known limitations:
+
+- Live web results depend on the keyless adapter's availability; a paid
+  provider key (Tavily/Brave) is the upgrade path.
+- Ask reports are deterministic database reports, not LLM prose; an LLM
+  synthesis layer can be added behind `OPENAI_API_KEY`.
+- Video Coach analysis is not yet connected (see `/coach`).
 
 ## Roadmap
 
