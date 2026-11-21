@@ -400,56 +400,6 @@
   }
  },
  {
-  "name": "Milani",
-  "website": "https://www.milanicosmetics.com",
-  "country": "United States",
-  "category_slug": "beauty",
-  "description": "Los Angeles drugstore makeup brand known for prestige-grade foundations, blushes and lipsticks at mass prices; it runs an affiliate program listed on Rakuten Advertising with additional access surfaced through other networks.",
-  "contacts": [],
-  "socials": [],
-  "evidence": [
-   {
-    "confidence": "publicly_reported",
-    "evidence_type": "affiliate_program",
-    "source_type": "affiliate_directory",
-    "source_url": "https://getlasso.co/affiliate/milani/",
-    "summary": "Lasso's Milani program page (fetched) records a 3% per sale commission with a 14-day cookie on Rakuten Advertising. Brandid's makeup affiliate roundup (fetched) instead claims Milani pays up to 12% through ShareASale, and aggregator listings show still other figures (2.4%, up to 1.44%), so the published rates conflict and commission_rate is recorded as null with the conflict documented. No earnings-cap statement is published, so the cap is unknown; no creator count is published, so saturation is unknown."
-   }
-  ],
-  "affiliate": {
-   "application_url": "https://getlasso.co/affiliate/milani/",
-   "commission_cap": "unknown",
-   "commission_rate": null,
-   "creator_saturation": "unknown",
-   "network": "Rakuten Advertising",
-   "source_url": "https://getlasso.co/affiliate/milani/"
-  },
-  "opportunity": {
-   "application_url": "https://getlasso.co/affiliate/milani/",
-   "compensation_notes": "Published figures conflict - a detailed listing shows 3% per sale on Rakuten Advertising while a roundup claims up to 12% via ShareASale - so commission_rate is null; confirm the live rate and network inside your account. No cap statement is published.",
-   "description": "Join Milani's affiliate program through Rakuten Advertising, post drugstore-dupe and foundation content, and earn commission on tracked sales at the confirmed rate.",
-   "status": "unverified",
-   "title": "Milani Affiliate Program (Rakuten Advertising)",
-   "type": "affiliate"
-  },
-  "score": {
-   "compensation": 8,
-   "contact_access": 6,
-   "credibility": 4,
-   "niche_fit": 25,
-   "opportunity_availability": 8,
-   "reasons": {
-    "compensation": "A program exists with a documented 3% base listing, but higher ceiling claims elsewhere keep the rate unsettled.",
-    "contact_access": "Network application only; no public creator contact was found on the pages checked.",
-    "credibility": "A long-established US drugstore brand with wide retail distribution, though its affiliate data is messier than peers'.",
-    "niche_fit": "Drugstore makeup and dupe content is a proven UGC category, and Milani's foundations review exceptionally well.",
-    "opportunity_availability": "Open application through the network, with approval requirements around an active content presence.",
-    "ugc_evidence": "Roundups aimed at Latina-focused and drugstore reviewers recommend it, but tracked program data is thinner than for top-tier brands."
-   },
-   "ugc_evidence": 13
-  }
- },
- {
   "name": "Laneige",
   "website": "https://www.laneige.com",
   "country": "South Korea",

@@ -1,1 +1,488 @@
-[{"affiliate":{"application_url":"https://yesim.app/affiliate-program/","commission_cap":"unknown","commission_rate":10,"creator_saturation":"unknown","network":"Brand direct","source_url":"https://yesim.app/affiliate-program/"},"category_slug":"travel","contacts":[],"country":null,"description":"Global eSIM data provider selling prepaid mobile data plans for travellers across 200+ destinations. Its own affiliate page pays a 10% base commission with lifetime attribution across a customer's first, second and recurring purchases, instant payouts once the balance reaches €100, and an explicit pitch to bloggers, creators and influencers; the page says 1,000+ creators already promote it, so saturation is not low, and its 'earn as much as your audience allows' line is not an earnings-cap statement, so the cap stays unknown.","evidence":[{"confidence":"verified","evidence_type":"commission_rate","source_type":"official_program_page","source_url":"https://yesim.app/affiliate-program/","summary":"Yesim's own affiliate page states a 10% base commission with lifetime commissions earned on first, second and recurring purchases, and instant payouts from a €100 balance. No earnings-cap statement appears on the page - 'earn as much as your audience allows' is vague wording, not a cap statement - so commission_cap is recorded as unknown."},{"confidence":"verified","evidence_type":"creator_program","source_type":"official_program_page","source_url":"https://yesim.app/affiliate-program/","summary":"The same page explicitly recruits bloggers, creators and influencers and says 'Join 1000+ bloggers, creators' already promoting Yesim - a four-figure creator count is not low in absolute terms, so creator_saturation stays unknown."}],"name":"Yesim","opportunity":{"application_url":"https://yesim.app/affiliate-program/","source_url":"https://yesim.app/affiliate-program/","title":"Yesim Affiliate Program (Brand direct)"},"score":{"compensation":14,"contact_access":9,"credibility":4,"niche_fit":25,"opportunity_availability":9,"reasons":{"compensation":"10% base with lifetime commissions on recurring purchases and instant payouts from €100 is strong for a digital travel product; brand-published.","contact_access":"Apply on the brand's own page; no public affiliate email was verified.","credibility":"Established global eSIM provider; rate and terms verified on its own page.","niche_fit":"eSIM setup is now standard travel content - arrival-day connectivity, airport and packing-checklist videos all convert on it.","opportunity_availability":"Open application on the brand page.","ugc_evidence":"The brand's own page is built for bloggers, creators and influencers, with lifetime attribution across repeat purchases."},"ugc_evidence":16},"socials":[],"website":"https://yesim.app/"},{"affiliate":{"application_url":"https://www.travala.com/affiliate-program","commission_cap":"unknown","commission_rate":5,"creator_saturation":"unknown","network":"Impact","source_url":"https://www.travala.com/affiliate-program"},"category_slug":"travel","contacts":[],"country":null,"description":"Online travel agency booking hotels, flights, activities and car rentals worldwide, known for crypto-friendly payments. Its own affiliate page routes sign-up through Impact and publishes category rates - 5% on hotels, activities and car rentals, 4% on flights, plus a 0.5% bonus on new-user bookings; the 5% headline category rate is recorded.","evidence":[{"confidence":"verified","evidence_type":"commission_rate","source_type":"official_program_page","source_url":"https://www.travala.com/affiliate-program","summary":"Travala's own affiliate page publishes the rate card - hotels, activities and car rentals at 5%, flights at 4%, plus a 0.5% new-user bonus - and links registration into Impact (app.impact.com). The 5% headline category rate is recorded with the flight rate documented here. No earnings-cap statement appears, so the cap is recorded as unknown."},{"confidence":"verified","evidence_type":"creator_program","source_type":"official_program_page","source_url":"https://www.travala.com/affiliate-program","summary":"The same page presents an open affiliate program for travel publishers and creators with registration handled inside Impact. No creator counts are published, so creator_saturation stays unknown."}],"name":"Travala","opportunity":{"application_url":"https://www.travala.com/affiliate-program","source_url":"https://www.travala.com/affiliate-program","title":"Travala Affiliate Program (Impact)"},"score":{"compensation":11,"contact_access":9,"credibility":4,"niche_fit":24,"opportunity_availability":8,"reasons":{"compensation":"5% on hotels/activities/car rentals (4% flights) applies to high booking values, so absolute payouts are meaningful; brand-published rate card.","contact_access":"Join route is via Impact from the brand page; no public partnerships email was verified.","credibility":"Long-running global OTA; rate card verified on its own page.","niche_fit":"Hotel and flight booking is core travel-creator inventory - destination guides, hotel reviews and itinerary content.","opportunity_availability":"Open Impact program; standard network approval applies.","ugc_evidence":"Open network program presented on the brand's own page; no dedicated creator page was verified beyond it."},"ugc_evidence":13},"socials":[],"website":"https://www.travala.com/"},{"affiliate":{"application_url":"http://travlfi.com/pages/affiliate-program","commission_cap":"unknown","commission_rate":10,"creator_saturation":"unknown","network":"ShareASale","source_url":"http://travlfi.com/pages/affiliate-program"},"category_slug":"travel","contacts":[],"country":null,"description":"Mobile internet service for RVers and travellers - portable hotspots and data plans for life on the road. Its own affiliate page pays 10% on all product sales with a 30-day cookie and a $242 average order, joining through ShareASale or Impact, and the brand separately runs an Ambassador Program aimed at RVers and creators.","evidence":[{"confidence":"verified","evidence_type":"commission_rate","source_type":"official_program_page","source_url":"http://travlfi.com/pages/affiliate-program","summary":"TravlFi's own affiliate page states 10% commission on all product sales, sign-up via ShareASale or Impact, a 30-day cookie and a $242 average order value. No earnings-cap statement appears, so the cap is recorded as unknown."},{"confidence":"verified","evidence_type":"creator_program","source_type":"official_program_page","source_url":"http://travlfi.com/pages/affiliate-program","summary":"The same page sits alongside a separate Ambassador Program explicitly recruiting RVers and travel creators - a defined creator route for the RV-life niche. No creator counts are published, so creator_saturation stays unknown."}],"name":"TravlFi","opportunity":{"application_url":"http://travlfi.com/pages/affiliate-program","source_url":"http://travlfi.com/pages/affiliate-program","title":"TravlFi Affiliate Program (ShareASale / Impact)"},"score":{"compensation":14,"contact_access":9,"credibility":3,"niche_fit":22,"opportunity_availability":9,"reasons":{"compensation":"10% on all product sales against a $242 average order (about $24 per sale) is solid; brand-published.","contact_access":"Apply on the brand's own page into ShareASale or Impact; no public affiliate email was verified.","credibility":"Niche travel-connectivity brand with complete published terms; smaller scale than the big OTAs.","niche_fit":"RV and van-life connectivity is a tight, high-intent niche - road-life creators film their setup constantly.","opportunity_availability":"Open application on the brand page via two networks.","ugc_evidence":"A dedicated Ambassador Program for RVers and creators runs alongside the open affiliate program on the brand's own page."},"ugc_evidence":15},"socials":[],"website":"https://travlfi.com/"},{"affiliate":{"application_url":"https://www.affiliates-directory.com/websites/welcome-pickups","commission_cap":"unknown","commission_rate":8,"creator_saturation":"unknown","network":"Travelpayouts","source_url":"https://www.affiliates-directory.com/websites/welcome-pickups"},"category_slug":"travel","contacts":[],"country":null,"description":"Airport transfer and sightseeing-ride service with professional local drivers in 300+ destinations. Its creator-facing route is the Travelpayouts network offer: 8% on operated airport transfers and 9% on sightseeing rides with a 45-day cookie, paid once rides are actually operated; the brand's separate Ambassador Program is a B2B partner-referral scheme for hotels and agents, not the creator route.","evidence":[{"confidence":"publicly_reported","evidence_type":"commission_rate","source_type":"affiliate_network","source_url":"https://www.affiliates-directory.com/websites/welcome-pickups","summary":"The Travelpayouts offer profile for Welcome Pickups states an 8-9% percentage-of-sale model through Travelpayouts: 8% on operated airport transfers, 9% on sightseeing rides, with rewards tied to rides actually being operated, web bookings only (in-app not rewarded) and no coupon or media-buying promotion. The 8% core-transfer rate is recorded. No earnings-cap statement appears, so the cap is recorded as unknown."},{"confidence":"publicly_reported","evidence_type":"commission_rate","source_type":"affiliate_directory","source_url":"https://travuso.com/guides/best-travel-affiliate-programs","summary":"The travuso travel-program comparison (rates as listed in the Travelpayouts brands directory, November 2026) independently lists Welcome Pickups at 8-9% with a 45-day cookie, joined through Travelpayouts - two sources agree on rate, cookie and network."}],"name":"Welcome Pickups","opportunity":{"application_url":"https://www.affiliates-directory.com/websites/welcome-pickups","source_url":"https://www.affiliates-directory.com/websites/welcome-pickups","title":"Welcome Pickups Affiliate Program (Travelpayouts)"},"score":{"compensation":12,"contact_access":9,"credibility":4,"niche_fit":23,"opportunity_availability":8,"reasons":{"compensation":"8% on transfers (9% sightseeing) with a 45-day cookie is competitive for ground transport; network-reported by two sources.","contact_access":"Join route is via Travelpayouts through the offer profile; no public partnerships email was verified.","credibility":"Established transfer service in 300+ destinations; terms rest on the network offer profile plus an independent comparison.","niche_fit":"Airport-transfer booking is a natural add-on in destination and itinerary content - arrival-day logistics convert well.","opportunity_availability":"Open Travelpayouts offer; standard network approval applies.","ugc_evidence":"Travelpayouts is a creator-first travel network; the offer is documented for travel publishers, though the brand's own ambassador scheme is B2B and excluded from this listing's route."},"ugc_evidence":13},"socials":[],"website":"https://www.welcomepickups.com/"},{"affiliate":{"application_url":"https://www.affiliates-directory.com/websites/kiwi-com","commission_cap":"unknown","commission_rate":3,"creator_saturation":"unknown","network":"Travelpayouts","source_url":"https://www.travelpayouts.com/blog/high-paying-travel-affiliate-programs/"},"category_slug":"travel","contacts":[],"country":null,"description":"Flight, train and bus booking platform known for 'virtual interlining' - combining separate carriers into one itinerary. Through Travelpayouts it pays a flat 3% of the full booking price with a 30-day cookie; the offer's stated average booking is $450 (about $13.50 per booking). The rate is low and the brand's consumer reviews are mixed, which the score reflects.","evidence":[{"confidence":"publicly_reported","evidence_type":"commission_rate","source_type":"affiliate_network","source_url":"https://www.travelpayouts.com/blog/high-paying-travel-affiliate-programs/","summary":"Travelpayouts' own published offer table lists Kiwi.com at '3% of the full booking price' with a 30-day cookie lifetime and an average affiliate reward of €11.10. No earnings-cap statement appears, so the cap is recorded as unknown."},{"confidence":"publicly_reported","evidence_type":"commission_rate","source_type":"affiliate_directory","source_url":"https://www.affiliates-directory.com/websites/kiwi-com","summary":"The Kiwi.com offer profile restates the flat 3% commission calculated on the full price of any booking, an average booking value of $450 (about $13.50 average reward) and coverage of flight, train and bus tickets; Lasso and travuso independently agree on 3% with a 30-day cookie."}],"name":"Kiwi.com","opportunity":{"application_url":"https://www.affiliates-directory.com/websites/kiwi-com","source_url":"https://www.travelpayouts.com/blog/high-paying-travel-affiliate-programs/","title":"Kiwi.com Affiliate Program (Travelpayouts)"},"score":{"compensation":8,"contact_access":9,"credibility":3,"niche_fit":24,"opportunity_availability":8,"reasons":{"compensation":"3% is a low rate, partly offset by the $450 average booking (about $13.50 per booking); network-published with full clarity.","contact_access":"Join route is via Travelpayouts through the offer profile; no public partnerships email was verified.","credibility":"Large, well-known booking platform, but consumer reviews are mixed, which tempers the credibility score.","niche_fit":"Cheap-flight hunting and unusual route combinations are proven travel-content formats with huge search demand.","opportunity_availability":"Open Travelpayouts offer; some brand approvals are selective per the offer profile.","ugc_evidence":"Offer runs through the creator-focused Travelpayouts network; no dedicated creator page was verified."},"ugc_evidence":12},"socials":[],"website":"https://www.kiwi.com/"},{"affiliate":{"application_url":"https://www.xterrafitness.com/affiliate","commission_cap":"unknown","commission_rate":8,"creator_saturation":"unknown","network":"Impact","source_url":"https://www.xterrafitness.com/affiliate"},"category_slug":"fitness","contacts":[],"country":null,"description":"Home fitness equipment brand selling treadmills, exercise bikes, ellipticals and rowers. Its own affiliate page offers 8% commission on referred sales with sign-up through Impact and monthly payouts, and publishes a phone contact (870-336-4286) on the page.","evidence":[{"confidence":"verified","evidence_type":"commission_rate","source_type":"official_program_page","source_url":"https://www.xterrafitness.com/affiliate","summary":"XTERRA Fitness's own affiliate page states an 8% commission on referred sales, sign-up via Impact and monthly payouts. No earnings-cap statement appears, so the cap is recorded as unknown."},{"confidence":"verified","evidence_type":"creator_program","source_type":"official_program_page","source_url":"https://www.xterrafitness.com/affiliate","summary":"The same page presents the open affiliate program and publishes a phone contact (870-336-4286) for the brand. No creator counts are published, so creator_saturation stays unknown."}],"name":"XTERRA Fitness","opportunity":{"application_url":"https://www.xterrafitness.com/affiliate","source_url":"https://www.xterrafitness.com/affiliate","title":"XTERRA Fitness Affiliate Program (Impact)"},"score":{"compensation":12,"contact_access":9,"credibility":4,"niche_fit":22,"opportunity_availability":8,"reasons":{"compensation":"8% on big-ticket equipment (treadmills run into four figures) means meaningful per-sale payouts; brand-published.","contact_access":"Apply via the brand page into Impact; a phone number is published on the page, but no affiliate email was verified.","credibility":"Established home-fitness equipment brand; rate and network verified on its own page.","niche_fit":"Home-gym equipment reviews and setup tours are steady fitness-creator content, especially treadmills and rowers.","opportunity_availability":"Open Impact program; standard network approval applies.","ugc_evidence":"Open network program presented on the brand's own page; no creator-specific program page was verified."},"ugc_evidence":12},"socials":[],"website":"https://www.xterrafitness.com/"},{"affiliate":{"application_url":"https://www.trxtraining.com/pages/affiliates","commission_cap":"unknown","commission_rate":10,"creator_saturation":"unknown","network":"AvantLink","source_url":"https://www.trxtraining.com/pages/affiliates"},"category_slug":"fitness","contacts":[],"country":null,"description":"The original suspension-training brand - straps and home-gym equipment built around bodyweight exercise. Its own affiliate page states commissions starting at 10% on US-based sales, a $200 average order and a 30-day cookie with a dedicated affiliate support team; directories place the program on AvantLink. Older third-party directory figures conflict (5% to much higher ranges), but the brand's own page governs: the base rate is 10%.","evidence":[{"confidence":"verified","evidence_type":"commission_rate","source_type":"official_program_page","source_url":"https://www.trxtraining.com/pages/affiliates","summary":"TRX's own affiliate page states: 'Commissions starting at 10% on US-based Sales', 'Average Order Size of $200', '30-day Cookie Duration' and a 'Dedicated Affiliate Support Team'. The 10% starting rate is recorded as the base. No earnings-cap statement appears, so the cap is recorded as unknown."},{"confidence":"verified","evidence_type":"creator_program","source_type":"official_program_page","source_url":"https://www.trxtraining.com/pages/affiliates","summary":"The same page invites affiliates to 'Join the TRX Team Today' with a dedicated support team; affiliate directories place the program on AvantLink, which is the network recorded. No creator counts are published, so creator_saturation stays unknown."}],"name":"TRX","opportunity":{"application_url":"https://www.trxtraining.com/pages/affiliates","source_url":"https://www.trxtraining.com/pages/affiliates","title":"TRX Affiliate Program (AvantLink)"},"score":{"compensation":14,"contact_access":9,"credibility":5,"niche_fit":26,"opportunity_availability":8,"reasons":{"compensation":"10% starting rate on a $200 average order (about $20 per sale) with a 30-day cookie; brand-published on its own page.","contact_access":"Apply through the brand's own affiliate page; no public partnerships email was verified.","credibility":"Category-defining fitness brand; the governing rate is verified on its own page despite conflicting older directory figures.","niche_fit":"Suspension training is a cornerstone home-workout topic - follow-along routines, form tutorials and travel-friendly workouts.","opportunity_availability":"Open application on the brand page via AvantLink.","ugc_evidence":"Own affiliate page with a dedicated support team; the product is inherently demonstrable on camera."},"ugc_evidence":14},"socials":[],"website":"https://www.trxtraining.com/"},{"affiliate":{"application_url":"https://ui.awin.com/merchant-profile/25763","commission_cap":"unknown","commission_rate":null,"creator_saturation":"unknown","network":"Awin","source_url":"https://ui.awin.com/merchant-profile/25763"},"category_slug":"fitness","contacts":[{"contact_type":"partnerships","contact_url":null,"email":"natasha@wellblum.com","source_url":"https://ui.awin.com/merchant-profile/25763"}],"country":null,"description":"Recovery-technology brand - percussion massage guns, vibrating rollers and heat/compression wearables used by professional athletes. Its Awin merchant profile states only that affiliates 'earn up to 10%', which is a ceiling rather than a base rate, so the rate is recorded as null rather than guessed; the profile names its agency contact at Wellblum.","evidence":[{"confidence":"verified","evidence_type":"affiliate_program","source_type":"affiliate_network","source_url":"https://ui.awin.com/merchant-profile/25763","summary":"Hyperice's Awin merchant profile (merchant ID 25763) confirms the brand runs an affiliate programme on Awin, but states only 'earn up to 10%' - an 'up to' figure is a rate ceiling, not a base rate, so commission_rate is recorded as null rather than guessed, and no earnings-cap statement appears, so the cap stays unknown. The profile names the programme's agency contact as natasha@wellblum.com (Wellblum), which is the contact recorded."}],"name":"Hyperice","opportunity":{"application_url":"https://ui.awin.com/merchant-profile/25763","source_url":"https://ui.awin.com/merchant-profile/25763","title":"Hyperice Affiliate Program (Awin)"},"score":{"compensation":7,"contact_access":11,"credibility":5,"niche_fit":25,"opportunity_availability":8,"reasons":{"compensation":"Only an 'up to 10%' ceiling is published, so the rate is null and compensation scores low until confirmed inside Awin.","contact_access":"A named agency contact email (natasha@wellblum.com) is published on the Awin profile - better than most network-only listings.","credibility":"Category-leading recovery brand used across pro sports; programme existence verified on Awin itself.","niche_fit":"Recovery routines are a core fitness-creator format - warm-up, post-workout and injury-prevention content.","opportunity_availability":"Open Awin programme confirmed on the network profile.","ugc_evidence":"Verified Awin programme from a brand heavily promoted by athletes and creators; no creator-specific program page was verified."},"ugc_evidence":13},"socials":[],"website":"https://hyperice.com/"},{"affiliate":{"application_url":"https://linkclicky.com/affiliate-program/pvolve/","commission_cap":"unknown","commission_rate":8,"creator_saturation":"unknown","network":"Impact","source_url":"https://linkclicky.com/affiliate-program/pvolve/"},"category_slug":"fitness","contacts":[],"country":null,"description":"Low-impact functional fitness brand - streaming workouts plus proprietary sculpting equipment, fronted by high-profile creator partnerships. Its program runs on Impact; the directory listing states the payout as '$15, 8% per sale' - a $15 flat component plus 8% per sale - open to all regions. The 8% percentage is recorded, with the flat component documented in the evidence.","evidence":[{"confidence":"publicly_reported","evidence_type":"commission_rate","source_type":"affiliate_directory","source_url":"https://linkclicky.com/affiliate-program/pvolve/","summary":"The LinkClicky affiliate directory profile for Pvolve (dated March 11, 2024) lists the program on Impact, open to all regions, with commission stated as '$15,8% per sale', and its FAQ repeats: 'The commission rate for Pvolve is $15,8% per sale. This is just what's officially listed with their affiliate program as the payout.' The 8% per-sale rate is recorded and the $15 flat component is documented here. No earnings-cap statement appears, so the cap is recorded as unknown."},{"confidence":"publicly_reported","evidence_type":"commission_rate","source_type":"affiliate_directory","source_url":"https://www.influencerrate.com/affiliate-program/pvolve","summary":"InfluencerRate's Pvolve program guide describes commissions of 'between 5% and 10%' of sale value varying by product type (equipment vs membership), with a 30-day cookie - the recorded 8% sits inside that published range, consistent with a mixed flat-plus-percentage structure across product types."}],"name":"Pvolve","opportunity":{"application_url":"https://linkclicky.com/affiliate-program/pvolve/","source_url":"https://linkclicky.com/affiliate-program/pvolve/","title":"Pvolve Affiliate Program (Impact)"},"score":{"compensation":13,"contact_access":9,"credibility":4,"niche_fit":24,"opportunity_availability":8,"reasons":{"compensation":"8% per sale plus a $15 flat component (per the directory's official listing) is above standard for fitness programs; directory-reported, not brand-page-verified.","contact_access":"Join route is via Impact through the directory profile; no public partnerships email was verified.","credibility":"Well-known fitness brand with celebrity-backed visibility; terms rest on two directory sources that bracket the same rate.","niche_fit":"Low-impact, joint-friendly training is a fast-growing women's fitness niche with strong at-home content demand.","opportunity_availability":"Open Impact program, all regions per the directory profile.","ugc_evidence":"The brand markets heavily through creator partnerships and its program is open to publishers and influencers on Impact."},"ugc_evidence":13},"socials":[],"website":"https://www.pvolve.com/"},{"affiliate":{"application_url":"https://linkclicky.com/affiliate-program/fresh-clean-threads/","commission_cap":"unknown","commission_rate":8,"creator_saturation":"unknown","network":"Impact","source_url":"https://linkclicky.com/affiliate-program/fresh-clean-threads/"},"category_slug":"fashion","contacts":[],"country":null,"description":"Men's basics brand (formerly Fresh Clean Tees) selling fitted tees, polos and essentials, largely by the pack. Its affiliate program runs on Impact at 8% per sale with a 30-day cookie, listed consistently across affiliate directories, and the brand also runs a creator program from its own program page.","evidence":[{"confidence":"publicly_reported","evidence_type":"commission_rate","source_type":"affiliate_directory","source_url":"https://linkclicky.com/affiliate-program/fresh-clean-threads/","summary":"The LinkClicky affiliate directory profile for Fresh Clean Threads (dated March 10, 2024) lists the program on the Impact platform paying 8% per sale. No earnings-cap statement appears, so the cap is recorded as unknown."},{"confidence":"publicly_reported","evidence_type":"commission_rate","source_type":"affiliate_directory","source_url":"https://getlasso.co/affiliate/fresh-clean-tees/","summary":"The Lasso directory profile independently lists Fresh Clean Tees at 8% per sale with a 30-day cookie in the Fashion category, and the BravoDM directory separately confirms a creator program run from the brand's own program page - two directories agree on the 8% rate and the Impact route."}],"name":"Fresh Clean Threads","opportunity":{"application_url":"https://linkclicky.com/affiliate-program/fresh-clean-threads/","source_url":"https://linkclicky.com/affiliate-program/fresh-clean-threads/","title":"Fresh Clean Threads Affiliate Program (Impact)"},"score":{"compensation":12,"contact_access":9,"credibility":4,"niche_fit":25,"opportunity_availability":8,"reasons":{"compensation":"8% per sale with a 30-day cookie is standard-good for apparel basics; directory-reported by two sources.","contact_access":"Join route is via Impact through the directory profiles; no public partnerships email was verified.","credibility":"Established men's basics brand; terms rest on two agreeing directory listings.","niche_fit":"Men's basics are an evergreen fashion-UGC staple - fit checks, pack unboxings and wardrobe-essentials content.","opportunity_availability":"Open Impact program; standard network approval applies.","ugc_evidence":"A creator program is confirmed on the brand's own program page in addition to the open Impact affiliate program."},"ugc_evidence":15},"socials":[],"website":"https://freshcleantees.com/"}]
+[
+ {
+  "affiliate": {
+   "application_url": "https://yesim.app/affiliate-program/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://yesim.app/affiliate-program/"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "Global eSIM data provider selling prepaid mobile data plans for travellers across 200+ destinations. Its own affiliate page pays a 10% base commission with lifetime attribution across a customer's first, second and recurring purchases, instant payouts once the balance reaches €100, and an explicit pitch to bloggers, creators and influencers; the page says 1,000+ creators already promote it, so saturation is not low, and its 'earn as much as your audience allows' line is not an earnings-cap statement, so the cap stays unknown.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://yesim.app/affiliate-program/",
+    "summary": "Yesim's own affiliate page states a 10% base commission with lifetime commissions earned on first, second and recurring purchases, and instant payouts from a €100 balance. No earnings-cap statement appears on the page - 'earn as much as your audience allows' is vague wording, not a cap statement - so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://yesim.app/affiliate-program/",
+    "summary": "The same page explicitly recruits bloggers, creators and influencers and says 'Join 1000+ bloggers, creators' already promoting Yesim - a four-figure creator count is not low in absolute terms, so creator_saturation stays unknown."
+   }
+  ],
+  "name": "Yesim",
+  "opportunity": {
+   "application_url": "https://yesim.app/affiliate-program/",
+   "source_url": "https://yesim.app/affiliate-program/",
+   "title": "Yesim Affiliate Program (Brand direct)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "10% base with lifetime commissions on recurring purchases and instant payouts from €100 is strong for a digital travel product; brand-published.",
+    "contact_access": "Apply on the brand's own page; no public affiliate email was verified.",
+    "credibility": "Established global eSIM provider; rate and terms verified on its own page.",
+    "niche_fit": "eSIM setup is now standard travel content - arrival-day connectivity, airport and packing-checklist videos all convert on it.",
+    "opportunity_availability": "Open application on the brand page.",
+    "ugc_evidence": "The brand's own page is built for bloggers, creators and influencers, with lifetime attribution across repeat purchases."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://yesim.app/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.travala.com/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.travala.com/affiliate-program"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "Online travel agency booking hotels, flights, activities and car rentals worldwide, known for crypto-friendly payments. Its own affiliate page routes sign-up through Impact and publishes category rates - 5% on hotels, activities and car rentals, 4% on flights, plus a 0.5% bonus on new-user bookings; the 5% headline category rate is recorded.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.travala.com/affiliate-program",
+    "summary": "Travala's own affiliate page publishes the rate card - hotels, activities and car rentals at 5%, flights at 4%, plus a 0.5% new-user bonus - and links registration into Impact (app.impact.com). The 5% headline category rate is recorded with the flight rate documented here. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.travala.com/affiliate-program",
+    "summary": "The same page presents an open affiliate program for travel publishers and creators with registration handled inside Impact. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "name": "Travala",
+  "opportunity": {
+   "application_url": "https://www.travala.com/affiliate-program",
+   "source_url": "https://www.travala.com/affiliate-program",
+   "title": "Travala Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "5% on hotels/activities/car rentals (4% flights) applies to high booking values, so absolute payouts are meaningful; brand-published rate card.",
+    "contact_access": "Join route is via Impact from the brand page; no public partnerships email was verified.",
+    "credibility": "Long-running global OTA; rate card verified on its own page.",
+    "niche_fit": "Hotel and flight booking is core travel-creator inventory - destination guides, hotel reviews and itinerary content.",
+    "opportunity_availability": "Open Impact program; standard network approval applies.",
+    "ugc_evidence": "Open network program presented on the brand's own page; no dedicated creator page was verified beyond it."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.travala.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "http://travlfi.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "http://travlfi.com/pages/affiliate-program"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "Mobile internet service for RVers and travellers - portable hotspots and data plans for life on the road. Its own affiliate page pays 10% on all product sales with a 30-day cookie and a $242 average order, joining through ShareASale or Impact, and the brand separately runs an Ambassador Program aimed at RVers and creators.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "http://travlfi.com/pages/affiliate-program",
+    "summary": "TravlFi's own affiliate page states 10% commission on all product sales, sign-up via ShareASale or Impact, a 30-day cookie and a $242 average order value. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "http://travlfi.com/pages/affiliate-program",
+    "summary": "The same page sits alongside a separate Ambassador Program explicitly recruiting RVers and travel creators - a defined creator route for the RV-life niche. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "name": "TravlFi",
+  "opportunity": {
+   "application_url": "http://travlfi.com/pages/affiliate-program",
+   "source_url": "http://travlfi.com/pages/affiliate-program",
+   "title": "TravlFi Affiliate Program (ShareASale / Impact)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 9,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "10% on all product sales against a $242 average order (about $24 per sale) is solid; brand-published.",
+    "contact_access": "Apply on the brand's own page into ShareASale or Impact; no public affiliate email was verified.",
+    "credibility": "Niche travel-connectivity brand with complete published terms; smaller scale than the big OTAs.",
+    "niche_fit": "RV and van-life connectivity is a tight, high-intent niche - road-life creators film their setup constantly.",
+    "opportunity_availability": "Open application on the brand page via two networks.",
+    "ugc_evidence": "A dedicated Ambassador Program for RVers and creators runs alongside the open affiliate program on the brand's own page."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://travlfi.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.affiliates-directory.com/websites/welcome-pickups",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Travelpayouts",
+   "source_url": "https://www.affiliates-directory.com/websites/welcome-pickups"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "Airport transfer and sightseeing-ride service with professional local drivers in 300+ destinations. Its creator-facing route is the Travelpayouts network offer: 8% on operated airport transfers and 9% on sightseeing rides with a 45-day cookie, paid once rides are actually operated; the brand's separate Ambassador Program is a B2B partner-referral scheme for hotels and agents, not the creator route.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affiliates-directory.com/websites/welcome-pickups",
+    "summary": "The Travelpayouts offer profile for Welcome Pickups states an 8-9% percentage-of-sale model through Travelpayouts: 8% on operated airport transfers, 9% on sightseeing rides, with rewards tied to rides actually being operated, web bookings only (in-app not rewarded) and no coupon or media-buying promotion. The 8% core-transfer rate is recorded. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://travuso.com/guides/best-travel-affiliate-programs",
+    "summary": "The travuso travel-program comparison (rates as listed in the Travelpayouts brands directory, November 2026) independently lists Welcome Pickups at 8-9% with a 45-day cookie, joined through Travelpayouts - two sources agree on rate, cookie and network."
+   }
+  ],
+  "name": "Welcome Pickups",
+  "opportunity": {
+   "application_url": "https://www.affiliates-directory.com/websites/welcome-pickups",
+   "source_url": "https://www.affiliates-directory.com/websites/welcome-pickups",
+   "title": "Welcome Pickups Affiliate Program (Travelpayouts)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "8% on transfers (9% sightseeing) with a 45-day cookie is competitive for ground transport; network-reported by two sources.",
+    "contact_access": "Join route is via Travelpayouts through the offer profile; no public partnerships email was verified.",
+    "credibility": "Established transfer service in 300+ destinations; terms rest on the network offer profile plus an independent comparison.",
+    "niche_fit": "Airport-transfer booking is a natural add-on in destination and itinerary content - arrival-day logistics convert well.",
+    "opportunity_availability": "Open Travelpayouts offer; standard network approval applies.",
+    "ugc_evidence": "Travelpayouts is a creator-first travel network; the offer is documented for travel publishers, though the brand's own ambassador scheme is B2B and excluded from this listing's route."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.welcomepickups.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.affiliates-directory.com/websites/kiwi-com",
+   "commission_cap": "unknown",
+   "commission_rate": 3,
+   "creator_saturation": "unknown",
+   "network": "Travelpayouts",
+   "source_url": "https://www.travelpayouts.com/blog/high-paying-travel-affiliate-programs/"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "Flight, train and bus booking platform known for 'virtual interlining' - combining separate carriers into one itinerary. Through Travelpayouts it pays a flat 3% of the full booking price with a 30-day cookie; the offer's stated average booking is $450 (about $13.50 per booking). The rate is low and the brand's consumer reviews are mixed, which the score reflects.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/high-paying-travel-affiliate-programs/",
+    "summary": "Travelpayouts' own published offer table lists Kiwi.com at '3% of the full booking price' with a 30-day cookie lifetime and an average affiliate reward of €11.10. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affiliates-directory.com/websites/kiwi-com",
+    "summary": "The Kiwi.com offer profile restates the flat 3% commission calculated on the full price of any booking, an average booking value of $450 (about $13.50 average reward) and coverage of flight, train and bus tickets; Lasso and travuso independently agree on 3% with a 30-day cookie."
+   }
+  ],
+  "name": "Kiwi.com",
+  "opportunity": {
+   "application_url": "https://www.affiliates-directory.com/websites/kiwi-com",
+   "source_url": "https://www.travelpayouts.com/blog/high-paying-travel-affiliate-programs/",
+   "title": "Kiwi.com Affiliate Program (Travelpayouts)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 9,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "3% is a low rate, partly offset by the $450 average booking (about $13.50 per booking); network-published with full clarity.",
+    "contact_access": "Join route is via Travelpayouts through the offer profile; no public partnerships email was verified.",
+    "credibility": "Large, well-known booking platform, but consumer reviews are mixed, which tempers the credibility score.",
+    "niche_fit": "Cheap-flight hunting and unusual route combinations are proven travel-content formats with huge search demand.",
+    "opportunity_availability": "Open Travelpayouts offer; some brand approvals are selective per the offer profile.",
+    "ugc_evidence": "Offer runs through the creator-focused Travelpayouts network; no dedicated creator page was verified."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.kiwi.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.xterrafitness.com/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.xterrafitness.com/affiliate"
+  },
+  "category_slug": "fitness",
+  "contacts": [],
+  "country": null,
+  "description": "Home fitness equipment brand selling treadmills, exercise bikes, ellipticals and rowers. Its own affiliate page offers 8% commission on referred sales with sign-up through Impact and monthly payouts, and publishes a phone contact (870-336-4286) on the page.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.xterrafitness.com/affiliate",
+    "summary": "XTERRA Fitness's own affiliate page states an 8% commission on referred sales, sign-up via Impact and monthly payouts. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.xterrafitness.com/affiliate",
+    "summary": "The same page presents the open affiliate program and publishes a phone contact (870-336-4286) for the brand. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "name": "XTERRA Fitness",
+  "opportunity": {
+   "application_url": "https://www.xterrafitness.com/affiliate",
+   "source_url": "https://www.xterrafitness.com/affiliate",
+   "title": "XTERRA Fitness Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "8% on big-ticket equipment (treadmills run into four figures) means meaningful per-sale payouts; brand-published.",
+    "contact_access": "Apply via the brand page into Impact; a phone number is published on the page, but no affiliate email was verified.",
+    "credibility": "Established home-fitness equipment brand; rate and network verified on its own page.",
+    "niche_fit": "Home-gym equipment reviews and setup tours are steady fitness-creator content, especially treadmills and rowers.",
+    "opportunity_availability": "Open Impact program; standard network approval applies.",
+    "ugc_evidence": "Open network program presented on the brand's own page; no creator-specific program page was verified."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.xterrafitness.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/25763",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/25763"
+  },
+  "category_slug": "fitness",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "natasha@wellblum.com",
+    "source_url": "https://ui.awin.com/merchant-profile/25763"
+   }
+  ],
+  "country": null,
+  "description": "Recovery-technology brand - percussion massage guns, vibrating rollers and heat/compression wearables used by professional athletes. Its Awin merchant profile states only that affiliates 'earn up to 10%', which is a ceiling rather than a base rate, so the rate is recorded as null rather than guessed; the profile names its agency contact at Wellblum.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/25763",
+    "summary": "Hyperice's Awin merchant profile (merchant ID 25763) confirms the brand runs an affiliate programme on Awin, but states only 'earn up to 10%' - an 'up to' figure is a rate ceiling, not a base rate, so commission_rate is recorded as null rather than guessed, and no earnings-cap statement appears, so the cap stays unknown. The profile names the programme's agency contact as natasha@wellblum.com (Wellblum), which is the contact recorded."
+   }
+  ],
+  "name": "Hyperice",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/25763",
+   "source_url": "https://ui.awin.com/merchant-profile/25763",
+   "title": "Hyperice Affiliate Program (Awin)"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 11,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Only an 'up to 10%' ceiling is published, so the rate is null and compensation scores low until confirmed inside Awin.",
+    "contact_access": "A named agency contact email (natasha@wellblum.com) is published on the Awin profile - better than most network-only listings.",
+    "credibility": "Category-leading recovery brand used across pro sports; programme existence verified on Awin itself.",
+    "niche_fit": "Recovery routines are a core fitness-creator format - warm-up, post-workout and injury-prevention content.",
+    "opportunity_availability": "Open Awin programme confirmed on the network profile.",
+    "ugc_evidence": "Verified Awin programme from a brand heavily promoted by athletes and creators; no creator-specific program page was verified."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://hyperice.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/pvolve/",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/pvolve/"
+  },
+  "category_slug": "fitness",
+  "contacts": [],
+  "country": null,
+  "description": "Low-impact functional fitness brand - streaming workouts plus proprietary sculpting equipment, fronted by high-profile creator partnerships. Its program runs on Impact; the directory listing states the payout as '$15, 8% per sale' - a $15 flat component plus 8% per sale - open to all regions. The 8% percentage is recorded, with the flat component documented in the evidence.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/pvolve/",
+    "summary": "The LinkClicky affiliate directory profile for Pvolve (dated March 11, 2024) lists the program on Impact, open to all regions, with commission stated as '$15,8% per sale', and its FAQ repeats: 'The commission rate for Pvolve is $15,8% per sale. This is just what's officially listed with their affiliate program as the payout.' The 8% per-sale rate is recorded and the $15 flat component is documented here. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.influencerrate.com/affiliate-program/pvolve",
+    "summary": "InfluencerRate's Pvolve program guide describes commissions of 'between 5% and 10%' of sale value varying by product type (equipment vs membership), with a 30-day cookie - the recorded 8% sits inside that published range, consistent with a mixed flat-plus-percentage structure across product types."
+   }
+  ],
+  "name": "Pvolve",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/pvolve/",
+   "source_url": "https://linkclicky.com/affiliate-program/pvolve/",
+   "title": "Pvolve Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "8% per sale plus a $15 flat component (per the directory's official listing) is above standard for fitness programs; directory-reported, not brand-page-verified.",
+    "contact_access": "Join route is via Impact through the directory profile; no public partnerships email was verified.",
+    "credibility": "Well-known fitness brand with celebrity-backed visibility; terms rest on two directory sources that bracket the same rate.",
+    "niche_fit": "Low-impact, joint-friendly training is a fast-growing women's fitness niche with strong at-home content demand.",
+    "opportunity_availability": "Open Impact program, all regions per the directory profile.",
+    "ugc_evidence": "The brand markets heavily through creator partnerships and its program is open to publishers and influencers on Impact."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.pvolve.com/"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/fresh-clean-threads/",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/fresh-clean-threads/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": null,
+  "description": "Men's basics brand (formerly Fresh Clean Tees) selling fitted tees, polos and essentials, largely by the pack. Its affiliate program runs on Impact at 8% per sale with a 30-day cookie, listed consistently across affiliate directories, and the brand also runs a creator program from its own program page.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/fresh-clean-threads/",
+    "summary": "The LinkClicky affiliate directory profile for Fresh Clean Threads (dated March 10, 2024) lists the program on the Impact platform paying 8% per sale. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/fresh-clean-tees/",
+    "summary": "The Lasso directory profile independently lists Fresh Clean Tees at 8% per sale with a 30-day cookie in the Fashion category, and the BravoDM directory separately confirms a creator program run from the brand's own program page - two directories agree on the 8% rate and the Impact route."
+   }
+  ],
+  "name": "Fresh Clean Threads",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/fresh-clean-threads/",
+   "source_url": "https://linkclicky.com/affiliate-program/fresh-clean-threads/",
+   "title": "Fresh Clean Threads Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "8% per sale with a 30-day cookie is standard-good for apparel basics; directory-reported by two sources.",
+    "contact_access": "Join route is via Impact through the directory profiles; no public partnerships email was verified.",
+    "credibility": "Established men's basics brand; terms rest on two agreeing directory listings.",
+    "niche_fit": "Men's basics are an evergreen fashion-UGC staple - fit checks, pack unboxings and wardrobe-essentials content.",
+    "opportunity_availability": "Open Impact program; standard network approval applies.",
+    "ugc_evidence": "A creator program is confirmed on the brand's own program page in addition to the open Impact affiliate program."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://freshcleantees.com/"
+ }
+]

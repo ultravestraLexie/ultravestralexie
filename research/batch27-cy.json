@@ -1,1 +1,425 @@
-[{"affiliate":{"application_url":"https://www.sakara.com/pages/ambassadors","commission_cap":"uncapped","commission_rate":null,"creator_saturation":"unknown","network":"brand direct","source_url":"https://www.sakara.com/pages/ambassadors"},"category_slug":"food-drink","contacts":[],"country":"United States","description":"Sakara is a US plant-based meal-delivery and wellness brand whose Sakara Circle ambassador program pays commission on new-client referrals through a unique code and link, with total earnings stated as unlimited.","evidence":[{"confidence":"verified","evidence_type":"affiliate_program","source_type":"brand_website","source_url":"https://www.sakara.com/pages/ambassadors","summary":"Sakara's own ambassadors page (the Sakara Circle program), fetched first-hand, states: 'For each new client referral, you'll receive a commission (total earnings for which are unlimited), and paid out monthly'; members receive a unique code and link, and referrals get 20% off their first purchase. The explicit statement that total earnings are unlimited is an earnings-cap statement, so commission_cap is recorded as uncapped. The page publishes no commission percentage, so commission_rate is null. The program is a curated community of wellness experts and publishes no creator-count data, so creator_saturation is unknown."}],"name":"Sakara","opportunity":{"application_url":"https://www.sakara.com/pages/ambassadors","source_url":"https://www.sakara.com/pages/ambassadors","title":"Sakara Circle Ambassador Program"},"score":{"compensation":13,"contact_access":7,"credibility":5,"niche_fit":26,"opportunity_availability":8,"reasons":{"compensation":"Earnings are explicitly unlimited on the brand's own page, but no commission percentage is published, so no rate can be recorded.","contact_access":"Application runs through the brand's own ambassadors page; no public partnerships email was published on the fetched page.","credibility":"A well-known premium US wellness brand with national meal-delivery distribution and a long operating history.","niche_fit":"Plant-based meals, cleanses and wellness products are highly demonstrable staples for food, health and wellness-routine creators.","opportunity_availability":"Program is live from the brand page, but membership is a curated community, so entry is application-based rather than instant.","ugc_evidence":"A named ambassador program (Sakara Circle) with unique codes and links built for a community of wellness creators and experts."},"ugc_evidence":15},"socials":[],"website":"https://www.sakara.com"},{"affiliate":{"application_url":"https://mitoredlight.com/pages/community","commission_cap":"unknown","commission_rate":10,"creator_saturation":"unknown","network":"Social Snowball","source_url":"https://mitoredlight.com/pages/affiliate-program-agreement"},"category_slug":"health","contacts":[{"contact_type":"general","contact_url":null,"email":"info@mitoredlight.com","source_url":"https://mitoredlight.com/pages/affiliate-program-agreement"}],"country":"United States","description":"Mito Red Light is a US red-light therapy brand selling light devices and skincare, with a published affiliate agreement paying 10% on devices and 20% on skincare and explicit eligibility for content creators.","evidence":[{"confidence":"verified","evidence_type":"affiliate_program","source_type":"brand_website","source_url":"https://mitoredlight.com/pages/affiliate-program-agreement","summary":"Mito Red Light's own affiliate program agreement, fetched first-hand, publishes 10% commission on devices and 20% on skincare (the 10% base device rate is recorded), a 7-day cookie, a $200 minimum payout requiring at least two sales (one not a self-purchase), monthly payouts via PayPal or ACH, a dashboard via Social Snowball, and eligibility that explicitly includes content creators (UGC and influencers); applications run through the brand's community page, and the site publishes the contact email info@mitoredlight.com. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"Mito Red Light","opportunity":{"application_url":"https://mitoredlight.com/pages/community","source_url":"https://mitoredlight.com/pages/affiliate-program-agreement","title":"Mito Red Light Affiliate Program"},"score":{"compensation":16,"contact_access":8,"credibility":4,"niche_fit":24,"opportunity_availability":9,"reasons":{"compensation":"Published rates in the brand's own agreement: 10% on devices and 20% on skincare, paid monthly; the $200 minimum payout and 7-day cookie temper the headline rate.","contact_access":"A published brand contact email plus an application route through the brand's community page.","credibility":"An established specialist red-light therapy brand with a published legal agreement for its program.","niche_fit":"Red-light therapy devices are visual, routine-based products that fit biohacking, recovery, skincare and wellness creators.","opportunity_availability":"Program is live and open to apply now through the brand's community page.","ugc_evidence":"The agreement explicitly names content creators (UGC and influencers) as eligible affiliates."},"ugc_evidence":13},"socials":[],"website":"https://mitoredlight.com"},{"affiliate":{"application_url":"https://getlasso.co/affiliate/hu-kitchen/","commission_cap":"unknown","commission_rate":10,"creator_saturation":"unknown","network":"ShareASale","source_url":"https://getlasso.co/affiliate/hu-kitchen/"},"category_slug":"food-drink","contacts":[],"country":"United States","description":"Hu Kitchen (Hu) is a US clean-ingredient snack brand known for paleo-inspired chocolate, nut butters and bars, running an affiliate program on ShareASale at a reported 10% commission.","evidence":[{"confidence":"publicly_reported","evidence_type":"affiliate_program","source_type":"affiliate_directory","source_url":"https://getlasso.co/affiliate/hu-kitchen/","summary":"Hu Kitchen's affiliate program is reported consistently across multiple third-party program roundups (Lasso's dedicated program page and its keto, food, paleo and coffee roundups): 10% commission per sale on ShareASale, a 30-day cookie and a $50 payout threshold; commission.academy independently corroborates the 10% rate. Older sources also mention Rakuten Advertising and Impact historically, and Shopper reports a 5-10% range, so the entry is marked publicly_reported rather than verified, with ShareASale recorded as the current network per the most consistent reporting. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"Hu Kitchen","opportunity":{"application_url":"https://getlasso.co/affiliate/hu-kitchen/","source_url":"https://getlasso.co/affiliate/hu-kitchen/","title":"Hu Kitchen Affiliate Program"},"score":{"compensation":13,"contact_access":6,"credibility":5,"niche_fit":24,"opportunity_availability":9,"reasons":{"compensation":"10% commission with a 30-day cookie reported consistently across multiple program roundups; no cap statement, so the cap is unknown.","contact_access":"Joining runs through the ShareASale network listing; no public partnerships email was verified.","credibility":"A major national clean-snacking brand with wide grocery distribution and a long track record.","niche_fit":"Chocolate and clean-ingredient snacks are everyday, highly shareable products for food, paleo, keto and vegan creators.","opportunity_availability":"Program is live on ShareASale and joinable now.","ugc_evidence":"Roundups describe banner and social creative support and suitability for social media influencers, though no brand-run creator program page was verified."},"ugc_evidence":11},"socials":[],"website":"https://hukitchen.com"},{"affiliate":{"application_url":"https://linkclicky.com/affiliate-program/kosterina/","commission_cap":"unknown","commission_rate":10,"creator_saturation":"unknown","network":"ShareASale","source_url":"https://linkclicky.com/affiliate-program/kosterina/"},"category_slug":"food-drink","contacts":[],"country":"United States","description":"Kosterina is a US Greek-inspired food brand selling early-harvest extra virgin olive oil and Mediterranean pantry products, with an affiliate program on ShareASale at a reported 10% commission.","evidence":[{"confidence":"publicly_reported","evidence_type":"affiliate_program","source_type":"affiliate_directory","source_url":"https://linkclicky.com/affiliate-program/kosterina/","summary":"Kosterina's affiliate program is listed by LinkClicky (March 2024) on ShareASale at 10% commission per sale with a 30-day cookie, and live ShareASale tracking parameters appear on the brand's own product pages, corroborating an active ShareASale program. Shopper's conflicting 7.98% figure is disregarded as an unreliable blended estimate. The entry is marked publicly_reported. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"Kosterina","opportunity":{"application_url":"https://linkclicky.com/affiliate-program/kosterina/","source_url":"https://linkclicky.com/affiliate-program/kosterina/","title":"Kosterina Affiliate Program"},"score":{"compensation":13,"contact_access":6,"credibility":4,"niche_fit":22,"opportunity_availability":9,"reasons":{"compensation":"10% commission with a 30-day cookie reported for the ShareASale program; no cap statement, so the cap is unknown.","contact_access":"Joining runs through the ShareASale network; no public partnerships email was verified.","credibility":"A founded-in-2016 premium food brand with national retail presence and a clear single-origin story.","niche_fit":"Premium olive oil and Mediterranean pantry staples fit cooking, recipe and Mediterranean-diet creators well.","opportunity_availability":"Program is live on ShareASale and joinable now.","ugc_evidence":"The program is an open network affiliate program; creator-specific recruitment beyond it was not verified."},"ugc_evidence":10},"socials":[],"website":"https://kosterina.com"},{"affiliate":{"application_url":"https://www.drinkbrez.com/pages/affiliate-agreement","commission_cap":"unknown","commission_rate":null,"creator_saturation":"unknown","network":"brand direct","source_url":"https://www.drinkbrez.com/pages/affiliate-agreement"},"category_slug":"food-drink","contacts":[],"country":"United States","description":"BRĒZ is a US functional beverage brand selling adaptogen and mushroom drinks, with an approval-based affiliate program set out in its own published affiliate agreement; no commission rate is published.","evidence":[{"confidence":"verified","evidence_type":"affiliate_program","source_type":"brand_website","source_url":"https://www.drinkbrez.com/pages/affiliate-agreement","summary":"BRĒZ's own published Affiliate Agreement, fetched first-hand, sets out a real, approval-based affiliate program administered with a third-party program manager, with tracked referral links/codes and commission on referred sales. The agreement publishes no commission percentage, so commission_rate is null. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"BRĒZ","opportunity":{"application_url":"https://www.drinkbrez.com/pages/affiliate-agreement","source_url":"https://www.drinkbrez.com/pages/affiliate-agreement","title":"BRĒZ Affiliate Program"},"score":{"compensation":8,"contact_access":6,"credibility":3,"niche_fit":23,"opportunity_availability":8,"reasons":{"compensation":"A commission-paying program is confirmed in the brand's own agreement, but no rate is published, so no rate is recorded.","contact_access":"The program runs through the brand's published agreement and program manager; no public partnerships email was verified.","credibility":"A young, fast-growing functional beverage brand; shorter track record than the category leaders.","niche_fit":"Alcohol-alternative functional drinks are a strong fit for sober-curious, wellness and social-occasion creators.","opportunity_availability":"Program is live but approval-based rather than open instant sign-up.","ugc_evidence":"A social-first brand with a formal affiliate agreement aimed at promoters who create content around the product."},"ugc_evidence":14},"socials":[],"website":"https://www.drinkbrez.com"},{"affiliate":{"application_url":"https://linkclicky.com/affiliate-program/cornbread-hemp/","commission_cap":"unknown","commission_rate":null,"creator_saturation":"unknown","network":"Impact","source_url":"https://affroom.com/blog/best-cbd-affiliate-programs/"},"category_slug":"health","contacts":[],"country":"United States","description":"Cornbread Hemp is a US CBD brand making USDA-certified organic, Kentucky-grown, flower-only hemp products, with an affiliate program listed on Impact; published rates conflict, so no rate is recorded.","evidence":[{"confidence":"publicly_reported","evidence_type":"affiliate_program","source_type":"affiliate_directory","source_url":"https://affroom.com/blog/best-cbd-affiliate-programs/","summary":"Cornbread Hemp's affiliate program is listed by LinkClicky (March 2024) as officially listed on Impact at 20% per sale, and Lasso and Shopper also report 20%; however AffRoom's September 2026 roundup, checked against brand pages, reports the program 'from 15%' on a 90-day cookie through RevOffers. Because the published rates (20% vs from 15%) and routes (Impact vs RevOffers) conflict, commission_rate is null with the conflict documented here, and the network is recorded as Impact per the network listing. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"Cornbread Hemp","opportunity":{"application_url":"https://linkclicky.com/affiliate-program/cornbread-hemp/","source_url":"https://affroom.com/blog/best-cbd-affiliate-programs/","title":"Cornbread Hemp Affiliate Program"},"score":{"compensation":10,"contact_access":6,"credibility":4,"niche_fit":22,"opportunity_availability":9,"reasons":{"compensation":"Rates are reported at 20% and from 15% by different sources and cannot be reconciled, so no rate is recorded; the 90-day cookie reported by AffRoom is a plus.","contact_access":"Joining runs through the network listing; no public partnerships email was verified.","credibility":"USDA-certified organic, Kentucky-grown hemp with a flower-only extraction story and an established retail footprint.","niche_fit":"CBD oils and gummies for calm and sleep fit wellness and health creators, with a distinctive organic-certification angle.","opportunity_availability":"Program is live and listed for application now.","ugc_evidence":"An active network-listed program aimed at health and wellness publishers; creator-specific perks were not verified."},"ugc_evidence":11},"socials":[],"website":"https://www.cornbreadhemp.com"},{"affiliate":{"application_url":"https://ui.awin.com/merchant-profile/63394","commission_cap":"unknown","commission_rate":6,"creator_saturation":"unknown","network":"Awin","source_url":"https://ui.awin.com/merchant-profile/63394"},"category_slug":"wellness","contacts":[],"country":"United States","description":"Sunlighten is a US infrared sauna and red-light brand whose Awin merchant profile publishes 6% commission on sauna, red light panel and accessory costs, with high average order values.","evidence":[{"confidence":"verified","evidence_type":"affiliate_program","source_type":"network_profile","source_url":"https://ui.awin.com/merchant-profile/63394","summary":"Sunlighten's official Awin merchant profile (63394), fetched first-hand, states 'Commissions offered: 6% on sauna, red light panel and accessory cost' and publishes high average sale values ($1,599 for the red light panel and $2,800 for the portable sauna), so the published 6% rate on high-ticket wellness products is recorded. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"Sunlighten","opportunity":{"application_url":"https://ui.awin.com/merchant-profile/63394","source_url":"https://ui.awin.com/merchant-profile/63394","title":"Sunlighten Affiliate Program (Awin)"},"score":{"compensation":11,"contact_access":6,"credibility":5,"niche_fit":22,"opportunity_availability":9,"reasons":{"compensation":"6% is a modest percentage, but it applies to high-ticket products with average sales of $1,599-$2,800 per the Awin profile; no cap statement, so the cap is unknown.","contact_access":"Joining runs through the Awin merchant profile; no public partnerships email was published on the profile.","credibility":"The best-known name in infrared saunas, with a long operating history and clinical-wellness positioning.","niche_fit":"Home saunas and red-light panels are aspirational, routine-based products for wellness, recovery and home-spa creators.","opportunity_availability":"Program is live on Awin and joinable now.","ugc_evidence":"An open network program on Awin; creator-specific recruitment beyond the listing was not verified."},"ugc_evidence":10},"socials":[],"website":"https://www.sunlighten.com"},{"affiliate":{"application_url":"https://www.lumen.me/affiliates","commission_cap":"unknown","commission_rate":null,"creator_saturation":"unknown","network":"Impact","source_url":"https://www.lumen.me/affiliates"},"category_slug":"health","contacts":[],"country":"Israel","description":"Lumen is the maker of the first hand-held metabolism tracker with a companion nutrition app, running an affiliate program through Impact that pays commission on all product sales; the brand publishes no rate.","evidence":[{"confidence":"verified","evidence_type":"affiliate_program","source_type":"brand_website","source_url":"https://www.lumen.me/affiliates","summary":"Lumen's own affiliate program page, fetched first-hand, confirms the program: affiliates earn commission on all Lumen product sales directed from their site, blog and social channels, sign-up is free, partnerships are available worldwide, top performers receive extra monthly performance incentives, and the Apply Now route runs through Impact. The brand publishes no commission rate, and third-party figures conflict (Shopper reports 5%; Lasso reports a flat $10-$50 per sale), so commission_rate is null with the conflict documented here. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"Lumen","opportunity":{"application_url":"https://www.lumen.me/affiliates","source_url":"https://www.lumen.me/affiliates","title":"Lumen Affiliate Program"},"score":{"compensation":9,"contact_access":7,"credibility":4,"niche_fit":23,"opportunity_availability":9,"reasons":{"compensation":"Commission on all product sales plus performance incentives is confirmed on the brand page, but the brand publishes no rate and third-party figures conflict, so no rate is recorded.","contact_access":"Application runs from the brand's own affiliates page into Impact; no public partnerships email was published on the fetched page.","credibility":"The category-defining at-home metabolism tracker, science-backed and sold worldwide.","niche_fit":"A breath-based metabolism device is a novel, demonstrable product for biohacking, nutrition and weight-management creators.","opportunity_availability":"Program is live, free to join and open to partners worldwide.","ugc_evidence":"The brand page explicitly recruits affiliates across blogs, sites and social channels with earnings support and news."},"ugc_evidence":12},"socials":[],"website":"https://www.lumen.me"},{"affiliate":{"application_url":"https://www.offthefarm.com/pages/register-affiliate-account","commission_cap":"unknown","commission_rate":null,"creator_saturation":"unknown","network":"brand direct","source_url":"https://www.offthefarm.com/pages/register-affiliate-account"},"category_slug":"food-drink","contacts":[],"country":"United States","description":"Off The Farm is a US protein-bar brand running a commission-based affiliate program from its own site, paying a percentage of every qualified sale referred through an affiliate link; no rate is published.","evidence":[{"confidence":"verified","evidence_type":"affiliate_program","source_type":"brand_website","source_url":"https://www.offthefarm.com/pages/register-affiliate-account","summary":"Off The Farm's own Become an Affiliate page, fetched first-hand, states its affiliate program 'is a commission-based referral program, allowing you to earn a percentage of every qualified sale you refer to OffTheFarm.com through your unique affiliate link', with enrollment from the same page. The brand publishes no percentage and names no network, so commission_rate is null and the route is recorded as brand direct. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"Off The Farm","opportunity":{"application_url":"https://www.offthefarm.com/pages/register-affiliate-account","source_url":"https://www.offthefarm.com/pages/register-affiliate-account","title":"Off The Farm Affiliate Program"},"score":{"compensation":9,"contact_access":6,"credibility":3,"niche_fit":22,"opportunity_availability":9,"reasons":{"compensation":"A percentage-of-sales commission is confirmed on the brand's own page, but no rate is published, so no rate is recorded.","contact_access":"Enrollment runs from the brand's own affiliate page; no public partnerships email was published on the fetched page.","credibility":"A smaller, independent US protein-bar brand with a narrower track record than the category leaders.","niche_fit":"Protein bars are a staple, highly demonstrable product for fitness, nutrition and snack-review creators.","opportunity_availability":"Program is live with open enrollment from the brand page.","ugc_evidence":"A live brand-run affiliate program with a link-based model; creator-specific perks beyond commission are not detailed."},"ugc_evidence":10},"socials":[],"website":"https://www.offthefarm.com"},{"affiliate":{"application_url":"https://www.bistromd.com/pages/affiliate","commission_cap":"unknown","commission_rate":null,"creator_saturation":"unknown","network":"Impact","source_url":"https://www.bistromd.com/pages/affiliate"},"category_slug":"food-drink","contacts":[],"country":"United States","description":"BistroMD is a US doctor-designed, chef-prepared weight-loss meal delivery service running an affiliate program through Impact that explicitly recruits bloggers, content creators and influencers.","evidence":[{"confidence":"verified","evidence_type":"affiliate_program","source_type":"brand_website","source_url":"https://www.bistromd.com/pages/affiliate","summary":"BistroMD's own affiliate program page, fetched first-hand, invites partners to 'earn commissions by promoting bistroMD products' and names diet review websites, fitness and wellness websites, bloggers, content creators and influencers as ideal partners, with the join route running through Impact. The brand page publishes no payout figure; third-party sources attribute a flat $20 per sale to the program (LinkClicky, March 2024; LinkWhisper, describing the brand's landing page), while Lasso reports $36 per sale, so the payout is a flat bounty with conflicting reports and commission_rate is null with the conflict documented here. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."}],"name":"BistroMD","opportunity":{"application_url":"https://www.bistromd.com/pages/affiliate","source_url":"https://www.bistromd.com/pages/affiliate","title":"BistroMD Affiliate Program"},"score":{"compensation":11,"contact_access":6,"credibility":5,"niche_fit":23,"opportunity_availability":9,"reasons":{"compensation":"Third parties attribute a flat $20-per-sale bounty to the program via Impact, but Lasso reports $36, so no figure is recorded as the rate; flat pay on a high-ticket meal plan is still meaningful.","contact_access":"Application runs from the brand's own affiliate page into Impact; no public partnerships email was published on the fetched page.","credibility":"A long-running, doctor-designed meal-delivery brand and one of the best-known names in weight-loss meal delivery.","niche_fit":"Doctor-designed weight-loss meals are a natural fit for weight-loss, nutrition, fitness and wellness creators.","opportunity_availability":"Program is live and described by the brand as quickly expanding, with joining open now.","ugc_evidence":"The brand page explicitly recruits bloggers, content creators and influencers, and third parties report creative assets for partners."},"ugc_evidence":13},"socials":[],"website":"https://www.bistromd.com"}]
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.sakara.com/pages/ambassadors",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "brand direct",
+   "source_url": "https://www.sakara.com/pages/ambassadors"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Sakara is a US plant-based meal-delivery and wellness brand whose Sakara Circle ambassador program pays commission on new-client referrals through a unique code and link, with total earnings stated as unlimited.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.sakara.com/pages/ambassadors",
+    "summary": "Sakara's own ambassadors page (the Sakara Circle program), fetched first-hand, states: 'For each new client referral, you'll receive a commission (total earnings for which are unlimited), and paid out monthly'; members receive a unique code and link, and referrals get 20% off their first purchase. The explicit statement that total earnings are unlimited is an earnings-cap statement, so commission_cap is recorded as uncapped. The page publishes no commission percentage, so commission_rate is null. The program is a curated community of wellness experts and publishes no creator-count data, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Sakara",
+  "opportunity": {
+   "application_url": "https://www.sakara.com/pages/ambassadors",
+   "source_url": "https://www.sakara.com/pages/ambassadors",
+   "title": "Sakara Circle Ambassador Program"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 7,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Earnings are explicitly unlimited on the brand's own page, but no commission percentage is published, so no rate can be recorded.",
+    "contact_access": "Application runs through the brand's own ambassadors page; no public partnerships email was published on the fetched page.",
+    "credibility": "A well-known premium US wellness brand with national meal-delivery distribution and a long operating history.",
+    "niche_fit": "Plant-based meals, cleanses and wellness products are highly demonstrable staples for food, health and wellness-routine creators.",
+    "opportunity_availability": "Program is live from the brand page, but membership is a curated community, so entry is application-based rather than instant.",
+    "ugc_evidence": "A named ambassador program (Sakara Circle) with unique codes and links built for a community of wellness creators and experts."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.sakara.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/hu-kitchen/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://getlasso.co/affiliate/hu-kitchen/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Hu Kitchen (Hu) is a US clean-ingredient snack brand known for paleo-inspired chocolate, nut butters and bars, running an affiliate program on ShareASale at a reported 10% commission.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/hu-kitchen/",
+    "summary": "Hu Kitchen's affiliate program is reported consistently across multiple third-party program roundups (Lasso's dedicated program page and its keto, food, paleo and coffee roundups): 10% commission per sale on ShareASale, a 30-day cookie and a $50 payout threshold; commission.academy independently corroborates the 10% rate. Older sources also mention Rakuten Advertising and Impact historically, and Shopper reports a 5-10% range, so the entry is marked publicly_reported rather than verified, with ShareASale recorded as the current network per the most consistent reporting. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Hu Kitchen",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/hu-kitchen/",
+   "source_url": "https://getlasso.co/affiliate/hu-kitchen/",
+   "title": "Hu Kitchen Affiliate Program"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "10% commission with a 30-day cookie reported consistently across multiple program roundups; no cap statement, so the cap is unknown.",
+    "contact_access": "Joining runs through the ShareASale network listing; no public partnerships email was verified.",
+    "credibility": "A major national clean-snacking brand with wide grocery distribution and a long track record.",
+    "niche_fit": "Chocolate and clean-ingredient snacks are everyday, highly shareable products for food, paleo, keto and vegan creators.",
+    "opportunity_availability": "Program is live on ShareASale and joinable now.",
+    "ugc_evidence": "Roundups describe banner and social creative support and suitability for social media influencers, though no brand-run creator program page was verified."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://hukitchen.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/kosterina/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/kosterina/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Kosterina is a US Greek-inspired food brand selling early-harvest extra virgin olive oil and Mediterranean pantry products, with an affiliate program on ShareASale at a reported 10% commission.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/kosterina/",
+    "summary": "Kosterina's affiliate program is listed by LinkClicky (March 2024) on ShareASale at 10% commission per sale with a 30-day cookie, and live ShareASale tracking parameters appear on the brand's own product pages, corroborating an active ShareASale program. Shopper's conflicting 7.98% figure is disregarded as an unreliable blended estimate. The entry is marked publicly_reported. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Kosterina",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/kosterina/",
+   "source_url": "https://linkclicky.com/affiliate-program/kosterina/",
+   "title": "Kosterina Affiliate Program"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "10% commission with a 30-day cookie reported for the ShareASale program; no cap statement, so the cap is unknown.",
+    "contact_access": "Joining runs through the ShareASale network; no public partnerships email was verified.",
+    "credibility": "A founded-in-2016 premium food brand with national retail presence and a clear single-origin story.",
+    "niche_fit": "Premium olive oil and Mediterranean pantry staples fit cooking, recipe and Mediterranean-diet creators well.",
+    "opportunity_availability": "Program is live on ShareASale and joinable now.",
+    "ugc_evidence": "The program is an open network affiliate program; creator-specific recruitment beyond it was not verified."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://kosterina.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.drinkbrez.com/pages/affiliate-agreement",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "brand direct",
+   "source_url": "https://www.drinkbrez.com/pages/affiliate-agreement"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "BRĒZ is a US functional beverage brand selling adaptogen and mushroom drinks, with an approval-based affiliate program set out in its own published affiliate agreement; no commission rate is published.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.drinkbrez.com/pages/affiliate-agreement",
+    "summary": "BRĒZ's own published Affiliate Agreement, fetched first-hand, sets out a real, approval-based affiliate program administered with a third-party program manager, with tracked referral links/codes and commission on referred sales. The agreement publishes no commission percentage, so commission_rate is null. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "BRĒZ",
+  "opportunity": {
+   "application_url": "https://www.drinkbrez.com/pages/affiliate-agreement",
+   "source_url": "https://www.drinkbrez.com/pages/affiliate-agreement",
+   "title": "BRĒZ Affiliate Program"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 6,
+   "credibility": 3,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A commission-paying program is confirmed in the brand's own agreement, but no rate is published, so no rate is recorded.",
+    "contact_access": "The program runs through the brand's published agreement and program manager; no public partnerships email was verified.",
+    "credibility": "A young, fast-growing functional beverage brand; shorter track record than the category leaders.",
+    "niche_fit": "Alcohol-alternative functional drinks are a strong fit for sober-curious, wellness and social-occasion creators.",
+    "opportunity_availability": "Program is live but approval-based rather than open instant sign-up.",
+    "ugc_evidence": "A social-first brand with a formal affiliate agreement aimed at promoters who create content around the product."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.drinkbrez.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/cornbread-hemp/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://affroom.com/blog/best-cbd-affiliate-programs/"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "United States",
+  "description": "Cornbread Hemp is a US CBD brand making USDA-certified organic, Kentucky-grown, flower-only hemp products, with an affiliate program listed on Impact; published rates conflict, so no rate is recorded.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://affroom.com/blog/best-cbd-affiliate-programs/",
+    "summary": "Cornbread Hemp's affiliate program is listed by LinkClicky (March 2024) as officially listed on Impact at 20% per sale, and Lasso and Shopper also report 20%; however AffRoom's September 2026 roundup, checked against brand pages, reports the program 'from 15%' on a 90-day cookie through RevOffers. Because the published rates (20% vs from 15%) and routes (Impact vs RevOffers) conflict, commission_rate is null with the conflict documented here, and the network is recorded as Impact per the network listing. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Cornbread Hemp",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/cornbread-hemp/",
+   "source_url": "https://affroom.com/blog/best-cbd-affiliate-programs/",
+   "title": "Cornbread Hemp Affiliate Program"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Rates are reported at 20% and from 15% by different sources and cannot be reconciled, so no rate is recorded; the 90-day cookie reported by AffRoom is a plus.",
+    "contact_access": "Joining runs through the network listing; no public partnerships email was verified.",
+    "credibility": "USDA-certified organic, Kentucky-grown hemp with a flower-only extraction story and an established retail footprint.",
+    "niche_fit": "CBD oils and gummies for calm and sleep fit wellness and health creators, with a distinctive organic-certification angle.",
+    "opportunity_availability": "Program is live and listed for application now.",
+    "ugc_evidence": "An active network-listed program aimed at health and wellness publishers; creator-specific perks were not verified."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.cornbreadhemp.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/63394",
+   "commission_cap": "unknown",
+   "commission_rate": 6,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/63394"
+  },
+  "category_slug": "wellness",
+  "contacts": [],
+  "country": "United States",
+  "description": "Sunlighten is a US infrared sauna and red-light brand whose Awin merchant profile publishes 6% commission on sauna, red light panel and accessory costs, with high average order values.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "network_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/63394",
+    "summary": "Sunlighten's official Awin merchant profile (63394), fetched first-hand, states 'Commissions offered: 6% on sauna, red light panel and accessory cost' and publishes high average sale values ($1,599 for the red light panel and $2,800 for the portable sauna), so the published 6% rate on high-ticket wellness products is recorded. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Sunlighten",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/63394",
+   "source_url": "https://ui.awin.com/merchant-profile/63394",
+   "title": "Sunlighten Affiliate Program (Awin)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "6% is a modest percentage, but it applies to high-ticket products with average sales of $1,599-$2,800 per the Awin profile; no cap statement, so the cap is unknown.",
+    "contact_access": "Joining runs through the Awin merchant profile; no public partnerships email was published on the profile.",
+    "credibility": "The best-known name in infrared saunas, with a long operating history and clinical-wellness positioning.",
+    "niche_fit": "Home saunas and red-light panels are aspirational, routine-based products for wellness, recovery and home-spa creators.",
+    "opportunity_availability": "Program is live on Awin and joinable now.",
+    "ugc_evidence": "An open network program on Awin; creator-specific recruitment beyond the listing was not verified."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.sunlighten.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.lumen.me/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.lumen.me/affiliates"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "Israel",
+  "description": "Lumen is the maker of the first hand-held metabolism tracker with a companion nutrition app, running an affiliate program through Impact that pays commission on all product sales; the brand publishes no rate.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.lumen.me/affiliates",
+    "summary": "Lumen's own affiliate program page, fetched first-hand, confirms the program: affiliates earn commission on all Lumen product sales directed from their site, blog and social channels, sign-up is free, partnerships are available worldwide, top performers receive extra monthly performance incentives, and the Apply Now route runs through Impact. The brand publishes no commission rate, and third-party figures conflict (Shopper reports 5%; Lasso reports a flat $10-$50 per sale), so commission_rate is null with the conflict documented here. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Lumen",
+  "opportunity": {
+   "application_url": "https://www.lumen.me/affiliates",
+   "source_url": "https://www.lumen.me/affiliates",
+   "title": "Lumen Affiliate Program"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Commission on all product sales plus performance incentives is confirmed on the brand page, but the brand publishes no rate and third-party figures conflict, so no rate is recorded.",
+    "contact_access": "Application runs from the brand's own affiliates page into Impact; no public partnerships email was published on the fetched page.",
+    "credibility": "The category-defining at-home metabolism tracker, science-backed and sold worldwide.",
+    "niche_fit": "A breath-based metabolism device is a novel, demonstrable product for biohacking, nutrition and weight-management creators.",
+    "opportunity_availability": "Program is live, free to join and open to partners worldwide.",
+    "ugc_evidence": "The brand page explicitly recruits affiliates across blogs, sites and social channels with earnings support and news."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.lumen.me"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.offthefarm.com/pages/register-affiliate-account",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "brand direct",
+   "source_url": "https://www.offthefarm.com/pages/register-affiliate-account"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "Off The Farm is a US protein-bar brand running a commission-based affiliate program from its own site, paying a percentage of every qualified sale referred through an affiliate link; no rate is published.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.offthefarm.com/pages/register-affiliate-account",
+    "summary": "Off The Farm's own Become an Affiliate page, fetched first-hand, states its affiliate program 'is a commission-based referral program, allowing you to earn a percentage of every qualified sale you refer to OffTheFarm.com through your unique affiliate link', with enrollment from the same page. The brand publishes no percentage and names no network, so commission_rate is null and the route is recorded as brand direct. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Off The Farm",
+  "opportunity": {
+   "application_url": "https://www.offthefarm.com/pages/register-affiliate-account",
+   "source_url": "https://www.offthefarm.com/pages/register-affiliate-account",
+   "title": "Off The Farm Affiliate Program"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 6,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A percentage-of-sales commission is confirmed on the brand's own page, but no rate is published, so no rate is recorded.",
+    "contact_access": "Enrollment runs from the brand's own affiliate page; no public partnerships email was published on the fetched page.",
+    "credibility": "A smaller, independent US protein-bar brand with a narrower track record than the category leaders.",
+    "niche_fit": "Protein bars are a staple, highly demonstrable product for fitness, nutrition and snack-review creators.",
+    "opportunity_availability": "Program is live with open enrollment from the brand page.",
+    "ugc_evidence": "A live brand-run affiliate program with a link-based model; creator-specific perks beyond commission are not detailed."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.offthefarm.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.bistromd.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.bistromd.com/pages/affiliate"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "BistroMD is a US doctor-designed, chef-prepared weight-loss meal delivery service running an affiliate program through Impact that explicitly recruits bloggers, content creators and influencers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_website",
+    "source_url": "https://www.bistromd.com/pages/affiliate",
+    "summary": "BistroMD's own affiliate program page, fetched first-hand, invites partners to 'earn commissions by promoting bistroMD products' and names diet review websites, fitness and wellness websites, bloggers, content creators and influencers as ideal partners, with the join route running through Impact. The brand page publishes no payout figure; third-party sources attribute a flat $20 per sale to the program (LinkClicky, March 2024; LinkWhisper, describing the brand's landing page), while Lasso reports $36 per sale, so the payout is a flat bounty with conflicting reports and commission_rate is null with the conflict documented here. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "BistroMD",
+  "opportunity": {
+   "application_url": "https://www.bistromd.com/pages/affiliate",
+   "source_url": "https://www.bistromd.com/pages/affiliate",
+   "title": "BistroMD Affiliate Program"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 23,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Third parties attribute a flat $20-per-sale bounty to the program via Impact, but Lasso reports $36, so no figure is recorded as the rate; flat pay on a high-ticket meal plan is still meaningful.",
+    "contact_access": "Application runs from the brand's own affiliate page into Impact; no public partnerships email was published on the fetched page.",
+    "credibility": "A long-running, doctor-designed meal-delivery brand and one of the best-known names in weight-loss meal delivery.",
+    "niche_fit": "Doctor-designed weight-loss meals are a natural fit for weight-loss, nutrition, fitness and wellness creators.",
+    "opportunity_availability": "Program is live and described by the brand as quickly expanding, with joining open now.",
+    "ugc_evidence": "The brand page explicitly recruits bloggers, content creators and influencers, and third parties report creative assets for partners."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.bistromd.com"
+ }
+]

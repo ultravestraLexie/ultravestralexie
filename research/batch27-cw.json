@@ -1,553 +1,496 @@
 [
-  {
-    "name": "Axiology",
-    "website": "https://axiologybeauty.com",
-    "country": "United States",
-    "category_slug": "beauty",
-    "description": "Plastic-free, vegan and palm-oil-free makeup brand made in the US, known for its multi-use Balmies, plus a curated planet-first beauty shop of skincare, haircare and makeup from other clean brands.",
-    "contacts": [],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_network",
-        "source_url": "https://ui.awin.com/merchant-profile/58643",
-        "summary": "Axiology's Awin merchant profile (fetched) runs its affiliate program on Awin and explicitly targets beauty-focused websites, makeup artists and beauty, lifestyle and eco-friendly content creators; affiliates get a product feed, banners and text links, and the profile cites an AOV of $50."
-      },
-      {
-        "confidence": "verified",
-        "evidence_type": "commission_rate",
-        "source_type": "affiliate_network",
-        "source_url": "https://ui.awin.com/merchant-profile/58643",
-        "summary": "The Awin profile states affiliates earn 25% commission on Axiology brand products and 10% commission on all other brands sold in its curated beauty shop. No earnings-cap statement appears on the profile, so the cap is recorded as unknown."
-      }
-    ],
-    "affiliate": {
-      "network": "Awin",
-      "commission_rate": 25,
-      "application_url": "https://ui.awin.com/merchant-profile/58643",
-      "source_url": "https://ui.awin.com/merchant-profile/58643",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "Axiology Affiliate Program (Awin)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join Axiology on Awin, share plastic-free clean makeup content, and earn 25% commission on Axiology brand products (10% on other brands in its curated shop).",
-      "application_url": "https://ui.awin.com/merchant-profile/58643",
-      "compensation_notes": "25% commission on Axiology brand products and 10% on all other brands, per the brand's Awin merchant profile. Commission cap: unknown - no cap statement is published on the profile."
-    },
-    "score": {
-      "niche_fit": 26,
-      "ugc_evidence": 15,
-      "compensation": 19,
-      "contact_access": 10,
-      "opportunity_availability": 9,
-      "credibility": 5,
-      "reasons": {
-        "niche_fit": "Clean, plastic-free makeup is a core UGC beauty niche with strong demo and shade-content potential.",
-        "ugc_evidence": "The Awin profile explicitly recruits beauty, lifestyle and eco content creators, though no dedicated creator program page was found on the brand site.",
-        "compensation": "25% on own-brand products is a top-tier rate, verified on the network profile; 10% on third-party brands in the shop.",
-        "contact_access": "Join route is the public Awin merchant profile; no public partnerships email was published on the sources checked.",
-        "opportunity_availability": "Open Awin program with product feed and creative assets available on signup.",
-        "credibility": "Established US clean-beauty brand; rates verified on the network's own merchant profile."
-      }
-    }
+ {
+  "name": "Axiology",
+  "website": "https://axiologybeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Plastic-free, vegan and palm-oil-free makeup brand made in the US, known for its multi-use Balmies, plus a curated planet-first beauty shop of skincare, haircare and makeup from other clean brands.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/58643",
+    "summary": "Axiology's Awin merchant profile (fetched) runs its affiliate program on Awin and explicitly targets beauty-focused websites, makeup artists and beauty, lifestyle and eco-friendly content creators; affiliates get a product feed, banners and text links, and the profile cites an AOV of $50."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/58643",
+    "summary": "The Awin profile states affiliates earn 25% commission on Axiology brand products and 10% commission on all other brands sold in its curated beauty shop. No earnings-cap statement appears on the profile, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 25,
+   "application_url": "https://ui.awin.com/merchant-profile/58643",
+   "source_url": "https://ui.awin.com/merchant-profile/58643",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
   },
-  {
-    "name": "Buttah Skin",
-    "website": "https://buttahskin.com",
-    "country": "United States",
-    "category_slug": "skincare",
-    "description": "Skincare brand founded in 2018 by Dorion Renaud, uniting nature and science in products for women and men targeting dryness, discoloration, oiliness and blemishes, with a strong creator and TikTok presence.",
-    "contacts": [
-      {
-        "contact_name": null,
-        "contact_type": "creator_application",
-        "email": null,
-        "notes": "The brand's own Creators & Partnerships page invites creators to apply for product and collaboration review.",
-        "url": "https://www.buttahskin.com/pages/creators-work-with-us"
-      }
-    ],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_network",
-        "source_url": "https://ui.awin.com/merchant-profile/97999",
-        "summary": "Buttah Skin's Awin merchant profile (fetched, merchant ID 97999) runs its affiliate program on Awin with a 90-day attribution period; the profile does not publish the commission rate in its public text."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_rate",
-        "source_type": "affiliate_directory",
-        "source_url": "https://getlasso.co/affiliate/buttah-skin/",
-        "summary": "The Lasso affiliate directory lists the Buttah Skin program at 20% per sale with a 30-day cookie; the rate is directory-reported because the Awin profile itself does not print it. No earnings-cap statement was found, so the cap is recorded as unknown."
-      },
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "brand_site",
-        "source_url": "https://www.buttahskin.com/pages/creators-work-with-us",
-        "summary": "Buttah Skin's own Creators & Partnerships page invites creators to apply for product and collaboration invitations; the brand is heavily creator-led on TikTok (@buttahskin), where an estimated 84% of its TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators (Rateful estimate). The recorded route into the directory is the Awin program, not TikTok Shop."
-      }
-    ],
-    "affiliate": {
-      "network": "Awin",
-      "commission_rate": 20,
-      "application_url": "https://ui.awin.com/merchant-profile/97999",
-      "source_url": "https://ui.awin.com/merchant-profile/97999",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "Buttah Skin Affiliate Program (Awin)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join Buttah Skin on Awin, create skincare routine and results content, and earn commission with a 90-day attribution window; the brand also reviews creator applications on its own partnerships page.",
-      "application_url": "https://ui.awin.com/merchant-profile/97999",
-      "compensation_notes": "20% per sale as reported by the Lasso directory; the Awin merchant profile confirms the program and its 90-day cookie but does not print the rate. Commission cap: unknown - no cap statement is published."
-    },
-    "score": {
-      "niche_fit": 25,
-      "ugc_evidence": 17,
-      "compensation": 16,
-      "contact_access": 12,
-      "opportunity_availability": 9,
-      "credibility": 4,
-      "reasons": {
-        "niche_fit": "Melanin-focused skincare routines and before/after content are a proven UGC format.",
-        "ugc_evidence": "The brand runs its own creators page and drives most of its TikTok Shop sales through affiliate creators, showing an active creator engine.",
-        "compensation": "20% per sale is a strong rate, but it is directory-reported rather than printed on the network profile.",
-        "contact_access": "Own creators/partnerships application page plus the Awin join route.",
-        "opportunity_availability": "Open Awin program plus an open creator application form on the brand site.",
-        "credibility": "Established brand founded in 2018; rate rests on a directory listing, so credibility sits one notch below fully verified."
-      }
-    }
+  "opportunity": {
+   "title": "Axiology Affiliate Program (Awin)",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Join Axiology on Awin, share plastic-free clean makeup content, and earn 25% commission on Axiology brand products (10% on other brands in its curated shop).",
+   "application_url": "https://ui.awin.com/merchant-profile/58643",
+   "compensation_notes": "25% commission on Axiology brand products and 10% on all other brands, per the brand's Awin merchant profile. Commission cap: unknown - no cap statement is published on the profile."
   },
-  {
-    "name": "Pacifica",
-    "website": "https://www.pacificabeauty.com",
-    "country": "United States",
-    "category_slug": "beauty",
-    "description": "Long-running vegan and cruelty-free clean beauty brand spanning skincare, makeup, haircare and fragrance, sold online and in major US retailers, with an affiliate program on Impact.",
-    "contacts": [],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_network",
-        "source_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
-        "summary": "Pacifica Beauty LLC's own advertiser campaign page on Impact (fetched) lists the program terms directly: Payout 10% on online sales, a 30-day referral period, and payout scheduling 27 days after the end of the month. No earnings-cap statement appears, so the cap is recorded as unknown."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_rate",
-        "source_type": "affiliate_directory",
-        "source_url": "https://getlasso.co/affiliate/pacifica-beauty/",
-        "summary": "The Lasso directory lists a Pacifica Beauty program at 5-8% per sale with a 30-day cookie, a lower range than the 10% on Impact's own current campaign page; the recorded rate follows the network's own page (10% via Impact), with the directory range noted here for transparency."
-      }
-    ],
-    "affiliate": {
-      "network": "Impact",
-      "commission_rate": 10,
-      "application_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
-      "source_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "Pacifica Beauty Affiliate Program (Impact)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join Pacifica on Impact, share clean vegan beauty content, and earn 10% on online sales with a 30-day referral window.",
-      "application_url": "https://app.impact.com/advertiser-campaign-info/Pacifica-Beauty-LLC.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN5ZCEayXx8pN",
-      "compensation_notes": "10% payout on online sales per Impact's own Pacifica campaign page (30-day referral period). A directory lists 5-8% for another route; the Impact figure is the recorded one. Commission cap: unknown - no cap statement is published."
-    },
-    "score": {
-      "niche_fit": 27,
-      "ugc_evidence": 14,
-      "compensation": 13,
-      "contact_access": 11,
-      "opportunity_availability": 9,
-      "credibility": 5,
-      "reasons": {
-        "niche_fit": "Mass clean beauty across skincare, makeup, hair and fragrance fits nearly every beauty creator niche.",
-        "ugc_evidence": "Long-running affiliate presence on a major network; no separate creator-content program page was verified on the brand site.",
-        "compensation": "10% verified on the network's own campaign page; mid-range for mass beauty.",
-        "contact_access": "Public Impact campaign page is the join and contact route; no public partnerships email was verified.",
-        "opportunity_availability": "Open network program with published payout scheduling.",
-        "credibility": "Established national brand; rate verified on Impact's own advertiser page."
-      }
-    }
-  },
-  {
-    "name": "Athena Club",
-    "website": "https://www.athenaclub.com/",
-    "country": "United States",
-    "category_slug": "beauty",
-    "description": "Women's personal care and wellness brand known for its razor and body care essentials, sold by subscription and in major retailers, with an affiliate program on Impact.",
-    "contacts": [],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://linkclicky.com/affiliate-program/athena-club/",
-        "summary": "The LinkClicky affiliate directory profile for Athena Club (dated March 10, 2024) lists the program on the Impact platform, open to all regions, paying 10% per sale. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
-      }
-    ],
-    "affiliate": {
-      "network": "Impact",
-      "commission_rate": 10,
-      "application_url": "https://linkclicky.com/affiliate-program/athena-club/",
-      "source_url": "https://linkclicky.com/affiliate-program/athena-club/",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "Athena Club Affiliate Program (Impact)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join Athena Club on Impact and earn 10% per sale promoting shave and body care essentials to a personal-care audience.",
-      "application_url": "https://linkclicky.com/affiliate-program/athena-club/",
-      "compensation_notes": "10% per sale via Impact, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
-    },
-    "score": {
-      "niche_fit": 25,
-      "ugc_evidence": 13,
-      "compensation": 12,
-      "contact_access": 10,
-      "opportunity_availability": 8,
-      "credibility": 4,
-      "reasons": {
-        "niche_fit": "Shave and body care essentials are a natural fit for routine and GRWM creators.",
-        "ugc_evidence": "Retail-scale brand with an open network program; no dedicated creator page was verified.",
-        "compensation": "10% per sale is a standard mass personal-care rate, directory-reported.",
-        "contact_access": "Join route is via Impact through the directory profile; no public partnerships email was verified.",
-        "opportunity_availability": "Open network program, all regions per the directory profile.",
-        "credibility": "Established retail brand; program details rest on a directory listing dated March 2024."
-      }
-    }
-  },
-  {
-    "name": "Phlur",
-    "website": "https://phlur.com",
-    "country": "United States",
-    "category_slug": "beauty",
-    "description": "Fine fragrance brand crafting scents with transparency and sustainability at their core, known for viral personal fragrances such as Missing Person, sold online and at Sephora.",
-    "contacts": [],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://linkclicky.com/affiliate-program/phlur/",
-        "summary": "The LinkClicky affiliate directory profile for PHLUR (dated March 11, 2024) lists the program on ShareASale, open to all regions, paying 10% per sale with a 30-day cookie. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
-      }
-    ],
-    "affiliate": {
-      "network": "ShareASale",
-      "commission_rate": 10,
-      "application_url": "https://linkclicky.com/affiliate-program/phlur/",
-      "source_url": "https://linkclicky.com/affiliate-program/phlur/",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "PHLUR Affiliate Program (ShareASale)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join PHLUR on ShareASale and earn 10% per sale creating fragrance review and scent-layering content.",
-      "application_url": "https://linkclicky.com/affiliate-program/phlur/",
-      "compensation_notes": "10% per sale via ShareASale with a 30-day cookie, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
-    },
-    "score": {
-      "niche_fit": 25,
-      "ugc_evidence": 12,
-      "compensation": 12,
-      "contact_access": 9,
-      "opportunity_availability": 8,
-      "credibility": 5,
-      "reasons": {
-        "niche_fit": "Viral fragrance is one of the strongest UGC beauty categories for reviews and layering content.",
-        "ugc_evidence": "The brand's growth is heavily social-led; the affiliate route itself is directory-documented rather than creator-branded.",
-        "compensation": "10% per sale is a standard fragrance rate, directory-reported.",
-        "contact_access": "Join route is via ShareASale through the directory profile; no public partnerships email was verified.",
-        "opportunity_availability": "Open network program, all regions per the directory profile.",
-        "credibility": "Established fragrance brand with major retail distribution; program details rest on a directory listing."
-      }
-    }
-  },
-  {
-    "name": "DedCool",
-    "website": "https://dedcool.com",
-    "country": "United States",
-    "category_slug": "beauty",
-    "description": "Genderless fragrance brand disrupting traditional perfumery with unisex, conscious scents and fragrance extended into laundry and personal care, sold online and at Sephora.",
-    "contacts": [],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://linkclicky.com/affiliate-program/dedcool/",
-        "summary": "The LinkClicky affiliate directory profile for DedCool (dated March 10, 2024) lists the program on ShareASale, open to all regions, paying 10% per sale with a 30-day cookie. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
-      }
-    ],
-    "affiliate": {
-      "network": "ShareASale",
-      "commission_rate": 10,
-      "application_url": "https://linkclicky.com/affiliate-program/dedcool/",
-      "source_url": "https://linkclicky.com/affiliate-program/dedcool/",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "DedCool Affiliate Program (ShareASale)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join DedCool on ShareASale and earn 10% per sale creating unisex fragrance and scented-laundry content.",
-      "application_url": "https://linkclicky.com/affiliate-program/dedcool/",
-      "compensation_notes": "10% per sale via ShareASale with a 30-day cookie, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
-    },
-    "score": {
-      "niche_fit": 24,
-      "ugc_evidence": 12,
-      "compensation": 12,
-      "contact_access": 9,
-      "opportunity_availability": 8,
-      "credibility": 4,
-      "reasons": {
-        "niche_fit": "Unisex fragrance plus scented laundry gives creators two content angles in one brand.",
-        "ugc_evidence": "Social-first brand positioning; the affiliate route is directory-documented rather than creator-branded.",
-        "compensation": "10% per sale is a standard fragrance rate, directory-reported.",
-        "contact_access": "Join route is via ShareASale through the directory profile; no public partnerships email was verified.",
-        "opportunity_availability": "Open network program, all regions per the directory profile.",
-        "credibility": "Established indie fragrance brand with retail distribution; program details rest on a directory listing dated March 2024."
-      }
-    }
-  },
-  {
-    "name": "Saltair",
-    "website": "https://www.saltair.com",
-    "country": "United States",
-    "category_slug": "skincare",
-    "description": "Body care brand founded by Iskra Lawrence on the idea that bodycare is skincare, formulating body washes, lotions and serums with active skincare ingredients, nourishing oils and exotic botanicals.",
-    "contacts": [],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_network",
-        "source_url": "https://ui.awin.com/merchant-profile/96161",
-        "summary": "Saltair's Awin merchant profile (fetched, merchant ID 96161) confirms the brand runs an affiliate program on Awin; the public profile text does not publish a commission rate, so the rate is recorded as null rather than guessed, and no earnings-cap statement appears, so the cap is recorded as unknown."
-      }
-    ],
-    "affiliate": {
-      "network": "Awin",
-      "commission_rate": null,
-      "application_url": "https://ui.awin.com/merchant-profile/96161",
-      "source_url": "https://ui.awin.com/merchant-profile/96161",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "Saltair Affiliate Program (Awin)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join Saltair on Awin and create body-care-as-skincare routine content; check the live rate inside Awin before promoting, as it is not published on the public profile.",
-      "application_url": "https://ui.awin.com/merchant-profile/96161",
-      "compensation_notes": "Commission rate not published on the brand's public Awin merchant profile - recorded as null; confirm the current rate inside Awin after joining. Commission cap: unknown."
-    },
-    "score": {
-      "niche_fit": 26,
-      "ugc_evidence": 13,
-      "compensation": 6,
-      "contact_access": 9,
-      "opportunity_availability": 8,
-      "credibility": 5,
-      "reasons": {
-        "niche_fit": "Scented body care routines are a high-volume UGC category and Saltair is a category leader.",
-        "ugc_evidence": "Verified Awin program from a social-led brand; no creator-specific program page was verified.",
-        "compensation": "Rate is not published on the public network profile, so compensation scores low until confirmed inside Awin.",
-        "contact_access": "Join route is the public Awin merchant profile; no public partnerships email was verified.",
-        "opportunity_availability": "Open Awin program confirmed on the network profile.",
-        "credibility": "Established, widely retailed brand; program existence verified on Awin's own profile."
-      }
-    }
-  },
-  {
-    "name": "Deedee",
-    "website": "https://deedee.co",
-    "country": "United States",
-    "category_slug": "beauty",
-    "description": "Handmade braided wig brand - every wig is braided by hand, one at a time - running a deliberately small, hand-reviewed creator program with personal links, dashboards and a free custom wig for active creators.",
-    "contacts": [
-      {
-        "contact_name": null,
-        "contact_type": "creator_application",
-        "email": null,
-        "notes": "Applications are made through the brand's own creator program page; every application is read by a person on the team.",
-        "url": "https://deedee.co/pages/deedee-creator-program"
-      }
-    ],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "brand_site",
-        "source_url": "https://deedee.co/pages/deedee-creator-program",
-        "summary": "Deedee's own creator program page (fetched) runs the program directly through an UpPromote application: creators get a personal link and dashboard, a free custom HD lace wig every 20 orders, and applications are hand-reviewed with no auto-approvals; the brand states it keeps the program small on purpose. No creator count is published, so saturation is recorded as unknown despite the small-program wording."
-      },
-      {
-        "confidence": "verified",
-        "evidence_type": "commission_cap",
-        "source_type": "brand_site",
-        "source_url": "https://deedee.co/pages/deedee-creator-program",
-        "summary": "The brand's own program page states the earnings term explicitly: 'Every order placed through your link earns you 5% - for as long as it's live, no cap.' That is an explicit no-earnings-cap statement on a fetched brand page, so the cap is recorded as uncapped."
-      }
-    ],
-    "affiliate": {
-      "network": "Brand direct (UpPromote)",
-      "commission_rate": 5,
-      "application_url": "https://deedee.co/pages/deedee-creator-program",
-      "source_url": "https://deedee.co/pages/deedee-creator-program",
-      "commission_cap": "uncapped",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "Deedee Creator Program",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Apply to Deedee's small hand-reviewed creator program, post install and styling content, and earn 5% on every sale through your link with no cap, plus a free custom wig every 20 orders.",
-      "application_url": "https://deedee.co/pages/deedee-creator-program",
-      "compensation_notes": "5% commission on every sale (brand's own page). Commission cap: UNCAPPED - the program page states earnings run 'for as long as it's live, no cap.' Creators also receive a free custom HD lace wig every 20 orders."
-    },
-    "score": {
-      "niche_fit": 22,
-      "ugc_evidence": 15,
-      "compensation": 9,
-      "contact_access": 10,
-      "opportunity_availability": 7,
-      "credibility": 3,
-      "reasons": {
-        "niche_fit": "Braided wig installs and styling are a focused but highly visual hair-content niche.",
-        "ugc_evidence": "The program is built around creator install videos, GRWM content and personal dashboards - a genuine creator-first design.",
-        "compensation": "5% is a low rate, partly offset by the verified uncapped term and a free custom wig every 20 orders.",
-        "contact_access": "Own program page with a direct application route and human review.",
-        "opportunity_availability": "Application-based and deliberately small, so acceptance is selective rather than open.",
-        "credibility": "Very small handmade brand; terms are verified on its own page but scale and track record are limited."
-      }
-    }
-  },
-  {
-    "name": "Kulfi Beauty",
-    "website": "https://kulfibeauty.com",
-    "country": "United States",
-    "category_slug": "beauty",
-    "description": "Inclusive cosmetics brand celebrating South Asian beauty traditions with a modern twist, known for its kajal eyeliners and color products, sold online and at Sephora.",
-    "contacts": [],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://linkclicky.com/affiliate-program/kulfi-beauty/",
-        "summary": "The LinkClicky affiliate directory profile for Kulfi Beauty (dated March 11, 2024) lists the program on ShareASale, open to all regions, paying 6% per sale with a 30-day cookie. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
-      }
-    ],
-    "affiliate": {
-      "network": "ShareASale",
-      "commission_rate": 6,
-      "application_url": "https://linkclicky.com/affiliate-program/kulfi-beauty/",
-      "source_url": "https://linkclicky.com/affiliate-program/kulfi-beauty/",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "Kulfi Beauty Affiliate Program (ShareASale)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join Kulfi Beauty on ShareASale and earn 6% per sale creating kajal, color and South Asian beauty content.",
-      "application_url": "https://linkclicky.com/affiliate-program/kulfi-beauty/",
-      "compensation_notes": "6% per sale via ShareASale with a 30-day cookie, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
-    },
-    "score": {
-      "niche_fit": 24,
-      "ugc_evidence": 12,
-      "compensation": 8,
-      "contact_access": 9,
-      "opportunity_availability": 8,
-      "credibility": 4,
-      "reasons": {
-        "niche_fit": "Kajal and culturally rooted color cosmetics give creators a distinctive, underserved content angle.",
-        "ugc_evidence": "Community-led brand; the affiliate route is directory-documented rather than creator-branded.",
-        "compensation": "6% per sale is below the beauty average, directory-reported.",
-        "contact_access": "Join route is via ShareASale through the directory profile; no public partnerships email was verified.",
-        "opportunity_availability": "Open network program, all regions per the directory profile.",
-        "credibility": "Established indie brand with major retail distribution; program details rest on a directory listing dated March 2024."
-      }
-    }
-  },
-  {
-    "name": "Kjaer Weis",
-    "website": "https://kjaerweis.com/",
-    "country": "United States",
-    "category_slug": "beauty",
-    "description": "Luxury organic makeup brand founded in 2010 by Danish-born, New York-based makeup artist Kirsten Kjaer Weis, known for refillable sustainable packaging and high-performance clean cosmetics.",
-    "contacts": [],
-    "socials": [],
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://linkclicky.com/affiliate-program/kjaer-weis/",
-        "summary": "The LinkClicky affiliate directory profile for Kjaer Weis (dated March 11, 2024) lists the program on the Impact platform paying 2% per sale, described as the officially listed payout. The rate is very low and no earnings-cap statement appears in the profile, so the cap is recorded as unknown."
-      }
-    ],
-    "affiliate": {
-      "network": "Impact",
-      "commission_rate": 2,
-      "application_url": "https://linkclicky.com/affiliate-program/kjaer-weis/",
-      "source_url": "https://linkclicky.com/affiliate-program/kjaer-weis/",
-      "commission_cap": "unknown",
-      "creator_saturation": "unknown"
-    },
-    "opportunity": {
-      "title": "Kjaer Weis Affiliate Program (Impact)",
-      "type": "affiliate",
-      "status": "unverified",
-      "description": "Join Kjaer Weis on Impact and earn 2% per sale creating luxury clean-makeup content; best suited to prestige audiences given the low rate.",
-      "application_url": "https://linkclicky.com/affiliate-program/kjaer-weis/",
-      "compensation_notes": "2% per sale via Impact, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
-    },
-    "score": {
-      "niche_fit": 24,
-      "ugc_evidence": 11,
-      "compensation": 4,
-      "contact_access": 9,
-      "opportunity_availability": 8,
-      "credibility": 5,
-      "reasons": {
-        "niche_fit": "Luxury clean makeup with refillable packaging fits prestige beauty and sustainability creators.",
-        "ugc_evidence": "Makeup-artist-founded brand with strong editorial presence; the affiliate route is directory-documented.",
-        "compensation": "2% per sale is the lowest rate in this group - prestige AOV only partly offsets it.",
-        "contact_access": "Join route is via Impact through the directory profile; no public partnerships email was verified.",
-        "opportunity_availability": "Open network program per the directory profile.",
-        "credibility": "Established luxury brand founded in 2010; the low rate is documented, not hidden."
-      }
-    }
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 19,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Clean, plastic-free makeup is a core UGC beauty niche with strong demo and shade-content potential.",
+    "ugc_evidence": "The Awin profile explicitly recruits beauty, lifestyle and eco content creators, though no dedicated creator program page was found on the brand site.",
+    "compensation": "25% on own-brand products is a top-tier rate, verified on the network profile; 10% on third-party brands in the shop.",
+    "contact_access": "Join route is the public Awin merchant profile; no public partnerships email was published on the sources checked.",
+    "opportunity_availability": "Open Awin program with product feed and creative assets available on signup.",
+    "credibility": "Established US clean-beauty brand; rates verified on the network's own merchant profile."
+   }
   }
+ },
+ {
+  "name": "Buttah Skin",
+  "website": "https://buttahskin.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Skincare brand founded in 2018 by Dorion Renaud, uniting nature and science in products for women and men targeting dryness, discoloration, oiliness and blemishes, with a strong creator and TikTok presence.",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "creator_application",
+    "email": null,
+    "notes": "The brand's own Creators & Partnerships page invites creators to apply for product and collaboration review.",
+    "url": "https://www.buttahskin.com/pages/creators-work-with-us"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/97999",
+    "summary": "Buttah Skin's Awin merchant profile (fetched, merchant ID 97999) runs its affiliate program on Awin with a 90-day attribution period; the profile does not publish the commission rate in its public text."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/buttah-skin/",
+    "summary": "The Lasso affiliate directory lists the Buttah Skin program at 20% per sale with a 30-day cookie; the rate is directory-reported because the Awin profile itself does not print it. No earnings-cap statement was found, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.buttahskin.com/pages/creators-work-with-us",
+    "summary": "Buttah Skin's own Creators & Partnerships page invites creators to apply for product and collaboration invitations; the brand is heavily creator-led on TikTok (@buttahskin), where an estimated 84% of its TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators (Rateful estimate). The recorded route into the directory is the Awin program, not TikTok Shop."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 20,
+   "application_url": "https://ui.awin.com/merchant-profile/97999",
+   "source_url": "https://ui.awin.com/merchant-profile/97999",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Buttah Skin Affiliate Program (Awin)",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Join Buttah Skin on Awin, create skincare routine and results content, and earn commission with a 90-day attribution window; the brand also reviews creator applications on its own partnerships page.",
+   "application_url": "https://ui.awin.com/merchant-profile/97999",
+   "compensation_notes": "20% per sale as reported by the Lasso directory; the Awin merchant profile confirms the program and its 90-day cookie but does not print the rate. Commission cap: unknown - no cap statement is published."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 16,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Melanin-focused skincare routines and before/after content are a proven UGC format.",
+    "ugc_evidence": "The brand runs its own creators page and drives most of its TikTok Shop sales through affiliate creators, showing an active creator engine.",
+    "compensation": "20% per sale is a strong rate, but it is directory-reported rather than printed on the network profile.",
+    "contact_access": "Own creators/partnerships application page plus the Awin join route.",
+    "opportunity_availability": "Open Awin program plus an open creator application form on the brand site.",
+    "credibility": "Established brand founded in 2018; rate rests on a directory listing, so credibility sits one notch below fully verified."
+   }
+  }
+ },
+ {
+  "name": "Athena Club",
+  "website": "https://www.athenaclub.com/",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Women's personal care and wellness brand known for its razor and body care essentials, sold by subscription and in major retailers, with an affiliate program on Impact.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/athena-club/",
+    "summary": "The LinkClicky affiliate directory profile for Athena Club (dated March 10, 2024) lists the program on the Impact platform, open to all regions, paying 10% per sale. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/athena-club/",
+   "source_url": "https://linkclicky.com/affiliate-program/athena-club/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Athena Club Affiliate Program (Impact)",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Join Athena Club on Impact and earn 10% per sale promoting shave and body care essentials to a personal-care audience.",
+   "application_url": "https://linkclicky.com/affiliate-program/athena-club/",
+   "compensation_notes": "10% per sale via Impact, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Shave and body care essentials are a natural fit for routine and GRWM creators.",
+    "ugc_evidence": "Retail-scale brand with an open network program; no dedicated creator page was verified.",
+    "compensation": "10% per sale is a standard mass personal-care rate, directory-reported.",
+    "contact_access": "Join route is via Impact through the directory profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open network program, all regions per the directory profile.",
+    "credibility": "Established retail brand; program details rest on a directory listing dated March 2024."
+   }
+  }
+ },
+ {
+  "name": "Phlur",
+  "website": "https://phlur.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Fine fragrance brand crafting scents with transparency and sustainability at their core, known for viral personal fragrances such as Missing Person, sold online and at Sephora.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/phlur/",
+    "summary": "The LinkClicky affiliate directory profile for PHLUR (dated March 11, 2024) lists the program on ShareASale, open to all regions, paying 10% per sale with a 30-day cookie. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/phlur/",
+   "source_url": "https://linkclicky.com/affiliate-program/phlur/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "PHLUR Affiliate Program (ShareASale)",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Join PHLUR on ShareASale and earn 10% per sale creating fragrance review and scent-layering content.",
+   "application_url": "https://linkclicky.com/affiliate-program/phlur/",
+   "compensation_notes": "10% per sale via ShareASale with a 30-day cookie, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Viral fragrance is one of the strongest UGC beauty categories for reviews and layering content.",
+    "ugc_evidence": "The brand's growth is heavily social-led; the affiliate route itself is directory-documented rather than creator-branded.",
+    "compensation": "10% per sale is a standard fragrance rate, directory-reported.",
+    "contact_access": "Join route is via ShareASale through the directory profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open network program, all regions per the directory profile.",
+    "credibility": "Established fragrance brand with major retail distribution; program details rest on a directory listing."
+   }
+  }
+ },
+ {
+  "name": "DedCool",
+  "website": "https://dedcool.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Genderless fragrance brand disrupting traditional perfumery with unisex, conscious scents and fragrance extended into laundry and personal care, sold online and at Sephora.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/dedcool/",
+    "summary": "The LinkClicky affiliate directory profile for DedCool (dated March 10, 2024) lists the program on ShareASale, open to all regions, paying 10% per sale with a 30-day cookie. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/dedcool/",
+   "source_url": "https://linkclicky.com/affiliate-program/dedcool/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "DedCool Affiliate Program (ShareASale)",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Join DedCool on ShareASale and earn 10% per sale creating unisex fragrance and scented-laundry content.",
+   "application_url": "https://linkclicky.com/affiliate-program/dedcool/",
+   "compensation_notes": "10% per sale via ShareASale with a 30-day cookie, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Unisex fragrance plus scented laundry gives creators two content angles in one brand.",
+    "ugc_evidence": "Social-first brand positioning; the affiliate route is directory-documented rather than creator-branded.",
+    "compensation": "10% per sale is a standard fragrance rate, directory-reported.",
+    "contact_access": "Join route is via ShareASale through the directory profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open network program, all regions per the directory profile.",
+    "credibility": "Established indie fragrance brand with retail distribution; program details rest on a directory listing dated March 2024."
+   }
+  }
+ },
+ {
+  "name": "Saltair",
+  "website": "https://www.saltair.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Body care brand founded by Iskra Lawrence on the idea that bodycare is skincare, formulating body washes, lotions and serums with active skincare ingredients, nourishing oils and exotic botanicals.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/96161",
+    "summary": "Saltair's Awin merchant profile (fetched, merchant ID 96161) confirms the brand runs an affiliate program on Awin; the public profile text does not publish a commission rate, so the rate is recorded as null rather than guessed, and no earnings-cap statement appears, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/96161",
+   "source_url": "https://ui.awin.com/merchant-profile/96161",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Saltair Affiliate Program (Awin)",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Join Saltair on Awin and create body-care-as-skincare routine content; check the live rate inside Awin before promoting, as it is not published on the public profile.",
+   "application_url": "https://ui.awin.com/merchant-profile/96161",
+   "compensation_notes": "Commission rate not published on the brand's public Awin merchant profile - recorded as null; confirm the current rate inside Awin after joining. Commission cap: unknown."
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 6,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Scented body care routines are a high-volume UGC category and Saltair is a category leader.",
+    "ugc_evidence": "Verified Awin program from a social-led brand; no creator-specific program page was verified.",
+    "compensation": "Rate is not published on the public network profile, so compensation scores low until confirmed inside Awin.",
+    "contact_access": "Join route is the public Awin merchant profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open Awin program confirmed on the network profile.",
+    "credibility": "Established, widely retailed brand; program existence verified on Awin's own profile."
+   }
+  }
+ },
+ {
+  "name": "Deedee",
+  "website": "https://deedee.co",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Handmade braided wig brand - every wig is braided by hand, one at a time - running a deliberately small, hand-reviewed creator program with personal links, dashboards and a free custom wig for active creators.",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "creator_application",
+    "email": null,
+    "notes": "Applications are made through the brand's own creator program page; every application is read by a person on the team.",
+    "url": "https://deedee.co/pages/deedee-creator-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://deedee.co/pages/deedee-creator-program",
+    "summary": "Deedee's own creator program page (fetched) runs the program directly through an UpPromote application: creators get a personal link and dashboard, a free custom HD lace wig every 20 orders, and applications are hand-reviewed with no auto-approvals; the brand states it keeps the program small on purpose. No creator count is published, so saturation is recorded as unknown despite the small-program wording."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://deedee.co/pages/deedee-creator-program",
+    "summary": "The brand's own program page states the earnings term explicitly: 'Every order placed through your link earns you 5% - for as long as it's live, no cap.' That is an explicit no-earnings-cap statement on a fetched brand page, so the cap is recorded as uncapped."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (UpPromote)",
+   "commission_rate": 5,
+   "application_url": "https://deedee.co/pages/deedee-creator-program",
+   "source_url": "https://deedee.co/pages/deedee-creator-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Deedee Creator Program",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Apply to Deedee's small hand-reviewed creator program, post install and styling content, and earn 5% on every sale through your link with no cap, plus a free custom wig every 20 orders.",
+   "application_url": "https://deedee.co/pages/deedee-creator-program",
+   "compensation_notes": "5% commission on every sale (brand's own page). Commission cap: UNCAPPED - the program page states earnings run 'for as long as it's live, no cap.' Creators also receive a free custom HD lace wig every 20 orders."
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 15,
+   "compensation": 9,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Braided wig installs and styling are a focused but highly visual hair-content niche.",
+    "ugc_evidence": "The program is built around creator install videos, GRWM content and personal dashboards - a genuine creator-first design.",
+    "compensation": "5% is a low rate, partly offset by the verified uncapped term and a free custom wig every 20 orders.",
+    "contact_access": "Own program page with a direct application route and human review.",
+    "opportunity_availability": "Application-based and deliberately small, so acceptance is selective rather than open.",
+    "credibility": "Very small handmade brand; terms are verified on its own page but scale and track record are limited."
+   }
+  }
+ },
+ {
+  "name": "Kulfi Beauty",
+  "website": "https://kulfibeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Inclusive cosmetics brand celebrating South Asian beauty traditions with a modern twist, known for its kajal eyeliners and color products, sold online and at Sephora.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/kulfi-beauty/",
+    "summary": "The LinkClicky affiliate directory profile for Kulfi Beauty (dated March 11, 2024) lists the program on ShareASale, open to all regions, paying 6% per sale with a 30-day cookie. No earnings-cap statement appears in the profile, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 6,
+   "application_url": "https://linkclicky.com/affiliate-program/kulfi-beauty/",
+   "source_url": "https://linkclicky.com/affiliate-program/kulfi-beauty/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kulfi Beauty Affiliate Program (ShareASale)",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Join Kulfi Beauty on ShareASale and earn 6% per sale creating kajal, color and South Asian beauty content.",
+   "application_url": "https://linkclicky.com/affiliate-program/kulfi-beauty/",
+   "compensation_notes": "6% per sale via ShareASale with a 30-day cookie, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Kajal and culturally rooted color cosmetics give creators a distinctive, underserved content angle.",
+    "ugc_evidence": "Community-led brand; the affiliate route is directory-documented rather than creator-branded.",
+    "compensation": "6% per sale is below the beauty average, directory-reported.",
+    "contact_access": "Join route is via ShareASale through the directory profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open network program, all regions per the directory profile.",
+    "credibility": "Established indie brand with major retail distribution; program details rest on a directory listing dated March 2024."
+   }
+  }
+ },
+ {
+  "name": "Kjaer Weis",
+  "website": "https://kjaerweis.com/",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Luxury organic makeup brand founded in 2010 by Danish-born, New York-based makeup artist Kirsten Kjaer Weis, known for refillable sustainable packaging and high-performance clean cosmetics.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/kjaer-weis/",
+    "summary": "The LinkClicky affiliate directory profile for Kjaer Weis (dated March 11, 2024) lists the program on the Impact platform paying 2% per sale, described as the officially listed payout. The rate is very low and no earnings-cap statement appears in the profile, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 2,
+   "application_url": "https://linkclicky.com/affiliate-program/kjaer-weis/",
+   "source_url": "https://linkclicky.com/affiliate-program/kjaer-weis/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kjaer Weis Affiliate Program (Impact)",
+   "type": "affiliate",
+   "status": "unverified",
+   "description": "Join Kjaer Weis on Impact and earn 2% per sale creating luxury clean-makeup content; best suited to prestige audiences given the low rate.",
+   "application_url": "https://linkclicky.com/affiliate-program/kjaer-weis/",
+   "compensation_notes": "2% per sale via Impact, as listed in the LinkClicky directory profile. Commission cap: unknown - no cap statement is published."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 4,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Luxury clean makeup with refillable packaging fits prestige beauty and sustainability creators.",
+    "ugc_evidence": "Makeup-artist-founded brand with strong editorial presence; the affiliate route is directory-documented.",
+    "compensation": "2% per sale is the lowest rate in this group - prestige AOV only partly offsets it.",
+    "contact_access": "Join route is via Impact through the directory profile; no public partnerships email was verified.",
+    "opportunity_availability": "Open network program per the directory profile.",
+    "credibility": "Established luxury brand founded in 2010; the low rate is documented, not hidden."
+   }
+  }
+ }
 ]

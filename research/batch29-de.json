@@ -1,601 +1,544 @@
 [
-  {
-    "affiliate": {
-      "application_url": "https://www.sigmabeauty.com/influencer-program",
-      "commission_cap": "unknown",
-      "commission_rate": 10,
-      "creator_saturation": "unknown",
-      "network": "ShareASale / Impact (reported)",
-      "source_url": "https://linkclicky.com/affiliate-program/sigma/"
-    },
-    "category_slug": "beauty",
-    "contacts": [],
-    "country": "United States",
-    "description": "US indie beauty brand founded in 2009, known for patented makeup brushes, brush-care tools and color cosmetics; directories list its affiliate program at 10% per sale, with the network reported as ShareASale by one directory and Impact by others.",
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://linkclicky.com/affiliate-program/sigma/",
-        "summary": "LinkClicky (profile updated March 11, 2024) lists Sigma Beauty (website sigmabeauty.com) on ShareASale at 10% per sale with a 90-day cookie; affiliateprograms.com independently lists the Sigma program at 10% commissions on all sales with a VIP tier above it."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_rate",
-        "source_type": "affiliate_directory",
-        "source_url": "https://brandid.app/programs/sigma-beauty",
-        "summary": "Directories agree on a 10% base rate but conflict on the network and cookie: Brandid lists the program on Impact at 10% (up to 15% VIP), a 2018 program write-up also names Impact Radius with a 30-day cookie, Lasso lists 10-15% with a 2-day cookie, and Shopper's 4% figure is an outlier. The 10% base rate is recorded; the network is recorded as reported on both ShareASale and Impact. A creator platform (NewCollab) describes Sigma's direct creator route as gifting-led PR, so the commission route is the network affiliate program recorded here. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
-      }
-    ],
-    "name": "Sigma Beauty",
-    "opportunity": {
-      "application_url": "https://www.sigmabeauty.com/influencer-program",
-      "compensation_notes": "10% per sale base rate, agreed by multiple affiliate directories (LinkClicky, affiliateprograms.com, Brandid); a VIP tier up to 15% is reported but not published by the brand. Cookie duration conflicts across directories (90 days vs 30 days vs 2 days). Commission cap: unknown - no cap statement is published.",
-      "description": "Join Sigma Beauty's affiliate program through its network listing, create brush, makeup-application and brush-care content, and earn 10% per sale at the base tier.",
-      "status": "unverified",
-      "title": "Sigma Beauty Affiliate Program (ShareASale / Impact, reported)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 13,
-      "contact_access": 9,
-      "credibility": 4,
-      "niche_fit": 26,
-      "opportunity_availability": 8,
-      "reasons": {
-        "compensation": "A 10% base rate is agreed by several directories, with a reported VIP tier up to 15%; cookie terms conflict across sources.",
-        "contact_access": "The brand runs its own influencer program page as the application route; no public partnerships email was found.",
-        "credibility": "Established US brand founded in 2009; program evidence is directory-based and the network attribution conflicts between ShareASale and Impact.",
-        "niche_fit": "Makeup brushes and cosmetics are a core UGC beauty category for tutorials, reviews and tool comparisons.",
-        "opportunity_availability": "Open network program with the brand's own influencer page as the entry point.",
-        "ugc_evidence": "The brand maintains an influencer program page and a large creator following (#SigmaFam), though its direct creator route is described by one platform as gifting-led."
-      },
-      "ugc_evidence": 15
-    },
-    "socials": [],
-    "website": "https://www.sigmabeauty.com"
+ {
+  "affiliate": {
+   "application_url": "https://www.sigmabeauty.com/influencer-program",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale / Impact (reported)",
+   "source_url": "https://linkclicky.com/affiliate-program/sigma/"
   },
-  {
-    "affiliate": {
-      "application_url": "https://www.odeonworld.com/pages/become-an-affiliate",
-      "commission_cap": "unknown",
-      "commission_rate": 15,
-      "creator_saturation": "unknown",
-      "network": "BixGrow (own portal)",
-      "source_url": "https://www.odeonworld.com/pages/become-an-affiliate"
-    },
-    "category_slug": "beauty",
-    "contacts": [],
-    "country": "India",
-    "description": "Indian beauty brand selling skincare, beauty and lifestyle products (35+ products across 9 categories, prices in rupees) whose own affiliate page runs a four-tier creator program through BixGrow, from a 15% base commission for nano creators up to 20% for professionals.",
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "brand_site",
-        "source_url": "https://www.odeonworld.com/pages/become-an-affiliate",
-        "summary": "The brand's own affiliate page (fetched) publishes creator tiers run through a BixGrow portal: Seedling nano creators (1K-10K followers) earn 15% base commission, Blossom micro influencers 18%, a Glow customer-referral tier 12%, and an Elite professional tier 20%, with automatic tier upgrades at published referred-sales thresholds, seasonal commission boosts and up to 22% on hero products. The recorded rate is the 15% base creator tier."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_cap",
-        "source_type": "brand_site",
-        "source_url": "https://www.odeonworld.com/pages/become-an-affiliate",
-        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched program page, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown. The Elite tier targets professional MUAs and salon owners, but the program's Seedling and Blossom tiers are creator tiers open from 1,000 followers, which is the route recorded here."
-      }
-    ],
-    "name": "ODEON",
-    "opportunity": {
-      "application_url": "https://www.odeonworld.com/pages/become-an-affiliate",
-      "compensation_notes": "15% base commission at the Seedling creator tier, rising to 18% (Blossom) and 20% (Elite) at published thresholds, with up to 22% on hero products, per the brand's own affiliate page; payouts run through its BixGrow portal. Commission cap: unknown - no cap statement is published.",
-      "description": "Join ODEON's tiered creator program through its BixGrow portal, create skincare and beauty content, and earn 15% base commission with published upgrade paths to 18% and 20%.",
-      "status": "unverified",
-      "title": "ODEON Affiliate Program (BixGrow own portal)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 15,
-      "contact_access": 8,
-      "credibility": 3,
-      "niche_fit": 24,
-      "opportunity_availability": 8,
-      "reasons": {
-        "compensation": "15% base for nano creators with published tiers to 18% and 20% is a strong published structure for a smaller brand.",
-        "contact_access": "Applications run through the brand's own affiliate page and BixGrow portal; no public partnerships email is published.",
-        "credibility": "Full tier terms are published on the brand's own page, but the brand is India-focused with limited independent coverage in the sources checked.",
-        "niche_fit": "Skincare and beauty products across 9 categories fit UGC routines and reviews, with tiers explicitly built for nano and micro creators.",
-        "opportunity_availability": "Open signup from 1,000 followers at the Seedling tier.",
-        "ugc_evidence": "A purpose-built tiered creator program with onboarding kits, affiliate managers at higher tiers and seasonal boosts is strong creator evidence."
-      },
-      "ugc_evidence": 17
-    },
-    "socials": [],
-    "website": "https://www.odeonworld.com"
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": "United States",
+  "description": "US indie beauty brand founded in 2009, known for patented makeup brushes, brush-care tools and color cosmetics; directories list its affiliate program at 10% per sale, with the network reported as ShareASale by one directory and Impact by others.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/sigma/",
+    "summary": "LinkClicky (profile updated March 11, 2024) lists Sigma Beauty (website sigmabeauty.com) on ShareASale at 10% per sale with a 90-day cookie; affiliateprograms.com independently lists the Sigma program at 10% commissions on all sales with a VIP tier above it."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://brandid.app/programs/sigma-beauty",
+    "summary": "Directories agree on a 10% base rate but conflict on the network and cookie: Brandid lists the program on Impact at 10% (up to 15% VIP), a 2018 program write-up also names Impact Radius with a 30-day cookie, Lasso lists 10-15% with a 2-day cookie, and Shopper's 4% figure is an outlier. The 10% base rate is recorded; the network is recorded as reported on both ShareASale and Impact. A creator platform (NewCollab) describes Sigma's direct creator route as gifting-led PR, so the commission route is the network affiliate program recorded here. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+   }
+  ],
+  "name": "Sigma Beauty",
+  "opportunity": {
+   "application_url": "https://www.sigmabeauty.com/influencer-program",
+   "compensation_notes": "10% per sale base rate, agreed by multiple affiliate directories (LinkClicky, affiliateprograms.com, Brandid); a VIP tier up to 15% is reported but not published by the brand. Cookie duration conflicts across directories (90 days vs 30 days vs 2 days). Commission cap: unknown - no cap statement is published.",
+   "description": "Join Sigma Beauty's affiliate program through its network listing, create brush, makeup-application and brush-care content, and earn 10% per sale at the base tier.",
+   "status": "unverified",
+   "title": "Sigma Beauty Affiliate Program (ShareASale / Impact, reported)",
+   "type": "affiliate"
   },
-  {
-    "affiliate": {
-      "application_url": "https://ui.awin.com/merchant-profile/62235",
-      "commission_cap": "unknown",
-      "commission_rate": 10,
-      "creator_saturation": "unknown",
-      "network": "Awin",
-      "source_url": "https://ui.awin.com/merchant-profile/62235"
-    },
-    "category_slug": "skincare",
-    "contacts": [
-      {
-        "contact_name": "Skin Choice Marketing Team",
-        "contact_type": "marketing",
-        "email": "marketing@skinchoice.com",
-        "notes": "Published on Skin Choice's Awin merchant profile as the contact for inquiries and partnership opportunities.",
-        "url": "https://ui.awin.com/merchant-profile/62235"
-      }
-    ],
-    "country": "United Kingdom",
-    "description": "UK skincare brand focused on breakouts, acne and clearer pores, known for its pimple patches; its affiliate program runs on Awin at 10% commission on every confirmed sale, targeting the UK and worldwide.",
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "brand_site",
-        "source_url": "https://ui.awin.com/merchant-profile/62235",
-        "summary": "Skin Choice's own Awin merchant profile (fetched) states the program runs in partnership with the Awin network and pays a competitive 10% commission on every confirmed sale, with a target geography of the United Kingdom and worldwide, full affiliate support and marketing materials, and the contact email marketing@skinchoice.com for inquiries and partnership opportunities."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_cap",
-        "source_type": "brand_site",
-        "source_url": "https://ui.awin.com/merchant-profile/62235",
-        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched Awin profile, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
-      }
-    ],
-    "name": "Skin Choice",
-    "opportunity": {
-      "application_url": "https://ui.awin.com/merchant-profile/62235",
-      "compensation_notes": "10% commission on every confirmed sale, published on the brand's own Awin merchant profile. Commission cap: unknown - no cap statement is published.",
-      "description": "Join Skin Choice on Awin, create acne-care and pimple-patch content, and earn 10% commission on every confirmed sale.",
-      "status": "unverified",
-      "title": "Skin Choice Affiliate Program (Awin)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 13,
-      "contact_access": 13,
-      "credibility": 3,
-      "niche_fit": 23,
-      "opportunity_availability": 9,
-      "reasons": {
-        "compensation": "A flat 10% on every confirmed sale, published on the brand's own network profile, is a solid mid-tier rate.",
-        "contact_access": "A named marketing contact email for partnership inquiries is published on the brand's Awin profile.",
-        "credibility": "Program terms are verified on the network profile the brand itself maintains; the brand is small with limited independent coverage.",
-        "niche_fit": "Acne care and pimple patches are a proven, demonstrable UGC skincare niche with strong before/after content.",
-        "opportunity_availability": "Open Awin program targeting the UK and worldwide.",
-        "ugc_evidence": "The brand recruits affiliates directly on its network profile with marketing tools and ongoing guidance, though it publishes no separate creator program."
-      },
-      "ugc_evidence": 12
-    },
-    "socials": [],
-    "website": "https://skinchoice.com"
+  "score": {
+   "compensation": 13,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A 10% base rate is agreed by several directories, with a reported VIP tier up to 15%; cookie terms conflict across sources.",
+    "contact_access": "The brand runs its own influencer program page as the application route; no public partnerships email was found.",
+    "credibility": "Established US brand founded in 2009; program evidence is directory-based and the network attribution conflicts between ShareASale and Impact.",
+    "niche_fit": "Makeup brushes and cosmetics are a core UGC beauty category for tutorials, reviews and tool comparisons.",
+    "opportunity_availability": "Open network program with the brand's own influencer page as the entry point.",
+    "ugc_evidence": "The brand maintains an influencer program page and a large creator following (#SigmaFam), though its direct creator route is described by one platform as gifting-led."
+   },
+   "ugc_evidence": 15
   },
-  {
-    "affiliate": {
-      "application_url": "https://getlasso.co/niche/organic/",
-      "commission_cap": "unknown",
-      "commission_rate": 6,
-      "creator_saturation": "unknown",
-      "network": "Awin",
-      "source_url": "https://getlasso.co/niche/organic/"
-    },
-    "category_slug": "skincare",
-    "contacts": [],
-    "country": "New Zealand",
-    "description": "New Zealand-founded natural skincare brand with a twenty-year legacy, built on botanicals such as manuka honey, avocado oil and Vinanza grape extract, with BioGro-certified organic and Vegetarian Society-certified vegan ranges; its affiliate program runs on Awin.",
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://getlasso.co/niche/organic/",
-        "summary": "The Lasso organic-beauty program guide (fetched) lists Antipodes on the Awin network at 6% per sale with a 30-day cookie and a $50 payout threshold; Lasso's UK listing for the brand gives 6% - 8% per sale on the same network and cookie, and an independent affiliate roundup also lists Antipodes on Awin."
-      },
-      {
-        "confidence": "verified",
-        "evidence_type": "brand_overview",
-        "source_type": "brand_site",
-        "source_url": "https://antipodesnature.com/collections/certified-organic-skincare?filters=filter_skin_type.fine-lines-wrinkles",
-        "summary": "The brand's own site states Antipodes is New Zealand founded, owned and made, with a legacy spanning twenty years, BioGro New Zealand organic certification and UK Vegetarian Society vegan certification across much of the range."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_cap",
-        "source_type": "affiliate_directory",
-        "source_url": "https://getlasso.co/niche/organic/",
-        "summary": "No earnings-cap or 'unlimited earnings' statement appears in the fetched directory listings, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
-      }
-    ],
-    "name": "Antipodes",
-    "opportunity": {
-      "application_url": "https://getlasso.co/niche/organic/",
-      "compensation_notes": "6% per sale with a 30-day cookie and a $50 payout threshold on Awin, per the Lasso directory guide; the UK listing reports 6% - 8%. The recorded rate is the 6% global figure. Commission cap: unknown - no cap statement is published.",
-      "description": "Join Antipodes on Awin, create natural and certified-organic skincare content, and earn 6% per sale with a 30-day cookie.",
-      "status": "unverified",
-      "title": "Antipodes Affiliate Program (Awin)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 10,
-      "contact_access": 8,
-      "credibility": 5,
-      "niche_fit": 26,
-      "opportunity_availability": 9,
-      "reasons": {
-        "compensation": "6% per sale is a modest rate, consistent across the directory listings checked, with the UK program reported up to 8%.",
-        "contact_access": "Join route is the Awin listing via directories; no public partnerships email was found.",
-        "credibility": "Twenty-year-old certified-organic brand sold through pharmacies and department stores internationally; program terms rest on directory reporting of the Awin listing.",
-        "niche_fit": "Premium natural skincare with certified-organic credentials is a strong clean-beauty UGC niche.",
-        "opportunity_availability": "Open Awin program across multiple regional storefronts.",
-        "ugc_evidence": "An established network program exists, but the brand publishes no dedicated creator program page in the sources checked."
-      },
-      "ugc_evidence": 12
-    },
-    "socials": [],
-    "website": "https://antipodesnature.com"
+  "socials": [],
+  "website": "https://www.sigmabeauty.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.odeonworld.com/pages/become-an-affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "BixGrow (own portal)",
+   "source_url": "https://www.odeonworld.com/pages/become-an-affiliate"
   },
-  {
-    "affiliate": {
-      "application_url": "http://affi.io/m/skn-to-skn",
-      "commission_cap": "unknown",
-      "commission_rate": 10,
-      "creator_saturation": "unknown",
-      "network": "Webgains",
-      "source_url": "http://affi.io/m/skn-to-skn"
-    },
-    "category_slug": "skincare",
-    "contacts": [],
-    "country": "United Kingdom",
-    "description": "UK pregnancy-safe skincare brand developed with dermatologists and GPs for pregnancy, breastfeeding and hormonal skin, stocked in Boots and award-winning in the maternity category; its affiliate program runs on Webgains with a dedicated content-and-influencer commission tier.",
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "http://affi.io/m/skn-to-skn",
-        "summary": "The brand's Webgains program terms, reproduced on its affi.io program page (fetched), publish a baseline commission of 10% for new customers and 7% for existing customers, a Content & Influencers tier at 12% new / 10% existing, voucher-site rates of 5% / 3%, a 30-day cookie and a closed PPC policy. The recorded rate is the 10% baseline new-customer rate. The page's summary header shows a conflicting '3% to 3%' revenue figure, which matches only the lowest voucher-site existing-customer rate; the detailed commission overview in the program terms is the basis for the recorded rate."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_cap",
-        "source_type": "affiliate_directory",
-        "source_url": "http://affi.io/m/skn-to-skn",
-        "summary": "No earnings-cap or 'unlimited earnings' statement appears in the fetched program terms, so the cap is recorded as unknown. The program page states the Webgains program launched about three months ago, but a launch date alone is not creator-count evidence, so saturation is also recorded as unknown."
-      }
-    ],
-    "name": "SKN TO SKN",
-    "opportunity": {
-      "application_url": "http://affi.io/m/skn-to-skn",
-      "compensation_notes": "Baseline commission 10% on new customers and 7% on existing customers, with a Content & Influencers tier at 12% new / 10% existing and a 30-day cookie, per the brand's published Webgains program terms. Commission cap: unknown - no cap statement is published.",
-      "description": "Join SKN TO SKN on Webgains, create pregnancy-safe and hormonal-skin routine content, and earn 10% baseline commission - 12% on new customers at the content-and-influencer tier.",
-      "status": "unverified",
-      "title": "SKN TO SKN Affiliate Program (Webgains)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 13,
-      "contact_access": 8,
-      "credibility": 4,
-      "niche_fit": 22,
-      "opportunity_availability": 9,
-      "reasons": {
-        "compensation": "10% baseline on new customers, rising to 12% for content creators and influencers, is a solid published structure; existing-customer rates are lower at 7% / 10%.",
-        "contact_access": "Affiliate contact runs through Webgains per the program terms; no public partnerships email is published.",
-        "credibility": "Stocked in Boots nationwide with maternity-category awards per the program page; the brand is young and niche.",
-        "niche_fit": "Pregnancy-safe skincare is narrower than general skincare, but it is a specific, underserved niche with a motivated audience and clinical credibility.",
-        "opportunity_availability": "Open Webgains program, launched about three months before this research, with a published content-and-influencer tier.",
-        "ugc_evidence": "A dedicated Content & Influencers commission tier in the program terms is direct evidence the brand recruits creators."
-      },
-      "ugc_evidence": 13
-    },
-    "socials": [],
-    "website": "https://skntoskn.com"
+  "category_slug": "beauty",
+  "contacts": [],
+  "country": "India",
+  "description": "Indian beauty brand selling skincare, beauty and lifestyle products (35+ products across 9 categories, prices in rupees) whose own affiliate page runs a four-tier creator program through BixGrow, from a 15% base commission for nano creators up to 20% for professionals.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://www.odeonworld.com/pages/become-an-affiliate",
+    "summary": "The brand's own affiliate page (fetched) publishes creator tiers run through a BixGrow portal: Seedling nano creators (1K-10K followers) earn 15% base commission, Blossom micro influencers 18%, a Glow customer-referral tier 12%, and an Elite professional tier 20%, with automatic tier upgrades at published referred-sales thresholds, seasonal commission boosts and up to 22% on hero products. The recorded rate is the 15% base creator tier."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://www.odeonworld.com/pages/become-an-affiliate",
+    "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched program page, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown. The Elite tier targets professional MUAs and salon owners, but the program's Seedling and Blossom tiers are creator tiers open from 1,000 followers, which is the route recorded here."
+   }
+  ],
+  "name": "ODEON",
+  "opportunity": {
+   "application_url": "https://www.odeonworld.com/pages/become-an-affiliate",
+   "compensation_notes": "15% base commission at the Seedling creator tier, rising to 18% (Blossom) and 20% (Elite) at published thresholds, with up to 22% on hero products, per the brand's own affiliate page; payouts run through its BixGrow portal. Commission cap: unknown - no cap statement is published.",
+   "description": "Join ODEON's tiered creator program through its BixGrow portal, create skincare and beauty content, and earn 15% base commission with published upgrade paths to 18% and 20%.",
+   "status": "unverified",
+   "title": "ODEON Affiliate Program (BixGrow own portal)",
+   "type": "affiliate"
   },
-  {
-    "affiliate": {
-      "application_url": "https://getlasso.co/affiliate/nuxe-us/",
-      "commission_cap": "unknown",
-      "commission_rate": null,
-      "creator_saturation": "unknown",
-      "network": "Awin",
-      "source_url": "https://getlasso.co/affiliate/nuxe-us/"
-    },
-    "category_slug": "skincare",
-    "contacts": [],
-    "country": "France",
-    "description": "French skincare brand formulated and manufactured in France, known for the Huile Prodigieuse multi-purpose dry oil made with seven botanical oils; its US affiliate program runs on Awin with a published commission range of 5% - 7% per sale.",
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://getlasso.co/affiliate/nuxe-us/",
-        "summary": "The Lasso directory (fetched) lists the Nuxe US affiliate program on the Awin network at 5% - 7% per sale with a 30-day cookie and a $50 payout threshold; Lasso's skincare program guide repeats the same Awin listing and range. Because only a range is published and no single flat rate, commission_rate is recorded as null with the range documented here."
-      },
-      {
-        "confidence": "verified",
-        "evidence_type": "brand_overview",
-        "source_type": "brand_site",
-        "source_url": "https://us.nuxe.com/products/huile-prodigieuse-50ml",
-        "summary": "The brand's own US storefront states its products are formulated and produced in France; the hero Huile Prodigieuse dry oil combines seven 100% botanical oils and is 98% natural-origin."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_cap",
-        "source_type": "affiliate_directory",
-        "source_url": "https://getlasso.co/affiliate/nuxe-us/",
-        "summary": "No earnings-cap or 'unlimited earnings' statement appears in the fetched directory listing, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
-      }
-    ],
-    "name": "NUXE",
-    "opportunity": {
-      "application_url": "https://getlasso.co/affiliate/nuxe-us/",
-      "compensation_notes": "Published commission is a 5% - 7% per-sale range on Awin with a 30-day cookie and a $50 payout threshold (Lasso directory); no single flat rate is published, so commission_rate is null. Commission cap: unknown - no cap statement is published.",
-      "description": "Join NUXE's US affiliate program on Awin, create French-pharmacy skincare and dry-oil ritual content, and earn within the published 5% - 7% per-sale range.",
-      "status": "unverified",
-      "title": "NUXE Affiliate Program (Awin)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 7,
-      "contact_access": 8,
-      "credibility": 5,
-      "niche_fit": 25,
-      "opportunity_availability": 9,
-      "reasons": {
-        "compensation": "Only a 5% - 7% range is published; the low end is modest and no flat rate could be recorded.",
-        "contact_access": "Join route is the Awin listing via the directory; no public partnerships email was found.",
-        "credibility": "Long-established French pharmacy brand with global retail distribution; program evidence is directory-only.",
-        "niche_fit": "French-pharmacy skincare and the iconic dry oil are strong UGC topics for ritual and multi-use content.",
-        "opportunity_availability": "Open application through Awin for the US program.",
-        "ugc_evidence": "An open Awin program exists, but the brand publishes no dedicated creator program page in the sources checked."
-      },
-      "ugc_evidence": 11
-    },
-    "socials": [],
-    "website": "https://us.nuxe.com"
+  "score": {
+   "compensation": 15,
+   "contact_access": 8,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "15% base for nano creators with published tiers to 18% and 20% is a strong published structure for a smaller brand.",
+    "contact_access": "Applications run through the brand's own affiliate page and BixGrow portal; no public partnerships email is published.",
+    "credibility": "Full tier terms are published on the brand's own page, but the brand is India-focused with limited independent coverage in the sources checked.",
+    "niche_fit": "Skincare and beauty products across 9 categories fit UGC routines and reviews, with tiers explicitly built for nano and micro creators.",
+    "opportunity_availability": "Open signup from 1,000 followers at the Seedling tier.",
+    "ugc_evidence": "A purpose-built tiered creator program with onboarding kits, affiliate managers at higher tiers and seasonal boosts is strong creator evidence."
+   },
+   "ugc_evidence": 17
   },
-  {
-    "affiliate": {
-      "application_url": "https://getlasso.co/affiliate/farmacy/",
-      "commission_cap": "unknown",
-      "commission_rate": null,
-      "creator_saturation": "unknown",
-      "network": null,
-      "source_url": "https://getlasso.co/affiliate/farmacy/"
-    },
-    "category_slug": "skincare",
-    "contacts": [],
-    "country": "United States",
-    "description": "US clean skincare brand pairing farm-grown botanicals with clinical actives, known for the Green Clean cleansing balm and Honeymoon Glow serum; directories report an open affiliate program paying up to 15% commission, though no flat rate or network is published on a brand or network page.",
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "https://wootfi.com/best-beauty-affiliates-program/",
-        "summary": "Wootfi's beauty affiliate roundup (fetched) states Farmacy Beauty offers an affiliate program anyone can apply to, free to sign up, paying up to 15% commission on every purchase through an affiliate link; Shopper's partnership listing likewise reports 'up to 15%'. Both figures are ceilings, not flat rates, so commission_rate is recorded as null."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_rate",
-        "source_type": "affiliate_directory",
-        "source_url": "https://getlasso.co/affiliate/farmacy/",
-        "summary": "Lasso lists Farmacy at 'up to 18.75%' with a 14-day cookie, but that figure is Lasso's own Amazon-marketplace commission artifact rather than the brand's program rate, so it is disregarded. No fetched brand or network page names the affiliate network the program runs on, so network is recorded as null and the join route is the directory listing. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
-      }
-    ],
-    "name": "Farmacy",
-    "opportunity": {
-      "application_url": "https://getlasso.co/affiliate/farmacy/",
-      "compensation_notes": "No flat rate is published; directories report ceilings of 'up to 15%' (Wootfi, Shopper), so commission_rate is null. Lasso's 'up to 18.75%' is its Amazon-marketplace figure and is not the brand program rate. The affiliate network is not named on any fetched brand or network page. Commission cap: unknown - no cap statement is published.",
-      "description": "Apply to Farmacy's affiliate program, create clean farm-to-face skincare content, and confirm the live rate and network inside the application before posting - directories publish only an 'up to 15%' ceiling.",
-      "status": "unverified",
-      "title": "Farmacy Affiliate Program (network not published)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 6,
-      "contact_access": 8,
-      "credibility": 4,
-      "niche_fit": 26,
-      "opportunity_availability": 9,
-      "reasons": {
-        "compensation": "Only an 'up to 15%' ceiling is reported by directories; no flat rate or network terms could be verified.",
-        "contact_access": "Application route is via directory listings; no public partnerships email was found.",
-        "credibility": "Well-known US clean-skincare brand with major retail distribution; program evidence is directory-only and the network is unpublished.",
-        "niche_fit": "Clean farm-to-face skincare is a top UGC category for routine, ingredient and texture content.",
-        "opportunity_availability": "Directories report an open application with no approval requirements stated.",
-        "ugc_evidence": "An open affiliate program is reported by multiple directories, but the brand publishes no program terms on the pages checked."
-      },
-      "ugc_evidence": 12
-    },
-    "socials": [],
-    "website": "https://farmacybeauty.com"
+  "socials": [],
+  "website": "https://www.odeonworld.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/62235",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/62235"
   },
-  {
-    "affiliate": {
-      "application_url": "http://linkclicky.com/affiliate-program/odacit/",
-      "commission_cap": "unknown",
-      "commission_rate": null,
-      "creator_saturation": "unknown",
-      "network": "Awin / ShareASale (reported)",
-      "source_url": "http://linkclicky.com/affiliate-program/odacit/"
-    },
-    "category_slug": "skincare",
-    "contacts": [],
-    "country": "United States",
-    "description": "US clean skincare brand blending French formulation heritage with California botanicals, known for concentrated serum concentrates and crystal gua sha tools; directories list an affiliate program at rates that conflict between 15% and 5% - 10%.",
-    "evidence": [
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "affiliate_program",
-        "source_type": "affiliate_directory",
-        "source_url": "http://linkclicky.com/affiliate-program/odacit/",
-        "summary": "LinkClicky (profile updated March 11, 2024) lists Odacite (website odacite.com) on ShareASale at 15% per sale with a 30-day cookie."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_rate",
-        "source_type": "affiliate_directory",
-        "source_url": "https://www.shopper.com/partnerships/odacite-com-affiliate-program",
-        "summary": "Published rates and networks conflict: LinkClicky lists 15% on ShareASale, Shopper lists 5% - 10%, and a commission-comparison directory currently lists the program on Awin with live EPC data. With no rate published on a brand or network page, commission_rate is recorded as null and the network as reported on both Awin and ShareASale. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
-      }
-    ],
-    "name": "Odacité",
-    "opportunity": {
-      "application_url": "http://linkclicky.com/affiliate-program/odacit/",
-      "compensation_notes": "Rate not recorded: directories conflict (LinkClicky 15% per sale on ShareASale vs Shopper 5% - 10%, with a current comparison directory listing the program on Awin). Confirm the live rate inside the network before posting. Commission cap: unknown - no cap statement is published.",
-      "description": "Find Odacite on its affiliate network listing, create clean French-Californian skincare content, and confirm the live rate inside the network - directories disagree on both the rate and the network.",
-      "status": "unverified",
-      "title": "Odacité Affiliate Program (Awin / ShareASale, reported)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 6,
-      "contact_access": 9,
-      "credibility": 4,
-      "niche_fit": 25,
-      "opportunity_availability": 8,
-      "reasons": {
-        "compensation": "No reliable rate could be verified - directory figures conflict between 15% and 5% - 10% across two different networks.",
-        "contact_access": "Join routes are published in network directory listings; no public partnerships email was found.",
-        "credibility": "Established clean-beauty brand; program evidence is directory-only, dated for ShareASale (March 2024) and current for Awin.",
-        "niche_fit": "Concentrated clean serums and crystal tools are a strong UGC niche for ritual and ingredient content.",
-        "opportunity_availability": "Program is listed on affiliate networks via directories; availability rests on directory reporting.",
-        "ugc_evidence": "Network programs are directory-listed, but the brand publishes no creator program page in the sources checked."
-      },
-      "ugc_evidence": 12
-    },
-    "socials": [],
-    "website": "https://www.odacite.com"
+  "category_slug": "skincare",
+  "contacts": [
+   {
+    "contact_name": "Skin Choice Marketing Team",
+    "contact_type": "marketing",
+    "email": "marketing@skinchoice.com",
+    "notes": "Published on Skin Choice's Awin merchant profile as the contact for inquiries and partnership opportunities.",
+    "url": "https://ui.awin.com/merchant-profile/62235"
+   }
+  ],
+  "country": "United Kingdom",
+  "description": "UK skincare brand focused on breakouts, acne and clearer pores, known for its pimple patches; its affiliate program runs on Awin at 10% commission on every confirmed sale, targeting the UK and worldwide.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://ui.awin.com/merchant-profile/62235",
+    "summary": "Skin Choice's own Awin merchant profile (fetched) states the program runs in partnership with the Awin network and pays a competitive 10% commission on every confirmed sale, with a target geography of the United Kingdom and worldwide, full affiliate support and marketing materials, and the contact email marketing@skinchoice.com for inquiries and partnership opportunities."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://ui.awin.com/merchant-profile/62235",
+    "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched Awin profile, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+   }
+  ],
+  "name": "Skin Choice",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/62235",
+   "compensation_notes": "10% commission on every confirmed sale, published on the brand's own Awin merchant profile. Commission cap: unknown - no cap statement is published.",
+   "description": "Join Skin Choice on Awin, create acne-care and pimple-patch content, and earn 10% commission on every confirmed sale.",
+   "status": "unverified",
+   "title": "Skin Choice Affiliate Program (Awin)",
+   "type": "affiliate"
   },
-  {
-    "affiliate": {
-      "application_url": "https://sukinnaturals.com/pages/sukin-affiliate-program",
-      "commission_cap": "unknown",
-      "commission_rate": 5,
-      "creator_saturation": "unknown",
-      "network": "Rakuten Advertising (LinkShare)",
-      "source_url": "https://sukinnaturals.com/pages/sukin-affiliate-program"
-    },
-    "category_slug": "skincare",
-    "contacts": [],
-    "country": "Australia",
-    "description": "Australian natural skincare brand founded in Melbourne, selling affordable botanical skincare and haircare; its own US affiliate page publishes commissions starting at 5% on all sales through LinkShare (Rakuten Advertising), with a separate UK program reported at 6% - 8%.",
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "brand_site",
-        "source_url": "https://sukinnaturals.com/pages/sukin-affiliate-program",
-        "summary": "The brand's own US affiliate page (fetched) states the program is managed through LinkShare (Rakuten Advertising), is free to join, and pays commission starting at 5% on all Sukin sales generated through an affiliate's site, with creative assets and promotional offers provided through the LinkShare portal. The recorded rate is the published 5% starting rate."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_rate",
-        "source_type": "affiliate_directory",
-        "source_url": "https://getlasso.co/affiliate/sukin-uk/",
-        "summary": "Lasso lists the Sukin UK program at 6% - 8% per sale with a 30-day cookie, indicating regional programs pay above the US starting rate; Shopper's generic 5% - 10% range is directory boilerplate and is not relied on. No earnings-cap statement appears on the brand's page, so the cap is recorded as unknown; no creator count is published, so saturation is also unknown."
-      }
-    ],
-    "name": "Sukin",
-    "opportunity": {
-      "application_url": "https://sukinnaturals.com/pages/sukin-affiliate-program",
-      "compensation_notes": "Commissions start at 5% on all sales through LinkShare (Rakuten Advertising), per the brand's own affiliate page; the UK program is reported at 6% - 8% with a 30-day cookie. Commission cap: unknown - no cap statement is published.",
-      "description": "Join Sukin's affiliate program through LinkShare from the brand's own affiliate page, create affordable natural-skincare content, and earn commissions starting at 5% on all sales.",
-      "status": "unverified",
-      "title": "Sukin Affiliate Program (Rakuten Advertising / LinkShare)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 8,
-      "contact_access": 9,
-      "credibility": 4,
-      "niche_fit": 24,
-      "opportunity_availability": 8,
-      "reasons": {
-        "compensation": "A 5% starting rate on the brand's own page is low, though the UK program is reported at 6% - 8% and 'starting at' implies higher tiers exist.",
-        "contact_access": "The brand publishes its own affiliate page with the join route; no public partnerships email was found.",
-        "credibility": "Long-established Australian natural brand with mass retail distribution; US program terms are verified on the brand's own page.",
-        "niche_fit": "Affordable botanical skincare fits budget-routine and clean-beauty UGC well.",
-        "opportunity_availability": "Free, open joining through LinkShare from the brand's affiliate page.",
-        "ugc_evidence": "The brand maintains its own affiliate page and network portal assets, but publishes no creator-specific program."
-      },
-      "ugc_evidence": 11
-    },
-    "socials": [],
-    "website": "https://sukinnaturals.com"
+  "score": {
+   "compensation": 13,
+   "contact_access": 13,
+   "credibility": 3,
+   "niche_fit": 23,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A flat 10% on every confirmed sale, published on the brand's own network profile, is a solid mid-tier rate.",
+    "contact_access": "A named marketing contact email for partnership inquiries is published on the brand's Awin profile.",
+    "credibility": "Program terms are verified on the network profile the brand itself maintains; the brand is small with limited independent coverage.",
+    "niche_fit": "Acne care and pimple patches are a proven, demonstrable UGC skincare niche with strong before/after content.",
+    "opportunity_availability": "Open Awin program targeting the UK and worldwide.",
+    "ugc_evidence": "The brand recruits affiliates directly on its network profile with marketing tools and ongoing guidance, though it publishes no separate creator program."
+   },
+   "ugc_evidence": 12
   },
-  {
-    "affiliate": {
-      "application_url": "https://ui.awin.com/merchant-profile/90735",
-      "commission_cap": "unknown",
-      "commission_rate": 5,
-      "creator_saturation": "unknown",
-      "network": "Awin",
-      "source_url": "https://ui.awin.com/merchant-profile/90735"
-    },
-    "category_slug": "skincare",
-    "contacts": [],
-    "country": "United States",
-    "description": "US women-founded clean skincare brand launched in 2018 by former Johnson & Johnson R&D leader Naomi Furgiuele, building vegan, Leaping Bunny-certified products from global beauty rituals and funding girls' education from sales; its affiliate program runs on Awin.",
-    "evidence": [
-      {
-        "confidence": "verified",
-        "evidence_type": "affiliate_program",
-        "source_type": "brand_site",
-        "source_url": "https://ui.awin.com/merchant-profile/90735",
-        "summary": "Nuria Beauty's own Awin merchant profile (fetched) states the program offers a minimum 5% commission with an average order value of about $45, and describes the range as clean, vegan, non-GMO, gluten-free, Leaping Bunny-certified and carbon neutral, with a portion of all sales contributed to girls' education. The recorded rate is the published 5% minimum."
-      },
-      {
-        "confidence": "verified",
-        "evidence_type": "brand_overview",
-        "source_type": "brand_site",
-        "source_url": "https://parade.com/942570/brittany-galla/here-are-the-seven-words-that-naomi-furgiule-founder-of-nuria-beauty-says-to-herself-before-a-big-meeting/",
-        "summary": "Parade's founder profile states Pennsylvania-based entrepreneur Naomi Furgiuele launched Nuria in November 2018 after leading face and sun R&D teams at Johnson & Johnson, and that the brand partners with She's The First to fund girls' education."
-      },
-      {
-        "confidence": "publicly_reported",
-        "evidence_type": "commission_cap",
-        "source_type": "brand_site",
-        "source_url": "https://ui.awin.com/merchant-profile/90735",
-        "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched Awin profile, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
-      }
-    ],
-    "name": "Nuria Beauty",
-    "opportunity": {
-      "application_url": "https://ui.awin.com/merchant-profile/90735",
-      "compensation_notes": "Minimum 5% commission with an average order value of about $45, published on the brand's own Awin merchant profile; 'minimum' means higher rates may exist but are not published. Commission cap: unknown - no cap statement is published.",
-      "description": "Join Nuria Beauty on Awin, create clean vegan skincare content with a social-impact angle, and earn a minimum 5% commission on sales averaging about $45.",
-      "status": "unverified",
-      "title": "Nuria Beauty Affiliate Program (Awin)",
-      "type": "affiliate"
-    },
-    "score": {
-      "compensation": 9,
-      "contact_access": 8,
-      "credibility": 4,
-      "niche_fit": 23,
-      "opportunity_availability": 9,
-      "reasons": {
-        "compensation": "A published 5% minimum is a low floor, though the 'minimum' wording implies higher rates are possible and the $45 average order value is disclosed.",
-        "contact_access": "Contact runs through the brand's website message link on its Awin profile; no public partnerships email is published.",
-        "credibility": "Founded in 2018 by a former Johnson & Johnson R&D vice president, with Leaping Bunny certification and a documented education-giving program.",
-        "niche_fit": "Clean, vegan, globally inspired skincare with a give-back story fits values-led UGC well.",
-        "opportunity_availability": "Open Awin program with published terms on the brand's own merchant profile.",
-        "ugc_evidence": "An open network program exists, but the brand publishes no dedicated creator program page in the sources checked."
-      },
-      "ugc_evidence": 11
-    },
-    "socials": [],
-    "website": "https://nuriabeauty.com"
-  }
+  "socials": [],
+  "website": "https://skinchoice.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/niche/organic/",
+   "commission_cap": "unknown",
+   "commission_rate": 6,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://getlasso.co/niche/organic/"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": "New Zealand",
+  "description": "New Zealand-founded natural skincare brand with a twenty-year legacy, built on botanicals such as manuka honey, avocado oil and Vinanza grape extract, with BioGro-certified organic and Vegetarian Society-certified vegan ranges; its affiliate program runs on Awin.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/niche/organic/",
+    "summary": "The Lasso organic-beauty program guide (fetched) lists Antipodes on the Awin network at 6% per sale with a 30-day cookie and a $50 payout threshold; Lasso's UK listing for the brand gives 6% - 8% per sale on the same network and cookie, and an independent affiliate roundup also lists Antipodes on Awin."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://antipodesnature.com/collections/certified-organic-skincare?filters=filter_skin_type.fine-lines-wrinkles",
+    "summary": "The brand's own site states Antipodes is New Zealand founded, owned and made, with a legacy spanning twenty years, BioGro New Zealand organic certification and UK Vegetarian Society vegan certification across much of the range."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/niche/organic/",
+    "summary": "No earnings-cap or 'unlimited earnings' statement appears in the fetched directory listings, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+   }
+  ],
+  "name": "Antipodes",
+  "opportunity": {
+   "application_url": "https://getlasso.co/niche/organic/",
+   "compensation_notes": "6% per sale with a 30-day cookie and a $50 payout threshold on Awin, per the Lasso directory guide; the UK listing reports 6% - 8%. The recorded rate is the 6% global figure. Commission cap: unknown - no cap statement is published.",
+   "description": "Join Antipodes on Awin, create natural and certified-organic skincare content, and earn 6% per sale with a 30-day cookie.",
+   "status": "unverified",
+   "title": "Antipodes Affiliate Program (Awin)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "6% per sale is a modest rate, consistent across the directory listings checked, with the UK program reported up to 8%.",
+    "contact_access": "Join route is the Awin listing via directories; no public partnerships email was found.",
+    "credibility": "Twenty-year-old certified-organic brand sold through pharmacies and department stores internationally; program terms rest on directory reporting of the Awin listing.",
+    "niche_fit": "Premium natural skincare with certified-organic credentials is a strong clean-beauty UGC niche.",
+    "opportunity_availability": "Open Awin program across multiple regional storefronts.",
+    "ugc_evidence": "An established network program exists, but the brand publishes no dedicated creator program page in the sources checked."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://antipodesnature.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "http://affi.io/m/skn-to-skn",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Webgains",
+   "source_url": "http://affi.io/m/skn-to-skn"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": "United Kingdom",
+  "description": "UK pregnancy-safe skincare brand developed with dermatologists and GPs for pregnancy, breastfeeding and hormonal skin, stocked in Boots and award-winning in the maternity category; its affiliate program runs on Webgains with a dedicated content-and-influencer commission tier.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "http://affi.io/m/skn-to-skn",
+    "summary": "The brand's Webgains program terms, reproduced on its affi.io program page (fetched), publish a baseline commission of 10% for new customers and 7% for existing customers, a Content & Influencers tier at 12% new / 10% existing, voucher-site rates of 5% / 3%, a 30-day cookie and a closed PPC policy. The recorded rate is the 10% baseline new-customer rate. The page's summary header shows a conflicting '3% to 3%' revenue figure, which matches only the lowest voucher-site existing-customer rate; the detailed commission overview in the program terms is the basis for the recorded rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_directory",
+    "source_url": "http://affi.io/m/skn-to-skn",
+    "summary": "No earnings-cap or 'unlimited earnings' statement appears in the fetched program terms, so the cap is recorded as unknown. The program page states the Webgains program launched about three months ago, but a launch date alone is not creator-count evidence, so saturation is also recorded as unknown."
+   }
+  ],
+  "name": "SKN TO SKN",
+  "opportunity": {
+   "application_url": "http://affi.io/m/skn-to-skn",
+   "compensation_notes": "Baseline commission 10% on new customers and 7% on existing customers, with a Content & Influencers tier at 12% new / 10% existing and a 30-day cookie, per the brand's published Webgains program terms. Commission cap: unknown - no cap statement is published.",
+   "description": "Join SKN TO SKN on Webgains, create pregnancy-safe and hormonal-skin routine content, and earn 10% baseline commission - 12% on new customers at the content-and-influencer tier.",
+   "status": "unverified",
+   "title": "SKN TO SKN Affiliate Program (Webgains)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "10% baseline on new customers, rising to 12% for content creators and influencers, is a solid published structure; existing-customer rates are lower at 7% / 10%.",
+    "contact_access": "Affiliate contact runs through Webgains per the program terms; no public partnerships email is published.",
+    "credibility": "Stocked in Boots nationwide with maternity-category awards per the program page; the brand is young and niche.",
+    "niche_fit": "Pregnancy-safe skincare is narrower than general skincare, but it is a specific, underserved niche with a motivated audience and clinical credibility.",
+    "opportunity_availability": "Open Webgains program, launched about three months before this research, with a published content-and-influencer tier.",
+    "ugc_evidence": "A dedicated Content & Influencers commission tier in the program terms is direct evidence the brand recruits creators."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://skntoskn.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/nuxe-us/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://getlasso.co/affiliate/nuxe-us/"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": "France",
+  "description": "French skincare brand formulated and manufactured in France, known for the Huile Prodigieuse multi-purpose dry oil made with seven botanical oils; its US affiliate program runs on Awin with a published commission range of 5% - 7% per sale.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/nuxe-us/",
+    "summary": "The Lasso directory (fetched) lists the Nuxe US affiliate program on the Awin network at 5% - 7% per sale with a 30-day cookie and a $50 payout threshold; Lasso's skincare program guide repeats the same Awin listing and range. Because only a range is published and no single flat rate, commission_rate is recorded as null with the range documented here."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://us.nuxe.com/products/huile-prodigieuse-50ml",
+    "summary": "The brand's own US storefront states its products are formulated and produced in France; the hero Huile Prodigieuse dry oil combines seven 100% botanical oils and is 98% natural-origin."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/nuxe-us/",
+    "summary": "No earnings-cap or 'unlimited earnings' statement appears in the fetched directory listing, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+   }
+  ],
+  "name": "NUXE",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/nuxe-us/",
+   "compensation_notes": "Published commission is a 5% - 7% per-sale range on Awin with a 30-day cookie and a $50 payout threshold (Lasso directory); no single flat rate is published, so commission_rate is null. Commission cap: unknown - no cap statement is published.",
+   "description": "Join NUXE's US affiliate program on Awin, create French-pharmacy skincare and dry-oil ritual content, and earn within the published 5% - 7% per-sale range.",
+   "status": "unverified",
+   "title": "NUXE Affiliate Program (Awin)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Only a 5% - 7% range is published; the low end is modest and no flat rate could be recorded.",
+    "contact_access": "Join route is the Awin listing via the directory; no public partnerships email was found.",
+    "credibility": "Long-established French pharmacy brand with global retail distribution; program evidence is directory-only.",
+    "niche_fit": "French-pharmacy skincare and the iconic dry oil are strong UGC topics for ritual and multi-use content.",
+    "opportunity_availability": "Open application through Awin for the US program.",
+    "ugc_evidence": "An open Awin program exists, but the brand publishes no dedicated creator program page in the sources checked."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://us.nuxe.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "http://linkclicky.com/affiliate-program/odacit/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin / ShareASale (reported)",
+   "source_url": "http://linkclicky.com/affiliate-program/odacit/"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": "United States",
+  "description": "US clean skincare brand blending French formulation heritage with California botanicals, known for concentrated serum concentrates and crystal gua sha tools; directories list an affiliate program at rates that conflict between 15% and 5% - 10%.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "http://linkclicky.com/affiliate-program/odacit/",
+    "summary": "LinkClicky (profile updated March 11, 2024) lists Odacite (website odacite.com) on ShareASale at 15% per sale with a 30-day cookie."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.shopper.com/partnerships/odacite-com-affiliate-program",
+    "summary": "Published rates and networks conflict: LinkClicky lists 15% on ShareASale, Shopper lists 5% - 10%, and a commission-comparison directory currently lists the program on Awin with live EPC data. With no rate published on a brand or network page, commission_rate is recorded as null and the network as reported on both Awin and ShareASale. No earnings-cap statement was found, so the cap is unknown; no creator count is published, so saturation is also unknown."
+   }
+  ],
+  "name": "Odacité",
+  "opportunity": {
+   "application_url": "http://linkclicky.com/affiliate-program/odacit/",
+   "compensation_notes": "Rate not recorded: directories conflict (LinkClicky 15% per sale on ShareASale vs Shopper 5% - 10%, with a current comparison directory listing the program on Awin). Confirm the live rate inside the network before posting. Commission cap: unknown - no cap statement is published.",
+   "description": "Find Odacite on its affiliate network listing, create clean French-Californian skincare content, and confirm the live rate inside the network - directories disagree on both the rate and the network.",
+   "status": "unverified",
+   "title": "Odacité Affiliate Program (Awin / ShareASale, reported)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "No reliable rate could be verified - directory figures conflict between 15% and 5% - 10% across two different networks.",
+    "contact_access": "Join routes are published in network directory listings; no public partnerships email was found.",
+    "credibility": "Established clean-beauty brand; program evidence is directory-only, dated for ShareASale (March 2024) and current for Awin.",
+    "niche_fit": "Concentrated clean serums and crystal tools are a strong UGC niche for ritual and ingredient content.",
+    "opportunity_availability": "Program is listed on affiliate networks via directories; availability rests on directory reporting.",
+    "ugc_evidence": "Network programs are directory-listed, but the brand publishes no creator program page in the sources checked."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.odacite.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://sukinnaturals.com/pages/sukin-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising (LinkShare)",
+   "source_url": "https://sukinnaturals.com/pages/sukin-affiliate-program"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": "Australia",
+  "description": "Australian natural skincare brand founded in Melbourne, selling affordable botanical skincare and haircare; its own US affiliate page publishes commissions starting at 5% on all sales through LinkShare (Rakuten Advertising), with a separate UK program reported at 6% - 8%.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://sukinnaturals.com/pages/sukin-affiliate-program",
+    "summary": "The brand's own US affiliate page (fetched) states the program is managed through LinkShare (Rakuten Advertising), is free to join, and pays commission starting at 5% on all Sukin sales generated through an affiliate's site, with creative assets and promotional offers provided through the LinkShare portal. The recorded rate is the published 5% starting rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/sukin-uk/",
+    "summary": "Lasso lists the Sukin UK program at 6% - 8% per sale with a 30-day cookie, indicating regional programs pay above the US starting rate; Shopper's generic 5% - 10% range is directory boilerplate and is not relied on. No earnings-cap statement appears on the brand's page, so the cap is recorded as unknown; no creator count is published, so saturation is also unknown."
+   }
+  ],
+  "name": "Sukin",
+  "opportunity": {
+   "application_url": "https://sukinnaturals.com/pages/sukin-affiliate-program",
+   "compensation_notes": "Commissions start at 5% on all sales through LinkShare (Rakuten Advertising), per the brand's own affiliate page; the UK program is reported at 6% - 8% with a 30-day cookie. Commission cap: unknown - no cap statement is published.",
+   "description": "Join Sukin's affiliate program through LinkShare from the brand's own affiliate page, create affordable natural-skincare content, and earn commissions starting at 5% on all sales.",
+   "status": "unverified",
+   "title": "Sukin Affiliate Program (Rakuten Advertising / LinkShare)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A 5% starting rate on the brand's own page is low, though the UK program is reported at 6% - 8% and 'starting at' implies higher tiers exist.",
+    "contact_access": "The brand publishes its own affiliate page with the join route; no public partnerships email was found.",
+    "credibility": "Long-established Australian natural brand with mass retail distribution; US program terms are verified on the brand's own page.",
+    "niche_fit": "Affordable botanical skincare fits budget-routine and clean-beauty UGC well.",
+    "opportunity_availability": "Free, open joining through LinkShare from the brand's affiliate page.",
+    "ugc_evidence": "The brand maintains its own affiliate page and network portal assets, but publishes no creator-specific program."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://sukinnaturals.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/90735",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/90735"
+  },
+  "category_slug": "skincare",
+  "contacts": [],
+  "country": "United States",
+  "description": "US women-founded clean skincare brand launched in 2018 by former Johnson & Johnson R&D leader Naomi Furgiuele, building vegan, Leaping Bunny-certified products from global beauty rituals and funding girls' education from sales; its affiliate program runs on Awin.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://ui.awin.com/merchant-profile/90735",
+    "summary": "Nuria Beauty's own Awin merchant profile (fetched) states the program offers a minimum 5% commission with an average order value of about $45, and describes the range as clean, vegan, non-GMO, gluten-free, Leaping Bunny-certified and carbon neutral, with a portion of all sales contributed to girls' education. The recorded rate is the published 5% minimum."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_overview",
+    "source_type": "brand_site",
+    "source_url": "https://parade.com/942570/brittany-galla/here-are-the-seven-words-that-naomi-furgiule-founder-of-nuria-beauty-says-to-herself-before-a-big-meeting/",
+    "summary": "Parade's founder profile states Pennsylvania-based entrepreneur Naomi Furgiuele launched Nuria in November 2018 after leading face and sun R&D teams at Johnson & Johnson, and that the brand partners with She's The First to fund girls' education."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://ui.awin.com/merchant-profile/90735",
+    "summary": "No earnings-cap or 'unlimited earnings' statement appears on the fetched Awin profile, so the cap is recorded as unknown. No creator count is published, so saturation is also unknown."
+   }
+  ],
+  "name": "Nuria Beauty",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/90735",
+   "compensation_notes": "Minimum 5% commission with an average order value of about $45, published on the brand's own Awin merchant profile; 'minimum' means higher rates may exist but are not published. Commission cap: unknown - no cap statement is published.",
+   "description": "Join Nuria Beauty on Awin, create clean vegan skincare content with a social-impact angle, and earn a minimum 5% commission on sales averaging about $45.",
+   "status": "unverified",
+   "title": "Nuria Beauty Affiliate Program (Awin)",
+   "type": "affiliate"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A published 5% minimum is a low floor, though the 'minimum' wording implies higher rates are possible and the $45 average order value is disclosed.",
+    "contact_access": "Contact runs through the brand's website message link on its Awin profile; no public partnerships email is published.",
+    "credibility": "Founded in 2018 by a former Johnson & Johnson R&D vice president, with Leaping Bunny certification and a documented education-giving program.",
+    "niche_fit": "Clean, vegan, globally inspired skincare with a give-back story fits values-led UGC well.",
+    "opportunity_availability": "Open Awin program with published terms on the brand's own merchant profile.",
+    "ugc_evidence": "An open network program exists, but the brand publishes no dedicated creator program page in the sources checked."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://nuriabeauty.com"
+ }
 ]
