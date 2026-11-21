@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Bitdefender",
+    "website": "https://www.bitdefender.com",
+    "country": "Romania",
+    "category_slug": "technology",
+    "description": "Romanian cybersecurity company selling consumer antivirus and internet-security suites (Total Security, Premium VPN and related products) direct to consumers worldwide.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_program_page",
+        "source_url": "https://www.bitdefender.com/en-us/partners/affiliate-partners/",
+        "summary": "Bitdefender's own affiliate-partners page (fetched) routes join buttons to its Impact program and describes a base 20% revenue share for new customers, 50% on business products, with custom deals up to and beyond 100%. No earnings-cap statement is published, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 20,
+      "application_url": "https://www.bitdefender.com/en-us/partners/affiliate-partners/",
+      "source_url": "https://www.bitdefender.com/en-us/partners/affiliate-partners/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 14,
+      "compensation": 17,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Consumer security software is a core tech-creator niche with highly demonstrable products (scans, VPN, device protection).",
+        "ugc_evidence": "The program is run through Impact with creator-ready join links from the brand's own partner page; no separate ambassador page was found.",
+        "compensation": "20% revenue share base for new customers, 50% on business products and custom deals above 100% for top partners; no cap statement published, so cap stays unknown.",
+        "contact_access": "Program details and join route are on the brand's own partner page; no public partnerships email was seen on the fetched page.",
+        "opportunity_availability": "Open application through Impact from the brand's own page.",
+        "credibility": "One of the largest consumer antivirus vendors globally, selling direct in many countries."
+      }
+    }
+  },
+  {
+    "name": "Malwarebytes",
+    "website": "https://www.malwarebytes.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "US cybersecurity company selling consumer anti-malware and privacy products (Premium Security, Privacy VPN and identity-theft protection) direct to consumers.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_program_page",
+        "source_url": "https://www.malwarebytes.com/affiliates",
+        "summary": "Malwarebytes' own affiliates page (fetched) states affiliates earn up to 30% per sale through Cleverbridge Partnerize, with a 45-day referral period and commission paid within 30 days of the point of sale. Some third-party reviews claim up to 40% or a CJ route; the brand's own page governs. No earnings-cap statement is published, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Partnerize",
+      "commission_rate": 30,
+      "application_url": "https://www.malwarebytes.com/affiliates",
+      "source_url": "https://www.malwarebytes.com/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 16,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Consumer anti-malware and privacy tools are a staple tech-creator niche with easy before/after demonstrations.",
+        "ugc_evidence": "The brand runs a public affiliates page aimed at promoters; no separate creator or ambassador program page was found.",
+        "compensation": "Up to 30% per sale (a ceiling, not a base rate) via Partnerize, 45-day referral period; no cap statement published, so cap stays unknown.",
+        "contact_access": "Program terms and join route are published on the brand's own affiliates page; no public partnerships email was seen.",
+        "opportunity_availability": "Open application from the brand's own affiliates page.",
+        "credibility": "Long-established consumer security vendor with a large installed base."
+      }
+    }
+  },
+  {
+    "name": "ESET",
+    "website": "https://www.eset.com",
+    "country": "Slovakia",
+    "category_slug": "technology",
+    "description": "Slovak cybersecurity company selling consumer internet-security products (NOD32 Antivirus, Internet Security and Smart Security Premium) in more than 200 countries.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://www.eset.com/us/business/partner/online-affiliates",
+        "summary": "ESET's online-affiliates program is listed across multiple affiliate directories (getlasso, affpaying, openaffiliate.dev, Sovrn) with consistent terms: 20% recurring commission on CJ Affiliate, paid on new purchases AND renewals, 45-day cookie, $50 payout threshold, manual approval. The brand's own program page is eset.com/us/business/partner/online-affiliates. No earnings-cap statement is published, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": 20,
+      "application_url": "https://www.eset.com/us/business/partner/online-affiliates",
+      "source_url": "https://www.eset.com/us/business/partner/online-affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 12,
+      "compensation": 17,
+      "contact_access": 7,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Consumer antivirus is a proven tech-creator niche; ESET's lightweight products demo well on older hardware.",
+        "ugc_evidence": "Program is marketed to publishers through CJ; no dedicated creator page was found on the brand's own site.",
+        "compensation": "20% recurring, and unusually it pays on renewals as well as new purchases, which compounds creator earnings; no cap statement published, so cap stays unknown.",
+        "contact_access": "Contact runs through the CJ program and the brand's partner pages; no public partnerships email was seen.",
+        "opportunity_availability": "Application through CJ Affiliate with manual approval and a $50 payout threshold.",
+        "credibility": "One of the oldest independent antivirus vendors, headquartered in Bratislava and selling in 200+ countries."
+      }
+    }
+  },
+  {
+    "name": "Norton",
+    "website": "https://www.norton.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "US consumer cyber-safety brand from Gen Digital selling antivirus, VPN and identity-protection subscriptions (Norton 360, Norton VPN, LifeLock) direct to consumers.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://app.impact.com",
+        "summary": "Norton's affiliate presence runs through Impact (also CJ and regional networks). Published rates CONFLICT: baseline listings report about 20% (LinkClicky, getlasso), some networks report 25% (Affilorama), and the Impact 'Norton VPN Creator' campaign page itself states a 50% payout with a 60-day referral period. Because the sources conflict, commission_rate is recorded as null with the conflict documented here. No earnings-cap statement is published, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": null,
+      "application_url": "https://app.impact.com",
+      "source_url": "https://app.impact.com",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 13,
+      "compensation": 10,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Norton is one of the most recognised consumer security brands, an easy fit for mainstream tech and family-safety creators.",
+        "ugc_evidence": "Impact runs a dedicated 'Norton VPN Creator' campaign, a direct signal the brand recruits creators, not just coupon sites.",
+        "compensation": "Rate could not be settled: published figures conflict (about 20% baseline, 25% on some networks, 50% on the Impact creator campaign), so the rate is recorded as null rather than guessed; cap unknown.",
+        "contact_access": "Contact runs through the network programs; no public partnerships email was seen on the pages reviewed.",
+        "opportunity_availability": "Open application through Impact and CJ.",
+        "credibility": "Flagship consumer brand of Gen Digital, among the largest cyber-safety companies in the world."
+      }
+    }
+  },
+  {
+    "name": "MacPaw",
+    "website": "https://macpaw.com",
+    "country": "Ukraine",
+    "category_slug": "technology",
+    "description": "Ukrainian software company selling Mac utilities direct to consumers, including CleanMyMac, Gemini 2, ClearVPN, The Unarchiver and Encrypto.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "official_program_page",
+        "source_url": "https://macpaw.com/affiliate",
+        "summary": "MacPaw's own affiliate page (macpaw.com/affiliate, corroborated by openaffiliate.dev and clickaffiliate.net, checked Oct 2026) describes an Impact program paying a 35% starting commission per sale with performance tiers above that, a 180-day cookie, monthly payouts and manual review. The page's 'sky's the limit' wording is vague marketing, NOT an explicit no-cap statement, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 35,
+      "application_url": "https://macpaw.com/affiliate",
+      "source_url": "https://macpaw.com/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 15,
+      "compensation": 18,
+      "contact_access": 8,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "CleanMyMac and the Mac utility suite are natural, demonstrable products for Apple-focused creators.",
+        "ugc_evidence": "The brand maintains its own affiliate landing page aimed at promoters and reviewers, with creator-friendly assets via Impact.",
+        "compensation": "35% starting commission with performance tiers above it and an unusually long 180-day cookie; 'sky's the limit' is not an explicit no-cap statement, so cap stays unknown.",
+        "contact_access": "Program page and Impact dashboard provide the contact route; no public partnerships email was seen.",
+        "opportunity_availability": "Application through Impact with manual review.",
+        "credibility": "Well-known Mac software house; scored one point lower because its catalogue is Apple-only."
+      }
+    }
+  },
+  {
+    "name": "Descript",
+    "website": "https://www.descript.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "US software company selling an AI-powered audio and video editor used by creators and podcasters, with text-based editing, screen recording and AI voice tools.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_program_page",
+        "source_url": "https://www.descript.com/affiliate-terms",
+        "summary": "Descript's own affiliate terms (fetched in full) pay a FLAT $25 one-time bounty per new qualifying subscription (Creator/Pro plans, monthly or annual; new customers only; no renewals), with a 30-day purchase window, so commission_rate is null and the flat bounty is recorded here. The same terms CAP total annual commissions at $100,000 per affiliate, so the program is explicitly capped, not uncapped; the cap field records 'unknown' per directory convention with the $100k cap documented here. Program page: descript.com/affiliate, run on PartnerStack."
+      }
+    ],
+    "affiliate": {
+      "network": "PartnerStack",
+      "commission_rate": null,
+      "application_url": "https://www.descript.com/affiliate",
+      "source_url": "https://www.descript.com/affiliate-terms",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 16,
+      "compensation": 12,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Descript is a tool creators themselves use daily, so it fits creator-audience content almost perfectly.",
+        "ugc_evidence": "The affiliate program is aimed squarely at creators and podcasters who demo the editor in their own workflows.",
+        "compensation": "Flat $25 one-time bounty per new qualifying subscription, no renewals, and the terms cap annual commissions at $100,000 per affiliate, so earnings are bounded; rate recorded as null because it is a flat bounty.",
+        "contact_access": "Full public terms and a program page on the brand's own domain; no public partnerships email was seen.",
+        "opportunity_availability": "Open application through PartnerStack from the brand's program page.",
+        "credibility": "Established, venture-backed creator-tools company with a large user base."
+      }
+    }
+  },
+  {
+    "name": "Hamilton Beach",
+    "website": "https://www.hamiltonbeach.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "US small-appliance brand selling coffee makers, slow cookers, blenders, food processors and countertop ovens through its own store and major retailers.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.awin.com/us/news-and-events/program-news/new-affiliate-program-hamilton-beach",
+        "summary": "Awin's own program announcement (fetched) states the Hamilton Beach program pays 6% commission (a portion of revenue) on completed sales within a 45-day cookie window, with in-house account management, and warns that not all applications are accepted. FlexOffers lists 5%; Awin's own announcement governs. No earnings-cap statement is published, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 6,
+      "application_url": "https://www.awin.com/us/news-and-events/program-news/new-affiliate-program-hamilton-beach",
+      "source_url": "https://www.awin.com/us/news-and-events/program-news/new-affiliate-program-hamilton-beach",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 13,
+      "compensation": 10,
+      "contact_access": 7,
+      "opportunity_availability": 6,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Everyday kitchen appliances are highly demonstrable home and food-creator content.",
+        "ugc_evidence": "The Awin announcement targets quality content publishers; no separate creator page was found.",
+        "compensation": "6% of revenue is modest but the brand's low price points convert in volume; 45-day cookie; no cap statement published, so cap stays unknown.",
+        "contact_access": "Awin's announcement names program contacts at the network; no public brand partnerships email was seen.",
+        "opportunity_availability": "Application through Awin, but the announcement says applications are selective and not all are accepted.",
+        "credibility": "The #1 selling brand of small kitchen appliances in the US, per the program's own description."
+      }
+    }
+  },
+  {
+    "name": "Keurig",
+    "website": "https://www.keurig.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "US beverage-system brand (Keurig Dr Pepper) selling single-serve coffee brewers, K-Cup pods and other drink makers direct to consumers.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/keurig/",
+        "summary": "Lasso's Keurig program listing (fetched) states 8% per sale with a short 10-day cookie, and its join link routes to FlexOffers (publisherpro.flexoffers.com). Other published sources conflict, quoting figures from about 1% (Rakuten) to 2-4% and category-split rates, and some name Impact instead. Because the rate and network reports conflict, commission_rate is recorded as null and FlexOffers is recorded from the listing's actual join link. No earnings-cap statement is published, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "FlexOffers",
+      "commission_rate": null,
+      "application_url": "https://getlasso.co/affiliate/keurig/",
+      "source_url": "https://getlasso.co/affiliate/keurig/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 8,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Coffee brewers and pods are everyday, highly demonstrable home products with a built-in repeat-purchase story.",
+        "ugc_evidence": "The program is promoted to coffee bloggers and reviewers through network listings; no dedicated creator page was found.",
+        "compensation": "Published rates conflict (about 1% to 8% depending on source and network) and the cookie is only 10 days, so the rate is recorded as null rather than guessed; cap unknown.",
+        "contact_access": "Contact runs through the networks; no public partnerships email was seen on the pages fetched.",
+        "opportunity_availability": "Open application through FlexOffers and other networks carrying the program.",
+        "credibility": "The dominant single-serve coffee brand in the US, owned by Keurig Dr Pepper."
+      }
+    }
+  },
+  {
+    "name": "Pawfit",
+    "website": "https://www.pawfit.com",
+    "country": "United Kingdom",
+    "category_slug": "pets",
+    "description": "UK pet-tech company selling GPS pet trackers (Pawfit 3 and Pawfit Lite) with activity monitoring, sold direct to consumers with a subscription plan.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "official_program_page",
+        "source_url": "https://affiliate.pawfit.com/",
+        "summary": "Pawfit runs its own Affiliate Programme at affiliate.pawfit.com: affiliates receive a unique discount code (customers save up to 10%) and earn up to 20% commission, paid quarterly after a 30-day cooling-off period; the program is open to influencers, retailers and businesses. Its terms (pawfit.com/en-us/legal_affiliate.html) limit commissionable items to the Pawfit 3 and Pawfit Lite trackers. 'Up to 20%' is a rate ceiling, not an uncapped statement; no earnings-cap statement is published, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Own program",
+      "commission_rate": 20,
+      "application_url": "https://affiliate.pawfit.com/",
+      "source_url": "https://affiliate.pawfit.com/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 13,
+      "compensation": 14,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "GPS trackers are demonstrable pet-tech with strong lost-pet storytelling for pet creators.",
+        "ugc_evidence": "The programme explicitly welcomes influencers and gives them customer discount codes to share in content.",
+        "compensation": "Up to 20% commission (a ceiling) on tracker sales, paid quarterly after a 30-day cooling-off period; no cap statement published, so cap stays unknown.",
+        "contact_access": "Dedicated affiliate portal on the brand's own subdomain; no public partnerships email was seen.",
+        "opportunity_availability": "Open signup at the brand's own affiliate portal for influencers, retailers and businesses.",
+        "credibility": "Smaller UK pet-tech brand; scored lower because the range is two trackers plus a subscription."
+      }
+    }
+  },
+  {
+    "name": "PawSafe",
+    "website": "https://pawsafe.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "US pet-products brand designing everyday pet-care products (including its dog seat belt and other safety and care items) sold direct to consumers from Wilmington, Delaware.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_program_page",
+        "source_url": "https://pawsafe.com/en-se/pages/pet-affiliate-program",
+        "summary": "PawSafe's own affiliate program page (fetched) states affiliates sign up via GoAffPro, are approved within 1-2 business days, and earn 30% of revenue on every referred sale; the page welcomes blogs, social media, websites and email lists (coupon-finder sites excluded). No earnings-cap statement is published, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "GoAffPro",
+      "commission_rate": 30,
+      "application_url": "https://pawsafe.com/en-se/pages/pet-affiliate-program",
+      "source_url": "https://pawsafe.com/en-se/pages/pet-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 14,
+      "compensation": 17,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Pet safety and care products are everyday, demonstrable items for dog-focused creators.",
+        "ugc_evidence": "The brand's own page explicitly recruits social-media and video creators, not just bloggers, and supplies a custom link per affiliate.",
+        "compensation": "30% of revenue on every referred sale is one of the stronger pet rates found; no cap statement published, so cap stays unknown.",
+        "contact_access": "Signup and management run through the GoAffPro portal linked from the brand's page; no public partnerships email was seen (a postal address in Wilmington, Delaware is published).",
+        "opportunity_availability": "Open application with approval in 1-2 business days per the brand's own page.",
+        "credibility": "Smaller DTC pet brand; scored lower on limited public track record compared with national pet retailers."
+      }
+    }
+  }
+]
