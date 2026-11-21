@@ -1,0 +1,584 @@
+[
+ {
+  "name": "Grown Alchemist",
+  "website": "https://grownalchemist.com",
+  "country": "Australia",
+  "category_slug": "skincare",
+  "description": "Australian-born premium clean-beauty brand founded in 2008, selling science-led skincare, body care and haircare formulated to optimise skin cell function, through its own site and global retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/32821/commission-groups",
+    "summary": "Grown Alchemist's Awin US program (merchant 32821) publishes tiered commission: General 10%, Discount + Voucher 8%, Editorial 15%, and a dedicated Influencer + Creators tier at 15%, with a 30-day cookie. No earnings-cap statement appears anywhere on the profile, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/32821",
+    "summary": "The Awin profile describes Grown Alchemist as a clean beauty company focused on the biology of beauty, offering skincare, haircare and bodycare, with 10% default commission up to 20% and payment within 30 days."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 15,
+   "application_url": "https://ui.awin.com/merchant-profile/32821",
+   "source_url": "https://ui.awin.com/merchant-profile/32821/commission-groups",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/32821",
+   "source_url": "https://ui.awin.com/merchant-profile/32821/commission-groups",
+   "title": "Grown Alchemist Affiliate Program on Awin (Influencer + Creators tier, 15%)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium clean skincare, body care and haircare with strong visual branding — a core beauty-creator niche.",
+    "ugc_evidence": "The Awin program carries a dedicated Influencer + Creators commission tier, showing the brand actively courts creator traffic, though it runs no open ambassador page of its own.",
+    "compensation": "15% for the Influencer + Creators tier (10% general) with a 30-day cookie, published on the network profile; no cap statement published.",
+    "contact_access": "No public partnerships email or application page on the brand's own site; joining runs through Awin only.",
+    "opportunity_availability": "Open to join on Awin as a publisher, including the creator tier.",
+    "credibility": "Established Australian premium brand founded in 2008 with international retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Saltyface",
+  "website": "https://saltyface.com",
+  "country": "Canada",
+  "category_slug": "beauty",
+  "description": "Canadian clean-beauty brand sitting between cosmetics, tanning and skincare — self-tanning and skin-finishing products made with clean ingredients to recreate the look of a day in the sun.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/56039",
+    "summary": "Saltyface's Awin profile (Saltyface Naturals Inc., merchant 56039) states: 'Joining our affiliate program means every purchase placed through your link gives you 12% cash back — that's an average of over $11 back from every order.' No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/56039",
+    "summary": "The brand's own help content also references an on-site affiliate program (its 'Sun Club'), and a press article has described the program as running via ShareASale; the live, verifiable network listing fetched for this entry is the Awin profile, so Awin is recorded and the ShareASale mention is flagged here as an unresolved second reference."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 12,
+   "application_url": "https://ui.awin.com/merchant-profile/56039",
+   "source_url": "https://ui.awin.com/merchant-profile/56039",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/56039",
+   "source_url": "https://ui.awin.com/merchant-profile/56039",
+   "title": "Saltyface Affiliate Program on Awin (12%)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Self-tan and skin-finishing products are a staple of beauty creator content, especially seasonal routine and 'glow' videos.",
+    "ugc_evidence": "The brand runs an affiliate program with creator-style cash-back framing and an on-site program name (Sun Club), but publishes no creator showcase or ambassador page.",
+    "compensation": "12% per order published on the Awin profile, averaging over $11 back per order; no cap statement published.",
+    "contact_access": "No public partnerships email found; joining runs through the network listing.",
+    "opportunity_availability": "Open to join on Awin.",
+    "credibility": "Small Canadian indie brand with a focused product line and a modest public footprint."
+   }
+  }
+ },
+ {
+  "name": "Ursa Major",
+  "website": "https://ursamajorvt.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Vermont-based Certified B Corp clean skincare brand founded by former New York beauty executives, selling forest-infused cleansers, serums and moisturisers through its own site and retailers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "ursamajor@dmipartners.com",
+    "source_url": "https://ui.awin.com/merchant-profile/90785"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/90785",
+    "summary": "Ursa Major's Awin profile (merchant 90785) states commission is paid on net sales excluding shipping, taxes and returns within a 30-day cookie window, with no commission on gift cards; the program is managed by DMi Partners (ursamajor@dmipartners.com). The profile publishes no percentage rate and no earnings-cap statement, so the rate is null and the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/90785",
+    "summary": "The profile describes Ursa Major as a Certified B Corp making clean, forest-infused skincare essentials from Vermont, 'a staple on thousands of shelves'."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/90785",
+   "source_url": "https://ui.awin.com/merchant-profile/90785",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/90785",
+   "source_url": "https://ui.awin.com/merchant-profile/90785",
+   "title": "Ursa Major Affiliate Program on Awin (managed by DMi Partners)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Clean, ingredient-led skincare from a Certified B Corp — a strong fit for skincare-routine and clean-beauty creators.",
+    "ugc_evidence": "A professionally managed network affiliate program (DMi Partners) exists, but the brand publishes no creator or ambassador page of its own.",
+    "compensation": "The Awin profile confirms commission on net sales with a 30-day cookie but publishes no percentage, so compensation scores low until a rate is confirmed inside the network.",
+    "contact_access": "A named program-management email (ursamajor@dmipartners.com) is published on the network profile.",
+    "opportunity_availability": "Open to join on Awin.",
+    "credibility": "Certified B Corp with national retail presence and an established direct-to-consumer business."
+   }
+  }
+ },
+ {
+  "name": "Edible Beauty",
+  "website": "https://ediblebeautyaustralia.com",
+  "country": "Australia",
+  "category_slug": "skincare",
+  "description": "Australian holistic skincare brand founded in 2014 by naturopath Anna Mitsios, blending science-backed natural actives with traditional botanicals in formulas 'pure enough to eat'.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "john.ghandour@advertisepurple.com",
+    "source_url": "https://www.commissionfactory.com/advertiser-directory/edible-beauty-australia-affiliate-program/76712"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.commissionfactory.com/advertiser-directory/edible-beauty-australia-affiliate-program/76712",
+    "summary": "Edible Beauty's Commission Factory advertiser page invites publishers to promote the brand at 15% commission on the sale value, with an average cart value of $150, a 14-day tracking cookie, all promotional methods open except PPC, and custom marketing collaborations available; program questions go to john.ghandour@advertisepurple.com. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Commission Factory",
+   "commission_rate": 15,
+   "application_url": "https://www.commissionfactory.com/advertiser-directory/edible-beauty-australia-affiliate-program/76712",
+   "source_url": "https://www.commissionfactory.com/advertiser-directory/edible-beauty-australia-affiliate-program/76712",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.commissionfactory.com/advertiser-directory/edible-beauty-australia-affiliate-program/76712",
+   "source_url": "https://www.commissionfactory.com/advertiser-directory/edible-beauty-australia-affiliate-program/76712",
+   "title": "Edible Beauty Australia Affiliate Program on Commission Factory (15%)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 15,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Naturopath-formulated botanical skincare — a proven clean-beauty creator niche with strong ingredient-story content potential.",
+    "ugc_evidence": "The network listing explicitly opens custom marketing collaborations alongside standard affiliate promotion, but the brand runs no public creator program page of its own.",
+    "compensation": "15% commission on sale value with a high $150 average cart, published on the network advertiser page; 14-day cookie is short and no cap statement is published.",
+    "contact_access": "A named program contact email is published on the advertiser page.",
+    "opportunity_availability": "Open to publishers on Commission Factory, all promotional methods except PPC.",
+    "credibility": "Established Australian brand founded in 2014 with its own stores and international storefronts."
+   }
+  }
+ },
+ {
+  "name": "Dolce Glow",
+  "website": "https://dolceglow.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US self-tanning brand by Isabel Alysa, selling sunless tanning lotions, mousses and contour products through its own site and beauty retailers, built around a creator ambassador community.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://dolceglow.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://dolceglow.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://dolceglow.com/pages/affiliate-program",
+    "summary": "Dolce Glow's own Ambassador Program page states 'Earn up to 20% commission' on qualifying purchases, with free registration in about five minutes, a custom landing page of the ambassador's favourite products, a unique sharing link, and tiered rewards (free products, merch, early access) as ambassadors level up. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "http://dolceglow.com/pages/affiliate-program-operating-agreement",
+    "summary": "The brand's Affiliate Program Operating Agreement names GoAffPro.com as the tracking platform for the Dolce Glow Affiliate Program, confirming the program's network/tooling."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 20,
+   "application_url": "https://dolceglow.com/pages/affiliate-program",
+   "source_url": "https://dolceglow.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://dolceglow.com/pages/affiliate-program",
+   "source_url": "https://dolceglow.com/pages/affiliate-program",
+   "title": "Dolce Glow Ambassador Program (up to 20% commission)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 16,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Self-tanning and glow products are a high-volume beauty-creator category with strong before/after content potential.",
+    "ugc_evidence": "A named ambassador program on the brand's own site built for creators, with personalised landing pages and a described creator community.",
+    "compensation": "Up to 20% commission published on the brand's own program page; no cap statement published.",
+    "contact_access": "Open application on the brand's own program page; no direct partnerships email published.",
+    "opportunity_availability": "Free, open registration on the official site — anyone can apply in minutes.",
+    "credibility": "Established US self-tan brand with retail distribution and a large social following."
+   }
+  }
+ },
+ {
+  "name": "Vanessa Megan",
+  "website": "https://www.vanessamegan.com",
+  "country": "Australia",
+  "category_slug": "skincare",
+  "description": "Australian premium organic skincare and fragrance brand founded in 2001, making certified-organic, cruelty-free skincare on Shopify Plus for customers in Australia, the US and beyond.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.vanessamegan.com/pages/vm-brand-ambassador",
+    "email": null,
+    "source_url": "https://www.vanessamegan.com/pages/vm-brand-ambassador"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.vanessamegan.com/pages/vm-brand-ambassador",
+    "summary": "Vanessa Megan's own Brand Ambassador page describes a selective ambassador program: ambassadors promote products on social media, share honest reviews, join campaigns, and receive complimentary products, exclusive discounts, early launch access, features on the brand's channels, and 'the opportunity to earn commissions through affiliate links on sales generated through your promotion'. No rate or earnings-cap statement is published on the page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/vanessa-megan/",
+    "summary": "LinkClicky's affiliate directory lists Vanessa Megan's affiliate program on the Impact platform at 5% commission per sale."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": "https://www.vanessamegan.com/pages/vm-brand-ambassador",
+   "source_url": "https://linkclicky.com/affiliate-program/vanessa-megan/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.vanessamegan.com/pages/vm-brand-ambassador",
+   "source_url": "https://www.vanessamegan.com/pages/vm-brand-ambassador",
+   "title": "Vanessa Megan Brand Ambassador Program (Impact affiliate, 5%)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium organic skincare and natural fragrance — a solid clean-beauty creator niche.",
+    "ugc_evidence": "A named ambassador program with defined creator duties (social promotion, honest reviews, campaigns) on the brand's own site.",
+    "compensation": "5% per sale on Impact per the network directory — a low rate, partly offset by complimentary product and discounts for ambassadors; no cap statement published.",
+    "contact_access": "A public ambassador application page on the official site; no direct email published on the page.",
+    "opportunity_availability": "Applications are open but the brand states admissions are selective, so availability scores mid-range.",
+    "credibility": "Long-running Australian brand (founded 2001) operating on Shopify Plus with international sales."
+   }
+  }
+ },
+ {
+  "name": "Ere Perez",
+  "website": "https://ereperez.com",
+  "country": "Australia",
+  "category_slug": "beauty",
+  "description": "Australian natural beauty brand founded in 2002, blending Australian botanicals with Mexican heritage in cruelty-free, eco-packaged skincare and makeup sold internationally.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "pr@ereperez.com",
+    "source_url": "https://ereperez.com/en-gb/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ereperez.com/en-gb/pages/affiliate-program",
+    "summary": "Ere Perez's own affiliate program page states: 'The Ere Perez Affiliate Program is managed through the Impact platform. Start earning commissions on ethical, natural beauty products', with a join link and pr@ereperez.com published for program questions. The page publishes no percentage rate and no earnings-cap statement, so the rate is null and the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://ereperez.com/en-gb/pages/affiliate-program",
+   "source_url": "https://ereperez.com/en-gb/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ereperez.com/en-gb/pages/affiliate-program",
+   "source_url": "https://ereperez.com/en-gb/pages/affiliate-program",
+   "title": "Ere Perez Affiliate Program on Impact"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Natural makeup and skincare with clean, botanical positioning — a core clean-beauty creator niche.",
+    "ugc_evidence": "A dedicated affiliate landing page on the brand's own site recruiting promoters, though no ambassador community or creator showcase is described.",
+    "compensation": "The program's existence on Impact is confirmed on the brand's own page, but no rate is published anywhere fetched, so compensation scores low until confirmed inside the network.",
+    "contact_access": "A program contact email (pr@ereperez.com) is published on the brand's own affiliate page.",
+    "opportunity_availability": "Open to join via Impact from the brand's affiliate page.",
+    "credibility": "Established brand founded in 2002 with international distribution and eco-certifications."
+   }
+  }
+ },
+ {
+  "name": "Vier Beauty",
+  "website": "https://vierbeautyshop.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Small US skincare and makeup brand from Margate, Florida, formulated by licensed esthetician and chemist Judine Jasmin — cruelty-free, paraben-free, mostly vegan products sold through its own online shop.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://vierbeautyshop.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://vierbeautyshop.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://vierbeautyshop.com/pages/affiliates",
+    "summary": "Vier Beauty's own affiliates page invites 'creators, beauty lovers, and skincare enthusiasts' to join its affiliate program: 'you'll earn 20% commission on every product sold through your unique referral link, with a generous 30-day cookie duration', plus a free product gift, ready-to-use promo content and personalised support; sign-up runs through UpPromote. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://vierbeautyshop.com/",
+    "summary": "The brand's homepage ('Vier Beauty Cruelty and Paraben-free Products Margate') describes skincare and makeup formulated by founder Judine Jasmin, a licensed esthetician and chemist, in Margate, Florida."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 20,
+   "application_url": "https://vierbeautyshop.com/pages/affiliates",
+   "source_url": "https://vierbeautyshop.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://vierbeautyshop.com/pages/affiliates",
+   "source_url": "https://vierbeautyshop.com/pages/affiliates",
+   "title": "Vier Beauty Affiliate Program (20%, UpPromote)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 16,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 2,
+   "reasons": {
+    "niche_fit": "Skincare and makeup formulated by a working esthetician-chemist — a credible angle for ingredient-focused beauty creators.",
+    "ugc_evidence": "The program page speaks directly to content creators and influencers and offers a free product gift for content creation.",
+    "compensation": "20% commission with a 30-day cookie published on the brand's own page — a top rate for a small brand; no cap statement published.",
+    "contact_access": "Open sign-up from the program page; no direct email published.",
+    "opportunity_availability": "Anyone can sign up from the official affiliates page.",
+    "credibility": "Very small, young brand with a limited public footprint beyond its own shop and local spa presence."
+   }
+  }
+ },
+ {
+  "name": "Biologi",
+  "website": "https://biologi.com.au",
+  "country": "Australia",
+  "category_slug": "skincare",
+  "description": "Australian plant-based skincare brand using its C.L.E.C.S. II extraction method to deliver active phyto-nutrients in their natural form — single-plant serums made in Australia without synthetics or fillers.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hello@biologi.com.au",
+    "source_url": "https://biologi.refersion.com/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://biologi.com.au/pages/affiliates",
+    "summary": "Biologi's own affiliates page sets out the program: apply on the page, approved affiliates receive a personalised skincare bundle, create and share content, and 'Earn 10% commission from sales generated via your affiliate link.' No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://biologi.refersion.com/",
+    "summary": "The program's Refersion terms confirm tracking via unique affiliate link or coupon code through Refersion, monthly payments via PayPal once the balance reaches a $50 AUD minimum threshold, and hello@biologi.com.au as the program contact."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 10,
+   "application_url": "https://biologi.com.au/pages/affiliates",
+   "source_url": "https://biologi.com.au/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://biologi.com.au/pages/affiliates",
+   "source_url": "https://biologi.com.au/pages/affiliates",
+   "title": "Biologi Affiliate Program (10%, Refersion)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Distinctive single-plant, science-led skincare with a strong ingredient story — well suited to skincare-education creators.",
+    "ugc_evidence": "The program is explicitly content-led: approved affiliates receive a product bundle specifically to create and share content.",
+    "compensation": "10% commission published on the brand's own page, paid monthly via PayPal at a $50 AUD threshold per the program terms; no cap statement published.",
+    "contact_access": "Application on the brand's own page plus a published program email in the terms.",
+    "opportunity_availability": "Open application on the official site, subject to approval.",
+    "credibility": "Award-winning Australian brand with 12+ years of extraction research behind its products."
+   }
+  }
+ },
+ {
+  "name": "Rajuva",
+  "website": "https://rajuva.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Doctor-developed US wellness and beauty brand selling Marine Collagen 360 (enzyme-hydrolysed marine collagen with vitamin C, zinc, hyaluronic acid and biotin, made in the USA) and an Ultimate Vitamin C Serum for skin, hair, nails and joints.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://rajuva.com/pages/ambassador-program",
+    "email": null,
+    "source_url": "https://rajuva.com/pages/ambassador-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://rajuva.com/pages/ambassador-program",
+    "summary": "Rajuva's own Ambassador Program page states 'Earn commissions when someone you referred makes a purchase. No cap on commissions!' — an explicit no-cap statement on the brand's own page, so the cap is recorded as uncapped. Ambassadors get a custom referral code/link, their community gets 25% off first orders, and commissions are paid via PayPal or check."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://rajuva.com/pages/ambassador-program",
+    "summary": "RATE CONFLICT on the same page: the headline says 'Earn 15% Commission & Rewards!' while the FAQ states 'you earn 30% of their order total' and 'You'll earn 30% commission on every purchase that uses your unique referral code.' Because the brand's own page contradicts itself, commission_rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://rajuva.com/pages/ambassador-program",
+   "source_url": "https://rajuva.com/pages/ambassador-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://rajuva.com/pages/ambassador-program",
+   "source_url": "https://rajuva.com/pages/ambassador-program",
+   "title": "Rajuva Ambassador Program (no cap on commissions; rate 15% vs 30% conflict on page)"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Collagen and vitamin-C-serum 'beauty from within' products fit wellness and skincare creators, though the range is narrower than a pure beauty brand.",
+    "ugc_evidence": "A named ambassador program built around customers sharing personal results stories on social channels with a personal code.",
+    "compensation": "Verified uncapped — the brand's own page says 'No cap on commissions!' — but the rate itself is contradicted on the same page (15% headline vs 30% FAQ), so the rate is null and compensation scores mid-range.",
+    "contact_access": "Application route on the program page; no direct partnerships email published.",
+    "opportunity_availability": "Open ambassador sign-up on the official site.",
+    "credibility": "Small doctor-developed brand, products made in the USA; limited public footprint."
+   }
+  }
+ }
+]

@@ -1,0 +1,653 @@
+[
+ {
+  "name": "Optery",
+  "website": "https://www.optery.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Personal data removal service that finds and removes customers' personal information from data broker sites, ranked #1 most effective in a Consumer Reports study and a multi-year PCMag Editors' Choice winner; its affiliate program pays 30% commission for the first 12 months per referred customer, in cash, through PartnerStack.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://www.optery.com/affiliate-program/",
+    "summary": "Optery's own affiliate program page (fetched first-hand) invites businesses, professional influencers and marketers with websites, newsletters or social channels to apply via PartnerStack, states payouts are in cash (not credits or gift cards), and says no website is required — social media promotion is accepted."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.optery.com/affiliate-program/",
+    "summary": "The page's FAQ states the commission plainly: '30% commission for the first 12 months of sales for each new customer you refer' across Monthly, Yearly, Personal, Family and Business plans (example given: $75 per list-price Ultimate yearly subscription), with commissions processed 35 days after each referred transaction and a 90-day tracking window per click."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.optery.com/affiliate-program/",
+    "summary": "VERIFIED UNCAPPED: the page's FAQ asks 'Is there a maximum amount of commission I can earn?' and answers 'No. Currently there is no maximum on the amount of commission you can earn.' — an explicit no-cap statement on the brand's own page, so commission_cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.optery.com/affiliate-program/",
+    "summary": "The page states Optery is a Delaware C corporation headquartered in the San Francisco Bay Area, SOC 2 Type II compliant, ranked #1 most effective in a recent Consumer Reports study and PCMag Editors' Choice 2022-2025; it publishes no creator-count figure, so creator_saturation is honestly recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "PartnerStack",
+   "commission_rate": 30,
+   "application_url": "https://optery.partnerstack.com",
+   "source_url": "https://www.optery.com/affiliate-program/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Optery Affiliate Program — 30% for 12 months via PartnerStack, verified uncapped",
+   "application_url": "https://www.optery.com/affiliate-program/",
+   "source_url": "https://www.optery.com/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 18,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure consumer privacy/security software — a core technology niche for creator reviews and 'remove your data' content.",
+    "ugc_evidence": "The brand's own page explicitly recruits professional influencers and marketers with social channels and says no website is required.",
+    "compensation": "30% of every sale for a full 12 months per referred customer, paid in cash — a top-tier rate for this category, and verified uncapped.",
+    "contact_access": "Application runs through PartnerStack from the brand's own page with personalized support promised; no public program email is published.",
+    "opportunity_availability": "Public application open to businesses, influencers and marketers; approval required but being an Optery customer is explicitly not required.",
+    "credibility": "Delaware C corporation, SOC 2 Type II, Consumer Reports #1 effectiveness ranking and four straight PCMag Editors' Choice awards."
+   }
+  }
+ },
+ {
+  "name": "ExpressVPN",
+  "website": "https://www.expressvpn.com",
+  "country": "British Virgin Islands",
+  "category_slug": "technology",
+  "description": "One of the world's best-known consumer VPN services; its affiliate program pays flat CPA commissions per subscription sold ($13 for 1-month, $22 for 6-month, $36 for 12-month plans) on a 90-day cookie, with applications handled through the Impact network.",
+  "contacts": [
+   {
+    "contact_type": "other",
+    "contact_url": null,
+    "email": "accounts-payable@expressvpn.com",
+    "source_url": "https://www.expressvpn.com/affiliates/faq-2"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.expressvpn.com/affiliates/faq-2",
+    "summary": "ExpressVPN's own affiliate FAQ (fetched first-hand) publishes its default commissions verbatim: 1-month subscription $13, 6-month $22, 12-month $36 (USD per subscription), CPA-only with no recurring commissions, a 90-day affiliate cookie, last-click attribution, a $50 minimum payout, payment by the 15th of each month via PayPal, Payoneer or wire transfer. Because pay is a flat bounty rather than a percentage, commission_rate is recorded as null and the flat amounts are documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ancaster.io/offers/expressvpn",
+    "summary": "Ancaster's program profile, verified 22 Aug 2026 from ExpressVPN's own published material, records that new affiliates apply through the Impact network (the brand's Become an Affiliate route links to its Impact campaign page) and confirms the $13/$22/$36 flat CPA structure."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.expressvpn.com/affiliates/faq-2",
+    "summary": "The FAQ names the operator as Express VPN International Ltd, Road Town, Tortola, British Virgin Islands, and publishes the accounts-payable email for payment matters. No fetched page states any earnings cap or creator-count figure, so commission_cap and creator_saturation are honestly recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.expressvpn.com/affiliates/faq-2",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ExpressVPN Affiliate Program — flat $13/$22/$36 CPA per subscription via Impact",
+   "application_url": null,
+   "source_url": "https://www.expressvpn.com/affiliates/faq-2"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A flagship consumer VPN — one of the most-reviewed products in the technology creator niche.",
+    "ugc_evidence": "A long-running affiliate program with banners, videos and targeted landing pages supplied to promoters, though its FAQ is written for existing affiliates rather than creator recruitment.",
+    "compensation": "Flat CPA of $13-$36 per subscription depending on plan length, published on the brand's own FAQ — solid per-sale pay, but no recurring component.",
+    "contact_access": "A published accounts email on the brand's own FAQ plus application through Impact; no dedicated creator inbox is published.",
+    "opportunity_availability": "Applications run through the Impact network campaign page; approval is required and coupon sites are typically not accepted.",
+    "credibility": "One of the largest and longest-established consumer VPN brands in the world."
+   }
+  }
+ },
+ {
+  "name": "Setapp",
+  "website": "https://setapp.com",
+  "country": "Ukraine",
+  "category_slug": "technology",
+  "description": "MacPaw's subscription service giving members access to 300+ curated Mac and iPhone apps for one price; its affiliate program pays a flat $25 for every new paid user referred, is free to join with no traffic minimum, and is tracked and paid through Impact on a 45-day cookie.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://setapp.com/affiliate-program",
+    "summary": "Setapp's own affiliate program page (fetched first-hand) states the offer plainly: 'Promote Setapp, earn $25 per subscriber' — a flat $25 for every new paid user referred, free to join, no traffic minimum, a 45-day cookie window, and $301K in total commissions paid to affiliates so far. Because pay is a flat bounty, commission_rate is recorded as null and the flat amount documented here."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://setapp.com/affiliate-program",
+    "summary": "The page's FAQ confirms Setapp has partnered with Impact to handle tracking, reporting and affiliate payments; commissions are paid monthly through Impact (ACH, check, PayPal, international EFT) with a low $10 minimum threshold, and applications are reviewed from the applicant's site or channel."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://setapp.com/affiliate-program",
+    "summary": "No statement about an earnings cap or any creator-count figure appears on the fetched page, so commission_cap and creator_saturation are honestly recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://setapp.com/affiliate-program",
+   "source_url": "https://setapp.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Setapp Affiliate Program — flat $25 per new paid user via Impact",
+   "application_url": "https://setapp.com/affiliate-program",
+   "source_url": "https://setapp.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 16,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A 300+ app subscription for Mac and iPhone users — a natural fit for tech, productivity and app-review creators.",
+    "ugc_evidence": "The program page carries testimonials from bloggers and video creators who promote Setapp to their audiences and earn monthly.",
+    "compensation": "Flat $25 per new paid subscriber with a $10 payout threshold — a strong, simple bounty for a consumer software subscription.",
+    "contact_access": "A public program page with an affiliate contact route and an Impact application; applications are reviewed quickly per the page.",
+    "opportunity_availability": "Free to join with no traffic minimum — one of the lowest-barrier programs in this group, subject to application review.",
+    "credibility": "Built by MacPaw, an established software company; the page reports $301K already paid out to affiliates."
+   }
+  }
+ },
+ {
+  "name": "Aura",
+  "website": "https://www.aura.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "All-in-one consumer digital safety service combining identity theft protection, credit monitoring, antivirus, VPN, password management and parental controls; its affiliate program pays a flat $65 for every qualified enrollment, joins through Impact, and runs on a 60-day cookie with monthly net-30 payments.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/aura_protects/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/AuraProtects"
+   },
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/@AuraProtects"
+   },
+   {
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/company/auracompany/"
+   },
+   {
+    "platform": "x",
+    "url": "https://twitter.com/Aura_Protects"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://www.aura.com/affiliate-program",
+    "summary": "Aura's own affiliate program page (fetched first-hand) invites partners to join and 'earn $65 for every qualified enrollment', with a 60-day cookie window, reliable monthly payments on a net-30 basis, a dedicated account manager, and a Join button that routes to Impact (app.impact.com). Because pay is a flat bounty, commission_rate is recorded as null and the flat amount documented here."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.aura.com/affiliate-program",
+    "summary": "The page's headline 'Your growth potential with Aura is unlimited' is marketing language about growth potential, not a statement that commissions carry no cap, so under the strict filter commission_cap is honestly recorded as unknown; no creator-count figure is published, so creator_saturation is also unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.aura.com/affiliate-program",
+    "summary": "The page describes Aura as the company behind Identity Guard, rated #1 in identity theft protection by multiple outlets, with $1M identity theft insurance per adult member and 24/7 US-based support; its footer publishes the brand's Instagram, Facebook, YouTube, LinkedIn and X profiles recorded in socials."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.aura.com/affiliate-program",
+   "source_url": "https://www.aura.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Aura Affiliate Program — flat $65 per qualified enrollment via Impact",
+   "application_url": "https://www.aura.com/affiliate-program",
+   "source_url": "https://www.aura.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 15,
+   "compensation": 17,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "All-in-one digital safety (identity, credit, VPN, antivirus, passwords) — a heavily promoted category in tech and family-safety content.",
+    "ugc_evidence": "A public affiliate page recruiting partners with a dedicated account manager and conversion support, though pitched at affiliates generally rather than creators specifically.",
+    "compensation": "Flat $65 per qualified enrollment is a high per-conversion bounty for a consumer subscription, paid monthly net-30.",
+    "contact_access": "Application through Impact from the brand's own page with a dedicated account manager promised; no public program email is published.",
+    "opportunity_availability": "Public join route via Impact; approval terms are not detailed on the page.",
+    "credibility": "The company behind Identity Guard, with #1 ratings from US News and Security.org and an A+ BBB rating shown on its own page."
+   }
+  }
+ },
+ {
+  "name": "1Password",
+  "website": "https://1password.com",
+  "country": "Canada",
+  "category_slug": "technology",
+  "description": "One of the world's most widely used password managers for individuals, families and businesses; its affiliate program, run through CJ Affiliate, pays a $2 bounty per completed signup plus 25% of the customer's first year or first month payment (with a $2 minimum on the share).",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.affiliateotter.com/affiliate-programs/1password",
+    "summary": "AffiliateOtter's validated program profile (validated 21 Jan 2026) records that 1Password's official program page promotes a $2 completed-signup bounty plus 25% of the first year or first month's payment with a $2 minimum, and directs applicants to create a Commission Junction (CJ) account and apply to the 1Password program there; a separate PartnerStack listing also exists."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://scoutner.com/programs/1password",
+    "summary": "Scoutner's profile, checked against 1Password's official affiliate page on 30 Sep 2026, confirms the same structure verbatim — $2 per completed signup plus 25% of the first year or month's payment ($2 minimum), run on Commission Junction — and notes the official page publishes no cookie duration."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://1password.com/affiliate",
+    "summary": "When fetched first-hand for this batch, 1password.com/affiliate presented the 1Password Partner Program (channel partners, MSPs and alliances) rather than the consumer affiliate offer, so the affiliate terms rest on the two directory profiles above that read the official affiliate page directly; flagged needs_review so the CJ listing can be re-confirmed at application time. No fetched page states an earnings cap or creator count, so both fields are honestly unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 25,
+   "application_url": "https://1password.com/affiliate",
+   "source_url": "https://www.affiliateotter.com/affiliate-programs/1password",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "1Password Affiliate Program — $2 signup bounty + 25% of first payment via CJ Affiliate",
+   "application_url": "https://1password.com/affiliate",
+   "source_url": "https://www.affiliateotter.com/affiliate-programs/1password"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A mainstream password manager used by individuals and families — a staple recommendation in tech and security content.",
+    "ugc_evidence": "An established affiliate program on CJ with links and banners for publishers, though the brand does little creator-specific recruitment on its public pages.",
+    "compensation": "A hybrid $2 per completed signup plus 25% of the first payment balances volume and value; first-year-only, so no renewal tail.",
+    "contact_access": "Application runs inside CJ after creating a publisher account; no public program email or creator application page could be confirmed.",
+    "opportunity_availability": "Open to CJ publishers subject to manual approval; the public affiliate page currently surfaces the partner program, which adds friction.",
+    "credibility": "One of the most recognized and trusted password-management brands in the world."
+   }
+  }
+ },
+ {
+  "name": "Proton",
+  "website": "https://proton.me",
+  "country": "Switzerland",
+  "category_slug": "technology",
+  "description": "Swiss privacy company behind Proton Mail, Proton VPN, Proton Drive, Proton Pass and Proton Calendar; its in-house Partners Program pays tiered commissions across the suite — 100% of the first month on monthly plans, 40% on one- and two-year plans, and 30% on renewals — paid by bank transfer once a balance passes $100.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ancaster.io/offers/proton",
+    "summary": "Ancaster's program profile, verified 24 Aug 2026 from Proton's own published material, records the tiered structure — up to 100% commission on new monthly sign-ups, 40% on 1-2 year plans, roughly 30% on renewals — applied for directly through Proton's own application form with no third-party network, paid by bank transfer on the 30th of the following month once the balance exceeds $100. Because the rate is tiered rather than a single figure, commission_rate is recorded as null and the tiers documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.affiliateotter.com/affiliate-programs/protonvpn",
+    "summary": "AffiliateOtter's validated profile (validated 22 Jun 2026) confirms the official Proton Partners page advertises up to 100% commission for new referrals plus recurring revenue on renewals, with commissions paid by direct bank transfer on the 30th of the next calendar month when the payable balance exceeds $100."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://ancaster.io/offers/proton",
+    "summary": "Ancaster notes the published commission table pays a rate on renewals with no separate cap on the number of months or years published — that is an absence of a stated duration limit, not an explicit no-earnings-cap statement, so under the strict filter commission_cap is honestly recorded as unknown; no creator-count figure is published either."
+   }
+  ],
+  "affiliate": {
+   "network": "Proton Partners (in-house)",
+   "commission_rate": null,
+   "application_url": "https://proton.me/partners",
+   "source_url": "https://ancaster.io/offers/proton",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Proton Partners Program — tiered 100%/40%/30% commissions, direct application",
+   "application_url": "https://proton.me/partners",
+   "source_url": "https://ancaster.io/offers/proton"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 17,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "The leading privacy suite (mail, VPN, drive, passwords) — a core brand for privacy and tech creators.",
+    "ugc_evidence": "The Partners Program explicitly includes influencers among its partner types per profiles of the official page, alongside affiliates and resellers.",
+    "compensation": "Front-loaded tiers (100% of the first month, 40% on annual plans) plus 30% on renewals make this one of the richest published structures in consumer software.",
+    "contact_access": "Direct application through Proton's own partner page; no public program email is published.",
+    "opportunity_availability": "Open direct application with manual review; the $100 payout threshold is higher than most programs here.",
+    "credibility": "Switzerland-based, one of the most trusted names in consumer privacy with a huge global user base."
+   }
+  }
+ },
+ {
+  "name": "Frizzlife",
+  "website": "https://www.frizzlife.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Home water filtration brand selling under-sink reverse osmosis systems, countertop filters, faucet filters and leak protectors; its affiliate program runs on FlexOffers with an 8% default commission per sale, product-level rates from 4% (replacement filters) to 16% (the LP365 leak protector), and promotional feeds supported.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affiliate-program.io/en/programs/frizzlife-inc-flexoffers",
+    "summary": "The FlexOffers program data for FRIZZLIFE INC (fetched first-hand) shows an active US program with payout '4.00%-16.00% per sale': a Default action at 8.00% per eligible online sale, the LP365 leak protector at 16.00%, and replacement filters at 4.00%, all effective from 2026-08-06 with deep links and promotional feed support. The default 8% is recorded as the commission rate with the range documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affiliate-program.io/en/programs/frizzlife-inc-flexoffers",
+    "summary": "The network-supplied brand description calls Frizzlife 'a Global Top 10 Water Filtration Safety Brand' whose RO systems, LP365 leak protector and other filters are 'trusted by millions across the U.S. and Europe'; the brand also lists affiliate, distributor and dropshipper programs on its own homepage. No fetched page states an earnings cap or creator count, so both fields are honestly unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 8,
+   "application_url": null,
+   "source_url": "https://www.affiliate-program.io/en/programs/frizzlife-inc-flexoffers",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Frizzlife Affiliate Program — 8% default per sale via FlexOffers (4-16% by product)",
+   "application_url": null,
+   "source_url": "https://www.affiliate-program.io/en/programs/frizzlife-inc-flexoffers"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Home water filtration (RO systems, faucet and countertop filters) — a practical home niche with strong review and installation content potential.",
+    "ugc_evidence": "The brand actively recruits creator collaborations for product launches through creator platforms and runs affiliate, distributor and dropshipper programs from its homepage.",
+    "compensation": "8% default per sale on FlexOffers, rising to 16% on the LP365 — a mid-range hardware rate; filters pay 4%.",
+    "contact_access": "No public program email or contact is published on the fetched pages; contact runs through the network.",
+    "opportunity_availability": "Live and accepting publishers on FlexOffers (and mirrored on other networks), with deep links supported.",
+    "credibility": "An established filtration brand with US and European sales and network-verified program data, though less prominent than the software brands in this group."
+   }
+  }
+ },
+ {
+  "name": "Whisper Bidets",
+  "website": "https://www.whisperbidets.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Consumer bidet brand selling a sleek, self-cleaning bidet attachment that fits under a standard toilet seat; its affiliate program is managed by Versa Marketing and runs on ShareASale with a 30-day cookie and product reviews available for affiliates.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.versamarketinginc.com/new-affiliate-marketing-client-whisper-bidets/",
+    "summary": "Versa Marketing, the agency managing the program, announces (page updated Jun 2023, fetched first-hand) that the Whisper Bidets affiliate program is available on ShareASale with applications being accepted, listing program details of 8% commission, a 30-day cookie window, product reviews available, a large selection of creative assets and a dedicated affiliate management team."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/whisper-bidets/",
+    "summary": "Lasso's directory lists the Whisper Bidets program at 4% per sale, which conflicts with the program manager's published 8%, and Shopper lists a 5-10% range; because the sources conflict, commission_rate is recorded as null with the conflict documented here, per the house rule."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://www.versamarketinginc.com/new-affiliate-marketing-client-whisper-bidets/",
+    "summary": "No fetched page states any earnings cap or creator-count figure for this program, so commission_cap and creator_saturation are honestly recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.versamarketinginc.com/new-affiliate-marketing-client-whisper-bidets/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Whisper Bidets Affiliate Program — on ShareASale, managed by Versa Marketing",
+   "application_url": null,
+   "source_url": "https://www.versamarketinginc.com/new-affiliate-marketing-client-whisper-bidets/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A single-product home/bathroom brand — a narrower but very demonstrable product for home and lifestyle creators.",
+    "ugc_evidence": "The program offers product reviews and creative assets through a dedicated management team, suggesting active creator-style promotion.",
+    "compensation": "Published figures conflict (manager lists 8%; a directory lists 4%), so no rate is recorded; either figure is modest for hardware.",
+    "contact_access": "The managing agency's page is the public route in; no brand program email is published on the fetched pages.",
+    "opportunity_availability": "Applications are accepted on ShareASale per the program manager, though the manager's page was last updated in 2023.",
+    "credibility": "A small, single-product brand; program details rest on its agency's page rather than the brand's own site."
+   }
+  }
+ },
+ {
+  "name": "Lockin",
+  "website": "https://lockin.com",
+  "country": "China",
+  "category_slug": "home",
+  "description": "Smart lock brand selling fingerprint and connected door locks for homes; its own affiliate program page invites review websites, online communities, bloggers and other content creators to apply, earn commissions on purchases made through their referral links, and build custom links to any page on lockin.com through its affiliate platform.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://lockin.com/pages/affiliate-program",
+    "summary": "Lockin's own affiliate program page (fetched first-hand) states the program 'invites review websites, online communities, bloggers, and other content creators to promote our smart lock products' and that affiliates earn commissions when users complete purchases on lockin.com through their referral links; it lays out the apply-then-promote flow and says publishers can create custom links to any URL on lockin.com through affiliate network toolkits and the brand's product data feed."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://lockin.com/pages/affiliate-program",
+    "summary": "The brand's page publishes no commission rate, percentage or bounty figure anywhere — commissions are described only as accumulating as orders are placed — so commission_rate is honestly recorded as null rather than guessed."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://lockin.com/pages/affiliate-program",
+    "summary": "No earnings-cap statement and no creator-count figure appear on the fetched page, so commission_cap and creator_saturation are honestly recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "In-house (own affiliate platform)",
+   "commission_rate": null,
+   "application_url": "https://lockin.com/pages/affiliate-program",
+   "source_url": "https://lockin.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lockin Affiliate Program — own program page recruiting bloggers and creators",
+   "application_url": "https://lockin.com/pages/affiliate-program",
+   "source_url": "https://lockin.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 4,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Consumer smart locks and home security — a demonstrable smart-home product for review and installation content.",
+    "ugc_evidence": "The brand's own page explicitly recruits bloggers, review sites and content creators and supports custom deep links and a product data feed.",
+    "compensation": "No commission rate or bounty is published anywhere on the program page, so this stays at the no-data level until terms are confirmed inside the application.",
+    "contact_access": "A public application route on the brand's own page; support contact is offered for content-use reviews, but no program email is published.",
+    "opportunity_availability": "Public application open to bloggers, communities and creators in home security and smart home niches.",
+    "credibility": "An established smart-lock brand with its own storefront and a detailed, rule-published affiliate program page."
+   }
+  }
+ },
+ {
+  "name": "Shep",
+  "website": "https://www.shep.pet",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Pet protection platform built with The Sanctuary Project rescue, combining pet care plans (Plus and Complete) with legal trusts, guardian designation and care-continuity tools; its Shep Advocate program pays creators and pet businesses $12 per Plus signup or $25 per Complete signup, plus 20% of every payment the referred customer makes in their first 12 months.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.shep.pet/advocate",
+    "email": null,
+    "source_url": "https://www.shep.pet/advocate"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "hello@shep.pet",
+    "source_url": "https://www.shep.pet/advocate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://www.shep.pet/advocate",
+    "summary": "Shep's own Advocate page (fetched first-hand) recruits 'pet lifestyle creators, dog trainers, groomers, pet sitters & walkers, boarding & daycare, rescue advocates, breed communities and pet photographers', states 'Fit and how much your people listen to you matter more to us than follower count', and explains that every application is read personally and answered; larger organizations are directed to hello@shep.pet, published on the page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.shep.pet/advocate",
+    "summary": "The page publishes the pay structure plainly: '$12 when someone starts Plus, or $25 for Complete. Then get 20% of every payment they make in their first 12 months' — only paid plans count, and the 20% follows what the customer actually pays. The 20% recurring share is recorded as the commission rate, with the flat signup bounties documented here."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.shep.pet/advocate",
+    "summary": "No earnings-cap statement appears on the fetched page, and while the program is clearly small and personally run, no absolute creator-count figure is published, so commission_cap and creator_saturation are honestly recorded as unknown rather than inferred."
+   }
+  ],
+  "affiliate": {
+   "network": "Direct (own Advocate program)",
+   "commission_rate": 20,
+   "application_url": "https://www.shep.pet/advocate",
+   "source_url": "https://www.shep.pet/advocate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Shep Advocate Program — $12/$25 signup bounties + 20% of payments for 12 months",
+   "application_url": "https://www.shep.pet/advocate",
+   "source_url": "https://www.shep.pet/advocate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 18,
+   "compensation": 16,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A pet protection and care platform built with a rescue organization — squarely in the pet niche with a strong story angle for creators.",
+    "ugc_evidence": "The program is built for creators first: it supplies photos and ready-to-share copy, plans co-marketing posts and events with advocates, and explicitly says follower count does not matter.",
+    "compensation": "Flat $12/$25 signup bounties plus 20% of every payment for a full year is a rich hybrid structure for a young program.",
+    "contact_access": "A public application page plus a published partnerships email (hello@shep.pet) and a named human who reads and answers every application.",
+    "opportunity_availability": "Applications are open to solo creators and pet businesses of any size, subject to personal review rather than follower thresholds.",
+    "credibility": "A young company, but transparent about its rescue partnership (The Sanctuary Project, 2,000+ placements over 16 years) and its exact pay terms."
+   }
+  }
+ }
+]

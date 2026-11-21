@@ -1,0 +1,648 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.republicoftea.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.republicoftea.com/pages/affiliate-program"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.republicoftea.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://www.republicoftea.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Premium tea brand founded in 1992 that sparked a specialty tea revolution; sells 350+ all-natural premium teas and herbal blends (organic SuperAdapt, SuperGreen, U-Matcha, bottled iced teas) plus teaware, with certifications including USDA Organic, Non-GMO Project and OU Kosher.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.republicoftea.com/pages/affiliate-program",
+    "summary": "The brand's own affiliate page lists 4% commission on sales for new customers and 4% for returning customers, a 30-day cookie, product data feed and banners, with an 'Apply Now' button that links to app.impact.com — the current program runs on Impact."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://brandid.app/blog/tea-affiliate-programs/",
+    "summary": "CONFLICT: multiple affiliate directories (Brandid, LinkClicky, ThriversHub) describe an older ShareASale program at 8% for new customers / 4% returning with a 30-day cookie. This conflicts with the brand's own current page (4%/4% via Impact), so commission_rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.republicoftea.com/",
+    "summary": "Homepage confirms 350+ premium teas and herbs, 'Trusted Since 1992', a subscription program and press features (Food & Wine, Bustle, Brit+Co)."
+   }
+  ],
+  "name": "The Republic of Tea",
+  "opportunity": {
+   "application_url": "https://www.republicoftea.com/pages/affiliate-program",
+   "source_url": "https://www.republicoftea.com/pages/affiliate-program",
+   "title": "The Republic of Tea Affiliate Program — 4% new / 4% returning via Impact (own page); directories conflict with an older 8%/4% ShareASale listing"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 10,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Own page states only 4%/4%, and third-party directories conflict with an older 8%/4% ShareASale listing, so the rate is recorded null and compensation scores low.",
+    "contact_access": "Public affiliate page with a direct Apply Now route into Impact; no public partnerships email was found on fetched pages.",
+    "credibility": "Founded 1992, 350+ teas, USDA Organic / Non-GMO / Kosher certifications and national press features.",
+    "niche_fit": "Premium tea is a core food-drink niche with strong gifting and wellness angles (adaptogen, green and matcha lines).",
+    "opportunity_availability": "Open application through Impact with a 30-day cookie and data feed.",
+    "ugc_evidence": "Brand runs an active affiliate program with banners, a product feed and regular affiliate emails, but no public creator-content program details were found."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.republicoftea.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://drinkatlys.com/athletes",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://drinkatlys.com/athletes"
+  },
+  "category_slug": "fitness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://drinkatlys.com/athletes",
+    "email": null,
+    "source_url": "https://drinkatlys.com/athletes"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@atlys.shop",
+    "source_url": "https://drinkatlys.com/athletes/terms"
+   }
+  ],
+  "country": "United States",
+  "description": "Insulated stainless steel water bottle brand built for athletes (the ATLYS One); a portion of every sale supports the Inspiring Children Foundation's youth mental-health mentorship, and its roster of pro athlete ambassadors spans the NFL, NBA, NHL and MLB.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://drinkatlys.com/athletes",
+    "summary": "ATLYS Athletes is the brand's own commission program, open to U.S. residents at every level from grade school to the pros: apply, get hand-approved, receive a personal code/link, and earn $5 for every ATLYS One sold through it while followers get 10% off. The page states plainly it is commission-based — no free product or merch for joining."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://drinkatlys.com/athletes/terms",
+    "summary": "The program's own Terms of Use (Atlys LLC, an Arizona limited liability company; last updated August 5, 2026) set the commission at a flat $5 per Qualifying Sale, paid monthly with a low $5.00 minimum payout threshold; affiliates may keep earnings or direct 100% to a chosen cause."
+   }
+  ],
+  "name": "Atlys",
+  "opportunity": {
+   "application_url": "https://drinkatlys.com/athletes",
+   "source_url": "https://drinkatlys.com/athletes",
+   "title": "ATLYS Athletes — flat $5 per bottle sold through your code/link (brand's own program, terms on site)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Flat $5 per bottle on the brand's own published terms, paid monthly with only a $5 threshold — modest per-sale pay but fully transparent and verified.",
+    "contact_access": "Open application page on the brand's own site plus a published company email in the program terms.",
+    "credibility": "Named NFL/NBA/NHL ambassadors and a stated charitable give-back per sale; young brand, so one point held back.",
+    "niche_fit": "Hydration/fitness product with an athlete-first program design; strong fit for sports, gym and outdoor creators.",
+    "opportunity_availability": "Open to U.S. residents at every level, grade school through pro; every application is reviewed by hand.",
+    "ugc_evidence": "The brand publicly showcases a roster of named pro athletes in the program and builds content around athlete codes."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://drinkatlys.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/cora/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising",
+   "source_url": "https://getlasso.co/affiliate/cora/"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/cora/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/cora/"
+   }
+  ],
+  "country": "United States",
+  "description": "Organic period, bladder and body care brand (tampons, pads, liners, cups, discs and underwear) sold by subscription and one-time purchase; with every purchase Cora provides period products and body-literacy resources to people who might otherwise go without, and says it has donated over 10 million pads since 2016.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/cora/",
+    "summary": "Lasso's program page lists Cora at a flat $5 per sale in the Women's Health category, and its 'Join the Cora affiliate program' link routes to auth.rakutenmarketing.com — the program runs on Rakuten Advertising. Cookie duration is not published."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://cora.com/",
+    "summary": "Homepage confirms organic period and body care delivered by subscription or one-time buy, and the give-back model: products and body-literacy resources provided with every purchase; over 10 million pads donated since 2016."
+   }
+  ],
+  "name": "Cora",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/cora/",
+   "source_url": "https://getlasso.co/affiliate/cora/",
+   "title": "Cora Affiliate Program — flat $5 per sale via Rakuten Advertising (per Lasso program page)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Flat $5 per sale via Rakuten per Lasso's program page — clear, published, but modest against Cora's price points.",
+    "contact_access": "Join route is via the Lasso program page into Rakuten; no public partnerships email found on fetched pages.",
+    "credibility": "Well-known consumer brand with a documented give-back record (10M+ pads donated since 2016) and major press logos on its homepage.",
+    "niche_fit": "Organic period and body care is a strong women's-health niche with subscription repeat purchases.",
+    "opportunity_availability": "Open network application on Rakuten Advertising; approval typically takes a few days per Lasso.",
+    "ugc_evidence": "An established network affiliate program aimed at women's-health bloggers and creators; no public UGC campaign details found."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://cora.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/mauds-coffee-tea/",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/mauds-coffee-tea/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "help@drinkmauds.com",
+    "source_url": "https://shopblends.com/"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/mauds-coffee-tea/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/mauds-coffee-tea/"
+   }
+  ],
+  "country": "United States",
+  "description": "San Diego-based brand selling gourmet single-serve coffee and tea pods produced with 100% solar power, plus a coffee-club subscription; the site claims 1M+ customers served and over 250,000 five-star reviews.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/mauds-coffee-tea/",
+    "summary": "LinkClicky lists the Maud's Coffee & Tea affiliate program on Impact at 5% per sale and 5% on subscriptions; Yazing's program page independently confirms members earn 5% of subscription and Intelligent Blend sales, and a shopblends.com product URL carries Impact (impactradius) affiliate tracking parameters."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://shopblends.com/",
+    "summary": "Homepage confirms the brand (100% solar-power produced artisan coffee & tea), 1M+ customers, 250,000+ five-star reviews, a San Diego, CA address, support email help@drinkmauds.com and its Instagram, Facebook and Pinterest profile links."
+   }
+  ],
+  "name": "Maud's Coffee & Tea",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/mauds-coffee-tea/",
+   "source_url": "https://linkclicky.com/affiliate-program/mauds-coffee-tea/",
+   "title": "Maud's Coffee & Tea Affiliate Program — 5% per sale and 5% on subscriptions via Impact"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "5% per sale and 5% on subscriptions per two independent program listings — published but on the low side.",
+    "contact_access": "Public support email and full social profiles on the brand's own homepage, plus the network listing route.",
+    "credibility": "1M+ customers and 250,000+ five-star reviews claimed on its own homepage; Shopify Plus merchant per a brand profile.",
+    "niche_fit": "Coffee and tea pods plus a subscription club — a staple food-drink niche with repeat-purchase behavior.",
+    "opportunity_availability": "Open Impact program; subscriptions included in commissionable sales.",
+    "ugc_evidence": "Active Impact affiliate program covering one-off and subscription sales; creator content runs through its social channels."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/DRINKMAUDS"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/DRINKMAUDS"
+   },
+   {
+    "platform": "pinterest",
+    "url": "https://www.pinterest.com/MaudsCoffeeAndTea/"
+   }
+  ],
+  "website": "https://shopblends.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.territoryfoods.com/partner-with-territory",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.territoryfoods.com/partner-with-territory"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.territoryfoods.com/partner-with-territory",
+    "email": null,
+    "source_url": "https://www.territoryfoods.com/partner-with-territory"
+   }
+  ],
+  "country": "United States",
+  "description": "Chef-driven marketplace for healthy prepared meals: sustainably sourced, nutritionally dense, ready-to-heat meals created by local chefs and restaurants, delivered by subscription.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.territoryfoods.com/partner-with-territory",
+    "summary": "Territory's own partner page announces 'We've recently launched our new affiliate program' with competitive commissions, exclusive audience discounts and a dedicated partnership team, alongside a separate Influencer track for wellness, fitness and health professionals."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://prismic-io.s3.amazonaws.com/territory/5cf7fb93-37e5-4519-a914-0191a49578ae_Territory+Food+Affiliates+%281%29.pdf",
+    "summary": "Territory's own affiliate program document states the program runs on Impact Radius, is free to join, pays $20 for every qualified new customer referred, and allows referrals from clicks within 30 days; LinkClicky independently lists the same $20-per-sale Impact program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://promo.territoryfoods.com/territory-ambassadors/",
+    "summary": "Note: Territory's separate Ambassador track pays in Territory credit (10% commission in credit, $25 credit per first order; credit redeemable for cash at only 25% of value) — the entry here is based on the cash-paying Impact affiliate program, not the credit-based ambassador track."
+   }
+  ],
+  "name": "Territory Foods",
+  "opportunity": {
+   "application_url": "https://www.territoryfoods.com/partner-with-territory",
+   "source_url": "https://www.territoryfoods.com/partner-with-territory",
+   "title": "Territory Foods Affiliate Program — flat $20 per qualified new customer via Impact (brand's own program document)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 10,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Flat $20 per qualified new customer via Impact per the brand's own program document — strong, published bounty for meal delivery.",
+    "contact_access": "Public partner page with affiliate and influencer routes and a stated dedicated partnership team.",
+    "credibility": "Established meal-delivery company describing itself as the leading healthy prepared meal company, with chef marketplace model.",
+    "niche_fit": "Healthy prepared-meal delivery is a proven creator niche across wellness, fitness and busy-professional audiences.",
+    "opportunity_availability": "Newly relaunched program actively recruiting partners; free to join via Impact.",
+    "ugc_evidence": "Brand runs both a network affiliate program and an influencer track, and promotes partner content on its social channels."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.territoryfoods.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://WildZora.com/pages/https-www-shareasale-com-shareasale-cfm-merchantid-154285",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://WildZora.com/pages/https-www-shareasale-com-shareasale-cfm-merchantid-154285"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://WildZora.com/pages/https-www-shareasale-com-shareasale-cfm-merchantid-154285",
+    "email": null,
+    "source_url": "https://WildZora.com/pages/https-www-shareasale-com-shareasale-cfm-merchantid-154285"
+   }
+  ],
+  "country": "United States",
+  "description": "Whole-food snack brand known for meat-and-veggie bars and other real-food snacks built for paleo, keto, AIP, gluten-free and dairy-free eaters, aimed at active, outdoors and clean-eating customers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://WildZora.com/pages/https-www-shareasale-com-shareasale-cfm-merchantid-154285",
+    "summary": "Wild Zora's own affiliate page offers 'at least 10% commissions' (benefits table: up to 10% commission including discount-code options) with instant access to a referral link and dashboard; its Apply buttons route to ShareASale. Requirements: U.S.-based, social following over 1,000, must follow @wildzorafoods on Instagram; inquiries answered within 3 business days."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.fmtc.co/new-fmtc-merchants-include-blu-dot-jetty-mustard-made-piloti-wild-zora/",
+    "summary": "FMTC's merchant feed lists Wild Zora on ShareASale (merchant #154285) in Food & Gourmet, confirming the network behind the brand's own apply buttons."
+   }
+  ],
+  "name": "Wild Zora",
+  "opportunity": {
+   "application_url": "https://WildZora.com/pages/https-www-shareasale-com-shareasale-cfm-merchantid-154285",
+   "source_url": "https://WildZora.com/pages/https-www-shareasale-com-shareasale-cfm-merchantid-154285",
+   "title": "Wild Zora Affiliate Program — 10% commission via ShareASale (brand's own affiliate page; 1,000+ followers required)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "10% commission published on the brand's own affiliate page, including discount-code options.",
+    "contact_access": "Public application on the brand's own site with a stated 3-business-day response time.",
+    "credibility": "Long-running DTC food brand with a live ShareASale merchant listing (FMTC) and detailed program terms on its own page.",
+    "niche_fit": "Real-food bars for paleo/keto/AIP and outdoor audiences — a focused, content-friendly food niche.",
+    "opportunity_availability": "Open via ShareASale but gated: U.S. only and a 1,000+ social following minimum.",
+    "ugc_evidence": "Own affiliate page names ideal creator partners (fitness influencers, outdoor enthusiasts, food bloggers, athletes) and the content formats it wants (YouTube, podcasts, recipes, reviews)."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/wildzorafoods"
+   }
+  ],
+  "website": "https://wildzora.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://waterboycrew.superfiliate.com/portal/sign-up",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "Superfiliate",
+   "source_url": "https://waterboycrew.superfiliate.com/portal/sign-up"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://waterboycrew.superfiliate.com/portal/sign-up",
+    "email": null,
+    "source_url": "https://waterboycrew.superfiliate.com/portal/sign-up"
+   }
+  ],
+  "country": "United States",
+  "description": "Hydration brand making sugar-free electrolyte drink mixes positioned for workout hydration and weekend recovery (hangover, fatigue and nausea relief angles), sold direct and at Target.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://waterboycrew.superfiliate.com/portal/sign-up",
+    "summary": "Waterboy's own creator portal (run on Superfiliate) invites sign-ups: members get their own link to share, friends get 10% off at waterboy.com, and the creator earns a commission on every order placed; sign-up also includes a buy-one-get-one offer for Waterboy at Target."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/niche/health-and-wellness/",
+    "summary": "Lasso's health & wellness program index lists WaterBoy at up to 15% commission with a 14-day cookie and no approval requirements — recorded as the rate ceiling; the brand's portal does not publish the exact percentage."
+   }
+  ],
+  "name": "Waterboy",
+  "opportunity": {
+   "application_url": "https://waterboycrew.superfiliate.com/portal/sign-up",
+   "source_url": "https://waterboycrew.superfiliate.com/portal/sign-up",
+   "title": "Waterboy Creator Program — commission on every order via its Superfiliate portal (Lasso reports up to 15%, 14-day cookie)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Up to 15% per Lasso's program index with a 14-day cookie; the brand's own portal confirms commission on every order but does not publish the exact rate.",
+    "contact_access": "Public creator portal sign-up on the brand's own subdomain.",
+    "credibility": "U.S. company (Austin, TX per LeadIQ) with retail placement at Target and reported $25M–$50M revenue range.",
+    "niche_fit": "Electrolyte mixes for workouts and recovery are a high-velocity TikTok-friendly hydration niche.",
+    "opportunity_availability": "Open sign-up with no approval requirements reported by Lasso.",
+    "ugc_evidence": "Brand runs an always-on creator portal and recruits through social content (e.g. its #WaterboyIntern pipeline); commission on every order via a personal link."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://waterboy.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/buoy-hydration/",
+   "commission_cap": "unknown",
+   "commission_rate": 22.5,
+   "creator_saturation": "unknown",
+   "network": "Lasso",
+   "source_url": "https://getlasso.co/affiliate/buoy-hydration/"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/buoy-hydration/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/buoy-hydration/"
+   }
+  ],
+  "country": "United States",
+  "description": "Hydration brand selling unflavored electrolyte drops with trace minerals, vitamins and antioxidants — no sugar and no sweeteners — designed to be squeezed into any drink for daily hydration.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/buoy-hydration/",
+    "summary": "Lasso's Buoy Hydration program page lists up to 22.5% commission, a 14-day cookie, a $10 payout threshold and no approval requirements, with joining handled through Lasso. Recorded as a rate ceiling ('up to'), not a guaranteed base rate."
+   }
+  ],
+  "name": "Buoy Hydration",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/buoy-hydration/",
+   "source_url": "https://getlasso.co/affiliate/buoy-hydration/",
+   "title": "Buoy Hydration Affiliate Program — up to 22.5% commission via Lasso (14-day cookie, $10 threshold)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 7,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Up to 22.5% per Lasso — a high ceiling, though 'up to' means the base rate may be lower; $10 payout threshold and 14-day cookie.",
+    "contact_access": "Join route is the Lasso program page; no public brand partnerships contact was verified (the brand homepage could not be fetched this session).",
+    "credibility": "Single-source (Lasso) program data and an unfetchable homepage this session keep credibility conservative.",
+    "niche_fit": "Electrolyte drops are a distinctive, demo-friendly wellness product (works in any drink) with chronic-illness and daily-hydration audiences.",
+    "opportunity_availability": "No approval requirements reported; open through Lasso.",
+    "ugc_evidence": "Program is marketed to bloggers and influencers through Lasso with content guidance; no brand-run creator page was fetched."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://justdrinkbuoy.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "TikTok Shop",
+   "source_url": "https://rateful.ai/brand/organic-india-usa"
+  },
+  "category_slug": "wellness",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": null,
+    "source_url": "https://rateful.ai/brand/organic-india-usa"
+   }
+  ],
+  "country": "United States",
+  "description": "Ayurvedic wellness brand best known for Tulsi (holy basil) teas and herbal supplements such as ashwagandha and psyllium; a Certified B Corporation using regenerative organic farming, with a U.S. operation selling direct and through TikTok Shop.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/organic-india-usa",
+    "summary": "Rateful's TikTok Shop data page for Organic India USA reports that about 93% of the brand's estimated $14.1K in TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators' videos and LIVEs (791 items sold, ~$17.81 average price) — creators with TikTok Shop affiliate access can add its products to their showcase and earn commission on every sale. No commission percentage is published."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://greenaffiliateprograms.net/directory/mind-body-health/vitamins-mind-body-health/page/53/",
+    "summary": "Green Affiliate Programs describes Organic India's U.S. program history on ShareASale (5%, 60-day cookie) but currently marks that listing Inactive, and affiliate-toolkit lists an Admitad route — so the live, verifiable creator route recorded here is the TikTok Shop affiliate program, with the rate unpublished."
+   }
+  ],
+  "name": "Organic India",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://rateful.ai/brand/organic-india-usa",
+   "title": "Organic India USA TikTok Shop Affiliate Program — commission on showcase sales (rate set inside TikTok Shop; ~93% of its TikTok Shop sales are affiliate-driven per Rateful)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "No commission rate is published in any fetched source — TikTok Shop rates are set per product inside the platform — so compensation scores low despite real payouts.",
+    "contact_access": "No public creator contact or application page found; joining happens inside TikTok Shop's affiliate center.",
+    "credibility": "Certified B Corporation with 25+ years in Ayurvedic products and a large catalog.",
+    "niche_fit": "Tulsi teas and Ayurvedic supplements sit squarely in the wellness niche with strong stress/sleep/gut content angles.",
+    "opportunity_availability": "Open to any creator with TikTok Shop affiliate access; free samples can be requested through the affiliate center per Rateful.",
+    "ugc_evidence": "TikTok Shop sales are overwhelmingly creator-driven (93% via affiliate videos and LIVEs per Rateful's data), showing an active creator engine."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://organicindiausa.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.aubonbroth.com/aba-affiliate-agreement",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.aubonbroth.com/aba-affiliate-agreement"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "support@aubonbroth.com",
+    "source_url": "https://www.aubonbroth.com/aba-affiliate-agreement"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.aubonbroth.com/aba-affiliate-agreement",
+    "email": null,
+    "source_url": "https://www.aubonbroth.com/aba-affiliate-agreement"
+   }
+  ],
+  "country": "United States",
+  "description": "Bone broth brand (Au Bon Broth, LLC, a Delaware company) selling broth products direct to consumers online, marketed to wellness, keto and carnivore audiences.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.aubonbroth.com/aba-affiliate-agreement",
+    "summary": "Au Bon Broth's own published Affiliate Agreement (last updated Mar 6, 2023) sets the General Affiliate commission at 20% of the total sale amount excluding taxes and fees, paid in USD on the 1st and 15th of each month after a 45-day refund window. Caution terms: a $100 minimum must be reached, and commissions under $100 within a 120-day period are forfeited; affiliates must use @AuBonBoneBroth / #AuBonBoneBroth and #ad disclosures on social posts."
+   }
+  ],
+  "name": "Au Bon Broth",
+  "opportunity": {
+   "application_url": "https://www.aubonbroth.com/aba-affiliate-agreement",
+   "source_url": "https://www.aubonbroth.com/aba-affiliate-agreement",
+   "title": "Au Bon Broth Affiliate Program — 20% commission, brand-direct (own published affiliate agreement; $100 payout minimum)"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 10,
+   "credibility": 3,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "20% of the sale amount on the brand's own published agreement — a high, verified rate; held back by the $100 minimum and a 120-day forfeiture clause.",
+    "contact_access": "Published support email and the full program agreement on the brand's own site.",
+    "credibility": "Terms date from March 2023 and the forfeiture clause is unusually harsh, so credibility is scored conservatively.",
+    "niche_fit": "Bone broth fits wellness, keto and gut-health content, though it is a narrower single-product niche.",
+    "opportunity_availability": "Application-based with approval at the brand's discretion ('not everyone who applies will qualify').",
+    "ugc_evidence": "The agreement includes detailed social-media promotion rules for affiliates (hashtags, Paid Partnership tools), showing creator promotion is an intended channel, but no public creator roster was found."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.aubonbroth.com"
+ }
+]
