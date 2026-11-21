@@ -192,8 +192,8 @@ export default function LandingPage() {
           >
             UltraVestra
           </h1>
-          <p style={{ fontSize: 27, margin: "0 auto", maxWidth: 680, fontWeight: 800 }}>
-            Find your next opportunity.
+          <p style={{ fontSize: 31, margin: "0 auto", maxWidth: 720, fontWeight: 800, lineHeight: 1.25 }}>
+            The Intelligence Behind Your Creator Business.
           </p>
           <p
             style={{
@@ -203,8 +203,8 @@ export default function LandingPage() {
               margin: "12px auto 0",
             }}
           >
-            Search brands, products, commissions, campaigns, creator tips, and more —
-            across the verified UltraVestra intelligence database <em>and</em> the live web.
+            Discover where to grow, what to promote, how to earn, and how to create
+            content that converts — across the platforms you already use.
           </p>
           <p style={{ fontSize: 15, color: "#f0abfc", fontWeight: 700, margin: "10px auto 0", letterSpacing: 0.4 }}>
             Search smarter. Find better brands. Create content that sells.
