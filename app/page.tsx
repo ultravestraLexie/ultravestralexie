@@ -218,6 +218,9 @@ export default async function LandingPage() {
           <p style={{ fontSize: 15, color: "#f0abfc", fontWeight: 700, margin: "10px auto 0", letterSpacing: 0.4 }}>
             Search smarter. Find better brands. Create content that sells.
           </p>
+          <p style={{ fontSize: 14.5, color: "#67e8f9", fontWeight: 700, margin: "10px auto 0", letterSpacing: 0.3, maxWidth: 680 }}>
+            Most platforms teach you how to post. UltraVestra teaches you how to make people stop, watch, trust, and buy.
+          </p>
           <form
             action="/discover"
             method="get"

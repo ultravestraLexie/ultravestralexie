@@ -100,6 +100,19 @@ export default function CoachPage() {
         <Link href="/creator-growth/art-of-captivating-attention" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Enter the Masterclass →</Link>
       </section>
 
+      <section style={{ ...panel, textAlign: "center", border: "1px solid #e879f9", boxShadow: "0 0 44px rgba(217,70,239,0.4)" }}>
+        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "4px 14px", fontSize: 12.5, fontWeight: 700, letterSpacing: 2 }}>⭐ THE SIGNATURE SYSTEM</span>
+        <h2 style={{ fontSize: 26, margin: "12px 0 6px", fontWeight: 800 }}>The Creator&rsquo;s Secret Weapon</h2>
+        <p style={{ ...sub, maxWidth: 640, margin: "0 auto 16px" }}>
+          UltraVestra&rsquo;s interactive learning universe — the Creator&rsquo;s Secret Weapon: Psychology Lab,
+          Sales Vault, Failure Museum, and the Experiment Room. Fifty-six decoded hooks, the Scroll Stop Score,
+          the Buyer Brain Simulator, the Conversion Clinic, the Makeover Studio, the Autopsy worksheet, script
+          structures and the daily 30-Second Challenge.
+        </p>
+        <p style={{ color: "#f0abfc", fontWeight: 800, fontSize: 17, margin: "0 auto 16px" }}>Most platforms teach you how to post. UltraVestra teaches you how to make people stop, watch, trust, and buy.</p>
+        <Link href="/secret-weapon" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Open the Secret Weapon →</Link>
+      </section>
+
       <VideoLab />
 
       <section style={panel}>
