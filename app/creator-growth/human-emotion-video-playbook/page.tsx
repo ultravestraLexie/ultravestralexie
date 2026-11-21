@@ -45,6 +45,30 @@ import {
   FEELINGS_TABLE,
   TROJAN_HORSE,
 } from "@/lib/viralbase";
+import {
+  CREATIVE_DIRECTIONS,
+  EXAMPLE_CONCEPTS,
+  EXAMPLE_CONCEPTS_NOTE,
+  HOOK_FAMILIES,
+  HOOK_ACCURACY_RULE,
+  SALES_INTRO,
+  SALES_STAGES,
+  SALES_FORMATS,
+  OBJECTIONS,
+  OBJECTIONS_CAVEAT,
+  UGC_STYLES,
+  UGC_NOTE,
+  AUTHENTICITY_CHECKLIST,
+  FUSION_COMBINATIONS,
+  FUSION_RULE,
+  DIAGNOSTICS,
+  DIAGNOSTICS_NOTE,
+  SCORECARD_DIMENSIONS,
+  SCORECARD_NOTE,
+  SCORECARD_GATES,
+  RESPONSE_DASHBOARD,
+  RESPONSE_DASHBOARD_NOTE,
+} from "@/lib/emotionintel";
 
 /* THE HUMAN EMOTION VIDEO PLAYBOOK — UltraVestra's signature resource.
  * People don't watch videos only because they want information. They
@@ -131,7 +155,7 @@ export default function PlaybookPage() {
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: 30, fontWeight: 800, margin: "0 0 4px" }} className="wow-title">The Human Emotion Video Lab</p>
         <p style={{ color: "#ddd0ff", margin: 0, fontSize: 15.5 }}>
-          The Playbook, turned into tools. Work the five labs, then read the full guide below.
+          The Playbook, turned into tools. Work the seven labs, then read the full guide below.
         </p>
       </div>
       <EmotionLab />
@@ -251,6 +275,33 @@ export default function PlaybookPage() {
         <p style={body}>A hook without an audience is just a sentence. An emotion without a purpose is just a feeling. A video without a viewer benefit is just content. UltraVestra connects all three.</p>
         <p style={body}><strong>Understand the person. Understand the purpose. Design the experience. Deliver the value.</strong></p>
         <p style={{ ...body, margin: 0 }}>This is the rule behind the Emotion DNA Scanner, the Attention Mastery Lab, the Script Studio, the Retention Repair Shop, and every video-generation feature: the first question in every UltraVestra video tool is, &ldquo;Who is this for, and what should that person get from watching?&rdquo;</p>
+
+        <h3 style={h3style}>One Product, Twelve Creative Directions</h3>
+        <p style={body}>The Human Emotion &amp; Conversion Intelligence System adds the next layer: for the same product, UltraVestra should be able to create many distinct content formats. The product stays the same — the human experience changes. The twelve creative directions:</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: 12 }}>
+          {CREATIVE_DIRECTIONS.map((d, i) => (
+            <div key={d.name} style={card}>
+              <p style={{ margin: "0 0 5px", fontWeight: 800, fontSize: 14.5, color: "#67e8f9" }}>{i + 1}. {d.name}</p>
+              <p style={{ margin: 0, fontSize: 14.5, color: "#f3e8ff" }}>{d.description}</p>
+            </div>
+          ))}
+        </div>
+
+        <h3 style={h3style}>Three Complete Concepts</h3>
+        <p style={body}>What this looks like when it all comes together — three complete creative executions for one skincare product. {EXAMPLE_CONCEPTS_NOTE}</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+          {EXAMPLE_CONCEPTS.map((c) => (
+            <div key={c.id} style={card}>
+              <p style={{ margin: "0 0 8px", fontWeight: 800, fontSize: 16, color: "#f0abfc" }}>Concept {c.id} · {c.name}</p>
+              <p style={{ margin: "0 0 6px", fontSize: 15.5 }}><strong style={{ color: "#67e8f9" }}>Emotion:</strong> <span style={{ color: "#f3e8ff" }}>{c.emotions}</span></p>
+              <p style={{ margin: "0 0 6px", fontSize: 15.5 }}><strong style={{ color: "#67e8f9" }}>Audience:</strong> <span style={{ color: "#f3e8ff" }}>{c.audience}</span></p>
+              <p style={{ margin: "0 0 6px", fontSize: 15.5 }}><strong style={{ color: "#67e8f9" }}>Hook:</strong> <span style={{ color: "#f3e8ff" }}>&ldquo;{c.hook}&rdquo;</span></p>
+              <p style={{ margin: "0 0 6px", fontSize: 15.5 }}><strong style={{ color: "#67e8f9" }}>Script:</strong> <span style={{ color: "#f3e8ff" }}>&ldquo;{c.script}&rdquo;</span></p>
+              <p style={{ margin: "0 0 6px", fontSize: 15.5 }}><strong style={{ color: "#67e8f9" }}>Visual direction:</strong> <span style={{ color: "#f3e8ff" }}>{c.visualDirection}</span></p>
+              <p style={{ margin: 0, fontSize: 15.5 }}><strong style={{ color: "#67e8f9" }}>Conversion purpose:</strong> <span style={{ color: "#f3e8ff" }}>{c.conversionPurpose}</span></p>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* 2 — THE 15 EMOTIONS */}
@@ -301,6 +352,28 @@ export default function PlaybookPage() {
           {FIRST_3_SECONDS.patterns.map((p) => <li key={p}>{p}</li>)}
         </ul>
         <p style={{ ...body, margin: 0 }}>{FIRST_3_SECONDS.movementRule}</p>
+
+        <h3 style={h3style}>Conversion Hook Families</h3>
+        <p style={body}>The Conversion Intelligence System generates hooks based on the viewer&rsquo;s motivation, not just the product name. Twelve hook families — one for each reason a person might stop:</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Hook family</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              {HOOK_FAMILIES.map((h) => (
+                <tr key={h.family}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>{h.family}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>&ldquo;{h.example}&rdquo;</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{ ...card, marginTop: 14, fontWeight: 700, color: "#f0abfc" }}>Intelligence rule: {HOOK_ACCURACY_RULE}</p>
       </section>
 
       {/* 4 — 25 HOOKS */}
@@ -540,6 +613,67 @@ export default function PlaybookPage() {
         </div>
 
         <p style={{ ...body, margin: "16px 0 0" }}><strong>Important:</strong> Creators should disclose affiliate links and paid partnerships clearly, make honest claims, and never invent product results or personal experiences.</p>
+
+        <h3 style={h3style}>Sales Video Intelligence: Six Stages</h3>
+        <p style={body}>{SALES_INTRO} UltraVestra analyzes six stages of purchase consideration:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {SALES_STAGES.map((s, i) => (
+            <p key={s.name} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#f0abfc" }}>{i + 1}. {s.name} — {s.job}.</strong>{" "}
+              <span style={{ color: "#f3e8ff" }}>{s.detail}</span>
+              {s.example && <span style={{ color: "#ddd0ff" }}> Example: &ldquo;{s.example}&rdquo;</span>}
+            </p>
+          ))}
+        </div>
+
+        <h3 style={h3style}>Seven Sales-Video Formats</h3>
+        <p style={body}>The seven sales-video formats UltraVestra generates — each with its primary emotion and its main job:</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Format</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Primary emotion</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Main job</th>
+              </tr>
+            </thead>
+            <tbody>
+              {SALES_FORMATS.map((f) => (
+                <tr key={f.format}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>{f.format}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{f.primaryEmotion}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{f.mainJob}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h3 style={h3style}>Answer the Real Objections</h3>
+        <p style={body}>Sales intelligence means identifying the reason someone may hesitate. For skincare, common questions may include:</p>
+        <ul style={{ margin: "0 0 12px", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+          {OBJECTIONS.map((o) => <li key={o}>{o}</li>)}
+        </ul>
+        <p style={{ ...body, margin: 0 }}>{OBJECTIONS_CAVEAT}</p>
+
+        <h3 style={h3style}>UGC Intelligence: Three Styles</h3>
+        <p style={body}>UGC — user-generated content — can include creator-made videos that brands use on their own channels or in advertising. UltraVestra teaches creators to distinguish three important styles:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {UGC_STYLES.map((u) => (
+            <p key={u.style} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#f0abfc" }}>{u.style}.</strong>{" "}
+              <span style={{ color: "#f3e8ff" }}>{u.looksLike}.</span>{" "}
+              <span style={{ color: "#ddd0ff" }}>Builds: {u.builds}.</span>
+            </p>
+          ))}
+        </div>
+        <p style={{ ...body, marginTop: 12 }}>{UGC_NOTE}</p>
+
+        <h3 style={h3style}>The UGC Authenticity Checklist</h3>
+        <p style={body}>Before any UGC video goes out, run it against the UltraVestra authenticity checklist:</p>
+        <ul style={{ margin: 0, paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+          {AUTHENTICITY_CHECKLIST.map((item) => <li key={item}>{item}</li>)}
+        </ul>
       </section>
 
       {/* 9 — FANS / SERIES */}
@@ -597,6 +731,88 @@ export default function PlaybookPage() {
           {TROJAN_HORSE.tactics.map((t) => <li key={t}>{t}</li>)}
         </ul>
         <p style={{ ...card, margin: 0, fontWeight: 700, color: "#f0abfc" }}>{TROJAN_HORSE.trustLine}</p>
+
+        <h3 style={h3style}>Emotion Fusion: Combine, Don&rsquo;t Force</h3>
+        <p style={body}>The strongest creative concepts often combine two or three compatible emotions. These are the proven combinations — try your own pairing in the Emotion Fusion Reactor in the Lab above:</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Combination</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Creative experience</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Video example</th>
+              </tr>
+            </thead>
+            <tbody>
+              {FUSION_COMBINATIONS.map((c) => (
+                <tr key={c.pair.join("+")}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>{c.pair.join(" + ")}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{c.experience}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>&ldquo;{c.example}&rdquo;</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{ ...card, marginTop: 14, fontWeight: 700, color: "#f0abfc" }}>UltraVestra rule: {FUSION_RULE}</p>
+
+        <h3 style={h3style}>Diagnose Why a Video Isn&rsquo;t Converting</h3>
+        <p style={body}>UltraVestra should not simply say &ldquo;make a better hook.&rdquo; It should investigate which part of the audience journey needs improvement:</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>What happens</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Possible explanation</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>UltraVestra recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              {DIAGNOSTICS.map((d) => (
+                <tr key={d.symptom}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>{d.symptom}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{d.possibleExplanation}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{d.recommendation}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{ ...body, marginTop: 12 }}>{DIAGNOSTICS_NOTE}</p>
+
+        <h3 style={h3style}>The Creative Intelligence Scorecard</h3>
+        <p style={body}>Every generated concept should be evaluated against these twelve dimensions. {SCORECARD_NOTE}</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Intelligence dimension</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>What it evaluates</th>
+              </tr>
+            </thead>
+            <tbody>
+              {SCORECARD_DIMENSIONS.map((d) => (
+                <tr key={d.dimension}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>{d.dimension}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{d.evaluates}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{ ...card, marginTop: 14, fontWeight: 700, color: "#f0abfc" }}>{SCORECARD_GATES}</p>
+
+        <h3 style={h3style}>The Human Response Dashboard</h3>
+        <p style={body}>What UltraVestra should measure after publishing — six layers of human response:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {RESPONSE_DASHBOARD.map((r, i) => (
+            <p key={r.layer} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#f0abfc" }}>{String(i + 1).padStart(2, "0")} · {r.layer}.</strong>{" "}
+              <span style={{ color: "#f3e8ff" }}>{r.measures}</span>
+            </p>
+          ))}
+        </div>
+        <p style={{ ...body, marginTop: 12, marginBottom: 0 }}>{RESPONSE_DASHBOARD_NOTE}</p>
       </section>
 
       {/* 10 — CHALLENGE + GOLDEN RULES + FINAL MESSAGE */}

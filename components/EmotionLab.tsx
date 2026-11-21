@@ -10,12 +10,26 @@ import {
   SCORECARD,
 } from "@/lib/playbook";
 import { HOOK_BANK, HOOK_BANK_NOTE, PRE_POST_CHECKLIST } from "@/lib/viralbase";
+import {
+  EMOTION_LIBRARY,
+  FUSION_COMBINATIONS,
+  FUSION_RULE,
+  MASTER_FORMULA,
+  MISSION_TYPES,
+  CONTENT_FORMATS,
+  HOOK_FAMILIES,
+  OBJECTIONS,
+  OBJECTIONS_CAVEAT,
+  SCORECARD_GATES,
+} from "@/lib/emotionintel";
 
 /* THE HUMAN EMOTION VIDEO LAB — the interactive half of the Human
- * Emotion Video Playbook. Five working tools, driven by the Playbook's
- * own data (lib/playbook.ts) and the Viral Base (lib/viralbase.ts):
- * the Emotion Studio, the Hook Laboratory, the Video Architect, the
- * Audience Reaction Lab and the Pre-Flight Check.
+ * Emotion Video Playbook. Seven working tools, driven by the Playbook's
+ * own data (lib/playbook.ts), the Viral Base (lib/viralbase.ts) and the
+ * Human Emotion & Conversion Intelligence System
+ * (lib/emotionintel.ts): the Emotion Studio, the Hook Laboratory, the
+ * Video Architect, the Audience Reaction Lab, the Pre-Flight Check,
+ * the Emotion Fusion Reactor and the Creative Mission Builder.
  * Template-built and honestly labeled — the tools arrange the
  * Playbook's words and the creator's own inputs; they invent nothing. */
 
@@ -81,6 +95,60 @@ const SYMPTOMS: { label: string; rule: [string, string]; goal: string }[] = [
   { label: "Views, but few useful interactions", rule: IMPROVEMENT_RULES[4], goal: "Create conversation" },
 ];
 
+/* ---------- Emotion Fusion Reactor helpers ----------
+ * The library's "Frustration and relief" is one emotion that covers
+ * both fusion tokens, so it can complete the proven problem-solving
+ * pairing on its own. */
+function fusionTokens(emotionName: string): string[] {
+  if (emotionName === "Frustration and relief") return ["Frustration", "Relief"];
+  return [EMOTION_LIBRARY.find((e) => e.name === emotionName)?.short ?? emotionName];
+}
+
+/* ---------- Creative Mission Builder helpers ---------- */
+const VAGUE_AUDIENCE_WORDS = ["everyone", "anyone", "everybody", "all people", "people in general"];
+const MISSION_MOTIVATION: Record<string, string> = {
+  "Educational content": "They want to understand before they spend.",
+  "Sales video": "They are close to a decision and want to choose well.",
+  "UGC that builds trust": "They want an honest read from a real person, not an ad.",
+  "Entertainment and connection": "They want to feel something real in a noisy feed.",
+  "Community-building content": "They want to belong to a group that gets it.",
+};
+const MISSION_NEXT_ACTION: Record<string, string> = {
+  "Educational content": "Learn — then save the video and ask their biggest question.",
+  "Sales video": "Explore the product details and decide for themselves.",
+  "UGC that builds trust": "Trust — then check the details and compare options.",
+  "Entertainment and connection": "Comment, and share it with someone who gets it.",
+  "Community-building content": "Comment, join in, and come back for the next one.",
+};
+const FAMILY_BY_EMOTION: Record<string, string> = {
+  Curiosity: "Curiosity",
+  Trust: "Trust",
+  Humor: "Humor",
+  Desire: "Desire",
+  Confidence: "Education",
+  Empathy: "Community",
+  Surprise: "Demonstration",
+  Frustration: "Problem recognition",
+  Happiness: "Storytelling",
+  Calm: "Trust",
+  Belonging: "Community",
+  Hope: "Education",
+  Satisfaction: "Demonstration",
+  Control: "Objection handling",
+};
+const FAMILY_BY_MISSION: Record<string, string> = {
+  "Educational content": "Education",
+  "Sales video": "Objection handling",
+  "UGC that builds trust": "Personal experience",
+  "Entertainment and connection": "Humor",
+  "Community-building content": "Community",
+};
+
+function adaptHook(example: string, product: string): string {
+  if (!product) return example;
+  return example.replace(/moisturizer/gi, product);
+}
+
 export default function EmotionLab() {
   /* Emotion Studio */
   const [emotionName, setEmotionName] = useState(EMOTIONS[0].name);
@@ -112,6 +180,92 @@ export default function EmotionLab() {
   const [preFlight, setPreFlight] = useState<boolean[]>(() => PRE_POST_CHECKLIST.map(() => false));
   const preFlightCount = preFlight.filter(Boolean).length;
   const nextCheck = PRE_POST_CHECKLIST[preFlight.findIndex((done) => !done)];
+
+  /* Emotion Fusion Reactor (Conversion Intelligence): pick 2–3 emotions */
+  const [fusionPicked, setFusionPicked] = useState<string[]>(["Curiosity", "Surprise"]);
+  const toggleFusion = (name: string) => {
+    setFusionPicked((prev) => {
+      if (prev.includes(name)) return prev.filter((n) => n !== name);
+      if (prev.length >= 3) return prev;
+      return [...prev, name];
+    });
+  };
+  const fusionTokenSet = new Set(fusionPicked.flatMap(fusionTokens));
+  const fusionMatch = [...FUSION_COMBINATIONS]
+    .filter((c) => c.pair.every((t) => fusionTokenSet.has(t)))
+    .sort((x, y) => y.pair.length - x.pair.length)[0];
+  const fusionExact = !!fusionMatch && fusionMatch.pair.length === fusionTokenSet.size;
+  const fusionEntries = fusionPicked
+    .map((n) => EMOTION_LIBRARY.find((e) => e.name === n))
+    .filter((e): e is (typeof EMOTION_LIBRARY)[number] => !!e);
+
+  /* Creative Mission Builder (Conversion Intelligence, source section 14) */
+  const [mission, setMission] = useState(MISSION_TYPES[0]);
+  const [missionEmotion1, setMissionEmotion1] = useState("Curiosity");
+  const [missionEmotion2, setMissionEmotion2] = useState("Trust");
+  const [missionFormat, setMissionFormat] = useState(CONTENT_FORMATS[0]);
+  const [missionProduct, setMissionProduct] = useState("");
+  const [missionAudience, setMissionAudience] = useState("");
+  const [missionViewerGet, setMissionViewerGet] = useState("");
+  const [missionGuidance, setMissionGuidance] = useState<string | null>(null);
+  const [missionResult, setMissionResult] = useState<{
+    chain: [string, string][];
+    concept: string;
+    hooks: { family: string; line: string }[];
+    text: string;
+  } | null>(null);
+  const [missionCopied, setMissionCopied] = useState(false);
+
+  const generateMission = () => {
+    const a = missionAudience.trim().toLowerCase();
+    if (!a || VAGUE_AUDIENCE_WORDS.some((v) => a.includes(v))) {
+      setMissionResult(null);
+      setMissionGuidance(
+        "Not yet — that audience is too vague to build a strategy on. UltraVestra never treats an audience as simply “everybody”: a video made for everyone is made for no one. Name a recognizable group instead — for example, “skincare beginners overwhelmed by product choices” — and the whole strategy gets stronger."
+      );
+      return;
+    }
+    setMissionGuidance(null);
+    setMissionCopied(false);
+    const product = missionProduct.trim() || "your product";
+    const audienceText = missionAudience.trim();
+    const viewerGet = missionViewerGet.trim() || "understand the product and decide whether to explore it";
+    const e1 = EMOTION_LIBRARY.find((e) => e.name === missionEmotion1) ?? EMOTION_LIBRARY[0];
+    const e2 = EMOTION_LIBRARY.find((e) => e.name === missionEmotion2) ?? EMOTION_LIBRARY[3];
+    const nextAction = MISSION_NEXT_ACTION[mission] ?? "Learn · Trust · Comment · Save · Explore · Buy";
+    const chain: [string, string][] = MASTER_FORMULA.map((s) => {
+      if (s.step === "Human Audience") return [s.step, audienceText];
+      if (s.step === "Human Motivation") return [s.step, MISSION_MOTIVATION[mission] ?? "What matters to them comes first."];
+      if (s.step === "Emotion") return [s.step, `${e1.name} + ${e2.name} — “${e1.humanThought}” / “${e2.humanThought}”`];
+      if (s.step === "Content Experience") return [s.step, `${missionFormat} built around ${product}, made as ${mission.toLowerCase()}.`];
+      return [s.step, `${viewerGet} → Next action: ${nextAction}`];
+    });
+    const concept =
+      `For ${audienceText}, build a ${missionFormat.toLowerCase()} around ${product}. Lead with ${e1.name.toLowerCase()}: ${e1.content.charAt(0).toLowerCase() + e1.content.slice(1)} ` +
+      `Then bring in ${e2.name.toLowerCase()}: ${e2.content.charAt(0).toLowerCase() + e2.content.slice(1)} ` +
+      `The viewer should leave able to ${viewerGet.charAt(0).toLowerCase() + viewerGet.slice(1)}. Close with the natural next step for this mission: ${nextAction.charAt(0).toLowerCase() + nextAction.slice(1)}`;
+    const familyNames: string[] = [];
+    [FAMILY_BY_EMOTION[e1.short], FAMILY_BY_EMOTION[e2.short], FAMILY_BY_MISSION[mission]].forEach((f) => {
+      if (f && !familyNames.includes(f)) familyNames.push(f);
+    });
+    for (const f of HOOK_FAMILIES) {
+      if (familyNames.length >= 3) break;
+      if (!familyNames.includes(f.family)) familyNames.push(f.family);
+    }
+    const hooks = familyNames.slice(0, 3).map((family) => {
+      const fam = HOOK_FAMILIES.find((h) => h.family === family) ?? HOOK_FAMILIES[0];
+      return { family: fam.family, line: adaptHook(fam.example, missionProduct.trim()) };
+    });
+    const text =
+      `CREATIVE STRATEGY — ${mission}\nEmotional direction: ${e1.name} + ${e2.name} · Format: ${missionFormat}\nProduct or subject: ${product}\n\n` +
+      chain.map(([k, v]) => `${k.toUpperCase()}\n${v}`).join("\n\n") +
+      `\n\nYOUR CONCEPT\n${concept}\n\nTHREE HOOKS TO TEST\n` +
+      hooks.map((h) => `${h.family}: “${h.line}”`).join("\n") +
+      `\n\nOBJECTIONS TO ANSWER (only what you can verify)\n` +
+      OBJECTIONS.map((o) => `• ${o}`).join("\n") +
+      `\n\nMANDATORY GATES\n${SCORECARD_GATES}`;
+    setMissionResult({ chain, concept, hooks, text });
+  };
 
   /* Video Architect */
   const [formulaId, setFormulaId] = useState(FORMULAS[0].id);
@@ -325,6 +479,161 @@ export default function EmotionLab() {
             <p style={{ margin: 0, fontSize: 15, color: "#ddd0ff" }}>Next check: {nextCheck}</p>
           )}
         </div>
+      </section>
+
+      {/* THE EMOTION FUSION REACTOR */}
+      <section style={toolPanel}>
+        <p style={toolTitle}>⚛️ The Emotion Fusion Reactor</p>
+        <p style={toolSub}>From the Human Emotion &amp; Conversion Intelligence System: the strongest creative concepts often combine two or three compatible emotions. Pick yours — the Reactor tells you honestly whether the pairing is proven or an experiment.</p>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 9 }}>
+          {EMOTION_LIBRARY.map((e) => (
+            <button key={e.name} style={chip(fusionPicked.includes(e.name))} onClick={() => toggleFusion(e.name)}>{e.name}</button>
+          ))}
+        </div>
+        <p style={{ color: "#ddd0ff", fontSize: 13.5, margin: "10px 0 0" }}>
+          {fusionPicked.length} of 3 chosen{fusionPicked.length >= 3 ? " — deselect one to swap." : "."}
+        </p>
+        <div style={{ ...card, marginTop: 16 }}>
+          {fusionPicked.length < 2 ? (
+            <p style={{ margin: 0, fontSize: 15.5, color: "#f3e8ff" }}>Pick at least two emotions to run the Reactor.</p>
+          ) : fusionMatch ? (
+            <>
+              <p style={{ margin: "0 0 6px", fontSize: 13.5, fontWeight: 700, letterSpacing: 1.5, color: "#6ee7b7" }}>
+                {fusionExact ? "✓ PROVEN COMBINATION" : "✓ CONTAINS A PROVEN COMBINATION"}
+              </p>
+              <p style={{ margin: "0 0 8px", fontSize: 19, fontWeight: 800, color: "#f0abfc" }}>
+                {fusionMatch.pair.join(" + ")} → {fusionMatch.experience}
+              </p>
+              <p style={{ margin: "0 0 8px", fontSize: 15.5, color: "#f3e8ff" }}><strong style={{ color: "#67e8f9" }}>Video example:</strong> &ldquo;{fusionMatch.example}&rdquo;</p>
+              {!fusionExact && (
+                <p style={{ margin: "0 0 8px", fontSize: 14.5, color: "#ddd0ff" }}>Your extra emotion{fusionPicked.length > 2 ? "s" : ""} on top of this pair {fusionPicked.length > 2 ? "are" : "is"} untested — the proven pair is the safe core; judge the addition against your audience and purpose.</p>
+              )}
+              <p style={{ margin: 0, fontSize: 14.5, color: "#ddd0ff" }}>
+                {fusionEntries.map((e) => `${e.name}: “${e.humanThought}”`).join("  ·  ")}
+              </p>
+            </>
+          ) : (
+            <>
+              <p style={{ margin: "0 0 6px", fontSize: 13.5, fontWeight: 700, letterSpacing: 1.5, color: "#fda4af" }}>
+                EXPERIMENTAL COMBINATION — UNTESTED PAIRING, JUDGE IT AGAINST YOUR AUDIENCE AND PURPOSE
+              </p>
+              <p style={{ margin: "0 0 8px", fontSize: 19, fontWeight: 800, color: "#f0abfc" }}>
+                {fusionPicked.join(" + ")}
+              </p>
+              <p style={{ margin: 0, fontSize: 15.5, color: "#f3e8ff" }}>
+                No tested pairing exists for this mix yet — treat it as an experiment, not a promise. Try opening on {fusionEntries[0]?.name.toLowerCase()}&rsquo;s ground — {fusionEntries[0] ? fusionEntries[0].content.charAt(0).toLowerCase() + fusionEntries[0].content.slice(1) : ""} Then let {fusionEntries[1]?.name.toLowerCase()} carry the payoff — {fusionEntries[1] ? fusionEntries[1].content.charAt(0).toLowerCase() + fusionEntries[1].content.slice(1) : ""}{fusionEntries[2] ? ` Layer in ${fusionEntries[2].name.toLowerCase()} only where it serves the same purpose.` : ""} Film it, measure it with the Human Response Dashboard below, and let the audience&rsquo;s real reaction decide whether the pairing earns a place in your system.
+              </p>
+            </>
+          )}
+        </div>
+        <p style={{ ...card, marginTop: 14, fontWeight: 700, color: "#f0abfc" }}>UltraVestra rule: {FUSION_RULE}</p>
+      </section>
+
+      {/* THE CREATIVE MISSION BUILDER */}
+      <section style={toolPanel}>
+        <p style={toolTitle}>🎯 The Creative Mission Builder</p>
+        <p style={toolSub}>The Conversion Intelligence engine in one brief: choose the mission, the emotional direction and the format — then get a creative strategy built on the master formula: Human Audience → Human Motivation → Emotion → Content Experience → Viewer Value &amp; Next Action.</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 14 }}>
+          <div>
+            <label style={labelStyle}>What are you creating?</label>
+            <select style={inputStyle} value={mission} onChange={(e) => setMission(e.target.value)}>
+              {MISSION_TYPES.map((m) => <option key={m}>{m}</option>)}
+            </select>
+          </div>
+          <div>
+            <label style={labelStyle}>Content format</label>
+            <select style={inputStyle} value={missionFormat} onChange={(e) => setMissionFormat(e.target.value)}>
+              {CONTENT_FORMATS.map((f) => <option key={f}>{f}</option>)}
+            </select>
+          </div>
+          <div>
+            <label style={labelStyle}>Emotional direction — first emotion</label>
+            <select style={inputStyle} value={missionEmotion1} onChange={(e) => setMissionEmotion1(e.target.value)}>
+              {EMOTION_LIBRARY.map((e) => <option key={e.name}>{e.name}</option>)}
+            </select>
+          </div>
+          <div>
+            <label style={labelStyle}>Emotional direction — second emotion</label>
+            <select style={inputStyle} value={missionEmotion2} onChange={(e) => setMissionEmotion2(e.target.value)}>
+              {EMOTION_LIBRARY.map((e) => <option key={e.name}>{e.name}</option>)}
+            </select>
+          </div>
+          <div>
+            <label style={labelStyle}>Product or subject</label>
+            <input style={inputStyle} value={missionProduct} onChange={(e) => setMissionProduct(e.target.value)} placeholder="e.g. the barrier-repair moisturizer" />
+          </div>
+          <div>
+            <label style={labelStyle}>Exact audience</label>
+            <input style={inputStyle} value={missionAudience} onChange={(e) => setMissionAudience(e.target.value)} placeholder="e.g. skincare beginners overwhelmed by product choices" />
+          </div>
+          <div>
+            <label style={labelStyle}>What should the viewer get?</label>
+            <input style={inputStyle} value={missionViewerGet} onChange={(e) => setMissionViewerGet(e.target.value)} placeholder="e.g. understand the product and decide whether to explore it" />
+          </div>
+        </div>
+        <button
+          onClick={generateMission}
+          className="neon-btn"
+          style={{ marginTop: 18, padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, border: "none", cursor: "pointer", fontSize: 15.5 }}
+        >
+          Generate my creative strategy
+        </button>
+
+        {missionGuidance && (
+          <div style={{ ...card, marginTop: 18, border: "1px solid #fda4af" }}>
+            <p style={{ margin: 0, fontSize: 15.5, color: "#f3e8ff" }}>⏸️ <strong style={{ color: "#fda4af" }}>Not yet.</strong> {missionGuidance.replace(/^Not yet — /, "")}</p>
+          </div>
+        )}
+
+        {missionResult && (
+          <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 14 }}>
+            <div style={card}>
+              <p style={{ margin: "0 0 10px", fontWeight: 800, fontSize: 14, letterSpacing: 0.5, color: "#67e8f9" }}>THE MASTER FORMULA, FILLED WITH YOUR ANSWERS</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                {missionResult.chain.map(([k, v]) => (
+                  <p key={k} style={{ margin: 0, fontSize: 15.5 }}>
+                    <strong style={{ color: "#f0abfc" }}>{k}:</strong> <span style={{ color: "#f3e8ff" }}>{v}</span>
+                  </p>
+                ))}
+              </div>
+            </div>
+            <div style={card}>
+              <p style={{ margin: "0 0 6px", fontWeight: 800, fontSize: 14, letterSpacing: 0.5, color: "#67e8f9" }}>YOUR CONCEPT</p>
+              <p style={{ margin: 0, fontSize: 15.5, color: "#f3e8ff" }}>{missionResult.concept}</p>
+            </div>
+            <div style={card}>
+              <p style={{ margin: "0 0 8px", fontWeight: 800, fontSize: 14, letterSpacing: 0.5, color: "#67e8f9" }}>THREE HOOKS TO TEST — ONE PER FAMILY</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                {missionResult.hooks.map((h) => (
+                  <p key={h.family} style={{ margin: 0, fontSize: 15.5 }}>
+                    <strong style={{ color: "#f0abfc" }}>{h.family}:</strong> <span style={{ color: "#f3e8ff" }}>&ldquo;{h.line}&rdquo;</span>
+                  </p>
+                ))}
+              </div>
+              <p style={{ margin: "10px 0 0", fontSize: 14, color: "#ddd0ff" }}>The hook must accurately match what the video delivers. Never use an exaggerated promise just to attract attention.</p>
+            </div>
+            <div style={card}>
+              <p style={{ margin: "0 0 8px", fontWeight: 800, fontSize: 14, letterSpacing: 0.5, color: "#67e8f9" }}>THE OBJECTIONS YOUR VIEWER MAY BE CARRYING</p>
+              <ul style={{ margin: "0 0 10px", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+                {OBJECTIONS.map((o) => <li key={o}>{o}</li>)}
+              </ul>
+              <p style={{ margin: 0, fontSize: 14.5, color: "#ddd0ff" }}>{OBJECTIONS_CAVEAT}</p>
+            </div>
+            <p style={{ ...card, margin: 0, fontWeight: 700, color: "#f0abfc" }}>Mandatory gates: {SCORECARD_GATES}</p>
+            <div>
+              <button
+                onClick={() => { navigator.clipboard?.writeText(missionResult.text); setMissionCopied(true); }}
+                className="neon-btn"
+                style={{ padding: "11px 24px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, border: "none", cursor: "pointer", fontSize: 15 }}
+              >
+                {missionCopied ? "Copied ✓" : "Copy the creative strategy"}
+              </button>
+              <p style={{ color: "#ddd0ff", fontSize: 13.5, margin: "12px 0 0" }}>
+                Template-built from the Conversion Intelligence system and your answers — make it yours before you film, and verify every claim.
+              </p>
+            </div>
+          </div>
+        )}
       </section>
     </div>
   );
