@@ -1,0 +1,724 @@
+[
+ {
+  "name": "Shroom Skincare",
+  "website": "https://www.shroomskincare.skin",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Mushroom-based skincare brand whose own affiliate page runs its program through ShareASale (merchant ID# 134103): free to join, open to affiliates worldwide, with tracked links and banners; the commission rate is set inside ShareASale and is not published on the brand's page.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.shroomskincare.skin/pages/affiliate-program",
+    "source_url": "https://www.shroomskincare.skin/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.shroomskincare.skin/pages/affiliate-program",
+    "summary": "The brand's own Affiliate Program page states 'Affiliate Network: Share a Sale ID# 134103', explains that ShareASale provides the tracked links and banners and tracks referred sales, confirms participation is entirely free, and accepts affiliates worldwide. No commission percentage is published on the page, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.shroomskincare.skin/pages/affiliate-program",
+    "summary": "The brand's own program page contains no statement about an earnings cap, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.shroomskincare.skin/pages/affiliate-program",
+    "summary": "No creator or affiliate count is published on the page checked, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://www.shroomskincare.skin/pages/affiliate-program",
+   "source_url": "https://www.shroomskincare.skin/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Shroom Skincare Affiliate Program (ShareASale ID# 134103)",
+   "application_url": "https://www.shroomskincare.skin/pages/affiliate-program",
+   "source_url": "https://www.shroomskincare.skin/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A focused mushroom-skincare line that maps cleanly onto skincare creator content.",
+    "ugc_evidence": "A public affiliate page inviting websites to earn on referred sales with tracked links and banners.",
+    "compensation": "The rate lives inside ShareASale and is not published on the brand's page, so compensation cannot be graded higher until the in-network rate is seen.",
+    "contact_access": "The program page itself is the application route and publishes a phone number (877-609-6099).",
+    "opportunity_availability": "Free to join and open to affiliates worldwide through ShareASale.",
+    "credibility": "A small, young brand with a thin public track record."
+   }
+  }
+ },
+ {
+  "name": "Activist Skincare",
+  "website": "https://activistskincare.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Woman-owned, California-crafted refillable skincare brand (founded circa 2016) whose own affiliate page invites creators and publishers to apply to its ShareASale program; it advertises a 'generous commission' but publishes no percentage.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://activistskincare.com/pages/affiliates",
+    "source_url": "https://activistskincare.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://activistskincare.com/pages/affiliates",
+    "summary": "The brand's own Affiliate Program page states 'Activist Skincare offers a generous commission and has been featured by prominent publishers. We invite you to apply to our ShareASale program.' No percentage is published, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://activistskincare.com/pages/about",
+    "summary": "The brand's About page describes a woman-owned, California-crafted skincare brand launched from the founder's kitchen circa 2016, sold direct to consumers in refillable, low-waste packaging."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://activistskincare.com/pages/affiliates",
+    "summary": "No earnings-cap statement appears on the program page, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://activistskincare.com/pages/affiliates",
+    "summary": "No absolute creator count is published, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://activistskincare.com/pages/affiliates",
+   "source_url": "https://activistskincare.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Activist Skincare Affiliate Program (ShareASale)",
+   "application_url": "https://activistskincare.com/pages/affiliates",
+   "source_url": "https://activistskincare.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean, refillable skincare with a strong ethics story — a tight fit for skincare and sustainability creators.",
+    "ugc_evidence": "An own-site affiliate page that explicitly invites applications to its ShareASale program.",
+    "compensation": "Described only as a 'generous commission' with no published percentage, so the rate is unverified.",
+    "contact_access": "Application runs through the brand's own affiliate page into ShareASale; no direct email is published.",
+    "opportunity_availability": "Open application via ShareASale; no follower minimum is stated.",
+    "credibility": "An established indie brand operating since circa 2016 with publisher features."
+   }
+  }
+ },
+ {
+  "name": "LoveSeen",
+  "website": "https://www.loveseen.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Faux eyelash brand selling lashes for a wide range of eye shapes; its affiliate program runs on ShareASale at 10% per sale with a 30-day cookie, per the LinkClicky program listing.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/loveseen/",
+    "source_url": "https://linkclicky.com/affiliate-program/loveseen/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/loveseen/",
+    "summary": "LinkClicky's LoveSeen program listing records: Affiliate Platform ShareASale, Commission 10% per sale, Cookie Duration 30 days, Regions ALL, website loveseen.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/loveseen/",
+    "summary": "The listing contains no earnings-cap statement, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/loveseen/",
+    "summary": "No absolute creator count is published in the listing, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/loveseen/",
+   "source_url": "https://linkclicky.com/affiliate-program/loveseen/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "LoveSeen Affiliate Program (ShareASale)",
+   "application_url": "https://linkclicky.com/affiliate-program/loveseen/",
+   "source_url": "https://linkclicky.com/affiliate-program/loveseen/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A single-category lash brand — narrow, but squarely inside beauty creator content.",
+    "ugc_evidence": "A listed network program with published rate and cookie terms that creators can join through ShareASale.",
+    "compensation": "10% per sale with a 30-day cookie, as listed for the ShareASale program.",
+    "contact_access": "Joining runs through the network listing; no direct brand email is published.",
+    "opportunity_availability": "Open to all regions through ShareASale per the listing.",
+    "credibility": "An established DTC lash brand; program facts rest on one reputable listing, not the brand's own page."
+   }
+  }
+ },
+ {
+  "name": "Planet Beauty",
+  "website": "https://www.planetbeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "California beauty retailer (Planet Beauty Inc, Costa Mesa, CA) running an Independent Influencer Program through Refersion: creators sign the program agreement and earn 12% of Net Revenue on qualifying orders, paid on the 1st of each month via Refersion.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://planetbeauty.refersion.com",
+    "source_url": "https://planetbeauty.refersion.com"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://planetbeauty.refersion.com",
+    "summary": "The brand's own Refersion portal carries its Independent Influencer Agreement: influencers generate and post content on their social channels to drive sales, Planet Beauty pays a percentage of Net Revenue (gross fees from qualifying orders less store credit/gift certificates, taxes, duties, transaction and shipping costs), commissions are paid on the 1st day of each month through Refersion, and the Commission Appendix sets the rate at 12% of Net Revenue."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://planetbeauty.refersion.com",
+    "summary": "The agreement contains no earnings-cap statement, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://planetbeauty.refersion.com",
+    "summary": "The agreement publishes no creator count, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 12,
+   "application_url": "https://planetbeauty.refersion.com",
+   "source_url": "https://planetbeauty.refersion.com",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Planet Beauty Independent Influencer Program (Refersion)",
+   "application_url": "https://planetbeauty.refersion.com",
+   "source_url": "https://planetbeauty.refersion.com"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A multi-brand beauty retailer, so creators can promote a wide catalog rather than one product line.",
+    "ugc_evidence": "A formal Independent Influencer Program whose agreement is written around creators posting content on Instagram, YouTube, TikTok and blogs.",
+    "compensation": "12% of Net Revenue per the agreement's Commission Appendix — a real rate, but calculated on a net-revenue basis rather than gross order value.",
+    "contact_access": "Application and agreement run through the brand's own Refersion portal.",
+    "opportunity_availability": "Open application for individuals 18+, subject to the brand's verification and approval.",
+    "credibility": "A long-running California beauty retailer with a published legal entity and address in the agreement."
+   }
+  }
+ },
+ {
+  "name": "PURA D'OR",
+  "website": "https://www.purador.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Family-owned natural hair and skin oil brand founded in 2013 and made in a solar-powered Southern California facility; its affiliate program runs on Refersion with payments on the 2nd and 17th of each month, but the percentage is not published in its program terms.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://purador.refersion.com",
+    "source_url": "https://purador.refersion.com"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://purador.refersion.com",
+    "summary": "The brand's own Refersion portal describes registration, a unique referral link with cookie tracking, and commission on tracked sales; its Terms & Conditions state payments are made on the 2nd and 17th of each month and that coupon/deal sites are excluded. No percentage is published in the terms, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://purador.refersion.com",
+    "summary": "The same portal states PURA D'OR was founded in 2013, is a small family-owned company, and manufactures in a solar-powered facility in Southern California."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://purador.refersion.com",
+    "summary": "The terms contain no earnings-cap statement, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://purador.refersion.com",
+    "summary": "No creator count is published in the terms, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": null,
+   "application_url": "https://purador.refersion.com",
+   "source_url": "https://purador.refersion.com",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "PURA D'OR Affiliate Program (Refersion)",
+   "application_url": "https://purador.refersion.com",
+   "source_url": "https://purador.refersion.com"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Natural hair and skin oils with broad retail recognition — a good fit for haircare and clean-beauty creators.",
+    "ugc_evidence": "An own-portal affiliate program with published terms that creators and social promoters can join.",
+    "compensation": "Payment schedule is published (2nd and 17th monthly) but the percentage is not, so the rate is unverified.",
+    "contact_access": "Application runs through the brand's own Refersion portal.",
+    "opportunity_availability": "Open registration; coupon and deal sites are expressly excluded.",
+    "credibility": "Operating since 2013 with wide retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Dermalactives",
+  "website": "https://dermalactives.com",
+  "country": "Unknown",
+  "category_slug": "skincare",
+  "description": "Skincare and beauty-device brand running a brand-direct Affiliates & Creators program: approved creators get a personal code, earn commission on every order placed with it, track sales in a creator portal, and are paid quarterly; the commission percentage is not published on the program page.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://dermalactives.com/affiliates",
+    "source_url": "https://dermalactives.com/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://dermalactives.com/affiliates",
+    "summary": "The brand's own 'Affiliates & Creators' page describes a three-step program: apply with the on-page form, receive a personal Dermalactives code on approval, then share a link and earn commission on every order placed with the code, tracked in a creator portal, with commissions paid quarterly. The application form accepts creators with under 5,000 followers. No percentage is published, so commission_rate is null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://dermalactives.com/affiliates",
+    "summary": "The program page contains no earnings-cap statement, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://dermalactives.com/affiliates",
+    "summary": "The page publishes follower tiers for applicants but no absolute creator count; applicant tiers are not saturation evidence, so creator_saturation is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://dermalactives.com/affiliates",
+    "summary": "The brand's headquarters country could not be confirmed from the pages fetched, so country is recorded as Unknown rather than guessed."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://dermalactives.com/affiliates",
+   "source_url": "https://dermalactives.com/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Dermalactives Affiliates & Creators Program (brand direct)",
+   "application_url": "https://dermalactives.com/affiliates",
+   "source_url": "https://dermalactives.com/affiliates"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Skincare plus at-home beauty devices — strong raw material for routine and device-demo content.",
+    "ugc_evidence": "A creator-specific program page with a personal-code model and a creator portal for tracking.",
+    "compensation": "Commission on every coded order is promised and paid quarterly, but no percentage is published, so pay cannot be graded higher.",
+    "contact_access": "A direct on-site application form with a reply by email promised.",
+    "opportunity_availability": "Applications are open to creators under 5,000 followers, so small creators are explicitly eligible.",
+    "credibility": "A smaller brand with limited third-party footprint on the pages checked."
+   }
+  }
+ },
+ {
+  "name": "ghd",
+  "website": "https://www.ghdhair.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "British professional hair-styling brand founded in 2001 (stylers, dryers, hot brushes and hair products); its own affiliate page routes applications through Awin and advertises up to 5% commission on completed orders with a 30-day cookie window and dedicated affiliate management.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.ghdhair.com/ghd-affiliates",
+    "source_url": "https://www.ghdhair.com/ghd-affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.ghdhair.com/ghd-affiliates",
+    "summary": "The brand's own GHD Affiliates page states 'Up to 5% commission on all completed orders', a 30-day cookie window, a dedicated affiliate management resource, and instructs applicants to 'Apply to the ghd affiliate programme via Awin.' The 5% figure is a rate ceiling ('up to'), not an earnings cap, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.ghdhair.com/ghd-affiliates",
+    "summary": "No earnings-cap statement appears on the page; the 'up to 5%' wording caps the rate, not total earnings, so commission_cap is unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://www.ghdhair.com/ghd-affiliates",
+    "summary": "No creator count is published on the page, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://www.ghdhair.com/ghd-affiliates",
+   "source_url": "https://www.ghdhair.com/ghd-affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ghd Affiliate Programme (Awin)",
+   "application_url": "https://www.ghdhair.com/ghd-affiliates",
+   "source_url": "https://www.ghdhair.com/ghd-affiliates"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium hair tools and products are a staple of hair-tutorial and styling content.",
+    "ugc_evidence": "A public affiliate programme page aimed at blogs and websites, with banners, product feeds and launch insights supplied.",
+    "compensation": "Up to 5% on completed orders — a published rate, but at the low end for beauty and expressed as a ceiling.",
+    "contact_access": "A dedicated affiliate management resource is advertised, with application via Awin from the brand's own page.",
+    "opportunity_availability": "Open application through Awin for sites featuring ghdhair.com.",
+    "credibility": "A market-leading brand operating since 2001."
+   }
+  }
+ },
+ {
+  "name": "TRNR Skin",
+  "website": "https://www.trnrskin.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Plant-based, high-performance skincare brand co-founded by New York City dermatologist Dr. Ryan Turner; its affiliate program runs on Impact at 10% per sale, open to all regions, per the LinkClicky program listing.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/trnr-skin/",
+    "source_url": "https://linkclicky.com/affiliate-program/trnr-skin/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/trnr-skin/",
+    "summary": "LinkClicky's TRNR Skin program listing records: Affiliate Platform Impact, Commission 10% per sale, Regions ALL, website trnrskin.com, with application through app.impact.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.trnrskin.com/pages/about-us",
+    "summary": "The brand's own About page identifies co-founder Dr. Ryan Turner as a board-certified dermatologist and founder of Turner Dermatology in New York City, and describes the brand's plant-based active-compound focus."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/trnr-skin/",
+    "summary": "The listing contains no earnings-cap statement, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/trnr-skin/",
+    "summary": "No absolute creator count is published in the listing, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/trnr-skin/",
+   "source_url": "https://linkclicky.com/affiliate-program/trnr-skin/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TRNR Skin Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/trnr-skin/",
+   "source_url": "https://linkclicky.com/affiliate-program/trnr-skin/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Dermatologist-developed, plant-based skincare — a credible fit for ingredient-focused skincare creators.",
+    "ugc_evidence": "A listed Impact program with published rate and application route.",
+    "compensation": "10% per sale as listed for the Impact program.",
+    "contact_access": "Application runs through Impact from the program listing; no direct brand email is published.",
+    "opportunity_availability": "Listed as open to all regions.",
+    "credibility": "A physician-founded brand with a named clinical practice behind it; program facts rest on one listing."
+   }
+  }
+ },
+ {
+  "name": "Niche Beauty",
+  "website": "https://www.niche-beauty.com",
+  "country": "Germany",
+  "category_slug": "beauty",
+  "description": "German luxury beauty retailer ('Strictly Selective, Strictly Luxury') selling niche and insider cosmetics brands; its Awin merchant profile pays 10% commission per sale (5% on voucher-code sales), with a named affiliate team contact email.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "niche-beauty_intl_aff@m2lagency.com",
+    "contact_url": null,
+    "source_url": "https://ui.awin.com/merchant-profile/114578"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/114578",
+    "summary": "Niche Beauty's own Awin merchant profile states 'Commission: 10% commission per sale' and '5% commission per sale with voucher', offers a product data feed and advertising materials, notes app sales are not remunerated, and gives the affiliate team contact as niche-beauty_intl_aff@m2lagency.com (M2L Agency GmbH)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/114578",
+    "summary": "The profile contains no earnings-cap statement, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/114578",
+    "summary": "No creator count is published on the profile, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/114578",
+   "source_url": "https://ui.awin.com/merchant-profile/114578",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Niche Beauty Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/114578",
+   "source_url": "https://ui.awin.com/merchant-profile/114578"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 9,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A curated luxury and niche-brand catalog gives beauty creators many products to feature.",
+    "ugc_evidence": "A network program with a data feed and advertising materials; it is publisher-oriented rather than creator-branded.",
+    "compensation": "10% per sale, dropping to 5% on voucher-code sales, per the Awin profile.",
+    "contact_access": "A named affiliate-team email is published directly on the merchant profile.",
+    "opportunity_availability": "Open sign-up through Awin; app sales are excluded from commission.",
+    "credibility": "An established European luxury beauty retailer running its program through a major network."
+   }
+  }
+ },
+ {
+  "name": "BURST Oral Care",
+  "website": "https://www.burstoralcare.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Subscription oral-care brand (sonic toothbrushes, toothpaste, whitening strips) selling heavily through TikTok Shop affiliates — an estimated 94% of its TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators. Its separate ambassador program is restricted to dental professionals, so the creator route is TikTok Shop; published commission percentages conflict across listings, so the rate is recorded as null.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://rateful.ai/brand/burst-oral-care",
+    "source_url": "https://rateful.ai/brand/burst-oral-care"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/burst-oral-care",
+    "summary": "Rateful's BURST Oral Care page, built from TikTok Shop data, states that about 94% of the brand's estimated $155K in TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators' videos and LIVEs, and that creators with TikTok Shop affiliate access can add its products to their showcase and earn commission on every sale."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/burstoralcare-com-affiliate-program",
+    "summary": "Published percentages for BURST conflict across fetched listings — Shopper lists 5% per sale, Lasso lists up to 15%, and a dental-marketing roundup cites up to 20% — so commission_rate is set to null rather than picking one."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://about.burstoralcare.com/ambassador",
+    "summary": "The brand's own ambassador page is aimed at dentists, dental hygienists and dental assistants only, so that route is a trade/professional program and is not the basis for this entry; the consumer creator route is TikTok Shop."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/burst-oral-care",
+    "summary": "No earnings-cap statement is published for the TikTok Shop route, so commission_cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/burst-oral-care",
+    "summary": "Rateful shows heavy affiliate activity but no absolute creator count, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://rateful.ai/brand/burst-oral-care",
+   "source_url": "https://rateful.ai/brand/burst-oral-care",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "BURST Oral Care TikTok Shop Affiliate Program",
+   "application_url": "https://rateful.ai/brand/burst-oral-care",
+   "source_url": "https://rateful.ai/brand/burst-oral-care"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 15,
+   "compensation": 7,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Oral care sits at the edge of beauty; the products demo well in short-form video but the niche is narrower than skincare or makeup.",
+    "ugc_evidence": "An estimated 94% of its TikTok Shop sales come through affiliate creators — direct evidence of a working creator channel.",
+    "compensation": "Commission is paid on TikTok Shop sales, but published percentages conflict (5% vs up to 15% vs up to 20%), so the rate is unverified and recorded as null.",
+    "contact_access": "No public creator contact is published; joining happens inside TikTok Shop.",
+    "opportunity_availability": "Any creator with TikTok Shop affiliate access can add the products to their showcase.",
+    "credibility": "A well-known subscription oral-care brand with substantial TikTok Shop volume."
+   }
+  }
+ }
+]

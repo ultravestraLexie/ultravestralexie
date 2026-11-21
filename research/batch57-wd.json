@@ -1,0 +1,598 @@
+[
+ {
+  "name": "Kobo",
+  "website": "https://www.kobo.com",
+  "country": "Canada",
+  "category_slug": "technology",
+  "description": "Canadian e-book and e-reader company (a Rakuten subsidiary) selling eBooks, audiobooks, Kobo eReaders and accessories through kobo.com in Canada, the US, the UK, Australia and the EU.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://kobowritinglife.zendesk.com/hc/en-us/articles/360058975452-Become-a-Kobo-Affiliate",
+    "summary": "Kobo's own Writing Life Help Centre page states Kobo has partnered with Rakuten Advertising for its affiliate program: KWL author rates of 6% on eBooks & audiobooks, 5% on Kobo devices, 10% on accessories, 5% on gift cards, plus $1 per new customer and $1 per Kobo Plus subscription, with a 14-day cookie; free to join."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://kobowritinglife.zendesk.com/hc/en-us/articles/360058975452-Become-a-Kobo-Affiliate",
+    "summary": "The same official page's FAQ asks 'Is there a limit on the amount of commission I can make?' and answers 'There are no limits on how much commission you can make!' — an explicit no-cap statement, so the commission cap is recorded as uncapped."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://geniuslink.com/blog/kobo-affiliate-program/",
+    "summary": "Geniuslink's program write-up states the general (non-author) Kobo program on Rakuten Advertising pays 5% on ebooks, audiobooks and device purchases and 10% on device accessories, with a 14-day cookie; the recorded rate is the 5% headline general rate."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://kobowritinglife.zendesk.com/hc/en-us/articles/360058975452-Become-a-Kobo-Affiliate",
+   "commission_cap": "uncapped",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising",
+   "source_url": "https://kobowritinglife.zendesk.com/hc/en-us/articles/360058975452-Become-a-Kobo-Affiliate"
+  },
+  "opportunity": {
+   "application_url": "https://kobowritinglife.zendesk.com/hc/en-us/articles/360058975452-Become-a-Kobo-Affiliate",
+   "source_url": "https://kobowritinglife.zendesk.com/hc/en-us/articles/360058975452-Become-a-Kobo-Affiliate",
+   "title": "Kobo Affiliate Program"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "niche_fit": "eReaders, eBooks and audiobooks are natural review and reading-routine content for tech and book creators.",
+    "ugc_evidence": "The program is promoted on Kobo's own Writing Life channel and explicitly welcomes authors, publishers, bloggers and influencers as affiliates.",
+    "compensation": "5% headline general rate (10% accessories, $1 bounties on the author rate card) with a verified no-cap statement on the brand's own page; short 14-day cookie tempers the score.",
+    "contact_access": "No public affiliate email; application runs through Rakuten Advertising sign-up as documented on the brand's help page.",
+    "opportunity_availability": "Open, free application through Rakuten Advertising across five regional programs (US, Canada, EU, Brazil, Australia).",
+    "credibility": "Major global e-reading brand owned by Rakuten, running its affiliate program on Rakuten Advertising since 2011."
+   },
+   "ugc_evidence": 14
+  }
+ },
+ {
+  "name": "Krisp",
+  "website": "https://krisp.ai",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "AI voice-clarity software company whose app removes background noise and adds meeting assistance for calls, sold as a subscription to individuals, remote workers, creators and teams.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://krisp.ai/partners/",
+    "summary": "Krisp's own partners page runs three tracks — Affiliate, Creator and Co-marketing. The Affiliate track pays 30% recurring commission for 12 months with a 90-day cookie, and its 'Join the program' button routes to Impact; the Creator track (custom terms) routes to a Dub partners page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://krisp.ai/partners/",
+    "summary": "The page's FAQ asks 'Does Krisp have an affiliate program, and how much can I earn?' and answers that the program pays 30% recurring for 12 months and 'there's no cap on what you can earn' — an explicit no-cap statement from the brand, so the cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://krisp.ai/partners/",
+    "summary": "The page explicitly invites influencers and creators (including beginners), offers an asset and swipe-copy library, monthly creative drops and partner office hours, and says audience size matters less than how and where the partner will promote."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://krisp.ai/partners/",
+   "commission_cap": "uncapped",
+   "commission_rate": 30,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://krisp.ai/partners/"
+  },
+  "opportunity": {
+   "application_url": "https://krisp.ai/partners/",
+   "source_url": "https://krisp.ai/partners/",
+   "title": "Krisp Partner & Affiliate Program"
+  },
+  "score": {
+   "compensation": 19,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 9,
+   "reasons": {
+    "niche_fit": "A call-noise tool is highly demonstrable in creator, streaming, podcast and remote-work content.",
+    "ugc_evidence": "The brand's own page has a dedicated Creator track plus an affiliate track, with creative assets and monthly drops built for content partners.",
+    "compensation": "30% recurring for 12 months with a 90-day cookie and a verified no-cap statement on the brand's own page — the strongest pay terms in this group.",
+    "contact_access": "Application forms for each track are on the brand's own partners page, with a partner Slack and office hours after joining; no public email published.",
+    "opportunity_availability": "Open application, free to join, beginners explicitly welcome; applications reviewed in 2–3 working days.",
+    "credibility": "Established voice-AI company (Forbes AI 50, Webby winner) with named enterprise customers on the page."
+   },
+   "ugc_evidence": 15
+  }
+ },
+ {
+  "name": "BullyBillows",
+  "website": "https://www.bullybillows.com",
+  "country": "United Kingdom",
+  "category_slug": "pets",
+  "description": "UK-based premium dog gear brand designing heavy-duty harnesses, Combat collars and leads for strong and bully breeds, developed and tested with Nottingham Trent University and sold worldwide.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/46829",
+    "summary": "The brand's own Awin programme profile lists as its first reason to promote: 'A competitive commission structure with uncapped earning potential', plus exclusive partnership opportunities and dedicated affiliate management. No percentage rate is published on the profile, so the rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/46829",
+    "summary": "'Uncapped earning potential' on the brand's own network listing is an explicit statement that earnings are not capped, so the commission cap is recorded as uncapped."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.smartbark.co.uk/post/best-dog-harness",
+    "summary": "UK harness guide Smart Bark describes BullyBillows as a UK-based brand collaborating with Nottingham Trent University on harness design and testing; the brand's own store states over 1 million products sold."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/46829",
+   "commission_cap": "uncapped",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/46829"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/46829",
+   "source_url": "https://ui.awin.com/merchant-profile/46829",
+   "title": "BullyBillows Affiliate Programme (Awin)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "niche_fit": "Heavy-duty harnesses and collars for strong breeds are extremely demonstrable in dog-training and big-dog content.",
+    "ugc_evidence": "The Awin profile offers exclusive partnerships, competitions and voucher codes, and the brand is built on influencer-led social reach.",
+    "compensation": "Verified uncapped earning potential on the brand's own Awin listing, but no published percentage rate, which holds the score down.",
+    "contact_access": "No public email on the profile; contact runs through the Awin programme's affiliate management.",
+    "opportunity_availability": "Open to publishers through Awin with dedicated affiliate management advertised.",
+    "credibility": "Established UK pet brand with 1M+ products sold and a university testing collaboration."
+   },
+   "ugc_evidence": 14
+  }
+ },
+ {
+  "name": "Backblaze",
+  "website": "https://www.backblaze.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "US cloud storage and computer backup company; its consumer Computer Backup service is an unlimited-backup subscription for Mac and PC, sold alongside B2 cloud storage.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.backblaze.com/blog/?p=107187",
+    "summary": "Backblaze's own blog announcement of its Partner Program states that Affiliates 'can enjoy recurring 10% commissions' on computer backup, alongside channel, technology and MSP partner tracks, with sign-up through its Partner page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/backblaze/",
+    "summary": "Lasso's program listing confirms 10% recurring commission with a 30-day cookie; Backblaze's own partner guidance states affiliates earn 10% of the purchase price for the lifetime of each Computer Backup license (B2 cloud storage excluded), paid via PayPal at a $100 threshold."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.backblaze.com/blog/?p=107187",
+    "summary": "No earnings-cap statement appears in the brand's program materials, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.backblaze.com/partner/overview/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.backblaze.com/blog/?p=107187"
+  },
+  "opportunity": {
+   "application_url": "https://www.backblaze.com/partner/overview/",
+   "source_url": "https://www.backblaze.com/blog/?p=107187",
+   "title": "Backblaze Partner Program (Affiliates)"
+  },
+  "score": {
+   "compensation": 15,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "niche_fit": "Backup software fits tech, productivity and creator-workflow content, though it is less visual than hardware.",
+    "ugc_evidence": "The affiliate track sits inside a general partner program aimed mainly at businesses and MSPs; no creator-specific recruitment was found.",
+    "compensation": "10% recurring for the lifetime of each referred Computer Backup license — genuine recurring revenue; no cap statement, so cap stays unknown.",
+    "contact_access": "A partner portal and partner page are published on the brand's own site; no public affiliate email was published.",
+    "opportunity_availability": "Open affiliate track within the brand's own Partner Program.",
+    "credibility": "Publicly traded, long-established US cloud storage company (Nasdaq: BLZE)."
+   },
+   "ugc_evidence": 10
+  }
+ },
+ {
+  "name": "Mobile Pixels",
+  "website": "https://mobilepixels.us",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "US portable-monitor brand selling slide-on second screens for laptops (Duex and Trio lines), founded by an MIT student; average order value of $340 with orders from $249 to $1,599.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/51577",
+    "summary": "The brand's own Awin program profile publishes 7%–10% commission on the sale, a 30-day cookie, an extra 10%-off discount code, a full data feed and free US shipping; the recorded rate is the 10% top of the brand's own published range."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/51577",
+    "summary": "The profile states the program is 'Great for: Publishers, Cashback and Loyalty, Discount and Coupon, Directory, Content Creators, Reviewer, Influencers, Bloggers, KOL' and offers review samples and marketing content to partners."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/51577",
+    "summary": "No earnings-cap statement appears on the program profile, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/51577",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/51577"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/51577",
+   "source_url": "https://ui.awin.com/merchant-profile/51577",
+   "title": "Mobile Pixels Affiliate Program (Awin)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 7,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 9,
+   "reasons": {
+    "niche_fit": "Slide-on laptop screens are among the most demonstrable desk-setup products a tech creator can film.",
+    "ugc_evidence": "The brand's own profile explicitly recruits content creators, reviewers and influencers and offers samples for review articles.",
+    "compensation": "7%–10% published range on a high $340 average order, with a 30-day cookie; no cap statement, so cap stays unknown.",
+    "contact_access": "Program contact runs through the Awin profile, which invites partners to ask questions directly; no public email published.",
+    "opportunity_availability": "Open application through Awin; creators are a named target partner type.",
+    "credibility": "Established US hardware brand with four Kickstarter/Indiegogo campaigns over $1M each and 100,000+ units sold."
+   },
+   "ugc_evidence": 17
+  }
+ },
+ {
+  "name": "Llimink",
+  "website": "https://www.llimink.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Portable-monitor brand selling lightweight USB-C second screens for laptops (LK14/LK15 and Snap series) through its own store, with free US shipping and a full product data feed for affiliates.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.llimink.com/pages/affiliates",
+    "summary": "Llimink's own affiliate page publishes an 8%–10% commission, a 30-day cookie, free shipping and an extra discount code, with sign-up running through UpPromote and no fee to participate; the recorded rate is the 10% top of the brand's own published range."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.llimink.com/pages/affiliates",
+    "summary": "The page states the program 'is perfect for individuals, brands, influencers, content creators, and publishers' and 'is designed to reward publishers and creators for marketing to their audiences'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.llimink.com/pages/affiliates",
+    "summary": "No earnings-cap statement appears on the program page, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.llimink.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "UpPromote",
+   "source_url": "https://www.llimink.com/pages/affiliates"
+  },
+  "opportunity": {
+   "application_url": "https://www.llimink.com/pages/affiliates",
+   "source_url": "https://www.llimink.com/pages/affiliates",
+   "title": "Llimink Affiliate Program"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 6,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "niche_fit": "Budget portable monitors are a staple of desk-setup, remote-work and travel-tech videos.",
+    "ugc_evidence": "The brand's own page explicitly recruits influencers and content creators, not just coupon sites.",
+    "compensation": "8%–10% published on the brand's own page with a 30-day cookie; no cap statement, so cap stays unknown.",
+    "contact_access": "Application is on the brand's own page via UpPromote; no public affiliate email published.",
+    "opportunity_availability": "Open application, free to join, and international partners explicitly welcome.",
+    "credibility": "Smaller, younger monitor brand than the category leaders, with its own storefront and a staffed program page."
+   },
+   "ugc_evidence": 15
+  }
+ },
+ {
+  "name": "TUSHY",
+  "website": "https://www.hellotushy.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US bathroom brand selling modern bidet attachments and accessories (Classic, Spa and Ottoman lines) that clip onto standard toilets, sold direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/tushy/",
+    "summary": "LinkClicky's program directory lists TUSHY's affiliate program on the Impact platform at 4% per sale, with hellotushy.com as the brand website."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/tushy-me-affiliate-program",
+    "summary": "Shopper's listing quotes a generic 5–10% payout range for TUSHY, which conflicts with LinkClicky's specific 4% Impact listing, so the commission rate is recorded as null; no source states an earnings cap, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.dmipartners.com/digital-marketing-portfolio/tushy-affiliate-program-management/",
+    "summary": "Affiliate agency DMi Partners' case study describes running TUSHY's program on impact.com and deliberately building an influencer portfolio (30+ revenue-driving influencers), showing the program actively works with creators."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/tushy/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/tushy/"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/tushy/",
+   "source_url": "https://linkclicky.com/affiliate-program/tushy/",
+   "title": "TUSHY Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "niche_fit": "Bidet attachments are a proven, highly demonstrable home-upgrade product for bathroom and home-improvement creators.",
+    "ugc_evidence": "The program's own agency case study documents a deliberate influencer portfolio inside the Impact program.",
+    "compensation": "Rate could not be settled — a specific 4% Impact listing conflicts with a generic 5–10% range — so it is recorded as null; cap unknown.",
+    "contact_access": "Application runs through Impact via the directory listing; no public affiliate email was published.",
+    "opportunity_availability": "Open program on Impact, a major network creators already use.",
+    "credibility": "Well-known US DTC bathroom brand with a long-running, professionally managed affiliate program."
+   },
+   "ugc_evidence": 13
+  }
+ },
+ {
+  "name": "LUXE Bidet",
+  "website": "https://luxebidet.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US-based bathroom-hygiene brand founded in 2008 selling non-electric bidet attachments (NEO 120, 185, 320 and NEO Plus) that add bidet function to existing toilets without an outlet.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/luxe-bidet/",
+    "summary": "LinkClicky's program directory lists LUXE Bidet's affiliate program on CJ Affiliate at 3%–15% per sale; because the published figure is a range, the commission rate is recorded as null with the range documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/198172/luxe-bidet-affiliate-program",
+    "summary": "Sovrn's merchant page describes LUXE Bidet as a U.S.-based bathroom-hygiene brand founded in 2008 specialising in non-electric bidet attachments (NEO series); no earnings-cap statement appears in any source, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/luxe-bidet/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://linkclicky.com/affiliate-program/luxe-bidet/"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/luxe-bidet/",
+   "source_url": "https://linkclicky.com/affiliate-program/luxe-bidet/",
+   "title": "LUXE Bidet Affiliate Program (CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 5,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "niche_fit": "Budget bidet attachments are easy before/after home content and a long-standing affiliate category.",
+    "ugc_evidence": "The program is a standard network affiliate program; no creator-specific recruitment was published.",
+    "compensation": "Published range of 3%–15% per sale on CJ (recorded as null); no cap statement, so cap stays unknown.",
+    "contact_access": "Application runs through CJ Affiliate via the directory listing; no public affiliate email was published.",
+    "opportunity_availability": "Open program on CJ Affiliate, a major network.",
+    "credibility": "Operating since 2008 and one of the best-known US bidet-attachment brands."
+   },
+   "ugc_evidence": 10
+  }
+ },
+ {
+  "name": "Only Natural Pet",
+  "website": "https://www.onlynaturalpet.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Boulder, Colorado natural pet brand selling raw, dehydrated and grain-free dog and cat food, treats and supplements, made in the USA with holistic, vet-approved formulas.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/only-natural-pet/",
+    "summary": "Lasso's program page lists Only Natural Pet at 6% per sale with a 45-day cookie, and its join button routes to the CJ Affiliate sign-up (signup.cj.com), identifying CJ as the program's network."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/only-natural-pet/",
+    "summary": "Other affiliate directory listings seen during this research put the program's rate between roughly 3.3% and 8%, which conflicts with the 6% figure above, so the commission rate is recorded as null; no source states an earnings cap, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.onlynaturalpet.com/products/only-natural-pet-maxblends-grain-free-beef-recipe-dehydrated-dog-food?bvstate=pg%3A19%2Fct%3Ar&srsltid=AfmBOoqomDvV8ksOf4KHcOqMV-SKutdvC2gSGAuACisQZfm2Dz_x74dM&type=subscription&variant=43874739224612",
+    "summary": "The brand's own product pages describe Only Natural Pet as 'Born and bred in Boulder, Colorado' with formulas made in the USA."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/only-natural-pet/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://getlasso.co/affiliate/only-natural-pet/"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/only-natural-pet/",
+   "source_url": "https://getlasso.co/affiliate/only-natural-pet/",
+   "title": "Only Natural Pet Affiliate Program (CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 5,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "niche_fit": "Natural and raw pet food is a core topic for pet nutrition creators, with repeat-purchase products.",
+    "ugc_evidence": "The program targets pet bloggers and content sites through CJ; no creator-specific perks were published.",
+    "compensation": "Rate is disputed across directories (about 3.3%–8%, with 6% and a 45-day cookie in the CJ-linked listing), so it is recorded as null; cap unknown.",
+    "contact_access": "Application runs through CJ Affiliate; no public affiliate email was published.",
+    "opportunity_availability": "Open program on CJ Affiliate.",
+    "credibility": "Long-running US natural pet brand with national retail distribution."
+   },
+   "ugc_evidence": 12
+  }
+ },
+ {
+  "name": "Consider The Dog",
+  "website": "https://www.considerthedog.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Online dog-training membership offering video courses and premium training videos for dog owners, sold as a monthly membership.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.considerthedog.com/pages/Pro-Affiliate",
+    "summary": "The brand's own affiliate page states: 'Our affiliates through Impact earn 10% from each referral, not only for the first purchase, but for the first 12 purchases by each new customer' — i.e. 10% commission on up to 12 months of a referred member's payments, tracked by cookie-linked accounts."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.considerthedog.com/pages/Pro-Affiliate",
+    "summary": "No earnings-cap statement appears on the program page, so the commission cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.considerthedog.com/pages/Pro-Affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.considerthedog.com/pages/Pro-Affiliate"
+  },
+  "opportunity": {
+   "application_url": "https://www.considerthedog.com/pages/Pro-Affiliate",
+   "source_url": "https://www.considerthedog.com/pages/Pro-Affiliate",
+   "title": "Consider The Dog Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 5,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "niche_fit": "Dog-training education is evergreen content for training and behaviour creators, though it is a service rather than a physical product.",
+    "ugc_evidence": "The program is an open Impact affiliate program described on the brand's own site; no creator-specific perks were published.",
+    "compensation": "10% on each of a referred customer's first 12 purchases — effectively a year of recurring commission per referral; cap unknown.",
+    "contact_access": "Program details and sign-up route are on the brand's own affiliate page via Impact; no public email published.",
+    "opportunity_availability": "Open to affiliates through Impact.",
+    "credibility": "Niche, specialist training brand — smaller and less widely known than the pet-food names in this group."
+   },
+   "ugc_evidence": 11
+  }
+ }
+]

@@ -1,0 +1,632 @@
+[
+ {
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/better-brand/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": null,
+  "description": "Food brand making healthier versions of everyday favorites — its flagship is The Better Bagel — with lower-carb, protein-rich, non-GMO recipes aimed at health-conscious consumers, sold through eatbetter.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/better-brand/",
+    "summary": "LinkClicky's affiliate directory lists the Better Brand affiliate program on ShareASale at 10% commission per sale with a 15-day cookie, open to all regions, with joining via ShareASale. No earnings-cap statement appears on the listing, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/better-brand/",
+    "summary": "LinkClicky describes Better Brand as revolutionizing everyday foods with healthier alternatives — flagship product The Better Bagel — using high-quality non-GMO ingredients in lower-carb, protein-rich recipes sold at eatbetter.com."
+   }
+  ],
+  "name": "Better Brand",
+  "opportunity": {
+   "audience_fit": "Low-carb, keto, high-protein and healthier-breakfast audiences.",
+   "content_angles": [
+    "Better Bagel taste-test and macro comparisons",
+    "Low-carb breakfast swaps",
+    "Guilt-free indulgence hauls"
+   ],
+   "risks": [
+    "Program data comes from a directory listing last updated March 2024; terms should be confirmed inside ShareASale",
+    "15-day cookie is short"
+   ],
+   "status": "unverified",
+   "summary": "ShareASale program at a published 10% per sale for a better-for-you bagel and foods brand."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Better-for-you versions of everyday foods (flagship Better Bagel) sit squarely in the food and healthy-eating creator niche.",
+    "ugc_evidence": "A live affiliate program on ShareASale that directories pitch to publishers and influencers, but no dedicated creator or ambassador page was found on the brand's own site.",
+    "compensation": "Published rate exists — 10% per sale on ShareASale per the network directory — mid-range for packaged food.",
+    "contact_access": "No published partnerships email or application page on the brand's own site was found; the only route is the ShareASale application.",
+    "opportunity_availability": "Program is open to all regions via ShareASale application, subject to standard merchant review.",
+    "credibility": "Real consumer brand with a flagship product and national better-for-you positioning, but program facts rest on a third-party directory."
+   }
+  },
+  "socials": [],
+  "website": "https://www.eatbetter.com"
+ },
+ {
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/betterbody-foods/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": null,
+  "description": "Health food company offering organic superfoods, snacks and baking essentials across plant-based, keto and paleo-friendly ranges, sold through betterbodyfoods.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/betterbody-foods/",
+    "summary": "Lasso's affiliate directory lists the BetterBody Foods affiliate program at 10% commission per sale across Food, Health and Wellness, Keto, Paleo, Supplements and Vegan categories. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/niche/paleo/",
+    "summary": "Lasso's paleo affiliate roundup lists BetterBody Foods on the Impact network at 10% per sale with a 30-day cookie and a $50 payout threshold, describing organic superfoods, snacks and baking essentials."
+   }
+  ],
+  "name": "BetterBody Foods",
+  "opportunity": {
+   "audience_fit": "Plant-based, keto, paleo and healthy-baking audiences.",
+   "content_angles": [
+    "Superfood pantry staples roundups",
+    "Healthy baking swaps",
+    "Keto and paleo grocery hauls"
+   ],
+   "risks": [
+    "Network and terms come from directory listings rather than the brand's own page",
+    "10% is a standard, not premium, grocery rate"
+   ],
+   "status": "unverified",
+   "summary": "Impact program at a published 10% per sale with a 30-day cookie for an organic superfoods and baking brand."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Organic superfoods, snacks and baking essentials across vegan, keto and paleo ranges — a broad, natural fit for food and wellness creators.",
+    "ugc_evidence": "An established affiliate program that directories actively pitch to influencers and bloggers, though no brand-run creator community page was found.",
+    "compensation": "Published rate exists — 10% per sale on Impact with a 30-day cookie per Lasso's listings.",
+    "contact_access": "No published partnerships email or creator application page on the brand's own site was found; joining runs through Impact.",
+    "opportunity_availability": "Open application through the Impact network, subject to merchant approval over a few days per the directory.",
+    "credibility": "Established health-food brand with wide retail-style distribution and consistent directory coverage across multiple Lasso roundups."
+   }
+  },
+  "socials": [],
+  "website": "https://betterbodyfoods.com"
+ },
+ {
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://allmoringatree.com/pages/collab",
+   "source_url": "https://allmoringatree.com/pages/collab",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://allmoringatree.com/pages/collab",
+    "email": null,
+    "source_url": "https://allmoringatree.com/pages/collab"
+   }
+  ],
+  "country": null,
+  "description": "Family-owned brand built entirely around the moringa tree, selling moringa nutrition powders, capsules and tea plus moringa face oils and creams, with no synthetic ingredients or fillers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://allmoringatree.com/pages/collab",
+    "summary": "All Moringa's own creator and affiliate program page (fetched in full) offers partners a dedicated affiliate link, an audience discount code, commissions, product gifting and content support (hooks, scripts, product education), with an application form on the page. No commission rate and no earnings-cap statement are published, so the rate is null and the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://allmoringatree.com/pages/collab",
+    "summary": "The brand states it keeps the program small on purpose and is 'not a mass affiliate program', building closer relationships with fewer creators — relative terms only, with no absolute creator counts published, so creator saturation is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://allmoringatree.com/pages/collab",
+    "summary": "The page describes All Moringa as a family-owned brand built around one plant — the moringa tree — making nutrition powders, capsules and tea plus face oils and creams with no artificial ingredients or fillers."
+   }
+  ],
+  "name": "All Moringa",
+  "opportunity": {
+   "audience_fit": "Natural wellness, superfood and clean-ingredient audiences.",
+   "content_angles": [
+    "Moringa powder smoothie routines",
+    "One-plant nutrition explainers",
+    "Moringa skincare routines"
+   ],
+   "risks": [
+    "No published commission rate — terms are shared only after applying",
+    "Very small brand, so order volume may be modest"
+   ],
+   "status": "unverified",
+   "summary": "Brand-direct creator program with link, code, commissions, gifting and hands-on content support, applied for on the brand's own page."
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 16,
+   "compensation": 5,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Single-plant moringa nutrition and skincare is a focused natural-wellness niche with clear content angles for health creators.",
+    "ugc_evidence": "A dedicated creator and affiliate program page on the brand's own site offering commissions, gifting and creator support such as hooks and scripts — strong direct evidence of creator collaboration.",
+    "compensation": "Commissions are confirmed on the brand's own page but no rate is published anywhere fetched, so this stays at the no-data band.",
+    "contact_access": "A public application form for the partner program sits on the brand's own page — a direct creator route.",
+    "opportunity_availability": "Applications are open on the official page, though the brand reviews personally and deliberately keeps the roster small.",
+    "credibility": "Small family-owned brand with a coherent single-ingredient story; limited scale compared with national supplement brands."
+   }
+  },
+  "socials": [],
+  "website": "https://allmoringatree.com"
+ },
+ {
+  "affiliate": {
+   "network": "Social Snowball",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://tryrosabella.com/policies/privacy-policy",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "help@tryrosabella.com",
+    "source_url": "https://tryrosabella.com/policies/privacy-policy"
+   }
+  ],
+  "country": "US",
+  "description": "US supplement brand operated by Ambrosia Brands LLC selling moringa-based supplements through its own store, Amazon and TikTok Shop, and running an affiliate and creator program tracked through Social Snowball.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://tryrosabella.com/policies/privacy-policy",
+    "summary": "Rosabella's official privacy policy (fetched in full) confirms the program exists: the brand collects 'Affiliate and creator applications', uses personal information to 'Track and pay affiliate and creator commissions', and names Social Snowball as its affiliate tracking provider. No commission rate or earnings-cap statement is published, so the rate is null and the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://tryrosabella.com/policies/privacy-policy",
+    "summary": "The policy names the operator as Ambrosia Brands LLC of Cheyenne, Wyoming, gives help@tryrosabella.com as the customer contact, and notes purchases are also made on Amazon and TikTok Shop."
+   }
+  ],
+  "name": "Rosabella",
+  "opportunity": {
+   "audience_fit": "Women's wellness and natural supplement audiences, especially 40+ health content.",
+   "content_angles": [
+    "Moringa capsule daily routines",
+    "Superfood simplification content",
+    "TikTok Shop supplement demos"
+   ],
+   "risks": [
+    "No public program page or published rate was found — terms only surface through the application",
+    "Program evidence rests on the brand's privacy policy rather than a program page"
+   ],
+   "status": "unverified",
+   "summary": "Own affiliate and creator program on Social Snowball, confirmed in the brand's official policy documents, with TikTok Shop distribution."
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 4,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Moringa supplements aimed at women's everyday wellness — a proven TikTok wellness niche.",
+    "ugc_evidence": "The brand formally collects affiliate and creator applications and pays creator commissions per its own policy, and sells through TikTok Shop, but no public creator program page was found.",
+    "compensation": "No published rate or terms anywhere fetched — commissions are confirmed to exist but unquantified, so this stays at or below 5.",
+    "contact_access": "A published customer email (help@tryrosabella.com) exists on the official site, but there is no public program application page — mid-range.",
+    "opportunity_availability": "Affiliate and creator applications are accepted per the brand's policy, but the application route is not published on a program page.",
+    "credibility": "Operating US company (Ambrosia Brands LLC) with its own store plus Amazon and TikTok Shop sales channels."
+   }
+  },
+  "socials": [],
+  "website": "https://tryrosabella.com"
+ },
+ {
+  "affiliate": {
+   "network": "Lasso",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/bb-company/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": null,
+  "description": "Supplement brand formerly known as Better Body Co. that helps women thrive through menopause, reporting more than 10 million bottles shipped across its supplement range.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/bb-company/",
+    "summary": "Lasso's affiliate directory lists the BB Company program with commissions of 'up to 37.5%', a 14-day cookie, a $10 payout threshold and no approval requirements. Because only a ceiling is published — and a ceiling is not a base rate — commission_rate is recorded as null. No earnings-cap statement appears, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/niche/supplements/",
+    "summary": "Lasso's supplements roundup describes BB Company (formerly Better Body Co.) as a menopause-focused supplement brand and reports '10M+ bottles shipped, 3M+ lives changed'."
+   }
+  ],
+  "name": "BB Company",
+  "opportunity": {
+   "audience_fit": "Menopause and women's 40+ wellness audiences.",
+   "content_angles": [
+    "Menopause symptom-support routines",
+    "Provitalize-style probiotic explainers",
+    "Women-over-40 wellness journeys"
+   ],
+   "risks": [
+    "Only an 'up to' ceiling is published — the actual base rate is undisclosed",
+    "Program facts rest on a single directory listing"
+   ],
+   "status": "unverified",
+   "summary": "Menopause supplement program listing commissions up to 37.5% with no approval requirements, though the base rate is unpublished."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 4,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Menopause-focused supplements for women 40+ — a defined, underserved wellness niche with strong creator demand.",
+    "ugc_evidence": "A live affiliate program actively listed for creators, but no creator or ambassador page on the brand's own site was verified.",
+    "compensation": "A high published ceiling (up to 37.5%) suggests strong top-end pay, but with no base rate published the verified compensation is limited.",
+    "contact_access": "No published partnerships email or application page on the brand's own site was found; joining runs through the Lasso listing.",
+    "opportunity_availability": "The directory reports no approval requirements, making this one of the most open programs in the batch.",
+    "credibility": "Established supplement brand reporting 10M+ bottles shipped under its former Better Body Co. name."
+   }
+  },
+  "socials": [],
+  "website": "https://betterbodyco.com"
+ },
+ {
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/better-bears-foods/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "Canada",
+  "description": "Canada-based brand crafting plant-based, naturally sweetened gummy bears that are gluten-free, non-GMO and free of the top 10 allergens, packaged in compostable bags.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/better-bears-foods/",
+    "summary": "LinkClicky's affiliate directory lists the Better Bears Foods affiliate program on ShareASale at 10% commission per sale with a 45-day cookie, open to all regions, joining via ShareASale. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/better-bears-foods/",
+    "summary": "LinkClicky describes Better Bears Foods as a Canada-based maker of plant-based, naturally sweetened gummy bears free from sugar alcohols and artificial sweeteners, gluten-free, non-GMO and free of the top 10 allergens, in compostable packaging."
+   }
+  ],
+  "name": "Better Bears Foods",
+  "opportunity": {
+   "audience_fit": "Healthy snacking, vegan and allergen-free food audiences.",
+   "content_angles": [
+    "Sugar-free candy taste tests",
+    "Allergen-free snack swaps",
+    "Compostable-packaging eco hauls"
+   ],
+   "risks": [
+    "Program data comes from a directory listing last updated March 2024",
+    "Small Canadian brand — US order volume may be limited"
+   ],
+   "status": "unverified",
+   "summary": "ShareASale program at 10% with a long 45-day cookie for a plant-based, allergen-free gummy brand."
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Plant-based, allergen-free gummy snacks fit healthy-snacking and vegan food content well.",
+    "ugc_evidence": "A live ShareASale program that directories pitch to bloggers and social influencers, with no dedicated creator page found on the brand's own site.",
+    "compensation": "Published rate exists — 10% per sale — with an unusually long 45-day cookie for packaged food.",
+    "contact_access": "No published partnerships email or application page on the brand's own site was found; the route is the ShareASale application.",
+    "opportunity_availability": "Open to all regions through ShareASale, subject to merchant review.",
+    "credibility": "Real Canada-based consumer brand with a clear product line; program facts rest on a third-party directory."
+   }
+  },
+  "socials": [],
+  "website": "https://betterbears.ca"
+ },
+ {
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://getlasso.co/niche/supplements/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "fitness",
+  "contacts": [],
+  "country": null,
+  "description": "Fitness supplement brand selling protein powders, fat burners, pre-workouts and other performance supplements for athletic and fitness goals through nutrex.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/niche/supplements/",
+    "summary": "Lasso's supplements roundup lists the Nutrex Research affiliate program on ShareASale at 15% commission with a 14-day cookie and a $50 payout threshold, covering protein powders, fat burners and pre-workouts. No earnings-cap statement appears, so the cap is recorded as unknown."
+   }
+  ],
+  "name": "Nutrex Research",
+  "opportunity": {
+   "audience_fit": "Fitness, bodybuilding and sports-performance audiences.",
+   "content_angles": [
+    "Pre-workout reviews and comparisons",
+    "Supplement stack routines",
+    "Training-fuel hauls"
+   ],
+   "risks": [
+    "14-day cookie is short",
+    "Program data comes from a directory roundup rather than the brand's own page"
+   ],
+   "status": "unverified",
+   "summary": "ShareASale program at a published 15% for an established sports-nutrition brand."
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 14,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sports nutrition — protein, pre-workout, fat burners — is a core fitness-creator category.",
+    "ugc_evidence": "A live ShareASale affiliate program listed for the brand, though no brand-run creator community was verified.",
+    "compensation": "Published rate exists — 15% per sale on ShareASale — above average for supplements.",
+    "contact_access": "No published partnerships email or creator application page was verified; joining runs through ShareASale.",
+    "opportunity_availability": "Open application through ShareASale, subject to merchant approval.",
+    "credibility": "Long-running sports-nutrition brand with a broad product line and strong category recognition."
+   }
+  },
+  "socials": [],
+  "website": "https://nutrex.com"
+ },
+ {
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://getlasso.co/niche/supplements/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": null,
+  "description": "Health and wellness brand selling natural supplements — probiotics, vitamins and digestive aids — designed to support a balanced lifestyle, through zenwise.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/niche/supplements/",
+    "summary": "Lasso's supplements roundup lists the Zenwise affiliate program on ShareASale at 15% commission with a 14-day cookie and a $50 payout threshold, covering probiotics, vitamins and digestive aids. No earnings-cap statement appears, so the cap is recorded as unknown."
+   }
+  ],
+  "name": "Zenwise",
+  "opportunity": {
+   "audience_fit": "Gut-health, probiotic and everyday-wellness audiences.",
+   "content_angles": [
+    "Digestive-health routine content",
+    "Probiotic comparison reviews",
+    "Daily vitamin stack videos"
+   ],
+   "risks": [
+    "14-day cookie is short",
+    "Program data comes from a directory roundup rather than the brand's own page"
+   ],
+   "status": "unverified",
+   "summary": "ShareASale program at a published 15% for a mainstream digestive-wellness supplement brand."
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 14,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Probiotics, vitamins and digestive aids are staple wellness-creator categories with broad audience appeal.",
+    "ugc_evidence": "A live ShareASale affiliate program actively listed for the brand, though no dedicated creator page was verified on its own site.",
+    "compensation": "Published rate exists — 15% per sale on ShareASale — above average for supplements.",
+    "contact_access": "No published partnerships email or creator application page was verified; joining runs through ShareASale.",
+    "opportunity_availability": "Open application through ShareASale, subject to merchant approval.",
+    "credibility": "Established wellness brand with a solid reputation and wide supplement range per the directory."
+   }
+  },
+  "socials": [],
+  "website": "https://zenwise.com"
+ },
+ {
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/niche/supplements/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": null,
+  "description": "Health and wellness retailer focused on nutrition and weight management, selling meal replacements, protein snacks and supplements for health-conscious consumers through dietdirect.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/niche/supplements/",
+    "summary": "Lasso's supplements roundup lists the Diet Direct affiliate program on CJ Affiliate (Commission Junction) at 10% commission per sale with a 30-day cookie and a $50 payout threshold, covering meal replacements, snacks and supplements. No earnings-cap statement appears, so the cap is recorded as unknown."
+   }
+  ],
+  "name": "Diet Direct",
+  "opportunity": {
+   "audience_fit": "Weight-management, meal-replacement and healthy-snack audiences.",
+   "content_angles": [
+    "Meal-replacement routine content",
+    "High-protein snack roundups",
+    "Weight-management grocery hauls"
+   ],
+   "risks": [
+    "Weight-management claims need careful, compliant content",
+    "Program data comes from a directory roundup rather than the brand's own page"
+   ],
+   "status": "unverified",
+   "summary": "CJ Affiliate program at a published 10% with a 30-day cookie for a weight-management foods retailer."
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Meal replacements and protein snacks fit weight-management and healthy-eating content, a narrower but active niche.",
+    "ugc_evidence": "A live CJ Affiliate program listed for the brand, with no brand-run creator program verified.",
+    "compensation": "Published rate exists — 10% per sale on CJ with a 30-day cookie.",
+    "contact_access": "No published partnerships email or creator application page was verified; joining runs through CJ Affiliate.",
+    "opportunity_availability": "Open application through CJ Affiliate, subject to merchant approval.",
+    "credibility": "Established niche retailer with a long-running weight-management catalog per the directory."
+   }
+  },
+  "socials": [],
+  "website": "https://dietdirect.com"
+ },
+ {
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 20,
+   "application_url": null,
+   "source_url": "https://getlasso.co/niche/supplements/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": null,
+  "description": "Plant-based nutrition brand built around a 22-day healthy-habit program, selling meal plans, protein powders, snacks and ready-made meals for a vegan lifestyle through 22daysnutrition.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/niche/supplements/",
+    "summary": "Lasso's supplements roundup lists the 22 Days Nutrition affiliate program at 20% commission per sale with a 30-day cookie and a $50 payout threshold, with program details naming ShareASale as the network. No earnings-cap statement appears, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/niche/supplements/",
+    "summary": "On the same Lasso page, the 'Join' button for 22 Days Nutrition routes to Awin while the program details name ShareASale as the network — a discrepancy in the directory itself. The network is recorded as ShareASale per the stated program details, flagged here for confirmation at application."
+   }
+  ],
+  "name": "22 Days Nutrition",
+  "opportunity": {
+   "audience_fit": "Vegan, plant-based and healthy-habit challenge audiences.",
+   "content_angles": [
+    "22-day plant-based challenge diaries",
+    "Vegan protein powder reviews",
+    "Ready-made vegan meal hauls"
+   ],
+   "risks": [
+    "Directory discrepancy on the network (ShareASale details vs Awin join link) needs confirming at application",
+    "Program data comes from a directory roundup"
+   ],
+   "status": "unverified",
+   "summary": "Plant-based nutrition program at a published 20% per sale — the highest verified rate in this batch."
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 15,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Plant-based meal plans, protein powders and ready meals built around a 22-day habit program — strong fit for vegan and wellness food creators.",
+    "ugc_evidence": "A live affiliate program actively listed for the brand, though no brand-run creator community page was verified.",
+    "compensation": "Published rate exists — 20% per sale with a 30-day cookie — the strongest verified rate in this group.",
+    "contact_access": "No published partnerships email or creator application page was verified; joining runs through the network.",
+    "opportunity_availability": "Open network application, subject to merchant approval; the network listing itself is inconsistent and should be confirmed.",
+    "credibility": "Recognized plant-based brand built around a named 22-day program; program facts rest on a directory roundup."
+   }
+  },
+  "socials": [],
+  "website": "https://22daysnutrition.com"
+ }
+]

@@ -1,0 +1,715 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://little-lies.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://little-lies.com/pages/affiliates"
+  },
+  "category_slug": "fashion",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://little-lies.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://little-lies.com/pages/affiliates"
+   },
+   {
+    "contact_type": "marketing",
+    "contact_url": null,
+    "email": "marketing@little-lies.com",
+    "source_url": "https://little-lies.com/pages/affiliates"
+   }
+  ],
+  "country": null,
+  "description": "Womenswear label selling 70s-inspired, rock 'n' roll meets boho clothing — patterned minis, flares, cosy knits and shackets — direct through its own website, with a creator affiliate programme run through Awin and LTK.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://little-lies.com/pages/affiliates",
+    "summary": "Little Lies' own Affiliate Programme page states the brand is live on LTK and Awin for creators, pays up to 10% commission, and offers gifting opportunities and potential early access to new collections; LTK approval requires a public profile, a consistent posting schedule and an engaged audience of at least 5k."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://little-lies.com/pages/affiliates",
+    "summary": "The programme page publishes marketing@little-lies.com as the contact address for affiliate questions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://little-lies.com/pages/affiliates",
+    "summary": "The only published figure is an 'up to 10%' ceiling with no flat rate, so commission_rate is recorded as null with the ceiling documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://little-lies.com/pages/affiliates",
+    "summary": "No fetched source states any cap on Little Lies affiliate earnings, so commission_cap is recorded as unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Little Lies",
+  "opportunity": {
+   "application_url": "https://little-lies.com/pages/affiliates",
+   "source_url": "https://little-lies.com/pages/affiliates",
+   "title": "Little Lies Affiliate Programme (Awin & LTK)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A real commission exists (up to 10% on Awin/LTK per the brand's own page) but only as a ceiling with no flat published rate, so it scores mid-range.",
+    "contact_access": "A public programme page on the official site plus a published marketing email for affiliate questions — top band per the rubric.",
+    "credibility": "Established direct-to-consumer womenswear label with its own store and programmes on two major creator networks.",
+    "niche_fit": "Distinctive boho/rock womenswear is highly visual and try-on friendly — a strong fashion UGC niche.",
+    "opportunity_availability": "Open application through Awin; the LTK route additionally requires a 5k+ engaged audience per the brand's own page.",
+    "ugc_evidence": "The brand recruits creators directly ('We're on the lookout for creatives'), runs gifting and early-access perks, and is built around influencer styling content."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://little-lies.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://buffery.us/pages/affiliate-program-agreement",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Own program",
+   "source_url": "https://buffery.us/pages/affiliate-program-agreement"
+  },
+  "category_slug": "fashion",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://buffery.us/pages/affiliate-program-agreement",
+    "email": null,
+    "source_url": "https://buffery.us/pages/affiliate-program-agreement"
+   }
+  ],
+  "country": "United States",
+  "description": "Menswear brand (Buffery Flex Uniforms) selling performance dress shirts and apparel cut for athletic builds, sold direct through its own website with an in-house, discount-code-based affiliate program it calls 'Friends With Benefits'.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://buffery.us/pages/affiliate-program-agreement",
+    "summary": "Buffery's own Affiliate Program Agreement publishes a three-tier commission structure earned through a unique discount code: Tier 1 'Knows a Guy' 10% for all approved affiliates, Tier 2 'Good for It' 12% at $2,500+ net completed sales in a rolling 90-day period, Tier 3 'The Go-To' 15% at $7,500+."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://buffery.us/pages/affiliate-program-agreement",
+    "summary": "The agreement states commissions are held until the brand's 30-day return window closes and are paid monthly via PayPal; commission_rate records the 10% entry tier every approved affiliate starts on, with the higher tiers documented in the affiliate evidence."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://buffery.us/pages/affiliate-program-agreement",
+    "summary": "No fetched source states any cap on Buffery affiliate earnings, so commission_cap is recorded as unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Buffery",
+  "opportunity": {
+   "application_url": "https://buffery.us/pages/affiliate-program-agreement",
+   "source_url": "https://buffery.us/pages/affiliate-program-agreement",
+   "title": "Buffery Affiliate Program (Friends With Benefits)"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 8,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published tiers on the brand's own terms — 10% entry rising to 15% — with monthly PayPal payouts; solid mid-band compensation.",
+    "contact_access": "A public program agreement page on the official site is the application route, but no direct partnerships email is published on fetched pages.",
+    "credibility": "Small direct-to-consumer menswear brand with formal published program terms governed by New York law.",
+    "niche_fit": "Athletic-fit menswear is a real but narrower fashion niche — fit-transformation and workwear content.",
+    "opportunity_availability": "Application-based with acceptance at the brand's sole discretion per its own agreement.",
+    "ugc_evidence": "A code-based creator program whose terms license affiliate content for the brand's marketing, but no separate ambassador or UGC program page was found."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://buffery.us"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://linkclicky.com/affiliate-program/vestiaire-collective/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": null,
+  "description": "Global online marketplace for pre-owned luxury and designer fashion, where members buy and sell authenticated secondhand clothing, bags, shoes and accessories.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/vestiaire-collective/",
+    "summary": "LinkClicky's affiliate directory lists Vestiaire Collective's program on CJ Affiliate at 4%-6% per sale (directory data last updated March 11, 2024) and describes the brand as a leader in luxury pre-owned fashion."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/vestiaire-collective-affiliate-program/",
+    "summary": "Post Affiliate Pro's directory describes Vestiaire Collective as a resale platform selling secondhand luxury products from fashion designers, states the program uses CJ Affiliate to manage its global portfolio, and quotes commission at up to 6% with a 15-day cookie and monthly payouts."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/vestiaire-collective-uk/",
+    "summary": "Lasso's directory instead quotes Vestiaire Collective at 10% per sale with a 15-day cookie — this conflicts with the 4%-6% and up-to-6% figures, so commission_rate is recorded as null with the conflict documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/vestiaire-collective/",
+    "summary": "No fetched source states any cap on Vestiaire Collective affiliate earnings, so commission_cap is recorded as unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Vestiaire Collective",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/vestiaire-collective/",
+   "title": "Vestiaire Collective Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A CJ program exists, but published rates conflict across directories (4-6% vs up to 6% vs 10%), so no rate could be verified — low score until the network listing is confirmed.",
+    "contact_access": "No public partnerships email or on-site application page could be verified from fetched pages; joining is through CJ Affiliate only.",
+    "credibility": "One of the world's leading pre-owned luxury fashion marketplaces, with millions of listed items and weekly new arrivals reported by directories.",
+    "niche_fit": "Luxury resale and authenticated designer finds are a core fashion-creator niche — hauls, unboxings and authentication content.",
+    "opportunity_availability": "Open application through the CJ Affiliate marketplace per the network directory listings.",
+    "ugc_evidence": "Directory listings aim the program at fashion bloggers and influencers, but no dedicated creator program page was found on the brand's own site."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.vestiairecollective.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 3,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://linkclicky.com/affiliate-program/jimmy-lion/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": null,
+  "description": "Premium designer sock brand crafting bold, eye-catching socks for men, women and kids, sold through its own online store.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/jimmy-lion/",
+    "summary": "LinkClicky's affiliate directory lists Jimmy Lion on CJ Affiliate at 2%-3% per sale (directory data last updated March 11, 2024) and describes the brand as specializing in premium, designer socks with unique designs for men, women and kids."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/jimmy-lion/",
+    "summary": "Lasso's directory quotes Jimmy Lion at 3% per sale with a 45-day cookie, consistent with the top of LinkClicky's 2%-3% range; commission_rate records 3 with the range documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/jimmy-lion/",
+    "summary": "No fetched source states any cap on Jimmy Lion affiliate earnings, so commission_cap is recorded as unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Jimmy Lion",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/jimmy-lion/",
+   "title": "Jimmy Lion Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 21,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published rate is only 2%-3% per sale — a real program but one of the lowest rates in fashion.",
+    "contact_access": "No public partnerships email or on-site application page could be verified from fetched pages; joining is through CJ Affiliate only.",
+    "credibility": "Established direct-to-consumer designer sock brand selling internationally through its own store.",
+    "niche_fit": "Statement socks are a visual, giftable accessory niche, but narrower than apparel — outfit-detail and gift-guide content.",
+    "opportunity_availability": "Open application through the CJ Affiliate marketplace per the network directory listing.",
+    "ugc_evidence": "Directory listings position the program for fashion bloggers, but no dedicated creator or ambassador program was found on the brand's own site."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://jimmylion.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://theaffiliatemonkey.com/affiliate/thredup-inc-affiliate-program/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": null,
+  "description": "One of the largest online consignment and thrift marketplaces, selling secondhand women's and kids' clothing, shoes and accessories at deep discounts to retail prices.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/thredup-inc-affiliate-program/",
+    "summary": "The Affiliate Monkey's program specification lists ThredUp's affiliate program on the CJ network with PayPal and Stripe direct-deposit payouts; its overview says the program is designed for bloggers, influencers and website owners in sustainable fashion and that rates generally range from 10% to 15% per sale with a 30-day cookie, while its own FAQ states it does not have the specific commission rates."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/thredup-inc/",
+    "summary": "Lasso's directory quotes ThredUp at 10%-30% per sale with a 30-day cookie, and a Vendo directory page quotes up to 5% — the published figures conflict across sources, so commission_rate is recorded as null with the conflict documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/thredup-inc-affiliate-program/",
+    "summary": "ThredUp is described as one of the largest online consignment and thrift stores for secondhand clothes, offering a sustainable alternative to traditional retail through reuse of textiles."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/thredup-inc-affiliate-program/",
+    "summary": "No fetched source states any cap on ThredUp affiliate earnings, so commission_cap is recorded as unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "ThredUp",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://theaffiliatemonkey.com/affiliate/thredup-inc-affiliate-program/",
+   "title": "ThredUp Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A CJ program exists, but published rates conflict widely (up to 5% vs 10-15% vs 10-30%), so no rate could be verified — low score until confirmed in the network.",
+    "contact_access": "No public partnerships email or on-site application page could be verified from fetched pages; joining is through CJ Affiliate only.",
+    "credibility": "One of the largest resale platforms in the world and a publicly traded company — top-tier brand credibility.",
+    "niche_fit": "Thrift hauls and secondhand styling are a huge, proven fashion-creator niche on TikTok and YouTube.",
+    "opportunity_availability": "Application through CJ Affiliate with approval by ThredUp's affiliate management team per directory listings.",
+    "ugc_evidence": "The program explicitly targets bloggers and influencers, and thrifting content is creator-driven, but no dedicated creator program page exists on the brand's own site."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://www.thredup.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.workaway.info/en/community/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Own program",
+   "source_url": "https://www.workaway.info/en/community/affiliates"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.workaway.info/en/community/affiliates",
+    "email": null,
+    "source_url": "https://www.workaway.info/en/community/affiliates"
+   }
+  ],
+  "country": null,
+  "description": "Global work-exchange and cultural-travel community founded in 2002, connecting travellers with hosts in 170+ countries for volunteering, homestays and skills exchanges in return for food and accommodation, accessed through a paid membership.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.workaway.info/en/community/affiliates",
+    "summary": "Workaway's own Affiliate Program page states affiliates earn commission with every successful sign up through their personal invite link and receive monthly commission via PayPal, with opportunities for bonus collaborations; travel content creators who run a blog, website or social platform with an engaged audience are invited to apply from the page, and non-members can apply too."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.workaway.info/en/community/affiliates",
+    "summary": "The page describes Workaway as a work-exchange community built since 2002, spanning 170+ countries with 50,000+ opportunities and 736,059 reviews, positioned as 'the Airbnb of working holidays'."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.workaway.info/en/community/affiliates",
+    "summary": "Workaway publishes no commission rate or flat amount on its affiliate page, so commission_rate is null. The separate invite-a-friend ladder for existing members pays free membership months and gift codes; that ladder is distinct from the Affiliate Program's cash commission paid monthly via PayPal."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.workaway.info/en/community/affiliates",
+    "summary": "No fetched source states any cap on Workaway affiliate earnings, so commission_cap is recorded as unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Workaway",
+  "opportunity": {
+   "application_url": "https://www.workaway.info/en/community/affiliates",
+   "source_url": "https://www.workaway.info/en/community/affiliates",
+   "title": "Workaway Affiliate Program"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Cash commission paid monthly via PayPal is confirmed on the brand's own page, but no rate or amount is published, so compensation scores low until terms are shared at application.",
+    "contact_access": "A public affiliate page on the official site with a direct creator application route, though no published partnerships email.",
+    "credibility": "Operating since 2002 with 170+ countries, 50,000+ opportunities and over 736,000 reviews — a long-established travel community.",
+    "niche_fit": "Work-exchange and slow-travel experiences are a distinctive, story-rich niche for travel creators.",
+    "opportunity_availability": "Open application for travel content creators from the official page; members can also start sharing immediately via their invite link.",
+    "ugc_evidence": "The program is explicitly built for travel content creators and bloggers, with bonus collaborations offered beyond the base commission."
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.workaway.info"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://roambee.io/partners",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Own program",
+   "source_url": "https://roambee.io/partners"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partners@roambee.io",
+    "source_url": "https://roambee.io/partners"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://roambee.io/partners",
+    "email": null,
+    "source_url": "https://roambee.io/partners"
+   }
+  ],
+  "country": null,
+  "description": "Travel eSIM provider selling prepaid mobile data plans for 200+ countries that install in about a minute, letting travellers keep their own number for calls and avoid roaming bills.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://roambee.io/partners",
+    "summary": "Roambee's own partner programme page publishes tiered commission: every partner starts at Tier 1 10%, rising to 15% from €1,000 and 20% from €4,250 in prior-quarter net sales; commission is a percentage of the net amount paid (after discounts and perks, excluding VAT and payment fees), earned on what each customer buys for 12 months, with payouts from €50 by bank transfer, PayPal or USDT and a 30-day last-click window."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://roambee.io/partners",
+    "summary": "The partner page publishes partners@roambee.io for questions about codes, payouts or collaborations, and applications are made by signing in at partners.roambee.io."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://roambee.io/",
+    "summary": "The 'No cap' wording on Roambee's homepage applies to free data gifted through its traveller-to-traveller referral scheme, not to partner earnings, so it does not qualify as an uncapped statement; commission_cap is unknown and no creator counts are published, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Roambee",
+  "opportunity": {
+   "application_url": "https://roambee.io/partners",
+   "source_url": "https://roambee.io/partners",
+   "title": "Roambee Partner Programme"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 13,
+   "credibility": 3,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published tiers on the brand's own page — 10% starting, up to 20% — calculated on net spend with a 12-month earning window per customer; strong for the eSIM niche.",
+    "contact_access": "A public partner page with an application route plus a published partners@ inbox answered by a person — top band per the rubric.",
+    "credibility": "A newer, smaller eSIM brand; the program terms are unusually transparent, but the company has a short track record.",
+    "niche_fit": "Travel eSIMs are one of the most promoted products in travel content right now — strong fit for travel creators.",
+    "opportunity_availability": "Open, free application for creators, bloggers, agencies and hospitality businesses via the partner portal.",
+    "ugc_evidence": "The programme is marketed directly to travel creators, bloggers and podcasters with worked commission examples by creator type."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://roambee.io"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.allianztravelinsurance.com/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://getlasso.co/affiliate/allianz-global-assistance/"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.allianztravelinsurance.com/affiliates",
+    "email": null,
+    "source_url": "https://www.allianztravelinsurance.com/affiliates"
+   }
+  ],
+  "country": "United States",
+  "description": "Travel insurance and assistance brand of Allianz Partners, selling trip cancellation, emergency medical, baggage and travel-delay protection plans to travellers, with its affiliate publisher network run mainly through CJ Affiliate in the US and Awin in the UK/EU.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.allianztravelinsurance.com/affiliates",
+    "summary": "Allianz Partners' own Affiliate Portal welcomes publishers to the Allianz Travel Publisher Network — its affiliate program for promoting travel protection products — with an FAQ, a content hub and a sign-up route for new affiliates."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/allianz-global-assistance/",
+    "summary": "Lasso's directory lists the Allianz Global Assistance program on CJ Affiliate at a flat $12-$25 per sale with a 45-day cookie and a $50 payout threshold, with application through CJ and manual review."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://affiliateprogramsguru.com/programs/allianz-travel-affiliate-program/",
+    "summary": "Affiliate Programs Guru reports the program runs on CJ Affiliate (primarily US), Awin (UK/EU), FlexOffers and Travelpayouts, paying $12-$25 per confirmed sale on CJ and a percentage model of up to 12% of policy value on some networks. Because the model differs by network (flat bounty vs percentage), commission_rate is recorded as null with both structures documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/allianz-global-assistance/",
+    "summary": "No fetched source states any cap on Allianz Travel affiliate earnings, so commission_cap is recorded as unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Allianz Travel",
+  "opportunity": {
+   "application_url": "https://www.allianztravelinsurance.com/affiliates",
+   "source_url": "https://www.allianztravelinsurance.com/affiliates",
+   "title": "Allianz Travel Publisher Network"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 22,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Documented flat bounties of $12-$25 per confirmed sale on CJ (and up to 12% of policy value on some networks) — real published pay, though the rate could not be reduced to one figure.",
+    "contact_access": "A dedicated affiliate portal on the brand's own site with sign-up, FAQ and content hub, though joining itself happens inside CJ.",
+    "credibility": "Allianz is one of the world's largest insurance and assistance groups — maximum brand credibility.",
+    "niche_fit": "Travel insurance is a staple recommendation in travel content, though less visual than product niches.",
+    "opportunity_availability": "Application through CJ Affiliate with manual review of the publisher's site per directory listings.",
+    "ugc_evidence": "The publisher network provides a content hub to help affiliates educate audiences, but it is a publisher program rather than a creator-first program."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://www.allianztravelinsurance.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://medjetassist.com/affiliates-and-influencers",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/20001?setLocale=pl_PL"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://medjetassist.com/affiliates-and-influencers",
+    "email": null,
+    "source_url": "https://medjetassist.com/affiliates-and-influencers"
+   }
+  ],
+  "country": "United States",
+  "description": "Membership program for global medical transport, travel security and crisis response: if a member is hospitalized 150 miles or more from home, Medjet arranges medical transport to a hospital of their choice; short-term memberships start at $99 and annual memberships at $315.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://medjetassist.com/affiliates-and-influencers",
+    "summary": "Medjet's own affiliates and influencers page states its affiliate partner is Awin, that signing up is cost free, and that affiliates, influencers and content entrepreneurs can join the 'hundreds of affiliates and resellers' earning commissions selling Medjet memberships, with sub-affiliate routes including Viglink, Skimlinks, FlexOffers and Mavely."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/20001?setLocale=pl_PL",
+    "summary": "Medjet's Awin merchant profile states a standard 5% commission rate with a cap of $75 per transaction, a 45-day cookie period and a dedicated affiliate management team."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/20001?setLocale=pl_PL",
+    "summary": "The $75 figure in the Awin listing is a per-transaction commission cap, not a cap on total earnings, so commission_cap is recorded as unknown. The brand's own 'hundreds of affiliates' wording is a few-hundred-scale figure, which does not meet the absolute small-count bar for low, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Medjet",
+  "opportunity": {
+   "application_url": "https://medjetassist.com/affiliates-and-influencers",
+   "source_url": "https://medjetassist.com/affiliates-and-influencers",
+   "title": "Medjet Affiliate Program (via Awin)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 20,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 5% standard rate on Awin (capped at $75 per transaction) on high-priced memberships starting at $99-$315 — modest percentage, meaningful basket size.",
+    "contact_access": "A dedicated affiliates and influencers page on the brand's own site explains the routes in, though application itself happens inside Awin.",
+    "credibility": "Long-running, top-rated medical transport membership brand with a dedicated affiliate management team.",
+    "niche_fit": "Travel safety and medical evacuation is a credible but narrower travel niche — strongest for adventure, expat and senior-travel creators.",
+    "opportunity_availability": "Cost-free sign-up through Awin, plus sub-affiliate routes (Mavely, Skimlinks, Viglink) that lower the barrier for influencers.",
+    "ugc_evidence": "The brand maintains a dedicated page courting affiliates and influencers and supports creator-friendly sub-networks such as Mavely."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://medjetassist.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.offerspilot.com/",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "Offerspilot",
+   "source_url": "https://www.bonbonpromo.com/roamless-affiliate-program-review-earn-15-on-pay-as-you-go-esims/"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.offerspilot.com/",
+    "email": null,
+    "source_url": "https://www.bonbonpromo.com/roamless-affiliate-program-review-earn-15-on-pay-as-you-go-esims/"
+   }
+  ],
+  "country": null,
+  "description": "Pay-as-you-go travel eSIM provider offering global and regional mobile data plans through a single app-based eSIM that travellers top up only when they need data.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.bonbonpromo.com/roamless-affiliate-program-review-earn-15-on-pay-as-you-go-esims/",
+    "summary": "BonbonPromo's program review states the Roamless affiliate program pays 15% commission on qualified purchases with a 30-day cookie, run through the Offerspilot platform, where publishers register for an account, find the Roamless campaign and apply."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://involve.asia/blog/roamless-esim-affiliate-program/",
+    "summary": "Involve Asia's own blog describes the Roamless eSIM affiliate program on its publisher platform — aimed at travel creators, bloggers and digital-nomad publishers — with tracking, reporting and payouts handled in the Involve Asia dashboard and instant-apply or approval-based access depending on the offer."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://welcome-tournaments-897415.framer.app/partner-with-us",
+    "summary": "A Roamless partner page hosted on a Framer subdomain claims 'up to 20% commission'; it is an up-to ceiling on a temporary-looking subdomain, so it is flagged needs_review and not used for the recorded rate, which follows the Offerspilot route's published 15%."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://www.bonbonpromo.com/roamless-affiliate-program-review-earn-15-on-pay-as-you-go-esims/",
+    "summary": "No fetched source states any cap on Roamless affiliate earnings, so commission_cap is recorded as unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Roamless",
+  "opportunity": {
+   "application_url": "https://www.offerspilot.com/",
+   "source_url": "https://www.bonbonpromo.com/roamless-affiliate-program-review-earn-15-on-pay-as-you-go-esims/",
+   "title": "Roamless Affiliate Program (via Offerspilot)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 6,
+   "credibility": 3,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 15% commission on the Offerspilot route is a strong rate for travel eSIM; a separate up-to-20% claim could not be verified and is flagged in the evidence.",
+    "contact_access": "No public partnerships email or brand-owned application page could be verified; joining is through Offerspilot or Involve Asia publisher accounts.",
+    "credibility": "A smaller, newer eSIM brand; program details come from network-side sources rather than a brand-owned page.",
+    "niche_fit": "Pay-as-you-go eSIM is a distinctive, easy-to-explain product for travel creators — strong niche fit.",
+    "opportunity_availability": "Publisher sign-up on Offerspilot with a campaign application, and an Involve Asia route that may be instant-apply.",
+    "ugc_evidence": "Both network listings aim the program squarely at travel creators and bloggers, though the brand publishes no creator program page of its own that could be verified."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://roamless.com"
+ }
+]
