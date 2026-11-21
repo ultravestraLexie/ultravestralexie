@@ -9,11 +9,13 @@ import {
   IMPROVEMENT_RULES,
   SCORECARD,
 } from "@/lib/playbook";
+import { HOOK_BANK, HOOK_BANK_NOTE, PRE_POST_CHECKLIST } from "@/lib/viralbase";
 
 /* THE HUMAN EMOTION VIDEO LAB — the interactive half of the Human
- * Emotion Video Playbook. Four working tools, all driven by the
- * Playbook's own data (lib/playbook.ts): the Emotion Studio, the Hook
- * Laboratory, the Video Architect and the Audience Reaction Lab.
+ * Emotion Video Playbook. Five working tools, driven by the Playbook's
+ * own data (lib/playbook.ts) and the Viral Base (lib/viralbase.ts):
+ * the Emotion Studio, the Hook Laboratory, the Video Architect, the
+ * Audience Reaction Lab and the Pre-Flight Check.
  * Template-built and honestly labeled — the tools arrange the
  * Playbook's words and the creator's own inputs; they invent nothing. */
 
@@ -93,6 +95,24 @@ export default function EmotionLab() {
     setHookIdx(next);
   };
 
+  /* Hook Bank (Viral Base): pick a pattern, fill its blanks */
+  const [bankIdx, setBankIdx] = useState(0);
+  const [bankValues, setBankValues] = useState<string[]>(() => HOOK_BANK[0].blanks.map(() => ""));
+  const [bankCopied, setBankCopied] = useState(false);
+  const bankPattern = HOOK_BANK[bankIdx];
+  const pickPattern = (i: number) => {
+    setBankIdx(i);
+    setBankValues(HOOK_BANK[i].blanks.map(() => ""));
+    setBankCopied(false);
+  };
+  let bankLine = bankPattern.template;
+  bankValues.forEach((v) => { bankLine = bankLine.replace("___", v.trim() || "___"); });
+
+  /* Pre-Flight Check (Viral Base): the 15 before-you-post checks */
+  const [preFlight, setPreFlight] = useState<boolean[]>(() => PRE_POST_CHECKLIST.map(() => false));
+  const preFlightCount = preFlight.filter(Boolean).length;
+  const nextCheck = PRE_POST_CHECKLIST[preFlight.findIndex((done) => !done)];
+
   /* Video Architect */
   const [formulaId, setFormulaId] = useState(FORMULAS[0].id);
   const [audience, setAudience] = useState("");
@@ -165,6 +185,49 @@ export default function EmotionLab() {
           <p style={{ margin: 0, fontSize: 22, fontWeight: 800, color: "#f3e8ff" }}>&ldquo;{OPENING_LINES[hookIdx]}&rdquo;</p>
           <p style={{ margin: "8px 0 0", fontSize: 13.5, color: "#ddd0ff" }}>Drawn from the Playbook&rsquo;s 25 opening lines. Say it with the product or the problem already in frame.</p>
         </div>
+
+        {/* THE HOOK BANK — Viral Base fill-in patterns */}
+        <div style={{ borderTop: "1px solid #4c1d95", marginTop: 22, paddingTop: 20 }}>
+          <p style={{ margin: "0 0 4px", fontSize: 19, fontWeight: 800, color: "#f3e8ff" }}>🎯 The Hook Bank</p>
+          <p style={toolSub}>From Lexie Viral Base 1: fifteen fill-in hook patterns the selling videos kept using. Pick a pattern, fill the blanks, say it in the first second — and put the same words on screen.</p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 9 }}>
+            {HOOK_BANK.map((p, i) => (
+              <button key={p.name} style={chip(i === bankIdx)} onClick={() => pickPattern(i)}>{p.name}</button>
+            ))}
+          </div>
+          {bankPattern.blanks.length > 0 && (
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 14, marginTop: 16 }}>
+              {bankPattern.blanks.map((label, i) => (
+                <div key={label}>
+                  <label style={labelStyle}>Fill in: {label}</label>
+                  <input
+                    style={inputStyle}
+                    value={bankValues[i] ?? ""}
+                    onChange={(e) => {
+                      const next = [...bankValues];
+                      next[i] = e.target.value;
+                      setBankValues(next);
+                      setBankCopied(false);
+                    }}
+                    placeholder={label}
+                  />
+                </div>
+              ))}
+            </div>
+          )}
+          <div style={{ ...card, marginTop: 16, textAlign: "center", padding: "22px 18px" }}>
+            <p style={{ margin: "0 0 6px", fontSize: 13.5, fontWeight: 700, letterSpacing: 1.5, color: "#f0abfc" }}>YOUR HOOK · {bankPattern.name.toUpperCase()}</p>
+            <p style={{ margin: 0, fontSize: 22, fontWeight: 800, color: "#f3e8ff" }}>&ldquo;{bankLine}&rdquo;</p>
+            <button
+              onClick={() => { navigator.clipboard?.writeText(bankLine); setBankCopied(true); }}
+              className="neon-btn"
+              style={{ marginTop: 14, padding: "10px 22px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, border: "none", cursor: "pointer", fontSize: 14.5 }}
+            >
+              {bankCopied ? "Copied ✓" : "Copy the hook"}
+            </button>
+          </div>
+          <p style={{ color: "#ddd0ff", fontSize: 13.5, margin: "12px 0 0" }}>{HOOK_BANK_NOTE}</p>
+        </div>
       </section>
 
       {/* THE VIDEO ARCHITECT */}
@@ -226,6 +289,41 @@ export default function EmotionLab() {
             <p style={{ margin: 0, fontSize: 15.5 }}><strong style={{ color: "#f0abfc" }}>Measure it — {scoreRow[0]}:</strong> <span style={{ color: "#f3e8ff" }}>{scoreRow[1]}.</span></p>
           )}
           <p style={{ margin: "10px 0 0", fontSize: 14, color: "#ddd0ff" }}>Use the analytics available on each platform. Metrics and definitions vary between platforms, so compare like with like.</p>
+        </div>
+      </section>
+
+      {/* THE PRE-FLIGHT CHECK */}
+      <section style={toolPanel}>
+        <p style={toolTitle}>✅ The Pre-Flight Check</p>
+        <p style={toolSub}>From Lexie Viral Base 1: the fifteen before-you-post checks, taken from the videos that sell. Tick each one honestly — the second sentence builds trust. No ingredient list.</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
+          {PRE_POST_CHECKLIST.map((check, i) => (
+            <button
+              key={check}
+              onClick={() => {
+                const next = [...preFlight];
+                next[i] = !next[i];
+                setPreFlight(next);
+              }}
+              style={{
+                display: "flex", alignItems: "flex-start", gap: 12, textAlign: "left", cursor: "pointer",
+                border: preFlight[i] ? "1px solid #e879f9" : "1px solid #4c1d95", borderRadius: 14,
+                padding: "12px 16px", background: preFlight[i] ? "rgba(168,85,247,0.18)" : "rgba(13,2,33,0.65)",
+                color: "#f3e8ff", fontSize: 15.5,
+              }}
+            >
+              <span style={{ fontSize: 18, lineHeight: 1.25, color: preFlight[i] ? "#e879f9" : "#8b7bb8" }}>{preFlight[i] ? "☑" : "☐"}</span>
+              <span>{check}</span>
+            </button>
+          ))}
+        </div>
+        <div style={{ ...card, marginTop: 18, textAlign: "center", padding: "20px 18px" }}>
+          <p style={{ margin: "0 0 4px", fontSize: 24, fontWeight: 800, color: "#f3e8ff" }}>{preFlightCount} of {PRE_POST_CHECKLIST.length}</p>
+          {preFlightCount === PRE_POST_CHECKLIST.length ? (
+            <p style={{ margin: 0, fontSize: 16.5, fontWeight: 700, color: "#e879f9" }}>Ready to post ✓</p>
+          ) : (
+            <p style={{ margin: 0, fontSize: 15, color: "#ddd0ff" }}>Next check: {nextCheck}</p>
+          )}
         </div>
       </section>
     </div>

@@ -30,6 +30,21 @@ import {
   IDEA_PROMPTS,
   GOLDEN_RULES,
 } from "@/lib/playbook";
+import {
+  FIRST_3_SECONDS,
+  SELLING_FORMULA,
+  FOUR_C,
+  READY_SCRIPT,
+  VIDEO_TIMELINE,
+  KILLS_THE_SALE,
+  MAKES_THE_SALE,
+  LINE_FIXES,
+  APP_PICKS_WINNERS,
+  TESTING_LOOP,
+  SHARE_REASONS,
+  FEELINGS_TABLE,
+  TROJAN_HORSE,
+} from "@/lib/viralbase";
 
 /* THE HUMAN EMOTION VIDEO PLAYBOOK — UltraVestra's signature resource.
  * People don't watch videos only because they want information. They
@@ -116,7 +131,7 @@ export default function PlaybookPage() {
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: 30, fontWeight: 800, margin: "0 0 4px" }} className="wow-title">The Human Emotion Video Lab</p>
         <p style={{ color: "#ddd0ff", margin: 0, fontSize: 15.5 }}>
-          The Playbook, turned into tools. Work the four labs, then read the full guide below.
+          The Playbook, turned into tools. Work the five labs, then read the full guide below.
         </p>
       </div>
       <EmotionLab />
@@ -268,6 +283,24 @@ export default function PlaybookPage() {
             </div>
           ))}
         </div>
+
+        <h3 style={h3style}>The First 3 Seconds Decide the Video</h3>
+        <p style={body}>The tactical layer comes from Lexie Viral Base 1, a study of 27 real selling videos — and it is even stricter: what you do in the first 3 seconds makes or breaks the video. Plan these 3 seconds before anything else.</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: 12 }}>
+          {FIRST_3_SECONDS.steps.map(([step, text]) => (
+            <div key={step} style={card}>
+              <p style={{ margin: "0 0 5px", fontWeight: 800, fontSize: 14.5, color: "#67e8f9" }}>{step}</p>
+              <p style={{ margin: 0, fontSize: 14.5, color: "#f3e8ff" }}>{text}</p>
+            </div>
+          ))}
+        </div>
+        <p style={{ ...body, marginTop: 14 }}><strong>{FIRST_3_SECONDS.rule}</strong></p>
+        <p style={body}>{FIRST_3_SECONDS.lesson}</p>
+        <p style={{ ...body, marginBottom: 6 }}><strong style={{ color: "#67e8f9" }}>From the videos — what the winners do in their own first 3 seconds:</strong></p>
+        <ul style={{ margin: "0 0 10px", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+          {FIRST_3_SECONDS.patterns.map((p) => <li key={p}>{p}</li>)}
+        </ul>
+        <p style={{ ...body, margin: 0 }}>{FIRST_3_SECONDS.movementRule}</p>
       </section>
 
       {/* 4 — 25 HOOKS */}
@@ -365,7 +398,28 @@ export default function PlaybookPage() {
         <ul style={{ margin: "0 0 12px", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
           {IMPROVEMENT_RULES.map(([symptom, fix]) => <li key={symptom}><strong>{symptom},</strong> {fix.charAt(0).toLowerCase() + fix.slice(1)}</li>)}
         </ul>
-        <p style={{ ...body, margin: 0 }}>Use the analytics available on each platform. Metrics and definitions vary between platforms, so compare like with like. The Audience Reaction Lab above turns any of these symptoms into its fix.</p>
+        <p style={body}>Use the analytics available on each platform. Metrics and definitions vary between platforms, so compare like with like. The Audience Reaction Lab above turns any of these symptoms into its fix.</p>
+
+        <h3 style={h3style}>How the App Picks Winners</h3>
+        <p style={body}>{APP_PICKS_WINNERS.intro} The Viral Base breaks the mechanism into three steps:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {APP_PICKS_WINNERS.steps.map(([name, text], i) => (
+            <p key={name} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#f0abfc" }}>{i + 1}. {name}.</strong> <span style={{ color: "#f3e8ff" }}>{text}</span>
+            </p>
+          ))}
+        </div>
+        <p style={{ ...body, marginTop: 12 }}>{APP_PICKS_WINNERS.trend}</p>
+        <p style={{ ...body, margin: 0 }}><strong>Watch two numbers:</strong> {TESTING_LOOP.watchNumbers[0].toLowerCase()} — and {TESTING_LOOP.watchNumbers[1].toLowerCase()}. Find your strongest hooks and make more like them.</p>
+
+        <h3 style={h3style}>Test Small Changes Until One Jumps</h3>
+        <p style={body}>{TESTING_LOOP.intro}</p>
+        <ol style={{ margin: "0 0 12px", paddingLeft: 22, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 5 }}>
+          {TESTING_LOOP.steps.map((s) => <li key={s}>{s}</li>)}
+        </ol>
+        <ul style={{ margin: 0, paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+          {TESTING_LOOP.notes.map((n) => <li key={n}>{n}</li>)}
+        </ul>
       </section>
 
       {/* 7 — COMMENTS */}
@@ -398,7 +452,94 @@ export default function PlaybookPage() {
         <ol style={{ margin: "0 0 12px", paddingLeft: 22, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 6 }}>
           {PRODUCT_VIDEO_IDEAS.map((idea) => <li key={idea}>&ldquo;{idea}&rdquo;</li>)}
         </ol>
-        <p style={{ ...body, margin: 0 }}><strong>Important:</strong> Creators should disclose affiliate links and paid partnerships clearly, make honest claims, and never invent product results or personal experiences.</p>
+
+        <h3 style={h3style}>The Selling Formula: Stop the Scroll, Show the Value, Give the Cue</h3>
+        <p style={body}>Helpfulness earns the click; structure earns the sale. Lexie Viral Base 1 — built from 27 real selling videos — gives every product video three parts, each with one job, in this order:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+          {SELLING_FORMULA.map((s) => (
+            <div key={s.stage} style={card}>
+              <p style={{ margin: "0 0 8px", fontWeight: 800, fontSize: 16, color: "#f0abfc" }}>{s.stage}. {s.name} <span style={{ color: "#67e8f9", fontWeight: 700 }}>— {s.aka}</span></p>
+              <ul style={{ margin: 0, paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+                {s.tactics.map((t) => <li key={t}>{t}</li>)}
+              </ul>
+            </div>
+          ))}
+        </div>
+        <p style={{ ...card, marginTop: 14, fontWeight: 700, color: "#f0abfc" }}>On urgency, the Viral Base rule matches ours word for word: a real reason to act now — low stock, a live discount, a coupon that ends soon — <strong>only if it is true.</strong></p>
+
+        <h3 style={h3style}>The 4 C Check</h3>
+        <p style={body}>Run every selling video through the four Cs before you post:</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: 12 }}>
+          {FOUR_C.map(([name, text]) => (
+            <div key={name} style={card}>
+              <p style={{ margin: "0 0 5px", fontWeight: 800, fontSize: 14.5, color: "#67e8f9" }}>{name}</p>
+              <p style={{ margin: 0, fontSize: 14.5, color: "#f3e8ff" }}>{text}</p>
+            </div>
+          ))}
+        </div>
+
+        <h3 style={h3style}>A Ready Script: I Was Skeptical, But…</h3>
+        <p style={body}>One script the selling videos return to again and again — doubt first, proof second, a clear cue last:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {READY_SCRIPT.parts.map(([name, text], i) => (
+            <p key={name} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#f0abfc" }}>{i + 1}. {name}.</strong> <span style={{ color: "#f3e8ff" }}>{text}</span>
+            </p>
+          ))}
+        </div>
+        <p style={{ ...body, marginTop: 12 }}><strong style={{ color: "#67e8f9" }}>From the videos — two product videos that do all three:</strong> {READY_SCRIPT.examples}</p>
+
+        <h3 style={h3style}>One Video, Start to Finish</h3>
+        <p style={body}>The same three parts with rough timings, for a 30 to 45 second video. Bend it to fit the product:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {VIDEO_TIMELINE.map(([time, name, text]) => (
+            <p key={time} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#67e8f9" }}>{time} — {name}.</strong> <span style={{ color: "#f3e8ff" }}>{text}</span>
+            </p>
+          ))}
+        </div>
+
+        <h3 style={h3style}>What Kills the Sale, What Makes It</h3>
+        <p style={body}>Several of the 27 videos compare a video that sells with one that doesn&rsquo;t. Side by side, the difference looks like this:</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 14 }}>
+          <div style={card}>
+            <p style={{ margin: "0 0 8px", fontWeight: 800, fontSize: 15, color: "#fda4af" }}>✕ What kills the sale</p>
+            <ul style={{ margin: 0, paddingLeft: 20, color: "#f3e8ff", fontSize: 15, display: "flex", flexDirection: "column", gap: 4 }}>
+              {KILLS_THE_SALE.map((k) => <li key={k}>{k}</li>)}
+            </ul>
+          </div>
+          <div style={card}>
+            <p style={{ margin: "0 0 8px", fontWeight: 800, fontSize: 15, color: "#6ee7b7" }}>✓ What makes the sale</p>
+            <ul style={{ margin: 0, paddingLeft: 20, color: "#f3e8ff", fontSize: 15, display: "flex", flexDirection: "column", gap: 4 }}>
+              {MAKES_THE_SALE.map((m) => <li key={m}>{m}</li>)}
+            </ul>
+          </div>
+        </div>
+
+        <h3 style={h3style}>Fix a Weak Line</h3>
+        <p style={body}>One clip was nothing but swaps like these. Another put it in one line: the hook is not about you, it is about the viewer.</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Skip this</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Say this</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>The move</th>
+              </tr>
+            </thead>
+            <tbody>
+              {LINE_FIXES.map(([skip, say, move]) => (
+                <tr key={skip}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>&ldquo;{skip}&rdquo;</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>&ldquo;{say}&rdquo;</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{move}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <p style={{ ...body, margin: "16px 0 0" }}><strong>Important:</strong> Creators should disclose affiliate links and paid partnerships clearly, make honest claims, and never invent product results or personal experiences.</p>
       </section>
 
       {/* 9 — FANS / SERIES */}
@@ -417,7 +558,45 @@ export default function PlaybookPage() {
         <ul style={{ margin: "0 0 12px", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
           {CREATOR_IDENTITY.map((s) => <li key={s}>{s}</li>)}
         </ul>
-        <p style={{ ...body, margin: 0 }}>People should eventually recognize the creator before they even see the username. The <Link href="/academy" style={linkStyle}>Creator Academy</Link> turns each of these skills into a working lesson.</p>
+        <p style={body}>People should eventually recognize the creator before they even see the username. The <Link href="/academy" style={linkStyle}>Creator Academy</Link> turns each of these skills into a working lesson.</p>
+
+        <h3 style={h3style}>Why People Hit Share</h3>
+        <p style={body}><strong>When we care, we share.</strong> The Viral Base borrows the six reasons people pass things on from Jonah Berger&rsquo;s <em>Contagious</em> — the same forces that turn a viewer into someone who brings you new viewers:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {SHARE_REASONS.map((r) => (
+            <p key={r.name} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#f0abfc" }}>{r.name} — &ldquo;{r.quote}&rdquo;</strong> <span style={{ color: "#f3e8ff" }}>{r.text}</span>
+            </p>
+          ))}
+        </div>
+        <p style={{ ...body, marginTop: 12 }}><strong>Feelings first.</strong> Curiosity gets the click. Frustration makes them see the problem. Amazement makes the fix stick, and makes them share it:</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>What the viewer feels</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>What the viewer thinks</th>
+              </tr>
+            </thead>
+            <tbody>
+              {FEELINGS_TABLE.map(([feeling, thought]) => (
+                <tr key={feeling}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>{feeling}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>&ldquo;{thought}&rdquo;</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{ ...body, marginTop: 12 }}><strong>The biggest mistake:</strong> working hard on the message and forgetting the feeling. If a video makes people feel nothing, nobody shares it. And yes — bad feelings work too: people share more in a good mood and in a bad mood, because sharing is one way people deal with what they feel. The goal is not just a view. The goal is &ldquo;I never thought about it that way!&rdquo;</p>
+
+        <h3 style={h3style}>Hide the Brand Inside a Story</h3>
+        <p style={body}>{TROJAN_HORSE.intro}</p>
+        <p style={{ ...body, marginBottom: 6 }}><strong style={{ color: "#67e8f9" }}>From the videos — how the best-selling ones do it:</strong></p>
+        <ul style={{ margin: "0 0 12px", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+          {TROJAN_HORSE.tactics.map((t) => <li key={t}>{t}</li>)}
+        </ul>
+        <p style={{ ...card, margin: 0, fontWeight: 700, color: "#f0abfc" }}>{TROJAN_HORSE.trustLine}</p>
       </section>
 
       {/* 10 — CHALLENGE + GOLDEN RULES + FINAL MESSAGE */}
