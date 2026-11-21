@@ -1,0 +1,568 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/dippin-daisys/",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://linkclicky.com/affiliate-program/dippin-daisys/"
+    },
+    "category_slug": "fashion",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://linkclicky.com/affiliate-program/dippin-daisys/",
+        "email": null,
+        "source_url": "https://linkclicky.com/affiliate-program/dippin-daisys/"
+      }
+    ],
+    "country": "United States",
+    "description": "US women-owned swimwear brand selling bikinis, one-pieces, cover-ups and matching sets made with recycled fabrics, with frequent new drops and 8,500+ five-star reviews claimed on its homepage.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/dippin-daisys/",
+        "summary": "LinkClicky's ShareASale program listing for Dippin' Daisy's states the program runs on ShareASale, pays 10% per sale with a 30-day cookie, and is open in all regions. The brand also runs a separate ambassador route via a Google form at a lower 5% code-based rate; the ShareASale program is the stronger, featured route. No fetched page states an earnings cap, so commission_cap is unknown, and no absolute creator-count evidence was found, so creator_saturation is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://www.dippindaisys.com",
+        "summary": "The brand's own homepage presents a women-owned swimwear label selling bikinis, one-pieces and sets made from recycled fabrics, claiming over 8,500 five-star reviews."
+      }
+    ],
+    "name": "Dippin' Daisy's",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/dippin-daisys/",
+      "source_url": "https://linkclicky.com/affiliate-program/dippin-daisys/",
+      "title": "Dippin' Daisy's Affiliate Program (ShareASale) \u2014 10% per sale"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 8,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "10% per sale on ShareASale with a 30-day cookie is mid-range for swimwear; no earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "Application runs through the ShareASale listing; no direct program email is published on the fetched pages.",
+        "credibility": "Established DTC swim label with a substantial claimed review base (8,500+ five-star reviews on its homepage).",
+        "niche_fit": "Swimwear is highly visual and seasonal-fashion friendly, a natural fit for short-form try-on and beach content.",
+        "opportunity_availability": "Open network application on ShareASale, available in all regions per the listing.",
+        "ugc_evidence": "An active ShareASale program plus a separate ambassador application route show the brand works with promoters, though no paid-content campaign terms are published."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.dippindaisys.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/blackbough-swim/",
+      "commission_cap": "unknown",
+      "commission_rate": 12,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://linkclicky.com/affiliate-program/blackbough-swim/"
+    },
+    "category_slug": "fashion",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://linkclicky.com/affiliate-program/blackbough-swim/",
+        "email": null,
+        "source_url": "https://linkclicky.com/affiliate-program/blackbough-swim/"
+      }
+    ],
+    "country": "Philippines",
+    "description": "Filipino swimwear label founded in Manila in 2017 by Jemina Ty, selling bikinis, one-pieces and beachwear under the line 'Designed for the Tropical Soul', with a large social-first audience.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/blackbough-swim/",
+        "summary": "LinkClicky's ShareASale program listing for Blackbough Swim states the program runs on ShareASale, pays 12% per sale with a 15-day cookie, and is open in all regions. No fetched page states an earnings cap, so commission_cap is unknown, and no absolute creator-count evidence was found, so creator_saturation is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://blackboughswim.com",
+        "summary": "The brand's own homepage sells bikinis, one-pieces, beachwear and accessories and invites customers to tag @blackboughswim on Instagram to be featured; the verified Instagram profile has about 989K followers. Philippine press coverage (Zalora Philippines / Lazada Brand Wiki) records the brand was founded in Manila in 2017 by Jemina Ty."
+      }
+    ],
+    "name": "Blackbough Swim",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/blackbough-swim/",
+      "source_url": "https://linkclicky.com/affiliate-program/blackbough-swim/",
+      "title": "Blackbough Swim Affiliate Program (ShareASale) \u2014 12% per sale"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 8,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "12% per sale is above average for swimwear; the 15-day cookie is short, and no earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "Application runs through the ShareASale listing; no direct program email is published on the fetched pages.",
+        "credibility": "Founded 2017 in Manila, grown into an eight-figure global DTC label per Philippine press coverage, with a verified ~989K-follower Instagram.",
+        "niche_fit": "Tropical swimwear with strong Gen-Z social traction is a natural fit for swim and vacation content.",
+        "opportunity_availability": "Open network application on ShareASale, available in all regions per the listing.",
+        "ugc_evidence": "The brand actively features customer and creator posts ('tag us to be featured') and runs an open ShareASale program, though no paid-brief terms are published."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/blackboughswim"
+      }
+    ],
+    "website": "https://blackboughswim.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/ten-thousand/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://linkclicky.com/affiliate-program/ten-thousand/"
+    },
+    "category_slug": "fashion",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://linkclicky.com/affiliate-program/ten-thousand/",
+        "email": null,
+        "source_url": "https://linkclicky.com/affiliate-program/ten-thousand/"
+      }
+    ],
+    "country": "United States",
+    "description": "US men's performance training apparel brand founded in 2014, engineering premium workout shorts, shirts and training gear for hybrid and strength athletes.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/ten-thousand/",
+        "summary": "LinkClicky's program listing for Ten Thousand states the program runs on Impact and pays 1%-2% per sale; Lasso's program page reports 1.6% per sale with a 30-day cookie, which sits inside that range, and a network EPC listing reports about 1%. Because the sources publish a range rather than one rate, commission_rate is recorded as null with the 1-2% range documented here; a Shopper.com listing claiming 5-10% is generic boilerplate that conflicts with the network-profile reporting and is not used. No fetched page states an earnings cap, so commission_cap is unknown, and no absolute creator-count evidence was found, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Ten Thousand",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/ten-thousand/",
+      "source_url": "https://linkclicky.com/affiliate-program/ten-thousand/",
+      "title": "Ten Thousand Affiliate Program (Impact) \u2014 1-2% per sale"
+    },
+    "score": {
+      "compensation": 4,
+      "contact_access": 8,
+      "credibility": 4,
+      "niche_fit": 22,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Only 1-2% per sale (Lasso reports 1.6%) \u2014 the lowest rate in this group \u2014 and no earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "Application runs through the Impact listing; no direct program email is published on the fetched pages.",
+        "credibility": "Established US performance-apparel brand founded in 2014 with national recognition in the training niche.",
+        "niche_fit": "Men's training apparel fits fitness-fashion content, though the audience is narrower than general fashion.",
+        "opportunity_availability": "Open network application on Impact.",
+        "ugc_evidence": "An open Impact program is the main creator evidence; no published creator briefs or campaign terms were found on the fetched pages."
+      },
+      "ugc_evidence": 9
+    },
+    "socials": [],
+    "website": "https://tenthousand.cc"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.toms.com/pages/toms-besties-program-terms-conditions",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": "Own program (Buzzbassador)",
+      "source_url": "https://www.toms.com/pages/toms-besties-program-terms-conditions"
+    },
+    "category_slug": "fashion",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.toms.com/pages/toms-besties-program-terms-conditions",
+        "email": "besties@toms.com",
+        "source_url": "https://www.toms.com/pages/toms-besties-program-terms-conditions"
+      }
+    ],
+    "country": "United States",
+    "description": "American footwear and lifestyle brand selling shoes and accessories for women, men and kids, known for its impact and giving model; runs the TOMS Besties creator and ambassador program.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.toms.com/pages/toms-besties-program-terms-conditions",
+        "summary": "TOMS' own Besties Program Terms & Conditions (fetched in full from toms.com) set out three tiers paid on net sales (after discounts, taxes and shipping): Creator Tier 15%, Fan Tier 10%, Customer Tier 10%. The program runs through Buzzbassador, pays monthly via Tremendous in cash or, at TOMS' discretion, store credit (not store-credit-only, so it passes the exclusion), and names besties@toms.com as the program contact. The Creator Tier rate of 15 is recorded with the lower tiers documented here. The terms state no earnings cap, so commission_cap is unknown, and no absolute member-count evidence was found, so creator_saturation is unknown."
+      }
+    ],
+    "name": "TOMS",
+    "opportunity": {
+      "application_url": "https://www.toms.com/pages/toms-besties-program-terms-conditions",
+      "source_url": "https://www.toms.com/pages/toms-besties-program-terms-conditions",
+      "title": "TOMS Besties Program (Buzzbassador) \u2014 Creator Tier 15% of net sales"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 14,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Creator Tier pays 15% of net sales \u2014 the strongest verified fashion rate in this group; Fan and Customer tiers pay 10%. No earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "A published program email (besties@toms.com) plus full terms on the brand's own domain is the best contact access in this group.",
+        "credibility": "A globally recognized footwear brand founded in 2006 with a long-standing giving model.",
+        "niche_fit": "Everyday footwear with a strong impact story fits fashion, lifestyle and cause-driven content well.",
+        "opportunity_availability": "Open application through Buzzbassador; tier assignment is at TOMS' discretion.",
+        "ugc_evidence": "A named Creator Tier with published terms, FTC disclosure rules and paid promotion through codes and links shows a structured, active creator program."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [],
+    "website": "https://www.toms.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/olukai/",
+      "commission_cap": "unknown",
+      "commission_rate": 12,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://linkclicky.com/affiliate-program/olukai/"
+    },
+    "category_slug": "fashion",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://linkclicky.com/affiliate-program/olukai/",
+        "email": null,
+        "source_url": "https://linkclicky.com/affiliate-program/olukai/"
+      }
+    ],
+    "country": "United States",
+    "description": "Premium Hawaiian-inspired footwear brand crafting sandals, shoes and boots that blend ocean culture with modern performance.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/olukai/",
+        "summary": "LinkClicky's ShareASale program listing for OluKai states the program runs on ShareASale, pays 12% per sale with a 7-day cookie, and is open in all regions. (OluKai's separate refer-a-friend scheme pays only store credit and is not the program recorded here.) No fetched page states an earnings cap, so commission_cap is unknown, and no absolute creator-count evidence was found, so creator_saturation is unknown."
+      }
+    ],
+    "name": "OluKai",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/olukai/",
+      "source_url": "https://linkclicky.com/affiliate-program/olukai/",
+      "title": "OluKai Affiliate Program (ShareASale) \u2014 12% per sale"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 8,
+      "credibility": 5,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "12% per sale is solid for premium footwear, but the 7-day cookie is the shortest in this group; no earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "Application runs through the ShareASale listing; no direct program email is published on the fetched pages.",
+        "credibility": "Established premium footwear brand with national retail distribution and a strong quality reputation.",
+        "niche_fit": "Premium sandals and shoes fit travel, beach and everyday-style content, though the niche is narrower than apparel.",
+        "opportunity_availability": "Open network application on ShareASale, available in all regions per the listing.",
+        "ugc_evidence": "An open ShareASale program is the main creator evidence; no published creator campaigns or briefs were found on the fetched pages."
+      },
+      "ugc_evidence": 10
+    },
+    "socials": [],
+    "website": "https://olukai.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/6394?setLocale=sv_SE",
+      "commission_cap": "unknown",
+      "commission_rate": 4,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/6394?setLocale=sv_SE"
+    },
+    "category_slug": "travel",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://ui.awin.com/merchant-profile/6394?setLocale=sv_SE",
+        "email": null,
+        "source_url": "https://ui.awin.com/merchant-profile/6394?setLocale=sv_SE"
+      }
+    ],
+    "country": "United States",
+    "description": "Global internet media company and trusted publisher of travel, entertainment and local deals, whose deals average 40\u201350% savings; local-deal vouchers and hotels are booked through travelzoo.com.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://ui.awin.com/merchant-profile/6394?setLocale=sv_SE",
+        "summary": "Travelzoo's own Awin merchant profile (US & Canada program, AID 6394) states a standard commission of 4% on the sale amount for local deals and getaways and 4% for hotel deals booked on its platform, with commission approved post-consumption. The profile also states publisher applications generally want a minimum of 500K unique visitors or 50K+ subscribers, with exceptions possible \u2014 an eligibility threshold, not a creator count, so creator_saturation is unknown. Two conflicts are documented and not used: an older Awin publisher cheat sheet lists Travelzoo at 8%, and LinkClicky lists a flat $2\u2013$5 per sale. The current merchant profile's 4% is recorded. No earnings-cap statement appears, so commission_cap is unknown."
+      }
+    ],
+    "name": "Travelzoo",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/6394?setLocale=sv_SE",
+      "source_url": "https://ui.awin.com/merchant-profile/6394?setLocale=sv_SE",
+      "title": "Travelzoo Affiliate Program (Awin) \u2014 4% on local and hotel deals"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 9,
+      "credibility": 5,
+      "niche_fit": 22,
+      "opportunity_availability": 5,
+      "reasons": {
+        "compensation": "4% on local and hotel deals per the current Awin merchant profile; older Awin material says 8% and a listing says $2\u2013$5 flat, both documented as conflicts. No earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "Full program terms and application route are published on the Awin merchant profile; no direct email is published.",
+        "credibility": "A long-established, publicly traded travel-deals publisher with a 93% customer review score cited on its Awin profile.",
+        "niche_fit": "Curated travel and local deals are easy to build deal-hunt and getaway content around.",
+        "opportunity_availability": "Application is selective: the profile asks for roughly 500K unique visitors or 50K+ subscribers, with exceptions possible.",
+        "ugc_evidence": "The program is publisher-oriented (data feeds, deal links); no creator-specific briefs or campaigns are published on the profile."
+      },
+      "ugc_evidence": 8
+    },
+    "socials": [],
+    "website": "https://www.travelzoo.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.redballoon.com.au/affiliate-program.html",
+      "commission_cap": "unknown",
+      "commission_rate": 3,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://www.redballoon.com.au/affiliate-program.html"
+    },
+    "category_slug": "travel",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.redballoon.com.au/affiliate-program.html",
+        "email": null,
+        "source_url": "https://www.redballoon.com.au/affiliate-program.html"
+      }
+    ],
+    "country": "Australia",
+    "description": "Australia's leading online experience retailer, part of Big Red Group (BRG), selling 5,000+ giftable experiences across Australia.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.redballoon.com.au/affiliate-program.html",
+        "summary": "RedBalloon's own partnership page states BRG (Big Red Group) affiliates include content creators and publishers, that the program runs on Impact.com for tracking and payouts (paid 50\u201375 days after the completed action), that affiliates may create their own authentic content, that invite-only briefs offer set compensation and free experiences, and that every $2,000 driven in last-click sales unlocks free experiences to trial. The brand's own affiliate guidelines PDF sets approval minimums of 3K social followers or 20K monthly Australian web visitors \u2014 eligibility minimums, not creator counts, so creator_saturation is unknown. No earnings-cap statement appears, so commission_cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/redballoon/",
+        "summary": "LinkClicky's Impact program listing for RedBalloon reports 3% per sale; 3 is recorded. A Shopper.com listing claiming 5\u201310% is generic boilerplate that conflicts with the network-profile reporting and is documented here but not used."
+      }
+    ],
+    "name": "RedBalloon",
+    "opportunity": {
+      "application_url": "https://www.redballoon.com.au/affiliate-program.html",
+      "source_url": "https://www.redballoon.com.au/affiliate-program.html",
+      "title": "RedBalloon Partnership Program (Impact) \u2014 3% per sale"
+    },
+    "score": {
+      "compensation": 7,
+      "contact_access": 10,
+      "credibility": 4,
+      "niche_fit": 23,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "3% per sale (network-profile reporting) is low for the niche, partly offset by free experiences per $2,000 in sales; no earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "A dedicated partnership page on the brand's own domain with the Impact application route and published guidelines.",
+        "credibility": "Australia's leading experience retailer with 5,000+ experiences, part of Big Red Group.",
+        "niche_fit": "Giftable experiences are made for first-person travel and lifestyle content, and the brand explicitly recruits creators who share experiences.",
+        "opportunity_availability": "Open Impact application with published, reachable minimums (3K social followers or 20K monthly AU visitors).",
+        "ugc_evidence": "The own partnership page and guidelines PDF directly address content creators, encourage original content, and describe invite-only paid briefs and free-experience trials."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://www.redballoon.com.au"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.ivisa.com/affiliate-terms-and-conditions",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Own program (in-house)",
+      "source_url": "https://www.ivisa.com/affiliate-terms-and-conditions"
+    },
+    "category_slug": "travel",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://www.ivisa.com/affiliate-terms-and-conditions",
+        "email": null,
+        "source_url": "https://www.ivisa.com/affiliate-terms-and-conditions"
+      }
+    ],
+    "country": "United States",
+    "description": "Online travel-document processing service that helps travelers apply for eVisas, visas and travel health declarations, paying affiliates monthly on tracked sales.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.ivisa.com/affiliate-terms-and-conditions",
+        "summary": "iVisa's own Affiliate Program Terms & Conditions confirm an in-house program: affiliates earn commission on travel-document sales via tracked links (cookie plus IP tracking), are paid on the 15th of each month with a $50 minimum threshold, and must be 18+. The terms deliberately do not publish a percentage ('the commission percentage agreed upon'), and third-party figures conflict \u2014 Lasso reports 10\u201315% per sale, a Daisycon listing reports 8.4%, and Shopper boilerplate says 5\u201310% \u2014 so commission_rate is recorded as null with the conflict documented. The terms state no earnings cap, so commission_cap is unknown, and no absolute creator-count evidence was found, so creator_saturation is unknown."
+      }
+    ],
+    "name": "iVisa",
+    "opportunity": {
+      "application_url": "https://www.ivisa.com/affiliate-terms-and-conditions",
+      "source_url": "https://www.ivisa.com/affiliate-terms-and-conditions",
+      "title": "iVisa Affiliate Partner Program (in-house) \u2014 rate set in agreement"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 9,
+      "credibility": 4,
+      "niche_fit": 21,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "The own terms publish no rate and third-party figures conflict (10\u201315% vs 8.4% vs 5\u201310%), so the rate is honestly recorded as null; payouts are monthly above a $50 threshold. No earnings cap is stated, so the cap is unknown.",
+        "contact_access": "Full program terms are published on the brand's own domain with the signup route; no direct program email is published.",
+        "credibility": "One of the leading online travel-document processors, operating since 2013.",
+        "niche_fit": "Visa and entry-requirement help is a recurring, practical topic for travel creators planning international trips.",
+        "opportunity_availability": "Open in-house signup, 18+, with approval per the terms.",
+        "ugc_evidence": "The in-house program is publisher-oriented; no creator briefs or campaign terms are published in the terms."
+      },
+      "ugc_evidence": 8
+    },
+    "socials": [],
+    "website": "https://www.ivisa.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/vacaya/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://linkclicky.com/affiliate-program/vacaya/"
+    },
+    "category_slug": "travel",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "contact_url": "https://linkclicky.com/affiliate-program/vacaya/",
+        "email": null,
+        "source_url": "https://linkclicky.com/affiliate-program/vacaya/"
+      }
+    ],
+    "country": "United States",
+    "description": "LGBTQ+ vacation company running full-ship cruise and full-resort charter vacations worldwide, welcoming solo travelers, couples, friends and straight allies.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/vacaya/",
+        "summary": "LinkClicky's ShareASale program listing for VACAYA states the program runs on ShareASale and pays a flat $100 per lead plus $1 per sale with a 90-day cookie, open in all regions; because the payout is a flat bounty rather than a percentage, commission_rate is null and the flat structure is documented here. VACAYA's own ShareASale signup instructions PDF (hosted on the brand's cdn.myvacaya.com) confirms the ShareASale application route and includes 'VACAYA Influencer' as an applicant category. No fetched page states an earnings cap, so commission_cap is unknown, and no absolute creator-count evidence was found, so creator_saturation is unknown."
+      }
+    ],
+    "name": "VACAYA",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/vacaya/",
+      "source_url": "https://linkclicky.com/affiliate-program/vacaya/",
+      "title": "VACAYA Affiliate Program (ShareASale) \u2014 flat $100 per lead + $1 per sale"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 8,
+      "credibility": 3,
+      "niche_fit": 20,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Flat $100 per lead is a strong bounty for travel content, though the $1 per-sale amount is token; the 90-day cookie is the longest in this group. No earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "Application runs through the ShareASale listing and the brand's own signup instructions; no direct program email is published.",
+        "credibility": "An established specialist charter-vacation operator, smaller and more niche than the mainstream travel brands in this group.",
+        "niche_fit": "A distinctive LGBTQ+ travel niche with strong community content potential, but a narrower audience than mainstream travel.",
+        "opportunity_availability": "Open network application on ShareASale, available in all regions per the listing.",
+        "ugc_evidence": "The brand's own signup instructions include an explicit 'VACAYA Influencer' applicant category, showing creators are a deliberate channel."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.myvacaya.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.aerlingus.com/about-us/partnerships/affiliate-programme/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://www.aerlingus.com/about-us/partnerships/affiliate-programme/"
+    },
+    "category_slug": "travel",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": "https://www.aerlingus.com/about-us/partnerships/affiliate-programme/",
+        "email": "aerlingusaffiliates@omnicommediagroup.com",
+        "source_url": "https://www.aerlingus.com/about-us/partnerships/affiliate-programme/"
+      }
+    ],
+    "country": "Ireland",
+    "description": "Ireland's national airline, established in 1936, operating over 100 routes across Ireland, the UK, Europe and North America.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://www.aerlingus.com/about-us/partnerships/affiliate-programme/",
+        "summary": "Aer Lingus' official affiliate programme page states the programme is managed by Omnicom Media Group on Impact Radius, pays 1\u20132.5% commission for every booking driven, uses a 30-day cookie, pays no commission on Ireland-originating bookings or Avios purchases, and gives aerlingusaffiliates@omnicommediagroup.com as the contact. Because the official page publishes a range rather than a single rate (and third-party listings vary, e.g. 1\u20132.25%), commission_rate is recorded as null with the range documented. The page's 'more than 2,000 sales per month' is sales volume, not a creator count, so creator_saturation is unknown. No earnings-cap statement appears, so commission_cap is unknown."
+      }
+    ],
+    "name": "Aer Lingus",
+    "opportunity": {
+      "application_url": "https://www.aerlingus.com/about-us/partnerships/affiliate-programme/",
+      "source_url": "https://www.aerlingus.com/about-us/partnerships/affiliate-programme/",
+      "title": "Aer Lingus Affiliate Programme (Impact) \u2014 1\u20132.5% per booking"
+    },
+    "score": {
+      "compensation": 6,
+      "contact_access": 13,
+      "credibility": 5,
+      "niche_fit": 22,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "1\u20132.5% per booking on the official page is low, as is typical for airlines, and is recorded as a documented range with the rate null. No earnings cap is stated, so the cap is honestly unknown.",
+        "contact_access": "A named programme contact email at the managing agency is published on the official page \u2014 rare for an airline program.",
+        "credibility": "Ireland's national airline since 1936, part of IAG, with 100+ routes.",
+        "niche_fit": "A flag-carrier airline fits Ireland and transatlantic travel content, though flight booking is a lower-frequency purchase.",
+        "opportunity_availability": "Open application via Impact Radius, reviewed by the Omnicom team for suitability.",
+        "ugc_evidence": "The programme is publisher-focused (no PPC or browser-extension affiliates); no creator briefs are published on the official page."
+      },
+      "ugc_evidence": 8
+    },
+    "socials": [],
+    "website": "https://www.aerlingus.com"
+  }
+]

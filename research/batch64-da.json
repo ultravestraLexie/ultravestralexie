@@ -1,0 +1,555 @@
+[
+ {
+  "name": "Jamie Anne",
+  "website": "https://jamieanne.co",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare brand founded by aesthetician Jamie of Jamie Anne Aesthetics, selling its own skincare line through jamieanne.co and running 'The Healthy Skin Club' ambassador program for creators through Roster.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://jamieanne.co/pages/ambassadors",
+    "email": null,
+    "source_url": "https://jamieanne.co/pages/ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://jamieanne.co/pages/ambassadors",
+    "summary": "Jamie Anne's own ambassadors page ('The Healthy Skin Club', run via Roster) publishes the pay structure: 20% commission on Jamie Anne products and 10% on everything else from day one, rising to 30% on Jamie Anne products at the Inner Circle tier; followers get 10% off their first order. There is no follower-count gate (US-based, 18+), commissions are tracked and paid monthly via Roster, ambassadors receive free product through content campaigns, and higher tiers carry product credits of $200+. The page calls the program brand new and recruiting founding ambassadors, but publishes no absolute creator counts, so saturation is recorded as unknown; no earnings-cap statement is published, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://jamieanne.co/pages/ambassadors",
+    "summary": "The page presents the brand as the skincare line of founder Jamie (Jamie Anne Aesthetics) and the ambassador program as a four-tier creator program with product credits, confirming a consumer skincare brand selling through its own store."
+   }
+  ],
+  "affiliate": {
+   "network": "Roster",
+   "commission_rate": 20,
+   "application_url": "https://jamieanne.co/pages/ambassadors",
+   "source_url": "https://jamieanne.co/pages/ambassadors",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://jamieanne.co/pages/ambassadors",
+   "source_url": "https://jamieanne.co/pages/ambassadors",
+   "title": "The Healthy Skin Club ambassador program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 18,
+   "compensation": 17,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Skincare-first brand whose ambassador program is built specifically for beauty and skincare creators.",
+    "ugc_evidence": "Program page recruits content creators as founding ambassadors, with free product through content campaigns and tiered product credits.",
+    "compensation": "20% on the brand's own products from day one (10% on other products), rising to 30% at the Inner Circle tier; monthly payouts via Roster.",
+    "contact_access": "Open application page on the brand's own site; no direct email published.",
+    "opportunity_availability": "Applications open now with no follower-count gate; US-based and 18+ only.",
+    "credibility": "Esthetician-founded brand selling through its own store with published program terms."
+   }
+  }
+ },
+ {
+  "name": "Om Organics",
+  "website": "https://omskin.com",
+  "country": "Canada",
+  "category_slug": "skincare",
+  "description": "Canadian clean skincare brand selling plant-based skincare through omskin.com, running its own affiliate and ambassador program that pays commission on every referred sale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://omskin.com/pages/affiliate-ambassador-terms-conditions",
+    "email": null,
+    "source_url": "https://omskin.com/pages/affiliate-ambassador-terms-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://omskin.com/pages/affiliate-ambassador-terms-conditions",
+    "summary": "Om Organics' own affiliate and ambassador terms page states: 'Earn a 15% commission on every sale referred through your unique affiliate code or link.' Applications are accepted at the brand's sole discretion and active ambassadors receive product refills. The terms publish no earnings-cap statement, so the cap is recorded as unknown, and no creator counts, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://omskin.com/pages/affiliate-ambassador-terms-conditions",
+   "source_url": "https://omskin.com/pages/affiliate-ambassador-terms-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://omskin.com/pages/affiliate-ambassador-terms-conditions",
+   "source_url": "https://omskin.com/pages/affiliate-ambassador-terms-conditions",
+   "title": "Om Organics affiliate & ambassador program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean, plant-based skincare is a core beauty-creator niche.",
+    "ugc_evidence": "Ambassador side of the program includes product refills for active ambassadors, indicating ongoing creator relationships.",
+    "compensation": "Flat 15% commission on every referred sale, stated in the brand's own terms.",
+    "contact_access": "Program terms and application route are published on the brand's own site; no direct email published.",
+    "opportunity_availability": "Applications open, but acceptance is at the brand's sole discretion.",
+    "credibility": "Established Canadian clean-beauty brand selling through its own store."
+   }
+  }
+ },
+ {
+  "name": "Foxy Locks",
+  "website": "https://foxylocks.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK hair brand selling luxury hair extensions, lashes and hair care through foxylocks.com, with an affiliate program hosted on Awin.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://foxylocks.com/affiliates/?setCurrencyId=1",
+    "email": null,
+    "source_url": "https://foxylocks.com/affiliates/?setCurrencyId=1"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://foxylocks.com/affiliates/?setCurrencyId=1",
+    "summary": "Foxy Locks' own affiliates page publishes an 8% commission with a £120 average order value and states the program runs on Awin (join via ui.awin.com). The page publishes no earnings-cap statement and no creator counts, so cap and saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 8,
+   "application_url": "https://foxylocks.com/affiliates/?setCurrencyId=1",
+   "source_url": "https://foxylocks.com/affiliates/?setCurrencyId=1",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://foxylocks.com/affiliates/?setCurrencyId=1",
+   "source_url": "https://foxylocks.com/affiliates/?setCurrencyId=1",
+   "title": "Foxy Locks affiliate program (Awin)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hair extensions and lashes are a high-demand beauty-creator category.",
+    "ugc_evidence": "The brand runs a public affiliate page aimed at promoters of its extensions and hair care.",
+    "compensation": "8% commission, partly offset by a high £120 average order value published on the program page.",
+    "contact_access": "Dedicated affiliates page on the brand's own site with the Awin join route.",
+    "opportunity_availability": "Open to join through Awin.",
+    "credibility": "Long-running UK extensions brand selling through its own store."
+   }
+  }
+ },
+ {
+  "name": "Oh Beauty",
+  "website": "https://ohbeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US online beauty retailer bridging medical spas and online retail, selling premium skincare, makeup and at-home beauty devices through ohbeauty.com, with an affiliate program on Awin.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/50605",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/50605"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/50605",
+    "summary": "Oh Beauty's official Awin merchant profile publishes a 5% standard commission on all sales, up to 10% for premium placement, a 90-day cookie and an average sale value of $200. The profile publishes no earnings-cap statement and no creator counts, so cap and saturation are recorded as unknown. The recorded rate is the 5% standard rate."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://ui.awin.com/merchant-profile/50605",
+   "source_url": "https://ui.awin.com/merchant-profile/50605",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/50605",
+   "source_url": "https://ui.awin.com/merchant-profile/50605",
+   "title": "Oh Beauty affiliate program (Awin)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium skincare, makeup and beauty devices fit beauty creators; as a retailer it is slightly less niche-pure than a single brand.",
+    "ugc_evidence": "Runs a public affiliate program on Awin with a premium-placement tier.",
+    "compensation": "5% standard commission (up to 10% for premium placement) with a high $200 average sale value and a long 90-day cookie.",
+    "contact_access": "Join route is the Awin merchant profile; no direct brand contact published there.",
+    "opportunity_availability": "Open to apply through Awin.",
+    "credibility": "Established US beauty retailer positioned between medical spas and online retail."
+   }
+  }
+ },
+ {
+  "name": "Aavrani",
+  "website": "https://aavrani.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare brand inspired by Ayurvedic beauty rituals, founded in 2018 by Rooshy Roy, selling through aavrani.com with an affiliate program on ShareASale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/aavrani/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/aavrani/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/aavrani/",
+    "summary": "Lasso's Aavrani program page reports 20% per sale with a 30-day cookie, and its join button routes to ShareASale, confirming the program runs on ShareASale. RATE CONFLICT: Shopper lists a 5-10% payout and InfluencerRate lists up to 5%, which conflict with Lasso's 20%, so commission_rate is recorded as null with the conflict documented here. No earnings-cap statement or creator counts are published, so cap and saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/aavrani/",
+   "source_url": "https://getlasso.co/affiliate/aavrani/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/aavrani/",
+   "source_url": "https://getlasso.co/affiliate/aavrani/",
+   "title": "Aavrani affiliate program (ShareASale)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ayurvedic-inspired skincare is a distinctive, creator-friendly skincare niche.",
+    "ugc_evidence": "The program is marketed to influencers and content creators through its ShareASale listing.",
+    "compensation": "Rate could not be verified: directories conflict (20% vs 5-10% vs up to 5%), so no rate is recorded.",
+    "contact_access": "Join route is via ShareASale; no direct brand email published.",
+    "opportunity_availability": "Open to apply through ShareASale, subject to brand approval.",
+    "credibility": "Founded in 2018 and sells through its own store and major beauty retail."
+   }
+  }
+ },
+ {
+  "name": "Cleure",
+  "website": "https://cleure.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US brand making fragrance-free skincare, hair care, body care and oral care for sensitive and allergy-prone skin, sold through cleure.com with an affiliate program administered through ShareASale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.cleure.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://www.cleure.com/pages/affiliate"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "customersupport@cleure.com",
+    "source_url": "https://www.cleure.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.cleure.com/pages/affiliate",
+    "summary": "Cleure's own affiliate page ('Cleure Ambassador') invites content creators with a beauty or skincare audience to earn commissions on cleure.com sales, with a reporting dashboard, monthly payment reports and a dedicated affiliate management team; the application routes to ShareASale. The page says only that affiliates earn 'a percentage of that sale' and publishes no rate, so commission_rate is recorded as null. No earnings-cap statement or creator counts are published, so cap and saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://www.cleure.com/pages/affiliate",
+   "source_url": "https://www.cleure.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.cleure.com/pages/affiliate",
+   "source_url": "https://www.cleure.com/pages/affiliate",
+   "title": "Cleure Ambassador affiliate program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sensitive and allergy-prone skin is a defined skincare niche with a loyal audience.",
+    "ugc_evidence": "The brand's own page explicitly recruits content creators and offers to share affiliate posts for exposure.",
+    "compensation": "The brand publishes no commission rate, so compensation cannot be scored higher.",
+    "contact_access": "Dedicated affiliate page plus a published customer support email (customersupport@cleure.com) on the brand's own site.",
+    "opportunity_availability": "Free to join via the ShareASale application linked from the brand's page.",
+    "credibility": "US-made, dermatologist-recommended sensitive-skin brand selling through its own store."
+   }
+  }
+ },
+ {
+  "name": "Natasha Denona",
+  "website": "https://natashadenona.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Prestige makeup brand founded by makeup artist Natasha Denona, selling through natashadenona.com and retailers worldwide, and running its own affiliate program operated by Natasha Denona Makeup LLC.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.natashadenona.eu/pages/affiliate-program-terms-and-conditions",
+    "email": null,
+    "source_url": "https://www.natashadenona.eu/pages/affiliate-program-terms-and-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.natashadenona.eu/pages/affiliate-program-terms-and-conditions",
+    "summary": "Natasha Denona's official affiliate program terms (Natasha Denona Makeup LLC, effective July 7, 2025) confirm an application-and-approval program for bloggers and social media creators: affiliates earn 'a commission of a certain percentage' and the brand 'reserves the right to offer each affiliate a different commission rate upon its sole discretion' — the rate is not published (affiliates are even barred from disclosing it), so commission_rate is recorded as null. Commissions are paid monthly by bank transfer with a €150 minimum payout. The terms publish no earnings-cap statement and no creator counts, so cap and saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.natashadenona.eu/pages/affiliate-program-terms-and-conditions",
+   "source_url": "https://www.natashadenona.eu/pages/affiliate-program-terms-and-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.natashadenona.eu/pages/affiliate-program-terms-and-conditions",
+   "source_url": "https://www.natashadenona.eu/pages/affiliate-program-terms-and-conditions",
+   "title": "Natasha Denona Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 6,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Prestige makeup with very high creator demand and strong tutorial content fit.",
+    "ugc_evidence": "The program's own terms are written for bloggers and social media creators and license the brand to reshare affiliate content.",
+    "compensation": "Rate is set per affiliate at the brand's sole discretion and never published, so compensation cannot be scored higher.",
+    "contact_access": "Application route is published in the official terms; no direct email published.",
+    "opportunity_availability": "Application plus brand approval; €150 minimum payout threshold is comparatively high.",
+    "credibility": "Globally distributed prestige brand operated by Natasha Denona Makeup LLC."
+   }
+  }
+ },
+ {
+  "name": "Space NK",
+  "website": "https://spacenk.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK prestige beauty retailer selling luxury skincare, makeup and fragrance through spacenk.com and stores, with an affiliate programme on Awin open to creators and publishers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/59805",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/59805"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "network",
+    "source_url": "https://ui.awin.com/merchant-profile/59805",
+    "summary": "Space NK's official Awin UK programme profile confirms a live affiliate programme open to creators and publishers, referencing gifting and exclusive rates, but the profile text publishes no commission rate. RATE CONFLICT: third-party directories variously list up to 7% and 5%, so commission_rate is recorded as null with the conflict documented here. No earnings-cap statement or creator counts are published, so cap and saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/59805",
+   "source_url": "https://ui.awin.com/merchant-profile/59805",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/59805",
+   "source_url": "https://ui.awin.com/merchant-profile/59805",
+   "title": "Space NK affiliate programme (Awin)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 6,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Prestige beauty retail across skincare, makeup and fragrance fits beauty creators broadly.",
+    "ugc_evidence": "The Awin profile addresses creators and publishers and references gifting and exclusive rates.",
+    "compensation": "No rate is published on the official profile and directories conflict (up to 7% vs 5%), so no rate is recorded.",
+    "contact_access": "Join route is the Awin programme profile; no direct brand contact published there.",
+    "opportunity_availability": "Open to apply through Awin.",
+    "credibility": "One of the UK's best-known prestige beauty retailers."
+   }
+  }
+ },
+ {
+  "name": "Sweet Chef",
+  "website": "https://sweetchef.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare brand and sister brand to Glow Recipe, selling ingredient-led serums and moisturizers through sweetchef.com, with an affiliate program on ShareASale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getlasso.co/affiliate/sweet-chef/",
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/sweet-chef/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/sweet-chef/",
+    "summary": "Lasso's Sweet Chef program page reports 7% per sale with a 30-day cookie, and its join link routes to ShareASale, confirming the program runs on ShareASale. RATE CONFLICT: Shopper lists a 5-10% payout range, which conflicts with Lasso's 7% point figure, so commission_rate is recorded as null with the conflict documented here. No earnings-cap statement or creator counts are published, so cap and saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/sweet-chef/",
+   "source_url": "https://getlasso.co/affiliate/sweet-chef/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/sweet-chef/",
+   "source_url": "https://getlasso.co/affiliate/sweet-chef/",
+   "title": "Sweet Chef affiliate program (ShareASale)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ingredient-led skincare from the Glow Recipe family is squarely in the skincare-creator niche.",
+    "ugc_evidence": "The program is listed for beauty bloggers and creators through ShareASale.",
+    "compensation": "Rate could not be verified: sources conflict (7% vs a 5-10% range), so no rate is recorded.",
+    "contact_access": "Join route is via ShareASale; no direct brand email published.",
+    "opportunity_availability": "Open to apply through ShareASale.",
+    "credibility": "Sister brand to Glow Recipe, selling through its own store and major beauty retail."
+   }
+  }
+ },
+ {
+  "name": "Makeup by Mario",
+  "website": "https://makeupbymario.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US luxury makeup brand founded by celebrity makeup artist Mario Dedivanovic, selling through makeupbymario.com, with an 'Affiliate Center' as its published creator program.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@makeupbymario.com",
+    "source_url": "https://usesnippet.app/pr-emails/makeup-by-mario"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://usesnippet.app/pr-emails/makeup-by-mario",
+    "summary": "Snippet's brand page, checked against Makeup by Mario's own pages on November 12, 2026, reports that the brand runs an 'Affiliate Center' as its published creator route and lists affiliate@makeupbymario.com 'for affiliate program support', quoting the brand's site: 'Questions? Email affiliate@makeupbymario.com for support.' No commission rate or follower minimum is published on the pages checked, so commission_rate is recorded as null, and no earnings-cap statement or creator counts are published, so cap and saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://usesnippet.app/pr-emails/makeup-by-mario",
+   "source_url": "https://usesnippet.app/pr-emails/makeup-by-mario",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://usesnippet.app/pr-emails/makeup-by-mario",
+   "source_url": "https://usesnippet.app/pr-emails/makeup-by-mario",
+   "title": "Makeup by Mario Affiliate Center"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 6,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Artist-founded luxury makeup is a top makeup-creator niche.",
+    "ugc_evidence": "The brand publishes an Affiliate Center as its creator route, per reporting checked against its own pages.",
+    "compensation": "No commission rate is published, so compensation cannot be scored higher.",
+    "contact_access": "A dedicated affiliate support email (affiliate@makeupbymario.com) is published on the brand's own pages.",
+    "opportunity_availability": "Application through the Affiliate Center; requirements are not published.",
+    "credibility": "Widely distributed prestige makeup brand founded by Mario Dedivanovic."
+   }
+  }
+ }
+]
