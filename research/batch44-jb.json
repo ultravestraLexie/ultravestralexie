@@ -1,0 +1,537 @@
+[
+ {
+  "name": "Dolls Kill",
+  "website": "https://www.dollskill.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Online fashion retailer aimed at Gen Z 'misfits', selling edgy clothing, shoes, accessories and costumes through dollskill.com; its sales are heavily driven by TikTok Shop affiliates and it appeared on the owner's TikTok Shop lead sheet.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/dolls-kill/",
+    "summary": "Lasso lists a Dolls Kill affiliate program at 8% per sale with a 30-day cookie, joining via Viglink/Sovrn; that is a secondary route, so no single rate is recorded for the primary TikTok Shop route."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DfVRJ5su9Qd/",
+    "summary": "Publicly shared TikTok Shop analytics for Dolls Kill (Oct-Nov 2026) show $10.17M revenue in 30 days, $8.59M of it from affiliates, 117.2k items sold and about 3.32k active affiliates - creator scale in the thousands, so saturation is honestly unknown, not low."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/dolls-kill/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 29,
+   "ugc_evidence": 19,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pure Gen Z fashion - clothing, shoes, costumes and accessories built for TikTok try-on and haul content.",
+    "ugc_evidence": "Affiliates drive the majority of its TikTok Shop revenue ($8.59M of $10.17M in one 30-day window) with thousands of active creators.",
+    "compensation": "TikTok Shop commission is set per product and not published as one program rate; a secondary Sovrn route is listed at 8%, so no rate is recorded and no cap is stated anywhere fetched.",
+    "contact_access": "No published partnerships or creator email was found on the pages fetched; access is through TikTok Shop and network dashboards.",
+    "opportunity_availability": "Open affiliate selling on TikTok Shop today, plus a network route via Sovrn/Viglink.",
+    "credibility": "Large, long-running online fashion retailer with very high social-commerce volume."
+   }
+  }
+ },
+ {
+  "name": "PacSun",
+  "website": "https://www.pacsun.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "California-born youth retailer (Pacific Sunwear of California) selling denim, tops, swim, activewear and accessories to teens and young adults through pacsun.com and mall stores; it appeared on the owner's TikTok Shop lead sheet.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "pressinquiries@pacsun.com",
+    "source_url": "https://usesnippet.app/pr-emails/pacsun"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://usesnippet.app/pr-emails/pacsun",
+    "summary": "Snippet's check of PacSun's own pages (November 14, 2026) states: 'Apply to PacSun Affiliate Program on Impact. That is the creator route PacSun publishes.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/pacsun/",
+    "summary": "Published rates conflict across sources and eras - Lasso lists 1% per sale with a 7-day cookie, older Rakuten-era reviews cite 2-4%, Shopper lists 9.6% and an LTK roundup 10.5% - so commission_rate is null with the conflict documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://usesnippet.app/pr-emails/pacsun",
+    "summary": "PacSun lists pressinquiries@pacsun.com for media questions; Snippet notes it is a press inbox, not a creator route."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://usesnippet.app/pr-emails/pacsun",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 4,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Core teen and young-adult fashion - denim, swim, festival and streetwear styles made for social content.",
+    "ugc_evidence": "PacSun publishes an affiliate program on Impact as its creator route and is a staple of LTK creator roundups.",
+    "compensation": "Reported rates conflict from 1% to 10.5% depending on source and era, so no rate is recorded; no earnings cap is stated anywhere fetched.",
+    "contact_access": "A published press email exists and the Impact application is the documented creator route, but there is no dedicated creator inbox.",
+    "opportunity_availability": "Joinable through Impact today per Snippet's check of PacSun's own pages.",
+    "credibility": "Long-established national mall and online retailer with strong Gen Z recognition."
+   }
+  }
+ },
+ {
+  "name": "Hotels.com",
+  "website": "https://www.hotels.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Expedia Group's hotel booking platform, founded in 1991, selling stays at properties in over 200 countries through hotels.com and dozens of localized sites, known for its reward-nights loyalty scheme.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://affiliateprogramsguru.com/programs/hotels-com-affiliate-program/",
+    "summary": "AffiliateProgramsGuru (verified April 2026) documents the Hotels.com program at up to 4% per completed stay through CJ Affiliate and the direct Expedia Group Affiliate Program, with a 7-day cookie and payment after the guest checks out."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/hotels-com/",
+    "summary": "LinkClicky's CJ record shows a 0%-4% range by booking type (1% on gift cards per other roundups) and some roundups cite 4-6%; the recorded 4% is the widely published headline rate for completed stays."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://thriveconversion.com/hotel-affiliate-programs/",
+    "summary": "Hotels.com has been an online travel agency since 1991 and is an Expedia Group company, with one of the largest hotel inventories of any booking platform."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 4,
+   "application_url": null,
+   "source_url": "https://affiliateprogramsguru.com/programs/hotels-com-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure travel - hotel stays are a staple of travel-creator content and itinerary recommendations.",
+    "ugc_evidence": "A standard booking link in travel blogs and creator content, though Hotels.com runs no visible creator-first program of its own.",
+    "compensation": "Up to 4% per completed stay via CJ on high average booking values ($250-$400 reported); no earnings cap is stated anywhere fetched.",
+    "contact_access": "No published creator or partnerships contact was found; access is through the CJ Affiliate advertiser listing.",
+    "opportunity_availability": "Open to publishers through CJ Affiliate and the Expedia Group program today.",
+    "credibility": "One of the oldest and largest hotel booking platforms in the world, inside Expedia Group."
+   }
+  }
+ },
+ {
+  "name": "Nordstrom",
+  "website": "https://www.nordstrom.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Seattle department-store company founded in 1901, selling designer and contemporary clothing, shoes, accessories and beauty through nordstrom.com, its full-line stores and Nordstrom Rack.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.nichepursuits.com/nordstrom-affiliate-program/",
+    "summary": "NichePursuits, quoting Nordstrom's own site, confirms Rakuten manages the program: commissions are paid monthly and 'Rakuten will issue you the referral fees generated on net sales of products shipped throughout that month', with a $25 minimum."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/nordstrom/",
+    "summary": "Published figures conflict widely - Lasso/FlexOffers list 0.8% per sale, while other roundups cite 1-6%, 1-11%, 2-11% and 2-20% by category - so commission_rate is null with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.nichepursuits.com/nordstrom-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 14,
+   "compensation": 5,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium department-store fashion across clothing, shoes and beauty - a core LTK and fashion-creator retailer.",
+    "ugc_evidence": "A fixture of fashion-creator link programs (LTK, Rakuten) and seasonal sale content such as the Anniversary Sale.",
+    "compensation": "Rates conflict from 0.8% to 20% depending on network and category, so no rate is recorded; no earnings cap is stated anywhere fetched.",
+    "contact_access": "No published creator contact was found; access is through the Rakuten Advertising advertiser listing, which is selective.",
+    "opportunity_availability": "Joinable through Rakuten Advertising, though approval is known to be selective about site quality.",
+    "credibility": "Century-old, publicly traded US department-store institution."
+   }
+  }
+ },
+ {
+  "name": "J.Crew",
+  "website": "https://www.jcrew.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American apparel retailer selling classic women's, men's and kids' clothing, shoes and accessories through jcrew.com and its stores, known for a timeless preppy aesthetic.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/j-crew/",
+    "summary": "UpPromote documents the J.Crew affiliate program as managed through third-party networks - CJ Affiliate (Commission Junction) and FlexOffers - at a reported 2.4% to 3% per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/j-crew-us/",
+    "summary": "Lasso's J.Crew US record lists 2.3% per sale with a 3-day cookie, LinkApprove lists 5% and Shopper 1% - conflicting figures, so commission_rate is null with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://uppromote.com/affiliate-directory/j-crew/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 5,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Classic American apparel for women, men and kids - steady fashion-creator territory.",
+    "ugc_evidence": "A regular in creator link roundups and outfit content, though the brand runs no visible creator-first program page.",
+    "compensation": "Reported rates conflict between 1% and 5% across network records, so no rate is recorded; no earnings cap is stated anywhere fetched.",
+    "contact_access": "No published creator or partnerships contact was found; access is network-only.",
+    "opportunity_availability": "Joinable through CJ Affiliate and FlexOffers listings today.",
+    "credibility": "Iconic, decades-old American apparel retailer."
+   }
+  }
+ },
+ {
+  "name": "Briggs & Riley",
+  "website": "https://www.briggs-riley.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "American premium luggage maker selling suitcases, backpacks and business cases engineered for frequent travelers and backed by a lifetime guarantee, through briggs-riley.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/briggs-riley/",
+    "summary": "LinkClicky's CJ Affiliate record lists Briggs & Riley at 9% per sale on CJ Affiliate, described as 'just what's officially listed with their affiliate program'."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/briggs-riley-travelware/",
+    "summary": "Lasso lists 7.2% per sale with a 30-day cookie and Shopper lists 4%, conflicting with the 9% CJ record and older 9-10% roundups, so commission_rate is null with the conflict documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-luggage-affiliate-programs/",
+    "summary": "Briggs & Riley luggage is 'engineered for reality and guaranteed for life', runs its program through Commission Junction, and reports an average order value of almost $330."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/briggs-riley/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium luggage and travel bags - squarely in the travel-gear niche for packing and carry-on content.",
+    "ugc_evidence": "A long-standing pick in travel-blogger luggage roundups, though not a social-first creator brand.",
+    "compensation": "Reported rates conflict between 4% and 10% across records, so no rate is recorded; the reported range is decent on a ~$330 average order, and no cap is stated anywhere fetched.",
+    "contact_access": "No published creator or partnerships contact was found; access is through the CJ advertiser listing.",
+    "opportunity_availability": "Joinable through CJ Affiliate today.",
+    "credibility": "Established premium travelware brand of 30+ years with a lifetime guarantee."
+   }
+  }
+ },
+ {
+  "name": "Cadence",
+  "website": "https://keepyourcadence.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Direct-to-consumer brand selling a system of magnetic, refillable capsules for toiletries and personal care, designed to streamline travel and daily routines, through keepyourcadence.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/cadence/",
+    "summary": "LinkClicky records Cadence's affiliate program on ShareASale at 10% per sale with a 15-day cookie, described as 'just what's officially listed with their affiliate program'."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://simplycodes.com/store/keepyourcadence.com",
+    "summary": "SimplyCodes describes Cadence's system of magnetic, refillable capsules designed to help shoppers streamline their travel and daily routines, sold direct at keepyourcadence.com."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/cadence/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Travel toiletry capsules sit between travel and beauty routines - a narrower but real fit for packing and routine content.",
+    "ugc_evidence": "A social-native DTC product frequently shown in packing and routine videos, with an open ShareASale program.",
+    "compensation": "A clean, officially listed 10% per sale on ShareASale; no earnings cap is stated anywhere fetched, so the cap is honestly unknown.",
+    "contact_access": "No published creator or partnerships contact was found; access is through ShareASale.",
+    "opportunity_availability": "Open application through ShareASale today.",
+    "credibility": "Small, young DTC brand - established product and press, but a fraction of the scale of the retailers in this group."
+   }
+  }
+ },
+ {
+  "name": "Hello Molly",
+  "website": "https://www.hellomolly.com",
+  "country": "Australia",
+  "category_slug": "fashion",
+  "description": "Australian online women's fashion retailer selling trend-driven dresses, playsuits, skirts, shoes and accessories through hellomolly.com, built on influencer and social-first marketing.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/hellomolly-us/",
+    "summary": "Lasso's HelloMolly (US) record lists commission tiers of 4% and 6.4% with a 30-day cookie, and its join link routes to FlexOffers Publisher Pro; the 4% base tier is the rate recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.netinfluencer.com/hello-molly-influencer-program/",
+    "summary": "Netinfluencer documents Hello Molly's influencer program running alongside the affiliate program - the brand recruits creators matching its young, vibrant image and reports affiliate earnings of up to 7% on influencer links, with an average order around $100."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 4,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/hellomolly-us/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pure trend-driven women's fashion - dresses and occasionwear made for try-on and event content.",
+    "ugc_evidence": "Influencer marketing is the brand's core growth channel, with a documented influencer program beside the affiliate program.",
+    "compensation": "4% base tier on FlexOffers with a 6.4% higher tier and up to 7% reported for influencer links; no earnings cap is stated anywhere fetched.",
+    "contact_access": "No published creator email was found on the pages fetched; access is through FlexOffers and influencer outreach.",
+    "opportunity_availability": "Joinable through FlexOffers today.",
+    "credibility": "Well-known Australian fast-fashion retailer with a large social following and US storefront."
+   }
+  }
+ },
+ {
+  "name": "Gorjana",
+  "website": "https://www.gorjana.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Laguna Beach jewelry brand founded in 2004 by Gorjana and Jason Reidel, selling layerable gold everyday jewelry - necklaces, earrings, bracelets and rings - through gorjana.com and its own boutiques.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://brandid.app/blog/jewelry-affiliate-programs/",
+    "summary": "Brandid's 2026 jewelry affiliate roundup lists Gorjana at about 7% to 8% commission with a 30-day cookie on ShareASale, pitched for layering and everyday-outfit content."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/gorjana/",
+    "summary": "Lasso lists 10% per sale with a 30-day cookie and an older CJ spotlight also cited 10%, conflicting with the 7-8% ShareASale figure, so commission_rate is null with the conflict documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/72722/gorjana-affiliate-program",
+    "summary": "Sovrn's merchant page confirms Gorjana is a jewelry brand founded in 2004 by husband-and-wife team Gorjana and Jason Reidel in Laguna Beach, California."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://brandid.app/blog/jewelry-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Everyday layerable jewelry - a staple of outfit, stacking and capsule-wardrobe content.",
+    "ugc_evidence": "A DTC jewelry brand whose look is built for Instagram and Pinterest creator content, with programs on ShareASale and Sovrn.",
+    "compensation": "Reported rates conflict between 7-8% (ShareASale) and 10% (Lasso/CJ), so no rate is recorded; no earnings cap is stated anywhere fetched.",
+    "contact_access": "No published creator or partnerships contact was found; access is network-only.",
+    "opportunity_availability": "Joinable through ShareASale today.",
+    "credibility": "Established 2004 DTC jewelry brand with its own retail boutiques."
+   }
+  }
+ },
+ {
+  "name": "Kendra Scott",
+  "website": "https://www.kendrascott.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "US fashion jewelry brand known for bold, colorful and customizable necklaces, earrings, bracelets and rings, sold through kendrascott.com and its own retail stores.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/top-10-best-us-jewelry-influencer-affiliate-programs-the-best-brands-looking-for-influencer-partnerships",
+    "summary": "Creator Hero documents the Kendra Scott affiliate program through FlexOffers at 2.4% to 4.8% commission per sale with a 30-day cookie, affiliate-exclusive offers and early access to new releases."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/kendra-scott/",
+    "summary": "UpPromote summarizes the program as tier-based at 2.4% to 8% per sale across networks including Rakuten Advertising and FlexOffers, while Lasso lists 8% flat - conflicting figures, so commission_rate is null with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.creator-hero.com/blog/top-10-best-us-jewelry-influencer-affiliate-programs-the-best-brands-looking-for-influencer-partnerships",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Fashion jewelry and accessories with a strong gifting and occasion angle for creator content.",
+    "ugc_evidence": "Creator Hero lists Kendra Scott among the top US jewelry influencer affiliate programs, with exclusive offers and early product access for creators.",
+    "compensation": "Reported rates conflict between 2.4% and 8% depending on network and tier, so no rate is recorded; no earnings cap is stated anywhere fetched.",
+    "contact_access": "No published creator email was found, but the FlexOffers program page is a clear documented application route.",
+    "opportunity_availability": "Joinable through FlexOffers (and listed on Rakuten) today.",
+    "credibility": "Large US jewelry retailer with hundreds of millions in reported revenue and its own store network."
+   }
+  }
+ }
+]
