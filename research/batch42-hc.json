@@ -1,0 +1,575 @@
+[
+ {
+  "name": "MìLà",
+  "website": "https://eatmila.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Bellevue, Washington food company founded in 2018 by Jennifer Liao and Caleb Wang (originally the restaurant Xiao Chi Jie), selling flash-frozen soup dumplings, noodle kits and sauces direct to consumers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/ml/",
+    "summary": "LinkClicky's program profile lists MìLà on ShareASale at 15% per sale with a 90-day cookie, open to all regions. No earnings cap is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://eatmila.com",
+    "summary": "MìLà was founded in 2018 in Bellevue, WA by Jennifer Liao and Caleb Wang, growing out of their restaurant Xiao Chi Jie; products are made in Auburn, WA and Monterey Park, CA (PitchBook company profile and the brand's own site). PitchBook records a $17M Series B in August 2024."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "https://linkclicky.com/affiliate-program/ml/",
+   "source_url": "https://linkclicky.com/affiliate-program/ml/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MìLà Affiliate Program (ShareASale)",
+   "application_url": "https://linkclicky.com/affiliate-program/ml/",
+   "source_url": "https://linkclicky.com/affiliate-program/ml/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 16,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Frozen soup dumplings are a demo-friendly, viral food product that fits food creators on TikTok and Reels well.",
+    "ugc_evidence": "A ShareASale program with published terms; the brand grew out of a restaurant following and DTC food content.",
+    "compensation": "15% per sale with a long 90-day cookie on ShareASale.",
+    "contact_access": "No public program email found; application runs through ShareASale, so access is network-mediated.",
+    "opportunity_availability": "Open network program on ShareASale, listed for all regions.",
+    "credibility": "Venture-backed (Series B, 2024) US food company founded in 2018 with its own production facilities."
+   }
+  }
+ },
+ {
+  "affiliate": {
+   "application_url": "https://hiyahealth.com/pages/influencer-join",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Own program",
+   "source_url": "https://hiyahealth.com/pages/influencer-join"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://hiyahealth.com/pages/influencer-join",
+    "email": null,
+    "source_url": "https://hiyahealth.com/pages/influencer-join"
+   }
+  ],
+  "country": "United States",
+  "description": "US children's nutrition brand founded in 2020 by Darren Litt and Adam Gillman; its flagship product is a sugar-free chewable multivitamin for kids.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://hiyahealth.com/pages/influencer-join",
+    "summary": "Hiya's own creator page recruits blogs, creators and newsletters on performance-based pay: a flat $35-$75 CPA per order or a revenue-share option. Because the headline offer is a flat per-order bounty rather than a percentage, commission_rate is null and the bounty is recorded here; no earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://hiyahealth.com",
+    "summary": "US children's nutrition brand founded in 2020 (founders Darren Litt and Adam Gillman, per Sovrn's merchant profile); flagship product is a sugar-free chewable kids' multivitamin. The brand is also listed on Trybe at 5% of sales (checked 2026-11-20) and sells through TikTok Shop."
+   }
+  ],
+  "name": "Hiya",
+  "opportunity": {
+   "application_url": "https://hiyahealth.com/pages/influencer-join",
+   "source_url": "https://hiyahealth.com/pages/influencer-join",
+   "title": "Hiya Creator / Influencer Program"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Flat $35-$75 CPA per order (or revenue share) stated on the brand's own page; strong per-order economics, but no published percentage.",
+    "contact_access": "Direct creator application page on the brand's own domain; no public email found.",
+    "credibility": "Established DTC kids' nutrition brand founded in 2020 with national brand recognition.",
+    "niche_fit": "Kids' nutrition is a core parenting-creator niche and Hiya's sugar-free positioning gives creators a clear story.",
+    "opportunity_availability": "Open application on the brand's site for blogs, creators and newsletters.",
+    "ugc_evidence": "A dedicated creator recruitment page on the brand's own site, plus active Trybe and TikTok Shop creator channels."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://hiyahealth.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ezbombs.com/pages/apply",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Own program",
+   "source_url": "https://ezbombs.com/pages/become-an-affiliate"
+  },
+  "category_slug": "food-drink",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ezbombs.com/pages/apply",
+    "email": null,
+    "source_url": "https://ezbombs.com/pages/become-an-affiliate"
+   }
+  ],
+  "country": "United States",
+  "description": "Family-owned US food brand selling birria and seasoning 'bombs' that turn slow-cooked meals into a drop-in recipe; stocked at Costco and Walmart and featured on TODAY, GMA and The View.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://ezbombs.com/pages/become-an-affiliate",
+    "summary": "EZ Bombs' own affiliate page gives creators their own code and link and earnings on every order it brings in, plus free flavors; applications are reviewed by a person via ezbombs.com/pages/apply. No commission percentage is published, so the rate is null and the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://ezbombs.com",
+    "summary": "Family-owned birria and seasoning bomb brand; products are stocked at Costco and Walmart and have been featured on TODAY, GMA and The View; the brand also sells through TikTok Shop."
+   }
+  ],
+  "name": "EZ Bombs",
+  "opportunity": {
+   "application_url": "https://ezbombs.com/pages/apply",
+   "source_url": "https://ezbombs.com/pages/become-an-affiliate",
+   "title": "EZ Bombs Creator / Affiliate Program"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 10,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Creators earn on every order from their code/link, but no commission percentage is published, so pay cannot be graded higher.",
+    "contact_access": "Direct multi-step creator application on the brand's own site, reviewed by a person.",
+    "credibility": "Family-owned brand with Costco and Walmart distribution and national TV features.",
+    "niche_fit": "A viral, demo-friendly cooking product is a strong fit for food and recipe creators on TikTok and Reels.",
+    "opportunity_availability": "Open application on the brand's own domain.",
+    "ugc_evidence": "The brand runs its own creator program with personal codes and free product, and sells heavily through TikTok Shop."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/ezbombsfood"
+   }
+  ],
+  "website": "https://ezbombs.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://staging-gognarly.myshopify.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "AvantLink",
+   "source_url": "https://staging-gognarly.myshopify.com/pages/affiliate-program"
+  },
+  "category_slug": "health",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://staging-gognarly.myshopify.com/pages/affiliate-program",
+    "email": "liz@gognarly.com",
+    "source_url": "https://staging-gognarly.myshopify.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Sports nutrition brand born in Utah's Wasatch Mountains, selling protein, pre-workout, hydration and greens products direct to consumers.",
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://staging-gognarly.myshopify.com/pages/affiliate-program",
+    "summary": "Gnarly's affiliate page states an 8% baseline commission via AvantLink, a 30-day cookie, $50+ average order value, US-only sales and approval by AvantLink and Gnarly, and publishes affiliate support email liz@gognarly.com. The page was served on a staging Shopify subdomain, so this evidence is flagged needs_review. No earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://gognarly.com",
+    "summary": "Sports nutrition brand born in Utah's Wasatch Mountains, selling protein, pre-workout and hydration products direct to consumers."
+   }
+  ],
+  "name": "Gnarly Nutrition",
+  "opportunity": {
+   "application_url": "https://staging-gognarly.myshopify.com/pages/affiliate-program",
+   "source_url": "https://staging-gognarly.myshopify.com/pages/affiliate-program",
+   "title": "Gnarly Nutrition Affiliate Program (AvantLink)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 11,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "8% baseline commission with a 30-day cookie and $50+ average order; a modest rate.",
+    "contact_access": "A named affiliate support email (liz@gognarly.com) is published on the program page.",
+    "credibility": "Established niche sports-nutrition brand, but the program page was served from a staging subdomain, which lowers confidence.",
+    "niche_fit": "Clean sports nutrition fits fitness and outdoor-athlete creators well.",
+    "opportunity_availability": "Open signup via AvantLink with brand approval; US-only sales.",
+    "ugc_evidence": "A formal AvantLink program with published terms, though creator-content evidence is thinner than larger rivals."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://gognarly.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://viglink.com/merchants/225740/nutrition-geeks-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Sovrn Commerce",
+   "source_url": "https://viglink.com/merchants/225740/nutrition-geeks-affiliate-program"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "United Kingdom",
+  "description": "UK supplement brand selling vitamins and wellness supplements direct to consumers, with a large TikTok Shop UK storefront.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://viglink.com/merchants/225740/nutrition-geeks-affiliate-program",
+    "summary": "Sovrn Commerce (VigLink) lists Nutrition Geeks (nutritiongeeks.co) as a merchant with program approval 'Open'. No commission rate is published on the listing, so the rate is null and the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://nutritiongeeks.co",
+    "summary": "UK supplement brand with a large TikTok Shop UK presence (Kalodata shop data), selling vitamins and supplements direct to consumers."
+   }
+  ],
+  "name": "Nutrition Geeks",
+  "opportunity": {
+   "application_url": "https://viglink.com/merchants/225740/nutrition-geeks-affiliate-program",
+   "source_url": "https://viglink.com/merchants/225740/nutrition-geeks-affiliate-program",
+   "title": "Nutrition Geeks Affiliate Program (Sovrn Commerce)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 4,
+   "credibility": 3,
+   "niche_fit": 20,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No commission rate is published on the Sovrn listing, so pay cannot be graded higher.",
+    "contact_access": "No public program contact found; access runs through Sovrn Commerce.",
+    "credibility": "A visible UK DTC supplement brand, but program documentation is thin.",
+    "niche_fit": "Everyday vitamins and supplements fit UK wellness creators; less tailored to the US-first directory audience.",
+    "opportunity_availability": "Sovrn lists program approval as 'Open'.",
+    "ugc_evidence": "A substantial TikTok Shop UK storefront shows creator-driven selling, plus an open Sovrn Commerce listing."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://nutritiongeeks.co"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://linkclicky.com/affiliate-program/spoiledchild/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/spoiledchild/"
+  },
+  "category_slug": "wellness",
+  "contacts": [],
+  "country": "United States",
+  "description": "Multicategory prestige wellness brand launched in February 2022 by Oddity (NASDAQ: ODD) and headquartered in New York City, selling personalized hair, skin and ingestible collagen products.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/spoiledchild/",
+    "summary": "LinkClicky's program profile lists SpoiledChild on the Impact platform paying a flat $5 per sale. Because the payout is a flat bounty rather than a percentage, commission_rate is null and the bounty is recorded here; no earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://www.spoiledchild.com",
+    "summary": "SpoiledChild is a brand of Oddity (NASDAQ: ODD), launched February 2, 2022 and headquartered in New York City (Happi company profile and GlobeNewswire releases), selling personalized hair, skin and ingestible collagen products."
+   }
+  ],
+  "name": "SpoiledChild",
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/spoiledchild/",
+   "source_url": "https://linkclicky.com/affiliate-program/spoiledchild/",
+   "title": "SpoiledChild Affiliate Program (Impact)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 5,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A flat $5 per sale on Impact; predictable but modest next to percentage programs.",
+    "contact_access": "No public program email found; application runs through Impact, so access is network-mediated.",
+    "credibility": "A brand of publicly traded Oddity (NASDAQ: ODD), launched 2022, headquartered in New York City.",
+    "niche_fit": "Personalized hair, skin and collagen products sit squarely in the wellness/beauty creator niche.",
+    "opportunity_availability": "Open program on Impact, a major network.",
+    "ugc_evidence": "The brand is heavily creator- and ad-driven (hundreds of active Meta ads built on UGC-style content) and runs an Impact program."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.spoiledchild.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/vitacup/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://getlasso.co/affiliate/vitacup/"
+  },
+  "category_slug": "food-drink",
+  "contacts": [],
+  "country": "United States",
+  "description": "US brand selling vitamin- and adaptogen-infused coffee pods, including mushroom and keto blends, compatible with Keurig brewers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/vitacup/",
+    "summary": "Lasso lists VitaCup at up to 15% per sale with a 14-day cookie. Published figures conflict hard across sources: NichePursuits reports 20% with a 30-day cookie, a ShareASale merchant signup link (merchant ID 71280) is reported at 20%, AffJumbo reports 4%, and LinkClicky reports a flat $15 per sale on Impact. With no consistent rate, commission_rate is null; the network is recorded as ShareASale on the strength of the concrete merchant signup link, with the Impact claim documented in the second evidence item. No earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/vitacup/",
+    "summary": "LinkClicky's profile claims VitaCup runs on the Impact platform at a flat $15 per sale - one of several conflicting published figures; see the Lasso evidence item for the full conflict."
+   }
+  ],
+  "name": "VitaCup",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/vitacup/",
+   "source_url": "https://getlasso.co/affiliate/vitacup/",
+   "title": "VitaCup Affiliate Program"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 4,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Published rates conflict hard (4%, up to 15%, 20%, or a flat $15), so no rate can be credited until the brand confirms one.",
+    "contact_access": "No public program contact found; access runs through the networks.",
+    "credibility": "A real, established functional-coffee brand, but its program data is inconsistent across sources.",
+    "niche_fit": "Functional coffee is a proven food-and-wellness creator topic with broad audience appeal.",
+    "opportunity_availability": "Listed on multiple networks/directories, so joining routes exist.",
+    "ugc_evidence": "Programs are listed across multiple affiliate directories, showing an established affiliate channel."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.vitacup.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://getlasso.co/affiliate/wellabs/",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://getlasso.co/affiliate/wellabs/"
+  },
+  "category_slug": "health",
+  "contacts": [],
+  "country": "United States",
+  "description": "Florida-based supplement company selling a wide range of vitamins and supplements, including chlorophyll drops, collagen and NMN, made in GMP-certified, FDA-registered US facilities.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/wellabs/",
+    "summary": "Lasso's program profile lists Wellabs at 8% per sale with a 30-day cookie, and its join link routes to CJ Affiliate (signup.cj.com), so the network is recorded as CJ Affiliate. No earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://greenlitcontent.com/resources/wellabs-review",
+    "summary": "Wellabs is a Florida-based supplement company founded in 2016, selling a wide range of dietary supplements manufactured in GMP-certified, FDA-registered US facilities, with a 90-day money-back guarantee."
+   }
+  ],
+  "name": "Wellabs",
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/wellabs/",
+   "source_url": "https://getlasso.co/affiliate/wellabs/",
+   "title": "Wellabs Affiliate Program (CJ Affiliate)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 4,
+   "credibility": 3,
+   "niche_fit": 20,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "8% per sale with a 30-day cookie via CJ Affiliate; a modest rate.",
+    "contact_access": "No public program email found; application runs through CJ, so access is network-mediated.",
+    "credibility": "Operating since 2016 with US GMP-certified manufacturing and a 90-day guarantee, but a low public profile.",
+    "niche_fit": "A broad supplement catalog gives health creators many angles, though the brand itself is lesser known.",
+    "opportunity_availability": "Open network program on CJ Affiliate.",
+    "ugc_evidence": "A CJ Affiliate program listing exists, but creator-content evidence is limited."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://wellabs.com"
+ },
+ {
+  "name": "The Good Chocolate",
+  "website": "https://thegoodchocolate.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "San Francisco bean-to-bar chocolate brand making zero-sugar, keto-friendly chocolate sweetened with organic fruit- and vegetable-derived sweeteners; the first US chocolate certified FODMAP-friendly.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": "https://thegoodchocolate.com",
+    "email": "help@goodchocolate.com",
+    "source_url": "https://thegoodchocolate.com"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/82287?setLocale=sv_SE",
+    "summary": "Awin's own merchant profile for THE GOOD CHOCOLATE lists the program highlights: 10% affiliate commission, a 30-day cookie, a 10% standard customer coupon, special holiday coupons and optional collaborations (giveaways, contests, sale events). No earnings cap is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://thegoodchocolate.com",
+    "summary": "The brand's own site gives its address as 25 Leland Ave, San Francisco, CA 94134 and contact email help@goodchocolate.com. Per the Awin profile, its zero-sugar bean-to-bar chocolate is made in San Francisco, is certified FODMAP-friendly (a US first), has 1 net carb per bar and comes in 10 flavors."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/82287?setLocale=sv_SE",
+   "source_url": "https://ui.awin.com/merchant-profile/82287?setLocale=sv_SE",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "The Good Chocolate Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/82287?setLocale=sv_SE",
+   "source_url": "https://ui.awin.com/merchant-profile/82287?setLocale=sv_SE"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Zero-sugar, keto-friendly chocolate fits low-carb, gut-health and better-for-you dessert creators.",
+    "ugc_evidence": "An Awin program that explicitly offers creator collaborations such as giveaways and contests.",
+    "compensation": "10% commission with a 30-day cookie, plus a 10% customer coupon to lift conversion.",
+    "contact_access": "A published contact email (help@goodchocolate.com) on the brand's own site, plus Awin-mediated program access.",
+    "opportunity_availability": "Open program on Awin, a major network.",
+    "credibility": "Award-winning San Francisco chocolatier; first US chocolate certified FODMAP-friendly."
+   }
+  }
+ },
+ {
+  "name": "ChocZero",
+  "website": "https://choczero.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Family-owned Irvine, California confectionery founded in 2016, making monk-fruit-sweetened sugar-free chocolates, keto bark, peanut butter cups and dessert syrups.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://advertiserreview.com/affiliate/programs/keto/",
+    "summary": "Advertiser Review's program analysis reports ChocZero at a base commission of 5% to 10% CPS, tracked via Refersion and ShareASale, with a 30- to 60-day cookie, a $50 minimum payment and monthly Net-30 payouts. Because only a range is published rather than a single rate, commission_rate is null and the range is recorded here; the network is recorded as ShareASale with Refersion also documented. No earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://choczero.com",
+    "summary": "Family-owned artisan confectionery founded in 2016 and headquartered in Irvine, California, sweetening its chocolates with monk fruit instead of sugar or sugar alcohols (Advertiser Review company overview)."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://advertiserreview.com/affiliate/programs/keto/",
+   "source_url": "https://advertiserreview.com/affiliate/programs/keto/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ChocZero Affiliate Program (ShareASale / Refersion)",
+   "application_url": "https://advertiserreview.com/affiliate/programs/keto/",
+   "source_url": "https://advertiserreview.com/affiliate/programs/keto/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 4,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sugar-free chocolate and keto baking are proven topics for low-carb, diabetic-friendly and dessert creators.",
+    "ugc_evidence": "An established affiliate program with creator discount codes (10% off for readers) and recipe-focused partner assets.",
+    "compensation": "A published 5-10% commission range with a 30- to 60-day cookie; the exact rate depends on the signup route.",
+    "contact_access": "No public program email found; access runs through ShareASale/Refersion.",
+    "opportunity_availability": "Open program via ShareASale and Refersion with monthly payouts.",
+    "credibility": "Family-owned since 2016 with a large, engaged community in the keto space."
+   }
+  }
+ }
+]

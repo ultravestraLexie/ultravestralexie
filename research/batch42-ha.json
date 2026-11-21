@@ -1,0 +1,612 @@
+[
+ {
+  "name": "DRMTLGY",
+  "website": "https://www.drmtlgy.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Direct-to-consumer skincare brand selling serums, tinted SPF moisturizers and eye treatments, marketed with dermatologist-led education and a large affiliate creator program.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.drmtlgy.com/pages/affiliate-login",
+    "summary": "DRMTLGY's own affiliate program page states '15% Commission on Every Sale' and, in the same commission benefit, 'Earn unlimited commissions by sharing your personalized link' \u2014 an explicit no-earnings-cap statement on the brand's own program page, so the cap is recorded UNCAPPED. The page also promises performance-based bonuses, milestone gifting and a $55+ average order value."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.drmtlgy.com/pages/affiliate-login",
+    "summary": "The page's 'Join DRMTLGY' button routes to drmtlgy.goaffpro.com, so the program is administered on the GoAffPro platform."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.drmtlgy.com/pages/affiliate-login",
+    "summary": "The program page is built for creators: it promises creator opportunities including events, virtual masterclasses and dermatologist-led education, plus early access to launches and enhanced sales tracking."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 15,
+   "application_url": "https://drmtlgy.goaffpro.com",
+   "source_url": "https://www.drmtlgy.com/pages/affiliate-login",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://drmtlgy.goaffpro.com",
+   "source_url": "https://www.drmtlgy.com/pages/affiliate-login",
+   "title": "DRMTLGY Affiliate Program (15% on every sale, unlimited commissions, via GoAffPro)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 19,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Serums, SPF and eye treatments are core skincare-UGC products \u2014 routine and before/after content is the brand's whole marketing model.",
+    "ugc_evidence": "The brand's own program page promises creator events, virtual masterclasses and dermatologist-led education for affiliates.",
+    "compensation": "Published 15% on every sale on the brand's own page, with an explicit 'Earn unlimited commissions' statement (verified uncapped), plus performance bonuses and milestone gifting.",
+    "contact_access": "No public affiliate email is published on the program page; contact runs through the GoAffPro application.",
+    "opportunity_availability": "Open join link from the brand's own affiliate page to its GoAffPro registration.",
+    "credibility": "Established DTC skincare brand with published program terms on its own store and a stated $55+ average order value."
+   }
+  }
+ },
+ {
+  "name": "OSEA",
+  "website": "https://oseamalibu.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Malibu, California clean skincare brand built on seaweed-based formulas for face and body, sold through its own store and spas, with a long-running tiered ambassador program.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "affiliates@oseamalibu.com",
+    "source_url": "https://oseamalibu.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://oseamalibu.com/pages/affiliates",
+    "summary": "OSEA's own affiliates page publishes its tier table: Basic pays 16% commission ($0\u2013$500/month revenue), Gold 18% ($500+/month) and Platinum 20% ($2,500+/month), with a 2x-month posting requirement and a $278 welcome product package. Applications run through Refersion (oseamalibu.refersion.com); the page suggests 4,000+ followers but invites smaller creators to apply."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://oseamalibu.com/pages/affiliates",
+    "summary": "The brand publishes affiliates@oseamalibu.com on its own affiliates page for affiliate support and discount-code help."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://oseamalibu.com/pages/partnerships",
+    "summary": "OSEA's partnerships page lists four creator routes: the Seaweed Society affiliate program (up to 20% commission), paid brand partnerships, a creator gifting program and a UGC creator program; its content guidelines require #OSEAPartner tagging and honest reviews."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/101463",
+    "summary": "OSEA's Awin merchant profile lists a 1\u201316% commission range 'based on publisher type' with a 30-day cookie \u2014 a publisher-network range that sits below the brand's own published creator tiers (16% base), so the brand's own tier table governs the recorded rate."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 16,
+   "application_url": "https://oseamalibu.refersion.com",
+   "source_url": "https://oseamalibu.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://oseamalibu.refersion.com",
+   "source_url": "https://oseamalibu.com/pages/affiliates",
+   "title": "OSEA Seaweed Society Affiliate Program (16% base, tiers to 20%, via Refersion)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 18,
+   "compensation": 18,
+   "contact_access": 14,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean seaweed skincare for face and body is a core skincare-UGC category, with texture demos and before/after content the brand itself coaches affiliates to make.",
+    "ugc_evidence": "Four published creator routes on the brand's own partnerships page \u2014 affiliate, paid partnerships, gifting and a UGC program \u2014 with detailed content guidelines for partners.",
+    "compensation": "Published tiered cash commission on the brand's own page: 16% base rising to 18% and 20% on monthly revenue, plus a $278 welcome package and monthly gifting at higher tiers.",
+    "contact_access": "A dedicated affiliate email (affiliates@oseamalibu.com) is published on the program page, plus an open Refersion application.",
+    "opportunity_availability": "Applications are open on the brand's own page; the 4,000-follower guideline is explicitly not a hard floor.",
+    "credibility": "Long-established clean-beauty brand with a physical spa presence and fully published program terms on its own store."
+   }
+  }
+ },
+ {
+  "name": "Lashify",
+  "website": "https://www.lashify.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "DIY lash-extension system brand founded by Sahara Lotti, inventor of the original under-lash cluster (Gossamer) system, sold direct to consumers with a creator-first affiliate program.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partners@lashify.com",
+    "source_url": "https://www.lashify.com/apps/lashify/creators"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.lashify.com/apps/lashify/creators",
+    "summary": "Lashify's own Creators page publishes its tiers: everyone starts at 15% on every order through their link or code, rising to 18% (Partner, $1,500 in sales in the last 90 days) and 20% (Icon, $5,000 in the last 90 days). Earnings are paid monthly on the 15th by PayPal (or LashCash store credit with 25% extra). Joining requires at least 10,000 followers on one platform."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.lashify.com/apps/lashify/creators",
+    "summary": "The Creators page publishes partners@lashify.com for makeup-artist invitations and for former Affiliate Alliance members migrating to Lashify Creators."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.lashify.com/apps/lashify/creators",
+    "summary": "The program is built around creator content: members get lessons on the system and techniques, ready-to-post captions and products to film, and their followers get 2 free lashes on a first order of $100 or more."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://www.lashify.com/apps/lashify/creators",
+   "source_url": "https://www.lashify.com/apps/lashify/creators",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.lashify.com/apps/lashify/creators",
+   "source_url": "https://www.lashify.com/apps/lashify/creators",
+   "title": "Lashify Creators (15% starting commission, tiers to 20%)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 18,
+   "compensation": 17,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "DIY lash application is one of the most demo-driven beauty categories on TikTok \u2014 the product only makes sense in video.",
+    "ugc_evidence": "The brand's own Creators program supplies lessons, captions and products to film, and replaced its older Affiliate Alliance \u2014 a deliberate creator-first rebuild.",
+    "compensation": "Published cash commission on the brand's own page \u2014 15% starting, 18% and 20% performance tiers \u2014 paid monthly via PayPal.",
+    "contact_access": "A published partner email (partners@lashify.com) plus an on-site application; the email route is aimed at makeup artists and migrating affiliates.",
+    "opportunity_availability": "Open application, but gated: creators need at least 10,000 followers on one platform (makeup artists by invitation).",
+    "credibility": "Category-defining lash brand with fully published rates, payout timing and level rules on its own site."
+   }
+  }
+ },
+ {
+  "name": "Bondi Boost",
+  "website": "https://bondiboost.com",
+  "country": "Australia",
+  "category_slug": "beauty",
+  "description": "Australian haircare brand focused on hair-growth, scalp care and styling tools, sold through its own store and salons, with an affiliate program that rewards posting creators.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://bondiboost.com/pages/collab",
+    "summary": "BondiBoost's own collabs page publishes its affiliate terms: 12% commission on every sale through the affiliate's unique link/code, rising to 15% after 60 days with strong engagement, paid monthly, with free shipping for followers. The only stated requirement is posting about the brand at least twice a month."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://bondiboost.com/pages/collab",
+    "summary": "The collabs page promises monthly prizes for top performers, product restocks for active affiliates and personalized team support \u2014 an actively managed creator program, not a dormant listing."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program",
+   "commission_rate": 12,
+   "application_url": "https://bondiboost.com/pages/collab",
+   "source_url": "https://bondiboost.com/pages/collab",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://bondiboost.com/pages/collab",
+   "source_url": "https://bondiboost.com/pages/collab",
+   "title": "BondiBoost Affiliate Program (12% base, 15% after 60 days)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hair-growth and styling-tool content is a proven hair-UGC category built on routine and progress videos.",
+    "ugc_evidence": "The brand's own collabs page is creator-facing: a posting rhythm (2x/month), monthly prizes and restocks for active affiliates.",
+    "compensation": "Published cash commission on the brand's own page \u2014 12% base rising to 15% after 60 days with strong engagement \u2014 paid monthly.",
+    "contact_access": "No public affiliate email appears on the collabs page; contact runs through the program application itself.",
+    "opportunity_availability": "Open application on the brand's own collabs page with a simple stated requirement (post twice a month).",
+    "credibility": "Established Australian haircare brand with published rates and payout cadence on its own store."
+   }
+  }
+ },
+ {
+  "name": "Glamnetic",
+  "website": "https://www.glamnetic.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Los Angeles beauty brand selling magnetic lashes and press-on nails, built on TikTok Shop creator selling with open and target collaboration commissions.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "tiktokshop@glamnetic.com",
+    "source_url": "https://www.glamnetic.com/pages/tiktokshopcontest-terms"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.glamnetic.com/pages/tiktokshopcontest-terms",
+    "summary": "Glamnetic's own TikTok Shop terms page documents its standing TikTok Shop commission structure: affiliates earn 15% commission with an open collaboration, 23% with a target collaboration invite (or as a verified Discord member meeting GMV eligibility), and a reduced 5% on posts boosted in its GMV Max ad campaigns; commissions are paid out by TikTok Shop."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.glamnetic.com/pages/tiktokshopcontest-terms",
+    "summary": "The brand publishes tiktokshop@glamnetic.com on glamnetic.com as the contact for its TikTok Shop affiliates."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://app.grin.ai/brands/glamnetic.com",
+    "summary": "GRIN's marketplace lists active Glamnetic creator programs (gifting-based campaigns with TikTok and Instagram deliverables) \u2014 a separate creator route from the TikTok Shop commission program recorded here."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": 15,
+   "application_url": "https://www.glamnetic.com/pages/tiktokshopcontest-terms",
+   "source_url": "https://www.glamnetic.com/pages/tiktokshopcontest-terms",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.glamnetic.com/pages/tiktokshopcontest-terms",
+   "source_url": "https://www.glamnetic.com/pages/tiktokshopcontest-terms",
+   "title": "Glamnetic TikTok Shop Affiliate Program (15% open collaboration, up to 23%)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 19,
+   "compensation": 16,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Press-on nails and magnetic lashes are among the highest-converting TikTok Shop beauty demos \u2014 application videos are the sales pitch.",
+    "ugc_evidence": "The brand runs its whole growth engine through TikTok Shop creators: published commission tiers, GMV contests with large prizes and a verified-creator Discord community.",
+    "compensation": "Published on the brand's own terms page: 15% cash commission on open collaborations, rising to 23% for target collaborations \u2014 paid by TikTok Shop.",
+    "contact_access": "A dedicated TikTok Shop affiliate email (tiktokshop@glamnetic.com) is published on the brand's own site.",
+    "opportunity_availability": "Open collaboration on TikTok Shop is available to approved TikTok Shop affiliates without an invite; higher tiers are invite/verification based.",
+    "credibility": "Established DTC beauty brand with detailed, legally drafted TikTok Shop program terms published on its own store."
+   }
+  }
+ },
+ {
+  "name": "Blu Atlas",
+  "website": "https://www.bluatlas.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Men's clean skincare and grooming brand (Foundry Brands) selling short-ingredient-list face, hair, body, shave and fragrance essentials made in the USA.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "Aburnett@foundrybrands.com",
+    "source_url": "https://ui.awin.com/merchant-profile/108032"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/108032",
+    "summary": "Blu Atlas's Awin merchant profile publishes a flat 15% commission rate with a 30-day cookie and dedicated affiliate support \u2014 the network's own current program terms."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/108032",
+    "summary": "The Awin profile publishes a named affiliate contact for questions or issues: Alice Burnett at Aburnett@foundrybrands.com (Foundry Brands)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/blu-atlas/",
+    "summary": "An older LinkClicky directory entry (March 2024) listed Blu Atlas at 20% per sale via Impact, which conflicts with the current Awin profile's 15%; the network's own current profile governs, so 15% via Awin is recorded and the older figure is documented as superseded."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 15,
+   "application_url": "https://ui.awin.com/merchant-profile/108032",
+   "source_url": "https://ui.awin.com/merchant-profile/108032",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/108032",
+   "source_url": "https://ui.awin.com/merchant-profile/108032",
+   "title": "Blu Atlas Affiliate Program via Awin (15%, 30-day cookie)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 16,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Men's grooming is a smaller but fast-growing UGC niche; simple two-step routines suit short-form demo content, and gifting-for-him content widens the creator pool.",
+    "ugc_evidence": "The Awin profile markets the program to content partners, but the brand publishes less creator-specific programming than beauty-native rivals.",
+    "compensation": "Flat published 15% commission on the network's own merchant profile, with a 30-day cookie.",
+    "contact_access": "A named affiliate manager's email is published on the Awin profile \u2014 unusually direct access for a network program.",
+    "opportunity_availability": "Open to apply through Awin; approval is at the brand's discretion.",
+    "credibility": "Award-winning men's brand (2025 Men's Journal Grooming Awards per its own store) operated by Foundry Brands, with current terms on a major network."
+   }
+  }
+ },
+ {
+  "name": "Grande Cosmetics",
+  "website": "https://www.grandecosmetics.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Beauty brand known for the GrandeLASH-MD lash enhancing serum and a wider range of lash, brow, lip and hair products with clinically-inspired formulas, sold direct and through major beauty retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.accelerationpartners.com/affiliate-programs/grande-cosmetics/",
+    "summary": "Acceleration Partners, the agency managing Grande Cosmetics' affiliate program, publishes its terms: Hub Commission 10%, 90-day cookies, CPA payout model on the Impact network (Network ID 13069), US consumers, with sub-affiliate/influencer networks among the approved partner types."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/grande-cosmetics-llc/",
+    "summary": "Lasso's directory lists Grande Cosmetics at 8% per sale with a 30-day cookie, which conflicts with the program manager's published 10% hub commission and 90-day cookie; the manager's own page governs, so 10% via Impact is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://www.accelerationpartners.com/affiliate-programs/grande-cosmetics/",
+   "source_url": "https://www.accelerationpartners.com/affiliate-programs/grande-cosmetics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.accelerationpartners.com/affiliate-programs/grande-cosmetics/",
+   "source_url": "https://www.accelerationpartners.com/affiliate-programs/grande-cosmetics/",
+   "title": "Grande Cosmetics Affiliate Program via Impact (10%, 90-day cookie)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Lash and brow serums are a proven beauty-UGC category built on progress photos and routine videos; the brand's hero product is a repeat-purchase consumable.",
+    "ugc_evidence": "The program approves influencer networks and content partners, and the brand works heavily with creators, but publishes little creator-specific programming of its own.",
+    "compensation": "Published 10% hub commission from the program's own management agency, with an unusually long 90-day cookie.",
+    "contact_access": "No direct affiliate email is published on the fetched pages; contact runs through Impact and the managing agency.",
+    "opportunity_availability": "Open to apply on Impact through the program's published join route.",
+    "credibility": "Long-established, retail-distributed beauty brand with a professionally managed program (Acceleration Partners) and published network terms."
+   }
+  }
+ },
+ {
+  "name": "Loving Tan",
+  "website": "https://us.lovingtan.com",
+  "country": "Australia",
+  "category_slug": "beauty",
+  "description": "Australian self-tanning brand selling express tanning mousses, face tans and applicator mitts through its own US store and beauty retailers, long marketed through influencers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.lovingtan.com/pages/affiliates",
+    "summary": "Loving Tan's own affiliates page offers 'up to 15% commission on each sale (excluding gift cards)' with a 30-day cookie window, bonuses for high-performing affiliates and free samples for select partners. 'Up to 15%' is a ceiling, not a published base rate."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/loving-tan/",
+    "summary": "Third-party listings conflict on the actual rate: LinkClicky lists 10% per sale via Impact, FlexOffers lists 4\u20138% for the US program, and a Katalys-based review cites a 3% default. Because the brand's own page publishes only a 15% ceiling and the listings disagree, commission_rate is recorded as null with the conflict documented."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://us.lovingtan.com/pages/affiliates",
+   "source_url": "https://us.lovingtan.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://us.lovingtan.com/pages/affiliates",
+   "source_url": "https://us.lovingtan.com/pages/affiliates",
+   "title": "Loving Tan Affiliate Program (up to 15% per brand page; base rate unpublished)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Self-tan application and results content is a staple beauty-UGC format with strong before/after appeal.",
+    "ugc_evidence": "The brand's own affiliates page recruits influencers directly and offers samples to select partners; the brand was built on influencer marketing.",
+    "compensation": "The brand publishes only an 'up to 15%' ceiling and third-party listings conflict (3% / 4\u20138% / 10%), so no base rate can be honestly recorded.",
+    "contact_access": "No public affiliate email appears on the fetched program page; sign-up runs through the page's application link.",
+    "opportunity_availability": "Open application from the brand's own affiliates page.",
+    "credibility": "Long-running Australian tanning brand (since 2010) with a US storefront and published program outline on its own site."
+   }
+  }
+ },
+ {
+  "name": "FOREO",
+  "website": "https://www.foreo.com",
+  "country": "Sweden",
+  "category_slug": "beauty",
+  "description": "Swedish beauty-tech company selling silicone sonic facial cleansing devices (LUNA), smart mask devices (UFO), microcurrent tools (BEAR) and ISSA oral care, sold worldwide through its own store and retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.foreo.com/affiliate-program",
+    "summary": "FOREO's own affiliate program page publishes commissions 'ranging from 2% to 15%', a 60-day cookie window, exclusive offers and a dedicated account manager, with registration via Linkshare (Rakuten Advertising) or HasOffers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://partners.foreo.com/how-to-choose-the-best-affiliate-programs-and-networks-in-the-uk-with-top-picks/",
+    "summary": "FOREO's own partner blog states its program pays 5\u201315% per sale through Awin, CJ Affiliate and Rakuten with 30\u201360 day cookies and no minimum follower requirements. The 5% floor conflicts with the affiliate page's 2% floor, so no single rate is recorded; the published range is 2\u201315%."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.foreo.com/affiliate-program",
+   "source_url": "https://www.foreo.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.foreo.com/affiliate-program",
+   "source_url": "https://www.foreo.com/affiliate-program",
+   "title": "FOREO Affiliate Program (2\u201315% published range, 60-day cookie)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Skincare devices are premium demo products \u2014 cleansing, masking and microcurrent routines are natural short-form content with high basket values.",
+    "ugc_evidence": "The brand recruits bloggers and creators on its own affiliate page and offers a dedicated account manager, though its program is publisher-led rather than creator-native.",
+    "compensation": "Only a wide 2\u201315% range is published and the brand's own pages conflict on the floor (2% vs 5%), so no base rate can be honestly recorded.",
+    "contact_access": "No public affiliate email appears on the fetched pages; support runs through the network and a dedicated account manager after joining.",
+    "opportunity_availability": "Open registration via Rakuten/HasOffers, and the brand states there are no minimum follower requirements.",
+    "credibility": "Global beauty-tech leader with worldwide retail distribution and long-running network programs on Rakuten, Awin and CJ."
+   }
+  }
+ },
+ {
+  "name": "Vacation",
+  "website": "https://www.vacation.inc",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Miami sunscreen brand selling retro-styled SPF lotions, sprays, face sunscreens and fragrances built around its signature 'world's best-smelling sunscreen' scent, sold through its own store and retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/94163",
+    "summary": "Vacation's Awin merchant profile confirms a live Vacation Inc affiliate program on Awin with a 30-day attribution period; the public profile does not publish a commission rate, so the rate is recorded as null rather than guessed."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/vacation-inc",
+    "summary": "Rateful's TikTok Shop analysis (third-party estimates, not brand-published figures) reports that roughly 70% of Vacation's TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators' videos and LIVEs \u2014 evidence of a creator-driven sales model, though no absolute creator count is published, so saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/94163",
+   "source_url": "https://ui.awin.com/merchant-profile/94163",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/94163",
+   "source_url": "https://ui.awin.com/merchant-profile/94163",
+   "title": "Vacation Inc Affiliate Program via Awin (rate not published)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sunscreen with a distinctive scent and retro branding gives creators an easy sensory hook; SPF routines and travel content are steady short-form categories.",
+    "ugc_evidence": "Third-party TikTok Shop data attributes roughly 70% of the brand's recent TikTok Shop sales to affiliate creators \u2014 the brand sells through creators by design.",
+    "compensation": "No commission rate is published on the network profile or any fetched page, so compensation cannot be graded beyond program existence.",
+    "contact_access": "No public affiliate contact appears on the fetched profile; contact runs through Awin.",
+    "opportunity_availability": "Open to apply through Awin; the brand also sells through TikTok Shop's affiliate system.",
+    "credibility": "Well-known, retail-distributed sunscreen brand with an irreverent but established brand identity and a live program on a major network."
+   }
+  }
+ }
+]

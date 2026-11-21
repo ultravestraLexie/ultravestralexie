@@ -1,0 +1,654 @@
+[
+ {
+  "name": "Thursday Boots",
+  "website": "https://thursdayboots.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Premium direct-to-consumer footwear brand founded in 2014 selling Goodyear-welted boots, dress shoes, sneakers, bags and jackets for men and women through thursdayboots.com, positioned on honest pricing and durable construction.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/thursday-boot-company/",
+    "summary": "LinkClicky's program listing (updated March 11, 2024) records Thursday Boot Company on CJ Affiliate at 4.5% per sale for the US region, described as 'just what's officially listed with their affiliate program as the payout', with applications handled through CJ's signup."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://thursdayboots.com/",
+    "summary": "Thursday's own homepage sells men's and women's boots, sneakers, shoes, jackets, bags and shirts, and displays 'As Featured In' press logos including GQ, Men's Journal, People, WSJ and Forbes."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DZXT9-qBNp0/",
+    "summary": "Men's-style creator Antonio Centeno (Real Men Real Style, 190K followers) published a disclosed paid-partnership Reel endorsing Thursday Boots' sneakers, dress shoes and boots with a shop link, showing the brand works with fashion creators on sponsored content."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-programs/shoe/",
+    "summary": "UpPromote's shoe-program roundup uses Thursday Boot Co. in a worked example at a 15% commission on a ~$200 average order, which conflicts with the 4.5% officially listed CJ payout; the 15% figure appears to be an illustrative scenario rather than program terms, so the CJ-listed 4.5% is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 4.5,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/thursday-boot-company/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium boots and shoes are a core men's and women's fashion niche with strong review, styling and durability content angles.",
+    "ugc_evidence": "The brand runs disclosed creator partnerships (e.g. Real Men Real Style) but publishes no dedicated creator or ambassador program page of its own.",
+    "compensation": "4.5% per sale as officially listed on CJ; modest percentage but on ~$200 footwear orders. No earnings cap is stated in any fetched source, so the cap is honestly unknown.",
+    "contact_access": "No public partnerships email or brand-side application page was found; access is only through a CJ publisher account.",
+    "opportunity_availability": "Open application through CJ Affiliate today, subject to CJ's normal publisher review.",
+    "credibility": "Established DTC footwear brand featured by GQ, WSJ and Forbes on its own homepage, with a long-running CJ program."
+   }
+  }
+ },
+ {
+  "name": "White Fox",
+  "website": "https://whitefoxboutique.com",
+  "country": "Australia",
+  "category_slug": "fashion",
+  "description": "Australian women's fast-fashion retailer selling dresses, loungewear, going-out outfits, swim and accessories through whitefoxboutique.com and regional stores, built on influencer and social-first marketing.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "collabs@whitefoxboutique.com",
+    "source_url": "https://usesnippet.app/pr-emails/white-fox/ambassador-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/whitefoxboutique/"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.wowtrk.com/offer/3597563",
+    "summary": "WOW TRK's Rakuten Advertising offer record for White Fox Boutique US (offer 46639, updated Oct 27, 2026) states a 2% base commission with a 28-day cookie, product feed and deep links; gift cards and certain SKUs are excluded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/white-fox-boutique-au/",
+    "summary": "Lasso lists the separate White Fox Boutique AU program at 6% per sale, so rates differ by region; the US Rakuten base rate of 2% is the one recorded, with the AU figure documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://usesnippet.app/pr-emails/white-fox/ambassador-program",
+    "summary": "Snippet's check of White Fox's own pages (November 10, 2026) found no ambassador or affiliate program listed on the brand's own site; the route it does publish is collabs@whitefoxboutique.com for marketing and influencer inquiries."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/DTsk7IwDPMW/",
+    "summary": "Creator Julia Perfetto's Instagram carousel tags @whitefoxboutique with a personal discount code ('code JULIA'), evidencing White Fox's creator-code seeding model on Instagram."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 2,
+   "application_url": null,
+   "source_url": "https://www.wowtrk.com/offer/3597563",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 5,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pure women's fast fashion with viral product drops made for TikTok and Instagram haul and try-on content.",
+    "ugc_evidence": "Creator discount codes and influencer seeding are central to the brand's marketing, and a separate ambassador/influencer route is reported via Yazing; the affiliate program itself sits on Rakuten.",
+    "compensation": "Only 2% base commission on the US Rakuten offer (AU program listed at 6%), which is low for apparel; no earnings cap is stated anywhere fetched, so the cap is honestly unknown.",
+    "contact_access": "A published collabs email for influencer inquiries exists, but there is no brand-side program page or application form.",
+    "opportunity_availability": "Joinable today through Rakuten Advertising's US offer; the brand's own site lists no program, so discovery is network-only.",
+    "credibility": "Large, well-known Australian fast-fashion retailer with US, UK and AU storefronts and a long social-commerce track record."
+   }
+  }
+ },
+ {
+  "name": "PrettyLittleThing",
+  "website": "https://www.prettylittlething.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "UK fast-fashion retailer founded in 2012 (part of the Boohoo group) selling women's apparel, accessories, jewellery and beauty through prettylittlething.com, known for celebrity collaborations and social-first marketing.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@prettylittlething.com",
+    "source_url": "https://ui.awin.com/merchant-profile/7533?setLocale=fr_FR"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/7533?setLocale=fr_FR",
+    "summary": "PLT's official Awin US merchant profile (fetched in full) offers affiliates 'Up to 10% commission (average) on all referred sales', 30-day cookies, product feeds and exclusive codes, and publishes the contact affiliate@prettylittlething.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/7533?setLocale=fr_FR",
+    "summary": "The same Awin profile states PLT is 'not accepting new influencer affiliate applications directly through AWIN' and directs influencers to approved platforms including LTK, Metapic, Stylink and ShopMy for full access to the programme."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/niche/t-shirt/",
+    "summary": "Lasso's program guides consistently list PrettyLittleThing on Awin at 5% - 10% per sale with a 30-day cookie and a $50 payout threshold; the 5% floor of that published range is recorded as the rate."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://ui.awin.com/merchant-profile/7533?setLocale=fr_FR",
+   "source_url": "https://ui.awin.com/merchant-profile/7533?setLocale=fr_FR",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/7533?setLocale=fr_FR",
+   "source_url": "https://ui.awin.com/merchant-profile/7533?setLocale=fr_FR",
+   "title": "PrettyLittleThing US Affiliate Program (Awin)"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 17,
+   "compensation": 11,
+   "contact_access": 12,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Trend-led women's fast fashion built for haul, try-on and occasion-dressing content — a core fashion-creator niche.",
+    "ugc_evidence": "An influencer-first brand whose Awin profile routes creators through LTK, ShopMy and similar platforms, with exclusive codes and celebrity collaborations driving UGC.",
+    "compensation": "Published range of 5-10% per sale (Awin profile: 'up to 10% commission (average)'; Lasso: 5-10%); the 5% floor is recorded. No earnings cap is stated in the fetched profile, so the cap is honestly unknown.",
+    "contact_access": "The affiliate team's email is published directly on the Awin merchant profile, alongside the program terms.",
+    "opportunity_availability": "Open via Awin for publishers, but direct influencer applications through Awin are currently paused — creators must join through LTK, Metapic, Stylink or ShopMy instead.",
+    "credibility": "One of the UK's best-known fast-fashion retailers (Boohoo group), founded 2012, with a long-running multi-network affiliate presence."
+   }
+  }
+ },
+ {
+  "name": "ASOS",
+  "website": "https://www.asos.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "British online fashion and beauty retailer selling 850+ brands plus its own labels (ASOS DESIGN, Topshop, Topman) through asos.com, aimed at fashion-conscious twenty-somethings worldwide.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.afflemi.com/affiliate-programs/p/asos",
+    "summary": "Afflemi's ASOS program page (fetched) states the program runs on Awin with a 30-day cookie and tiered commission: up to 6% on orders from new customers, 3% from existing customers and 1% on sale items, with reviewed applications and payouts on Awin's monthly schedule."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/asos/",
+    "summary": "UpPromote's ASOS directory entry gives 3% - 7% on average (new customers up to 6-7%, existing around 3%) and names Awin as the primary network with Rakuten Advertising (US) and FlexOffers also carrying the program."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://gethideals.com/affiliate-program-asos/",
+    "summary": "Other guides conflict with the figures above — this one describes an order-value tier table (2.5% up to £100 rising to 4% over £1,000) and others cite 5-10% — so no single rate could be verified and commission_rate is left null with the conflict documented."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.afflemi.com/affiliate-programs/p/asos",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "One of the largest online fashion catalogues in the world (850+ brands plus own labels) — outfit, haul and trend content fits naturally.",
+    "ugc_evidence": "ASOS runs a reviewed publisher program with feeds, banners and deep links and is a staple of fashion creator content, though it publishes no creator-specific program page.",
+    "compensation": "Tiered rates are reported (up to 6% new customers / 3% existing / 1% sale items on Awin), but published figures conflict across sources (roughly 1% to 10%), so the rate is honestly left null; no earnings cap is stated anywhere fetched.",
+    "contact_access": "No public partnerships email or brand application page was verified; access is through network publisher accounts only.",
+    "opportunity_availability": "Open application through Awin (and Rakuten in the US) with manual review for fashion-relevant sites and channels.",
+    "credibility": "FTSE-listed global fashion retailer founded in 2000 with a long-running affiliate program across major networks."
+   }
+  }
+ },
+ {
+  "name": "Steve Madden",
+  "website": "https://www.stevemadden.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American footwear and accessories brand founded in 1990 selling trend-driven shoes, handbags and accessories for women, men and kids through stevemadden.com and retail stores.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/stevemadden/"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.stevemadden.com/pages/sm-ambassadors-terms-and-conditions?srsltid=AfmBOopBBnDZhPwTOTrdAik6ZcY0bTRx-KHyDFQutJ8cPlmEtw0iXnBu",
+    "summary": "Steve Madden's official SM Ambassadors terms (fetched in full) run an own-brand affiliate program for social creators: apply through the Madden Site, post wearing the product tagging @SteveMadden with #SteveMaddenPartner, and earn commission on Qualified Purchases from new referred customers."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.stevemadden.com/pages/sm-ambassadors-terms-and-conditions?srsltid=AfmBOopBBnDZhPwTOTrdAik6ZcY0bTRx-KHyDFQutJ8cPlmEtw0iXnBu",
+    "summary": "Section 7 of the official terms sets the cash rate: affiliates who select PayPal payment earn 5% for each Qualified Purchase, paid 60 days after the order date; the alternative payment method is a discount code worth 10% of the Qualified Purchase for the affiliate's own use on the Madden Site. The 5% cash rate is recorded; the 10% code is store credit, not cash."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/steve-madden/",
+    "summary": "Lasso lists a separate Steve Madden network listing at 6.4% per sale with a 7-day cookie, and affiliateprogramsguru reports 5% through Rakuten with a 30-day cookie — secondary routes that differ from the own-program terms recorded here."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://www.stevemadden.com/pages/sm-ambassadors-terms-and-conditions?srsltid=AfmBOopBBnDZhPwTOTrdAik6ZcY0bTRx-KHyDFQutJ8cPlmEtw0iXnBu",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 18,
+   "compensation": 10,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Trend footwear and bags are a staple of fashion creator content — GRWM, styling and shoe-haul formats fit the catalogue directly.",
+    "ugc_evidence": "The SM Ambassadors program is built specifically for social media creators, with defined posting rules, a required partner hashtag and gifted product at the brand's discretion.",
+    "compensation": "5% cash per qualified purchase via PayPal under the brand's own published terms (a 10%-of-purchase discount code is the non-cash alternative); third-party network listings cite 5-6.4%. No earnings cap is stated in the fetched terms, so the cap is honestly unknown.",
+    "contact_access": "Full program terms and the application route are published on the brand's own site, though no partnerships email is published.",
+    "opportunity_availability": "Application is open through the Madden Site but acceptance is at the brand's sole discretion and limited to US residents aged 18+.",
+    "credibility": "Publicly traded footwear company (Steven Madden, Ltd.) founded in 1990 with global retail distribution."
+   }
+  }
+ },
+ {
+  "name": "FeelinGirl",
+  "website": "https://feelingirl.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Shapewear and bodysuit brand selling waist trainers, bodysuits, bras and activewear through feelingirl.com, marketed heavily through TikTok and Instagram creator content.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@feelingirl.com",
+    "source_url": "https://feelingirl.com/pages/afflite?ref=fg"
+   },
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "press@feelingirl.com",
+    "source_url": "https://feelingirl.com/pages/afflite?ref=fg"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://feelingirl.com/pages/afflite?ref=fg",
+    "summary": "FeelinGirl's own ambassador page (fetched in full) states: 'We offer 10%-15% commission on the goaffpro affiliate platform', with joining handled through its GoAffPro portal (feelingirl.goaffpro.com); ambassadors get free samples, custom referral links, exclusive coupons and brand features."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://feelingirl.com/pages/afflite?ref=fg",
+    "summary": "The same official page publishes info@feelingirl.com for general contact and press@feelingirl.com for media and press inquiries, and its FAQ says anyone over 18 who is active on social media can become an ambassador (a related page mentions 10k followers for the ambassador tier)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://feelingirl.com/pages/11",
+    "summary": "A second FeelinGirl page on the same domain describes the same 10%-15% commission but names the ShareASale platform instead of GoAffPro, so the platform named on the main ambassador page (GoAffPro, which its join buttons link to) is recorded and the discrepancy documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 10,
+   "application_url": "https://feelingirl.goaffpro.com",
+   "source_url": "https://feelingirl.com/pages/afflite?ref=fg",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://feelingirl.goaffpro.com",
+   "source_url": "https://feelingirl.com/pages/afflite?ref=fg",
+   "title": "FeelinGirl Ambassador / Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 14,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Shapewear and bodysuits are a proven TikTok fashion niche (try-on, before/after and review formats), though narrower than general apparel.",
+    "ugc_evidence": "A dedicated ambassador program with brand missions, product samples, official features of creator photos on the brand's own page and exclusive creator channels.",
+    "compensation": "10-15% commission published on the brand's own ambassador page — a strong rate for apparel; the 10% floor is recorded. No earnings cap is stated on the fetched page, so the cap is honestly unknown.",
+    "contact_access": "Self-serve join through the brand's GoAffPro portal plus two published emails (general and press) on the program page itself.",
+    "opportunity_availability": "Open today; the brand's FAQ says anyone 18+ active on social media can become an ambassador, with a 10k-follower mention for the ambassador tier on a related page.",
+    "credibility": "Smaller DTC shapewear label without the track record of the larger retailers in this group; a mirror storefront (feelingirlbodysuit.com) also operates."
+   }
+  }
+ },
+ {
+  "name": "ChicMe",
+  "website": "https://www.chicme.com",
+  "country": "China",
+  "category_slug": "fashion",
+  "description": "Online women's fast-fashion store founded in 2015 selling dresses, tops, jeans, swimwear, shoes and bodysuits through chicme.com to a global customer base.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.commissionfactory.com/advertiser-directory/chicme-affiliate-program/49287",
+    "summary": "Commission Factory's own advertiser page for ChicMe (fetched) states a default commission of 12% per sale with a 14-day cookie, partner-specific rates possible, and partnership enquiries handled through Commission Factory."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/chicme/",
+    "summary": "Lasso lists ChicMe at '8% and 10.4% per sale' with a 14-day cookie, which differs from Commission Factory's published 12% default; the network's own current page is weighted and the difference documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://revieweek.com/review/chicme/",
+    "summary": "Revieweek's ChicMe review describes a blogger program for creators with 500+ followers or unique visitors offering free product plus a fixed reward for tagged posts, alongside the affiliate program — a gifting-plus-fee route separate from the commission program recorded here."
+   }
+  ],
+  "affiliate": {
+   "network": "Commission Factory",
+   "commission_rate": 12,
+   "application_url": "https://www.commissionfactory.com/advertiser-directory/chicme-affiliate-program/49287",
+   "source_url": "https://www.commissionfactory.com/advertiser-directory/chicme-affiliate-program/49287",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.commissionfactory.com/advertiser-directory/chicme-affiliate-program/49287",
+   "source_url": "https://www.commissionfactory.com/advertiser-directory/chicme-affiliate-program/49287",
+   "title": "ChicMe Affiliate Program (Commission Factory)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 10,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Budget women's fast fashion (dresses, swim, occasionwear) maps directly onto haul and try-on creator content.",
+    "ugc_evidence": "A standard network affiliate program plus a reported blogger program (free product and a fixed fee for 500+ follower creators); no dedicated creator portal or ambassador scheme was verified.",
+    "compensation": "12% default commission per the network's own advertiser page — high for fast fashion — though a third-party listing cites 8-10.4% instead. No earnings cap is stated in any fetched source, so the cap is honestly unknown.",
+    "contact_access": "No public brand email was verified; partnership contact runs through the Commission Factory dashboard only.",
+    "opportunity_availability": "Open application through Commission Factory today; a FlexOffers listing for the same brand is marked not currently offered, so Commission Factory is the live route.",
+    "credibility": "Budget cross-border fast-fashion retailer operating since 2015 with mixed consumer reviews; smaller and less established than the major retailers in this group."
+   }
+  }
+ },
+ {
+  "name": "Booking.com",
+  "website": "https://www.booking.com",
+  "country": "Netherlands",
+  "category_slug": "travel",
+  "description": "One of the world's largest online travel agencies, offering 29M+ accommodation listings plus flights, car rental, attractions and airport taxis in 45 languages through booking.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.cj.com/en-gb/publisher/partners/booking.com",
+    "summary": "CJ's own Booking.com partner page (fetched in full) states the programme is session-based and pays, on completed travel: 4% for accommodation stays, 6% for car rentals, 4% for attractions, £2/€2 per flight and 4% for taxi rides, with rates that may vary by performance and volume; new applicants register through CJ by region."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.cj.com/en-gb/publisher/partners/booking.com",
+    "summary": "The same CJ page says the programme 'welcomes travel bloggers, influencers, and website owners' but 'will not accept publishers to the programme with social media only profiles' — creators need an active website or blog as well."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://affiliateprogramsguru.com/programs/booking-com-affiliate-program/",
+    "summary": "AffiliateProgramsGuru describes the same program as paying 25-40% of Booking.com's own commission revenue by monthly volume (roughly 4-8% of booking value), an alternative framing of the CJ-stated rates; the CJ page's direct percentages of booking value are recorded, with this basis difference documented."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 4,
+   "application_url": "https://www.cj.com/en-gb/publisher/partners/booking.com",
+   "source_url": "https://www.cj.com/en-gb/publisher/partners/booking.com",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.cj.com/en-gb/publisher/partners/booking.com",
+   "source_url": "https://www.cj.com/en-gb/publisher/partners/booking.com",
+   "title": "Booking.com Affiliate Programme (via CJ)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "The default hotel-booking link for travel content worldwide — 29M+ listings, flights, cars and attractions in one program.",
+    "ugc_evidence": "CJ's page explicitly welcomes travel bloggers and influencers, but there is no creator-specific tier and social-only profiles are refused, which limits pure social creators.",
+    "compensation": "4% of booking value on completed stays to start (6% cars, 4% attractions/taxis, flat £2/€2 flights) per CJ's own page; session-based tracking — the booking must complete in the same browser session — is a real earnings constraint. No earnings cap is stated, so the cap is honestly unknown.",
+    "contact_access": "Application and support run through CJ's publisher platform; no public brand partnerships email was verified.",
+    "opportunity_availability": "Open via CJ by region today, but an active website or blog is required — social-media-only creators are not accepted.",
+    "credibility": "One of the world's largest travel companies (Booking Holdings), with 4.5 billion guest arrivals since 2021 per CJ's page."
+   }
+  }
+ },
+ {
+  "name": "Expedia",
+  "website": "https://www.expedia.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Expedia Group's flagship online travel agency selling hotels, vacation rentals, packages, car rentals, activities and flights through expedia.com and the Expedia app.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.whichprogram.com/en/p/expedia-travel-creator-affiliate",
+    "summary": "WhichProgram's Expedia Travel Creator entry (fetched) records the program on CJ Affiliate with a 7-day cookie and application required, quoting the network's stated structure: '4% hotels & activities; 2% vacation rentals & packages; 1.5% cars.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://affiliateprogramsguru.com/programs/expedia-affiliate-program/",
+    "summary": "AffiliateProgramsGuru's Expedia entry (verified March 2026) corroborates the same tiers — 4% hotels and activities, 2% vacation rentals and packages, 1.5% cars, flights not commissionable, 7-day cookie — and lists CJ Affiliate, Awin and Expedia's direct Affiliate Hub as join routes."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.whichprogram.com/en/p/expedia-travel-creator-affiliate",
+    "summary": "WhichProgram's own directory header records a conflicting '$1.50 to $4.00 per action' CPA figure for the same CJ program, which does not match the percentage structure it quotes from the network; the network-stated percentage tiers are recorded and the flat figure documented as a conflict."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 4,
+   "application_url": "https://affiliates.expediagroup.com/",
+   "source_url": "https://www.whichprogram.com/en/p/expedia-travel-creator-affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://affiliates.expediagroup.com/",
+   "source_url": "https://affiliateprogramsguru.com/programs/expedia-affiliate-program/",
+   "title": "Expedia Travel Creator / Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Full-service travel booking (hotels, rentals, packages, cars, activities) fits virtually all travel content verticals.",
+    "ugc_evidence": "The program is now branded the Travel Creator Program and reviews influencer applicants, but remains a general publisher program rather than a creator-first scheme.",
+    "compensation": "4% on hotels and activities is the headline network-stated tier (2% rentals/packages, 1.5% cars, 7-day cookie); one directory's flat $1.50-$4.00 per-action figure conflicts and is documented. No earnings cap is stated in any fetched source, so the cap is honestly unknown.",
+    "contact_access": "Joinable through CJ or Expedia Group's own Affiliate Hub; no public partnerships email was verified.",
+    "opportunity_availability": "Open application via CJ/Awin or the direct hub, with a site-quality review; influencer applicants are reported to need at least 1,000 followers and active travel content.",
+    "credibility": "Expedia Group is one of the world's largest travel companies, operating Expedia, Hotels.com and Vrbo."
+   }
+  }
+ },
+ {
+  "name": "Delsey",
+  "website": "https://us.delsey.com",
+  "country": "France",
+  "category_slug": "travel",
+  "description": "French luggage brand DELSEY Paris, with over 75 years of design heritage, selling hard and soft suitcases, bags and travel accessories (including Châtelet Air 2.0, Rempart and Helium DLX lines) through us.delsey.com and retailers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@delsey.com",
+    "source_url": "https://ui.awin.com/merchant-profile/36622"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/36622",
+    "summary": "DELSEY Paris's official Awin merchant profile (fetched in full) offers a 5% base commission through AWIN with custom rates for top publishers and influencers, creative assets and real-time tracking, and publishes the contact affiliates@delsey.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/advertiser-terms/36622",
+    "summary": "The program's Awin terms and conditions (last updated Aug 4, 2025) confirm a default commission of 5% per sale paid only on valid, non-returned tracked sales, monthly payments via AWIN and a $50 minimum payout threshold."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/36622",
+    "summary": "The Awin profile describes DELSEY Paris as a globally recognized French luggage brand with over 75 years of design heritage, with best-selling collections including Châtelet Air 2.0, Rempart, Helium DLX, Flânerie and Carrousel, plus Jeep and florence by mills co-branded lines."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://ui.awin.com/merchant-profile/36622",
+   "source_url": "https://ui.awin.com/merchant-profile/36622",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/36622",
+   "source_url": "https://ui.awin.com/merchant-profile/36622",
+   "title": "DELSEY Paris Affiliate Program (Awin)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Luggage is a narrower slice of travel, but packing, gear-review and travel-hack content makes it a natural creator fit.",
+    "ugc_evidence": "The Awin profile explicitly offers custom rates for top publishers and influencers and seasonal creative support, though there is no standalone creator program.",
+    "compensation": "5% base commission confirmed in both the Awin profile and the program's own Awin terms, with custom higher rates for top performers; no earnings cap is stated, so the cap is honestly unknown.",
+    "contact_access": "The affiliate team's email (affiliates@delsey.com) is published directly on the Awin merchant profile — unusually accessible for a heritage brand.",
+    "opportunity_availability": "Open application through Awin today with published terms, a $50 payout threshold and monthly payments.",
+    "credibility": "French luggage house with 75+ years of heritage and global retail distribution, per its Awin profile."
+   }
+  }
+ }
+]
