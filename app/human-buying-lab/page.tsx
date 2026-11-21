@@ -67,6 +67,22 @@ export default async function HumanBuyingLabPage() {
         </p>
       </section>
 
+      {/* THE BUYER BRAIN SIMULATOR — THE LAB'S HANDS-ON SIMULATOR */}
+      <section style={{ ...panel, textAlign: "center", border: "1px solid #22d3ee", boxShadow: "0 0 44px rgba(34,211,238,0.35)" }}>
+        <span style={{ ...badge, background: "#083344", color: "#a5f3fc", border: "1px solid #22d3ee" }}>THE LAB&rsquo;S SIMULATOR</span>
+        <p style={{ fontSize: 24, fontWeight: 800, margin: "12px 0 8px", color: "#f3e8ff" }}>The Five Buyer Test</p>
+        <p style={{ ...body, margin: "0 auto 14px", maxWidth: 680 }}>
+          THE SAME VIDEO. FIVE DIFFERENT BUYERS. The Five Buyer Test — the Buyer Brain Simulator — puts one
+          script in front of five buyer minds: Emotional, Logical, Skeptical, Impulse, Conscious. Each answers
+          back with their first reaction, their inner thought, interest, trust, and desire scores, their core
+          question, and their biggest objection. Then take the panel verdict, the improved hook, and the
+          rewritten script and film the stronger version.
+        </p>
+        <Link href="/buyer-brain" style={{ ...linkStyle, fontSize: 16.5 }}>
+          Run The Five Buyer Test →
+        </Link>
+      </section>
+
       {/* START WITH THE LESSON */}
       <section style={{ ...panel, textAlign: "center" }}>
         <p style={{ fontSize: 22, fontWeight: 800, margin: "0 0 8px", color: "#f3e8ff" }}>Start with the lesson</p>
