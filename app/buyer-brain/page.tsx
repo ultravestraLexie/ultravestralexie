@@ -49,6 +49,7 @@ const PERSONA_PROFILES: {
   who: string;
   cares: string;
   decides: string;
+  budget: string;
 }[] = [
   {
     match: "emotional",
@@ -56,6 +57,7 @@ const PERSONA_PROFILES: {
     who: "Buys the feeling first — the product is a path to a better version of their life.",
     cares: "Story, feeling, identity, transformation — they want to see themselves in the outcome.",
     decides: "Emotional payoff, backed by honest social proof.",
+    budget: "Price is secondary to the payoff they feel.",
   },
   {
     match: "logical",
@@ -63,6 +65,7 @@ const PERSONA_PROFILES: {
     who: "Compares before they commit — value has to survive the math.",
     cares: "Specs, comparisons, value math, durability — what it does, and what it costs over time.",
     decides: "Evidence, plus a price that feels justified.",
+    budget: "Price must be justified by evidence and value for money.",
   },
   {
     match: "skeptical",
@@ -70,6 +73,7 @@ const PERSONA_PROFILES: {
     who: "Assumes every claim is marketing until it is proven otherwise.",
     cares: "Proof, reviews, guarantees, the fine print — everything a pitch might be hiding.",
     decides: "When the risk feels removed.",
+    budget: "Price doesn't matter until the risk feels removed.",
   },
   {
     match: "impulse",
@@ -77,6 +81,7 @@ const PERSONA_PROFILES: {
     who: "Decides in seconds — if it is not instantly clear, it is gone.",
     cares: "Novelty, simplicity, immediate benefit — the payoff has to land now.",
     decides: "Fast, when friction is low.",
+    budget: "Price friction kills the moment — simple and clear wins.",
   },
   {
     match: "conscious",
@@ -84,6 +89,7 @@ const PERSONA_PROFILES: {
     who: "Buys deliberately — every purchase has to earn its place.",
     cares: "Ingredients, sourcing, sustainability, long-term value — what it is, and what it costs the world.",
     decides: "Alignment with their values, plus transparency.",
+    budget: "Pays more when values align; walks away when they don't.",
   },
 ];
 
@@ -661,6 +667,10 @@ export default function BuyerBrainPage() {
                             <p className="text-sm text-gray-400 mt-1">
                               <strong className="text-gray-200">What makes them decide:</strong>{" "}
                               {prof.decides}
+                            </p>
+                            <p className="text-sm text-gray-400 mt-1">
+                              <strong className="text-gray-200">Budget:</strong>{" "}
+                              {prof.budget}
                             </p>
                             {lens && (
                               <p className="text-sm text-gray-300 mt-3 border-t border-white/10 pt-3">
