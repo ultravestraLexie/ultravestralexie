@@ -21,7 +21,7 @@ const WORLDS: {
       "Ready-to-use outreach pitches",
       "Brand Trust Index",
     ],
-    img: "/worlds/world1.jpg",
+    img: "/worlds/tablet.jpg",
     href: "/brands",
     cta: "Enter the Brand Galaxy",
   },
@@ -79,7 +79,9 @@ const WORLDS: {
       "Brand matching",
       "Content improvement recommendations",
     ],
-    img: "/worlds/world5.jpg",
+    img: "/worlds/control.jpg",
+    href: "/ask",
+    cta: "Try Ask UltraVestra",
   },
   {
     n: "06",
@@ -93,7 +95,7 @@ const WORLDS: {
       "Product seeding",
       "Creator opportunities",
     ],
-    img: "/worlds/world6.jpg",
+    img: "/worlds/dash.jpg",
     href: "/brands",
     cta: "Scan the Radar",
   },
@@ -159,12 +161,12 @@ export default function LandingPage() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 56 }}>
       <section
+        className="portal-hero"
         style={{
           position: "relative",
           borderRadius: 28,
           overflow: "hidden",
-          border: "1px solid #3d2a6e",
-          boxShadow: "0 0 60px rgba(168,85,247,0.35)",
+          border: "1px solid #d946ef",
           backgroundImage: "url(/worlds/hero.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -180,17 +182,12 @@ export default function LandingPage() {
         >
           <span style={pillStyle}>THE CREATOR UNIVERSE</span>
           <h1
+            className="wow-title"
             style={{
-              fontSize: 56,
+              fontSize: 68,
               margin: "18px 0 10px",
               fontWeight: 800,
               letterSpacing: 1,
-              background:
-                "linear-gradient(92deg, #ffffff 15%, #c084fc 52%, #e879f9 78%, #22d3ee 105%)",
-              WebkitBackgroundClip: "text",
-              backgroundClip: "text",
-              color: "transparent",
-              textShadow: "none",
             }}
           >
             UltraVestra
@@ -288,6 +285,48 @@ export default function LandingPage() {
               See plans
             </Link>
           </p>
+          <div
+            style={{
+              display: "flex",
+              gap: 14,
+              justifyContent: "center",
+              flexWrap: "wrap",
+              marginTop: 30,
+            }}
+          >
+            {[
+              ["330+", "brands researched & sourced"],
+              ["7", "worlds in one universe"],
+              ["8", "answers in every Ask report"],
+            ].map(([num, label]) => (
+              <div
+                key={label}
+                className="float-slow"
+                style={{
+                  border: "1px solid #d946ef",
+                  background: "rgba(13,2,33,0.72)",
+                  borderRadius: 18,
+                  padding: "12px 22px",
+                  boxShadow: "0 0 24px rgba(217,70,239,0.4)",
+                  minWidth: 170,
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: 30,
+                    fontWeight: 800,
+                    background: "linear-gradient(92deg, #f0abfc, #22d3ee)",
+                    WebkitBackgroundClip: "text",
+                    backgroundClip: "text",
+                    color: "transparent",
+                  }}
+                >
+                  {num}
+                </div>
+                <div style={{ fontSize: 13.5, color: "#ddd0ff" }}>{label}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -309,12 +348,13 @@ export default function LandingPage() {
           {WORLDS.map((w) => (
             <article
               key={w.n}
+              className="glass-card"
               style={{
                 borderRadius: 24,
                 overflow: "hidden",
-                border: "1px solid #3d2a6e",
-                background: "rgba(27,18,61,0.72)",
-                boxShadow: "0 0 34px rgba(124,58,237,0.22)",
+                border: "1px solid #7e22ce",
+                background: "rgba(26,8,54,0.78)",
+                boxShadow: "0 0 34px rgba(168,85,247,0.35)",
                 display: "flex",
                 flexDirection: "column",
               }}
@@ -431,40 +471,66 @@ export default function LandingPage() {
       </section>
 
       <section
+        className="portal-hero"
         style={{
-          border: "1px solid #3d2a6e",
-          borderRadius: 24,
-          background:
-            "radial-gradient(600px 260px at 50% -10%, rgba(232,121,249,0.25), transparent 65%), rgba(27,18,61,0.72)",
-          padding: "36px 28px",
-          textAlign: "center",
+          position: "relative",
+          border: "1px solid #d946ef",
+          borderRadius: 28,
+          overflow: "hidden",
         }}
       >
-        <span style={pillStyle}>ASK ULTRAVESTRA</span>
-        <h2 style={{ fontSize: 28, margin: "14px 0 8px" }}>
-          An intelligent research assistant
-        </h2>
-        <p style={{ color: "#ddd0ff", maxWidth: 560, margin: "0 auto", fontSize: 16 }}>
-          Ask UltraVestra brings together everything in the platform — brands,
-          commissions, contacts and creator intelligence — and answers in one
-          place. In training now.
-        </p>
-        <p style={{ marginTop: 18 }}>
-          <span
-            style={{
-              display: "inline-block",
-              padding: "6px 14px",
-              borderRadius: 999,
-              border: "1px solid #3d2a6e",
-              color: "#b3a6e0",
-              fontSize: 13,
-              letterSpacing: 1.5,
-              fontWeight: 700,
-            }}
-          >
-            COMING SOON
-          </span>
-        </p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/worlds/control.jpg"
+          alt="Ask UltraVestra control room"
+          style={{ width: "100%", display: "block", aspectRatio: "16/7", objectFit: "cover" }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "linear-gradient(180deg, rgba(2,0,8,0.25) 30%, rgba(2,0,8,0.94) 88%)",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "flex-end",
+            alignItems: "center",
+            textAlign: "center",
+            padding: "30px 28px 36px",
+          }}
+        >
+          <span style={pillStyle}>ASK ULTRAVESTRA — NOW LIVE</span>
+          <h2 className="wow-title" style={{ fontSize: 34, margin: "14px 0 8px", fontWeight: 800 }}>
+            The feature that makes UltraVestra famous
+          </h2>
+          <p style={{ color: "#f3e8ff", maxWidth: 620, margin: "0 auto", fontSize: 16.5 }}>
+            &ldquo;I&rsquo;m a TikTok creator in beauty. I want brands with
+            uncapped affiliate commissions, that work with smaller creators.
+            Show me how to make better product videos.&rdquo; — Ask
+            UltraVestra answers with a personalized research report: brands
+            worth approaching, published commissions, contacts, a ready-to-use
+            pitch, three video concepts, a script and a filming blueprint.
+          </p>
+          <p style={{ marginTop: 20 }}>
+            <Link
+              href="/ask"
+              className="neon-btn"
+              style={{
+                display: "inline-block",
+                padding: "14px 34px",
+                borderRadius: 999,
+                background: "linear-gradient(92deg, #a855f7, #d946ef 55%, #22d3ee 130%)",
+                color: "#fff",
+                fontWeight: 800,
+                fontSize: 17,
+                textDecoration: "none",
+                boxShadow: "0 0 32px rgba(217,70,239,0.65)",
+              }}
+            >
+              Ask UltraVestra →
+            </Link>
+          </p>
+        </div>
       </section>
     </div>
   );

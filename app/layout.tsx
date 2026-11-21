@@ -28,7 +28,9 @@ export default async function RootLayout({
             gap: 20,
             alignItems: "center",
             padding: "14px 24px",
-            borderBottom: "1px solid #3d2a6e",
+            borderBottom: "1px solid #a855f7",
+            background: "rgba(2,0,8,0.72)",
+            boxShadow: "0 4px 30px rgba(217,70,239,0.25)",
           }}
         >
           <Link
@@ -64,7 +66,7 @@ export default async function RootLayout({
             <span
               style={{
                 background:
-                  "linear-gradient(92deg, #f6f2ff 20%, #c084fc 55%, #e879f9 80%)",
+                  "linear-gradient(92deg, #ffffff 10%, #e879f9 45%, #a855f7 65%, #22d3ee 95%)",
                 WebkitBackgroundClip: "text",
                 backgroundClip: "text",
                 color: "transparent",
@@ -75,6 +77,7 @@ export default async function RootLayout({
           </Link>
           <nav style={{ display: "flex", gap: 16, fontSize: 15 }}>
             <Link href="/brands">Brands</Link>
+            <Link href="/ask" style={{ fontWeight: 700, color: "#f0abfc" }}>Ask UltraVestra</Link>
             <Link href="/saved">Saved</Link>
             <Link href="/pricing">Pricing</Link>
           </nav>

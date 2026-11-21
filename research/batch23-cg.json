@@ -1,0 +1,603 @@
+[
+ {
+  "name": "Nam Botanica",
+  "website": "https://nambotanica.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Practitioner-formulated herbal self-care brand founded by Mimi, built around botanical teas and plant-based skin and hair topicals. Its own Affiliate Program page offers 10% commission on every referred order through UpPromote, with a personal link, exclusive discount codes and early product access. The page states the cap explicitly twice — 'No cap' on the commission and 'There's no ceiling on your earnings' — so commission_cap is recorded as verified uncapped.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://nambotanica.com/pages/affiliate-program",
+    "summary": "Nam Botanica's own Affiliate Program page ('Earn 10% on every sale you refer') routes applications to its UpPromote portal (af.uppromote.com). It welcomes creators, practitioners, bloggers and podcasters, is free to join, and applications are reviewed within 3–5 business days."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://nambotanica.com/pages/affiliate-program",
+    "summary": "The brand's own page states the cap explicitly: 'Every customer you refer earns you a 10% commission on their order. No cap, no minimum threshold to get started' and, under Grow with us, 'The more you share, the more you make. There's no ceiling on your earnings' — so commission_cap is recorded as uncapped. No absolute creator counts are published, so creator_saturation stays unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_background",
+    "source_type": "brand_site",
+    "source_url": "https://nambotanica.com/pages/about",
+    "summary": "The brand's About page describes founder Mimi's background in nutrition and Chinese Medicine and the product lines: organic herbal teas plus plant-based skin topicals and hair topicals."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 10,
+   "application_url": "https://nambotanica.com/pages/affiliate-program",
+   "source_url": "https://nambotanica.com/pages/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nam Botanica Affiliate Program",
+   "application_url": "https://nambotanica.com/pages/affiliate-program",
+   "compensation_notes": "10% commission on every referred order via UpPromote; the brand's own page states there is no cap and no ceiling on earnings (verified uncapped).",
+   "description": "Apply on Nam Botanica's affiliate page (UpPromote portal), get a personal link and discount code, share herbal self-care and botanical beauty content, and earn 10% on every order with no earnings cap.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 15,
+   "compensation": 16,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Botanical skin topicals, hair topicals and ritual-style herbal self-care fit natural-beauty and wellness UGC well, though the range is narrower than core skincare.",
+    "ugc_evidence": "The program explicitly recruits content creators, bloggers and podcasters, with a personal tracked link, audience discount codes and early product access.",
+    "compensation": "10% on every order with an explicit no-cap / no-ceiling statement on the brand's own page — verified uncapped.",
+    "contact_access": "Application runs through the brand's own page into UpPromote; no public program email is published.",
+    "opportunity_availability": "Free and publicly open to apply; the brand states it responds within 3–5 business days and values authenticity over audience size.",
+    "credibility": "Small, young practitioner-led brand with a real storefront and a detailed program page, but limited track record."
+   }
+  }
+ },
+ {
+  "name": "Laka",
+  "website": "https://lakaflow.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Hawaiian wellness brand ('Best on Earth supplements, movement, and skincare') selling adaptogen and superfood blends and skincare. Its own affiliate page publishes a tiered program — Starter 10% (0–10 sales/month), Builder 15%, Partner 20% — covering subscriptions and repeat orders, with no follower minimum, and its FAQ answers the earnings question with 'There's no cap', so commission_cap is recorded as verified uncapped.",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "partnerships",
+    "email": "affiliates@lakaflow.com",
+    "notes": "Affiliate program contact email published at the bottom of the brand's own affiliate program page.",
+    "url": "https://lakaflow.com/pages/fruiting"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://lakaflow.com/pages/fruiting",
+    "summary": "Laka's own affiliate page publishes the tiers: Starter 10% commission (0–10 sales/month), Builder 15% (11–25), Partner 20% (26+), on all sales including subscriptions and repeat orders, with a unique audience discount code, tracking dashboard, marketing assets, monthly payouts and a $50 minimum payout. The 10% starting tier is recorded as the rate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "brand_site",
+    "source_url": "https://lakaflow.com/pages/fruiting",
+    "summary": "The brand's own page states the cap explicitly twice: 'No follower minimum. No sales cap.' and the FAQ answer to 'How much can I earn?' is 'There's no cap. Your earnings depend on how much you share and how engaged your audience is' — so commission_cap is recorded as uncapped. No absolute creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct (Laka Affiliate Program)",
+   "commission_rate": 10,
+   "application_url": "https://lakaflow.com/pages/fruiting",
+   "source_url": "https://lakaflow.com/pages/fruiting",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Laka Affiliate Program",
+   "application_url": "https://lakaflow.com/pages/fruiting",
+   "compensation_notes": "Tiered commission starting at 10% and rising to 20% by monthly sales volume, on subscriptions and repeat orders too; the brand's own FAQ states there is no cap on earnings (verified uncapped). $50 minimum payout, paid monthly.",
+   "description": "Apply on Laka's own affiliate page, get a unique discount code and dashboard, share supplement and skincare content, and earn from 10% on every order — including repeat purchases — with no earnings cap.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 19,
+   "ugc_evidence": 14,
+   "compensation": 17,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Adaptogen blends and skincare-adjacent wellness products suit wellness and beauty-from-within creators, though supplements lead the range rather than skincare.",
+    "ugc_evidence": "A creator-facing program with a custom dashboard, marketing assets, content ideas and early launch access; no follower minimum.",
+    "compensation": "10% starting commission tiering to 20%, paid on repeat and subscription orders, with an explicit 'There's no cap' FAQ answer on the brand's own page — verified uncapped.",
+    "contact_access": "A dedicated affiliates@ email is published on the program page alongside the application.",
+    "opportunity_availability": "Publicly open with no follower minimum; engagement and alignment matter more than audience size.",
+    "credibility": "Operating DTC brand with a full storefront and detailed program terms, but a small, single-brand operation."
+   }
+  }
+ },
+ {
+  "name": "Starface",
+  "website": "https://starface.world",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Gen-Z skincare brand known for Hydro-Stars hydrocolloid pimple patches. Its own UK site carries a Starface Affiliate Partners page: free to apply and join on Impact Radius and GRIN, with exclusive promotions and a commission described only as 'up to 10%' — an up-to ceiling with no published base rate — so commission_rate is recorded as null. No cap statement is published.",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "partnerships",
+    "email": "hello@starfaceworld.com",
+    "notes": "Partnerships email the brand lists on its own pages, per a November 12, 2026 check of the brand's site.",
+    "url": "https://usesnippet.app/pr-emails/starface"
+   },
+   {
+    "contact_name": null,
+    "contact_type": "creator_application",
+    "email": "influencers@starfaceworld.com",
+    "notes": "Influencer contact email the brand lists on its own pages, per a November 12, 2026 check of the brand's site.",
+    "url": "https://usesnippet.app/pr-emails/starface"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "brand_site",
+    "source_url": "https://starfaceworld.co.uk/pages/affliate",
+    "summary": "Starface's own UK site carries a 'Starface Affiliate Partners' page aimed at publishers, PR and influencers: 'Free to apply + join on Impact Radius and Grin', with exclusive access to new launches and promotions."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "brand_site",
+    "source_url": "https://starfaceworld.co.uk/pages/affliate",
+    "summary": "The brand's own page describes the pay only as 'Up to 10% commision — Earn a competitive commission rate, up to 10%'. An up-to figure is a ceiling, not a base rate, so commission_rate is recorded as null. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "affiliate_directory",
+    "source_url": "https://usesnippet.app/pr-emails/starface",
+    "summary": "A November 12, 2026 check of Starface's own pages records the brand listing influencers@starfaceworld.com for influencers, press@starfaceworld.com for PR and hello@starfaceworld.com for partnerships."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://starfaceworld.co.uk/pages/affliate",
+   "source_url": "https://starfaceworld.co.uk/pages/affliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Starface Affiliate Partners (Impact / GRIN)",
+   "application_url": "https://starfaceworld.co.uk/pages/affliate",
+   "compensation_notes": "Commission described by the brand only as 'up to 10%' — a ceiling with no published base rate, so the rate is recorded as null. No earnings cap statement published — cap unknown.",
+   "description": "Apply free via Starface's affiliate partners page (join on Impact Radius or GRIN), share Hydro-Stars and acne-care content, and earn commission on attributed sales (confirm the current rate in the network first).",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Hydro-Stars pimple patches are made for visual, Gen-Z skincare UGC — patch reveals, routines and acne journeys.",
+    "ugc_evidence": "The brand runs affiliate partners through Impact and the creator platform GRIN and is heavily creator-led on social, though its own program page is brief.",
+    "compensation": "Only an 'up to 10%' ceiling is published with no base rate, so the rate is null and compensation is scored cautiously; cap unknown.",
+    "contact_access": "Published influencer and partnerships emails plus application routes via Impact and GRIN.",
+    "opportunity_availability": "Free to apply through the brand's affiliate page and networks.",
+    "credibility": "Established, widely retailed skincare brand founded in 2019 with major press and retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Hero Cosmetics",
+  "website": "https://herocosmetics.us",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Acne-care brand founded in 2017 by Ju Rhyu, maker of the Mighty Patch hydrocolloid acne patches. Its affiliate route is a Sovrn Commerce merchant listing quoting 'up to 8%' with a 30-day cookie, while a second directory claims a 15% payout — the published figures conflict, so commission_rate is recorded as null. A November 2026 check found no affiliate program published on the brand's own pages, only a creator interest form. No cap statement is published.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://merchants.sovrn.com/merchants/138869/herocosmetics-us-affiliate-program",
+    "summary": "Sovrn Commerce's merchant page for HeroCosmetics.us describes the affiliate program with a commission rate of up to 8% on sales and a 30-day cookie, noting that specific rates vary by product category and promotional period and are confirmed inside the Sovrn dashboard."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://admin.shopper.com/partnerships/herocosmetics-us-affiliate-program",
+    "summary": "Shopper's Hero Cosmetics listing instead claims a payout rate of 15% per sale. That conflicts with Sovrn's up-to-8% figure, so commission_rate is recorded as null rather than guessed. A November 12, 2026 check of the brand's own pages (usesnippet.app/pr-emails/hero-cosmetics) found no affiliate program published there — only a creator interest form — and no source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Sovrn Commerce",
+   "commission_rate": null,
+   "application_url": "https://merchants.sovrn.com/merchants/138869/herocosmetics-us-affiliate-program",
+   "source_url": "https://merchants.sovrn.com/merchants/138869/herocosmetics-us-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Hero Cosmetics Affiliate Program (Sovrn Commerce)",
+   "application_url": "https://merchants.sovrn.com/merchants/138869/herocosmetics-us-affiliate-program",
+   "compensation_notes": "Rate conflict: Sovrn lists up to 8% while Shopper claims 15% — commission_rate recorded as null until the network settles it. No earnings cap statement published — cap unknown.",
+   "description": "Join Hero Cosmetics through Sovrn Commerce, share Mighty Patch and acne-care content, and earn commission on attributed sales (confirm the current rate inside Sovrn before promoting).",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Mighty Patch is one of the most demonstrable acne products in skincare UGC — overnight patch results are a staple format.",
+    "ugc_evidence": "A Sovrn merchant route plus a brand-run creator interest form and an active creator community (Hero Skin Squad), though no program is published on the brand's own pages.",
+    "compensation": "Published figures conflict (up to 8% vs 15%), so the rate is recorded as null and compensation scored down; cap unknown.",
+    "contact_access": "No public program email is published; contact runs through Sovrn or the brand's creator interest form.",
+    "opportunity_availability": "Joinable through Sovrn Commerce, subject to that network's merchant access and approval.",
+    "credibility": "Category-leading acne brand founded in 2017, sold at Target, Ulta and Amazon with extensive press."
+   }
+  }
+ },
+ {
+  "name": "Peace Out Skincare",
+  "website": "https://peaceoutskincare.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Dermatologist-developed acne and pore-care brand (acne dots, pore strips, serums). Affiliate directories publish three different figures for its program — 5% per sale in one, up to 3.33% in another and a 0.8% publisher payout in a third — so commission_rate is recorded as null with the conflict documented. Its program feeds run through affiliate networks including Rakuten. No cap statement is published.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/peace-out-skincare/",
+    "summary": "Lasso's Peace Out Skincare listing records the affiliate program at 5% commission per sale in the Beauty category."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://admin.shopper.com/partnerships/peaceoutskincare-com-affiliate-program",
+    "summary": "Shopper's Peace Out listing instead records up to 3.33% per sale, and FlexOffers lists a 0.8% publisher payout with a 30-day cookie. Three published figures (5%, up to 3.33%, 0.8%) across different network routes cannot settle a single rate, so commission_rate is recorded as null. DailyCashback's merchant feed attributes the program to the Rakuten affiliate network. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliate network (directory-listed)",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/peace-out-skincare/",
+   "source_url": "https://getlasso.co/affiliate/peace-out-skincare/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Peace Out Skincare Affiliate Program",
+   "application_url": "https://getlasso.co/affiliate/peace-out-skincare/",
+   "compensation_notes": "Rate conflict across directories: 5% (Lasso), up to 3.33% (Shopper), 0.8% publisher payout (FlexOffers) — commission_rate recorded as null until a network listing settles it. No earnings cap statement published — cap unknown.",
+   "description": "Join Peace Out Skincare's affiliate program through its network listings, share acne-dot and pore-care content, and earn commission on attributed sales (confirm the current rate in the network first).",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Acne dots and pore strips are visual, problem-solution products that map directly onto skincare UGC formats.",
+    "ugc_evidence": "Directory-listed affiliate routes with tracked links; the brand is social-active but publishes no creator program page of its own.",
+    "compensation": "Three directories publish three different figures, so the rate is null and compensation scored down for uncertainty; cap unknown.",
+    "contact_access": "No public program email is published; access runs through the network listings.",
+    "opportunity_availability": "Listed across several affiliate networks and directories as joinable.",
+    "credibility": "Established acne-care brand with Sephora distribution and a long press trail; only the rate documentation is inconsistent."
+   }
+  }
+ },
+ {
+  "name": "Pixi Beauty",
+  "website": "https://www.pixibeauty.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK beauty company founded by Petra Strand, known for Glow Tonic and fuss-free multitasking skincare and makeup. Two affiliate directories agree its program runs on ShareASale at 5% commission per sale with a 60-day cookie; a separate publisher network lists different new/existing customer terms, documented in the evidence. No cap statement is published, so the cap stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/pixi-beauty/",
+    "summary": "Lasso's Pixi Beauty listing records the affiliate program in the Beauty, Makeup and Skin Care categories at 5% commission per sale with a 60-day cookie duration."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affilorama.com/blog/best-beauty-affiliate-programs",
+    "summary": "Affilorama's beauty affiliate program list independently records Pixi Beauty at 5% commission, a 60-day cookie and the ShareASale network — agreeing with Lasso's figure, so 5% via ShareASale is recorded. FlexOffers lists a different publisher structure (8% new customers / 4% existing) on its own route; that is a sub-network payout split, not the merchant's ShareASale rate. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 5,
+   "application_url": "https://getlasso.co/affiliate/pixi-beauty/",
+   "source_url": "https://getlasso.co/affiliate/pixi-beauty/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pixi Beauty Affiliate Program",
+   "application_url": "https://getlasso.co/affiliate/pixi-beauty/",
+   "compensation_notes": "5% commission per sale via ShareASale (two directories agree), 60-day cookie. No earnings cap statement is published, so the cap is unknown.",
+   "description": "Apply to Pixi Beauty on ShareASale, share Glow Tonic routines and everyday makeup content, and earn 5% on attributed sales.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Glow Tonic and multitasking makeup are long-running staples of skincare and everyday-beauty UGC.",
+    "ugc_evidence": "A network-run ShareASale program with tracked links and a long cookie; the brand also runs creator gifting through platforms like ShopMy, though no own creator program page is published.",
+    "compensation": "5% per sale is modest but corroborated by two directories; no cap statement is published, so the cap is honestly unknown.",
+    "contact_access": "No public program email is published; contact runs through the ShareASale application.",
+    "opportunity_availability": "Open application through ShareASale.",
+    "credibility": "Established UK beauty company with global retail distribution and a decades-long track record."
+   }
+  }
+ },
+ {
+  "name": "Florence by Mills",
+  "website": "https://florencebymillsbeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Gen-Z beauty and skincare brand founded by Millie Bobby Brown. The affiliate network feed records a live 'florence by mills beauty' merchant program on ShareASale (merchant #154835, Health & Beauty), but no commission rate is published in any fetched source, so commission_rate is recorded as null. The brand's own pages publish no program or PR email, and the brand has promoted a 'flo squad' ambassador community offering commission. No cap statement is published.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.fmtc.co/new-fmtc-merchants-include-clicks-florence-by-mills-beauty-little-planet-neon-earth-amp-ultimate-nutrition/",
+    "summary": "FMTC's new-merchant listing records 'florence by mills beauty' as a merchant on ShareASale (#154835) in the Health & Beauty category with a network signup route. No commission rate is published in the listing, so commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://usesnippet.app/pr-emails/florence-by-mills",
+    "summary": "A November 16, 2026 check of the brand's own pages found no PR email, form or creator program published there — the program surface is the ShareASale merchant listing plus the brand's 'flo squad' ambassador community, which its Instagram promotion describes as offering free products, discounts and commission. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://www.fmtc.co/new-fmtc-merchants-include-clicks-florence-by-mills-beauty-little-planet-neon-earth-amp-ultimate-nutrition/",
+   "source_url": "https://www.fmtc.co/new-fmtc-merchants-include-clicks-florence-by-mills-beauty-little-planet-neon-earth-amp-ultimate-nutrition/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Florence by Mills Affiliate Program (ShareASale)",
+   "application_url": "https://www.fmtc.co/new-fmtc-merchants-include-clicks-florence-by-mills-beauty-little-planet-neon-earth-amp-ultimate-nutrition/",
+   "compensation_notes": "No commission rate is published in any fetched source, so the rate is recorded as null. No earnings cap statement published — cap unknown.",
+   "description": "Join Florence by Mills' merchant program on ShareASale, share Gen-Z skincare and makeup content, and earn commission on attributed sales (confirm the current rate inside ShareASale first).",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean Gen-Z skincare and makeup from a celebrity-founded brand is highly shareable beauty UGC material.",
+    "ugc_evidence": "A live ShareASale merchant program plus a promoted ambassador community ('flo squad') offering commission and reposts, though the brand publishes no program page of its own.",
+    "compensation": "No rate is published anywhere fetched, so the rate is null and compensation scored cautiously; cap unknown.",
+    "contact_access": "No public program or PR email is published; access runs through ShareASale.",
+    "opportunity_availability": "Listed as a live ShareASale merchant; application runs through the network.",
+    "credibility": "Well-known brand with national retail (Ulta) and a large social following; only program documentation is thin."
+   }
+  }
+ },
+ {
+  "name": "about-face",
+  "website": "https://aboutface.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Color cosmetics brand founded by Halsey, built on bold, long-wearing, cruelty-free makeup for creative self-expression. An affiliate directory records its program on ShareASale at 5% commission per sale with a 15-day cookie, open to all regions (listing last updated March 2024). No cap statement is published, so the cap stays unknown.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/about-face/",
+    "summary": "LinkClicky's about face listing (last updated March 10, 2024) records the brand's website as aboutface.com, the affiliate platform as ShareASale, open to all regions, with a 15-day cookie and commission of 5% per sale, described as what's officially listed with the affiliate program as the payout. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 5,
+   "application_url": "https://linkclicky.com/affiliate-program/about-face/",
+   "source_url": "https://linkclicky.com/affiliate-program/about-face/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "about-face Affiliate Program",
+   "application_url": "https://linkclicky.com/affiliate-program/about-face/",
+   "compensation_notes": "5% commission per sale via ShareASale (directory-listed, March 2024), 15-day cookie. No earnings cap statement is published, so the cap is unknown.",
+   "description": "Apply to about-face on ShareASale, share bold color makeup looks and tutorials, and earn 5% on attributed sales.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Bold, editorial color cosmetics are strong material for creative makeup UGC and transformation content.",
+    "ugc_evidence": "A network-run ShareASale program with tracked links; the brand is creator- and artistry-led on social, but no creator program page is published.",
+    "compensation": "5% per sale is modest; the single directory record dates from March 2024, so the rate should be re-confirmed in the network. Cap unknown.",
+    "contact_access": "No public program email is published; contact runs through the ShareASale application.",
+    "opportunity_availability": "Open application through ShareASale, listed for all regions.",
+    "credibility": "Established celebrity-founded brand with Ulta distribution; program documentation rests on one directory listing."
+   }
+  }
+ },
+ {
+  "name": "MasterPeace Body Therapy",
+  "website": "https://www.masterpeacebodytherapy.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Luxury bath and body brand — Iyanla Vanzant's MasterPeace line of bar soaps, body wash, body butters and salt scrubs. An affiliate directory records its program at 5% commission per sale with the join route on ShareASale, in the Beauty category. No cap statement is published, so the cap stays unknown.",
+  "contacts": [
+   {
+    "contact_name": null,
+    "contact_type": "general",
+    "email": "shop@masterpeacebodytherapy.com",
+    "notes": "Contact email published in the footer of the brand's own official website.",
+    "url": "https://masterpeacebodytherapy.com"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/masterpeace-body-therapy/",
+    "summary": "Lasso's MasterPeace Body Therapy listing records the affiliate program at 5% commission per sale in the Beauty, Health and Wellness and Hygiene categories, with the join link routing to ShareASale."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "brand_background",
+    "source_type": "brand_site",
+    "source_url": "https://masterpeacebodytherapy.com",
+    "summary": "The brand's official site presents MasterPeace as Iyanla Vanzant's bath and body line (bar soaps, body wash, body butters, salt scrubs, room sprays), sells in USD with US shipping terms, and publishes the contact email shop@masterpeacebodytherapy.com. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 5,
+   "application_url": "https://getlasso.co/affiliate/masterpeace-body-therapy/",
+   "source_url": "https://getlasso.co/affiliate/masterpeace-body-therapy/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MasterPeace Body Therapy Affiliate Program",
+   "application_url": "https://getlasso.co/affiliate/masterpeace-body-therapy/",
+   "compensation_notes": "5% commission per sale via ShareASale (directory-listed). No earnings cap statement is published, so the cap is unknown.",
+   "description": "Apply to MasterPeace Body Therapy on ShareASale, share bath ritual and self-care body content, and earn 5% on attributed sales.",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 18,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Bath and body rituals fit self-care UGC, though the niche is narrower than skincare or makeup.",
+    "ugc_evidence": "A standard ShareASale affiliate program; no creator-specific program details, gifting or content perks are published.",
+    "compensation": "5% per sale is modest; no cap statement is published, so the cap is honestly unknown.",
+    "contact_access": "A contact email is published on the brand's own site, and application runs through ShareASale.",
+    "opportunity_availability": "Open application through ShareASale.",
+    "credibility": "Small celebrity-fronted bath brand with a real storefront; program rests on a single directory listing."
+   }
+  }
+ },
+ {
+  "name": "F. Miller",
+  "website": "https://fmillerskincare.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Premium botanical skincare brand built around plant-based face oils and minimalist formulas. A directory listing for its US program describes the payout only as 'up to 5-10% per sale' — a range with an up-to ceiling and no single published base rate — so commission_rate is recorded as null. No cap statement is published.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.shopper.com/partnerships/fmillerskincare-com-affiliate-program",
+    "summary": "Shopper's F. Miller US listing records the affiliate and partnership program with a payout described as 'up to 5-10% per sale'. A range under an up-to ceiling cannot settle a single base rate, so commission_rate is recorded as null. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliate network (directory-listed)",
+   "commission_rate": null,
+   "application_url": "https://www.shopper.com/partnerships/fmillerskincare-com-affiliate-program",
+   "source_url": "https://www.shopper.com/partnerships/fmillerskincare-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "F. Miller Affiliate Program",
+   "application_url": "https://www.shopper.com/partnerships/fmillerskincare-com-affiliate-program",
+   "compensation_notes": "Only an 'up to 5-10%' range is published, so commission_rate is recorded as null. No earnings cap statement published — cap unknown.",
+   "description": "Join F. Miller's affiliate program through its network listing, share minimalist botanical face-oil routines, and earn commission on attributed sales (confirm the current rate in the network first).",
+   "status": "unverified",
+   "type": "affiliate"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Minimalist botanical face oils are premium, ritual-led material for skincare UGC.",
+    "ugc_evidence": "A directory-listed affiliate program with tracked links; no creator-specific program page is published by the brand.",
+    "compensation": "Only an up-to range (5-10%) is published with no base rate, so the rate is null and compensation scored cautiously; cap unknown.",
+    "contact_access": "No public program email is published; access runs through the network listing.",
+    "opportunity_availability": "Listed as joinable through its affiliate network listing.",
+    "credibility": "Established premium botanical brand with editorial press and boutique retail presence; program documentation is thin."
+   }
+  }
+ }
+]
