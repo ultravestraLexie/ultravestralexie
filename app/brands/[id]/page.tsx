@@ -32,6 +32,38 @@ const SCORE_ROWS: {
   { key: "credibility", label: "Brand credibility", max: 5 },
 ];
 
+function trustPill(confidence: string | null | undefined) {
+  switch (confidence) {
+    case "verified":
+      return { label: "Verified", bg: "#052e16", fg: "#4ade80" };
+    case "publicly_reported":
+      return { label: "Brand reported", bg: "#0b2447", fg: "#60a5fa" };
+    case "needs_review":
+      return { label: "Research lead", bg: "#26262e", fg: "#d4d4d8" };
+    default:
+      return { label: confidence ?? "Research lead", bg: "#26262e", fg: "#d4d4d8" };
+  }
+}
+
+function Pill({ confidence }: { confidence: string | null | undefined }) {
+  const p = trustPill(confidence);
+  return (
+    <span
+      style={{
+        background: p.bg,
+        color: p.fg,
+        borderRadius: 999,
+        padding: "2px 10px",
+        fontSize: 12.5,
+        fontWeight: 700,
+        whiteSpace: "nowrap",
+      }}
+    >
+      {p.label}
+    </span>
+  );
+}
+
 function fmtDate(value: string | null) {
   if (!value) return "—";
   return new Date(value).toLocaleDateString("en-US", {
@@ -108,11 +140,12 @@ export default async function BrandProfilePage({
           {score && (
             <span
               style={{
-                background: "#8da6df",
-                color: "#0a1a3e",
+                background: "linear-gradient(92deg, #a855f7, #e879f9)",
+                color: "#ffffff",
                 borderRadius: 999,
                 padding: "4px 14px",
-                fontWeight: 600,
+                fontWeight: 700,
+                boxShadow: "0 0 18px rgba(232,121,249,0.45)",
               }}
             >
               Opportunity Score: {Math.round(Number(score.total_score))} / 100
@@ -121,7 +154,7 @@ export default async function BrandProfilePage({
           <SaveBrandButton brandId={b.id} />
         </div>
         {categoryNames.length > 0 && (
-          <p style={{ color: "#a8b8dd" }}>{categoryNames.join(" · ")}</p>
+          <p style={{ color: "#b3a6e0" }}>{categoryNames.join(" · ")}</p>
         )}
         {b.description && <p style={{ maxWidth: 720 }}>{b.description}</p>}
         <p style={{ display: "flex", gap: 16, flexWrap: "wrap", fontSize: 14 }}>
@@ -151,14 +184,14 @@ export default async function BrandProfilePage({
                   <td style={{ padding: "6px 0", fontWeight: 600 }}>
                     {Number(score[row.key])} / {row.max}
                   </td>
-                  <td style={{ padding: "6px 0 6px 16px", color: "#a8b8dd" }}>
+                  <td style={{ padding: "6px 0 6px 16px", color: "#b3a6e0" }}>
                     {score.explanation?.[row.key] ?? ""}
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
-          <p style={{ color: "#a8b8dd", fontSize: 13 }}>
+          <p style={{ color: "#b3a6e0", fontSize: 13 }}>
             Scored {fmtDate(score.scored_at)}. A brand with no active campaign
             can still be an excellent prospect — the score separates
             &ldquo;worth pitching&rdquo; from &ldquo;verified open
@@ -170,7 +203,7 @@ export default async function BrandProfilePage({
       <section>
         <h2>Who to contact</h2>
         {((contacts ?? []) as BrandContact[]).length === 0 ? (
-          <p style={{ color: "#a8b8dd" }}>No public contact researched yet.</p>
+          <p style={{ color: "#b3a6e0" }}>No public contact researched yet.</p>
         ) : (
           <ul>
             {((contacts ?? []) as BrandContact[]).map((c) => (
@@ -191,14 +224,14 @@ export default async function BrandProfilePage({
                     </a>
                   </>
                 ) : null}
-                <span style={{ color: "#a8b8dd", fontSize: 13 }}>
-                  {" "}
-                  ({c.verification_status}
-                  {c.last_verified_at
-                    ? `, checked ${fmtDate(c.last_verified_at)}`
-                    : ""}
-                  )
-                </span>
+                {" "}
+                <Pill confidence={c.verification_status} />
+                {c.last_verified_at ? (
+                  <span style={{ color: "#b3a6e0", fontSize: 13 }}>
+                    {" "}
+                    checked {fmtDate(c.last_verified_at)}
+                  </span>
+                ) : null}
               </li>
             ))}
           </ul>
@@ -208,7 +241,7 @@ export default async function BrandProfilePage({
       <section>
         <h2>What creators report earning</h2>
         {((comp ?? []) as CompensationReport[]).length === 0 ? (
-          <p style={{ color: "#a8b8dd" }}>
+          <p style={{ color: "#b3a6e0" }}>
             Payment unknown — no verified compensation information found yet.
           </p>
         ) : (
@@ -262,7 +295,7 @@ export default async function BrandProfilePage({
                       </a>
                     </>
                   ) : null}{" "}
-                  <span style={{ color: "#a8b8dd", fontSize: 13 }}>
+                  <span style={{ color: "#b3a6e0", fontSize: 13 }}>
                     ({a.status as string})
                   </span>
                 </li>
@@ -275,7 +308,7 @@ export default async function BrandProfilePage({
       <section>
         <h2>Open opportunities</h2>
         {(opps ?? []).length === 0 ? (
-          <p style={{ color: "#a8b8dd" }}>
+          <p style={{ color: "#b3a6e0" }}>
             No verified open opportunity right now. This brand may still be
             worth pitching directly.
           </p>
@@ -334,17 +367,18 @@ export default async function BrandProfilePage({
       <section>
         <h2>Research evidence</h2>
         {((evidence ?? []) as BrandEvidence[]).length === 0 ? (
-          <p style={{ color: "#a8b8dd" }}>No evidence records yet.</p>
+          <p style={{ color: "#b3a6e0" }}>No evidence records yet.</p>
         ) : (
           <ul>
             {((evidence ?? []) as BrandEvidence[]).map((e) => (
               <li key={e.id}>
+                <Pill confidence={e.confidence} />{" "}
                 <a href={e.source_url} target="_blank" rel="noreferrer">
                   {e.evidence_type ?? e.source_type ?? "Source"} ↗
                 </a>{" "}
                 — {e.evidence_summary ?? ""}{" "}
-                <span style={{ color: "#a8b8dd", fontSize: 13 }}>
-                  ({e.confidence}; observed {fmtDate(e.observed_at)}
+                <span style={{ color: "#b3a6e0", fontSize: 13 }}>
+                  (observed {fmtDate(e.observed_at)}
                   {e.last_checked_at
                     ? `, last checked ${fmtDate(e.last_checked_at)}`
                     : ""}
@@ -354,7 +388,7 @@ export default async function BrandProfilePage({
             ))}
           </ul>
         )}
-        <p style={{ color: "#a8b8dd", fontSize: 13 }}>
+        <p style={{ color: "#b3a6e0", fontSize: 13 }}>
           Every fact on this page carries its source, the date it was
           collected, and its verification status.
         </p>

@@ -13,8 +13,9 @@ export default function BrandCard({
   return (
     <article
       style={{
-        border: "1px solid #2a3d6e", background: "#12234d",
-        borderRadius: 12,
+        border: "1px solid #3d2a6e", background: "rgba(27,18,61,0.85)",
+        borderRadius: 20,
+        boxShadow: "0 0 22px rgba(124,58,237,0.18)",
         padding: 16,
         display: "flex",
         flexDirection: "column",
@@ -27,10 +28,11 @@ export default function BrandCard({
         </h3>
         {typeof score === "number" && (
           <span
-            title="Ultra Vestra Opportunity Score"
+            title="UltraVestra Opportunity Score"
             style={{
-              background: "#8da6df",
-              color: "#0a1a3e",
+              background: "linear-gradient(92deg, #a855f7, #e879f9)",
+              color: "#ffffff",
+              fontWeight: 700,
               borderRadius: 999,
               padding: "2px 10px",
               fontSize: 13,
@@ -42,7 +44,7 @@ export default function BrandCard({
         )}
       </div>
       {categories && categories.length > 0 && (
-        <p style={{ margin: 0, color: "#a8b8dd", fontSize: 13 }}>
+        <p style={{ margin: 0, color: "#b3a6e0", fontSize: 13 }}>
           {categories.join(" · ")}
         </p>
       )}
@@ -53,7 +55,7 @@ export default function BrandCard({
         </p>
       )}
       {brand.country && (
-        <p style={{ margin: 0, color: "#a8b8dd", fontSize: 13 }}>{brand.country}</p>
+        <p style={{ margin: 0, color: "#b3a6e0", fontSize: 13 }}>{brand.country}</p>
       )}
     </article>
   );

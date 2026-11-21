@@ -16,7 +16,7 @@ export default async function SavedPage() {
     return (
       <div>
         <h1>Saved brands</h1>
-        <p style={{ color: "#a8b8dd" }}>
+        <p style={{ color: "#b3a6e0" }}>
           Please <Link href="/login">log in</Link> to see the brands you have
           saved.
         </p>
@@ -38,7 +38,7 @@ export default async function SavedPage() {
     <div>
       <h1>Saved brands</h1>
       {brands.length === 0 ? (
-        <p style={{ color: "#a8b8dd" }}>
+        <p style={{ color: "#b3a6e0" }}>
           Nothing saved yet. Browse the <Link href="/brands">directory</Link>{" "}
           and tap &ldquo;Save brand&rdquo; on any brand worth pursuing.
         </p>

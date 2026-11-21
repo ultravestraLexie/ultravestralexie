@@ -22,12 +22,12 @@ export default async function PricingPage() {
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>Plans for every stage of your creator business</h1>
-      <p style={{ textAlign: "center", color: "#c3d0ee" }}>
+      <p style={{ textAlign: "center", color: "#ddd0ff" }}>
         Recurring subscription. Cancel anytime. Paid features unlock only
         after Stripe confirms payment server-side.
       </p>
       {plans.length === 0 ? (
-        <p style={{ textAlign: "center", color: "#a8b8dd" }}>
+        <p style={{ textAlign: "center", color: "#b3a6e0" }}>
           Plans are being set up — run <code>supabase/schema.sql</code> to seed
           Starter, Pro and Elite.
         </p>
@@ -43,15 +43,15 @@ export default async function PricingPage() {
           {plans.map((plan) => (
             <article
               key={plan.id}
-              style={{ border: "1px solid #2a3d6e", background: "#12234d", borderRadius: 12, padding: 22 }}
+              style={{ border: "1px solid #3d2a6e", background: "#1b123d", borderRadius: 12, padding: 22 }}
             >
               <h2 style={{ marginTop: 0 }}>{plan.name}</h2>
               <p style={{ fontSize: 30, margin: "8px 0" }}>
                 ${Number(plan.price_monthly)}
-                <span style={{ fontSize: 15, color: "#a8b8dd" }}> / month</span>
+                <span style={{ fontSize: 15, color: "#b3a6e0" }}> / month</span>
               </p>
               {plan.price_yearly != null && (
-                <p style={{ color: "#a8b8dd", fontSize: 14 }}>
+                <p style={{ color: "#b3a6e0", fontSize: 14 }}>
                   or ${Number(plan.price_yearly)} / year
                 </p>
               )}
