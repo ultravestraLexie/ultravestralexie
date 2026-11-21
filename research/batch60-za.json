@@ -1,0 +1,529 @@
+[
+ {
+  "name": "Elix Allure",
+  "website": "https://elixallure.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Online-only boutique selling curated luxury and niche fragrances, shipping from Knoxville, Tennessee, through elixallure.com.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://elixallure.com/ambassadors",
+    "email": null,
+    "source_url": "https://elixallure.com/ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://elixallure.com/ambassadors",
+    "summary": "Elix Allure's own ambassador page states: '10% Commission — On every sale referred via your unique affiliate link — no volume caps, no expiration on earnings', with the hero line '60-day attribution. No caps.' The page carries an application form, says payouts are made on request, and offers a real-time dashboard."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://elixallure.com/ambassadors",
+    "summary": "The brand describes itself on the same page as an online-only boutique of curated luxury and niche fragrances shipping from Knoxville, TN."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://elixallure.com/ambassadors",
+   "source_url": "https://elixallure.com/ambassadors",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://elixallure.com/ambassadors",
+   "source_url": "https://elixallure.com/ambassadors",
+   "title": "Elix Allure Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 17,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Fragrance is a core beauty-creator niche; a curated luxury/niche fragrance boutique fits fragrance-review and discovery content well.",
+    "ugc_evidence": "The brand runs a named ambassador program with an application form on its own site.",
+    "compensation": "10% per sale with an explicitly verified no-cap statement ('no volume caps, no expiration on earnings') and 60-day attribution on the brand's own page.",
+    "contact_access": "Open application form on the program page; no direct email published.",
+    "opportunity_availability": "Anyone can apply through the form on the brand's own ambassador page.",
+    "credibility": "Small online-only boutique with a limited public footprint."
+   }
+  }
+ },
+ {
+  "name": "LUSTRE Skin",
+  "website": "https://lustreskin.com",
+  "country": "United Kingdom",
+  "category_slug": "skincare",
+  "description": "UK LED light-therapy skincare device brand (LUSTRE ClearSkin), founded in 2004 through a collaboration between the University of St Andrews and Ninewells Hospital and Medical School in Scotland, selling wearable blue-light and LED mask devices.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partnerships@lustreskin.com",
+    "source_url": "https://ui.awin.com/merchant-profile/87177"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/87177",
+    "summary": "LUSTRE Skin's official Awin merchant profile lists commission tiers: default/baseline 5%, Content / Editorial / Blogger / Influencer affiliates 8%, voucher code 1%, cashback 3%, with a 30-day cookie. The profile says the program is seeking editorial, media and news publishers as well as influencers and bloggers, and publishes partnerships@lustreskin.com as the program contact."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/87177",
+    "summary": "The same Awin profile states LUSTRE ClearSkin was founded in 2004 through a collaboration between the University of St Andrews and Ninewells Hospital and Medical School, launched its first patented LED blue-light device in 2012, and sells wearable light-therapy devices for acne and skin rejuvenation."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 8,
+   "application_url": "https://ui.awin.com/merchant-profile/87177",
+   "source_url": "https://ui.awin.com/merchant-profile/87177",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/87177",
+   "source_url": "https://ui.awin.com/merchant-profile/87177",
+   "title": "LUSTRE Skin Affiliate Programme (Awin)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 11,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "LED light-therapy devices are a high-demand beauty-tech niche for skincare creators.",
+    "ugc_evidence": "The official Awin profile explicitly recruits influencers and bloggers with a dedicated content/influencer commission tier.",
+    "compensation": "8% for content/influencer affiliates on high-value devices with a 30-day cookie; no cap statement published, so the cap stays unknown.",
+    "contact_access": "A direct partnerships email (partnerships@lustreskin.com) is published on the official program profile.",
+    "opportunity_availability": "Free registration through Awin; the brand states it is actively seeking premium publishers.",
+    "credibility": "Medical heritage since 2004, university and hospital founding collaboration, patented devices."
+   }
+  }
+ },
+ {
+  "name": "AWARE Hair",
+  "website": "https://awarehair.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Scalp-first haircare brand founded by stylist and trichologist Tina and her daughter Jade, launched in August 2025, selling through awarehair.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/125896",
+    "summary": "AWARE Hair's official Awin merchant profile lists tiered commission: 15% for influencers and ambassadors, 20% for verified PR/editorial, and 15-25% for licensed stylists, with a 30-day cookie, last-click attribution, average order value of $75-$170, and manual approval for every publisher. Coupon, cashback and PPC publishers are not accepted."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/125896",
+    "summary": "The same profile describes AWARE Hair as a scalp-first haircare brand founded by Tina, a stylist and trichologist, and her daughter Jade, launched in August 2025."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 15,
+   "application_url": "https://ui.awin.com/merchant-profile/125896",
+   "source_url": "https://ui.awin.com/merchant-profile/125896",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/125896",
+   "source_url": "https://ui.awin.com/merchant-profile/125896",
+   "title": "AWARE Hair Affiliate Program (Awin)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Scalp-first haircare is a core, fast-growing beauty-creator niche.",
+    "ugc_evidence": "The official Awin profile has a dedicated influencer and ambassador commission tier, showing the program is built for creators.",
+    "compensation": "15% for influencers and ambassadors with a 30-day cookie and $75-$170 average order value; no cap statement published, so the cap stays unknown.",
+    "contact_access": "Applications and contact run through the Awin profile; no direct email published there.",
+    "opportunity_availability": "Open application via Awin, but every publisher is manually approved.",
+    "credibility": "Brand-new brand launched August 2025 with a small track record; a launch date alone is not evidence of low creator saturation."
+   }
+  }
+ },
+ {
+  "name": "Oak Essentials",
+  "website": "https://oakessentials.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Minimalist, plant-based skincare line from the Jenni Kayne lifestyle brand, selling through oakessentials.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/oak-essentials/",
+    "summary": "LinkClicky's affiliate directory lists Oak Essentials' affiliate program on CJ Affiliate at 15% commission per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/oak-essentials/",
+    "summary": "Oak Essentials is the minimalist plant-based skincare line of lifestyle brand Jenni Kayne."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/oak-essentials/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 11,
+   "compensation": 15,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean, minimalist skincare is a central skincare-creator niche.",
+    "ugc_evidence": "A live network affiliate program exists, but no creator-specific program page was verified.",
+    "compensation": "15% per sale via CJ Affiliate is a solid published rate; no cap statement found, so the cap stays unknown.",
+    "contact_access": "No direct creator contact published in the sources checked; contact runs through CJ.",
+    "opportunity_availability": "Joinable through the CJ Affiliate network listing.",
+    "credibility": "Backed by the established Jenni Kayne lifestyle brand."
+   }
+  }
+ },
+ {
+  "name": "Talika",
+  "website": "https://talika.com",
+  "country": "France",
+  "category_slug": "beauty",
+  "description": "French beauty brand around since 1948, known for its eye patches and plant-oil-based skincare and makeup, sold in the US through talika.com.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://talika.com/pages/ambassador-programme",
+    "email": null,
+    "source_url": "https://talika.com/pages/ambassador-programme"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://talika.com/pages/ambassador-programme",
+    "summary": "Talika's own ambassador programme page invites bloggers and creators of any size ('whether you have a million followers, or just 100') to join free: partners create custom affiliate links, and each month receive commission on all sales from their unique link/code. The commission percentage is not published on the page, so the rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://talika.com/pages/ambassador-programme",
+    "summary": "The same page notes the brand has been around since 1948 and highlights its eye patches with avocado, musk and rose oils as a Parisian staple."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://talika.com/pages/ambassador-programme",
+   "source_url": "https://talika.com/pages/ambassador-programme",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://talika.com/pages/ambassador-programme",
+   "source_url": "https://talika.com/pages/ambassador-programme",
+   "title": "Talika Ambassador Programme"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 6,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "French pharmacy-style beauty and eye care fit skincare and makeup creators well.",
+    "ugc_evidence": "The brand's own page explicitly recruits bloggers, channels and websites of every size into its affiliate program.",
+    "compensation": "Monthly commission on link/code sales is confirmed on the brand's own page, but the percentage is not published, so compensation scores low until verified.",
+    "contact_access": "Application form on the brand's own programme page.",
+    "opportunity_availability": "Free to join and explicitly open to creators with as few as 100 followers.",
+    "credibility": "Heritage French beauty brand dating to 1948."
+   }
+  }
+ },
+ {
+  "name": "Lime Crime",
+  "website": "https://limecrime.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Los Angeles vegan and cruelty-free color cosmetics brand founded in 2008 by Doe Deere and Mark Dumbleton, selling through limecrime.com and retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://lab6media.com/program/lime-crime-affiliate-program/",
+    "summary": "Lab6 Media, the program's affiliate management agency, lists Lime Crime's affiliate program on CJ Affiliate paying 5% commission to content and social partners (2% for coupon and loyalty publishers)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://lab6media.com/program/lime-crime-affiliate-program/",
+    "summary": "Lime Crime is a vegan, cruelty-free Los Angeles beauty brand founded in 2008."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://lab6media.com/program/lime-crime-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Bold color cosmetics are a staple makeup-creator niche.",
+    "ugc_evidence": "The program has a named content and social partner tier, showing creators are an intended channel.",
+    "compensation": "5% for content/social partners is a low published rate; no cap statement found, so the cap stays unknown.",
+    "contact_access": "Program is managed by Lab6 Media with a public program page; applications run through CJ.",
+    "opportunity_availability": "Joinable through the CJ Affiliate network.",
+    "credibility": "Well-known brand founded in 2008 with wide retail distribution."
+   }
+  }
+ },
+ {
+  "name": "EBIN New York",
+  "website": "https://ebinnewyork.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "New York beauty brand selling hair and beauty products through ebinnewyork.com and beauty supply retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/ebin-new-york/",
+    "summary": "LinkClicky's affiliate directory lists EBIN New York's affiliate program on ShareASale at 5% commission per sale with a 60-day cookie."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/ebin-new-york/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hair and wig styling products are a strong TikTok beauty niche.",
+    "ugc_evidence": "A live ShareASale program exists, but no creator-specific program page was verified.",
+    "compensation": "5% per sale is low, partly offset by a long 60-day cookie; no cap statement found, so the cap stays unknown.",
+    "contact_access": "No direct creator contact published in the sources checked; contact runs through ShareASale.",
+    "opportunity_availability": "Joinable through the ShareASale network listing.",
+    "credibility": "Established beauty-supply brand with broad retail presence."
+   }
+  }
+ },
+ {
+  "name": "Sly Beauty Cosmetics",
+  "website": "https://slybeautycosmetics.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Beauty brand selling cosmetic organization products designed around effortless organization and sophisticated style, through slybeautycosmetics.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/sly-beauty-cosmetics/",
+    "summary": "LinkClicky's affiliate directory lists Sly Beauty Cosmetics' affiliate program on ShareASale at 10% commission per sale with a 30-day cookie, open to all regions."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/sly-beauty-cosmetics/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Cosmetic organization products fit beauty-routine and vanity-content creators, a narrower slice of the beauty niche.",
+    "ugc_evidence": "A live ShareASale program exists, but no creator-specific program page was verified.",
+    "compensation": "10% per sale with a 30-day cookie is a fair published rate; no cap statement found, so the cap stays unknown.",
+    "contact_access": "No direct creator contact published in the sources checked; contact runs through ShareASale.",
+    "opportunity_availability": "Joinable through the ShareASale network listing.",
+    "credibility": "Small, little-known brand."
+   }
+  }
+ },
+ {
+  "name": "Zentira",
+  "website": "https://www.zentira-shop.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Lip color brand selling through its own online store (US storefront at zentira-shop.com), with an ambassador program built around a personal link and code.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.zentira-shop.com/en-us/pages/ambassador-program",
+    "email": null,
+    "source_url": "https://www.zentira-shop.com/en-us/pages/ambassador-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.zentira-shop.com/en-us/pages/ambassador-program",
+    "summary": "Zentira's own ambassador page offers creators a personal referral link and code that pay commission on sales, and explicitly welcomes small creators (creators with around 800 followers are invited to apply). No commission percentage is published on the page, so the rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.zentira-shop.com/en-us/pages/ambassador-program",
+   "source_url": "https://www.zentira-shop.com/en-us/pages/ambassador-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.zentira-shop.com/en-us/pages/ambassador-program",
+   "source_url": "https://www.zentira-shop.com/en-us/pages/ambassador-program",
+   "title": "Zentira Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 13,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 2,
+   "reasons": {
+    "niche_fit": "A lip-color-only range is a narrow slice of the makeup niche.",
+    "ugc_evidence": "The brand's own ambassador page directly recruits creators and spells out the link-and-code earning route.",
+    "compensation": "Commission is confirmed on the brand's own page but the percentage is not published, so compensation scores low until verified.",
+    "contact_access": "Application route on the brand's own ambassador page.",
+    "opportunity_availability": "Explicitly open to small creators, including accounts with around 800 followers; that is an audience-size welcome, not an absolute creator count, so saturation stays unknown.",
+    "credibility": "Very small brand with a limited public footprint."
+   }
+  }
+ },
+ {
+  "name": "Reshma Beauty",
+  "website": "https://reshmabeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Ayurvedic beauty brand selling henna hair color and natural hair and skin products through reshmabeauty.com.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://reshmabeauty.com/pages/terms-and-conditions",
+    "email": null,
+    "source_url": "https://reshmabeauty.com/pages/terms-and-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://reshmabeauty.com/pages/terms-and-conditions",
+    "summary": "Reshma Beauty's own affiliate terms page sets out a live brand-direct affiliate program: US residents only, monthly payments, and a $20 minimum payout threshold, with the phone number (818) 817-2703 published on the page. No commission percentage is stated anywhere in the terms, so the rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://reshmabeauty.com/pages/terms-and-conditions",
+   "source_url": "https://reshmabeauty.com/pages/terms-and-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 5,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Henna and ayurvedic hair care serve a defined natural-beauty niche.",
+    "ugc_evidence": "A live affiliate program is documented in the brand's own terms, but no creator-specific recruitment page was verified.",
+    "compensation": "The program's own terms publish no commission percentage, so compensation scores low until verified.",
+    "contact_access": "A phone number is published on the program terms page; no email published there.",
+    "opportunity_availability": "Open enrollment under the published terms, restricted to US residents.",
+    "credibility": "Small niche brand."
+   }
+  }
+ }
+]

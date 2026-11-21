@@ -1,0 +1,647 @@
+[
+ {
+  "name": "EZVIZ",
+  "website": "https://www.ezviz.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Smart home security brand selling Wi-Fi cameras, video doorbells, smart locks and home sensors for consumers, with an affiliate program run through Impact that pays a competitive commission on every referred sale and pays out monthly.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@ezviz.com",
+    "source_url": "https://www.ezviz.com/ca/page/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://www.ezviz.com/ca/page/affiliate-program",
+    "summary": "EZVIZ's own affiliate program page invites creators to join and promote the brand through their personal channels, states commissions are paid monthly and that all affiliate commissions are paid through Impact, and publishes the program contact affiliate@ezviz.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/ezviz/",
+    "summary": "LinkClicky's program listing records EZVIZ on the Impact platform for the US region at 7% commission per sale, and describes the range as smart home security cameras and accessories."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.ezviz.com/ca/page/affiliate-program",
+    "summary": "No fetched page states any earnings cap or any creator-count figure for the EZVIZ program, so commission_cap and creator_saturation are honestly recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 7,
+   "application_url": "https://www.ezviz.com/ca/page/affiliate-program",
+   "source_url": "https://linkclicky.com/affiliate-program/ezviz/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "EZVIZ Affiliate Program — 7% per sale via Impact (official program page)",
+   "application_url": "https://www.ezviz.com/ca/page/affiliate-program",
+   "source_url": "https://www.ezviz.com/ca/page/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 10,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure consumer smart-home security (cameras, doorbells, locks) — a core technology niche for creator reviews and unboxings.",
+    "ugc_evidence": "The brand's own program page explicitly recruits people to promote through their personal channels and pays per referred sale.",
+    "compensation": "7% per sale via Impact per the network listing — a mid-range hardware rate, paid monthly.",
+    "contact_access": "Published program email (affiliate@ezviz.com) on the brand's own page plus an open program page — strong access.",
+    "opportunity_availability": "Open enrollment through Impact with a public sign-up page.",
+    "credibility": "Major global smart-home brand (Hikvision's consumer line) with worldwide retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Cove",
+  "website": "https://www.covesmart.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "DIY home security company selling contract-free alarm systems with easy self-installation, real-time and professional 24/7 monitoring options, smart device integration and a lifetime equipment warranty, sold direct through covesmart.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/covesmart/",
+    "summary": "LinkClicky's listing records the Covesmart affiliate program on CJ Affiliate at 10% commission per sale, open to all regions, with application through CJ's signup; it describes Cove's DIY systems, contract-free monitoring and lifetime equipment warranty."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/covesmart/",
+    "summary": "No fetched source states an earnings cap or creator-count figure for Cove's program, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/covesmart/",
+   "source_url": "https://linkclicky.com/affiliate-program/covesmart/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Cove (Covesmart) Affiliate Program — 10% per sale via CJ Affiliate",
+   "application_url": "https://linkclicky.com/affiliate-program/covesmart/",
+   "source_url": "https://linkclicky.com/affiliate-program/covesmart/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "DIY home security systems are a proven smart-home review niche for tech and home creators.",
+    "ugc_evidence": "The CJ program is marketed to publishers and influencers for reviews, guides and comparison content.",
+    "compensation": "10% per sale via CJ Affiliate — a solid rate for security hardware with high order values.",
+    "contact_access": "No published program email was found; access is through the CJ application only.",
+    "opportunity_availability": "Open application through CJ Affiliate.",
+    "credibility": "Established US DIY security brand with nationwide sales and professional monitoring."
+   }
+  }
+ },
+ {
+  "name": "Deep Sentinel",
+  "website": "https://www.deepsentinel.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Next-generation home security service combining AI-powered cameras with live human guards who intervene in real time to stop crime before it happens, sold as camera systems plus a live surveillance subscription.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.deepsentinel.com/affiliate-program/",
+    "email": null,
+    "source_url": "https://www.deepsentinel.com/affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://www.deepsentinel.com/affiliate-program/",
+    "summary": "Deep Sentinel's own affiliate page confirms its online affiliate program is powered by Impact Radius, pays commission on purchases made through referral links, and is aimed at websites, apps and digital channels (distinct from its dealer/reseller partner program)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/deep-sentinel/",
+    "summary": "Published rates conflict: LinkClicky and Lasso list 20% per sale via Impact, AffJumbo lists 16% with a 30-day cookie, and Post Affiliate Pro lists a flat $100-$350 per sale. Because the sources disagree, commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.deepsentinel.com/affiliate-program/",
+    "summary": "No fetched page states an earnings cap or creator-count figure, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.deepsentinel.com/affiliate-program/",
+   "source_url": "https://www.deepsentinel.com/affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Deep Sentinel Affiliate Program — via Impact (rate unpublished; listings conflict)",
+   "application_url": "https://www.deepsentinel.com/affiliate-program/",
+   "source_url": "https://www.deepsentinel.com/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "AI camera security with live guards is highly demonstrable video content for smart-home creators.",
+    "ugc_evidence": "Own program page recruits digital channels and sites to feature its links, deals and promotions.",
+    "compensation": "Rate left null: listings conflict between 20%, 16% and a $100-$350 flat bounty, and the brand publishes no rate on its own page.",
+    "contact_access": "Public program page with an Impact application route; no published program email found.",
+    "opportunity_availability": "Open affiliate enrollment via Impact, separate from the selective dealer program.",
+    "credibility": "Well-known US security innovator with national press coverage and a distinctive live-guard service."
+   }
+  }
+ },
+ {
+  "name": "Frontpoint",
+  "website": "https://www.frontpointsecurity.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Home security company founded in 2007 selling DIY-installed, customizable alarm systems with professional monitoring, known for customer service and contract-based monitoring plans sold direct to US and Canadian households.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://help.frontpointsecurity.com/en/my-frontpoint-account/CAP_Termsandconditions",
+    "email": null,
+    "source_url": "https://help.frontpointsecurity.com/en/my-frontpoint-account/CAP_Termsandconditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_terms",
+    "source_type": "official_site",
+    "source_url": "https://help.frontpointsecurity.com/en/my-frontpoint-account/CAP_Termsandconditions",
+    "summary": "Frontpoint's own Consumer Affiliate Program (CAP) agreement, effective July 29, 2024, confirms an in-house program that lets affiliates monetize websites, social media user-generated content, emails and apps with unique QR codes, URLs and referral codes; commission is paid on qualified actions (a new customer who signs a monitoring agreement, installs, activates and stays at least 30 days)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "review",
+    "source_url": "https://www.findaffiliates.online/blog/home-security-affiliate-programs-creators-2026",
+    "summary": "FindAffiliates' November 2026 check of Frontpoint's current brand page states commission varies based on contract term; older directories list flat amounts ($175 per sale on Lasso, $300+ per activation elsewhere) that no longer match the brand's published position, so commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_saturation",
+    "source_type": "review",
+    "source_url": "https://www.findaffiliates.online/blog/home-security-affiliate-programs-creators-2026",
+    "summary": "The program invites creators, bloggers and influencers but its eligibility section looks for a public, established social following; no absolute creator counts are published, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.frontpointsecurity.com/affiliates",
+   "source_url": "https://help.frontpointsecurity.com/en/my-frontpoint-account/CAP_Termsandconditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Frontpoint Consumer Affiliate Program — in-house; commission varies by contract term",
+   "application_url": "https://www.frontpointsecurity.com/affiliates",
+   "source_url": "https://help.frontpointsecurity.com/en/my-frontpoint-account/CAP_Termsandconditions"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "DIY monitored alarm systems fit smart-home and home-safety creator content well.",
+    "ugc_evidence": "The CAP terms explicitly name social media user-generated content as a monetizable channel.",
+    "compensation": "Rate left null: the brand's current page says commission varies by contract term and older flat-rate listings conflict.",
+    "contact_access": "Public program terms and an application route on the brand's own site; no published program email found.",
+    "opportunity_availability": "Application asks for a social or website URL and the brand looks for an established public following, which limits smaller creators.",
+    "credibility": "Operating since 2007 with a long track record in US home security."
+   }
+  }
+ },
+ {
+  "name": "Link My Pet",
+  "website": "https://linkmypet.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Pet-tech company whose Link smart collar wearable gives dog owners GPS location tracking, activity and health monitoring through a subscription app; the product is sold exclusively in the United States.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affiliategraph.ai/programs/link-my-pet",
+    "summary": "Affiliate Graph, summarizing network program listings (data verified Nov 9, 2026), records Link My Pet at a 10% commission with the program joinable as a publisher on Awin (also carried by Connexity, Digidip, Loyalize and Skimlinks), US market only."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affiliategraph.ai/programs/link-my-pet",
+    "summary": "The same listing describes Link as a smart dog wearable for location and activity tracking, sold exclusively in the US, and classifies the brand as small by estimated revenue — a relative tier only, so creator_saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.affiliategraph.ai/programs/link-my-pet",
+    "summary": "No fetched source states an earnings cap for the program, so commission_cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://www.affiliategraph.ai/programs/link-my-pet",
+   "source_url": "https://www.affiliategraph.ai/programs/link-my-pet",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Link My Pet Affiliate Program — 10% via Awin",
+   "application_url": "https://www.affiliategraph.ai/programs/link-my-pet",
+   "source_url": "https://www.affiliategraph.ai/programs/link-my-pet"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "GPS dog collars sit at the pets x technology crossover that performs strongly in creator content.",
+    "ugc_evidence": "Active program across five networks with publisher enrollment through Awin.",
+    "compensation": "10% commission per the network listings — at the pet-category median, on a premium-priced device.",
+    "contact_access": "No published program email or contact page found; access is through the network application.",
+    "opportunity_availability": "Open publisher application on Awin; sub-networks allow promotion after network acceptance.",
+    "credibility": "Small, single-product US brand — real and trading, but far less established than the big pet names."
+   }
+  }
+ },
+ {
+  "name": "Select Blinds",
+  "website": "https://www.selectblinds.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Online retailer of custom window treatments — blinds, shades and shutters made to order and sold direct to consumers — and one of the largest US sellers of custom blinds online.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://help.selectblinds.com/hc/en-gb/articles/43374990313617-Influencer-Affiliate-Program",
+    "email": null,
+    "source_url": "https://help.selectblinds.com/hc/en-gb/articles/43374990313617-Influencer-Affiliate-Program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_site",
+    "source_url": "https://help.selectblinds.com/hc/en-gb/articles/43374990313617-Influencer-Affiliate-Program",
+    "summary": "SelectBlinds' own help center documents its Influencer Affiliate Program: creators get paid for sales they help generate, create trackable affiliate links in minutes for blogs, social media, videos and newsletters, and apply through the program's Apply Now route (Upfluence)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/select-blinds/",
+    "summary": "Published rates conflict: LinkClicky lists the program on CJ Affiliate at 7% per sale, Shopper lists up to 4.66%, and Post Affiliate Pro lists a $2.50 flat commission. Because the sources disagree, commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://help.selectblinds.com/hc/en-gb/articles/43374990313617-Influencer-Affiliate-Program",
+    "summary": "No fetched page states an earnings cap or creator-count figure, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://help.selectblinds.com/hc/en-gb/articles/43374990313617-Influencer-Affiliate-Program",
+   "source_url": "https://linkclicky.com/affiliate-program/select-blinds/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "SelectBlinds Influencer Affiliate Program — plus CJ Affiliate listing (rates conflict)",
+   "application_url": "https://help.selectblinds.com/hc/en-gb/articles/43374990313617-Influencer-Affiliate-Program",
+   "source_url": "https://help.selectblinds.com/hc/en-gb/articles/43374990313617-Influencer-Affiliate-Program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Custom window treatments are a staple of home-improvement and room-makeover creator content, with high order values.",
+    "ugc_evidence": "A dedicated influencer program on the brand's own help center, built for blogs, social, video and newsletters.",
+    "compensation": "Rate left null: published figures conflict (7% CJ listing vs 4.66% vs a $2.50 flat listing).",
+    "contact_access": "Named influencer program page with an Apply Now route on the brand's own help center.",
+    "opportunity_availability": "Open influencer application; the CJ listing is also publicly joinable.",
+    "credibility": "One of the largest US online sellers of custom blinds, operating since the mid-2000s."
+   }
+  }
+ },
+ {
+  "name": "GIR",
+  "website": "https://gir.co",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "GIR (Get It Right) is an American kitchenware brand making premium silicone cooking tools — spatulas, ladles, whisks and bakeware — engineered to perform and last, sold direct through gir.co and major retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://gir.co/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://gir.co/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://gir.co/pages/affiliate-program",
+    "summary": "GIR's own affiliate page ('Become a GIR Partner') invites creators, cooks and publishers to partner with the brand and earn commission on every sale they refer."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "official_site",
+    "source_url": "https://gir.co/pages/affiliate-program",
+    "summary": "The page's Get Started button routes to a staging-style subdomain (getitright-dev.affiliatery.staqlab.com) rather than a production portal, so the live signup path is flagged needs_review even though the program page itself is on the brand's own domain."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/gir/",
+    "summary": "LinkClicky lists the GIR affiliate program on CJ Affiliate at 4% commission per sale; Affilza's program record shows a 90-day cookie lifetime for gir.co."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://gir.co/pages/affiliate-program",
+    "summary": "No fetched page states an earnings cap or creator-count figure, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 4,
+   "application_url": "https://gir.co/pages/affiliate-program",
+   "source_url": "https://linkclicky.com/affiliate-program/gir/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "GIR Affiliate Program — 4% per sale via CJ Affiliate (own creator page; signup portal flagged)",
+   "application_url": "https://gir.co/pages/affiliate-program",
+   "source_url": "https://gir.co/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Silicone kitchen tools are everyday-demo products that fit cooking and kitchen creator content perfectly.",
+    "ugc_evidence": "The brand runs a named partner program for creators, cooks and publishers on its own site.",
+    "compensation": "4% per sale via CJ per the network listing — low in percentage terms, though on durable mid-priced tools.",
+    "contact_access": "Public partner page with a Get Started application route; no published program email found.",
+    "opportunity_availability": "Open application from the brand's page; the signup link currently lands on a staging-style subdomain, flagged in evidence.",
+    "credibility": "Established US kitchenware brand with national retail presence and strong product reviews."
+   }
+  }
+ },
+ {
+  "name": "YuMOVE",
+  "website": "https://yumove.com",
+  "country": "United Kingdom",
+  "category_slug": "pets",
+  "description": "UK pet supplement brand (Lintbells) making science-backed natural supplements since 2006 — best known for its joint care range for dogs and cats — manufactured mostly in the UK and sold through its own UK and US stores and veterinary channels.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "Lewis.walters@summitmedia.com",
+    "source_url": "https://ui.awin.com/merchant-profile/17141?setLocale=en_US"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://yumove.co.uk/pages/affiliates",
+    "summary": "YuMOVE's own affiliates page instructs affiliates to join the program on its partner network Awin, set up links and earn commission on new user sales; the same page states the brand has made supplements since 2006 and is based near Hitchin, Hertfordshire."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate_conflict",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/17141?setLocale=en_US",
+    "summary": "Rates conflict across sources: YuMOVE's Awin programme profile lists commission from 6% for new customers and 1% for existing customers with a 30-day cookie, while Lasso lists 15% per sale. The Awin profile also names the managing agency (Summit Media) and its contacts (Lewis.walters@summitmedia.com, Gus.Beavis@summitmedia.com). Because the rates disagree, commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://yumove.co.uk/pages/affiliates",
+    "summary": "No fetched page states an earnings cap or absolute creator counts, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://yumove.co.uk/pages/affiliates",
+   "source_url": "https://yumove.co.uk/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "YuMOVE Affiliate Programme — via Awin (published rates conflict)",
+   "application_url": "https://yumove.co.uk/pages/affiliates",
+   "source_url": "https://yumove.co.uk/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Joint supplements for dogs and cats are a core pet-health niche with strong repeat-purchase behavior.",
+    "ugc_evidence": "Open Awin programme actively recruiting publishers, with commission on new user sales per the brand's own page.",
+    "compensation": "Rate left null: the Awin profile (from 6% new / 1% existing) conflicts with Lasso's 15% listing.",
+    "contact_access": "Named programme-management contacts published on the Awin profile (Summit Media) — unusually direct access.",
+    "opportunity_availability": "Open application through Awin from the brand's own affiliates page.",
+    "credibility": "Trading since 2006, UK-manufactured, vet-advised — one of the UK's best-known pet supplement brands."
+   }
+  }
+ },
+ {
+  "name": "HHOLOVE",
+  "website": "https://hholove.com",
+  "country": "Unknown",
+  "category_slug": "pets",
+  "description": "Smart pet-care brand selling AI companion pet robots, automatic self-cleaning litter boxes, smart feeders and water fountains, sold direct through its Shopify store with a creator-first affiliate program.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://hholove.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://hholove.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program",
+    "source_type": "official_site",
+    "source_url": "https://hholove.com/pages/affiliate-program",
+    "summary": "HHOLOVE's own Creator & Affiliate Program page states approved creators earn 5% on eligible non-accessory products (accessories, taxes, shipping and refunds earn 0%), calculated on qualified net product sales, with a 30-day tracking window, a 10% off product discount code, monthly payout review, and possible product seeding depending on audience fit; creators apply on the page by submitting their channels, region and follower counts."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://hholove.com/pages/affiliate-program",
+    "summary": "The brand's program page states no earnings cap and no creator-count figures, so commission_cap and creator_saturation are honestly recorded as unknown; no fetched page stated the company's country, so country is recorded as Unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 5,
+   "application_url": "https://hholove.com/pages/affiliate-program",
+   "source_url": "https://hholove.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "HHOLOVE Creator & Affiliate Program — 5% on main products, brand direct",
+   "application_url": "https://hholove.com/pages/affiliate-program",
+   "source_url": "https://hholove.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 16,
+   "compensation": 9,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Smart litter boxes, feeders and pet robots are exactly the gadget-pet crossover that drives pet-tech content.",
+    "ugc_evidence": "The program is explicitly built for creators, with content guidelines, trackable links/codes and product seeding for fit audiences.",
+    "compensation": "5% of net sales on main products; accessories are excluded, which trims the effective rate on mixed baskets.",
+    "contact_access": "Structured on-page creator application (channels, region, audience scale) routed for team follow-up.",
+    "opportunity_availability": "Open application, but approval is a manual fit review rather than instant enrollment.",
+    "credibility": "Small, young DTC brand with a narrow public footprint compared with established pet names."
+   }
+  }
+ },
+ {
+  "name": "ElsPet",
+  "website": "https://www.elspet.com",
+  "country": "Unknown",
+  "category_slug": "pets",
+  "description": "Pet products brand known for its self-cleaning automatic litter boxes and a wider range of cat and dog supplies — toys, treats and ergonomic accessories — sold direct through elspet.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/elspet/",
+    "summary": "LinkClicky lists the elspet affiliate program on ShareASale at 8% commission per sale with a 60-day cookie duration, open to all regions, with application through ShareASale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/elspet/",
+    "summary": "No fetched source states an earnings cap or creator-count figure, so commission_cap and creator_saturation are recorded as unknown; no fetched page stated the company's country, so country is recorded as Unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 8,
+   "application_url": "https://linkclicky.com/affiliate-program/elspet/",
+   "source_url": "https://linkclicky.com/affiliate-program/elspet/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ElsPet Affiliate Program — 8% per sale via ShareASale, 60-day cookie",
+   "application_url": "https://linkclicky.com/affiliate-program/elspet/",
+   "source_url": "https://linkclicky.com/affiliate-program/elspet/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Self-cleaning litter boxes are a high-interest pet-tech product for cat-owner audiences.",
+    "ugc_evidence": "Public ShareASale program open to publishers and influencers per the network listing.",
+    "compensation": "8% per sale with a generous 60-day cookie — competitive for pet hardware.",
+    "contact_access": "No published program email or contact page found; access is through ShareASale only.",
+    "opportunity_availability": "Open application through ShareASale.",
+    "credibility": "Small DTC brand; known mainly for its litter-box line, with limited public company information."
+   }
+  }
+ }
+]

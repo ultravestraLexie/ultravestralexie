@@ -1,0 +1,654 @@
+[
+ {
+  "name": "Anxi",
+  "website": "https://anxiring.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Jewellery brand built around an anxiety ring, selling intentional, meaning-led rings direct through its own website, with a creator ambassador program run from its own ambassador site.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ambassador.anxiring.com/",
+    "email": null,
+    "source_url": "https://ambassador.anxiring.com/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ambassador.anxiring.com/",
+    "summary": "Anxi's own ambassador page offers a flat 20% commission on every sale made with an ambassador's unique discount code, paid monthly, with a real-time dashboard, early access to drops and ambassador perks; applications are taken on the page and follower count is explicitly not a criterion."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://ambassador.anxiring.com/",
+    "summary": "The page states 'No caps. No tiers. Just a flat 20% from day one' and 'No minimums, no caps', so commission_cap is recorded as uncapped on the brand's own wording."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://ambassador.anxiring.com/",
+    "summary": "The program is a curated creator community; ambassadors can also refer other creators and earn on their sales, a single-level referral feature documented here for transparency. No fetched source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://ambassador.anxiring.com/",
+   "source_url": "https://ambassador.anxiring.com/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ambassador.anxiring.com/",
+   "source_url": "https://ambassador.anxiring.com/",
+   "title": "Anxi Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 18,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Jewellery is a highly visual, try-on friendly fashion niche and the brand is built around creator storytelling.",
+    "ugc_evidence": "A dedicated ambassador site recruiting creators, with a dashboard, early access and a creator community.",
+    "compensation": "Flat 20% from day one with an explicit no-cap statement on the brand's own page — top band.",
+    "contact_access": "Open application on the brand's own ambassador page; no public email published.",
+    "opportunity_availability": "Application-based and curated, but follower count is explicitly not a criterion.",
+    "credibility": "Small direct-to-consumer brand with its own store and a named co-founder quoted on the program page."
+   }
+  }
+ },
+ {
+  "name": "Corner of Main",
+  "website": "https://cornerofmain.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Family-run apparel brand from Arizona selling theme-park-inspired shirts and casual wear direct through its own website, with a brand ambassador program run through UpPromote.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://cornerofmain.com/pages/brand-ambassadors",
+    "email": null,
+    "source_url": "https://cornerofmain.com/pages/brand-ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://cornerofmain.com/pages/brand-ambassadors",
+    "summary": "Corner of Main's own ambassador page invites applications (two-minute form via UpPromote), free to join with no follower minimum; approved ambassadors get a tracked link and referral code, a personal discount and payouts through the affiliate platform, usually via PayPal."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://cornerofmain.com/pages/brand-ambassadors",
+    "summary": "The page's FAQ answers 'How much can I earn?' with 'You earn a commission on every single order that comes through your link or code, with no cap', so commission_cap is recorded as uncapped on the brand's own wording."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://cornerofmain.com/pages/brand-ambassadors",
+    "summary": "The page confirms commission on every order but does not publish the percentage, so commission_rate is recorded as null. No fetched source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": null,
+   "application_url": "https://cornerofmain.com/pages/brand-ambassadors",
+   "source_url": "https://cornerofmain.com/pages/brand-ambassadors",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://cornerofmain.com/pages/brand-ambassadors",
+   "source_url": "https://cornerofmain.com/pages/brand-ambassadors",
+   "title": "Corner of Main Brand Ambassador Program (UpPromote)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 16,
+   "compensation": 12,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Theme-park-inspired apparel is a distinctive, content-friendly fashion niche aimed at park-going families.",
+    "ugc_evidence": "The program is built around everyday creator content ('post like you already do') with no follower minimum.",
+    "compensation": "Commission on every order with an explicit no-cap statement, but the percentage is not published, so it scores mid-range.",
+    "contact_access": "Open application on the brand's own site via UpPromote; no public email published.",
+    "opportunity_availability": "Free to join, no follower minimum, applications read individually.",
+    "credibility": "Small family-run brand with its own store; limited public track record."
+   }
+  }
+ },
+ {
+  "name": "Magnolia Boutique",
+  "website": "https://magnoliaboutique.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "US women's clothing boutique selling dresses, tops and seasonal fashion through its own website and stores, with a brand ambassador program recruited through its Brand Partnerships page.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://magnoliaboutique.com/pages/brand-ambassadors",
+    "email": null,
+    "source_url": "https://magnoliaboutique.com/pages/brand-ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://magnoliaboutique.com/pages/brand-ambassadors",
+    "summary": "Magnolia Boutique's own Brand Partnerships page recruits brand ambassadors to promote products on their website or social channels, offering exclusive discounts and 10% commission on every new customer sale generated; commissions are credited only when the ambassador's discount code is applied at checkout, and codes may not be shared on deal sites."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://magnoliaboutique.com/pages/brand-ambassadors",
+    "summary": "No fetched source states any cap on Magnolia Boutique ambassador earnings, so commission_cap is unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://magnoliaboutique.com/pages/brand-ambassadors",
+   "source_url": "https://magnoliaboutique.com/pages/brand-ambassadors",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://magnoliaboutique.com/pages/brand-ambassadors",
+   "source_url": "https://magnoliaboutique.com/pages/brand-ambassadors",
+   "title": "Magnolia Boutique Brand Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 12,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Mainstream women's boutique fashion — highly visual and try-on friendly, squarely in the fashion UGC niche.",
+    "ugc_evidence": "The brand recruits ambassadors directly and lists affiliate marketing, content creation and campaigns as partnership opportunities.",
+    "compensation": "A real 10% commission, but only on new-customer sales tracked by discount code, so it scores mid-range.",
+    "contact_access": "A public Brand Partnerships page on the official site with an application route.",
+    "opportunity_availability": "Open application; the brand asks for a strong social following but publishes no numeric threshold.",
+    "credibility": "Established US boutique retailer with its own stores and website."
+   }
+  }
+ },
+ {
+  "name": "Tony Bianco",
+  "website": "https://www.tonybianco.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Australian footwear label selling women's heels, flats, boots and sandals through its own websites and global retail partners, with an affiliate program on Rakuten Advertising.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": null,
+    "source_url": "https://getlasso.co/affiliate/tony-bianco-us/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/tony-bianco-us/",
+    "summary": "Lasso's program listing for Tony Bianco US states the affiliate program pays 8% per sale and invites influencers and bloggers to join, with the join route pointing to the brand's US site."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.fmtc.co/fmtc-new-merchants-include-beepumpkin-in-the-style-one-condoms-rothys-toms/",
+    "summary": "FMTC's new-merchant list records Tony Bianco on Rakuten Advertising (merchant #50498), identifying the network behind the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/tony-bianco-us/",
+    "summary": "No fetched source states any cap on Tony Bianco affiliate earnings, so commission_cap is unknown; no source publishes absolute creator counts, so creator_saturation is unknown. A Shopper listing quoting 'up to 5-10%' is a ceiling figure and was not used for the rate."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 8,
+   "application_url": "https://getlasso.co/affiliate/tony-bianco-us/",
+   "source_url": "https://getlasso.co/affiliate/tony-bianco-us/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/tony-bianco-us/",
+   "source_url": "https://getlasso.co/affiliate/tony-bianco-us/",
+   "title": "Tony Bianco Affiliate Program (Rakuten Advertising)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 11,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Trend-led women's footwear is a strong, visual fashion niche for creator content.",
+    "ugc_evidence": "The program is pitched to influencers and bloggers, but no dedicated creator page was fetched.",
+    "compensation": "A published 8% per-sale rate through a major network — solid but not top band.",
+    "contact_access": "Joinable through Rakuten Advertising; no public partnerships email was found on a fetched page.",
+    "opportunity_availability": "Open network application with merchant approval.",
+    "credibility": "Established Australian footwear brand with international retail distribution."
+   }
+  }
+ },
+ {
+  "name": "With Jean",
+  "website": "https://withjean.com.au",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Australian womenswear label selling dresses, sets and going-out pieces direct through its own website, with an affiliate program listed and joined through InfluencerRate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.influencerrate.com/affiliate-program/withjean",
+    "email": null,
+    "source_url": "https://www.influencerrate.com/affiliate-program/withjean"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/withjean",
+    "summary": "InfluencerRate's WithJean program page states creators, bloggers and marketers can join free, receive a unique tracking link and earn commission on purchases, with 30-day cookie tracking and dedicated affiliate support."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/withjean",
+    "summary": "The page's FAQ states affiliates 'earn between 5% and 10% on every successful purchase'; the top of the published range (10) is recorded with the range documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/withjean",
+    "summary": "No fetched source states any cap on WithJean affiliate earnings, so commission_cap is unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "InfluencerRate",
+   "commission_rate": 10,
+   "application_url": "https://www.influencerrate.com/affiliate-program/withjean",
+   "source_url": "https://www.influencerrate.com/affiliate-program/withjean",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.influencerrate.com/affiliate-program/withjean",
+   "source_url": "https://www.influencerrate.com/affiliate-program/withjean",
+   "title": "WithJean Affiliate Program (InfluencerRate)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Cult Australian going-out label with highly shareable dresses and sets — strong fashion UGC fit.",
+    "ugc_evidence": "The program explicitly targets content creators and social promotion, though terms come via a third-party platform listing.",
+    "compensation": "A published 5-10% range; the top of range is recorded, so it scores mid-range.",
+    "contact_access": "Application runs through the InfluencerRate platform; no public brand email was found on a fetched page.",
+    "opportunity_availability": "Free to join and described as beginner-friendly with no experience requirement.",
+    "credibility": "Well-known Australian direct-to-consumer label with its own store."
+   }
+  }
+ },
+ {
+  "name": "Sim Local",
+  "website": "https://www.simlocal.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel connectivity retailer founded in 2011 selling local SIM cards and eSIM plans for 200+ destinations through its website, app and stores in over 100 airports, with a creator affiliate program recruited on its own site.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.simlocal.com/affiliates",
+    "email": null,
+    "source_url": "https://www.simlocal.com/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.simlocal.com/affiliates",
+    "summary": "Sim Local's own affiliate page recruits content creators with travel, telecom or technology channels: affiliates share a unique referral link (last-click attribution, 30-day cookie), receive discount codes, and earn commission on tracked sales; joining is free and sign-up is by email application with channel details."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.simlocal.com/affiliates",
+    "summary": "The page promises 'industry-leading commissions' but publishes no percentage, so commission_rate is recorded as null. No fetched source states any earnings cap, so commission_cap is unknown, and no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.simlocal.com/affiliates",
+   "source_url": "https://www.simlocal.com/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.simlocal.com/affiliates",
+   "source_url": "https://www.simlocal.com/affiliates",
+   "title": "Sim Local Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 6,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Travel eSIM and SIM products are a natural fit for travel creators' packing and connectivity content.",
+    "ugc_evidence": "The brand actively recruits content creators and offers links plus audience discount codes.",
+    "compensation": "A real commission exists but no rate is published anywhere fetched, so it scores low per the rubric.",
+    "contact_access": "A public affiliate page on the official site with an email application route.",
+    "opportunity_availability": "Free to join by application; the brand reviews channel fit.",
+    "credibility": "Founded in 2011, present in over 100 airports with millions of customers connected."
+   }
+  }
+ },
+ {
+  "name": "eSIMo",
+  "website": "https://esimo.io",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel eSIM provider offering data plans in 190+ countries plus international calling and virtual second numbers through its app and website, with an affiliate program on Impact.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partners@esimo.io",
+    "source_url": "https://esimo.io/post/esimo-is-now-on-impact.com-what-this-means-for-you"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://esimo.io/post/esimo-is-now-on-impact.com-what-this-means-for-you",
+    "summary": "eSIMo's own announcement states its affiliate program is live on Impact: partners apply through Impact, promote with tracking links, banners and promo codes, and earn a baseline 10% commission on every successful purchase, tracked across web and app; payouts are handled through Impact."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://esimo.io/post/esimo-is-now-on-impact.com-what-this-means-for-you",
+    "summary": "The same page publishes partners@esimo.io as the contact address for partner referrals support."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://esimo.io/post/esimo-is-now-on-impact.com-what-this-means-for-you",
+    "summary": "No fetched source states any cap on eSIMo affiliate earnings, so commission_cap is unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://esimo.io/post/esimo-is-now-on-impact.com-what-this-means-for-you",
+   "source_url": "https://esimo.io/post/esimo-is-now-on-impact.com-what-this-means-for-you",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://esimo.io/post/esimo-is-now-on-impact.com-what-this-means-for-you",
+   "source_url": "https://esimo.io/post/esimo-is-now-on-impact.com-what-this-means-for-you",
+   "title": "eSIMo Affiliate Program (Impact)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Travel eSIM data is a staple recommendation in travel creator content.",
+    "ugc_evidence": "The program explicitly targets travel bloggers and vloggers and supplies banners, social kits and promo codes.",
+    "compensation": "A published baseline 10% commission on Impact, with rates said to grow with performance.",
+    "contact_access": "A published partners email plus application through Impact — top band.",
+    "opportunity_availability": "Open application through Impact with approval.",
+    "credibility": "Newer, smaller eSIM brand; limited public track record compared with established carriers."
+   }
+  }
+ },
+ {
+  "name": "Instabridge",
+  "website": "https://www.instabridge.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Wi-Fi sharing app giving travellers access to millions of crowdsourced Wi-Fi hotspots worldwide, with an affiliate program on CJ Affiliate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/instabridge/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/instabridge/",
+    "summary": "LinkClicky's Instabridge program listing states the program runs on CJ Affiliate, pays 10% per sale, and is open to US publishers, with the join route pointing to CJ signup."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/instabridge/",
+    "summary": "No fetched source states any cap on Instabridge affiliate earnings, so commission_cap is unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/instabridge/",
+   "source_url": "https://linkclicky.com/affiliate-program/instabridge/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/instabridge/",
+   "source_url": "https://linkclicky.com/affiliate-program/instabridge/",
+   "title": "Instabridge Affiliate Program (CJ Affiliate)"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A travel-connectivity utility app — relevant to travel creators, though less visual than physical travel products.",
+    "ugc_evidence": "A standard network program; no dedicated creator recruitment page was fetched.",
+    "compensation": "A published 10% per-sale rate on CJ Affiliate.",
+    "contact_access": "Joinable through CJ Affiliate; no public partnerships email was found on a fetched page.",
+    "opportunity_availability": "Open network application with merchant approval.",
+    "credibility": "Established app with a large crowdsourced hotspot network."
+   }
+  }
+ },
+ {
+  "name": "Eatwith",
+  "website": "https://www.eatwith.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Marketplace for culinary travel experiences — dinners, cooking classes and food tours with 25,000+ local hosts in 100+ countries — with an affiliate program on Awin.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@eatwith.com",
+    "source_url": "https://ui.awin.com/merchant-profile/15528?setLocale=it_IT"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/15528?setLocale=it_IT",
+    "summary": "Eatwith's Awin merchant profile states affiliates receive up to 10% commission from all bookings (average order value $220), with server-to-server tracking and a 30-day cookie, support from a dedicated partnership team, and affiliate@eatwith.com published for questions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/eatwith-us/",
+    "summary": "Lasso's Eatwith (US) listing states the rate as 10% per sale with a 30-day cookie; 10 is recorded, with Awin's own 'up to 10%' ceiling wording documented in the evidence above. A separate Travelpayouts route pays 6% on conducted bookings."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/15528?setLocale=it_IT",
+    "summary": "No fetched source states any cap on Eatwith affiliate earnings, so commission_cap is unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/15528?setLocale=it_IT",
+   "source_url": "https://ui.awin.com/merchant-profile/15528?setLocale=it_IT",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/15528?setLocale=it_IT",
+   "source_url": "https://ui.awin.com/merchant-profile/15528?setLocale=it_IT",
+   "title": "Eatwith Affiliate Program (Awin)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Food experiences are core travel content; hosts and classes film exceptionally well for creators.",
+    "ugc_evidence": "An established network program with a dedicated partnership team recruiting publishers and creators.",
+    "compensation": "Up to 10% on Awin (stated as 10% per sale by Lasso) on a high $220 average booking value.",
+    "contact_access": "A published affiliate email on the Awin profile plus network application — top band.",
+    "opportunity_availability": "Open application through Awin with merchant approval.",
+    "credibility": "The largest culinary-experience marketplace, with 25,000+ hosts across 100+ countries."
+   }
+  }
+ },
+ {
+  "name": "Oliver's Travels",
+  "website": "https://www.oliverstravels.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Luxury villa and holiday-home rental company offering handpicked properties in destinations worldwide, with an affiliate programme on Awin and a dedicated route for Instagram creators.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.oliverstravels.com/affiliates/",
+    "email": null,
+    "source_url": "https://www.oliverstravels.com/affiliates/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.oliverstravels.com/affiliates/",
+    "summary": "Oliver's Travels' own Affiliates & Influencers page states affiliate partners earn commission starting at 3% on eligible villa bookings through Awin, with an average booking value of £6,500 (roughly £200 average commission per booking), plus a separate Instagram Creator route with unique tracking links and potential hosted stays."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.oliverstravels.com/affiliates/",
+    "summary": "No fetched source states any cap on Oliver's Travels affiliate earnings, so commission_cap is unknown; no source publishes absolute creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 3,
+   "application_url": "https://www.oliverstravels.com/affiliates/",
+   "source_url": "https://www.oliverstravels.com/affiliates/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.oliverstravels.com/affiliates/",
+   "source_url": "https://www.oliverstravels.com/affiliates/",
+   "title": "Oliver's Travels Affiliate Programme (Awin)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Luxury villas are highly visual, aspirational travel content with very high booking values.",
+    "ugc_evidence": "A dedicated creator route for Instagram with tracking links and potential hosted-stay collaborations.",
+    "compensation": "A low starting percentage (3%) offset by a £6,500 average booking value — roughly £200 per booking.",
+    "contact_access": "A public affiliates page on the official site plus application through Awin.",
+    "opportunity_availability": "Open application through Awin; creator route considered case by case.",
+    "credibility": "Established luxury villa rental company with a large handpicked portfolio."
+   }
+  }
+ }
+]
