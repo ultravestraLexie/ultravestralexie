@@ -1,0 +1,598 @@
+[
+ {
+  "name": "d'Alba Piedmont",
+  "website": "https://dalba.com/",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "South Korean premium skincare brand built around Italian white truffle from Piedmont (its patented Trufferol blend of white truffle extract and vitamin E), best known for the White Truffle First Spray Serum, which the brand's own global shop credits with 50 million bottles sold; vegan formulas sold via dalba.com and its official US TikTok Shop.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/dalba_ambassadors"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://www.instagram.com/p/DR2CB5RkfKY/",
+    "summary": "d'Alba's own ambassador account (@dalba_ambassadors, post dated 2025-12-04) announced the official launch of d'Alba's US TikTok Shop with 'Open Collaborations' and commission for creators, using #tiktokshopaffiliate and #opencollab; named lines include the First Spray Serum and the Vita Toning range. Checked 2026-11-21."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "marketplace",
+    "source_url": "https://shop.tiktok.com/us/pdp/dalba-white-truffle-first-spray-serum-hydrating-glass-skin/1732030632509870812",
+    "summary": "The brand's official TikTok Shop store 'd'Alba Piedmont' (OFFICIAL SHOP; seller DALBA USA CORP, Dover, Delaware) shows a 4.7 rating with about 161K sold and 156.9K+ followers. TikTok Shop does not publish a single program-wide commission rate on the listing, so the rate is recorded as unpublished and the cap as unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://dalba.com/",
+    "summary": "d'Alba's official global shop (dalba.com) sells the full white-truffle skincare range and markets the First Spray Serum as its '#1 Global Bestseller with 50 Million Bottles Sold'. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/pdp/dalba-white-truffle-first-spray-serum-hydrating-glass-skin/1732030632509870812",
+   "source_url": "https://www.instagram.com/p/DR2CB5RkfKY/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TikTok Shop Open Collaborations (US store)",
+   "application_url": "https://shop.tiktok.com/us/pdp/dalba-white-truffle-first-spray-serum-hydrating-glass-skin/1732030632509870812",
+   "source_url": "https://www.instagram.com/p/DR2CB5RkfKY/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 17,
+   "compensation": 6,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure skincare brand in the directory's core niche, with hero products (spray serum, sunscreens, capsule creams) that suit routine and review content.",
+    "ugc_evidence": "The brand itself announced TikTok Shop Open Collaborations for creators through its own ambassador account, and its official shop carries heavy creator-driven sales content.",
+    "compensation": "Creator commission is confirmed by the brand's launch announcement, but no rate is published anywhere fetched, so compensation scores low.",
+    "contact_access": "Open Collaborations inside TikTok Shop plus a dedicated brand ambassador Instagram account give creators a direct route in.",
+    "opportunity_availability": "The US TikTok Shop open-collaboration route was publicly launched and is live now.",
+    "credibility": "Official brand shop with a named US seller entity (DALBA USA CORP), 4.7 shop rating and a flagship product the brand credits with 50M bottles sold."
+   }
+  }
+ },
+ {
+  "name": "TOCOBO",
+  "website": "https://tocobo.us/",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "South Korean vegan skincare brand operated by Picton Co., Ltd. of Seoul, known for the Cotton Airy Sun Stick and Bio Watery Sun Screen; certified vegan and cruelty-free positioning, sold in the US via tocobo.us and its official TOCOBO US TikTok Shop.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/tocobo_us"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "marketplace",
+    "source_url": "https://shop.tiktok.com/us/pdp/cotton-airy-sun-stick-by-tocobo-spf50-broad-spectrum-non-sticky-finish-oil-control-vegan-formula/1731220302767493349",
+    "summary": "TOCOBO's official TikTok Shop store 'TOCOBO US' (seller Stylekorean Inc, California) shows a 4.7 rating, about 66.2K sold and 11.7K+ followers; official product pages display creator commission videos ('Creator earns commission'). No program-wide rate is published on the listings, so the rate is recorded as unpublished and the cap as unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://glowpedia.org/m/tocobo/",
+    "summary": "Glowpedia's brand profile describes TOCOBO as a Seoul-based vegan skincare brand operated by Picton Co., Ltd., running its own Korean site (tocobo.co.kr) alongside a dedicated US storefront at tocobo.us, with vegan and cruelty-free claims on the US store. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/pdp/cotton-airy-sun-stick-by-tocobo-spf50-broad-spectrum-non-sticky-finish-oil-control-vegan-formula/1731220302767493349",
+   "source_url": "https://shop.tiktok.com/us/pdp/cotton-airy-sun-stick-by-tocobo-spf50-broad-spectrum-non-sticky-finish-oil-control-vegan-formula/1731220302767493349",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TikTok Shop affiliate sales via TOCOBO US official store",
+   "application_url": "https://shop.tiktok.com/us/pdp/cotton-airy-sun-stick-by-tocobo-spf50-broad-spectrum-non-sticky-finish-oil-control-vegan-formula/1731220302767493349",
+   "source_url": "https://shop.tiktok.com/us/pdp/cotton-airy-sun-stick-by-tocobo-spf50-broad-spectrum-non-sticky-finish-oil-control-vegan-formula/1731220302767493349"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Vegan skincare (sun care, toners, creams, lip care) squarely in the directory's skincare niche.",
+    "ugc_evidence": "Official TikTok Shop product pages visibly run creator commission videos, showing active creator selling on the brand's own store.",
+    "compensation": "Commission exists through TikTok Shop but no rate is published on any fetched page.",
+    "contact_access": "Creators enter through the official TikTok Shop store; no public partnerships email was found on fetched pages.",
+    "opportunity_availability": "The official US store is live and selling with creator content attached.",
+    "credibility": "Named operating company (Picton Co., Ltd.) and US seller entity on the shop, plus its own US storefront."
+   }
+  }
+ },
+ {
+  "name": "Rom&nd",
+  "website": "https://romandbeauty.com/",
+  "country": "South Korea",
+  "category_slug": "beauty",
+  "description": "South Korean color cosmetics brand launched in 2016 by iFamilySC Co., Ltd. together with beauty creator Saerom Min (Gaeko), known for lip tints, glosses, cushions and palettes; sold in the US via romandbeauty.com and its official Rom&nd US TikTok Shop.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/romand_us"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "marketplace",
+    "source_url": "https://shop.tiktok.com/us/pdp/glossy-lips-gloss-by-rom-nd-plumping-volume-angel-ring-finish-4g/1729435450582471507",
+    "summary": "Rom&nd's official TikTok Shop store 'Rom&nd US' (seller romand beauty Corp, Montclair, New Jersey) shows a 4.6 rating, about 580.7K sold and 246.2K+ followers on the Glasting Color Gloss listing. TikTok Shop rates are set per product and are not published on the listing, so the rate is recorded as unpublished and the cap as unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://mapetitecoree.com/en/collections/romand",
+    "summary": "Retailer brand profile: Rom&nd is a Korean makeup brand launched in 2016 and run by iFamilySC (listed on the KOSDAQ), known for lip tints, eyeshadow palettes, blush and cushion foundation. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/pdp/glossy-lips-gloss-by-rom-nd-plumping-volume-angel-ring-finish-4g/1729435450582471507",
+   "source_url": "https://shop.tiktok.com/us/pdp/glossy-lips-gloss-by-rom-nd-plumping-volume-angel-ring-finish-4g/1729435450582471507",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TikTok Shop affiliate sales via Rom&nd US official store",
+   "application_url": "https://shop.tiktok.com/us/pdp/glossy-lips-gloss-by-rom-nd-plumping-volume-angel-ring-finish-4g/1729435450582471507",
+   "source_url": "https://shop.tiktok.com/us/pdp/glossy-lips-gloss-by-rom-nd-plumping-volume-angel-ring-finish-4g/1729435450582471507"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 14,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Color cosmetics (lip, cheek, eye, cushion) at the center of the beauty niche, created with a beauty influencer from day one.",
+    "ugc_evidence": "One of the largest official K-beauty stores on TikTok Shop US by volume, a channel built on creator videos; the brand was co-created by a beauty creator.",
+    "compensation": "Commission runs through TikTok Shop but no rate is published on any fetched page.",
+    "contact_access": "Creators enter through the official TikTok Shop store; no public partnerships email was found on fetched pages.",
+    "opportunity_availability": "Official US store is live with very high sales volume.",
+    "credibility": "Parent iFamilySC is KOSDAQ-listed; the US shop names its seller entity (romand beauty Corp, New Jersey) and holds a 4.6 rating at 580K+ sold."
+   }
+  }
+ },
+ {
+  "name": "Fwee",
+  "website": "https://www.fweecom.com/",
+  "country": "South Korea",
+  "category_slug": "beauty",
+  "description": "Seoul-born makeup brand launched in 2021 by BeNow Inc. (sister brand to Numbuzin), known for the Lip & Cheek Blurry Pudding Pot and playful, texture-led color cosmetics; sold via its global site and the official fwee US TikTok Shop.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/fwee_makeup"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "marketplace",
+    "source_url": "https://shop.tiktok.com/us/pdp/lip-cheek-blurry-pudding-by-fwee-30-shades-soft-suede-finish/1729488801377194169",
+    "summary": "Fwee's official TikTok Shop store 'fwee US' (seller BENOW BEAUTY INC, Dallas, Texas) shows a 4.7 rating, about 73.4K sold and 128.5K+ followers; the Lip & Cheek Blurry Pudding Pot listing warns buyers to use the official store for authentic products. No program-wide rate is published, so the rate is recorded as unpublished and the cap as unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://glowpedia.org/m/fwee/",
+    "summary": "Glowpedia: fwee is a South Korean makeup brand based in Seoul, owned by BeNow Inc., launched in 2021 as the color-cosmetics counterpart to Numbuzin, selling through its own US website, Amazon US, Olive Young Global, StyleKorean and TikTok Shop. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/pdp/lip-cheek-blurry-pudding-by-fwee-30-shades-soft-suede-finish/1729488801377194169",
+   "source_url": "https://shop.tiktok.com/us/pdp/lip-cheek-blurry-pudding-by-fwee-30-shades-soft-suede-finish/1729488801377194169",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TikTok Shop affiliate sales via fwee US official store",
+   "application_url": "https://shop.tiktok.com/us/pdp/lip-cheek-blurry-pudding-by-fwee-30-shades-soft-suede-finish/1729488801377194169",
+   "source_url": "https://shop.tiktok.com/us/pdp/lip-cheek-blurry-pudding-by-fwee-30-shades-soft-suede-finish/1729488801377194169"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Trend-led color cosmetics (lip and cheek textures) squarely in the beauty niche.",
+    "ugc_evidence": "Official TikTok Shop store with strong creator-style product content and 73K+ units sold through the channel.",
+    "compensation": "Commission runs through TikTok Shop but no rate is published on any fetched page.",
+    "contact_access": "Creators enter through the official TikTok Shop store; no public partnerships email was found on fetched pages.",
+    "opportunity_availability": "Official US store is live and actively selling.",
+    "credibility": "Named parent (BeNow Inc.) and US seller entity on the shop, 4.7 rating, plus retail presence via Olive Young Global and Amazon US."
+   }
+  }
+ },
+ {
+  "name": "Nécessaire",
+  "website": "https://www.necessaire.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "American body care brand (certified B Corporation) selling treatment-led body products — The Body Wash, The Body Serum, The Body Retinol and The Body Lotion — plus hair care, via necessaire.com and retailers such as Sephora and Nordstrom.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/necessaire"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/necessaire/",
+    "summary": "Lasso's affiliate directory lists a Nécessaire program at 'up to 5.25%' per sale with a 14-day cookie and no approval requirements. 'Up to' is a rate ceiling, not a published flat rate, so commission_rate is recorded as null; no earnings-cap statement appears, so the cap is unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://www.necessaire.com",
+    "summary": "Nécessaire's official store sells its body care bestsellers (The Body Wash with 2,903 reviews, The Body Lotion, The Body Serum, The Body Retinol) and hair care. Checked 2026-11-21."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "social",
+    "source_url": "https://www.instagram.com/reel/DU6EnPIj_b_/",
+    "summary": "The brand's verified Instagram account @necessaire (about 260K followers) posts product-led content for The Body Serum and its body care routines. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "Lasso",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/necessaire/",
+   "source_url": "https://getlasso.co/affiliate/necessaire/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nécessaire affiliate program (directory listing)",
+   "application_url": "https://getlasso.co/affiliate/necessaire/",
+   "source_url": "https://getlasso.co/affiliate/necessaire/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 9,
+   "compensation": 6,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium body care and hair care — inside the beauty niche, though less creator-native than face skincare or color cosmetics.",
+    "ugc_evidence": "An affiliate listing exists and the brand runs polished social content, but no structured creator program was found on fetched pages.",
+    "compensation": "Only a ceiling ('up to 5.25%') is published, so the rate itself is unrecorded and compensation scores low.",
+    "contact_access": "Join route is through the affiliate directory listing; no public partnerships email was found on fetched pages.",
+    "opportunity_availability": "Program is listed as joinable with no approval requirements per the directory.",
+    "credibility": "Established DTC brand, certified B Corporation, stocked at Sephora and Nordstrom."
+   }
+  }
+ },
+ {
+  "name": "IMAGE Skincare",
+  "website": "https://imageskincare.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "American skincare brand whose official affiliate program page invites creators, influencers, estheticians and skincare enthusiasts to earn through personalized affiliate links and storefronts across TikTok, Amazon Storefront, LTK and ShopMy.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "PRESS@imageskincare.com",
+    "source_url": "https://imageskincare.com/pages/image-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://imageskincare.com/pages/image-affiliate-program",
+    "summary": "IMAGE Skincare's own affiliate program page says the program is open to creators, estheticians and partners, offers personalized affiliate links and storefronts (including a LoudCrowd personalized storefront), routes content via TikTok, Amazon Storefront, LTK and ShopMy, states there is no follower requirement ('We welcome creators, influencers, and skincare enthusiasts'), and requires no product gifting or free seeding to join. The page does not publish a commission rate, so the rate is recorded as unpublished and the cap as unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "brand_site",
+    "source_url": "https://imageskincare.com/pages/image-affiliate-program",
+    "summary": "The same official page publishes a creator-partnerships contact: PRESS@imageskincare.com. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "LoudCrowd",
+   "commission_rate": null,
+   "application_url": "https://imageskincare.com/pages/image-affiliate-program",
+   "source_url": "https://imageskincare.com/pages/image-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "IMAGE Skincare Affiliate Program",
+   "application_url": "https://imageskincare.com/pages/image-affiliate-program",
+   "source_url": "https://imageskincare.com/pages/image-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 5,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Full-range skincare brand in the directory's core niche, with an explicitly creator-facing program.",
+    "ugc_evidence": "The brand's own page is built around creator content routes — TikTok, Amazon Storefront, LTK, ShopMy and personalized storefronts.",
+    "compensation": "The program page publishes no commission rate, so compensation scores low despite the open program.",
+    "contact_access": "Public application page on the brand's own site plus a published creator-partnerships email — top band.",
+    "opportunity_availability": "Applications are open with no follower requirement stated on the page.",
+    "credibility": "Long-running professional-rooted skincare brand selling direct to consumers through its official store."
+   }
+  }
+ },
+ {
+  "name": "Colorgram",
+  "website": "https://corp.oliveyoung.com/en/business/brand/colorgram",
+  "country": "South Korea",
+  "category_slug": "beauty",
+  "description": "South Korean color cosmetics brand from CJ Olive Young, launched in 2018 as a teen-focused, easy-to-use makeup line ('Every color in your pocket'), sold via Olive Young and its official TikTok Shop store.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/colorgram.official"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "marketplace",
+    "source_url": "https://shop.tiktok.com/us/pdp/colorgram-nude-blur-tint-vegan-long-lasting-lip-cheek/1731431433854488817",
+    "summary": "Colorgram's official TikTok Shop store (seller CJ Olive Young Corporation, Yongsan, Seoul) is marked OFFICIAL SHOP with a 4.1 rating, about 370.1K sold and 156.9K+ followers on the Nude Blur Lip Pencil listing; official product pages carry creator commission videos. No program-wide rate is published, so the rate is recorded as unpublished and the cap as unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://corp.oliveyoung.com/en/business/brand/colorgram",
+    "summary": "CJ Olive Young's corporate brand page presents COLORGRAM as its on-the-go makeup brand, launched in 2018 as a teen-focused color cosmetics line and expanded globally to the US and Japan in 2021. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/pdp/colorgram-nude-blur-tint-vegan-long-lasting-lip-cheek/1731431433854488817",
+   "source_url": "https://shop.tiktok.com/us/pdp/colorgram-nude-blur-tint-vegan-long-lasting-lip-cheek/1731431433854488817",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TikTok Shop affiliate sales via Colorgram official store",
+   "application_url": "https://shop.tiktok.com/us/pdp/colorgram-nude-blur-tint-vegan-long-lasting-lip-cheek/1731431433854488817",
+   "source_url": "https://shop.tiktok.com/us/pdp/colorgram-nude-blur-tint-vegan-long-lasting-lip-cheek/1731431433854488817"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Color cosmetics (lip, eye, cheek) in the beauty niche, aimed at young creators' audiences.",
+    "ugc_evidence": "Official TikTok Shop pages visibly run creator commission videos and the store has sold 370K+ units through the channel.",
+    "compensation": "Commission runs through TikTok Shop but no rate is published on any fetched page.",
+    "contact_access": "Creators enter through the official TikTok Shop store; no public partnerships email was found on fetched pages.",
+    "opportunity_availability": "Official store is live and actively selling in the US marketplace.",
+    "credibility": "House brand of CJ Olive Young, Korea's largest beauty retailer, with the seller entity named on the shop."
+   }
+  }
+ },
+ {
+  "name": "Touchland",
+  "website": "https://touchland.com/",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "American hand care brand known for its hydrating Power Mist hand sanitizers and fragrance mists, sold via touchland.com and major retailers, with frequent limited-edition collaborations.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.Shopper.com/partnerships/touchland-com-affiliate-program",
+    "summary": "Shopper.com's partnership listing for touchland.com describes a CPA affiliate program paying 'up to 4.66%' per sale with deeplinks and instant approval via Shopper. 'Up to' is a ceiling, not a flat published rate, and the listing does not name the underlying network, so commission_rate is recorded as null and the route is flagged needs_review; no cap statement appears, so the cap is unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://touchland.com/",
+    "summary": "Touchland's official store sells its hand sanitizer mists and fragrance mists, including limited-edition collaboration sets (Hello Kitty and Kuromi). Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopper.com",
+   "commission_rate": null,
+   "application_url": "https://www.Shopper.com/partnerships/touchland-com-affiliate-program",
+   "source_url": "https://www.Shopper.com/partnerships/touchland-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Touchland affiliate program (partnership listing)",
+   "application_url": "https://www.Shopper.com/partnerships/touchland-com-affiliate-program",
+   "source_url": "https://www.Shopper.com/partnerships/touchland-com-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 10,
+   "compensation": 5,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hand care and fragrance mists — beauty-adjacent personal care rather than core skincare or color cosmetics.",
+    "ugc_evidence": "A creator-relevant affiliate route is listed and the brand is heavily social-led, but no structured creator program was found on fetched pages.",
+    "compensation": "Only a ceiling ('up to 4.66%') is published through the listing, so the rate is unrecorded.",
+    "contact_access": "Join route is through the Shopper partnership listing with instant approval; no public partnerships email was found.",
+    "opportunity_availability": "Listing advertises instant approval, keeping the route open to new creators.",
+    "credibility": "Established US brand with national retail distribution and an official direct store."
+   }
+  }
+ },
+ {
+  "name": "Dear Dahlia",
+  "website": "https://deardahlia.com/",
+  "country": "South Korea",
+  "category_slug": "beauty",
+  "description": "South Korean luxury vegan beauty brand founded in 2014 and inspired by the Dahlia flower; cruelty-free, ECOCERT-certified color cosmetics sold in the US via deardahlia.com and the Dear Dahlia USA TikTok Shop.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/deardahlia_beauty"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "marketplace",
+    "source_url": "https://shop.tiktok.com/us/pdp/paradise-sparkle-lip-glaze-by-dear-dahlia-high-shine-formula-icy-pearls/1731050988440753115",
+    "summary": "Dear Dahlia's official TikTok Shop store 'Dear Dahlia USA' (seller BARAM USA INC, New York) shows a 4.6 rating with about 5,168 sold and 10.9K+ followers; the Paradise Sparkle Lip Glaze listing describes the brand as a luxury vegan, cruelty-free, ECOCERT-certified line. No program-wide rate is published, so the rate is recorded as unpublished and the cap as unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://deardahlia.com/collections/all-products",
+    "summary": "Dear Dahlia's official US store (deardahlia.com) sells the full Paradise color range — lip mousse, lipsticks, blush and lip glaze — at $31 price points. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/pdp/paradise-sparkle-lip-glaze-by-dear-dahlia-high-shine-formula-icy-pearls/1731050988440753115",
+   "source_url": "https://shop.tiktok.com/us/pdp/paradise-sparkle-lip-glaze-by-dear-dahlia-high-shine-formula-icy-pearls/1731050988440753115",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TikTok Shop affiliate sales via Dear Dahlia USA official store",
+   "application_url": "https://shop.tiktok.com/us/pdp/paradise-sparkle-lip-glaze-by-dear-dahlia-high-shine-formula-icy-pearls/1731050988440753115",
+   "source_url": "https://shop.tiktok.com/us/pdp/paradise-sparkle-lip-glaze-by-dear-dahlia-high-shine-formula-icy-pearls/1731050988440753115"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Luxury vegan color cosmetics in the beauty niche.",
+    "ugc_evidence": "Official TikTok Shop store is the brand's creator-selling channel in the US, with creator content attached to its listings.",
+    "compensation": "Commission runs through TikTok Shop but no rate is published on any fetched page.",
+    "contact_access": "Creators enter through the official TikTok Shop store; no public partnerships email was found on fetched pages.",
+    "opportunity_availability": "Official US store is live; smaller volume than the big K-beauty shops, so availability scores mid-range.",
+    "credibility": "Founded 2014, ECOCERT-certified positioning stated on its own listings, named US seller entity (BARAM USA INC)."
+   }
+  }
+ },
+ {
+  "name": "Blissoma",
+  "website": "https://blissoma.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Independent botanical skincare company based in St. Louis, Missouri, founded by herbal chemist Julie Longyear, making small-batch whole-plant cleansers, toners and mists, moisturizers, facial oils, serums, masks and exfoliating treatments.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/blissoma-holistic-skincare/",
+    "summary": "Lasso's affiliate directory lists the Blissoma Holistic Skincare program at a flat 10% per sale with a 60-day cookie, in the Beauty and Skin Care categories. No earnings-cap statement appears on the listing, so the cap is recorded as unknown. Checked 2026-11-21."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://merchants.sovrn.com/merchants/88346/blissoma-com-affiliate-program",
+    "summary": "Sovrn Commerce's merchant page describes Blissoma as an independent botanical skincare company based in St. Louis, Missouri, founded by herbal chemist and formulator Julie Longyear; Sovrn notes the current rate through its own network could not be independently verified, so the recorded 10% rests on the Lasso directory listing. Checked 2026-11-21."
+   }
+  ],
+  "affiliate": {
+   "network": "Lasso",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/blissoma-holistic-skincare/",
+   "source_url": "https://getlasso.co/affiliate/blissoma-holistic-skincare/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Blissoma Holistic Skincare Affiliate Program",
+   "application_url": "https://getlasso.co/affiliate/blissoma-holistic-skincare/",
+   "source_url": "https://getlasso.co/affiliate/blissoma-holistic-skincare/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 8,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Botanical facial skincare squarely in the skincare niche, though a small indie label.",
+    "ugc_evidence": "An affiliate program exists, but no structured creator or UGC program was found on fetched pages.",
+    "compensation": "A flat 10% per sale with a 60-day cookie is published in the affiliate directory — a real, recorded rate.",
+    "contact_access": "Join route is through the affiliate directory/network; no public partnerships email was found on fetched pages.",
+    "opportunity_availability": "Program is listed as open to join through the network.",
+    "credibility": "Small independent brand; identity and founder are documented on the Sovrn merchant page, but scale is limited."
+   }
+  }
+ }
+]

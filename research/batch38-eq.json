@@ -1,0 +1,584 @@
+[
+ {
+  "name": "MaryRuth's Organics",
+  "website": "https://www.maryruthorganics.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Vegan supplement brand selling liquid vitamins, probiotics, gummies and hair/skin formulas for adults and kids. Its 'MaryRuth's Preferred' affiliate program pays 10% per sale, and the brand runs one of the largest TikTok Shop creator engines in supplements, with 100,000+ customer-creators reported.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/maryruths-preferred/",
+    "source_url": "https://getlasso.co/affiliate/maryruths-preferred/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://getlasso.co/affiliate/maryruths-preferred/",
+    "summary": "Lasso's program page for 'MaryRuth's Preferred', fetched in full: 10% commission per sale, 7-day cookie, and the join button routes to ShareASale. No earnings-cap statement appears anywhere on the page, so commission_cap stays unknown. (Lasso's niche roundups elsewhere list a MaryRuth's program on Impact at the same 10% — the network conflict is noted; the fetched program page's own join route is ShareASale.)"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DaDN6XLkoEC/",
+    "summary": "Multiple creator-marketing breakdowns report MaryRuth's recruited over 100,000 existing customers as TikTok affiliates at a flat 10% commission, producing 1,000+ videos per day, with a private creator community and near-24/7 TikTok Live selling. That is absolute big-number evidence, so creator_saturation = high."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://getlasso.co/affiliate/maryruths-preferred/",
+   "source_url": "https://getlasso.co/affiliate/maryruths-preferred/",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "MaryRuth's Preferred Affiliate Program — 10% per sale (ShareASale); TikTok creator engine reported at 100,000+ affiliates",
+   "application_url": "https://getlasso.co/affiliate/maryruths-preferred/",
+   "source_url": "https://getlasso.co/affiliate/maryruths-preferred/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 19,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Liquid vitamins, probiotics and gummies are core health/wellness creator content.",
+    "One of the biggest documented creator engines in supplements: 100,000+ customer-affiliates and 1,000+ TikTok videos a day reported.",
+    "10% per sale published on the program listing; no cap statement published, so the cap is honestly unknown.",
+    "Application runs through the network listing; no public program email is published.",
+    "Open network application route for individual creators.",
+    "Category-leading supplement brand with reported $1B-scale sales and mainstream retail presence."
+   ]
+  }
+ },
+ {
+  "name": "Once Upon a Farm",
+  "website": "https://onceuponafarmorganics.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "California company co-founded by Jennifer Garner making certified-organic, non-GMO, cold-pressed baby food pouches, toddler meals and snacks. Its affiliate program pays 15% on every sale with a 30-day cookie and monthly payouts.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.influencerrate.com/affiliate-program/onceuponafarmorganics",
+    "source_url": "https://www.influencerrate.com/affiliate-program/onceuponafarmorganics"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/onceuponafarmorganics",
+    "summary": "InfluencerRate's program guide, fetched in full (updated May 21, 2024): affiliates earn 15% commission on all sales through their links, 30-day tracking cookies, commissions paid monthly via PayPal or check, no minimum sales requirement, and the brand supplies marketing materials. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Influencerrate",
+   "commission_rate": 15,
+   "application_url": "https://www.influencerrate.com/affiliate-program/onceuponafarmorganics",
+   "source_url": "https://www.influencerrate.com/affiliate-program/onceuponafarmorganics",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Once Upon a Farm Organics Affiliate Program — 15% on all sales, 30-day cookie",
+   "application_url": "https://www.influencerrate.com/affiliate-program/onceuponafarmorganics",
+   "source_url": "https://www.influencerrate.com/affiliate-program/onceuponafarmorganics"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Organic baby food and toddler snacks are core food/parenting creator content.",
+    "Affiliate program with supplied marketing materials and regular promotions for partners.",
+    "15% on all sales is a strong published rate for grocery; no cap statement published, so cap stays unknown.",
+    "Application runs through the program guide/network page; no public program email is published.",
+    "Open application with no minimum sales requirement.",
+    "Public company co-founded by Jennifer Garner with national retail distribution."
+   ]
+  }
+ },
+ {
+  "name": "Little Spoon",
+  "website": "https://www.littlespoon.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Subscription brand delivering fresh, organic baby food, toddler and kids' meals. Its own affiliate page invites creators to apply through Impact and earn a percentage of every first-time sale, paid monthly, with quarterly bonus opportunities — but the brand does not publish the percentage.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.littlespoon.com/affiliate-program",
+    "source_url": "https://www.littlespoon.com/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.littlespoon.com/affiliate-program",
+    "summary": "Little Spoon's own affiliate page, fetched in full: affiliates earn money on each new purchase through a personalized link, are 'compensated a % of every first time sale', get paid monthly, and can earn quarterly bonuses; the application button routes to app.impact.com. The page never states the percentage, so commission_rate is null. No cap statement or creator count is published."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "network_listing",
+    "source_url": "https://getlasso.co/affiliate/little-spoon/",
+    "summary": "Third-party listings conflict: Lasso lists 15% per sale with a 90-day cookie; other directories list a $15 flat per sale via ShareASale, ~10% on new customers, or 20% via an Impact sub-network. Because the figures conflict and the brand's own page publishes no rate, the rate is recorded as null rather than guessed."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.littlespoon.com/affiliate-program",
+   "source_url": "https://www.littlespoon.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Little Spoon Affiliate Program (Impact) — % of first-time sales, rate not published by the brand",
+   "application_url": "https://www.littlespoon.com/affiliate-program",
+   "source_url": "https://www.littlespoon.com/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 9,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": [
+    "Fresh baby food and kids' meals are core food/parenting creator content.",
+    "The brand runs an open affiliate page recruiting creators, with early access to launches and quarterly bonuses.",
+    "Compensation is a percentage of first-time sales, but the brand publishes no rate and third-party figures conflict (15% vs $15 flat vs 20%) — recorded honestly as unpublished.",
+    "Application is one click from the brand's own affiliate page into Impact.",
+    "Open application route on the brand's own site.",
+    "Well-known DTC baby-food brand with national retail expansion."
+   ]
+  }
+ },
+ {
+  "name": "Fatty15",
+  "website": "https://fatty15.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Supplement brand from Seraphina Therapeutics selling fatty15, a pure C15:0 (pentadecanoic acid) essential-fatty-acid supplement for cellular and healthy-aging support. Its consumer affiliate program runs on Impact; a separate healthcare-professional referral route also exists.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/fatty15/",
+    "source_url": "https://linkclicky.com/affiliate-program/fatty15/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/fatty15/",
+    "summary": "LinkClicky's program listing, fetched in full: platform Impact, application via app.impact.com, commission listed as '$20, 10% per sale, 10% per recurring subscription' — i.e. a 10% per-sale rate (with a $20 element in the listed structure and 10% on recurring subscriptions). No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://merchants.sovrn.com/merchants/191728/fatty15-affiliate-program",
+    "summary": "Sovrn Commerce's fatty15 page confirms the brand (launched 2021 by Seraphina Therapeutics, co-founded by Dr. Stephanie Venn-Watson) but states a current commission rate through Sovrn could not be independently verified — supporting the decision to rely only on the Impact listing's published figures."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/fatty15/",
+   "source_url": "https://linkclicky.com/affiliate-program/fatty15/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "fatty15 Affiliate Program (Impact) — 10% per sale and 10% on recurring subscriptions per the network listing",
+   "application_url": "https://linkclicky.com/affiliate-program/fatty15/",
+   "source_url": "https://linkclicky.com/affiliate-program/fatty15/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 13,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "A single-hero-ingredient longevity supplement is strong health-creator content.",
+    "Open network affiliate program on Impact aimed at publishers and influencers.",
+    "10% per sale plus 10% on recurring subscriptions per the network listing (a $20 element is also listed); no cap statement published.",
+    "Application runs through Impact from the program listing; no public program email is published.",
+    "Open application route for individual creators.",
+    "Science-led brand founded by the researchers who discovered C15:0, with wide podcast/media coverage."
+   ]
+  }
+ },
+ {
+  "name": "Omsom",
+  "website": "https://omsom.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Asian meal-starter brand co-founded by sisters Vanessa and Kim Pham, partnering with well-known chefs on sauce-and-seasoning starter packs for dishes like lemongrass BBQ and Japanese yuzu miso. Its affiliate program runs on ShareASale at 10% per sale with a long 90-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/omsom/",
+    "source_url": "https://linkclicky.com/affiliate-program/omsom/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/omsom/",
+    "summary": "LinkClicky's program listing, fetched in full: platform ShareASale, commission 10% per sale, 90-day cookie duration, open to all regions, application via ShareASale. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/omsom/",
+   "source_url": "https://linkclicky.com/affiliate-program/omsom/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Omsom Affiliate Program (ShareASale) — 10% per sale, 90-day cookie",
+   "application_url": "https://linkclicky.com/affiliate-program/omsom/",
+   "source_url": "https://linkclicky.com/affiliate-program/omsom/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Chef-collab Asian meal starters are highly demonstrable food-creator content.",
+    "Open network affiliate program on ShareASale.",
+    "10% per sale with a generous 90-day cookie; no cap statement published, so cap stays unknown.",
+    "Application runs through ShareASale from the program listing; no public program email is published.",
+    "Open application route for individual creators.",
+    "Press-covered DTC food brand with national grocery distribution."
+   ]
+  }
+ },
+ {
+  "name": "Harmless Harvest",
+  "website": "https://www.harmlessharvest.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Certified B Corp food and beverage company known for organic coconut water, dairy-free coconut yogurts and probiotic drinks, made with a proprietary micro-filtration process and fair-trade sourcing. Its affiliate program runs on Impact at 10% per sale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/harmless-harvest/",
+    "source_url": "https://linkclicky.com/affiliate-program/harmless-harvest/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/harmless-harvest/",
+    "summary": "LinkClicky's program listing, fetched in full: platform Impact, commission 10% per sale, application via app.impact.com. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/harmless-harvest/",
+   "source_url": "https://linkclicky.com/affiliate-program/harmless-harvest/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Harmless Harvest Affiliate Program (Impact) — 10% per sale",
+   "application_url": "https://linkclicky.com/affiliate-program/harmless-harvest/",
+   "source_url": "https://linkclicky.com/affiliate-program/harmless-harvest/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Organic coconut water and coconut yogurts are staple wellness-grocery content.",
+    "Open network affiliate program on Impact.",
+    "10% per sale published on the network listing; no cap statement published, so cap stays unknown.",
+    "Application runs through Impact from the program listing; no public program email is published.",
+    "Open application route for individual creators.",
+    "Certified B Corp pioneer of raw coconut water with nationwide retail distribution."
+   ]
+  }
+ },
+ {
+  "name": "BodyHealth",
+  "website": "https://bodyhealth.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Supplement company behind PerfectAmino essential-amino-acid tablets and powders, plus greens, reds and protein products aimed at athletes and healthy-aging customers. It recruits affiliates directly — its own outreach links to an Everflow signup — but does not publish a commission rate.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://bodyhealth.everflowclient.io/affiliate/signup",
+    "source_url": "https://www.shopper.com/partnerships/bodyhealth-com-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/bodyhealth-com-affiliate-program",
+    "summary": "Shopper's partnership listing for bodyhealth.com ('Makers of PerfectAmino'), fetched via search: confirms an affiliate/partnership program exists with commissions for referring customers. Its generic '5-10%' figure is a directory template value, not a brand-published rate, so commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.facebook.com/dustin.holston.92/posts/pfbid02Ry7YVoMYptxuzFpqHCScjSHGVBNoyZwejKx5odHHXaiAg7qstbJPkzoM3Qtxn31Ml",
+    "summary": "A creator's post screenshotting BodyHealth's own Instagram outreach: the brand invites aligned creators to join the BodyHealth Affiliate Program and gives the direct signup link bodyhealth.everflowclient.io/affiliate/signup — confirming the program runs on Everflow and actively recruits creators. No rate, cap statement or creator count is published in the outreach."
+   }
+  ],
+  "affiliate": {
+   "network": "Everflow",
+   "commission_rate": null,
+   "application_url": "https://bodyhealth.everflowclient.io/affiliate/signup",
+   "source_url": "https://www.shopper.com/partnerships/bodyhealth-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "BodyHealth Affiliate Program (Everflow) — direct signup; rate not published",
+   "application_url": "https://bodyhealth.everflowclient.io/affiliate/signup",
+   "source_url": "https://www.shopper.com/partnerships/bodyhealth-com-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "PerfectAmino and performance supplements are core fitness/health creator content.",
+    "The brand actively recruits creators by direct outreach with a working Everflow signup.",
+    "No commission rate is published anywhere fetched — recorded honestly as unpublished; cap also unknown.",
+    "Direct Everflow signup link is public from the brand's own outreach.",
+    "Open signup route for individual creators.",
+    "Long-running supplement brand with a large athlete/creator following."
+   ]
+  }
+ },
+ {
+  "name": "Cerebelly",
+  "website": "https://cerebelly.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Science-backed baby food brand making nutrient-dense organic purees and bars formulated with key brain-development nutrients, founded by a neuroscientist. Its affiliate listings conflict — a $5 flat per sale via CJ on one directory versus 8% per subscription via Impact on another — so the rate is recorded as unpublished.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/cerebelly/",
+    "source_url": "https://getlasso.co/affiliate/cerebelly/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://getlasso.co/affiliate/cerebelly/",
+    "summary": "Lasso's program page, fetched in full: commission $5 per sale (flat), 30-day cookie, and the join button routes to signup.cj.com (CJ Affiliate). No earnings-cap statement and no creator count are published."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/cerebelly/",
+    "summary": "LinkClicky's listing instead reports Impact as the platform with 8% per subscription. Because the two fetched listings conflict on both network and rate structure ($5 flat via CJ vs 8% via Impact), commission_rate is null and the CJ route from Lasso's live join link is recorded, with the conflict disclosed here."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/cerebelly/",
+   "source_url": "https://getlasso.co/affiliate/cerebelly/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Cerebelly Affiliate Program — $5 flat per sale via CJ per Lasso; conflicting 8%-via-Impact listing, rate needs review",
+   "application_url": "https://getlasso.co/affiliate/cerebelly/",
+   "source_url": "https://getlasso.co/affiliate/cerebelly/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Brain-development-positioned baby food is distinctive parenting/food content.",
+    "Open affiliate listings on major networks aimed at bloggers and influencers.",
+    "Compensation conflicts across fetched listings ($5 flat per sale vs 8% per subscription) — recorded as unpublished rather than guessed; cap unknown.",
+    "Application runs through the network listing; no public program email is published.",
+    "Open application route for individual creators.",
+    "Neuroscientist-founded brand with national retail presence and a Clean Label positioning."
+   ]
+  }
+ },
+ {
+  "name": "Kiki Milk",
+  "website": "https://www.kikimilk.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Plant-based milk brand (by PlantBaby) making organic oat/coconut milks with whole-food ingredients, originally formulated for kids and now sold for the whole family, free from gums, seed oils and refined sugar. Its affiliate program runs on ShareASale; published rate figures conflict between directories.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/kiki-milk/",
+    "source_url": "https://linkclicky.com/affiliate-program/kiki-milk/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/kiki-milk/",
+    "summary": "LinkClicky's program listing, fetched in full: platform ShareASale, commission 8% per sale, 60-day cookie, application via ShareASale. No earnings-cap statement and no creator count are published."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "network_listing",
+    "source_url": "https://getlasso.co/affiliate/kiki-milk/",
+    "summary": "Lasso's listing for the same ShareASale program instead advertises 'up to 14.18%' and its food roundup lists 10% per sale. Because fetched sources conflict (8% vs 10% vs up-to-14.18%), commission_rate is null with the conflict disclosed, rather than picking one figure."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/kiki-milk/",
+   "source_url": "https://linkclicky.com/affiliate-program/kiki-milk/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kiki Milk Affiliate Program (ShareASale) — rate conflict across listings (8% vs 10%), needs review",
+   "application_url": "https://linkclicky.com/affiliate-program/kiki-milk/",
+   "source_url": "https://linkclicky.com/affiliate-program/kiki-milk/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": [
+    "Clean-label plant milk for kids and families is strong food/parenting content.",
+    "Open network affiliate program on ShareASale.",
+    "Published figures conflict across fetched listings (8% vs 10% vs up to 14.18%) — recorded as unpublished rather than guessed; cap unknown.",
+    "Application runs through ShareASale from the program listing; no public program email is published.",
+    "Open application route for individual creators.",
+    "Growing clean-label brand with retail distribution and heavy-metal/glyphosate testing as a differentiator."
+   ]
+  }
+ },
+ {
+  "name": "Comvita",
+  "website": "https://www.comvita.com",
+  "country": "New Zealand",
+  "category_slug": "health",
+  "description": "New Zealand natural-health company founded in 1974, best known for UMF Manuka honey, propolis and olive leaf extract products sold worldwide. Its US affiliate program runs on Awin with a 30-day cookie; the commission rate is not publicly published.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://linkclicky.com/affiliate-program/comvita/",
+    "source_url": "https://linkclicky.com/affiliate-program/comvita/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://linkclicky.com/affiliate-program/comvita/",
+    "summary": "LinkClicky's program listing, fetched in full: platform Awin, US region, 30-day cookie, and commission listed as 'N/A' — the page's FAQ states the rate 'is not publicly known' and is typically negotiated with the merchant. So commission_rate is null. No earnings-cap statement and no creator count are published, so cap and saturation stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/comvita/",
+   "source_url": "https://linkclicky.com/affiliate-program/comvita/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Comvita Affiliate Program (Awin, US) — rate not publicly published, negotiated with the merchant",
+   "application_url": "https://linkclicky.com/affiliate-program/comvita/",
+   "source_url": "https://linkclicky.com/affiliate-program/comvita/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": [
+    "Manuka honey and propolis are established wellness-creator staples.",
+    "Open network affiliate program on Awin for the US market.",
+    "The rate is not publicly published (negotiated per the listing) — recorded honestly as unpublished; cap unknown.",
+    "Application runs through Awin from the program listing; no public program email is published.",
+    "Open application route for individual creators.",
+    "Heritage natural-health brand founded in 1974 and listed in New Zealand, with global distribution."
+   ]
+  }
+ }
+]

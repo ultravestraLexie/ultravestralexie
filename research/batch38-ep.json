@@ -1,0 +1,591 @@
+[
+ {
+  "name": "Comfrt",
+  "website": "https://comfrt.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "DTC loungewear brand founded in 2022 around a weighted, oversized hoodie with a mental-health mission, now selling hoodies, sweatpants, blankets, athleisure and matching dog hoodies. Its growth is creator-led: an open Ambassador Program pays commission on sales driven through personal links, and the brand is reported to be TikTok Shop's top lifestyle and apparel brand.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "ambassador@comfrt.com",
+    "contact_url": null,
+    "source_url": "https://comfrt.com/en-gb/content/ambassador-program-terms-and-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_page",
+    "source_url": "https://comfrt.com/en-gb/content/ambassador-program-terms-and-conditions",
+    "summary": "Comfrt's own Ambassador Program Terms & Conditions (fetched in full) state that accepted ambassadors earn ten percent (10%) of the Gross Revenue (amount paid for merchandise, excluding shipping and tax) on purchases made through their unique Ambassador Link, and give ambassador@comfrt.com as the program contact. The terms state NO earnings cap, so the cap is recorded as unknown, not uncapped - a third-party coupon page's 'no cap on earnings' claim does not count under the strict filter."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://hashtagcollabz.com/stories/comfrt",
+    "summary": "Collabz case study (fetched) reports Comfrt's ambassador program counted more than 250,000 ambassadors and a TikTok affiliate community of about 600,000, with 9,393 creators posting 50,000+ TikTok Shop videos in one 30-day stretch of 2026 - absolute big-number evidence, so creator saturation is recorded as high. It also corroborates the standard 10% ambassador commission and $500M+ in sales within three years."
+   }
+  ],
+  "affiliate": {
+   "network": "Own ambassador program",
+   "commission_rate": 10,
+   "application_url": "https://comfrt.com/en-gb/content/ambassador-program-terms-and-conditions",
+   "source_url": "https://comfrt.com/en-gb/content/ambassador-program-terms-and-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Comfrt Ambassador Program",
+   "application_url": "https://comfrt.com/en-gb/content/ambassador-program-terms-and-conditions",
+   "source_url": "https://comfrt.com/en-gb/content/ambassador-program-terms-and-conditions"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 20,
+   "compensation": 13,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pure loungewear/apparel brand built for social-first fashion creators - squarely in the fashion UGC niche.",
+    "ugc_evidence": "Creator-led by design: 250,000+ ambassadors and ~600,000 TikTok affiliates reported, with tens of thousands of creator videos per month.",
+    "compensation": "10% of gross merchandise revenue per its own published terms; no cap stated anywhere in the terms, so cap is unknown, not uncapped.",
+    "contact_access": "Published program email (ambassador@comfrt.com) in the brand's own terms plus an open application route.",
+    "opportunity_availability": "Program is open to customers as well as creators, applications reviewed on a rolling basis.",
+    "credibility": "Reported $500M+ sales in three years and TikTok Shop's top apparel brand, per a third-party case study - strong but not audited."
+   }
+  }
+ },
+ {
+  "name": "Intrepid Travel",
+  "website": "https://www.intrepidtravel.com",
+  "country": "Australia",
+  "category_slug": "travel",
+  "description": "Small-group adventure tour operator founded in 1989 and now one of the world's largest travel B Corporations, running 1,000+ itineraries across all seven continents with local leaders and a responsible-travel mission. Its affiliate program explicitly recruits individual creators and travel advocates as well as organizations.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.intrepidtravel.com/us/affiliate",
+    "source_url": "https://www.intrepidtravel.com/us/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_page",
+    "source_url": "https://www.intrepidtravel.com/us/affiliate",
+    "summary": "Intrepid's own affiliate sign-up page (fetched in full) describes commission on every successful booking, a dedicated affiliate management team and real-time tracking, with separate application paths for organizations and for individual creators/travel advocates; both 'Apply now' buttons route to app.impact.com, identifying Impact as the network. The page publishes no rate, cap or creator count."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/intrepid-travel/",
+    "summary": "Lasso's Intrepid Travel listing (fetched in full) states a 4% commission per sale and a 60-day cookie duration. No fetched source states an earnings cap or publishes creator counts, so both are recorded as unknown. (Travel-agent channel commissions of 15-17% reported elsewhere are trade rates, not the creator affiliate program, and are excluded.)"
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 4,
+   "application_url": "https://www.intrepidtravel.com/us/affiliate",
+   "source_url": "https://www.intrepidtravel.com/us/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Intrepid Travel affiliate program (Impact)",
+   "application_url": "https://www.intrepidtravel.com/us/affiliate",
+   "source_url": "https://www.intrepidtravel.com/us/affiliate"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Adventure group tours are a core travel-creator category; the brand recruits creators and travel advocates by name.",
+    "ugc_evidence": "Own affiliate page speaks directly to content creators and storytellers and offers content-experience partnerships, but publishes no creator counts.",
+    "compensation": "4% per sale (Lasso listing) on high-value tour bookings with a long 60-day cookie; no cap statement, so cap is unknown.",
+    "contact_access": "Own affiliate page with a dedicated affiliate team; application via Impact; no public email published.",
+    "opportunity_availability": "Program is live with open applications for both organizations and individual creators.",
+    "credibility": "Operating since 1989, certified B Corporation, 1,000+ itineraries worldwide."
+   }
+  }
+ },
+ {
+  "name": "Hostelworld",
+  "website": "https://www.hostelworld.com",
+  "country": "Ireland",
+  "category_slug": "travel",
+  "description": "Global hostel-booking platform listing 36,000+ properties in around 180 countries, aimed at backpackers and budget travellers. Its affiliate programme is free to join, runs on Partnerize, and pays CPA commission calculated as a percentage of the deposit Hostelworld earns on each completed booking.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "affiliates@hostelworld.com",
+    "contact_url": null,
+    "source_url": "https://partners.hostelworld.com/faqs/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_page",
+    "source_url": "https://partners.hostelworld.com/faqs/",
+    "summary": "Hostelworld's own affiliate FAQ (fetched in full) states the programme is free to join, commission is CPA calculated as a percentage of the deposit earned by Hostelworld per booking (earned once the booking is completed), tracking uses a 30-day cookie with last-click attribution, sign-up is via Partnerize, and the affiliate team email is affiliates@hostelworld.com. The FAQ publishes no percentage figure, cap or creator count."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/hostelworld/",
+    "summary": "Third-party figures for the percentage conflict - commonly cited as 40% of the booking deposit, while other directories cite 18-22% of Hostelworld's booking commission - so commission_rate is recorded as null with the basis documented: a percentage of the deposit Hostelworld earns per completed booking. No source states an earnings cap."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": null,
+   "application_url": "https://partners.hostelworld.com/faqs/",
+   "source_url": "https://partners.hostelworld.com/faqs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Hostelworld Affiliate Programme (Partnerize)",
+   "application_url": "https://partners.hostelworld.com/faqs/",
+   "source_url": "https://partners.hostelworld.com/faqs/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "The default hostel-booking platform for backpacker and budget-travel creators.",
+    "ugc_evidence": "Open affiliate programme pitched at travel sites and creators, but no dedicated creator program page or published creator counts.",
+    "compensation": "Percentage-of-deposit CPA confirmed on the brand's own FAQ, but the percentage itself is unpublished there and third-party figures conflict (40% of deposit vs 18-22% of booking commission), so the rate is null; no cap stated.",
+    "contact_access": "Published affiliate team email (affiliates@hostelworld.com) on the brand's own partner site, plus Partnerize application.",
+    "opportunity_availability": "Free to join via Partnerize, application reviewed by Hostelworld.",
+    "credibility": "Long-established global OTA focused on hostels, 36,000+ properties."
+   }
+  }
+ },
+ {
+  "name": "TrustedHousesitters",
+  "website": "https://www.trustedhousesitters.com",
+  "country": "United Kingdom",
+  "category_slug": "travel",
+  "description": "Membership platform matching pet owners with vetted house and pet sitters in 130+ countries, so members travel while pets stay at home. Its affiliate program targets experienced content creators and publishers (5,000+ followers or monthly views) and runs through Awin/CJ.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "partnerships@trustedhousesitters.com",
+    "contact_url": null,
+    "source_url": "https://support.trustedhousesitters.com/hc/en-gb/articles/8624479380509-Is-there-an-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "brand_page",
+    "source_url": "https://support.trustedhousesitters.com/hc/en-gb/articles/8624479380509-Is-there-an-affiliate-program",
+    "summary": "TrustedHousesitters' own support article (fetched in full) confirms the affiliate program for content creators and publishers and gives partnerships@trustedhousesitters.com for affiliate and partnership applications. A companion support article states affiliates need 5,000+ followers on one channel and/or 5,000 monthly blog views."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/trustedhousesitters/",
+    "summary": "Rate figures conflict across fetched sources: Lasso lists 20% per sale with a 30-day cookie, its US listing shows a $28 flat per sale, other sources cite up to 40% per membership and a $100 flat homeowner bounty - so commission_rate is recorded as null with the conflict documented. Listings place the program on Awin (some also cite CJ). No source states an earnings cap or absolute creator counts."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/trustedhousesitters/",
+   "source_url": "https://getlasso.co/affiliate/trustedhousesitters/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "TrustedHousesitters affiliate program (Awin)",
+   "application_url": "https://getlasso.co/affiliate/trustedhousesitters/",
+   "source_url": "https://getlasso.co/affiliate/trustedhousesitters/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "House/pet sitting is a distinctive, content-rich travel niche (slow travel, pet care, digital-nomad life).",
+    "ugc_evidence": "Affiliate program explicitly aimed at content creators, plus a separate smaller-creator Tailblazers scheme; no creator counts published.",
+    "compensation": "Published figures conflict (20% per sale vs $28 flat US vs up to 40% vs $100 flat homeowner bounty), so the rate is null; no cap stated.",
+    "contact_access": "Published partnerships email for affiliate applications on the brand's own support site, plus network application.",
+    "opportunity_availability": "Open to creators meeting a 5,000-follower / 5,000-monthly-view threshold - a real but modest gate.",
+    "credibility": "Established membership platform operating in 130+ countries."
+   }
+  }
+ },
+ {
+  "name": "12Go",
+  "website": "https://12go.asia",
+  "country": "Singapore",
+  "category_slug": "travel",
+  "description": "Online travel agency founded in 2013 for booking trains, buses, ferries, flights and transfers across 100+ countries, strongest in Southeast Asia and Oceania. Its affiliate program pays partners 50% of 12Go's profit per booking and is also distributed through Travelpayouts.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "email": "affiliate@12go.asia",
+    "contact_url": null,
+    "source_url": "https://agent.12go.asia/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_page",
+    "source_url": "https://agent.12go.asia/",
+    "summary": "12Go's own affiliate program page (fetched in full) states: 'We give our partners 50% of the total profit. The average commission is $3 per booking.' It also confirms a 30-day last-click cookie, payouts via PayPal/Wise/bank transfer, no website required (social media communities qualify), free joining, and the contact affiliate@12go.asia. The page states no earnings cap and no creator count."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/train-affiliate-programs/",
+    "summary": "Travelpayouts' program roundup corroborates 12Go's 50% revenue share on on-site sales across 100+ countries and notes the same ~$3 average per booking; other Travelpayouts pages express the effective rate as roughly 4-5.5% of booking value. The 50% figure is a share of 12Go's profit, not of the booking price."
+   }
+  ],
+  "affiliate": {
+   "network": "Travelpayouts",
+   "commission_rate": 50,
+   "application_url": "https://agent.12go.asia/",
+   "source_url": "https://agent.12go.asia/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "12Go affiliate program (own agent program / Travelpayouts)",
+   "application_url": "https://agent.12go.asia/",
+   "source_url": "https://agent.12go.asia/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 9,
+   "compensation": 12,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Multi-modal ground and ferry transport booking is core backpacker and Asia-travel creator content.",
+    "ugc_evidence": "Program explicitly open to travel sites, blogs and social media communities; no creator counts published.",
+    "compensation": "50% of 12Go's profit per booking per its own page (revenue share basis; ~$3 average per booking, roughly 4-5.5% of booking value). No cap statement, so cap is unknown.",
+    "contact_access": "Published affiliate email (affiliate@12go.asia) and support contact on the brand's own agent portal.",
+    "opportunity_availability": "Free to join, no website required, applications via the agent portal or Travelpayouts.",
+    "credibility": "Operating since 2013, 3M+ travellers and 180,000+ positive reviews reported by its network listing."
+   }
+  }
+ },
+ {
+  "name": "MVMT",
+  "website": "https://www.mvmtwatches.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Los Angeles-founded accessories brand launched in 2013 selling minimalist watches, eyewear and jewelry direct to consumers at accessible prices. Its affiliate program runs through FlexOffers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://getlasso.co/affiliate/mvmt-watches/",
+    "source_url": "https://getlasso.co/affiliate/mvmt-watches/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/mvmt-watches/",
+    "summary": "Lasso's MVMT Watches listing (fetched in full) states an 8% commission per sale and a 30-day cookie, categorized under Fashion/Watch/Jewelry; its join button routes to publisherpro.flexoffers.com, identifying FlexOffers as the network. A Shopper listing's vaguer 5-10% range brackets the same figure. No earnings cap or creator count is published, so both are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 8,
+   "application_url": "https://getlasso.co/affiliate/mvmt-watches/",
+   "source_url": "https://getlasso.co/affiliate/mvmt-watches/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MVMT affiliate program (FlexOffers)",
+   "application_url": "https://getlasso.co/affiliate/mvmt-watches/",
+   "source_url": "https://getlasso.co/affiliate/mvmt-watches/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Watches, eyewear and jewelry are staple fashion-accessory creator categories.",
+    "ugc_evidence": "Public affiliate program on a major network; brand was built on social/influencer marketing, but no creator program page or counts found.",
+    "compensation": "8% per sale (Lasso listing); no cap statement published, so cap is unknown.",
+    "contact_access": "Application runs through the FlexOffers network listing; no public creator contact email published.",
+    "opportunity_availability": "Program is live and joinable through FlexOffers signup.",
+    "credibility": "Established DTC accessories brand founded in 2013, widely distributed."
+   }
+  }
+ },
+ {
+  "name": "Omio",
+  "website": "https://www.omio.com",
+  "country": "Germany",
+  "category_slug": "travel",
+  "description": "Berlin-founded travel platform (formerly GoEuro) for comparing and booking trains, buses, flights and ferries from 1,000+ carriers, strongest across Europe. Its affiliate program runs through Travelpayouts (also listed on Impact) and pays on booking value.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://www.omio.com/affiliate",
+    "source_url": "https://www.omio.com/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/goeuro-affiliate-program/",
+    "summary": "Travelpayouts' own Omio program page (fetched in full) headlines a 6% reward on booking value with a 30-day last-click cookie, but its dual-payout detail describes a EUR0.26 lead payment plus a 3.4% booking conversion - an internal conflict. Omio's own affiliate page confirms the programme exists but publishes no rate, referring applicants to its partner team."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/omio/",
+    "summary": "Lasso lists Omio at a 2-8% per-sale range with a 30-day cookie, consistent with a market-dependent structure rather than one flat rate. Because the fetched figures conflict (6% headline vs 3.4% booking conversion vs 2-8% range), commission_rate is recorded as null. No source states an earnings cap or creator counts."
+   }
+  ],
+  "affiliate": {
+   "network": "Travelpayouts",
+   "commission_rate": null,
+   "application_url": "https://www.travelpayouts.com/blog/goeuro-affiliate-program/",
+   "source_url": "https://www.travelpayouts.com/blog/goeuro-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Omio affiliate program (Travelpayouts)",
+   "application_url": "https://www.travelpayouts.com/blog/goeuro-affiliate-program/",
+   "source_url": "https://www.travelpayouts.com/blog/goeuro-affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 9,
+   "compensation": 6,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Multi-modal European trip planning is core travel-creator content; Omio explicitly accepts social and content partners.",
+    "ugc_evidence": "Long-running affiliate program open to content sites and social channels; no dedicated creator program or published counts.",
+    "compensation": "Figures conflict across fetched sources (6% headline vs 3.4% booking conversion plus lead fee vs 2-8% range), so the rate is null; no cap stated.",
+    "contact_access": "Application through Travelpayouts and Omio's own affiliate page; no public email recovered from fetched pages.",
+    "opportunity_availability": "Program is live on Travelpayouts with open publisher signup.",
+    "credibility": "Major European travel platform founded in 2013, 25M+ monthly visits reported by its network page."
+   }
+  }
+ },
+ {
+  "name": "Sunski",
+  "website": "https://sunski.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "San Francisco sunglasses brand selling polarized sunglasses and blue-light glasses made with recycled frames, backed by a forever warranty and 1% for the Planet membership. Its affiliate program is administered through AvantLink.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+    "source_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+    "summary": "A fetched sunglasses-program roundup states Sunski pays 8% commission with a 30-day cookie and average order value above $65, and that the program is administered through AvantLink, with banners, product feeds and custom promotions available. This is a single, older secondary source, so the record is flagged needs_review; no earnings cap or creator count is published, so both are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 8,
+   "application_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+   "source_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Sunski affiliate program (AvantLink)",
+   "application_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+   "source_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 9,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Polarized sunglasses are a proven outdoor-fashion accessory category for creators.",
+    "ugc_evidence": "Network affiliate program with promotional incentives; no creator program page or published counts found.",
+    "compensation": "8% per sale per a single secondary listing (flagged needs_review); no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through AvantLink; no public creator contact email published.",
+    "opportunity_availability": "Program listed as live on AvantLink, subject to network approval.",
+    "credibility": "Established DTC eyewear brand and 1% for the Planet member."
+   }
+  }
+ },
+ {
+  "name": "WearPanda",
+  "website": "https://www.wearpanda.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Sustainable accessories brand making sunglasses and watches from bamboo, plus organic-cotton apparel, and supporting partners including 1% for the Planet, One Tree Planted and Pencils of Promise. Its US affiliate program runs through ShareASale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+    "source_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "needs_review",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+    "summary": "A fetched sunglasses-program roundup states WearPanda pays 10% commission through ShareASale in the US (a separate program exists for Japan-based marketers) with a reported average order value of $180. This is a single, older secondary source, so the record is flagged needs_review; no earnings cap or creator count is published, so both are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+   "source_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "WearPanda affiliate program (ShareASale)",
+   "application_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/",
+   "source_url": "https://onemorecupof-coffee.com/best-sunglasses-affiliate-programs/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 9,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Bamboo sunglasses and watches fit eco-fashion and sustainable-style creator content.",
+    "ugc_evidence": "Network affiliate program; no creator program page or published counts found.",
+    "compensation": "10% per sale per a single secondary listing (flagged needs_review), with a high reported average order value; no cap statement, so cap is unknown.",
+    "contact_access": "Application runs through ShareASale; no public creator contact email published.",
+    "opportunity_availability": "Program listed as live on ShareASale for US marketers.",
+    "credibility": "Smaller DTC brand; charitable partnerships documented but limited independent coverage."
+   }
+  }
+ },
+ {
+  "name": "Pura Vida Bracelets",
+  "website": "https://www.puravidabracelets.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Jewelry brand built on artisan-made bracelets, now selling bracelets, rings, necklaces and apparel while funding artisan jobs and charity partners. Its long-running affiliate program is administered through ShareASale (payments processed by ShareASale per its own terms).",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": "https://ca.puravidabracelets.com/pages/affiliate-program-terms-conditions",
+    "source_url": "https://ca.puravidabracelets.com/pages/affiliate-program-terms-conditions"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_page",
+    "source_url": "https://ca.puravidabracelets.com/pages/affiliate-program-terms-conditions",
+    "summary": "Pura Vida's own Affiliate Program Terms & Conditions (fetched in full) confirm a live affiliate program: applications reviewed within 48 hours, sales lock 30 days after transaction, and 'All payments will be processed by ShareASale', with program coupon codes distributed through the ShareASale Deals Database - identifying ShareASale as the network. The terms publish no headline commission percentage and no earnings cap."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://runtheaffiliatemarket.com/can-you-make-money-with-the-pura-vida-affiliate-program/",
+    "summary": "Rate figures conflict: a program review cites up to 12% per the ShareASale profile (an 'up to' ceiling, not a flat rate), while a Shopper partnership listing shows 0.7% - so commission_rate is recorded as null with the conflict documented. Note the brand's published terms are dated 2016 and exclude affiliates in several US states for tax-nexus reasons."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://ca.puravidabracelets.com/pages/affiliate-program-terms-conditions",
+   "source_url": "https://ca.puravidabracelets.com/pages/affiliate-program-terms-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pura Vida Bracelets affiliate program (ShareASale)",
+   "application_url": "https://ca.puravidabracelets.com/pages/affiliate-program-terms-conditions",
+   "source_url": "https://ca.puravidabracelets.com/pages/affiliate-program-terms-conditions"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 5,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Artisan bracelets and beachy jewelry are a staple affordable-fashion creator category.",
+    "ugc_evidence": "Long-running public affiliate program; brand grew through social and campus reps, but no current creator counts published.",
+    "compensation": "Rate is null: the only figures found conflict (up to 12% ceiling vs 0.7% listing) and the brand's own terms publish no percentage; no cap stated.",
+    "contact_access": "Application via ShareASale under the brand's published terms; no public creator contact email published.",
+    "opportunity_availability": "Program terms are live on the brand's site, though dated 2016 and excluding affiliates in a list of US states.",
+    "credibility": "Established national brand with retail distribution and a documented charity/artisan model."
+   }
+  }
+ }
+]
