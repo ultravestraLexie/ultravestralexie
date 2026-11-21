@@ -155,7 +155,7 @@ export default function PlaybookPage() {
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: 30, fontWeight: 800, margin: "0 0 4px" }} className="wow-title">The Human Emotion Video Lab</p>
         <p style={{ color: "#ddd0ff", margin: 0, fontSize: 15.5 }}>
-          The Playbook, turned into tools. Work the seven labs, then read the full guide below.
+          The Playbook, turned into tools. Work the eight labs, then read the full guide below.
         </p>
       </div>
       <EmotionLab />

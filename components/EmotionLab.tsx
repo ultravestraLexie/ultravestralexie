@@ -22,14 +22,17 @@ import {
   OBJECTIONS_CAVEAT,
   SCORECARD_GATES,
 } from "@/lib/emotionintel";
+import { discoverDirections } from "@/lib/ideaengine";
+import type { Direction, Mode } from "@/lib/ideaengine";
 
 /* THE HUMAN EMOTION VIDEO LAB — the interactive half of the Human
- * Emotion Video Playbook. Seven working tools, driven by the Playbook's
- * own data (lib/playbook.ts), the Viral Base (lib/viralbase.ts) and the
+ * Emotion Video Playbook. Eight working tools, driven by the Playbook's
+ * own data (lib/playbook.ts), the Viral Base (lib/viralbase.ts), the
  * Human Emotion & Conversion Intelligence System
- * (lib/emotionintel.ts): the Emotion Studio, the Hook Laboratory, the
- * Video Architect, the Audience Reaction Lab, the Pre-Flight Check,
- * the Emotion Fusion Reactor and the Creative Mission Builder.
+ * (lib/emotionintel.ts) and the Idea Engine (lib/ideaengine.ts): the
+ * Emotion Studio, the Hook Laboratory, the Video Architect, the
+ * Audience Reaction Lab, the Pre-Flight Check, the Emotion Fusion
+ * Reactor, the Creative Mission Builder and the Idea Machine.
  * Template-built and honestly labeled — the tools arrange the
  * Playbook's words and the creator's own inputs; they invent nothing. */
 
@@ -149,6 +152,65 @@ function adaptHook(example: string, product: string): string {
   return example.replace(/moisturizer/gi, product);
 }
 
+/* ---------- Idea Machine helpers ----------
+ * The Playbook's 15 emotion names are the Lab's vocabulary; the Idea
+ * Engine's classic templates key off its own shorter list. This adapter
+ * translates at the boundary only — the engine itself is untouched.
+ * Names the engine does not know are passed through and simply fall
+ * back to its default pool, exactly as the engine was designed. */
+const IDEA_EMOTION_MAP: Record<string, string> = {
+  "Hunger and appetite": "Hunger",
+  Empathy: "Belonging",
+  Excitement: "Surprise",
+  Confidence: "Trust",
+  "Fear of missing useful information": "Curiosity",
+  Pride: "Inspiration",
+};
+
+const IDEA_MODES: { id: Mode; label: string; blurb: string }[] = [
+  { id: "classic", label: "Classic", blurb: "Proven creative structures, matched to your primary emotion." },
+  { id: "unexpected", label: "Unexpected", blurb: "Strange emotion pairings that force an angle you would not have picked." },
+  { id: "experimental", label: "Experimental", blurb: "Format-breaking directions — the riskiest and the most original." },
+];
+
+function directionToText(d: Direction): string {
+  const secs = d.scenes.reduce((a, s) => a + s.seconds, 0);
+  return [
+    `ULTRAVESTRA IDEA MACHINE — ${d.name}`,
+    `Emotions: ${d.emotions.join(" + ")} · Difficulty: ${d.difficulty} · Length: ~${secs} seconds`,
+    `For: ${d.audience}`,
+    "",
+    "THE ANGLE",
+    d.angle,
+    "",
+    "WHY IT MAY WORK (HYPOTHESIS)",
+    `${d.why} ${d.originality}`,
+    "",
+    "HOOKS",
+    ...d.hooks.map((h) => `- “${h}”`),
+    "",
+    "FIRST VISUAL",
+    d.firstVisual,
+    "",
+    "PRODUCTION SHEET — SCENE BY SCENE",
+    ...d.scenes.map((s) => `${s.label} (~${s.seconds}s)\n  Show: ${s.show}\n  Say: ${s.say}\n  Camera: ${s.camera}\n  Sound: ${s.sound}\n  On-screen text: ${s.text || "—"}`),
+    "",
+    "VISUAL DIRECTION",
+    ...d.visualDirection.map((v) => `- ${v}`),
+    "",
+    "AUDIO DIRECTION",
+    ...d.audioDirection.map((v) => `- ${v}`),
+    "",
+    "SHARE-WORTHY MOMENT",
+    d.share,
+    "",
+    "FOLLOW-UP VIDEO",
+    d.followUp,
+    "",
+    "Everything here is a creative hypothesis, never a prediction of real audience behavior.",
+  ].join("\n");
+}
+
 export default function EmotionLab() {
   /* Emotion Studio */
   const [emotionName, setEmotionName] = useState(EMOTIONS[0].name);
@@ -265,6 +327,39 @@ export default function EmotionLab() {
       OBJECTIONS.map((o) => `• ${o}`).join("\n") +
       `\n\nMANDATORY GATES\n${SCORECARD_GATES}`;
     setMissionResult({ chain, concept, hooks, text });
+  };
+
+  /* The Idea Machine (Idea Engine): one subject → three creative directions */
+  const [ideaSubject, setIdeaSubject] = useState("");
+  const [ideaAudience, setIdeaAudience] = useState("");
+  const [ideaEmotion, setIdeaEmotion] = useState(EMOTIONS[0].name);
+  const [ideaMode, setIdeaMode] = useState<Mode>("classic");
+  const [ideaRound, setIdeaRound] = useState(0);
+  const [ideaGuidance, setIdeaGuidance] = useState<string | null>(null);
+  const [ideaResults, setIdeaResults] = useState<Direction[] | null>(null);
+  const [ideaCopiedId, setIdeaCopiedId] = useState<string | null>(null);
+
+  const generateIdeas = (round: number) => {
+    if (!ideaSubject.trim()) {
+      setIdeaResults(null);
+      setIdeaGuidance("Give the Machine a subject first — a product, a topic, anything you want to film. It builds every direction around that subject, so a blank subject can only produce blank ideas.");
+      return;
+    }
+    setIdeaGuidance(null);
+    setIdeaCopiedId(null);
+    setIdeaResults(
+      discoverDirections(ideaSubject, {
+        mode: ideaMode,
+        emotions: [IDEA_EMOTION_MAP[ideaEmotion] ?? ideaEmotion],
+        audience: ideaAudience,
+        round,
+      })
+    );
+  };
+  const freshIdeas = () => {
+    const next = ideaRound + 1;
+    setIdeaRound(next);
+    generateIdeas(next);
   };
 
   /* Video Architect */
@@ -630,6 +725,149 @@ export default function EmotionLab() {
               </button>
               <p style={{ color: "#ddd0ff", fontSize: 13.5, margin: "12px 0 0" }}>
                 Template-built from the Conversion Intelligence system and your answers — make it yours before you film, and verify every claim.
+              </p>
+            </div>
+          </div>
+        )}
+      </section>
+
+      {/* THE IDEA MACHINE */}
+      <section style={toolPanel}>
+        <p style={toolTitle}>💡 The Idea Machine</p>
+        <p style={toolSub}>From the Idea Engine: name one subject and the Machine builds three distinct creative directions around it — each with its angle, its hooks, its first visual and a full scene-by-scene production sheet. No AI, no generic list: proven creative structures, bent around your subject and your audience.</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 14 }}>
+          <div>
+            <label style={labelStyle}>Subject or product</label>
+            <input style={inputStyle} value={ideaSubject} onChange={(e) => setIdeaSubject(e.target.value)} placeholder="e.g. the barrier-repair moisturizer" />
+          </div>
+          <div>
+            <label style={labelStyle}>Exact audience</label>
+            <input style={inputStyle} value={ideaAudience} onChange={(e) => setIdeaAudience(e.target.value)} placeholder="e.g. skincare beginners overwhelmed by product choices" />
+          </div>
+          <div>
+            <label style={labelStyle}>Primary emotion</label>
+            <select style={inputStyle} value={ideaEmotion} onChange={(e) => setIdeaEmotion(e.target.value)}>
+              {EMOTIONS.map((e) => <option key={e.name}>{e.name}</option>)}
+            </select>
+          </div>
+          <div>
+            <label style={labelStyle}>Mode</label>
+            <select style={inputStyle} value={ideaMode} onChange={(e) => setIdeaMode(e.target.value as Mode)}>
+              {IDEA_MODES.map((m) => <option key={m.id} value={m.id}>{m.label}</option>)}
+            </select>
+          </div>
+        </div>
+        <p style={{ color: "#ddd0ff", fontSize: 14, margin: "10px 0 0" }}>
+          {IDEA_MODES.find((m) => m.id === ideaMode)?.blurb}
+        </p>
+        <button
+          onClick={() => { setIdeaRound(0); generateIdeas(0); }}
+          className="neon-btn"
+          style={{ marginTop: 16, padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, border: "none", cursor: "pointer", fontSize: 15.5 }}
+        >
+          Build my three directions
+        </button>
+
+        {ideaGuidance && (
+          <div style={{ ...card, marginTop: 18, border: "1px solid #fda4af" }}>
+            <p style={{ margin: 0, fontSize: 15.5, color: "#f3e8ff" }}>⏸️ <strong style={{ color: "#fda4af" }}>Not yet.</strong> {ideaGuidance}</p>
+          </div>
+        )}
+
+        {ideaResults && (
+          <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 16 }}>
+            <p style={{ ...card, margin: 0, fontWeight: 700, color: "#f0abfc" }}>
+              ⚠ Everything here is a creative hypothesis, never a prediction of real audience behavior. Film one direction, measure the real reaction, and let your audience decide which idea earns a series.
+            </p>
+            {ideaResults.map((d) => {
+              const secs = d.scenes.reduce((a, s) => a + s.seconds, 0);
+              return (
+                <div key={d.id} style={card}>
+                  <p style={{ margin: "0 0 4px", fontSize: 19, fontWeight: 800, color: "#f0abfc" }}>
+                    {d.name}
+                    {d.experimental ? <span style={{ color: "#fda4af", fontSize: 13.5, fontWeight: 700, letterSpacing: 1 }}> · EXPERIMENTAL</span> : null}
+                  </p>
+                  <p style={{ margin: "0 0 12px", fontSize: 14, color: "#ddd0ff" }}>
+                    {d.emotions.join(" + ")} · {d.difficulty} to film · ~{secs} seconds · For {d.audience}
+                  </p>
+                  <p style={{ margin: "0 0 8px", fontSize: 15.5 }}>
+                    <strong style={{ color: "#67e8f9" }}>The angle:</strong> <span style={{ color: "#f3e8ff" }}>{d.angle}</span>
+                  </p>
+                  <p style={{ margin: "0 0 8px", fontSize: 15.5 }}>
+                    <strong style={{ color: "#67e8f9" }}>Why it may work:</strong> <span style={{ color: "#f3e8ff" }}>{d.why} {d.originality}</span>
+                  </p>
+                  <p style={{ margin: "0 0 6px", fontWeight: 800, fontSize: 14, letterSpacing: 0.5, color: "#67e8f9" }}>HOOKS — PICK ONE, SAY IT IN THE FIRST SECOND</p>
+                  <ul style={{ margin: "0 0 12px", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+                    {d.hooks.map((h) => <li key={h}>&ldquo;{h}&rdquo;</li>)}
+                  </ul>
+                  <p style={{ margin: "0 0 12px", fontSize: 15.5 }}>
+                    <strong style={{ color: "#67e8f9" }}>First visual:</strong> <span style={{ color: "#f3e8ff" }}>{d.firstVisual}</span>
+                  </p>
+                  <p style={{ margin: "0 0 8px", fontWeight: 800, fontSize: 14, letterSpacing: 0.5, color: "#67e8f9" }}>PRODUCTION SHEET — SCENE BY SCENE</p>
+                  <div style={{ overflowX: "auto", marginBottom: 12 }}>
+                    <table style={{ borderCollapse: "collapse", width: "100%", minWidth: 760, fontSize: 13.5, color: "#f3e8ff" }}>
+                      <thead>
+                        <tr>
+                          {["Scene", "Sec", "Show", "Say", "Camera", "Sound", "On-screen text"].map((h) => (
+                            <th key={h} style={{ textAlign: "left", padding: "7px 9px", borderBottom: "1px solid #7e22ce", color: "#f0abfc", fontSize: 12.5, letterSpacing: 0.5, whiteSpace: "nowrap" }}>{h.toUpperCase()}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {d.scenes.map((s) => (
+                          <tr key={s.label}>
+                            <td style={{ padding: "7px 9px", borderBottom: "1px solid #4c1d95", fontWeight: 700, whiteSpace: "nowrap" }}>{s.label}</td>
+                            <td style={{ padding: "7px 9px", borderBottom: "1px solid #4c1d95" }}>~{s.seconds}s</td>
+                            <td style={{ padding: "7px 9px", borderBottom: "1px solid #4c1d95" }}>{s.show}</td>
+                            <td style={{ padding: "7px 9px", borderBottom: "1px solid #4c1d95" }}>{s.say}</td>
+                            <td style={{ padding: "7px 9px", borderBottom: "1px solid #4c1d95" }}>{s.camera}</td>
+                            <td style={{ padding: "7px 9px", borderBottom: "1px solid #4c1d95" }}>{s.sound}</td>
+                            <td style={{ padding: "7px 9px", borderBottom: "1px solid #4c1d95" }}>{s.text || "—"}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: 12, marginBottom: 12 }}>
+                    <div>
+                      <p style={{ margin: "0 0 6px", fontWeight: 800, fontSize: 14, letterSpacing: 0.5, color: "#67e8f9" }}>VISUAL DIRECTION</p>
+                      <ul style={{ margin: 0, paddingLeft: 20, color: "#f3e8ff", fontSize: 14.5, display: "flex", flexDirection: "column", gap: 4 }}>
+                        {d.visualDirection.map((v) => <li key={v}>{v}</li>)}
+                      </ul>
+                    </div>
+                    <div>
+                      <p style={{ margin: "0 0 6px", fontWeight: 800, fontSize: 14, letterSpacing: 0.5, color: "#67e8f9" }}>AUDIO DIRECTION</p>
+                      <ul style={{ margin: 0, paddingLeft: 20, color: "#f3e8ff", fontSize: 14.5, display: "flex", flexDirection: "column", gap: 4 }}>
+                        {d.audioDirection.map((v) => <li key={v}>{v}</li>)}
+                      </ul>
+                    </div>
+                  </div>
+                  <p style={{ margin: "0 0 8px", fontSize: 15.5 }}>
+                    <strong style={{ color: "#67e8f9" }}>Share-worthy moment:</strong> <span style={{ color: "#f3e8ff" }}>{d.share}</span>
+                  </p>
+                  <p style={{ margin: "0 0 14px", fontSize: 15.5 }}>
+                    <strong style={{ color: "#67e8f9" }}>Follow-up video:</strong> <span style={{ color: "#f3e8ff" }}>{d.followUp}</span>
+                  </p>
+                  <button
+                    onClick={() => { navigator.clipboard?.writeText(directionToText(d)); setIdeaCopiedId(d.id); }}
+                    className="neon-btn"
+                    style={{ padding: "10px 22px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, border: "none", cursor: "pointer", fontSize: 14.5 }}
+                  >
+                    {ideaCopiedId === d.id ? "Copied ✓" : "Copy this production sheet"}
+                  </button>
+                </div>
+              );
+            })}
+            <div>
+              <button
+                onClick={freshIdeas}
+                className="neon-btn"
+                style={{ padding: "11px 24px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, border: "none", cursor: "pointer", fontSize: 15 }}
+              >
+                Show me a different set 🎲
+              </button>
+              <p style={{ color: "#ddd0ff", fontSize: 13.5, margin: "12px 0 0" }}>
+                Engine-built from the Idea Engine&rsquo;s creative structures and your inputs — make each direction yours before you film, and verify every claim.
               </p>
             </div>
           </div>
