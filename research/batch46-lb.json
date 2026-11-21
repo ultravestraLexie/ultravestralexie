@@ -1,0 +1,729 @@
+[
+ {
+  "name": "Zappos",
+  "website": "https://www.zappos.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Amazon-owned US online retailer famous for shoes, selling footwear, clothing and accessories from 1,500+ brands with free shipping and a 365-day return policy.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/zappos"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@zappos"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/zappos-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator Hero's review states the Zappos affiliate program is managed through CJ Affiliate, pays 7% commission per sale with a 14-day cookie, and is joined by signing up at cj.com and applying to the Zappos program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/zappos/",
+    "summary": "UpPromote's directory independently lists the Zappos program on CJ Affiliate at a fixed 7% per sale on net sales (excluding returns/cancellations), monthly payouts."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkwhisper.com/shoe-affiliate-programs/",
+    "summary": "LinkWhisper's shoe-program roundup also records Zappos at 7% commission, 14-day cookie, ~$150 average order value, run on CJ (Commission Junction) — three directories agree on network and rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://adcompares.com/affiliate/programs/cj/",
+    "summary": "AdCompares' CJ program list includes Zappos at 7% per sale, 14-day cookie, application via the CJ Affiliate network."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.cj.com",
+   "commission_cap": "unknown",
+   "commission_rate": 7,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://www.creator-hero.com/blog/zappos-affiliate-program-in-depth-review-pros-and-cons"
+  },
+  "opportunity": {
+   "application_url": "https://www.cj.com",
+   "source_url": "https://www.creator-hero.com/blog/zappos-affiliate-program-in-depth-review-pros-and-cons",
+   "title": "Zappos Affiliate Program on CJ Affiliate (7% per sale, apply inside CJ)"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 10,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A consistent 7% per sale on CJ Affiliate is reported by four independent directories (Creator Hero, UpPromote, LinkWhisper, AdCompares) with a 14-day cookie and ~$150 average order value — a published, corroborated rate.",
+    "contact_access": "No public partnerships email found; the route is a CJ Affiliate publisher account plus an in-network program application — mid-range.",
+    "credibility": "Amazon-owned retailer operating since 1999, one of the largest online shoe stores in the US.",
+    "niche_fit": "Shoes and apparel are core fashion-creator content; 1,500+ brands give creators a wide range to feature.",
+    "opportunity_availability": "Open to US-focused publishers via CJ application and program approval; Zappos does not ship internationally.",
+    "ugc_evidence": "A long-running, top-ranked CJ program used heavily by fashion and footwear bloggers and creators."
+   },
+   "ugc_evidence": 14
+  }
+ },
+ {
+  "name": "Abercrombie & Fitch",
+  "website": "https://www.abercrombie.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American lifestyle retailer (Abercrombie & Fitch Co.) selling casual apparel and accessories for women, men and kids, plus the Hollister and Gilly Hicks brands.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "Public_Relations@anfcorp.com",
+    "source_url": "https://usesnippet.app/pr-emails/abercrombie/ambassador-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/abercrombie"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@abercrombie"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://obs.duel.me/media/64511780d6ac8b79fca8d056/2609/64oe-duel-a-f-terms-of-participation-2026.pdf",
+    "summary": "Abercrombie's official Terms of Participation (2026) for The Creator Suite, hosted on Duel, describe the program as the destination for an Abercrombie partnership where creators 'earn commission as an Abercrombie affiliate partner' by completing challenges; applicants must be invited and accepted. No commission rate is published in the terms."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://whopaysinfluencers.com/brands/fashion/",
+    "summary": "WhoPaysInfluencers lists The Creator Suite by Abercrombie with an open application via community.abercrombie.com: 18+, US-based, 1,500+ followers on TikTok or Instagram; benefits include gifted product, early access, discounts and affiliate commission (rate not published)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkapprove.com/affiliate-programs",
+    "summary": "LinkApprove's directory quotes 7% per sale / 45-day cookie for Abercrombie & Fitch, while Shopper quotes 5-10% and UpPromote quotes 10-15% tiered via the Creator Suite — figures conflict and none comes from Abercrombie's own published terms, so commission_rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://usesnippet.app/pr-emails/abercrombie/ambassador-program",
+    "summary": "Snippet's November 2026 check of Abercrombie's own pages found no program listed on abercrombie.com itself and lists Public_Relations@anfcorp.com as the brand's published PR route."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://community.abercrombie.com",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Duel",
+   "source_url": "https://obs.duel.me/media/64511780d6ac8b79fca8d056/2609/64oe-duel-a-f-terms-of-participation-2026.pdf"
+  },
+  "opportunity": {
+   "application_url": "https://community.abercrombie.com",
+   "source_url": "https://whopaysinfluencers.com/brands/fashion/",
+   "title": "The Creator Suite by Abercrombie (own creator program on Duel — commission, gifting, challenges; rate unpublished)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 12,
+   "credibility": 5,
+   "niche_fit": 28,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "The Creator Suite pays affiliate commission per its official Duel terms, but Abercrombie publishes no rate; third-party figures conflict (7% vs 5-10% vs 10-15%), so compensation scores on an unpublished-rate basis.",
+    "contact_access": "A public application portal (community.abercrombie.com) plus a published PR email — good access, though acceptance is selective.",
+    "credibility": "Global NYSE-listed retailer (ANF) founded 1892, operating Abercrombie, Hollister and Gilly Hicks.",
+    "niche_fit": "One of the most talked-about fashion brands with Gen Z/millennial creators; denim and apparel content is a TikTok staple.",
+    "opportunity_availability": "Open application but invite/acceptance-gated: 18+, US-based, ~1,500+ followers on TikTok or Instagram.",
+    "ugc_evidence": "A structured creator community built around content challenges, with creators featured on Abercrombie's own channels and gifted product — UGC is the program's core mechanic."
+   },
+   "ugc_evidence": 19
+  }
+ },
+ {
+  "name": "SSENSE",
+  "website": "https://www.ssense.com",
+  "country": "Canada",
+  "category_slug": "fashion",
+  "description": "Montreal-based global luxury fashion platform selling established and emerging designer labels across womenswear, menswear, kidswear and 'Everything Else' homeware and objects.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@ssense.com",
+    "source_url": "https://www.ssense.com/en-us/affiliates"
+   },
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "press@ssense.com",
+    "source_url": "https://www.ssense.com/en-us/affiliates"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/ssense"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@ssense"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.ssense.com/en-us/affiliates",
+    "summary": "SSENSE's official affiliates page invites established websites, blogs, influencers and personal stylists to its global program: free to join, 'competitive commissions on all approved global sales', 30-day cookie, biweekly payouts in any currency, commissions approved within 60 days; applications go to affiliates@ssense.com and creator/PR inquiries to press@ssense.com. No rate is published on the page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.whichprogram.com/en/network/partnerize",
+    "summary": "WhichProgram's Partnerize network listing records an SSENSE Affiliate campaign at 7.02% with a 30-day cookie, application required."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/ssense/",
+    "summary": "UpPromote describes a tiered structure up to 7% (about 5% returning / 7% new customers, lower on markdown), while Creator Hero quotes 5-10% and Clickwire up to 11% for US publishers — figures conflict, so commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.ssense.com/en-us/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Partnerize",
+   "source_url": "https://www.ssense.com/en-us/affiliates"
+  },
+  "opportunity": {
+   "application_url": "https://www.ssense.com/en-us/affiliates",
+   "source_url": "https://www.ssense.com/en-us/affiliates",
+   "title": "SSENSE Affiliates Program (own application page; program listed on Partnerize)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 14,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "SSENSE promises 'competitive commissions' on its own page and a Partnerize listing records 7.02%, but published figures conflict (up to 7% tiered vs 5-10% vs up to 11%), so the rate is recorded as null with the conflict documented.",
+    "contact_access": "Two published emails on the brand's own page — affiliates@ssense.com for applications and press@ssense.com for creator/PR inquiries — top-band access.",
+    "credibility": "Established Montreal luxury platform founded 2003, carrying hundreds of designer labels and shipping worldwide.",
+    "niche_fit": "Luxury and emerging-designer fashion is a strong fit for high-end fashion creators and stylists.",
+    "opportunity_availability": "Application by email; SSENSE targets established sites, blogs, influencers and stylists, so approval is selective.",
+    "ugc_evidence": "The program explicitly recruits influencers and personal stylists, not just publishers, and supports collaborative content work."
+   },
+   "ugc_evidence": 13
+  }
+ },
+ {
+  "name": "SHAPELLX",
+  "website": "https://www.shapellx.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "California-founded shapewear and apparel brand (est. 2019) selling bodysuits, shapers and activewear, and one of the recognizable storefront names on the owner's TikTok Shop lead sheet.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/shapellx"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@shapellx"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.shapellx.com/pages/affiliate",
+    "summary": "Shapellx's own affiliate page (fetched) welcomes 'Content & Influencers', loyalty sites, media partners and tech solutions, and states '1%-3% Commission on sales' with a 3-day cookie and exclusive publisher promotions; the FAQ confirms the program is free to join."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://app.impact.com/advertiser-campaign-info/Shapellx.brand?c=___9XpvYq1Sf0-BHmwgf1a9MJJRMXjG7HjU&lang=en",
+    "summary": "Impact's own campaign page for SHAPELLX US INC states the program 'offers up to 5% commission to all publishers' with a 5% payout on the Online Sale tracker and a 3-day referral period — higher than the 1-3% on the brand's own page, so the rate is recorded as null with the conflict documented."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/shapellx/",
+    "summary": "Lasso's directory quotes 10% per sale / 30-day cookie for Shapellx, conflicting with both the brand's own page (1-3%, 3-day cookie) and Impact's campaign page (up to 5%)."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://www.shapellx.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.shapellx.com/pages/affiliate"
+  },
+  "opportunity": {
+   "application_url": "https://www.shapellx.com/pages/affiliate",
+   "source_url": "https://www.shapellx.com/pages/affiliate",
+   "title": "Shapellx Affiliate Program (own page + Impact campaign; rate conflict documented)"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Published figures conflict — the brand's own page says 1-3%, Impact's campaign page says up to 5%, a directory says 10% — so the rate is null and compensation scores low.",
+    "contact_access": "A public affiliate page with FAQ and phone support, but no published partnerships email found — mid-range.",
+    "credibility": "Operating since 2019 with its own US storefront and a TikTok Shop presence; smaller than the legacy retailers in this group.",
+    "niche_fit": "Shapewear try-ons and bodysuit content are a proven TikTok fashion format, and the brand appears on the owner's TikTok Shop lead sheet.",
+    "opportunity_availability": "Open signup through its affiliate page/Impact campaign with no follower minimum stated.",
+    "ugc_evidence": "The brand's own program page explicitly recruits 'Content & Influencers' and it sells through creator-driven TikTok Shop content."
+   },
+   "ugc_evidence": 16
+  }
+ },
+ {
+  "name": "Farfetch",
+  "website": "https://www.farfetch.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "London-founded global luxury fashion marketplace connecting shoppers with 1,300+ brands and boutiques in 190+ countries, now owned by Coupang.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/farfetch"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@farfetch"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/farfetch/",
+    "summary": "UpPromote's directory states Farfetch runs its public program through third-party networks — primarily Partnerize, also Rakuten Advertising and Impact by region — with commission up to 13% varying by publisher type and new vs returning customers."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/farfetch-usa/",
+    "summary": "Lasso's FARFETCH USA listing quotes 0.8% to 8% per sale, 30-day cookie, $50 threshold, with manual approval via a network application; other sources quote ~7% (LinkApprove, Brandid) or 6-13% (VortexAlpha) — figures conflict, so commission_rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://brandid.app/blog/best-fashion-affiliate-programs/",
+    "summary": "Brandid's 2026 fashion roundup describes Farfetch as a global marketplace of 1,300+ luxury brands and boutiques across 190+ countries, at around 7% per sale on a 30-day cookie via Rakuten Advertising."
+   }
+  ],
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Partnerize",
+   "source_url": "https://uppromote.com/affiliate-directory/farfetch/"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://uppromote.com/affiliate-directory/farfetch/",
+   "title": "Farfetch Affiliate Programme (via Partnerize / Awin / Rakuten by region; manual approval)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Multiple networks carry the program and rates are widely reported (~7% typical), but published figures conflict (0.8-8% vs up to 13% vs 5-15%), so the rate is null; very high average baskets (~$540) support the score.",
+    "contact_access": "No public partnerships email verified; access is via network application and manual approval — mid-range.",
+    "credibility": "Founded 2007 in London; one of the world's largest luxury fashion marketplaces, owned by Coupang since 2024.",
+    "niche_fit": "Luxury designer fashion with the largest average basket in the fashion directory — strong for premium fashion creators.",
+    "opportunity_availability": "Application through Partnerize/Awin/Rakuten with manual approval; fashion or luxury content and substantial traffic expected.",
+    "ugc_evidence": "The programme recruits fashion, lifestyle, beauty and design sites and creators, with daily product feeds for content production."
+   },
+   "ugc_evidence": 12
+  }
+ },
+ {
+  "name": "Kate Spade",
+  "website": "https://www.katespade.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Kate Spade New York, Tapestry Inc.'s playful-luxury brand selling handbags, ready-to-wear, shoes, jewelry and accessories, founded 1993.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/katespadeny"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@katespadeny"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/kate-spade/",
+    "summary": "LinkClicky's affiliate directory lists the Kate Spade program on the Rakuten Advertising platform at 6% per sale, described as the rate officially listed with the program."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/kate-spade-uk-limited/",
+    "summary": "Lasso's Kate Spade UK and AU listings quote 7% per sale with a 30-day cookie, and Shopper quotes up to 10% — conflicting with the 6% Rakuten listing, so commission_rate is null with the conflict documented."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/kate-spade/",
+    "summary": "UpPromote notes Kate Spade, as part of Tapestry, runs its program through established third-party networks (regional programs have included Rakuten Advertising, Commission Factory, FlexOffers and Awin), with rates typically 2-10% by region/network."
+   }
+  ],
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten",
+   "source_url": "https://linkclicky.com/affiliate-program/kate-spade/"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/kate-spade/",
+   "title": "Kate Spade Affiliate Program on Rakuten Advertising (apply inside the network)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A network directory records 6% per sale on Rakuten Advertising, but regional listings quote 7% and an aggregator up to 10%, so the rate is recorded as null with the conflict documented.",
+    "contact_access": "No public partnerships email found; the route is a Rakuten Advertising publisher account and in-network application — mid-range.",
+    "credibility": "Founded 1993; a core Tapestry Inc. brand with global retail and a large social following.",
+    "niche_fit": "Handbags and accessories are evergreen fashion-creator content, from unboxings to outfit styling.",
+    "opportunity_availability": "Open to publishers through Rakuten Advertising subject to program approval.",
+    "ugc_evidence": "An established network affiliate program used by fashion bloggers and creators, plus regional programs on several networks."
+   },
+   "ugc_evidence": 12
+  }
+ },
+ {
+  "name": "Vrbo",
+  "website": "https://www.vrbo.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Expedia Group's vacation-rental marketplace (Vacation Rentals By Owner) listing 2M+ whole homes, cabins, beach houses and condos in 190 countries, focused on family and group trips.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/vrbo"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@vrbo"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://learn.10xbnb.com/vrbo-affiliate-program/",
+    "summary": "10xBNB's program guide states Vrbo commissions run 1.5-6% depending on network: CJ Affiliate pays 2-4% with a 7-day cookie, Travelpayouts 1.8%, FlexOffers 1.6%, and the Expedia Group Creator Program up to 6% with a 30-day cookie; commission is paid after the guest completes the stay."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://majesticaffiliates.com/55-best-travel-affiliate-programs-in-2026/",
+    "summary": "Majestic Affiliates' 2026 travel roundup lists Vrbo at 2-4% commission, 7-day cookie, via CJ Affiliate / Partnerize, with average booking values of $1,000+."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/vrbo-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator Hero quotes up to 4% per booking on a 7-day cookie via the Expedia Affiliate Network; because the recorded network here is CJ Affiliate (2-4% range across sources), no single rate is published consistently, so commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "application_url": "https://affiliates.expediagroup.com/en-us/home",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "CJ Affiliate",
+   "source_url": "https://learn.10xbnb.com/vrbo-affiliate-program/"
+  },
+  "opportunity": {
+   "application_url": "https://affiliates.expediagroup.com/en-us/home",
+   "source_url": "https://learn.10xbnb.com/vrbo-affiliate-program/",
+   "title": "Vrbo Affiliate Program (via CJ Affiliate and the Expedia Group partner hub)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "CJ Affiliate pays a reported 2-4% on completed bookings with very high average booking values ($1,000+), but no single rate is consistent across sources, so the rate is null.",
+    "contact_access": "Applications run through CJ Affiliate or the Expedia Group affiliate hub; no public partnerships email found — mid-range.",
+    "credibility": "Part of Expedia Group; one of the two dominant vacation-rental marketplaces worldwide, founded 1995.",
+    "niche_fit": "Vacation-rental tours and family/group travel content are a natural fit for travel creators on TikTok and YouTube.",
+    "opportunity_availability": "Open to travel publishers and creators via CJ/Expedia Group application and approval; commission only after stays complete.",
+    "ugc_evidence": "The program is marketed to travel content creators and bloggers with deep links, widgets and property-level promotion tools."
+   },
+   "ugc_evidence": 12
+  }
+ },
+ {
+  "name": "Tory Burch",
+  "website": "https://www.toryburch.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "New York luxury lifestyle brand founded 2004 selling women's ready-to-wear, handbags, footwear (the Miller sandal, Reva flat), accessories and beauty.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/toryburch"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@toryburch"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://blog.rakutenadvertising.com/en-ca/marketing-strategies/outdeliver-with-data-that-matters/",
+    "summary": "Rakuten Advertising's own blog publishes a Tory Burch case study describing how 'the united Tory Burch and Rakuten Advertising team' runs the brand's affiliate campaigns with dynamic commissioning by publisher type, customer segment and category — confirming Rakuten Advertising as the program's network."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkapprove.com/affiliate-programs",
+    "summary": "LinkApprove quotes up to 8% per sale with a 21-day cookie and ~$295 average order, Lasso quotes up to 3.0% with a 14-day cookie, and Shopper quotes 1% — figures conflict, so commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten",
+   "source_url": "https://blog.rakutenadvertising.com/en-ca/marketing-strategies/outdeliver-with-data-that-matters/"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://blog.rakutenadvertising.com/en-ca/marketing-strategies/outdeliver-with-data-that-matters/",
+   "title": "Tory Burch Affiliate Program on Rakuten Advertising (apply inside the network)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Rakuten Advertising runs the program with dynamic commissioning, but published figures conflict (up to 8% vs up to 3% vs 1%), so the rate is null; average orders around $295 support the score.",
+    "contact_access": "No public partnerships email found; access is via a Rakuten Advertising publisher account — mid-range.",
+    "credibility": "Founded 2004; a global luxury brand with 300+ boutiques and a well-known accessories business.",
+    "niche_fit": "Handbags, footwear and preppy-luxury styling are steady fashion-creator content categories.",
+    "opportunity_availability": "Open to Rakuten Advertising publishers subject to program approval.",
+    "ugc_evidence": "The brand actively tests new media partners and PR-led affiliate initiatives per Rakuten's case study."
+   },
+   "ugc_evidence": 11
+  }
+ },
+ {
+  "name": "H&M",
+  "website": "https://www.hm.com",
+  "country": "Sweden",
+  "category_slug": "fashion",
+  "description": "Swedish fast-fashion giant (Hennes & Mauritz) selling women's, men's and kids' clothing, accessories and H&M Home products in ~75 markets, founded 1947.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/hm"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@hm"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/hm-us/",
+    "summary": "Lasso's H&M (US) listing records the program's Affiliate Network as Rakuten Marketing, at 1.6% per sale with a 14-day cookie and a $50 payout threshold."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://linkapprove.com/affiliate-programs/hm-affiliate-program",
+    "summary": "LinkApprove quotes up to 7% per sale (tiered by category) with a 14-day cookie for US/UK/EU/CA creators, and other sources quote 7-10.5% via sub-networks — conflicting with the 1.6% Rakuten record, so commission_rate is null with the conflict documented."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.creator-hero.com/blog/h-m-affiliate-program-in-depth-review-pros-and-cons",
+    "summary": "Creator Hero's review describes the H&M program as managed through networks including Sovrn and Skimlinks, with application and brand-side approval, typically around 7%/10% per sale on a 30-day cookie in its account — again conflicting with the Rakuten record."
+   }
+  ],
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Rakuten",
+   "source_url": "https://getlasso.co/affiliate/hm-us/"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/hm-us/",
+   "title": "H&M Affiliate Program (US program recorded on Rakuten Marketing; apply via network)"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "The only network record found (Rakuten Marketing via Lasso) pays 1.6%, while aggregator sources claim up to 7-10.5% — a hard conflict, so the rate is null and compensation scores low.",
+    "contact_access": "No public partnerships email found; access is via affiliate-network accounts and brand approval — mid-range.",
+    "credibility": "One of the world's largest fashion retailers, founded 1947 in Sweden, operating in ~75 markets.",
+    "niche_fit": "Affordable haul and styling content is among the highest-volume fashion formats on TikTok and YouTube.",
+    "opportunity_availability": "Network application with H&M-side approval; available to creators in the US, UK, EU and Canada per LinkApprove.",
+    "ugc_evidence": "The program is pitched to influencers and bloggers, and H&M hauls/UGC are a long-established creator format."
+   },
+   "ugc_evidence": 13
+  }
+ },
+ {
+  "name": "Going",
+  "website": "https://www.going.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Flight-deal membership service (formerly Scott's Cheap Flights, founded 2015) that alerts 2M+ members to cheap and mistake fares from their home airports; Premium $49/yr, Elite $199/yr.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/going"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/going"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://help.going.com/hc/en-us/articles/26875867320212-Referral-Program-FAQ",
+    "summary": "Going's official help-center FAQ (fetched) confirms a separate Affiliate Program for people with large audiences: 'If you have a big audience, why not apply for our Affiliate Program? You can earn a commission for promoting Going on your social channels or website.' (The page's 10-per-year cap applies only to the consumer referral gift-card scheme, not the affiliate program.)"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/scotts-cheap-flights-affiliate-program/",
+    "summary": "Travelpayouts' program write-up states the Scott's Cheap Flights/Going affiliate program 'is only available through the Impact Partner Network', paying $3 per new sign-up with a 30-day cookie in its record."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/scotts-cheap-flights/",
+    "summary": "UpPromote quotes flat CPA of $10 per Premium and $40 per Elite membership via Impact, while Majestic Affiliates quotes 50% of the subscription fee and Lasso/Travelpayouts quote $3 per sign-up — flat-bounty figures conflict, so commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.travelpayouts.com/blog/scotts-cheap-flights-affiliate-program/"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://help.going.com/hc/en-us/articles/26875867320212-Referral-Program-FAQ",
+   "title": "Going Affiliate Program on Impact (for creators with large audiences; official FAQ confirms it)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 6,
+   "reasons": {
+    "compensation": "The program pays flat per-member bounties, but published figures conflict ($3 per sign-up vs $10 Premium/$40 Elite vs 50% of fee), so the rate is null; the underlying memberships cost $49-$199/yr.",
+    "contact_access": "The official help center points large-audience creators to the affiliate application; no public partnerships email found — mid-range.",
+    "credibility": "Founded 2015 as Scott's Cheap Flights; a widely cited flight-deal service with 2M+ members, though smaller than the OTAs.",
+    "niche_fit": "Flight-deal and mistake-fare content performs strongly with travel creators and deal communities.",
+    "opportunity_availability": "Application-based and aimed at creators with large audiences, per Going's own FAQ — more selective than open network programs.",
+    "ugc_evidence": "Going explicitly recruits social-channel promoters for the affiliate program, separate from its consumer referral scheme."
+   },
+   "ugc_evidence": 13
+  }
+ }
+]

@@ -1,0 +1,622 @@
+[
+ {
+  "name": "FKN Nuts",
+  "website": "https://getfknnuts.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US snack brand selling spicy seasoned nuts in three heat levels, built around a creator program ('The Heat Squad') for streamers, gamers and food creators on TikTok, YouTube and Instagram.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getfknnuts.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://getfknnuts.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/getfknnuts"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://getfknnuts.com/pages/affiliate-program",
+    "summary": "FKN Nuts' own affiliate page (fetched) runs applications through Shopify Collabs: creators start at 10% commission on bundles and single bags, climbing lifetime-order tiers to 12% (10 orders), 15% (50 orders) and 20% (150 orders), plus up to $425 in cash bonuses and a free starter box. The page's 'How much can I earn?' answer lists rates and bonuses only — no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://getfknnuts.com/pages/affiliate-program",
+    "summary": "The program is explicitly creator-first: streamers, YouTube/TikTok creators, Instagram creators, podcasters and gaming communities; approved creators get a link, a 10%-off fan code, reposts on @getfknnuts and features on the brand's socials. Eligibility is US creators aged 21+; no creator-count or cohort-size figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": 10,
+   "application_url": "https://getfknnuts.com/pages/affiliate-program",
+   "source_url": "https://getfknnuts.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "FKN Nuts Heat Squad Creator Program (Shopify Collabs)",
+   "application_url": "https://getfknnuts.com/pages/affiliate-program",
+   "source_url": "https://getfknnuts.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 18,
+   "compensation": 14,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A snack brand whose whole go-to-market is short-form creator content — taste tests, reactions and challenges — squarely in the food UGC niche.",
+    "ugc_evidence": "A dedicated creator program with tiered perks for posting: starter boxes, monthly free boxes at higher tiers, reposts and social features.",
+    "compensation": "10% base commission published on the brand's own page, rising to 20% at the top lifetime tier, plus cash bonuses; no cap statement is published, so the cap stays unknown.",
+    "contact_access": "A public application route via the official page and Shopify Collabs; no direct program email is published.",
+    "opportunity_availability": "Applications are open to US creators 21+ of any size ('we care more about an engaged audience than follower count'), reviewed by hand within a few days.",
+    "credibility": "Small, young DTC snack brand with a real storefront and a fully documented program page; limited track record compared with legacy brands."
+   }
+  }
+ },
+ {
+  "name": "Goated Wellness",
+  "website": "https://goatedwellness.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US supplement brand selling creatine, protein, BCAAs and collagen with a direct affiliate program paying a published 15% standard rate (20% VIP) and monthly Zelle payouts with no minimum.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hello@goatedwellness.com",
+    "source_url": "https://goatedwellness.com/affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://goatedwellness.com/affiliate-program/",
+    "summary": "Goated Wellness' own affiliate page (fetched) states a 15% standard commission and 20% for VIP affiliates on every qualifying order, a personal 20%-off code for the audience, a 30-day referral window, and monthly Zelle payouts from the 1st with no minimum threshold. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://goatedwellness.com/affiliate-program/",
+    "summary": "Joining is free, applications are reviewed by the brand's team, and affiliates get a personal dashboard with real-time click, order and commission tracking; the page publishes hello@goatedwellness.com for program questions. No creator-count figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://goatedwellness.com/affiliate-program/",
+   "source_url": "https://goatedwellness.com/affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Goated Wellness Affiliate Program",
+   "application_url": "https://goatedwellness.com/affiliate-program/",
+   "source_url": "https://goatedwellness.com/affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 15,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Core sports-supplement line (creatine, protein, collagen) aimed at gym and wellness creators — a strong fit for fitness UGC.",
+    "ugc_evidence": "A structured direct affiliate program with personal codes and dashboards; less creator-content-specific than ambassador-style programs.",
+    "compensation": "15% standard and 20% VIP rates published on the brand's own page, with no-minimum monthly payouts; no cap statement published, so the cap stays unknown.",
+    "contact_access": "Published program email (hello@goatedwellness.com) plus an on-site application.",
+    "opportunity_availability": "Free to join with team review of applications; no follower minimum is stated.",
+    "credibility": "Small DTC supplement brand with a complete, transparent program page; limited public track record."
+   }
+  }
+ },
+ {
+  "name": "Bite",
+  "website": "https://bitetoothpastebits.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Plastic-free oral care brand (Bite Toothpaste Bits) selling toothpaste tablets, mouthwash bits and related zero-waste bathroom products direct to consumers, with its own affiliate program paying 15-20% commission.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://bitetoothpastebits.com/pages/affiliate-sign-up-v2",
+    "email": "eva@bitetoothpastebits.com",
+    "source_url": "https://bitetoothpastebits.com/pages/affiliate-sign-up-v2"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://bitetoothpastebits.com/pages/affiliate-sign-up-v2",
+    "summary": "Bite's own affiliate page (fetched) states affiliates earn 15-20% commission on all orders with a 30-day attribution window and a free welcome gift; the base of the published range (15%) is recorded. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://bitetoothpastebits.com/pages/affiliate-sign-up-v2",
+    "summary": "The affiliate page publishes a named program contact — 'Please reach out to eva@bitetoothpastebits.com for support' — and an open sign-up. No creator-count figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://bitetoothpastebits.com/pages/affiliate-sign-up-v2",
+   "source_url": "https://bitetoothpastebits.com/pages/affiliate-sign-up-v2",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bite Affiliate Program",
+   "application_url": "https://bitetoothpastebits.com/pages/affiliate-sign-up-v2",
+   "source_url": "https://bitetoothpastebits.com/pages/affiliate-sign-up-v2"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 14,
+   "compensation": 16,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Oral care and sustainable bathroom routines are proven short-form content territory — a good fit for health and lifestyle creators.",
+    "ugc_evidence": "A public affiliate program with welcome gifting and early-access offers for promoters; creator content is the brand's main marketing mode.",
+    "compensation": "15-20% commission on all orders published on the brand's own page (15% base recorded); no cap statement published, so the cap stays unknown.",
+    "contact_access": "Named affiliate contact email (eva@bitetoothpastebits.com) published on the program page, plus open sign-up.",
+    "opportunity_availability": "Open affiliate sign-up on the brand's site with a 30-day cookie; no follower minimum stated.",
+    "credibility": "Established, well-known plastic-free oral care brand with a long-running DTC storefront."
+   }
+  }
+ },
+ {
+  "name": "ALORI",
+  "website": "https://www.alorilife.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Women's hormone-health supplement brand (flagship formulas 'Not Today, Estrogen' and 'Cortisol, Who?') running its creator and affiliate program through Awin with commissions averaging over 25%.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://www.alorilife.com/pages/partners",
+    "email": "affiliates@alorilife.com",
+    "source_url": "https://www.alorilife.com/pages/partners"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.alorilife.com/pages/partners",
+    "summary": "ALORI's own partner page (fetched) states commissions averaging over 25% on every sale through a partner's link or code, higher tiers unlocked at $1k/$5k/$10k monthly volume, a 45-day cookie, recurring commission on subscription sign-ups, and monthly payouts via Awin; application is through Awin and free. The 25% program average is recorded. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.alorilife.com/pages/partners",
+    "summary": "The page publishes affiliates@alorilife.com for partnership questions and custom codes, promises approvals within 48 hours, and states there is no audience-size requirement — partners are approved on fit and engagement. No creator-count figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 25,
+   "application_url": "https://www.alorilife.com/pages/partners",
+   "source_url": "https://www.alorilife.com/pages/partners",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ALORI Partner Program (via Awin)",
+   "application_url": "https://www.alorilife.com/pages/partners",
+   "source_url": "https://www.alorilife.com/pages/partners"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 19,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Women's hormone and cycle wellness is a high-engagement creator niche, and the brand explicitly recruits creators who talk about hormones, mood and burnout.",
+    "ugc_evidence": "A creator-first partner program: custom vanity codes, sample access for approved partners, a photo/b-roll library and approved talking points.",
+    "compensation": "Commissions averaging over 25% published on the brand's own page, with tiered bonuses above that; no cap statement published, so the cap stays unknown.",
+    "contact_access": "Published affiliates email plus a five-minute Awin application linked from the brand's own partner page.",
+    "opportunity_availability": "Free to join, no follower minimum, approvals typically within 48 hours.",
+    "credibility": "Young, small DTC brand; the program page is detailed and transparent, but the company has a limited public track record."
+   }
+  }
+ },
+ {
+  "name": "Gold Collagen",
+  "website": "https://www.gold-collagen.com",
+  "country": "United Kingdom",
+  "category_slug": "health",
+  "description": "UK ingestible-beauty brand by Minerva Research Labs selling clinically tested liquid collagen supplements for skin, hair and wellness, with an affiliate program on Awin paying up to 10% commission.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.gold-collagen.com/en-ch/pages/affiliate",
+    "email": null,
+    "source_url": "https://www.gold-collagen.com/en-ch/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.gold-collagen.com/en-ch/pages/affiliate",
+    "summary": "Gold Collagen's own affiliate page (fetched) states affiliates earn up to 10% commission on every qualifying sale with real-time tracking via AWIN and a 30-day cookie window, applying through the AWIN signup page. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.gold-collagen.com/en-ch/pages/affiliate",
+    "summary": "The brand states it is backed by over 10 years of clinical research and more than 20 published studies, and actively recruits beauty and skincare creators, wellness influencers, health professionals and bloggers. No creator-count figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://www.gold-collagen.com/en-ch/pages/affiliate",
+   "source_url": "https://www.gold-collagen.com/en-ch/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Gold Collagen Affiliate Program (via Awin)",
+   "application_url": "https://www.gold-collagen.com/en-ch/pages/affiliate",
+   "source_url": "https://www.gold-collagen.com/en-ch/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 11,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Ingestible beauty sits at the center of the skincare/wellness creator niche; the brand names beauty creators and wellness influencers as target partners.",
+    "ugc_evidence": "A formal affiliate program recruiting creators and bloggers with ready-to-use product assets and launch materials.",
+    "compensation": "Up to 10% commission published on the brand's own page — modest next to supplement DTC rates; no cap statement published, so the cap stays unknown.",
+    "contact_access": "Application route via the official page into Awin; no direct program email is published.",
+    "opportunity_availability": "Free to join through Awin with a profile-fit review by the brand's affiliate team.",
+    "credibility": "A decade-old, clinically published ingestible-beauty brand recognised as a category leader in the UK and Europe."
+   }
+  }
+ },
+ {
+  "name": "Good Ranchers",
+  "website": "https://goodranchers.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US meat-delivery subscription brand selling American-sourced beef, chicken and seafood boxes, with an affiliate program on Awin starting at 10% commission and a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/94333",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/94333"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/94333",
+    "summary": "Good Ranchers' official Awin merchant profile (fetched) states: 'We start at a 10% commission, a 30-day cookie window, and have exclusive affiliate offers.' The profile makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/good-ranchers/",
+    "summary": "Lasso's affiliate directory independently lists the Good Ranchers program at 10% per sale with a 30-day cookie, corroborating the Awin profile. No creator-count figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/94333",
+   "source_url": "https://ui.awin.com/merchant-profile/94333",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Good Ranchers Affiliate Program (via Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/94333",
+   "source_url": "https://ui.awin.com/merchant-profile/94333"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Meat subscription boxes are staple content for food, grilling and family-meal creators.",
+    "ugc_evidence": "A network affiliate program with exclusive affiliate offers; less creator-specific tooling than ambassador programs.",
+    "compensation": "10% starting commission confirmed on the brand's official Awin profile; no cap statement published, so the cap stays unknown.",
+    "contact_access": "Application through the Awin merchant profile; no direct program email is published.",
+    "opportunity_availability": "Open to Awin publishers with exclusive offers for affiliates.",
+    "credibility": "Established US meat-delivery brand with a national subscription operation."
+   }
+  }
+ },
+ {
+  "name": "Zuma Nutrition",
+  "website": "https://www.zumanutrition.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Whole-plant supplement and tonic brand running a direct partner program for practitioners, coaches and wellness creators, paying 15% commission on every sale with custom audience codes.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.zumanutrition.com/pages/affiliate-program",
+    "email": "affiliates@zumanutrition.com",
+    "source_url": "https://www.zumanutrition.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.zumanutrition.com/pages/affiliate-program",
+    "summary": "Zuma Nutrition's own affiliate page (fetched) states partners earn 15% commission on every sale ('Ongoing commission on every order you refer, with performance bonuses as you grow'), with a custom discount code and affiliate links. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.zumanutrition.com/pages/affiliate-program",
+    "summary": "The page publishes affiliates@zumanutrition.com for program questions, describes application review within 3-5 business days, product training for approved partners, and free product on a case-by-case basis. The program is selective ('Apply and get selected'); no creator-count figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://www.zumanutrition.com/pages/affiliate-program",
+   "source_url": "https://www.zumanutrition.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Zuma Nutrition Affiliate Program",
+   "application_url": "https://www.zumanutrition.com/pages/affiliate-program",
+   "source_url": "https://www.zumanutrition.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 13,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Whole-plant tonics and supplements built for the wellness-creator niche; the program explicitly targets wellness and fitness creators alongside practitioners.",
+    "ugc_evidence": "A partner program with training, early launch access and case-by-case free product for creators who recommend the line.",
+    "compensation": "15% on every sale published on the brand's own page, plus performance bonuses; no cap statement published, so the cap stays unknown.",
+    "contact_access": "Published program email (affiliates@zumanutrition.com) and a dedicated contact on the brand's team for partners.",
+    "opportunity_availability": "Applications are reviewed and partners are selected for fit, so access is curated rather than instant.",
+    "credibility": "Small DTC wellness brand with a detailed, compliance-conscious program page; limited public track record."
+   }
+  }
+ },
+ {
+  "name": "Gorilla Mind",
+  "website": "https://gorillamind.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Performance supplement brand (pre-workout, nootropics, protein and energy drinks) with a large creator community, running a direct Ambassador Program paying 20% commission in cash on every referred sale.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://gorillamind.com/pages/ambassador-signup",
+    "email": null,
+    "source_url": "https://gorillamind.com/pages/ambassador-signup"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/gorillamind"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://gorillamind.com/pages/ambassador-signup",
+    "summary": "Gorilla Mind's own ambassador page (fetched) states ambassadors earn 20% commission on every sale they refer, paid in cash, with a personal promo code (10% off for followers), a custom referral link, a welcome box and a pathway to sponsored Athlete status. The page makes no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://gorillamind.com/pages/ambassador-signup",
+    "summary": "Minimum requirements are published: at least 750 followers on Instagram or TikTok, 20+ total posts and 4+ posts per month, with applications reviewed in 2-4 weeks — an entry threshold, not a cohort size, so saturation is recorded as unknown. The brand's Instagram account (@gorillamind) has roughly 450K followers."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://gorillamind.com/pages/ambassador-signup",
+   "source_url": "https://gorillamind.com/pages/ambassador-signup",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Gorilla Mind Ambassador Program",
+   "application_url": "https://gorillamind.com/pages/ambassador-signup",
+   "source_url": "https://gorillamind.com/pages/ambassador-signup"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 17,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "One of the most creator-driven supplement brands in fitness; its products are designed to be reviewed, compared and demonstrated on camera.",
+    "ugc_evidence": "A formal ambassador program with content requirements, a welcome box, a private community and an athlete pathway — deep UGC infrastructure.",
+    "compensation": "20% commission paid in cash on every referred sale, published on the brand's own page; no cap statement published, so the cap stays unknown.",
+    "contact_access": "A defined application page with published requirements and review timelines; no direct program email is published.",
+    "opportunity_availability": "Open application but gated: 750+ followers, 20+ posts, 4+ posts/month, and a 2-4 week review.",
+    "credibility": "Major DTC supplement brand with a ~450K-follower Instagram presence and a long-running athlete/ambassador roster."
+   }
+  }
+ },
+ {
+  "name": "Kuli Kuli",
+  "website": "https://www.kulikulifoods.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Moringa superfood brand (powders, gummies, snacks and drinks) sourcing from smallholder farmers, with an affiliate program on Awin where rates vary up to 20% per sale.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@kulikulifoods.com",
+    "source_url": "https://ui.awin.com/merchant-profile/95401"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/95401",
+    "summary": "Kuli Kuli's official Awin merchant profile (fetched) states 'Commission rates vary, with affiliates earning up to 20% per sale', an average order value around $50 and a 30-day tracking cookie, and publishes affiliate@kulikulifoods.com for questions. Because the current profile gives no single fixed rate, commission_rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/kuli-kuli-foods/",
+    "summary": "An older directory listing (March 2024) quoted 15% per sale via ShareASale; ShareASale programs have since migrated to Awin, whose current profile supersedes it with variable rates up to 20% — the conflict is documented here rather than resolved by guessing. No creator-count figure is published, so saturation is recorded as unknown, and no cap statement appears in either source, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/95401",
+   "source_url": "https://ui.awin.com/merchant-profile/95401",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kuli Kuli Foods Affiliate Program (via Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/95401",
+   "source_url": "https://ui.awin.com/merchant-profile/95401"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Moringa superfood powders and snacks fit smoothie, wellness-routine and healthy-recipe content well.",
+    "ugc_evidence": "The Awin profile explicitly recruits PR, editorial, content, blog and social affiliates; creator tooling is network-standard.",
+    "compensation": "Rates vary up to 20% per sale on the current Awin profile, but no single fixed rate is published, so the rate is recorded as null; no cap statement published, so the cap stays unknown.",
+    "contact_access": "A published affiliate contact email (affiliate@kulikulifoods.com) on the official network profile, plus in-network application.",
+    "opportunity_availability": "Open to Awin publishers; the profile notes US shipping only.",
+    "credibility": "Established, mission-driven superfood brand and a pioneer of moringa in the US market."
+   }
+  }
+ },
+ {
+  "name": "Sri Sri Tattva",
+  "website": "https://srisritattvausa.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US arm of the Ayurvedic herbal brand Sri Sri Tattva, selling heavy-metal-tested Ayurvedic supplements, personal care and grocery staples, with an Ambassador Program paying 20-25% on a referred customer's first order and 16-18% on their next four orders.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "support.usa@srisritattva.com",
+    "source_url": "https://srisritattvausa.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://srisritattvausa.com/pages/affiliate",
+    "summary": "Sri Sri Tattva USA's own affiliate page (fetched, including full program terms) states Community Ambassadors earn 20% on a new customer's first order and 16% on each of their next 4 orders, while Teacher & Creator and Practitioner ambassadors earn 25% and 18%; tracking is via personal link (30-day cookie) and code through BixGrow, paid monthly via PayPal at a $25 threshold. The base 20% first-order rate is recorded. The terms make no statement about a cap on total earnings, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://srisritattvausa.com/pages/affiliate",
+    "summary": "The program is open worldwide to wellness creators, yoga teachers and loyal customers (creators under 2,000 followers join as Community Ambassadors; 2,000+ engaged followers as Teacher & Creator), with a starter kit, asset library and monthly campaign briefs; applications are reviewed within 3 business days. No total creator-count figure is published, so saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://srisritattvausa.com/pages/affiliate",
+   "source_url": "https://srisritattvausa.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Sri Sri Tattva Ambassador Program",
+   "application_url": "https://srisritattvausa.com/pages/affiliate",
+   "source_url": "https://srisritattvausa.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 18,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ayurvedic daily-ritual products map naturally onto yoga, meditation and holistic-wellness creator content.",
+    "ugc_evidence": "A creator tier with starter kits, an asset library, campaign briefs and QR class cards — real UGC support, not just a link.",
+    "compensation": "20% first-order commission at the base tier (25% for creators with 2,000+ engaged followers) plus 16-18% on each customer's next four orders, published in full program terms; no cap statement published, so the cap stays unknown.",
+    "contact_access": "Published support email and phone in the program terms, plus a named team contact promised to ambassadors.",
+    "opportunity_availability": "Free to join, open worldwide, individual review within 3 business days; the store ships within the US.",
+    "credibility": "The brand cites 35+ years of Ayurvedic expertise and 4,600+ customer reviews on its own program page."
+   }
+  }
+ }
+]

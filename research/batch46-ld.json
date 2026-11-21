@@ -1,0 +1,596 @@
+[
+ {
+  "name": "tomtoc",
+  "website": "https://www.tomtoc.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Tech-carry brand founded in 2016 making laptop bags, slings, sleeves and travel organizers built around tech protection and organization, sold through its own US store.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "support@tomtoc.com",
+    "source_url": "https://www.tomtoc.com/pages/tomtoc-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://www.tomtoc.com/pages/tomtoc-affiliate-program",
+    "summary": "tomtoc's own affiliate program page recruits creators, publishers and content partners, describes the apply-approve-link-share-earn flow, states there is NO minimum earnings threshold for payout, pays via PayPal only, and notes tomtoc.com currently ships within the United States only."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "brand_site",
+    "source_url": "https://www.tomtoc.com/pages/tomtoc-affiliate-program",
+    "summary": "The same page directs discount-code and affiliate questions to the Affiliate Team at support@tomtoc.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://tomtoc.refersion.com",
+    "summary": "tomtoc's own Refersion portal lists the program terms: 10.00% base commission on sales, 30-day attribution window, percent-of-sale model, no minimum payout, PayPal payment; an Awin merchant profile for tomtoc corroborates a 10% base rate and 30-day cookie."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "brand_site",
+    "source_url": "https://www.tomtoc.com/pages/tomtoc-affiliate-program",
+    "summary": "No earnings-cap statement appears on the fetched brand page or portal listing (the 'no minimum' line is a payout threshold, not an earnings cap), so commission_cap is unknown; no absolute creator-count evidence is published, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 10,
+   "application_url": "https://tomtoc.refersion.com",
+   "source_url": "https://www.tomtoc.com/pages/tomtoc-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "tomtoc Affiliate Program - 10% via its own Refersion portal (apply on the brand page or portal)",
+   "application_url": "https://tomtoc.refersion.com",
+   "source_url": "https://www.tomtoc.com/pages/tomtoc-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pure tech-carry brand (laptop bags, slings, EDC organizers) - a staple category for tech and everyday-carry creators.",
+    "ugc_evidence": "The brand's own program page explicitly recruits content creators across YouTube, blogs and social media and offers campaign partnerships and marketing assets.",
+    "compensation": "Published 10% base commission on the brand's Refersion portal with a 30-day window and no minimum payout threshold.",
+    "contact_access": "A named Affiliate Team email (support@tomtoc.com) is published on the brand's own program page, plus an open application route.",
+    "opportunity_availability": "Open application; the brand states applications are reviewed in the second half of each month.",
+    "credibility": "Founded 2016, established DTC brand selling through its own US store."
+   }
+  }
+ },
+ {
+  "name": "Tile",
+  "website": "https://www.tile.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Maker of Bluetooth item trackers (Mate, Slim, Sticker, Pro) that help people find keys, wallets and bags, sold through its own store and major retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/tile/",
+    "summary": "Lasso's Tile program page lists a 6.4% per-sale commission and a 30-day cookie for the electronics tracker brand, and its 'Join the Tile affiliate program' link points to publisherpro.flexoffers.com, identifying FlexOffers as the joining network."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/tile/",
+    "summary": "No earnings-cap statement and no absolute creator-count evidence appears in the fetched listing, so commission_cap and creator_saturation are both unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": 6.4,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/tile/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tile Affiliate Program - 6.4% per sale via FlexOffers (apply inside FlexOffers)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/tile/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Category-defining Bluetooth trackers - squarely in consumer tech and gadget-review content.",
+    "ugc_evidence": "Program is marketed to electronics bloggers and social promoters; no dedicated creator tier was found, so this stays mid-range.",
+    "compensation": "Published 6.4% per sale with a 30-day cookie on the Lasso program listing.",
+    "contact_access": "No public partnerships email found; access is through the FlexOffers network only.",
+    "opportunity_availability": "Open application through FlexOffers with a short approval window per the listing.",
+    "credibility": "The best-known item-tracker brand, sold at major retail and now part of Life360."
+   }
+  }
+ },
+ {
+  "name": "Corsair",
+  "website": "https://www.corsair.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "American computer peripherals and hardware company headquartered in Milpitas, California, selling gaming keyboards, mice, headsets, PC components and streaming gear under the CORSAIR brand.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://www.corsair.com/us/en/s/creator-program",
+    "summary": "Corsair's own Gaming Creator Program page invites creators to apply for Affiliate, Ambassador or Partner tiers around its gaming keyboards, headsets, mice and mousepads, and states affiliates 'Earn commission and share community discounts'; applications are reviewed on a rolling basis and accepted creators are matched to a tier after a call."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/corsair/",
+    "summary": "Third-party figures for Corsair's separate network affiliate program conflict widely (1% per Lasso, 2.4% via FlexOffers per WhichProgram, ~3.5% per Shopper, up to 8% in one roundup), and the brand's own creator page publishes no rate, so commission_rate is recorded as null."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "brand_site",
+    "source_url": "https://www.corsair.com/us/en/s/creator-program",
+    "summary": "No earnings-cap statement and no absolute creator-count evidence appears on the fetched brand page, so commission_cap and creator_saturation are both unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.corsair.com/us/en/s/creator-program",
+   "source_url": "https://www.corsair.com/us/en/s/creator-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "CORSAIR Gaming Creator Program - own application (Affiliate / Ambassador / Partner tiers, commission terms set per tier)",
+   "application_url": "https://www.corsair.com/us/en/s/creator-program",
+   "source_url": "https://www.corsair.com/us/en/s/creator-program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 4,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Gaming peripherals and PC hardware are a core creator category across YouTube, Twitch and TikTok.",
+    "ugc_evidence": "The brand runs a dedicated creator program with three tiers and creator spotlights on its own site.",
+    "compensation": "The creator page confirms affiliates earn commission but publishes no rate, and third-party network rates conflict (1%-8%), so this stays low.",
+    "contact_access": "Open application form on the brand's own site; no public partnerships email was verified.",
+    "opportunity_availability": "Applications are open with rolling review for North America and Europe, but acceptance is selective (media kit requested).",
+    "credibility": "Publicly traded category leader in gaming gear and PC components."
+   }
+  }
+ },
+ {
+  "name": "Ember",
+  "website": "https://ember.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Maker of temperature-control smart mugs and drinkware that keep coffee and tea at a set drinking temperature, sold through its own store and major retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/ember/",
+    "summary": "LinkClicky's Ember listing, which reproduces the official network listing, states the program runs on the Impact platform at 5% per sale (listing last updated March 10, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopday.com/ember",
+    "summary": "Shopday's Ember page describes the rate as 'varies by partner' without publishing a figure, so the 5% Impact figure is recorded as publicly reported rather than verified, and no cap or creator-count evidence is published anywhere fetched - commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/ember/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ember Affiliate Program - 5% per sale on Impact (apply inside Impact)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/ember/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Smart mugs sit at the home/tech crossover and are a highly giftable, demo-friendly product for home creators.",
+    "ugc_evidence": "Affiliate program exists on a major network, but no creator-specific tier or collab page was found.",
+    "compensation": "5% per sale per the Impact listing reproduced by LinkClicky; a second source says the rate varies by partner, so this stays below mid-range.",
+    "contact_access": "No public partnerships email found; access is through Impact only.",
+    "opportunity_availability": "Open application through the Impact marketplace.",
+    "credibility": "Established premium drinkware brand with wide retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Kuvings",
+  "website": "https://www.kuvings.com",
+  "country": "South Korea",
+  "category_slug": "home",
+  "description": "Premium juicer and blender brand from NUC Electronics (South Korea, 47+ years), known for whole slow juicers and vacuum blenders sold through regional stores including kuvings.com in the US.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/kuvings_netherlands"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/kuvings/",
+    "summary": "Lasso's Kuvings program page lists a 10% per-sale commission and a 30-day cookie for the juicer brand's affiliate program."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://kuvings-europe.com/pages/collab",
+    "summary": "Kuvings Europe's own Brand Ambassadors page states creators in its Collabs program earn a 10% commission on every sale they generate plus a 10% follower discount code, corroborating the 10% standard rate on a brand-owned page; the page also names the brand's Instagram handle @kuvings_netherlands."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/case-study/kuvings-deutschland/",
+    "summary": "UpPromote's published case study of Kuvings Deutschland documents the same structure: 10% standard commission with a 15% premium tier for top performers. The US store's signup platform is not published in any fetched source, and no earnings-cap or creator-count evidence exists, so the network is recorded as brand direct and cap/saturation as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/kuvings/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kuvings Affiliate / Ambassador Program - 10% standard commission (15% premium tier reported in DE case study)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/kuvings/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 15,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium juicers and blenders are a staple of home, kitchen and wellness creator content.",
+    "ugc_evidence": "The brand runs named creator/ambassador programs (its own Europe page recruits creators with commission and follower codes).",
+    "compensation": "10% standard rate corroborated by three sources including the brand's own page; a 15% premium tier is documented in the UpPromote case study.",
+    "contact_access": "No US partnerships email was published in fetched sources; the only brand email found was the European entity's, so this stays low.",
+    "opportunity_availability": "Open application per the program listings; approval typically takes a few days.",
+    "credibility": "47+ year appliance maker (NUC Electronics) selling globally through regional stores."
+   }
+  }
+ },
+ {
+  "name": "Nama Well",
+  "website": "https://namawell.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Kitchen appliance brand (Nama) selling cold-press juicers, blenders and plant-based milk makers, including the Nama J2 juicer, through its own store namawell.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://us.hotcoupon.org/store/nama-discount-code",
+    "summary": "A coupon-site summary of NAMAWELL's official terms describes a 'Brand Affiliate and Ambassador Program': partners share discount codes (usually 10% off for followers) and earn commissions on qualified purchases, with the potential for up to 20% for new customers and 10% on reorders within 180 days; applications go through the 'Namawell Affiliate Portal'."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://us.hotcoupon.org/store/nama-discount-code",
+    "summary": "The reported terms rest on a single secondary summary and no official namawell.com program page could be fetched, so commission_rate is recorded as null rather than guessed; no earnings-cap or creator-count evidence exists, so commission_cap and creator_saturation are unknown. (Terms published by nama-fiji.com belong to a different brand and were not used.)"
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://us.hotcoupon.org/store/nama-discount-code",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nama Well Brand Affiliate and Ambassador Program - apply through the Namawell Affiliate Portal (terms reported, not yet on an official page)",
+   "application_url": null,
+   "source_url": "https://us.hotcoupon.org/store/nama-discount-code"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 6,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Cold-press juicers and milk makers fit home, kitchen and wellness creator content well.",
+    "ugc_evidence": "A named Brand Affiliate and Ambassador Program with follower discount codes is reported from the brand's terms.",
+    "compensation": "Reported terms (up to 20% new customers, 10% reorders within 180 days) come from one secondary summary only, so the rate is recorded as null and this score stays low.",
+    "contact_access": "The source names an affiliate portal but publishes no URL or email that could be verified.",
+    "opportunity_availability": "Applications reportedly go through the brand's affiliate portal; selectivity is not documented.",
+    "credibility": "Established DTC juicer brand with a flagship product line (Nama J2). "
+   }
+  }
+ },
+ {
+  "name": "Pullnscoop",
+  "website": "https://www.pullnscoop.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Single-product pet brand selling the Pullnscoop scoop-free (self-cleaning style) cat litter box direct to consumers through its own store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://pullnscoop.com/pages/affiliates",
+    "summary": "Pullnscoop's own affiliates page publishes the program terms verbatim: 10% commission, 30-day cookie, average order value $200+, a sales dashboard, free to join, and open to international partners; eligible participants explicitly include publishers, content creators and influencers."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "brand_site",
+    "source_url": "https://pullnscoop.com/pages/affiliates",
+    "summary": "No earnings-cap statement and no absolute creator-count evidence appears on the fetched brand page, so commission_cap and creator_saturation are both unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://pullnscoop.com/pages/affiliates",
+   "source_url": "https://pullnscoop.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pullnscoop Affiliate Program - 10% commission, $200+ AOV (apply on the brand's affiliates page)",
+   "application_url": "https://pullnscoop.com/pages/affiliates",
+   "source_url": "https://pullnscoop.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 13,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A single, highly demonstrable cat product - ideal for pet creator reviews and problem/solution videos.",
+    "ugc_evidence": "The brand's own program page explicitly welcomes content creators and influencers as eligible participants.",
+    "compensation": "Published on the brand's own page: 10% commission, 30-day cookie, on a $200+ average order.",
+    "contact_access": "Application runs through the brand's own page; no partnerships email is published.",
+    "opportunity_availability": "Open, free to join, and explicitly open to international partners.",
+    "credibility": "Small single-product DTC brand; no retail distribution or press footprint was verified."
+   }
+  }
+ },
+ {
+  "name": "Primal Pet Foods",
+  "website": "https://www.primalpetfoods.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "US raw pet food brand selling frozen and freeze-dried raw food, bones and supplements for dogs and cats through its own site and pet retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://www.primalpetfoods.com/pages/ambassador-program",
+    "summary": "Primal's own Ambassador Program page invites creators and social media partners to apply through its Social Media Partnership Form; the team reviews submissions and reaches out if there is a fit. No commission rate or program terms are published on the page, so commission_rate is null."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "brand_site",
+    "source_url": "https://www.primalpetfoods.com/pages/ambassador-program",
+    "summary": "No earnings-cap statement and no absolute creator-count evidence appears on the fetched brand page, so commission_cap and creator_saturation are both unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.primalpetfoods.com/pages/ambassador-program",
+   "source_url": "https://www.primalpetfoods.com/pages/ambassador-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Primal Pet Foods Ambassador Program - social media partnership application on the brand's site (no published commission)",
+   "application_url": "https://www.primalpetfoods.com/pages/ambassador-program",
+   "source_url": "https://www.primalpetfoods.com/pages/ambassador-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 4,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Raw feeding is a passionate, content-rich corner of the pet niche and Primal is one of its flagship brands.",
+    "ugc_evidence": "The brand's own Ambassador Program page is aimed squarely at creators and social media partners.",
+    "compensation": "No commission or pay terms are published anywhere fetched, so this stays at the bottom of the range.",
+    "contact_access": "A dedicated partnership application form sits on the brand's own site.",
+    "opportunity_availability": "The form is open to anyone, but the brand reviews and only reaches out on a fit, so availability is selective.",
+    "credibility": "Long-established raw pet food brand with national pet-retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Paw.com",
+  "website": "https://www.paw.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Design-led pet brand founded in 2014 (formerly Treat A Dog), known for the viral PupRug faux-fur memory-foam dog bed and decor-matching pet products sold through its own store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.meersworld.net/2024/05/best-pet-brands-affiliate-programs.html",
+    "summary": "Meer's World roundup of Impact Radius-powered pet programs lists Paw.com at 10% commission per sale with a 30-day cookie, serviceable in the US and Canada, and describes the brand as founded in 2014 making premium pet products."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://articles.hepper.com/best-pet-affiliate-programs/",
+    "summary": "Rates conflict across fetched sources - Hepper and AdCompares report 20% per sale (AdCompares also names Rakuten and FlexOffers as routes, with Refersion referenced), Meer's World and Diggity Marketing report 10% via Impact, and an AffiliateWorld forum review reports 6.4% - so commission_rate is recorded as null and the network as Impact per the dedicated Impact-programs listing."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://adcompares.com/affiliate/programs/dog/",
+    "summary": "No earnings-cap statement and no absolute creator-count evidence appears in any fetched source, so commission_cap and creator_saturation are both unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.meersworld.net/2024/05/best-pet-brands-affiliate-programs.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Paw.com Affiliate Program - listed on Impact (published rates conflict: 10% vs 20% vs 6.4%)",
+   "application_url": null,
+   "source_url": "https://www.meersworld.net/2024/05/best-pet-brands-affiliate-programs.html"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 6,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "The PupRug is a proven viral, decor-friendly pet product - a natural fit for pet and home creators.",
+    "ugc_evidence": "The brand markets heavily on social around its aesthetic products and runs network affiliate programs on multiple routes.",
+    "compensation": "Published rates conflict across sources (10%, 20% and 6.4% all reported), so the rate is null and this score stays low despite the program's popularity.",
+    "contact_access": "No public partnerships email found; access is through affiliate networks.",
+    "opportunity_availability": "Open application through Impact (and reportedly Rakuten/FlexOffers).",
+    "credibility": "Founded 2014, award-winning design positioning, average order values reported at $120-$300+."
+   }
+  }
+ },
+ {
+  "name": "Darwin's Natural Pet Products",
+  "website": "https://www.darwinspet.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Raw pet food subscription brand delivering fresh-frozen, minimally processed raw meals for dogs and cats to customers' doors across the US, made with USDA-quality human-grade ingredients and formulated to AAFCO guidelines.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://darwinspet.com",
+    "summary": "Darwin's own homepage confirms the offer: raw dog and cat meals built on real animal proteins and organs with USDA-quality ingredients, complete and balanced to AAFCO guidelines, reviewed by veterinary nutritionists, with free US shipping on orders over 20 lbs and press coverage from Forbes and Dog Food Advisor."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/darwins-natural-pet-products/",
+    "summary": "Lasso's Darwin's program page lists a flat $50 commission per full order with a 45-day cookie, aimed at pet bloggers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.acciyo.com/46-pet-affiliate-programs-every-affiliate-offer-you-need/",
+    "summary": "Acciyo's pet-program roundup instead reports up to $75 per new customer for Darwin's, conflicting with Lasso's $50 per full order, so commission_rate is recorded as null; no earnings-cap or creator-count evidence is published, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/darwins-natural-pet-products/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Darwin's Natural Pet Products Affiliate Program - flat per-order bounty reported ($50 vs $75 conflict - verify at signup)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/darwins-natural-pet-products/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Raw feeding subscription with strong before/after pet-health content potential for pet creators.",
+    "ugc_evidence": "The affiliate program is marketed to pet bloggers and creators in the program listings; no creator-specific page was found on the brand site.",
+    "compensation": "A flat per-order bounty is reported but the amount conflicts ($50 per full order vs $75 per new customer), so the rate is null.",
+    "contact_access": "No affiliate contact is published in fetched sources; the homepage lists only a customer phone line.",
+    "opportunity_availability": "Open join flow described by the program listings with a standard approval step.",
+    "credibility": "Featured by Forbes and Dog Food Advisor; AAFCO-complete meals reviewed by a veterinary nutritionist panel (own homepage)."
+   }
+  }
+ }
+]
