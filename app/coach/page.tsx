@@ -76,6 +76,30 @@ export default function CoachPage() {
         <Link href="/creator-growth/art-of-human-connection" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Enter the LIVE Mastery Experience →</Link>
       </section>
 
+      <section style={{ ...panel, textAlign: "center", border: "1px solid #e879f9", boxShadow: "0 0 44px rgba(217,70,239,0.4)" }}>
+        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "4px 14px", fontSize: 12.5, fontWeight: 700, letterSpacing: 2 }}>⭐ CREATOR MASTERCLASS</span>
+        <h2 style={{ fontSize: 26, margin: "12px 0 6px", fontWeight: 800 }}>The First 3 Seconds: Win the Scroll or Lose the Viewer</h2>
+        <p style={{ ...sub, maxWidth: 640, margin: "0 auto 16px" }}>
+          The First 3 Seconds Intelligence System: Interrupt, Connect, Create a Reason to Stay — the 15 powerful
+          opening styles, five complete worked hooks, the HOOK → PROOF → VALUE → PAYOFF → ACTION sequence, and
+          the First 3 Seconds Chamber testing tool.
+        </p>
+        <p style={{ color: "#f0abfc", fontWeight: 800, fontSize: 17, margin: "0 auto 16px" }}>The first three seconds earn the opportunity. The rest of the video must deserve the attention.</p>
+        <Link href="/creator-growth/first-3-seconds" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Enter the Masterclass →</Link>
+      </section>
+
+      <section style={{ ...panel, textAlign: "center", border: "1px solid #e879f9", boxShadow: "0 0 44px rgba(217,70,239,0.4)" }}>
+        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "4px 14px", fontSize: 12.5, fontWeight: 700, letterSpacing: 2 }}>⭐ CREATOR MASTERCLASS</span>
+        <h2 style={{ fontSize: 26, margin: "12px 0 6px", fontWeight: 800 }}>The Art of Captivating Human Attention</h2>
+        <p style={{ ...sub, maxWidth: 640, margin: "0 auto 16px" }}>
+          The Human Attention Intelligence Masterclass: the 15 attention triggers, the Friendly Controversy
+          Laboratory, the emotional journey of a captivating video, the 7-day challenge — and the Human
+          Attention Reactor, which turns your topic into strategies, hooks, controversy angles, and comment prompts.
+        </p>
+        <p style={{ color: "#f0abfc", fontWeight: 800, fontSize: 17, margin: "0 auto 16px" }}>Don&rsquo;t manufacture attention. Earn it.</p>
+        <Link href="/creator-growth/art-of-captivating-attention" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Enter the Masterclass →</Link>
+      </section>
+
       <VideoLab />
 
       <section style={panel}>
