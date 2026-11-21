@@ -14,6 +14,16 @@ const RequestSchema = z.object({
   stage: z.enum(["cold", "curious", "skeptical", "ready"]),
 });
 
+// One buyer's treatment of one inventory proof element (Proof Fix V2).
+// Every buyer must return one entry per inventory element — this is
+// what makes the completeness gate checkable in code rather than by
+// reading prose after the fact.
+const ProofTreatmentSchema = z.object({
+  elementId: z.string(),
+  stance: z.enum(["credited", "questioned", "needs_substantiation"]),
+  note: z.string(),
+});
+
 const PersonaSchema = z.object({
   name: z.string(),
   personality: z.string(),
@@ -25,6 +35,7 @@ const PersonaSchema = z.object({
   biggestObjection: z.string(),
   missingEvidence: z.string(),
   improvement: z.string(),
+  proofTreatment: z.array(ProofTreatmentSchema).max(20),
   outcome: z.enum([
     "likely_to_continue",
     "needs_more_information",
@@ -32,6 +43,8 @@ const PersonaSchema = z.object({
     "considering_purchase"
   ]),
 });
+
+type PersonaOutput = z.infer<typeof PersonaSchema>;
 
 const ResultSchema = z.object({
   overallAnalysis: z.string(),
@@ -46,8 +59,59 @@ const ResultSchema = z.object({
   finalAdvice: z.string(),
 });
 
+// Proof Fix V2 — Stage 1: evidence extraction. A structured proof
+// inventory is built from the script BEFORE any buyer reacts, so buyer
+// synthesis consumes a validated inventory instead of rereading the
+// marketing script and anchoring on its lead claim. Exact wording is
+// preserved verbatim; ids are assigned in script order (P1, P2, ...).
+const ProofElementSchema = z.object({
+  id: z.string(),
+  category: z.enum([
+    "statistic_or_study",
+    "named_expert_or_customer",
+    "review_count_or_rating",
+    "guarantee_or_risk_reversal",
+    "product_claim",
+    "other",
+  ]),
+  exactWording: z.string(),
+  source: z.string(),
+});
+
+const ExtractionSchema = z.object({
+  elements: z.array(ProofElementSchema).max(20),
+  // Extraction is itself model-generated and can miss evidence. The
+  // confidence and the ambiguity flags are recorded, never hidden:
+  // completeness against known test fixtures is measurable exactly;
+  // in uncontrolled production scripts it can only be estimated.
+  confidence: z.enum(["high", "medium", "low"]),
+  ambiguities: z.array(z.string()).max(5),
+});
+
+// Proof Fix V2 — Stage 2: evidence evaluation. Each extracted element
+// is classified by provenance and weighed. The hierarchy is a
+// weighting, NOT a truth detector: independently verified > manufacturer
+// declared > self-run study > unsupported assertion. A named source is
+// not automatically independent; a guarantee is a risk reversal, not
+// scientific proof.
+const EvaluatedElementSchema = ProofElementSchema.extend({
+  provenance: z.enum([
+    "independently_verified",
+    "manufacturer_declared",
+    "self_run_study",
+    "unsupported_assertion",
+  ]),
+  weight: z.enum(["highest", "moderate", "lower", "lowest"]),
+  limitations: z.string(),
+  substantiationNeeded: z.string(),
+});
+
+const EvaluationSchema = z.object({
+  elements: z.array(EvaluatedElementSchema).max(20),
+});
+
 // The combined report sections, without the personas — produced by the
-// Phase 2 synthesis call and merged with the Phase 1 persona results.
+// synthesis call in Stage 3 and merged with the persona results.
 const SynthesisSchema = z.object({
   overallAnalysis: z.string(),
   buyerSummary: z.string(),
@@ -127,22 +191,34 @@ IMPORTANT RULES:
 // Per-attempt timeouts for one generation piece. Each piece runs well
 // under the route's 60-second cap, so a slow call is aborted and
 // retried instead of timing out the whole request.
+const EXTRACTION_TIMEOUT_MS = 15_000;
+const EVALUATION_TIMEOUT_MS = 15_000;
 const PERSONA_TIMEOUT_MS = 30_000;
 const SYNTHESIS_TIMEOUT_MS = 40_000;
 
-// Runs one generation piece with an abort timeout, retrying it exactly
-// once on any failure (including abort/timeout). Returns the piece's
-// value and its total wall time, including the failed first attempt
-// when a retry was needed. Throws if the retry also fails.
+// Runs one generation piece with an abort timeout, retrying it on any
+// failure (including abort/timeout) up to maxRetries times (default 1,
+// the route's standard reliability retry). Returns the piece's value
+// and its total wall time, including failed attempts when a retry was
+// needed. Throws if every attempt fails. The timeout may be a factory,
+// re-evaluated per attempt, so callers can bound an attempt by a
+// shared cumulative deadline rather than a fixed budget.
 async function runPiece<T>(
   attempt: (signal: AbortSignal) => Promise<T>,
-  timeoutMs: number
+  timeoutMs: number | (() => number),
+  maxRetries = 1
 ): Promise<{ value: T; ms: number }> {
   const start = Date.now();
   let lastError: unknown = null;
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i <= maxRetries; i++) {
+    const attemptTimeout =
+      typeof timeoutMs === "function" ? timeoutMs() : timeoutMs;
+    if (attemptTimeout <= 0) {
+      lastError = new Error("The generation deadline was reached.");
+      break;
+    }
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    const timer = setTimeout(() => controller.abort(), attemptTimeout);
     try {
       const value = await attempt(controller.signal);
       return { value, ms: Date.now() - start };
@@ -230,10 +306,189 @@ ${script}
 
     const generationStart = Date.now();
 
-    // Phase 1 — the five buyers, one smaller call each, in parallel.
+    // Cumulative deadline (owner's safeguard): per-piece timeouts
+    // alone cannot guarantee the route's 60-second cap, because the
+    // stages are sequential — extraction, evaluation and synthesis
+    // could otherwise stack past it. Every attempt's timeout is the
+    // smaller of its configured timeout and the time left before
+    // this deadline, which sits 5 seconds under the cap so the route
+    // answers with its own error instead of a platform timeout.
+    const GENERATION_DEADLINE_MS = 55_000;
+    const deadlineAt = generationStart + GENERATION_DEADLINE_MS;
+    const budget = (configured: number) =>
+      Math.min(configured, deadlineAt - Date.now());
+
+    // Proof Fix V2, Stage 1 — evidence extraction. Build the complete
+    // proof inventory from the script before any buyer reacts.
+    const extractionResult = await runPiece(async (signal) => {
+      const { output } = await generateText({
+        model,
+        output: Output.object({
+          schema: ExtractionSchema,
+        }),
+        abortSignal: signal,
+        system: `${ENGINE_SYSTEM}
+For this call, do not analyze the video and do not speak for any
+buyer. Your only job is EVIDENCE EXTRACTION: build a complete,
+structured proof inventory from the script in the prompt.
+
+Extract EVERY element the script uses as proof or persuasion:
+statistics, studies and trials, named experts or customers, review
+counts and ratings, guarantees, warranties, refunds and exchanges,
+and specific product claims. For each element record:
+- id: "P1", "P2", ... in the order the elements appear in the script.
+- category: what kind of proof it is.
+- exactWording: the element's wording, copied verbatim from the script.
+- source: who asserts it, exactly as the script presents it (for
+  example "the brand", or a named person).
+
+Also record:
+- confidence: how confident you are that the inventory is complete.
+- ambiguities: anything that might be proof but is vague or unclear,
+  and any proof the script hints at without actually stating.
+
+Extract only what the script actually contains. Do not invent proof
+that is not there, and do not evaluate or react to the proof yet.
+      `,
+        prompt: `
+Build the proof inventory for this creator's sales video.
+${contextBlock}
+      `,
+      });
+
+      if (!output) {
+        throw new Error("The AI did not return a valid report.");
+      }
+
+      // Inventory validation (owner's safeguards): ids must be unique,
+      // wording must be non-empty, and exact duplicates are dropped.
+      // Ids are reassigned in script order so downstream stages can
+      // rely on them regardless of what the extraction returned.
+      const seen = new Set<string>();
+      const elements = output.elements
+        .filter((el) => el.exactWording.trim().length > 0)
+        .filter((el) => {
+          const key = el.exactWording.trim().toLowerCase();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        })
+        .map((el, i) => ({ ...el, id: `P${i + 1}` }));
+
+      return { ...output, elements };
+    }, () => budget(EXTRACTION_TIMEOUT_MS));
+
+    const extraction = extractionResult.value;
+
+    // Proof Fix V2, Stage 2 — evidence evaluation. Classify every
+    // extracted element by provenance and weight before the buyers
+    // see it. The evaluated inventory must cover exactly the same
+    // element ids as the extraction; a mismatch fails the attempt
+    // and runPiece retries it.
+    const evaluationResult = await runPiece(async (signal) => {
+      const { output } = await generateText({
+        model,
+        output: Output.object({
+          schema: EvaluationSchema,
+        }),
+        abortSignal: signal,
+        system: `${ENGINE_SYSTEM}
+For this call, do not analyze the video and do not speak for any
+buyer. Your only job is EVIDENCE EVALUATION: classify each element
+of the proof inventory in the prompt by provenance, and weigh it.
+
+Provenance hierarchy (a weighting, NOT a truth detector):
+- independently_verified — third-party or verifiable evidence, such
+  as verified-buyer ratings or independent reviews. Weight: highest.
+- manufacturer_declared — specs and claims the brand itself states.
+  Weight: moderate.
+- self_run_study — a study or trial the brand ran itself. Weight:
+  lower. It can still be useful; state its methodology limits.
+- unsupported_assertion — a claim with no identifiable source or
+  checkable basis. Weight: lowest.
+
+Rules:
+- A named expert or customer is NOT automatically independent or
+  credible just because they are named.
+- A guarantee, warranty, refund or exchange is a risk reversal, not
+  scientific proof of effectiveness.
+- For every element return the same id, category, exactWording and
+  source you were given, plus its provenance, its weight, its
+  limitations, and what substantiation would strengthen it.
+- Return exactly the same set of element ids you were given — no
+  element added, none dropped.
+      `,
+        prompt: `
+Evaluate this proof inventory.
+${contextBlock}
+PROOF INVENTORY (from the extraction stage):
+${JSON.stringify(extraction.elements, null, 2)}
+      `,
+      });
+
+      if (!output) {
+        throw new Error("The AI did not return a valid report.");
+      }
+
+      const expectedIds = extraction.elements.map((el) => el.id);
+      const returnedIds = output.elements.map((el) => el.id);
+      const coversExactly =
+        returnedIds.length === expectedIds.length &&
+        expectedIds.every((id) => returnedIds.includes(id));
+      if (!coversExactly) {
+        throw new Error(
+          "The evaluation did not cover the extracted inventory exactly."
+        );
+      }
+
+      return output;
+    }, () => budget(EVALUATION_TIMEOUT_MS));
+
+    const evaluation = evaluationResult.value;
+
+    const inventoryBlock = `
+PROOF INVENTORY (evaluated — AUTHORITATIVE for all proof judgments):
+${JSON.stringify(evaluation.elements, null, 2)}
+Extraction confidence: ${extraction.confidence}${
+      extraction.ambiguities.length > 0
+        ? `\nExtraction ambiguities flagged for review: ${extraction.ambiguities.join(
+            "; "
+          )}`
+        : ""
+    }
+`;
+
+    // Proof Fix V2, Stage 3 — the five buyers, one smaller call each,
+    // in parallel. Each buyer receives the script (hooks, tone,
+    // wording, emotional context) AND the evaluated inventory, which
+    // is authoritative for proof: the buyer must treat every element
+    // in proofTreatment, and a buyer that skips an element is retried
+    // once with the missed elements named.
+    const inventoryIds = evaluation.elements.map((el) => el.id);
+
+    // Exact-set coverage (owner's correction): a buyer's treatment is
+    // complete only when its element ids are unique and their set
+    // equals the inventory id set — exactly one treatment per element.
+    // Duplicate or unknown ids never count as coverage.
+    const assessCoverage = (p: PersonaOutput) => {
+      const ids = p.proofTreatment.map((t) => t.elementId);
+      const uniqueIds = new Set(ids);
+      const missing = inventoryIds.filter((id) => !uniqueIds.has(id));
+      const unknown = ids.filter((id) => !inventoryIds.includes(id));
+      const validCount = inventoryIds.length - missing.length;
+      const exact =
+        missing.length === 0 &&
+        unknown.length === 0 &&
+        ids.length === inventoryIds.length;
+      return { exact, validCount, missing, unknown };
+    };
+
     const personaResults = await Promise.all(
-      PERSONAS.map((persona) =>
-        runPiece(async (signal) => {
+      PERSONAS.map((persona) => {
+        const attemptPersona = async (
+          signal: AbortSignal,
+          problems: string
+        ) => {
           const { output } = await generateText({
             model,
             output: Output.object({
@@ -252,11 +507,37 @@ exactly "${persona.name}". Do not analyze, quote, or speak for any
 other buyer. Score interestScore, trustScore and desireScore from 0
 to 10 — 0 means none at all, 10 means the strongest possible
 reaction. Never score above 10.
+
+PROOF RULES for this call:
+- The evaluated PROOF INVENTORY in the prompt is the authoritative
+  source for what proof the script contains. The script itself
+  supplies hooks, tone and wording — you may interpret the script,
+  but you may not silently override or omit the inventory.
+- In proofTreatment, return exactly one entry for EVERY inventory
+  element: its elementId, your stance (credited, questioned, or
+  needs_substantiation), and a note explaining why that element
+  matters or does not matter to you, this specific buyer.
+  Mentioning an element without judging it does not count.
+- Weigh proof by its provenance: independently verified evidence
+  deserves more trust than manufacturer-declared claims, which
+  deserve more than a self-run study, which deserves more than an
+  unsupported assertion. Let that ordering show in your trustScore
+  and your reasoning.
+- Never cite proof that is not in the inventory, and never treat a
+  claim in the inventory as an independently established fact.${
+              problems
+                ? `
+- Your previous attempt had coverage problems: ${problems}.
+  This time return exactly one treatment per inventory element —
+  no omissions, no duplicates, no ids outside the inventory.`
+                : ""
+            }
       `,
             prompt: `
 Analyze this creator's sales video from the perspective of the
 ${persona.name} only.
 ${contextBlock}
+${inventoryBlock}
 Explain, from this buyer's perspective only:
 - What this buyer notices first.
 - What they might think while watching.
@@ -275,15 +556,88 @@ Do not invent facts about the product.
           }
 
           return output;
-        }, PERSONA_TIMEOUT_MS)
-      )
+        };
+
+        return (async (): Promise<{ value: PersonaOutput; ms: number }> => {
+          const start = Date.now();
+          const first = await runPiece(
+            (signal) => attemptPersona(signal, ""),
+            () => budget(PERSONA_TIMEOUT_MS)
+          );
+          const firstCoverage = assessCoverage(first.value);
+          if (firstCoverage.exact) {
+            return { value: first.value, ms: Date.now() - start };
+          }
+          // Completeness gate: one corrective retry naming the exact
+          // problems — but only when the remaining deadline budget
+          // leaves real room for it. Otherwise the first attempt
+          // stands and its coverage failure is recorded as-is.
+          if (deadlineAt - Date.now() <= 8_000) {
+            return { value: first.value, ms: Date.now() - start };
+          }
+          const duplicateCount =
+            first.value.proofTreatment.length -
+            new Set(first.value.proofTreatment.map((t) => t.elementId)).size;
+          const problems = [
+            firstCoverage.missing.length > 0
+              ? `these inventory elements received no treatment: ${firstCoverage.missing.join(", ")}`
+              : "",
+            firstCoverage.unknown.length > 0
+              ? `these treatment elementIds are not in the inventory: ${firstCoverage.unknown.join(", ")}`
+              : "",
+            duplicateCount > 0
+              ? "some elements received duplicate treatments"
+              : "",
+          ]
+            .filter(Boolean)
+            .join("; ");
+          // Invocation policy (owner's qualification, resolved): the
+          // corrective generation is a SINGLE attempt — runPiece is
+          // called with maxRetries 0, so it cannot stack its own
+          // reliability retry on top of the corrective one. Per buyer
+          // the ceiling is therefore 2 invocations for the initial
+          // generation (1 + 1 reliability retry) plus 1 corrective
+          // invocation = 3, all inside the shared deadline. And the
+          // corrective is best-effort: if it fails outright, the
+          // first attempt stands instead of failing the request.
+          let chosen = first.value;
+          try {
+            const second = await runPiece(
+              (signal) => attemptPersona(signal, problems),
+              () => budget(PERSONA_TIMEOUT_MS),
+              0
+            );
+            const secondCoverage = assessCoverage(second.value);
+            // Selection: prefer exact coverage; if neither attempt
+            // is exact, retain the greater valid coverage. A
+            // malformed retry can never displace a fuller first
+            // attempt.
+            if (
+              secondCoverage.exact ||
+              secondCoverage.validCount >= firstCoverage.validCount
+            ) {
+              chosen = second.value;
+            }
+          } catch {
+            // First attempt stands; its coverage is recorded as-is.
+          }
+          return { value: chosen, ms: Date.now() - start };
+        })();
+      })
     );
 
     const personaOutputs = personaResults.map((result) => result.value);
     const personaMs = personaResults.map((result) => result.ms);
+    // Final coverage per buyer, recorded explicitly with the timing
+    // line: exact-set success, plus any missing and unknown ids that
+    // remain after the corrective retry.
+    const coverage = personaOutputs.map((p) => {
+      const c = assessCoverage(p);
+      return { exact: c.exact, missing: c.missing, unknown: c.unknown };
+    });
 
-    // Phase 2 — one synthesis call for the combined report sections,
-    // reflecting the five persona results from Phase 1.
+    // Stage 3, synthesis — one call for the combined report sections,
+    // reflecting the five persona results and the evaluated inventory.
     const synthesisResult = await runPiece(async (signal) => {
       const { output } = await generateText({
         model,
@@ -300,10 +654,22 @@ strongest element, the improved hook, the rewritten script, the
 proof to show, the experiment plan, and the final advice —
 reflecting those five buyer reports. Do not re-analyze the buyers
 individually.
+
+PROOF RULES for this call:
+- The evaluated PROOF INVENTORY in the prompt is authoritative for
+  what proof the script contains. In the overall analysis, state
+  explicitly which inventory elements the panel credited most and
+  which it discounted most, and why — including how the elements'
+  provenance (independently verified, manufacturer-declared,
+  self-run study, unsupported assertion) drove that difference.
+- Never describe a claim from the inventory as an independently
+  established fact, and never cite proof that is not in the
+  inventory.
       `,
         prompt: `
 Analyze this creator's sales video.
 ${contextBlock}
+${inventoryBlock}
 Five simulated buyers have already analyzed this video
 independently. Their individual reports:
 
@@ -329,7 +695,7 @@ Do not invent facts about the product.
       }
 
       return output;
-    }, SYNTHESIS_TIMEOUT_MS);
+    }, () => budget(SYNTHESIS_TIMEOUT_MS));
 
     // Assemble the full report in the exact shape the page expects and
     // validate it before returning — a partial report is never sent.
@@ -341,7 +707,12 @@ Do not invent facts about the product.
     console.log(
       JSON.stringify({
         evt: "buyer-brain-timing",
+        extractionMs: extractionResult.ms,
+        evaluationMs: evaluationResult.ms,
+        inventorySize: inventoryIds.length,
+        extractionConfidence: extraction.confidence,
         personaMs,
+        coverage,
         synthesisMs: synthesisResult.ms,
         totalMs: Date.now() - generationStart,
       })
