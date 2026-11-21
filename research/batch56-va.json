@@ -1,0 +1,618 @@
+[
+ {
+  "name": "House of Elévara",
+  "website": "https://houseofelevara.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US luxury house selling fragrance and leather goods through shop.houseofelevara.com; its Ambassador Program pays commission on every sale through a personal link, starting at 10% and rising to 25% with lifetime sales, and its own program page states there is no cap and no ceiling on earnings.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "admin@houseofelevara.com",
+    "contact_url": null,
+    "source_url": "https://houseofelevara.com/ambassador.html"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://houseofelevara.com/ambassador.html",
+    "summary": "The brand's own Ambassador Program page states 'Commission begins at 10% and rises to 25% as you sell. No cap. No expiration.' and, under 'No Cap, No Expiry', 'There is no ceiling on what you earn and no expiration on your link.' The page also shows the earning ceiling as '∞'. This is an explicit no-earnings-cap statement on the brand's own page, so commission_cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://houseofelevara.com/ambassador.html",
+    "summary": "Program tiers from the same page: Ambassador 10% from the first sale, Signature 15% unlocked at $2,500 lifetime sales, Maison 25% unlocked at $10,000 lifetime sales; tiers never reset. Free to join, no activation fee, no buy-in or inventory; commission is calculated on completed, non-refunded orders and paid monthly. The inaugural collection is led by N° 01 The Parfum ($240 retail), with leather goods arriving in sequence. The contact email admin@houseofelevara.com and phone +1 (307) 289-4953 are published at the foot of the page."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "official_site",
+    "source_url": "https://houseofelevara.com/ambassador.html",
+    "summary": "No absolute creator or ambassador count is published on the page checked; the brand is newly launched, but a launch date alone is not low-saturation evidence, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://houseofelevara.com/ambassador.html",
+   "source_url": "https://houseofelevara.com/ambassador.html",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "House of Elévara Ambassador Program (brand direct)",
+   "application_url": "https://houseofelevara.com/ambassador.html",
+   "source_url": "https://houseofelevara.com/ambassador.html"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 14,
+   "compensation": 19,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Fragrance-led luxury house; the Parfum is the available hero product, with leather goods still arriving, so the promotable catalog is narrow for beauty creators today.",
+    "ugc_evidence": "A named Ambassador Program built around personal-link selling, with editorial features for active ambassadors and no following-size requirement.",
+    "compensation": "10% starting rate rising permanently to 15% and 25% at lifetime-sales tiers, with an explicitly uncapped, no-ceiling statement on the brand's own page.",
+    "contact_access": "A published contact email and phone number on the program page itself.",
+    "opportunity_availability": "Free to join with no activation fee, buy-in, minimum purchase or exclusivity.",
+    "credibility": "A very new, small house with a short track record and a collection still rolling out."
+   }
+  }
+ },
+ {
+  "name": "The Detox Market",
+  "website": "https://www.thedetoxmarket.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Clean beauty retailer founded in 2010 curating natural and organic skincare, makeup, haircare and wellness brands; its affiliate program runs on Impact and pays 10% per sale on a 30-day cookie.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/the-detox-market/",
+    "summary": "LinkClicky's program listing records The Detox Market on the Impact platform at 10% per sale for US and CA regions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/the-detox-market/",
+    "summary": "Lasso's listing independently records a 10% per-sale commission and a 30-day cookie duration for The Detox Market affiliate program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.referralcandy.com/blog/beauty-affiliate-programs/",
+    "summary": "ReferralCandy's beauty affiliate roundup describes The Detox Market as a leading retailer of natural and organic skincare, makeup and wellness products offering affiliates 10% of sales."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://www.getvendo.com/b/the-detox-market-marketplace-affiliate-program",
+    "summary": "A Vendo marketplace write-up says there is 'no cap on the number of referral occurrences' — that is a limit on referral COUNT, not on earnings, so under the directory rules it does not qualify as uncapped and commission_cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/the-detox-market/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "The Detox Market Affiliate Program (via Impact)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/the-detox-market/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 14,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A broad clean-beauty catalog across skincare, makeup, hair and wellness gives creators a wide range of demo-friendly products.",
+    "ugc_evidence": "An established affiliate program on Impact aimed at beauty publishers and creators.",
+    "compensation": "10% per sale with a 30-day cookie, corroborated by multiple listings; no earnings-cap statement was found.",
+    "contact_access": "No published program contact email was found on the pages checked; contact runs through Impact.",
+    "opportunity_availability": "Open application through Impact, subject to merchant approval.",
+    "credibility": "Operating since 2010 as a recognized clean-beauty retailer in the US and Canada."
+   }
+  }
+ },
+ {
+  "name": "4.5.6. Skin",
+  "website": "https://456skin.com",
+  "country": "United Kingdom",
+  "category_slug": "skincare",
+  "description": "UK skincare brand built specifically for melanin-rich skin (phototypes IV, V and VI), selling science-backed routines direct to consumer; its affiliate program runs on Awin and pays 10% per sale on a 30-day cookie.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "email": "contact@456skin.com",
+    "contact_url": null,
+    "source_url": "https://456skin.com/about-us"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.fmtc.co/fmtc-merchants-03-08-2021-big-furniture-warehouse-justyousize-letterfest-plantingtree-threadbeast/",
+    "summary": "FMTC's merchant feed lists '4.5.6. Skin' on Awin (merchant #22163) in Health & Beauty with a signup route, confirming the program's network."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/4-5-6-skin/",
+    "summary": "Lasso's listing records a 10% per-sale commission and a 30-day cookie duration for the 4.5.6. Skin affiliate program."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://456skin.com/about-us",
+    "summary": "The brand's own About page describes its mission to serve non-Caucasian skin types (phototypes IV–VI) and publishes the contact email contact@456skin.com."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "creator_saturation",
+    "source_type": "listing",
+    "source_url": "https://app.dealroom.co/companies/4_5_6_skin",
+    "summary": "Dealroom profiles 456skin.com as a DTC skincare startup with products priced £28–£99; no absolute creator count is published anywhere checked, so creator_saturation is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/4-5-6-skin/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "4.5.6. Skin Affiliate Program (via Awin)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/4-5-6-skin/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Skincare formulated for phototypes IV–VI fills a clear underserved niche with strong routine-content potential.",
+    "ugc_evidence": "A live Awin program with a public signup route for beauty publishers.",
+    "compensation": "10% per sale with a 30-day cookie; no earnings-cap statement was found.",
+    "contact_access": "A published contact email on the brand's own About page.",
+    "opportunity_availability": "Open application through Awin, subject to approval.",
+    "credibility": "A small UK startup; press and retail track record is still limited."
+   }
+  }
+ },
+ {
+  "name": "SuperYou Skin",
+  "website": "https://www.superyouskin.com",
+  "country": null,
+  "category_slug": "skincare",
+  "description": "Skincare brand built around probiotic and superfood formulations; its own affiliate page invites partners to earn 10% commission on all products through BixGrow, free to join.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.superyouskin.com/pages/affiliate",
+    "summary": "The brand's own affiliate page states it has partnered with BixGrow to run the program and lists the benefits: 'Earn 10% commission on all products', exclusive newsletters and product descriptions, affiliate-only special offers, and 'it's free to join'."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.superyouskin.com/pages/affiliate",
+    "summary": "The brand's affiliate page makes no statement about an earnings cap, so commission_cap is recorded as unknown; no absolute creator count is published either, so creator_saturation is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "BixGrow",
+   "commission_rate": 10,
+   "application_url": "https://www.superyouskin.com/pages/affiliate",
+   "source_url": "https://www.superyouskin.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "SuperYou Skin Affiliate Program (via BixGrow)",
+   "application_url": "https://www.superyouskin.com/pages/affiliate",
+   "source_url": "https://www.superyouskin.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Probiotic and superfood skincare with a simple routine story that suits short-form content.",
+    "ugc_evidence": "A public affiliate page on the brand's own site recruiting partners, run through BixGrow.",
+    "compensation": "10% commission on all products per the brand's own page; no cap statement found.",
+    "contact_access": "No published program contact email was found on the page checked.",
+    "opportunity_availability": "Free to join from the brand's own affiliate page.",
+    "credibility": "A small brand with limited third-party coverage so far."
+   }
+  }
+ },
+ {
+  "name": "Advanced Clinicals",
+  "website": "https://advancedclinicals.com",
+  "country": null,
+  "category_slug": "skincare",
+  "description": "Mass-market skincare brand selling spa-inspired face and body treatments (retinol, vitamin C, collagen lines) at accessible prices; its affiliate program runs on ShareASale at 15% per sale.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/advanced-clinicals/",
+    "summary": "LinkClicky's program listing records Advanced Clinicals on the ShareASale platform at 15% commission per sale, described as the rate officially listed with the program."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/advanced-clinicals/",
+    "summary": "No earnings-cap statement and no absolute creator count appears in the listing checked, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/advanced-clinicals/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Advanced Clinicals Affiliate Program (via ShareASale)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/advanced-clinicals/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 15,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Affordable, ingredient-led face and body skincare with large-format products that demo well on camera.",
+    "ugc_evidence": "A listed ShareASale program open to skincare publishers and creators.",
+    "compensation": "15% per sale per the program listing — above the typical skincare rate; no cap statement found.",
+    "contact_access": "No published program contact email was found on the pages checked; contact runs through ShareASale.",
+    "opportunity_availability": "Open application through ShareASale, subject to approval.",
+    "credibility": "An established mass-market brand with wide retail and marketplace distribution."
+   }
+  }
+ },
+ {
+  "name": "Wrinkles Schminkles",
+  "website": "https://www.wrinklesschminkles.com",
+  "country": null,
+  "category_slug": "skincare",
+  "description": "Skincare brand known for reusable silicone patches for the face, chest and neck plus supporting skincare; its affiliate program runs on ShareASale at 15% per sale.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/wrinkles-schminkles/",
+    "summary": "LinkClicky's program listing records Wrinkles Schminkles on the ShareASale platform at 15% commission per sale; the brand sells silicone wrinkle-smoothing pads and skincare."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/wrinkles-schminkles/",
+    "summary": "No earnings-cap statement and no absolute creator count appears in the listing checked, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/wrinkles-schminkles/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Wrinkles Schminkles Affiliate Program (via ShareASale)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/wrinkles-schminkles/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 15,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Reusable silicone patches are highly visual, before/after-friendly products for short-form skincare content.",
+    "ugc_evidence": "A listed ShareASale program for beauty publishers.",
+    "compensation": "15% per sale per the program listing; no cap statement found.",
+    "contact_access": "No published program contact email was found on the pages checked.",
+    "opportunity_availability": "Open application through ShareASale, subject to approval.",
+    "credibility": "A niche brand with a focused product line and modest public footprint."
+   }
+  }
+ },
+ {
+  "name": "4AM Skin",
+  "website": "https://4amskin.com",
+  "country": null,
+  "category_slug": "skincare",
+  "description": "Skincare brand positioned around simple, sustainable routines for late-night lifestyles; its affiliate program runs on ShareASale at 10% per sale, open to all regions.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/4am-skin/",
+    "summary": "LinkClicky's program listing records 4AM Skin on the ShareASale platform at 10% commission per sale, available in all regions; the brand markets natural-ingredient, sustainable skincare."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/4am-skin/",
+    "summary": "No earnings-cap statement and no absolute creator count appears in the listing checked, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/4am-skin/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "4AM Skin Affiliate Program (via ShareASale)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/4am-skin/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A small, sustainability-led skincare line with a distinctive night-owl brand angle for content.",
+    "ugc_evidence": "A listed ShareASale program open to skincare publishers in all regions.",
+    "compensation": "10% per sale per the program listing; no cap statement found.",
+    "contact_access": "No published program contact email was found on the pages checked.",
+    "opportunity_availability": "Open application through ShareASale, subject to approval.",
+    "credibility": "A small indie brand with limited third-party coverage."
+   }
+  }
+ },
+ {
+  "name": "Skin Research Laboratories",
+  "website": "https://www.skinresearchlabs.com",
+  "country": null,
+  "category_slug": "beauty",
+  "description": "Beauty brand behind the NeuLash and NeuBrow enhancing serums and a wider skincare range; its affiliate program runs on ShareASale at 10% per sale on a 15-day cookie.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/skin-research-laboratories/",
+    "summary": "LinkClicky's program listing records Skin Research Laboratories on the ShareASale platform at 10% commission per sale with a 15-day cookie, available in all regions."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_cap",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/skin-research-laboratories/",
+    "summary": "No earnings-cap statement and no absolute creator count appears in the listing checked, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/skin-research-laboratories/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Skin Research Laboratories Affiliate Program (via ShareASale)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/skin-research-laboratories/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 11,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Lash and brow serums are proven, results-driven products for beauty routines and progress content.",
+    "ugc_evidence": "A listed ShareASale program for beauty publishers.",
+    "compensation": "10% per sale, tempered by a short 15-day cookie; no cap statement found.",
+    "contact_access": "No published program contact email was found on the pages checked.",
+    "opportunity_availability": "Open application through ShareASale, subject to approval.",
+    "credibility": "A long-running brand anchored by the NeuLash product line."
+   }
+  }
+ },
+ {
+  "name": "Skinsider",
+  "website": "https://skinsider.co.uk",
+  "country": "United Kingdom",
+  "category_slug": "skincare",
+  "description": "UK online retailer specializing in Korean skincare, stocking brands such as COSRX, Beauty of Joseon, Mixsoon and Purito; it takes collaboration and affiliate requests through Awin, where approved partners can receive a discount code for their audience.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/skinsider.official/"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/skinsider.official/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@skinsider.official"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://help.skinsider.co.uk/support/solutions/articles/35000245486-i-want-to-collab-where-can-i-reach-you-",
+    "summary": "Skinsider's own help centre tells creators to send a collaboration request through Awin and links to its affiliate program page at skinsider.co.uk/affiliate-program/, adding that aligned creators can be given a discount code for their audience. The same article publishes the brand's Instagram, Facebook and TikTok profile URLs."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/skinsider/",
+    "summary": "Lasso's listing describes Skinsider's program for vegan and cruelty-free skincare advocates at up to 8% per sale with a 30-day cookie. Because the only published figure is an 'up to' ceiling rather than a confirmed base rate, commission_rate is recorded as null."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://help.skinsider.co.uk/support/solutions/articles/35000245486-i-want-to-collab-where-can-i-reach-you-",
+    "summary": "No earnings-cap statement and no absolute creator count appears on the pages checked, so commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://skinsider.co.uk/affiliate-program/",
+   "source_url": "https://help.skinsider.co.uk/support/solutions/articles/35000245486-i-want-to-collab-where-can-i-reach-you-",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Skinsider Affiliate Program (via Awin)",
+   "application_url": "https://skinsider.co.uk/affiliate-program/",
+   "source_url": "https://help.skinsider.co.uk/support/solutions/articles/35000245486-i-want-to-collab-where-can-i-reach-you-"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A focused K-beauty catalog (COSRX, Beauty of Joseon, Purito and more) maps directly onto high-demand skincare content.",
+    "ugc_evidence": "The brand's own help centre routes creators into Awin collaborations with audience discount codes.",
+    "compensation": "No confirmed base rate is published; a third-party listing cites up to 8% with a 30-day cookie, so compensation scores conservatively.",
+    "contact_access": "A documented help-centre route for collab requests, though no direct program email is published.",
+    "opportunity_availability": "Application and review through Awin; collaboration calls are also announced on the brand's social channels.",
+    "credibility": "An established UK K-beauty retailer with a broad branded assortment."
+   }
+  }
+ },
+ {
+  "name": "Bluemercury",
+  "website": "https://bluemercury.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US beauty retailer carrying more than 165 skincare, makeup and fragrance brands in stores and online; its affiliate program runs through Rakuten/Linkshare and is free to join, paying commission on recommended products.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "email": null,
+    "contact_url": null,
+    "source_url": "https://bluemercury.gorgias.help/en-US/does-bluemercury-offer-an-affiliate-program-662659"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://bluemercury.gorgias.help/en-US/does-bluemercury-offer-an-affiliate-program-662659",
+    "summary": "Bluemercury's own help centre confirms it runs a free affiliate program: applicants fill out an application form and email the team, and approved affiliates receive notification from 'our affiliate partner, Rakuten/Linkshare'. The page promotes sharing eligible product links on social channels to earn commission, with a chance to be featured by the brand."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://bluemercury.gorgias.help/en-US/does-bluemercury-offer-an-affiliate-program-662659",
+    "summary": "The brand's page describes the commission only as 'competitive' and publishes no rate, earnings-cap statement or creator count, so commission_rate is null and commission_cap and creator_saturation are recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://bluemercury.gorgias.help/en-US/does-bluemercury-offer-an-affiliate-program-662659",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bluemercury Affiliate Program (via Rakuten)",
+   "application_url": null,
+   "source_url": "https://bluemercury.gorgias.help/en-US/does-bluemercury-offer-an-affiliate-program-662659"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 8,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A 165+ brand assortment across skincare, makeup and fragrance gives creators wide, high-intent product choice.",
+    "ugc_evidence": "The brand's own help centre actively recruits affiliates to share product links on social channels, with feature opportunities.",
+    "compensation": "The rate is not published (described only as competitive), so compensation scores conservatively; no cap statement found.",
+    "contact_access": "A documented application route plus a team email contact on the brand's own help page (the address itself was masked in the fetched copy and is therefore not recorded).",
+    "opportunity_availability": "Free to join via Rakuten/Linkshare application, subject to approval.",
+    "credibility": "A long-established US beauty retailer with a national store footprint."
+   }
+  }
+ }
+]

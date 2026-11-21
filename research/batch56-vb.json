@@ -1,0 +1,737 @@
+[
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://www.azazie.com/affiliate_program"
+  },
+  "category_slug": "fashion",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.azazie.com/affiliate_program",
+    "email": null,
+    "source_url": "https://www.azazie.com/affiliate_program"
+   }
+  ],
+  "country": null,
+  "description": "Online retailer of custom-made bridesmaid, wedding and special-occasion dresses in sizes 0-30 with free custom sizing, hundreds of styles and over 70 colors, sold direct through its own website.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.azazie.com/affiliate_program",
+    "summary": "Azazie's official affiliate program page states the program terms: 10% commission and a 90-day referral cookie, plus a product datafeed, creative banners and text links, and a dedicated affiliate management team; it says 'We welcome all affiliate applications.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://commission.academy/blog/best-wedding-dress-affiliate-programs/",
+    "summary": "Commission Academy's wedding-dress affiliate roundup lists Azazie at 10% commission with a 90-day cookie, monthly payouts via PayPal with a $10 minimum threshold, and states the program is managed via the ShareASale affiliate network."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-wedding-dress-affiliate-program/",
+    "summary": "One More Cup of Coffee's affiliate program guide likewise reports Azazie affiliates earn 10% commissions on sales with a 90-day cookie and that Azazie uses ShareASale to run the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.affiliateorchard.com/programs/azazie/",
+    "summary": "Affiliate Orchard's assessment describes separate Azazie routes beyond the website affiliate offer — an ambassador route (reported 3-5% commission paid to PayPal, applications reviewed) and an influencer route based on social sharing — showing the brand runs multiple creator-facing programs."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.azazie.com/affiliate_program",
+    "summary": "No fetched source states any cap on affiliate earnings for Azazie, so commission_cap is recorded as unknown; no source publishes creator/affiliate counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Azazie",
+  "opportunity": {
+   "application_url": "https://www.azazie.com/affiliate_program",
+   "source_url": "https://www.azazie.com/affiliate_program",
+   "title": "Azazie Affiliate Program"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 8,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "A published 10% commission with a long 90-day cookie is stated on the brand's own affiliate page and corroborated by two independent directories.",
+    "contact_access": "A public program page on the official site is the application route, but no direct partnerships email could be verified from fetched pages.",
+    "credibility": "Large, long-running direct-to-consumer bridal retailer with a dedicated affiliate management team and a full product datafeed.",
+    "niche_fit": "Bridal and occasion dresses are a core fashion UGC niche — try-on hauls, wedding party content and fit reviews.",
+    "opportunity_availability": "The official page explicitly welcomes all affiliate applications through ShareASale.",
+    "ugc_evidence": "Beyond the affiliate program, Azazie runs ambassador and influencer routes per Affiliate Orchard, and its try-at-home dress model is built around creator try-on content."
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.azazie.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://linkclicky.com/affiliate-program/nisolo/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": null,
+  "description": "Ethically driven footwear and accessories brand making shoes, bags and jewelry under fair-trade conditions with artisan partners in Peru, Mexico and Kenya, sold through its own website.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/nisolo/",
+    "summary": "LinkClicky's affiliate directory lists the Nisolo program on the Impact platform at 6%-8% per sale, open to all regions, with applications routed through app.impact.com (directory data last updated March 11, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/nisolo/",
+    "summary": "Lasso's directory instead quotes Nisolo at 4%-10% per sale with a 20-day cookie, and Shopper.com quotes a 3.33% payout — the published figures conflict, so commission_rate is recorded as null with the conflict documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/nisolo/",
+    "summary": "LinkClicky describes Nisolo as an ethically driven brand crafting sustainable footwear and accessories, offsetting carbon emissions and working toward a zero-waste circular model while prioritizing artisan well-being in Peru, Mexico and Kenya."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/nisolo/",
+    "summary": "No fetched source states any cap on Nisolo affiliate earnings, so commission_cap is unknown; no source publishes affiliate or creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Nisolo",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/nisolo/",
+   "title": "Nisolo Affiliate Program (via Impact)"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A program exists on Impact, but published rates conflict across directories (3.33% vs 4-10% vs 6-8%), so no rate could be verified — low score until the network listing is confirmed.",
+    "contact_access": "No public partnerships email or on-site application page could be verified from fetched pages; joining is through the Impact marketplace only.",
+    "credibility": "Established ethical footwear brand with fair-trade artisan production across three countries and national press coverage.",
+    "niche_fit": "Sustainable shoes, bags and jewelry — a strong fit for conscious-fashion creators, though a narrower niche than mainstream apparel.",
+    "opportunity_availability": "Open application through the Impact affiliate marketplace per the network directory listing.",
+    "ugc_evidence": "The Impact program targets bloggers and influencers in the shoe niche per directory listings, but no dedicated creator or ambassador program page was found on the brand's own site."
+   },
+   "ugc_evidence": 11
+  },
+  "socials": [],
+  "website": "https://nisolo.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 6,
+   "creator_saturation": "unknown",
+   "network": "Rakuten Advertising",
+   "source_url": "https://linkclicky.com/affiliate-program/birdy-grey/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": null,
+  "description": "Online bridal brand selling affordable, trend-led bridesmaid dresses (all under $100) plus bridal accessories in an inclusive range of sizes and colors, sold direct through its own website.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/birdy-grey/",
+    "summary": "LinkClicky's affiliate directory lists Birdy Grey on Rakuten Advertising at 6% commission per sale for the US region, with joining routed through Rakuten's signup (signup.linkshare.com) (directory data last updated March 10, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/birdygrey-com-affiliate-program",
+    "summary": "Shopper.com's partnership listing describes the Birdy Grey US affiliate program with a payout range of 5-10% per sale; the range brackets LinkClicky's precise 6% Rakuten figure, so 6% is recorded as the listed network rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/birdy-grey/",
+    "summary": "LinkClicky describes Birdy Grey as an online bridal brand specializing in affordable bridesmaid dresses priced under $100, with convertible styles and bridal accessories."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/birdy-grey/",
+    "summary": "No fetched source states any cap on Birdy Grey affiliate earnings, so commission_cap is unknown; no source publishes creator or affiliate counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Birdy Grey",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/birdy-grey/",
+   "title": "Birdy Grey Affiliate Program (via Rakuten Advertising)"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A single precise network figure is published — 6% per sale on Rakuten Advertising — inside the broader 5-10% range quoted by Shopper.com.",
+    "contact_access": "No public partnerships email could be verified from fetched pages; the only route is the Rakuten Advertising marketplace signup.",
+    "credibility": "Well-known US direct-to-consumer bridal brand with national wedding-press coverage.",
+    "niche_fit": "Bridesmaid dresses under $100 are a proven wedding-content niche for try-on and bridal-party creators.",
+    "opportunity_availability": "Open signup through Rakuten Advertising per the network directory.",
+    "ugc_evidence": "The program is a standard publisher affiliate offer; no dedicated creator, ambassador or UGC program was documented on fetched pages."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://www.birdygrey.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://linkclicky.com/affiliate-program/jennifer-behr/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": "United States",
+  "description": "Luxury designer brand of handmade hair accessories, jewelry and bridal accessories — headbands, earrings and veils — crafted in New York City and sold through its own website and high-end retailers.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/jennifer-behr/",
+    "summary": "LinkClicky's affiliate directory lists the Jennifer Behr program on ShareASale at 20% commission per sale with a 90-day cookie duration, open to all regions (directory data last updated March 11, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/jennifer-behr/",
+    "summary": "LinkClicky describes Jennifer Behr as a designer of luxurious hair accessories and jewelry, each piece meticulously handcrafted in New York City, with celebrity clientele and features in high-profile publications."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/jennifer-behr/",
+    "summary": "No fetched source states any cap on Jennifer Behr affiliate earnings, so commission_cap is unknown; no source publishes creator or affiliate counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Jennifer Behr",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/jennifer-behr/",
+   "title": "Jennifer Behr Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "compensation": 16,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "20% per sale with a 90-day cookie is officially listed with the ShareASale program per the network directory — one of the highest published rates in this group.",
+    "contact_access": "No public partnerships email could be verified from fetched pages; applications run through ShareASale only.",
+    "credibility": "Established luxury accessories house, handmade in New York City, with celebrity clientele and major editorial coverage.",
+    "niche_fit": "Luxury hair accessories and bridal pieces are a strong fit for bridal, occasion and luxury-fashion creators.",
+    "opportunity_availability": "Open application through the ShareASale marketplace per the network directory.",
+    "ugc_evidence": "A standard publisher affiliate program; no separate creator or ambassador program was documented on fetched pages."
+   },
+   "ugc_evidence": 10
+  },
+  "socials": [],
+  "website": "https://jenniferbehr.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://mariam-col.com/en-gb/pages/ambassador",
+   "commission_cap": "uncapped",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://mariam-col.com/en-gb/pages/ambassador"
+  },
+  "category_slug": "fashion",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://mariam-col.com/en-gb/pages/ambassador",
+    "email": null,
+    "source_url": "https://mariam-col.com/en-gb/pages/ambassador"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "Affiliate@mariam-col.com",
+    "source_url": "https://mariam-col.com/en-gb/pages/ambassador"
+   }
+  ],
+  "country": null,
+  "description": "Modest fashion brand designing abayas and hijabs for Muslim women in the West, sold direct through its own Shopify store with a structured ambassador program for creators.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://mariam-col.com/en-gb/pages/ambassador",
+    "summary": "The brand's own ambassador page publishes the program: Content Creator affiliates earn 10% commission on every completed order with a 30-day cookie and no approval needed, rising through tiers to 12% (15+ orders/month) and 15% (30+ orders/month), paid monthly on the 15th via PayPal (min $50) or Wise (min $100)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://mariam-col.com/en-gb/pages/ambassador",
+    "summary": "The same official page states verbatim: 'Receive 10% commission on every completed order through your unique link — accurately tracked, no cap on earnings.' That explicit no-cap statement on the brand's own program page is why commission_cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://mariam-col.com/en-gb/pages/ambassador",
+    "summary": "The program is built for creators: the page welcomes Instagram, TikTok, YouTube, blog and newsletter promotion, allows boosting your own posts, and active ambassadors at 15+ sales/month receive gifted pieces plus ready-to-use campaign assets for Ramadan, Eid and launches."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://mariam-col.com/en-gb/pages/ambassador",
+    "summary": "The official page publishes the affiliate team's email, Affiliate@mariam-col.com, for program assignment questions, paid-search approvals and coupon-platform registration."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://mariam-col.com/en-gb/pages/ambassador",
+    "summary": "Onboarding mechanics from the same page: everyone starts as a Starter Ambassador at 5% with a 7-day cookie during a 3-5 business day review, and confirmed orders are backdated to the 10% Content Creator rate once assigned; a separate Paid & Deal track pays a flat 5% with a 7-day cookie to approved search/coupon partners."
+   }
+  ],
+  "name": "Mariam's Collection",
+  "opportunity": {
+   "application_url": "https://mariam-col.com/en-gb/pages/ambassador",
+   "source_url": "https://mariam-col.com/en-gb/pages/ambassador",
+   "title": "Mariam's Collection Ambassador Program"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 12,
+   "credibility": 3,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Published 10% base creator rate rising to 15% by volume, with an explicit no-cap statement on the brand's own page and transparent monthly payout terms.",
+    "contact_access": "A dedicated affiliate email (Affiliate@mariam-col.com) and an on-page application form are both published on the official program page.",
+    "credibility": "A smaller direct-to-consumer brand, but the program page is unusually complete and transparent, with full terms, tiers and payout rules published.",
+    "niche_fit": "Modest fashion (abayas and hijabs) is an underserved, high-loyalty fashion niche with a clearly defined creator community.",
+    "opportunity_availability": "The Content Creator track needs no approval — creators can start immediately — with assignment review inside 3-5 business days.",
+    "ugc_evidence": "The ambassador program is designed around social creators, with gifted products at volume, campaign assets and explicit permission to boost creator posts."
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://mariam-col.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.shiridiamonds.com/affiliates/",
+   "commission_cap": "uncapped",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.shiridiamonds.com/affiliates/"
+  },
+  "category_slug": "fashion",
+  "contacts": [],
+  "country": null,
+  "description": "Online luxury diamond jewelry retailer running a direct, promo-code-based affiliate program aimed at social media creators and micro-influencers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.shiridiamonds.com/affiliates/",
+    "summary": "Shiri Diamonds' own affiliate page and terms (last updated 3 October 2026) describe the program: affiliates promote with a unique promo code or referral link and every successful purchase made through the code generates a commission of up to 5% per order, tracked in a real-time dashboard and paid via PayPal once the minimum threshold is reached; joining is free with no setup fees."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://www.shiridiamonds.com/affiliates/",
+    "summary": "The brand's own FAQ answers the earnings question twice with: 'How much can I earn as an affiliate? There is no earning limit. Your income depends on how many people use your promo code and complete a purchase.' That explicit no-limit statement in the program's own FAQ is why commission_cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.shiridiamonds.com/affiliates/",
+    "summary": "The same page explicitly recruits social creators: it says affiliates earn by sharing codes on social media, blogs, WhatsApp, TikTok and Instagram, that no large audience is needed to start, and that even small accounts and micro-influencers can generate monthly income."
+   }
+  ],
+  "name": "Shiri Diamonds",
+  "opportunity": {
+   "application_url": "https://www.shiridiamonds.com/affiliates/",
+   "source_url": "https://www.shiridiamonds.com/affiliates/",
+   "title": "Shiri Diamonds Affiliate Program"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 6,
+   "credibility": 2,
+   "niche_fit": 22,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "The only published figure is up to 5% per order — modest for jewelry — though the brand's own FAQ explicitly states there is no earning limit.",
+    "contact_access": "Registration is on the brand's own affiliate page, but no partnerships email is published on the fetched page.",
+    "credibility": "A small online jeweler with a thin public footprint compared with established jewelry houses; program terms were updated in October 2026, indicating the program is actively maintained.",
+    "niche_fit": "Diamond jewelry fits luxury-fashion and gifting creators, though it is a narrower niche than apparel.",
+    "opportunity_availability": "Free to join, promo code generated instantly after approval, and the brand explicitly welcomes accounts with no large following.",
+    "ugc_evidence": "The program is pitched directly at social media sharing and micro-influencers on its own page, but there is no separate ambassador or gifting program documented."
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://www.shiridiamonds.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@ubigi.com",
+    "source_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/"
+   }
+  ],
+  "country": null,
+  "description": "Consumer eSIM brand (by Transatel) selling prepaid mobile data plans for travelers in over 200 destinations, promoted to creators through an Impact-run affiliate program and a dedicated influencer 'Roamer' program.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/",
+    "summary": "Ubigi's official affiliate page states the program runs on the Impact platform ('Connect to our affiliation platform Impact by clicking on the APPLY NOW button') and pays a 10% commission on eSIM prepaid plan sales, with orders tracked automatically in Impact."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/",
+    "summary": "The same official page explicitly recruits travel bloggers and content creators, and announces a special 'Ubigi Roamer Program' for social media influencers, showing a dedicated creator route alongside the standard affiliate program."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/",
+    "summary": "The official affiliate page publishes the program contact email: 'Please contact us at affiliates@ubigi.com'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://cellulardata.ubigi.com/pro/travel-industry/connectivity-for-international-travelers/",
+    "summary": "Ubigi's travel-industry partner page describes a separate 'Ubigi Associate Program' for airlines, tour operators, OTAs and other travel businesses paying 15% commission on data-plan sales via Impact under a partnership contract — a B2B route distinct from the 10% creator/affiliate program."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "official_site",
+    "source_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/",
+    "summary": "No fetched Ubigi page states any cap on affiliate earnings, so commission_cap is unknown; no page publishes affiliate or creator counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Ubigi",
+  "opportunity": {
+   "application_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/",
+   "source_url": "https://cellulardata.ubigi.com/pro/join-our-affiliate-program/",
+   "title": "Ubigi Affiliate Program (via Impact)"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published 10% commission on the brand's own affiliate page (15% exists only on the separate B2B associate contract route).",
+    "contact_access": "The program email affiliates@ubigi.com and an application form are published on the official affiliate page.",
+    "credibility": "Established global eSIM provider (Transatel's consumer brand) selling data plans in over 200 destinations, with featured named affiliate partners on its own page.",
+    "niche_fit": "Travel eSIMs are a staple recommendation in travel content — high fit for travel creators across blogs, YouTube and TikTok.",
+    "opportunity_availability": "Open application through Impact from the brand's own affiliate page, subject to Impact approval.",
+    "ugc_evidence": "A dedicated influencer program (Ubigi Roamer Program) plus explicit recruitment of travel bloggers and content creators on the official page."
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://www.ubigi.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 4,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/111238"
+  },
+  "category_slug": "travel",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@suntransfers.com",
+    "source_url": "https://ui.awin.com/merchant-profile/111238"
+   }
+  ],
+  "country": null,
+  "description": "Airport transfer booking service offering shared shuttles, private cars, minibuses and coaches across 600+ airports and travel gateways worldwide, with an affiliate program run through Awin (also listed on CJ).",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/111238",
+    "summary": "Suntransfers' official Awin merchant profile states the program terms: a default 4% commission per completed booking, a 30-day cookie, average order value of EUR100, and bookings tracked through Awin with earnings paid automatically to the affiliate's bank account."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/111238",
+    "summary": "The same Awin profile, signed by the Suntransfers affiliate team, publishes the program contact: 'If you have any questions, feel free to email us at affiliates@suntransfers.com.'"
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/suntransfers/",
+    "summary": "LinkClicky's directory lists Suntransfers on CJ Affiliate at the same 4% per sale, and CompareEPC's data shows the program also runs on CJ (4%) and Skimlinks (5%) — the Awin default 4% is recorded as the primary network rate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/111238",
+    "summary": "The Awin profile describes Suntransfers as a transfer brand with over 17 years in the industry, a 4.5-star TripAdvisor rating from over 30,000 reviews, and coverage of over 600 travel gateways."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/111238",
+    "summary": "No fetched source states any cap on Suntransfers affiliate earnings, so commission_cap is unknown; no source publishes affiliate counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Suntransfers",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/111238",
+   "title": "Suntransfers Affiliate Program (via Awin)"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 11,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A published default 4% per completed booking on the official Awin profile — modest, but on an average order value of EUR100.",
+    "contact_access": "The affiliate team's email (affiliates@suntransfers.com) is published on the official network profile.",
+    "credibility": "17+ years operating, 4.5-star TripAdvisor rating across 30,000+ reviews, and service at 600+ gateways.",
+    "niche_fit": "Airport transfers are a practical, bookable add-on for travel itineraries and destination content.",
+    "opportunity_availability": "Open to publishers through the Awin marketplace (also listed on CJ).",
+    "ugc_evidence": "A conventional publisher program with banners, links and widgets; no dedicated creator or ambassador program was documented."
+   },
+   "ugc_evidence": 8
+  },
+  "socials": [],
+  "website": "https://www.suntransfers.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/28351?setLocale=de_DE"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "Online flight search and booking site selling flights from more than 600 airlines worldwide, with 40+ payment options (including buy-now-pay-later) and prices in 160+ currencies.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/28351?setLocale=de_DE",
+    "summary": "Alternative Airlines' official Awin merchant profile states the affiliate offer verbatim: 'Commission you'll earn: $8 for every lead you send us (lead is defined as a sale unless agreed otherwise)' with a 30-day cookie period, and notes commissions are negotiable for additional exposure. Because the payout is a flat $8 bounty per sale rather than a percentage, commission_rate is recorded as null and the flat amount is documented here."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/28351?setLocale=de_DE",
+    "summary": "The same Awin profile describes Alternative Airlines as a flights-only online travel agency selling 600+ airlines, with over 70% of its 2021 sales to US customers and payment options including Afterpay, Klarna, Affirm, e-wallets and cryptocurrency across 160+ currencies."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://compareepc.com/airline-affiliate-programs/",
+    "summary": "CompareEPC's airline affiliate data also lists Alternative Airlines on Awin (US) with a 30-day cookie, corroborating the Awin program; it separately lists a Skimlinks route at 2.2%."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/28351?setLocale=de_DE",
+    "summary": "No fetched source states any cap on Alternative Airlines affiliate earnings, so commission_cap is unknown; no source publishes affiliate counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Alternative Airlines",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://ui.awin.com/merchant-profile/28351?setLocale=de_DE",
+   "title": "Alternative Airlines Affiliate Programme (via Awin)"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 6,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A flat $8 per completed booking is published on the official Awin profile and is negotiable for extra exposure — predictable per-sale pay, though not a percentage of high-value fares.",
+    "contact_access": "No program email is published on the fetched network profile; contact runs through the Awin marketplace.",
+    "credibility": "Established flights-only OTA selling 600+ airlines globally with customer service 7 days a week.",
+    "niche_fit": "Flight booking is a universal travel-content need, and the BNPL payment angle fits budget-travel creators.",
+    "opportunity_availability": "Open to publishers through the Awin marketplace; the profile says the program is 'a great fit for any publisher'.",
+    "ugc_evidence": "A standard publisher affiliate program; no dedicated creator or ambassador program was documented on fetched pages."
+   },
+   "ugc_evidence": 8
+  },
+  "socials": [],
+  "website": "https://www.alternativeairlines.com"
+ },
+ {
+  "affiliate": {
+   "application_url": null,
+   "commission_cap": "unknown",
+   "commission_rate": 7,
+   "creator_saturation": "unknown",
+   "network": "Webgains",
+   "source_url": "http://affi.io/m/tui-musement-uk"
+  },
+  "category_slug": "travel",
+  "contacts": [],
+  "country": null,
+  "description": "TUI Group's tours and activities platform (TUI Musement) selling excursions, museum tickets and experiences in 1,000+ destinations across 100+ countries, with an affiliate program on Webgains.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "http://affi.io/m/tui-musement-uk",
+    "summary": "The TUI Musement UK program listing on Webgains states: commission starting from 7%, a 30-day cookie length, and fully automated affiliate approval updated daily, with banners and a dedicated account manager."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "http://affi.io/m/tui-musement-uk",
+    "summary": "The same listing describes TUI Musement as a global tours and activities business with a curated portfolio of excursions, activities and tickets in 1,000+ destinations and 100+ countries, backed by the TUI Group."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.travelpayouts.com/blog/earn-on-tours-with-the-musement-affiliate-program/",
+    "summary": "Travelpayouts documents an alternative route to the same program: affiliates joining Musement through Travelpayouts receive a 50% share of Musement's margin on each sale (a margin share, not a percentage of ticket price), by prior approval — the Webgains percentage program is recorded as the primary route."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://majesticaffiliates.com/55-best-travel-affiliate-programs-in-2026/",
+    "summary": "Majestic Affiliates' 2026 travel affiliate roundup lists Musement at 5-7% commission with a 30-day cookie across 50,000+ activities, broadly consistent with the Webgains starting rate of 7%."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_cap",
+    "source_type": "affiliate_network",
+    "source_url": "http://affi.io/m/tui-musement-uk",
+    "summary": "No fetched source states any cap on Musement affiliate earnings, so commission_cap is unknown; no source publishes affiliate counts, so creator_saturation is unknown."
+   }
+  ],
+  "name": "Musement",
+  "opportunity": {
+   "application_url": null,
+   "source_url": "http://affi.io/m/tui-musement-uk",
+   "title": "TUI Musement Affiliate Programme (via Webgains)"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 6,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 9,
+   "reasons": {
+    "compensation": "Commissions starting from 7% on Webgains per the program listing, with an alternative 50%-of-margin share route via Travelpayouts for approved affiliates.",
+    "contact_access": "No public program email could be verified from fetched pages; support runs through the Webgains account manager and network.",
+    "credibility": "Part of TUI Group, one of the world's largest tourism companies, with local teams worldwide and GSTC-checked experience ranges.",
+    "niche_fit": "Tours, activities and skip-the-line tickets are core monetizable inventory for travel creators in every destination niche.",
+    "opportunity_availability": "Affiliate approval on Webgains is fully automated and updated daily per the program listing — low friction to join.",
+    "ugc_evidence": "A publisher-focused program (banners, links, API) rather than a creator program, though Travelpayouts actively recruits travel bloggers for it."
+   },
+   "ugc_evidence": 9
+  },
+  "socials": [],
+  "website": "https://www.musement.com"
+ }
+]
