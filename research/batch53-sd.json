@@ -1,0 +1,688 @@
+[
+ {
+  "name": "GOTRAX",
+  "website": "https://gotrax.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "American electric-mobility brand based in Texas, founded in 2017, selling electric scooters, e-bikes, hoverboards and rideables direct to consumers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "jeffl@gotrax.com",
+    "source_url": "https://ui.awin.com/merchant-profile/25003"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/25003",
+    "summary": "GOTRAX's Awin merchant profile (US programme) states a 5% commission across all categories, an average order value over $350 and a 30-day cookie window."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/25003",
+    "summary": "The same Awin profile publishes jeffl@gotrax.com as the programme's affiliate contact."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/25003",
+    "summary": "The Awin profile describes GOTRAX as an American company based in Texas, operating since 2017, selling electric scooters, bikes and hoverboards."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://ui.awin.com/merchant-profile/25003",
+   "source_url": "https://ui.awin.com/merchant-profile/25003",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "GOTRAX Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/25003",
+   "source_url": "https://ui.awin.com/merchant-profile/25003"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Electric scooters and e-bikes are highly demonstrable products that fit tech, commuting and outdoor creator content.",
+    "ugc_evidence": "The programme runs on Awin, a network open to content publishers, but no dedicated creator programme page was found on the brand's own site.",
+    "compensation": "5% is modest as a percentage, but the profiled average order value is over $350, so per-sale payouts are meaningful; no earnings cap is stated, so the cap stays unknown.",
+    "contact_access": "A named affiliate contact email (jeffl@gotrax.com) is published on the network profile.",
+    "opportunity_availability": "Open application through the Awin network profile.",
+    "credibility": "US company trading since 2017 with an established Awin programme and high-ticket products."
+   }
+  }
+ },
+ {
+  "name": "ENGWE",
+  "website": "https://engwe.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Electric bike brand selling folding, fat-tire and commuter e-bikes in more than 80 countries, with an own affiliate programme run on GoAffPro.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://engwe.com/pages/engwe-affiliate-program",
+    "email": null,
+    "source_url": "https://engwe.com/pages/engwe-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://engwe.com/pages/engwe-affiliate-program",
+    "summary": "ENGWE's own affiliate page states affiliates earn 5% of the eligible order amount (excluding taxes and shipping), with a 30-day cookie window; commission becomes payable if the order is not returned within 40 days and is paid around the 10th of the second month via PayPal or bank."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://engwe.com/pages/engwe-affiliate-program",
+    "summary": "The page states the programme is run through GoAffPro ('Sign up for the ENGWE GoAffPro Affiliate Program') and offers partners a unique link plus discount code."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://engwe.com/pages/engwe-affiliate-program",
+    "summary": "The page states ENGWE already works with 10,000+ affiliate partners across 80+ countries and offers 1-on-1 dedicated support - an absolute partner count far above the ~100 scale, so saturation is recorded as high rather than low."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 5,
+   "application_url": "https://engwe.com/pages/engwe-affiliate-program",
+   "source_url": "https://engwe.com/pages/engwe-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "ENGWE Affiliate Program (GoAffPro)",
+   "application_url": "https://engwe.com/pages/engwe-affiliate-program",
+   "source_url": "https://engwe.com/pages/engwe-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "E-bikes are a strong fit for tech-review, commuting and outdoor creators; high prices make single conversions valuable.",
+    "ugc_evidence": "The brand's own page is built around partners sharing links and codes with their audiences, with dedicated 1-on-1 support.",
+    "compensation": "5% of the eligible order amount on high-ticket e-bikes; no earnings cap is stated anywhere on the page, so the cap stays unknown.",
+    "contact_access": "Application is via the brand's own programme page; no public affiliate email is published.",
+    "opportunity_availability": "Open self-serve signup through GoAffPro on the brand's site.",
+    "credibility": "Established international e-bike seller operating in 80+ countries, though a younger brand than legacy bike names."
+   }
+  }
+ },
+ {
+  "name": "Apollo Scooters",
+  "website": "https://apolloscooters.co",
+  "country": "Canada",
+  "category_slug": "technology",
+  "description": "Canadian electric scooter brand selling performance commuter scooters, running an application-based Affiliate & Creator Program for reviewers, vloggers and creators.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://af.secomapp.com/apollo-scooters/register_aff",
+    "email": null,
+    "source_url": "https://af.secomapp.com/apollo-scooters/register_aff"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://af.secomapp.com/apollo-scooters/register_aff",
+    "summary": "Apollo's own affiliate registration page describes the 'Apollo Affiliate & Creator Program': commission is a flat rate per item - $4 on non-scooter orders and a flat rate on scooters (amount not stated) - applications are reviewed rather than auto-approved, and affiliates invoice monthly."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://af.secomapp.com/apollo-scooters/register_aff",
+    "summary": "Regional versions and third-party listings conflict on pay: the Canadian registration variant quotes 4% of sale and Shopper lists 8%, against the US page's flat-rate-per-item structure, so no single commission rate could be verified and the rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/case-study/apollo-scooters/",
+    "summary": "An UpPromote case study on Apollo reports two affiliate contribution tiers and 1,000+ affiliates, with affiliate sales making up 15-20% of revenue - a four-figure affiliate count, so saturation is not low."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://af.secomapp.com/apollo-scooters/register_aff",
+   "source_url": "https://af.secomapp.com/apollo-scooters/register_aff",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Apollo Affiliate & Creator Program",
+   "application_url": "https://af.secomapp.com/apollo-scooters/register_aff",
+   "source_url": "https://af.secomapp.com/apollo-scooters/register_aff"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 15,
+   "compensation": 6,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Performance e-scooters are a natural fit for tech-review and urban-mobility creators.",
+    "ugc_evidence": "The programme is explicitly branded an 'Affiliate & Creator Program' and the brand recruits reviewers and vloggers, with a published case study on its affiliate channel.",
+    "compensation": "Pay is a flat rate per item ($4 on non-scooter orders; the scooter amount is not published) and regional pages conflict (4% in Canada, 8% in one listing), so no rate is recorded and compensation scores low.",
+    "contact_access": "Access is through the brand's own application form; no public partnerships email was found.",
+    "opportunity_availability": "Application-based with manual approval and monthly self-invoicing, which adds friction versus instant network programmes.",
+    "credibility": "Established Canadian scooter brand with a documented, revenue-bearing affiliate programme."
+   }
+  }
+ },
+ {
+  "name": "Amazfit",
+  "website": "https://www.amazfit.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Smart wearables brand owned by Zepp Health (NYSE: ZEPP) selling smartwatches, fitness bands, the Helio Ring and smart earbuds for sport, health and everyday use.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@zepp.com",
+    "source_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program",
+    "email": null,
+    "source_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program",
+    "summary": "Amazfit's official affiliate page states the programme runs on the Impact platform (its 'Apply Here' button links to app.impact.com), with a 30-day cookie window and access to banners, links and product feeds."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program",
+    "summary": "The official page's FAQ declines to publish a rate, saying only that commissions are 'generous and attractive'; third-party figures conflict (Lasso 4-8%, an older CJ listing text quoting 4%, an AvantLink listing quoting 10%), so the commission rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program",
+    "summary": "The page publishes affiliates@zepp.com as the contact for programme questions."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://us.amazfit.com/blogs/news/amazfit-s-new-affiliate-program-join-us",
+    "summary": "Amazfit's own US blog previously routed applications through CJ, indicating the programme has migrated networks over time; the current official affiliate page routes through Impact."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program",
+   "source_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Amazfit Affiliate Program (Impact)",
+   "application_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program",
+   "source_url": "https://uk.amazfit.com/pages/amazfit-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Smartwatches and wearables are a core tech/fitness creator category with constant review and comparison demand.",
+    "ugc_evidence": "The official page explicitly recruits tech, wellness and sports content creators, trainers and recommendation sites.",
+    "compensation": "The brand publishes no rate and third-party figures conflict (4%, 4-8% and 10% all circulate), so compensation cannot be verified and scores low.",
+    "contact_access": "A dedicated affiliate email (affiliates@zepp.com) is published on the official programme page.",
+    "opportunity_availability": "Open application via Impact from the brand's own affiliate page.",
+    "credibility": "Owned by NYSE-listed Zepp Health; the brand states it is among the global top 3 in smartwatch shipment volume."
+   }
+  }
+ },
+ {
+  "name": "HoverAir",
+  "website": "https://hoverair.com",
+  "country": "China",
+  "category_slug": "technology",
+  "description": "Maker of the HOVERAir X1 family of self-flying cameras - pocket-sized autonomous drones (X1, X1 PRO, X1 PROMAX) built for hands-free content capture.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@thehover.com",
+    "source_url": "https://global.hoverair.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://hoverair.com/pages/hoverair-official-affiliate-program",
+    "summary": "HOVERAir's official affiliate programme page states affiliates earn 5%-8% commission per order with a 30-day cookie duration, on the X1, X1 PRO and X1 PROMAX, joining through the brand's partner platforms."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://global.hoverair.com/pages/affiliates",
+    "summary": "The brand's global affiliates page lists affiliate@thehover.com as the contact for its affiliate team."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand portal",
+   "commission_rate": 5,
+   "application_url": "https://hoverair.com/pages/hoverair-official-affiliate-program",
+   "source_url": "https://hoverair.com/pages/hoverair-official-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "HOVERAir Official Affiliate Program",
+   "application_url": "https://hoverair.com/pages/hoverair-official-affiliate-program",
+   "source_url": "https://hoverair.com/pages/hoverair-official-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A self-flying camera is a creator-native product - it exists to make content - so fit for tech, travel and action creators is high.",
+    "ugc_evidence": "The official programme page invites affiliates to share the product with their audiences, and the brand actively recruits creators for new models.",
+    "compensation": "The brand publishes a 5%-8% per-order range; the recorded rate is the 5% base of that range. No earnings cap is stated, so the cap stays unknown.",
+    "contact_access": "An affiliate team email (affiliate@thehover.com) is published on the brand's global affiliates page.",
+    "opportunity_availability": "Open joining route through the brand's listed partner platforms.",
+    "credibility": "Established flying-camera brand with three generations of X1 hardware sold globally."
+   }
+  }
+ },
+ {
+  "name": "Dalstrong",
+  "website": "https://dalstrong.com",
+  "country": "Canada",
+  "category_slug": "home",
+  "description": "Toronto-founded culinary tools brand (est. 2014) selling knives, knife sets and cookware - 500+ products from $30 to $600 - to professional chefs, home cooks and collectors.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "veronica@dalstrong.com",
+    "source_url": "https://dalstrong.com/en-gb/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://dalstrong.com/en-gb/pages/affiliate-program",
+    "summary": "Dalstrong's own affiliate page states a 10% baseline commission, a 30-day cookie duration, fast payouts, an average order value of $160 and 500+ products priced $30-$600; signup is via its GoAffPro portal (dalstrong.goaffpro.com)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://dalstrong.com/en-gb/pages/affiliate-program",
+    "summary": "The same page publishes veronica@dalstrong.com for affiliate enquiries and promises creative assets, brand materials and content ideas from a dedicated in-house team."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://dalstrong.com/en-gb/pages/affiliate-program",
+    "summary": "The page states Dalstrong has sold more than one million products since launching in 2014 and holds 15,000+ five-star reviews, with a 70-day money-back guarantee and lifetime warranty."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://dalstrong.com/blogs/news/dalstrong-review-where-are-dalstrong-knives-manufactured",
+    "summary": "Dalstrong's own site states the company was founded in 2014 by David Dallaire and is based in Toronto, Canada."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 10,
+   "application_url": "https://dalstrong.goaffpro.com",
+   "source_url": "https://dalstrong.com/en-gb/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Dalstrong Affiliate Program",
+   "application_url": "https://dalstrong.goaffpro.com",
+   "source_url": "https://dalstrong.com/en-gb/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 15,
+   "contact_access": 14,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Knives and cookware are staple demo products for food, cooking and kitchen creators.",
+    "ugc_evidence": "The brand supplies creative assets, content ideas and an affiliate community, and markets the programme to its 'million-strong' audience of cooks and collectors.",
+    "compensation": "10% baseline commission on a $160 average order with fast payouts is strong for the home niche; no earnings cap is stated, so the cap stays unknown.",
+    "contact_access": "A named affiliate contact email is published on the programme page alongside open signup.",
+    "opportunity_availability": "Open self-serve application through the brand's GoAffPro portal.",
+    "credibility": "Trading since 2014 with 1M+ products sold and 15,000+ five-star reviews."
+   }
+  }
+ },
+ {
+  "name": "Hedgehog Dryer",
+  "website": "https://us.hedgehogdryer.com",
+  "country": "Norway",
+  "category_slug": "home",
+  "description": "Norwegian home-appliance brand (founded 2019) making fast, design-award-winning dryers for shoes, boots and gloves, sold through retailers including Lowe's in the US.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.hedgehogdryer.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://us.hedgehogdryer.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.hedgehogdryer.com/pages/affiliate-program",
+    "summary": "Hedgehog Dryer's own US affiliate page states: 'There is no cap to what you can earn in the Hedgehog Dryer affiliate program' and 'Start earning unlimited commissions for every customer you bring us' - an explicit no-earnings-cap statement, so the commission cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.hedgehogdryer.com/pages/affiliate-program",
+    "summary": "The same page states the programme currently offers 10% commissions on all products (negotiable upward for consistent sellers and influencers) and that affiliates register on the Awin network or the AvantLink platform, with a dedicated affiliate manager."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.businesswire.com/news/home/20240215151769/en/Hedgehog-and-Lowe%E2%80%99s-Launch-a-New-Dryer-for-the-50-of-Americans-with-Snow-this-Winter",
+    "summary": "BusinessWire reports Hedgehog Dryer was founded in 2019 in Norway by Bjorn Holte, holds four design awards, and launched in the US with Lowe's."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://us.hedgehogdryer.com/pages/affiliate-program",
+   "source_url": "https://us.hedgehogdryer.com/pages/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Hedgehog Dryer Affiliate Program",
+   "application_url": "https://us.hedgehogdryer.com/pages/affiliate-program",
+   "source_url": "https://us.hedgehogdryer.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 10,
+   "compensation": 16,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A single-purpose home appliance - a strong seasonal fit for family, ski, outdoor and home-hack creators rather than a broad home niche play.",
+    "ugc_evidence": "The programme page names social media influencers as a group that can earn raised rates, but shows no dedicated creator content programme.",
+    "compensation": "10% on all products with an explicitly uncapped earnings statement on the brand's own page, and rates negotiable upward - the strongest verified compensation terms in this batch.",
+    "contact_access": "Signup is via Awin or AvantLink from the brand page; support is via a dedicated affiliate manager, but no public email is published.",
+    "opportunity_availability": "Free, open registration through two major networks.",
+    "credibility": "Founded 2019 in Norway, Red Dot and TIME Best Inventions recognition, and US retail distribution through Lowe's."
+   }
+  }
+ },
+ {
+  "name": "Zooplus",
+  "website": "https://www.zooplus.co.uk",
+  "country": "Germany",
+  "category_slug": "pets",
+  "description": "Europe's largest online pet retailer by sales, operating in 21 markets with around 9,840 pet food and accessory products; this entry covers its UK storefront programme on Awin.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/2940",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/2940"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/2940",
+    "summary": "Zooplus's Awin merchant profile (UK programme) states commission of 7% on a customer's first 3 orders and 1% from the 4th order onwards, with an average order value of GBP 46."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/2940",
+    "summary": "The Awin profile explicitly invites influencer, content creator and pet community publisher types to the programme."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/2940",
+    "summary": "The profile describes Zooplus as Europe's number one online pet retailer by sales, active in 21 markets with 9,840 products."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 7,
+   "application_url": "https://ui.awin.com/merchant-profile/2940",
+   "source_url": "https://ui.awin.com/merchant-profile/2940",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Zooplus Affiliate Programme (Awin UK)",
+   "application_url": "https://ui.awin.com/merchant-profile/2940",
+   "source_url": "https://ui.awin.com/merchant-profile/2940"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A full-range pet supplies retailer gives pet creators an almost unlimited product pool to feature.",
+    "ugc_evidence": "The network profile explicitly recruits influencers, content creators and pet communities, not just coupon sites.",
+    "compensation": "7% applies to a customer's first 3 orders before dropping to 1%, so earnings are front-loaded; the recorded rate is the 7% headline. No cap is stated, so the cap stays unknown.",
+    "contact_access": "Contact is through the Awin network only; no public affiliate email was found.",
+    "opportunity_availability": "Open application through Awin.",
+    "credibility": "Europe's largest online pet retailer by sales, operating across 21 markets."
+   }
+  }
+ },
+ {
+  "name": "Lily's Kitchen",
+  "website": "https://www.lilyskitchen.co.uk",
+  "country": "United Kingdom",
+  "category_slug": "pets",
+  "description": "UK natural pet food brand making nutritionally complete wet and dry food, treats and chews for dogs and cats with natural ingredients.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/7262",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/7262"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/7262",
+    "summary": "Lily's Kitchen's Awin merchant profile states commission of 5% on new customers and 2% on existing customers (voucher-code affiliates 2% new / 1% existing), an average order value over GBP 50, a 30-day cookie, and rates excluding VAT and delivery."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/7262",
+    "summary": "The profile presents Lily's Kitchen as a UK natural pet food brand for dogs and cats."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://ui.awin.com/merchant-profile/7262",
+   "source_url": "https://ui.awin.com/merchant-profile/7262",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lily's Kitchen Affiliate Programme (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/7262",
+   "source_url": "https://ui.awin.com/merchant-profile/7262"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium natural pet food is a core, repeat-purchase category for dog and cat creators.",
+    "ugc_evidence": "The programme is open to content publishers via Awin, though the profile shows no creator-specific perks.",
+    "compensation": "5% on new customers (2% existing) over a GBP 50+ average order is mid-range for pet food; the recorded rate is the 5% new-customer rate. No cap is stated, so the cap stays unknown.",
+    "contact_access": "Contact is through the Awin network only; no public affiliate email was found.",
+    "opportunity_availability": "Open application through Awin.",
+    "credibility": "Long-established UK premium pet food brand with national retail presence."
+   }
+  }
+ },
+ {
+  "name": "Pets at Home",
+  "website": "https://www.petsathome.com",
+  "country": "United Kingdom",
+  "category_slug": "pets",
+  "description": "The UK's leading pet care retailer, selling pet food, accessories and services online and through its national store network, with a large affiliate programme run on Rakuten Advertising.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/",
+    "email": null,
+    "source_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/",
+    "summary": "A Rakuten Advertising case study states Pets at Home uses Rakuten Advertising as its affiliate network of choice, running a diversified full-funnel programme including content publishers, with affiliate sales up 52% year on year."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/",
+    "summary": "The same case study describes Pets at Home as the UK's leading pet care retailer."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/",
+    "summary": "No commission rate is published in the Rakuten case study or on a public programme page; the only figure circulating is an unreliable sub-network listing (up to 0.6%), so the rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": null,
+   "application_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/",
+   "source_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pets at Home Affiliate Programme (Rakuten Advertising)",
+   "application_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/",
+   "source_url": "https://rakutenadvertising.com/en-uk/resources/case-study-pets-at-home/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 5,
+   "contact_access": 6,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "The UK's biggest pet retailer covers every pet category a creator might feature.",
+    "ugc_evidence": "Rakuten's case study confirms content publishers are an active part of the programme's publisher mix.",
+    "compensation": "No commission rate is published anywhere public, so compensation cannot be verified and scores at the floor for an established programme.",
+    "contact_access": "Access is managed through the Rakuten network; no public affiliate contact was found.",
+    "opportunity_availability": "A large, actively managed programme, but joining is via network application and approval rather than an open brand page.",
+    "credibility": "The UK's leading pet care retailer with a documented, fast-growing affiliate channel."
+   }
+  }
+ }
+]

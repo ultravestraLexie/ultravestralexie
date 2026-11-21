@@ -1,0 +1,617 @@
+[
+ {
+  "name": "Lakanto",
+  "website": "https://www.lakanto.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Monk-fruit sweetener brand owned by Saraya, selling sugar-free sweeteners, baking mixes, drink mixes and snacks for keto and low-sugar lifestyles through its own site and major grocery retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.lakanto.com/pages/affiliate-application",
+    "email": null,
+    "source_url": "https://www.lakanto.com/pages/affiliate-application"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@lakanto.com",
+    "source_url": "https://www.lakanto.com/pages/affiliate-application"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.lakanto.com/pages/affiliate-application",
+    "summary": "Lakanto's own affiliate application page (fetched directly) states affiliates 'Earn up to 20% (based on performance)', audiences get discount codes of up to 15% off, affiliates can receive free product and collaborative opportunities (bundles, landing pages, social content, recipes, giveaways); the brand looks for creators with 10K+ on social platforms and describes the program as 'relatively small'; the page footer lists Orem, UT 84057 and info@lakanto.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://theaffiliateslist.com/keto-affiliate-programs/",
+    "summary": "A third-party keto affiliate guide reports Lakanto's program runs on Refersion at up to 15% commission with a 90-day cookie; the 'up to 15%' figure conflicts with the 'up to 20%' ceiling on the brand's own page, so no single rate is recorded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.lakanto.com/pages/affiliate-application",
+    "summary": "No earnings-cap statement appears anywhere on the brand's own program page, so commission_cap is recorded as unknown; an 'up to X%' figure is a rate ceiling, not evidence of an uncapped program."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": null,
+   "application_url": "https://www.lakanto.com/pages/affiliate-application",
+   "source_url": "https://www.lakanto.com/pages/affiliate-application",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Lakanto Affiliate Program",
+   "application_url": "https://www.lakanto.com/pages/affiliate-application",
+   "source_url": "https://www.lakanto.com/pages/affiliate-application"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 11,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sugar-free sweetener and baking products are staple demo content for keto, low-sugar and healthy-recipe creators on TikTok and Instagram.",
+    "ugc_evidence": "The brand's own page builds the program around creator content — social content, recipes, videos, bundles and giveaways — and recruits lifestyle creators directly.",
+    "compensation": "The brand publishes a commission ceiling (up to 20% based on performance) on its own page, but third-party reporting says up to 15%, so the rate is recorded as null with the conflict documented.",
+    "contact_access": "A public application page on the brand's own domain plus a published general email (info@lakanto.com) — top band.",
+    "opportunity_availability": "Applications are publicly open on the official site, though the brand asks for a substantial audience (10K+ on social) and reviews applications selectively.",
+    "credibility": "Established sweetener brand owned by Saraya with national grocery distribution and a US base in Orem, Utah."
+   }
+  }
+ },
+ {
+  "name": "PlantFusion",
+  "website": "https://plantfusion.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Plant-based nutrition brand selling vegan protein powders, collagen builders, greens and supplements made from peas, algae and whole-food ingredients through its own site and health retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://plantfusion.com/pages/plantfusion-affiliate-program",
+    "email": null,
+    "source_url": "https://plantfusion.com/pages/plantfusion-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://plantfusion.com/pages/plantfusion-affiliate-program",
+    "summary": "PlantFusion's own affiliate program page states a 15% base commission on all referred sales with lifetime customer association (commission on all future orders of a referred customer), a community code giving 25% off first orders, payment via PayPal 30 days after conversion, an average order value of $60+, and eligibility limited to creators 18+ based in the continental US; no network platform is named on the page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://plantfusion.com/pages/plantfusion-affiliate-program",
+    "summary": "The brand's own page publishes a single consistent first-party rate (15% base), so commission_rate is recorded as 15; the page carries no statement about an earnings cap, so commission_cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 15,
+   "application_url": "https://plantfusion.com/pages/plantfusion-affiliate-program",
+   "source_url": "https://plantfusion.com/pages/plantfusion-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "PlantFusion Affiliate Program",
+   "application_url": "https://plantfusion.com/pages/plantfusion-affiliate-program",
+   "source_url": "https://plantfusion.com/pages/plantfusion-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Plant-based protein and wellness powders are core smoothie, fitness and vegan-lifestyle creator content.",
+    "ugc_evidence": "The brand runs its own affiliate page with a community discount code model built for creator sharing, though no large public creator program is showcased.",
+    "compensation": "A single consistent first-party rate — 15% base commission with lifetime customer association — published on the brand's own program page.",
+    "contact_access": "A public program/application page on the brand's own domain; no public program email was found on the fetched page.",
+    "opportunity_availability": "The program page is publicly open to US-based creators 18+, with terms (PayPal payout 30 days after conversion) published up front.",
+    "credibility": "Long-running plant-based nutrition brand sold through its own store and health-food retail channels."
+   }
+  }
+ },
+ {
+  "name": "Nature Made",
+  "website": "https://www.naturemade.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Pharmavite vitamin and supplement brand founded in 1971, marketed as the #1 pharmacist-recommended vitamin brand in the US, selling vitamins, minerals and supplements through its own site and national pharmacy and grocery retail.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.naturemade.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://www.naturemade.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.naturemade.com/pages/affiliates",
+    "summary": "Nature Made's own affiliates page (fetched directly) states 'Affiliates earn a commission on all referred sales to NatureMade.com' and its sign-up link routes to signup.cj.com, confirming the program runs on CJ Affiliate; the brand's own page publishes no rate."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.naturemade.com/pages/affiliates",
+    "summary": "Third-party sources conflict on the rate (8%, 10% and 15% all appear, one attributing the program to Impact despite the brand's own CJ sign-up link), so commission_rate is recorded as null with the conflict documented here."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.naturemade.com/pages/affiliates",
+    "summary": "Rateful's TikTok Shop analysis reported that roughly 93% of Nature Made's estimated TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators — evidence the brand's sales are heavily creator-driven."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.naturemade.com/pages/affiliates",
+   "source_url": "https://www.naturemade.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Nature Made Affiliate Program (CJ Affiliate)",
+   "application_url": "https://www.naturemade.com/pages/affiliates",
+   "source_url": "https://www.naturemade.com/pages/affiliates"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 8,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Mainstream vitamins and supplements are everyday wellness-creator content, and the brand is a top TikTok Shop supplement seller through creators.",
+    "ugc_evidence": "Independent TikTok Shop analysis attributes the overwhelming majority of the brand's recent TikTok Shop sales to affiliate creators, on top of its CJ program.",
+    "compensation": "A commission on all referred sales is confirmed on the brand's own page, but no rate is published there and third-party figures conflict (8/10/15%), so the rate stays null.",
+    "contact_access": "A public affiliates page on the brand's own domain routing to the CJ sign-up; no public program email was found.",
+    "opportunity_availability": "Open application route via the brand's own affiliates page into CJ Affiliate.",
+    "credibility": "Pharmavite brand founded in 1971 and marketed as the #1 pharmacist-recommended vitamin brand in the US, with national retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Adagio Teas",
+  "website": "https://www.adagio.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US direct-to-consumer loose-leaf tea company selling teas sourced from origin farms, teaware and gifts through its own website, with separate UK/EU storefronts.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.adagio.com/pages/creator_program.html",
+    "email": null,
+    "source_url": "https://www.adagio.com/pages/creator_program.html"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.adagio.com/affiliates/",
+    "email": null,
+    "source_url": "https://www.adagio.com/affiliates/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.adagio.com/affiliates/",
+    "summary": "Adagio's own affiliates page states affiliates earn up to 10% commission, the program is managed by CJ Affiliate and commissions are paid monthly; the brand's UK/EU pages state up to 5%, so rates conflict by region and commission_rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://www.adagio.com/pages/creator_program.html",
+    "summary": "Adagio's own first-party creator program page publishes flat per-video pay tiers for short-form video (roughly $100-$150, $200-$250 and $300-$600 by tier), paid via PayPal — a direct creator route separate from the CJ affiliate program (its earlier Upfluence ambassador program is retired)."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.adagio.com/affiliates/",
+   "source_url": "https://www.adagio.com/affiliates/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Adagio Teas Creator Program + CJ Affiliate Program",
+   "application_url": "https://www.adagio.com/pages/creator_program.html",
+   "source_url": "https://www.adagio.com/pages/creator_program.html"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 12,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Loose-leaf tea, brewing rituals and teaware are steady food-drink and cozy-lifestyle creator content.",
+    "ugc_evidence": "A first-party flat-fee creator program for short-form video with published pay tiers, on top of the affiliate program — unusually concrete creator evidence.",
+    "compensation": "Published pay exists on the brand's own pages (flat per-video tiers of roughly $100-$600 and up to 10% affiliate commission in the US), but affiliate rates conflict by region (up to 5% UK/EU), so the percentage rate is null.",
+    "contact_access": "Two public first-party routes on the brand's own domain — a creator program page and an affiliates page.",
+    "opportunity_availability": "Both the creator program and the CJ affiliate program are publicly reachable from the brand's own site.",
+    "credibility": "Established US online tea retailer selling direct from origin farms through its own storefronts in the US, UK and EU."
+   }
+  }
+ },
+ {
+  "name": "Omaha Steaks",
+  "website": "https://www.omahasteaks.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Fifth-generation family-owned premium meat and gourmet food delivery company founded in 1917 in Omaha, Nebraska, selling steaks, seafood, meals and gifts through its own site and stores.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.omahasteaks.com/info/Affiliate-Program",
+    "email": null,
+    "source_url": "https://www.omahasteaks.com/info/Affiliate-Program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.omahasteaks.com/info/Affiliate-Program",
+    "summary": "Omaha Steaks' own affiliate/creator page invites creators to 'Become a Creator', offering product gifting plus commission on sales, with the application routed through Rakuten Advertising."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.omahasteaks.com/info/Affiliate-Program",
+    "summary": "Directory figures for the commission conflict widely (3%, 4%, 5%, up to 7% and 8% all appear across affiliate directories), so commission_rate is recorded as null with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://www.omahasteaks.com/info/Affiliate-Program",
+   "source_url": "https://www.omahasteaks.com/info/Affiliate-Program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Omaha Steaks Creator / Affiliate Program (Rakuten Advertising)",
+   "application_url": "https://www.omahasteaks.com/info/Affiliate-Program",
+   "source_url": "https://www.omahasteaks.com/info/Affiliate-Program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium steak unboxings, grilling and gifting content are proven food-creator formats, and the brand recruits creators directly.",
+    "ugc_evidence": "The brand's own page runs a named creator route combining product gifting with commission on sales.",
+    "compensation": "Commission on sales is confirmed on the brand's own page, but published directory rates conflict (3% to 8%), so the rate stays null.",
+    "contact_access": "A public affiliate/creator page on the brand's own domain with the application routed through Rakuten Advertising.",
+    "opportunity_availability": "The creator/affiliate application route is publicly linked from the brand's own site.",
+    "credibility": "Family-owned since 1917 and one of the best-known gourmet food delivery brands in the US."
+   }
+  }
+ },
+ {
+  "name": "Vitacost",
+  "website": "https://www.vitacost.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Kroger-owned online health retailer selling vitamins, supplements, organic groceries, natural beauty and pet products at discount prices, with a catalog of tens of thousands of products.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.vitacost.com/affiliates",
+    "email": null,
+    "source_url": "https://AffiliateExplorer.com/directory/vitacost"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/vitacost/",
+    "summary": "LinkClicky's directory lists Vitacost's affiliate program on CJ Affiliate at 2% per sale, described as the rate officially listed with the program (page last updated March 11, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://AffiliateExplorer.com/directory/vitacost",
+    "summary": "Affiliate Explorer lists Vitacost at 4-8% per sale on CJ Affiliate with a 45-day cookie and application via vitacost.com/affiliates routed through CJ Affiliate; other directories report 1.6%, 4%, 6% and up to 8%, so the rates conflict and commission_rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DMprhqxumck/",
+    "summary": "Creator partnership posts for Vitacost appear on Instagram (for example a fitness creator's Summer Cyber Sale unboxing with a personal discount code and a $100 shopping credit), evidencing active influencer affiliate activity."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://www.vitacost.com/affiliates",
+   "source_url": "https://linkclicky.com/affiliate-program/vitacost/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Vitacost Affiliate Program (CJ Affiliate)",
+   "application_url": "https://www.vitacost.com/affiliates",
+   "source_url": "https://linkclicky.com/affiliate-program/vitacost/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A broad vitamins, supplements and organic-grocery catalog gives wellness and grocery-haul creators a wide range to promote.",
+    "ugc_evidence": "Creator partnership posts with personal codes and shopping credits are publicly visible, but there is no showcased creator program on the brand's own pages.",
+    "compensation": "The CJ program is confirmed by multiple directories, but published rates conflict across sources (1.6% to 8%), so the rate is recorded as null.",
+    "contact_access": "Joining runs through the CJ Affiliate listing and the brand's affiliates URL; no public program email was found.",
+    "opportunity_availability": "Open to CJ publishers through a long-running network program.",
+    "credibility": "Kroger-owned retailer operating since the 1990s with one of the largest online health catalogs in the US."
+   }
+  }
+ },
+ {
+  "name": "Hint Water",
+  "website": "https://www.drinkhint.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Fruit-infused water brand selling zero-sugar, zero-sweetener flavored water in bottles and variety packs through its own site and national grocery retail.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://theaffiliatemonkey.com/affiliate/hintwater-affiliate-program/",
+    "summary": "The Affiliate Monkey's program specification lists Hint Water's affiliate program network as Impact, with commission typically between 10-20% of sales."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/hint-water/",
+    "summary": "Published rates conflict across directories — Lasso lists 20% per sale with a 30-day cookie, Shopper lists 5-10%, and a review site cites an 8% baseline offer — so commission_rate is recorded as null with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://theaffiliatemonkey.com/affiliate/hintwater-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Hint Water Affiliate Program (Impact)",
+   "application_url": null,
+   "source_url": "https://theaffiliatemonkey.com/affiliate/hintwater-affiliate-program/"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Zero-sugar flavored water is a natural fit for hydration, grocery-haul and healthy-habit creator content.",
+    "ugc_evidence": "An established network affiliate program that food and wellness bloggers actively promote, though no first-party creator program page was fetched.",
+    "compensation": "Multiple directories publish rates, but they conflict (5-10%, 8%, 10-20%, 20%), so the rate is recorded as null rather than guessed.",
+    "contact_access": "Joining runs through the Impact network listing; no public program email or first-party application page was found on a fetched page.",
+    "opportunity_availability": "Open to Impact publishers through the network program.",
+    "credibility": "Nationally distributed flavored-water brand sold in major US grocery chains."
+   }
+  }
+ },
+ {
+  "name": "Cirkul",
+  "website": "https://drinkcirkul.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Water bottle system brand selling reusable bottles with flavor cartridges (sips) that turn plain water into flavored drinks, sold through its own site and major retailers including Walmart.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/cirkul/",
+    "summary": "LinkClicky's directory lists Cirkul's affiliate program on the Impact platform at 6% commission per sale, described as the rate officially listed with the program (page last updated March 10, 2024)."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 6,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/cirkul/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Cirkul Affiliate Program (Impact)",
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/cirkul/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "The flavor-cartridge bottle system is a highly visual, demo-friendly product with a large TikTok following in hydration and lifestyle niches.",
+    "ugc_evidence": "The brand's growth is strongly social-video driven and it runs a network affiliate program, though no first-party creator page was fetched.",
+    "compensation": "A published 6% per-sale rate on Impact per the network directory (last updated March 2024, so it should be re-confirmed in-network).",
+    "contact_access": "Joining runs through the Impact network; no public program email or first-party application page was found on a fetched page.",
+    "opportunity_availability": "Open to Impact publishers through the network program.",
+    "credibility": "Widely retailed US brand (including Walmart) with a large direct-to-consumer subscriber base."
+   }
+  }
+ },
+ {
+  "name": "IQBAR",
+  "website": "https://www.eatiqbar.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Brain-and-body nutrition bar brand selling plant-based protein bars formulated around brain nutrients, through its own site and retailers including Costco and Walmart.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.eatiqbar.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://www.eatiqbar.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.eatiqbar.com/pages/affiliate",
+    "summary": "IQBAR's own affiliate page (fetched directly) states its Affiliate Program lets partners 'earn commission on each sale' with perks including brand collaborations, discount codes and free products, and lists partnership opportunities: affiliate marketing, gifting and discount codes; the page publishes no commission rate and names no network (its brand-profile assets are served via Dovetale)."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.eatiqbar.com/pages/affiliate",
+   "source_url": "https://www.eatiqbar.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "IQBAR Affiliate Program",
+   "application_url": "https://www.eatiqbar.com/pages/affiliate",
+   "source_url": "https://www.eatiqbar.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 7,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Protein bars positioned on brain and body nutrition fit snack-review, fitness and productivity creator content.",
+    "ugc_evidence": "A first-party affiliate page explicitly built around referrals, discount codes and brand collaborations for followers.",
+    "compensation": "Commission on each sale is confirmed on the brand's own page, but no rate is published there, so the rate stays null.",
+    "contact_access": "A public affiliate page on the brand's own domain; no public program email was found on the fetched page.",
+    "opportunity_availability": "The affiliate page is publicly open from the brand's own site.",
+    "credibility": "Growing US bar brand with national retail placement including Costco and Walmart."
+   }
+  }
+ },
+ {
+  "name": "Bird&Be",
+  "website": "https://birdandbe.com",
+  "country": "Canada",
+  "category_slug": "health",
+  "description": "Fertility and reproductive health brand selling doctor-created supplements (prenatals, fertility power packs, postpartum) and at-home tests for people trying to conceive, through its own site in Canada and the US.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://compareepc.com/health-affiliate-programs/",
+    "summary": "CompareEPC's health affiliate program data lists Bird&Be on the Impact network at 6% commission; a second directory (affiliate-toolkit) instead lists the program on ShareASale with earnings unspecified, so the network and rate could not be settled and commission_rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://bird-be.breezy.hr/",
+    "summary": "Bird&Be's own careers page lists dedicated Affiliate & Influencer Partnerships Coordinator and Affiliate & Creator Partnerships Manager roles, describing growing its influencer, affiliate, creator and media partnership programs — evidence of a staffed, active creator program; practitioner affiliates also publicly disclose earning cash commission (for example a fertility dietitian's affiliate disclosure)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://birdandbe-us.gorgias.help/en-US/articles/referral-program-201892",
+    "summary": "The brand's own consumer referral program pays US$15 in store credit per referral (friend gets US$15 off a US$30+ order); that store-credit scheme is NOT the basis for this listing — the listing rests on the network affiliate program and staffed creator partnerships above."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://compareepc.com/health-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bird&Be Affiliate & Creator Partnerships Program",
+   "application_url": null,
+   "source_url": "https://compareepc.com/health-affiliate-programs/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Doctor-created fertility and prenatal supplements serve a dedicated TTC and pregnancy creator community with high purchase intent.",
+    "ugc_evidence": "The brand staffs dedicated affiliate and creator partnership roles and works with practitioner affiliates who disclose cash commissions.",
+    "compensation": "One directory publishes 6% on Impact, but a second directory places the program on ShareASale with no rate, so the rate is recorded as null pending in-network confirmation.",
+    "contact_access": "Joining runs through the network listings; no public program email or application page was found on a fetched page.",
+    "opportunity_availability": "Listed on affiliate networks and actively hiring to grow creator partnerships, indicating an open, expanding program.",
+    "credibility": "Doctor-created, Health Canada-licensed fertility supplement brand selling in Canada and the US."
+   }
+  }
+ }
+]

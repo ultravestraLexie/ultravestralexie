@@ -1,0 +1,519 @@
+[
+ {
+  "name": "Beardbrand",
+  "website": "https://www.beardbrand.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Austin, Texas men's grooming brand founded in 2012 selling beard, hair and body products, built on a large educational content community with over one million YouTube subscribers and features in GQ, Men's Health and Forbes.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/@Beardbrand"
+   },
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/beardbrand"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "official_site",
+    "source_url": "https://www.beardbrand.com/pages/affiliates",
+    "summary": "Beardbrand's own affiliate page (fetched 2026-11-21) states affiliates earn a 15% commission on every qualified buyer, with a 30-day cookie, and that the program runs on AvantLink with applications via the AvantLink apply link on the page. The page publishes no earnings-cap statement and no creator count, so commission_cap and creator_saturation are recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.beardbrand.com/pages/affiliates",
+    "summary": "The same page states Beardbrand was founded in 2012, is based in Austin, Texas, and has over one million YouTube subscribers, with features in GQ, Men's Health, Forbes, Fast Company and Shark Tank."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 15,
+   "application_url": "https://www.beardbrand.com/pages/affiliates",
+   "source_url": "https://www.beardbrand.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.beardbrand.com/pages/affiliates",
+   "source_url": "https://www.beardbrand.com/pages/affiliates",
+   "title": "Beardbrand Affiliate Program (via AvantLink)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Men's grooming (beard, hair, body) built around creator-style educational content — squarely in the beauty niche.",
+    "ugc_evidence": "The brand's own page recruits website, blog, vlog, YouTube and Instagram creators, and the brand itself grew through a 1M+ subscriber YouTube community; no creator cohort size is published.",
+    "compensation": "A published 15% commission on the brand's own page via AvantLink with a 30-day cookie; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through the brand's own affiliate page into AvantLink; no separate partnerships email was verified.",
+    "opportunity_availability": "Program is open now with a public application link on the brand's own site.",
+    "credibility": "Established 2012 Austin brand featured by GQ, Men's Health, Forbes and Shark Tank."
+   }
+  }
+ },
+ {
+  "name": "Miami Beach Bum",
+  "website": "https://miamibeachbum.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare and suncare brand selling mineral SPF, after-sun and body care products positioned around beach and outdoor lifestyles, sold through its own website.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/miami-beach-bum/",
+    "summary": "Lasso's affiliate directory page for Miami Beach Bum (fetched 2026-11-21) lists a 15% per-sale commission with a 30-day cookie, and its join button routes to ShareASale, so the program is recorded on ShareASale at 15%. The listing publishes no earnings-cap statement and no creator count, so commission_cap and creator_saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": "https://getlasso.co/affiliate/miami-beach-bum/",
+   "source_url": "https://getlasso.co/affiliate/miami-beach-bum/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/miami-beach-bum/",
+   "source_url": "https://getlasso.co/affiliate/miami-beach-bum/",
+   "title": "Miami Beach Bum Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 14,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Skincare and suncare for beach lifestyles — a clear skincare niche fit with strong visual content potential.",
+    "ugc_evidence": "The program is listed for skincare bloggers and creators via a public directory; no formal creator program or cohort size is published.",
+    "compensation": "A published 15% per-sale rate with a 30-day cookie via ShareASale; no cap statement published, so the cap is unknown.",
+    "contact_access": "Application runs through ShareASale via the directory listing; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is open now through ShareASale.",
+    "credibility": "Smaller direct-to-consumer skincare brand; no major retail distribution was verified."
+   }
+  }
+ },
+ {
+  "name": "FarmHouse Fresh",
+  "website": "https://farmhousefreshgoods.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Natural skincare brand crafting products with botanicals grown on its own farm, with an animal-rescue mission funded by purchases; award-winning products sold through its own website and spa partners.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "farmhousefresh@gen3marketing.com",
+    "source_url": "https://ui.awin.com/merchant-profile/59267"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "official_site",
+    "source_url": "https://farmhousefreshgoods.com/pages/corporate-affiliate-program",
+    "summary": "FarmHouse Fresh's own Corporate Affiliate Program page (fetched 2026-11-21) states commission starts at 10% on all sales generated through a website, blog or social channel, and both its 'Share Your Faves' and 'join now' links route to the brand's Awin merchant profile, so the network is Awin. The page publishes no earnings-cap statement and no creator count, so cap and saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/59267",
+    "summary": "The brand's Awin merchant profile names farmhousefresh@gen3marketing.com as the program contact and cites an average purchase of about $100. Lasso's directory separately lists 6% per sale, which conflicts with the brand's own 'starts at 10%', so commission_rate is recorded null with the conflict documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://farmhousefreshgoods.com/pages/corporate-affiliate-program",
+   "source_url": "https://farmhousefreshgoods.com/pages/corporate-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://farmhousefreshgoods.com/pages/corporate-affiliate-program",
+   "source_url": "https://farmhousefreshgoods.com/pages/corporate-affiliate-program",
+   "title": "FarmHouse Fresh Corporate Affiliate Program (via Awin)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Natural, farm-grown skincare with an animal-rescue story — strong skincare niche fit with distinctive content angles.",
+    "ugc_evidence": "The brand's own program page explicitly invites creators with a blog or social channel to share products; no cohort size is published.",
+    "compensation": "The brand's own page says commission starts at 10% via Awin, but a directory lists 6%, so the rate is recorded null pending confirmation; no cap statement published.",
+    "contact_access": "A named program contact email is published on the brand's Awin merchant profile, plus the application route on the brand's own page.",
+    "opportunity_availability": "Program is open now via the brand's own page and Awin.",
+    "credibility": "Award-winning brand (Oprah's O List, Allure Best of Beauty and others) with spa distribution and an established direct store."
+   }
+  }
+ },
+ {
+  "name": "Caldera + Lab",
+  "website": "https://calderalab.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Men's skincare brand founded in 2017 in Austin, Texas, selling science-backed natural skincare including its flagship multi-functional serum The Good, through its own website.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/caldera-lab/",
+    "summary": "LinkClicky's affiliate directory (fetched 2026-11-21) lists Caldera + Lab's program on Impact at 14% per sale with applications via app.impact.com. Shopper's listing instead reports 5-10%, which conflicts, so commission_rate is recorded null with the conflict documented. No earnings-cap statement or creator count is published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/caldera-lab/",
+   "source_url": "https://linkclicky.com/affiliate-program/caldera-lab/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/caldera-lab/",
+   "source_url": "https://linkclicky.com/affiliate-program/caldera-lab/",
+   "title": "Caldera + Lab Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Premium men's skincare with a single hero serum — a focused skincare niche fit for routine and results content.",
+    "ugc_evidence": "The program is listed for beauty publishers and creators on Impact; no formal creator cohort or cohort size is published.",
+    "compensation": "Published listings conflict (14% on Impact per LinkClicky vs 5-10% per Shopper), so the rate is null; no cap statement published.",
+    "contact_access": "Application runs through Impact; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is open now through Impact.",
+    "credibility": "Established direct-to-consumer men's skincare brand founded in 2017."
+   }
+  }
+ },
+ {
+  "name": "Duke Cannon",
+  "website": "https://dukecannon.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US men's grooming brand selling oversized soaps, hair care, cologne and skincare with a rugged, no-nonsense positioning, sold through its own website and major retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/duke-cannon-supply-co/",
+    "summary": "Lasso's Duke Cannon Supply Co page (fetched 2026-11-21) lists 5% per sale with a 30-day cookie, and its join button routes to signup.cj.com, so the program is recorded on CJ Affiliate. Other directories list the program on Impact at 8%, which conflicts on both network emphasis and rate, so commission_rate is recorded null with the conflict documented. No earnings-cap statement or creator count is published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/duke-cannon-supply-co/",
+   "source_url": "https://getlasso.co/affiliate/duke-cannon-supply-co/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://getlasso.co/affiliate/duke-cannon-supply-co/",
+   "source_url": "https://getlasso.co/affiliate/duke-cannon-supply-co/",
+   "title": "Duke Cannon Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Men's grooming and hair care with a highly distinctive brand voice — strong beauty niche fit for personality-led content.",
+    "ugc_evidence": "The program is listed for bloggers, influencers and marketers through network directories; no formal creator cohort size is published.",
+    "compensation": "Listings conflict (5% via CJ per Lasso's join route vs 8% via Impact per other directories), so the rate is null; no cap statement published.",
+    "contact_access": "Application runs through CJ Affiliate; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is open now through CJ Affiliate.",
+    "credibility": "Established national men's grooming brand with broad retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Dae",
+  "website": "https://daehair.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Arizona-inspired haircare brand selling simple daily-routine products — shampoos, conditioners, styling creams and its signature hair perfume — through its own website, retailers and TikTok Shop.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@daehair"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/dae-hair",
+    "summary": "Rateful's TikTok Shop brand page for dae hair (fetched 2026-11-21) confirms an active TikTok Shop affiliate program: creators with TikTok Shop affiliate access can add its 33 products to their showcase and earn commission on every sale, and about 100% of its estimated $3.4K TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators' videos and LIVEs. TikTok Shop rates are set per product and third-party rate listings conflict (figures from 1.6% to 15% appear), so commission_rate is null. The 100% figure is a share of sales, not a creator count, and no cap statement is published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://rateful.ai/brand/dae-hair",
+   "source_url": "https://rateful.ai/brand/dae-hair",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://rateful.ai/brand/dae-hair",
+   "source_url": "https://rateful.ai/brand/dae-hair",
+   "title": "Dae TikTok Shop Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 14,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 10,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Haircare built for daily-routine and get-ready content — squarely in the beauty niche with strong TikTok-native products.",
+    "ugc_evidence": "Essentially all of the brand's TikTok Shop sales in the measured month came through affiliate creators' videos and LIVEs — direct evidence of an active creator channel; no creator count is published.",
+    "compensation": "TikTok Shop commissions are set per product and published listings conflict, so the rate is null; no cap statement published.",
+    "contact_access": "Access runs through TikTok Shop's affiliate center; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Open to any creator with TikTok Shop affiliate access — products can be added to a showcase immediately.",
+    "credibility": "Established haircare brand with retail distribution and an active TikTok Shop storefront."
+   }
+  }
+ },
+ {
+  "name": "WestKiss Hair",
+  "website": "https://www.westkiss.com",
+  "country": "China",
+  "category_slug": "beauty",
+  "description": "Hair brand selling human-hair wigs and extensions (lace front wigs, headband wigs, colored and curly styles) through its own online store, marketed heavily through creator install and styling videos.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/westkiss_hair_store"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "official_site",
+    "source_url": "https://www.westkiss.com/brand_ambassador",
+    "summary": "WestKiss Hair's own brand ambassador page (fetched 2026-11-21) describes a brand-direct program: fans submit their information, receive an exclusive promotion link, and earn 5% commission once referrals order through the link; a second track rewards confirmed video/post content with coupons, points, cash back or free hair. The page publishes no earnings-cap statement and no creator count, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 5,
+   "application_url": "https://www.westkiss.com/brand_ambassador",
+   "source_url": "https://www.westkiss.com/brand_ambassador",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.westkiss.com/brand_ambassador",
+   "source_url": "https://www.westkiss.com/brand_ambassador",
+   "title": "WestKiss Hair Brand Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Wigs and extensions are a core beauty-creator category built on install and styling videos.",
+    "ugc_evidence": "The brand's own page runs an ambassador program with a dedicated track that rewards published videos and posts about its hair — direct creator-content evidence; no cohort size is published.",
+    "compensation": "A published 5% commission on the brand's own ambassador page; modest rate, no cap statement published.",
+    "contact_access": "Application is a public form on the brand's own ambassador page.",
+    "opportunity_availability": "Program is open now via the brand's own page.",
+    "credibility": "Established direct-to-consumer wig retailer; smaller and less independently covered than national retail brands."
+   }
+  }
+ },
+ {
+  "name": "MANSCAPED",
+  "website": "https://www.manscaped.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Men's grooming and hygiene brand specializing in below-the-waist grooming tools and formulations, sold through its own website and retailers, with over ten million customers claimed worldwide.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://affi.io/m/manscaped",
+    "summary": "Affi.io's MANSCAPED merchant page (fetched 2026-11-21) lists open programs on several networks, including Impact, whose listing states 10% commission on initial sale; the same page shows a closed Refersion program that paid 15%, and other directories report 8%, so rates conflict across networks and commission_rate is recorded null with Impact as the recorded network. No earnings-cap statement or creator count is published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://affi.io/m/manscaped",
+   "source_url": "https://affi.io/m/manscaped",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://affi.io/m/manscaped",
+   "source_url": "https://affi.io/m/manscaped",
+   "title": "MANSCAPED Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Men's grooming tools and formulations — a large, content-friendly corner of the beauty niche.",
+    "ugc_evidence": "Open affiliate listings across multiple networks target grooming creators and publishers; no formal creator cohort size is published.",
+    "compensation": "Listings conflict by network (10% on initial sale via Impact; 8% elsewhere; a closed Refersion program paid 15%), so the rate is null; no cap statement published.",
+    "contact_access": "Application runs through Impact and other networks; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Programs are listed as open now on Impact and other networks.",
+    "credibility": "Category-defining men's grooming brand with national retail distribution and a claimed 10M+ customers."
+   }
+  }
+ },
+ {
+  "name": "MySmile",
+  "website": "https://mysmile.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Oral care brand (MySmile Oral Care Inc.) selling at-home teeth whitening kits, strips and gel refills through its own store, Amazon and TikTok Shop, where its creator affiliate program drove over $1M in GMV in its first three months.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "listing",
+    "source_url": "https://commission.academy/blog/best-teeth-whitening-affiliate-programs/",
+    "summary": "Commission Academy's teeth-whitening program guide (fetched 2026-11-21) describes MySmile's affiliate program as integrated with UpPromote, with commission starting at 15% and rising to 30% based on referred sales, a 30-day cookie and payments via Venmo/PayPal. Other sources describe the shape differently (creators up to 15% via Lasso's listing), so commission_rate is recorded null with the range documented here. No earnings-cap statement or creator count is published, so cap and saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://ads.tiktok.com/business/en-US/inspiration/mysmile-scales-distribution-with-TikTok-Shop",
+    "summary": "TikTok for Business's own case study confirms MySmile activated TikTok Shop's Creator Affiliate Program, partnering with affiliate creators on product demo videos, and drove over $1M in GMV within three months of launching TikTok Shop."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": null,
+   "application_url": "https://commission.academy/blog/best-teeth-whitening-affiliate-programs/",
+   "source_url": "https://commission.academy/blog/best-teeth-whitening-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://commission.academy/blog/best-teeth-whitening-affiliate-programs/",
+   "source_url": "https://commission.academy/blog/best-teeth-whitening-affiliate-programs/",
+   "title": "MySmile Affiliate Program (via UpPromote)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 14,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Teeth whitening is a staple beauty-creator category with strong before/after content potential.",
+    "ugc_evidence": "TikTok's own case study documents an active creator affiliate program built on product demo videos that drove $1M+ GMV in three months; no creator count is published.",
+    "compensation": "A tiered 15-30% structure via UpPromote is reported, but sources describe the tiers differently, so the rate is null; no cap statement published.",
+    "contact_access": "Application runs through UpPromote; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is open now via UpPromote, with a parallel TikTok Shop creator program.",
+    "credibility": "Established oral-care brand sold via its own store, Amazon and TikTok Shop, featured in a TikTok for Business case study."
+   }
+  }
+ },
+ {
+  "name": "Scotch Porter",
+  "website": "https://www.scotchporter.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Premium men's grooming brand selling plant-based beard, hair and skincare products, positioned around natural ingredients and sophisticated scents, through its own website and retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/scotch-porter/",
+    "summary": "LinkClicky's affiliate directory (fetched 2026-11-21) lists Scotch Porter's program on Impact at 5% per sale, described as the officially listed payout, with applications via app.impact.com. Lasso separately lists up to 18.75%, which conflicts, so commission_rate is recorded null with the conflict documented. No earnings-cap statement or creator count is published, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/scotch-porter/",
+   "source_url": "https://linkclicky.com/affiliate-program/scotch-porter/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/scotch-porter/",
+   "source_url": "https://linkclicky.com/affiliate-program/scotch-porter/",
+   "title": "Scotch Porter Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Plant-based men's beard, hair and skincare — a clear beauty niche fit for grooming-routine content.",
+    "ugc_evidence": "The program is listed for beauty publishers and creators on Impact; no formal creator cohort size is published.",
+    "compensation": "Listings conflict (5% officially listed per LinkClicky vs up to 18.75% per Lasso), so the rate is null; no cap statement published.",
+    "contact_access": "Application runs through Impact; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is open now through Impact.",
+    "credibility": "Established premium men's grooming brand with retail distribution."
+   }
+  }
+ }
+]
