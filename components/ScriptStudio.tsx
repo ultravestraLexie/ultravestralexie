@@ -23,6 +23,8 @@ const inputStyle: React.CSSProperties = {
 const labelStyle: React.CSSProperties = { display: "block", margin: "0 0 6px", fontWeight: 700, fontSize: 14.5, color: "#f0abfc" };
 
 export default function ScriptStudio() {
+  const [whoFor, setWhoFor] = useState("");
+  const [viewerGet, setViewerGet] = useState("");
   const [product, setProduct] = useState("");
   const [benefit, setBenefit] = useState("");
   const [proof, setProof] = useState("");
@@ -39,6 +41,8 @@ export default function ScriptStudio() {
     const b = benefit.trim();
     const hook = HOOKS[hookStyle](p, b);
     const lines: [string, string][] = [
+      ["WHO THIS IS FOR — the human before the hook", whoFor.trim() ? whoFor.trim() : "Not named yet. Before you film, name the person — a hook without an audience is just a sentence."],
+      ["WHAT THAT PERSON GETS FROM WATCHING", viewerGet.trim() ? viewerGet.trim() : "Not named yet. Decide what the viewer receives — a video without a viewer benefit is just content."],
       ["HOOK (0–3s) — say it with the product already in frame", `"${hook}"\nOn-screen text: ${b}.`],
       ["DEMONSTRATION (3–12s) — show, don't describe", `Show ${p} working at its key moment, uncut. Hands in frame for scale. Say: "Watch what happens when…" and let the product prove the claim.`],
       ["STORY (12–22s) — problem → attempt → result", `Say: "I had this problem, I tried the usual fixes, then I tried ${p}. Here's the part that surprised me." One idea only — this video is about: ${b}.`],
@@ -48,13 +52,24 @@ export default function ScriptStudio() {
       ["FILMING NOTES", `Platform: ${platform}. A visual change every 3–5 seconds. Caption every spoken line. Face lit from the front, voice close to the mic. End card is forbidden — the CTA happens over the product.`],
     ];
     return lines;
-  }, [ready, product, benefit, proof, objection, hookStyle, platform]);
+  }, [ready, product, benefit, proof, objection, hookStyle, platform, whoFor, viewerGet]);
 
   const fullText = script ? script.map(([h, body]) => `${h}\n${body}`).join("\n\n") : "";
 
   return (
     <div>
+      <p style={{ color: "#ddd0ff", fontSize: 14.5, margin: "0 0 16px" }}>
+        The human comes before the hook. Two questions first — every script this Studio builds opens with your answers.
+      </p>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 16 }}>
+        <div>
+          <label style={labelStyle}>Who is this for?</label>
+          <input style={inputStyle} value={whoFor} onChange={(e) => setWhoFor(e.target.value)} placeholder="e.g. beginners who want a simple skincare routine" />
+        </div>
+        <div>
+          <label style={labelStyle}>What should that person get from watching?</label>
+          <input style={inputStyle} value={viewerGet} onChange={(e) => setViewerGet(e.target.value)} placeholder="e.g. learn how to choose the right shade without wasting money" />
+        </div>
         <div>
           <label style={labelStyle}>Product you are selling *</label>
           <input style={inputStyle} value={product} onChange={(e) => setProduct(e.target.value)} placeholder="e.g. the LED sunset lamp" />

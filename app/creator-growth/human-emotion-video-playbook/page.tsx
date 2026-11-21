@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import EmotionLab from "@/components/EmotionLab";
+import HumanFirstCreator from "@/components/HumanFirstCreator";
+import {
+  FOUNDATION_QUESTIONS,
+  AUDIENCE_SEGMENTS,
+  DISCOVERY_ENGINE,
+  OUTCOME_TYPES,
+  CHAIN_EXAMPLE,
+  QC_CHECKLIST,
+} from "@/lib/humanfirst";
 import {
   EMOTIONS,
   TEN_SECOND_STRUCTURE,
@@ -88,6 +97,21 @@ export default function PlaybookPage() {
         </p>
       </section>
 
+      {/* HUMAN-FIRST — THE FIRST WORKING SCREEN */}
+      <section style={{ ...panel, textAlign: "center", border: "1px solid #e879f9", boxShadow: "0 0 44px rgba(217,70,239,0.4)" }}>
+        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "4px 14px", fontSize: 12.5, fontWeight: 700, letterSpacing: 2 }}>
+          THE HUMAN-FIRST VIDEO INTELLIGENCE SYSTEM
+        </span>
+        <p className="wow-title" style={{ fontSize: 30, fontWeight: 800, margin: "12px 0 6px" }}>The human comes before the hook.</p>
+        <p style={{ color: "#ddd0ff", margin: "0 auto", maxWidth: 680, fontSize: 15.5 }}>
+          Before UltraVestra helps anyone create a video, it helps them understand the human being they are
+          trying to reach. Not just what product they are promoting, not just what platform they are posting
+          on, not just what hook they want to use. First question, every time: who is this for, and what
+          should that person get from watching?
+        </p>
+      </section>
+      <HumanFirstCreator />
+
       {/* THE LAB */}
       <div style={{ textAlign: "center" }}>
         <p style={{ fontSize: 30, fontWeight: 800, margin: "0 0 4px" }} className="wow-title">The Human Emotion Video Lab</p>
@@ -112,6 +136,106 @@ export default function PlaybookPage() {
           Playbook lives inside the <Link href="/coach" style={linkStyle}>Creator Growth Center</Link>,
           alongside the Video Intelligence Lab that diagnoses your real videos.
         </p>
+
+        <h3 style={h3style}>The first question: who are you making this for?</h3>
+        <p style={body}>UltraVestra never treats an audience as simply &ldquo;everybody.&rdquo; A video about a skincare product, for example, could serve very different groups:</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Audience group</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>What they may want</th>
+              </tr>
+            </thead>
+            <tbody>
+              {AUDIENCE_SEGMENTS.map((s) => (
+                <tr key={s.label}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>{s.label}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{s.want}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p style={{ ...body, marginTop: 12 }}>These are possible audience segments, not assumptions about every person in those groups. The creator must understand that the same product can require completely different stories for different audiences.</p>
+
+        <h3 style={h3style}>The ten foundation questions</h3>
+        <p style={body}>Before UltraVestra helps anyone create a video, it asks:</p>
+        <ol style={{ margin: "0 0 12px", paddingLeft: 22, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+          {FOUNDATION_QUESTIONS.map((q) => <li key={q}>{q}</li>)}
+        </ol>
+
+        <h3 style={h3style}>The Audience Emotion Discovery Engine</h3>
+        <p style={body}>This identifies the human motivation behind the audience. For each audience, UltraVestra investigates:</p>
+        <ul style={{ margin: "0 0 12px", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+          {DISCOVERY_ENGINE.map((d) => <li key={d.area}><strong style={{ color: "#f0abfc" }}>{d.area}:</strong> {d.question}</li>)}
+        </ul>
+        <p style={body}>This becomes the foundation for the video.</p>
+
+        <h3 style={h3style}>The Viewer Outcome Architect</h3>
+        <p style={body}>Before writing a script, ask: what do you want the viewer to get from this video? There are different types of outcomes:</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          {OUTCOME_TYPES.map((o) => (
+            <p key={o.label} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#f0abfc" }}>{o.label}.</strong> <span style={{ color: "#f3e8ff" }}>{o.description}</span>
+            </p>
+          ))}
+        </div>
+        <p style={{ ...body, marginTop: 12 }}>A video can have several outcomes, but it should have one primary outcome.</p>
+
+        <h3 style={h3style}>The Emotion-to-Outcome Connection</h3>
+        <p style={body}>This is the heart of the system. UltraVestra connects:</p>
+        <p style={{ ...card, textAlign: "center", fontWeight: 800, fontSize: 16.5, color: "#f0abfc" }}>
+          Audience → Human need → Emotion → Video experience → Viewer outcome → Next action
+        </p>
+        <p style={{ ...body, marginTop: 14 }}>{CHAIN_EXAMPLE.intro}</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          {([
+            ["Audience", CHAIN_EXAMPLE.audience],
+            ["Human need", CHAIN_EXAMPLE.humanNeed],
+            ["Emotion", CHAIN_EXAMPLE.emotions],
+            ["Video experience", CHAIN_EXAMPLE.videoExperience],
+            ["Viewer outcome", CHAIN_EXAMPLE.viewerOutcome],
+            ["Next action", CHAIN_EXAMPLE.nextAction],
+          ] as [string, string][]).map(([k, v]) => (
+            <p key={k} style={{ margin: 0, fontSize: 15.5 }}>
+              <strong style={{ color: "#67e8f9" }}>{k}:</strong> <span style={{ color: "#f3e8ff" }}>{v}</span>
+            </p>
+          ))}
+        </div>
+        <p style={{ ...body, marginTop: 12 }}>This is much stronger than simply saying, &ldquo;Make a video about this kitchen appliance.&rdquo; The Human-First Video Creator at the top of this page builds exactly this chain from your answers.</p>
+
+        <h3 style={h3style}>Quality control: never generate a video before understanding its purpose</h3>
+        <p style={body}>Before a script is generated, UltraVestra checks:</p>
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>Question</th>
+                <th style={{ textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" }}>What a strong answer looks like</th>
+              </tr>
+            </thead>
+            <tbody>
+              {QC_CHECKLIST.map(([q, strong]) => (
+                <tr key={q}>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", fontWeight: 700, color: "#f3e8ff" }}>{q}</td>
+                  <td style={{ padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" }}>{strong}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <ul style={{ margin: "12px 0 0", paddingLeft: 20, color: "#f3e8ff", fontSize: 15.5, display: "flex", flexDirection: "column", gap: 4 }}>
+          <li>If the creator says &ldquo;everyone,&rdquo; UltraVestra helps narrow the audience.</li>
+          <li>If the creator says &ldquo;get views,&rdquo; UltraVestra asks what kind of viewers they want to attract and what those viewers should gain.</li>
+          <li>If the creator says &ldquo;make them buy,&rdquo; UltraVestra asks what information would help those people make an informed decision.</li>
+        </ul>
+
+        <h3 style={h3style}>The signature UltraVestra philosophy</h3>
+        <p style={body}><strong>The human comes before the hook.</strong></p>
+        <p style={body}>A hook without an audience is just a sentence. An emotion without a purpose is just a feeling. A video without a viewer benefit is just content. UltraVestra connects all three.</p>
+        <p style={body}><strong>Understand the person. Understand the purpose. Design the experience. Deliver the value.</strong></p>
+        <p style={{ ...body, margin: 0 }}>This is the rule behind the Emotion DNA Scanner, the Attention Mastery Lab, the Script Studio, the Retention Repair Shop, and every video-generation feature: the first question in every UltraVestra video tool is, &ldquo;Who is this for, and what should that person get from watching?&rdquo;</p>
       </section>
 
       {/* 2 — THE 15 EMOTIONS */}

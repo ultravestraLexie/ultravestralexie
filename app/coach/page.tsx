@@ -60,6 +60,7 @@ export default function CoachPage() {
           15 emotions, the 10-second attention engine, 25 hooks, 30 concepts, five formulas, and the
           interactive Human Emotion Video Lab.
         </p>
+        <p style={{ color: "#f0abfc", fontWeight: 800, fontSize: 17, margin: "0 auto 16px" }}>The human comes before the hook.</p>
         <Link href="/creator-growth/human-emotion-video-playbook" className="neon-btn" style={{ display: "inline-block", padding: "12px 26px", borderRadius: 999, background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", fontWeight: 700, textDecoration: "none", fontSize: 15.5 }}>Open the Playbook &amp; the Lab →</Link>
       </section>
 
