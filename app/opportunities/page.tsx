@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import type { Brand } from "@/lib/types";
@@ -19,6 +20,7 @@ const h2style: React.CSSProperties = { fontSize: 23, margin: "0 0 6px", letterSp
 const sub: React.CSSProperties = { color: "#ddd0ff", margin: "0 0 16px", fontSize: 15 };
 
 export default async function OpportunitiesPage() {
+  await requireSubscription("/opportunities");
   const supabase = await createClient();
   const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
   const list = (brands ?? []) as Brand[];

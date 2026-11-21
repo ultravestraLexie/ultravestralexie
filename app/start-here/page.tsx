@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CORE_FRUSTRATION, FRUSTRATIONS, PRINCIPLES, VISION_LINE, WORLDS } from "@/lib/frustrations";
@@ -50,7 +51,8 @@ const worldTag: React.CSSProperties = {
   padding: "2px 10px", fontSize: 12, fontWeight: 700, letterSpacing: 0.5,
 };
 
-export default function StartHerePage() {
+export default async function StartHerePage() {
+  await requireSubscription("/start-here");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       {/* HERO */}

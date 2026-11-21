@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import BrandCard from "@/components/BrandCard";
@@ -7,6 +8,7 @@ export const dynamic = "force-dynamic";
 
 /** The signed-in creator's saved brands (saved_brands joined to brands). */
 export default async function SavedPage() {
+  await requireSubscription("/saved");
   const supabase = await createClient();
   const {
     data: { user },

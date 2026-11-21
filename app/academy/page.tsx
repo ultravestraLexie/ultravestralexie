@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import AcademySearch from "@/components/AcademySearch";
 
 export const dynamic = "force-dynamic";
@@ -10,6 +11,7 @@ export default async function AcademyPage({
 }: {
   searchParams: Promise<{ q?: string; cat?: string }>;
 }) {
+  await requireSubscription("/academy");
   const sp = await searchParams;
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 26 }}>

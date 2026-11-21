@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import VideoLab from "@/components/VideoLab";
 
@@ -38,7 +39,8 @@ const SYMPTOMS: [string, string, string][] = [
   ["Sales come, but slowly and randomly", "Two or three different calls to action, or the CTA lands after the belief peak has passed.", "One CTA only, spoken at the moment the product proves itself."],
 ];
 
-export default function CoachPage() {
+export default async function CoachPage() {
+  await requireSubscription("/coach");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       <section style={{ textAlign: "center", paddingTop: 8 }}>

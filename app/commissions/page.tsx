@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import type { Brand } from "@/lib/types";
@@ -55,6 +56,7 @@ function capOf(notes: string | null): CapKind {
 const CONF_RANK: Record<string, number> = { verified: 3, publicly_reported: 2, needs_review: 1 };
 
 export default async function CommissionsPage() {
+  await requireSubscription("/commissions");
   const supabase = await createClient();
   const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
   const list = (brands ?? []) as Brand[];

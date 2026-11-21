@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import Link from "next/link";
 import EmotionLab from "@/components/EmotionLab";
@@ -113,7 +114,8 @@ const linkStyle: React.CSSProperties = { color: "#67e8f9", fontWeight: 700, text
 
 const CONCEPT_GROUPS = [...new Set(CONCEPTS.map((c) => c.group))];
 
-export default function PlaybookPage() {
+export default async function PlaybookPage() {
+  await requireSubscription("/creator-growth/human-emotion-video-playbook");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       {/* HERO */}

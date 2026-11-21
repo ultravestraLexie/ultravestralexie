@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import type { Brand } from "@/lib/types";
@@ -31,6 +32,7 @@ interface Row {
 }
 
 export default async function RadarPage() {
+  await requireSubscription("/radar");
   const supabase = await createClient();
   const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
   const list = (brands ?? []) as Brand[];

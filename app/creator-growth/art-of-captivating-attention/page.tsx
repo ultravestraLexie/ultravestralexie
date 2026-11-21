@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import AttentionReactor, { ChallengeTracker } from "@/components/AttentionReactor";
 import {
@@ -60,7 +61,8 @@ const card: React.CSSProperties = {
 const thStyle: React.CSSProperties = { textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" };
 const tdStyle: React.CSSProperties = { padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" };
 
-export default function ArtOfCaptivatingAttentionPage() {
+export default async function ArtOfCaptivatingAttentionPage() {
+  await requireSubscription("/creator-growth/art-of-captivating-attention");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       {/* HERO — THE MASTERCLASS */}

@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Troubleshooter from "@/components/Troubleshooter";
@@ -45,7 +46,8 @@ const badge: React.CSSProperties = {
   padding: "5px 16px", fontSize: 13, fontWeight: 700, letterSpacing: 2,
 };
 
-export default function WhyIsMyVideoNotWorkingPage() {
+export default async function WhyIsMyVideoNotWorkingPage() {
+  await requireSubscription("/why-is-my-video-not-working");
   const core = DIAGNOSES.filter((d) => d.core);
 
   return (

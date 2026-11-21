@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
 import BrandCard from "@/components/BrandCard";
 import type { Brand, Category } from "@/lib/types";
@@ -12,6 +13,7 @@ export default async function BrandsPage({
 }: {
   searchParams: Promise<{ q?: string; category?: string }>;
 }) {
+  await requireSubscription("/brands");
   const { q, category } = await searchParams;
   const supabase = await createClient();
 

@@ -1,11 +1,21 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { getGateState } from "@/lib/gate";
 
 /* Live search suggestions for Ask UltraVestra.
  * Returns published brand names and category names matching the typed
- * words. Brand data is member-protected by RLS, so a logged-out visitor
- * simply gets an empty list — the search itself still works on submit. */
+ * words. Member data: the subscription gate applies (middleware also
+ * blocks this route) — no session → 401, no active subscription → 403,
+ * both with empty lists so the type-ahead simply shows nothing. */
 export async function GET(request: Request) {
+  const gate = await getGateState();
+  if (gate !== "ok") {
+    return NextResponse.json(
+      { brands: [], categories: [] },
+      { status: gate === "login" ? 401 : 403 }
+    );
+  }
+
   const { searchParams } = new URL(request.url);
   const q = (searchParams.get("q") ?? "").trim();
   if (q.length < 2) return NextResponse.json({ brands: [], categories: [] });

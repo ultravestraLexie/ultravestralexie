@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import ScriptStudio from "@/components/ScriptStudio";
 
 /* VIDEO STRATEGY & SCRIPT STUDIO — the strategy is the five-beat
@@ -21,7 +22,8 @@ const BEATS: [string, string][] = [
   ["5 · CTA", "One action, at the moment of peak belief, with the product on screen."],
 ];
 
-export default function StudioPage() {
+export default async function StudioPage() {
+  await requireSubscription("/studio");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       <section style={{ textAlign: "center", paddingTop: 8 }}>

@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PsychologyLab from "@/components/PsychologyLab";
@@ -88,7 +89,8 @@ const linkStyle: React.CSSProperties = { color: "#67e8f9", fontWeight: 700, text
 const thStyle: React.CSSProperties = { textAlign: "left", padding: "9px 12px", borderBottom: "2px solid #7e22ce", color: "#f0abfc" };
 const tdStyle: React.CSSProperties = { padding: "8px 12px", borderBottom: "1px solid #4c1d95", color: "#ddd0ff" };
 
-export default function HumanBehindTheViewPage() {
+export default async function HumanBehindTheViewPage() {
+  await requireSubscription("/creator-growth/human-behind-the-view");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       {/* HERO */}

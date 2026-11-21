@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import SaveBrandButton from "@/components/SaveBrandButton";
@@ -78,6 +79,7 @@ export default async function BrandProfilePage({
 }: {
   params: Promise<{ id: string }>;
 }) {
+  await requireSubscription("/brands");
   const { id } = await params;
   const supabase = await createClient();
 

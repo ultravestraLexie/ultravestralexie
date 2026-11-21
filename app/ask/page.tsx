@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import type { Brand, Category } from "@/lib/types";
@@ -124,6 +125,7 @@ export default async function AskPage({
 }: {
   searchParams: Promise<{ q?: string; platform?: string; category?: string; name?: string; uncapped?: string; small?: string }>;
 }) {
+  await requireSubscription("/ask");
   const sp = await searchParams;
   const q = (sp.q ?? "").trim();
   const asked = Boolean(q || sp.category || sp.platform || sp.uncapped || sp.small);

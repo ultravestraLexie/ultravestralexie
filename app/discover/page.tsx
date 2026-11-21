@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import type { Brand, Category } from "@/lib/types";
@@ -46,6 +47,7 @@ export default async function DiscoverPage({
 }: {
   searchParams: Promise<{ q?: string; cat?: string; platform?: string; uncapped?: string; captype?: string; network?: string; small?: string; apply?: string }>;
 }) {
+  await requireSubscription("/discover");
   const sp = await searchParams;
   const q = (sp.q ?? "").trim();
   const intent = extractIntent(q);

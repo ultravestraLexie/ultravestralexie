@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import Link from "next/link";
 import SecretWeapon from "@/components/SecretWeapon";
@@ -41,7 +42,8 @@ const card: React.CSSProperties = {
 };
 const linkStyle: React.CSSProperties = { color: "#67e8f9", fontWeight: 700, textDecoration: "none" };
 
-export default function SecretWeaponPage() {
+export default async function SecretWeaponPage() {
+  await requireSubscription("/secret-weapon");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       {/* HERO — THE POSITIONING */}

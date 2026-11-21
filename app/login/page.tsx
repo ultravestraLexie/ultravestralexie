@@ -1,13 +1,24 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
 /** Placeholder auth page (Supabase email magic link).
  *  Full onboarding — niche questionnaire, interests, portfolio — is a
  *  later milestone; this only establishes the session the RLS policies
- *  rely on, and creates the profile row on first sign-in. */
-export default function LoginPage() {
+ *  rely on, and creates the profile row on first sign-in.
+ *  Honors ?next= (set by the subscription gate) so a visitor who was
+ *  bounced from a member page returns there after signing in; only
+ *  same-site paths are accepted. */
+function safeNext(raw: string | null): string {
+  if (raw && raw.startsWith("/") && !raw.startsWith("//")) return raw;
+  return "/brands";
+}
+
+function LoginForm() {
+  const searchParams = useSearchParams();
+  const next = safeNext(searchParams.get("next"));
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -21,7 +32,7 @@ export default function LoginPage() {
       options: {
         emailRedirectTo:
           typeof window !== "undefined"
-            ? `${window.location.origin}/auth/callback?next=/brands`
+            ? `${window.location.origin}/auth/callback?next=${encodeURIComponent(next)}`
             : undefined,
       },
     });
@@ -59,5 +70,13 @@ export default function LoginPage() {
         </form>
       )}
     </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={null}>
+      <LoginForm />
+    </Suspense>
   );
 }

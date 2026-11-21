@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import type { Brand } from "@/lib/types";
@@ -25,6 +26,7 @@ const card: React.CSSProperties = {
 };
 
 export default async function DashboardPage() {
+  await requireSubscription("/dashboard");
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");

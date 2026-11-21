@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import Link from "next/link";
 import AudienceFirst from "@/components/AudienceFirst";
@@ -56,7 +57,8 @@ const card: React.CSSProperties = {
 };
 const linkStyle: React.CSSProperties = { color: "#67e8f9", fontWeight: 700, textDecoration: "none" };
 
-export default function AudienceFirstProtocolPage() {
+export default async function AudienceFirstProtocolPage() {
+  await requireSubscription("/creator-growth/audience-first-protocol");
   const serum = CENTER_EXAMPLES[0];
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>

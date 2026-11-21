@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PrePublishingTest } from "@/components/TriggerLab";
@@ -58,7 +59,8 @@ const badge: React.CSSProperties = {
   padding: "5px 16px", fontSize: 13, fontWeight: 700, letterSpacing: 2,
 };
 
-export default function TenPsychologicalTriggersPage() {
+export default async function TenPsychologicalTriggersPage() {
+  await requireSubscription("/creator-growth/ten-psychological-triggers");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       {/* HERO */}

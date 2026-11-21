@@ -1,3 +1,4 @@
+import { requireSubscription } from "@/lib/gate";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PurchaseLab from "@/components/PurchaseLab";
@@ -41,7 +42,8 @@ const card: React.CSSProperties = {
 };
 const linkStyle: React.CSSProperties = { color: "#67e8f9", fontWeight: 700, textDecoration: "none" };
 
-export default function ProductToPurchaseLabPage() {
+export default async function ProductToPurchaseLabPage() {
+  await requireSubscription("/creator-growth/product-to-purchase-lab");
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       {/* HERO */}
