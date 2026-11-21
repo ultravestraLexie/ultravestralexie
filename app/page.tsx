@@ -1,149 +1,34 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import SolveMyProblem from "@/components/SolveMyProblem";
+import {
+  MISSION,
+  PROMISE,
+  IDENTITY,
+  PHILOSOPHY,
+  PAGE_STANDARD,
+  PAGE_STANDARD_LINE,
+  DEPARTMENTS,
+  PATHWAY,
+  SIGNATURE_TOOLS,
+  SUCCESS_MEASURES,
+  HONESTY_LINE,
+  ULTIMATE_GOAL,
+  THE_DIFFERENCE,
+} from "@/lib/universe";
 
 export const dynamic = "force-dynamic";
 
-const WORLDS: {
-  n: string;
-  title: string;
-  desc: string;
-  bullets: string[];
-  img: string;
-  href?: string;
-  cta?: string;
-  tag?: string;
-}[] = [
-  {
-    n: "01",
-    title: "THE BRAND GALAXY",
-    desc: "Opportunity discovery: brands worth knowing, researching and working with — with the Opportunity Radar built in.",
-    bullets: [
-      "Brand intelligence database",
-      "Affiliate program directory",
-      "Opportunity Radar — new programs & campaigns",
-      "Commission and payment research",
-      "Brand contact information",
-      "Ready-to-use outreach pitches",
-      "Brand ambassador programs & product seeding",
-      "Brand Trust Index",
-    ],
-    img: "/worlds/tablet.jpg",
-    href: "/brands",
-    cta: "Enter the Brand Galaxy",
-    tag: "NOW WITH THE OPPORTUNITY RADAR",
-  },
-  {
-    n: "02",
-    title: "THE CONTENT LAB",
-    desc: "Video education: learn to create content that captures attention and converts.",
-    bullets: [
-      "Viral hook techniques",
-      "Product-selling videos",
-      "Creator video tutorials",
-      "Filming and editing",
-      "Storytelling and persuasion",
-      "Video breakdowns",
-    ],
-    img: "/worlds/world2.jpg",
-    href: "/coach",
-    cta: "Enter the Content Lab",
-  },
-  {
-    n: "03",
-    title: "THE MONEY",
-    desc: "Earnings intelligence: understand how creators earn and keep more of their income.",
-    bullets: [
-      "Commission comparison",
-      "Affiliate marketing education",
-      "Creator pricing",
-      "Brand deal negotiations",
-      "Income calculators",
-      "Monetization strategies",
-    ],
-    img: "/worlds/world3.jpg",
-    href: "/commissions",
-    cta: "Enter The Money",
-  },
-  {
-    n: "04",
-    title: "THE GROWTH ENGINE",
-    desc: "Platform growth: improve your skills across every major creator platform.",
-    bullets: [
-      "TikTok education",
-      "YouTube education",
-      "Instagram education",
-      "Audience growth",
-      "Algorithm updates",
-      "Analytics education",
-    ],
-    img: "/worlds/world4.jpg",
-    href: "/academy?cat=Growth",
-    cta: "Enter the Growth Engine",
-  },
-  {
-    n: "05",
-    title: "THE CREATOR INTELLIGENCE",
-    desc: "The central brain of UltraVestra. Ask it anything about your creator business — it answers from the researched database: brands worth approaching, published commissions, contacts, a ready pitch, video concepts and a filming blueprint.",
-    bullets: [
-      "Ask UltraVestra — sourced research reports",
-      "Video Lab — why a video performs or stalls",
-      "Script Studio — scripts built from your facts",
-      "Brand matching & Opportunity Scores",
-      "Content improvement recommendations",
-    ],
-    img: "/worlds/control.jpg",
-    href: "/ask",
-    cta: "Ask the Brain",
-    tag: "THE CENTRAL BRAIN",
-  },
-  {
-    n: "06",
-    title: "THE KNOWLEDGE VAULT",
-    desc: "The creator resource center: an organized library of everything a creator needs to know.",
-    bullets: [
-      "Free guides",
-      "Downloadable resources",
-      "Creator checklists",
-      "Templates",
-      "Tutorials",
-      "Industry research",
-    ],
-    img: "/worlds/world7.jpg",
-    href: "/academy",
-    cta: "Open the Vault",
-  },
-];
-
-const TRUST: { pill: string; bg: string; fg: string; title: string; body: string }[] = [
-  {
-    pill: "Verified",
-    bg: "#052e16",
-    fg: "#4ade80",
-    title: "Confirmed information",
-    body: "Official commission rate, program terms, payment conditions and application links confirmed against sources.",
-  },
-  {
-    pill: "Brand reported",
-    bg: "#0b2447",
-    fg: "#60a5fa",
-    title: "Information supplied by the brand",
-    body: "Claims and benefits provided directly by the company but not independently verified.",
-  },
-  {
-    pill: "Creator reported",
-    bg: "#3a1c05",
-    fg: "#fb923c",
-    title: "Real creator experiences",
-    body: "Reviews and experiences with dates, context and moderation.",
-  },
-  {
-    pill: "Research lead",
-    bg: "#26262e",
-    fg: "#d4d4d8",
-    title: "Potential opportunity",
-    body: "A worthwhile brand to approach even when it has no publicly advertised creator campaign.",
-  },
-];
+/* ULTRAVESTRA — THE CREATOR PROBLEM-SOLVING UNIVERSE.
+ * The homepage is a problem-solving entry point, not a library.
+ * A creator arrives with a problem — nobody watches, nobody buys,
+ * no brands, no growth — and the page starts there: SOLVE MY
+ * PROBLEM is the centerpiece, the six departments are organized
+ * around the problems they solve, and every lesson follows the
+ * same pathway: Identify → Diagnose → Understand → See It →
+ * Practice It → Measure Improvement. Other websites give creators
+ * tips. UltraVestra helps them solve the problems behind their
+ * results. */
 
 const pillStyle: React.CSSProperties = {
   display: "inline-block",
@@ -154,6 +39,16 @@ const pillStyle: React.CSSProperties = {
   fontSize: 13,
   fontWeight: 700,
   letterSpacing: 2,
+};
+
+const sectionTitle: React.CSSProperties = { fontSize: 30, margin: "0 0 6px", letterSpacing: 1 };
+const sectionSub: React.CSSProperties = { color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 };
+const cardStyle: React.CSSProperties = {
+  border: "1px solid #7e22ce",
+  background: "rgba(26,8,54,0.78)",
+  borderRadius: 20,
+  padding: 22,
+  height: "100%",
 };
 
 export default async function LandingPage() {
@@ -169,6 +64,7 @@ export default async function LandingPage() {
   }
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 56 }}>
+      {/* ============ 1. HERO ============ */}
       <section
         className="portal-hero"
         style={{
@@ -189,7 +85,7 @@ export default async function LandingPage() {
             textAlign: "center",
           }}
         >
-          <span style={pillStyle}>THE CREATOR UNIVERSE</span>
+          <span style={pillStyle}>THE CREATOR PROBLEM-SOLVING UNIVERSE</span>
           <h1
             className="wow-title"
             style={{
@@ -220,6 +116,20 @@ export default async function LandingPage() {
           </p>
           <p style={{ fontSize: 14.5, color: "#67e8f9", fontWeight: 700, margin: "10px auto 0", letterSpacing: 0.3, maxWidth: 680 }}>
             Most platforms teach you how to post. UltraVestra teaches you how to make people stop, watch, trust, and buy.
+          </p>
+          <p
+            style={{
+              margin: "22px auto 0",
+              fontSize: 15,
+              fontWeight: 800,
+              letterSpacing: 3.5,
+              background: "linear-gradient(92deg, #f0abfc, #a855f7 55%, #22d3ee)",
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+            }}
+          >
+            {IDENTITY.beyond}
           </p>
           <form
             action="/discover"
@@ -277,7 +187,7 @@ export default async function LandingPage() {
               ["Find brands", "/discover?q=brands+with+affiliate+programs"],
               ["Find commissions", "/discover?q=uncapped+commissions"],
               ["Find campaigns", "/discover?q=brands+accepting+applications"],
-              ["Improve my videos", "/academy"],
+              ["Improve my videos", "/why-is-my-video-not-working"],
               ["Find brand contacts", "/discover?q=brand+contacts"],
               ["Learn creator skills", "/academy"],
             ].map(([label, href]) => (
@@ -309,8 +219,8 @@ export default async function LandingPage() {
           >
             {[
               brandCount > 0 ? [String(brandCount), "brands researched & sourced"] : ["New", "brands added every week"],
-              ["2", "search engines — database + live web"],
-              ["5", "connected experiences"],
+              ["6", "departments built around your problems"],
+              ["5", "signature tools to practice with"],
             ].map(([num, label]) => (
               <div
                 key={label}
@@ -343,13 +253,147 @@ export default async function LandingPage() {
         </div>
       </section>
 
+      {/* ============ 2. SOLVE MY PROBLEM — the centerpiece ============ */}
       <section>
-        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
-          EXPLORE THE UNIVERSE
+        <p style={{ textAlign: "center", margin: "0 0 18px", fontSize: 16, color: "#ddd0ff" }}>
+          Our mission: <strong style={{ color: "#f0abfc" }}>{MISSION}</strong>
+        </p>
+        <SolveMyProblem />
+      </section>
+
+      {/* ============ 2b. THE ULTRA VESTRA PHILOSOPHY — the defining statement ============ */}
+      <section
+        style={{
+          border: "1px solid #d946ef",
+          borderRadius: 28,
+          background:
+            "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(168,85,247,0.28) 0%, rgba(26,8,54,0.9) 60%, rgba(13,2,33,0.95) 100%)",
+          boxShadow: "0 0 44px rgba(217,70,239,0.30)",
+          padding: "52px 28px 46px",
+          textAlign: "center",
+        }}
+      >
+        <span style={pillStyle}>THE ULTRA VESTRA PHILOSOPHY</span>
+        <h2
+          style={{
+            fontSize: 40,
+            margin: "26px auto 0",
+            fontWeight: 800,
+            letterSpacing: 1.5,
+            lineHeight: 1.2,
+            color: "#b3a6e0",
+            maxWidth: 900,
+          }}
+        >
+          {PHILOSOPHY.line1}
         </h2>
-        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
-          Six worlds. One journey. Everything a creator needs to find
-          brands, make content, and get paid.
+        <p
+          className="wow-title"
+          style={{
+            fontSize: 52,
+            margin: "6px auto 0",
+            fontWeight: 800,
+            letterSpacing: 1.5,
+            lineHeight: 1.2,
+            maxWidth: 900,
+          }}
+        >
+          {PHILOSOPHY.line2}
+        </p>
+        <p style={{ fontSize: 21, margin: "20px auto 0", color: "#f3e8ff", fontWeight: 600, maxWidth: 640 }}>
+          {PHILOSOPHY.sub}
+        </p>
+        <div
+          style={{
+            display: "flex",
+            gap: 10,
+            justifyContent: "center",
+            alignItems: "center",
+            flexWrap: "wrap",
+            marginTop: 30,
+          }}
+        >
+          {PHILOSOPHY.steps.replace(/\.$/, "").split(". ").map((s, i, arr) => (
+            <span key={s} style={{ display: "flex", gap: 10, alignItems: "center" }}>
+              <span
+                style={{
+                  border: "1px solid #22d3ee",
+                  background: "rgba(8,47,73,0.55)",
+                  color: "#67e8f9",
+                  borderRadius: 999,
+                  padding: "9px 20px",
+                  fontSize: 16,
+                  fontWeight: 800,
+                  letterSpacing: 0.5,
+                }}
+              >
+                {s}
+              </span>
+              {i < arr.length - 1 && (
+                <span style={{ color: "#e879f9", fontSize: 18, fontWeight: 800 }}>→</span>
+              )}
+            </span>
+          ))}
+        </div>
+
+        <div style={{ maxWidth: 680, margin: "38px auto 0", textAlign: "left" }}>
+          <p
+            style={{
+              margin: "0 0 14px",
+              fontSize: 12.5,
+              fontWeight: 800,
+              letterSpacing: 2.5,
+              color: "#67e8f9",
+              textAlign: "center",
+            }}
+          >
+            WHAT THIS MEANS
+          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {PAGE_STANDARD.map((p) => (
+              <p key={p.dont} style={{ margin: 0, fontSize: 16, lineHeight: 1.55 }}>
+                <span style={{ color: "#8f83b8" }}>{p.dont}</span>{" "}
+                <strong style={{ color: "#f3e8ff" }}>{p.instead}</strong>
+              </p>
+            ))}
+          </div>
+          <p
+            style={{
+              margin: "20px 0 0",
+              fontSize: 15.5,
+              color: "#f0abfc",
+              fontWeight: 700,
+              textAlign: "center",
+              lineHeight: 1.55,
+            }}
+          >
+            Our standard: {PAGE_STANDARD_LINE}
+          </p>
+        </div>
+
+        <p
+          style={{
+            margin: "34px 0 0",
+            fontSize: 14,
+            fontWeight: 800,
+            letterSpacing: 3.5,
+            background: "linear-gradient(92deg, #f0abfc, #a855f7 55%, #22d3ee)",
+            WebkitBackgroundClip: "text",
+            backgroundClip: "text",
+            color: "transparent",
+          }}
+        >
+          {PHILOSOPHY.tagline}
+        </p>
+      </section>
+
+      {/* ============ 3. THE SIX DEPARTMENTS ============ */}
+      <section>
+        <h2 style={sectionTitle}>THE SIX DEPARTMENTS</h2>
+        <p style={sectionSub}>
+          The entire universe is built around problems — each department exists
+          because creators are stuck on one. Find yours, and the solutions are
+          already organized.
         </p>
         <div
           style={{
@@ -358,87 +402,195 @@ export default async function LandingPage() {
             gap: 22,
           }}
         >
-          {WORLDS.map((w) => (
+          {DEPARTMENTS.map((d) => (
             <article
-              key={w.n}
+              key={d.n}
               className="glass-card"
               style={{
                 borderRadius: 24,
-                overflow: "hidden",
                 border: "1px solid #7e22ce",
                 background: "rgba(26,8,54,0.78)",
                 boxShadow: "0 0 34px rgba(168,85,247,0.35)",
+                padding: "22px 24px 26px",
                 display: "flex",
                 flexDirection: "column",
+                gap: 12,
               }}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={w.img}
-                alt={w.title}
-                style={{ width: "100%", display: "block", aspectRatio: "16/10", objectFit: "cover" }}
-              />
-              <div style={{ padding: "22px 24px 26px", display: "flex", flexDirection: "column", gap: 12, flex: 1 }}>
-                <span style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-                  <span style={{ ...pillStyle, alignSelf: "flex-start" }}>WORLD {w.n}</span>
-                  {w.tag && (
-                    <span style={{ ...pillStyle, alignSelf: "flex-start", background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff" }}>{w.tag}</span>
-                  )}
-                </span>
-                <h3 style={{ margin: 0, fontSize: 27, fontWeight: 800, letterSpacing: 0.5 }}>
-                  {w.title}
-                </h3>
-                <p style={{ margin: 0, color: "#ddd0ff", fontSize: 16 }}>{w.desc}</p>
-                <ul style={{ margin: "4px 0 0", paddingLeft: 20, lineHeight: 1.95, fontSize: 16 }}>
-                  {w.bullets.map((b) => (
-                    <li key={b}>{b}</li>
-                  ))}
-                </ul>
-                <p style={{ marginTop: "auto", paddingTop: 10 }}>
-                  {w.href ? (
-                    <Link
-                      href={w.href}
-                      style={{
-                        display: "inline-block",
-                        padding: "10px 20px",
-                        borderRadius: 999,
-                        background: "linear-gradient(92deg, #a855f7, #e879f9)",
-                        color: "#fff",
-                        fontWeight: 700,
-                        textDecoration: "none",
-                        boxShadow: "0 0 20px rgba(232,121,249,0.45)",
-                      }}
-                    >
-                      {w.cta} →
+              <span style={{ ...pillStyle, alignSelf: "flex-start" }}>DEPARTMENT {d.n}</span>
+              <h3 style={{ margin: 0, fontSize: 25, fontWeight: 800, letterSpacing: 0.5 }}>
+                {d.name}
+              </h3>
+              <p style={{ margin: 0, fontSize: 16.5, color: "#f0abfc", fontWeight: 700, fontStyle: "italic" }}>
+                &ldquo;{d.problem}&rdquo;
+              </p>
+              <p style={{ margin: 0, color: "#ddd0ff", fontSize: 15.5, lineHeight: 1.55 }}>{d.solutions}</p>
+              <ul style={{ margin: "2px 0 0", paddingLeft: 20, lineHeight: 1.9, fontSize: 15 }}>
+                {d.tools.map((t) => (
+                  <li key={t.name}>
+                    <Link href={t.href} style={{ color: "#67e8f9", textDecoration: "none", fontWeight: 600 }}>
+                      {t.name}
                     </Link>
-                  ) : (
-                    <span
-                      style={{
-                        display: "inline-block",
-                        padding: "6px 14px",
-                        borderRadius: 999,
-                        border: "1px solid #3d2a6e",
-                        color: "#b3a6e0",
-                        fontSize: 13,
-                        letterSpacing: 1.5,
-                        fontWeight: 700,
-                      }}
-                    >
-                      COMING SOON
-                    </span>
-                  )}
-                </p>
-              </div>
+                  </li>
+                ))}
+              </ul>
+              <p style={{ marginTop: "auto", paddingTop: 10 }}>
+                <Link
+                  href={d.href}
+                  style={{
+                    display: "inline-block",
+                    padding: "10px 20px",
+                    borderRadius: 999,
+                    background: "linear-gradient(92deg, #a855f7, #e879f9)",
+                    color: "#fff",
+                    fontWeight: 700,
+                    textDecoration: "none",
+                    boxShadow: "0 0 20px rgba(232,121,249,0.45)",
+                  }}
+                >
+                  Enter the department →
+                </Link>
+              </p>
             </article>
           ))}
         </div>
       </section>
 
+      {/* ============ 4. THE PATHWAY ============ */}
       <section>
-        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
-          THE INTELLIGENCE LAYER
-        </h2>
-        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16, maxWidth: 720 }}>
+        <h2 style={sectionTitle}>EVERY PROBLEM HAS A SOLUTION PATHWAY</h2>
+        <p style={sectionSub}>
+          Every lesson in UltraVestra follows the same six steps — so you never
+          just learn something. You work the problem until it improves.
+        </p>
+        <div
+          style={{
+            display: "flex",
+            gap: 10,
+            flexWrap: "wrap",
+            alignItems: "stretch",
+          }}
+        >
+          {PATHWAY.map((p, i) => (
+            <div key={p.step} style={{ display: "flex", gap: 10, alignItems: "stretch", flex: "1 1 150px" }}>
+              <div
+                className="glass-card"
+                style={{
+                  border: "1px solid #7e22ce",
+                  background: "rgba(26,8,54,0.78)",
+                  borderRadius: 16,
+                  padding: "16px 16px 18px",
+                  flex: 1,
+                }}
+              >
+                <p style={{ margin: "0 0 4px", fontSize: 12, fontWeight: 800, letterSpacing: 2, color: "#67e8f9" }}>
+                  STEP {i + 1}
+                </p>
+                <p style={{ margin: "0 0 6px", fontSize: 17.5, fontWeight: 800, textTransform: "uppercase", letterSpacing: 0.5 }}>
+                  {p.step}
+                </p>
+                <p style={{ margin: 0, fontSize: 14, color: "#ddd0ff", lineHeight: 1.5 }}>{p.line}</p>
+              </div>
+              {i < PATHWAY.length - 1 && (
+                <span style={{ alignSelf: "center", color: "#e879f9", fontSize: 20, fontWeight: 800 }}>→</span>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ============ 5. FIVE SIGNATURE TOOLS ============ */}
+      <section>
+        <h2 style={sectionTitle}>FIVE SIGNATURE TOOLS</h2>
+        <p style={sectionSub}>
+          Understanding is not enough — these are the tools that turn it into
+          practice.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: 18,
+          }}
+        >
+          {SIGNATURE_TOOLS.map((t) => (
+            <Link key={t.name} href={t.href} style={{ textDecoration: "none" }}>
+              <article className="glass-card" style={cardStyle}>
+                <p style={{ margin: "0 0 10px" }}>
+                  <span
+                    style={{
+                      background: "#052e16",
+                      color: "#4ade80",
+                      borderRadius: 999,
+                      padding: "4px 13px",
+                      fontSize: 13,
+                      fontWeight: 700,
+                    }}
+                  >
+                    {t.name === "Brand Intelligence Database" && brandCount > 0
+                      ? `Live — ${brandCount} brands researched & sourced`
+                      : t.status}
+                  </span>
+                </p>
+                <strong style={{ fontSize: 18.5 }}>{t.name}</strong>
+                <p style={{ margin: "8px 0 0", color: "#ddd0ff", fontSize: 15, lineHeight: 1.55 }}>{t.what}</p>
+                <p style={{ margin: "12px 0 0", color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>Open the tool →</p>
+              </article>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* ============ 6a. FOUR QUESTIONS ============ */}
+      <section>
+        <h2 style={sectionTitle}>FOUR QUESTIONS. ONE PLATFORM.</h2>
+        <p style={sectionSub}>
+          Search smarter. Find better brands. Create content that sells.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: 18,
+          }}
+        >
+          {[
+            {
+              href: "/radar",
+              q: "Where should I go?",
+              a: "Find relevant creator opportunities across platforms.",
+            },
+            {
+              href: "/discover",
+              q: "What should I promote?",
+              a: "Research brands, products, and audience fit.",
+            },
+            {
+              href: "/commissions",
+              q: "What could I earn?",
+              a: "Compare commission structures and earning terms.",
+            },
+            {
+              href: "/coach",
+              q: "How do I sell better?",
+              a: "Learn hooks, scripts, video strategy, and conversion.",
+            },
+          ].map((c) => (
+            <Link key={c.q} href={c.href} style={{ textDecoration: "none" }}>
+              <article className="glass-card" style={cardStyle}>
+                <strong style={{ fontSize: 19 }}>{c.q}</strong>
+                <p style={{ margin: "8px 0 0", color: "#ddd0ff", fontSize: 15 }}>{c.a}</p>
+                <p style={{ margin: "12px 0 0", color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>Answer it →</p>
+              </article>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* ============ 6b. THE INTELLIGENCE LAYER ============ */}
+      <section>
+        <h2 style={sectionTitle}>THE INTELLIGENCE LAYER</h2>
+        <p style={{ ...sectionSub, maxWidth: 720 }}>
           UltraVestra does not compete with the platforms you already create on.
           It is the intelligence layer that helps you succeed on all of them.
         </p>
@@ -472,172 +624,41 @@ export default async function LandingPage() {
         </div>
       </section>
 
+      {/* ============ 7. SUCCESS MEASURES ============ */}
       <section>
-        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
-          FOUR QUESTIONS. ONE PLATFORM.
-        </h2>
-        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
-          Search smarter. Find better brands. Create content that sells.
+        <h2 style={sectionTitle}>WE DON&rsquo;T MEASURE ARTICLES. WE MEASURE CREATOR PROGRESS.</h2>
+        <p style={{ ...sectionSub, maxWidth: 760 }}>
+          Our promise: {PROMISE} So success here is not how much gets published —
+          it is whether creators actually get better.
         </p>
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-            gap: 18,
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gap: 14,
           }}
         >
-          {[
-            {
-              href: "/radar",
-              q: "Where should I go?",
-              a: "Find relevant creator opportunities across platforms.",
-            },
-            {
-              href: "/brands",
-              q: "What should I promote?",
-              a: "Research brands, products, and audience fit.",
-            },
-            {
-              href: "/commissions",
-              q: "What could I earn?",
-              a: "Compare commission structures and earning terms.",
-            },
-            {
-              href: "/coach",
-              q: "How do I sell better?",
-              a: "Learn hooks, scripts, video strategy, and conversion.",
-            },
-          ].map((c) => (
-            <Link key={c.href} href={c.href} style={{ textDecoration: "none" }}>
-              <article
-                className="glass-card"
-                style={{
-                  border: "1px solid #7e22ce",
-                  background: "rgba(26,8,54,0.78)",
-                  borderRadius: 20,
-                  padding: 22,
-                  height: "100%",
-                }}
-              >
-                <strong style={{ fontSize: 19 }}>{c.q}</strong>
-                <p style={{ margin: "8px 0 0", color: "#ddd0ff", fontSize: 15 }}>{c.a}</p>
-                <p style={{ margin: "12px 0 0", color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>Answer it →</p>
-              </article>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
-          THREE INTELLIGENCE CENTERS
-        </h2>
-        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
-          Built on the researched database — every number sourced, every limit
-          labeled honestly.
-        </p>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-            gap: 18,
-          }}
-        >
-          {[
-            {
-              href: "/commissions",
-              emoji: "💰",
-              title: "Commission Intelligence Center",
-              body: "Capped, uncapped and unknown commission limits — separated. Compare published rates, recurring terms and payment conditions before you create.",
-            },
-            {
-              href: "/coach",
-              emoji: "🔬",
-              title: "Creator Video Intelligence Lab",
-              body: "Run the diagnostic on your last video. Learn why it performed — or why it stalled — across hooks, demonstration, storytelling, retention and sales conversion.",
-            },
-            {
-              href: "/radar",
-              emoji: "📡",
-              title: "Brand Opportunity Radar",
-              body: "Brands accepting creators, brands worth pitching, emerging products, and quiet opportunities that are not widely advertised.",
-            },
-          ].map((c) => (
-            <Link key={c.href} href={c.href} style={{ textDecoration: "none" }}>
-              <article
-                className="glass-card"
-                style={{
-                  border: "1px solid #7e22ce",
-                  background: "rgba(26,8,54,0.78)",
-                  borderRadius: 20,
-                  padding: 22,
-                  height: "100%",
-                }}
-              >
-                <p style={{ margin: "0 0 10px", fontSize: 26 }}>{c.emoji}</p>
-                <strong style={{ fontSize: 18 }}>{c.title}</strong>
-                <p style={{ margin: "8px 0 0", color: "#ddd0ff", fontSize: 15 }}>{c.body}</p>
-                <p style={{ margin: "12px 0 0", color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>Open →</p>
-              </article>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
-          EVERY FACT HAS A SOURCE
-        </h2>
-        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
-          This is non-negotiable. Every brand listing in UltraVestra
-          distinguishes:
-        </p>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-            gap: 18,
-          }}
-        >
-          {TRUST.map((t) => (
+          {SUCCESS_MEASURES.map((s) => (
             <article
-              key={t.pill}
+              key={s.outcome}
               style={{
                 border: "1px solid #3d2a6e",
                 background: "rgba(27,18,61,0.72)",
-                borderRadius: 20,
-                padding: 22,
+                borderRadius: 16,
+                padding: "16px 20px",
               }}
             >
-              <p
-                style={{
-                  margin: "0 0 10px",
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 12,
-                  flexWrap: "wrap",
-                }}
-              >
-                <span
-                  style={{
-                    background: t.bg,
-                    color: t.fg,
-                    borderRadius: 999,
-                    padding: "4px 13px",
-                    fontSize: 13.5,
-                    fontWeight: 700,
-                  }}
-                >
-                  {t.pill}
-                </span>
-                <strong style={{ fontSize: 17.5 }}>{t.title}</strong>
-              </p>
-              <p style={{ margin: 0, color: "#ddd0ff", fontSize: 15 }}>{t.body}</p>
+              <strong style={{ fontSize: 16.5 }}>{s.outcome}</strong>
+              <p style={{ margin: "4px 0 0", color: "#ddd0ff", fontSize: 14.5 }}>{s.measure}</p>
             </article>
           ))}
         </div>
+        <p style={{ margin: "18px 0 0", fontSize: 15, color: "#f0abfc", fontWeight: 700 }}>
+          {HONESTY_LINE}
+        </p>
       </section>
 
+      {/* ============ 8. CLOSING — the ultimate goal ============ */}
       <section
         className="portal-hero"
         style={{
@@ -658,28 +679,44 @@ export default async function LandingPage() {
             position: "absolute",
             inset: 0,
             background:
-              "linear-gradient(180deg, rgba(2,0,8,0.25) 30%, rgba(2,0,8,0.94) 88%)",
+              "linear-gradient(180deg, rgba(2,0,8,0.35) 20%, rgba(2,0,8,0.95) 85%)",
             display: "flex",
             flexDirection: "column",
             justifyContent: "flex-end",
             alignItems: "center",
             textAlign: "center",
-            padding: "30px 28px 36px",
+            padding: "30px 28px 40px",
           }}
         >
-          <span style={pillStyle}>ASK ULTRAVESTRA — NOW LIVE</span>
-          <h2 className="wow-title" style={{ fontSize: 34, margin: "14px 0 8px", fontWeight: 800 }}>
-            The feature that makes UltraVestra famous
+          <span style={pillStyle}>THE PLACE CREATORS RETURN TO WHEN THEY GET STUCK</span>
+          <div style={{ marginTop: 18, display: "flex", flexDirection: "column", gap: 6 }}>
+            {ULTIMATE_GOAL.map((q) => (
+              <p key={q} style={{ margin: 0, fontSize: 17.5, color: "#f3e8ff", fontWeight: 600, fontStyle: "italic" }}>
+                &ldquo;{q}&rdquo;
+              </p>
+            ))}
+          </div>
+          <h2
+            className="wow-title"
+            style={{ fontSize: 32, margin: "24px auto 8px", fontWeight: 800, maxWidth: 780, lineHeight: 1.35 }}
+          >
+            {THE_DIFFERENCE}
           </h2>
-          <p style={{ color: "#f3e8ff", maxWidth: 620, margin: "0 auto", fontSize: 16.5 }}>
-            &ldquo;I&rsquo;m a Trybe creator in beauty. I want brands with
-            uncapped affiliate commissions, that work with smaller creators.
-            Show me how to make better product videos.&rdquo; — Ask
-            UltraVestra answers with a personalized research report: brands
-            worth approaching, published commissions, contacts, a ready-to-use
-            pitch, three video concepts, a script and a filming blueprint.
+          <p style={{ margin: 0, fontSize: 16.5, color: "#67e8f9", fontWeight: 700, letterSpacing: 0.4 }}>
+            {IDENTITY.dontJust}
           </p>
-          <p style={{ marginTop: 20 }}>
+          <p
+            style={{
+              margin: "14px 0 0",
+              fontSize: 13.5,
+              fontWeight: 800,
+              letterSpacing: 3,
+              color: "#c084fc",
+            }}
+          >
+            {IDENTITY.intelligence}
+          </p>
+          <p style={{ marginTop: 22 }}>
             <Link
               href="/ask"
               className="neon-btn"
