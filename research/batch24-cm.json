@@ -1,0 +1,479 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://www.cachecoffeeandmore.com/affiliate",
+      "commission_cap": "uncapped",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "brand direct",
+      "source_url": "https://www.cachecoffeeandmore.com/affiliate"
+    },
+    "category_slug": "food-drink",
+    "contacts": [],
+    "country": "United States",
+    "description": "Cache Coffee & More is a locally owned coffee shop, cafe and small-batch roastery in Logan, Utah, selling its own roasted coffee direct to consumers, with a brand-direct affiliate program that explicitly recruits content creators, podcasters and social influencers.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://www.cachecoffeeandmore.com/affiliate",
+        "summary": "Cache Coffee's own affiliate page, fetched first-hand, publishes a 10% commission on every referred sale and states the cap explicitly three times: 'No cap', 'No Earnings Cap' in the program stats, and the FAQ answer '10% of every sale your referral link generates. No cap on earnings.' — so commission_cap is uncapped. The page also publishes a 30-day cookie, free manual-review application, payouts by PayPal, Venmo or bank transfer, and says no large following is needed. No creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Cache Coffee & More",
+    "opportunity": {
+      "application_url": "https://www.cachecoffeeandmore.com/affiliate",
+      "source_url": "https://www.cachecoffeeandmore.com/affiliate",
+      "title": "Cache Coffee & More Affiliate Program"
+    },
+    "score": {
+      "compensation": 17,
+      "contact_access": 8,
+      "credibility": 3,
+      "niche_fit": 24,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "10% on every sale with an explicit no-cap statement on the brand's own page — verified uncapped.",
+        "contact_access": "Application runs through the brand's own affiliate page with manual review; no public partnerships email was published on the fetched page.",
+        "credibility": "A real, long-running local roastery and cafe with 463+ verified reviews per its own page, but a small single-location business, which caps credibility.",
+        "niche_fit": "Coffee is an everyday, highly demonstrable product for food, fitness-morning-routine and lifestyle creators; the brand targets patriot, veteran and fitness audiences specifically.",
+        "opportunity_availability": "Program is live and free to apply now from the brand page.",
+        "ugc_evidence": "The brand's own page explicitly recruits content creators, podcast hosts, YouTube creators and Instagram/TikTok influencers, and says a small engaged audience is enough."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://www.cachecoffeeandmore.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://nootropicsdepot.com/affiliates/",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": "brand direct",
+      "source_url": "https://nootropicsdepot.com/affiliates/"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Nootropics Depot is a long-running US direct-to-consumer retailer of nootropics and dietary supplements, known for in-house and third-party testing, and runs its own affiliate program under a published affiliate agreement on its website.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_terms",
+        "source_url": "https://nootropicsdepot.com/affiliates/",
+        "summary": "Nootropics Depot's own affiliate agreement page, fetched first-hand, publishes the commission structure in section 7.1: 15% on purchases by new customers and 5% on purchases by returning customers, paid via PayPal through a third-party affiliate application. The 15% new-customer rate is recorded. No earnings-cap statement is published in the agreement, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Nootropics Depot",
+    "opportunity": {
+      "application_url": "https://nootropicsdepot.com/affiliates/",
+      "source_url": "https://nootropicsdepot.com/affiliates/",
+      "title": "Nootropics Depot Affiliate Program"
+    },
+    "score": {
+      "compensation": 15,
+      "contact_access": 7,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "15% on new customers published in the brand's own affiliate agreement, dropping to 5% on returning customers; no cap statement, so the cap is unknown.",
+        "contact_access": "Application runs through the brand's own affiliate agreement page; no public partnerships email was published on the fetched page.",
+        "credibility": "One of the longest-running and most testing-focused nootropics retailers in the US, with full published program terms.",
+        "niche_fit": "A deep nootropic and supplement catalog fits biohacking, productivity, focus and supplement-review creators very well.",
+        "opportunity_availability": "Program is live and joinable now under the published agreement.",
+        "ugc_evidence": "A formal brand-direct affiliate program with a full published agreement, affiliate dashboard and banner creatives."
+      },
+      "ugc_evidence": 13
+    },
+    "socials": [],
+    "website": "https://nootropicsdepot.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.affiliatly.com/af-1069205/affiliate.panel?mode=register",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Affiliatly",
+      "source_url": "https://www.affiliatly.com/af-1069205/affiliate.panel?mode=register"
+    },
+    "category_slug": "food-drink",
+    "contacts": [],
+    "country": "United States",
+    "description": "Safe Catch sells premium canned tuna and seafood that it mercury-tests fish by fish, direct to consumers, and runs an affiliate program through Affiliatly with published terms aimed at bloggers and social creators.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_program_page",
+        "source_url": "https://www.affiliatly.com/af-1069205/affiliate.panel?mode=register",
+        "summary": "Safe Catch's own affiliate program panel (run on Affiliatly), fetched first-hand, publishes a 10% commission on every sale, a 60-day tracking window, tracking by coupon codes and links, an exclusive 10% follower discount, and monthly payouts once $25 is earned. The program's own terms likewise state a 10% referral fee per product in a qualified transaction. A coupon-site brief mentions a separate 10–15% ambassador range, which is not the recorded route. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Safe Catch",
+    "opportunity": {
+      "application_url": "https://www.affiliatly.com/af-1069205/affiliate.panel?mode=register",
+      "source_url": "https://www.affiliatly.com/af-1069205/affiliate.panel?mode=register",
+      "title": "Safe Catch Affiliate Program"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 7,
+      "credibility": 4,
+      "niche_fit": 23,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "10% on every sale published on the brand's own program panel, with a 60-day window; no cap statement, so the cap is unknown.",
+        "contact_access": "Application runs through the brand's Affiliatly program panel; no public partnerships email was published on the fetched page.",
+        "credibility": "Established DTC seafood brand built on per-fish mercury testing; a smaller name than the national grocery brands.",
+        "niche_fit": "Low-mercury tuna and clean seafood fit healthy-eating, pregnancy-nutrition, keto and pantry-staple creators well.",
+        "opportunity_availability": "Program is live and joinable now through the program panel.",
+        "ugc_evidence": "The program panel speaks directly to bloggers and social-media creators and offers codes, links and a follower discount."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [],
+    "website": "https://safecatch.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://getlasso.co/affiliate/seed/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://getlasso.co/affiliate/seed/"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Seed is a science-led microbiome company selling the DS-01 Daily Synbiotic (probiotic + prebiotic) and related synbiotics by subscription, with an affiliate program that has historically run through ShareASale alongside its Seed University education platform.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/seed/",
+        "summary": "Lasso's Seed program page, fetched first-hand, lists a 15% per-sale commission with a 90-day cookie. Other published sources conflict: program roundups report a 25% base rate for affiliates via ShareASale (with a separate 100% partner-influencer track) and a 25% base with a 30-day cookie elsewhere. Because the published figures conflict and none is the brand's own program page, commission_rate is null with the conflict documented. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Seed",
+    "opportunity": {
+      "application_url": "https://getlasso.co/affiliate/seed/",
+      "source_url": "https://getlasso.co/affiliate/seed/",
+      "title": "Seed Affiliate Program"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published figures conflict (15% vs 25% base), so the rate is honestly null; either figure would be a strong rate for a premium subscription product.",
+        "contact_access": "Application runs through the program listing/network; no public partnerships email was verified on a fetched brand page.",
+        "credibility": "One of the most established science-led probiotic brands, with clinically studied strains and a large research profile.",
+        "niche_fit": "Premium gut-health synbiotics are a flagship fit for wellness, gut-health and science-focused creators.",
+        "opportunity_availability": "Program is listed as live and joinable; approval typically takes a few days per the listing.",
+        "ugc_evidence": "A long-running affiliate program with a creator education platform (Seed University) reported across multiple program sources."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [],
+    "website": "https://seed.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://support.sunbasket.com/hc/en-us/articles/40605896166547-Introducing-the-Sunbasket-Affiliate-Program",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Everflow",
+      "source_url": "https://support.sunbasket.com/hc/en-us/articles/40605896166547-Introducing-the-Sunbasket-Affiliate-Program"
+    },
+    "category_slug": "food-drink",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "partners@sunbasket.com",
+        "source_url": "https://support.sunbasket.com/hc/en-us/articles/40605896166547-Introducing-the-Sunbasket-Affiliate-Program"
+      }
+    ],
+    "country": "United States",
+    "description": "Sunbasket is an organic meal-kit and prepared-meal delivery service built around clean, dietitian-approved recipes, and in April 2025 it launched a relaunched affiliate program for influencers, creators, nonprofits and wellness partners, run through Everflow.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://support.sunbasket.com/hc/en-us/articles/40605896166547-Introducing-the-Sunbasket-Affiliate-Program",
+        "summary": "Sunbasket's own support announcement of its affiliate program (April 2025), fetched first-hand, confirms the program is designed for influencers and content creators, health and wellness influencers among them, offers a competitive tiered commission structure with custom tracking links and dashboards, routes applications through its Everflow portal, and prints the Partnerships Team contact partners@sunbasket.com. The brand page publishes no percentage or bounty, and third-party figures conflict (an older ShareASale-era $20 per sale vs a $30 per new subscriber listing), so commission_rate is null with the conflict documented. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Sunbasket",
+    "opportunity": {
+      "application_url": "https://support.sunbasket.com/hc/en-us/articles/40605896166547-Introducing-the-Sunbasket-Affiliate-Program",
+      "source_url": "https://support.sunbasket.com/hc/en-us/articles/40605896166547-Introducing-the-Sunbasket-Affiliate-Program",
+      "title": "Sunbasket Affiliate Program"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 13,
+      "credibility": 4,
+      "niche_fit": 25,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "The brand publishes no rate on its own page and third-party bounty figures conflict ($20 vs $30), so the rate is honestly null until terms appear inside Everflow.",
+        "contact_access": "A named Partnerships Team email, partners@sunbasket.com, is printed on the brand's own program announcement — strong contact access.",
+        "credibility": "Established national organic meal-kit brand; the 2025 program relaunch and unpublished rates cost a point.",
+        "niche_fit": "Organic, diet-specific meal kits fit food, clean-eating and family-wellness creators very well.",
+        "opportunity_availability": "The relaunched program is live and joinable now via the brand's Everflow portal.",
+        "ugc_evidence": "The brand's own announcement explicitly recruits influencers and content creators, with creative assets and one-on-one affiliate support."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://www.sunbasket.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://marketplace.referly.so/affiliate-programs/green-chef",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "CJ Affiliate",
+      "source_url": "https://marketplace.referly.so/affiliate-programs/green-chef"
+    },
+    "category_slug": "food-drink",
+    "contacts": [],
+    "country": "United States",
+    "description": "Green Chef is the HelloFresh family's USDA/CCOF-certified organic meal-kit service, offering Mediterranean, plant-based, gluten-free, high-protein and keto plans, with a cost-per-sale affiliate program managed through CJ Affiliate.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://marketplace.referly.so/affiliate-programs/green-chef",
+        "summary": "Multiple affiliate directories agree on the program's shape: a flat $15 per new subscriber (a flat bounty, so commission_rate is null), a 7-day cookie, monthly payouts, managed via CJ Affiliate in the US. One creator-focused listing reports $16 per subscription plus $4 per gift card, a minor conflict documented here; the dominant published figure is the flat $15. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Green Chef",
+    "opportunity": {
+      "application_url": "https://marketplace.referly.so/affiliate-programs/green-chef",
+      "source_url": "https://marketplace.referly.so/affiliate-programs/green-chef",
+      "title": "Green Chef Affiliate Program"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "A flat $15 bounty per new subscriber (documented as flat, rate null) — simple and predictable, but one-time with no recurring commission.",
+        "contact_access": "Application runs through CJ Affiliate; no public partnerships email was verified on a fetched brand page.",
+        "credibility": "Part of the HelloFresh group and the first CCOF-certified organic meal kit — a well-funded, recognizable brand.",
+        "niche_fit": "Certified-organic, diet-specific meal kits are a flagship fit for food, keto, gluten-free and clean-eating creators.",
+        "opportunity_availability": "Program is live and joinable now via CJ Affiliate for US traffic.",
+        "ugc_evidence": "A long-running network program with influencer assets and coupon creatives aimed at health and food publishers."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.greenchef.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://navitasorganics.zendesk.com/hc/en-us/articles/360021785272-How-can-I-partner-with-you-on-social-media",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "brand direct",
+      "source_url": "https://navitasorganics.zendesk.com/hc/en-us/articles/360021785272-How-can-I-partner-with-you-on-social-media"
+    },
+    "category_slug": "food-drink",
+    "contacts": [],
+    "country": "United States",
+    "description": "Navitas Organics is a long-running superfood brand selling organic cacao, berries, seeds, smoothie blends and snacks, and it recruits fitness instructors, nutritionists, culinary professionals, athletes and social media influencers through a creator application run on GRIN.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://navitasorganics.zendesk.com/hc/en-us/articles/360021785272-How-can-I-partner-with-you-on-social-media",
+        "summary": "Navitas Organics' own help-center article on partnering on social media, fetched first-hand, states the brand works with fitness instructors, nutritionists, culinary professionals, competitive athletes and social media influencers, and routes applications through its GRIN creator application form. The article publishes no commission percentage, so commission_rate is null. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Navitas Organics",
+    "opportunity": {
+      "application_url": "https://navitasorganics.zendesk.com/hc/en-us/articles/360021785272-How-can-I-partner-with-you-on-social-media",
+      "source_url": "https://navitasorganics.zendesk.com/hc/en-us/articles/360021785272-How-can-I-partner-with-you-on-social-media",
+      "title": "Navitas Organics Creator Partnership Program"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 9,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "No commission percentage is published on the brand's partner page, so the rate is honestly null and compensation scores low until terms are shared after application.",
+        "contact_access": "A direct creator application form (via GRIN) is linked from the brand's own help center; no public partnerships email was published on the fetched page.",
+        "credibility": "Long-established organic superfood brand with national retail distribution; unpublished rates cost a point.",
+        "niche_fit": "Organic superfood ingredients and smoothie blends fit recipe, smoothie and plant-based wellness creators well.",
+        "opportunity_availability": "Creator applications are open now via the brand's application form; terms follow application.",
+        "ugc_evidence": "The brand's own page explicitly recruits social media influencers and culinary creators through a dedicated application."
+      },
+      "ugc_evidence": 15
+    },
+    "socials": [],
+    "website": "https://www.navitasorganics.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.whichprogram.com/en/p/garden-of-life",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://www.whichprogram.com/en/p/garden-of-life"
+    },
+    "category_slug": "health",
+    "contacts": [],
+    "country": "United States",
+    "description": "Garden of Life is a major whole-food supplement brand (vitamins, probiotics, proteins, collagen and oils) built on organic, non-GMO, raw ingredients, with an affiliate program listed on ShareASale among several network routes.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "network_profile",
+        "source_url": "https://www.whichprogram.com/en/p/garden-of-life",
+        "summary": "WhichProgram's network-sourced profile, fetched first-hand, records Garden of Life's program on ShareASale at 10–15% per sale with a 30-day cookie, application required. Other published routes conflict: Awin figures around 12%, a FlexOffers figure of 6%, and Rakuten reported at up to 8%. Because the rate is a range on one network and conflicts across networks, commission_rate is null with the conflict documented. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Garden of Life",
+    "opportunity": {
+      "application_url": "https://www.whichprogram.com/en/p/garden-of-life",
+      "source_url": "https://www.whichprogram.com/en/p/garden-of-life",
+      "title": "Garden of Life Affiliate Program"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published rates are a 10–15% range on ShareASale and conflict across other networks, so the rate is honestly null; the range itself is mid-pack for supplements.",
+        "contact_access": "Application runs through the networks; no public partnerships email was verified on a fetched brand page.",
+        "credibility": "One of the largest whole-food supplement brands in the US, with deep retail and online distribution.",
+        "niche_fit": "A very broad whole-food vitamin, probiotic and protein catalog fits general wellness and supplement-review creators well.",
+        "opportunity_availability": "Program is listed as live with application required on ShareASale.",
+        "ugc_evidence": "A live program on major networks under the brand's own merchant listings, open to health and wellness publishers and influencers."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.gardenoflife.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://www.vitalchoice.com/v/affiliate-web-program",
+      "commission_cap": "unknown",
+      "commission_rate": 4,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://www.vitalchoice.com/v/affiliate-web-program"
+    },
+    "category_slug": "food-drink",
+    "contacts": [],
+    "country": "United States",
+    "description": "Vital Choice sells sustainably sourced wild seafood, certified-organic products and grass-fed meats direct to consumers, and runs an affiliate program through Impact Radius with published standard payouts on its own affiliate page.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_website",
+        "source_url": "https://www.vitalchoice.com/v/affiliate-web-program",
+        "summary": "Vital Choice's own affiliate page, fetched first-hand, publishes standard payouts of 4% for new customers and 1% for existing customers, plus a flat $15 payout for new Vital Box subscriptions (recorded as flat in this evidence; the 4% new-customer percentage rate is recorded), an average order value of $175+, and routes applications through the Impact Radius marketplace. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Vital Choice",
+    "opportunity": {
+      "application_url": "https://www.vitalchoice.com/v/affiliate-web-program",
+      "source_url": "https://www.vitalchoice.com/v/affiliate-web-program",
+      "title": "Vital Choice Affiliate Program"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 7,
+      "credibility": 5,
+      "niche_fit": 22,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "4% on new customers published by the brand is a low percentage, partly offset by a $175+ average order value and the flat $15 subscription payout; no cap statement, so the cap is unknown.",
+        "contact_access": "Application runs through the brand's affiliate page into Impact; no public partnerships email was published on the fetched page.",
+        "credibility": "Long-running sustainable-seafood specialist endorsed by health experts and environmental organizations, per its own program page.",
+        "niche_fit": "Premium wild seafood and clean-eating products fit paleo, keto, Whole30 and sustainable-food creators; narrower than general grocery.",
+        "opportunity_availability": "Program is live and joinable now via Impact Radius.",
+        "ugc_evidence": "A formal Impact program the brand promotes on its own site to clients, customers and community promoters."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.vitalchoice.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/wildgrain/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://linkclicky.com/affiliate-program/wildgrain/"
+    },
+    "category_slug": "food-drink",
+    "contacts": [],
+    "country": "United States",
+    "description": "Wildgrain is a subscription service delivering bake-from-frozen artisanal sourdough breads, fresh pastas and pastries made with clean ingredients, with an affiliate program run through Impact.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/wildgrain/",
+        "summary": "LinkClicky's Wildgrain program listing (updated March 2024), fetched first-hand, states the program runs on Impact at 7% per sale with applications through app.impact.com. Another program listing reports a flat $8 per eligible purchase with a 90-day cookie instead. Because the published figures conflict (7% vs flat $8) and neither is the brand's own page, commission_rate is null with both figures documented. No earnings-cap statement is published, so commission_cap is unknown; no creator-count data is published, so creator_saturation is unknown."
+      }
+    ],
+    "name": "Wildgrain",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/wildgrain/",
+      "source_url": "https://linkclicky.com/affiliate-program/wildgrain/",
+      "title": "Wildgrain Affiliate Program"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 6,
+      "credibility": 4,
+      "niche_fit": 23,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published figures conflict (7% per sale vs a flat $8 bounty), so the rate is honestly null; either structure is modest.",
+        "contact_access": "Application runs through Impact via the program listing; no public partnerships email was verified on a fetched brand page.",
+        "credibility": "Established bake-from-frozen subscription brand with national delivery; the stale, conflicting rate data costs a point.",
+        "niche_fit": "Bake-from-frozen breads and pastries are highly visual, recipe-friendly products for food and home-baking creators.",
+        "opportunity_availability": "Program is listed as live and joinable via Impact.",
+        "ugc_evidence": "A listed Impact program aimed at food publishers and influencers, per the fetched program listing."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://wildgrain.com"
+  }
+]
