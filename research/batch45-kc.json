@@ -1,0 +1,643 @@
+[
+ {
+  "name": "Kevin's Natural Foods",
+  "website": "https://www.kevinsnaturalfoods.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Clean-label heat-and-eat meal brand founded by Kevin McCray in Stockton, California, selling Paleo and Keto-certified refrigerated and frozen entrees, stir-fry kits, pastas, soups, sauces and bowls through its own site and retailers including Whole Foods, Target and Costco; joined the Mars Food & Nutrition family in 2023.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/kevins-natural-foods/",
+    "summary": "LinkClicky's affiliate directory lists Kevin's Natural Foods on ShareASale at 5% commission per sale, described as the rate officially listed with the program (page last updated March 11, 2024). The listing states no earnings cap and no creator count, so commission_cap and creator_saturation are recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.kevinsnaturalfoods.com/pages/careers",
+    "summary": "Kevin's own careers page describes the brand as a line of refrigerated and frozen meals, sides, soups and sauces co-founded by Kevin McCray, and states that in 2023 Kevin's Natural Foods joined the Mars Food & Nutrition family."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://leadiq.com/c/kevins-natural-foods/5f2801f741a5ffb07aa66736",
+    "summary": "LeadIQ lists Kevin's Natural Foods as a food and beverage manufacturer based in Stockton, California, with official website kevinsnaturalfoods.com."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/kevins-natural-foods/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 8,
+   "compensation": 10,
+   "contact_access": 4,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Mainstream clean-eating meal brand with broad grocery distribution - a strong everyday fit for food and meal-prep creators.",
+    "ugc_evidence": "No public creator, ambassador or UGC program page was found; the only creator route is the network affiliate program.",
+    "compensation": "A published network rate exists (5% per sale on ShareASale) but it is at the modest end for food brands.",
+    "contact_access": "No published partnerships or creator email was found; contact is via the site's general channels and the network signup only.",
+    "opportunity_availability": "The ShareASale program is open to affiliate applicants through the network, but there is no brand-run creator application.",
+    "credibility": "Established national brand owned by Mars Food & Nutrition since 2023, sold at Whole Foods, Target, Costco and other major retailers."
+   }
+  }
+ },
+ {
+  "name": "Cappello's",
+  "website": "https://cappellos.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Denver, Colorado frozen food brand founded in 2011 by Ben Frotscher and Stacey Marcellus, making grain-free almond flour pastas, pizzas, biscuits and cookie dough sold through its own site and retailers including Whole Foods Market nationwide.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "talk@cappellos.com",
+    "source_url": "https://voyagedenver.com/interview/meet-stacey-marcellus-cappellos-rino/"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/cappellos"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/cappello/",
+    "summary": "LinkClicky's affiliate directory lists Cappello's on ShareASale at 15% commission per sale, described as the rate officially listed with the program (page last updated March 11, 2024). No earnings cap or creator count is stated, so commission_cap and creator_saturation are recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://cappellos.com/pages/our-story",
+    "summary": "Cappello's own story page says the brand was started in Colorado by friends Ben and Stacey and makes gluten-free and grain-free frozen pizza, pasta and cookie dough, sold in the freezer section nationwide at Whole Foods Market and other retailers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://voyagedenver.com/interview/meet-stacey-marcellus-cappellos-rino/",
+    "summary": "A VoyageDenver interview with co-founder Stacey Marcellus publishes the brand's contact details as cappellos.com, email talk@cappellos.com and Instagram @cappellos."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.prlog.org/12777616-cappellos-sets-new-standard-in-the-frozen-aisle-with-seven-brand-new-products.html",
+    "summary": "A Cappello's press release (Denver, 2019) describes the brand as the maker of grain-free, frozen-fresh, paleo-friendly almond flour pasta, pizza and cookie dough, and points readers to instagram.com/Cappellos."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/cappello/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 9,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Better-for-you frozen comfort food (pasta, pizza, cookie dough) is highly demonstrable and recipe-friendly - a strong food-creator niche fit.",
+    "ugc_evidence": "No public ambassador or UGC program page was found; creator monetization runs through the network affiliate program.",
+    "compensation": "Published network rate of 15% per sale on ShareASale is at the strong end for grocery food brands.",
+    "contact_access": "A published general contact email (talk@cappellos.com) is available, but there is no dedicated creator application page.",
+    "opportunity_availability": "Open affiliate enrollment through ShareASale; no brand-run creator cohort or application found.",
+    "credibility": "Operating since 2011 with national Whole Foods distribution, though a much smaller company than the largest directory brands."
+   }
+  }
+ },
+ {
+  "name": "Three Wishes",
+  "website": "https://threewishescereal.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "New York-based better-for-you cereal brand founded in 2019 by Margaret and Ian Wishingrad, selling high-protein (8g), low-sugar (3g), gluten-free and grain-free cereals made from chickpeas and pea protein through its own site and grocery retailers.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hi@threewishecereal.com",
+    "source_url": "https://threewishescereal.com/pages/weight-watchers"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/threewishes"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/three-wishes-cereal/",
+    "summary": "LinkClicky's affiliate directory lists Three Wishes Cereal on ShareASale at 10% commission per sale, described as the rate officially listed with the program (page last updated March 11, 2024); Lasso reports a 10-15% range, so the official 10% network figure is recorded. No cap or creator count is stated, so both are unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://threewishescereal.com/products/fruity-6-pack",
+    "summary": "Three Wishes' own product pages describe a grain-free, gluten-free cereal with 8g protein and 3g sugar per serving, sold in multi-packs through threewishescereal.com."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://threewishescereal.com/pages/weight-watchers",
+    "summary": "The brand's own FAQ page prints its contact address as 'hi@threewishecereal.com' (reproduced exactly as published on threewishescereal.com; the spelling differs by one letter from the site's own domain, so it should be confirmed before outreach). The same page ecosystem and podcast show notes identify the brand's Instagram as @threewishes."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://leadiq.com/c/three-wishes-cereal/5dc96e231b6efee69291350b",
+    "summary": "LeadIQ lists Three Wishes Cereal as a New York-based food and beverage company producing better-for-you cereals, with official website threewishescereal.com; company profiles date the founding to 2019."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/three-wishes-cereal/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Nostalgic-but-healthy cereal is a natural fit for family, grocery-haul and breakfast content creators.",
+    "ugc_evidence": "The brand is active with creator-style launch content on its own socials, but no public ambassador or UGC program page was found.",
+    "compensation": "Published network rate of 10% per sale on ShareASale (a third-party range of 10-15% also reported) - mid-range for food.",
+    "contact_access": "A contact email is printed on the brand's own FAQ page (spelling flagged for review), but there is no creator application route.",
+    "opportunity_availability": "Open affiliate enrollment through ShareASale; no brand-run creator application found.",
+    "credibility": "Founded 2019, family-owned by the Wishingrads, with national grocery and Amazon distribution."
+   }
+  }
+ },
+ {
+  "name": "Mosaic Foods",
+  "website": "https://www.mosaicfoods.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Frozen plant-based meal delivery service selling chef-cooked, 100% vegetarian (mostly vegan) bowls, oat bowls, soups and smoothies made in its Passaic Valley kitchen and delivered ready to heat in about five minutes, with meals starting at $6.25 per serving.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affjumbo.com/affiliate-programs/mosaic-foods",
+    "summary": "AffJumbo's listing for Mosaic Foods states the program runs on Impact with a flat $12 payout per sale, a 30-day cookie and monthly payouts. It states no earnings cap and no creator count."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/mosaic-foods/",
+    "summary": "LinkClicky's directory lists the same Impact program at a flat $15 per sale, and a Skimlinks-based roundup reports 15% - the three published figures conflict ($12 flat vs $15 flat vs 15%), so commission_rate is recorded as null until the brand or network confirms the current payout."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.mosaicfoods.com/",
+    "summary": "Mosaic's homepage describes a premium frozen meal delivery service of chef-crafted, 100% plant-based dishes cooked near its Passaic Valley kitchen, ready in under five minutes, with a first-order satisfaction guarantee."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.affjumbo.com/affiliate-programs/mosaic-foods",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 8,
+   "compensation": 8,
+   "contact_access": 4,
+   "opportunity_availability": 6,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Plant-based ready meals are a strong fit for vegan, wellness and busy-weeknight food creators.",
+    "ugc_evidence": "No public creator or ambassador program page was found; monetization is via the network affiliate program.",
+    "compensation": "A program exists on Impact but published payouts conflict across directories ($12 flat, $15 flat, 15%), so the rate is unverified and scored conservatively.",
+    "contact_access": "No published partnerships or creator email was found; the route in is the Impact program application.",
+    "opportunity_availability": "Open affiliate enrollment through Impact; no brand-run creator application found.",
+    "credibility": "Established DTC meal-delivery brand with national shipping and a first-order money-back guarantee."
+   }
+  }
+ },
+ {
+  "name": "Wedderspoon",
+  "website": "https://wedderspoon.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Manuka honey and bee-powered wellness brand selling raw Manuka honey, honey lozenges, pops and related natural products through its own US storefront and major retailers, built around 'wellness rituals' and clean, traceable ingredients.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://wedderspoon.com/pages/wedderspoon-affiliate-program",
+    "summary": "Wedderspoon's own affiliate program page ('Join the Wedderspoon Hive') offers affiliates a 10% commission on every purchase made through their link plus a 10% discount code for their audience and a Manuka welcome kit; the page's Register Now buttons link to Awin's publisher signup (ui.awin.com), so the program runs on Awin. The page states no earnings cap and no creator count, so commission_cap and creator_saturation are recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://wedderspoon.com/pages/wedderspoon-affiliate-program",
+    "summary": "The same official page recruits content creators directly ('If you're a content creator or just someone who loves spreading the word about clean, feel-good products... start earning'), with the brand reviewing applications for quality and brand alignment."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://wedderspoon.com/pages/wedderspoon-affiliate-program",
+   "source_url": "https://wedderspoon.com/pages/wedderspoon-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://wedderspoon.com/pages/wedderspoon-affiliate-program",
+   "source_url": "https://wedderspoon.com/pages/wedderspoon-affiliate-program",
+   "title": "Wedderspoon Affiliate Program (The Wedderspoon Hive)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Manuka honey sits across wellness, natural remedies and pantry content - a good fit for wellness and clean-living creators.",
+    "ugc_evidence": "The brand runs a named creator-facing affiliate community (the Wedderspoon Hive) with a welcome kit and audience discount codes, though no separate UGC program was found.",
+    "compensation": "Published on the brand's own page: 10% commission plus a 10% follower discount code - mid-range, and fully first-party verified.",
+    "contact_access": "A public program page with registration via Awin exists, but no published partnerships email was found.",
+    "opportunity_availability": "Applications are open from the brand's own program page (brand reviews fit before approval).",
+    "credibility": "Long-running Manuka honey brand with national retail distribution and a US storefront."
+   }
+  }
+ },
+ {
+  "name": "Flora Health",
+  "website": "https://www.florahealth.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Herbal wellness brand operating since 1965 and based in Lynden, Washington, selling liquid botanicals and supplements including Floradix iron formulas, Udo's Choice oils, Flor-Essence and elderberry products through its own site and health retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.florahealth.com/pages/affiliates",
+    "summary": "Flora's own 'Flora Affiliate & Ambassador Program' page (a Collabs/Dovetale-powered page on florahealth.com) offers affiliates a 10% commission on total referred sales with a 30-day cookie, tracked referral links, monthly payouts and free product for top affiliates; ambassadors also receive a free product on their first order. The page states no earnings cap and no creator count, so both are recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.florahealth.com/pages/affiliates",
+    "summary": "The same official page states Flora has crafted premium botanical solutions since 1965 and lists the company address as Lynden, Washington, USA."
+   }
+  ],
+  "affiliate": {
+   "network": "Dovetale",
+   "commission_rate": 10,
+   "application_url": "https://www.florahealth.com/pages/affiliates",
+   "source_url": "https://www.florahealth.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.florahealth.com/pages/affiliates",
+   "source_url": "https://www.florahealth.com/pages/affiliates",
+   "title": "Flora Affiliate & Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Herbal liquid supplements and botanicals fit wellness, natural-health and women's-health creator niches well.",
+    "ugc_evidence": "A formal two-track program (affiliates and ambassadors) is published on the brand's own site, with free product for ambassadors and top affiliates.",
+    "compensation": "Published on the brand's own page: 10% commission with a 30-day cookie and monthly payouts - mid-range and first-party verified.",
+    "contact_access": "A public program application page exists on the official site, but no published partnerships email was found.",
+    "opportunity_availability": "Applications are publicly open on the official program page.",
+    "credibility": "Brand operating since 1965 with national health-retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Jarrow Formulas",
+  "website": "https://www.jarrow.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Los Angeles dietary supplement company founded in 1977, formulating science-backed probiotics, vitamins, minerals and specialty supplements (including Jarro-Dophilus and MagMind) sold through its own site, Amazon and natural retailers nationwide.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "sky@jarrow.com",
+    "source_url": "https://www.affiliatly.com/af-107050/affiliate.panel?mode=register"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.affiliatly.com/af-107050/affiliate.panel?mode=register",
+    "summary": "Jarrow Formulas' own affiliate registration panel on Affiliatly states affiliates earn 10% commission with 30-day tracking, paid via PayPal around the 15th of each month, and publishes the program contact sky@jarrow.com. It states no earnings cap and no creator count, so both are recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://jarrow.com/pages/science",
+    "summary": "Jarrow's own science page states the brand has followed 'facts, not fads, since 1977' and pioneered probiotics nearly five decades ago, with formulas reviewed by a scientific advisory board."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.thecompanycheck.com/company/b/jarrow-formulas/9z05rv0u67vjgjvzf",
+    "summary": "Company profiles list Jarrow Formulas, Inc. as founded in 1977 in Los Angeles, California, headquartered in Los Angeles, and acquired by New Mountain Capital in September 2020."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliatly",
+   "commission_rate": 10,
+   "application_url": "https://www.affiliatly.com/af-107050/affiliate.panel?mode=register",
+   "source_url": "https://www.affiliatly.com/af-107050/affiliate.panel?mode=register",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.affiliatly.com/af-107050/affiliate.panel?mode=register",
+   "source_url": "https://www.affiliatly.com/af-107050/affiliate.panel?mode=register",
+   "title": "Jarrow Formulas Affiliate Program (Affiliatly)"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 7,
+   "compensation": 12,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Broad supplement catalog fits health and wellness creators, though the brand is less social-native than DTC-first wellness brands.",
+    "ugc_evidence": "No ambassador or UGC program was found; the creator route is the open affiliate program.",
+    "compensation": "Published on the brand's own registration panel: 10% commission, 30-day tracking, monthly PayPal payouts - mid-range and first-party verified.",
+    "contact_access": "The program publishes a direct contact email (sky@jarrow.com) alongside open registration - strong access for a supplements brand.",
+    "opportunity_availability": "Affiliate registration is publicly open on the brand's Affiliatly panel.",
+    "credibility": "Formulating since 1977, cGMP-certified manufacturing, national retail distribution and private-equity ownership (New Mountain Capital)."
+   }
+  }
+ },
+ {
+  "name": "New Chapter",
+  "website": "https://www.newchapter.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "Vermont-based Certified B Corporation founded in 1982 (now a Procter & Gamble subsidiary) making whole-food fermented vitamins and supplements, including Every Woman's One Daily multivitamins, Bone Strength Take Care calcium and Zyflamend, sold through its own site and national retailers.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "info@newchapter.com",
+    "source_url": "https://labor.vermont.gov/sites/labor/files/doc_library/Employer%20One%20Sheet%20-%20New%20Chapter.pdf"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/NewChapter/"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/new-chapter",
+    "summary": "Rateful's TikTok Shop brand tracker reports New Chapter runs an active TikTok Shop affiliate program, with roughly 87% of its TikTok Shop sales attributed to creators/affiliates; per-product commission rates are set inside TikTok Shop and are not published on the tracker, so commission_rate is null and no cap or creator count is stated (both unknown)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://newchapter.com/collections/number-one-supplements",
+    "summary": "New Chapter's own site describes a Certified B Corporation rooted in Vermont, pioneering since 1982, whose fermented multivitamins, plant calcium and magnesium formulas hold #1 positions in their natural categories per Nielsen/Amazon sales data."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/new-chapter",
+    "summary": "A single older third-party blog figure of 12% circulates for New Chapter but could not be corroborated on any brand or network page, so no rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "listing",
+    "source_url": "https://labor.vermont.gov/sites/labor/files/doc_library/Employer%20One%20Sheet%20-%20New%20Chapter.pdf",
+    "summary": "A Vermont Department of Labor employer sheet for New Chapter Inc, Brattleboro VT, lists the brand's website as newchapter.com, Facebook as facebook.com/NewChapter and email as info@newchapter.com."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://rateful.ai/brand/new-chapter",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 11,
+   "compensation": 5,
+   "contact_access": 7,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Mainstream vitamins and supplements fit health and wellness creators, with strong women's-health lines.",
+    "ugc_evidence": "Creator-driven selling is central to the brand's TikTok Shop business (a tracker attributes ~87% of its shop sales to affiliates), though there is no separate public UGC program page.",
+    "compensation": "No commission rate is published outside TikTok Shop's per-product settings, so compensation scores at the no-data band.",
+    "contact_access": "A general contact email is publicly listed for the company, but no creator-specific application or partnerships inbox was found.",
+    "opportunity_availability": "Eligible TikTok creators can promote New Chapter products through TikTok Shop affiliate listings; rates vary by product inside the platform.",
+    "credibility": "Founded 1982, Certified B Corp, and a wholly owned Procter & Gamble subsidiary with national retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Live It Up",
+  "website": "https://letsliveitup.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Superfood powder brand (formerly Enso Superfoods) best known for Live It Up Super Greens, an organic greens powder with probiotics and digestive enzymes, plus functional bars and supplements sold direct-to-consumer through its own website.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/liveitupsuperfoods"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://letsliveitup.com/pages/affiliates",
+    "summary": "Live It Up's own affiliate page ('Become a Live it Up Partner') recruits video creators, writers, influencers and ambassadors with commissions, first access to new products and exclusive offers; its APPLY HERE button links to app.impact.com, so the program runs on Impact. The brand's help center likewise confirms 'We love partnering with creators, influencers' and links the same page. No rate, cap or creator count is stated on the brand page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/live-it-up/",
+    "summary": "LinkClicky's directory lists Live It Up on Impact at 10% commission per sale, described as the rate officially listed with the program (page last updated March 11, 2024)."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.garagegymreviews.com/live-it-up-super-greens-review",
+    "summary": "Garage Gym Reviews' brand coverage notes Live It Up (formerly Enso Superfoods) sells Super Greens DTC in the US, and carries an editor's note that in January 2026 the company recalled certain Super Greens lots over potential Salmonella contamination - flagged here for reviewer awareness."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://letsliveitup.com/pages/affiliates",
+   "source_url": "https://letsliveitup.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://letsliveitup.com/pages/affiliates",
+   "source_url": "https://letsliveitup.com/pages/affiliates",
+   "title": "Live It Up Affiliate / Partner Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Greens powders are a staple wellness-creator product with strong review and routine content formats.",
+    "ugc_evidence": "The brand actively recruits creators and ambassadors on its own page and socials (ambassador calls promising free product plus commission).",
+    "compensation": "Published network rate of 10% per sale on Impact, with the brand page confirming commissions plus product access.",
+    "contact_access": "A public partner application page exists, but no published partnerships email was found.",
+    "opportunity_availability": "Applications are open from the brand's own page into Impact.",
+    "credibility": "Established DTC greens brand with national media coverage, marked down because of a January 2026 recall of certain Super Greens lots reported by review outlets."
+   }
+  }
+ },
+ {
+  "name": "Traditional Medicinals",
+  "website": "https://www.traditionalmedicinals.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Independent botanical wellness company founded in 1974 in Sebastopol, California, making 50+ organic herbal teas (including Throat Coat, Smooth Move and Echinacea Plus), lozenges and capsules in its solar-powered facility; a Certified B Corporation since 2010.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/traditional-medicinals-affiliate-program/",
+    "summary": "FlexOffers' program page for Traditional Medicinals confirms the brand's affiliate program runs through the FlexOffers network with a 30-day cookie and publisher applications via FlexOffers; the page does not publish a commission rate, cap or creator count, so commission_rate is null and both fields are unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.traditionalmedicinals.com/pages/quality",
+    "summary": "Traditional Medicinals' own quality page states over 99% of its herbs are organic, its teas are made in a solar-powered Sebastopol, California facility, and the company has been B Corp certified since 2010."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.zoominfo.com/c/traditional-medicinals-inc/38683024",
+    "summary": "ZoomInfo describes Traditional Medicinals as an independent company connecting people with the power of plants since 1974, offering organic herbal and medicinal teas, lozenges and capsules."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.flexoffers.com/affiliate-programs/traditional-medicinals-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 7,
+   "compensation": 5,
+   "contact_access": 4,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Herbal teas are a natural fit for wellness, tea-ritual and natural-living creators.",
+    "ugc_evidence": "No public creator or ambassador program was found; the brand works with PR/influencer agencies per trade coverage, but the open route is the affiliate network.",
+    "compensation": "The FlexOffers program page publishes no commission rate, so compensation scores at the no-data band.",
+    "contact_access": "No published partnerships or creator email was found; access is through the FlexOffers publisher application.",
+    "opportunity_availability": "Open publisher enrollment through FlexOffers; no brand-run creator application.",
+    "credibility": "Operating since 1974, Certified B Corp, with national grocery and natural-retail distribution."
+   }
+  }
+ }
+]

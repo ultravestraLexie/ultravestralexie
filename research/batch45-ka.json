@@ -1,0 +1,637 @@
+[
+  {
+    "name": "Londontown",
+    "website": "https://londontownusa.com",
+    "country": "US",
+    "category_slug": "beauty",
+    "description": "Clean, cruelty-free nail care and color brand (lakur polishes, kur treatments) built on botanical, 9-free vegan-friendly formulas, sold direct and through major beauty retailers.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/londontown/",
+        "summary": "LinkClicky lists LONDONTOWN's affiliate program as officially listed on ShareASale: 25% commission per sale, 60-day cookie, all regions."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/londontown/",
+        "summary": "No earnings-cap statement appears in the fetched program listing, so the cap is recorded as unknown; Shopper's lower 5-10% generic range conflicts with the 25% figure carried by LinkClicky, Lasso and the Awin merchant-profile text, which agree with each other."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 25,
+      "application_url": "https://www.shareasale.com",
+      "source_url": "https://linkclicky.com/affiliate-program/londontown/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "25% ShareASale commission - the highest verified rate in this group",
+      "angle": "Clean nail-care routines, at-home manicure systems and shade-launch content for a botanical, cruelty-free polish brand.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 16,
+      "compensation": 20,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Core beauty brand - clean nail color and care is a staple creator category.",
+        "ugc_evidence": "Open network program on ShareASale plus heavy TikTok Shop affiliate activity reported for the brand.",
+        "compensation": "25% per sale with a 60-day cookie is top-tier for beauty; no cap statement published, so cap stays unknown.",
+        "contact_access": "No public partnerships email found on fetched pages; contact runs through the network.",
+        "opportunity_availability": "Program is open to apply on ShareASale in all regions.",
+        "credibility": "Established clean-beauty brand stocked at major retailers."
+      }
+    }
+  },
+  {
+    "name": "Alleyoop",
+    "website": "https://meetalleyoop.com",
+    "country": "US",
+    "category_slug": "beauty",
+    "description": "Multi-tasking beauty brand (11th Hour eyeshadow sticks, Multi-Tasker 4-in-1 brush, tinted SPF) making clean, vegan, cruelty-free products designed to simplify routines.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "url": "https://meetalleyoop.com/pages/dream-team-creator-program",
+        "source_url": "https://meetalleyoop.com/pages/dream-team-creator-program"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "handle": "@meetalleyoop",
+        "url": "https://www.instagram.com/meetalleyoop"
+      },
+      {
+        "platform": "tiktok",
+        "handle": "@meetalleyoop",
+        "url": "https://www.tiktok.com/@meetalleyoop"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_program_page",
+        "source_url": "https://meetalleyoop.com/pages/dream-team-creator-program",
+        "summary": "Alleyoop's own Dream Team Creator Program terms (updated 12/15/2025) state creators earn a ten percent commission on net revenues - net of taxes, shipping, refunds, chargebacks, fraud and non-link discounts - via a unique referral link or code."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_program_page",
+        "source_url": "https://meetalleyoop.com/pages/dream-team-creator-program",
+        "summary": "The terms publish no earnings cap, so the cap is recorded as unknown; directory listings claiming 12-15% (Impact/Awin/Lasso) conflict with the brand's own 10%-of-net-revenue terms, which govern here."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct (Dream Team Creator Program)",
+      "commission_rate": 10,
+      "application_url": "https://meetalleyoop.com/pages/dream-team-creator-program",
+      "source_url": "https://meetalleyoop.com/pages/dream-team-creator-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Own creator program paying 10% of net revenue, terms published in full",
+      "angle": "Five-minute routine and multi-tasking product demos; the brand licenses creator content for paid and organic use, so strong videos can earn twice.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 18,
+      "compensation": 13,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Core beauty brand built entirely around creator-friendly multi-use products.",
+        "ugc_evidence": "Named creator program with published terms, content licensing and paid-usage commission rules.",
+        "compensation": "10% of net revenue is mid-range and the net basis pays less than a gross-sales rate; no cap stated.",
+        "contact_access": "Full program terms and application route published on the brand's own site.",
+        "opportunity_availability": "Open application for approved creators, 18+.",
+        "credibility": "Established DTC beauty brand with national retail presence."
+      }
+    }
+  },
+  {
+    "name": "Jouer Cosmetics",
+    "website": "https://jouercosmetics.com",
+    "country": "US",
+    "category_slug": "beauty",
+    "description": "Clean beauty makeup brand (founded by Christina Zilber) known for skin-friendly, paraben-free color cosmetics and skincare-makeup hybrids.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "url": "https://jouercosmetics.com/pages/jouer-affiliates",
+        "source_url": "https://jouercosmetics.com/pages/jouer-affiliates"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "handle": "@jouercosmetics",
+        "url": "https://www.instagram.com/jouercosmetics"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_program_page",
+        "source_url": "https://jouercosmetics.com/pages/jouer-affiliates",
+        "summary": "Jouer's own affiliate page invites creators to apply for discounts, commissions and prizes, stating affiliates earn up to 15% commission on all sales made through their link, with higher commissions for top earners."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/jouer-cosmetics/",
+        "summary": "LinkClicky lists the program on ShareASale at 10% per sale with a 30-day cookie; the 10% network rate is recorded, with the brand page's 'up to 15%' treated as a ceiling for top earners, not the base rate. No cap statement is published."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 10,
+      "application_url": "https://jouercosmetics.com/pages/jouer-affiliates",
+      "source_url": "https://jouercosmetics.com/pages/jouer-affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Clean-beauty staple with up to 15% for top earners on ShareASale",
+      "angle": "Clean-girl makeup routines and skin-first product demos for a long-running indie brand with a loyal creator following.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 15,
+      "compensation": 15,
+      "contact_access": 10,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Core beauty brand - clean color cosmetics are a central creator niche.",
+        "ugc_evidence": "Own affiliate page plus a listed ShareASale program.",
+        "compensation": "10% base on ShareASale rising toward 15% for top earners per the brand's own page.",
+        "contact_access": "Application page published on the brand's own site.",
+        "opportunity_availability": "Open to apply; approval at the brand's discretion.",
+        "credibility": "Long-established clean beauty brand."
+      }
+    }
+  },
+  {
+    "name": "Polite Society",
+    "website": "https://politesociety.com",
+    "country": "US",
+    "category_slug": "beauty",
+    "description": "Clean makeup brand founded by Too Faced co-founders Jerrod Blandino and Jeremy Johnson (B.I.G Mouth lip plumper, Polite Pops), launched 2023 and sold at Ulta Beauty.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": null,
+        "url": "https://politesociety.com/pages/become-a-member-of-our-polite-society-social-club",
+        "source_url": "https://politesociety.com/pages/become-a-member-of-our-polite-society-social-club"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@politesocietybeauty",
+        "url": "https://www.tiktok.com/@politesocietybeauty"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_program_page",
+        "source_url": "https://politesociety.com/pages/become-a-member-of-our-polite-society-social-club",
+        "summary": "Polite Society's own Socialites page offers commissions on all products purchased through a creator's link, a welcome package and early launch access; its sign-up button routes to app.impact.com, confirming Impact as the platform."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/polite-society-beauty/",
+        "summary": "LinkClicky lists Polite Society Beauty on Impact at 10% per sale as the officially listed payout. No earnings-cap statement is published."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "creator_demand",
+        "source_type": "trade_press",
+        "source_url": "https://www.glossy.co/beauty/polite-society-is-leveraging-ulta-beautys-new-tiktok-shop-for-its-largest-ever-affiliate-campaign/",
+        "summary": "Glossy reports the brand seeded product to more than 1,000 TikTok Shop affiliate creators for its largest affiliate campaign - evidence of heavy creator saturation, so saturation is not low."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 10,
+      "application_url": "https://politesociety.com/pages/become-a-member-of-our-polite-society-social-club",
+      "source_url": "https://politesociety.com/pages/become-a-member-of-our-polite-society-social-club",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Too Faced founders' brand actively scaling creator affiliates",
+      "angle": "Before-and-after lip plumper demos and clean-makeup routines; the brand is investing heavily in affiliate creators right now.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 18,
+      "compensation": 13,
+      "contact_access": 11,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Core beauty brand - viral hero products built for short-form demos.",
+        "ugc_evidence": "Own creator program on Impact plus a 1,000+ creator TikTok Shop campaign reported by Glossy.",
+        "compensation": "10% per sale on Impact is mid-range; no cap published.",
+        "contact_access": "Application page on the brand's own site with a stated 48-hour review.",
+        "opportunity_availability": "Open application for creators with a public social account or blog.",
+        "credibility": "Founded by the Too Faced co-founders; stocked at Ulta Beauty."
+      }
+    }
+  },
+  {
+    "name": "Lawless Beauty",
+    "website": "https://lawlessbeauty.com",
+    "country": "US",
+    "category_slug": "beauty",
+    "description": "Clean, high-performance makeup brand (Forget the Filler line) making non-toxic, cruelty-free color cosmetics sold direct and at Sephora.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/lawless-beauty/",
+        "summary": "LinkClicky lists Lawless Beauty's affiliate program on Impact at 10% per sale, described as the officially listed payout, with application routed through app.impact.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/lawless-beauty/",
+        "summary": "No earnings-cap or creator-count figures are published in the fetched listing, so cap and saturation are recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 10,
+      "application_url": "https://app.impact.com",
+      "source_url": "https://linkclicky.com/affiliate-program/lawless-beauty/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Sephora-stocked clean makeup brand on Impact at 10%",
+      "angle": "Clean-makeup full-face routines and plumping-product demos for a performance-focused brand.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 13,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Core beauty brand - clean color cosmetics are a central creator niche.",
+        "ugc_evidence": "Listed affiliate program on Impact; no separate creator page was fetched.",
+        "compensation": "10% per sale is mid-range for beauty; no cap published.",
+        "contact_access": "Application runs through Impact; no public partnerships email found on fetched pages.",
+        "opportunity_availability": "Open to apply on Impact in all regions per the listing.",
+        "credibility": "Established clean beauty brand stocked at Sephora."
+      }
+    }
+  },
+  {
+    "name": "Fur",
+    "website": "https://furyou.com",
+    "country": "US",
+    "category_slug": "skincare",
+    "description": "Body and pubic hair care brand (Fur Oil, Ingrown Concentrate) making dermatologist- and gynecologist-tested, plant-based, vegan products for ingrowns, KP and sensitive skin.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkmydeals.com/affiliate-programs/info/furyou.com/",
+        "summary": "LinkMyDeals' campaign records for furyou.com list a ShareASale campaign at 'Sale Commission: 10%' and a Skimlinks campaign at minimum 10% CPA, plus an Awin listing with rates inside the panel."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkmydeals.com/affiliate-programs/info/furyou.com/",
+        "summary": "Cap note: Fur's separate Professionals (trade) program advertises no-limit earnings, but that is a professional-only program and does not make the consumer ShareASale program uncapped - the consumer cap stays unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": 10,
+      "application_url": "https://www.shareasale.com",
+      "source_url": "https://linkmydeals.com/affiliate-programs/info/furyou.com/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Niche body-care leader paying 10% on ShareASale",
+      "angle": "Ingrown-hair and body-care education content - an underserved, high-intent niche with little creator competition in feeds.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 14,
+      "compensation": 13,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Skincare-adjacent body care with a distinctive, ownable niche.",
+        "ugc_evidence": "Campaigns listed on ShareASale, Skimlinks and Awin.",
+        "compensation": "10% per sale is mid-range; consumer-program cap is not published.",
+        "contact_access": "No public partnerships email found on fetched pages; contact runs through the networks.",
+        "opportunity_availability": "Open network campaigns to apply to.",
+        "credibility": "Category-defining brand featured in Vogue and Refinery29."
+      }
+    }
+  },
+  {
+    "name": "Ole Henriksen",
+    "website": "https://www.olehenriksen.com",
+    "country": "US",
+    "category_slug": "skincare",
+    "description": "Heritage Scandinavian skincare brand (Truth Serum, Banana Bright, Pout Preserve) built on vitamin C and the 'Ole Glow', owned by Kendo Brands.",
+    "contacts": [],
+    "socials": [
+      {
+        "platform": "instagram",
+        "handle": "@olehenriksen",
+        "url": "https://www.instagram.com/olehenriksen"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.wowtrk.com/offer/3596330?return=%2Fnetwork%2Fawin-uk",
+        "summary": "WOW TRK's Rakuten Advertising offer record for Ole Henriksen (offer ID 38834, updated 21 Nov 2026) lists a 4% base commission and a 7-day cookie; the program is also listed on FlexOffers."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://www.wowtrk.com/offer/3596330?return=%2Fnetwork%2Fawin-uk",
+        "summary": "Shopper's generic 'up to 6.4%' figure conflicts with the network offer record's 4% base; the network record governs. No earnings-cap statement is published."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": 4,
+      "application_url": "https://www.wowtrk.com/offer/3596330?return=%2Fnetwork%2Fawin-uk",
+      "source_url": "https://www.wowtrk.com/offer/3596330?return=%2Fnetwork%2Fawin-uk",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Prestige skincare name on Rakuten - low 4% rate, high brand trust",
+      "angle": "Glow-routine and vitamin C education content; best for creators monetizing prestige skincare audiences despite the low rate.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 13,
+      "compensation": 6,
+      "contact_access": 7,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Core skincare brand - a prestige staple of creator routines.",
+        "ugc_evidence": "Live network offers on Rakuten Advertising and FlexOffers.",
+        "compensation": "4% base with a short 7-day cookie is well below beauty norms; no cap published.",
+        "contact_access": "Application runs through the networks; no public partnerships email found on fetched pages.",
+        "opportunity_availability": "Open network offer to apply to.",
+        "credibility": "Decades-old prestige brand under Kendo/LVMH with mass retail distribution."
+      }
+    }
+  },
+  {
+    "name": "Ofra Cosmetics",
+    "website": "https://ofracosmetics.com",
+    "country": "US",
+    "category_slug": "beauty",
+    "description": "Florida-made professional makeup and skincare brand (highlighters, long-wear liquid lipsticks) manufactured in its own Pompano Beach facility and sold in 70+ countries.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": "denise@ofracosmetics.com",
+        "url": "https://ofracosmetics.com/pages/ofra-affiliate-program",
+        "source_url": "https://ofracosmetics.com/pages/ofra-affiliate-program"
+      },
+      {
+        "contact_type": "general",
+        "email": "support@ofracosmetics.com",
+        "url": null,
+        "source_url": "https://ofracosmetics.com/pages/ofra-affiliate-program"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "handle": "@ofracosmetics",
+        "url": "https://www.instagram.com/ofracosmetics"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_program_page",
+        "source_url": "https://ofracosmetics.com/pages/ofra-affiliate-program",
+        "summary": "OFRA's own affiliate page runs an Affiliate Tracking Program where approved partners earn commission on products sold and can view each sale and commission; applications require emailing a W-9 to denise@ofracosmetics.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/ofra-cosmetics/",
+        "summary": "LinkClicky lists OFRA on Rakuten Advertising at 6% per sale (also carried in FMTC's merchant record at 6%, 10 return days); the brand's own page publishes no percentage. No cap statement is published."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": 6,
+      "application_url": "https://ofracosmetics.com/pages/ofra-affiliate-program",
+      "source_url": "https://ofracosmetics.com/pages/ofra-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Pro makeup brand with a direct, human application route",
+      "angle": "Highlighter and long-wear lip demos; the manual W-9 application suits serious beauty creators who want a direct brand relationship.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 14,
+      "compensation": 8,
+      "contact_access": 13,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Core beauty brand - professional makeup is a staple creator category.",
+        "ugc_evidence": "Own affiliate tracking program plus a Rakuten Advertising listing.",
+        "compensation": "6% per sale is below the beauty mid-range; no cap published.",
+        "contact_access": "Named affiliate contact email and a general support email published on the brand's own program page.",
+        "opportunity_availability": "Open application, but approval is manual and requires a W-9.",
+        "credibility": "Long-running US manufacturer-brand with global distribution."
+      }
+    }
+  },
+  {
+    "name": "Dazzle Dry",
+    "website": "https://dazzledry.com",
+    "country": "US",
+    "category_slug": "beauty",
+    "description": "Arizona-made quick-dry nail system (VB Cosmetics) - a vegan, cruelty-free, non-toxic 4-step manicure system that dries in five minutes without UV light.",
+    "contacts": [
+      {
+        "contact_type": "creator_application",
+        "email": "support@dazzledry.com",
+        "url": "https://dazzledry.com/pages/affiliate-program",
+        "source_url": "https://dazzledry.com/pages/affiliate-program"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "handle": "@dazzle_dry",
+        "url": "https://www.instagram.com/dazzle_dry"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_program_page",
+        "source_url": "https://dazzledry.com/pages/affiliate-program",
+        "summary": "Dazzle Dry's own affiliate page invites anyone 18+ - explicitly including small, engaged communities - to earn commission on every sale; its Join Now buttons route to ui.awin.com, confirming Awin as the network, and it names support@dazzledry.com as the affiliate team email."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_program_page",
+        "source_url": "https://dazzledry.com/pages/affiliate-program",
+        "summary": "The brand publishes no commission percentage, and directory figures conflict wildly (2-10% across aggregator pages), so the rate is recorded as null; no cap or creator-count figures are published."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": null,
+      "application_url": "https://dazzledry.com/pages/affiliate-program",
+      "source_url": "https://dazzledry.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Small-creator-friendly nail system on Awin - rate confirmed only inside the panel",
+      "angle": "Five-minute manicure and nail-health content; the brand explicitly welcomes micro-creators, a rare open door in nail care.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 13,
+      "compensation": 5,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Beauty brand in the nail niche - a strong but narrower creator category.",
+        "ugc_evidence": "Own affiliate page routing to Awin signup.",
+        "compensation": "Commission exists on every sale but the percentage is not published anywhere fetched, so it scores low until confirmed in-panel.",
+        "contact_access": "Affiliate team email published on the brand's own program page.",
+        "opportunity_availability": "Open to anyone 18+, explicitly including small audiences.",
+        "credibility": "Established niche manufacturer (VB Cosmetics, Chandler AZ) with a smaller public footprint."
+      }
+    }
+  },
+  {
+    "name": "LolaVie",
+    "website": "https://lolavie.com",
+    "country": "US",
+    "category_slug": "beauty",
+    "description": "Jennifer Aniston's haircare brand - clean, plant-powered shampoos, conditioners and the Glossing Detangler, sold direct and at Ulta Beauty.",
+    "contacts": [],
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@lolavie",
+        "url": "https://www.tiktok.com/@lolavie"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://rateful.ai/brand/lolavie",
+        "summary": "Rateful's TikTok Shop data page confirms LolaVie runs a TikTok Shop affiliate program: about 67% of its estimated $26.4K in TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators, who add products to their showcase and earn commission on every sale."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://rateful.ai/brand/lolavie",
+        "summary": "TikTok Shop commission percentages are set per product inside the app and are not published in the fetched source, so the rate is recorded as null; no cap or creator-count figures are published."
+      }
+    ],
+    "affiliate": {
+      "network": "TikTok Shop",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://rateful.ai/brand/lolavie",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "headline": "Celebrity-founded haircare selling mostly through TikTok Shop affiliates",
+      "angle": "Hair routine and detangler demos inside TikTok Shop, where two-thirds of the brand's sales already come from creators.",
+      "status": "unverified"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 17,
+      "compensation": 5,
+      "contact_access": 6,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Beauty/haircare brand with strong creator-native products.",
+        "ugc_evidence": "Two-thirds of TikTok Shop sales attributed to affiliate creators - unusually direct evidence of creator demand.",
+        "compensation": "Commission exists on every TikTok Shop sale but the percentage is not published in fetched sources.",
+        "contact_access": "Joining runs inside TikTok Shop; no public partnerships contact found on fetched pages.",
+        "opportunity_availability": "Open to any creator with TikTok Shop affiliate access.",
+        "credibility": "Celebrity-founded brand with Ulta Beauty distribution."
+      }
+    }
+  }
+]
