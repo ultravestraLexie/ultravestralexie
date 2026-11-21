@@ -70,6 +70,7 @@ export default async function DiscoverPage({
   }
   let rows: Row[] = [];
   let loggedOut = false;
+  const socialsMap = new Map<string, Set<string>>();
 
   if (q) {
     const supabase = await createClient();
@@ -80,12 +81,13 @@ export default async function DiscoverPage({
       loggedOut = !user;
     }
     if (list.length) {
-      const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }] = await Promise.all([
+      const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }, { data: socials }] = await Promise.all([
         supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }),
         supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url, last_checked_at"),
         supabase.from("brand_contacts").select("brand_id, email, contact_url"),
         supabase.from("opportunities").select("brand_id, status, application_url"),
         supabase.from("brand_categories").select("brand_id, categories ( slug, name )"),
+        supabase.from("brand_socials").select("brand_id, platform"),
       ]);
       const scoreMap = new Map<string, number>();
       for (const s of scores ?? []) if (!scoreMap.has(s.brand_id as string)) scoreMap.set(s.brand_id as string, Number(s.total_score));
@@ -102,6 +104,11 @@ export default async function DiscoverPage({
         const arr = catsMap.get(row.brand_id) ?? [];
         arr.push({ slug: row.categories.slug, name: row.categories.name });
         catsMap.set(row.brand_id, arr);
+      }
+      for (const s of socials ?? []) {
+        const set = socialsMap.get(s.brand_id as string) ?? new Set<string>();
+        if (s.platform) set.add((s.platform as string).toLowerCase());
+        socialsMap.set(s.brand_id as string, set);
       }
       rows = list.map((brand) => {
         const aff = affMap.get(brand.id);
@@ -129,6 +136,21 @@ export default async function DiscoverPage({
   let pool = intent.tokens.length && matched.length >= 3 ? matched : rows;
   if (catFilter) pool = pool.filter((r) => r.cats.some((c) => c.slug === catFilter));
   if (networkSel) pool = pool.filter((r) => (r.network ?? "").toLowerCase().includes(networkSel));
+  if (platformSel) {
+    /* Platform was previously display-only here. Apply it the same
+     * way /ask applies its category: restrict the pool only when at
+     * least 3 pool brands genuinely carry the platform (published
+     * socials for TikTok/YouTube/Instagram; the program route or the
+     * researched description for Trybe), otherwise leave the pool
+     * untouched so a search never empties out over a label. */
+    const key = platformSel.toLowerCase();
+    const inPlat = pool.filter((r) =>
+      key === "trybe"
+        ? (r.network ?? "").toLowerCase().includes("trybe") || (r.brand.description ?? "").toLowerCase().includes("trybe")
+        : (socialsMap.get(r.brand.id)?.has(key) ?? false)
+    );
+    if (inPlat.length >= 3) pool = inPlat;
+  }
   if (applyOnly) pool = pool.filter((r) => r.appUrl);
   const networkCounts = new Map<string, number>();
   for (const r of rows) if (r.network) networkCounts.set(r.network, (networkCounts.get(r.network) ?? 0) + 1);
@@ -204,7 +226,7 @@ export default async function DiscoverPage({
           <h2 style={h2style}>🏆 From the UltraVestra database</h2>
           <p style={sub}>
             Searched {rows.length} researched brands — {matched.length} matched your words
-            {capType === "uncapped" ? " · filter: UNCAPPED ✓" : capType === "capped" ? " · filter: capped" : capType === "unknown" ? " · filter: cap unknown" : ""}{networkSel ? ` · program: ${networkSel}` : ""}{wantSmall ? " · filter: smaller creators" : ""}{minRate != null ? ` · filter: pays at least ${minRate}%` : ""}.
+            {capType === "uncapped" ? " · filter: UNCAPPED ✓" : capType === "capped" ? " · filter: capped" : capType === "unknown" ? " · filter: cap unknown" : ""}{networkSel ? ` · program: ${networkSel}` : ""}{platformSel ? ` · platform: ${platformSel}` : ""}{wantSmall ? " · filter: smaller creators" : ""}{minRate != null ? ` · filter: pays at least ${minRate}%` : ""}.
             Ranked by filters, match, then Opportunity Score. Open a profile to see every fact&rsquo;s source.
           </p>
           {top.length === 0 && <p style={{ color: "#f0abfc", margin: 0 }}>Not enough verified information in the database for this search yet — see the live web results below, and try wider words.</p>}

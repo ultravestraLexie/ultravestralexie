@@ -41,7 +41,7 @@ export default async function BrandsPage({
     .select("*")
     .eq("status", "published")
     .order("name");
-  if (q) query = query.ilike("name", `%${q}%`);
+  if (q) query = query.ilike("name", `%${q.replace(/[%_]/g, "")}%`);
   if (brandIdsInCategory) {
     query = query.in(
       "id",
