@@ -34,6 +34,10 @@ const POPULAR: [string, string][] = [
   ["Brands accepting applications", "/discover?q=brands+accepting+applications"],
   ["Pet brands worth pitching", "/discover?q=pet+brands+worth+pitching"],
   ["Highest published commissions", "/discover?q=brands+paying+at+least+20%25+commission"],
+  ["TikTok Shop brands", "/discover?q=tiktok+shop+brands"],
+  ["Travel eSIM & connectivity products", "/discover?q=esim+travel+connectivity+products"],
+  ["Home gadgets & devices", "/discover?q=home+gadget+devices"],
+  ["Supplement & protein brands", "/discover?q=supplement+protein+brands"],
   ["Creator hooks and video tips", "/academy"],
 ];
 

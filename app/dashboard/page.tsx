@@ -63,7 +63,7 @@ export default async function DashboardPage() {
     { href: "/commissions", emoji: "✅", title: "Uncapped Commissions", line: "Verified no-cap programs, proven from the brand's own published terms.", live: list.length ? `${stats.uncapped} verified` : undefined },
     { href: "/commissions", emoji: "❔", title: "Commission Cap Unknown", line: "A published rate is not proof of no cap. These limits are honestly unknown.", live: list.length ? `${stats.unknownCap} unknown` : undefined },
     { href: "/brands", emoji: "🧠", title: "Brand Intelligence", line: "Full profiles: scores with reasons, contacts, compensation, sourced evidence.", live: list.length ? `${stats.total} profiles` : undefined },
-    { href: "/coach", emoji: "🔬", title: "Creator Growth Lab", line: "Diagnose why a video performs — hooks, demonstration, storytelling, retention, conversion." },
+    { href: "/coach", emoji: "🔬", title: "Creator Growth Center", line: "Hooks, scripts, video lessons and sales techniques — plus the diagnostic that shows why a video performs." },
     { href: "/studio", emoji: "🎬", title: "Video Strategy & Script Studio", line: "Build a complete selling script from your own product facts, beat by beat." },
     { href: "/ask", emoji: "✨", title: "Ask UltraVestra AI", line: "One question in — a sourced research report with brands, contacts and a pitch out." },
     { href: "/academy", emoji: "🎓", title: "Creator Academy", line: "Searchable lessons on hooks, scripts, filming, pitching, money and growth.", live: "12 lessons" },
