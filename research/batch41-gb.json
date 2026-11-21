@@ -1,0 +1,696 @@
+[
+ {
+  "name": "Fashion Nova",
+  "website": "https://www.fashionnova.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Los Angeles-based fast-fashion retailer selling women's, men's, curve and kids apparel, shoes and beauty products through fashionnova.com, famous for influencer-led marketing and rapid trend drops.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://creator.fashionnova.com/become-ambassador",
+    "email": null,
+    "source_url": "https://collabfeed.io/blog/how-fashion-nova-runs-their-creator-program"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/fashionnova/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@fashionnova"
+   },
+   {
+    "platform": "x",
+    "url": "https://x.com/fashionnova"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://creator.fashionnova.com/ambassador-program-terms?anchor=policies",
+    "summary": "Fashion Nova's official Ambassador Program terms (fetched in full) state the program is open to influencers, content creators, athletes and artists, is free to join, pays commissions on qualifying purchases via unique tracking links, and requires a minimum of 250 followers on each channel used; the commission rate itself is shown inside the member dashboard rather than in the public terms."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://collabfeed.io/blog/how-fashion-nova-runs-their-creator-program",
+    "summary": "CollabFeed's program guide, quoting Fashion Nova's own fashionnova.com FAQ verbatim (checked October 2026), records the FAQ answers: 'You earn 15% commission on every sale made through your link' and 'At the moment, our Ambassador Program is affiliate-based only', with no required deliverables; the application is at creator.fashionnova.com/become-ambassador."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02k2zZD6q7KshEmf5Lpmj7S9Z1HYSWd5WBwpa4X6E9BAFFcmbSdz5QToW4PShwsQsfl&id=61595635406593",
+    "summary": "A screenshot of Fashion Nova's own ambassador welcome email (November 2026) reads 'Welcome to one of the largest influencer networks in the world' and 'Earn 15% commission on every sale you drive' \u2014 the brand's own description of a very large creator base, supporting a high saturation mark."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/fashion-nova/",
+    "summary": "UpPromote's directory profile describes Fashion Nova as a global fast-fashion retailer based in Los Angeles, California, selling women's, men's, curve, kids, beauty and shoe lines."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program",
+   "commission_rate": 15,
+   "application_url": "https://creator.fashionnova.com/become-ambassador",
+   "source_url": "https://creator.fashionnova.com/ambassador-program-terms?anchor=policies",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "application_url": "https://creator.fashionnova.com/become-ambassador",
+   "source_url": "https://creator.fashionnova.com/ambassador-program-terms?anchor=policies",
+   "title": "Fashion Nova Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 20,
+   "compensation": 16,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure fashion retailer with trend drops built for TikTok and Instagram try-on content \u2014 a core fashion-creator niche.",
+    "ugc_evidence": "A dedicated creator portal and an affiliate-only ambassador program the brand itself calls one of the largest influencer networks in the world; creator content is the brand's main marketing engine.",
+    "compensation": "15% commission on every sale through the ambassador link, published in the brand's own FAQ \u2014 a strong cash rate for apparel; no earnings cap is stated anywhere in the fetched terms, so the cap is honestly unknown.",
+    "contact_access": "A public self-serve application on the brand's own creator portal, linked from the fashionnova.com footer, with the full program terms published.",
+    "opportunity_availability": "Open application today; the only stated bar is 250 followers on each channel used and not already being under a Fashion Nova influencer agreement.",
+    "credibility": "One of the world's best-known fast-fashion retailers with a long-running, publicly documented creator program."
+   }
+  }
+ },
+ {
+  "name": "Crocs",
+  "website": "https://www.crocs.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American footwear company behind the iconic Croslite foam clog, selling clogs, sandals, shoes and Jibbitz charms through crocs.com and its own stores.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.crocs.com/affiliate-program/affiliate-program.html",
+    "email": null,
+    "source_url": "https://www.crocs.com/affiliate-program/affiliate-program.html"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/crocs/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@crocs"
+   },
+   {
+    "platform": "x",
+    "url": "https://x.com/crocs"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.crocs.com/affiliate-program/affiliate-program.html",
+    "summary": "Crocs' official affiliate program page (fetched in full) states the program runs via Impact, pays a standard commission rate of six percent (6%) per transaction, credits purchases for 30 days after the initial click, pays monthly, is free with no minimum sales requirement, and is open to any website; no earnings cap is mentioned, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/crocs/",
+    "summary": "UpPromote's directory lists the Crocs program on Impact at roughly 6.5-10% depending on region and performance, broadly consistent with the 6% standard rate on Crocs' own page."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 6,
+   "application_url": "https://www.crocs.com/affiliate-program/affiliate-program.html",
+   "source_url": "https://www.crocs.com/affiliate-program/affiliate-program.html",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.crocs.com/affiliate-program/affiliate-program.html",
+   "source_url": "https://www.crocs.com/affiliate-program/affiliate-program.html",
+   "title": "Crocs Online Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 14,
+   "compensation": 11,
+   "contact_access": 10,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Iconic footwear with constant collaboration drops and strong TikTok visibility \u2014 a proven fashion and lifestyle creator niche.",
+    "ugc_evidence": "A formal affiliate program on Impact open to sites and creators, though run in a classic publisher style rather than a creator-first portal.",
+    "compensation": "6% standard commission per transaction, stated on Crocs' own program page, with a 30-day cookie and monthly payment; no cap statement appears, so the cap is unknown.",
+    "contact_access": "The official program page walks applicants into the Impact application; no direct program email is published.",
+    "opportunity_availability": "Open application to any launched website, free, with no minimum sales requirement; Crocs reviews and approves each site.",
+    "credibility": "Global footwear brand with a long-established affiliate program and national retail presence."
+   }
+  }
+ },
+ {
+  "name": "REVOLVE",
+  "website": "https://www.revolve.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "American online fashion retailer selling contemporary and designer women's clothing, shoes, accessories and beauty through revolve.com, built around influencer marketing; sister brand to FWRD.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/revolve/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@revolve"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/revolve/",
+    "summary": "Lasso's program listing records the REVOLVE affiliate program at 5% per sale with a 7-day cookie, run through CJ Affiliate for website publishers."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://whopaysinfluencers.com/brand/revolve/",
+    "summary": "WhoPaysInfluencers' brand page (checked October 2026) records the REVOLVE + FWRD Ambassador route as an open application paying 15% commission in cash (or +5% more when cashed out as store credit), vetted case by case with no published follower minimum \u2014 separate from the 5% CJ publisher program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://uppromote.com/affiliate-directory/revolve/",
+    "summary": "UpPromote's directory likewise lists the REVOLVE affiliate program at a fixed 5% on all orders via CJ Affiliate, paid monthly."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/revolve/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/revolve/",
+   "title": "REVOLVE Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 10,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Premium trend fashion retailer whose whole brand is built on creator styling content \u2014 a top fashion-creator niche.",
+    "ugc_evidence": "Two documented creator routes: the CJ publisher program and the REVOLVE + FWRD Ambassador program with an open application; influencer trips and capsule collections are core brand activity.",
+    "compensation": "5% on all orders through the CJ affiliate program; ambassadors are reported at 15% cash. No earnings cap is published for either route, so the cap is unknown.",
+    "contact_access": "No public program email found; joining runs through the CJ network application and the ambassador application on Revolve's site.",
+    "opportunity_availability": "Both routes take applications now; ambassador acceptance is vetted case by case with no stated follower floor.",
+    "credibility": "Publicly traded, long-established premium fashion retailer with a documented decade of creator partnerships."
+   }
+  }
+ },
+ {
+  "name": "boohoo",
+  "website": "https://www.boohoo.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "British online fast-fashion retailer selling trend-led women's and men's apparel and accessories through boohoo.com.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "charlotte.tweddle@awin.com",
+    "source_url": "https://ui.awin.com/merchant-profile/8941?setLocale=da_DK"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/boohoo/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@boohoo"
+   },
+   {
+    "platform": "x",
+    "url": "https://x.com/boohoo"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/60703",
+    "summary": "boohoo's Awin merchant profile for the US & Canada program (fetched) publishes 6% commission for new customers and 3% for existing customers, 0% on boohooMAN branded products, last-referrer attribution, and a 60-day validation period; no earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/8941?setLocale=da_DK",
+    "summary": "A second boohoo Awin profile publishes the affiliate team's general-enquiries email, charlotte.tweddle@awin.com, alongside its regional rates."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/DTxhYkrEmUh/",
+    "summary": "boohoo's own Instagram promotes the 'boohoo collective', a creator community whose members get early access to drops, a personal discount code that generates commission, event invitations and a shoppable storefront."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 6,
+   "application_url": "https://ui.awin.com/merchant-profile/60703",
+   "source_url": "https://ui.awin.com/merchant-profile/60703",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/60703",
+   "source_url": "https://ui.awin.com/merchant-profile/60703",
+   "title": "boohoo Affiliate Program (via Awin, US & Canada)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Trend-led fast fashion aimed squarely at the TikTok and Instagram demographic \u2014 a central fashion-creator niche.",
+    "ugc_evidence": "An Awin publisher program plus the brand-run 'boohoo collective' creator community with commission-earning personal codes and storefronts.",
+    "compensation": "6% on new-customer sales and 3% on existing-customer sales in the US & Canada Awin program (the headline new-customer rate is recorded); no cap is published, so the cap is unknown.",
+    "contact_access": "The Awin profile publishes a named affiliate-team contact email for general enquiries, on top of the in-network application.",
+    "opportunity_availability": "Open to Awin publishers now; commissions validate over 60 days and returned goods are excluded.",
+    "credibility": "Long-running UK-listed fast-fashion retailer with affiliate programs across Awin regions; recent press over a discounting fine keeps it a notch below the top band."
+   }
+  }
+ },
+ {
+  "name": "Dream Pairs",
+  "website": "https://www.dreampairs.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Fashion footwear brand founded in 2009 selling affordable women's, men's and kids shoes \u2014 heels, boots, sneakers and sandals \u2014 through dreampairs.com, Amazon and TikTok Shop.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@dreampairs.com",
+    "source_url": "https://ui.awin.com/merchant-profile/76022"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/dreampairs/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@dreampairs"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/76022",
+    "summary": "Dream Pairs' Awin merchant profile (fetched) describes a fashion footwear brand founded in 2009 and publishes a baseline commission of 4%-15% per sale, tiered by traffic source, a 30-day cookie window, higher rates and custom coupons for top partners, and the program contact email affiliate@dreampairs.com; no earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/dream-pairs/",
+    "summary": "Lasso's listing quotes the Dream Pairs program at the top of the Awin tier (15% per sale), consistent with the tiered range on the Awin profile itself."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 4,
+   "application_url": "https://ui.awin.com/merchant-profile/76022",
+   "source_url": "https://ui.awin.com/merchant-profile/76022",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/76022",
+   "source_url": "https://ui.awin.com/merchant-profile/76022",
+   "title": "Dream Pairs Affiliate Program (via Awin)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 12,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Affordable fashion footwear is a staple TikTok Shop and try-on-haul category; the brand is a recognizable name in the niche.",
+    "ugc_evidence": "A network affiliate program that explicitly negotiates higher rates and custom coupons with top-performing partners, plus an active TikTok Shop presence.",
+    "compensation": "Tiered 4%-15% per sale on Awin \u2014 the 4% baseline floor is recorded, with the tier documented in evidence; no cap is published, so the cap is unknown.",
+    "contact_access": "A published program email (affiliate@dreampairs.com) on the Awin profile plus the in-network application \u2014 strong direct access.",
+    "opportunity_availability": "Open to Awin publishers now with a 30-day cookie; no follower minimum is published.",
+    "credibility": "Established since 2009 with wide marketplace distribution, though a smaller public profile than the big footwear names."
+   }
+  }
+ },
+ {
+  "name": "HeyDude",
+  "website": "https://www.heydude.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Comfort footwear brand known for lightweight slip-on shoes such as the Wendy and Wally styles; owned by Crocs, Inc. and sold through heydude.com, retailers and TikTok Shop.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/heydude/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@heydude"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.facebook.com/halie.mcintyre.3/posts/pfbid032AgpogXtLQxyXL1frArGMMuL8rs2ULAdaZquZG2hKMJzSctTKpxNfrA7gQVeCsbrl",
+    "summary": "Screenshots of HeyDude's TikTok Shop creator collaborations (October 2026) show free-sample affiliate posts with per-product commissions published in the app \u2014 $8.50 on an $84.99 boot (10%) and $5.20 on a $64.99 shoe (8%) \u2014 confirming an open TikTok Shop affiliate route with per-product rates rather than one published program rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/hey-dude-shoes/",
+    "summary": "Lasso lists a Hey Dude Shoes affiliate program at 8% per sale with a 14-day cookie through network channels, a second route alongside the TikTok Shop program; no earnings cap is published for either, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.facebook.com/halie.mcintyre.3/posts/pfbid032AgpogXtLQxyXL1frArGMMuL8rs2ULAdaZquZG2hKMJzSctTKpxNfrA7gQVeCsbrl",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/hey-dude-shoes/",
+   "title": "HeyDude TikTok Shop Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 15,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Viral comfort slip-ons are a proven TikTok fashion staple, and the brand sits on the owner's TikTok Shop lead sheet.",
+    "ugc_evidence": "Documented TikTok Shop free-sample creator collaborations with in-app commission offers, plus a network affiliate listing \u2014 creators are an active channel.",
+    "compensation": "TikTok Shop rates are set per product (observed at 8-10% in live creator offers), so no single rate is recorded; a network listing quotes 8%. No cap is published, so the cap is unknown.",
+    "contact_access": "Creator contact runs through the TikTok Shop seller chat inside the app; no public program email was found.",
+    "opportunity_availability": "Open TikTok Shop affiliate enrollment for creators, with sample-based collaborations visible in current creator posts.",
+    "credibility": "A Crocs, Inc. brand with mass retail distribution and sustained viral demand."
+   }
+  }
+ },
+ {
+  "name": "PUMA",
+  "website": "https://us.puma.com",
+  "country": "Germany",
+  "category_slug": "fashion",
+  "description": "German sportswear company founded in 1948, selling performance and lifestyle footwear, apparel and accessories \u2014 sneakers, football, running and streetwear lines \u2014 through puma.com and retail partners.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/puma/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@puma"
+   },
+   {
+    "platform": "x",
+    "url": "https://x.com/puma"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://help.us.puma.com/hc/en-us/articles/38827399780507-How-it-Works",
+    "summary": "PUMA's official US help page (fetched) states affiliate tracking and reporting are provided by CJ Affiliate, describes a 'competitive, incentive-based commission structure' where the rate rises with sales generated, and an attribution period of up to 30 days; PUMA publishes no flat percentage and no earnings cap, so the rate is recorded as null and the cap as unknown."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/puma/",
+    "summary": "Third-party listings disagree on PUMA's rate \u2014 Lasso quotes 4% per sale via Rakuten Advertising while other directories quote 2-10% on CJ or 5-6% elsewhere \u2014 so no single rate is recorded; the conflict is documented here instead."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://us.puma.com/us/en/help/affiliates",
+   "source_url": "https://help.us.puma.com/hc/en-us/articles/38827399780507-How-it-Works",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://us.puma.com/us/en/help/affiliates",
+   "source_url": "https://help.us.puma.com/hc/en-us/articles/38827399780507-How-it-Works",
+   "title": "PUMA Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 8,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Global sneaker and streetwear giant \u2014 a core fashion and sneaker-creator niche, though broader than pure fashion.",
+    "ugc_evidence": "A long-running network affiliate program that PUMA's own help pages route creators and publishers into; less creator-portal-driven than fashion-native brands.",
+    "compensation": "Incentive-based tiers confirmed by PUMA's own page, but no published flat rate and conflicting third-party figures (2-10%), so the rate is honestly null; no cap is published, so the cap is unknown.",
+    "contact_access": "Applications run through CJ Affiliate from PUMA's official affiliates help page; no direct program email is published.",
+    "opportunity_availability": "Open CJ publisher application; PUMA approves partners selectively and requires a live content platform.",
+    "credibility": "One of the world's largest sportswear companies, publicly traded in Germany with a decades-long affiliate history."
+   }
+  }
+ },
+ {
+  "name": "Kipling",
+  "website": "https://www.kipling-usa.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Bag brand selling lightweight handbags, backpacks, crossbody bags and luggage through kipling-usa.com and department stores, positioned for travel and everyday carry.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/kiplingusa/"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/kipling/",
+    "summary": "LinkClicky's program record lists Kipling US on Rakuten Advertising at 3% per sale across the US, Canada, UK, Ireland, Australia and New Zealand."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/kipling/",
+    "summary": "Lasso quotes the Kipling program at 10.4% per sale with a 7-day cookie, which conflicts with the 3% Rakuten figure on LinkClicky and the 5-10% range on Shopper, so the commission rate is recorded as null with the conflict documented; no source states an earnings cap, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/kipling/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/kipling/",
+   "title": "Kipling Affiliate Program (via Rakuten Advertising)"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 10,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Backpacks and luggage are a natural travel-creator category, with handbags adding a fashion crossover.",
+    "ugc_evidence": "A network affiliate program marketed to travel bloggers; no creator-first portal or ambassador layer was found.",
+    "compensation": "Published figures conflict (3% on Rakuten per LinkClicky vs 10.4% per Lasso), so the rate is honestly null; no cap is published, so the cap is unknown.",
+    "contact_access": "Joining runs through the Rakuten Advertising application; no public program email was found.",
+    "opportunity_availability": "Open Rakuten publisher application across several English-speaking markets.",
+    "credibility": "Long-established global bag brand with department-store distribution and a multi-region network program."
+   }
+  }
+ },
+ {
+  "name": "Go City",
+  "website": "https://gocity.com",
+  "country": "United Kingdom",
+  "category_slug": "travel",
+  "description": "Sightseeing pass company (formerly the Leisure Pass Group) selling all-inclusive and explorer passes covering 400+ attractions across dozens of destinations including New York, London, Paris and Las Vegas through gocity.com.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/gocity/"
+   },
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@gocity"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.travelpayouts.com/blog/go-city-affiliate-program/",
+    "summary": "Travelpayouts' program page records the Go City partner program at 6% commission on all sales (3.4% for coupon/voucher partners), open to travel content projects, social blogs and video platforms, and explicitly welcoming beginner bloggers whose projects are regularly updated; no earnings cap is stated, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://commission.academy/blog/best-las-vegas-affiliate-programs/",
+    "summary": "Commission Academy records Go City's affiliate program as managed in-house (reported elsewhere as running through Partnerize) at 6% per sale with a 90-day cookie and an average order value around $350, so a typical sale earns roughly $21-26."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": 6,
+   "application_url": null,
+   "source_url": "https://www.travelpayouts.com/blog/go-city-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://www.travelpayouts.com/blog/go-city-affiliate-program/",
+   "title": "Go City Partner Program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 11,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "City sightseeing passes are a natural fit for travel creators making destination and itinerary content.",
+    "ugc_evidence": "The program explicitly courts content projects, social blogs and YouTube creators, not just coupon sites, and pays content partners a higher rate than voucher partners.",
+    "compensation": "6% of order value on passes averaging around $350-436 (roughly $21-26 per sale) with a reported 90-day cookie; no cap is published, so the cap is unknown.",
+    "contact_access": "Applications run through the partner program and network listings; no direct public program email was found.",
+    "opportunity_availability": "Open to new and beginner travel creators with regularly updated content \u2014 an unusually low stated bar for a travel program.",
+    "credibility": "The largest multi-attraction pass operator, formerly Leisure Pass Group, selling in dozens of destinations worldwide."
+   }
+  }
+ },
+ {
+  "name": "Travelpro",
+  "website": "https://travelpro.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "American luggage manufacturer with more than 30 years in the industry, known for rolling luggage and bags designed for flight crews and frequent travelers, sold through travelpro.com.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/travelprointl/"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/travelpro/",
+    "summary": "LinkClicky's program record lists Travelpro on CJ Affiliate at 5% per sale, and Post Affiliate Pro's directory independently lists the same CJ program at 5% with monthly payouts."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/travelpro/",
+    "summary": "Lasso quotes the Travelpro program at only 0.8% per sale (with the same 45-day cookie and CJ network), which conflicts with the 5% figure on two other listings, so the commission rate is recorded as null with the conflict documented; no source states an earnings cap, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/travelpro/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/travelpro/",
+   "title": "Travelpro Affiliate Program (via CJ Affiliate)"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 9,
+   "compensation": 8,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Crew-trusted luggage is a staple of travel-gear content and packing videos.",
+    "ugc_evidence": "A standard CJ publisher program; no creator-specific portal or ambassador layer was found.",
+    "compensation": "Listings conflict (5% on two CJ records vs 0.8% on Lasso), so the rate is honestly null; a 45-day cookie is consistently reported. No cap is published, so the cap is unknown.",
+    "contact_access": "Joining runs through the CJ Affiliate application; no public program email was found.",
+    "opportunity_availability": "Open CJ publisher application for US traffic.",
+    "credibility": "Three decades in luggage with deep flight-crew adoption and national retail distribution."
+   }
+  }
+ }
+]

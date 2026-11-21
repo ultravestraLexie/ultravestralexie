@@ -1,0 +1,619 @@
+[
+ {
+  "name": "TYMO Beauty",
+  "website": "https://www.tymobeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Hair-styling tools and haircare brand known for the RING hair straightener brush, CURLPRO automatic curler and ROVY deep waver, sold through its own Shopify store and Amazon, with a large TikTok-driven creator community.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "affiliate@tymo-tech.com",
+    "source_url": "https://tymobeauty.com/en-de/pages/affiliate-policy"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://tymobeauty.com/pages/tymo-partner",
+    "summary": "TYMO's own partner page publishes its tiered commission: Level 1 pays a 15% base commission on registration, Level 2 pays 20% after 5+ referral orders, Level 3 (Ambassador) pays 25%, and the 'Why Join TYMO' list states explicitly: 'No earning cap' — so the earnings cap is verified UNCAPPED from the brand's own page."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://tymobeauty.com/en-de/pages/affiliate-policy",
+    "summary": "TYMO's published Affiliate Program Terms & Conditions state payouts run on a 30-day cycle through the Social Snowball platform (the terms also list ShareASale, PartnerBoost, GoAffPro, Awin and Impact as cooperating platforms) and publish the affiliate support email affiliate@tymo-tech.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://tymobeauty.com/pages/tymo-partner",
+    "summary": "The partner page is built around creator content: it instructs partners to post reviews and demos, publishes top-affiliate earnings testimonials (one affiliate shown with $12,911 commission earned), runs monthly competitions, and recruits Reddit/TikTok creators by emailing affiliate@tymo-tech.com."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/tymo-beauty/",
+    "summary": "An older LinkClicky directory entry lists TYMO on ShareASale at only 3% per sale, which conflicts with the brand's own current partner page (15% base tier). The brand's own published tiers govern, so 15% is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Social Snowball",
+   "commission_rate": 15,
+   "application_url": "https://tymobeauty.com/pages/tymo-partner",
+   "source_url": "https://tymobeauty.com/pages/tymo-partner",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://tymobeauty.com/pages/tymo-partner",
+   "source_url": "https://tymobeauty.com/pages/tymo-partner",
+   "title": "TYMO Partner Program (tiered affiliate program, no earning cap)"
+  },
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 18,
+   "compensation": 18,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Hair tools are a core beauty-UGC category — every product is demo-driven (straightening, curling, waving) and made for before/after video content.",
+    "ugc_evidence": "The brand's own partner page is built around creator reviews and demos, publishes affiliate earnings testimonials, runs monthly competitions and actively recruits TikTok and Reddit creators.",
+    "compensation": "Published tiered cash commission on the brand's own page — 15% base, 20% growth, 25% ambassador — with an explicitly stated 'No earning cap'.",
+    "contact_access": "A dedicated affiliate email (affiliate@tymo-tech.com) is published in the program terms, plus open registration on the partner page.",
+    "opportunity_availability": "Registration is open on the brand's own partner page with Level 1 commission active immediately upon registration.",
+    "credibility": "Established DTC hair-tools brand with a large Amazon and TikTok Shop presence and published legal affiliate terms on its own store."
+   }
+  }
+ },
+ {
+  "name": "KimChi Chic Beauty",
+  "website": "https://kimchichicbeauty.com/",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Color cosmetics brand founded by drag artist Kim Chi, selling bold, inclusive, cruelty-free makeup — eyeshadow palettes, lip color, base products and the viral Puff Puff Pass setting powder — through its own website and retailers.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/kimchichicbeauty"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/kimchi-chic-beauty/",
+    "summary": "LinkClicky's affiliate directory lists the KimChi Chic Beauty affiliate program on ShareASale at 18% commission per sale with a 90-day cookie, open to all regions, described as the rate officially listed with the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/DcRducJFEK5/",
+    "summary": "KimChi Chic Beauty's official Instagram (@kimchichicbeauty, ~380K followers) ran an open casting call recruiting paid TikTok LIVE hosts at $50/hour with a 5-hour minimum, stating a large following is not required — evidence of ongoing paid creator recruitment."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/kimchi-chic-beauty/",
+    "summary": "The directory describes KimChi Chic Beauty as a vibrant, inclusive cosmetics line inspired by founder Kim Chi's drag artistry, cruelty-free, catering to all skin tones, sold via kimchichicbeauty.com."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 18,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/kimchi-chic-beauty/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 28,
+   "ugc_evidence": 15,
+   "compensation": 16,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Bold color cosmetics built for tutorials, transformations and drag-inspired looks — squarely in the beauty UGC niche.",
+    "ugc_evidence": "A formal ShareASale affiliate program plus public recruitment of paid TikTok LIVE hosts by the brand's official Instagram show active, structured creator collaboration.",
+    "compensation": "A published 18% per-sale commission with a 90-day cookie on ShareASale — one of the stronger published beauty rates; no cap statement found, so the cap stays unknown.",
+    "contact_access": "Application runs through ShareASale; no public partnerships email was found on the pages checked, so contact access is mid-range.",
+    "opportunity_availability": "The ShareASale program is open to all regions per the network listing.",
+    "credibility": "Established founder-led brand with ~380K Instagram followers and national retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Kimirica",
+  "website": "https://www.kimirica.shop",
+  "country": "India",
+  "category_slug": "beauty",
+  "description": "Indian clean-luxury self-care brand selling vegan bath and body products, fine fragrances, gifting sets and skincare, positioned around 'thoughtful self-care' and widely placed in premium hotels and retail in India.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "Info@kimirica.shop",
+    "source_url": "https://www.kimirica.shop/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.kimirica.shop/pages/affiliate",
+    "summary": "Kimirica's own affiliate page states approved affiliates earn 15% commission on every successful purchase made through their unique referral link, with monthly payouts, real-time dashboard tracking and applications reviewed within 48 hours; the FAQ confirms there is no minimum sales target. No earnings cap is stated anywhere on the page, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.kimirica.shop/pages/affiliate",
+    "summary": "The affiliate page publishes the brand's contact email Info@kimirica.shop and invites content creators, influencers, bloggers, wellness coaches and lifestyle curators from Instagram, YouTube, blogs and newsletters to apply."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.kimirica.shop/pages/affiliate",
+    "summary": "The page describes Kimirica's range as fine fragrances, gifting, bath & body, home fragrances and skincare, built on clean-luxury, vegan formulations."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program",
+   "commission_rate": 15,
+   "application_url": "https://www.kimirica.shop/pages/affiliate",
+   "source_url": "https://www.kimirica.shop/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.kimirica.shop/pages/affiliate",
+   "source_url": "https://www.kimirica.shop/pages/affiliate",
+   "title": "Kimirica Affiliate Program (15% commission, monthly payouts)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 15,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Bath, body, fragrance and skincare with a luxury self-care angle — a good fit for routine and gifting content, slightly broader than pure beauty.",
+    "ugc_evidence": "The brand runs a named creator affiliate collective with a personalized dashboard and brand assets, and explicitly recruits creators and influencers on its own page.",
+    "compensation": "A published 15% commission on every successful order with monthly payouts, stated on the brand's own page; no cap is stated, so the cap stays unknown.",
+    "contact_access": "A published contact email (Info@kimirica.shop) on the affiliate page plus a direct application route.",
+    "opportunity_availability": "Applications are open to creators on all platforms and reviewed within 48 hours per the brand's FAQ.",
+    "credibility": "Established Indian self-care brand with premium hotel and retail placement and a full published program FAQ."
+   }
+  }
+ },
+ {
+  "name": "Glo Melanin",
+  "website": "https://glomelanin.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "Skincare brand formulated for melanin-rich skin, selling products such as its yoni care line, turmeric-based brightening products and body care through its own website, built around a community of Black women creators and customers.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "hi@glomelanin.com",
+    "source_url": "https://glomelanin.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://glomelanin.com/pages/affiliate-program",
+    "summary": "Glo Melanin's own affiliate program page and its full published Affiliate Terms & Conditions (last updated July 26, 2026) state that affiliates receive a custom code giving followers 15% off and earn a 10% commission on qualifying sales, calculated on the net product subtotal. The terms state no earnings cap, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://glomelanin.com/pages/affiliate-program",
+    "summary": "Section 8 of the brand's affiliate terms directs all program questions to hi@glomelanin.com."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://glomelanin.com/pages/affiliate-program",
+    "summary": "The program is content-based by design: affiliates must create photos or videos featuring the products and include their code, and the terms require honest-experience FTC-disclosed content — a structured ambassador model rather than a bare link scheme."
+   }
+  ],
+  "affiliate": {
+   "network": "Own program",
+   "commission_rate": 10,
+   "application_url": "https://glomelanin.com/pages/affiliate-program",
+   "source_url": "https://glomelanin.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://glomelanin.com/pages/affiliate-program",
+   "source_url": "https://glomelanin.com/pages/affiliate-program",
+   "title": "Glo Melanin Affiliate / Ambassador Program (10% commission)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 12,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Skincare formulated specifically for melanin-rich skin — a focused, underserved niche with strong creator-content fit.",
+    "ugc_evidence": "A formal ambassador program whose terms require affiliates to create photo/video product content, with full published terms — clear evidence of structured UGC collaboration.",
+    "compensation": "A published 10% cash commission on the net subtotal in the brand's own terms; no cap stated, so the cap stays unknown.",
+    "contact_access": "A program contact email (hi@glomelanin.com) is published in the brand's own affiliate terms, plus self-serve registration.",
+    "opportunity_availability": "Open enrollment: registering or purchasing on the site automatically creates the affiliate's discount code.",
+    "credibility": "Operating DTC brand with detailed published legal terms for its program; smaller than national retail brands, so credibility sits mid-range."
+   }
+  }
+ },
+ {
+  "name": "Tatti Lashes",
+  "website": "https://tattilashes.com/",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK false-eyelash brand founded in 2017 by two beauty-industry professionals, selling luxury mink, faux-mink and synthetic strip lashes and lash products to consumers, makeup artists and lash technicians through its own site and retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/tatti-lashes/",
+    "summary": "LinkClicky's affiliate directory lists the Tatti Lashes affiliate program on the Impact platform at 15% commission per sale, open to all regions, described as the rate officially listed with the program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/206703/tatti-lashes-affiliate-program",
+    "summary": "Sovrn's merchant profile describes Tatti Lashes as a UK beauty brand founded in 2017 by beauty-industry professionals, selling luxury eyelashes for consumers, lash technicians and makeup artists."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/105959/commission-groups",
+    "summary": "Awin also hosts a Tatti Lashes UK affiliate programme (merchant profile 105959) with a 7-day attribution period, confirming the brand runs network affiliate programs in multiple regions."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 15,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/tatti-lashes/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 15,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "False lashes are a staple of makeup tutorial and GRWM content — a single-product-category brand with a clear creator use case.",
+    "ugc_evidence": "Network affiliate programs on both Impact and Awin, plus a Tatti Tech affiliate scheme for trained lash technicians promoted on the brand's own site.",
+    "compensation": "A published 15% per-sale commission on Impact per the network directory; no cap statement found, so the cap stays unknown.",
+    "contact_access": "Applications run through the Impact and Awin networks; no public partnerships email was found on the pages checked.",
+    "opportunity_availability": "The Impact program is listed as open to all regions.",
+    "credibility": "Established UK brand founded in 2017 with its own retail site and professional (lash tech) distribution."
+   }
+  }
+ },
+ {
+  "name": "Wonderskin",
+  "website": "https://www.wonderskin.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "Long-wear beauty brand behind the viral Wonder Blading Lip Stain, brow stain and 1440 lip liner, built TikTok-first: it entered the US market at the end of 2023 and sells through its own site and TikTok Shop.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://ads.tiktok.com/business/en-GB/blog/wonderskin-journey-on-tiktok?redirected=1",
+    "summary": "TikTok for Business's case study reports Wonderskin 'built a robust affiliate program with 20,000+ active partnerships' by the end of 2024, sold over 300,000 units on TikTok Shop, and works with creators through TikTok Creative Exchange and TikTok One — an absolute creator count in the tens of thousands, so creator saturation is HIGH."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/wonderskin/",
+    "summary": "LinkClicky lists the Wonderskin affiliate program on the Impact platform at 3% per sale (GB region)."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.Shopper.com/partnerships/wonderskin-com-affiliate-program",
+    "summary": "Rate conflict: Shopper reports a 5-10% payout for Wonderskin while LinkClicky lists 3% per sale on Impact, and TikTok Shop commissions are set per product in-platform — no single rate could be verified, so commission_rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://linkclicky.com/affiliate-program/wonderskin/",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 18,
+   "compensation": 6,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Viral long-wear lip and brow products engineered for TikTok demonstration — peel-off reveals are natural UGC content.",
+    "ugc_evidence": "TikTok's own case study documents 20,000+ active affiliate partnerships, 300,000+ TikTok Shop units sold and structured creator programs (TTCX, TikTok One).",
+    "compensation": "Affiliate routes exist on Impact and TikTok Shop, but published rates conflict (3% vs 5-10%) and no rate is published by the brand, so compensation scores low and the rate is null.",
+    "contact_access": "Joining runs through Impact and TikTok Shop; no public creator contact was found on the pages checked.",
+    "opportunity_availability": "The affiliate program operates at very large scale and is open to creators through TikTok Shop and Impact.",
+    "credibility": "Established UK-founded brand with documented TikTok Shop sales volume and major retail momentum in the US."
+   }
+  }
+ },
+ {
+  "name": "P.Louise",
+  "website": "https://plouise.co.uk",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK makeup brand founded by Paige Louise, known for the Base eyeshadow primer, colourful palettes and the P.Louise Academy, sold through its own website with a huge TikTok and Instagram creator following.",
+  "contacts": [
+   {
+    "contact_type": "pr",
+    "contact_url": null,
+    "email": "prandevents@plouise.academy",
+    "source_url": "https://ca.plouise.co.uk/pages/p-louise-pr-terms-conditions"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/plouise_makeup_academy"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://plouise.co.uk/pages/affiliates-partner-program",
+    "summary": "P.Louise's own Affiliates Partner Program page states affiliates earn commission on every sale at plouise.co.uk, the programme is global and free to join, and tracking, reporting and payments are managed through the Rakuten affiliate network (apply by searching for the programme on Rakuten; applications reviewed within 7 days). No commission rate or earnings cap is published on the page, so the rate is null and the cap unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://ca.plouise.co.uk/pages/p-louise-pr-terms-conditions",
+    "summary": "P.Louise's published PR Terms & Conditions describe its brand ambassador (PR list) scheme — ambassadors receive PR packages and create unboxings, tutorials and swatch content — and publish the contact email prandevents@plouise.academy for questions."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "official_site",
+    "source_url": "https://plouise.co.uk/pages/affiliates-partner-program",
+    "summary": "The brand promises affiliate partners launch previews, best-seller updates and behind-the-scenes content from a dedicated Partnerships Team — evidence of an actively managed creator program rather than a dormant listing."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten",
+   "commission_rate": null,
+   "application_url": "https://plouise.co.uk/pages/affiliates-partner-program",
+   "source_url": "https://plouise.co.uk/pages/affiliates-partner-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://plouise.co.uk/pages/affiliates-partner-program",
+   "source_url": "https://plouise.co.uk/pages/affiliates-partner-program",
+   "title": "P.Louise Affiliates Partner Program (via Rakuten)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 14,
+   "compensation": 7,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Colour cosmetics and bases built for tutorial content, with one of the UK's largest beauty creator communities.",
+    "ugc_evidence": "A formal Rakuten affiliate program with a dedicated Partnerships Team, plus a documented PR/ambassador list whose members create unboxing and tutorial content.",
+    "compensation": "A real network program exists, but the brand publishes no commission rate on its own page, so compensation scores conservatively and the rate is null.",
+    "contact_access": "A published PR email (prandevents@plouise.academy) and a named Partnerships Team behind the Rakuten programme.",
+    "opportunity_availability": "The programme is global and free to join via Rakuten, with applications reviewed within 7 days per the brand's page.",
+    "credibility": "Established UK brand with its own academy, flagship retail presence and a multi-million social following."
+   }
+  }
+ },
+ {
+  "name": "Color Wow",
+  "website": "https://www.colorwowhair.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "Haircare brand for color-treated hair founded by Gail Federici, known for Dream Coat anti-frizz treatment, Root Cover Up and Money Masque, sold through its own site and retailers including Sephora, Ulta Beauty and Amazon.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.shopper.com/partnerships/colorwowhair-com-affiliate-program",
+    "summary": "Shopper's partnership listing for Color Wow Hair states the affiliate program pays a 5-10% payout per sale with instant approval through Shopper; the 5% floor of that published range is recorded as the commission rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.shopday.com/color-wow",
+    "summary": "Shopday's program overview describes Color Wow as a haircare brand known for frizz-fighting, award-winning products for natural and color-treated hair, including Dream Coat, Root Cover Up and One Minute Transformation, with affiliate access open across Website, YouTube, Instagram, TikTok, Facebook and X channels."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopper",
+   "commission_rate": 5,
+   "application_url": null,
+   "source_url": "https://www.shopper.com/partnerships/colorwowhair-com-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 12,
+   "compensation": 9,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Frizz and color-care products with dramatic visual payoffs (Dream Coat's glass-hair result) are proven beauty-UGC material.",
+    "ugc_evidence": "An open affiliate program marketed to creators across TikTok, Instagram and YouTube, though less creator-community-driven than DTC-native brands.",
+    "compensation": "A published 5-10% payout range via Shopper (5% floor recorded); no cap statement found, so the cap stays unknown.",
+    "contact_access": "Joining runs through the Shopper platform; no public partnerships email was found on the pages checked.",
+    "opportunity_availability": "Instant approval through Shopper per the program listing.",
+    "credibility": "Major established haircare brand founded by Gail Federici, with Sephora, Ulta Beauty and Amazon distribution."
+   }
+  }
+ },
+ {
+  "name": "The Beauty Crop",
+  "website": "https://thebeautycrop.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "Cruelty-free, PETA-certified makeup and skincare brand formulating with plant-based extracts and natural oils and banning over 1,300 toxins, selling color cosmetics, skincare and gift sets through its own website.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://onemorecupof-coffee.com/best-cruelty-free-makeup-affiliate-programs/",
+    "summary": "OneMoreCupOfCoffee's cruelty-free program roundup reports The Beauty Crop partnered with Refersion to run its affiliate program: affiliates start at a 10% commission and can climb to 20% per sale, choose their own discount code, give followers 15% off, and access affiliate-only offers, with a 30-day cookie."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkwhisper.com/beauty-affiliate-programs/",
+    "summary": "LinkWhisper's beauty affiliate roundup independently reports the same structure for The Beauty Crop: a 10% base commission rising to up to 20% based on performance, a 30-day cookie and a 15% follower discount."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": 10,
+   "application_url": null,
+   "source_url": "https://onemorecupof-coffee.com/best-cruelty-free-makeup-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 13,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Clean, cruelty-free color cosmetics and skincare — a clear fit for ingredient-conscious beauty creators.",
+    "ugc_evidence": "A Refersion affiliate program with creator discount codes and affiliate-only promotions, though community evidence is thinner than larger brands.",
+    "compensation": "Two independent roundups report a 10% base commission rising to 20% on Refersion; no cap statement found, so the cap stays unknown.",
+    "contact_access": "Applications run through Refersion; no public partnerships email was found on the pages checked.",
+    "opportunity_availability": "The Refersion program is open to affiliate applicants with a published base rate.",
+    "credibility": "Operating PETA-certified DTC brand; smaller and less widely distributed than national retail brands."
+   }
+  }
+ },
+ {
+  "name": "Madeca Derma",
+  "website": "https://shop.tiktok.com/us/store/centellian24/7496101868706368413",
+  "country": "South Korea",
+  "category_slug": "skincare",
+  "description": "The Madeca skincare line of Centellian24, the derma-cosmetic brand of South Korea's Dongkook Pharmaceutical, built on TECA (Centella Asiatica extract): Madeca Cream, PDRN ampoules, masks and eye care, sold in the US mainly through its official TikTok Shop store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://shop.tiktok.com/us/store/centellian24/7496101868706368413",
+    "summary": "Centellian24's official TikTok Shop US store sells the full Madeca Derma range (Madeca Cream Time Reverse, Expert Madeca Cream Active Renew PDRN, Madeca Derma masks) with tens of thousands of units sold; product pages across the store carry 'Creator earns commission' affiliate videos, confirming an active TikTok Shop affiliate route. TikTok Shop rates are set per product in-platform and are not published on the store pages, so the rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/p/Dbfyi9vks8x/",
+    "summary": "Centellian24's global Instagram ran open recruitment for its 3rd Global Ambassador Program: anyone with an active TikTok or Instagram account could apply, selected ambassadors create 8 videos over 4 months, and rewards scale with views up to $300 cash plus five $1,000 MVP awards and future paid partnerships."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://shop.tiktok.com/us/pdp/madeca-cream-time-reverse-50ml-by-centellian-24-anti-aging-hydration/1730778421952156573",
+    "summary": "TikTok Shop product copy describes Centellian24 as Dongkook Pharmaceutical's derma-cosmetic brand harnessing over 50 years of Centella Asiatica expertise, with Madeca Cream reported at over 80 million units sold in Korea."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://shop.tiktok.com/us/store/centellian24/7496101868706368413",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": null,
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 7,
+   "contact_access": 5,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pharmaceutical-grade K-beauty (TECA/cica, PDRN) is one of the strongest skincare content categories on TikTok.",
+    "ugc_evidence": "Commission-earning creator videos run across the brand's TikTok Shop product pages, and the brand openly recruits global ambassadors with view-based cash rewards.",
+    "compensation": "TikTok Shop affiliate commissions exist but are set per product inside the platform and not published, so compensation scores conservatively and the rate is null.",
+    "contact_access": "No public creator email was found; routes are the TikTok Shop affiliate system and ambassador applications via the brand's Instagram bio link.",
+    "opportunity_availability": "Any TikTok Shop affiliate can promote the store's products, and ambassador applications are open worldwide per the brand's recruitment post.",
+    "credibility": "The brand is Dongkook Pharmaceutical's derma-cosmetic line with 50+ years of heritage and a reported 80M+ Madeca Cream units sold in Korea."
+   }
+  }
+ }
+]

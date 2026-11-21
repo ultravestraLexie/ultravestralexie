@@ -1,0 +1,585 @@
+[
+  {
+    "name": "ARZOPA",
+    "website": "https://www.arzopa.com",
+    "country": null,
+    "category_slug": "technology",
+    "description": "Global smart display brand selling portable monitors, digital photo frames and smart family calendars in more than 100 countries, built on display technology dating back to 2008. Its affiliate program recruits creators and publishers through Impact and Awin with published monthly commission tiers.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliatepartners@arzopa.com",
+        "source_url": "https://ui.awin.com/merchant-profile/72861"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.arzopa.com/pages/affiliate-program",
+        "summary": "ARZOPA's own Affiliate Program page (fetched) invites creators and publishers to apply through Impact or Awin under the headline 'Earn Up to 10% Commission', with an FAQ explaining that commission rates vary by campaign, product, region and network. No earnings-cap statement appears on the page, so commission_cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "compensation",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/72861",
+        "summary": "ARZOPA's Awin merchant profile (fetched in full) publishes a monthly tiered structure from October 1, 2026: Tier 1 (monthly sales below $3,000) pays 8%, Tier 2 ($3,000-$4,999) pays 10%, Tier 3 ($5,000+) pays 12%, with a 30-day cookie and the affiliate contact affiliatepartners@arzopa.com. The 8% base tier is recorded as the rate."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/72861",
+        "summary": "The same Awin profile describes ARZOPA as a global smart display brand with roots in display technology dating back to 2008, selling portable monitors, digital photo frames and smart family calendars in more than 100 countries and regions."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 8,
+      "application_url": "https://www.arzopa.com/pages/affiliate-program",
+      "source_url": "https://ui.awin.com/merchant-profile/72861",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "ARZOPA Affiliate Program (Impact or Awin)",
+      "application_url": "https://www.arzopa.com/pages/affiliate-program",
+      "source_url": "https://www.arzopa.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 26,
+      "ugc_evidence": 16,
+      "compensation": 12,
+      "contact_access": 13,
+      "opportunity_availability": 9,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Portable monitors and desk-setup displays are a core technology-creator niche on TikTok and YouTube.",
+        "ugc_evidence": "The brand's own program page and network profile explicitly recruit content creators, reviewers and publishers.",
+        "compensation": "Published tiered rates: 8% base rising to 10% and 12% with monthly sales volume.",
+        "contact_access": "Published affiliate contact email plus a public application page.",
+        "opportunity_availability": "Open application through two major networks, Impact and Awin.",
+        "credibility": "Display brand operating since 2008, sold in more than 100 countries through major marketplaces."
+      }
+    }
+  },
+  {
+    "name": "Newegg",
+    "website": "https://www.newegg.com",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Major US online retailer for PC components, consumer electronics and gaming gear, long popular with PC-build creators. Its affiliate program now runs on Rakuten Marketing, and a separate Newegg Creator Program pays video creators commission on tracked sales.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliatealerts@newegg.com",
+        "source_url": "https://geniuslink.com/blog/newegg-affiliate-program-review/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://geniuslink.com/blog/newegg-affiliate-program-review/",
+        "summary": "Geniuslink's fetched program review states the Newegg affiliate program was managed by CJ Affiliate from 2015 and has recently transferred to Rakuten Marketing, with a 7-day attribution window, category-based rates (around 1%, or 0.5% for returning customers, on components and hardware; better rates offered to editorial and content creators), no commission on TVs, mobile phones, game consoles or gift cards, and affiliate questions directed to affiliatealerts@newegg.com."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://reverbico.com/blog/newegg-affiliate-program/",
+        "summary": "Reverbico's fetched listing describes an active program across newegg.com and its sister sites (NeweggBusiness, Newegg Canada, ABS, Rosewill) with rates varying by product category (roughly 1-2% on many component categories) and a separate Newegg Creator Program for video creators offering sales commission, a 7-day cookie, custom links and access to its California studio. Published rates conflict between sources and vary by category, so commission_rate is null."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://geniuslink.com/blog/newegg-affiliate-program-review/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 15,
+      "compensation": 5,
+      "contact_access": 8,
+      "opportunity_availability": 8,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "One of the definitive retailers for PC-build, gaming and tech-review creator content.",
+        "ugc_evidence": "A dedicated Newegg Creator Program for video creators exists alongside the classic affiliate program.",
+        "compensation": "Rates are low (around 0.5-2% by category) and not published on an official program page, so scored low.",
+        "contact_access": "Published affiliate contact email via a fetched program review; application runs through the network.",
+        "opportunity_availability": "Open network application plus a creator-specific program.",
+        "credibility": "One of the largest US technology retailers, operating for over two decades."
+      }
+    }
+  },
+  {
+    "name": "Fanttik",
+    "website": "https://fanttik.com",
+    "country": null,
+    "category_slug": "technology",
+    "description": "Consumer gadget and auto-accessory brand known for portable tire inflators, car vacuums, precision electric screwdrivers and jump starters, sold through its own store, Amazon and TikTok Shop and promoted heavily by gadget creators.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "publish@fanttik.com",
+        "source_url": "https://wootfi.com/fanttik-affiliate-program/"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://www.shopper.com/discount-codes/fanttik-com",
+        "summary": "Shopper.com's Fanttik page (fetched) carries a 'Fanttik Affiliate Program: Earn Up to 20% Commission' listing, describing earnings of up to 20% commission with performance incentives and special promotion incentives. 'Up to 20%' is a rate ceiling, not an earnings-cap statement, so commission_cap is unknown."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://wootfi.com/fanttik-affiliate-program/",
+        "summary": "An older third-party listing reports the program tracked through GoAffPro and ShareASale at a 5% referral commission with a 45-day cookie, PayPal payouts and the contact publish@fanttik.com. This conflicts with Shopper.com's up-to-20% headline, so commission_rate is null and the listing is flagged needs_review."
+      }
+    ],
+    "affiliate": {
+      "network": "Shopper.com",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://www.shopper.com/discount-codes/fanttik-com",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 14,
+      "compensation": 8,
+      "contact_access": 7,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Tire inflators, car vacuums and mini tools are proven short-form gadget content.",
+        "ugc_evidence": "The brand sells heavily through TikTok Shop and Amazon creator videos, and a formal affiliate program is listed by multiple sources.",
+        "compensation": "A program with an up-to-20% headline exists, but the verified base rate is unclear (5% vs up to 20% conflict).",
+        "contact_access": "Affiliate contact email available from a third-party listing only.",
+        "opportunity_availability": "Joinable through listed affiliate platforms; no brand-hosted application page was found.",
+        "credibility": "Established direct-to-consumer gadget brand with broad marketplace presence."
+      }
+    }
+  },
+  {
+    "name": "VEVOR",
+    "website": "https://www.vevor.com",
+    "country": null,
+    "category_slug": "home",
+    "description": "Large cross-border equipment brand selling tools, kitchenware, machinery, home and garden gear and pet products at budget prices, with a US affiliate program on Awin paying tiered commissions by traffic source.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "collaboration@vevor.com",
+        "source_url": "https://ui.awin.com/merchant-profile/28831"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/28831",
+        "summary": "VEVOR's Awin merchant profile (fetched in full) states 'Baseline Commission: 2% - 10% per sale (tiered based on different traffic sources)', a 30-day cookie, an average order value of $200, bonuses and custom coupons for top partners, and the contact collaboration@vevor.com. The 2% baseline floor is recorded as the rate. No earnings-cap statement appears, so commission_cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/28831",
+        "summary": "The same profile describes VEVOR as a cross-border export e-commerce brand of more than 10 years, selling across categories including Home & Garden, Kitchen & Dining, Tools and Pet Supplies."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/vevor/",
+        "summary": "Third-party listings report different VEVOR rates on other networks (for example around 5% via ShareASale in LinkClicky data, 2% in Lasso's listing), which is consistent with the Awin profile's note that rates are tiered by traffic source; the Awin baseline is the recorded figure."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 2,
+      "application_url": null,
+      "source_url": "https://ui.awin.com/merchant-profile/28831",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 12,
+      "compensation": 8,
+      "contact_access": 12,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Huge catalog spanning home, garden, kitchen, tools and pet gives many creator angles.",
+        "ugc_evidence": "Program markets to content publishers and DIY/review creators; product-review content is widespread.",
+        "compensation": "Published range is 2-10%; the 2% floor is low, though the $200 average order value offsets it partly.",
+        "contact_access": "Published collaboration email on the official network profile.",
+        "opportunity_availability": "Open application through Awin.",
+        "credibility": "Decade-old, very large cross-border seller with a US storefront."
+      }
+    }
+  },
+  {
+    "name": "Costway",
+    "website": "https://www.costway.com",
+    "country": null,
+    "category_slug": "home",
+    "description": "Online furniture and home-goods retailer selling furniture, home and garden products, appliances and pet supplies to US shoppers, running affiliate programs through Rakuten in the US and ShareASale in Canada with published commission floors.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.costway.com/affiliate-program",
+        "summary": "Costway's own Affiliate Program page (fetched, FAQ) states the program is free to join through its affiliate network, pays commissions monthly, provides banners and text links, and sets each affiliate's commission rate based on the prior quarter's sales. No earnings-cap statement appears, so commission_cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.costway.com/m-affiliate-program",
+        "summary": "Costway's official affiliate landing page states the US program runs through Rakuten with 'at least 4% commission of the order value', benefits listed as 'Earn up to 6% commission per sale', a 15-day cookie and monthly payment; the Canadian program runs through ShareASale at at least 6.5% and up to 10%. The US 4% floor is recorded as the rate."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": 4,
+      "application_url": "https://www.costway.com/affiliate-program",
+      "source_url": "https://www.costway.com/m-affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Costway Affiliate Program (Rakuten US / ShareASale CA)",
+      "application_url": "https://www.costway.com/affiliate-program",
+      "source_url": "https://www.costway.com/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 11,
+      "compensation": 9,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Furniture and home goods are a core home-creator niche, with pet supplies as a secondary angle.",
+        "ugc_evidence": "Program is aimed mainly at website publishers; video-creator recruitment is not emphasized.",
+        "compensation": "Published 4% US floor, up to 6%, on a large furniture catalog with high order values.",
+        "contact_access": "Public program pages and a clear network application route; no direct email found.",
+        "opportunity_availability": "Open application for US-audience affiliates through Rakuten.",
+        "credibility": "Large, established US online home retailer."
+      }
+    }
+  },
+  {
+    "name": "Scrub Daddy",
+    "website": "https://scrubdaddy.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Cleaning brand behind the smiley-faced FlexTexture sponge, made famous on Shark Tank and now one of TikTok Shop's biggest affiliate-driven home brands, with an Awin programme whose stated objective is working with video content creators.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/31247",
+        "summary": "Scrub Daddy's Awin merchant profile (fetched) states the programme's objective is to work with content creators across all social media platforms, with video content in demand and TikTok named as a market leader for the brand, which cites a creator list with a combined reach of over 20 million. The fetched profile publishes no commission rate, so commission_rate is null. No earnings-cap statement appears, so commission_cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://influencers-time.com/advertiser/scrub-daddy-tiktok-shop-affiliate-program/",
+        "summary": "Influencers Time's fetched advertiser profile documents that Scrub Daddy runs an OPEN TikTok Shop affiliate program that any creator can join to promote products and earn commission, with the brand's low-friction approach generating a very high volume of affiliate videos. An open program at this documented scale is why creator_saturation is recorded as high."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://getlasso.co/affiliate/scrub-daddy/",
+        "summary": "Lasso's listing cites up to 5.25% for the Scrub Daddy program; that is a ceiling figure from a third-party listing with no published base rate, so it is not recorded as the rate."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://ui.awin.com/merchant-profile/31247",
+      "commission_cap": "unknown",
+      "creator_saturation": "high"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 27,
+      "ugc_evidence": 19,
+      "compensation": 7,
+      "contact_access": 6,
+      "opportunity_availability": 9,
+      "credibility": 5,
+      "reasons": {
+        "niche_fit": "Cleaning and home-demo content is one of TikTok's strongest niches, and this is its flagship product.",
+        "ugc_evidence": "Creator-first brand: Awin programme built around video creators, plus a documented open TikTok Shop affiliate program.",
+        "compensation": "Rate is not published on the network profile; only a third-party ceiling (up to 5.25%) exists.",
+        "contact_access": "Network application only; no public partnerships email found.",
+        "opportunity_availability": "Open TikTok Shop program any eligible creator can join, plus Awin.",
+        "credibility": "Shark Tank brand in national retail; cited as the No. 3 sponge brand in the UK on its network profile."
+      }
+    }
+  },
+  {
+    "name": "Frost Buddy",
+    "website": "https://www.frostbuddy.com",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Insulated drinkware brand whose universal can coolers fit cans, bottles and cups, built almost entirely on TikTok Shop and Meta affiliate video, with a tiered FrostBuddy Affiliates creator program personally run by its founder.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://www.facebook.com/reel/2645704842592427/",
+        "summary": "In a fetched founder video post (August 2026), Frost Buddy founder Brock Mammoser announces the just-launched 'FrostBuddy Affiliates Level 1' program for TikTok Shop affiliates, with sign-up at the brand's affiliate site (affiliates.frostbuddy.com/group), weekly coaching calls, doubled commissions, and the option to submit videos for the brand to run as Meta ads. No fixed public commission percentage is published, so commission_rate is null and commission_cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://www.instagram.com/reel/DcRIp7fgF8P/",
+        "summary": "A fetched founder Instagram post shows the brand's creator page ('Get paid to post Frost Buddy videos') with a 'Join the Creator Program' form and VIP and Elite affiliate tiers, and states affiliates had generated over a million dollars in sales in a single month excluding TikTok Shop (founder-reported, unverified)."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://www.instagram.com/reel/DcL3ch4TXJ7/",
+        "summary": "In another fetched founder post, the brand reports its top affiliate earned $43,000 in the prior two months, the #10 affiliate earned $13,000, and total affiliate-team GMV passed $231,000 (founder-reported figures, not independently verified)."
+      }
+    ],
+    "affiliate": {
+      "network": "TikTok Shop",
+      "commission_rate": null,
+      "application_url": "https://affiliates.frostbuddy.com/group",
+      "source_url": "https://www.facebook.com/reel/2645704842592427/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "FrostBuddy Affiliates Level 1 (TikTok Shop)",
+      "application_url": "https://affiliates.frostbuddy.com/group",
+      "source_url": "https://www.facebook.com/reel/2645704842592427/"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 18,
+      "compensation": 10,
+      "contact_access": 8,
+      "opportunity_availability": 9,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Drinkware and gifting content fits home and lifestyle creators well.",
+        "ugc_evidence": "The business is built on affiliate video: a structured, tiered creator program with weekly coaching calls.",
+        "compensation": "No published rate, but founder-reported five-figure affiliate earnings and doubled-commission promotions.",
+        "contact_access": "Public creator-program sign-up page; no email found.",
+        "opportunity_availability": "Level 1 is open to any TikTok Shop affiliate, per the founder's announcement.",
+        "credibility": "Young direct-to-consumer brand; earnings figures are founder-reported and unverified."
+      }
+    }
+  },
+  {
+    "name": "Freezbone",
+    "website": "https://www.freezbone.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Dog enrichment brand selling fillable, freezable chew toys and natural treats, running a formal own-brand affiliate program with a published affiliate agreement, monthly payouts and content-licensing terms for pet creators.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://www.freezbone.com/pages/affiliate-agreement",
+        "summary": "Freezbone's own Affiliate Agreement (fetched in full) establishes a real own-brand program: affiliates earn commissions through affiliate links, coupon codes and dedicated landing pages, grant the brand a license to reuse their content (including whitelisting), and are paid between the 1st and 10th of each month. The agreement publishes no commission rate (rates are set and may be modified at the company's discretion), so commission_rate is null. No earnings-cap statement appears, so commission_cap is unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://www.freezbone.com/pages/affiliate-agreement",
+        "summary": "The same agreement (Freezbone Inc., governed by Florida law) details commission clawbacks for returns and chargebacks and a minimum-payout mechanism, confirming an operating, terms-backed program rather than a gifting scheme."
+      }
+    ],
+    "affiliate": {
+      "network": "Brand direct",
+      "commission_rate": null,
+      "application_url": "https://www.freezbone.com/pages/affiliate-agreement",
+      "source_url": "https://www.freezbone.com/pages/affiliate-agreement",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Freezbone Affiliate Program",
+      "application_url": "https://www.freezbone.com/pages/affiliate-agreement",
+      "source_url": "https://www.freezbone.com/pages/affiliate-agreement"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 15,
+      "compensation": 6,
+      "contact_access": 6,
+      "opportunity_availability": 7,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Dog enrichment toys and treats are a strong, demonstrable pet-content niche.",
+        "ugc_evidence": "The program is built around creator content, with licensing and whitelisting terms written for UGC.",
+        "compensation": "No rate is published anywhere in the agreement, so compensation cannot be scored higher.",
+        "contact_access": "Program terms live on the brand's own site; no public contact email found.",
+        "opportunity_availability": "Participation begins with an affiliate account under the published agreement.",
+        "credibility": "Small, young brand, but it publishes a formal legal affiliate agreement."
+      }
+    }
+  },
+  {
+    "name": "Potaroma",
+    "website": "https://potaroma.com",
+    "country": "United States",
+    "category_slug": "pets",
+    "description": "Cat-toy brand behind the viral flopping fish and a wide range of interactive, catnip and motion-activated toys, sold through its own store, Amazon, Chewy and a high-volume TikTok Shop storefront (POTAROMA LLC, Aurora, Colorado) with creator commission selling.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://potaroma.com/",
+        "summary": "Potaroma's own site (fetched) presents the brand as a specialist in cat toys integrating research, design and production, holding a leading position in the US online cat toy market, with interactive electric toys, catnip pillow toys and dog toys."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "listing",
+        "source_url": "https://shop.tiktok.com/us/pdp/interactive-cat-kicker-toy-with-motion-sensor-usb-chargeable/1731978601542357035?source=product_detail&enter_method=url_semantic_301",
+        "summary": "Potaroma sells on TikTok Shop through its own storefront (seller POTAROMA LLC, Aurora, Colorado; the shop shows roughly 225.7K items sold and a 4.4 rating), and its product pages carry TikTok Shop's creator-commission selling ('Creator earns commission'). TikTok Shop rates are set per product and are not published as a single program rate, so commission_rate is null and commission_cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://shop.tiktok.com/us/pdp/interactive-cat-kicker-toy-with-motion-sensor-usb-chargeable/1731978601542357035?source=product_detail&enter_method=url_semantic_301",
+        "summary": "A Potaroma Pets TikTok Shop collaboration invitation seen in creator outreach offered 15% commission plus a free sample on one product, confirming active target collaborations; because TikTok Shop rates are set per product and per collaboration, no single rate is recorded."
+      }
+    ],
+    "affiliate": {
+      "network": "TikTok Shop",
+      "commission_rate": null,
+      "application_url": null,
+      "source_url": "https://shop.tiktok.com/us/pdp/interactive-cat-kicker-toy-with-motion-sensor-usb-chargeable/1731978601542357035?source=product_detail&enter_method=url_semantic_301",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": null,
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 14,
+      "compensation": 7,
+      "contact_access": 5,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Interactive cat toys are among the most demonstrable, viral-friendly pet products.",
+        "ugc_evidence": "Active TikTok Shop creator selling at scale plus direct collaboration invitations to creators.",
+        "compensation": "A 15% targeted-collaboration offer was seen once, but rates are per product and unpublished as a program rate.",
+        "contact_access": "No public partnerships contact found; outreach happens inside TikTok Shop.",
+        "opportunity_availability": "Eligible creators can promote through the TikTok Shop affiliate marketplace.",
+        "credibility": "Established Amazon and Chewy seller with roughly 225.7K units sold on TikTok Shop."
+      }
+    }
+  },
+  {
+    "name": "PetPivot",
+    "website": "https://petpivot.com",
+    "country": null,
+    "category_slug": "pets",
+    "description": "Cat-tech brand selling AutoScooper self-cleaning litter boxes and litter refills, with an affiliate program creators can join through Impact, Awin or the brand's own UpPromote portal, plus seasonal creator campaigns with cash bonuses.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "official_site",
+        "source_url": "https://petpivot.com/pages/affiliate-program",
+        "summary": "PetPivot's own Affiliate Program page (fetched in full) invites creators, bloggers, reviewers, publishers and pet communities to apply through Impact, Awin or its UpPromote portal (aff.petpivot.com), and states that commission rates, attribution windows and payment terms are listed in each platform's program agreement - they are not published on the page, so commission_rate is null. No earnings-cap statement appears, so commission_cap is unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "ugc_collab",
+        "source_type": "listing",
+        "source_url": "https://petpivot.com/pages/affiliate-program",
+        "summary": "PetPivot has run structured creator campaigns (for example a Back-to-School video campaign offering creators cash bonuses up to $350 plus a commission boost by GMV tier), showing an actively managed creator program beyond passive affiliate links."
+      }
+    ],
+    "affiliate": {
+      "network": "UpPromote",
+      "commission_rate": null,
+      "application_url": "https://petpivot.com/pages/affiliate-program",
+      "source_url": "https://petpivot.com/pages/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "PetPivot Affiliate Program (Impact / Awin / UpPromote)",
+      "application_url": "https://petpivot.com/pages/affiliate-program",
+      "source_url": "https://petpivot.com/pages/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 25,
+      "ugc_evidence": 16,
+      "compensation": 8,
+      "contact_access": 9,
+      "opportunity_availability": 8,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Self-cleaning litter boxes are highly demonstrable pet-tech with strong review content demand.",
+        "ugc_evidence": "Program is aimed squarely at cat creators and backed by structured bonus campaigns.",
+        "compensation": "Rates live inside network agreements and are not public; campaign boosts are documented.",
+        "contact_access": "Own affiliate page with three clear join routes.",
+        "opportunity_availability": "Open application (subject to review) on three platforms.",
+        "credibility": "Young, focused cat-tech brand; limited track record so far."
+      }
+    }
+  }
+]

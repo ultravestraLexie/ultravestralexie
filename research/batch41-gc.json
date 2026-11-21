@@ -1,0 +1,597 @@
+[
+ {
+  "name": "Jocko Fuel",
+  "website": "https://jockofuel.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US sports nutrition and functional beverage brand co-founded by retired Navy SEAL Jocko Willink, selling protein (Mölk), energy drinks, greens, hydration and supplements with transparent, filler-free labeling, DTC and in 75,000+ retail doors.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.fmtc.co/fmtc-featured-merchant-jocko-fuel/",
+    "email": null,
+    "source_url": "https://www.fmtc.co/fmtc-featured-merchant-jocko-fuel/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.fmtc.co/fmtc-featured-merchant-jocko-fuel/",
+    "summary": "FMTC's featured-merchant profile states the Jocko Fuel Affiliate Program is powered by Commission Junction (CJ Affiliate): affiliates earn 15% commission for new customers and 10% for returning customers, with 30-day cookies and regular promotions. No earnings cap is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://jockofuel.com/",
+    "summary": "Jocko Fuel's own storefront confirms the product range (energy drinks, protein powder, greens, hydration, protein shakes) and national retail distribution in 75,000+ stores, with a 4.7 average across 30,000+ reviews."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 15,
+   "application_url": "https://www.fmtc.co/fmtc-featured-merchant-jocko-fuel/",
+   "source_url": "https://www.fmtc.co/fmtc-featured-merchant-jocko-fuel/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Jocko Fuel Affiliate Program (CJ Affiliate)",
+   "application_url": "https://www.fmtc.co/fmtc-featured-merchant-jocko-fuel/",
+   "source_url": "https://www.fmtc.co/fmtc-featured-merchant-jocko-fuel/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 17,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Performance nutrition and clean-label supplements are a core wellness-creator niche, with strong military/fitness audience overlap.",
+    "ugc_evidence": "An established CJ network program with published rates, promoted to content publishers; the brand is heavily creator- and podcast-driven.",
+    "compensation": "15% on new customers and 10% on returning customers via CJ, published by FMTC's merchant profile.",
+    "contact_access": "No public program email found; application runs through CJ/FMTC, so access is network-mediated.",
+    "opportunity_availability": "Open network program on CJ with 30-day cookies and regular promotions.",
+    "credibility": "Major national brand in 75,000+ retail doors, founded by a well-known public figure, formal network tracking and payment."
+   }
+  }
+ },
+ {
+  "name": "Bucked Up",
+  "website": "https://www.buckedup.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Utah-based sports nutrition brand (DAS Labs LLC) known for Bucked Up pre-workout, protein, creatine and energy drinks, sold DTC and through major supplement retailers, with a large ambassador community.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.buckedup.com/information/brand-ambassador-agreement",
+    "email": null,
+    "source_url": "https://www.buckedup.com/information/brand-ambassador-agreement"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://www.buckedup.com/information/brand-ambassador-agreement",
+    "summary": "Bucked Up's own Brand Ambassador Agreement (2025 Edition) sets the commission structure: 1 Star Ambassadors earn 10%, 2 Star 15%, 3-5 Star 20% on completed orders via promo codes/links (no commission on energy drinks, protein soda or the one-time 50% code). Earnings over $25/month are paid via PayPal; under $25 paid as store credit. No earnings cap is stated, so the cap is recorded as unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "ugc_collab",
+    "source_type": "brand_site",
+    "source_url": "https://www.buckedup.com/information/brand-ambassador-agreement",
+    "summary": "The agreement is a structured creator program: application reviewed in 3-5 business days, FTC disclosure rules, and a content-usage license for tagged ambassador content (UGC) across the brand's platforms. Note: the agreement includes an exclusivity clause barring ambassadors from promoting competing supplement brands."
+   }
+  ],
+  "affiliate": {
+   "network": "Bucked Up Brand Ambassador Program",
+   "commission_rate": 10,
+   "application_url": "https://www.buckedup.com/information/brand-ambassador-agreement",
+   "source_url": "https://www.buckedup.com/information/brand-ambassador-agreement",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bucked Up Brand Ambassador Program",
+   "application_url": "https://www.buckedup.com/information/brand-ambassador-agreement",
+   "source_url": "https://www.buckedup.com/information/brand-ambassador-agreement"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 15,
+   "contact_access": 9,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pre-workout and sports nutrition are core fitness-creator territory and the brand is built around ambassador content.",
+    "ugc_evidence": "A formal ambassador agreement with tracked codes/links and a UGC licensing clause for tagged content.",
+    "compensation": "10% base (1 Star) rising to 20% at 3-5 Star, published in the brand's own agreement; PayPal payment above $25/month.",
+    "contact_access": "Full published agreement and application route on the brand's own site; no public program email found.",
+    "opportunity_availability": "Open application with 3-5 day review, but the exclusivity clause (no competing supplement promotion) limits creator flexibility.",
+    "credibility": "Established national supplement brand (DAS Labs) with a formal, detailed legal agreement."
+   }
+  }
+ },
+ {
+  "name": "Free Soul",
+  "website": "https://herfreesoul.com",
+  "country": "United Kingdom",
+  "category_slug": "wellness",
+  "description": "UK women's wellness brand making nutritionist-formulated supplements, vegan protein blends, greens, electrolytes and collagen/creatine products designed specifically for women's health needs.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "nicole@herfreesoul.com",
+    "source_url": "https://af.uppromote.com/free-soul/register?p=43755"
+   },
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://af.uppromote.com/free-soul/register?p=43755",
+    "email": null,
+    "source_url": "https://af.uppromote.com/free-soul/register?p=43755"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://af.uppromote.com/free-soul/register?p=43755",
+    "summary": "Free Soul's own affiliate registration page (UpPromote) publishes the commission structure: 1-4 referrals paid at 8%, 4-9 referrals at 10%, 10+ referrals at 12%, calculated on order value excluding tax/shipping. No earnings cap is stated, so the cap is recorded as unknown. The brand also runs an Awin programme (8% for content publishers)."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "brand_site",
+    "source_url": "https://af.uppromote.com/free-soul/register?p=43755",
+    "summary": "The registration terms publish the program contact email nicole@herfreesoul.com for affiliate support and removal requests."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 8,
+   "application_url": "https://af.uppromote.com/free-soul/register?p=43755",
+   "source_url": "https://af.uppromote.com/free-soul/register?p=43755",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Free Soul Affiliate Program (UpPromote)",
+   "application_url": "https://af.uppromote.com/free-soul/register?p=43755",
+   "source_url": "https://af.uppromote.com/free-soul/register?p=43755"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 13,
+   "contact_access": 14,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Women's wellness is a high-demand creator niche and every product is formulated and marketed for women.",
+    "ugc_evidence": "A formal affiliate program with published tiered terms on the brand's own registration page, plus a parallel Awin programme.",
+    "compensation": "8% base commission rising to 12% at 10+ referrals, published in the brand's own program terms.",
+    "contact_access": "Published program email (nicole@herfreesoul.com) plus a self-serve registration page - top band.",
+    "opportunity_availability": "Open registration (brand may approve or reject at its discretion).",
+    "credibility": "Established UK DTC wellness brand with nutritionist-formulated products and formal program terms."
+   }
+  }
+ },
+ {
+  "name": "Pop Daddy Snacks",
+  "website": "https://popdaddysnacks.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Michigan-based snack brand (founded 2013, Howell, MI) selling bold-flavored pretzels, drizzled popcorn, kettle chips and cheese puffs DTC and through Walmart, Target, Kroger and other national retail; famous for its TikTok Shop affiliate flywheel.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.systemaic.com/teardowns/pop-daddy-snacks",
+    "summary": "Systemaic's teardown documents Pop Daddy's growth model as creator-led and built around a TikTok Shop affiliate flywheel: co-owner JT Sarafa quantified affiliates generating 1,000+ posts, 7M views and more than 50% of total sales in a 30-day window, with self-reported ~$6M/yr TikTok Shop GMV."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks",
+    "summary": "A TikTok Shop product marketplace listing shows Pop Daddy's 14-flavor pretzel variety pack carrying a 15% public affiliate rate with 77,207 reported sales. TikTok Shop rates are set per product, so the program-level commission_rate is recorded as null with this listing rate documented here."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks",
+   "source_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Pop Daddy Snacks TikTok Shop Affiliate Program",
+   "application_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks",
+   "source_url": "https://www.systemaic.com/teardowns/pop-daddy-snacks"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 18,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Snack taste-test and ranking content is a proven food-creator format and this brand was built on it.",
+    "ugc_evidence": "Affiliates drive over half of sales with 1,000+ creator posts in 30 days - an exceptionally strong, documented UGC engine.",
+    "compensation": "Rates are per-product on TikTok Shop; the hero variety-pack listing publicly shows 15%, but no single program rate is published.",
+    "contact_access": "No public creator-program email found; entry is through TikTok Shop's affiliate marketplace.",
+    "opportunity_availability": "Open TikTok Shop affiliate listings with very high reported unit sales.",
+    "credibility": "Bootstrapped brand founded 2013 with national retail distribution and a publicly documented growth record."
+   }
+  }
+ },
+ {
+  "name": "Drizzilicious",
+  "website": "https://drizzilicious.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US snack brand selling drizzled mini rice cakes and drizzled popcorn (90 calories per serving, certified gluten-free, vegan, allergen-free) DTC and at Costco, Publix and other retailers; scaled to $5M+ TikTok Shop GMV through a mass micro-creator affiliate network.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "support@drizzilicious.com",
+    "source_url": "https://drizzilicious.com/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks",
+    "summary": "A TikTok Shop product marketplace lists Drizzilicious products with public affiliate rates of 10% (12-pack mini rice cakes variety pack, 114,472 reported sales) and 7.5% (6-pack 4oz variety, 80,553 reported sales). Rates are per-product on TikTok Shop, so the program-level rate is recorded as null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DfaerxRNXGw/",
+    "summary": "Multiple creator-economy case studies report Drizzilicious recruited roughly 80,000 creators into its TikTok Shop affiliate network, generating $5M+ GMV and 60M+ views in six months - an absolute creator count in the tens of thousands, so creator saturation is recorded as high."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks",
+   "source_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Drizzilicious TikTok Shop Affiliate Program",
+   "application_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks",
+   "source_url": "https://app.createfunmcn.com/products?department=food-beverages&category=Crisps+%26+Puffed+Snacks"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 10,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Snack haul, taste-test and flavor-ranking content is a core food-creator format and the brand's entire model.",
+    "ugc_evidence": "A documented mass micro-creator affiliate network on TikTok Shop with $5M+ GMV attributed to creator content.",
+    "compensation": "Per-product TikTok Shop rates publicly listed at 7.5-10% on hero SKUs; no single program rate published.",
+    "contact_access": "Published support email (support@drizzilicious.com) on the brand's own site; affiliate entry via TikTok Shop.",
+    "opportunity_availability": "Open TikTok Shop affiliate listings with six-figure reported unit sales.",
+    "credibility": "Certified gluten-free/vegan brand with Costco and Publix distribution and a documented sales record."
+   }
+  }
+ },
+ {
+  "name": "Ekkovision",
+  "website": "https://ekkovision.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US sports nutrition brand selling third-party-tested protein, creatine and pre-workout, famous on TikTok Shop (3.2M+ units sold across its shop) with a two-track affiliate system feeding an athlete roster.",
+  "contacts": [
+   {
+    "contact_type": "general",
+    "contact_url": null,
+    "email": "Support@ekkovsn.com",
+    "source_url": "https://ekkovision.com/pages/faq"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://ekkovision.com/pages/faq",
+    "summary": "Ekkovision's own FAQ (Partnerships section) confirms two affiliate systems - a Website Affiliate Program and a TikTok Shop Affiliate Program. Anyone can apply; approved affiliates earn commission via a personal discount code, and top performers (~$7,500+/month in sales) are promoted to Athlete status. No commission rate or earnings cap is published on the page, so both are recorded as unknown/null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://shop.tiktok.com/us/pdp/protein-powder-by-ekkovision-third-party-tested-for-purity-quality/1729411809249300533",
+    "summary": "Ekkovision's official TikTok Shop shows 3.2M units sold across products and 367K+ followers, with creator-commission videos attached to its listings - scale evidence for the TikTok Shop route, though no absolute creator count is published, so saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://ekkovision.com/pages/faq",
+   "source_url": "https://ekkovision.com/pages/faq",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Ekkovision Affiliate Program (Website + TikTok Shop)",
+   "application_url": "https://ekkovision.com/pages/faq",
+   "source_url": "https://ekkovision.com/pages/faq"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 10,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Third-party-tested protein and creatine are staple fitness-creator products and the brand is native to TikTok Shop.",
+    "ugc_evidence": "The brand's own FAQ documents an open affiliate program on two tracks plus a performance-based athlete tier.",
+    "compensation": "Commission exists on both tracks but no rate is published in the fetched sources, so the rate is honestly null.",
+    "contact_access": "Published support email (Support@ekkovsn.com) and a documented application route in the brand FAQ.",
+    "opportunity_availability": "Anyone can apply per the brand's FAQ; approval required before earning.",
+    "credibility": "Large, verifiable TikTok Shop sales volume (3.2M units) and third-party-tested product positioning."
+   }
+  }
+ },
+ {
+  "name": "Clean Nutra",
+  "website": "https://cleannutra.com",
+  "country": "United States",
+  "category_slug": "health",
+  "description": "US supplement brand (Clean Nutraceuticals) selling multi-ingredient formulas - sea moss, berberine, black seed oil, multimineral and blood-sugar support drops - made in the USA under GMP, and one of TikTok Shop's biggest supplement sellers (2.0M+ units sold).",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://shop.tiktok.com/us/pdp/glowbalance-duo-by-clean-nutra-blood-sugar-beauty-support/1730968779831874068?",
+    "summary": "Clean Nutra's official TikTok Shop shows 2.0M units sold and 129.7K+ followers, with 'Creator earns commission' affiliate videos attached to its product listings, confirming an active TikTok Shop affiliate program. TikTok Shop rates are per-product and not published in the fetched listing, so the rate is recorded as null."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://cleannutra.com",
+    "summary": "Clean Nutraceuticals' own storefront confirms the product line (MultiMineral, Gluco Gone/GlucoTone and liquid drops), US GMP manufacturing and independent lab testing claims."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DZ3NiGTSoi6/",
+    "summary": "The brand's own social content features TikTok affiliates describing ongoing Clean Nutra partnerships (samples, outreach, monthly commissions), corroborating a structured, actively managed affiliate program rather than a passive listing."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://shop.tiktok.com/us/pdp/glowbalance-duo-by-clean-nutra-blood-sugar-beauty-support/1730968779831874068?",
+   "source_url": "https://shop.tiktok.com/us/pdp/glowbalance-duo-by-clean-nutra-blood-sugar-beauty-support/1730968779831874068?",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Clean Nutra TikTok Shop Affiliate Program",
+   "application_url": "https://shop.tiktok.com/us/pdp/glowbalance-duo-by-clean-nutra-blood-sugar-beauty-support/1730968779831874068?",
+   "source_url": "https://shop.tiktok.com/us/pdp/glowbalance-duo-by-clean-nutra-blood-sugar-beauty-support/1730968779831874068?"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 18,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Multi-ingredient wellness formulas (sea moss, berberine) are among the most promoted supplement categories on TikTok.",
+    "ugc_evidence": "2.0M units sold on TikTok Shop with commission-earning creator videos and brand-produced affiliate success content.",
+    "compensation": "TikTok Shop per-product rates are not published in fetched sources, so the rate is honestly null.",
+    "contact_access": "No public program email found; entry is through TikTok Shop and brand outreach.",
+    "opportunity_availability": "Open TikTok Shop affiliate listings at very large sales volume.",
+    "credibility": "Very large verifiable sales volume, but a young DTC brand with aggressive affiliate marketing - mid credibility."
+   }
+  }
+ },
+ {
+  "name": "WeightWorld",
+  "website": "https://www.weightworld.com",
+  "country": "United Kingdom",
+  "category_slug": "wellness",
+  "description": "UK wellness retailer established in 2005 selling weight-management, collagen, superfood, vitamin and joint-health supplements and devices across the UK and Europe under its own brand.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliates@comfortclick.co.uk",
+    "source_url": "https://ui.awin.com/merchant-profile/22446?setLocale=it_IT"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/22446?setLocale=it_IT",
+    "summary": "WeightWorld's Awin programme profile states a flat 10% commission on each qualified sale (5% for voucher/cashback sites), a 30-day cookie, and a dedicated affiliate manager reachable at affiliates@comfortclick.co.uk. No earnings cap is stated, so the cap is recorded as unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 10,
+   "application_url": "https://ui.awin.com/merchant-profile/22446?setLocale=it_IT",
+   "source_url": "https://ui.awin.com/merchant-profile/22446?setLocale=it_IT",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "WeightWorld UK Affiliate Programme (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/22446?setLocale=it_IT",
+   "source_url": "https://ui.awin.com/merchant-profile/22446?setLocale=it_IT"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 11,
+   "compensation": 13,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Broad wellness catalogue (collagen, superfoods, vitamins) fits general wellness creators, though it is a retailer-style range.",
+    "ugc_evidence": "A formal Awin programme with banners, feeds and a named affiliate manager; less creator-native than TikTok-first brands.",
+    "compensation": "Flat 10% on qualified sales published in the Awin programme profile.",
+    "contact_access": "Published affiliate-manager email (affiliates@comfortclick.co.uk) plus the Awin profile - strong access.",
+    "opportunity_availability": "Open Awin programme across UK and European markets.",
+    "credibility": "Trading since 2005 with multi-country European operations and a formal network programme."
+   }
+  }
+ },
+ {
+  "name": "Gainful",
+  "website": "https://www.gainful.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US personalized performance-nutrition brand: quiz-based custom protein blends plus pre-workout, hydration, greens and collagen, built around unflavored protein with mix-in flavor packets; 300,000+ customers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://linkclicky.com/affiliate-program/gainful/",
+    "email": null,
+    "source_url": "https://linkclicky.com/affiliate-program/gainful/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/gainful/",
+    "summary": "LinkClicky documents Gainful's affiliate program on Rakuten Advertising at 6%-10% per sale. Other fetched listings conflict - Lasso lists $30 per sale and Shopper lists 5-10% - so commission_rate is recorded as null with the conflict documented here. A separate Trainerize x Gainful trainer channel pays 20% first order / 10% recurring but is restricted to fitness professionals. No earnings cap is stated anywhere, so the cap is unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "brand_site",
+    "source_url": "https://www.gainful.com",
+    "summary": "Gainful's own site confirms the personalized protein model, 7 goal-based blends and 300,000+ customers."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/gainful/",
+   "source_url": "https://linkclicky.com/affiliate-program/gainful/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Gainful Affiliate Program (Rakuten Advertising)",
+   "application_url": "https://linkclicky.com/affiliate-program/gainful/",
+   "source_url": "https://linkclicky.com/affiliate-program/gainful/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Personalized protein is a distinctive, content-friendly angle for fitness and wellness creators.",
+    "ugc_evidence": "A documented Rakuten network program plus a trainer partnership channel; moderate creator-native evidence.",
+    "compensation": "Published figures conflict (6-10% vs $30 flat vs 5-10%), so no single rate can be honestly recorded.",
+    "contact_access": "No public program email found; application via Rakuten Advertising.",
+    "opportunity_availability": "Open network program; the higher-paying trainer channel is professionals-only.",
+    "credibility": "Established DTC brand with 300,000+ customers and a formal network presence."
+   }
+  }
+ },
+ {
+  "name": "Wellue",
+  "website": "https://getwellue.com",
+  "country": "China",
+  "category_slug": "health",
+  "description": "Consumer health-device brand (by Viatom) selling home pulse oximeters, ECG monitors, blood-pressure monitors and sleep trackers direct to consumers through its own store.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://getwellue.com/pages/wellue-affiliate-page?contact_posted=true",
+    "email": null,
+    "source_url": "https://getwellue.com/pages/wellue-affiliate-page?contact_posted=true"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "brand_site",
+    "source_url": "https://getwellue.com/pages/wellue-affiliate-page?contact_posted=true",
+    "summary": "Wellue's own affiliate page (program run on GoAffPro) states affiliate members earn 2%-12% commission depending on product value and exposure volume, with a 30-day tracking window, a 10% customer discount code per affiliate, and PayPal payment after manual application review. Because only a range is published, the base figure of 2 is recorded with the range documented here. No earnings cap is stated, so the cap is unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 2,
+   "application_url": "https://getwellue.com/pages/wellue-affiliate-page?contact_posted=true",
+   "source_url": "https://getwellue.com/pages/wellue-affiliate-page?contact_posted=true",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Wellue Health Affiliate Program (GoAffPro)",
+   "application_url": "https://getwellue.com/pages/wellue-affiliate-page?contact_posted=true",
+   "source_url": "https://getwellue.com/pages/wellue-affiliate-page?contact_posted=true"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Home health monitoring is a real but narrower creator niche than supplements or snacks.",
+    "ugc_evidence": "A formal affiliate page explicitly seeking review and content partners, run on GoAffPro.",
+    "compensation": "Published range of 2%-12% depending on product and volume; only the 2% floor is certain.",
+    "contact_access": "Application form on the brand's own affiliate page; no public program email found.",
+    "opportunity_availability": "Open application with manual review for brand alignment.",
+    "credibility": "Established device brand storefront, but a China-based parent and modest program transparency."
+   }
+  }
+ }
+]
