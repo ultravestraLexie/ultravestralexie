@@ -248,8 +248,8 @@ export default async function AskPage({
   const platformLabel = platform || "TikTok";
 
   const pitchFor = (r: Row) => {
-    const who = creatorName || "a UGC creator";
-    return `Subject: UGC partnership idea for ${r.brand.name} — ${platformLabel} ${nicheLabel} creator
+    const who = creatorName || "a creator";
+    return `Subject: Partnership idea for ${r.brand.name} — ${platformLabel} ${nicheLabel} creator
 
 Hi ${r.brand.name} team,
 
@@ -257,7 +257,7 @@ I am ${who} creating ${nicheLabel.toLowerCase()} content on ${platformLabel}. I 
 
 My first video idea: "${concepts[0].title}" — ${concepts[0].hook}
 
-I can deliver one polished UGC video with full usage-ready files, captions and a posting version for my own channel. I am happy to start with product seeding or your affiliate program and prove results before we talk paid rates.
+I can deliver one polished creator video with full usage-ready files, captions and a posting version for my own channel. I am happy to start with product seeding or your affiliate program and prove results before we talk paid rates.
 
 Would you be open to a short intro this week? I can send examples of my work right away.
 

@@ -1,6 +1,6 @@
 /* Creator Academy — UltraVestra's searchable library of creator lessons:
  * hooks, scripts, filming, pitching, money and growth. Original teaching
- * written for UGC creators. Searchable from /academy and linked from
+ * written for creators. Searchable from /academy and linked from
  * Discover results. */
 
 export interface Lesson {
@@ -32,7 +32,7 @@ export const LESSONS: Lesson[] = [
     title: "10 Hook Patterns That Stop the Scroll",
     category: "Hooks",
     minutes: 6,
-    summary: "Ten proven opening patterns for UGC ads and organic product videos, with the exact first line for each.",
+    summary: "Ten proven opening patterns for creator ads and organic product videos, with the exact first line for each.",
     points: [
       "The confession: 'I was wrong about this product.'",
       "The mistake: 'You are using this wrong — here is the fix.'",
@@ -48,10 +48,10 @@ export const LESSONS: Lesson[] = [
   },
   {
     id: "script-structure",
-    title: "The 60-Second UGC Script Structure",
+    title: "The 60-Second Script Structure",
     category: "Scripts",
     minutes: 5,
-    summary: "Hook, problem, demo, proof, honest line, call to action — the six beats of a UGC video that brands renew.",
+    summary: "Hook, problem, demo, proof, honest line, call to action — the six beats of a creator video that brands renew.",
     points: [
       "Hook (0–3s): the pattern from the hook lessons. One idea only.",
       "Problem (3–10s): name the pain in one sentence, on camera, in a real setting.",
@@ -82,7 +82,7 @@ export const LESSONS: Lesson[] = [
     minutes: 5,
     summary: "Brands ignore copy-paste pitches. This structure — researched, specific, one idea — is what gets opened and answered.",
     points: [
-      "Subject line: 'UGC idea for [Brand] — [platform] [niche] creator'. Specific beats clever.",
+      "Subject line: 'Partnership idea for [Brand] — [platform] [niche] creator'. Specific beats clever.",
       "Line one proves research: name their product, their audience or a gap you noticed.",
       "Give ONE video idea with its hook written out. Ideas are the currency.",
       "Make the first step tiny: product seeding or their affiliate program, results first, rates later.",
@@ -137,7 +137,7 @@ export const LESSONS: Lesson[] = [
     title: "What to Charge: Rates, Usage and Whitelisting",
     category: "Money",
     minutes: 6,
-    summary: "How UGC pricing actually works — base rate, usage rights, whitelisting, exclusivity — so you stop leaving money on the table.",
+    summary: "How creator pricing actually works — base rate, usage rights, whitelisting, exclusivity — so you stop leaving money on the table.",
     points: [
       "Separate the three prices: creating the video, the brand posting it (usage), the brand advertising with it (whitelisting).",
       "Usage is time-boxed: 3, 6 or 12 months. Perpetual usage costs much more — or is declined.",
@@ -177,7 +177,7 @@ export const LESSONS: Lesson[] = [
   },
   {
     id: "first-30-days",
-    title: "Your First 30 Days as a UGC Creator",
+    title: "Your First 30 Days as a Creator",
     category: "Growth",
     minutes: 6,
     summary: "A realistic month-one plan: portfolio first, pitches second, proof always. No audience required.",
@@ -186,7 +186,7 @@ export const LESSONS: Lesson[] = [
       "Week 2: build your list — 20 brands in one niche from the UltraVestra directory, scored and contacted properly.",
       "Week 3: pitch daily, five a day, each with one written-out video idea. Track everything.",
       "Week 4: take affiliate-first deals, film fast, deliver early, and collect your first results.",
-      "UGC is a business of evidence: every video you deliver makes the next pitch stronger.",
+      "This is a business of evidence: every video you deliver makes the next pitch stronger.",
       "Smaller creators win on speed, specificity and honesty — the three things big accounts cannot copy.",
     ],
   },

@@ -34,7 +34,7 @@ const POPULAR: [string, string][] = [
   ["Brands accepting applications", "/discover?q=brands+accepting+applications"],
   ["Pet brands worth pitching", "/discover?q=pet+brands+worth+pitching"],
   ["Highest published commissions", "/discover?q=brands+paying+at+least+20%25+commission"],
-  ["UGC hooks and video tips", "/academy"],
+  ["Creator hooks and video tips", "/academy"],
 ];
 
 export default async function DiscoverPage({
@@ -57,7 +57,7 @@ export default async function DiscoverPage({
   const allCats = (catData ?? []) as Category[];
 
   interface Row {
-    brand: Brand; score: number; network: string | null; rate: number | null; notes: string | null;
+    brand: Brand; score: number; network: string | null; rate: number | null; notes: string | null; checkedAt: string | null;
     appUrl: string | null; contactEmail: string | null; contactUrl: string | null; hasOpenOpp: boolean;
     uncapped: boolean; low: boolean; cats: { slug: string; name: string }[]; relevance: number; reasons: string[];
   }
@@ -75,15 +75,15 @@ export default async function DiscoverPage({
     if (list.length) {
       const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }] = await Promise.all([
         supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }),
-        supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url"),
+        supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url, last_checked_at"),
         supabase.from("brand_contacts").select("brand_id, email, contact_url"),
         supabase.from("opportunities").select("brand_id, status, application_url"),
         supabase.from("brand_categories").select("brand_id, categories ( slug, name )"),
       ]);
       const scoreMap = new Map<string, number>();
       for (const s of scores ?? []) if (!scoreMap.has(s.brand_id as string)) scoreMap.set(s.brand_id as string, Number(s.total_score));
-      const affMap = new Map<string, { network: string | null; rate: number | null; notes: string | null; appUrl: string | null }>();
-      for (const a of affiliates ?? []) if (!affMap.has(a.brand_id as string)) affMap.set(a.brand_id as string, { network: (a.network as string) ?? null, rate: a.commission_rate != null ? Number(a.commission_rate) : null, notes: (a.commission_notes as string) ?? null, appUrl: (a.application_url as string) ?? null });
+      const affMap = new Map<string, { network: string | null; rate: number | null; notes: string | null; appUrl: string | null; checkedAt: string | null }>();
+      for (const a of affiliates ?? []) if (!affMap.has(a.brand_id as string)) affMap.set(a.brand_id as string, { network: (a.network as string) ?? null, rate: a.commission_rate != null ? Number(a.commission_rate) : null, notes: (a.commission_notes as string) ?? null, appUrl: (a.application_url as string) ?? null, checkedAt: (a.last_checked_at as string) ?? null });
       const contactMap = new Map<string, { email: string | null; url: string | null }>();
       for (const c of contacts ?? []) { const cur = contactMap.get(c.brand_id as string); if (!cur) contactMap.set(c.brand_id as string, { email: (c.email as string) ?? null, url: (c.contact_url as string) ?? null }); else { if (!cur.email && c.email) cur.email = c.email as string; if (!cur.url && c.contact_url) cur.url = c.contact_url as string; } }
       const openSet = new Set<string>(); const oppAppMap = new Map<string, string>();
@@ -105,7 +105,7 @@ export default async function DiscoverPage({
           intent.tokens,
         );
         return {
-          brand, score: scoreMap.get(brand.id) ?? 0, network: aff?.network ?? null, rate: aff?.rate ?? null, notes,
+          brand, score: scoreMap.get(brand.id) ?? 0, network: aff?.network ?? null, rate: aff?.rate ?? null, notes, checkedAt: aff?.checkedAt ?? null,
           appUrl: aff?.appUrl ?? oppAppMap.get(brand.id) ?? null,
           contactEmail: contactMap.get(brand.id)?.email ?? null, contactUrl: contactMap.get(brand.id)?.url ?? null,
           hasOpenOpp: openSet.has(brand.id),
@@ -206,6 +206,7 @@ export default async function DiscoverPage({
                 <p style={{ margin: 0, color: "#ddd0ff", fontSize: 14.5 }}>
                   {r.cats.map((c) => c.name).join(" · ")}{r.network ? ` · via ${r.network}` : " · Brand direct"}
                   {r.appUrl ? <> · <a href={r.appUrl} target="_blank" rel="noreferrer" style={{ color: "#67e8f9" }}>Apply</a></> : " · Worth pitching (no open campaign found)"}
+                  {r.checkedAt ? ` · Facts last checked ${new Date(r.checkedAt).toISOString().slice(0, 10)}` : ""}
                   {" "}· <Link href={`/brands/${r.brand.id}`} style={{ color: "#f0abfc" }}>Full profile &amp; sources →</Link>
                 </p>
               </article>

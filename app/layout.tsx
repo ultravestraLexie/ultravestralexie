@@ -5,7 +5,7 @@ import { createClient } from "@/lib/supabase/server";
 import SignOutButton from "@/components/SignOutButton";
 
 export const metadata: Metadata = {
-  title: "UltraVestra — UGC Brand Intelligence",
+  title: "UltraVestra — Brand Intelligence",
   description:
     "Less time searching. More time creating. Smarter brand partnerships.",
 };
@@ -76,11 +76,15 @@ export default async function RootLayout({
             </span>
           </Link>
           <nav style={{ display: "flex", gap: 16, fontSize: 15 }}>
+            <Link href="/dashboard">Dashboard</Link>
             <Link href="/discover">Discover</Link>
             <Link href="/brands">Brand Intelligence</Link>
+            <Link href="/radar">Radar</Link>
+            <Link href="/commissions">Commissions</Link>
             <Link href="/opportunities">Opportunities</Link>
             <Link href="/academy">Creator Academy</Link>
-            <Link href="/coach">Video Coach</Link>
+            <Link href="/coach">Video Lab</Link>
+            <Link href="/studio">Script Studio</Link>
             <Link href="/ask" style={{ fontWeight: 700, color: "#f0abfc" }}>Ask UltraVestra</Link>
             <Link href="/saved">Saved</Link>
             <Link href="/pricing">Pricing</Link>

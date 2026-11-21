@@ -32,7 +32,7 @@ const WORLDS: {
     bullets: [
       "Viral hook techniques",
       "Product-selling videos",
-      "UGC video tutorials",
+      "Creator video tutorials",
       "Filming and editing",
       "Storytelling and persuasion",
       "Video breakdowns",
@@ -46,7 +46,7 @@ const WORLDS: {
     bullets: [
       "Commission comparison",
       "Affiliate marketing education",
-      "UGC pricing",
+      "Creator pricing",
       "Brand deal negotiations",
       "Income calculators",
       "Monetization strategies",
@@ -89,7 +89,7 @@ const WORLDS: {
     desc: "Find ways to work with brands and discover new income opportunities.",
     bullets: [
       "New affiliate programs",
-      "UGC opportunities",
+      "Creator opportunities",
       "Brand ambassador programs",
       "Paid campaigns",
       "Product seeding",
@@ -413,6 +413,156 @@ export default function LandingPage() {
                 </p>
               </div>
             </article>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
+          THE INTELLIGENCE LAYER
+        </h2>
+        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16, maxWidth: 720 }}>
+          UltraVestra does not compete with the platforms you already create on.
+          It is the intelligence layer that helps you succeed on all of them.
+        </p>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, maxWidth: 720 }}>
+          {[
+            ["TikTok", "helps creators sell."],
+            ["Amazon", "helps creators monetize."],
+            ["eBay", "helps creators refer buyers."],
+            ["Instagram", "helps creators collaborate."],
+            ["Trybe", "helps creators work with brands."],
+          ].map(([name, line]) => (
+            <p key={name} style={{ margin: 0, fontSize: 16.5, color: "#ddd0ff" }}>
+              <strong style={{ color: "#f3e8ff" }}>{name}</strong> {line}
+            </p>
+          ))}
+          <p
+            style={{
+              margin: "12px 0 0",
+              fontSize: 19,
+              lineHeight: 1.5,
+              background: "linear-gradient(92deg, #f0abfc, #67e8f9)",
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+              fontWeight: 800,
+            }}
+          >
+            UltraVestra helps you figure out where to go, what to promote, what
+            you could earn, and how to create content that converts.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
+          FOUR QUESTIONS. ONE PLATFORM.
+        </h2>
+        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
+          Search smarter. Find better brands. Create content that sells.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: 18,
+          }}
+        >
+          {[
+            {
+              href: "/radar",
+              q: "Where should I go?",
+              a: "Find relevant creator opportunities across platforms.",
+            },
+            {
+              href: "/brands",
+              q: "What should I promote?",
+              a: "Research brands, products, and audience fit.",
+            },
+            {
+              href: "/commissions",
+              q: "What could I earn?",
+              a: "Compare commission structures and earning terms.",
+            },
+            {
+              href: "/coach",
+              q: "How do I sell better?",
+              a: "Learn hooks, scripts, video strategy, and conversion.",
+            },
+          ].map((c) => (
+            <Link key={c.href} href={c.href} style={{ textDecoration: "none" }}>
+              <article
+                className="glass-card"
+                style={{
+                  border: "1px solid #7e22ce",
+                  background: "rgba(26,8,54,0.78)",
+                  borderRadius: 20,
+                  padding: 22,
+                  height: "100%",
+                }}
+              >
+                <strong style={{ fontSize: 19 }}>{c.q}</strong>
+                <p style={{ margin: "8px 0 0", color: "#ddd0ff", fontSize: 15 }}>{c.a}</p>
+                <p style={{ margin: "12px 0 0", color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>Answer it →</p>
+              </article>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section>
+        <h2 style={{ fontSize: 30, margin: "0 0 6px", letterSpacing: 1 }}>
+          THREE INTELLIGENCE CENTERS
+        </h2>
+        <p style={{ color: "#ddd0ff", margin: "0 0 22px", fontSize: 16 }}>
+          Built on the researched database — every number sourced, every limit
+          labeled honestly.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: 18,
+          }}
+        >
+          {[
+            {
+              href: "/commissions",
+              emoji: "💰",
+              title: "Commission Intelligence Center",
+              body: "Capped, uncapped and unknown commission limits — separated. Compare published rates, recurring terms and payment conditions before you create.",
+            },
+            {
+              href: "/coach",
+              emoji: "🔬",
+              title: "Creator Video Intelligence Lab",
+              body: "Run the diagnostic on your last video. Learn why it performed — or why it stalled — across hooks, demonstration, storytelling, retention and sales conversion.",
+            },
+            {
+              href: "/radar",
+              emoji: "📡",
+              title: "Brand Opportunity Radar",
+              body: "Brands accepting creators, brands worth pitching, emerging products, and quiet opportunities that are not widely advertised.",
+            },
+          ].map((c) => (
+            <Link key={c.href} href={c.href} style={{ textDecoration: "none" }}>
+              <article
+                className="glass-card"
+                style={{
+                  border: "1px solid #7e22ce",
+                  background: "rgba(26,8,54,0.78)",
+                  borderRadius: 20,
+                  padding: 22,
+                  height: "100%",
+                }}
+              >
+                <p style={{ margin: "0 0 10px", fontSize: 26 }}>{c.emoji}</p>
+                <strong style={{ fontSize: 18 }}>{c.title}</strong>
+                <p style={{ margin: "8px 0 0", color: "#ddd0ff", fontSize: 15 }}>{c.body}</p>
+                <p style={{ margin: "12px 0 0", color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>Open →</p>
+              </article>
+            </Link>
           ))}
         </div>
       </section>

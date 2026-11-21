@@ -8,9 +8,11 @@ import { LESSONS } from "@/lib/academy";
 
 const CATEGORIES = ["All", "Hooks", "Scripts", "Filming", "Pitching", "Money", "Growth"] as const;
 
-export default function AcademySearch({ initialQuery }: { initialQuery: string }) {
+export default function AcademySearch({ initialQuery, initialCat }: { initialQuery: string; initialCat?: string }) {
   const [q, setQ] = useState(initialQuery);
-  const [cat, setCat] = useState<(typeof CATEGORIES)[number]>("All");
+  const [cat, setCat] = useState<(typeof CATEGORIES)[number]>(
+    (CATEGORIES as readonly string[]).includes(initialCat ?? "") ? (initialCat as (typeof CATEGORIES)[number]) : "All",
+  );
   const [openId, setOpenId] = useState<string | null>(null);
 
   const results = useMemo(() => {
