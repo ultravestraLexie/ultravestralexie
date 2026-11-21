@@ -1,0 +1,573 @@
+[
+  {
+    "name": "IPVanish",
+    "website": "https://www.ipvanish.com/",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "IPVanish is a long-running consumer VPN service (Ziff Davis) selling monthly, quarterly and annual plans with apps for all major platforms. Its CJ Affiliate program pays a flat 50% commission on every plan, a rate structure that suits VPN review and privacy content.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://wecantrack.com/programs/ipvanish-affiliate-program/",
+        "summary": "IPVanish runs a CJ Affiliate program paying a flat 50% commission on all plans (monthly, quarterly and annual), with a 45-day cookie and commissions approved on day 31. The listing mentions no cap on payouts, but that is a third-party listing claim only, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://linkwhisper.com/ipvanish-affiliate-program/",
+        "summary": "Corroborating listings (LinkWhisper, PropellerAds) report the same CJ program at 50%. A separate direct program run on TUNE is reported elsewhere at up to 100% on first sales plus 35% recurring; the CJ program is the one recorded here."
+      }
+    ],
+    "affiliate": {
+      "network": "CJ Affiliate",
+      "commission_rate": 50,
+      "application_url": "https://wecantrack.com/programs/ipvanish-affiliate-program/",
+      "source_url": "https://wecantrack.com/programs/ipvanish-affiliate-program/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "IPVanish Affiliate Program — flat 50% on all plans via CJ Affiliate",
+      "application_url": "https://wecantrack.com/programs/ipvanish-affiliate-program/",
+      "source_url": "https://wecantrack.com/programs/ipvanish-affiliate-program/"
+    },
+    "score": {
+      "niche_fit": 24,
+      "ugc_evidence": 16,
+      "compensation": 18,
+      "contact_access": 8,
+      "opportunity_availability": 7,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "VPNs are a core creator niche across YouTube, TikTok and blogs; privacy and streaming content converts well.",
+        "ugc_evidence": "VPN reviews, speed tests and setup tutorials are proven UGC formats for this category.",
+        "compensation": "Flat 50% on every plan through CJ is a strong, simple rate; no earnings cap is stated on any fetched source, so the cap is honestly unknown.",
+        "contact_access": "No direct affiliate email was verified on a fetched page; contact runs through CJ Affiliate.",
+        "opportunity_availability": "The CJ program is open to apply; approval runs through the network.",
+        "credibility": "Established VPN brand owned by Ziff Davis with consistent terms reported across multiple program listings."
+      }
+    }
+  },
+  {
+    "name": "CyberGhost",
+    "website": "https://www.cyberghostvpn.com/",
+    "country": "Romania",
+    "category_slug": "technology",
+    "description": "CyberGhost is a major consumer VPN founded in 2011 in Bucharest, Romania, reporting 38 million users. Its own affiliate page advertises commissions of up to 100% and routes signups through its HasOffers (TUNE) portal.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "Updates@cyberghost.ro",
+        "source_url": "https://www.cyberghostvpn.com/affiliate"
+      }
+    ],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_affiliate_page",
+        "source_url": "https://www.cyberghostvpn.com/affiliate",
+        "summary": "CyberGhost's own affiliate page states 'up to 100% in commissions' and routes signup through its HasOffers portal at affiliates.kape.com; the page publishes the affiliate contact Updates@cyberghost.ro. The page states no earnings cap."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://www.cyberghostvpn.com/affiliate",
+        "summary": "Third-party program listings conflict on the effective rate range (30-100% and 40-100% both reported), so commission_rate is recorded as null rather than guessed; the brand's own 'up to 100%' is a rate ceiling, not a standard rate."
+      }
+    ],
+    "affiliate": {
+      "network": "HasOffers (TUNE)",
+      "commission_rate": null,
+      "application_url": "https://www.cyberghostvpn.com/affiliate",
+      "source_url": "https://www.cyberghostvpn.com/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "CyberGhost Affiliate Program — up to 100% headline rate via HasOffers (TUNE)",
+      "application_url": "https://www.cyberghostvpn.com/affiliate",
+      "source_url": "https://www.cyberghostvpn.com/affiliate"
+    },
+    "score": {
+      "niche_fit": 23,
+      "ugc_evidence": 15,
+      "compensation": 10,
+      "contact_access": 12,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "One of the largest consumer VPN brands, a staple of tech and privacy creator content.",
+        "ugc_evidence": "VPN comparison and tutorial content is a proven format; the brand is heavily promoted by creators already.",
+        "compensation": "The headline 'up to 100%' is attractive but the effective rate is not published consistently across sources, so compensation is scored cautiously and the rate is null.",
+        "contact_access": "A direct affiliate email (Updates@cyberghost.ro) is published on the brand's own affiliate page.",
+        "opportunity_availability": "Open signup through the brand's HasOffers portal.",
+        "credibility": "Operating since 2011 with a reported 38 million users."
+      }
+    }
+  },
+  {
+    "name": "Canary",
+    "website": "https://canary.is/",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Canary (Canary Connect, Inc.) makes smart indoor security cameras and home monitoring devices; the Canary assets are owned by Arlo Technologies. Its own affiliates page offers up to 30% commission on qualified products and routes joining through Rakuten Advertising.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_affiliate_page",
+        "source_url": "https://canary.is/affiliates",
+        "summary": "Canary's own affiliates page states 'Earn up to 30% commission on qualified products' and its Join Now route leads to Rakuten Advertising. 'Up to 30%' is a rate ceiling, and no earnings cap is stated, so the cap is recorded as unknown."
+      }
+    ],
+    "affiliate": {
+      "network": "Rakuten Advertising",
+      "commission_rate": 30,
+      "application_url": "https://canary.is/affiliates",
+      "source_url": "https://canary.is/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Canary Affiliate Program — up to 30% on smart cameras via Rakuten Advertising",
+      "application_url": "https://canary.is/affiliates",
+      "source_url": "https://canary.is/affiliates"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 14,
+      "compensation": 14,
+      "contact_access": 8,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Smart home security cameras fit tech and home creator niches with strong demo potential.",
+        "ugc_evidence": "Camera demos, night-vision tests and home security setups are natural UGC formats.",
+        "compensation": "Up to 30% on qualified products is a solid rate for hardware; the exact per-product rates sit inside Rakuten.",
+        "contact_access": "No direct affiliate email was verified on a fetched page; joining runs through Rakuten Advertising.",
+        "opportunity_availability": "Open application through the brand's affiliates page into Rakuten.",
+        "credibility": "Established smart-camera brand whose assets are owned by Arlo Technologies."
+      }
+    }
+  },
+  {
+    "name": "hide.me",
+    "website": "https://hide.me/",
+    "country": "Malaysia",
+    "category_slug": "technology",
+    "description": "hide.me is a consumer VPN operated by eVenture Ltd (Malaysia). Its own affiliate page offers flexible commissions from 30% with lifetime revenue share, signup through its Post Affiliate Pro portal, and a dedicated affiliate manager.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_affiliate_page",
+        "source_url": "https://hide.me/en/affiliates",
+        "summary": "hide.me's own affiliates page states 'Flexible commissions from 30%' and 'Revenue Share for Lifetime', with signup via its Post Affiliate Pro portal (hideme.promo) and a dedicated affiliate manager. No explicit no-cap statement appears on the page, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://hide.me/en/affiliates",
+        "summary": "Third-party program listings corroborate 30% lifetime revenue share with a 45-day cookie, a $500 minimum payout and wire-transfer payment."
+      }
+    ],
+    "affiliate": {
+      "network": "Post Affiliate Pro",
+      "commission_rate": 30,
+      "application_url": "https://hide.me/en/affiliates",
+      "source_url": "https://hide.me/en/affiliates",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "hide.me Affiliate Program — 30% lifetime revenue share via Post Affiliate Pro",
+      "application_url": "https://hide.me/en/affiliates",
+      "source_url": "https://hide.me/en/affiliates"
+    },
+    "score": {
+      "niche_fit": 20,
+      "ugc_evidence": 12,
+      "compensation": 15,
+      "contact_access": 8,
+      "opportunity_availability": 6,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "A smaller VPN brand; fits privacy niches but with less search demand than the largest VPNs.",
+        "ugc_evidence": "Standard VPN review and tutorial formats apply; less existing creator content than category leaders.",
+        "compensation": "30% lifetime revenue share is genuinely attractive because renewals keep paying; the $500 minimum payout reported by listings tempers it.",
+        "contact_access": "The brand promises a dedicated affiliate manager on its own page, but no direct email was verified.",
+        "opportunity_availability": "Open signup through the brand's own Post Affiliate Pro portal.",
+        "credibility": "Long-running VPN service operated by eVenture Ltd."
+      }
+    }
+  },
+  {
+    "name": "Private Internet Access",
+    "website": "https://www.privateinternetaccess.com/",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Private Internet Access (PIA) is a well-known consumer VPN in the Kape group. Its own affiliate program page offers signup, marketing materials and real-time commission tracking, but publishes no commission rate.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_affiliate_page",
+        "source_url": "https://www.privateinternetaccess.com/affiliate-program",
+        "summary": "PIA's own affiliate program page confirms a real, joinable program with on-page signup, marketing materials and real-time commission tracking, running on the Kape HasOffers (TUNE) platform. The page publishes no commission rate and no earnings-cap statement."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://www.privateinternetaccess.com/affiliate-program",
+        "summary": "Program directories list PIA among VPN programs that do not publish their rates publicly, so commission_rate is recorded as null rather than guessed."
+      }
+    ],
+    "affiliate": {
+      "network": "HasOffers (TUNE)",
+      "commission_rate": null,
+      "application_url": "https://www.privateinternetaccess.com/affiliate-program",
+      "source_url": "https://www.privateinternetaccess.com/affiliate-program",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Private Internet Access Affiliate Program — rate not published, via HasOffers (TUNE)",
+      "application_url": "https://www.privateinternetaccess.com/affiliate-program",
+      "source_url": "https://www.privateinternetaccess.com/affiliate-program"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 14,
+      "compensation": 6,
+      "contact_access": 8,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "PIA is one of the most recognized VPN names in creator content.",
+        "ugc_evidence": "A long history of creator sponsorships and reviews in the VPN niche.",
+        "compensation": "No rate is published on the brand's own page or in program directories, so compensation cannot be scored higher and the rate is null.",
+        "contact_access": "No direct affiliate email was verified on a fetched page; contact runs through the program portal.",
+        "opportunity_availability": "Open signup on the brand's own affiliate page.",
+        "credibility": "Established VPN brand in the Kape group."
+      }
+    }
+  },
+  {
+    "name": "Keeper Security",
+    "website": "https://www.keepersecurity.com/",
+    "country": "United States",
+    "category_slug": "technology",
+    "description": "Keeper Security makes the Keeper password manager and cybersecurity platform for consumers and businesses. Its affiliate program pays a minimum of 10% on all sales, with consumer affiliates joining via Rakuten Advertising and a PartnerStack track paying 10% for a customer's first year plus $60 per qualified business lead.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://market.partnerstack.com/page/keepersecurity",
+        "summary": "Keeper's own PartnerStack marketplace listing states: 'Earn 10% for every order you bring in for the first year of the customer and earn $60 for every qualified lead.' No earnings cap is stated."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://scoutner.com/programs/keeper",
+        "summary": "Program research read from Keeper's own partnerships page reports a minimum 10% commission on all sales with performance tiers and bonuses; consumer affiliates join via Rakuten Advertising and business affiliates via PartnerStack. Keeper's own page does not publish cookie or payout terms."
+      }
+    ],
+    "affiliate": {
+      "network": "PartnerStack",
+      "commission_rate": 10,
+      "application_url": "https://market.partnerstack.com/page/keepersecurity",
+      "source_url": "https://market.partnerstack.com/page/keepersecurity",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Keeper Security Affiliate Program — 10% first-year via PartnerStack (consumer track on Rakuten)",
+      "application_url": "https://market.partnerstack.com/page/keepersecurity",
+      "source_url": "https://market.partnerstack.com/page/keepersecurity"
+    },
+    "score": {
+      "niche_fit": 21,
+      "ugc_evidence": 13,
+      "compensation": 11,
+      "contact_access": 6,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Password managers fit tech, productivity and security-awareness creator niches.",
+        "ugc_evidence": "Setup walkthroughs and 'stop reusing passwords' content are proven formats for this product type.",
+        "compensation": "10% is modest next to VPN rates, but PartnerStack adds a $60 qualified-lead bounty and Keeper publishes performance tiers and bonuses.",
+        "contact_access": "No direct affiliate email was verified on a fetched page; joining runs through PartnerStack or Rakuten.",
+        "opportunity_availability": "Open application on PartnerStack; a separate consumer track runs on Rakuten Advertising.",
+        "credibility": "Established cybersecurity company with a published partnerships program."
+      }
+    }
+  },
+  {
+    "name": "Beatbot",
+    "website": "https://beatbot.com/",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Beatbot makes premium robotic pool cleaners with an average customer order of about $1,000. Its own affiliate page offers 8% commission, a 30-day cookie, monthly payouts with a $100 minimum withdrawal, and a dedicated affiliate manager; program reporting runs through Impact.",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "affiliate@beatbot.com",
+        "source_url": "https://beatbot.com/pages/affiliate"
+      },
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "service@beatbot.com",
+        "source_url": "https://beatbot.com/pages/affiliate"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/beatbotglobal"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/beatbotglobal"
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@beatbotglobal"
+      },
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@beatbotglobal"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/company/beatbotglobal"
+      },
+      {
+        "platform": "x",
+        "url": "https://twitter.com/BeatbotGlobal"
+      }
+    ],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_affiliate_page",
+        "source_url": "https://beatbot.com/pages/affiliate",
+        "summary": "Beatbot's own affiliate page states an 8% commission rate, an average customer order of $1,000, a 30-day cookie, monthly payouts and a $100 minimum withdrawal, with a dedicated affiliate manager and the contact affiliate@beatbot.com. Influencers are explicitly eligible and can apply for free products for reviews. No earnings cap is stated."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://beatbot.com/pages/affiliate",
+        "summary": "Beatbot's affiliate program terms reference Impact for tracking and reporting; the brand's official program presence lists its social profiles under the handle beatbotglobal."
+      }
+    ],
+    "affiliate": {
+      "network": "Impact",
+      "commission_rate": 8,
+      "application_url": "https://beatbot.com/pages/affiliate",
+      "source_url": "https://beatbot.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Beatbot Affiliate Program — 8% on ~$1,000 average orders via Impact",
+      "application_url": "https://beatbot.com/pages/affiliate",
+      "source_url": "https://beatbot.com/pages/affiliate"
+    },
+    "score": {
+      "niche_fit": 20,
+      "ugc_evidence": 15,
+      "compensation": 13,
+      "contact_access": 13,
+      "opportunity_availability": 6,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Pool care is a narrower home niche, but the product is premium and highly visual.",
+        "ugc_evidence": "Pool-cleaning before/after and robot demo videos are strong UGC formats; the brand explicitly recruits influencers.",
+        "compensation": "8% looks low until the ~$1,000 average order is counted — roughly $80 per sale — with monthly payouts.",
+        "contact_access": "A dedicated affiliate email and a named affiliate manager are published on the brand's own page.",
+        "opportunity_availability": "Open, free application on the brand's own affiliate page.",
+        "credibility": "Premium DTC brand with a full published program page, warranty and US support line."
+      }
+    }
+  },
+  {
+    "name": "Nolah",
+    "website": "https://www.nolahmattress.com/",
+    "country": "United States",
+    "category_slug": "home",
+    "description": "Nolah is a direct-to-consumer mattress brand built around its temperature-neutral AirFoam. Its affiliate program is known for flat per-sale bounties and an unusually long 180-day cookie, but published bounty ranges and the managing network conflict across sources.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://getlasso.co/affiliate/nolah/",
+        "summary": "Lasso's program listing reports Nolah paying $105 to $200 per sale with a 180-day cookie. No earnings cap is stated."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://onemorecupof-coffee.com/best-mattress-affiliate-programs/",
+        "summary": "Sources conflict: bounty ranges are reported as $105-$200, roughly $100-$160 and $100-$500 across listings, and the managing network is reported as ShareASale by one source and Impact by another. Because the flat bounty cannot be pinned to one verified figure, commission_rate is recorded as null with the conflict documented here."
+      }
+    ],
+    "affiliate": {
+      "network": "ShareASale",
+      "commission_rate": null,
+      "application_url": "https://getlasso.co/affiliate/nolah/",
+      "source_url": "https://getlasso.co/affiliate/nolah/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Nolah Affiliate Program — flat per-sale bounty with 180-day cookie (rate ranges conflict across sources)",
+      "application_url": "https://getlasso.co/affiliate/nolah/",
+      "source_url": "https://getlasso.co/affiliate/nolah/"
+    },
+    "score": {
+      "niche_fit": 21,
+      "ugc_evidence": 14,
+      "compensation": 12,
+      "contact_access": 6,
+      "opportunity_availability": 6,
+      "credibility": 4,
+      "reasons": {
+        "niche_fit": "Mattresses are a proven high-ticket home niche for review and sleep content.",
+        "ugc_evidence": "Unboxings, sleep trials and side-sleeper reviews are established formats for this brand type.",
+        "compensation": "Flat bounties around $100-$200 per sale plus a 180-day cookie are attractive, but the exact current range conflicts across sources, so the rate is null and the score is held down.",
+        "contact_access": "No direct affiliate email was verified on a fetched page.",
+        "opportunity_availability": "Open application through the managing network.",
+        "credibility": "Established DTC mattress brand with a long-running affiliate presence."
+      }
+    }
+  },
+  {
+    "name": "Enabot",
+    "website": "https://www.enabot.com/",
+    "country": "China",
+    "category_slug": "pets",
+    "description": "Enabot makes the EBO family of companion and pet robots — roaming cameras that let owners watch, talk to and play with their pets remotely. Its affiliate program runs through GoAffPro with manual application review, a 30-day tracking window and PayPal payouts.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_affiliate_page",
+        "source_url": "https://store.enabot.com/pages/affiliate",
+        "summary": "Enabot's own affiliate page contradicts itself on the rate: the headline says 'Get 5%-10% of sales as commission' while the body says commissions range 'from 5% to 15%, depending on the product value and your exposure volume'. Because the brand's own source is self-contradicting, commission_rate is null. The page confirms GoAffPro registration after manual review, a 30-day tracking window, PayPal payouts and a 10% audience discount code. No earnings cap is stated."
+      }
+    ],
+    "affiliate": {
+      "network": "GoAffPro",
+      "commission_rate": null,
+      "application_url": "https://store.enabot.com/pages/affiliate",
+      "source_url": "https://store.enabot.com/pages/affiliate",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Enabot Affiliate Program — pet robots via GoAffPro (own page states conflicting 5-10% and 5-15% ranges)",
+      "application_url": "https://store.enabot.com/pages/affiliate",
+      "source_url": "https://store.enabot.com/pages/affiliate"
+    },
+    "score": {
+      "niche_fit": 21,
+      "ugc_evidence": 16,
+      "compensation": 8,
+      "contact_access": 6,
+      "opportunity_availability": 6,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Pet cameras and companion robots sit right at the pets-meets-tech creator niche.",
+        "ugc_evidence": "A roaming pet robot is inherently demo-friendly; pet reaction videos are a natural UGC format.",
+        "compensation": "The brand's own page states two different ranges (5-10% and 5-15%), so no rate is recorded and compensation is scored cautiously.",
+        "contact_access": "No direct affiliate email was verified on a fetched page; applications are reviewed manually through the program page.",
+        "opportunity_availability": "Open application with manual review via GoAffPro.",
+        "credibility": "Shipping consumer product line with an established official store."
+      }
+    }
+  },
+  {
+    "name": "Cheerble",
+    "website": "https://www.cheerble.com/",
+    "country": "China",
+    "category_slug": "pets",
+    "description": "Cheerble makes smart interactive pet toys, led by the Wicked Ball series of self-moving balls for cats and dogs. Its affiliate program runs on Awin with a reported 10% commission and a 30-day cookie.",
+    "contacts": [],
+    "socials": [],
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://getlasso.co/affiliate/cheerble/",
+        "summary": "Lasso's program listing reports the Cheerble affiliate program paying 10% per sale with a 60-day cookie. No earnings cap is stated."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "program_listing",
+        "source_url": "https://linkclicky.com/affiliate-program/cheerble/",
+        "summary": "LinkClicky's listing confirms Cheerble's program runs on Awin with a 30-day cookie, but lists the commission as not publicly known — a discrepancy against the 10% reported by Lasso and Shopper, documented here; 10% is recorded as the majority-reported figure."
+      }
+    ],
+    "affiliate": {
+      "network": "Awin",
+      "commission_rate": 10,
+      "application_url": "https://getlasso.co/affiliate/cheerble/",
+      "source_url": "https://getlasso.co/affiliate/cheerble/",
+      "commission_cap": "unknown",
+      "creator_saturation": "unknown"
+    },
+    "opportunity": {
+      "title": "Cheerble Affiliate Program — 10% on smart pet toys via Awin",
+      "application_url": "https://getlasso.co/affiliate/cheerble/",
+      "source_url": "https://getlasso.co/affiliate/cheerble/"
+    },
+    "score": {
+      "niche_fit": 22,
+      "ugc_evidence": 16,
+      "compensation": 11,
+      "contact_access": 6,
+      "opportunity_availability": 6,
+      "credibility": 3,
+      "reasons": {
+        "niche_fit": "Smart pet toys are a strong fit for pet creators on TikTok and Instagram.",
+        "ugc_evidence": "Self-moving toys generate pet reaction content almost by themselves — a proven UGC format.",
+        "compensation": "10% per sale is mid-range for pet products; one listing does not publish the rate, which is documented in the evidence.",
+        "contact_access": "No direct affiliate email was verified on a fetched page; joining runs through Awin.",
+        "opportunity_availability": "Open application through Awin.",
+        "credibility": "Established smart-pet-toy brand with wide retail distribution."
+      }
+    }
+  }
+]
