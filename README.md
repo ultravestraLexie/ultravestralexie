@@ -213,3 +213,5 @@ Known limitations:
 - The service-role key and Stripe secret keys never reach the browser.
 - Pitches are drafts the creator reviews and sends; any future automated
   email must include unsubscribe handling and CAN-SPAM compliance.
+
+Deployment: the five-experience search platform (Discover, Brand Intelligence, Opportunities, Creator Academy, Video Coach) shipped 2026-11-20.

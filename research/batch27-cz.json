@@ -1,0 +1,621 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.maono.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.maono.com/pages/affiliate-program"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.maono.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://www.maono.com/pages/affiliate-program"
+   }
+  ],
+  "country": "China",
+  "description": "Microphone and audio-gear brand aimed at streamers, podcasters and creators — USB and XLR microphones, audio interfaces, mixers and headphones — sold through maono.com. Its own affiliate program page publishes 5%-20% commission on every successful referral, a 30-day cookie, monthly payments and dedicated partner support.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.maono.com/pages/affiliate-program",
+    "summary": "MAONO's own affiliate program page fetched in full: 'Earn 5%-20% commission on every successful referral', a 30-day cookie window, monthly payments and dedicated partner support for partners. The recorded 5% is the floor of the range the brand itself publishes. The page names no network — application is through maono.com. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   }
+  ],
+  "name": "MAONO",
+  "opportunity": {
+   "application_url": "https://www.maono.com/pages/affiliate-program",
+   "source_url": "https://www.maono.com/pages/affiliate-program",
+   "title": "MAONO Affiliate Program — brand's own page publishes 5%-20% commission on every successful referral (recorded at the 5% floor), 30-day cookie, monthly payments"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "The brand publishes a wide 5%-20% range; the recorded floor is fair for budget audio gear, but where a creator lands in the range is not published, and no cap statement exists",
+    "contact_access": "Direct application on the brand's own program page; no affiliate email is published",
+    "credibility": "An established creator-audio brand sold globally through its own store and major retailers",
+    "niche_fit": "Microphones and audio interfaces are core creator gear — mic tests, podcast setups and streaming-room tours are natural UGC for this brand",
+    "opportunity_availability": "Open application through the brand's own page, subject to approval",
+    "ugc_evidence": "A brand-published affiliate program on the brand's own page with dedicated partner support; aimed at referral partners generally rather than a named creator tier"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.maono.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://store.hollyland.com/pages/hollyland-affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://store.hollyland.com/pages/hollyland-affiliate-program"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://store.hollyland.com/pages/hollyland-affiliate-program",
+    "email": null,
+    "source_url": "https://store.hollyland.com/pages/hollyland-affiliate-program"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://store.hollyland.com/pages/hollyland-affiliate-program",
+    "email": "affiliate@hollyland.com",
+    "source_url": "https://store.hollyland.com/pages/hollyland-affiliate-program"
+   }
+  ],
+  "country": "China",
+  "description": "Wireless video and audio brand for filmmakers and creators — wireless microphones, video transmission systems, intercoms and cameras — sold through store.hollyland.com. Its own affiliate program page publishes 5% commission on video solutions, intercoms and cameras and 8% on wireless microphones, a 45-day cookie and average order values over $500, and explicitly invites content creators, influencers and bloggers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://store.hollyland.com/pages/hollyland-affiliate-program",
+    "summary": "Hollyland's own affiliate program page fetched in full: 5% commission for video solutions, intercom systems and cameras and 8% for wireless microphones, a 45-day cookie, average order value over $500, monthly payouts via PayPal or bank transfer, the published contact affiliate@hollyland.com, and an explicit invitation to content creators, influencers and bloggers. The recorded 5% is the floor of the brand's published category rates. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   }
+  ],
+  "name": "Hollyland",
+  "opportunity": {
+   "application_url": "https://store.hollyland.com/pages/hollyland-affiliate-program",
+   "source_url": "https://store.hollyland.com/pages/hollyland-affiliate-program",
+   "title": "Hollyland Affiliate Program — brand's own page publishes 5% on video/intercom/camera gear and 8% on wireless microphones, 45-day cookie, $500+ average orders; contact affiliate@hollyland.com"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "5% on most categories and 8% on wireless microphones; the modest percentages sit on $500+ average orders, and no cap statement exists",
+    "contact_access": "Published affiliate email (affiliate@hollyland.com) on the program page, plus direct application through the brand's store",
+    "credibility": "An established professional video-gear brand with global distribution and a complete, terms-bearing program page",
+    "niche_fit": "Wireless microphones and video transmission are staple creator-production gear — camera-rig builds, mic comparisons and behind-the-scenes content are natural fits",
+    "opportunity_availability": "Open application through the brand's own page, subject to approval",
+    "ugc_evidence": "The brand's own program page explicitly invites content creators, influencers and bloggers — direct creator evidence"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://store.hollyland.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.obsbot.com/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 8,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://www.obsbot.com/affiliate-program"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.obsbot.com/affiliate-program",
+    "email": null,
+    "source_url": "https://www.obsbot.com/affiliate-program"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://www.obsbot.com/affiliate-program",
+    "email": "affiliate@obsbot.com",
+    "source_url": "https://www.obsbot.com/affiliate-program"
+   }
+  ],
+  "country": "China",
+  "description": "AI camera brand from REMO TECH (founded 2016) — AI-tracking webcams and PTZ streaming cameras — sold through obsbot.com. Its own affiliate program page publishes 8%-10% commissions with a 30-day cookie and joining routes through ShareASale or Awin, and the brand runs a separate influencer program on Refersion at the same 8%-10%.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.obsbot.com/affiliate-program",
+    "summary": "OBSBOT's own affiliate program page fetched in full: 8%-10% commissions, a 30-day cookie, free to join with no minimum sales quota, monthly payment through ShareASale, joining routes via ShareASale (Merchant ID 53691) or Awin (Merchant ID 79596), and the published contact affiliate@obsbot.com. The recorded 8% is the floor of the brand-published range, and the network recorded is ShareASale, the route the page ties to payment. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.obsbot.com/influencer-program",
+    "summary": "Creator-route note: OBSBOT also runs a dedicated influencer program (obsbot.com/influencer-program, run on Refersion) publishing the same 8%-10% commission range — a second, creator-specific route alongside the ShareASale/Awin affiliate program."
+   }
+  ],
+  "name": "OBSBOT",
+  "opportunity": {
+   "application_url": "https://www.obsbot.com/affiliate-program",
+   "source_url": "https://www.obsbot.com/affiliate-program",
+   "title": "OBSBOT Affiliate Program — brand's own page publishes 8%-10% commissions via ShareASale or Awin, 30-day cookie, no minimum sales quota; contact affiliate@obsbot.com"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 26,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A brand-published 8%-10% range is solid pay for camera hardware; the recorded 8% is its floor, and no cap statement exists",
+    "contact_access": "Published affiliate email (affiliate@obsbot.com) on the program page, plus ShareASale and Awin application routes",
+    "credibility": "REMO TECH has sold AI cameras globally since 2016 with a complete, terms-bearing program page",
+    "niche_fit": "AI-tracking webcams and streaming cameras are built for creators — stream setups, desk tours and camera comparisons are core tech UGC",
+    "opportunity_availability": "Free to join with no minimum sales quota, subject to approval",
+    "ugc_evidence": "A brand-published affiliate program plus a separate dedicated influencer program on Refersion — direct creator evidence on two routes"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.obsbot.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ca.edifier.com/pages/pr-contact",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ca.edifier.com/pages/pr-contact"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ca.edifier.com/pages/pr-contact",
+    "email": null,
+    "source_url": "https://ca.edifier.com/pages/pr-contact"
+   }
+  ],
+  "country": "China",
+  "description": "Global audio company — powered speakers, bookshelf speakers, headphones and earbuds — sold through regional stores including ca.edifier.com. Its Canadian PR page routes partnership and affiliate applications to the Edifier Affiliate portal, and a comparison of the brand's official regional and network pages shows 10% commission on both its Awin profile and its Canadian UpPromote page, with a 7% US route on MyLead.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://ca.edifier.com/pages/pr-contact",
+    "summary": "Edifier's own Canadian PR contact page fetched: 'Up for a partnership and scoring commissions? No need to hold back — get in touch or tap into Edifier Affiliate to apply straight off the bat!', with the application link leading to the brand's UpPromote affiliate portal (af.uppromote.com). The page publishes no email address and no rate itself; the rates come from the official network profiles compared in the next item."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.sharehub.fun/brands/audio/edifier/",
+    "summary": "ShareHub's Edifier directory entry (checked 30 October 2026) compares the brand's official regional and network pages: 'The brand's Canadian UpPromote page and its Awin network profile advertise a 10% commission rate, while the MyLead platform lists a 7% commission for the US program', for a program the entry describes as published for creators and publishers, with no minimum follower counts mentioned on the official pages checked. The recorded 10% is the rate two official routes agree on, and the network recorded is Awin. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   }
+  ],
+  "name": "Edifier",
+  "opportunity": {
+   "application_url": "https://ca.edifier.com/pages/pr-contact",
+   "source_url": "https://ca.edifier.com/pages/pr-contact",
+   "title": "Edifier Affiliate Program — official Awin profile and Canadian portal both publish 10% commission (7% US route on MyLead); apply via the brand's PR page"
+  },
+  "score": {
+   "compensation": 14,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "10% is agreed by two official routes (the Awin profile and the Canadian UpPromote page) — solid, transparent pay; a US route on MyLead pays 7%, and no cap statement exists",
+    "contact_access": "Application runs through the brand's own PR page into its affiliate portal; no affiliate email is published on the fetched page",
+    "credibility": "One of the world's largest speaker and headphone makers, with documented programs across multiple networks and regions",
+    "niche_fit": "Speakers and headphones are proven audio-UGC categories — listening tests, desk-audio setups and budget roundups are natural content",
+    "opportunity_availability": "Open application through the network and portal routes, subject to approval; terms differ by region",
+    "ugc_evidence": "The brand's own PR page recruits partnerships, and a directory comparison of official pages describes the program as published for creators and publishers; no dedicated creator tier is published"
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://ca.edifier.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list",
+    "email": "fifineiris@gmail.com",
+    "source_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list",
+    "email": "fifinebrucetherep@gmail.com",
+    "source_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list",
+    "email": "web@fifine.cc",
+    "source_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list"
+   }
+  ],
+  "country": "China",
+  "description": "Budget audio brand for streamers and podcasters — USB and XLR microphones, mic arms and audio accessories — sold through fifinemicrophone.com. Its own Social Media Partnership page recruits creators by content topic, promising free and latest products plus 'bonuses such as affiliate commissions', and publishes named partnership reps with direct emails for gaming/streaming, podcasting, video production, unboxing and setup content.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list",
+    "summary": "FIFINE's own Social Media Partnership page fetched in full: 'Join FIFINE, become a partner!... It's not just about free and the latest product, but also bonuses such as affiliate commissions and giveaway gifts to your fans!', with authenticated reps listed by YouTube content topic — Gaming/Streaming: Iris, fifineiris@gmail.com; Podcasting/Voice-over/Audio: Bruce, fifinebrucetherep@gmail.com; Video Production/Photography: Ted, tedfifine@gmail.com; Unboxing: Darren, fifinemarketingrepdarren@gmail.com; Setup/Room Tour: Joyce, joycechowfifine@gmail.com — and the official support channel web@fifine.cc for verifying reps. The page publishes no commission rate, so commission_rate is null rather than guessed from third-party ceiling claims. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   }
+  ],
+  "name": "Fifine",
+  "opportunity": {
+   "application_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list",
+   "source_url": "https://fifinemicrophone.com/pages/fifine-marketing-staff-list",
+   "title": "FIFINE Social Media Partnership — brand's own page recruits creators by content topic with affiliate commissions and publishes named rep emails; no commission rate published"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 13,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Affiliate commissions are promised on the brand's own page but no rate is published anywhere on it, so compensation cannot be scored on a number; no cap statement exists",
+    "contact_access": "Named partnership reps with direct emails for five content topics, plus the official support email (web@fifine.cc) — the strongest contact access in this batch",
+    "credibility": "A widely sold budget-audio brand with a long-standing creator-partnership operation and a published rep-authentication list",
+    "niche_fit": "Budget streaming and podcast microphones are among the most-reviewed products in creator UGC — mic shootouts and starter-studio setups are natural content",
+    "opportunity_availability": "Partnership starts by contacting a rep for your topic; acceptance is at the brand's discretion",
+    "ugc_evidence": "A dedicated Social Media Partnership page that recruits creators by content topic and names individual partnership reps — direct, unambiguous creator evidence"
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://fifinemicrophone.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://owletcare.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://owletcare.com/pages/affiliate-program"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://owletcare.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://owletcare.com/pages/affiliate-program"
+   }
+  ],
+  "country": "United States",
+  "description": "Smart baby-monitor company — the Dream Sock and Dream Duo track heart rate and average oxygen level as sleep quality indicators — sold through owletcare.com. Its own affiliate program page offers 'up to 15% commission' with exclusive rates for Premium Publishers and gifted product for coverage, but publishes no standard rate, and directories disagree on what the program pays.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://owletcare.com/pages/affiliate-program",
+    "summary": "Owlet's own affiliate program page fetched: 'Join our affiliate program to drive awareness and excitement about Owlet's award-winning technology, including the Dream Sock and Dream Duo — the only baby monitor to track heart rate and average oxygen level as Sleep Quality Indicators', with benefits 'Earn up to 15% commission on orders placed on our website' and 'Exclusive commission rates and opportunities for Premium Publishers', plus gifted product for coverage. 'Up to 15%' is a ceiling, not a standard rate, and the page names no network."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/owlet/",
+    "summary": "Rate-conflict note: Lasso's Owlet program page reports 3% per sale with a 15-day cookie, while Lasso's separate Owlet Baby Care Inc. page reports 9% per sale — two conflicting figures from the same directory, neither matching a brand-published standard rate. Because the brand publishes only an 'up to 15%' ceiling and directories conflict, commission_rate is null with the conflict documented here. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.getaff.org/en/programs/owletbabycare-co-uk",
+    "summary": "Route note: GetAff's network-catalogue entry (synced from Awin) states 'Owlet recruits affiliates through Awin' for the US market and that the commission rate is not published in the public catalogue — the basis for recording Awin as the network; the brand's own page remains the application route."
+   }
+  ],
+  "name": "Owlet",
+  "opportunity": {
+   "application_url": "https://owletcare.com/pages/affiliate-program",
+   "source_url": "https://owletcare.com/pages/affiliate-program",
+   "title": "Owlet Affiliate Program — brand page advertises up to 15% commission with exclusive Premium Publisher rates, but publishes no standard rate and directories conflict (3% vs 9%); recruitment via Awin"
+  },
+  "score": {
+   "compensation": 7,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 21,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Only an 'up to 15%' ceiling is brand-published and directories conflict (3% vs 9%), so compensation is scored on unsettled evidence; no cap statement exists",
+    "contact_access": "Application through the brand's own page into Awin; no affiliate email is published",
+    "credibility": "A well-known US baby-tech brand whose Dream Sock is a category-defining product sold nationally",
+    "niche_fit": "Smart baby monitors are a focused parenting-tech niche — newborn must-haves, sleep-training and nursery-tour content are natural fits, though narrower than general tech",
+    "opportunity_availability": "Open application, subject to approval; exclusive rates are reserved for Premium Publishers",
+    "ugc_evidence": "A brand-published affiliate page courting publishers with gifted product for coverage and premium-publisher rates; creator-facing, though framed around publishers"
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://owletcare.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://uk.sihoo.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 2,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://uk.sihoo.com/pages/affiliate-program"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://uk.sihoo.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://uk.sihoo.com/pages/affiliate-program"
+   }
+  ],
+  "country": "China",
+  "description": "Ergonomic furniture brand founded in 2011 — office chairs and sit-stand desks — sold through regional stores including uk.sihoo.com. Its own affiliate program page publishes 2%-8% commission on order value with a 30-day window, joining through Impact (or GoAffPro), monthly payouts, and a dedicated track for content creators and influencers.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://uk.sihoo.com/pages/affiliate-program",
+    "summary": "SIHOO's own UK affiliate page fetched in full: 'When someone clicks your link and makes a purchase within 30 days, you'll earn a 2%-8% commission on the order value', 'We offer between 2% and 8% commission, with higher tiers available for exceptional partners', joining by creating an Impact publisher account (a GoAffPro route is also offered), no registration fees for either programme, monthly payouts on both routes, and a dedicated section 'For content creators & influencers'. The recorded 2% is the floor of the brand-published range. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   }
+  ],
+  "name": "SIHOO",
+  "opportunity": {
+   "application_url": "https://uk.sihoo.com/pages/affiliate-program",
+   "source_url": "https://uk.sihoo.com/pages/affiliate-program",
+   "title": "SIHOO Affiliate Program — brand's own page publishes 2%-8% commission on order value via Impact, 30-day window, monthly payouts"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "The published range starts at a low 2% floor and reaches 8%, with higher tiers for exceptional partners; where a creator lands is not published, and no cap statement exists",
+    "contact_access": "Application runs through the brand's own page into Impact; no affiliate email is published",
+    "credibility": "Designing ergonomic furniture since 2011, with regional stores and a complete, terms-bearing program page",
+    "niche_fit": "Ergonomic chairs are a desk-setup and home-office UGC staple — chair reviews, posture content and workspace tours are natural fits",
+    "opportunity_availability": "Open application through Impact with review promised within 1-2 working days, and no joining fees",
+    "ugc_evidence": "The brand's own page carries a dedicated 'For content creators & influencers' track alongside reviewer, media and deal-site tracks — direct creator evidence"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://uk.sihoo.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://affiliateprogramsguru.com/programs/flexispot/",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "ShareASale",
+   "source_url": "https://affiliateprogramsguru.com/programs/flexispot/"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://affiliateprogramsguru.com/programs/flexispot/",
+    "email": null,
+    "source_url": "https://affiliateprogramsguru.com/programs/flexispot/"
+   }
+  ],
+  "country": "United States",
+  "description": "Standing-desk and ergonomic furniture brand — electric sit-stand desks, desk chairs and workspace accessories — sold through flexispot.com. Its affiliate program runs primarily on ShareASale in the US (with CJ and a direct portal also reported), where new affiliates start at a 5% base commission and high-volume performers can negotiate up to 10%.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://affiliateprogramsguru.com/programs/flexispot/",
+    "summary": "AffiliateProgramsGuru's FlexiSpot program profile (last verified April 2026) reports 5%-10% commission (CPS): 'New affiliates start at the 5% base rate, while high-volume performers can negotiate rates up to 10%', with ShareASale 'the primary platform for US-based affiliates', CJ Affiliate and a direct portal on FlexiSpot's own website also offered, a 30-day cookie, a $50 minimum payout and Net 20 payment terms. The recorded 5% is that corroborated base rate. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/flexispot/",
+    "summary": "Dissenting-figure note: LinkClicky's older CJ listing (updated March 2024) records 3% per sale, and AffiliateMarketingGirl reports a 5%-15% tiered range — figures that bracket the recorded 5% base from below and above; the best-corroborated current base rate on the primary ShareASale route governs this entry."
+   }
+  ],
+  "name": "FlexiSpot",
+  "opportunity": {
+   "application_url": "https://affiliateprogramsguru.com/programs/flexispot/",
+   "source_url": "https://affiliateprogramsguru.com/programs/flexispot/",
+   "title": "FlexiSpot Affiliate Program — directories report a 5% base commission on ShareASale (up to 10% negotiated), 30-day cookie, $50 minimum payout"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "A 5% base corroborated by the freshest directory verification, rising to 10% negotiated — fair on high-ticket desks; older and higher conflicting figures exist and no cap statement is published",
+    "contact_access": "Application through ShareASale; no brand affiliate page or email was verified for this entry",
+    "credibility": "One of the largest standing-desk brands in the US market, with programs documented across several networks",
+    "niche_fit": "Standing desks are a cornerstone of desk-setup UGC — workspace tours, WFH upgrades and desk-build content are natural fits",
+    "opportunity_availability": "Open application through ShareASale (US-primary), subject to approval",
+    "ugc_evidence": "The program is documented across directories as open to reviewers and publishers, but no brand creator page was fetched, so creator evidence is directory-level rather than brand-published"
+   },
+   "ugc_evidence": 12
+  },
+  "socials": [],
+  "website": "https://flexispot.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.upliftdesk.com/affiliate/",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.upliftdesk.com/affiliate/"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.upliftdesk.com/affiliate/",
+    "email": null,
+    "source_url": "https://www.upliftdesk.com/affiliate/"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": "https://www.upliftdesk.com/affiliate/",
+    "email": "hello@upliftdesk.com",
+    "source_url": "https://www.upliftdesk.com/affiliate/"
+   }
+  ],
+  "country": "United States",
+  "description": "Premium standing-desk company — height-adjustable desks, chairs and workspace accessories — sold through upliftdesk.com. Its own Affiliate & Influencers page runs two tracks, one for publishers, reviewers and bloggers and one for creators, publishing a 30-day cookie, complimentary or discounted products for eligible partners and a dedicated affiliate manager — but no commission rate.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.upliftdesk.com/affiliate/",
+    "summary": "UPLIFT Desk's own Affiliate & Influencers page fetched in full: 'Join the UPLIFT Desk affiliate & influencer program... earn commission when your recommendation leads to a purchase', separate tracks for 'publishers, reviewers, bloggers' and for creators who 'bring their workspaces and routines to life through social media content, video, and storytelling', a 30-day cookie window, 'high average order values mean bigger payouts per sales', complimentary or discounted products for eligible partners, a dedicated affiliate manager, and the published contact hello@upliftdesk.com. The page publishes no commission rate, so commission_rate is null rather than guessed. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   }
+  ],
+  "name": "UPLIFT Desk",
+  "opportunity": {
+   "application_url": "https://www.upliftdesk.com/affiliate/",
+   "source_url": "https://www.upliftdesk.com/affiliate/",
+   "title": "UPLIFT Desk Affiliate & Influencer Program — brand's own page runs publisher and creator tracks with a 30-day cookie and a dedicated affiliate manager; no commission rate published; contact hello@upliftdesk.com"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 11,
+   "credibility": 4,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No commission rate is published on the brand's page, so compensation cannot be scored on evidence; high average order values are claimed but unquantified, and no cap statement exists",
+    "contact_access": "Published general email (hello@upliftdesk.com) on the program page, a promised dedicated affiliate manager, and direct application through the brand's site",
+    "credibility": "A long-established US standing-desk brand with a complete program page and staffed support hours",
+    "niche_fit": "Premium standing desks anchor high-end desk-setup content — full workspace builds and studio tours are natural UGC",
+    "opportunity_availability": "Open application through the brand's own page, subject to approval; product perks are limited to eligible partners",
+    "ugc_evidence": "The brand's own page carries a dedicated influencer track for creators on social media and video — direct creator evidence"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.upliftdesk.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/advertiser-terms/70899?setLocale=en_GB",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/advertiser-terms/70899?setLocale=en_GB"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/advertiser-terms/70899?setLocale=en_GB",
+    "email": null,
+    "source_url": "https://ui.awin.com/advertiser-terms/70899?setLocale=en_GB"
+   }
+  ],
+  "country": "United States",
+  "description": "Fresh dog-food subscription company — human-grade, vet-designed meal plans delivered to subscribers — sold through petplate.com. Its program terms on Awin confirm a live affiliate program whose allowed partner types explicitly include content creators and influencers and communities and UGC, while directories report the pay as a flat bounty per new client rather than a percentage.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/advertiser-terms/70899?setLocale=en_GB",
+    "summary": "PetPlate's Awin program terms fetched in full (last updated 05 Aug 2025): the terms confirm a live program, list allowed partner types including 'Content creators and influencers', 'Communities and UGC', 'Social traffic' and 'Editorial content', and set out commission validation rules (no product categories excluded; commission declined for non-new customers among other reasons). The terms publish no commission rate or bounty amount."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.findaffiliates.online/blog/pet-affiliate-programs-for-creators-2026",
+    "summary": "FindAffiliates' creator-focused comparison reports that 'the PetPlate ambassador page confirms a $50 commission for each new client referral and says commissions are paid monthly' — a flat per-client bounty structure rather than a percentage rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://articlesbase.com/business/marketing-and-advertising/affiliate-marketing/petplate-affiliate-program-review-2024-benefits-payments-and-more/",
+    "summary": "Amount-conflict note: other directories report different flat amounts from different eras — a $25 flat fee per sale in one long-running listing, and a by-plan table of $25 per weekly, $50 per monthly and $100 per quarterly subscription in a 2024 review — while percentage claims elsewhere (15%, 25%-50%) conflict with the flat-bounty structure the brand's own ambassador page is reported to publish. Because the pay is a flat bounty whose amount is unsettled across sources, commission_rate is null with the structure documented here. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   }
+  ],
+  "name": "PetPlate",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/advertiser-terms/70899?setLocale=en_GB",
+   "source_url": "https://ui.awin.com/advertiser-terms/70899?setLocale=en_GB",
+   "title": "PetPlate Affiliate Program — live on Awin with content creators and UGC communities explicitly allowed; pay reported as a flat bounty per new client ($50 on the brand's ambassador page), amount unsettled across sources"
+  },
+  "score": {
+   "compensation": 8,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "Pay is a flat bounty per new client rather than a percentage; $50 is reported from the brand's own ambassador page but other sources report $25-$100 by plan or era, so the amount is unsettled and no cap statement exists",
+    "contact_access": "Application through Awin; no affiliate email is published on the pages fetched",
+    "credibility": "An established US fresh-pet-food subscription brand with current, complete program terms on Awin",
+    "niche_fit": "Fresh dog food is a proven pet-owner content category — meal reveals, picky-eater trials and coat and energy updates are natural UGC",
+    "opportunity_availability": "Open application through Awin, subject to the program's terms and approval",
+    "ugc_evidence": "The program's own Awin terms explicitly allow content creators and influencers and communities and UGC as partner types, and the brand runs an ambassador page — direct creator evidence"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.petplate.com"
+ }
+]

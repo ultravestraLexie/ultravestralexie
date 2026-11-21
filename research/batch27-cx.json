@@ -1,0 +1,556 @@
+[
+ {
+  "name": "ConnectedYou",
+  "website": "https://esim.connectedyou.io",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel eSIM store selling data plans for multiple countries, bought at home and activated on arrival. Its own affiliate partner page publishes a 20% starting commission with monthly payouts, states there is no earning limit, and publishes a direct support email for affiliates (esim@connectedyou.io).",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "esim@connectedyou.io",
+    "source_url": "https://esim.connectedyou.io/pages/affiliate-partner-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://esim.connectedyou.io/pages/affiliate-partner-program",
+    "summary": "The brand's own affiliate page: 'You earn 20% or more for every customer you bring', 'When someone purchases an eSIM using your link or coupon, you earn 20% commission. Get monthly payouts', and in its FAQ: 'Earn 20% commission or more on all sales via your affiliate link. There's no earning limit, and payments are made monthly.' The fetched page explicitly states there is no earning limit, so commission_cap is UNCAPPED."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://esim.connectedyou.io/pages/affiliate-partner-program",
+    "summary": "The same page recruits tech influencers, travel bloggers, content creators, eCommerce owners and hospitality partners, offers a free affiliate account with a unique referral link or QR code and real-time dashboard tracking, repeats 'there's no commission limit' in its maximisation answer, and publishes the affiliate support email esim@connectedyou.io. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://esim.connectedyou.io/pages/affiliate-partner-program",
+   "source_url": "https://esim.connectedyou.io/pages/affiliate-partner-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "ConnectedYou Affiliate Partner Program (Brand direct)",
+   "application_url": "https://esim.connectedyou.io/pages/affiliate-partner-program",
+   "source_url": "https://esim.connectedyou.io/pages/affiliate-partner-program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 16,
+   "compensation": 18,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "eSIM data is a core travel-creator staple - arrival, connectivity and travel-hack content for every destination audience.",
+    "ugc_evidence": "The brand's own page is creator-first: it names influencers, travel bloggers and content creators, and supplies referral links, QR codes for offline marketing and a real-time dashboard.",
+    "compensation": "20% starting commission with monthly payouts, published on the brand's own page, and the page explicitly states there is no earning limit - verified UNCAPPED.",
+    "contact_access": "A direct affiliate support email (esim@connectedyou.io) is published on the program page itself - unusually accessible for a program this size.",
+    "opportunity_availability": "Free affiliate account from the brand's own page; sign-up is a simple partner registration.",
+    "credibility": "A real operating eSIM storefront with a detailed program page, but a smaller, younger brand than the major travel names in the directory."
+   }
+  }
+ },
+ {
+  "name": "Cellesim",
+  "website": "https://cellesim.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel eSIM brand covering 190+ countries in 24 languages. Its own partner page pays 20% cash (not store credit) on every attributed sale with a 30-day first-touch cookie, a $50 payout threshold and NET-30 payment cycles via PayPal, Wise or bank transfer - and its FAQ states there is no cap on how much a partner can earn.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://cellesim.com/en/partners",
+    "summary": "The brand's own partner page: 'earn 20% cash on every sale', '20% cash, not credits', a 30-day cookie and a $50 minimum payout on NET-30 cycles. Its FAQ answers 'How much do I earn?' with: 'You earn 20% cash on the order value of every eSIM sale attributed to your link. There is no cap on how much you can earn.' The fetched page explicitly states no cap, so commission_cap is UNCAPPED."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://cellesim.com/en/partners",
+    "summary": "The same page says it is 'Trusted by travel creators, bloggers and newsletters in 190+ countries', that most creators are approved within a couple of days with no traffic minimums, and that audience size does not matter ('we care more about relevance and trust'). That is eligibility evidence, not a creator count, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://cellesim.com/en/partners",
+   "source_url": "https://cellesim.com/en/partners",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Cellesim Partner Program (Brand direct)",
+   "application_url": "https://cellesim.com/en/partners",
+   "source_url": "https://cellesim.com/en/partners"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 16,
+   "compensation": 18,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "eSIMs for 190+ countries fit any travel creator's toolkit - destination guides, packing lists and arrival tips.",
+    "ugc_evidence": "The partner page is built for creators: personal short links, deep links to country pages, a live dashboard and explicit 'no big audience needed' language.",
+    "compensation": "20% cash on every sale with a 30-day cookie, published on the brand's own page, and the FAQ explicitly states there is no cap on earnings - verified UNCAPPED.",
+    "contact_access": "Application runs through the brand's own partner page; no direct partnerships email is published on it.",
+    "opportunity_availability": "Open application with no traffic minimums and a stated couple-of-days approval.",
+    "credibility": "A real, operating eSIM storefront with unusually transparent payout terms, but a young brand with a short track record."
+   }
+  }
+ },
+ {
+  "name": "Simsima",
+  "website": "https://simsima.io",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel eSIM brand whose own affiliate page pays a flat 12% commission on every attributed sale, tracked by link or promo code. The program is free with no minimum audience size, accepts applications via a social profile, and its FAQ states there is no cap on how much an affiliate can earn.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://simsima.io/en/affiliate-program",
+    "summary": "The brand's own affiliate page: 'earn a 12% commission on every sale' and, in the program conditions, 'Earn a 12% commission on every eSIM sale attributed to you'. Its FAQ answers 'How much can I earn?' with: 'You earn a 12% commission on the value of every eSIM order made through your referral link or promo code. There is no cap on how much you can earn.' The fetched page explicitly states no cap, so commission_cap is UNCAPPED."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://simsima.io/en/affiliate-program",
+    "summary": "The same page: 'Free to join, with no minimum audience size required', 'you can apply with your social profile', and it names content creators, bloggers, YouTubers and Instagram/TikTok creators as ideal partners. Commissions are confirmed after the refund window and paid on request from the dashboard. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 12,
+   "application_url": "https://simsima.io/en/affiliate-program",
+   "source_url": "https://simsima.io/en/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Simsima Affiliate Program (Brand direct)",
+   "application_url": "https://simsima.io/en/affiliate-program",
+   "source_url": "https://simsima.io/en/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A simple, honest eSIM offer that travel creators can recommend in any destination content.",
+    "ugc_evidence": "The program page explicitly recruits social creators and lets them apply with a social profile instead of a website - genuinely creator-facing mechanics.",
+    "compensation": "12% on every sale, published on the brand's own page, with an FAQ that explicitly states there is no cap on earnings - verified UNCAPPED.",
+    "contact_access": "Application runs through the brand's own page; no direct partnerships email is published on it.",
+    "opportunity_availability": "Free to join, no minimum audience, no website required - among the lowest-friction applications in this round.",
+    "credibility": "A real operating eSIM storefront with clear published conditions, but a small, young brand."
+   }
+  }
+ },
+ {
+  "name": "SimFuse",
+  "website": "https://simfuse.app",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Travel eSIM app and store covering 209 destinations, sold with per-GB pricing in 18 languages. Its own partner page starts affiliates at 10% of the cash value of every sale - including renewals and top-ups - pays on activation (or at day 90 at the latest), and its FAQ states there is no cap on how much you can earn in a month.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://simfuse.app/affiliates/",
+    "summary": "The brand's own affiliates page: 'Earn 10% on every eSIM you refer', a 30-day referral window, and commission that 'pays out when they activate the eSIM, and after 90 days it pays whether they activated it or not'. Its FAQ answers 'How much do I earn?' with: '10% of the cash value of every sale you refer, to start... and there is no cap on how much you can earn in a month.' The fetched page explicitly states no cap, so commission_cap is UNCAPPED."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://simfuse.app/affiliates/",
+    "summary": "The same page is 'Built for people with a travel audience' - creators and bloggers, comparison sites, tour operators and communities - with 'no minimum amount of traffic', human-reviewed applications, a live dashboard, deep links and a partner API. Renewals and top-ups also earn. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 10,
+   "application_url": "https://simfuse.app/affiliates/",
+   "source_url": "https://simfuse.app/affiliates/",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "SimFuse Partner Programme (Brand direct)",
+   "application_url": "https://simfuse.app/affiliates/",
+   "source_url": "https://simfuse.app/affiliates/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 15,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "eSIMs across 209 destinations with honest per-GB pricing - an easy, credible recommendation for travel audiences.",
+    "ugc_evidence": "A creator-built partner page: dashboard, deep links to specific plans, a partner API and explicit no-minimum-traffic language.",
+    "compensation": "10% starting rate on the full cash value, renewals included, published on the brand's own page, with an FAQ explicitly stating no cap on monthly earnings - verified UNCAPPED; higher rates are by conversation after proven volume.",
+    "contact_access": "Application runs through the brand's own page; no direct partnerships email is published on it.",
+    "opportunity_availability": "Open application, human-reviewed for genuine traffic rather than size.",
+    "credibility": "A real operating eSIM product with exceptionally transparent published terms, but a young brand."
+   }
+  }
+ },
+ {
+  "name": "Kaya Movement",
+  "website": "https://www.kayamovement.com",
+  "country": null,
+  "category_slug": "fitness",
+  "description": "Sustainable activewear and movement-apparel brand running a hands-on ambassador program through UpPromote. Its own ambassadors page publishes a 20% commission on every sale made through an ambassador's link or coupon, a 90-day link window, free merchandise to create with, and twice-monthly payouts - with a published contact email for questions.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "contact@kayamovement.com",
+    "source_url": "https://www.kayamovement.com/pages/ambassadors"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.kayamovement.com/pages/ambassadors",
+    "summary": "The brand's own ambassadors page: 'You get free merchandise, 20% commission for every sale made through your referral link and coupon and 30% lifetime discount to shop in our store', 'An Ambassador link is limited to 90 Calendar Days per customer', and 'Get paid on 14th & 28th of every month via Paypal or Bank Transfer', tracked on an UpPromote dashboard (af.uppromote.com). No cap statement appears on the page, so commission_cap stays unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.kayamovement.com/pages/ambassadors",
+    "summary": "The same page sets the creator mechanics: ambassadors are chosen for brand fit, must create a minimum of 2 images and a 15-second reel with the products within 2 weeks, gift followers 15% off, and join on a 6-month trial. It publishes the contact email contact@kayamovement.com for program questions. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 20,
+   "application_url": "https://www.kayamovement.com/pages/ambassadors",
+   "source_url": "https://www.kayamovement.com/pages/ambassadors",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kaya Movement Ambassador Program (UpPromote)",
+   "application_url": "https://www.kayamovement.com/pages/ambassadors",
+   "source_url": "https://www.kayamovement.com/pages/ambassadors"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 17,
+   "compensation": 16,
+   "contact_access": 12,
+   "opportunity_availability": 6,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Sustainable activewear with a strong visual identity is prime fitness and yoga UGC - movement demos, outfit content and wellness routines.",
+    "ugc_evidence": "A true creator program, not a bare affiliate link: free merchandise to film with, defined content deliverables, a personalised coupon, a live dashboard and marketing tools library.",
+    "compensation": "20% on every sale through link or coupon with a 90-day window and twice-monthly payouts, published on the brand's own page; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "The program page publishes a direct email (contact@kayamovement.com) for ambassador questions.",
+    "opportunity_availability": "Selective rather than open: ambassadors are 'specially chosen' for brand fit and start on a 6-month trial, which limits availability.",
+    "credibility": "A real, operating DTC activewear brand with detailed published program terms, but small and niche."
+   }
+  }
+ },
+ {
+  "name": "Mountainsmith",
+  "website": "https://mountainsmith.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Colorado outdoor gear brand founded in 1979 - inventor of the lumbar pack - selling backpacks, tents and camp gear from Golden, CO. Its own affiliate page publishes a 10% base commission with free shipping on merchandise orders, and routes applications through AvantLink.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://mountainsmith.com/pages/outing-calendar",
+    "summary": "The brand's own affiliate page: 'join the Mountainsmith Affiliate program and earn 10% on every qualified buyer you send our way' and, in the program highlights, '10% base commission' plus 'Free shipping on orders that include Mountainsmith merch.' No cap statement appears on the page, so commission_cap stays unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://mountainsmith.com/pages/outing-calendar",
+    "summary": "The same page: 'We've partnered with AvantLink, the leader in Affiliate Marketing technology, to offer you a robust set of affiliate tools free of charge', with APPLY NOW routing to AvantLink, and it recruits websites or blogs related to outdoor gear. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 10,
+   "application_url": "https://mountainsmith.com/pages/outing-calendar",
+   "source_url": "https://mountainsmith.com/pages/outing-calendar",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mountainsmith Affiliate Program (AvantLink)",
+   "application_url": "https://mountainsmith.com/pages/outing-calendar",
+   "source_url": "https://mountainsmith.com/pages/outing-calendar"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Backpacks, lumbar packs, tents and camp gear are core hiking, camping and backpacking creator content.",
+    "ugc_evidence": "A documented AvantLink publisher program with affiliate tools recruited from the brand's own page; publisher-facing rather than social-creator-first.",
+    "compensation": "10% base commission published on the brand's own page; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "Applications route through AvantLink from the brand's page; no direct partnerships email is published on it.",
+    "opportunity_availability": "Open application from the brand's own page into AvantLink, free to join.",
+    "credibility": "Founded in 1979 in the Rockies and headquartered in Golden, Colorado - a heritage outdoor brand with a 40+ year track record."
+   }
+  }
+ },
+ {
+  "name": "Woolly Clothing",
+  "website": "https://www.woolly.clothing",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Seattle-born merino wool basics brand (founded 2013) making underwear, basics, athleisure and lifestyle pieces from 95-100% merino under a 'More Wool, Less Plastic' mantra. Its Awin merchant profile publishes a 15% commission on sales made through an affiliate link, a 7-day attribution window, a $100+ average order value and free products for affiliates.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "network_merchant_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/86083",
+    "summary": "The brand's own Awin merchant profile: 'Earn 15% Commissions On Sales Made Through Your Affiliate Link', with a 7-day attribution (cookie) period, 'We average $100+ AOV' and 'Get Free Woolly Products' for affiliates. No cap statement appears on the profile, so commission_cap stays unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "network_merchant_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/86083",
+    "summary": "The same profile invites publishers to 'Join the movement' and share where they Woolly, describing a rapidly growing merino basics line that started with underwear. It is an official network programme page for the brand; no creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 15,
+   "application_url": "https://ui.awin.com/merchant-profile/86083",
+   "source_url": "https://ui.awin.com/merchant-profile/86083",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Woolly Clothing Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/86083",
+   "source_url": "https://ui.awin.com/merchant-profile/86083"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 16,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Merino basics and underwear are natural everyday-fashion, travel-packing and comfort-content staples - one-bag travel and capsule wardrobe videos especially.",
+    "ugc_evidence": "An official Awin programme with free products for affiliates and a $100+ AOV story; publisher-oriented, but the free-product mechanic suits UGC creators.",
+    "compensation": "15% on sales through the affiliate link, published on the brand's own Awin merchant profile - a strong rate for apparel; the 7-day cookie is short, and no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "Contact runs through the Awin programme; no direct partnerships email is published on the profile.",
+    "opportunity_availability": "Open application through the Awin merchant profile, approval-based.",
+    "credibility": "A Seattle DTC brand operating since 2013 with national press coverage of its collections - established, if still niche."
+   }
+  }
+ },
+ {
+  "name": "Mountain Khakis",
+  "website": "https://www.mountainkhakis.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Rugged outdoor apparel brand built around durable khakis and mountain-town clothing. Its own affiliate page publishes a 10% commission on every sale, a 30-day cookie window and a high average order value, with sign-up through Impact and a dedicated affiliate support team.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.mountainkhakis.com/pages/affiliate-program",
+    "summary": "The brand's own affiliate page: 'start earning a generous 10% commission on every sale you drive to our website' and, in the program highlights, '10% Commission... on every sale generated through your unique affiliate link' with a '30-Day Cookie Window'. No cap statement appears on the page, so commission_cap stays unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.mountainkhakis.com/pages/affiliate-program",
+    "summary": "The same page routes sign-up through its 'trusted partner platform' linking to app.impact.com (Impact), and promises a dedicated affiliate support team, regular promotions, and exclusive content, banners and text links. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 10,
+   "application_url": "https://www.mountainkhakis.com/pages/affiliate-program",
+   "source_url": "https://www.mountainkhakis.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mountain Khakis Affiliate Program (Impact)",
+   "application_url": "https://www.mountainkhakis.com/pages/affiliate-program",
+   "source_url": "https://www.mountainkhakis.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 14,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Durable outdoor apparel fits mountain-town fashion, workwear and travel-clothing content for men especially.",
+    "ugc_evidence": "A documented Impact program recruited from the brand's own page with banners, text links and exclusive content for affiliates; publisher-facing rather than creator-portal-first.",
+    "compensation": "10% on every sale with a 30-day cookie, published on the brand's own page; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "A dedicated affiliate team is promised on the page with dashboard tracking; applications route through Impact and no direct email is published.",
+    "opportunity_availability": "Open application from the brand's own page into Impact, free to join.",
+    "credibility": "A long-running, well-distributed outdoor apparel brand with national retail presence."
+   }
+  }
+ },
+ {
+  "name": "Christian Strong",
+  "website": "https://www.christianstrong.com",
+  "country": null,
+  "category_slug": "fashion",
+  "description": "Faith-based apparel brand selling Christian-themed t-shirts and clothing. Its affiliate program runs on ShareASale at 20% per sale - a figure agreed by two independent program listings - with a 30-day cookie, and the brand's own affiliate page offers free signup with application review inside 48 hours.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/christian-strong/",
+    "summary": "GetLasso's program listing: Commission Rate '20% Per Sale', Cookie Duration '30 Days' for the Christian Strong affiliate program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/christian-strong/",
+    "summary": "LinkClicky's program listing (updated March 2024) independently states the same terms: Affiliate Platform 'ShareASale', Commission '20% per sale', described as 'what's officially listed with their affiliate program as the payout'. The brand's own affiliate page confirms free signup, review within 48 hours and banner/coupon/text-ad tools, but does not publish the rate itself. No source publishes a cap statement, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 20,
+   "application_url": "https://christianstrong.com/pages/christian-strong-affiliate-page",
+   "source_url": "https://getlasso.co/affiliate/christian-strong/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Christian Strong Affiliate Program (ShareASale)",
+   "application_url": "https://christianstrong.com/pages/christian-strong-affiliate-page",
+   "source_url": "https://getlasso.co/affiliate/christian-strong/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 11,
+   "compensation": 16,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Faith-themed apparel is a defined fashion niche with a loyal audience - strong fit for faith and lifestyle creators, narrower outside it.",
+    "ugc_evidence": "The brand's own affiliate page documents coupons, banners and text ads with a 48-hour review, but the program is a standard network listing rather than a creator portal.",
+    "compensation": "20% per sale on ShareASale, agreed by two independent listings (publicly reported, not brand-published); no cap statement was found in any fetched source, so the cap is honestly unknown.",
+    "contact_access": "Contact runs through the ShareASale program and the brand's own signup page; no direct partnerships email is published in the fetched sources.",
+    "opportunity_availability": "Free application from the brand's own affiliate page with a stated 48-hour review.",
+    "credibility": "An established niche DTC apparel brand; the rate rests on directory agreement rather than a brand-published page, which caps confidence."
+   }
+  }
+ },
+ {
+  "name": "Garage Grown Gear",
+  "website": "https://www.garagegrowngear.com",
+  "country": null,
+  "category_slug": "travel",
+  "description": "Outdoor gear retailer and magazine championing small garage-grown gear startups, stocking 50+ emerging ultralight and cottage brands. Its own affiliate page publishes an 8% commission and a 30-day cookie, with applications through AvantLink and a dedicated support team.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.garagegrowngear.com/pages/affiliate-program",
+    "summary": "The brand's own affiliate page: 'join the Garage Grown Gear Affiliate program and earn 8% on every qualified buyer you send our way' and, in the program highlights, '8% Commission' with a '30 day Cookie Life'. No cap statement appears on the page, so commission_cap stays unknown."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.garagegrowngear.com/pages/affiliate-program",
+    "summary": "The same page: 'We've partnered with AvantLink... to offer you a robust set of Affiliate tools free of charge', 'Over 50 Brands to Choose From', 'Quick and Easy Signup' and a 'Dedicated Support Team', recruiting websites or blogs related to outdoor gear. No creator counts are published, so creator_saturation stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 8,
+   "application_url": "https://www.garagegrowngear.com/pages/affiliate-program",
+   "source_url": "https://www.garagegrowngear.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Garage Grown Gear Affiliate Program (AvantLink)",
+   "application_url": "https://www.garagegrowngear.com/pages/affiliate-program",
+   "source_url": "https://www.garagegrowngear.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A storefront of 50+ cottage ultralight brands is a goldmine for gear-list, thru-hike and backpacking content that bigger retailers cannot match.",
+    "ugc_evidence": "A documented AvantLink program with a dedicated support team recruited from the retailer's own page; publisher-facing rather than social-creator-first.",
+    "compensation": "8% per sale with a 30-day cookie, published on the retailer's own page; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "Applications route through AvantLink from the retailer's page; no direct partnerships email is published on it.",
+    "opportunity_availability": "Open application from the brand's own page into AvantLink, free and described as quick signup.",
+    "credibility": "A well-known niche retailer and magazine in the ultralight community, though small next to national outdoor chains."
+   }
+  }
+ }
+]
