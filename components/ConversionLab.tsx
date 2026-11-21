@@ -45,7 +45,7 @@ function ScoreCell({ label, value }: { label: string; value: number }) {
       <div className="h-1.5 bg-white/10 rounded-full overflow-hidden mt-1">
         <div
           className="h-full bg-cyan-400 rounded-full"
-          style={{ width: `${Math.max(0, Math.min(100, value))}%` }}
+          style={{ width: `${Math.max(0, Math.min(10, value)) * 10}%` }}
         />
       </div>
     </div>
@@ -81,7 +81,7 @@ function VariantCard({
           </div>
           <div className="text-2xl font-black text-cyan-300">
             {variant.panelAverage}
-            <span className="text-sm text-gray-500">/100</span>
+            <span className="text-sm text-gray-500">/10</span>
           </div>
         </div>
       </div>

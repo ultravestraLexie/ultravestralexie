@@ -19,9 +19,9 @@ const PersonaSchema = z.object({
   personality: z.string(),
   firstReaction: z.string(),
   innerThought: z.string(),
-  interestScore: z.number().min(0).max(100),
-  trustScore: z.number().min(0).max(100),
-  desireScore: z.number().min(0).max(100),
+  interestScore: z.number().min(0).max(10),
+  trustScore: z.number().min(0).max(10),
+  desireScore: z.number().min(0).max(10),
   biggestObjection: z.string(),
   missingEvidence: z.string(),
   improvement: z.string(),
@@ -249,7 +249,9 @@ ${persona.trait}
 
 Return one buyer report for this buyer only. Set the name field to
 exactly "${persona.name}". Do not analyze, quote, or speak for any
-other buyer.
+other buyer. Score interestScore, trustScore and desireScore from 0
+to 10 — 0 means none at all, 10 means the strongest possible
+reaction. Never score above 10.
       `,
             prompt: `
 Analyze this creator's sales video from the perspective of the

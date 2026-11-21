@@ -27,9 +27,9 @@ const RequestSchema = z.object({
 
 const PersonaReactionSchema = z.object({
   name: z.string(),
-  interestScore: z.number().min(0).max(100),
-  trustScore: z.number().min(0).max(100),
-  desireScore: z.number().min(0).max(100),
+  interestScore: z.number().min(0).max(10),
+  trustScore: z.number().min(0).max(10),
+  desireScore: z.number().min(0).max(10),
   outcome: z.enum([
     "likely_to_scroll_away",
     "curious_but_unconvinced",
@@ -185,7 +185,7 @@ in this exact order, with these exact names:
    it the right choice?" Considers long-term value, quality, ethics
    and alternatives.
 For each buyer give interestScore, trustScore and desireScore
-(0–100 simulated reaction strengths — NOT probabilities), one
+(0–10 simulated reaction strengths — NOT probabilities), one
 likely outcome, and a oneLineReaction in that buyer's own voice.
 
 Then COMPARE the four versions: which version earns the strongest

@@ -72,9 +72,9 @@ const PersonaSchema = z.object({
   personality: z.string(),
   firstReaction: z.string(),
   innerThought: z.string(),
-  interestScore: z.number().min(0).max(100),
-  trustScore: z.number().min(0).max(100),
-  desireScore: z.number().min(0).max(100),
+  interestScore: z.number().min(0).max(10),
+  trustScore: z.number().min(0).max(10),
+  desireScore: z.number().min(0).max(10),
   biggestObjection: z.string(),
   missingEvidence: z.string(),
   improvementSuggestion: z.string(),
@@ -246,6 +246,10 @@ The five buyer personalities, and the core question each one asks:
    Responds to immediate relevance, simplicity and convenience.
 5. Conscious Buyer — "Do I really need this, and is it the right choice?"
    Considers long-term value, quality, ethics and alternatives.
+
+Score each buyer's interestScore, trustScore and desireScore from 0
+to 10 — 0 means none at all, 10 means the strongest possible
+reaction. Never score above 10.
 
 IMPORTANT HONESTY RULES:
 - React ONLY to what is actually in the frames and, when provided,

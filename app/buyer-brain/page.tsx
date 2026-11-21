@@ -196,7 +196,7 @@ function ReactionRadar({
     { label: "TRUST", value: trust, angle: 150 },
     { label: "DESIRE", value: desire, angle: 30 },
   ];
-  const clamp = (v: number) => Math.max(0, Math.min(100, v)) / 100;
+  const clamp = (v: number) => Math.max(0, Math.min(10, v)) / 10;
   const point = (angle: number, frac: number) => {
     const rad = (angle * Math.PI) / 180;
     return [cx + r * frac * Math.cos(rad), cy + r * frac * Math.sin(rad)] as const;
@@ -335,13 +335,13 @@ function PanelVerdict({ personas }: { personas: Persona[] }) {
         </div>
         <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm">
           <span className="text-gray-300">
-            Average interest <strong className="text-cyan-300">{avg((p) => p.interestScore)}/100</strong>
+            Average interest <strong className="text-cyan-300">{avg((p) => p.interestScore)}/10</strong>
           </span>
           <span className="text-gray-300">
-            Average trust <strong className="text-cyan-300">{avg((p) => p.trustScore)}/100</strong>
+            Average trust <strong className="text-cyan-300">{avg((p) => p.trustScore)}/10</strong>
           </span>
           <span className="text-gray-300">
-            Average desire <strong className="text-cyan-300">{avg((p) => p.desireScore)}/100</strong>
+            Average desire <strong className="text-cyan-300">{avg((p) => p.desireScore)}/10</strong>
           </span>
         </div>
         <p className="text-sm text-gray-400 mt-3">{outcomeLine}</p>
@@ -714,12 +714,12 @@ export default function BuyerBrainPage() {
                         <div key={label as string}>
                           <div className="flex justify-between text-xs mb-2">
                             <span>{label}</span>
-                            <span className="text-cyan-300">{score}/100</span>
+                            <span className="text-cyan-300">{score}/10</span>
                           </div>
                           <div className="h-2 bg-white/10 rounded-full overflow-hidden">
                             <div
                               className="h-full bg-cyan-400 rounded-full"
-                              style={{ width: `${score}%` }}
+                              style={{ width: `${Number(score) * 10}%` }}
                             />
                           </div>
                         </div>

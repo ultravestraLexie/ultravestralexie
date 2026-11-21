@@ -633,12 +633,12 @@ export default function VideoTest() {
                       <div key={label}>
                         <div className="flex justify-between text-xs mb-2">
                           <span>{label}</span>
-                          <span className="text-cyan-300">{score}/100</span>
+                          <span className="text-cyan-300">{score}/10</span>
                         </div>
                         <div className="h-2 bg-white/10 rounded-full overflow-hidden">
                           <div
                             className="h-full bg-cyan-400 rounded-full"
-                            style={{ width: `${score}%` }}
+                            style={{ width: `${score * 10}%` }}
                           />
                         </div>
                       </div>
