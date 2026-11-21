@@ -1,0 +1,645 @@
+[
+ {
+  "name": "MamaSuds",
+  "website": "https://www.mamasuds.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "US maker of non-toxic, plant-and-mineral-based home cleaning products — laundry detergent, dish soap and household cleaners — sold direct through its own website.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.mamasuds.com/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://www.mamasuds.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.mamasuds.com/pages/affiliate-program",
+    "summary": "MamaSuds' own affiliate program page states affiliates earn 20% of MamaSuds purchases made through their affiliate link, that you must be a MamaSuds customer to be an affiliate, and that conversions are not counted toward renewing subscriptions; the program runs on UpPromote and pays a given month's earnings at the end of the following month."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://www.mamasuds.com/pages/affiliate-program",
+    "summary": "The same official page answers its FAQ 'Is there a monthly earning cap?' with: 'Nope. We are more than happy to pay out whatever you have earned in a given month!' — an explicit no-earnings-cap statement on the brand's own page, so commission_cap is recorded as uncapped."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.mamasuds.com/pages/affiliate-program",
+    "summary": "The page states up front that the program is an affiliate program and explicitly NOT a multi-level marketing program: affiliates earn only from sales directly tied to their own link."
+   }
+  ],
+  "affiliate": {
+   "network": "UpPromote",
+   "commission_rate": 20,
+   "application_url": "https://www.mamasuds.com/pages/affiliate-program",
+   "source_url": "https://www.mamasuds.com/pages/affiliate-program",
+   "commission_cap": "uncapped",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.mamasuds.com/pages/affiliate-program",
+   "source_url": "https://www.mamasuds.com/pages/affiliate-program",
+   "title": "MamaSuds Affiliate Program (via UpPromote)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 18,
+   "contact_access": 8,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Non-toxic home cleaning staples are a staple home/UGC demo category (laundry and cleaning routines film well).",
+    "ugc_evidence": "An open affiliate program aimed at customers-creators exists on the official site, but no large published creator cohort or UGC campaign evidence was found.",
+    "compensation": "Published 20% commission on the brand's own page plus an explicit no-monthly-earning-cap FAQ answer — top band for this group.",
+    "contact_access": "A public program page with signup via UpPromote, but no public affiliate contact email was published (the page's email was masked in retrieval).",
+    "opportunity_availability": "Open signup, but restricted: affiliates must already be MamaSuds customers and the program is US-only, with subscription renewals excluded.",
+    "credibility": "Established direct-to-consumer cleaning brand with its own storefront and an explicitly anti-MLM program statement."
+   }
+  }
+ },
+ {
+  "name": "Mixtiles",
+  "website": "https://www.mixtiles.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Photo-printing brand that turns phone photos into stickable, damage-free wall tiles and framed prints, ordered through its website and app.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://creators.mixtiles.com",
+    "email": "creators@mixtiles.com",
+    "source_url": "https://creators.mixtiles.com"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://creators.mixtiles.com",
+    "summary": "Mixtiles' own Creator Program page (creators.mixtiles.com) offers creators 20% commission on every sale made through their ambassador link, plus monthly view bonuses for TikTok and Instagram content, ad-spend bonuses and free product; it is open to US-based creators and does not require a large following."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://creators.mixtiles.com",
+    "summary": "The creator program page publishes creators@mixtiles.com as the program contact."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://creators.mixtiles.com",
+    "summary": "The page's line about top creators earning $10,000-$15,000+ per month is an earnings projection, not a cap statement; no earnings cap is stated anywhere on the page, so commission_cap stays unknown (not uncapped)."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": 20,
+   "application_url": "https://creators.mixtiles.com",
+   "source_url": "https://creators.mixtiles.com",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://creators.mixtiles.com",
+   "source_url": "https://creators.mixtiles.com",
+   "title": "Mixtiles Creator Program"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 16,
+   "compensation": 17,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Photo tiles are a highly visual home-decor product built for before/after wall content — near-perfect UGC fit.",
+    "ugc_evidence": "A dedicated creator program that pays extra monthly bonuses for TikTok/Instagram views shows structured, ongoing creator collaboration.",
+    "compensation": "Published 20% commission plus view and ad-spend bonuses and free product; no cap is stated, so it is not scored as uncapped.",
+    "contact_access": "A dedicated creator portal plus a published program email (creators@mixtiles.com) — top band.",
+    "opportunity_availability": "Open application for US-based creators with no large-following requirement stated.",
+    "credibility": "Large, well-known direct-to-consumer photo brand with mainstream retail/app presence."
+   }
+  }
+ },
+ {
+  "name": "Hiboy",
+  "website": "https://www.hiboy.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Electric mobility brand selling commuter e-scooters, e-bikes and riding accessories direct through hiboy.com.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@hiboy.com",
+    "source_url": "https://www.hiboy.com/pages/hiboy-affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.hiboy.com/pages/hiboy-affiliate",
+    "summary": "Hiboy's own affiliate page presents its affiliate program (ShareASale and AvantLink network logos shown; the brand's Canadian page states ShareASale explicitly) and publishes affiliate@hiboy.com as the program contact."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/hiboy/",
+    "summary": "Third-party listings conflict on the rate: Lasso lists 8% flat, Hiboy's Canadian page says 'up to 8%' (a ceiling), and an ambassador listing says 6% — so commission_rate is recorded as null rather than guessing."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/hiboy",
+    "summary": "Rateful's TikTok Shop analysis estimates roughly 94% of Hiboy's TikTok Shop sales come through affiliate creators — strong evidence the brand sells heavily through creator content."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://www.hiboy.com/pages/hiboy-affiliate",
+   "source_url": "https://www.hiboy.com/pages/hiboy-affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.hiboy.com/pages/hiboy-affiliate",
+   "source_url": "https://www.hiboy.com/pages/hiboy-affiliate",
+   "title": "Hiboy Affiliate Program (ShareASale / AvantLink)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 18,
+   "compensation": 10,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "E-scooters and e-bikes are core tech/commuter-review content with strong demo value.",
+    "ugc_evidence": "Rateful estimates ~94% of the brand's TikTok Shop sales are affiliate-creator driven — among the strongest UGC signals in this group.",
+    "compensation": "A real network program exists but published rates conflict (8% flat vs up to 8% vs 6%), so the rate is null and compensation scores mid-range.",
+    "contact_access": "Published affiliate contact email on the brand's own program page plus network signup routes.",
+    "opportunity_availability": "Open network applications via ShareASale/AvantLink.",
+    "credibility": "Established e-mobility brand with its own storefront and multi-network affiliate presence."
+   }
+  }
+ },
+ {
+  "name": "Heybike",
+  "website": "https://www.heybike.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Electric bike brand established in 2021 selling folding, commuter, step-through and fat-tire e-bikes and accessories direct through heybike.com.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@heybike.com",
+    "source_url": "https://www.heybike.com/pages/heybike-affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.heybike.com/pages/heybike-affiliate-program",
+    "summary": "Heybike's own affiliate page says applicants apply via Impact or AvantLink ('Heybike's affiliate network partner'), that the program terms are the same across all networks, and publishes affiliate@heybike.com for questions."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://sports.heybike.com/pages/affiliate",
+    "summary": "Rates conflict across the brand's own surfaces and listings: the Heybike Sports subdomain says 'Earn 5% commission', Awin's UK profile says 'up to 5%' (a ceiling), and an older network listing showed 3% (now inactive) — so commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://www.heybike.com/pages/heybike-affiliate-program",
+   "source_url": "https://www.heybike.com/pages/heybike-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.heybike.com/pages/heybike-affiliate-program",
+   "source_url": "https://www.heybike.com/pages/heybike-affiliate-program",
+   "title": "Heybike Affiliate Program (Impact / AvantLink)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Affordable e-bikes are a proven review/demo category for tech and outdoor creators.",
+    "ugc_evidence": "The brand recruits influencers and creators through its network programs (its Awin profile explicitly seeks social media influencers and creators), but no quantified creator-sales evidence was published.",
+    "compensation": "Program is real and network-run, but the rate is unpublished on the main page and conflicts across sources (5% vs up to 5% vs 3%), so it is recorded null.",
+    "contact_access": "Published affiliate email on the brand's own page plus two network application routes.",
+    "opportunity_availability": "Open applications via Impact or AvantLink with identical terms.",
+    "credibility": "Established 2021 e-bike brand with US/EU storefronts and multi-network programs."
+   }
+  }
+ },
+ {
+  "name": "Segway",
+  "website": "https://store.segway.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Segway-Ninebot's US store selling self-balancing transporters, electric scooters, e-bikes and accessories.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://store.segway.com/affiliate-program",
+    "email": null,
+    "source_url": "https://store.segway.com/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://store.segway.com/affiliate-program",
+    "summary": "Segway's official affiliate program page (retrieved via search crawl; the page itself renders as a JS shell) states affiliates join through ShareASale, CJ or AvantLink, with a 3-10% commission range and a 30-day cookie."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/segway/",
+    "summary": "Third-party listings conflict inside the brand's own stated range (3% vs 6%), and a range is not a single rate — so commission_rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://store.segway.com/affiliate-program",
+   "source_url": "https://store.segway.com/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://store.segway.com/affiliate-program",
+   "source_url": "https://store.segway.com/affiliate-program",
+   "title": "Segway Affiliate Program (ShareASale / CJ / AvantLink)"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 12,
+   "compensation": 10,
+   "contact_access": 6,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Flagship e-scooter/transporter brand — a core tech-review niche with high-ticket products.",
+    "ugc_evidence": "Runs creator-relevant network programs on three major networks, but no published creator cohort or UGC campaign data was found.",
+    "compensation": "Only a 3-10% range is published and listings conflict within it, so the rate is null and compensation scores mid-range.",
+    "contact_access": "No public affiliate contact email was found; the route is the program page and network signup.",
+    "opportunity_availability": "Open applications through three major affiliate networks.",
+    "credibility": "One of the best-known personal-mobility brands in the world, sold through its own US store."
+   }
+  }
+ },
+ {
+  "name": "Goal Zero",
+  "website": "https://goalzero.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Portable power brand founded in 2009 selling solar generators, power stations, solar panels and lighting for outdoor, off-grid and home-backup use.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://preparedbee.com/blogs/blog/11-best-survival-affiliate-programs-that-pay-out-incredible-commissions",
+    "summary": "An October 2026 check of Goal Zero's official program page reports a dynamic commission of up to 10%, a 30-day cookie, average order value above $600, creative assets and an affiliate manager, with the program managed through Partnerize."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://partnerize.com/resources/blog/the-best-affiliate-programs-in-the-usa",
+    "summary": "Rate sources conflict: Partnerize's own blog lists Goal Zero at 2% commission, the official page describes a dynamic rate of up to 10% (a ceiling), and Lasso lists 5% — so commission_rate is recorded as null."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://preparedbee.com/blogs/blog/11-best-survival-affiliate-programs-that-pay-out-incredible-commissions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": null,
+   "source_url": "https://preparedbee.com/blogs/blog/11-best-survival-affiliate-programs-that-pay-out-incredible-commissions",
+   "title": "Goal Zero Affiliate Program (Partnerize / Ascend)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 5,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Portable power stations and solar gear are a strong tech/outdoor review niche with very high order values.",
+    "ugc_evidence": "A managed network program with an affiliate manager exists, but no published creator-content evidence was found.",
+    "compensation": "Dynamic rate described only as 'up to 10%' on the official page and conflicting figures elsewhere (2%, 5%), so the rate is null.",
+    "contact_access": "No public program contact email or direct application URL could be verified; joining runs through Partnerize/Ascend.",
+    "opportunity_availability": "Open through Partnerize, but the application route is not published on a brand page we could fetch.",
+    "credibility": "Category-defining portable power brand founded in 2009 with global distribution."
+   }
+  }
+ },
+ {
+  "name": "Ride1Up",
+  "website": "https://ride1up.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Direct-to-consumer e-bike brand selling commuter, cruiser and off-road electric bikes through ride1up.com, with average order values around $1,500.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partners@ride1up.com",
+    "source_url": "https://partners.ride1up.com"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://partners.ride1up.com",
+    "summary": "Ride1Up runs a brand-direct Partner Program at partners.ride1up.com (on the Tune platform, per the brand's own support docs) and publishes partners@ride1up.com as the program contact."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://ride1up.com/pages/affiliate-program",
+    "summary": "The brand's own surfaces conflict: its affiliate page highlights a 5% base commission with a 30-day cookie and ~$1,500 AOV, while its Ambassador agreement states 8% of the net final sales price — two documented tracks, so commission_rate is null. The program also carries a $500 payout minimum via PayPal."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://partners.ride1up.com",
+   "source_url": "https://partners.ride1up.com",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://partners.ride1up.com",
+   "source_url": "https://partners.ride1up.com",
+   "title": "Ride1Up Partner Program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Value e-bikes are a solid tech/commuter review niche, slightly narrower than scooters.",
+    "ugc_evidence": "A structured partner/ambassador program exists on the brand's own portal, with no published creator-sales data.",
+    "compensation": "Two conflicting brand-published rates (5% base vs 8% ambassador) and a high $500 payout minimum, so the rate is null and compensation is mid-range.",
+    "contact_access": "Published partners@ email plus a dedicated partner portal — strong access.",
+    "opportunity_availability": "Open partner application, though the $500 payout minimum slows first payouts.",
+    "credibility": "Established US direct-to-consumer e-bike brand with its own storefront and support docs."
+   }
+  }
+ },
+ {
+  "name": "Zulay Kitchen",
+  "website": "https://www.zulaykitchen.com",
+  "country": "United States",
+  "category_slug": "home",
+  "description": "Family-owned kitchenware brand selling affordable kitchen gadgets and tools — frothers, juicers, utensils and cookware accessories — through zulaykitchen.com, Amazon and TikTok Shop.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.zulaykitchen.com/pages/influencer-form",
+    "email": null,
+    "source_url": "https://www.zulaykitchen.com/pages/influencer-form"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@zulay_kitchen"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.zulaykitchen.com/pages/ambassador",
+    "summary": "Zulay Kitchen's own Ambassador page invites creators to join its Ambassador Program to 'earn commissions' creating content with its products, with free products, exclusive campaigns and early access; its Collabs page likewise offers affiliate commission partnerships with an application form."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.zulaykitchen.com/pages/zuley-kitchen-affiliate-reward-terms-and-conditions",
+    "summary": "The brand publishes official Affiliate & Reward Terms and Conditions on zulaykitchen.com confirming an official affiliate/reward program; the terms publish no commission rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/zulay-kitchen",
+    "summary": "Rateful estimates about 94% of Zulay Kitchen's TikTok Shop sales (30 days to Nov 3, 2026) came through affiliate creators' videos and LIVEs — the brand sells heavily through creator content on TikTok Shop."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/zulay-kitchen/",
+    "summary": "Lasso lists 'up to 10.5%' for Zulay Kitchen, which is a rate ceiling, not a published rate, and the brand's own pages publish no rate — so commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.zulaykitchen.com/pages/ambassador",
+   "source_url": "https://www.zulaykitchen.com/pages/ambassador",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.zulaykitchen.com/pages/ambassador",
+   "source_url": "https://www.zulaykitchen.com/pages/ambassador",
+   "title": "Zulay Kitchen Ambassador Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 18,
+   "compensation": 9,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Kitchen gadgets are a top-performing home UGC category (quick demo videos).",
+    "ugc_evidence": "Rateful estimates ~94% of the brand's TikTok Shop sales are affiliate-creator driven, and the brand runs its own ambassador/collabs programs.",
+    "compensation": "Programs are real but no commission rate is published anywhere on the brand's own pages (only a third-party 'up to 10.5%' ceiling), so the rate is null.",
+    "contact_access": "Public collabs/ambassador application pages on the official site, but no published contact email.",
+    "opportunity_availability": "Open ambassador and collabs applications on the official site.",
+    "credibility": "Established family-owned kitchenware brand with its own storefront plus Amazon and TikTok Shop distribution."
+   }
+  }
+ },
+ {
+  "name": "Springland Pets",
+  "website": "https://springlandpets.com",
+  "country": "United States",
+  "category_slug": "pets",
+  "description": "Women- and family-owned pet brand (formerly Springer) selling dog walking and travel essentials — travel water bottles, waterproof leashes and accessories — through springlandpets.com; featured on Shark Tank.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://springlandaffiliate.superfiliate.com/portal/sign-up",
+    "email": null,
+    "source_url": "https://springlandpets.com/products/last-chance-the-city-dog-leash"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://springlandpets.com/products/last-chance-the-city-dog-leash",
+    "summary": "Springland Pets' own site FAQ answers 'Does Springland have an affiliate program?' with 'Yes we do!' and links the application portal at springlandaffiliate.superfiliate.com — a brand-direct affiliate program on Superfiliate. The same page confirms the brand was formerly named Springer."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://springlandpets.com/products/last-chance-the-city-dog-leash",
+    "summary": "No commission rate is published on the brand's public pages, so commission_rate is null."
+   }
+  ],
+  "affiliate": {
+   "network": "Superfiliate",
+   "commission_rate": null,
+   "application_url": "https://springlandaffiliate.superfiliate.com/portal/sign-up",
+   "source_url": "https://springlandpets.com/products/last-chance-the-city-dog-leash",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://springlandaffiliate.superfiliate.com/portal/sign-up",
+   "source_url": "https://springlandpets.com/products/last-chance-the-city-dog-leash",
+   "title": "Springland Pets Affiliate Program (Superfiliate)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Dog walking/travel essentials are a natural fit for pet UGC (walk and travel demos).",
+    "ugc_evidence": "The brand's travel bottle is a known viral-style pet product and it runs an open affiliate portal, but no quantified creator evidence was published.",
+    "compensation": "Program confirmed on the brand's own site, but no rate is published, so compensation scores on access rather than pay data.",
+    "contact_access": "Direct application portal linked from the brand's own FAQ; no public contact email found.",
+    "opportunity_availability": "Open signup through the Superfiliate portal.",
+    "credibility": "Established pet brand with national press (Shark Tank, Wirecutter, Forbes logos shown on its site) and its own storefront."
+   }
+  }
+ },
+ {
+  "name": "Casely",
+  "website": "https://www.getcasely.com",
+  "country": "United States",
+  "category_slug": "technology",
+  "description": "Brooklyn-born phone accessories brand founded in 2017 by siblings Emily and Mark Stallings, selling fashionable protective phone cases and accessories through getcasely.com.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "jeremy@getcasely.com",
+    "source_url": "https://ui.awin.com/merchant-profile/92537"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.getcasely.com/pages/affiliates",
+    "summary": "Casely's own affiliate page invites affiliates to 'sign up & earn tiered commission' promoting its cases and accessories, with signup routed to ShareASale, and states: 'Tiered commission on sales tracked through ShareASale.'"
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/92537",
+    "summary": "Rate figures conflict: Awin's Casely profile advertises 'up to 20% commission' (a ceiling) while Shopper lists 5-10%, and the brand's own page publishes no numbers — so commission_rate is null. The Awin profile publishes jeremy@getcasely.com for partnership inquiries."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://www.getcasely.com/pages/affiliates",
+   "source_url": "https://www.getcasely.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.getcasely.com/pages/affiliates",
+   "source_url": "https://www.getcasely.com/pages/affiliates",
+   "title": "Casely Affiliate Program (ShareASale)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 13,
+   "compensation": 10,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Fashion phone cases are a proven accessories UGC category (haul and drop-test content).",
+    "ugc_evidence": "An own-site affiliate program targeting bloggers, vloggers and publications, plus listings on multiple networks — active creator/publisher recruitment.",
+    "compensation": "Tiered commission is confirmed by the brand but unpublished, and third-party figures conflict (up to 20% vs 5-10%), so the rate is null.",
+    "contact_access": "Published partnership email (jeremy@getcasely.com) plus an own-site program page with network signup.",
+    "opportunity_availability": "Open application via ShareASale from the brand's own page.",
+    "credibility": "Established 2017 Brooklyn accessories brand with its own storefront and multi-network presence."
+   }
+  }
+ }
+]

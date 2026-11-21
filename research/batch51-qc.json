@@ -1,0 +1,559 @@
+[
+ {
+  "name": "Redcon1",
+  "website": "https://redcon1.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US sports-nutrition brand selling pre-workout, protein, vitamins and apparel direct to consumers, built around its Tier Operator ambassador community.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "tieroperators@gmail.com",
+    "source_url": "https://redcon1.com/blogs/news/redcon1-tier-operator-program-are-you-ready-to-join-the-ranks"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://help.redcon1.com/en-US/articles/tier-operator-27456",
+    "summary": "Redcon1's own help center describes the Tier Operator program as a community that earns rewards and commission for bringing in customers, and confirms the program now runs on the Roster platform."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "third_party_directory",
+    "source_url": "https://www.affpaying.com/redcon1tieroperators",
+    "summary": "AffPaying lists the Tier Operator program with a 10% base CPS commission, Affiliatly tracking, a 40-day cookie and a $100 minimum payout."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "third_party_directory",
+    "source_url": "https://blog.priceplow.com/supplement-news/redcon1/tier-operator",
+    "summary": "PricePlow's tier breakdown says commission only starts at Tier 3 (50-149 sales) at 10%, rising to 15% at Tier 2, which conflicts with AffPaying's flat 10% base figure, so no single rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://www.tieroperator.com",
+   "source_url": "https://help.redcon1.com/en-US/articles/tier-operator-27456",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Redcon1 Tier Operator Program",
+   "application_url": "https://www.tieroperator.com",
+   "source_url": "https://help.redcon1.com/en-US/articles/tier-operator-27456"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 6,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Sports nutrition is a core creator niche and Redcon1 sells exactly the pre-workout and protein products fitness creators post about daily.",
+    "ugc_evidence": "The Tier Operator program is a large, long-running ambassador community with codes, links, contests and a private group, all documented on the brand's own pages.",
+    "compensation": "Commission clearly exists but sources conflict on whether 10% is paid from the first sale or only from Tier 3, so the rate is unrecorded and compensation scores low.",
+    "contact_access": "A public application site (tieroperator.com) plus a published program team email, tieroperators@gmail.com.",
+    "opportunity_availability": "Applications are publicly open; the brand states applications are reviewed and can take up to two weeks due to demand.",
+    "credibility": "One of the largest independent US supplement brands, sold in major retailers and a multi-year 'brand of the year' winner in its trade press."
+   }
+  }
+ },
+ {
+  "name": "Bare Performance Nutrition",
+  "website": "https://bareperformancenutrition.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US performance supplement brand founded by Nick Bare, selling pre-workout, protein, superfoods and endurance products, all third-party tested by Informed Sport.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/bpnsupps"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://ui.awin.com/merchant-profile/98147",
+    "summary": "BPN's live Awin merchant profile confirms an affiliate program on the Awin network with a 15-day attribution period; the profile does not publish a commission rate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.bareperformancenutrition.com/em-cgi/btag/pages/ambassador-terms-conditions",
+    "summary": "BPN's own Ambassador Terms describe cookie-based last-click commission tracking with unique links and discount codes, and require $100 in sales before the first payment; no commission percentage is stated in the terms."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "third_party_directory",
+    "source_url": "https://www.couponupto.com/coupons/bare-performance-nutrition/amp",
+    "summary": "A published BPN affiliate review states 10% commission on all sales, but neither the brand's own terms nor its Awin profile publish a rate, so no rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": null,
+   "application_url": "https://ui.awin.com/merchant-profile/98147",
+   "source_url": "https://ui.awin.com/merchant-profile/98147",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bare Performance Nutrition Affiliate Program (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/98147",
+   "source_url": "https://ui.awin.com/merchant-profile/98147"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 6,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Performance supplements for hybrid strength-and-endurance training sit squarely in the fitness creator niche.",
+    "ugc_evidence": "A documented ambassador program with links, codes and terms on the brand's own site, plus a live network listing.",
+    "compensation": "Commission exists but no first-party or network source publishes the percentage, so compensation scores low.",
+    "contact_access": "The Awin merchant profile is a public application route, but no partnerships email is published.",
+    "opportunity_availability": "The Awin program is listed and joinable; the separate ambassador program's availability could not be confirmed as open.",
+    "credibility": "Established, founder-led supplement brand with Informed Sport third-party testing across its range."
+   }
+  }
+ },
+ {
+  "name": "Bella All Natural",
+  "website": "https://bellaallnatural.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US wellness brand selling detox teas, juices and cleanse products direct to consumers, marketed heavily through its affiliate and creator community.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "info@bellaallnatural.com",
+    "source_url": "https://www.bellaallnatural.com/pages/collab"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.bellaallnatural.com/pages/collab",
+    "summary": "Bella All Natural's own Collabs page invites creators to apply to its growing creator community and lists affiliate marketing and discount codes as partnership opportunities, citing over 200k affiliate orders in two months; no commission rate is published on the page."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.bellaallnatural.com/pages/collab",
+    "summary": "The brand publishes info@bellaallnatural.com as the contact email on its collabs pages."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": null,
+   "application_url": "https://www.bellaallnatural.com/pages/collab",
+   "source_url": "https://www.bellaallnatural.com/pages/collab",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Bella All Natural Creator Community (Shopify Collabs)",
+   "application_url": "https://www.bellaallnatural.com/pages/collab",
+   "source_url": "https://www.bellaallnatural.com/pages/collab"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 16,
+   "compensation": 4,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Detox teas and cleanse drinks are heavily promoted wellness products in short-form creator content.",
+    "ugc_evidence": "The brand's own Collabs page documents an active creator community with affiliate commissions and gifting, and cites very large affiliate order volume.",
+    "compensation": "No commission rate is published anywhere found, so this stays at or below 5.",
+    "contact_access": "A public Collabs application page plus a published contact email.",
+    "opportunity_availability": "Applications are publicly open on the brand's own site with no follower minimum stated.",
+    "credibility": "Fast-growing DTC wellness brand; claims on its own pages are large but not independently verified."
+   }
+  }
+ },
+ {
+  "name": "Seven Sundays",
+  "website": "https://sevensundays.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Minnesota breakfast brand selling muesli, oat cups and protein cereals made with simple ingredients, direct to consumers and in grocery stores.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://sevensundays.com/pages/affiliate",
+    "summary": "Seven Sundays' own Collabs page invites partners to apply to its affiliate team and earn commission, listing affiliate marketing, discount codes, campaigns and content creation among its partnership opportunities; no commission rate is published."
+   }
+  ],
+  "affiliate": {
+   "network": "Shopify Collabs",
+   "commission_rate": null,
+   "application_url": "https://sevensundays.com/pages/affiliate",
+   "source_url": "https://sevensundays.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Seven Sundays Affiliate Team (Shopify Collabs)",
+   "application_url": "https://sevensundays.com/pages/affiliate",
+   "source_url": "https://sevensundays.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 4,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Better-for-you breakfast cereal and muesli are natural fits for grocery-haul and morning-routine creator content.",
+    "ugc_evidence": "The brand's own Collabs page documents affiliate, campaign and content-creation partnerships.",
+    "compensation": "No commission rate is published anywhere found, so this stays at or below 5.",
+    "contact_access": "A public Collabs application page exists on the official site, though no partnerships email is published.",
+    "opportunity_availability": "Applications are publicly open with no follower minimum stated.",
+    "credibility": "Established Minneapolis food brand with national grocery distribution and a B Corp style sustainability profile."
+   }
+  }
+ },
+ {
+  "name": "MALK Organics",
+  "website": "https://malkorganics.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US plant-based milk brand selling almond, oat and cashew milks made with minimal ingredients, sold direct and in major grocery stores.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://app.kalecard.com/t/malk",
+    "summary": "MALK's Creator Community page on Kale invites creators to claim challenges and post TikTok or Instagram videos about MALK to earn cash rewards calculated from video quality and engagement, paid through Stripe; pay is performance-based, so no fixed commission rate exists to record."
+   }
+  ],
+  "affiliate": {
+   "network": "Kale",
+   "commission_rate": null,
+   "application_url": "https://app.kalecard.com/t/malk",
+   "source_url": "https://app.kalecard.com/t/malk",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "MALK Organics Creator Community (Kale)",
+   "application_url": "https://app.kalecard.com/t/malk",
+   "source_url": "https://app.kalecard.com/t/malk"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 18,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean-label plant milks are staple products in coffee, smoothie and grocery creator content.",
+    "ugc_evidence": "A live, video-first creator program: creators claim challenges and are paid cash for TikTok and Instagram posts.",
+    "compensation": "Creators earn real cash per video, but amounts are set by an engagement algorithm and not published, so compensation scores low.",
+    "contact_access": "The program is joined inside the Kale app; no partnerships email is published.",
+    "opportunity_availability": "Any creator can sign up on Kale and claim MALK challenges; no follower minimum is stated.",
+    "credibility": "Nationally distributed plant-milk brand stocked by major US grocery chains."
+   }
+  }
+ },
+ {
+  "name": "The Beauty Chef",
+  "website": "https://thebeautychef.com",
+  "country": "Australia",
+  "category_slug": "wellness",
+  "description": "Australian inner-beauty brand selling bio-fermented probiotic powders and elixirs for gut health and glowing skin, sold direct to consumers internationally.",
+  "contacts": [
+   {
+    "contact_type": "marketing",
+    "contact_url": null,
+    "email": "marketing@thebeautychef.com",
+    "source_url": "https://thebeautychef.com/pages/affiliate-program"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://thebeautychef.com/pages/affiliate-program",
+    "summary": "The Beauty Chef's own affiliate program page invites partners to apply for a tracking link, states a 30-day cookie and 'earn up to 10% commission per sale generated', and publishes marketing@thebeautychef.com for custom collaborations."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "third_party_directory",
+    "source_url": "https://getlasso.co/affiliate/the-beauty-chef/",
+    "summary": "Third-party listings conflict with the brand's 'up to 10%' ceiling (Lasso lists 5% per sale; Shopper lists 8-10%), so no single rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://thebeautychef.com/pages/affiliate-program",
+   "source_url": "https://thebeautychef.com/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "The Beauty Chef Affiliate Program",
+   "application_url": "https://thebeautychef.com/pages/affiliate-program",
+   "source_url": "https://thebeautychef.com/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 5,
+   "contact_access": 13,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Ingestible beauty and gut-health powders sit at the center of the wellness and beauty creator niches.",
+    "ugc_evidence": "A documented affiliate program on the brand's own site with tracking links, creative assets and partner promotions.",
+    "compensation": "The brand publishes only an 'up to 10%' ceiling and third parties report lower figures, so no rate is recorded and compensation scores low.",
+    "contact_access": "A public program page plus a published marketing email for custom collaborations.",
+    "opportunity_availability": "Joining is free and publicly open via the brand's own application.",
+    "credibility": "Founded in 2009 and a pioneer of the inner-beauty category, sold internationally through premium retailers."
+   }
+  }
+ },
+ {
+  "name": "Rae Wellness",
+  "website": "https://raewellness.co",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US supplement brand selling clean, vegan vitamins and wellness blends for stress, sleep, digestion and skin, sold direct and through major retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "network_listing",
+    "source_url": "https://app.hienergyrocket.com/a/rae-wellness-hienergy-flexoffers",
+    "summary": "A FlexOffers program listing for Rae Wellness confirms the brand runs an affiliate program for its clean supplements with tracking through FlexOffers and invites publishers to apply there; no commission rate is published on the listing."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": "https://app.hienergyrocket.com/a/rae-wellness-hienergy-flexoffers",
+   "source_url": "https://app.hienergyrocket.com/a/rae-wellness-hienergy-flexoffers",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Rae Wellness Affiliate Program (FlexOffers)",
+   "application_url": "https://app.hienergyrocket.com/a/rae-wellness-hienergy-flexoffers",
+   "source_url": "https://app.hienergyrocket.com/a/rae-wellness-hienergy-flexoffers"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 10,
+   "compensation": 3,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Everyday wellness supplements for stress, sleep and skin are standard creator-review products.",
+    "ugc_evidence": "A network program listing exists, but there is little public documentation of creator activity around it.",
+    "compensation": "No commission rate is published anywhere found, so this stays at or below 5.",
+    "contact_access": "Application runs through the FlexOffers network; no partnerships email is published.",
+    "opportunity_availability": "Publishers can apply through FlexOffers; approval terms are not published.",
+    "credibility": "Retail-distributed supplement brand, though smaller and quieter than category leaders."
+   }
+  }
+ },
+ {
+  "name": "Tenzo",
+  "website": "https://www.tenzotea.co",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US matcha brand selling ceremonial-grade organic matcha and matcha drinks sourced from family farms in Kagoshima, Japan.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "third_party_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/tenzo/",
+    "summary": "LinkClicky lists Tenzo's affiliate program on ShareASale at 10% per sale with a 30-day cookie."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "third_party_directory",
+    "source_url": "https://brandid.app/blog/tea-affiliate-programs/",
+    "summary": "Other roundups describe an in-house 'Team Tenzo' program paying 10-20% depending on the arrangement, which cannot be reconciled with the single ShareASale figure, so no rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/tenzo/",
+   "source_url": "https://linkclicky.com/affiliate-program/tenzo/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Tenzo Affiliate Program (ShareASale)",
+   "application_url": "https://linkclicky.com/affiliate-program/tenzo/",
+   "source_url": "https://linkclicky.com/affiliate-program/tenzo/"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 5,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Matcha is a high-engagement drink niche across TikTok and Instagram, and Tenzo is a matcha-only brand.",
+    "ugc_evidence": "A named creator program ('Team Tenzo') with trial kits, codes and monthly commissions is described in program roundups.",
+    "compensation": "Reported rates conflict (10% flat vs 10-20% by arrangement), so no rate is recorded and compensation scores low.",
+    "contact_access": "Joinable through ShareASale; no partnerships email is published.",
+    "opportunity_availability": "Network application is publicly open to publishers and creators.",
+    "credibility": "Established DTC matcha brand, though much smaller than the largest tea brands."
+   }
+  }
+ },
+ {
+  "name": "BetterAlt",
+  "website": "https://betteralt.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Ayurveda-inspired wellness brand selling shilajit honey sticks, gummies and herbal supplements to US consumers through its online store and TikTok Shop.",
+  "contacts": [],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/betteralt.usa"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "social_post",
+    "source_url": "https://www.instagram.com/p/Dfs1ICtOPAw/",
+    "summary": "BetterAlt's own Instagram announcement (2026-11-13) launches its creator program on Trybe: creators join Trybe, register for the BetterAlt program, earn 10% of ad spend as commission, and have their videos used on Meta channels as partnership ads. Because the 10% is a share of ad spend rather than a sales commission, no commission_rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Trybe",
+   "commission_rate": null,
+   "application_url": "https://www.instagram.com/p/Dfs1ICtOPAw/",
+   "source_url": "https://www.instagram.com/p/Dfs1ICtOPAw/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "BetterAlt Creator Program (Trybe)",
+   "application_url": "https://www.instagram.com/p/Dfs1ICtOPAw/",
+   "source_url": "https://www.instagram.com/p/Dfs1ICtOPAw/"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 16,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Shilajit and Ayurvedic supplements are heavily promoted in US wellness creator content right now.",
+    "ugc_evidence": "The brand publicly recruits creators for a structured program whose videos run as Meta partnership ads.",
+    "compensation": "Creators earn 10% of ad spend rather than a sales commission, an unusual model with no published sales rate, so compensation scores low.",
+    "contact_access": "Registration runs through the Trybe platform; no partnerships email is published.",
+    "opportunity_availability": "The program was publicly launched in November 2026 and is recruiting creators now.",
+    "credibility": "Newer, smaller brand; its US creator push is recent and still unproven at scale."
+   }
+  }
+ },
+ {
+  "name": "Wellgard",
+  "website": "https://wellgard.co.uk",
+  "country": "United Kingdom",
+  "category_slug": "wellness",
+  "description": "UK supplement brand selling vitamins, collagen and probiotics direct to consumers through its online store.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "third_party_directory",
+    "source_url": "https://linkmydeals.com/affiliate-programs/info/wellgard.co.uk/",
+    "summary": "LinkMyDeals lists an affiliate program for wellgard.co.uk under which publishers earn commission by driving traffic and sales to the store."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "third_party_directory",
+    "source_url": "https://www.influencerrate.com/affiliate-program/glowdreaming",
+    "summary": "InfluencerRate's WellGard program write-up describes a free-to-join program with unique tracking links and a 30-day cookie and quotes 5-10% commission, but the brand itself publishes no rate, so none is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://linkmydeals.com/affiliate-programs/info/wellgard.co.uk/",
+   "source_url": "https://linkmydeals.com/affiliate-programs/info/wellgard.co.uk/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "WellGard Affiliate Program",
+   "application_url": "https://linkmydeals.com/affiliate-programs/info/wellgard.co.uk/",
+   "source_url": "https://linkmydeals.com/affiliate-programs/info/wellgard.co.uk/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 10,
+   "compensation": 3,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Vitamins, collagen and probiotics are standard wellness-review products for UK creators.",
+    "ugc_evidence": "Directory listings describe a creator and blogger affiliate program, but public creator activity is thin.",
+    "compensation": "Only third-party directories quote a rate and the brand publishes none, so this stays at or below 5.",
+    "contact_access": "Sign-up is described as running through the brand's own website; no partnerships email is published.",
+    "opportunity_availability": "Reported as free to join; approval terms are not published.",
+    "credibility": "Trading UK supplement brand, smaller than the category leaders and lightly documented."
+   }
+  }
+ }
+]
