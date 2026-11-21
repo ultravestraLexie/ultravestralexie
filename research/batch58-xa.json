@@ -1,0 +1,616 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://kaeorn.com/program/ambassador",
+      "commission_cap": "uncapped",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Brand direct",
+      "source_url": "https://kaeorn.com/program/ambassador"
+    },
+    "category_slug": "beauty",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "kaeornwellness@gmail.com",
+        "source_url": "https://kaeorn.com/program/ambassador"
+      }
+    ],
+    "country": "India",
+    "description": "Indian luxury fragrance house making 'quiet luxury' eau de parfum and solid perfume balms in India; cruelty-free, with five fragrances crafted and a small, growing wearer base per its own site.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://kaeorn.com/program/ambassador",
+        "summary": "KAEORN's own ambassador page states 'No cap on earnings' (shown with the infinity symbol) and publishes tiered commission: 10% for 0-10 sales, 15% for 11-50 sales, 20% for 51+ sales, plus a 50% ambassador discount and a personal creator code giving the audience 10% off; commissions are paid monthly with no minimum threshold."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://kaeorn.com/program/ambassador",
+        "summary": "The same page sets application requirements: follow @kaeorn.co on Instagram, have personally used at least one Kaeorn fragrance, and post 1 Reel + 2 Stories at launch; applications are reviewed personally within 48 hours, and ambassador content may be reposted and used by the brand across its site, socials and ads with credit."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "contact",
+        "source_type": "official_site",
+        "source_url": "https://kaeorn.com/program/ambassador",
+        "summary": "The program terms on the ambassador page publish kaeornwellness@gmail.com as the email for ambassador order processing."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://kaeorn.com/",
+        "summary": "KAEORN's homepage brands its perfumes 'MADE IN INDIA' with pricing in rupees, and states 5 fragrances crafted, 150 happy wearers and 100% cruelty free."
+      }
+    ],
+    "name": "KAEORN",
+    "opportunity": {
+      "application_url": "https://kaeorn.com/program/ambassador",
+      "source_url": "https://kaeorn.com/program/ambassador",
+      "title": "KAEORN Ambassador Program"
+    },
+    "score": {
+      "compensation": 17,
+      "contact_access": 12,
+      "credibility": 3,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Verified uncapped earnings on the brand's own page with published tiers of 10/15/20% and monthly payouts with no minimum threshold.",
+        "contact_access": "Open application form on the official program page plus a published program email (kaeornwellness@gmail.com).",
+        "credibility": "Very small, young brand (five fragrances, ~150 wearers per its own site), so track record is thin despite the strong published terms.",
+        "niche_fit": "Pure fragrance brand in the beauty niche; scent content is a proven creator category, though narrower than skincare/makeup.",
+        "opportunity_availability": "Applications are publicly open now and reviewed within 48 hours per the program page.",
+        "ugc_evidence": "A structured ambassador program built around creator Reels and Stories, with brand reuse rights for ambassador content across ads and socials."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://kaeorn.com/"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/21844?setLocale=sv_SE",
+      "commission_cap": "unknown",
+      "commission_rate": 5,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/21844?setLocale=sv_SE"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "Hungary",
+    "description": "Hungarian luxury skincare brand built on the mineral-rich thermal waters of Hungary, with a zero-nasties formulation policy, sold through its own site including a US storefront.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/21844?setLocale=sv_SE",
+        "summary": "Awin's own merchant profile for the Omorovicza US affiliate programme lists standard commission rates: Default 5%, Existing Customers 5%, New Customers 7%; the programme is run by the THG Ingenuity affiliate team and offers exclusive affiliate discounts and regular creative updates."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/21844?setLocale=sv_SE",
+        "summary": "The Awin profile describes Omorovicza as built on Hungary's healing thermal waters, with a zero-nasties policy excluding parabens, mineral oils, silicones, phthalates and synthetic fragrances, and links purchases to omorovicza.com."
+      }
+    ],
+    "name": "Omorovicza",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/21844?setLocale=sv_SE",
+      "source_url": "https://ui.awin.com/merchant-profile/21844?setLocale=sv_SE",
+      "title": "Omorovicza US Affiliate Program (via Awin)"
+    },
+    "score": {
+      "compensation": 10,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published network rates: 5% default and 7% on new customers per Awin's own merchant profile.",
+        "contact_access": "No public email found; contact runs through the Awin programme team (THG Ingenuity).",
+        "credibility": "Long-established luxury brand, part of the THG group, with international retail presence.",
+        "niche_fit": "Pure luxury skincare with strong ingredient storytelling - squarely in the skincare creator niche.",
+        "opportunity_availability": "Open affiliate programme on Awin that publishers can apply to join.",
+        "ugc_evidence": "An established network affiliate programme with affiliate promotions and creative support, but no creator-specific ambassador structure was found."
+      },
+      "ugc_evidence": 10
+    },
+    "socials": [],
+    "website": "https://www.omorovicza.com"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "unknown",
+      "network": "CJ Affiliate",
+      "source_url": "https://getlasso.co/affiliate/skinstore/"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "US online beauty retailer (part of the THG/Lookfantastic group) carrying 350+ premium skincare, makeup and hair brands across 16,000+ products.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/skinstore/",
+        "summary": "Lasso's program listing gives SkinStore at 8% per sale with a 1-day cookie and $50 payout threshold, and describes it as an authorized retailer to hundreds of premium beauty brands including SkinCeuticals, Dermalogica and Caudalie."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "listing",
+        "source_url": "https://onemorecupof-coffee.com/best-skincare-affiliate-programs/",
+        "summary": "This skincare affiliate roundup states the SkinStore affiliate program is run through Commission Junction (CJ Affiliate) and offers an 8% commission rate."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://olavivo.com/skin-care-affiliate-programs/",
+        "summary": "Olavivo's skincare program list also records SkinStore at 8% per sale and notes its catalogue of over 350 brands and 16,000 products; some other aggregators quote 'up to' ranges (5-10%, up to 12%), while three program listings agree on the 8% figure recorded here."
+      }
+    ],
+    "name": "SkinStore",
+    "opportunity": null,
+    "score": {
+      "compensation": 11,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "8% per sale corroborated by three program listings (Lasso, AmalinksPro, Olavivo), though the 1-day cookie is short.",
+        "contact_access": "No public creator contact found; access is through the CJ Affiliate programme only.",
+        "credibility": "Founded in 1997 and part of THG since 2016 - a long-running, major beauty retailer.",
+        "niche_fit": "Beauty retailer led by premium skincare - a strong fit for skincare and beauty creators who recommend across brands.",
+        "opportunity_availability": "Open affiliate programme on CJ Affiliate that publishers can apply to join.",
+        "ugc_evidence": "A standard network affiliate programme; no creator-specific ambassador or UGC structure was found."
+      },
+      "ugc_evidence": 9
+    },
+    "socials": [],
+    "website": "https://www.skinstore.com"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "CJ Affiliate",
+      "source_url": "https://linkclicky.com/affiliate-program/dermalogica/"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "Professional-grade US skincare brand founded by skin therapists, selling cleansers, treatments and SPF through its own site and salons; the consumer affiliate route runs through CJ Affiliate.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://linkclicky.com/affiliate-program/dermalogica/",
+        "summary": "LinkClicky's affiliate directory lists Dermalogica's consumer program on CJ Affiliate at 3% per sale, with dermalogica.com as the program website."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://www.shopper.com/partnerships/dermalogica-com-affiliate-program",
+        "summary": "Published rates conflict: LinkClicky lists 3% per sale on CJ, Shopper quotes 4% and up to 5-10%, and LinkApprove quotes up to 8% - so commission_rate is recorded as null rather than guessing."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "official_site",
+        "source_url": "https://pro-dev.dermalogica.com/wp-content/uploads/2023/04/Affiliate-Program.pdf",
+        "summary": "Dermalogica's separate professional track (via Refersion, for skin therapists) pays 15% commission in Product Credit Vouchers only; the brand is included on the strength of its cash-paying CJ consumer program, not this voucher-only pro track."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://usesnippet.app/pr-emails/dermalogica",
+        "summary": "Snippet's check of November 16, 2026 found no affiliate, influencer or ambassador program and no PR email published on dermalogica.com's own pages; the consumer route is the network program."
+      }
+    ],
+    "name": "Dermalogica",
+    "opportunity": null,
+    "score": {
+      "compensation": 6,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "Rate could not be verified: published sources conflict (3% vs 4% vs up to 8%), so it is recorded as null and scored low.",
+        "contact_access": "No published PR or creator email; contact is through the CJ programme only.",
+        "credibility": "One of the best-known professional skincare brands worldwide, sold through salons and its own stores.",
+        "niche_fit": "Pure professional skincare with strong education-led content potential - a core skincare creator niche brand.",
+        "opportunity_availability": "Consumer affiliate programme is joinable via CJ Affiliate, subject to network approval.",
+        "ugc_evidence": "A live consumer affiliate programme exists on CJ, but no open creator/ambassador structure is published on the brand's own pages."
+      },
+      "ugc_evidence": 9
+    },
+    "socials": [],
+    "website": "https://www.dermalogica.com/"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": 5,
+      "creator_saturation": "unknown",
+      "network": "CJ Affiliate",
+      "source_url": "https://getlasso.co/affiliate/colorescience/"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "US clinical skincare brand founded in 2000, known for mineral SPF and complexion products, selling through its own site and professional partners.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/colorescience/",
+        "summary": "Lasso's program listing gives Colorescience at 5% per sale with a 30-day cookie."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://www.colorescience.com/blogs/careers/influencer-and-affiliate-manager",
+        "summary": "Colorescience's own careers page describes its influencer and creator affiliate programs end to end - sourcing, gifting, paid partnerships and commissionable links - run across ShopMy, LTK, YouTube Shopping and CJ, confirming CJ as one of its affiliate channels and an actively staffed creator program."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "listing",
+        "source_url": "https://merchants.sovrn.com/merchants/57966/colorescience-com-affiliate-program",
+        "summary": "Sovrn's merchant profile describes Colorescience as a US skincare and cosmetics brand founded in 2000 by Diane Ranger, focused on mineral sun protection and complexion formulas."
+      }
+    ],
+    "name": "Colorescience",
+    "opportunity": null,
+    "score": {
+      "compensation": 9,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "5% per sale with a 30-day cookie per Lasso's program listing - modest but published.",
+        "contact_access": "No public creator email found (only a careers inbox); access runs through its affiliate channels.",
+        "credibility": "Established clinical brand founded in 2000, widely stocked by dermatology practices and retailers.",
+        "niche_fit": "Pure skincare/SPF brand - a core niche for skincare creators, especially sun-protection content.",
+        "opportunity_availability": "Affiliate access via CJ and creator platforms (ShopMy, LTK, YouTube Shopping) per the brand's own careers page.",
+        "ugc_evidence": "The brand staffs a dedicated Influencer & Affiliate Manager role covering gifting, paid partnerships and commissionable creator links - clear evidence of an active creator program."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.colorescience.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/15734?setLocale=nl_NL",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/15734?setLocale=nl_NL"
+    },
+    "category_slug": "beauty",
+    "contacts": [
+      {
+        "contact_type": "partnerships",
+        "contact_url": null,
+        "email": "loreal@acquire.co.uk",
+        "source_url": "https://ui.awin.com/merchant-profile/15734?setLocale=nl_NL"
+      }
+    ],
+    "country": "France",
+    "description": "French luxury beauty house (L'Oréal) selling skincare, makeup and fragrance through its own regional sites, with affiliate programmes run per-region on networks including Awin.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/15734?setLocale=nl_NL",
+        "summary": "Awin's Lancôme UK programme profile offers 5% baseline commission on each sale with a 30-day cookie window, and states the programme is managed by Acquire, contactable at loreal@acquire.co.uk."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://www.postaffiliatepro.com/affiliate-program-directory/lancome-affiliate-program/",
+        "summary": "PostAffiliatePro's directory lists the Lancôme affiliate program on the Awin network at 5% commission, single-tier, with monthly payouts and no minimum payout."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://linkclicky.com/affiliate-program/lancome/",
+        "summary": "Rates vary by region and network: LinkClicky lists Lancôme on Impact for AU/CA at 7.7% and 2-4%, and US figures of 5-10% are reported elsewhere, so no single global rate is recorded; commission_rate is null and the verified UK Awin baseline is 5%."
+      }
+    ],
+    "name": "Lancôme",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/15734?setLocale=nl_NL",
+      "source_url": "https://ui.awin.com/merchant-profile/15734?setLocale=nl_NL",
+      "title": "Lancôme UK Affiliate Programme (via Awin)"
+    },
+    "score": {
+      "compensation": 6,
+      "contact_access": 9,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "A verified 5% UK baseline exists on Awin, but rates conflict across regions and networks (up to 7.7%/10% reported), so the global rate is recorded as null.",
+        "contact_access": "A published programme contact email (loreal@acquire.co.uk, via the Awin profile) plus network application routes.",
+        "credibility": "One of the world's largest luxury beauty brands, part of L'Oréal.",
+        "niche_fit": "Luxury skincare, makeup and fragrance icon - near-perfect fit for beauty creators.",
+        "opportunity_availability": "Affiliate programmes are open per region on Awin (and Impact in AU/CA), subject to approval.",
+        "ugc_evidence": "Regional network affiliate programmes with creator traffic explicitly accepted; no single global ambassador program was found."
+      },
+      "ugc_evidence": 10
+    },
+    "socials": [],
+    "website": "https://www.lancome.com/"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": 20,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://getlasso.co/affiliate/goldfaden-md/"
+    },
+    "category_slug": "skincare",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "contact@goldfaden.com",
+        "source_url": "https://goldfadenmd.com/pages/terms-of-use"
+      }
+    ],
+    "country": "United States",
+    "description": "Dermatologist-developed, plant-powered skincare line created by Dr. Gary Goldfaden (Cosmesis Skincare, Hollywood, Florida), bringing his in-office treatments to retail since 2013.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/goldfaden-md/",
+        "summary": "Lasso's program listing gives Goldfaden MD at 20% per sale, and its join links point to ShareASale."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://goldfadenmd.com/pages/terms-of-use",
+        "summary": "Goldfaden MD's own terms name the operator as Cosmesis Skincare, Inc. of Hollywood, Florida, United States, and publish contact@goldfaden.com for inquiries."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://goldfadenmd.com/pages/about",
+        "summary": "The brand's about page describes dermatologist Dr. Gary Goldfaden's in-office formulas, brought to the wider public as the Goldfaden MD line in 2013."
+      }
+    ],
+    "name": "Goldfaden MD",
+    "opportunity": null,
+    "score": {
+      "compensation": 15,
+      "contact_access": 7,
+      "credibility": 4,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "20% per sale per Lasso's program listing - one of the highest rates in this batch, though single-sourced.",
+        "contact_access": "A published general email (contact@goldfaden.com) on the brand's own site; no dedicated creator inbox found.",
+        "credibility": "Established dermatologist brand operating since 2013 with national retail and media presence.",
+        "niche_fit": "Pure dermatologist-developed skincare - squarely in the skincare creator niche.",
+        "opportunity_availability": "Open affiliate programme via ShareASale that publishers can apply to join.",
+        "ugc_evidence": "A live network affiliate programme; no separate ambassador structure was found on the brand's own pages."
+      },
+      "ugc_evidence": 9
+    },
+    "socials": [],
+    "website": "https://goldfadenmd.com"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://getlasso.co/affiliate/beverly-hills-md-us/"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "Plastic-surgeon-developed anti-aging skincare brand from Drs. John Layke and Payman Danielpour of Beverly Hills Plastic Surgery Group, sold direct through its own site.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/beverly-hills-md-us/",
+        "summary": "Lasso's listing for the Beverly Hills MD (US) program gives 10% per sale with a 30-day cookie, and its join links point to Awin (ui.awin.com)."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://beverlyhillsmd.com/resurface-and-restore-reviews/",
+        "summary": "The brand's own site presents Beverly Hills MD as skincare developed by Drs. John Layke and Payman Danielpour of Beverly Hills Plastic Surgery Group, sold direct to consumers."
+      }
+    ],
+    "name": "Beverly Hills MD",
+    "opportunity": null,
+    "score": {
+      "compensation": 12,
+      "contact_access": 5,
+      "credibility": 4,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "10% per sale with a 30-day cookie per Lasso's program listing.",
+        "contact_access": "No public creator email found; access is through the Awin programme only.",
+        "credibility": "Well-known direct-to-consumer brand from a Beverly Hills plastic surgery practice, though sold mainly through its own funnel pages.",
+        "niche_fit": "Anti-aging skincare brand - a strong fit for mature-skincare creators.",
+        "opportunity_availability": "Open affiliate programme on Awin that publishers can apply to join.",
+        "ugc_evidence": "A live network affiliate programme; no creator-specific ambassador structure was found."
+      },
+      "ugc_evidence": 9
+    },
+    "socials": [],
+    "website": "https://beverlyhillsmd.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://joskn.com/pages/affiliate-programs",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "UpPromote",
+      "source_url": "https://joskn.com/pages/affiliate-programs"
+    },
+    "category_slug": "skincare",
+    "contacts": [
+      {
+        "contact_type": "general",
+        "contact_url": null,
+        "email": "admin@joskn.com",
+        "source_url": "https://joskn.com/"
+      }
+    ],
+    "country": "United Kingdom",
+    "description": "Small family-run UK skincare brand founded by Joshua Osinaike with co-founder Aziza Williams, focused on everyday concerns including uneven-looking skin tone and dry skin for melanin-rich skin, made in the UK.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "compensation",
+        "source_type": "official_site",
+        "source_url": "https://joskn.com/pages/affiliate-programs",
+        "summary": "JOSKN's own ambassador page publishes three commission tiers: 10% at Tier 1 (The Fresh Start), 15% at Tier 2 (The Glow Collective, with quarterly PR drops), and 20% at Tier 3 (The Luminary League), with an affiliate link and personal discount code; the APPLY NOW button routes to UpPromote (af.uppromote.com). No earnings-cap statement appears, so the cap is recorded as unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "ugc_collab",
+        "source_type": "official_site",
+        "source_url": "https://joskn.com/pages/affiliate-programs",
+        "summary": "The same page describes ambassador perks including early access to product drops and content briefs, a private ambassador email community, and chances to be featured on JOSKN's socials and website."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://joskn.com/",
+        "summary": "JOSKN's homepage describes it as 'a small, family-run UK skincare brand' founded by Joshua Osinaike with co-founder Aziza Williams, sourced in Ghana and made in the UK, with GBP pricing; its FAQ publishes admin@joskn.com."
+      }
+    ],
+    "name": "JOSKN",
+    "opportunity": {
+      "application_url": "https://joskn.com/pages/affiliate-programs",
+      "source_url": "https://joskn.com/pages/affiliate-programs",
+      "title": "JOSKN Ambassador Program"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 12,
+      "credibility": 3,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "Published tiers of 10/15/20% on the brand's own page (10% base recorded); no cap statement, so cap stays unknown.",
+        "contact_access": "Open application page on the official site plus a published email (admin@joskn.com).",
+        "credibility": "Small, young family-run brand - genuine but with a limited track record so far.",
+        "niche_fit": "Pure skincare aimed at melanin-rich skin and everyday concerns - a focused, underserved creator niche.",
+        "opportunity_availability": "Ambassador applications are publicly open via the brand's own page (UpPromote).",
+        "ugc_evidence": "A structured three-tier ambassador program on the brand's own page with PR drops, content briefs and social/website features for ambassadors."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://joskn.com/"
+  },
+  {
+    "affiliate": {
+      "application_url": null,
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "FlexOffers",
+      "source_url": "https://getlasso.co/affiliate/origins-online/"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "Estée Lauder skincare brand built on plant- and earth-based ingredients since 1990 - cleansers, serums, moisturizers and masks sold through origins.com and department stores.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate",
+        "source_type": "affiliate_network",
+        "source_url": "https://getlasso.co/affiliate/origins-online/",
+        "summary": "Lasso's listing for the Origins Online program gives 8% per sale with a 7-day cookie, and its join links point to FlexOffers (publisherpro.flexoffers.com)."
+      },
+      {
+        "confidence": "needs_review",
+        "evidence_type": "compensation",
+        "source_type": "listing",
+        "source_url": "https://www.shopper.com/partnerships/origins-com-affiliate-program",
+        "summary": "Shopper quotes the Origins program at 5% per sale, conflicting with Lasso's 8%, so commission_rate is recorded as null; the same listing gives Origins' country as United States."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "general",
+        "source_type": "official_site",
+        "source_url": "https://m.origins.com/affiliate-early-access",
+        "summary": "Origins' own site runs an 'Affiliate Partner Early Access' page, confirming the brand works with affiliate partners directly."
+      }
+    ],
+    "name": "Origins",
+    "opportunity": null,
+    "score": {
+      "compensation": 6,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 27,
+      "opportunity_availability": 7,
+      "reasons": {
+        "compensation": "Rate could not be verified: Lasso lists 8% via FlexOffers while Shopper quotes 5%, so it is recorded as null and scored low.",
+        "contact_access": "No public creator email found; access runs through the FlexOffers programme.",
+        "credibility": "Estée Lauder brand selling since 1990 with global retail distribution.",
+        "niche_fit": "Iconic plant-based skincare brand - near-perfect fit for skincare and clean-beauty creators.",
+        "opportunity_availability": "Affiliate programme joinable via FlexOffers, subject to approval.",
+        "ugc_evidence": "A network affiliate programme plus an affiliate partner page on the brand's own site; no open ambassador application was found."
+      },
+      "ugc_evidence": 10
+    },
+    "socials": [],
+    "website": "https://www.origins.com"
+  }
+]
