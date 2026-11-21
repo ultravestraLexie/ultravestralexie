@@ -1,0 +1,650 @@
+[
+ {
+  "name": "Snap Supplements",
+  "website": "https://snapsupplements.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US supplement brand founded by three immigrant founders selling clean-label, sugar-free herbal formulas for specific health concerns (prostate, nitric oxide, hormone support), which scaled to a top-10 supplement seller on TikTok Shop through creator affiliates before expanding into major retail chains.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/snap-supplements/",
+    "summary": "Lasso's program directory lists Snap Supplements' affiliate program on ShareASale at 16% commission per sale with a 14-day cookie and a $50 payout threshold."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://ecrm.marketgate.com/Blog/2026/11/Scaling-Your-Brand-with-TikTok-Founders-Innovation-Day-CPG-Panel-Insights",
+    "summary": "ECRM's Founders' Innovation Day panel write-up quotes co-founder Alex Lomov: Snap generated over $50 million in sales on TikTok Shop by mobilizing an army of creator affiliates publishing thousands of videos every month, and remains a top-10 (often top-5) supplement seller on the platform."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4602554?utm_id=18437736&utm_source=Digital+Marketing+Jobs",
+    "summary": "Snap Supplements' own job posting for a TikTok Shop Affiliate Coordinator (Vancouver, WA) describes recruiting, developing and managing a portfolio of top-performing TikTok Shop creators, including samples, commissions and deliverables — evidence of a large, staffed creator affiliate operation."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 16,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/snap-supplements/",
+   "commission_cap": "unknown",
+   "creator_saturation": "high"
+  },
+  "opportunity": {
+   "title": "Snap Supplements Affiliate Program (ShareASale + TikTok Shop)",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/snap-supplements/"
+  },
+  "score": {
+   "niche_fit": 27,
+   "ugc_evidence": 20,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Supplements built for TikTok Shop creator selling — prostate, nitric oxide and hormone formulas are exactly the demo-driven products wellness creators post about.",
+    "ugc_evidence": "The strongest UGC evidence in this batch: the co-founder publicly credits thousands of creator affiliate videos a month and $50M+ in TikTok Shop sales, and the brand employs dedicated TikTok Shop affiliate coordinators.",
+    "compensation": "A published 16% per-sale rate on ShareASale per the network directory; TikTok Shop rates are set per product and not published on a fetched page.",
+    "contact_access": "No public program email or application page was found on a fetched page; joining runs through ShareASale or TikTok Shop, so contact access is mid-band.",
+    "opportunity_availability": "Open on two fronts — the ShareASale program and TikTok Shop's open affiliate marketplace, where the brand actively recruits creators.",
+    "credibility": "Eight-year-old brand, top-10 TikTok Shop supplement seller expanding into major retail chains, per trade-press coverage."
+   }
+  }
+ },
+ {
+  "name": "Raw Rev",
+  "website": "https://rawrev.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "US snack brand founded by a registered nurse, mom and chef selling vegan, gluten-free, low-sugar plant-based protein bars (Glo and classic lines) direct to consumers and through retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/104897",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/104897"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/104897",
+    "summary": "Raw Rev's own Awin merchant profile states the program pays 20% commission on every sale with a 30-day cookie, a $70+ average order value, exclusive creator gifting campaigns, custom UTM links and codes, and creative assets; allowed publishers explicitly include influencers, content creators and social media affiliates."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 20,
+   "application_url": "https://ui.awin.com/merchant-profile/104897",
+   "source_url": "https://ui.awin.com/merchant-profile/104897",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Raw Rev Affiliate Program",
+   "application_url": "https://ui.awin.com/merchant-profile/104897",
+   "source_url": "https://ui.awin.com/merchant-profile/104897"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 15,
+   "compensation": 15,
+   "contact_access": 11,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean-label protein bars sit squarely in the healthy-snack content niche — gym bags, desk snacks and vegan haul videos.",
+    "ugc_evidence": "The Awin profile runs explicit creator gifting campaigns and supplies lifestyle images, product shots and swipe copy to creators.",
+    "compensation": "A single, clearly published rate — 20% on every sale — stated on the network's own merchant profile, with no conflicting figure found.",
+    "contact_access": "Public Awin application route with dedicated program support promised in the profile; no direct program email published.",
+    "opportunity_availability": "Applications are open on Awin and creators/influencers are an explicitly allowed publisher type.",
+    "credibility": "20+ year-old brand with national distribution and a long retail track record."
+   }
+  }
+ },
+ {
+  "name": "FlavCity",
+  "website": "https://shopflavcity.com",
+  "country": "United States",
+  "category_slug": "food-drink",
+  "description": "Food and supplement brand from creator Bobby Parrish (DTBE dba FlavCity) selling clean-ingredient protein shakes, electrolytes and supplements through its own store, TikTok Shop and grocery retailers, built on his 'Bobby Approved' grocery-content audience.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "partnerships@shopflavcity.com",
+    "source_url": "https://www.shopflavcity.com/pages/faqs"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.shopflavcity.com/pages/tiktok-shop-terms-conditions",
+    "summary": "FlavCity's own site publishes full terms for the 'DTBE dba FlavCity Open Affiliate Program' for TikTok Shop Creators: an open program joined by clicking 'Add Products', paying commission income through TikTok Shop, with detailed advertising guidelines for creators. No percentage is stated in the terms — TikTok Shop rates are set per product inside TikTok Shop."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "contact",
+    "source_type": "official_site",
+    "source_url": "https://www.shopflavcity.com/pages/faqs",
+    "summary": "FlavCity's official FAQ page directs collaboration and partnership requests to partnerships@shopflavcity.com."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://www.shopflavcity.com/pages/tiktok-shop-terms-conditions",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "FlavCity Open Affiliate Program (TikTok Shop)",
+   "application_url": null,
+   "source_url": "https://www.shopflavcity.com/pages/tiktok-shop-terms-conditions"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 17,
+   "compensation": 8,
+   "contact_access": 12,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A creator-founded food brand whose protein shakes are sold primarily through short-form grocery and recipe content — a near-perfect UGC fit.",
+    "ugc_evidence": "The brand runs a formal open affiliate program for TikTok Shop creators with published creator terms and advertising guidelines on its own site.",
+    "compensation": "Commission is real and paid through TikTok Shop, but the brand publishes no rate in its terms (rates are set per product in TikTok Shop), so no figure is recorded.",
+    "contact_access": "A published partnerships email on the brand's own FAQ page plus the open TikTok Shop route.",
+    "opportunity_availability": "An explicitly 'Open' affiliate program — any TikTok Shop creator can add products and start earning.",
+    "credibility": "Large, established creator-led brand with national grocery distribution."
+   }
+  }
+ },
+ {
+  "name": "Primal Queen",
+  "website": "https://primalqueen.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Women's supplement brand launched in 2024 selling a freeze-dried beef organ superfood (liver, heart, kidney, ovary, uterus, fallopian tubes) formulated for women, plus Goddess Creatine Bites, through its own site and 900+ Target stores.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://primalqueen.com/pages/join-pq",
+    "email": null,
+    "source_url": "https://primalqueen.com/pages/join-pq"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/primalqueenera"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://primalqueen.com/pages/join-pq",
+    "summary": "Primal Queen's own site hosts a 'Join Primal Queen Affiliate Team' page for its Affiliate Brand Ambassador Program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.facebook.com/lety85739/posts/pfbid0ak2qXkQAwe3aAis646NrKTTDm2G1mAqerz5EutCxnEX3m59TDatAt4XyWE2mY1y8l",
+    "summary": "A screenshot of Primal Queen's own welcome email to a new Affiliate Brand Ambassador shows a personal discount link giving followers 10% off and paying the ambassador a flat $15 per first purchase, with SEO/paid ads prohibited."
+   },
+   {
+    "confidence": "needs_review",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.facebook.com/reel/548820128073583/",
+    "summary": "A December 2024 creator recruiting video describes a much richer offer — 100% commission on first-time orders and 25% for life on recurring orders, free starter kit, 1,000-follower minimum — which conflicts with the flat $15 first-purchase figure in the brand's 2026 welcome email, so no rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.youtube.com/shorts/TTbCsB-4GYc",
+    "summary": "An affiliate's product link on the brand's own domain carries a Social Snowball tracking parameter (primalqueen.com/pages/goddess?snowball=...), indicating the ambassador program runs on Social Snowball."
+   }
+  ],
+  "affiliate": {
+   "network": "Social Snowball",
+   "commission_rate": null,
+   "application_url": "https://primalqueen.com/pages/join-pq",
+   "source_url": "https://primalqueen.com/pages/join-pq",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Primal Queen Affiliate Brand Ambassador Program",
+   "application_url": "https://primalqueen.com/pages/join-pq",
+   "source_url": "https://primalqueen.com/pages/join-pq"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 18,
+   "compensation": 5,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A supplement formulated specifically for women, sold almost entirely through female creator testimonials — a strong women's-wellness UGC fit.",
+    "ugc_evidence": "A standing ambassador program with personal links, brand assets, starter kits and constant creator onboarding visible across social platforms.",
+    "compensation": "Pay exists but the two documented figures conflict — a flat $15 per first purchase in the brand's welcome email vs a 100% first-order claim in a 2024 recruiting video — so no rate is recorded and compensation scores low.",
+    "contact_access": "A public join page on the brand's own site; no program email published on a fetched page.",
+    "opportunity_availability": "Applications are publicly open via the join page; a 1,000-follower minimum was reported in recruiting material.",
+    "credibility": "Bootstrapped brand reporting $300M lifetime sales in under 30 months and a 900-store Target launch, per trade coverage."
+   }
+  }
+ },
+ {
+  "name": "mindbodygreen",
+  "website": "https://www.mindbodygreen.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Wellness media company (founded 2009) that also sells its own science-backed supplements and personal care line — sleep, gut health, healthy aging and beauty formulas — through shop.mindbodygreen.com, alongside online classes and health-coaching certification.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://shop.mindbodygreen.com/pages/affiliate-program-page",
+    "email": null,
+    "source_url": "https://shop.mindbodygreen.com/pages/affiliate-program-page"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "tiktok",
+    "url": "https://www.tiktok.com/@mindbodygreen"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://shop.mindbodygreen.com/pages/affiliate-program-page",
+    "summary": "mindbodygreen's own shop runs an affiliate program page with an application form: affiliates get a custom link, earn commission on each sale, and earn free products after just 10 sales; the page targets wellness experts, healthcare providers and health-forward influencers."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "compensation",
+    "source_type": "official_site",
+    "source_url": "https://netlify.mindbodygreen.com/affiliates",
+    "summary": "mindbodygreen's own 'Become an Affiliate' page states 20% commission on supplements and personal care (average order value $70+), 30% on health coaching and 20% on classes all-access for its #mbgambassador program."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/mindbodygreen/",
+    "summary": "Lasso's directory lists the mindbodygreen program at only 5% per sale, which conflicts with the 20% supplements figure on the brand's own affiliate page, so no single rate is recorded."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/mindbodygreen-shop",
+    "summary": "Rateful's TikTok Shop analysis estimates about 67% of mindbodygreen shop's TikTok Shop sales in the 30 days to Nov 6, 2026 came through affiliate creators' videos and LIVEs."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": "https://shop.mindbodygreen.com/pages/affiliate-program-page",
+   "source_url": "https://shop.mindbodygreen.com/pages/affiliate-program-page",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "mindbodygreen Affiliate Program (#mbgambassador)",
+   "application_url": "https://shop.mindbodygreen.com/pages/affiliate-program-page",
+   "source_url": "https://shop.mindbodygreen.com/pages/affiliate-program-page"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 15,
+   "compensation": 5,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "A wellness publisher selling its own supplements — its entire business is expert and creator content, so affiliate products slot straight into that content.",
+    "ugc_evidence": "A named ambassador program (#mbgambassador) with community events, free-product milestones, and roughly two-thirds of its TikTok Shop sales attributed to affiliate creators.",
+    "compensation": "The brand's own page publishes 20% on supplements, but a network directory lists 5% — the conflict means no rate is recorded and compensation scores low.",
+    "contact_access": "A public application form on the brand's own shop domain; no program email published.",
+    "opportunity_availability": "Applications are publicly open to wellness experts, providers and influencers via a short intake form.",
+    "credibility": "One of the largest US wellness media brands, operating since 2009 with GMP-certified US manufacturing."
+   }
+  }
+ },
+ {
+  "name": "Raw Nutrition",
+  "website": "https://getrawnutrition.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US sports-nutrition brand co-founded by bodybuilder Chris Bumstead selling pre-workout, protein, creatine and the BUM energy drink line direct to consumers and through major supplement retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": null,
+    "email": "teamthavage@getrawnutrition.com",
+    "source_url": "https://www.facebook.com/drake.laco/posts/pfbid02VEpGnBj5oVADX3DNydUS7QPJ9acmkD3UPjyq3HxbPDi4PwhcVDcqVGfbTNCehJ3Hl"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.facebook.com/drake.laco/posts/pfbid02VEpGnBj5oVADX3DNydUS7QPJ9acmkD3UPjyq3HxbPDi4PwhcVDcqVGfbTNCehJ3Hl",
+    "summary": "A screenshot of Raw Nutrition's own approval email for its 'Team Thavage' ambassador program directs new affiliates to register, choose a discount code via teamthavage@getrawnutrition.com, and log into a member portal with a tier system."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/raw-nutrition/",
+    "summary": "Lasso's directory lists the Raw Nutrition affiliate program at 15% per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.shopper.com/partnerships/getrawnutrition-com-affiliate-program",
+    "summary": "Shopper.com lists the same program at only 2% per sale, and creators who have been in the program publicly describe a 5% starting tier rising to 8% then 10% — three conflicting pictures, so no rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Brand direct",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/raw-nutrition/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Team Thavage Ambassador Program",
+   "application_url": null,
+   "source_url": "https://getlasso.co/affiliate/raw-nutrition/"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 16,
+   "compensation": 5,
+   "contact_access": 11,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pre-workout, protein and energy drinks from a five-time Mr. Olympia's brand — core fitness-creator products with a built-in athlete story.",
+    "ugc_evidence": "A structured ambassador team (Team Thavage) with personal codes, a member portal and tier progression, documented in the brand's own onboarding emails.",
+    "compensation": "Sources conflict sharply — 15% (Lasso), 2% (Shopper) and creator-reported 5/8/10% tiers — so no rate is recorded and compensation scores low.",
+    "contact_access": "A published program team email, teamthavage@getrawnutrition.com, from the brand's own onboarding email.",
+    "opportunity_availability": "The ambassador team recruits publicly through the brand's social channels, though no open application page was found on a fetched page.",
+    "credibility": "One of the fastest-growing US supplement brands with national retail distribution and a celebrity-athlete co-founder."
+   }
+  }
+ },
+ {
+  "name": "Kion",
+  "website": "https://www.getkion.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "Boulder, Colorado supplement brand founded by former pro athlete Ben Greenfield selling clean, third-party-tested daily formulas — Kion Aminos, protein, creatine, colostrum and coffee — for energy, lean muscle and longevity.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.getkion.com/pages/affiliate-lp",
+    "email": null,
+    "source_url": "https://www.getkion.com/pages/affiliate-lp"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.getkion.com/pages/affiliate-lp",
+    "summary": "Kion's own site hosts a dedicated affiliate landing page ('Affiliate LP', getkion.com/pages/affiliate-lp) used to recruit affiliates; the campaign parameters on the page show the program is managed through Aspire. The page publishes no commission rate or cap."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "general",
+    "source_type": "official_site",
+    "source_url": "https://www.getkion.com/pages/affiliate-lp",
+    "summary": "The same official page describes Kion as Boulder, Colorado-based, selling research-backed, third-party-tested supplements with a 60-day money-back guarantee, and lists phone contact 855-387-KION (5466)."
+   }
+  ],
+  "affiliate": {
+   "network": "Aspire",
+   "commission_rate": null,
+   "application_url": "https://www.getkion.com/pages/affiliate-lp",
+   "source_url": "https://www.getkion.com/pages/affiliate-lp",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Kion Affiliate Program",
+   "application_url": "https://www.getkion.com/pages/affiliate-lp",
+   "source_url": "https://www.getkion.com/pages/affiliate-lp"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 14,
+   "compensation": 6,
+   "contact_access": 10,
+   "opportunity_availability": 7,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Clean longevity and performance supplements are a staple of the biohacking and fitness-creator niche Kion was built in.",
+    "ugc_evidence": "The brand recruits affiliates through dedicated landing pages and influencer campaigns run on Aspire, though it publishes little public program detail.",
+    "compensation": "A real program exists, but Kion publishes no rate or terms on its public pages, so nothing is recorded and compensation scores low.",
+    "contact_access": "A public affiliate landing page on the brand's own domain; the contact email on the page is obfuscated, so no email is recorded.",
+    "opportunity_availability": "Affiliate recruitment is live via the brand's landing page and Aspire campaigns, but application is campaign-based rather than a standing open form.",
+    "credibility": "Established premium supplement brand with third-party testing, NSF-certified cGMP facilities and a well-known founder."
+   }
+  }
+ },
+ {
+  "name": "Obvi",
+  "website": "https://myobvi.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US wellness brand selling flavored collagen peptides, collagen protein, greens and burn/weight-management supplements aimed at women, sold through its own store and Amazon.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://myobvi.com/policies/terms-of-service",
+    "summary": "Obvi's own terms of service contain a detailed Affiliate Program section — assigned tracking links, traffic-source disclosure, paid-advertising restrictions and commission withholding rules — confirming a standing affiliate program on myobvi.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.subscribe.chewonthis.io/p/affiliate-playbook-run-obvi",
+    "summary": "Obvi's own published affiliate playbook says smaller influencers start at 30% commission and larger influencers get 50%, run through Social Snowball with unique discount-code links for each creator."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://www.instagram.com/reel/DGW4_8NsnEb/",
+    "summary": "Obvi's official Instagram recruiting post offers affiliates 25% commission on referrals plus free products and early access — a third, different figure alongside the playbook's 30%/50% and Shopper.com's 10%, so no rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Social Snowball",
+   "commission_rate": null,
+   "application_url": null,
+   "source_url": "https://myobvi.com/policies/terms-of-service",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Obvi Affiliate / Ambassador Program",
+   "application_url": null,
+   "source_url": "https://myobvi.com/policies/terms-of-service"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 17,
+   "compensation": 5,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Flavored collagen and women's wellness supplements are heavily promoted through short-form creator content, Obvi's home turf.",
+    "ugc_evidence": "The brand publicly runs two affiliate tracks — customers and creators — with per-creator codes and links, and recruits ambassadors on its own Instagram.",
+    "compensation": "Published figures conflict across the brand's own materials (25% on Instagram, 30%/50% tiers in its playbook, 10% on Shopper), so no rate is recorded.",
+    "contact_access": "No public program email or application page was found on a fetched page; entry is via the brand's social recruiting and Social Snowball.",
+    "opportunity_availability": "Recruiting is public and ongoing on the brand's own channels, aimed at smaller creators as well as large influencers.",
+    "credibility": "Established DTC collagen brand, though its aggressive recruiting attracts mixed public sentiment."
+   }
+  }
+ },
+ {
+  "name": "Natural Stacks",
+  "website": "https://www.naturalstacks.com",
+  "country": "United States",
+  "category_slug": "wellness",
+  "description": "US nootropics brand founded in 2013 billing itself as the world's first open-source supplement company, selling transparent-label brain and mood formulas (NeuroFuel, MagTech, Smart Caffeine) direct to consumers.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "affiliate@naturalstacks.com",
+    "source_url": "https://wootfi.com/natural-stacks-affiliate-program/"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://naturalstacks.com.au/pages/affiliate-program",
+    "summary": "Natural Stacks' official site runs an Affiliate Program page describing a tiered commission system with performance incentives, monthly payments with absolutely no minimum, a dedicated affiliate manager with email support, and an Apply Here route."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://wootfi.com/natural-stacks-affiliate-program/",
+    "summary": "Wootfi's program listing says Natural Stacks tracks through Refersion with a 180-day cookie, a $50 minimum payout via PayPal, a 25% base commission, and gives the program contact as affiliate@naturalstacks.com."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://getlasso.co/affiliate/natural-stacks/",
+    "summary": "Lasso lists the program at 15% per sale with a 30-day cookie, and other directories cite 20% and up to 30% — figures conflict across every source (15/20/25/30%), so no rate is recorded."
+   }
+  ],
+  "affiliate": {
+   "network": "Refersion",
+   "commission_rate": null,
+   "application_url": "https://naturalstacks.com.au/pages/affiliate-program",
+   "source_url": "https://naturalstacks.com.au/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Natural Stacks Affiliate Program (Optimizer)",
+   "application_url": "https://naturalstacks.com.au/pages/affiliate-program",
+   "source_url": "https://naturalstacks.com.au/pages/affiliate-program"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 13,
+   "compensation": 5,
+   "contact_access": 12,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Nootropics and focus supplements are a dedicated creator niche (biohacking, study and productivity content) that Natural Stacks helped define.",
+    "ugc_evidence": "A long-running affiliate program with a dedicated affiliate manager and custom creative support, though it is publisher/blog-led more than short-form-creator-led.",
+    "compensation": "Every source disagrees — 15%, 20%, 25% and up to 30% all appear — so no rate is recorded and compensation scores low.",
+    "contact_access": "A published program email, affiliate@naturalstacks.com, plus an application page on the brand's official site.",
+    "opportunity_availability": "Applications are open via the official affiliate page; some listings report a 5,000-follower/subscriber eligibility bar.",
+    "credibility": "Operating since 2013 with a distinctive open-source-label reputation in the nootropics category."
+   }
+  }
+ },
+ {
+  "name": "RAW Nutritional",
+  "website": "https://rawnutritional.com",
+  "country": "Canada",
+  "category_slug": "wellness",
+  "description": "Canadian vegan supplement brand founded in 2017 selling organic plant-based protein, greens and superfood products that are soy-free and eco-packaged, shipped across Canada and the United States.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://rawnutritional.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://rawnutritional.com/pages/affiliate"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://rawnutritional.com/pages/affiliate",
+    "summary": "RAW Nutritional's own affiliate page invites influencers, bloggers and coupon sites into a 'competitive, profitable tiered commission structure' with an average order size of $100, a 24-hour tracking platform, banners and free-gift consumer incentives; signup runs through Affiliatly and is open to residents of Canada and the US with a health, fitness or veganism audience. No numeric rate is published."
+   }
+  ],
+  "affiliate": {
+   "network": "Affiliatly",
+   "commission_rate": null,
+   "application_url": "https://rawnutritional.com/pages/affiliate",
+   "source_url": "https://rawnutritional.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "RAW Nutritional Affiliate Program",
+   "application_url": "https://rawnutritional.com/pages/affiliate",
+   "source_url": "https://rawnutritional.com/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Vegan protein and superfoods fit the plant-based fitness niche well, though the brand is Canada-first and smaller than US rivals.",
+    "ugc_evidence": "An open affiliate page explicitly recruiting influencers with tracking, banners and consumer gift incentives, but little public creator-program detail beyond that.",
+    "compensation": "The brand confirms a tiered commission structure but publishes no numbers, so no rate is recorded.",
+    "contact_access": "A public affiliate page with signup on the brand's own domain; no program email published.",
+    "opportunity_availability": "Applications are publicly open to Canada/US creators with a health, fitness or vegan audience.",
+    "credibility": "Operating since 2017 with a clear niche identity, but modest scale and visibility outside Canada."
+   }
+  }
+ }
+]

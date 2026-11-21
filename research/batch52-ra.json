@@ -1,0 +1,553 @@
+[
+ {
+  "name": "Odele",
+  "website": "https://odelebeauty.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US clean haircare brand making salon-grade, cruelty-free shampoos, conditioners and stylers formulated for all hair types and the whole family, sold via odelebeauty.com and Target.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://merchants.sovrn.com/merchants/197929/odele-beauty-affiliate-program",
+    "summary": "Sovrn Commerce's own Odele merchant page (fetched 2026-11-21) confirms Odele's affiliate program is joined exclusively through Sovrn Commerce: creators sign up free, apply in the merchant directory, and get links, banners and promotional tools; commission rates vary by product category and promotional period and are only visible inside the Sovrn dashboard, so commission_rate is recorded null. The page publishes no earnings-cap statement and no creator count, so cap and saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "general",
+    "source_type": "listing",
+    "source_url": "https://www.influencerrate.com/affiliate-program/odelebeauty",
+    "summary": "InfluencerRate's program listing likewise routes Odele affiliate applications through its publisher network without publishing a rate, consistent with the dashboard-only rate on Sovrn."
+   }
+  ],
+  "affiliate": {
+   "network": "Sovrn Commerce",
+   "commission_rate": null,
+   "application_url": "https://merchants.sovrn.com/merchants/197929/odele-beauty-affiliate-program",
+   "source_url": "https://merchants.sovrn.com/merchants/197929/odele-beauty-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://merchants.sovrn.com/merchants/197929/odele-beauty-affiliate-program",
+   "source_url": "https://merchants.sovrn.com/merchants/197929/odele-beauty-affiliate-program",
+   "title": "Odele Affiliate Program (via Sovrn Commerce)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 11,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Clean, salon-grade haircare for all hair types — squarely in the beauty niche, with family-friendly positioning.",
+    "ugc_evidence": "Sovrn's merchant page names beauty bloggers, lifestyle creators, family influencers and clean-beauty advocates as suitable affiliates, with social promotion allowed; no cohort size is published.",
+    "compensation": "Rates vary by category and are visible only after joining Sovrn, so commission_rate is null; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Sovrn Commerce; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is open now — free Sovrn signup and in-directory application.",
+    "credibility": "Established clean haircare brand with national Target distribution."
+   }
+  }
+ },
+ {
+  "name": "TruSkin",
+  "website": "https://truskin.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare brand built on 'skin nutrition' — botanical, nutrient-rich serums and creams (vitamin C serum is its hero product), clinically and dermatologist tested, sold via truskin.com.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://truskin.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://truskin.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "brand_program_page",
+    "source_url": "https://truskin.com/pages/affiliates",
+    "summary": "The brand's own affiliate page (fetched 2026-11-21) confirms TruSkin runs its affiliate program on Impact.com: signing up is free and takes minutes, partners get marketing materials and free samples for select partners, and TruSkin offers 'a competitive base commission rate' with bonuses and custom contracts — but publishes no percentage, no earnings-cap statement and no creator count, so rate, cap and saturation are recorded null/unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/truskin/",
+    "summary": "Third-party listings conflict on TruSkin's rate (Lasso 'up to 15%', a 'Preferred' listing at 5%/10%, Shopper at 25%, Yazing at 4%), which is why commission_rate is recorded null rather than guessed."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://truskin.com/pages/affiliates",
+   "source_url": "https://truskin.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://truskin.com/pages/affiliates",
+   "source_url": "https://truskin.com/pages/affiliates",
+   "title": "TruSkin Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 12,
+   "compensation": 8,
+   "contact_access": 10,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Pure skincare brand (serums, creams) — squarely in the skincare niche.",
+    "ugc_evidence": "The brand's own page recruits affiliate partners and offers free samples for select partners, but publishes no creator content program details.",
+    "compensation": "The brand publishes no rate — only a 'competitive base commission rate' with bonuses on Impact; third-party figures conflict (4%-25%), so commission_rate is null and the cap is unknown.",
+    "contact_access": "Public affiliate page on the brand's own site linking to the Impact signup.",
+    "opportunity_availability": "Program is open now — free signup on Impact that 'takes just minutes' per the brand page.",
+    "credibility": "Established US DTC skincare brand; its own page claims the '#1 online-rated serum brand' position with clinically tested products."
+   }
+  }
+ },
+ {
+  "name": "Bali Body",
+  "website": "https://balibody.com.au",
+  "country": "Australia",
+  "category_slug": "skincare",
+  "description": "Australian suncare and self-tanning brand (tanning oils, SPF and skincare-infused sun products) sold via balibody.com.au, retailers and its TikTok Shop storefront.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "listing",
+    "source_url": "https://rateful.ai/brand/bali-body",
+    "summary": "Rateful's Bali Body page (fetched 2026-11-21), built from TikTok Shop data for the 30 days to Nov 6, 2026, confirms Bali Body sells through TikTok Shop's affiliate program: creators with TikTok Shop affiliate access add its products to their showcase and earn commission on every sale, and about 96% of Bali Body's estimated $117K TikTok Shop sales in that window came through affiliate creators. TikTok Shop commissions are set per product and no program rate or cap statement is published, so rate is null and cap/saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "TikTok Shop",
+   "commission_rate": null,
+   "application_url": "https://rateful.ai/brand/bali-body",
+   "source_url": "https://rateful.ai/brand/bali-body",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://rateful.ai/brand/bali-body",
+   "source_url": "https://rateful.ai/brand/bali-body",
+   "title": "Bali Body TikTok Shop Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 17,
+   "compensation": 7,
+   "contact_access": 6,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Tanning, SPF and body skincare brand — squarely in the beauty/skincare niche with a strong summer-content angle.",
+    "ugc_evidence": "Exceptionally strong: an estimated 96% of Bali Body's TikTok Shop sales come through affiliate creators' videos and LIVEs (Rateful, 30 days to Nov 6, 2026).",
+    "compensation": "TikTok Shop commissions are set per product by the seller and no single program rate is published, so commission_rate is null; no cap statement exists, so the cap is unknown.",
+    "contact_access": "No brand-side application or partnerships contact was verified; joining happens inside TikTok Shop.",
+    "opportunity_availability": "Open now to any creator with TikTok Shop affiliate access — no application or approval wait.",
+    "credibility": "Established Australian sun/tanning brand with international retail distribution."
+   }
+  }
+ },
+ {
+  "name": "Ouidad",
+  "website": "https://ouidad.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US haircare brand founded in 1984 specialising exclusively in curly, wavy and textured hair — shampoos, conditioners, stylers and salon services, sold via ouidad.com and salons.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://www.flexoffers.com/affiliate-programs/ouidad-affiliate-program/",
+    "summary": "FlexOffers' own Ouidad program page (fetched 2026-11-21) confirms a live affiliate program with a 30-day cookie, promotional materials and a dedicated support team; FlexOffers does not state a rate on the page. Network data elsewhere conflicts (FlexOffers payout data 3.2%, SaleGains 3%, FMTC's Rakuten listing 4% starting), so commission_rate is recorded null; no source publishes an earnings-cap statement or creator count, so cap and saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.fmtc.co/fmtc-featured-merchant-ouidad/",
+    "summary": "FMTC's merchant profile lists Ouidad's program on Rakuten Advertising (MID 38429) at a 4% starting commission with premium rates for top partners and a 30-day cookie — one of the conflicting rate sources behind the null rate."
+   }
+  ],
+  "affiliate": {
+   "network": "FlexOffers",
+   "commission_rate": null,
+   "application_url": "https://www.flexoffers.com/affiliate-programs/ouidad-affiliate-program/",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/ouidad-affiliate-program/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://www.flexoffers.com/affiliate-programs/ouidad-affiliate-program/",
+   "source_url": "https://www.flexoffers.com/affiliate-programs/ouidad-affiliate-program/",
+   "title": "Ouidad Affiliate Program (via FlexOffers)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 10,
+   "compensation": 7,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Single-focus curly/textured haircare — a strong niche fit for curl-routine creators.",
+    "ugc_evidence": "Program is marketed to bloggers and content creators with promotional materials, but no creator-count or UGC program detail is published.",
+    "compensation": "Rates conflict across fetched sources (3% SaleGains, 3.2% FlexOffers data, 4% Rakuten via FMTC) and FlexOffers' own page states no rate, so commission_rate is null; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Joinable through network listings (FlexOffers, Rakuten); no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program is live on multiple networks with a 30-day cookie.",
+    "credibility": "Curl-care pioneer founded in 1984 with its own salons and national retail presence."
+   }
+  }
+ },
+ {
+  "name": "VIOLETTE_FR",
+  "website": "https://www.violettefr.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "French-inspired beauty brand founded by makeup artist Violette Serrat, selling minimalist makeup and skincare (Bisou Balm, Boum-Boum Milk) via violettefr.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/violette-fr/",
+    "summary": "LinkClicky's VIOLETTE_FR program page (fetched 2026-11-21; listing data updated Mar 2024) documents a live affiliate program on ShareASale paying 10% per sale with a 30-day cookie, open in all regions, with the application handled through ShareASale. The listing publishes no earnings-cap statement and no creator count, so cap and saturation are recorded unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "ShareASale",
+   "commission_rate": 10,
+   "application_url": "https://linkclicky.com/affiliate-program/violette-fr/",
+   "source_url": "https://linkclicky.com/affiliate-program/violette-fr/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/violette-fr/",
+   "source_url": "https://linkclicky.com/affiliate-program/violette-fr/",
+   "title": "VIOLETTE_FR Affiliate Program (via ShareASale)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Makeup-plus-skincare brand with a strong editorial, French-beauty angle for beauty creators.",
+    "ugc_evidence": "The program targets beauty publishers and influencers via ShareASale; no creator cohort size is published.",
+    "compensation": "Published listing rate of 10% per sale with a 30-day cookie (ShareASale, via LinkClicky). No cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through ShareASale; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program listed as open in all regions via ShareASale.",
+    "credibility": "Founder-led brand by a former Estée Lauder global beauty director, stocked by major beauty retailers."
+   }
+  }
+ },
+ {
+  "name": "Unineed",
+  "website": "https://unineed.com",
+  "country": "United Kingdom",
+  "category_slug": "beauty",
+  "description": "UK-based online beauty and fashion retailer founded in 2011, stocking 250+ premium brands and 12,000+ products (Filorga, La Mer, Dior, Erno Laszlo) with worldwide delivery via unineed.com.",
+  "contacts": [
+   {
+    "contact_type": "marketing",
+    "contact_url": null,
+    "email": "marketing@unineed.com",
+    "source_url": "https://ui.awin.com/merchant-profile/5350?setLocale=pl_PL"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/unineedcom"
+   },
+   {
+    "platform": "x",
+    "url": "https://twitter.com/unineedcom"
+   },
+   {
+    "platform": "facebook",
+    "url": "https://www.facebook.com/Unineedcom"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://ui.awin.com/merchant-profile/5350?setLocale=pl_PL",
+    "summary": "Unineed's own Awin merchant profile (fetched 2026-11-21) publishes its program terms: 6% baseline commission, 7% at Tier 1 and 8% at Tier 2 for top performers, a 30-day cookie period, daily affiliate communication and a named contact (marketing@unineed.com). The profile publishes no earnings-cap statement and no creator count, so cap and saturation are recorded unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 6,
+   "application_url": "https://ui.awin.com/merchant-profile/5350?setLocale=pl_PL",
+   "source_url": "https://ui.awin.com/merchant-profile/5350?setLocale=pl_PL",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/5350?setLocale=pl_PL",
+   "source_url": "https://ui.awin.com/merchant-profile/5350?setLocale=pl_PL",
+   "title": "Unineed Affiliate Programme (via Awin)"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 8,
+   "compensation": 11,
+   "contact_access": 13,
+   "opportunity_availability": 9,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "A premium beauty retailer rather than a single brand — broad beauty catalogue (250+ brands) fits haul and review creators, though less focused than a pure brand.",
+    "ugc_evidence": "The Awin profile markets to affiliates generally with newsletters and daily communication; no creator-specific program detail is published.",
+    "compensation": "Network-published structure: 6% baseline, 7% Tier 1, 8% Tier 2, 30-day cookie. No cap statement is published, so the cap is unknown.",
+    "contact_access": "Named affiliate contact email (marketing@unineed.com) and phone published on the Awin profile — strong direct access.",
+    "opportunity_availability": "Program is open now on Awin with worldwide delivery.",
+    "credibility": "Operating since 2011 with 12,000+ products from 250+ premium brands."
+   }
+  }
+ },
+ {
+  "name": "Bliss",
+  "website": "https://www.blissworld.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US spa-born skincare and body care brand (founded 1996) known for clean, cruelty-free formulas — face masks, cleansers, moisturisers and body products sold via blissworld.com and mass retailers.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/bliss-world/",
+    "summary": "LinkClicky's Bliss World page (fetched 2026-11-21; listing data updated Mar 2024) documents Bliss's affiliate program on Rakuten Advertising (join via LinkShare signup), open in AU, CA, GB, IE, NZ and US, at 3% per sale. Other fetched sources conflict on the rate (older Rakuten/LinkShare reports at 8%, Skimlinks and Shopper at 15%), so commission_rate is recorded null; no source publishes an earnings-cap statement or creator count, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/bliss-world/",
+   "source_url": "https://linkclicky.com/affiliate-program/bliss-world/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/bliss-world/",
+   "source_url": "https://linkclicky.com/affiliate-program/bliss-world/",
+   "title": "Bliss Affiliate Program (via Rakuten Advertising)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 10,
+   "compensation": 6,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Skincare and body care brand with a spa-at-home positioning — squarely in the skincare niche.",
+    "ugc_evidence": "Program is listed for publishers/influencers on Rakuten; no creator cohort or UGC detail is published.",
+    "compensation": "Rates conflict across fetched sources (3% LinkClicky/Rakuten listing, 8% older LinkShare reports, 15% Skimlinks/Shopper), so commission_rate is null; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Joinable via Rakuten Advertising; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program listed as open across six regions on Rakuten.",
+    "credibility": "Iconic spa brand founded in 1996 with national mass-retail distribution."
+   }
+  }
+ },
+ {
+  "name": "INH Hair",
+  "website": "https://inhhair.com",
+  "country": "United States",
+  "category_slug": "beauty",
+  "description": "US hair brand (Insert Name Here) selling wigs, ponytails, extensions and hair accessories aimed at trend-driven social audiences, sold via inhhair.com.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/inh-hair/",
+    "summary": "LinkClicky's INH Hair page (fetched 2026-11-21; listing data updated Mar 2024) documents a live affiliate program on Impact (join via app.impact.com) at 3% per sale, open in all regions. Shopper's listing instead claims 5-10%, so the rate is recorded null on conflicting sources; no source publishes an earnings-cap statement or creator count, so cap and saturation are unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": null,
+   "application_url": "https://linkclicky.com/affiliate-program/inh-hair/",
+   "source_url": "https://linkclicky.com/affiliate-program/inh-hair/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://linkclicky.com/affiliate-program/inh-hair/",
+   "source_url": "https://linkclicky.com/affiliate-program/inh-hair/",
+   "title": "INH Hair Affiliate Program (via Impact)"
+  },
+  "score": {
+   "niche_fit": 24,
+   "ugc_evidence": 12,
+   "compensation": 6,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Wigs, extensions and styling hairpieces built for social-first beauty content — strong fit for transformation creators.",
+    "ugc_evidence": "The brand is community-driven and social-first, and its program runs on Impact for creators/publishers; no cohort size is published.",
+    "compensation": "Sources conflict (3% per the Impact listing via LinkClicky vs 5-10% on Shopper), so commission_rate is null; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Application runs through Impact; no brand-side partnerships contact was verified.",
+    "opportunity_availability": "Program listed as open in all regions via Impact.",
+    "credibility": "Known DTC hair brand with wide social reach, though smaller than legacy haircare names."
+   }
+  }
+ },
+ {
+  "name": "BeautyBio",
+  "website": "https://beautybio.com",
+  "country": "United States",
+  "category_slug": "skincare",
+  "description": "US skincare-tools and skincare brand behind GloPRO microneedling and Bright Eyes eye gels, sold via beautybio.com, QVC and beauty retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://gloprobeauty.superfiliate.com",
+    "email": null,
+    "source_url": "https://www.instagram.com/reel/DNizeTiRFJC/"
+   }
+  ],
+  "socials": [
+   {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/beautybio"
+   }
+  ],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "brand_program_page",
+    "source_url": "https://www.instagram.com/reel/DNizeTiRFJC/",
+    "summary": "BeautyBio's own verified Instagram post (fetched 2026-11-21) announces its Ambassador Program: creators earn 15-25% commission on purchases through a personal link, plus free products and exclusive event invites, applying through the brand's Superfiliate portal (gloprobeauty.superfiliate.com), which multiple creator walkthroughs show live. Because the brand publishes a range rather than a single rate, commission_rate is recorded null; the posts publish no earnings-cap statement and no creator count, so cap and saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "ugc_collab",
+    "source_type": "listing",
+    "source_url": "https://milled.com/beautybio/become-a-beautybio-ambassador-and-earn-y48coshCRM9WpiKf",
+    "summary": "A June 2025 BeautyBio email archived on Milled ('Become a BeautyBio Ambassador & Earn!') confirms the brand recruits ambassadors directly with commission and creator-exclusive rewards."
+   }
+  ],
+  "affiliate": {
+   "network": "Superfiliate",
+   "commission_rate": null,
+   "application_url": "https://gloprobeauty.superfiliate.com",
+   "source_url": "https://www.instagram.com/reel/DNizeTiRFJC/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://gloprobeauty.superfiliate.com",
+   "source_url": "https://www.instagram.com/reel/DNizeTiRFJC/",
+   "title": "BeautyBio Ambassador Program (via Superfiliate)"
+  },
+  "score": {
+   "niche_fit": 25,
+   "ugc_evidence": 15,
+   "compensation": 13,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Skincare devices plus topical skincare — a strong fit for routine and results-content creators.",
+    "ugc_evidence": "The brand actively recruits ambassadors on its own channels with application walkthroughs by creators; the program is built around creator links and codes.",
+    "compensation": "The brand publishes a 15-25% commission range for ambassadors (its own Instagram), not a single rate, so commission_rate is null; no cap statement is published, so the cap is unknown.",
+    "contact_access": "Open application on the brand's own Superfiliate portal, linked from its social bios.",
+    "opportunity_availability": "Program is open now with self-serve application and quick acceptance reported by creators.",
+    "credibility": "Established beauty-tech brand with QVC and major retailer distribution."
+   }
+  }
+ },
+ {
+  "name": "Alpha-H",
+  "website": "https://alpha-h.com",
+  "country": "Australia",
+  "category_slug": "skincare",
+  "description": "Australian clinical skincare brand founded on the Gold Coast, pioneering glycolic acid (Liquid Gold) and accelerated skincare, sold via alpha-h.com and international retailers.",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://alpha-h.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://alpha-h.com/pages/affiliates"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate_program_page",
+    "source_type": "brand_program_page",
+    "source_url": "https://alpha-h.com/pages/affiliates",
+    "summary": "Alpha-H's own Affiliates page (fetched 2026-11-21) runs two commission routes: 'Alpha Ambassadors' for creators, influencers and brand ambassadors promoting on TikTok, Instagram, YouTube and Pinterest, and a Skincare Professionals route — both offering competitive commission rates, top-performer incentives, private affiliate offers and product seeding, with discount codes for the audience. The page publishes no percentage, no earnings-cap statement and no creator count, so cap and saturation are unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "compensation",
+    "source_type": "affiliate_network",
+    "source_url": "https://linkclicky.com/affiliate-program/alpha-h-skincare/",
+    "summary": "LinkClicky's Alpha-H listing (fetched 2026-11-21) places the affiliate program on Rakuten Advertising at 15% per sale — the only published rate found; the brand's own page describes rates only as 'competitive'."
+   }
+  ],
+  "affiliate": {
+   "network": "Rakuten Advertising",
+   "commission_rate": 15,
+   "application_url": "https://alpha-h.com/pages/affiliates",
+   "source_url": "https://linkclicky.com/affiliate-program/alpha-h-skincare/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "application_url": "https://alpha-h.com/pages/affiliates",
+   "source_url": "https://alpha-h.com/pages/affiliates",
+   "title": "Alpha-H Ambassador & Affiliate Program"
+  },
+  "score": {
+   "niche_fit": 26,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 11,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Pure clinical skincare (glycolic-led) — squarely in the skincare niche with a results-driven creator angle.",
+    "ugc_evidence": "The brand's own page runs a dedicated ambassador route for TikTok/Instagram/YouTube/Pinterest creators with seeding and private offers.",
+    "compensation": "A 15% per-sale rate is published on the Rakuten listing (via LinkClicky); the brand's own page calls rates 'competitive' without a figure. No cap statement is published, so the cap is unknown.",
+    "contact_access": "Application routes published on the brand's own affiliates page, plus a help-centre collaboration entry point.",
+    "opportunity_availability": "Both ambassador and affiliate routes are open now via the brand page and Rakuten.",
+    "credibility": "Award-winning Australian brand with ~30 years in clinical skincare and global retail distribution."
+   }
+  }
+ }
+]
