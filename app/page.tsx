@@ -504,7 +504,7 @@ export default function LandingPage() {
             The feature that makes UltraVestra famous
           </h2>
           <p style={{ color: "#f3e8ff", maxWidth: 620, margin: "0 auto", fontSize: 16.5 }}>
-            &ldquo;I&rsquo;m a TikTok creator in beauty. I want brands with
+            &ldquo;I&rsquo;m a Trybe creator in beauty. I want brands with
             uncapped affiliate commissions, that work with smaller creators.
             Show me how to make better product videos.&rdquo; — Ask
             UltraVestra answers with a personalized research report: brands

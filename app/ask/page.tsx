@@ -256,7 +256,7 @@ ${platformLabel} creator — ${nicheLabel}`;
 
       <section style={panel}>
         <h2 style={h2style}>Ask your question</h2>
-        <p style={sub}>Try the famous one: <em>&ldquo;I&rsquo;m a TikTok creator in beauty. I want brands with uncapped affiliate commissions. I need brands that work with smaller creators. Show me how to make better product videos.&rdquo;</em></p>
+        <p style={sub}>Try the famous one: <em>&ldquo;I&rsquo;m a Trybe creator in beauty. I want brands with uncapped affiliate commissions. I need brands that work with smaller creators. Show me how to make better product videos.&rdquo;</em></p>
         <form method="get" style={{ display: "flex", flexDirection: "column", gap: 14 }}>
           <textarea name="q" defaultValue={q} placeholder="Ask UltraVestra anything about brands, commissions and content…" rows={3} style={{ width: "100%", borderRadius: 14, padding: "13px 16px", fontSize: 16.5 }} />
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
