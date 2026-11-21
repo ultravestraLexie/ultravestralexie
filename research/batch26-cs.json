@@ -1,0 +1,595 @@
+[
+  {
+    "affiliate": {
+      "application_url": "https://lithebeauty.ca/pages/lithe-collective",
+      "commission_cap": "uncapped",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Brand direct (Lithe Collective)",
+      "source_url": "https://lithebeauty.ca/pages/lithe-collective"
+    },
+    "category_slug": "beauty",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "partnerships",
+        "email": "anna@lithebeauty.com",
+        "notes": "Contact email published on the brand's own Lithe Collective program page.",
+        "url": "https://lithebeauty.ca/pages/lithe-collective"
+      }
+    ],
+    "country": "Canada",
+    "description": "Canadian clean beauty brand (makeup and skincare) whose own Lithe Collective creator program page publishes the round's clearest uncapped statement: its FAQ answers the earnings-limit question with 'There's no cap, and earnings are unlimited.' Creators earn 10% commission on every order placed through their unique link or code, their audience gets 10% off, tracking runs 30 days, payouts are monthly with a $100 minimum, and the program publishes a direct contact email (anna@lithebeauty.com). The 10% rate and the verified-uncapped cap are recorded from the brand's own page.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://lithebeauty.ca/pages/lithe-collective",
+        "summary": "Lithe Beauty's own Lithe Collective page (fetched) runs the brand's creator program directly: creators earn commission on orders placed through their unique link or code, their audience receives 10% off, tracking is 30 days, payouts are monthly with a $100 minimum payout, and the page publishes the contact email anna@lithebeauty.com."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "brand_site",
+        "source_url": "https://lithebeauty.ca/pages/lithe-collective",
+        "summary": "The brand's own page states creators earn 10% commission on every order. The 10% rate is recorded. No source publishes absolute creator counts, so creator_saturation stays unknown."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_cap",
+        "source_type": "brand_site",
+        "source_url": "https://lithebeauty.ca/pages/lithe-collective",
+        "summary": "The program FAQ on the brand's own page answers the earnings-limit question verbatim: 'You'll earn 10% commission on every order placed through your unique link or code. There's no cap, and earnings are unlimited.' That explicit statement on the brand's own program page is why commission_cap is recorded as uncapped."
+      }
+    ],
+    "name": "Lithe Beauty",
+    "opportunity": {
+      "application_url": "https://lithebeauty.ca/pages/lithe-collective",
+      "compensation_notes": "10% commission on every order (brand's own page). Commission cap: UNCAPPED - the program FAQ states 'There's no cap, and earnings are unlimited.' Audience gets 10% off; 30-day tracking; $100 minimum payout; monthly payouts.",
+      "description": "Join Lithe Beauty's own Lithe Collective, share clean beauty routines with your link or code, and earn 10% commission with no cap on earnings and monthly payouts.",
+      "status": "unverified",
+      "title": "Lithe Collective Creator Program",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 18,
+      "contact_access": 13,
+      "credibility": 4,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "10% commission plus the round's one verified-uncapped statement on the brand's own page ('There's no cap, and earnings are unlimited').",
+        "contact_access": "A direct program contact email (anna@lithebeauty.com) is published on the program page.",
+        "credibility": "Operating DTC brand with a detailed, current program page including payout minimums and tracking terms.",
+        "niche_fit": "Clean makeup and skincare with a simple creator story (link or code, audience discount) that fits everyday beauty content.",
+        "opportunity_availability": "Open application from the brand's own program page.",
+        "ugc_evidence": "The brand runs a named creator collective with its own program page, audience discount codes and monthly payouts; no measured creator counts are published."
+      },
+      "ugc_evidence": 16
+    },
+    "socials": [],
+    "website": "https://lithebeauty.ca"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://captainblankenship.com/pages/collab",
+      "commission_cap": "unknown",
+      "commission_rate": 20,
+      "creator_saturation": "unknown",
+      "network": "Brand direct (Captain Blankenship Collab Program via Dovetale)",
+      "source_url": "https://captainblankenship.com/pages/collab"
+    },
+    "category_slug": "beauty",
+    "contacts": [],
+    "country": "United States",
+    "description": "Seaweed-powered clean haircare brand founded by Jana Blankenship, B Corp and Made Safe Certified. Its own Collab page states plainly: 'We offer 20% commission to all creators!' alongside free product and gifting, with collab assets served through Dovetale. The 20% rate is recorded from the brand's own page. No cap statement and no creator counts are published, so cap and saturation stay unknown, and no contact email appears on the page.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://captainblankenship.com/pages/collab",
+        "summary": "Captain Blankenship's own Collab page (fetched) invites creators to collaborate with the brand, offering commission plus free product and gifting; the page's collab imagery is served from uploads.dovetale.com, indicating the collab program runs through Dovetale. The brand is seaweed-powered haircare, B Corp and Made Safe Certified, founded by Jana Blankenship."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "brand_site",
+        "source_url": "https://captainblankenship.com/pages/collab",
+        "summary": "The brand's own Collab page states verbatim: 'We offer 20% commission to all creators!' The 20% rate is recorded. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown. No contact email is published on the page."
+      }
+    ],
+    "name": "Captain Blankenship",
+    "opportunity": {
+      "application_url": "https://captainblankenship.com/pages/collab",
+      "compensation_notes": "20% commission to all creators (brand's own page), plus free product/gifting. No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply through Captain Blankenship's own Collab page, create seaweed-haircare content, and earn the 20% commission the brand offers to all creators, plus gifting.",
+      "status": "unverified",
+      "title": "Captain Blankenship Collab Program (Dovetale)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 16,
+      "contact_access": 7,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "20% commission to all creators is one of the strongest published rates in the round; no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Application runs through the brand's own collab page/Dovetale; no program email is published.",
+        "credibility": "B Corp and Made Safe Certified brand with a named founder and an established DTC storefront.",
+        "niche_fit": "Clean, seaweed-powered haircare with strong certifications gives hair and clean-beauty creators a clear, credible content angle.",
+        "opportunity_availability": "Open collab application from the brand's own page.",
+        "ugc_evidence": "The brand's own page speaks directly to creators with a commission offer and gifting; no measured creator counts are published."
+      },
+      "ugc_evidence": 17
+    },
+    "socials": [],
+    "website": "https://captainblankenship.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://byroe.com/pages/creator-program",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Shopify Collabs (BYROE Creator Program)",
+      "source_url": "https://byroe.com/pages/creator-program"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "Korean superfood skincare brand founded by Amy Roe. Its own Creator Program page offers three partnership paths and leads with Shopify Collabs as the full partner program: commission on every sale, product gifting, early access to launches and creator toolkits, open to U.S.-based creators of all sizes with approval typically within 7 days. The brand does not publish the Collabs rate ('Full details are provided when you're approved'), so the rate is null; a dated March 2024 directory listing shows a separate ShareASale program at 10%. The TikTok Shop path (up to 15%) is an extra channel only, never the recorded route. No cap statement is published.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "brand_site",
+        "source_url": "https://byroe.com/pages/creator-program",
+        "summary": "BYROE's own Creator Program page (fetched) presents Shopify Collabs as 'Our full partner program with gifting' for creators on Instagram, YouTube, blogs and beyond: commission on every sale, product gifting, early access to launches and creator toolkits. The FAQ says the program is open exclusively to U.S.-based creators of all sizes, applications are typically reviewed within 7 days, and creators may also partner via TikTok Shop (up to 15% - an extra channel only) and LTK simultaneously."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/byroe/",
+        "summary": "The brand's own page does not publish the Shopify Collabs rate ('Full details are provided when you're approved'), so commission_rate is null. LinkClicky's directory (March 2024) lists a separate ShareASale program for BYROE at 10% with a 30-day cookie; that dated figure is documented here but is not recorded as the current program rate. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "name": "ByRoe",
+    "opportunity": {
+      "application_url": "https://byroe.com/pages/creator-program",
+      "compensation_notes": "Commission on every sale via Shopify Collabs; the rate is not published (full details given on approval), so the rate is null. A dated March 2024 directory listing shows a separate ShareASale program at 10%. No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply on BYROE's own Creator Program page for the Shopify Collabs partner program: commission on every sale, gifting, early launch access and creator toolkits for U.S. creators of all sizes.",
+      "status": "unverified",
+      "title": "BYROE Creator Program (Shopify Collabs)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 7,
+      "credibility": 4,
+      "niche_fit": 25,
+      "opportunity_availability": 9,
+      "reasons": {
+        "compensation": "Commission on every sale is promised but the rate is unpublished (given on approval), so compensation scores low despite the program's polish; a dated directory lists 10% on a separate ShareASale program.",
+        "contact_access": "Application via the brand's own page/Shopify Collabs; no program email is published.",
+        "credibility": "Operating DTC brand with a detailed, current creator program page and clear FAQ.",
+        "niche_fit": "Korean superfood skincare with clinical-results positioning is a strong fit for skincare routine and review content.",
+        "opportunity_availability": "Open to all U.S.-based creators with a stated ~7-day review - unusually accessible.",
+        "ugc_evidence": "A dedicated creator program page with toolkits, gifting and early access, explicitly welcoming creators of all sizes - the strongest creator-facing setup in the round."
+      },
+      "ugc_evidence": 18
+    },
+    "socials": [],
+    "website": "https://byroe.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/52251",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/52251"
+    },
+    "category_slug": "skincare",
+    "contacts": [
+      {
+        "contact_name": null,
+        "contact_type": "partnerships",
+        "email": "affiliates@estelibody.com",
+        "notes": "Affiliate support email published on the brand's own Awin merchant profile.",
+        "url": "https://ui.awin.com/merchant-profile/52251"
+      }
+    ],
+    "country": "United States",
+    "description": "Small-batch clean skincare and botanical perfume brand inspired by Nicaragua, female-founded and family-run, Leaping Bunny Certified, featured in Oprah Daily, Bustle, Nylon, The Zoe Report and Glamour. Its own Awin merchant profile actively recruits beauty and wellness bloggers, influencers and content creators (coupon/deal sites are not accepted), publishes a 30-day cookie, an $80 average order value and a dedicated affiliate support email. The commission is tiered by publisher type and the percentage is not published, so the rate is null. No cap statement is published.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/52251",
+        "summary": "ESTELÍ's own Awin merchant profile (fetched) describes small-batch clean skincare and botanical perfumes, female-founded and family-run, Leaping Bunny Certified, and says the brand is 'especially seeking affiliates who create content in: Green & Organic Beauty' among bloggers and influencers; coupon/deal sites are not accepted. Program highlights: 30-day cookie, $80 average order value, banners/text links/product images provided, support at affiliates@estelibody.com."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/52251",
+        "summary": "The brand's Awin profile states the commission is a 'Tiered % based on publisher type (bloggers, influencers, content creators)' without publishing the percentage, so commission_rate is null. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "name": "Estelí",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/52251",
+      "compensation_notes": "Tiered % commission based on publisher type (brand's Awin profile); the percentage is not published, so the rate is null. 30-day cookie; $80 average order value. No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply to Estelí's Awin program, create clean-beauty content around small-batch botanical skincare, and earn tiered commission with a published affiliate support contact.",
+      "status": "unverified",
+      "title": "Estelí Affiliate Program (Awin)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 9,
+      "contact_access": 12,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "A tiered commission exists but the percentage is unpublished, so compensation scores low until the rate is known.",
+        "contact_access": "A dedicated affiliate support email (affiliates@estelibody.com) is published on the program profile.",
+        "credibility": "Leaping Bunny Certified, female-founded brand with named national press features on its profile.",
+        "niche_fit": "Small-batch botanical skincare with a transparent-ingredient story fits clean-beauty creators well.",
+        "opportunity_availability": "Open application through Awin (coupon/deal sites excluded).",
+        "ugc_evidence": "The brand's own network profile explicitly recruits beauty bloggers, influencers and content creators and provides creative assets; no measured creator counts are published."
+      },
+      "ugc_evidence": 14
+    },
+    "socials": [],
+    "website": "https://www.estelibody.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/15789",
+      "commission_cap": "unknown",
+      "commission_rate": 10,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/15789"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United Kingdom",
+    "description": "Independent British organic skincare brand, B Corp certified, founder-led and made in-house in small batches since 2009, with products over 98% natural and certified organic. Its own Awin merchant profile publishes the affiliate terms: 10% commission for every new customer and 5% for returning customers, with a 30-day cookie. The 10% new-customer rate is recorded with the split documented. No cap statement or creator counts are published.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/15789",
+        "summary": "Evolve Organic Beauty's own Awin merchant profile (fetched) runs the brand's affiliate programme on Awin with a 30-day cookie. The brand's homepage describes it as an independent British brand, B Corp certified, vegan and cruelty free, founder-led and British-made since 2009, with products over 98% natural and certified organic."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/15789",
+        "summary": "The brand's Awin profile states: 'We offer a rate of 10% for every new customer and 5% for returning customers.' The 10% new-customer rate is recorded with the returning-customer split documented. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "name": "Evolve Organic Beauty",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/15789",
+      "compensation_notes": "10% commission on new customers and 5% on returning customers (brand's Awin profile); 30-day cookie. No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply to Evolve's Awin programme, share certified-organic skincare content, and earn 10% on new customers and 5% on returning customers.",
+      "status": "unverified",
+      "title": "Evolve Organic Beauty Affiliate Programme (Awin)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 13,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "10% new / 5% returning is a fair published split; no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Application and management run through Awin; no program email is published on the profile.",
+        "credibility": "B Corp certified, founder-led brand operating since 2009 with 7,000+ five-star reviews claimed on its storefront.",
+        "niche_fit": "Certified-organic, small-batch British skincare is a clean fit for skincare and wellness creators.",
+        "opportunity_availability": "Open application through Awin.",
+        "ugc_evidence": "A live network programme with published terms; the profile is publisher-facing rather than creator-specific, and no creator counts are published."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://www.evolvebeauty.co.uk"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/monastery/",
+      "commission_cap": "unknown",
+      "commission_rate": 15,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://linkclicky.com/affiliate-program/monastery/"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "Luxury botanical skincare brand founded by an aesthetician, blending natural ingredients with high-performance formulations and sustainable, ethical sourcing. Its affiliate program runs on ShareASale at 15% per sale with a 45-day cookie, per the network listing documented by LinkClicky. The 15% ShareASale rate is recorded; a separate 3-5% figure circulates for the Amazon channel and is documented as a different channel, not a conflict on the ShareASale rate. No cap statement or creator counts are published.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/monastery/",
+        "summary": "LinkClicky's affiliate directory (fetched, listing updated March 2024) documents Monastery's affiliate program on ShareASale with a 45-day cookie and a join route through ShareASale. Monastery is a luxury botanical skincare brand founded by an aesthetician, with sustainably and ethically sourced ingredients."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/monastery/",
+        "summary": "LinkClicky lists the ShareASale commission as 15% per sale ('This is just what's officially listed with their affiliate program as the payout'). The 15% rate is recorded. Lasso's lower 3-5% figure for Monastery reflects its Amazon channel, a different route, and is documented here rather than treated as a conflict. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "name": "Monastery",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/monastery/",
+      "compensation_notes": "15% commission per sale on ShareASale (network listing via LinkClicky); 45-day cookie. A separate 3-5% figure applies to the Amazon channel. No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply to Monastery's ShareASale program, create luxury botanical skincare content, and earn 15% per sale with a 45-day cookie.",
+      "status": "unverified",
+      "title": "Monastery Affiliate Program (ShareASale)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 15,
+      "contact_access": 5,
+      "credibility": 4,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "15% per sale with a 45-day cookie is a strong published rate; no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Application runs through ShareASale; no program email is published.",
+        "credibility": "Operating DTC luxury brand; program terms rest on a network directory listing rather than the brand's own page.",
+        "niche_fit": "Luxury botanical skincare with an aesthetician founder story suits premium skincare content.",
+        "opportunity_availability": "Open application through ShareASale.",
+        "ugc_evidence": "A live network program aimed at bloggers and influencers per the listing; no measured creator counts are published."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://www.monasterymade.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://ui.awin.com/merchant-profile/1613",
+      "commission_cap": "unknown",
+      "commission_rate": 8,
+      "creator_saturation": "unknown",
+      "network": "Awin",
+      "source_url": "https://ui.awin.com/merchant-profile/1613"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United Kingdom",
+    "description": "UK organic beauty pioneer, experts in sensitive skin since 1997, with over 150 certified-organic products across skincare, hair care, sun care and make-up. Its own Awin merchant profile publishes the affiliate terms: 8% commission on new customer transactions and 4% on return customer transactions across all product categories. The 8% new-customer rate is recorded with the split documented. No cap statement or creator counts are published.",
+    "evidence": [
+      {
+        "confidence": "verified",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/1613",
+        "summary": "Green People's own Awin merchant profile (fetched) runs the 'Green People Affiliate Programme' on Awin. The profile describes Green People as 'the UK's leading organic beauty brand with over 150 organic products for all the family' and 'Experts in sensitive skin since 1997', covering skin care, hair care, men's, babies & children, sun care and make-up."
+      },
+      {
+        "confidence": "verified",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_network",
+        "source_url": "https://ui.awin.com/merchant-profile/1613",
+        "summary": "The brand's Awin profile states: 'Earn 8% commission on new customer transactions and 4% commission on return customer transactions on sales of Green People products from all product categories.' The 8% new-customer rate is recorded with the split documented. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "name": "Green People",
+    "opportunity": {
+      "application_url": "https://ui.awin.com/merchant-profile/1613",
+      "compensation_notes": "8% commission on new customer transactions and 4% on return customer transactions (brand's Awin profile). No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply to Green People's Awin programme, share certified-organic sensitive-skin content, and earn 8% on new customers and 4% on returning customers.",
+      "status": "unverified",
+      "title": "Green People Affiliate Programme (Awin)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 12,
+      "contact_access": 6,
+      "credibility": 5,
+      "niche_fit": 24,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "8% new / 4% returning is a modest published split; no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Application and management run through Awin; no program email is published on the profile.",
+        "credibility": "Organic beauty pioneer operating since 1997 with a large certified-organic catalogue.",
+        "niche_fit": "Certified-organic ranges for sensitive skin, teens, children and men give creators several content angles.",
+        "opportunity_availability": "Open application through Awin.",
+        "ugc_evidence": "A live network programme with published terms; publisher-facing rather than creator-specific, and no creator counts are published."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://www.greenpeople.co.uk"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/briogeo-hair/",
+      "commission_cap": "unknown",
+      "commission_rate": null,
+      "creator_saturation": "unknown",
+      "network": "Impact",
+      "source_url": "https://linkclicky.com/affiliate-program/briogeo-hair/"
+    },
+    "category_slug": "beauty",
+    "contacts": [],
+    "country": "United States",
+    "description": "Major clean haircare brand built on a '6-Free' promise (no harsh sulfates, silicones, phthalates, parabens, DEA or artificial dyes), with natural, scientifically backed formulas for all hair types and eco-conscious packaging. Its affiliate program runs on Impact (the join route resolves to app.impact.com). Published rate figures conflict across directories - 3%, 8-10% and 2% - so the rate is null with the conflict documented. No cap statement or creator counts are published.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/briogeo-hair/",
+        "summary": "LinkClicky's affiliate directory (fetched, listing updated March 2024) documents Briogeo's affiliate program on the Impact platform, with the join route resolving to app.impact.com. Briogeo is a clean haircare brand with a '6-Free Hair Care' promise and formulas for all hair types."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/briogeo-hair/",
+        "summary": "Published Briogeo rate figures conflict: LinkClicky lists 3% per sale on Impact, InfluencerRate lists 8-10%, and Shopper lists 2%. Because the sources conflict on the same program, commission_rate is null with the conflict documented here. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "name": "Briogeo",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/briogeo-hair/",
+      "compensation_notes": "Rate conflict: directories publish 3% (LinkClicky/Impact), 8-10% (InfluencerRate) and 2% (Shopper) for the program, so the rate is null until the network listing settles it. No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply to Briogeo's Impact program and create clean-haircare content for all hair types; confirm the current rate in the network before promoting, as published figures conflict.",
+      "status": "unverified",
+      "title": "Briogeo Affiliate Program (Impact)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 8,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 26,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "The program pays commission, but published figures conflict (3% vs 8-10% vs 2%), so the rate is honestly null and compensation scores low.",
+        "contact_access": "Application runs through Impact; no program email is published.",
+        "credibility": "Established, widely retailed clean haircare brand with a long-standing ingredient-transparency promise.",
+        "niche_fit": "A leading clean haircare brand with formulas for every hair type - a natural fit for hair creators.",
+        "opportunity_availability": "Open application through Impact.",
+        "ugc_evidence": "A live program on a major network (Impact); no measured creator counts are published."
+      },
+      "ugc_evidence": 12
+    },
+    "socials": [],
+    "website": "https://www.briogeohair.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://linkclicky.com/affiliate-program/by-rosie-jane/",
+      "commission_cap": "unknown",
+      "commission_rate": 12,
+      "creator_saturation": "unknown",
+      "network": "ShareASale",
+      "source_url": "https://linkclicky.com/affiliate-program/by-rosie-jane/"
+    },
+    "category_slug": "beauty",
+    "contacts": [],
+    "country": "United States",
+    "description": "Los Angeles clean beauty brand making fragrances and cosmetics from responsibly sourced ingredients, free from parabens, phthalates and artificial dyes; the line spans perfumes, oils, candles and cheek & lip balm pots. Its affiliate program runs on ShareASale at 12% per sale with a long 90-day cookie, per the network listing documented by LinkClicky. The 12% rate is recorded. No cap statement or creator counts are published.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/by-rosie-jane/",
+        "summary": "LinkClicky's affiliate directory (fetched, listing updated March 2024) documents the By Rosie Jane affiliate program on ShareASale, with the join route through ShareASale. By Rosie Jane is a clean beauty brand crafting fragrances and cosmetics inspired by Los Angeles, free from parabens, phthalates and artificial dyes."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://linkclicky.com/affiliate-program/by-rosie-jane/",
+        "summary": "LinkClicky lists the ShareASale commission as 12% per sale with a 90-day cookie ('This is just what's officially listed with their affiliate program as the payout'). The 12% rate is recorded. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "name": "By Rosie Jane",
+    "opportunity": {
+      "application_url": "https://linkclicky.com/affiliate-program/by-rosie-jane/",
+      "compensation_notes": "12% commission per sale on ShareASale (network listing via LinkClicky); 90-day cookie. No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply to By Rosie Jane's ShareASale program, create clean fragrance and beauty content, and earn 12% per sale with a 90-day cookie.",
+      "status": "unverified",
+      "title": "By Rosie Jane Affiliate Program (ShareASale)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 14,
+      "contact_access": 5,
+      "credibility": 4,
+      "niche_fit": 23,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "12% per sale with an unusually long 90-day cookie is a solid published offer; no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Application runs through ShareASale; no program email is published.",
+        "credibility": "Operating DTC clean beauty brand; program terms rest on a network directory listing rather than the brand's own page.",
+        "niche_fit": "Clean fragrance and minimalist cosmetics fit fragrance and everyday-beauty creators.",
+        "opportunity_availability": "Open application through ShareASale.",
+        "ugc_evidence": "A live network program per the listing; no measured creator counts are published."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://www.byrosiejane.com"
+  },
+  {
+    "affiliate": {
+      "application_url": "https://getlasso.co/affiliate/juice-beauty/",
+      "commission_cap": "unknown",
+      "commission_rate": 6,
+      "creator_saturation": "unknown",
+      "network": "Rakuten Advertising",
+      "source_url": "https://getlasso.co/affiliate/juice-beauty/"
+    },
+    "category_slug": "skincare",
+    "contacts": [],
+    "country": "United States",
+    "description": "Northern California organic skincare leader built on authentically organic, high-efficacy formulas. Its affiliate program, listed on Rakuten Advertising (LinkShare), pays 6% per sale and is aimed at skincare bloggers and influencers, per Lasso's fetched program page. The 6% rate is recorded. No cap statement or creator counts are published.",
+    "evidence": [
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "affiliate_program",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/juice-beauty/",
+        "summary": "Lasso's Juice Beauty affiliate program page (fetched) describes the program as built for bloggers and influencers promoting organic skincare, with an application and approval flow and an affiliate dashboard; affiliateprograms.com lists the program's network as Rakuten Advertising (LinkShare). Juice Beauty is a Northern California company leading in authentically organic, high-efficacy beauty."
+      },
+      {
+        "confidence": "publicly_reported",
+        "evidence_type": "commission_rate",
+        "source_type": "affiliate_directory",
+        "source_url": "https://getlasso.co/affiliate/juice-beauty/",
+        "summary": "Lasso's program page states the commission rate plainly: '6% Per Sale', applying to all products. The 6% rate is recorded. No source publishes an earnings cap statement or absolute creator counts, so commission_cap and creator_saturation stay unknown."
+      }
+    ],
+    "name": "Juice Beauty",
+    "opportunity": {
+      "application_url": "https://getlasso.co/affiliate/juice-beauty/",
+      "compensation_notes": "6% commission per sale on all products (Lasso program page); network listed as Rakuten Advertising (LinkShare). No earnings cap statement is published, so the cap is unknown.",
+      "description": "Apply to Juice Beauty's affiliate program, share organic skincare content, and earn 6% per sale across the range.",
+      "status": "unverified",
+      "title": "Juice Beauty Affiliate Program (Rakuten Advertising)",
+      "type": "affiliate"
+    },
+    "score": {
+      "compensation": 11,
+      "contact_access": 5,
+      "credibility": 5,
+      "niche_fit": 25,
+      "opportunity_availability": 8,
+      "reasons": {
+        "compensation": "6% per sale is a modest published rate; no cap statement is published, so the cap is honestly unknown.",
+        "contact_access": "Application runs through the network; no program email is published.",
+        "credibility": "Long-established organic beauty leader with a national retail and DTC presence.",
+        "niche_fit": "A leading organic skincare brand with broad name recognition fits skincare creators of many sizes.",
+        "opportunity_availability": "Open application through Rakuten Advertising.",
+        "ugc_evidence": "A live network program described as built for bloggers and influencers; no measured creator counts are published."
+      },
+      "ugc_evidence": 11
+    },
+    "socials": [],
+    "website": "https://juicebeauty.com"
+  }
+]

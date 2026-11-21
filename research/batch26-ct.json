@@ -1,0 +1,549 @@
+[
+ {
+  "name": "Injinji",
+  "website": "https://www.injinji.com",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "Performance toesock brand (founded 1999) whose patented five-toe socks are a cult staple with runners, hikers and ultrarunners. Its own affiliate page publishes an 8% commission, a 30-day cookie and a dedicated in-house affiliate manager, with the program hosted on AvantLink and applications screened by the brand.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.injinji.com/affiliates",
+    "summary": "The brand's own affiliate page: 'When customers follow an Affiliate's unique URL to make an Injinji.com purchase, an 8% commission is earned', with a 30-day cookie duration, banners/text links/product feed and a dedicated in-house affiliate manager."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.injinji.com/affiliates",
+    "summary": "The same page invites 'a website or blog owner in the active or outdoor industry' to apply, states the program 'is hosted by AvantLink', and notes every applicant goes through a screening process. No cap statement appears on the page, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 8,
+   "application_url": "https://www.injinji.com/affiliates",
+   "source_url": "https://www.injinji.com/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Injinji Affiliate Program (AvantLink)",
+   "application_url": "https://www.injinji.com/affiliates",
+   "source_url": "https://www.injinji.com/affiliates"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 13,
+   "compensation": 13,
+   "contact_access": 9,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Toesocks are a distinctive, demonstrable product for running, trail and foot-health content - blister-prevention and gear-test videos write themselves.",
+    "ugc_evidence": "The brand's own page recruits active/outdoor website and blog owners and supplies banners, text links and a product feed; it is publisher-facing rather than a social-first creator portal, so the score is mid-range.",
+    "compensation": "8% per sale with a 30-day cookie, published on the brand's own page; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "A dedicated in-house affiliate manager is promised on the page, but no direct email is published there.",
+    "opportunity_availability": "Open application from the brand's own page into AvantLink, free to join, with a screening step.",
+    "credibility": "Operating since 1999 with a patented product and the full inventory on its own storefront - an established niche brand."
+   }
+  }
+ },
+ {
+  "name": "Crowned Athletics",
+  "website": "https://crownedathletics.com",
+  "country": "United States",
+  "category_slug": "fitness",
+  "description": "Women's activewear brand with a princess-inspired design identity and a loyal Instagram community. Its own 'Crowned Crew' affiliate program pays 10% commission on new purchases made with an affiliate's unique code, runs through GoAffPro, and pays via PayPal - but it is selective: applicants must be current customers with a public Instagram page.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://crownedathletics.gorgias.help/en-US/represent-crowned-athletics-187614",
+    "summary": "The brand's own help-centre program page: 'Affiliates earn 10% commission on any new purchases made using their unique code', repeated in the payout terms - 'Payouts are eligible 45 days after the sale date and are issued between the 1st and 5th of each month', paid through PayPal."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://crownedathletics.gorgias.help/en-US/represent-crowned-athletics-187614",
+    "summary": "The same page sets the entry bar: applicants must be current customers (a purchase within the past 12 months) with a public Instagram page, must follow @CrownedAthletics, and apply via the linked GoAffPro portal (crowned-athletics.goaffpro.com). No cap statement appears, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "GoAffPro",
+   "commission_rate": 10,
+   "application_url": "https://crowned-athletics.goaffpro.com",
+   "source_url": "https://crownedathletics.gorgias.help/en-US/represent-crowned-athletics-187614",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Crowned Athletics Crowned Crew Affiliate Program (GoAffPro)",
+   "application_url": "https://crowned-athletics.goaffpro.com",
+   "source_url": "https://crownedathletics.gorgias.help/en-US/represent-crowned-athletics-187614"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 16,
+   "compensation": 14,
+   "contact_access": 7,
+   "opportunity_availability": 6,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "Women's activewear with a strong visual identity is prime fitness-fashion UGC - try-ons, gym outfits and themed collections.",
+    "ugc_evidence": "The program is built around Instagram creators: a public Instagram page is mandatory, codes are formatted from the affiliate's handle, and the brand claims usage rights over tagged photos for its own channels - clear, documented UGC mechanics.",
+    "compensation": "10% on new purchases via code, published in the brand's own terms with a defined payout schedule; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "Application runs through the GoAffPro portal linked from the brand's own page; no direct partnerships email is published.",
+    "opportunity_availability": "Selective rather than open: only current customers with a public Instagram page are considered, which limits availability.",
+    "credibility": "A real, operating DTC brand with detailed published terms, but small and niche compared with national activewear labels."
+   }
+  }
+ },
+ {
+  "name": "Outdoor Vitals",
+  "website": "https://outdoorvitals.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Direct-to-consumer ultralight backpacking gear brand (quilts, jackets, tents) built around a 'Live Ultralight' philosophy. Its own affiliate page publishes a 10% commission on product sales, a 30-day cookie window and an AvantLink application, and explicitly welcomes outdoor websites, blogs and social followings.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://outdoorvitals.com/pages/outdoor-vitals-affiliate-program",
+    "summary": "The brand's own affiliate page: 'earn 10% commission on every qualified buyer you send our way' and, in the program highlights, '10% commission on product sales' with a '30 day cookie window'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://outdoorvitals.com/pages/outdoor-vitals-affiliate-program",
+    "summary": "The same page asks 'Do you have a website, blog or social media following related to the outdoors?' and states 'We've partnered with AvantLink' with APPLY NOW buttons routing to AvantLink. The brand also donates 1% of revenues to poverty projects. No cap statement appears, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 10,
+   "application_url": "https://outdoorvitals.com/pages/outdoor-vitals-affiliate-program",
+   "source_url": "https://outdoorvitals.com/pages/outdoor-vitals-affiliate-program",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Outdoor Vitals Affiliate Program (AvantLink)",
+   "application_url": "https://outdoorvitals.com/pages/outdoor-vitals-affiliate-program",
+   "source_url": "https://outdoorvitals.com/pages/outdoor-vitals-affiliate-program"
+  },
+  "score": {
+   "niche_fit": 23,
+   "ugc_evidence": 13,
+   "compensation": 14,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Ultralight backpacking gear is core travel/adventure content - gear lists, thru-hike setups and pack shakedowns.",
+    "ugc_evidence": "The brand's own page explicitly recruits outdoor websites, blogs and social followings and provides AvantLink creative tools; no creator-count evidence was published, so saturation stays unknown.",
+    "compensation": "10% on product sales with a 30-day cookie, published on the brand's own page; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "Applications route through AvantLink from the brand's page; no direct partnerships email is published on it.",
+    "opportunity_availability": "Open application from the brand's own page into AvantLink, free to join.",
+    "credibility": "An established DTC outdoor brand with lifetime warranties and a documented 1%-of-revenue give-back."
+   }
+  }
+ },
+ {
+  "name": "RUX",
+  "website": "https://rux.life",
+  "country": "Canada",
+  "category_slug": "travel",
+  "description": "Outdoor gear brand built around the RUX 70L collapsible storage-and-hauling system for road trips, camping and overlanding. Its own affiliate page publishes an 8% commission on every referred sale, a 30-day cookie and dedicated affiliate management, with sign-up through AvantLink.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://rux.life/pages/affiliate",
+    "summary": "The brand's own affiliate page: 'Earn 8% for every sale you refer to RUX', with '30-day cookie duration', 'Dedicated Affiliate Management' and 'Regularly updated creative'."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://rux.life/pages/affiliate",
+    "summary": "The same page: 'Do you have a website or blog in the outdoor travel & gear category? If so you can sign on to Avantlink and become an affiliate partner.' No cap statement appears, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "AvantLink",
+   "commission_rate": 8,
+   "application_url": "https://rux.life/pages/affiliate",
+   "source_url": "https://rux.life/pages/affiliate",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "RUX Affiliate Program (AvantLink)",
+   "application_url": "https://rux.life/pages/affiliate",
+   "source_url": "https://rux.life/pages/affiliate"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 11,
+   "compensation": 12,
+   "contact_access": 8,
+   "opportunity_availability": 8,
+   "credibility": 3,
+   "reasons": {
+    "niche_fit": "A collapsible gear-hauling system demos well in road-trip, camping and van-life content, though the product range is narrow.",
+    "ugc_evidence": "The brand recruits outdoor travel and gear websites/blogs through AvantLink with regularly updated creative; it is publisher-facing rather than social-creator-first.",
+    "compensation": "8% per referred sale with a 30-day cookie, published on the brand's own page; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "Dedicated affiliate management is promised on the page; applications route through AvantLink and no direct email is published.",
+    "opportunity_availability": "Open application from the brand's own page into AvantLink, free to join.",
+    "credibility": "A young, single-product-line brand - real storefront and program, but a shorter track record than legacy outdoor labels."
+   }
+  }
+ },
+ {
+  "name": "Clarks",
+  "website": "https://www.clarks.com",
+  "country": "United Kingdom",
+  "category_slug": "fashion",
+  "description": "Two-century-old footwear brand (Desert Boot, Wallabee) running a US affiliate program through Ascend by Partnerize. Its own affiliate page states all affiliates start at 5% commission, with applications reviewed within five business days and a 60-day lock period on sales.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "official_program_page",
+    "source_url": "https://www.clarks.com/en-us/affiliates",
+    "summary": "The brand's own US affiliate page: 'We start all Affiliates off at earning 5%' and, in its FAQ, 'What commission level does ClarksUSA offer? We start at 5%.' Gift card purchases are excluded."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "official_program_page",
+    "source_url": "https://www.clarks.com/en-us/affiliates",
+    "summary": "The same page: 'All marketing tools (graphics, text links, product links) are available through Ascend by Partnerize', 'Ascend by Partnerize is our trusted third-party affiliate network', and applications are answered within five business days. No cap statement appears, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Partnerize",
+   "commission_rate": 5,
+   "application_url": "https://www.clarks.com/en-us/affiliates",
+   "source_url": "https://www.clarks.com/en-us/affiliates",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Clarks Affiliate Program (Ascend by Partnerize)",
+   "application_url": "https://www.clarks.com/en-us/affiliates",
+   "source_url": "https://www.clarks.com/en-us/affiliates"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 10,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Heritage footwear is steady fashion and travel-shoe content - outfit builds, comfort-shoe and travel-packing videos.",
+    "ugc_evidence": "A traditional publisher affiliate program (graphics, text and product links via Partnerize) rather than a creator-first scheme; workable for UGC creators with blogs or link hubs.",
+    "compensation": "A published 5% starting rate on the brand's own page; higher tiers are not published and no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "The page offers a dedicated affiliate team contact route (email masked in the fetched page, so none is recorded) plus Partnerize support.",
+    "opportunity_availability": "Open publisher application from the brand's own page, free, with a stated five-business-day decision.",
+    "credibility": "A global footwear brand founded in 1825 - maximum brand credibility in this round."
+   }
+  }
+ },
+ {
+  "name": "prAna",
+  "website": "https://www.prana.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Columbia Sportswear-owned sustainable yoga, climbing and outdoor apparel brand. Its affiliate program runs on CJ Affiliate at a published 5% per sale, a figure agreed by multiple independent program listings, with the CJ publisher signup linked from program coverage.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/prana/",
+    "summary": "LinkClicky's program listing: Affiliate Platform 'CJ Affiliate', Commission '5% per sale', website prana.com. GetLasso's prAna listing independently states the same 5% per sale."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.creator-hero.com/blog/top-10-best-us-yoga-influencer-affiliate-programs-top-brands-on-the-hunt-for-influencer-partnerships",
+    "summary": "Creator Hero's yoga-program roundup lists prAna (part of Columbia Sportswear, $150M+ annual revenue) at 5% commission with branded marketing assets and gives a CJ publisher signup URL (cid=5194827). No source publishes a cap statement, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": 5,
+   "application_url": "https://signup.cj.com/member/signup/publisher/?cid=5194827#/branded",
+   "source_url": "https://linkclicky.com/affiliate-program/prana/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "prAna Affiliate Program (CJ Affiliate)",
+   "application_url": "https://signup.cj.com/member/signup/publisher/?cid=5194827#/branded",
+   "source_url": "https://linkclicky.com/affiliate-program/prana/"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Sustainable yoga and outdoor apparel fits fashion, yoga and eco-lifestyle creator content well.",
+    "ugc_evidence": "Program listings describe affiliate discounts, early collection access and branded marketing assets for partners; the program is network-run rather than creator-portal-first.",
+    "compensation": "5% per sale on CJ, agreed by two independent listings; no cap statement was found in any fetched source, so the cap is honestly unknown.",
+    "contact_access": "Contact runs through the CJ Affiliate program dashboard; no direct partnerships email is published in the fetched sources.",
+    "opportunity_availability": "Open publisher application through CJ Affiliate's branded signup for the program.",
+    "credibility": "A long-established brand inside Columbia Sportswear with a documented sustainability and fair-trade position."
+   }
+  }
+ },
+ {
+  "name": "Teva",
+  "website": "https://www.teva.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Deckers Brands' original sport-sandal label (since 1984), spanning sandals, trail shoes and flip-flops for men, women and kids. Its Awin merchant profile publishes a 5% commission on all orders and a named affiliate team contact for the program.",
+  "contacts": [
+   {
+    "contact_type": "partnerships",
+    "contact_url": null,
+    "email": "deckersaffiliates@twentysixdigital.com",
+    "source_url": "https://ui.awin.com/merchant-profile/3383?setLocale=sv_SE"
+   }
+  ],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "commission_rate",
+    "source_type": "network_merchant_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/3383?setLocale=sv_SE",
+    "summary": "Teva's own Awin merchant profile (Teva UK programme): 'Commission Rate: 5% commission on all orders (including VAT, commission payable excludes P&P)', with banners available on approval."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "creator_program",
+    "source_type": "network_merchant_profile",
+    "source_url": "https://ui.awin.com/merchant-profile/3383?setLocale=sv_SE",
+    "summary": "The same profile invites publishers to 'Become an official Teva affiliate' and publishes the program contact: 'For more info, contact the TEVA UK affiliate team at deckersaffiliates@twentysixdigital.com'. No cap statement appears, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Awin",
+   "commission_rate": 5,
+   "application_url": "https://ui.awin.com/merchant-profile/3383?setLocale=sv_SE",
+   "source_url": "https://ui.awin.com/merchant-profile/3383?setLocale=sv_SE",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Teva Affiliate Programme (Awin)",
+   "application_url": "https://ui.awin.com/merchant-profile/3383?setLocale=sv_SE",
+   "source_url": "https://ui.awin.com/merchant-profile/3383?setLocale=sv_SE"
+  },
+  "score": {
+   "niche_fit": 21,
+   "ugc_evidence": 11,
+   "compensation": 10,
+   "contact_access": 12,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Sport sandals and trail footwear are natural outdoor-fashion and travel content - river trips, festivals and summer travel.",
+    "ugc_evidence": "An official network programme with banners and an affiliate team behind it; publisher-oriented, but open to content partners through Awin.",
+    "compensation": "5% on all orders, published on the brand's own Awin merchant profile; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "The profile publishes a direct program email (deckersaffiliates@twentysixdigital.com) - unusually accessible for a brand this size.",
+    "opportunity_availability": "Open application through the Awin merchant profile, approval-based.",
+    "credibility": "A Deckers Brands label that created the sport-sandal category in 1984 - top-tier brand credibility."
+   }
+  }
+ },
+ {
+  "name": "Chubbies",
+  "website": "https://www.chubbiesshorts.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Men's shorts and swim brand built on bold prints and weekend humour, with a large social following. Its affiliate program runs on Impact at a published 3% per sale, per the program listing that links directly to the brand's Impact application.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/chubbies/",
+    "summary": "LinkClicky's program listing (last updated March 2024): Affiliate Platform 'Impact', Commission '3% per sale', and 'You can join by visiting their website at Chubbies Affiliate Program' linking to app.impact.com. The 3% is described as 'what's officially listed with their affiliate program as the payout'."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://linkclicky.com/affiliate-program/chubbies/",
+    "summary": "The same listing describes Chubbies as a men's shorts, swimwear, shirts and outerwear retailer and routes applications through Impact. The listing is dated, so the rate is recorded as publicly reported rather than verified; no cap statement appears in any fetched source, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 3,
+   "application_url": "https://linkclicky.com/affiliate-program/chubbies/",
+   "source_url": "https://linkclicky.com/affiliate-program/chubbies/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Chubbies Affiliate Program (Impact)",
+   "application_url": "https://linkclicky.com/affiliate-program/chubbies/",
+   "source_url": "https://linkclicky.com/affiliate-program/chubbies/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 12,
+   "compensation": 7,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Playful men's shorts and swim are strong summer, holiday and gifting UGC - the brand's humour-led identity suits short-form video.",
+    "ugc_evidence": "The program is a standard Impact publisher program; the brand itself is heavily social-led, but the fetched listing documents no creator-specific perks.",
+    "compensation": "3% per sale is low, and the only fetched listing is from March 2024, so it is held as publicly reported; no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "Contact runs through the Impact program dashboard; no direct partnerships email is published in the fetched source.",
+    "opportunity_availability": "Open application through Impact from the program listing.",
+    "credibility": "A well-known, long-running DTC menswear brand with national retail presence."
+   }
+  }
+ },
+ {
+  "name": "Mountain Hardwear",
+  "website": "https://www.mountainhardwear.com",
+  "country": "United States",
+  "category_slug": "travel",
+  "description": "Columbia Sportswear's technical alpine brand (Ghost Whisperer insulation, tents, sleeping bags, packs). Its program runs through CJ Affiliate; the brand's official page advertises commissions only as 'up to 10%' - a ceiling - and third-party figures conflict (5%, 8%, 10%), so no base rate is recorded.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://getlasso.co/affiliate/mountain-hardwear/",
+    "summary": "Rate conflict, documented rather than settled: GetLasso lists 8% per sale with a 21-day cookie; afftank and linkwhisper list 10%; affiliatemarketinggirl's March 2026 verified list gives 5% on CJ Affiliate with a 30-day cookie. Because the figures conflict, commission_rate is null."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://www.findaffiliates.online/blog/outdoor-affiliate-programs-hiking-camping-creators-2026",
+    "summary": "FindAffiliates' October 2026 check of public terms: 'Mountain Hardwear lists up to 10% and a 21-day cookie through CJ' and 'the program runs through CJ Affiliate' per the brand's official page. 'Up to 10%' is a rate ceiling, not a base rate and not an uncapped statement, so commission_cap stays unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "CJ Affiliate",
+   "commission_rate": null,
+   "application_url": "https://getlasso.co/affiliate/mountain-hardwear/",
+   "source_url": "https://getlasso.co/affiliate/mountain-hardwear/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "Mountain Hardwear Affiliate Program (CJ Affiliate)",
+   "application_url": "https://getlasso.co/affiliate/mountain-hardwear/",
+   "source_url": "https://getlasso.co/affiliate/mountain-hardwear/"
+  },
+  "score": {
+   "niche_fit": 22,
+   "ugc_evidence": 11,
+   "compensation": 9,
+   "contact_access": 7,
+   "opportunity_availability": 8,
+   "credibility": 5,
+   "reasons": {
+    "niche_fit": "Technical alpine apparel and camp gear is core hiking, climbing and backpacking creator content.",
+    "ugc_evidence": "Listings describe data feeds, banners, text links and a dedicated affiliate manager - a solid publisher toolkit, though not creator-portal-first.",
+    "compensation": "No settled base rate: the official wording is an 'up to 10%' ceiling and third-party figures conflict (5%/8%/10%), so the rate is honestly null; no cap statement was found, so the cap is unknown.",
+    "contact_access": "Contact runs through the CJ Affiliate dashboard; no direct partnerships email is published in the fetched sources.",
+    "opportunity_availability": "Open publisher application through CJ Affiliate.",
+    "credibility": "A premium Columbia Sportswear brand with decades in technical outdoor gear."
+   }
+  }
+ },
+ {
+  "name": "KUIU",
+  "website": "https://www.kuiu.com",
+  "country": "United States",
+  "category_slug": "fashion",
+  "description": "Ultralight hunting and mountain apparel brand selling technical layering systems direct to consumers. Network payout data lists its affiliate program on Impact at 5% commission.",
+  "contacts": [],
+  "socials": [],
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "commission_rate",
+    "source_type": "affiliate_directory",
+    "source_url": "https://compareepc.com/sports-outdoors-affiliate-programs/",
+    "summary": "CompareEPC's sports & outdoors program table, built from network payout data, lists: 'KUIU | impact | $1.62 EPC | 5%'. No brand-published rate page was fetched, so the figure is recorded as publicly reported."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "creator_program",
+    "source_type": "affiliate_directory",
+    "source_url": "https://compareepc.com/sports-outdoors-affiliate-programs/",
+    "summary": "The same network-data table places KUIU's program on Impact alongside other outdoor brands. No fetched source publishes a cap statement or creator counts, so commission_cap and creator_saturation both stay unknown."
+   }
+  ],
+  "affiliate": {
+   "network": "Impact",
+   "commission_rate": 5,
+   "application_url": "https://compareepc.com/sports-outdoors-affiliate-programs/",
+   "source_url": "https://compareepc.com/sports-outdoors-affiliate-programs/",
+   "commission_cap": "unknown",
+   "creator_saturation": "unknown"
+  },
+  "opportunity": {
+   "title": "KUIU Affiliate Program (Impact)",
+   "application_url": "https://compareepc.com/sports-outdoors-affiliate-programs/",
+   "source_url": "https://compareepc.com/sports-outdoors-affiliate-programs/"
+  },
+  "score": {
+   "niche_fit": 20,
+   "ugc_evidence": 11,
+   "compensation": 11,
+   "contact_access": 6,
+   "opportunity_availability": 7,
+   "credibility": 4,
+   "reasons": {
+    "niche_fit": "Technical hunting apparel is a focused niche - strong fit for hunting and mountain content, narrower for general fashion creators.",
+    "ugc_evidence": "The program's existence on Impact is documented in network payout data; no creator-specific program page was fetched, so the evidence score is modest.",
+    "compensation": "5% per network payout data (publicly reported, not brand-published); no cap statement was found, so the cap is honestly unknown.",
+    "contact_access": "Contact runs through the Impact program dashboard; no direct partnerships email appears in the fetched source.",
+    "opportunity_availability": "Application through Impact; the program is less publicly documented than this round's network staples.",
+    "credibility": "A well-established premium DTC brand in the hunting space with a loyal customer base."
+   }
+  }
+ }
+]

@@ -1,0 +1,621 @@
+[
+ {
+  "affiliate": {
+   "application_url": "https://www.soundcore.com/become-an-affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 3,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://www.soundcore.com/become-an-affiliate"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.soundcore.com/become-an-affiliate",
+    "email": null,
+    "source_url": "https://www.soundcore.com/become-an-affiliate"
+   },
+   {
+    "contact_type": "general",
+    "contact_url": "https://www.soundcore.com/become-an-affiliate",
+    "email": "service@soundcore.com",
+    "source_url": "https://www.soundcore.com/become-an-affiliate"
+   }
+  ],
+  "country": "United States",
+  "description": "Audio brand of Anker Innovations — wireless earbuds, headphones, Bluetooth speakers and Nebula projectors — sold through soundcore.com. Its own Become An Affiliate page invites review sites, online communities, bloggers and other content website owners to promote the brand, publishing a 3%-15% commission range on all approved sales, a 30-day cookie and free joining.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.soundcore.com/become-an-affiliate",
+    "summary": "Soundcore's own affiliate page fetched in full: 'Free to join', '3%-15% commission on all approved sales (excludes returns and cancellations)', 'Up to 15% commissions on all sales', 30-day cookies, product feed, banners and promotional coupon codes, and the published contact service@soundcore.com. The recorded 3% is the floor of the range the brand itself publishes. The page names no network — application is through soundcore.com. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/soundcore/",
+    "summary": "Corroboration: Lasso reports the Soundcore program at 5% to 7% per sale with a 30-day cookie, and Shopper reports 5% — both figures sit inside the 3%-15% range the brand's own page publishes, so they corroborate rather than conflict with it."
+   }
+  ],
+  "name": "Soundcore",
+  "opportunity": {
+   "application_url": "https://www.soundcore.com/become-an-affiliate",
+   "source_url": "https://www.soundcore.com/become-an-affiliate",
+   "title": "Soundcore Affiliate Program — brand's own page publishes 3%-15% commission on all approved sales (recorded at the 3% floor), 30-day cookie, free to join"
+  },
+  "score": {
+   "compensation": 12,
+   "contact_access": 10,
+   "credibility": 5,
+   "niche_fit": 26,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "The brand publishes a wide 3%-15% range; the recorded floor is modest and where in the range a creator lands is not published, and no cap statement exists",
+    "contact_access": "Direct application on the brand's own page plus a published contact email (service@soundcore.com)",
+    "credibility": "Anker Innovations is a large, established global consumer-electronics company and Soundcore is its flagship audio line",
+    "niche_fit": "Earbuds, headphones and portable speakers are core tech-review UGC — sound tests, unboxings and best-under-a-budget roundups are natural content",
+    "opportunity_availability": "Free to join, but the page describes the program as enabling 'select affiliates', so approval is not automatic",
+    "ugc_evidence": "A brand-published program aimed at review sites, online communities, bloggers and content website owners; genuine creator/publisher evidence, but no dedicated creator tier is published"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.soundcore.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html",
+    "email": null,
+    "source_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html",
+    "email": "logitechaffiliateus@digitalriver.com",
+    "source_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html"
+   }
+  ],
+  "country": "Switzerland",
+  "description": "Global computer-peripherals company — mice, keyboards, webcams, headsets and the Logitech G, ASTRO, Blue and Ultimate Ears brands — sold through logitech.com. One affiliate program on Impact covers the whole family of brands; its own affiliate page publishes per-brand standard rates but contradicts itself on the headline standard rate, so no single rate is settled.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html",
+    "summary": "Logitech's own affiliate page fetched in full: the program runs on Impact ('apply through our affiliate program vender, Impact'), covers Logitech, Logitech G, Ultimate Ears, Astro and Blue, is free with no minimum sales requirement, uses a 30-day cookie, and publishes the affiliate contact logitechaffiliateus@digitalriver.com. On rates the same page states 'You can earn up to a 10% standard commission on all products' and 'Get paid up to 15% commission!', and prints a per-brand standard-rate table — Logitech 15%, Ultimate Ears 10%, Logitech G 5%, Astro 5%, Blue 5% — alongside a sales-level table listing 'All products 15%'."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://www.whichprogram.com/en/p/logitech-affiliate-program",
+    "summary": "Rate-conflict note: directories that read the official program (WhichProgram; StreamerPerks' October 2026 read of the official pages) report a 4% to 10% range on Impact with a 30-day cookie, and Lasso reports 4%. Because the brand's own page contradicts itself (up to 10% standard vs a 15% table entry) and directories read 4-10%, commission_rate is null with the conflict documented here; the network is Impact per the brand's own page. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Logitech",
+  "opportunity": {
+   "application_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html",
+   "source_url": "https://www.logitech.com/en-us/ergo/ergo-affiliate-program.html",
+   "title": "Logitech Affiliate Program — one Impact program covering Logitech, Logitech G, ASTRO, Blue and Ultimate Ears; brand page publishes per-brand rates (5%-15%) but contradicts its own 'up to 10% standard' wording, so the rate is unsettled; contact logitechaffiliateus@digitalriver.com"
+  },
+  "score": {
+   "compensation": 10,
+   "contact_access": 12,
+   "credibility": 5,
+   "niche_fit": 27,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Published figures span 4% to 15% depending on brand and source, and the brand's own page contradicts itself, so compensation is scored on unsettled evidence; no cap statement exists",
+    "contact_access": "Published affiliate-program email (logitechaffiliateus@digitalriver.com) on the brand's own page, plus the Impact application route",
+    "credibility": "One of the world's largest peripherals makers, publicly traded, with a long-running documented program",
+    "niche_fit": "Desk-setup, gaming and work-from-home peripherals are among the most-reviewed products in tech UGC, and one program covers five creator-friendly brands",
+    "opportunity_availability": "Free to join with no minimum sales requirement; anyone may apply, subject to acceptance",
+    "ugc_evidence": "A brand-published affiliate program on Impact plus a separate Logitech G creator program; strong publisher evidence, though the affiliate page itself is publisher-framed"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://www.logitech.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://www.razer.com/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://www.razer.com/affiliate"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://www.razer.com/affiliate",
+    "email": null,
+    "source_url": "https://www.razer.com/affiliate"
+   }
+  ],
+  "country": "United States",
+  "description": "Gaming hardware company — Blade laptops, gaming mice, keyboards, headsets and streaming gear — sold through razer.com. Its affiliate program runs on Impact in 40+ markets; the brand's marketing page advertises up to 15%, while Razer's own published program terms set the actual payout table at 2.5%-5% by product category.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://www.razer.com/affiliate",
+    "summary": "Razer's own affiliate page: 'Earn up to 15% commission on every sale', sales credited up to 14 days after click, 40+ global markets, real-time tracking, no joining fee, paid on monthly net sales through Impact (the application form signs affiliates in to impact.com, and the FAQ points other affiliates to the 'Razer Affiliate Program' campaign on the Impact marketplace). Streamers and influencers are routed through the #RazerStreamer program and may be selected for the affiliate program case-by-case. The 15% is a ceiling claim, not the standard rate."
+   },
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://assets2.razerzone.com/pdf/Affiliate/Razer_Affiliate_Program_TemplateTerms_JP.pdf",
+    "summary": "Razer's own published Impact template terms (brand-domain document) set the actual payout table: Online Sale 2.5%-5% — laptops 2.5%, non-Blade products 5%, all other products 5% — with software & services, SWAG and a peripherals master list at 0%, and loyalty/coupon/discount-code affiliates capped at 1% under the program policy. The recorded 5% is the terms' standard rate for most products. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Razer",
+  "opportunity": {
+   "application_url": "https://www.razer.com/affiliate",
+   "source_url": "https://www.razer.com/affiliate",
+   "title": "Razer Affiliate Program — Impact terms publish 5% on most products (2.5% on laptops); the brand page's 'up to 15%' is a ceiling, not the standard rate"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 9,
+   "credibility": 5,
+   "niche_fit": 25,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "The published terms pay 5% on most products and 2.5% on laptops — modest on high-ticket gear; the advertised 15% is only a ceiling and no cap statement exists",
+    "contact_access": "Application runs through the brand's own page into Impact; no direct affiliate email is published",
+    "credibility": "A leading global gaming-lifestyle brand with terms published on its own domain",
+    "niche_fit": "Gaming peripherals and Blade laptops are a staple of gaming and streaming UGC — reviews, setups and loadout content are natural fits",
+    "opportunity_availability": "Open on the Impact marketplace to affiliates 18+; accounts with no sales for six consecutive months are terminated",
+    "ugc_evidence": "A brand-published program on Impact with a dedicated streamer/influencer route (#RazerStreamer); influencers join the affiliate program case-by-case after selection"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.razer.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://zens.tech/pages/affiliate-program",
+   "commission_cap": "unknown",
+   "commission_rate": 7,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://zens.tech/pages/affiliate-program"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://zens.tech/pages/affiliate-program",
+    "email": null,
+    "source_url": "https://zens.tech/pages/affiliate-program"
+   }
+  ],
+  "country": "Netherlands",
+  "description": "Wireless-charging brand founded in 2011 at the High Tech Campus in Eindhoven — multi-device chargers, power banks, cables and adapters — sold through zens.tech. Its own affiliate page recruits publishers, reviewers and creators into a program run on Awin, publishing at least 7% commission on approved sales with a 30-day cookie.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://zens.tech/pages/affiliate-program",
+    "summary": "Zens' own affiliate page fetched in full: 'Promote Zens and earn commission via Awin', 'At least 7% commission on approved sales', a 30-day cookie window, premium products with a higher average order value, and an FAQ confirming 'Zens affiliate partners earn at least 7% commission on approved sales' with possible performance-based extras for selected partners, who may also receive free products. The recorded 7% is the brand-published floor ('at least'). No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   }
+  ],
+  "name": "Zens",
+  "opportunity": {
+   "application_url": "https://zens.tech/pages/affiliate-program",
+   "source_url": "https://zens.tech/pages/affiliate-program",
+   "title": "Zens Affiliate Program — brand's own page publishes at least 7% commission on approved sales via Awin, 30-day cookie"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 22,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "A brand-published floor of at least 7% on premium-priced chargers is fair, transparent pay; no cap statement exists",
+    "contact_access": "Application runs through the brand's own page into Awin; the page offers a team contact route but publishes no affiliate email",
+    "credibility": "Operating since 2011 from Eindhoven's High Tech Campus, with products featured by major tech press; a smaller brand than the global majors in this batch",
+    "niche_fit": "Wireless chargers and power banks slot naturally into desk-setup, travel-kit and everyday-carry tech content",
+    "opportunity_availability": "Open application through Awin for relevant publishers and creators, subject to approval",
+    "ugc_evidence": "The brand's own page explicitly courts creators and publishers and showcases creator content; a genuine but publisher-led program"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://zens.tech"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://us.mammotion.com/pages/affiliate",
+   "commission_cap": "unknown",
+   "commission_rate": 3,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://us.mammotion.com/pages/affiliate"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://us.mammotion.com/pages/affiliate",
+    "email": null,
+    "source_url": "https://us.mammotion.com/pages/affiliate"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://us.mammotion.com/pages/affiliate",
+    "email": "affiliate.os@mammotion.com",
+    "source_url": "https://us.mammotion.com/pages/affiliate"
+   }
+  ],
+  "country": "China",
+  "description": "Outdoor-robotics company behind the LUBA and YUKA wire-free robot lawn mowers, sold through its regional stores including us.mammotion.com. Its own affiliate page publishes 3% of each order through Impact, a $1500+ average order value, dedicated 1v1 support and the affiliate contact affiliate.os@mammotion.com.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://us.mammotion.com/pages/affiliate",
+    "summary": "Mammotion's own US affiliate page fetched in full: 'Earn 3% of each order when visitors make a qualified purchase', sign-up via the Impact affiliate page, '$1500+ AOV', '1v1 Support — dedicated personal support', '30+ Countries', and the published contact affiliate.os@mammotion.com. Its FAQ names content/blogging sites, coupon and deal sites, loyalty sites and influencer networks as affiliate types. The recorded 3% is the brand's own published rate. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://getlasso.co/affiliate/mammotion/",
+    "summary": "Dissenting-figure note: Lasso reports the Mammotion program at 'up to 6%' with a 14-day cookie — a ceiling-style figure that conflicts with the brand's own published 3%; the brand page governs. EPC trackers that list the program on Impact also record 3%, agreeing with the brand."
+   }
+  ],
+  "name": "Mammotion",
+  "opportunity": {
+   "application_url": "https://us.mammotion.com/pages/affiliate",
+   "source_url": "https://us.mammotion.com/pages/affiliate",
+   "title": "Mammotion Affiliate Program — brand's own page publishes 3% of each order via Impact on $1500+ average orders; contact affiliate.os@mammotion.com"
+  },
+  "score": {
+   "compensation": 9,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 21,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "Only 3%, but on a $1500+ average order that is roughly $45 per sale; no cap statement exists",
+    "contact_access": "Published affiliate email (affiliate.os@mammotion.com) on the program page, plus the Impact application route and promised 1v1 support",
+    "credibility": "An established outdoor-robotics brand founded in 2022 with global retail presence and a complete, terms-bearing program page",
+    "niche_fit": "Robot lawn mowers are a fast-growing lawn-tech demo category — yard transformations and mower tests are watchable home UGC, though narrower than mainstream smart home",
+    "opportunity_availability": "Open application through Impact across 30+ countries",
+    "ugc_evidence": "A brand-published program whose own FAQ includes influencer networks among its affiliate types; publisher-led, with no dedicated creator tier published"
+   },
+   "ugc_evidence": 13
+  },
+  "socials": [],
+  "website": "https://us.mammotion.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://corkcicle.com/pages/affiliates",
+   "commission_cap": "unknown",
+   "commission_rate": 15,
+   "creator_saturation": "unknown",
+   "network": "Impact",
+   "source_url": "https://corkcicle.com/pages/affiliates"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://corkcicle.com/pages/affiliates",
+    "email": null,
+    "source_url": "https://corkcicle.com/pages/affiliates"
+   }
+  ],
+  "country": "United States",
+  "description": "Premium drinkware and barware brand — insulated tumblers, canteens, stemless cups, coolers and accessories — sold through corkcicle.com. Its own affiliates page publishes 15% commission on all sales with a 30-day cookie, run through Impact, its named affiliate network partner.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://corkcicle.com/pages/affiliates",
+    "summary": "Corkcicle's own affiliates page fetched in full: 'You will earn 15% commission on all sales with a 30 day cookie', step 1 is 'Apply to Impact — our affiliate network partner', and step 3 repeats 'you'll earn a 15% of that sale'. The recorded 15% is the brand's own published rate. No earnings-cap statement is published, so the cap is unknown, and no creator count is published, so saturation stays unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/corkcicle/",
+    "summary": "Corroboration and conflict note: Impact's own published case study confirms Corkcicle runs its affiliate channel on Impact with content partners. LinkClicky instead lists 3% and Shopper 2.4% — older, lower directory figures that conflict with the brand's current own page; the brand page's 15% governs."
+   }
+  ],
+  "name": "Corkcicle",
+  "opportunity": {
+   "application_url": "https://corkcicle.com/pages/affiliates",
+   "source_url": "https://corkcicle.com/pages/affiliates",
+   "title": "Corkcicle Affiliate Program — brand's own page publishes 15% commission on all sales via Impact, 30-day cookie"
+  },
+  "score": {
+   "compensation": 18,
+   "contact_access": 9,
+   "credibility": 4,
+   "niche_fit": 25,
+   "opportunity_availability": 8,
+   "reasons": {
+    "compensation": "15% flat on all sales is one of the strongest published rates in this batch, stated plainly on the brand's own page; no cap statement exists",
+    "contact_access": "Application runs through the brand's own page into Impact; no direct affiliate email is published",
+    "credibility": "An established US drinkware brand sold widely at retail, with a documented, case-studied affiliate channel",
+    "niche_fit": "Insulated drinkware is everyday-carry lifestyle UGC — coffee routines, gym bags, desk drinks and gift guides are natural content",
+    "opportunity_availability": "Open application through Impact, subject to approval",
+    "ugc_evidence": "A brand-published program on Impact whose own case study on impact.com highlights content partners; no separate creator tier is published"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://corkcicle.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/96949",
+   "commission_cap": "unknown",
+   "commission_rate": 5,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/96949"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/96949",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/96949"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://ui.awin.com/merchant-profile/96949",
+    "email": "BareHome@jebcommerce.com",
+    "source_url": "https://ui.awin.com/merchant-profile/96949"
+   }
+  ],
+  "country": "United States",
+  "description": "Bedding and sleep-essentials brand — sheet sets, comforters, duvets, blankets, pillows and mattresses with OEKO-TEX and GOTS certifications — sold through barehome.com. Its Awin merchant profile is written for creators, influencers and bloggers and publishes a standard commission of 5% on new customers and 2% on returning customers, with the affiliate team contact BareHome@jebcommerce.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/96949",
+    "summary": "Bare Home's own Awin merchant profile fetched in full: 'Our affiliate program is designed for creators, influencers, bloggers, and website owners', 'Commission range: program standard rate is 5% new | 2% returning; subject to differ based on factors such as promotional type', creative resources provided, applications reviewed for brand fit, and 'Reach out to our affiliate team: BareHome@jebcommerce.com'. The recorded 5% is the profile's published standard rate for new customers. No earnings-cap statement is published, so the cap is unknown."
+   }
+  ],
+  "name": "Bare Home",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/96949",
+   "source_url": "https://ui.awin.com/merchant-profile/96949",
+   "title": "Bare Home Affiliate Program — Awin profile publishes a standard 5% commission on new customers (2% returning); contact BareHome@jebcommerce.com"
+  },
+  "score": {
+   "compensation": 11,
+   "contact_access": 12,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "5% on new customers is mid-range and drops to 2% on returning customers, which tempers repeat-purchase earnings; no cap statement exists",
+    "contact_access": "Published affiliate team email (BareHome@jebcommerce.com) on the profile, plus the Awin application route",
+    "credibility": "An established DTC bedding brand with OEKO-TEX and GOTS certified products and national press features",
+    "niche_fit": "Bedding and sleep essentials are proven home-content staples — bedroom refreshes, sheet tests and cozy-home content are natural UGC",
+    "opportunity_availability": "Application through Awin, reviewed for brand fit before approval",
+    "ugc_evidence": "The network profile is explicitly designed for creators, influencers and bloggers, with creative resources supplied; genuine creator-facing evidence"
+   },
+   "ugc_evidence": 15
+  },
+  "socials": [],
+  "website": "https://barehome.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/merchant-profile/119849",
+   "commission_cap": "unknown",
+   "commission_rate": 10,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/merchant-profile/119849"
+  },
+  "category_slug": "home",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/merchant-profile/119849",
+    "email": null,
+    "source_url": "https://ui.awin.com/merchant-profile/119849"
+   },
+   {
+    "contact_type": "partnerships",
+    "contact_url": "https://ui.awin.com/merchant-profile/119849",
+    "email": "affiliates@vervaunt.com",
+    "source_url": "https://ui.awin.com/merchant-profile/119849"
+   }
+  ],
+  "country": "United States",
+  "description": "Insulated bottle and drinkware brand — vacuum-insulated bottles, tumblers, coolers and accessories — sold through hydroflask.com. Its Awin merchant profile publishes a tiered commission structure with a dedicated 10% rate for content and influencer partners, a 30-day cookie and dedicated agency support at affiliates@vervaunt.com.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/merchant-profile/119849",
+    "summary": "Hydro Flask's own Awin merchant profile fetched in full: 'OUR COMMISSION STRUCTURE — 3% for all voucher code publishers; 5% for all cashback and loyalty publishers; 10% for content and influencer partners; 10% for closed user groups', a 30-day cookie period, £30 average order value, a regularly updated product feed, and 'Dedicated support from our affiliate agency affiliates@vervaunt.com'. The recorded 10% is the profile's published content-and-influencer tier — the creator-relevant rate. No earnings-cap statement is published, so the cap is unknown."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://linkclicky.com/affiliate-program/hydro-flask/",
+    "summary": "Alternate-network note: LinkClicky reports a Hydro Flask program on Impact at 6% per sale, and Lasso reports 3.6% — figures for other routes/regions that differ from the Awin profile's published tiers; the Awin profile's 10% content-and-influencer rate governs this entry."
+   }
+  ],
+  "name": "Hydro Flask",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/merchant-profile/119849",
+   "source_url": "https://ui.awin.com/merchant-profile/119849",
+   "title": "Hydro Flask Affiliate Programme — Awin profile publishes 10% commission for content and influencer partners (5% cashback/loyalty, 3% voucher); contact affiliates@vervaunt.com"
+  },
+  "score": {
+   "compensation": 13,
+   "contact_access": 11,
+   "credibility": 5,
+   "niche_fit": 24,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "10% for content and influencer partners is solid published pay on a mid-priced product; lower tiers apply to other partner types and no cap statement exists",
+    "contact_access": "Published affiliate agency email (affiliates@vervaunt.com) on the profile, plus the Awin application route",
+    "credibility": "A category-defining global drinkware brand with a long retail history",
+    "niche_fit": "Insulated bottles are everyday-carry staples across outdoor, fitness, school and desk content — among the most-photographed products in lifestyle UGC",
+    "opportunity_availability": "Application through Awin, subject to approval; the fetched profile is the UK programme",
+    "ugc_evidence": "The network profile carries a dedicated, published content-and-influencer partner tier — direct creator evidence, though the program is network-run"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://www.hydroflask.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://ui.awin.com/advertiser-terms/107077?setLocale=en_GB",
+   "commission_cap": "unknown",
+   "commission_rate": null,
+   "creator_saturation": "unknown",
+   "network": "Awin",
+   "source_url": "https://ui.awin.com/advertiser-terms/107077?setLocale=en_GB"
+  },
+  "category_slug": "technology",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://ui.awin.com/advertiser-terms/107077?setLocale=en_GB",
+    "email": null,
+    "source_url": "https://ui.awin.com/advertiser-terms/107077?setLocale=en_GB"
+   }
+  ],
+  "country": "China",
+  "description": "Smart-home brand — smart plugs, switches, bulbs, garage-door openers and Matter/HomeKit devices — sold through shop.meross.com and major retailers. Its program terms on Awin confirm a live affiliate program whose allowed partner types explicitly include Communities and UGC and content creators and influencers, with registration through the Meross official store; no commission rate is published on any page fetched.",
+  "evidence": [
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://ui.awin.com/advertiser-terms/107077?setLocale=en_GB",
+    "summary": "Meross Smarthome's Awin program terms fetched in full (last updated 23 Dec 2025): the terms confirm a live Awin program, list allowed partner types including 'Communities and UGC', 'Content creators and influencers', 'Social traffic' and 'Editorial content', set out commission validation rules (commission is calculated on transaction value including VAT/sales tax, delivery and fees, with no product categories excluded), and state that participation in the Meross Affiliate Referral Program requires a registration form submitted to shop.meross.com. The terms publish no commission rate."
+   },
+   {
+    "confidence": "publicly_reported",
+    "evidence_type": "affiliate",
+    "source_type": "listing",
+    "source_url": "https://merchants.sovrn.com/merchants/199536/meross-affiliate-program",
+    "summary": "Rate-absence note: no fetched source publishes a Meross commission rate — the Awin terms omit it and Sovrn's merchant page states a current rate could not be independently verified — so commission_rate is null rather than guessed. No earnings-cap statement is published either, so the cap is unknown."
+   }
+  ],
+  "name": "Meross",
+  "opportunity": {
+   "application_url": "https://ui.awin.com/advertiser-terms/107077?setLocale=en_GB",
+   "source_url": "https://ui.awin.com/advertiser-terms/107077?setLocale=en_GB",
+   "title": "Meross Affiliate Program — live on Awin with UGC and content creators explicitly allowed in the program terms; registration via shop.meross.com; no commission rate published"
+  },
+  "score": {
+   "compensation": 6,
+   "contact_access": 8,
+   "credibility": 4,
+   "niche_fit": 23,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "No commission rate is published on the Awin terms or any brand page fetched, so compensation cannot be scored on evidence; no cap statement exists",
+    "contact_access": "Registration runs through the brand's official store and the Awin program; no affiliate email is published",
+    "credibility": "An established smart-home brand sold through major retailers with a complete, current terms document on Awin",
+    "niche_fit": "Budget smart plugs, switches and bulbs are smart-home UGC staples — automations, Matter/HomeKit setups and rental-friendly upgrades are natural content",
+    "opportunity_availability": "Open registration subject to approval and the brand's ongoing periodic review under its terms",
+    "ugc_evidence": "The program's own Awin terms explicitly allow Communities and UGC and content creators and influencers as partner types — direct creator evidence in the terms themselves"
+   },
+   "ugc_evidence": 14
+  },
+  "socials": [],
+  "website": "https://shop.meross.com"
+ },
+ {
+  "affiliate": {
+   "application_url": "https://drbillspetnutrition.com/partner-program/",
+   "commission_cap": "unknown",
+   "commission_rate": 20,
+   "creator_saturation": "unknown",
+   "network": "Brand direct",
+   "source_url": "https://drbillspetnutrition.com/partner-program/"
+  },
+  "category_slug": "pets",
+  "contacts": [
+   {
+    "contact_type": "creator_application",
+    "contact_url": "https://drbillspetnutrition.com/partner-program/",
+    "email": null,
+    "source_url": "https://drbillspetnutrition.com/partner-program/"
+   }
+  ],
+  "country": "United States",
+  "description": "Veterinarian-developed pet supplement brand — canine and feline supplements for joint, digestive, skin and coat, immune and cognitive support, made in the USA — sold through drbillspetnutrition.com. Its own partner program page publishes 20% commission, a 30-day cookie, monthly PayPal payouts and lifetime attribution of referred customers, and explicitly recruits pet creators on TikTok, Instagram and YouTube.",
+  "evidence": [
+   {
+    "confidence": "verified",
+    "evidence_type": "affiliate",
+    "source_type": "official_site",
+    "source_url": "https://drbillspetnutrition.com/partner-program/",
+    "summary": "Dr. Bill's Pet Nutrition's own partner page fetched in full: 'We Offer Our Partners 20% Commission!', affiliates receive a unique 15-20% coupon code for their audience, cookies run 30 days, referred customers are permanently tagged so partners earn on every future purchase (an attribution term, not an earnings-cap statement, so the cap stays unknown), payments are monthly via PayPal with a $50 minimum threshold, all products are commission-eligible, and the page's 'Who We're Looking For' section explicitly welcomes creators on TikTok, Instagram, Facebook and YouTube. Program requirements include FTC disclosure compliance and promoting at least once per month. The recorded 20% is the brand's own published rate."
+   }
+  ],
+  "name": "Dr. Bill's Pet Nutrition",
+  "opportunity": {
+   "application_url": "https://drbillspetnutrition.com/partner-program/",
+   "source_url": "https://drbillspetnutrition.com/partner-program/",
+   "title": "Dr. Bill's Pet Nutrition Partner Program — brand's own page publishes 20% commission, 30-day cookie, monthly PayPal payouts and lifetime customer attribution"
+  },
+  "score": {
+   "compensation": 17,
+   "contact_access": 9,
+   "credibility": 3,
+   "niche_fit": 22,
+   "opportunity_availability": 7,
+   "reasons": {
+    "compensation": "20% is the highest published rate in this batch, with lifetime attribution of referred customers on top; no cap statement exists",
+    "contact_access": "Application form on the brand's own partner page with a dedicated affiliate support team promised; no direct email is published",
+    "credibility": "A smaller, single-founder brand; its 'over 3,000 vets recommending for 40 years' claims are brand-reported and not independently verified",
+    "niche_fit": "Pet supplements for joint, digestion and coat health map directly onto pet-owner content — senior-dog care, rescue stories and coat transformations are natural UGC",
+    "opportunity_availability": "Application with approval, and partners must promote at least once per month to stay in the program",
+    "ugc_evidence": "The brand's own page explicitly recruits TikTok, Instagram, Facebook and YouTube pet creators by name — direct, unambiguous creator evidence"
+   },
+   "ugc_evidence": 16
+  },
+  "socials": [],
+  "website": "https://drbillspetnutrition.com"
+ }
+]
