@@ -25,6 +25,7 @@ export default async function RootLayout({
         <header
           style={{
             display: "flex",
+            flexWrap: "wrap",
             gap: 20,
             alignItems: "center",
             padding: "14px 24px",
@@ -75,7 +76,7 @@ export default async function RootLayout({
               UltraVestra
             </span>
           </Link>
-          <nav style={{ display: "flex", gap: 16, fontSize: 15 }}>
+          <nav style={{ display: "flex", flexWrap: "wrap", gap: 16, fontSize: 15 }}>
             <Link href="/dashboard">Dashboard</Link>
             <Link href="/discover">Opportunity Finder</Link>
             <Link href="/brands">Brand Intelligence</Link>

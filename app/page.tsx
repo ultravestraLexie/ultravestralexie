@@ -89,7 +89,7 @@ export default async function LandingPage() {
           <h1
             className="wow-title"
             style={{
-              fontSize: 68,
+              fontSize: "clamp(30px, 10vw, 68px)",
               margin: "18px 0 10px",
               fontWeight: 800,
               letterSpacing: 1,

@@ -197,10 +197,10 @@ type DimensionName = (typeof DIMENSIONS)[number];
 // inventory) before any "absent" claim is allowed to stand.
 const ModelEvidenceRefSchema = z.object({
   kind: z.enum(["inventory_element", "script_quote", "omission", "inference"]),
-  elementId: z.string().optional(),
-  quote: z.string().optional(),
+  elementId: z.string().nullable(),
+  quote: z.string().nullable(),
   detail: z.string(),
-  absenceKeywords: z.array(z.string()).max(5).optional(),
+  absenceKeywords: z.array(z.string()).max(5).nullable(),
 });
 
 // A candidate improvement as the dimension stage returns it (the
