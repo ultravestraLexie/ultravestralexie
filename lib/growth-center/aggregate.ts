@@ -202,11 +202,13 @@ export function buildOverview(
       title: "Earnings & Business",
       state: "live",
       stateNote:
-        "Your recorded earnings ledger, partnership briefs, and proposals. Recorded money and estimated platform earnings are kept separate — always.",
+        "Your recorded earnings ledger, partnership briefs, proposals, your deal pipeline — tracked by you, in your own stages — and your Business Health, read from recorded revenue only. Recorded money and estimated platform earnings are kept separate — always.",
       links: [
         { label: "Revenue Tracker", href: "/revenue" },
         { label: "Campaign Match", href: "/campaign-match" },
         { label: "Proposals", href: "/proposals" },
+        { label: "Brand Deals", href: "/growth-center/deals" },
+        { label: "Business Health", href: "/growth-center/business" },
       ],
     },
     {

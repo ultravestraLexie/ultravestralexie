@@ -163,6 +163,17 @@ check(
   ]
 );
 check(
+  "(g) earnings section links Revenue + Campaign Match + Proposals + Brand Deals + Business Health (Phase 4)",
+  overview.sections.find((s) => s.id === "earnings")?.links,
+  [
+    { label: "Revenue Tracker", href: "/revenue" },
+    { label: "Campaign Match", href: "/campaign-match" },
+    { label: "Proposals", href: "/proposals" },
+    { label: "Brand Deals", href: "/growth-center/deals" },
+    { label: "Business Health", href: "/growth-center/business" },
+  ]
+);
+check(
   "(g) content studio section links the Planner + Script Studio (Phase 2)",
   overview.sections.find((s) => s.id === "content-studio")?.links,
   [
