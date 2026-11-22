@@ -1,13 +1,22 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
 import { createClient } from "@/lib/supabase/server";
 import SignOutButton from "@/components/SignOutButton";
 
 export const metadata: Metadata = {
-  title: "UltraVestra — Brand Intelligence",
+  title: "UltraVestra",
   description:
     "Less time searching. More time creating. Smarter brand partnerships.",
+  appleWebApp: {
+    capable: true,
+    title: "UltraVestra",
+    statusBarStyle: "black-translucent",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#020008",
 };
 
 export default async function RootLayout({
