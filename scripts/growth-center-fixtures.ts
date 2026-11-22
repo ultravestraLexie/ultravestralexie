@@ -154,11 +154,20 @@ check(
   [{ label: "Creator Lab", href: "/creator-lab" }]
 );
 check(
-  "(g) goals section contains Growth Map + Posting Tracker",
+  "(g) goals section contains Growth Map + Posting Tracker + Creator Goals (Phase 2)",
   overview.sections.find((s) => s.id === "goals")?.links,
   [
     { label: "Growth Map", href: "/growth-map" },
     { label: "Posting Tracker", href: "/growth-center/posting" },
+    { label: "Creator Goals", href: "/growth-center/goals" },
+  ]
+);
+check(
+  "(g) content studio section links the Planner + Script Studio (Phase 2)",
+  overview.sections.find((s) => s.id === "content-studio")?.links,
+  [
+    { label: "Content Planner", href: "/growth-center/planner" },
+    { label: "Script Studio", href: "/studio" },
   ]
 );
 

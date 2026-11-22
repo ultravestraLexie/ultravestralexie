@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
-import { computePostingSummary } from "@/lib/posts/summary";
+import { computePostingSummary, planSummary } from "@/lib/posts/summary";
 
 export const runtime = "nodejs";
 
@@ -18,6 +18,15 @@ export const runtime = "nodejs";
 // source='manual' server-side on every insert: the create schema
 // has no source field at all, and a client that sends one anyway
 // has it ignored. No client action can mint a 'verified' row.
+//
+// STATE RULE (Phase 2, binding): a row's state — 'published',
+// 'planned', or 'draft' — is the creator's own workflow label and
+// the client MAY set it (create + PATCH). State is not evidence:
+// changing state never changes source, so marking a planned post
+// "published" records the creator's claim that it went out — the
+// row stays source='manual', labeled "Logged by you", exactly like
+// every other Phase 1/2 row. Only 'published' rows count toward
+// streaks, totals, and goals (lib/posts/summary.ts).
 //
 // The summary is computed in code (lib/posts/summary.ts) from
 // exactly the rows the GET returns — the page renders the server's
@@ -41,12 +50,21 @@ const DateString = z
     );
   });
 
+const STATES = ["published", "planned", "draft"] as const;
+
 const CreateSchema = z.object({
   platform: z.enum(PLATFORMS),
   postedDate: DateString,
+  state: z.enum(STATES).default("published"),
   title: z.string().max(200).default(""),
+  caption: z.string().max(2000).default(""),
   externalUrl: z.string().max(1000).default(""),
   note: z.string().max(500).default(""),
+});
+
+const PostStateSchema = z.object({
+  id: z.string().uuid(),
+  state: z.enum(STATES),
 });
 
 const GoalSchema = z.object({
@@ -62,14 +80,16 @@ type PostRow = {
   platform: string;
   posted_date: string;
   source: "manual" | "verified";
+  state: "published" | "planned" | "draft";
   external_url: string | null;
   title: string | null;
+  caption: string | null;
   note: string | null;
   created_at: string;
 };
 
 const POST_COLUMNS =
-  "id, platform, posted_date, source, external_url, title, note, created_at";
+  "id, platform, posted_date, source, state, external_url, title, caption, note, created_at";
 
 const DEFAULT_WEEKLY_GOAL = 5;
 
@@ -142,6 +162,7 @@ export async function GET() {
     posts,
     weeklyGoal,
     summary: computePostingSummary(posts, weeklyGoal),
+    plan: planSummary(posts),
   });
 }
 
@@ -187,8 +208,13 @@ export async function POST(request: Request) {
       // Phase 1: every row a client can create is manual. There is
       // deliberately no way to send a different value.
       source: "manual",
+      // Phase 2: state is the creator's workflow label (see the
+      // STATE RULE above) — it never touches source.
+      state: parsed.data.state,
       external_url: externalUrl === "" ? null : externalUrl,
       title: parsed.data.title.trim() === "" ? null : parsed.data.title.trim(),
+      caption:
+        parsed.data.caption.trim() === "" ? null : parsed.data.caption.trim(),
       note: parsed.data.note.trim() === "" ? null : parsed.data.note.trim(),
     })
     .select(POST_COLUMNS)
@@ -220,6 +246,44 @@ export async function PATCH(request: Request) {
       { error: "Please check your goal." },
       { status: 400 }
     );
+  }
+
+  // Phase 2: a PATCH carrying an id + state is a post state change
+  // (e.g. planned → published, "mark published"). Anything else is
+  // the Phase 1 weekly-goal save below. A state change touches ONLY
+  // the state column of the caller's own row — source is never in
+  // the update, so no state change can mint a 'verified' row.
+  if (
+    typeof body === "object" &&
+    body !== null &&
+    "id" in body &&
+    "state" in body
+  ) {
+    const stateParsed = PostStateSchema.safeParse(body);
+    if (!stateParsed.success) {
+      return Response.json(
+        { error: "Please check your post details." },
+        { status: 400 }
+      );
+    }
+    const { data, error } = await owner.supabase
+      .from("creator_posts")
+      .update({ state: stateParsed.data.state })
+      .eq("id", stateParsed.data.id)
+      .eq("user_id", owner.userId)
+      .select(POST_COLUMNS);
+
+    if (error) {
+      console.error("Posting Tracker state update error:", error);
+      return Response.json(
+        { error: "Your post could not be updated. Please try again." },
+        { status: 500 }
+      );
+    }
+    if (!data || data.length === 0) {
+      return Response.json({ error: "Post not found." }, { status: 404 });
+    }
+    return Response.json({ success: true, post: data[0] as PostRow });
   }
 
   const parsed = GoalSchema.safeParse(body);

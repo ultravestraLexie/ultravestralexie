@@ -16,9 +16,11 @@ import {
   computePostingSummary,
   currentStreak,
   goalProgress,
+  planSummary,
   postsInMonth,
   weekCounts,
   type PostLike,
+  type PostState,
 } from "../lib/posts/summary";
 
 let failures = 0;
@@ -148,6 +150,92 @@ check(
     totalManual: 0,
     totalVerified: 0,
   }
+);
+
+// --- Phase 2: state — planned/draft rows are NOT posts -------------------------
+//
+// HONESTY RULE: a plan is not a post. Every count above must be
+// blind to planned and draft rows; the plan is reported only by
+// planSummary, with its state attached.
+
+const postS = (
+  posted_date: string,
+  state: PostState,
+  source: "manual" | "verified" = "manual"
+): PostLike => ({ platform: "tiktok", posted_date, source, state });
+
+check(
+  "(f) a planned post today does NOT create a streak",
+  currentStreak([postS("2026-11-18", "planned")], NOW),
+  0
+);
+check(
+  "(f) a planned post does NOT extend a streak",
+  currentStreak(
+    [postS("2026-11-17", "published"), postS("2026-11-18", "planned")],
+    NOW
+  ),
+  1
+);
+check(
+  "(f) a draft does NOT fill a missed day",
+  currentStreak(
+    [postS("2026-11-18", "published"), postS("2026-11-17", "draft"), postS("2026-11-16", "published")],
+    NOW
+  ),
+  1
+);
+check(
+  "(f) planned/draft rows do NOT count in postsInMonth",
+  postsInMonth(
+    [postS("2026-11-05", "published"), postS("2026-11-06", "planned"), postS("2026-11-07", "draft")],
+    NOW
+  ),
+  1
+);
+check(
+  "(f) planned rows do NOT count in weekCounts",
+  weekCounts(
+    [postS("2026-11-16", "published"), postS("2026-11-17", "planned")],
+    NOW,
+    1
+  ),
+  [{ weekStart: "2026-11-16", count: 1 }]
+);
+
+const stateSummary = computePostingSummary(
+  [
+    postS("2026-11-18", "published"),
+    postS("2026-11-18", "planned"),
+    postS("2026-11-19", "draft"),
+  ],
+  5,
+  NOW
+);
+check("(f) summary totals count published only", stateSummary.totalPosts, 1);
+check("(f) summary month counts published only", stateSummary.postsThisMonth, 1);
+check("(f) summary active days count published only", stateSummary.activeDays, 1);
+
+const plan = planSummary(
+  [
+    postS("2026-11-25", "planned"),
+    postS("2026-11-20", "planned"),
+    postS("2026-11-10", "draft"),
+    postS("2026-11-18", "published"),
+  ],
+  NOW
+);
+check("(f) planSummary lists non-published by date, state attached", plan.upcoming, [
+  { platform: "tiktok", posted_date: "2026-11-10", state: "draft" },
+  { platform: "tiktok", posted_date: "2026-11-20", state: "planned" },
+  { platform: "tiktok", posted_date: "2026-11-25", state: "planned" },
+]);
+check("(f) planSummary counts", [plan.plannedCount, plan.draftCount], [2, 1]);
+check("(f) planSummary next planned date skips past + drafts", plan.nextPlannedDate, "2026-11-20");
+check(
+  "(f) planSummary of published-only rows is empty",
+  planSummary([postS("2026-11-18", "published")], NOW),
+  { upcoming: [], plannedCount: 0, draftCount: 0, nextPlannedDate: null }
 );
 
 console.log(failures === 0 ? "\nALL ASSERTIONS PASSED" : `\n${failures} ASSERTION(S) FAILED`);

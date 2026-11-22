@@ -27,12 +27,36 @@ export type PostPlatform =
 
 export type PostSource = "manual" | "verified";
 
+/** Phase 2: a post row's place in the creator's workflow.
+ *  'published' = it actually went out (the only state any count in
+ *  this module will ever include). 'planned' = scheduled by the
+ *  creator, not yet posted. 'draft' = an idea in progress, not yet
+ *  scheduled. A planned or draft row is a promise, not a post —
+ *  counting it as published would fabricate consistency. */
+export type PostState = "published" | "planned" | "draft";
+
 export type PostLike = {
   platform: string;
   /** 'YYYY-MM-DD' */
   posted_date: string;
   source: PostSource;
+  /** Optional in this shape only for rows shaped before Phase 2;
+   *  the stored column is NOT NULL DEFAULT 'published', and a
+   *  missing value here reads as 'published' for the same reason
+   *  the migration gives existing rows that state. */
+  state?: PostState;
 };
+
+/** The row's effective state (see PostLike.state). */
+export function stateOf(post: PostLike): PostState {
+  return post.state ?? "published";
+}
+
+/** ONLY published rows are posts. Everything in this module that
+ *  counts, streaks, or totals runs over this subset. */
+export function publishedOnly(posts: PostLike[]): PostLike[] {
+  return posts.filter((p) => stateOf(p) === "published");
+}
 
 export type PostingSummary = {
   /** Posts in the calendar month containing `now`. */
@@ -78,11 +102,12 @@ function mondayOf(key: string): string {
   return shiftKey(key, -sinceMonday);
 }
 
-/** Posts whose posted_date falls in the calendar month containing
- *  `now`. */
+/** PUBLISHED posts whose posted_date falls in the calendar month
+ *  containing `now`. Planned and draft rows never count. */
 export function postsInMonth(posts: PostLike[], now: Date = new Date()): number {
   const prefix = dateKey(now).slice(0, 7);
-  return posts.filter((p) => p.posted_date.startsWith(prefix)).length;
+  return publishedOnly(posts).filter((p) => p.posted_date.startsWith(prefix))
+    .length;
 }
 
 /**
@@ -98,7 +123,7 @@ export function currentStreak(
   posts: PostLike[],
   now: Date = new Date()
 ): number {
-  const days = new Set(posts.map((p) => p.posted_date));
+  const days = new Set(publishedOnly(posts).map((p) => p.posted_date));
   let cursor = dateKey(now);
   if (!days.has(cursor)) cursor = shiftKey(cursor, -1);
   let streak = 0;
@@ -117,12 +142,13 @@ export function weekCounts(
   now: Date = new Date(),
   weeks = 6
 ): { weekStart: string; count: number }[] {
+  const published = publishedOnly(posts);
   const currentMonday = mondayOf(dateKey(now));
   const result: { weekStart: string; count: number }[] = [];
   for (let offset = weeks - 1; offset >= 0; offset--) {
     const start = shiftKey(currentMonday, -7 * offset);
     const end = shiftKey(start, 7);
-    const count = posts.filter(
+    const count = published.filter(
       (p) => p.posted_date >= start && p.posted_date < end
     ).length;
     result.push({ weekStart: start, count });
@@ -146,15 +172,19 @@ export function goalProgress(
 }
 
 /** The full posting summary the Growth Center and the Posting
- *  Tracker render. Same rows in → same summary out, always. */
+ *  Tracker render. Same rows in → same summary out, always.
+ *  Phase 2: every figure here is over PUBLISHED rows only — totals
+ *  included. Planned and draft rows are reported separately by
+ *  planSummary below, never folded into these numbers. */
 export function computePostingSummary(
   posts: PostLike[],
   weeklyGoal: number,
   now: Date = new Date()
 ): PostingSummary {
+  const published = publishedOnly(posts);
   const thisMonth = postsInMonth(posts, now);
   const monthPrefix = dateKey(now).slice(0, 7);
-  const monthPosts = posts.filter((p) =>
+  const monthPosts = published.filter((p) =>
     p.posted_date.startsWith(monthPrefix)
   );
   const thisWeek = weekCounts(posts, now, 1)[0].count;
@@ -170,9 +200,54 @@ export function computePostingSummary(
     postsThisWeek: thisWeek,
     weeklyGoal: progress.goal,
     goalProgressPct: progress.pct,
-    activeDays: new Set(posts.map((p) => p.posted_date)).size,
-    totalPosts: posts.length,
-    totalManual: posts.filter((p) => p.source === "manual").length,
-    totalVerified: posts.filter((p) => p.source === "verified").length,
+    activeDays: new Set(published.map((p) => p.posted_date)).size,
+    totalPosts: published.length,
+    totalManual: published.filter((p) => p.source === "manual").length,
+    totalVerified: published.filter((p) => p.source === "verified").length,
+  };
+}
+
+export type PlanEntry = {
+  platform: string;
+  /** 'YYYY-MM-DD' */
+  posted_date: string;
+  state: "planned" | "draft";
+};
+
+export type PlanSummary = {
+  /** Planned + draft rows, oldest date first, each carrying its
+   *  state so the calendar can mark them as what they are. */
+  upcoming: PlanEntry[];
+  plannedCount: number;
+  draftCount: number;
+  /** The soonest planned date on or after today, or null. Drafts
+   *  have no schedule promise, so they never set this. */
+  nextPlannedDate: string | null;
+};
+
+/** The plan side of the calendar: what the creator intends to
+ *  post, listed by date WITH its state. This is the creator's own
+ *  schedule — it is reported as a plan, and (per the rule above)
+ *  none of it leaks into any published count, streak, or goal. */
+export function planSummary(
+  posts: PostLike[],
+  now: Date = new Date()
+): PlanSummary {
+  const today = dateKey(now);
+  const upcoming = posts
+    .filter((p) => stateOf(p) !== "published")
+    .map((p) => ({
+      platform: p.platform,
+      posted_date: p.posted_date,
+      state: stateOf(p) as "planned" | "draft",
+    }))
+    .sort((a, b) => a.posted_date.localeCompare(b.posted_date));
+  const planned = upcoming.filter((e) => e.state === "planned");
+  const next = planned.find((e) => e.posted_date >= today);
+  return {
+    upcoming,
+    plannedCount: planned.length,
+    draftCount: upcoming.length - planned.length,
+    nextPlannedDate: next?.posted_date ?? null,
   };
 }

@@ -19,8 +19,10 @@ type Post = {
   platform: string;
   posted_date: string;
   source: "manual" | "verified";
+  state: "published" | "planned" | "draft";
   external_url: string | null;
   title: string | null;
+  caption: string | null;
   note: string | null;
   created_at: string;
 };
@@ -110,9 +112,15 @@ export default function PostingTrackerPage() {
     load();
   }, []);
 
+  // Phase 2: this page is the record of what PUBLISHED. Planned
+  // and draft rows belong to the Content Planner and are never
+  // drawn here as posts — a plan drawn as a post would be a lie
+  // about the creator's consistency. (Rows shaped before the state
+  // column read as published, matching the stored default.)
   const postsByDate = useMemo(() => {
     const map = new Map<string, Post[]>();
     for (const post of posts) {
+      if ((post.state ?? "published") !== "published") continue;
       const list = map.get(post.posted_date) ?? [];
       list.push(post);
       map.set(post.posted_date, list);
@@ -376,6 +384,13 @@ export default function PostingTrackerPage() {
                   Platform-verified (arrives with live connections)
                 </span>
                 <span>TT TikTok · IG Instagram · FB Facebook / Meta · TB Trybe</span>
+                <span>
+                  Planning ahead? Planned posts and drafts live in the{" "}
+                  <a href="/growth-center/planner" className="text-cyan-300 underline">
+                    Content Planner
+                  </a>{" "}
+                  — they appear here only once published.
+                </span>
               </div>
 
               <div className="mt-6 border-t border-white/10 pt-5">

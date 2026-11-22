@@ -190,8 +190,11 @@ export function buildOverview(
       title: "Content Studio",
       state: "live",
       stateNote:
-        "Build a complete selling script from your own product facts in the Script Studio.",
-      links: [{ label: "Script Studio", href: "/studio" }],
+        "Plan what you will post in the Content Planner — your own schedule and ideas, kept separate from what you have actually published — and build a complete selling script from your own product facts in the Script Studio.",
+      links: [
+        { label: "Content Planner", href: "/growth-center/planner" },
+        { label: "Script Studio", href: "/studio" },
+      ],
     },
     {
       id: "earnings",
@@ -212,10 +215,11 @@ export function buildOverview(
       title: "Goals & Growth",
       state: "live",
       stateNote:
-        "Your Growth Map plan, and the Posting Tracker — the posts you log, your streak, and your weekly goal.",
+        "Your Growth Map plan, the Posting Tracker — the posts you log, your streak, and your weekly goal — and your Creator Goals, measured from your own records or from figures you enter and labeled as such.",
       links: [
         { label: "Growth Map", href: "/growth-map" },
         { label: "Posting Tracker", href: "/growth-center/posting" },
+        { label: "Creator Goals", href: "/growth-center/goals" },
       ],
     },
     {

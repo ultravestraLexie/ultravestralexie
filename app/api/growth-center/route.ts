@@ -109,7 +109,7 @@ export async function GET() {
       .eq("user_id", userId),
     supabase
       .from("creator_posts")
-      .select("platform, posted_date, source")
+      .select("platform, posted_date, source, state")
       .eq("user_id", userId),
     supabase
       .from("growth_prefs")
