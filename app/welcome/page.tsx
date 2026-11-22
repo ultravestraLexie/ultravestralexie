@@ -13,10 +13,10 @@ import { getStripe } from "@/lib/stripe";
  *
  *  Nothing is unlocked by creating an account here: the paid plan
  *  attaches through the shared pay-first helper after sign-up, and
- *  access is granted only by the Stripe webhook. An account created
- *  without a payment behind it lands on the subscription paywall
- *  with nothing unlocked. Public route: it sits outside every gated
- *  prefix. */
+ *  access is granted only by the Stripe webhook. Account creation
+ *  itself is refused without a payment behind it — the form posts
+ *  to POST /api/auth/signup, which checks the parked claim first.
+ *  Public route: it sits outside every gated prefix. */
 export default async function WelcomePage({
   searchParams,
 }: {

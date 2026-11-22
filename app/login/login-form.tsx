@@ -13,10 +13,12 @@ import { createClient } from "@/lib/supabase/client";
  *  same-site paths are accepted.
  *
  *  CreateAccountForm is the pay-first sign-up form rendered by the
- *  post-payment /welcome page: the account is created with the email
- *  the visitor paid with, and the paid plan is attached right after
- *  (POST /api/auth/attach) — access itself is still granted only by
- *  the Stripe webhook through the shared attach helper. */
+ *  post-payment /welcome page. It never calls supabase.auth.signUp
+ *  itself: it posts to POST /api/auth/signup, which creates the
+ *  account through the admin API ONLY when a paid claim exists for
+ *  the email (no account exists before payment), then this form
+ *  signs in with the password. Access itself is still granted only
+ *  by the Stripe webhook through the shared attach helper. */
 function safeNext(raw: string | null): string {
   if (raw && raw.startsWith("/") && !raw.startsWith("//")) return raw;
   return "/dashboard";
@@ -140,58 +142,72 @@ export function CreateAccountForm({
   const [confirmPassword, setConfirmPassword] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [confirmationNeeded, setConfirmationNeeded] = useState(false);
+  const [paymentRequired, setPaymentRequired] = useState(false);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
+    setPaymentRequired(false);
     if (password !== confirmPassword) {
       setError("Passwords do not match. Please try again.");
       return;
     }
     setSubmitting(true);
-    const supabase = createClient();
-    const { data, error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        emailRedirectTo:
-          typeof window !== "undefined"
-            ? `${window.location.origin}/auth/callback?next=${encodeURIComponent("/dashboard")}`
-            : undefined,
-      },
-    });
-    if (error) {
+
+    // The server creates the account only when this email has paid
+    // (see app/api/auth/signup/route.ts). Email confirmation is OFF
+    // for this project, so a created account can sign in at once.
+    let res: Response;
+    try {
+      res = await fetch("/api/auth/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+    } catch {
       setSubmitting(false);
+      setError("Something went wrong. Please try again.");
+      return;
+    }
+    if (res.status === 403) {
+      setSubmitting(false);
+      setPaymentRequired(true);
       setError(
-        error.message.toLowerCase().includes("already registered")
-          ? "An account with this email already exists. Log in instead."
-          : error.message
+        "We could not find a payment for this email. Please complete checkout first."
       );
       return;
     }
-    if (!data.session) {
-      // Email confirmation is on for this project: signUp created
-      // the account but no session. The claim attaches when the
-      // confirmed user first logs in (callback / attach route).
+    if (res.status === 409) {
       setSubmitting(false);
-      setConfirmationNeeded(true);
+      setError(
+        "An account with this email already exists. Log in instead."
+      );
+      return;
+    }
+    if (res.status === 429) {
+      setSubmitting(false);
+      setError("Too many attempts. Please wait a bit and try again.");
+      return;
+    }
+    if (!res.ok) {
+      setSubmitting(false);
+      setError("Something went wrong. Please try again.");
+      return;
+    }
+
+    const supabase = createClient();
+    const { data, error: signInError } =
+      await supabase.auth.signInWithPassword({ email, password });
+    if (signInError || !data.session) {
+      setSubmitting(false);
+      setError(
+        "Your account was created, but login failed. Please log in."
+      );
       return;
     }
     await requestAttach();
     router.push("/dashboard");
     router.refresh();
-  }
-
-  if (confirmationNeeded) {
-    return (
-      <div>
-        <p>Check your email to confirm your account, then log in.</p>
-        <Link href="/login">
-          <button>Go to login</button>
-        </Link>
-      </div>
-    );
   }
 
   return (
@@ -242,6 +258,11 @@ export function CreateAccountForm({
         />
       </label>
       {error && <p style={{ color: "crimson" }}>{error}</p>}
+      {paymentRequired && (
+        <p>
+          <Link href="/pricing">See plans and complete checkout</Link>
+        </p>
+      )}
       <button type="submit" disabled={submitting}>
         {submitting ? "Creating your account…" : "Create your account"}
       </button>
