@@ -103,6 +103,24 @@ async function fetchAllPages<T>(
   return { data: all, error: null };
 }
 
+// An .in() filter puts every id in the request URL, so an unbounded
+// id list — thousands of UUIDs when the watermark is days old and
+// the whole directory is "in play" — builds a URL so long the
+// request itself dies (observed in production as an HTTP/2 frame
+// error on the brand_categories fetch). Id-based lookups are
+// therefore chunked into CHUNK_SIZE slices and accumulated; for the
+// brand_categories links this supersedes .range() paging, since a
+// brand has only a handful of category links.
+const CHUNK_SIZE = 100;
+
+function chunkIds(ids: string[]): string[][] {
+  const chunks: string[][] = [];
+  for (let i = 0; i < ids.length; i += CHUNK_SIZE) {
+    chunks.push(ids.slice(i, i + CHUNK_SIZE));
+  }
+  return chunks;
+}
+
 /** Gate + identity for every handler: 401 when signed out, 403 when
  *  not subscribed, otherwise the session client and the caller's id. */
 async function requireOwner() {
@@ -246,11 +264,20 @@ export async function GET() {
     ),
   ];
   if (missingBrandIds.length > 0) {
-    const { data: extraBrands, error: extraError } = await owner.supabase
-      .from("brands")
-      .select("id, name")
-      .eq("status", "published")
-      .in("id", missingBrandIds);
+    const extraBrands: { id: string; name: string }[] = [];
+    let extraError: { message: string } | null = null;
+    for (const chunk of chunkIds(missingBrandIds)) {
+      const { data, error } = await owner.supabase
+        .from("brands")
+        .select("id, name")
+        .eq("status", "published")
+        .in("id", chunk);
+      if (error) {
+        extraError = error;
+        break;
+      }
+      extraBrands.push(...((data ?? []) as { id: string; name: string }[]));
+    }
     if (extraError) {
       console.error("Alerts brand lookup error:", extraError);
       return Response.json(
@@ -258,7 +285,7 @@ export async function GET() {
         { status: 500 }
       );
     }
-    for (const b of (extraBrands ?? []) as { id: string; name: string }[]) {
+    for (const b of extraBrands) {
       brandNameById.set(b.id, b.name);
     }
   }
@@ -269,17 +296,23 @@ export async function GET() {
   const relevantBrandIds = [...brandNameById.keys()];
   const categoryNamesByBrand = new Map<string, string[]>();
   if (relevantBrandIds.length > 0) {
+    const fetchLinksInChunks = async (): Promise<PageResult<LinkDbRow>> => {
+      const all: LinkDbRow[] = [];
+      for (const chunk of chunkIds(relevantBrandIds)) {
+        const { data, error } = await owner.supabase
+          .from("brand_categories")
+          .select("brand_id, category_id")
+          .in("brand_id", chunk);
+        if (error) return { data: null, error };
+        all.push(...((data ?? []) as LinkDbRow[]));
+      }
+      return { data: all, error: null };
+    };
     const [categoriesRes, linksRes] = await Promise.all([
       fetchAllPages<CategoryDbRow>((from, to) =>
         owner.supabase.from("categories").select("id, name").range(from, to)
       ),
-      fetchAllPages<LinkDbRow>((from, to) =>
-        owner.supabase
-          .from("brand_categories")
-          .select("brand_id, category_id")
-          .in("brand_id", relevantBrandIds)
-          .range(from, to)
-      ),
+      fetchLinksInChunks(),
     ]);
     const catFailed = [categoriesRes, linksRes].find((r) => r.error);
     if (catFailed?.error) {
