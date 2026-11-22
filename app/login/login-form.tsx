@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
@@ -42,7 +43,7 @@ export default function LoginForm() {
 
   return (
     <div style={{ maxWidth: 420, margin: "0 auto" }}>
-      <h1>Log in to UltraVestra</h1>
+      <h1>Login to UltraVestra</h1>
       {sent ? (
         <p>
           Check your email — we sent you a sign-in link. After signing in,
@@ -69,6 +70,22 @@ export default function LoginForm() {
           <button type="submit">Send sign-in link</button>
         </form>
       )}
+      <div
+        style={{
+          marginTop: 40,
+          borderTop: "1px solid #3d2a6e",
+          paddingTop: 24,
+        }}
+      >
+        <h2>Create your account</h2>
+        <p>
+          New to UltraVestra? Choose a plan and pay first — your
+          account is created with the email you pay with.
+        </p>
+        <Link href="/pricing">
+          <button>See plans and create your account</button>
+        </Link>
+      </div>
     </div>
   );
 }

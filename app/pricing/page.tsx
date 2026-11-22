@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import SubscribeButton from "@/components/SubscribeButton";
+import PayFirstButton from "@/components/PayFirstButton";
 import type { Plan } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -60,11 +61,15 @@ export default async function PricingPage() {
                   <li key={f}>{f}</li>
                 ))}
               </ul>
-              <SubscribeButton
-                planSlug={plan.slug}
-                planName={plan.name}
-                signedIn={!!user}
-              />
+              {user ? (
+                <SubscribeButton
+                  planSlug={plan.slug}
+                  planName={plan.name}
+                  signedIn
+                />
+              ) : (
+                <PayFirstButton planSlug={plan.slug} planName={plan.name} />
+              )}
             </article>
           ))}
         </div>

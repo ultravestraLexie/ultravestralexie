@@ -1,27 +1,28 @@
 import { NextResponse } from "next/server";
 import type Stripe from "stripe";
 import { getStripe, createAdminClient } from "@/lib/stripe";
+import { mapSubscriptionStatus, normalizeEmail } from "@/lib/pay-first";
 
 export const dynamic = "force-dynamic";
 
 /** Stripe webhook — the ONLY place subscription access is granted or
  *  revoked. Every event is signature-verified and logged to
  *  payment_events (idempotent on the Stripe event id) before the
- *  subscriptions row is updated. */
+ *  subscriptions row is updated.
+ *
+ *  Pay-first exception: a subscription paid for BEFORE any account
+ *  exists carries signup_email instead of a user id. It cannot be a
+ *  subscriptions row yet (there is no user), so it is parked in
+ *  public.subscription_claims keyed by that email. When the email
+ *  first signs in, the auth callback stamps the Stripe subscription
+ *  with the new user id; the resulting subscription.updated event
+ *  then lands here and writes the real subscriptions row through the
+ *  normal path. This handler remains the ONLY writer of
+ *  public.subscriptions — claims are the only thing the pay-first
+ *  branch writes. */
 
 function mapStatus(status: Stripe.Subscription.Status): string {
-  switch (status) {
-    case "active":
-    case "trialing":
-    case "past_due":
-    case "unpaid":
-      return status;
-    case "canceled":
-    case "incomplete_expired":
-      return "canceled";
-    default:
-      return "incomplete";
-  }
+  return mapSubscriptionStatus(status);
 }
 
 async function syncSubscription(
@@ -63,8 +64,28 @@ async function syncSubscription(
   };
 
   if (!row.user_id) {
-    // Without a user id we cannot attach the subscription; the event is
-    // still logged in payment_events for manual reconciliation.
+    // Pay-first: no user exists yet, but the checkout stamped the
+    // email the account will be created with — park the subscription
+    // as a claim keyed by that email instead of dropping it.
+    const signupEmail = subscription.metadata?.signup_email as
+      | string
+      | undefined;
+    if (signupEmail) {
+      await admin.from("subscription_claims").upsert(
+        {
+          email: normalizeEmail(signupEmail),
+          stripe_customer_id: row.stripe_customer_id,
+          stripe_subscription_id: subscription.id,
+          plan_id: planId,
+          status: row.status,
+          updated_at: new Date().toISOString(),
+        },
+        { onConflict: "stripe_subscription_id" }
+      );
+    }
+    // Without a user id (and without a signup email) we cannot attach
+    // the subscription; the event is still logged in payment_events
+    // for manual reconciliation.
     return;
   }
 
@@ -122,6 +143,19 @@ export async function POST(request: Request) {
           subscription.metadata = {
             ...subscription.metadata,
             user_id: session.metadata.user_id,
+            plan_slug: session.metadata.plan_slug ?? "",
+          };
+        }
+        // Same for pay-first checkouts: the session metadata carries
+        // the signup email even when the subscription's is missing.
+        if (
+          !subscription.metadata?.user_id &&
+          !subscription.metadata?.signup_email &&
+          session.metadata?.signup_email
+        ) {
+          subscription.metadata = {
+            ...subscription.metadata,
+            signup_email: session.metadata.signup_email,
             plan_slug: session.metadata.plan_slug ?? "",
           };
         }
