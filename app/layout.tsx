@@ -87,27 +87,10 @@ export default async function RootLayout({
           </Link>
           <nav style={{ display: "flex", flexWrap: "wrap", gap: 16, fontSize: 15 }}>
             <Link href="/dashboard">Dashboard</Link>
-            <Link href="/discover">Opportunity Finder</Link>
-            <Link href="/brands">Brand Intelligence</Link>
-            <Link href="/commissions">Commissions</Link>
-            <Link href="/coach">Video Intelligence Lab</Link>
-            <Link href="/buyer-brain">Buyer Brain Simulator</Link>
-            <Link href="/creator-lab">Creator Lab</Link>
-            <Link href="/passport">Passport</Link>
-            <Link href="/trend-radar">Trend Radar</Link>
-            <Link href="/growth-map">Growth Map</Link>
-            <Link href="/campaign-match">Campaign Match</Link>
-            <Link href="/revenue">Revenue</Link>
-            <Link href="/alerts">Alerts</Link>
-            <Link href="/proposals">Proposals</Link>
-            <Link href="/command-center">Command Center</Link>
             <Link href="/growth-center">Growth Center</Link>
-            <Link href="/pillars">Pillars</Link>
-            <Link href="/studio">Script Studio</Link>
-            <Link href="/academy">Creator Academy</Link>
-            <Link href="/ask" style={{ fontWeight: 700, color: "#f0abfc" }}>Ask UltraVestra</Link>
-            <Link href="/saved">Saved</Link>
-            <Link href="/pricing">Pricing</Link>
+            <Link href="/discover">Opportunity Finder</Link>
+            <Link href="/creator-lab">Creator Lab</Link>
+            <Link href="/command-center">Command Center</Link>
           </nav>
           <span
             style={{

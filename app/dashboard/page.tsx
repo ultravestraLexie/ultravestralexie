@@ -67,6 +67,7 @@ export default async function DashboardPage() {
     { href: "/brands", emoji: "🧠", title: "Brand Intelligence", line: "Full profiles: scores with reasons, contacts, compensation, sourced evidence.", live: list.length ? `${stats.total} profiles` : undefined },
     { href: "/coach", emoji: "🔬", title: "Video Intelligence Lab", line: "Hooks, scripts, video lessons and sales techniques — plus the diagnostic that shows why a video performs." },
     { href: "/growth-center", emoji: "🌱", title: "Creator Growth Center", line: "Your creator operating system — recorded earnings, posting consistency, platform connections, and every growth tool in one hub." },
+    { href: "/pillars", emoji: "🏛️", title: "The Nine Pillars", line: "The map of the whole platform — every capability, organized by the job it does for your creator business." },
     { href: "/studio", emoji: "🎬", title: "Video Strategy & Script Studio", line: "Build a complete selling script from your own product facts, beat by beat." },
     { href: "/ask", emoji: "✨", title: "Ask UltraVestra AI", line: "One question in — a sourced research report with brands, contacts and a pitch out." },
     { href: "/academy", emoji: "🎓", title: "Creator Academy", line: "Searchable lessons on hooks, scripts, filming, pitching, money and growth.", live: "12 lessons" },
