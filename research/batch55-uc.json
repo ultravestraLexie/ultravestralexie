@@ -327,7 +327,7 @@
     ],
     "affiliate": {
       "network": "CJ Affiliate",
-      "commission_rate": "5-20%",
+      "commission_rate": null,
       "application_url": "https://signup.cj.com",
       "source_url": "https://getlasso.co/affiliate/focus-factor/",
       "commission_cap": "unknown",
@@ -504,7 +504,7 @@
     ],
     "affiliate": {
       "network": "ShareASale",
-      "commission_rate": "5-10%",
+      "commission_rate": null,
       "application_url": "https://www.shareasale.com",
       "source_url": "https://getlasso.co/affiliate/1md/",
       "commission_cap": "unknown",
