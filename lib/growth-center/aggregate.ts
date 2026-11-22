@@ -190,10 +190,11 @@ export function buildOverview(
       title: "Content Studio",
       state: "live",
       stateNote:
-        "Plan what you will post in the Content Planner — your own schedule and ideas, kept separate from what you have actually published — and build a complete selling script from your own product facts in the Script Studio.",
+        "Plan what you will post in the Content Planner — your own schedule and ideas, kept separate from what you have actually published — build a complete selling script from your own product facts in the Script Studio, and reshape your own words for the next platform in the Repurposing Studio.",
       links: [
         { label: "Content Planner", href: "/growth-center/planner" },
         { label: "Script Studio", href: "/studio" },
+        { label: "Repurposing Studio", href: "/growth-center/repurpose" },
       ],
     },
     {
@@ -237,10 +238,13 @@ export function buildOverview(
       id: "advisor",
       number: "07",
       title: "AI Creator Advisor",
-      state: "later_phase",
+      state: "live",
       stateNote:
-        "A personalized advisor arrives in a later phase, once your real performance data exists to advise from. Today, the Creator Lab tests a script against five simulated buyers.",
-      links: [{ label: "Creator Lab", href: "/creator-lab" }],
+        "Live today as evidence-based recommendations: plain rules over your own posting, goals, deals, and recorded revenue, each showing the numbers it read. An AI-written advisor arrives in a later phase. The Creator Lab still tests a script against five simulated buyers.",
+      links: [
+        { label: "AI Creator Advisor", href: "/growth-center/advisor" },
+        { label: "Creator Lab", href: "/creator-lab" },
+      ],
     },
   ];
 

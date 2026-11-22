@@ -141,7 +141,7 @@ check(
 check(
   "(g) section states",
   overview.sections.map((s) => s.state),
-  ["live", "partial", "live", "live", "live", "later_phase", "later_phase"]
+  ["live", "partial", "live", "live", "live", "later_phase", "live"]
 );
 check(
   "(g) rankings section has NO links (nothing real to link to)",
@@ -149,9 +149,12 @@ check(
   []
 );
 check(
-  "(g) advisor links to the Creator Lab as today's tool",
+  "(g) advisor links to the evidence-based Advisor + the Creator Lab (Phase 5)",
   overview.sections.find((s) => s.id === "advisor")?.links,
-  [{ label: "Creator Lab", href: "/creator-lab" }]
+  [
+    { label: "AI Creator Advisor", href: "/growth-center/advisor" },
+    { label: "Creator Lab", href: "/creator-lab" },
+  ]
 );
 check(
   "(g) goals section contains Growth Map + Posting Tracker + Creator Goals (Phase 2)",
@@ -174,11 +177,12 @@ check(
   ]
 );
 check(
-  "(g) content studio section links the Planner + Script Studio (Phase 2)",
+  "(g) content studio section links the Planner + Script Studio + Repurposing Studio (Phases 2 + 5)",
   overview.sections.find((s) => s.id === "content-studio")?.links,
   [
     { label: "Content Planner", href: "/growth-center/planner" },
     { label: "Script Studio", href: "/studio" },
+    { label: "Repurposing Studio", href: "/growth-center/repurpose" },
   ]
 );
 
