@@ -32,7 +32,6 @@ export const GATED_PREFIXES = [
   "/growth-map",
   "/campaign-match",
   "/revenue",
-  "/protection",
   "/start-here",
   "/why-is-my-video-not-working",
   "/creator-growth",
@@ -45,7 +44,6 @@ export const GATED_PREFIXES = [
   "/api/growth-map",
   "/api/campaign-match",
   "/api/revenue",
-  "/api/protection",
 ] as const;
 
 export function isGatedPath(pathname: string): boolean {
