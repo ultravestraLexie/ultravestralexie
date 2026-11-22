@@ -110,3 +110,11 @@ textarea::placeholder {
   transform: translateY(-2px) scale(1.03);
   box-shadow: 0 0 38px rgba(240, 171, 252, 0.85), 0 0 70px rgba(34, 211, 238, 0.4) !important;
 }
+
+/* Tailwind utility layer — Phase 1 Build 2b.
+   Utilities ONLY (no @tailwind base): globals.css above already owns
+   the app's global rules, and Tailwind's preflight is disabled in
+   tailwind.config.js so the existing screens render unchanged while
+   the Tailwind-written screens (Revenue, Growth Center, Deals,
+   Planner, …) finally get their layout CSS. */
+@tailwind utilities;

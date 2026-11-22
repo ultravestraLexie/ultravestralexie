@@ -6,16 +6,21 @@ import { createClient } from "@/lib/supabase/client";
 
 /** Password recovery request: emails a reset link that lands on the
  *  shared auth callback (which exchanges the code for a recovery
- *  session) and continues to /reset-password. */
+ *  session) and continues to /reset-password.
+ *
+ *  Uniform response (Phase 1 Build 2d, security battery Item 7): the
+ *  page answers identically whether or not the email has an account,
+ *  and whether or not the send itself succeeded — the old behavior
+ *  showed the raw send error for real accounts and success for
+ *  unknown emails, which leaked which emails are registered. A real
+ *  send failure is logged to the console for diagnosis, never shown. */
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setError(null);
     setSubmitting(true);
     const supabase = createClient();
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
@@ -25,8 +30,10 @@ export default function ForgotPasswordPage() {
           : undefined,
     });
     setSubmitting(false);
-    if (error) setError(error.message);
-    else setSent(true);
+    if (error) {
+      console.error("[forgot-password] reset request failed:", error.message);
+    }
+    setSent(true);
   }
 
   return (
@@ -35,8 +42,8 @@ export default function ForgotPasswordPage() {
       {sent ? (
         <div>
           <p>
-            Check your email — we sent you a password reset link. Open
-            it to choose a new password.
+            If an account exists for this email, a password reset link
+            is on its way. Open it to choose a new password.
           </p>
           <Link href="/login">
             <button>Back to login</button>
@@ -59,10 +66,12 @@ export default function ForgotPasswordPage() {
               placeholder="you@example.com"
             />
           </label>
-          {error && <p style={{ color: "crimson" }}>{error}</p>}
           <button type="submit" disabled={submitting}>
             {submitting ? "Sending reset link…" : "Send reset link"}
           </button>
+          <p style={{ fontSize: 14 }}>
+            Still stuck? <Link href="/support">Contact support</Link>
+          </p>
         </form>
       )}
     </div>

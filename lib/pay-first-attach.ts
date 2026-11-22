@@ -18,8 +18,8 @@ import {
  *
  *  Returns true only when a live claim was found, re-verified
  *  against Stripe, stamped, and marked claimed. Every failure is
- *  swallowed (returns false) so attaching can never break sign-in,
- *  and the claim stays unclaimed for a later retry. */
+ *  logged and swallowed (returns false) so attaching can never
+ *  break sign-in, and the claim stays unclaimed for a later retry. */
 export async function attachPayFirstClaim(user: {
   id: string;
   email?: string | null;
@@ -27,7 +27,7 @@ export async function attachPayFirstClaim(user: {
   if (!user.email) return false;
   try {
     const admin = createAdminClient();
-    const { data: claim } = await admin
+    const { data: claim, error: claimError } = await admin
       .from("subscription_claims")
       .select(
         "id, stripe_subscription_id, plan_id, status, claimed_user_id"
@@ -35,6 +35,11 @@ export async function attachPayFirstClaim(user: {
       .eq("email", normalizeEmail(user.email))
       .is("claimed_user_id", null)
       .maybeSingle();
+    if (claimError) {
+      throw new Error(
+        `subscription_claims lookup failed for user ${user.id}: ${claimError.message}`
+      );
+    }
     if (!claim || !isClaimableStatus(claim.status)) return false;
 
     // Re-verify against Stripe: a claim whose subscription has since
@@ -64,7 +69,7 @@ export async function attachPayFirstClaim(user: {
         plan_slug: planSlug,
       },
     });
-    await admin
+    const { error: markError } = await admin
       .from("subscription_claims")
       .update({
         claimed_user_id: user.id,
@@ -72,6 +77,11 @@ export async function attachPayFirstClaim(user: {
         updated_at: new Date().toISOString(),
       })
       .eq("id", claim.id);
+    if (markError) {
+      throw new Error(
+        `subscription_claims mark-claimed failed for claim ${claim.id}: ${markError.message}`
+      );
+    }
 
     // The webhook writes the subscriptions row within moments; give
     // it a few seconds so the creator lands already unlocked instead
@@ -87,9 +97,16 @@ export async function attachPayFirstClaim(user: {
       await new Promise((resolve) => setTimeout(resolve, 500));
     }
     return true;
-  } catch {
+  } catch (err) {
     // Attaching must never break sign-in: if anything above fails,
-    // the claim stays unclaimed and a later sign-in retries it.
+    // the claim stays unclaimed and a later sign-in retries it. The
+    // failure is LOGGED (Phase 1 Build 2a) — never silent — so a
+    // stuck claim is visible instead of vanishing.
+    console.error(
+      `[pay-first-attach] attach failed for user ${user.id}: ${
+        err instanceof Error ? err.message : String(err)
+      }`
+    );
     return false;
   }
 }

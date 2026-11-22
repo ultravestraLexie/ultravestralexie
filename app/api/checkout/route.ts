@@ -2,6 +2,13 @@ import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { getStripe } from "@/lib/stripe";
 import { isValidEmailShape, normalizeEmail } from "@/lib/pay-first";
+import { checkRateLimitShared } from "@/lib/rate-limit";
+
+/** Checkout starts allowed per identity per hour (Phase 1 Build 2d:
+ *  this route previously had no rate-limit bucket and no error
+ *  handling — a Stripe failure produced an unhandled error instead
+ *  of a JSON answer). */
+const CHECKOUT_RATE_LIMIT = { limit: 20, windowMs: 60 * 60 * 1000 } as const;
 
 /** Starts a Stripe Checkout session for a plan's monthly price.
  *
@@ -43,8 +50,20 @@ export async function POST(request: Request) {
 
   const origin = new URL(request.url).origin;
   const stripe = getStripe();
+  const ip =
+    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+    "unknown";
 
+  try {
   if (user) {
+    const withinLimit = await checkRateLimitShared(
+      `checkout:${ip}:${user.id}`,
+      CHECKOUT_RATE_LIMIT.limit,
+      CHECKOUT_RATE_LIMIT.windowMs
+    );
+    if (!withinLimit) {
+      return NextResponse.json({ error: "rate_limited" }, { status: 429 });
+    }
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
       line_items: [{ price: plan.stripe_price_id_monthly, quantity: 1 }],
@@ -66,6 +85,14 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "invalid_email" }, { status: 400 });
   }
   const signupEmail = normalizeEmail(email);
+  const withinLimit = await checkRateLimitShared(
+    `checkout:${ip}:${signupEmail}`,
+    CHECKOUT_RATE_LIMIT.limit,
+    CHECKOUT_RATE_LIMIT.windowMs
+  );
+  if (!withinLimit) {
+    return NextResponse.json({ error: "rate_limited" }, { status: 429 });
+  }
   const session = await stripe.checkout.sessions.create({
     mode: "subscription",
     line_items: [{ price: plan.stripe_price_id_monthly, quantity: 1 }],
@@ -78,5 +105,16 @@ export async function POST(request: Request) {
     cancel_url: `${origin}/pricing?checkout=cancelled`,
   });
 
-  return NextResponse.json({ url: session.url });
+    return NextResponse.json({ url: session.url });
+  } catch (err) {
+    console.error(
+      `[checkout] session creation failed for plan ${plan.slug}: ${
+        err instanceof Error ? err.message : String(err)
+      }`
+    );
+    return NextResponse.json(
+      { error: "checkout_unavailable" },
+      { status: 500 }
+    );
+  }
 }

@@ -19,7 +19,14 @@ export const dynamic = "force-dynamic";
  *  then lands here and writes the real subscriptions row through the
  *  normal path. This handler remains the ONLY writer of
  *  public.subscriptions — claims are the only thing the pay-first
- *  branch writes. */
+ *  branch writes. *
+ *  Failure honesty (Phase 1 Build 2a): every database write's error
+ *  is checked. A failed write is logged and answered with HTTP 500
+ *  so Stripe retries the event instead of the failure vanishing
+ *  behind a 200. A 200 now means the event was logged AND its sync
+ *  writes landed (or there was legitimately nothing to write — a
+ *  subscription with no user id and no signup email is logged in
+ *  payment_events for manual reconciliation and skipped by design). */
 
 function mapStatus(status: Stripe.Subscription.Status): string {
   return mapSubscriptionStatus(status);
@@ -71,17 +78,24 @@ async function syncSubscription(
       | string
       | undefined;
     if (signupEmail) {
-      await admin.from("subscription_claims").upsert(
-        {
-          email: normalizeEmail(signupEmail),
-          stripe_customer_id: row.stripe_customer_id,
-          stripe_subscription_id: subscription.id,
-          plan_id: planId,
-          status: row.status,
-          updated_at: new Date().toISOString(),
-        },
-        { onConflict: "stripe_subscription_id" }
-      );
+      const { error: claimError } = await admin
+        .from("subscription_claims")
+        .upsert(
+          {
+            email: normalizeEmail(signupEmail),
+            stripe_customer_id: row.stripe_customer_id,
+            stripe_subscription_id: subscription.id,
+            plan_id: planId,
+            status: row.status,
+            updated_at: new Date().toISOString(),
+          },
+          { onConflict: "stripe_subscription_id" }
+        );
+      if (claimError) {
+        throw new Error(
+          `subscription_claims upsert failed for subscription ${subscription.id}: ${claimError.message}`
+        );
+      }
     }
     // Without a user id (and without a signup email) we cannot attach
     // the subscription; the event is still logged in payment_events
@@ -89,9 +103,14 @@ async function syncSubscription(
     return;
   }
 
-  await admin
+  const { error: subError } = await admin
     .from("subscriptions")
     .upsert(row, { onConflict: "stripe_subscription_id" });
+  if (subError) {
+    throw new Error(
+      `subscriptions upsert failed for subscription ${subscription.id}: ${subError.message}`
+    );
+  }
 }
 
 export async function POST(request: Request) {
@@ -119,7 +138,7 @@ export async function POST(request: Request) {
   const admin = createAdminClient();
 
   // Log first; the unique stripe_event_id makes redeliveries harmless.
-  await admin.from("payment_events").upsert(
+  const { error: logError } = await admin.from("payment_events").upsert(
     {
       stripe_event_id: event.id,
       event_type: event.type,
@@ -127,8 +146,15 @@ export async function POST(request: Request) {
     },
     { onConflict: "stripe_event_id", ignoreDuplicates: true }
   );
+  if (logError) {
+    console.error(
+      `[stripe-webhook] payment_events log failed for event ${event.id} (${event.type}): ${logError.message}`
+    );
+    return NextResponse.json({ error: "event_log_failed" }, { status: 500 });
+  }
 
-  switch (event.type) {
+  try {
+    switch (event.type) {
     case "checkout.session.completed": {
       const session = event.data.object as Stripe.Checkout.Session;
       if (session.subscription) {
@@ -179,13 +205,18 @@ export async function POST(request: Request) {
         event.type === "customer.subscription.deleted" ||
         subscription.status === "canceled"
       ) {
-        await admin
+        const { error: claimCancelError } = await admin
           .from("subscription_claims")
           .update({
             status: "canceled",
             updated_at: new Date().toISOString(),
           })
           .eq("stripe_subscription_id", subscription.id);
+        if (claimCancelError) {
+          throw new Error(
+            `subscription_claims cancel-sync failed for subscription ${subscription.id}: ${claimCancelError.message}`
+          );
+        }
       }
       break;
     }
@@ -203,6 +234,14 @@ export async function POST(request: Request) {
     }
     default:
       break;
+    }
+  } catch (err) {
+    console.error(
+      `[stripe-webhook] sync failed for event ${event.id} (${event.type}): ${
+        err instanceof Error ? err.message : String(err)
+      }`
+    );
+    return NextResponse.json({ error: "sync_failed" }, { status: 500 });
   }
 
   return NextResponse.json({ received: true });

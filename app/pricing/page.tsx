@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import SubscribeButton from "@/components/SubscribeButton";
 import PayFirstButton from "@/components/PayFirstButton";
@@ -74,6 +75,10 @@ export default async function PricingPage() {
           ))}
         </div>
       )}
+      <p style={{ marginTop: 32, color: "#b3a6e0", fontSize: 14 }}>
+        Questions, or a problem with billing?{" "}
+        <Link href="/support">Contact support</Link>
+      </p>
     </div>
   );
 }
