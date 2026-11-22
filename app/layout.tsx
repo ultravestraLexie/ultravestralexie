@@ -90,7 +90,7 @@ export default async function RootLayout({
             <Link href="/discover">Opportunity Finder</Link>
             <Link href="/brands">Brand Intelligence</Link>
             <Link href="/commissions">Commissions</Link>
-            <Link href="/coach">Growth Center</Link>
+            <Link href="/coach">Video Intelligence Lab</Link>
             <Link href="/buyer-brain">Buyer Brain Simulator</Link>
             <Link href="/creator-lab">Creator Lab</Link>
             <Link href="/passport">Passport</Link>
@@ -101,6 +101,7 @@ export default async function RootLayout({
             <Link href="/alerts">Alerts</Link>
             <Link href="/proposals">Proposals</Link>
             <Link href="/command-center">Command Center</Link>
+            <Link href="/growth-center">Growth Center</Link>
             <Link href="/pillars">Pillars</Link>
             <Link href="/studio">Script Studio</Link>
             <Link href="/academy">Creator Academy</Link>

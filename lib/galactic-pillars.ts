@@ -188,7 +188,7 @@ export const GALACTIC_PILLARS: GalacticPillar[] = [
     tagline: "Objectives, experiments, and gaps — yours to run.",
     accent: "#B26BFF",
     description:
-      "The Growth Map is your planning workspace: set objectives, run experiments, and name the gaps in your business, each with a status you control. The Growth Center and Creator Academy give you approaches to test inside those experiments.",
+      "The Growth Map is your planning workspace: set objectives, run experiments, and name the gaps in your business, each with a status you control. The Video Intelligence Lab and Creator Academy give you approaches to test inside those experiments, and the Creator Growth Center gathers your earnings, posting consistency, and connections into one hub.",
     whyItMatters:
       "Growth that isn't planned is luck. A written objective and a tracked experiment turn luck into a method.",
     benefits: [
@@ -199,7 +199,8 @@ export const GALACTIC_PILLARS: GalacticPillar[] = [
     ],
     tools: [
       { label: "Growth Map", href: "/growth-map" },
-      { label: "Growth Center", href: "/coach" },
+      { label: "Creator Growth Center", href: "/growth-center" },
+      { label: "Video Intelligence Lab", href: "/coach" },
       { label: "Creator Academy", href: "/academy" },
     ],
   },
@@ -212,7 +213,7 @@ export const GALACTIC_PILLARS: GalacticPillar[] = [
     tagline: "A developing pillar — your numbers in one place.",
     accent: "#2DD4BF",
     description:
-      "UltraVestra does not offer dedicated performance analytics yet. What exists today is your own numbers gathered in one place: the Command Center brings together your revenue totals, new alerts, growth activity, proposal statuses, Passport entries, and match briefs — and the Revenue Tracker breaks your earnings down by month. That is the honest extent of performance measurement on the platform today.",
+      "UltraVestra does not offer dedicated performance analytics yet. What exists today is your own numbers gathered in one place: the Command Center brings together your revenue totals, new alerts, growth activity, proposal statuses, Passport entries, and match briefs — and the Revenue Tracker breaks your earnings down by month. The Creator Growth Center adds your posting log and your platform connection states to that picture — every figure from records you entered, not platform analytics. That is the honest extent of performance measurement on the platform today.",
     whyItMatters:
       "You cannot improve what you cannot see. A truthful roll-up of your own numbers beats a dashboard of invented metrics.",
     benefits: [
@@ -223,6 +224,7 @@ export const GALACTIC_PILLARS: GalacticPillar[] = [
     ],
     tools: [
       { label: "Command Center", href: "/command-center" },
+      { label: "Creator Growth Center", href: "/growth-center" },
       { label: "Revenue Tracker", href: "/revenue" },
     ],
     statusNote:

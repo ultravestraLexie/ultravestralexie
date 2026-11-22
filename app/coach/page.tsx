@@ -44,7 +44,7 @@ export default async function CoachPage() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
       <section style={{ textAlign: "center", paddingTop: 8 }}>
-        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "5px 16px", fontSize: 13, fontWeight: 700, letterSpacing: 2 }}>CREATOR GROWTH CENTER · VIDEO INTELLIGENCE LAB</span>
+        <span style={{ background: "#2e1065", color: "#f0abfc", border: "1px solid #e879f9", borderRadius: 999, padding: "5px 16px", fontSize: 13, fontWeight: 700, letterSpacing: 2 }}>VIDEO INTELLIGENCE LAB</span>
         <h1 className="wow-title" style={{ fontSize: 42, margin: "12px 0 6px", fontWeight: 800 }}>Why did that video perform?</h1>
         <p style={{ color: "#ddd0ff", margin: "0 auto", maxWidth: 660, fontSize: 16 }}>
           Performance is not luck. Five things decide it — your hook, your demonstration, your storytelling,

@@ -21,17 +21,35 @@ import { useEffect, useState } from "react";
 // API, so the totals it shows are always the server's summary of
 // the stored rows — never a local guess.
 
+type RevenueKind =
+  | "campaign_fee"
+  | "affiliate_commission"
+  | "brand_payment"
+  | "platform_payout"
+  | "other";
+
 type RevenueEntry = {
   id: string;
   brand_name: string;
   amount_cents: number;
   status: "pending" | "paid";
+  kind: RevenueKind;
   earned_date: string;
   due_date: string | null;
   note: string;
   created_at: string;
   updated_at: string;
 };
+
+const KIND_LABELS: Record<RevenueKind, string> = {
+  campaign_fee: "Campaign fee",
+  affiliate_commission: "Affiliate commission",
+  brand_payment: "Brand payment",
+  platform_payout: "Platform payout",
+  other: "Other",
+};
+
+const KIND_OPTIONS = Object.entries(KIND_LABELS) as [RevenueKind, string][];
 
 type BrandTotal = {
   brandName: string;
@@ -48,12 +66,31 @@ type MonthTotal = {
   pendingCents: number;
 };
 
+type KindTotal = {
+  kind: RevenueKind;
+  totalCents: number;
+  pendingCents: number;
+  paidCents: number;
+  count: number;
+};
+
+type YearTotal = {
+  year: number;
+  totalCents: number;
+  paidCents: number;
+  pendingCents: number;
+};
+
 type RevenueSummary = {
   totalEarnedCents: number;
   pendingCents: number;
   receivedCents: number;
   byBrand: BrandTotal[];
   monthly: MonthTotal[];
+  byKind: KindTotal[];
+  yearly: YearTotal[];
+  currentMonthCents: number;
+  previousMonthCents: number;
 };
 
 const EMPTY_SUMMARY: RevenueSummary = {
@@ -62,6 +99,43 @@ const EMPTY_SUMMARY: RevenueSummary = {
   receivedCents: 0,
   byBrand: [],
   monthly: [],
+  byKind: [],
+  yearly: [],
+  currentMonthCents: 0,
+  previousMonthCents: 0,
+};
+
+// --- Estimated platform earnings --------------------------------------
+// A separate shape from a separate API (/api/revenue/estimates) over
+// a separate table. Nothing below ever touches the recorded summary
+// above — the two are rendered in separate sections and never added
+// together.
+
+type RevenueEstimate = {
+  id: string;
+  platform: string;
+  amount_cents: number;
+  period_month: string;
+  note: string;
+  basis: "creator_entered" | "platform_reported";
+  created_at: string;
+  updated_at: string;
+};
+
+type EstimateSummary = {
+  totalEstimatedCents: number;
+  byPlatform: { platform: string; totalCents: number; count: number }[];
+  byMonth: { month: string; totalCents: number }[];
+  creatorEnteredCents: number;
+  platformReportedCents: number;
+};
+
+const EMPTY_ESTIMATE_SUMMARY: EstimateSummary = {
+  totalEstimatedCents: 0,
+  byPlatform: [],
+  byMonth: [],
+  creatorEnteredCents: 0,
+  platformReportedCents: 0,
 };
 
 const MONTH_NAMES = [
@@ -154,11 +228,24 @@ export default function RevenuePage() {
   const [brandName, setBrandName] = useState("");
   const [amount, setAmount] = useState("");
   const [status, setStatus] = useState<"pending" | "paid">("pending");
+  const [kind, setKind] = useState<RevenueKind>("other");
   const [earnedDate, setEarnedDate] = useState(() =>
     new Date().toISOString().slice(0, 10)
   );
   const [dueDate, setDueDate] = useState("");
   const [note, setNote] = useState("");
+
+  const [estimates, setEstimates] = useState<RevenueEstimate[]>([]);
+  const [estimateSummary, setEstimateSummary] =
+    useState<EstimateSummary>(EMPTY_ESTIMATE_SUMMARY);
+  const [estimatePlatform, setEstimatePlatform] = useState("");
+  const [estimateAmount, setEstimateAmount] = useState("");
+  const [estimateMonth, setEstimateMonth] = useState(() =>
+    new Date().toISOString().slice(0, 7)
+  );
+  const [estimateNote, setEstimateNote] = useState("");
+  const [estimateSaving, setEstimateSaving] = useState(false);
+  const [estimateBusyId, setEstimateBusyId] = useState<string | null>(null);
 
   async function load() {
     try {
@@ -180,8 +267,25 @@ export default function RevenuePage() {
     }
   }
 
+  async function loadEstimates() {
+    try {
+      const response = await fetch("/api/revenue/estimates");
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Your estimates could not be loaded.");
+      }
+      setEstimates(data.estimates ?? []);
+      setEstimateSummary(data.summary ?? EMPTY_ESTIMATE_SUMMARY);
+    } catch (e) {
+      setError(
+        e instanceof Error ? e.message : "Your estimates could not be loaded."
+      );
+    }
+  }
+
   useEffect(() => {
     load();
+    loadEstimates();
   }, []);
 
   const amountCents = dollarsToCents(amount);
@@ -200,6 +304,7 @@ export default function RevenuePage() {
           brandName: brandName.trim(),
           amountCents,
           status,
+          kind,
           earnedDate,
           dueDate,
           note: note.trim(),
@@ -212,6 +317,7 @@ export default function RevenuePage() {
       setBrandName("");
       setAmount("");
       setStatus("pending");
+      setKind("other");
       setDueDate("");
       setNote("");
       // Reload so the totals shown are the server's fresh summary.
@@ -268,6 +374,66 @@ export default function RevenuePage() {
       );
     } finally {
       setBusyId(null);
+    }
+  }
+
+  const estimateAmountCents = dollarsToCents(estimateAmount);
+  const estimateFormComplete =
+    estimatePlatform.trim().length > 0 &&
+    estimateAmountCents !== null &&
+    estimateMonth !== "";
+
+  async function addEstimate() {
+    if (estimateAmountCents === null) return;
+    setEstimateSaving(true);
+    setError("");
+    try {
+      const response = await fetch("/api/revenue/estimates", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          platform: estimatePlatform.trim(),
+          amountCents: estimateAmountCents,
+          periodMonth: `${estimateMonth}-01`,
+          note: estimateNote.trim(),
+        }),
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Your estimate could not be saved.");
+      }
+      setEstimatePlatform("");
+      setEstimateAmount("");
+      setEstimateNote("");
+      await loadEstimates();
+    } catch (e) {
+      setError(
+        e instanceof Error ? e.message : "Your estimate could not be saved."
+      );
+    } finally {
+      setEstimateSaving(false);
+    }
+  }
+
+  async function deleteEstimate(id: string) {
+    setEstimateBusyId(id);
+    setError("");
+    try {
+      const response = await fetch(
+        `/api/revenue/estimates?id=${encodeURIComponent(id)}`,
+        { method: "DELETE" }
+      );
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Your estimate could not be deleted.");
+      }
+      await loadEstimates();
+    } catch (e) {
+      setError(
+        e instanceof Error ? e.message : "Your estimate could not be deleted."
+      );
+    } finally {
+      setEstimateBusyId(null);
     }
   }
 
@@ -397,6 +563,46 @@ export default function RevenuePage() {
             </SectionShell>
 
             <SectionShell
+              label="BY KIND"
+              title="Earnings by kind"
+              blurb="Every recorded earning, classified the way you entered it — campaign fees, affiliate commissions, brand payments, platform payouts. Recorded money only; estimates live in their own section below and are never counted here."
+            >
+              {summary.byKind.filter((k) => k.count > 0).length === 0 ? (
+                <p className="text-gray-500 text-sm">
+                  No entries yet — add your first earning below and its
+                  kind will appear here.
+                </p>
+              ) : (
+                <div className="space-y-3">
+                  {summary.byKind
+                    .filter((k) => k.count > 0)
+                    .map((k) => (
+                      <div
+                        key={k.kind}
+                        className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/10 bg-white/[.02] px-5 py-4"
+                      >
+                        <div>
+                          <div className="font-bold">{KIND_LABELS[k.kind]}</div>
+                          <div className="text-gray-500 text-xs mt-1">
+                            {k.count} {k.count === 1 ? "entry" : "entries"}
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-xl font-bold text-cyan-300">
+                            {formatMoney(k.totalCents)}
+                          </div>
+                          <div className="text-gray-400 text-xs mt-1">
+                            {formatMoney(k.paidCents)} received ·{" "}
+                            {formatMoney(k.pendingCents)} pending
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                </div>
+              )}
+            </SectionShell>
+
+            <SectionShell
               label="MONTHLY TREND"
               title="Your last six months"
               blurb="What you earned each month, by the date you earned it. Quiet months are shown as zero — the trend never hides them."
@@ -475,6 +681,20 @@ export default function RevenuePage() {
                   </select>
                 </label>
                 <label className="text-sm text-gray-300">
+                  Kind of earning
+                  <select
+                    value={kind}
+                    onChange={(e) => setKind(e.target.value as RevenueKind)}
+                    className={inputClass}
+                  >
+                    {KIND_OPTIONS.map(([value, label]) => (
+                      <option key={value} value={value}>
+                        {label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="text-sm text-gray-300">
                   Date earned
                   <input
                     type="date"
@@ -539,7 +759,8 @@ export default function RevenuePage() {
                         <div>
                           <div className="font-bold">{entry.brand_name}</div>
                           <div className="text-gray-400 text-sm mt-1">
-                            Earned {formatDate(entry.earned_date)}
+                            {KIND_LABELS[entry.kind] ?? "Other"} · Earned{" "}
+                            {formatDate(entry.earned_date)}
                             {entry.status === "pending" && entry.due_date
                               ? ` · expected ${formatDate(entry.due_date)}`
                               : ""}
@@ -580,6 +801,123 @@ export default function RevenuePage() {
                 </div>
               )}
             </SectionShell>
+
+            <section className="rounded-3xl border border-dashed border-violet-400/40 bg-violet-500/[.04] p-6 md:p-8">
+              <div className="text-violet-300 text-xs tracking-widest mb-3">
+                ESTIMATED PLATFORM EARNINGS
+              </div>
+              <h2 className="text-2xl font-bold mb-2">
+                Estimates — not money received
+              </h2>
+              <p className="text-gray-400 text-sm mb-6">
+                What a platform's dashboard suggests you might earn —
+                TikTok or Meta monetization estimates, for example.{" "}
+                <strong className="text-gray-200">
+                  Estimates are not money received and are never added
+                  to your recorded earnings above.
+                </strong>{" "}
+                They live in their own table, are totaled separately,
+                and stay labeled as estimates everywhere they appear.
+              </p>
+
+              <div className="rounded-2xl bg-white/[.04] border border-violet-400/20 p-5 mb-6 max-w-xs">
+                <div className="text-3xl font-bold text-violet-300">
+                  {formatMoney(estimateSummary.totalEstimatedCents)}
+                </div>
+                <div className="text-gray-400 text-sm mt-2">
+                  Total estimated —{" "}
+                  {formatMoney(estimateSummary.creatorEnteredCents)} entered
+                  by you · {formatMoney(estimateSummary.platformReportedCents)}{" "}
+                  platform-reported
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-5">
+                <label className="text-sm text-gray-300">
+                  Platform
+                  <input
+                    type="text"
+                    value={estimatePlatform}
+                    onChange={(e) => setEstimatePlatform(e.target.value)}
+                    placeholder="Example: TikTok"
+                    maxLength={100}
+                    className={inputClass}
+                  />
+                </label>
+                <label className="text-sm text-gray-300">
+                  Estimated amount (dollars)
+                  <input
+                    type="text"
+                    inputMode="decimal"
+                    value={estimateAmount}
+                    onChange={(e) => setEstimateAmount(e.target.value)}
+                    placeholder="Example: 120.00"
+                    className={inputClass}
+                  />
+                </label>
+                <label className="text-sm text-gray-300">
+                  Month the estimate is about
+                  <input
+                    type="month"
+                    value={estimateMonth}
+                    onChange={(e) => setEstimateMonth(e.target.value)}
+                    className={inputClass}
+                  />
+                </label>
+                <label className="text-sm text-gray-300">
+                  Note (optional)
+                  <input
+                    type="text"
+                    value={estimateNote}
+                    onChange={(e) => setEstimateNote(e.target.value)}
+                    placeholder="Example: TikTok dashboard estimate"
+                    maxLength={500}
+                    className={inputClass}
+                  />
+                </label>
+              </div>
+              <button
+                onClick={addEstimate}
+                disabled={estimateSaving || !estimateFormComplete}
+                className="mt-6 w-full rounded-xl p-5 font-bold text-black bg-violet-400 hover:bg-violet-300 disabled:opacity-40 transition"
+              >
+                {estimateSaving ? "Saving..." : "Add estimate"}
+              </button>
+
+              {estimates.length > 0 && (
+                <div className="space-y-3 mt-8">
+                  {estimates.map((estimate) => (
+                    <div
+                      key={estimate.id}
+                      className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-violet-400/20 bg-white/[.02] px-5 py-4"
+                    >
+                      <div>
+                        <div className="font-bold">{estimate.platform}</div>
+                        <div className="text-gray-400 text-sm mt-1">
+                          {formatMonth(estimate.period_month.slice(0, 7))} ·{" "}
+                          {estimate.basis === "platform_reported"
+                            ? "Reported by platform"
+                            : "Entered by you — an estimate"}
+                          {estimate.note ? ` · ${estimate.note}` : ""}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="text-xl font-bold text-violet-300">
+                          {formatMoney(estimate.amount_cents)}
+                        </div>
+                        <button
+                          onClick={() => deleteEstimate(estimate.id)}
+                          disabled={estimateBusyId === estimate.id}
+                          className="rounded-lg border border-red-400/40 text-red-300 px-4 py-2 text-sm hover:bg-red-400/10 disabled:opacity-40 transition"
+                        >
+                          Delete
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </section>
           </div>
         )}
       </div>

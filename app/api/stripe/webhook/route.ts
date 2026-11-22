@@ -166,10 +166,27 @@ export async function POST(request: Request) {
     case "customer.subscription.created":
     case "customer.subscription.updated":
     case "customer.subscription.deleted": {
-      await syncSubscription(
-        admin,
-        event.data.object as Stripe.Subscription
-      );
+      const subscription = event.data.object as Stripe.Subscription;
+      await syncSubscription(admin, subscription);
+      // A canceled subscription must also cancel its pay-first
+      // claim row. syncSubscription writes claims only on the
+      // no-user path, so once a claim has been claimed (user id
+      // stamped) a later cancel would otherwise leave the claim
+      // 'active' forever — verified defect, 2026-11-22 sandbox
+      // test cleanup. This update matches on the subscription id
+      // regardless of the claim's claimed state.
+      if (
+        event.type === "customer.subscription.deleted" ||
+        subscription.status === "canceled"
+      ) {
+        await admin
+          .from("subscription_claims")
+          .update({
+            status: "canceled",
+            updated_at: new Date().toISOString(),
+          })
+          .eq("stripe_subscription_id", subscription.id);
+      }
       break;
     }
     case "invoice.paid":

@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
-import { computeSummary, type RevenueStatus } from "@/lib/revenue/summary";
+import { computeSummary, type RevenueStatus, type RevenueKind } from "@/lib/revenue/summary";
 
 export const runtime = "nodejs";
 
@@ -31,6 +31,18 @@ export const runtime = "nodejs";
 
 const STATUSES = ["pending", "paid"] as const;
 
+// Growth Center Phase 1: every recorded earning is classified by
+// kind. Entries recorded before the kind column existed read as
+// 'other' (the column default), and the create form offers the
+// same five values the database check allows.
+const KINDS = [
+  "campaign_fee",
+  "affiliate_commission",
+  "brand_payment",
+  "platform_payout",
+  "other",
+] as const;
+
 const MAX_AMOUNT_CENTS = 100_000_000; // $1,000,000.00 per entry
 
 /** A real calendar date in 'YYYY-MM-DD' form — the regex pins the
@@ -52,6 +64,7 @@ const CreateSchema = z.object({
   brandName: z.string().min(1).max(200),
   amountCents: z.number().int().min(1).max(MAX_AMOUNT_CENTS),
   status: z.enum(STATUSES).default("pending"),
+  kind: z.enum(KINDS).default("other"),
   earnedDate: DateString,
   // '' (or absent) means "no expected date" and stores NULL; a
   // non-empty value must itself be a real date — checked below,
@@ -74,6 +87,7 @@ type RevenueEntryRow = {
   brand_name: string;
   amount_cents: number;
   status: RevenueStatus;
+  kind: RevenueKind;
   earned_date: string;
   due_date: string | null;
   note: string;
@@ -82,7 +96,7 @@ type RevenueEntryRow = {
 };
 
 const ENTRY_COLUMNS =
-  "id, brand_name, amount_cents, status, earned_date, due_date, note, created_at, updated_at";
+  "id, brand_name, amount_cents, status, kind, earned_date, due_date, note, created_at, updated_at";
 
 /** Gate + identity for every handler: 401 when signed out, 403 when
  *  not subscribed, otherwise the session client and the caller's id. */
@@ -185,6 +199,7 @@ export async function POST(request: Request) {
       brand_name: parsed.data.brandName,
       amount_cents: parsed.data.amountCents,
       status: parsed.data.status,
+      kind: parsed.data.kind,
       earned_date: parsed.data.earnedDate,
       due_date: dueDate === "" ? null : dueDate,
       note: parsed.data.note,
