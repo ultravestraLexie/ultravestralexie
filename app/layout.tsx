@@ -91,6 +91,7 @@ export default async function RootLayout({
             <Link href="/revenue">Revenue</Link>
             <Link href="/alerts">Alerts</Link>
             <Link href="/proposals">Proposals</Link>
+            <Link href="/command-center">Command Center</Link>
             <Link href="/studio">Script Studio</Link>
             <Link href="/academy">Creator Academy</Link>
             <Link href="/ask" style={{ fontWeight: 700, color: "#f0abfc" }}>Ask UltraVestra</Link>
