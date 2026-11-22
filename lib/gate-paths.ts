@@ -28,6 +28,7 @@ export const GATED_PREFIXES = [
   "/buyer-brain",
   "/creator-lab",
   "/passport",
+  "/trend-radar",
   "/start-here",
   "/why-is-my-video-not-working",
   "/creator-growth",
@@ -36,6 +37,7 @@ export const GATED_PREFIXES = [
   "/api/buyer-brain",
   "/api/creator-lab",
   "/api/passport",
+  "/api/trend-radar",
 ] as const;
 
 export function isGatedPath(pathname: string): boolean {
