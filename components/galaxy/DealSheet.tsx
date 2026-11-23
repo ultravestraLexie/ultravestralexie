@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import {
   addDaysKey,
   dealRemainingCents,
@@ -50,6 +51,7 @@ export function DealSheet({
   onClose: () => void;
   onChanged: (paidNow: boolean) => void;
 }) {
+  const router = useRouter();
   const [amount, setAmount] = useState("");
   const [dueOn, setDueOn] = useState("");
   const [deliverables, setDeliverables] = useState("");
@@ -90,6 +92,11 @@ export function DealSheet({
     if (ok) {
       toast(msg);
       if (paidNow) shootingStar();
+      /* Refresh the server data in place so the board / Money /
+       * Today panels reflect the write immediately — no manual
+       * reload. Done here in the sheet itself (not only via the
+       * parent's onChanged) so every host page gets it. */
+      router.refresh();
       onChanged(paidNow);
       onClose();
     } else {

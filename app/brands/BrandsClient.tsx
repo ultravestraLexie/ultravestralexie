@@ -102,6 +102,7 @@ export default function BrandsClient({
           next.delete(b.id);
           return next;
         });
+        router.refresh();
       }
     } else {
       const { error } = await supabase
@@ -110,6 +111,7 @@ export default function BrandsClient({
       if (!error) {
         setSaved((prev) => new Set(prev).add(b.id));
         toast(`${b.name} saved.`);
+        router.refresh();
       }
     }
   }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import {
   CAP_LABEL,
   pitchText,
@@ -30,6 +31,7 @@ export function PitchSheet({
   onClose: () => void;
   onSent: () => void;
 }) {
+  const router = useRouter();
   const [subject, setSubject] = useState("");
   const [body, setBody] = useState("");
   const [amount, setAmount] = useState("");
@@ -62,6 +64,9 @@ export function PitchSheet({
       });
       if (res.ok) {
         toast(`Pitch to ${brand.name} logged in Deals.`);
+        /* The new deal must show up in Deals / Today without a
+         * manual reload — refresh the server data in place. */
+        router.refresh();
         onSent();
         onClose();
       } else {

@@ -301,6 +301,7 @@ export default function PassportClient({
 }
 
 function CollabSheet({ open, onClose, onSaved }: { open: boolean; onClose: () => void; onSaved: () => void }) {
+  const router = useRouter();
   const [brandName, setBrandName] = useState("");
   const [description, setDescription] = useState("");
   const [range, setRange] = useState("");
@@ -329,6 +330,7 @@ function CollabSheet({ open, onClose, onSaved }: { open: boolean; onClose: () =>
       });
       if (res.ok) {
         toast("Past work added — labelled self-reported.");
+        router.refresh();
         onSaved();
         onClose();
       } else toast("That could not be saved. Please try again.");
@@ -369,6 +371,7 @@ function CollabSheet({ open, onClose, onSaved }: { open: boolean; onClose: () =>
 }
 
 function TestimonialSheet({ open, onClose, onSaved }: { open: boolean; onClose: () => void; onSaved: () => void }) {
+  const router = useRouter();
   const [quote, setQuote] = useState("");
   const [authorName, setAuthorName] = useState("");
   const [authorRole, setAuthorRole] = useState("");
@@ -391,6 +394,7 @@ function TestimonialSheet({ open, onClose, onSaved }: { open: boolean; onClose: 
       });
       if (res.ok) {
         toast("Testimonial added — labelled self-reported.");
+        router.refresh();
         onSaved();
         onClose();
       } else toast("That could not be saved. Please try again.");

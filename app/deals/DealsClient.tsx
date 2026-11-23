@@ -265,6 +265,7 @@ function AddDealSheet({
   brandOptions: { id: string; name: string }[];
   onAdded: () => void;
 }) {
+  const router = useRouter();
   const [brandSel, setBrandSel] = useState("");
   const [brandName, setBrandName] = useState("");
   const [amount, setAmount] = useState("");
@@ -295,6 +296,7 @@ function AddDealSheet({
       });
       if (res.ok) {
         toast("Deal added.");
+        router.refresh();
         onAdded();
         onClose();
       } else toast("The deal could not be added. Please try again.");

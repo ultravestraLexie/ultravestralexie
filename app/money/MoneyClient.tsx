@@ -433,6 +433,7 @@ function MoneyFormSheet({
   onClose: () => void;
   onSaved: () => void;
 }) {
+  const router = useRouter();
   const [label, setLabel] = useState("");
   const [amount, setAmount] = useState("");
   const [date, setDate] = useState(todayKey());
@@ -473,6 +474,7 @@ function MoneyFormSheet({
         toast(inc ? "Payout logged." : "Expense logged.");
         setLabel("");
         setAmount("");
+        router.refresh();
         onSaved();
         onClose();
       } else toast("That could not be saved. Please try again.");
