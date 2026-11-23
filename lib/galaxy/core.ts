@@ -371,6 +371,10 @@ export type InsightInput = {
   profile: GalaxyProfile;
   postsThisWeek: number;
   scriptCount: number;
+  /** Deal Protection records by deal id (System #2). Optional —
+   *  callers that don't load protection simply get no protection
+   *  insight; a deal with no record counts as fully unprotected. */
+  protectionByDeal?: Record<string, DealProtection>;
   now?: Date;
 };
 
@@ -467,6 +471,34 @@ export function computeInsights(input: InsightInput): Insight[] {
         act: "followup",
       });
     }
+  }
+  /* Deal Protection (System #2): at most ONE protection insight —
+   *  the most urgent contracted/delivering deal whose usage rights
+   *  are not recorded. Most urgent = soonest content due date
+   *  (undated last), then the largest amount. */
+  const unprotected = input.deals
+    .filter(
+      (d) =>
+        (d.stage === "contracted" || d.stage === "delivering") &&
+        protectionGaps(d, input.protectionByDeal?.[d.id]).some((g) => g.id === "usage")
+    )
+    .sort((a, b) => {
+      if (a.dueOn && b.dueOn) return a.dueOn.localeCompare(b.dueOn);
+      if (a.dueOn) return -1;
+      if (b.dueOn) return 1;
+      return (b.amountCents ?? 0) - (a.amountCents ?? 0);
+    });
+  if (unprotected.length) {
+    const d = unprotected[0];
+    out.push({
+      kind: "risk",
+      priority: 65,
+      dealId: d.id,
+      title: `Lock the usage rights with ${d.brandName}`,
+      why: `The deal is ${stageOf(d.stage).label.toLowerCase()} but usage rights are not recorded — what the brand may do with your content is not written down.`,
+      cta: "Open deal",
+      act: "open-deal",
+    });
   }
   for (const b of matchesToPitch(input, 3)) {
     const bits = ["Accepting now"];
@@ -824,4 +856,98 @@ export function incomeOutlook(
       build(new Date(now.getFullYear(), now.getMonth() + 1, 1), forecastFor("next")),
     ],
   };
+}
+
+/* ---------------- Brand Deal Protection (System #2) -----------------
+ * One protection record per deal (public.deal_protection): the
+ * contract review checklist + the creator's own evidence of what
+ * was agreed. The gaps below are computed ONLY from the record —
+ * a missing record counts as nothing checked yet. Warnings never
+ * fire for paid or lost deals: the deal is finished, and nagging
+ * about paperwork on a finished deal protects nobody. For pitched
+ * deals the gaps compute the same way; the board simply doesn't
+ * display them (the sheet does) so early pitches stay quiet. */
+
+export type DealProtection = {
+  dealId: string;
+  contractReviewed: boolean;
+  deliverablesAgreed: boolean;
+  paymentTermsAgreed: boolean;
+  usageRightsSet: boolean;
+  exclusivityChecked: boolean;
+  usageRightsNote: string;
+  exclusivityNote: string;
+  termsNote: string;
+};
+
+export function emptyProtection(dealId: string): DealProtection {
+  return {
+    dealId,
+    contractReviewed: false,
+    deliverablesAgreed: false,
+    paymentTermsAgreed: false,
+    usageRightsSet: false,
+    exclusivityChecked: false,
+    usageRightsNote: "",
+    exclusivityNote: "",
+    termsNote: "",
+  };
+}
+
+export type ProtectionRowLike = {
+  deal_id: string;
+  contract_reviewed: boolean;
+  deliverables_agreed: boolean;
+  payment_terms_agreed: boolean;
+  usage_rights_set: boolean;
+  exclusivity_checked: boolean;
+  usage_rights_note: string;
+  exclusivity_note: string;
+  terms_note: string;
+};
+
+export function rowToProtection(r: ProtectionRowLike): DealProtection {
+  return {
+    dealId: r.deal_id,
+    contractReviewed: r.contract_reviewed,
+    deliverablesAgreed: r.deliverables_agreed,
+    paymentTermsAgreed: r.payment_terms_agreed,
+    usageRightsSet: r.usage_rights_set,
+    exclusivityChecked: r.exclusivity_checked,
+    usageRightsNote: r.usage_rights_note ?? "",
+    exclusivityNote: r.exclusivity_note ?? "",
+    termsNote: r.terms_note ?? "",
+  };
+}
+
+export type ProtectionGapId =
+  | "contract"
+  | "usage"
+  | "exclusivity"
+  | "deliverables"
+  | "payment";
+
+export type ProtectionGap = { id: ProtectionGapId; text: string };
+
+/** The open protection items on a deal, in the owner's rule order.
+ *  Empty for paid/lost deals (never warn) and for a deal whose
+ *  record is complete. A null/undefined record = nothing checked. */
+export function protectionGaps(
+  deal: GalaxyDeal,
+  protection: DealProtection | null | undefined
+): ProtectionGap[] {
+  if (deal.stage === "paid" || deal.stage === "lost") return [];
+  const p = protection ?? emptyProtection(deal.id);
+  const gaps: ProtectionGap[] = [];
+  if (!p.contractReviewed)
+    gaps.push({ id: "contract", text: "Contract not marked reviewed" });
+  if (!p.usageRightsSet)
+    gaps.push({ id: "usage", text: "Usage rights not recorded" });
+  if (!p.exclusivityChecked)
+    gaps.push({ id: "exclusivity", text: "Exclusivity not checked" });
+  if (!p.deliverablesAgreed)
+    gaps.push({ id: "deliverables", text: "Deliverables not confirmed in writing" });
+  if (!p.paymentTermsAgreed)
+    gaps.push({ id: "payment", text: "Payment terms not confirmed" });
+  return gaps;
 }

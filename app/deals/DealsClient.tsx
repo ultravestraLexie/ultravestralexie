@@ -12,6 +12,8 @@ import {
   fmtMoney,
   isOverdue,
   plural,
+  protectionGaps,
+  type DealProtection,
   type GalaxyDeal,
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
@@ -29,10 +31,12 @@ export default function DealsClient({
   profile,
   deals,
   brandOptions,
+  protections,
 }: {
   profile: GalaxyProfile;
   deals: GalaxyDeal[];
   brandOptions: { id: string; name: string }[];
+  protections: Record<string, DealProtection>;
 }) {
   const router = useRouter();
   const [dealId, setDealId] = useState<string | null>(null);
@@ -127,6 +131,15 @@ export default function DealsClient({
                 {ds.length ? (
                   ds.map((d) => {
                     const flag = dealFlag(d);
+                    /* Deal Protection (System #2): open items show on
+                     * negotiating/contracted/delivering cards only —
+                     * pitched deals stay quiet on the board. */
+                    const protOpen =
+                      d.stage === "negotiating" ||
+                      d.stage === "contracted" ||
+                      d.stage === "delivering"
+                        ? protectionGaps(d, protections[d.id]).length
+                        : 0;
                     return (
                       <button
                         key={d.id}
@@ -168,6 +181,12 @@ export default function DealsClient({
                           <span className={`gx-pill ${FLAG_CLASS[flag.tone]}`} style={{ marginTop: 8 }}>
                             <Icon html={FLAG_ICON[flag.tone]} size={13} />
                             {flag.text}
+                          </span>
+                        ) : null}
+                        {protOpen > 0 ? (
+                          <span className="gx-pill gx-pill-warn" style={{ marginTop: 8 }}>
+                            <Icon html={I.warn} size={13} />
+                            Protection {protOpen} open
                           </span>
                         ) : null}
                       </button>

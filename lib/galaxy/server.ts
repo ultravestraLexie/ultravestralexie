@@ -10,7 +10,10 @@ import { fetchAllPages } from "@/lib/fetch-all-pages";
 import {
   capFromNotes,
   rowToDeal,
+  rowToProtection,
+  type DealProtection,
   type DealRowLike,
+  type ProtectionRowLike,
   type GalaxyBrand,
   type GalaxyDeal,
   type GalaxyExpense,
@@ -64,6 +67,26 @@ export async function fetchDeals(
     .eq("user_id", userId)
     .order("created_at", { ascending: true });
   return ((data ?? []) as DealRowLike[]).map((r) => rowToDeal(r));
+}
+
+/** Brand Deal Protection records (System #2) for the caller's
+ *  deals, keyed by deal id. Deals without a record simply have no
+ *  entry — core.ts treats a missing record as nothing checked. */
+export async function fetchProtections(
+  supabase: ServerClient,
+  userId: string
+): Promise<Record<string, DealProtection>> {
+  const { data } = await supabase
+    .from("deal_protection")
+    .select(
+      "deal_id, contract_reviewed, deliverables_agreed, payment_terms_agreed, usage_rights_set, exclusivity_checked, usage_rights_note, exclusivity_note, terms_note"
+    )
+    .eq("user_id", userId);
+  const out: Record<string, DealProtection> = {};
+  for (const r of (data ?? []) as ProtectionRowLike[]) {
+    out[r.deal_id] = rowToProtection(r);
+  }
+  return out;
 }
 
 export async function fetchPosts(

@@ -1,19 +1,24 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
   addDaysKey,
+  daysAgo,
+  daysUntil,
   dealRemainingCents,
+  emptyProtection,
   fmtDate,
   fmtMoney,
   followText,
   isOverdue,
   nextStage,
   plural,
+  protectionGaps,
   reminderText,
   stageOf,
   todayKey,
+  type DealProtection,
   type GalaxyDeal,
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
@@ -38,6 +43,53 @@ async function patchDeal(id: string, patch: Record<string, unknown>): Promise<bo
   }
 }
 
+/* Deal Protection (System #2) — the checklist record lives in its
+ * own table behind /api/deals/protection. The sheet loads it when
+ * opened (so the section works on every host page, not just the
+ * Deals board) and saves the whole record on every change. */
+async function fetchProtection(dealId: string): Promise<DealProtection> {
+  try {
+    const res = await fetch(`/api/deals/protection?dealId=${dealId}`);
+    if (res.ok) {
+      const json = (await res.json()) as { protection: DealProtection | null };
+      if (json.protection) return json.protection;
+    }
+  } catch {
+    /* fall through to the empty record */
+  }
+  return emptyProtection(dealId);
+}
+
+async function saveProtection(p: DealProtection): Promise<DealProtection | null> {
+  try {
+    const res = await fetch("/api/deals/protection", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(p),
+    });
+    if (!res.ok) return null;
+    const json = (await res.json()) as { protection: DealProtection };
+    return json.protection;
+  } catch {
+    return null;
+  }
+}
+
+type ProtCheckKey =
+  | "contractReviewed"
+  | "deliverablesAgreed"
+  | "paymentTermsAgreed"
+  | "usageRightsSet"
+  | "exclusivityChecked";
+
+const PROT_CHECKS: { key: ProtCheckKey; label: string }[] = [
+  { key: "contractReviewed", label: "Contract reviewed" },
+  { key: "deliverablesAgreed", label: "Deliverables confirmed in writing" },
+  { key: "paymentTermsAgreed", label: "Payment terms confirmed" },
+  { key: "usageRightsSet", label: "Usage rights recorded" },
+  { key: "exclusivityChecked", label: "Exclusivity checked" },
+];
+
 export function DealSheet({
   deal,
   profile,
@@ -61,6 +113,48 @@ export function DealSheet({
   const [followMode, setFollowMode] = useState(false);
   const [busy, setBusy] = useState(false);
   const [seededFor, setSeededFor] = useState<string | null>(null);
+  const [prot, setProt] = useState<DealProtection | null>(null);
+  const [protBusy, setProtBusy] = useState(false);
+
+  /* Load this deal's protection record each time the sheet opens
+   * on a deal. A deal with no record yet gets the empty record —
+   * nothing checked, nothing recorded. Keyed on the deal id so a
+   * parent refresh (new deal object, same id) doesn't reload it. */
+  const protDealId = open && deal ? deal.id : null;
+  useEffect(() => {
+    if (!protDealId) return;
+    let live = true;
+    setProt(null);
+    void fetchProtection(protDealId).then((p) => {
+      if (live) setProt(p);
+    });
+    return () => {
+      live = false;
+    };
+  }, [protDealId]);
+
+  async function persistProt(next: DealProtection) {
+    if (!deal) return;
+    setProtBusy(true);
+    const saved = await saveProtection(next);
+    setProtBusy(false);
+    if (saved) {
+      setProt(saved);
+      /* The board's protection indicator reads server data — refresh
+       * in place so it agrees with the sheet immediately. */
+      router.refresh();
+    } else {
+      toast("That could not be saved. Please try again.");
+      setProt(await fetchProtection(deal.id));
+    }
+  }
+
+  function toggleProt(key: ProtCheckKey) {
+    if (!prot) return;
+    const next = { ...prot, [key]: !prot[key] };
+    setProt(next);
+    void persistProt(next);
+  }
 
   if (open && deal && seededFor !== deal.id) {
     setSeededFor(deal.id);
@@ -78,6 +172,8 @@ export function DealSheet({
   const st = stageOf(deal.stage);
   const active = deal.stage !== "paid" && deal.stage !== "lost";
   const overdue = isOverdue(deal);
+  const payDays = deal.invoiceDue ? daysUntil(deal.invoiceDue) : null;
+  const protGaps = prot ? protectionGaps(deal, prot) : [];
   const next = nextStage(deal.stage);
   const dollarsToCents = (v: string) => {
     const n = Math.round(parseFloat(v));
@@ -312,6 +408,97 @@ export function DealSheet({
               onChange={(e) => setNotes(e.target.value)}
             />
           </label>
+          <div className="gx-prot">
+            <p className="gx-prot-title">Deal protection</p>
+            <p className="gx-sub">
+              Protect yourself before you rely on this deal — check each item off as you confirm it.
+            </p>
+            {deal.invoiceDue ? (
+              <p className="gx-sub">
+                Payment deadline: due {fmtDate(deal.invoiceDue)}
+                {overdue
+                  ? ` — ${plural(daysAgo(deal.invoiceDue), "day")} overdue`
+                  : payDays === 0
+                    ? " — due today"
+                    : payDays !== null && payDays > 0
+                      ? ` — ${plural(payDays, "day")} left`
+                      : " — that date has passed"}
+                {dealRemainingCents(deal) > 0
+                  ? ` · ${fmtMoney(dealRemainingCents(deal))} still owed`
+                  : ""}
+              </p>
+            ) : deal.stage === "invoiced" ? (
+              <p className="gx-sub">Payment deadline: no due date set on this invoice.</p>
+            ) : null}
+            {prot === null ? (
+              <p className="gx-sub">Loading protection…</p>
+            ) : (
+              <>
+                <div className="gx-prot-checks">
+                  {PROT_CHECKS.map((c) => (
+                    <label key={c.key} className={`gx-prot-check${prot[c.key] ? " on" : ""}`}>
+                      <input
+                        type="checkbox"
+                        checked={prot[c.key]}
+                        disabled={protBusy}
+                        onChange={() => toggleProt(c.key)}
+                      />
+                      {c.label}
+                    </label>
+                  ))}
+                </div>
+                {protGaps.length ? (
+                  <div className="gx-prot-chips">
+                    {protGaps.map((g) => (
+                      <span key={g.id} className="gx-pill gx-pill-warn">
+                        <Icon html={I.warn} size={13} /> {g.text}
+                      </span>
+                    ))}
+                  </div>
+                ) : null}
+                <label className="gx-field">
+                  <span>Usage rights</span>
+                  <textarea
+                    className="gx-input"
+                    rows={2}
+                    value={prot.usageRightsNote}
+                    onChange={(e) => setProt({ ...prot, usageRightsNote: e.target.value })}
+                    placeholder="What the brand may do with your content, and for how long"
+                  />
+                </label>
+                <label className="gx-field">
+                  <span>Exclusivity</span>
+                  <textarea
+                    className="gx-input"
+                    rows={2}
+                    value={prot.exclusivityNote}
+                    onChange={(e) => setProt({ ...prot, exclusivityNote: e.target.value })}
+                    placeholder="Competing brands you agreed to avoid, and for how long — or None"
+                  />
+                </label>
+                <label className="gx-field">
+                  <span>Evidence of agreed terms</span>
+                  <textarea
+                    className="gx-input"
+                    rows={3}
+                    value={prot.termsNote}
+                    onChange={(e) => setProt({ ...prot, termsNote: e.target.value })}
+                    placeholder="What was agreed, where, and when — for example the signed agreement, or the email thread that confirmed it"
+                  />
+                </label>
+                <div className="gx-sheet-actions">
+                  <button
+                    type="button"
+                    className="gx-btn"
+                    disabled={protBusy}
+                    onClick={() => void persistProt(prot)}
+                  >
+                    Save protection
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
           {overdue ? (
             <p className="gx-sub" style={{ marginBottom: 12 }}>
               <Icon html={I.alert} size={13} /> {fmtMoney(dealRemainingCents(deal))} is{" "}

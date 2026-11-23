@@ -1,6 +1,6 @@
 import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
-import { fetchBrandOptions, fetchDeals, fetchProfile } from "@/lib/galaxy/server";
+import { fetchBrandOptions, fetchDeals, fetchProfile, fetchProtections } from "@/lib/galaxy/server";
 import DealsClient from "./DealsClient";
 
 export const dynamic = "force-dynamic";
@@ -18,11 +18,19 @@ export default async function DealsPage() {
   } = await supabase.auth.getUser();
   if (!user) return null;
 
-  const [profile, deals, brandOptions] = await Promise.all([
+  const [profile, deals, brandOptions, protections] = await Promise.all([
     fetchProfile(supabase, user.id),
     fetchDeals(supabase, user.id),
     fetchBrandOptions(supabase),
+    fetchProtections(supabase, user.id),
   ]);
 
-  return <DealsClient profile={profile} deals={deals} brandOptions={brandOptions} />;
+  return (
+    <DealsClient
+      profile={profile}
+      deals={deals}
+      brandOptions={brandOptions}
+      protections={protections}
+    />
+  );
 }

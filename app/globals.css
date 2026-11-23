@@ -334,6 +334,15 @@ dialog.gx-sheet::backdrop {
 .gx-meta-list dt { color: var(--ink-3); }
 .gx-meta-list dd { margin: 0; }
 
+/* Deal protection (System #2) — checklist + warnings in the sheet */
+.gx-prot { border-top: 1px solid var(--line); padding-top: 14px; margin-bottom: 14px; }
+.gx-prot-title { font-weight: 600; font-size: 14.5px; margin: 0; }
+.gx-prot-checks { display: flex; flex-direction: column; margin: 6px 0 10px; }
+.gx-prot-check { display: flex; align-items: center; gap: 10px; padding: 7px 2px; cursor: pointer; font-size: 14px; color: var(--ink-2); }
+.gx-prot-check input { width: 17px; height: 17px; flex: none; accent-color: var(--gx-accent, #4c74ff); }
+.gx-prot-check.on { color: var(--ink); }
+.gx-prot-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0 12px; }
+
 .gx-toast {
   position: fixed;
   left: 50%;

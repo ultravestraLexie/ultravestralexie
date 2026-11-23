@@ -19,6 +19,7 @@ import {
   fetchIncome,
   fetchPosts,
   fetchProfile,
+  fetchProtections,
   fetchSavedBrandIds,
   fetchScriptCount,
 } from "@/lib/galaxy/server";
@@ -38,13 +39,14 @@ export default async function TodayPage() {
   } = await supabase.auth.getUser();
   if (!user) return null;
 
-  const [profile, deals, posts, savedIds, scriptCount, income] = await Promise.all([
+  const [profile, deals, posts, savedIds, scriptCount, income, protections] = await Promise.all([
     fetchProfile(supabase, user.id),
     fetchDeals(supabase, user.id),
     fetchPosts(supabase, user.id),
     fetchSavedBrandIds(supabase, user.id),
     fetchScriptCount(supabase, user.id),
     fetchIncome(supabase, user.id),
+    fetchProtections(supabase, user.id),
   ]);
   const brands = await fetchDirectory(supabase, savedIds);
   const { data: catRows } = await supabase.from("categories").select("name").order("name");
@@ -57,7 +59,7 @@ export default async function TodayPage() {
     return a >= 0 && a <= 6;
   }).length;
 
-  const input = { deals, brands, profile, postsThisWeek, scriptCount, now };
+  const input = { deals, brands, profile, postsThisWeek, scriptCount, protectionByDeal: protections, now };
   const insights = computeInsights(input);
   const pitchBrands = matchesToPitch(input, 3);
   const paidCount = deals.filter((d) => d.stage === "paid").length;
