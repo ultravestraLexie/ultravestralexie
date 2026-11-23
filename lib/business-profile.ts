@@ -166,12 +166,27 @@ export function profileIntelligence(
   }
 
   if (profile.audienceSize !== null) {
+    const PLATFORM_LABELS: Record<string, string> = {
+      tiktok: "TikTok",
+      youtube: "YouTube",
+      instagram: "Instagram",
+      twitch: "Twitch",
+      x: "X",
+      facebook: "Facebook",
+      linkedin: "LinkedIn",
+      podcast: "Podcast",
+    };
+    const platformList = profile.platforms
+      .map(
+        (p) =>
+          PLATFORM_LABELS[p.toLowerCase()] ??
+          p.charAt(0).toUpperCase() + p.slice(1)
+      )
+      .join(" and ");
     entries.push({
       label: "MATCHING BAND",
       line: `Campaign Match searches the ${bandForCount(profile.audienceSize)} follower band${
-        profile.platforms.length
-          ? ` on ${profile.platforms.join(" and ")}`
-          : ""
+        profile.platforms.length ? ` on ${platformList}` : ""
       }. Keep your audience size honest — the band is where your briefs compete.`,
     });
   }
