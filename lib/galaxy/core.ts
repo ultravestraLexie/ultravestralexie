@@ -99,6 +99,11 @@ export function daysAgo(s: string, now = new Date()): number {
   return -daysUntil(s, now);
 }
 
+/** Whole days from date key a to date key b (b − a). */
+export function daysBetween(a: string, b: string): number {
+  return Math.round((parseKey(b).getTime() - parseKey(a).getTime()) / DAY);
+}
+
 export function fmtDate(s: string | null | undefined): string {
   if (!s) return "Not recorded";
   return parseKey(s).toLocaleDateString("en-US", { month: "short", day: "numeric" });
@@ -459,6 +464,9 @@ export type GalaxyBrand = {
   checked: string | null;
   added: string;
   saved: boolean;
+  /** True only when at least one brand_evidence row is on file
+   *  for this brand (System #3 verified-identity rule). */
+  verified: boolean;
 };
 
 export function hashHue(s: string): number {
@@ -479,6 +487,107 @@ export function initials(name: string): string {
       .map((w) => w[0] || "")
       .join("") || "UV"
   ).toUpperCase();
+}
+
+/* ---------------- Verified Brand Opportunities (System #3) ----------------
+ * Every surface in this section stands on the creator's own rows
+ * or on research artifacts actually on file. The owner's hard
+ * line: no fake opportunities, no misleading earning promises. */
+
+/** Verified identity: a brand is verified only when at least one
+ *  brand_evidence row is on file for it — a real verification
+ *  artifact with a source URL. No evidence, no badge, no
+ *  exceptions. */
+export function brandIsVerified(evidenceCount: number): boolean {
+  return evidenceCount >= 1;
+}
+
+/** The niche predicate Today's matchesToPitch uses, extracted so
+ *  Brands' "For your niche" filter applies the identical rule:
+ *  with no niche set everything matches; otherwise the brand's
+ *  primary category or any of its categories must be the niche. */
+export function brandMatchesNiche(b: GalaxyBrand, niche: string): boolean {
+  return !niche || b.category === niche || b.categories.includes(niche);
+}
+
+/** Deals belonging to a brand: by brand id when a deal carries
+ *  one, else by exact brand name — the matching the codebase
+ *  already uses everywhere (creator_deals rows carry a brand
+ *  name; the id exists only on proposal-linked deals). */
+export function dealsForBrand(
+  deals: GalaxyDeal[],
+  brand: { id: string; name: string }
+): GalaxyDeal[] {
+  return deals.filter((d) =>
+    d.brandId ? d.brandId === brand.id : d.brandName === brand.name
+  );
+}
+
+/** The application state shown for a brand, from the creator's
+ *  own deal with it: the stage in plain words, with the pitch
+ *  date while a pitch is fresh. */
+export function applicationLabel(d: GalaxyDeal): string {
+  switch (d.stage) {
+    case "pitched":
+      return `Pitched ${fmtDate(d.pitchedOn)}`;
+    case "negotiating":
+      return "Negotiating";
+    case "contracted":
+      return "Contracted";
+    case "delivering":
+      return "Delivering";
+    case "invoiced":
+      return "Invoiced";
+    case "paid":
+      return "Paid ✓";
+    case "lost":
+      return "Closed";
+  }
+}
+
+/** The creator's current application to a brand: their most
+ *  recently active deal with it (full updated timestamp first,
+ *  then last-contact date, then pitch date). */
+export function currentApplication(deals: GalaxyDeal[]): GalaxyDeal | null {
+  if (deals.length === 0) return null;
+  const key = (d: GalaxyDeal) => d.updatedAt || d.lastContact || d.pitchedOn;
+  return deals.reduce((a, b) => (key(b) > key(a) ? b : a));
+}
+
+export type BrandPaymentHistory = {
+  totalPaidCents: number;
+  paidDeals: number;
+  /** Average days from invoice sent to payment received across
+   *  the paid deals that carry BOTH dates; null when no paid deal
+   *  carries both. A paid deal missing either date counts toward
+   *  the totals but never toward the average. */
+  avgDaysToPay: number | null;
+};
+
+/** Payment reputation from the creator's OWN paid deals only.
+ *  There is no cross-creator payment data on the platform and
+ *  none is invented here. Returns null when the creator has no
+ *  paid deal in the set — surfaces then show nothing. */
+export function brandPaymentHistory(
+  deals: GalaxyDeal[]
+): BrandPaymentHistory | null {
+  const paid = deals.filter((d) => d.stage === "paid");
+  if (paid.length === 0) return null;
+  let total = 0;
+  let days = 0;
+  let timed = 0;
+  for (const d of paid) {
+    total += dealPaidCents(d);
+    if (d.invoiceSentOn && d.paidOn) {
+      days += daysBetween(d.invoiceSentOn, d.paidOn);
+      timed += 1;
+    }
+  }
+  return {
+    totalPaidCents: total,
+    paidDeals: paid.length,
+    avgDaysToPay: timed > 0 ? Math.round(days / timed) : null,
+  };
 }
 
 /* ---------------- profile ---------------- */
@@ -556,7 +665,7 @@ export function matchesToPitch(input: InsightInput, limit = 3): GalaxyBrand[] {
         b.accepting &&
         !inPipe.has(b.id) &&
         !inPipeNames.has(b.name.toLowerCase()) &&
-        (!niche || b.category === niche || b.categories.includes(niche))
+        brandMatchesNiche(b, niche)
     )
     .sort(
       (a, b) =>

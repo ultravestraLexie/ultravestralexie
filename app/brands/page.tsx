@@ -9,7 +9,14 @@ export const dynamic = "force-dynamic";
  * uncapped / unknown commission labels, accepting status, save
  * and the pitch writer. NO opportunity scores in this view (the
  * prototype removes them). Directory reads are paginated through
- * fetchAllPages — the full ~2,300-brand set, never truncated. */
+ * fetchAllPages — the full ~2,300-brand set, never truncated.
+ *
+ * System #3 (Verified Brand Opportunities): the directory rows
+ * also carry the verified-identity flag (brand_evidence on file)
+ * from fetchDirectory, and the creator's own deals are passed
+ * down so each row can show its real application state and the
+ * payment history from the creator's own paid deals — nothing
+ * platform-wide is claimed, because no such data exists. */
 export default async function BrandsPage() {
   await requireSubscription("/brands");
   const supabase = await createClient();
@@ -24,16 +31,13 @@ export default async function BrandsPage() {
     fetchSavedBrandIds(supabase, user.id),
   ]);
   const brands = await fetchDirectory(supabase, savedIds);
-  const inPipeIds = deals.filter((d) => d.stage !== "lost").map((d) => d.brandId).filter(Boolean) as string[];
-  const inPipeNames = deals.filter((d) => d.stage !== "lost").map((d) => d.brandName);
   const paidCount = deals.filter((d) => d.stage === "paid").length;
 
   return (
     <BrandsClient
       brands={brands}
       profile={profile}
-      inPipeIds={inPipeIds}
-      inPipeNames={inPipeNames}
+      deals={deals}
       paidCount={paidCount}
     />
   );

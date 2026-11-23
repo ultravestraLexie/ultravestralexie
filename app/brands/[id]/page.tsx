@@ -2,6 +2,16 @@ import { requireSubscription } from "@/lib/gate";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import SaveBrandButton from "@/components/SaveBrandButton";
+import { fetchDeals } from "@/lib/galaxy/server";
+import {
+  applicationLabel,
+  brandIsVerified,
+  brandPaymentHistory,
+  currentApplication,
+  dealsForBrand,
+  fmtMoney,
+  stageOf,
+} from "@/lib/galaxy/core";
 import type {
   Brand,
   BrandContact,
@@ -128,6 +138,19 @@ export default async function BrandProfilePage({
   ]);
 
   const score = (scores?.[0] ?? null) as BrandScore | null;
+
+  /* System #3: verified identity = at least one brand_evidence
+   * row on file (the same rule as the directory badge), and the
+   * viewer's own history with this brand from their own deals —
+   * shown only when they actually have deals with it. */
+  const verified = brandIsVerified((evidence ?? []).length);
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  const myDeals = user ? await fetchDeals(supabase, user.id) : [];
+  const brandDeals = dealsForBrand(myDeals, { id: b.id, name: b.name });
+  const myApplication = currentApplication(brandDeals);
+  const myHistory = brandPaymentHistory(brandDeals);
   const categoryNames = (
     (catLinks ?? []) as unknown as { categories: { name: string } | null }[]
   )
@@ -139,6 +162,7 @@ export default async function BrandProfilePage({
       <header>
         <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
           <h1 style={{ margin: 0 }}>{b.name}</h1>
+          {verified && <span className="gx-verified-badge">✓ Verified</span>}
           {score && (
             <span
               style={{
@@ -174,6 +198,41 @@ export default async function BrandProfilePage({
           {b.country && <span>{b.country}</span>}
         </p>
       </header>
+
+      {brandDeals.length > 0 && (
+        <section>
+          <h2>Your history with {b.name}</h2>
+          <p style={{ color: "#b3a6e0", fontSize: 13 }}>
+            From your deals recorded on Ultra Vestra — your history only, not a
+            platform-wide rating.
+          </p>
+          {myApplication && (
+            <p>
+              Current application: <strong>{applicationLabel(myApplication)}</strong>
+            </p>
+          )}
+          {myHistory && (
+            <p>
+              Paid you <strong>{fmtMoney(myHistory.totalPaidCents)}</strong> across{" "}
+              {myHistory.paidDeals === 1 ? "1 paid deal" : `${myHistory.paidDeals} paid deals`}
+              {myHistory.avgDaysToPay != null
+                ? ` · ~${myHistory.avgDaysToPay} days to pay on average (invoice sent to payment received)`
+                : ""}
+              .
+            </p>
+          )}
+          <ul>
+            {brandDeals.map((d) => (
+              <li key={d.id}>
+                <strong>{stageOf(d.stage).label}</strong>
+                {d.amountCents != null ? ` — ${fmtMoney(d.amountCents)}` : ""}
+                {` · pitched ${fmtDate(d.pitchedOn)}`}
+                {d.paidOn ? ` · paid ${fmtDate(d.paidOn)}` : ""}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {score && (
         <section>

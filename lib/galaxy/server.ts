@@ -8,6 +8,7 @@
 import { createClient } from "@/lib/supabase/server";
 import { fetchAllPages } from "@/lib/fetch-all-pages";
 import {
+  brandIsVerified,
   capFromNotes,
   rowToDeal,
   rowToProtection,
@@ -190,7 +191,7 @@ export async function fetchDirectory(
   supabase: ServerClient,
   savedIds: Set<string>
 ): Promise<GalaxyBrand[]> {
-  const [{ data: brands }, { data: affiliates }, { data: opps }, { data: links }] =
+  const [{ data: brands }, { data: affiliates }, { data: opps }, { data: links }, { data: evidence }] =
     await Promise.all([
       fetchAllPages((from, to) =>
         supabase
@@ -221,6 +222,13 @@ export async function fetchDirectory(
           .select("brand_id, categories(name)")
           .order("brand_id", { ascending: true })
           .order("category_id", { ascending: true })
+          .range(from, to)
+      ),
+      fetchAllPages((from, to) =>
+        supabase
+          .from("brand_evidence")
+          .select("brand_id")
+          .order("id", { ascending: true })
           .range(from, to)
       ),
     ]);
@@ -258,6 +266,13 @@ export async function fetchDirectory(
     arr.push(l.categories.name);
     catsByBrand.set(l.brand_id, arr);
   }
+  /* Verified identity (System #3): a brand is verified only when
+   * at least one brand_evidence row is on file for it. Presence
+   * is counted here; the rule itself lives in core.brandIsVerified. */
+  const evidenceCount = new Map<string, number>();
+  for (const e of (evidence ?? []) as { brand_id: string }[]) {
+    evidenceCount.set(e.brand_id, (evidenceCount.get(e.brand_id) ?? 0) + 1);
+  }
 
   return ((brands ?? []) as { id: string; name: string; created_at: string }[]).map(
     (b) => {
@@ -275,6 +290,7 @@ export async function fetchDirectory(
         checked: aff?.checked ? String(aff.checked).slice(0, 10) : null,
         added: String(b.created_at).slice(0, 10),
         saved: savedIds.has(b.id),
+        verified: brandIsVerified(evidenceCount.get(b.id) ?? 0),
       } satisfies GalaxyBrand;
     }
   );

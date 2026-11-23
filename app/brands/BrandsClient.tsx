@@ -6,12 +6,19 @@ import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import {
   CAP_LABEL,
+  applicationLabel,
+  brandMatchesNiche,
+  brandPaymentHistory,
+  currentApplication,
   daysAgo,
+  dealsForBrand,
   fmtDate,
+  fmtMoney,
   hashHue,
   initials,
   plural,
   type GalaxyBrand,
+  type GalaxyDeal,
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
 import { PitchSheet } from "@/components/galaxy/PitchSheet";
@@ -24,14 +31,12 @@ import { Icon, I, toast } from "@/components/galaxy/ui";
 export default function BrandsClient({
   brands,
   profile,
-  inPipeIds,
-  inPipeNames,
+  deals,
   paidCount,
 }: {
   brands: GalaxyBrand[];
   profile: GalaxyProfile;
-  inPipeIds: string[];
-  inPipeNames: string[];
+  deals: GalaxyDeal[];
   paidCount: number;
 }) {
   const router = useRouter();
@@ -40,6 +45,8 @@ export default function BrandsClient({
   const [sort, setSort] = useState<"fit" | "new" | "rate">("fit");
   const [acceptingOnly, setAcceptingOnly] = useState(true);
   const [savedOnly, setSavedOnly] = useState(false);
+  const [myAppsOnly, setMyAppsOnly] = useState(false);
+  const [nicheOnly, setNicheOnly] = useState(false);
   const [cat, setCat] = useState("All");
   const [saved, setSaved] = useState<Set<string>>(
     () => new Set(brands.filter((b) => b.saved).map((b) => b.id))
@@ -54,9 +61,24 @@ export default function BrandsClient({
     () => [...new Set(brands.flatMap((b) => b.categories))].sort(),
     [brands]
   );
+  /* System #3: the creator's own deals per brand — application
+   * state and payment history are read from these rows only. */
+  const dealsByBrand = useMemo(() => {
+    const map = new Map<string, GalaxyDeal[]>();
+    for (const b of brands) {
+      const ds = dealsForBrand(deals, b);
+      if (ds.length > 0) map.set(b.id, ds);
+    }
+    return map;
+  }, [brands, deals]);
   const inPipe = useMemo(
-    () => new Set([...inPipeIds, ...brands.filter((b) => inPipeNames.includes(b.name)).map((b) => b.id)]),
-    [inPipeIds, inPipeNames, brands]
+    () =>
+      new Set(
+        [...dealsByBrand.entries()]
+          .filter(([, ds]) => ds.some((d) => d.stage !== "lost"))
+          .map(([id]) => id)
+      ),
+    [dealsByBrand]
   );
   const niche = profile.niche;
 
@@ -71,6 +93,8 @@ export default function BrandsClient({
         (program === "All" || b.program === program) &&
         (!acceptingOnly || b.accepting) &&
         (!savedOnly || saved.has(b.id)) &&
+        (!myAppsOnly || dealsByBrand.has(b.id)) &&
+        (!nicheOnly || brandMatchesNiche(b, niche)) &&
         (cat === "All" || b.categories.includes(cat))
     );
     const fit = (b: GalaxyBrand) =>
@@ -78,8 +102,15 @@ export default function BrandsClient({
     if (sort === "fit") out = [...out].sort((a, b) => fit(b) - fit(a) || (b.rate ?? 0) - (a.rate ?? 0));
     if (sort === "new") out = [...out].sort((a, b) => b.added.localeCompare(a.added));
     if (sort === "rate") out = [...out].sort((a, b) => (b.rate ?? 0) - (a.rate ?? 0));
+    if (myAppsOnly) {
+      const activity = (b: GalaxyBrand) => {
+        const app = currentApplication(dealsByBrand.get(b.id) ?? []);
+        return app ? app.updatedAt || app.lastContact || app.pitchedOn : "";
+      };
+      out = [...out].sort((a, b) => activity(b).localeCompare(activity(a)));
+    }
     return out;
-  }, [brands, q, program, acceptingOnly, savedOnly, cat, sort, saved, niche]);
+  }, [brands, q, program, acceptingOnly, savedOnly, myAppsOnly, nicheOnly, cat, sort, saved, niche, dealsByBrand]);
 
   async function toggleSave(b: GalaxyBrand) {
     const supabase = createClient();
@@ -125,7 +156,9 @@ export default function BrandsClient({
           <h1 className="gx-h1">Brands</h1>
           <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
             Programs you can apply to now. Every commission is labelled capped, uncapped or
-            unknown, so you know what you are signing up for.
+            unknown, so you know what you are signing up for. “Accepting” means a live
+            application route was found for the brand — these are application routes, not
+            campaigns posted by brands, and no earnings are promised.
           </p>
         </div>
       </header>
@@ -175,6 +208,14 @@ export default function BrandsClient({
             <button type="button" className="gx-chip" aria-pressed={savedOnly} onClick={() => setSavedOnly((v) => !v)}>
               Saved
             </button>
+            <button type="button" className="gx-chip" aria-pressed={myAppsOnly} onClick={() => setMyAppsOnly((v) => !v)}>
+              My applications
+            </button>
+            {niche ? (
+              <button type="button" className="gx-chip" aria-pressed={nicheOnly} onClick={() => setNicheOnly((v) => !v)}>
+                For your niche
+              </button>
+            ) : null}
             {["All", ...categories].map((c) => (
               <button
                 key={c}
@@ -205,6 +246,8 @@ export default function BrandsClient({
                 setCat("All");
                 setAcceptingOnly(false);
                 setSavedOnly(false);
+                setMyAppsOnly(false);
+                setNicheOnly(false);
               }}
             >
               Clear filters
@@ -216,6 +259,9 @@ export default function BrandsClient({
               const isNew = daysAgo(b.added) <= 14;
               const pitched = inPipe.has(b.id);
               const isSaved = saved.has(b.id);
+              const myDeals = dealsByBrand.get(b.id) ?? [];
+              const app = currentApplication(myDeals);
+              const history = brandPaymentHistory(myDeals);
               return (
                 <li key={b.id} className="gx-brand-row">
                   <span
@@ -242,6 +288,7 @@ export default function BrandsClient({
                     <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 6 }}>
                       {b.category ? <span className="gx-pill">{b.category}</span> : null}
                       {b.program ? <span className="gx-pill">{b.program}</span> : null}
+                      {b.verified ? <span className="gx-pill gx-pill-good">✓ Verified</span> : null}
                       {niche && b.categories.includes(niche) ? (
                         <span className="gx-pill gx-pill-fit">Matches your niche</span>
                       ) : null}
@@ -264,6 +311,20 @@ export default function BrandsClient({
                         </small>
                       ) : null}
                     </div>
+                    {app ? (
+                      <div className="gx-brand-meta">
+                        Your application: <strong>{applicationLabel(app)}</strong>
+                      </div>
+                    ) : null}
+                    {history ? (
+                      <div className="gx-brand-meta">
+                        Paid you <strong>{fmtMoney(history.totalPaidCents)}</strong>
+                        {history.avgDaysToPay != null
+                          ? ` · ~${history.avgDaysToPay} days to pay`
+                          : ""}{" "}
+                        · from your deals
+                      </div>
+                    ) : null}
                   </div>
                   <div className="gx-brand-rate">
                     <strong>{b.rate != null ? `${b.rate}%` : "—"}</strong>
