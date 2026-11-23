@@ -14,10 +14,11 @@ import { useEffect, useState } from "react";
 // - Deal figures come from the creator's own pipeline tracking
 //   and are labeled "tracked by you": a deal in stage "paid" is
 //   not a verified payment.
-// - Recorded revenue entries do not carry a platform today, so
-//   the platform block says exactly that instead of inventing a
-//   split. Brand concentration is real, because entries do carry
-//   a brand.
+// - Since Build 12, revenue entries can carry a platform: the
+//   platform block splits the entries that have one and says so
+//   plainly for the rest — never an invented split. The source
+//   block cuts the same rows by kind. Brand concentration is
+//   real, because entries do carry a brand.
 // - Empty data renders honest zeros and empty states — never a
 //   number the records do not support.
 
@@ -34,11 +35,19 @@ type Health = {
   outstandingCents: number;
   receivedCents: number;
   byPlatform: ShareTotal[];
+  bySource: ShareTotal[];
   byBrand: ShareTotal[];
   avgPerCampaignCents: number | null;
   monthlyTrend: MonthTotal[];
   topPlatformSharePct: number;
   topBrandSharePct: number;
+  receivables: {
+    contractedCents: number;
+    invoicedCents: number;
+    outstandingCents: number;
+    overdueCents: number;
+    collectedCents: number;
+  };
   pipeline: {
     openDeals: number;
     openValueCents: number;
@@ -54,6 +63,14 @@ const MONTH_NAMES = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",
 ];
+
+const PLATFORM_LABELS: Record<string, string> = {
+  tiktok: "TikTok",
+  instagram: "Instagram",
+  youtube: "YouTube",
+  amazon: "Amazon",
+  other: "Other",
+};
 
 function money(cents: number): string {
   return (cents / 100).toLocaleString("en-US", {
@@ -238,12 +255,16 @@ export default function BusinessHealthPage() {
                 {health.byPlatform.length === 0 ? (
                   <div className="rounded-2xl border border-white/10 bg-white/[.03] p-5">
                     <p className="text-gray-300">
-                      Platform is not recorded on revenue entries yet,
-                      so there is no honest platform split to show.
-                      When platform sync arrives — or entries start
-                      carrying a platform — this block fills in from
-                      the same records. Nothing is estimated in its
-                      place.
+                      No revenue recorded with a platform yet. When
+                      you record revenue in the{" "}
+                      <a href="/revenue" className="text-cyan-300 underline">
+                        Revenue Tracker
+                      </a>
+                      , choose the platform it came through — TikTok,
+                      Instagram, YouTube, Amazon — and this block shows
+                      exactly where your money comes from. Entries
+                      without a platform stay out of the split; nothing
+                      is estimated in their place.
                     </p>
                   </div>
                 ) : (
@@ -255,7 +276,9 @@ export default function BusinessHealthPage() {
                           className="rounded-2xl border border-white/10 bg-white/[.03] px-5 py-3"
                         >
                           <div className="flex items-baseline justify-between">
-                            <span className="font-semibold">{p.name}</span>
+                            <span className="font-semibold">
+                              {PLATFORM_LABELS[p.name] ?? p.name}
+                            </span>
                             <span className="text-gray-300">
                               {money(p.cents)} · {p.sharePct}%
                             </span>
@@ -278,6 +301,38 @@ export default function BusinessHealthPage() {
                       </p>
                     )}
                   </>
+                )}
+
+                <h3 className="text-lg font-bold mt-8 mb-3">By source</h3>
+                {health.bySource.length === 0 ? (
+                  <p className="text-gray-400">
+                    No recorded revenue yet. When you record earnings,
+                    this block separates affiliate commissions, brand
+                    sponsorships, platform payouts, and other income —
+                    so you can see which kind of money actually pays.
+                  </p>
+                ) : (
+                  <div className="flex flex-col gap-2">
+                    {health.bySource.map((s) => (
+                      <div
+                        key={s.name}
+                        className="rounded-2xl border border-white/10 bg-white/[.03] px-5 py-3"
+                      >
+                        <div className="flex items-baseline justify-between">
+                          <span className="font-semibold">{s.name}</span>
+                          <span className="text-gray-300">
+                            {money(s.cents)} · {s.sharePct}%
+                          </span>
+                        </div>
+                        <div className="h-2 rounded-full bg-white/10 mt-2 overflow-hidden">
+                          <div
+                            className="h-full bg-gradient-to-r from-fuchsia-400 to-violet-500"
+                            style={{ width: `${Math.min(100, s.sharePct)}%` }}
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 )}
               </section>
             )}
@@ -330,6 +385,51 @@ export default function BusinessHealthPage() {
                   />
                 </div>
               )}
+
+              {/* Receivables — Build 12: the five money states,
+                  kept distinct. Contracted is agreed work; invoiced
+                  is billed; outstanding is still owed; overdue is
+                  owed past its due date; collected is what you
+                  recorded as actually received on deals. Recorded
+                  revenue (the ledger above) stays the money proof. */}
+              <h3 className="text-lg font-bold mt-8 mb-3">
+                Receivables — who owes you
+              </h3>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <Stat
+                  label="Contracted revenue"
+                  value={money(health.receivables.contractedCents)}
+                  sub="Agreed deals: active through paid"
+                />
+                <Stat
+                  label="Invoiced revenue"
+                  value={money(health.receivables.invoicedCents)}
+                  sub="Deals you have sent an invoice for"
+                />
+                <Stat
+                  label="Outstanding receivables"
+                  value={money(health.receivables.outstandingCents)}
+                  sub="Invoiced, not yet fully received"
+                />
+                <Stat
+                  label="Overdue receivables"
+                  value={money(health.receivables.overdueCents)}
+                  sub="Outstanding past the payment due date"
+                />
+                <Stat
+                  label="Collected on deals"
+                  value={money(health.receivables.collectedCents)}
+                  sub="Amounts you recorded as received"
+                />
+              </div>
+              <p className="text-gray-500 text-sm mt-3">
+                From your deal records in{" "}
+                <a href="/growth-center/deals" className="text-cyan-300 underline">
+                  Brand Deals
+                </a>
+                . A deal counts as collected only from amounts you
+                recorded as received — never from a promise.
+              </p>
             </section>
           </div>
         ) : null}

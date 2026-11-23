@@ -68,11 +68,13 @@ export async function GET() {
     const [entriesRes, dealsRes] = await Promise.all([
       owner.supabase
         .from("revenue_entries")
-        .select("brand_name, amount_cents, status, earned_date, kind")
+        .select("brand_name, amount_cents, status, earned_date, kind, platform")
         .eq("user_id", owner.userId),
       owner.supabase
         .from("creator_deals")
-        .select("brand_name, platform, stage, compensation_cents, deadline")
+        .select(
+          "brand_name, platform, stage, compensation_cents, deadline, invoice_sent_date, payment_terms, payment_due_date, payment_received_date, amount_received_cents"
+        )
         .eq("user_id", owner.userId),
     ]);
     if (entriesRes.error) throw entriesRes.error;

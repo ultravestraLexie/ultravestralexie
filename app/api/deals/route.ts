@@ -3,8 +3,12 @@ import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
 import {
   DEAL_STAGES,
+  computeDealPayment,
+  daysBetweenDates,
+  summarizeBrandPayments,
   summarizePipeline,
   type DealLike,
+  type DealPayment,
   type DealStage,
 } from "@/lib/business/health";
 import { logCreatorEvent, logDealStageChange } from "@/lib/events";
@@ -39,15 +43,31 @@ export const runtime = "nodejs";
 const PLATFORMS = ["tiktok", "instagram", "facebook", "trybe", "other"] as const;
 const FINISHED_STAGES: DealStage[] = ["paid", "closed"];
 
+const DateOrNull = z
+  .string()
+  .regex(/^\d{4}-\d{2}-\d{2}$/)
+  .nullable();
+
 const CreateSchema = z.object({
   brandName: z.string().trim().min(1).max(200),
   platform: z.enum(PLATFORMS).nullable().default(null),
   stage: z.enum(DEAL_STAGES).default("lead"),
   compensationCents: z.number().int().min(0).max(1_000_000_000).nullable().default(null),
   deliverables: z.string().trim().max(2000).default(""),
-  deadline: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).nullable().default(null),
+  deadline: DateOrNull.default(null),
   proposalId: z.string().uuid().nullable().default(null),
   notes: z.string().trim().max(2000).default(""),
+  // Build 12 — deal payment intelligence (owner's full spec):
+  // invoice date, payment terms, due date, received date, and the
+  // amount actually received. Remaining balance is computed.
+  invoiceSentDate: DateOrNull.default(null),
+  paymentTerms: z
+    .enum(["due_on_receipt", "net_7", "net_14", "net_30", "net_45", "net_60", "other"])
+    .nullable()
+    .default(null),
+  paymentDueDate: DateOrNull.default(null),
+  paymentReceivedDate: DateOrNull.default(null),
+  amountReceivedCents: z.number().int().min(0).max(1_000_000_000).nullable().default(null),
 });
 
 const PatchSchema = z.object({
@@ -57,9 +77,17 @@ const PatchSchema = z.object({
   stage: z.enum(DEAL_STAGES).optional(),
   compensationCents: z.number().int().min(0).max(1_000_000_000).nullable().optional(),
   deliverables: z.string().trim().max(2000).optional(),
-  deadline: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).nullable().optional(),
+  deadline: DateOrNull.optional(),
   proposalId: z.string().uuid().nullable().optional(),
   notes: z.string().trim().max(2000).optional(),
+  invoiceSentDate: DateOrNull.optional(),
+  paymentTerms: z
+    .enum(["due_on_receipt", "net_7", "net_14", "net_30", "net_45", "net_60", "other"])
+    .nullable()
+    .optional(),
+  paymentDueDate: DateOrNull.optional(),
+  paymentReceivedDate: DateOrNull.optional(),
+  amountReceivedCents: z.number().int().min(0).max(1_000_000_000).nullable().optional(),
 });
 
 const IdSchema = z.object({
@@ -76,12 +104,17 @@ type DealRow = {
   deadline: string | null;
   proposal_id: string | null;
   notes: string;
+  invoice_sent_date: string | null;
+  payment_terms: string | null;
+  payment_due_date: string | null;
+  payment_received_date: string | null;
+  amount_received_cents: number | null;
   created_at: string;
   updated_at: string;
 };
 
 const DEAL_COLUMNS =
-  "id, brand_name, platform, stage, compensation_cents, deliverables, deadline, proposal_id, notes, created_at, updated_at";
+  "id, brand_name, platform, stage, compensation_cents, deliverables, deadline, proposal_id, notes, invoice_sent_date, payment_terms, payment_due_date, payment_received_date, amount_received_cents, created_at, updated_at";
 
 function todayUtc(): string {
   return new Date().toISOString().slice(0, 10);
@@ -93,6 +126,104 @@ function withOverdue(deal: DealRow) {
     deal.deadline < todayUtc() &&
     !FINISHED_STAGES.includes(deal.stage);
   return { ...deal, overdue };
+}
+
+/* Build 12 — payment intelligence comes from the shared pure
+ * computation in lib/business/health (computeDealPayment), so the
+ * Deals page, the follow-up queue, brand history, and Business
+ * Health can never disagree about who owes what. */
+function withPayment(deal: DealRow): DealRow & { payment: DealPayment } {
+  return { ...deal, payment: computeDealPayment(deal as DealLike) };
+}
+
+/* Build 12 — the follow-up queue, computed from the creator's own
+ * deals and proposals: payments to chase, proposals waiting on a
+ * brand, and deals gone quiet. Ages come from real timestamps; the
+ * 3-day threshold keeps fresh items out of the creator's face. */
+export type FollowUp = {
+  type: "payment" | "proposal" | "quiet";
+  brandName: string;
+  dealId: string | null;
+  proposalId: string | null;
+  cents: number | null;
+  days: number;
+  overdue: boolean;
+  stage: string | null;
+};
+
+function buildFollowUps(
+  deals: (DealRow & { payment: DealPayment })[],
+  proposals: {
+    id: string;
+    brand_name: string;
+    status: string;
+    created_at: string;
+    updated_at: string;
+  }[]
+): FollowUp[] {
+  const today = todayUtc();
+  const items: FollowUp[] = [];
+
+  for (const d of deals) {
+    if (d.payment.outstanding) {
+      items.push({
+        type: "payment",
+        brandName: d.brand_name,
+        dealId: d.id,
+        proposalId: null,
+        // The queue chases the REMAINING balance — a partial
+        // payment shrinks the chase, full payment removes it.
+        cents: d.payment.remainingCents ?? d.compensation_cents,
+        days: d.payment.daysOutstanding ?? 0,
+        overdue: d.payment.overdue,
+        stage: d.stage,
+      });
+    } else if (
+      (d.stage === "applied" || d.stage === "negotiating") &&
+      !FINISHED_STAGES.includes(d.stage)
+    ) {
+      const days = Math.max(0, daysBetweenDates(d.updated_at.slice(0, 10), today));
+      if (days >= 3) {
+        items.push({
+          type: "quiet",
+          brandName: d.brand_name,
+          dealId: d.id,
+          proposalId: null,
+          cents: d.compensation_cents,
+          days,
+          overdue: false,
+          stage: d.stage,
+        });
+      }
+    }
+  }
+
+  for (const p of proposals) {
+    if (p.status !== "sent") continue;
+    const stamp = (p.updated_at ?? p.created_at).slice(0, 10);
+    const days = Math.max(0, daysBetweenDates(stamp, today));
+    if (days >= 3) {
+      items.push({
+        type: "proposal",
+        brandName: p.brand_name,
+        dealId: null,
+        proposalId: p.id,
+        cents: null,
+        days,
+        overdue: false,
+        stage: null,
+      });
+    }
+  }
+
+  const rank = { payment: 0, proposal: 1, quiet: 2 } as const;
+  items.sort(
+    (a, b) =>
+      rank[a.type] - rank[b.type] ||
+      Number(b.overdue) - Number(a.overdue) ||
+      b.days - a.days
+  );
+  return items.slice(0, 12);
 }
 
 async function requireOwner() {
@@ -165,9 +296,30 @@ export async function GET() {
       .order("created_at", { ascending: true });
     if (error) throw error;
 
-    const deals = ((data ?? []) as DealRow[]).map(withOverdue);
+    const deals = ((data ?? []) as DealRow[]).map((d) =>
+      withPayment(withOverdue(d))
+    );
     const pipeline = summarizePipeline(deals as DealLike[]);
-    return Response.json({ success: true, deals, pipeline });
+
+    // Follow-up queue inputs: the creator's own sent proposals.
+    // A failure here degrades the queue, never the deals list.
+    const { data: proposalRows } = await owner.supabase
+      .from("proposals")
+      .select("id, brand_name, status, created_at, updated_at")
+      .eq("user_id", owner.userId)
+      .eq("status", "sent");
+    const followUps = buildFollowUps(
+      deals,
+      (proposalRows ?? []) as {
+        id: string;
+        brand_name: string;
+        status: string;
+        created_at: string;
+        updated_at: string;
+      }[]
+    );
+    const brandHistory = summarizeBrandPayments(deals as DealLike[]);
+    return Response.json({ success: true, deals, pipeline, followUps, brandHistory });
   } catch (e) {
     console.error("Deals load error:", e);
     return Response.json(
@@ -219,6 +371,11 @@ export async function POST(request: Request) {
         deadline: parsed.data.deadline,
         proposal_id: parsed.data.proposalId,
         notes: parsed.data.notes,
+        invoice_sent_date: parsed.data.invoiceSentDate,
+        payment_terms: parsed.data.paymentTerms,
+        payment_due_date: parsed.data.paymentDueDate,
+        payment_received_date: parsed.data.paymentReceivedDate,
+        amount_received_cents: parsed.data.amountReceivedCents,
       })
       .select(DEAL_COLUMNS)
       .single();
@@ -242,7 +399,7 @@ export async function POST(request: Request) {
     );
 
     return Response.json(
-      { success: true, deal: withOverdue(data as DealRow) },
+      { success: true, deal: withPayment(withOverdue(data as DealRow)) },
       { status: 201 }
     );
   } catch (e) {
@@ -290,6 +447,16 @@ export async function PATCH(request: Request) {
   if (parsed.data.proposalId !== undefined)
     update.proposal_id = parsed.data.proposalId;
   if (parsed.data.notes !== undefined) update.notes = parsed.data.notes;
+  if (parsed.data.invoiceSentDate !== undefined)
+    update.invoice_sent_date = parsed.data.invoiceSentDate;
+  if (parsed.data.paymentTerms !== undefined)
+    update.payment_terms = parsed.data.paymentTerms;
+  if (parsed.data.paymentDueDate !== undefined)
+    update.payment_due_date = parsed.data.paymentDueDate;
+  if (parsed.data.paymentReceivedDate !== undefined)
+    update.payment_received_date = parsed.data.paymentReceivedDate;
+  if (parsed.data.amountReceivedCents !== undefined)
+    update.amount_received_cents = parsed.data.amountReceivedCents;
 
   try {
     if (parsed.data.proposalId !== undefined) {
@@ -350,7 +517,7 @@ export async function PATCH(request: Request) {
 
     return Response.json({
       success: true,
-      deal: withOverdue(data[0] as DealRow),
+      deal: withPayment(withOverdue(data[0] as DealRow)),
     });
   } catch (e) {
     console.error("Deals update error:", e);

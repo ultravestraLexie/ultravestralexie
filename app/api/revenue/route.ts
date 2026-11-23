@@ -61,11 +61,17 @@ const DateString = z
     );
   });
 
+// Build 12 — revenue intelligence: every recorded earning can
+// carry the platform it came through, so Business Health can show
+// where the money actually comes from. NULL = not recorded.
+const PLATFORMS = ["tiktok", "instagram", "youtube", "amazon", "other"] as const;
+
 const CreateSchema = z.object({
   brandName: z.string().min(1).max(200),
   amountCents: z.number().int().min(1).max(MAX_AMOUNT_CENTS),
   status: z.enum(STATUSES).default("pending"),
   kind: z.enum(KINDS).default("other"),
+  platform: z.enum(PLATFORMS).nullable().default(null),
   earnedDate: DateString,
   // '' (or absent) means "no expected date" and stores NULL; a
   // non-empty value must itself be a real date — checked below,
@@ -94,6 +100,7 @@ type RevenueEntryRow = {
   amount_cents: number;
   status: RevenueStatus;
   kind: RevenueKind;
+  platform: string | null;
   earned_date: string;
   due_date: string | null;
   note: string;
@@ -102,7 +109,7 @@ type RevenueEntryRow = {
 };
 
 const ENTRY_COLUMNS =
-  "id, brand_name, amount_cents, status, kind, earned_date, due_date, note, deal_id, created_at, updated_at";
+  "id, brand_name, amount_cents, status, kind, platform, earned_date, due_date, note, deal_id, created_at, updated_at";
 
 /** A deal link is accepted only when the deal is one of the
  *  caller's own (mirrors validateProposalLink in app/api/deals).
@@ -244,6 +251,7 @@ export async function POST(request: Request) {
       amount_cents: parsed.data.amountCents,
       status: parsed.data.status,
       kind: parsed.data.kind,
+      platform: parsed.data.platform,
       earned_date: parsed.data.earnedDate,
       due_date: dueDate === "" ? null : dueDate,
       note: parsed.data.note,

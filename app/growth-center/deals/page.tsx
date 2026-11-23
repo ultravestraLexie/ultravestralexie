@@ -37,9 +37,60 @@ type Deal = {
   deadline: string | null;
   proposal_id: string | null;
   notes: string;
+  invoice_sent_date: string | null;
+  payment_terms: string | null;
+  payment_due_date: string | null;
+  payment_received_date: string | null;
+  amount_received_cents: number | null;
   created_at: string;
   updated_at: string;
   overdue: boolean;
+  payment: {
+    invoiced: boolean;
+    receivedCents: number;
+    remainingCents: number | null;
+    fullyPaid: boolean;
+    outstanding: boolean;
+    overdue: boolean;
+    dueDate: string | null;
+    dueDateCalculated: boolean;
+    daysOutstanding: number | null;
+  };
+};
+
+type BrandHistory = {
+  brandName: string;
+  totalDeals: number;
+  latePayments: number;
+  avgDelayDays: number | null;
+  outstandingCents: number;
+  reliabilityPct: number | null;
+  measurablePayments: number;
+};
+
+const TERMS_OPTIONS: { value: string; label: string }[] = [
+  { value: "due_on_receipt", label: "Due on receipt" },
+  { value: "net_7", label: "Net 7" },
+  { value: "net_14", label: "Net 14" },
+  { value: "net_30", label: "Net 30" },
+  { value: "net_45", label: "Net 45" },
+  { value: "net_60", label: "Net 60" },
+  { value: "other", label: "Other terms" },
+];
+
+const TERMS_LABEL = new Map(TERMS_OPTIONS.map((t) => [t.value, t.label]));
+
+/* Build 12 — one follow-up queue inside deal management: payments
+ * to chase, proposals waiting on a brand, deals gone quiet. */
+type FollowUp = {
+  type: "payment" | "proposal" | "quiet";
+  brandName: string;
+  dealId: string | null;
+  proposalId: string | null;
+  cents: number | null;
+  days: number;
+  overdue: boolean;
+  stage: string | null;
 };
 
 type StageTotal = { stage: DealStage; count: number; compensationCents: number };
@@ -92,6 +143,8 @@ function formatDate(iso: string): string {
 
 export default function BrandDealsPage() {
   const [deals, setDeals] = useState<Deal[]>([]);
+  const [followUps, setFollowUps] = useState<FollowUp[]>([]);
+  const [brandHistory, setBrandHistory] = useState<BrandHistory[]>([]);
   const [pipeline, setPipeline] = useState<Pipeline | null>(null);
   const [proposals, setProposals] = useState<ProposalOption[]>([]);
   const [loading, setLoading] = useState(true);
@@ -105,6 +158,11 @@ export default function BrandDealsPage() {
   const [compensation, setCompensation] = useState("");
   const [deliverables, setDeliverables] = useState("");
   const [deadline, setDeadline] = useState("");
+  const [invoiceSent, setInvoiceSent] = useState("");
+  const [paymentTerms, setPaymentTerms] = useState("");
+  const [paymentDue, setPaymentDue] = useState("");
+  const [paymentReceived, setPaymentReceived] = useState("");
+  const [amountReceived, setAmountReceived] = useState("");
   const [proposalId, setProposalId] = useState("");
   const [notes, setNotes] = useState("");
   const [saving, setSaving] = useState(false);
@@ -120,6 +178,8 @@ export default function BrandDealsPage() {
         throw new Error(dealsData.error || "Your deals could not be loaded.");
       }
       setDeals(dealsData.deals ?? []);
+      setFollowUps(dealsData.followUps ?? []);
+      setBrandHistory(dealsData.brandHistory ?? []);
       setPipeline(dealsData.pipeline ?? null);
       if (proposalsRes.ok) {
         const proposalsData = await proposalsRes.json();
@@ -154,6 +214,14 @@ export default function BrandDealsPage() {
       setError("Compensation must be zero or above.");
       return;
     }
+    const receivedCents =
+      amountReceived.trim() === ""
+        ? null
+        : Math.round(Number(amountReceived) * 100);
+    if (receivedCents !== null && (!Number.isFinite(receivedCents) || receivedCents < 0)) {
+      setError("Amount received must be zero or above.");
+      return;
+    }
     setSaving(true);
     setError("");
     try {
@@ -167,6 +235,11 @@ export default function BrandDealsPage() {
           compensationCents: cents,
           deliverables: deliverables.trim(),
           deadline: deadline === "" ? null : deadline,
+          invoiceSentDate: invoiceSent === "" ? null : invoiceSent,
+          paymentTerms: paymentTerms === "" ? null : paymentTerms,
+          paymentDueDate: paymentDue === "" ? null : paymentDue,
+          paymentReceivedDate: paymentReceived === "" ? null : paymentReceived,
+          amountReceivedCents: receivedCents,
           proposalId: proposalId === "" ? null : proposalId,
           notes: notes.trim(),
         }),
@@ -181,6 +254,11 @@ export default function BrandDealsPage() {
       setCompensation("");
       setDeliverables("");
       setDeadline("");
+      setInvoiceSent("");
+      setPaymentTerms("");
+      setPaymentDue("");
+      setPaymentReceived("");
+      setAmountReceived("");
       setProposalId("");
       setNotes("");
       await load();
@@ -278,6 +356,80 @@ export default function BrandDealsPage() {
           </div>
         )}
 
+        {/* Follow-up queue — Build 12: who needs you next, computed
+            from your own deals and proposals. Payments to chase
+            first, then proposals waiting, then deals gone quiet. */}
+        <h2 className="text-2xl font-bold mb-4">Follow-up queue</h2>
+        <div className="rounded-3xl border border-white/10 bg-white/[.03] p-6 mb-10">
+          {loading ? (
+            <p className="text-gray-400">Loading your queue…</p>
+          ) : followUps.length === 0 ? (
+            <p className="text-gray-300">
+              Nothing needs chasing right now. When a payment goes
+              outstanding, a proposal waits on a brand, or a deal goes
+              quiet, it lands here — you never have to keep it in your
+              head.
+            </p>
+          ) : (
+            <div className="flex flex-col gap-3">
+              {followUps.map((f, i) => (
+                <div
+                  key={`${f.type}-${f.dealId ?? f.proposalId ?? i}`}
+                  className="flex flex-wrap items-baseline gap-x-3 gap-y-1"
+                >
+                  <span aria-hidden="true">
+                    {f.type === "payment" ? "💰" : f.type === "proposal" ? "✉️" : "🤝"}
+                  </span>
+                  {f.type === "payment" && (
+                    <span className="text-gray-200">
+                      <strong>{f.brandName}</strong> —{" "}
+                      {f.cents !== null ? `${money(f.cents)} ` : ""}invoiced
+                      {f.days > 0 ? `, ${f.days} ${f.days === 1 ? "day" : "days"} outstanding` : ", not yet paid"}
+                      {f.overdue && (
+                        <span className="text-red-300 font-semibold">
+                          {" "}— OVERDUE past the due date
+                        </span>
+                      )}{" "}
+                      {f.dealId && (
+                        <a href={`#deal-${f.dealId}`} className="text-cyan-300 underline">
+                          Open the deal
+                        </a>
+                      )}
+                    </span>
+                  )}
+                  {f.type === "proposal" && (
+                    <span className="text-gray-200">
+                      <strong>{f.brandName}</strong> — proposal sent, waiting{" "}
+                      {f.days} {f.days === 1 ? "day" : "days"} for an answer.{" "}
+                      {f.proposalId && (
+                        <a
+                          href={`/proposals?focus=${f.proposalId}`}
+                          className="text-cyan-300 underline"
+                        >
+                          Open the proposal
+                        </a>
+                      )}
+                    </span>
+                  )}
+                  {f.type === "quiet" && (
+                    <span className="text-gray-200">
+                      <strong>{f.brandName}</strong> — no movement in {f.days}{" "}
+                      {f.days === 1 ? "day" : "days"}
+                      {f.stage ? ` (stage: ${STAGE_LABEL.get(f.stage as DealStage) ?? f.stage})` : ""}
+                      .{" "}
+                      {f.dealId && (
+                        <a href={`#deal-${f.dealId}`} className="text-cyan-300 underline">
+                          Open the deal
+                        </a>
+                      )}
+                    </span>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
         {/* Pipeline board */}
         <h2 className="text-2xl font-bold mb-4">Your pipeline</h2>
         {loading ? (
@@ -320,6 +472,7 @@ export default function BrandDealsPage() {
                       {stageDeals.map((deal) => (
                         <div
                           key={deal.id}
+                          id={`deal-${deal.id}`}
                           className="rounded-2xl border border-white/10 bg-white/[.03] p-5"
                         >
                           <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
@@ -347,6 +500,79 @@ export default function BrandDealsPage() {
                               </span>
                             )}
                           </div>
+                          {/* Payment intelligence — Build 12: who
+                              owes you, how much, since when, and
+                              whether it is late. Received money is
+                              only what you recorded as received. */}
+                          {(deal.invoice_sent_date ||
+                            deal.payment_terms ||
+                            deal.payment.dueDate ||
+                            deal.payment_received_date ||
+                            deal.amount_received_cents !== null ||
+                            deal.payment.outstanding) && (
+                            <div className="mt-3 rounded-xl border border-white/10 bg-white/[.02] px-4 py-3 text-sm">
+                              {deal.invoice_sent_date && (
+                                <p className="text-gray-300">
+                                  Invoice sent {formatDate(deal.invoice_sent_date)}
+                                  {deal.payment_terms
+                                    ? ` · Terms: ${TERMS_LABEL.get(deal.payment_terms) ?? deal.payment_terms}`
+                                    : ""}
+                                </p>
+                              )}
+                              {deal.payment.dueDate && !deal.payment.fullyPaid && (
+                                <p className="text-gray-300">
+                                  Payment due {formatDate(deal.payment.dueDate)}
+                                  {deal.payment.dueDateCalculated
+                                    ? " (calculated from the invoice date and terms)"
+                                    : ""}
+                                </p>
+                              )}
+                              {(deal.amount_received_cents !== null ||
+                                deal.payment.receivedCents > 0) && (
+                                <p className="text-gray-300">
+                                  Received {money(deal.payment.receivedCents)}
+                                  {deal.compensation_cents !== null
+                                    ? ` of ${money(deal.compensation_cents)}`
+                                    : ""}
+                                  {deal.payment_received_date
+                                    ? ` · ${formatDate(deal.payment_received_date)}`
+                                    : ""}
+                                </p>
+                              )}
+                              {deal.payment.fullyPaid ? (
+                                <p className="text-emerald-300 font-semibold">
+                                  Paid in full
+                                  {deal.payment_received_date
+                                    ? ` · ${formatDate(deal.payment_received_date)}`
+                                    : ""}
+                                </p>
+                              ) : deal.payment.outstanding ? (
+                                <p
+                                  className={
+                                    deal.payment.overdue
+                                      ? "text-red-300 font-semibold"
+                                      : "text-amber-200 font-semibold"
+                                  }
+                                >
+                                  Outstanding
+                                  {deal.payment.remainingCents !== null
+                                    ? ` ${money(deal.payment.remainingCents)}`
+                                    : deal.compensation_cents !== null
+                                      ? ` ${money(deal.compensation_cents)}`
+                                      : ""}
+                                  {deal.payment.daysOutstanding !== null &&
+                                  deal.payment.daysOutstanding > 0
+                                    ? ` — ${deal.payment.daysOutstanding} ${
+                                        deal.payment.daysOutstanding === 1 ? "day" : "days"
+                                      } since the invoice`
+                                    : ""}
+                                  {deal.payment.overdue
+                                    ? " — OVERDUE past the due date"
+                                    : ""}
+                                </p>
+                              ) : null}
+                            </div>
+                          )}
                           {deal.deliverables && (
                             <p className="text-gray-300 mt-2">{deal.deliverables}</p>
                           )}
@@ -446,6 +672,99 @@ export default function BrandDealsPage() {
                                 }}
                               />
                             </label>
+                            <label className="text-gray-400 text-sm">
+                              Invoice sent
+                              <input
+                                type="date"
+                                className="ml-2 bg-[#080b14] border border-white/10 rounded-lg px-3 py-2 text-white"
+                                defaultValue={deal.invoice_sent_date ?? ""}
+                                disabled={busyId === deal.id}
+                                onBlur={(e) => {
+                                  const v = e.target.value === "" ? null : e.target.value;
+                                  if (v !== deal.invoice_sent_date) {
+                                    patchDeal(deal.id, { invoiceSentDate: v });
+                                  }
+                                }}
+                              />
+                            </label>
+                            <label className="text-gray-400 text-sm">
+                              Terms
+                              <select
+                                className="ml-2 bg-[#080b14] border border-white/10 rounded-lg px-3 py-2 text-white"
+                                defaultValue={deal.payment_terms ?? ""}
+                                disabled={busyId === deal.id}
+                                onChange={(e) => {
+                                  const v = e.target.value === "" ? null : e.target.value;
+                                  if (v !== deal.payment_terms) {
+                                    patchDeal(deal.id, { paymentTerms: v });
+                                  }
+                                }}
+                              >
+                                <option value="">Not set</option>
+                                {TERMS_OPTIONS.map((t) => (
+                                  <option key={t.value} value={t.value}>
+                                    {t.label}
+                                  </option>
+                                ))}
+                              </select>
+                            </label>
+                            <label className="text-gray-400 text-sm">
+                              Payment due
+                              <input
+                                type="date"
+                                className="ml-2 bg-[#080b14] border border-white/10 rounded-lg px-3 py-2 text-white"
+                                defaultValue={deal.payment_due_date ?? ""}
+                                disabled={busyId === deal.id}
+                                onBlur={(e) => {
+                                  const v = e.target.value === "" ? null : e.target.value;
+                                  if (v !== deal.payment_due_date) {
+                                    patchDeal(deal.id, { paymentDueDate: v });
+                                  }
+                                }}
+                              />
+                            </label>
+                            <label className="text-gray-400 text-sm">
+                              Payment received
+                              <input
+                                type="date"
+                                className="ml-2 bg-[#080b14] border border-white/10 rounded-lg px-3 py-2 text-white"
+                                defaultValue={deal.payment_received_date ?? ""}
+                                disabled={busyId === deal.id}
+                                onBlur={(e) => {
+                                  const v = e.target.value === "" ? null : e.target.value;
+                                  if (v !== deal.payment_received_date) {
+                                    patchDeal(deal.id, { paymentReceivedDate: v });
+                                  }
+                                }}
+                              />
+                            </label>
+                            <label className="text-gray-400 text-sm">
+                              Amount received $
+                              <input
+                                type="number"
+                                min="0"
+                                step="0.01"
+                                className="ml-2 w-32 bg-[#080b14] border border-white/10 rounded-lg px-3 py-2 text-white"
+                                defaultValue={
+                                  deal.amount_received_cents === null
+                                    ? ""
+                                    : (deal.amount_received_cents / 100).toString()
+                                }
+                                disabled={busyId === deal.id}
+                                onBlur={(e) => {
+                                  const raw = e.target.value.trim();
+                                  const cents =
+                                    raw === "" ? null : Math.round(Number(raw) * 100);
+                                  if (cents !== deal.amount_received_cents) {
+                                    if (cents !== null && (!Number.isFinite(cents) || cents < 0)) {
+                                      setError("Amount received must be zero or above.");
+                                      return;
+                                    }
+                                    patchDeal(deal.id, { amountReceivedCents: cents });
+                                  }
+                                }}
+                              />
+                            </label>
                             <button
                               className="text-red-300 text-sm underline disabled:opacity-50"
                               disabled={busyId === deal.id}
@@ -463,6 +782,54 @@ export default function BrandDealsPage() {
             })}
           </div>
         )}
+
+        {/* Brand payment history — Build 12: which brands pay on
+            time and which pay late, from your own deal records. */}
+        <h2 className="text-2xl font-bold mb-4">Brand payment history</h2>
+        <div className="rounded-3xl border border-white/10 bg-white/[.03] p-6 mb-10">
+          {loading ? (
+            <p className="text-gray-400">Loading brand history…</p>
+          ) : brandHistory.length === 0 ? (
+            <p className="text-gray-300">
+              No brands yet. As you track deals, this shows each
+              brand's payment record — late payments, average delay,
+              and what they still owe you.
+            </p>
+          ) : (
+            <div className="flex flex-col gap-3">
+              {brandHistory.map((b) => (
+                <div
+                  key={b.brandName}
+                  className="rounded-2xl border border-white/10 bg-white/[.02] px-5 py-4"
+                >
+                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <span className="font-bold">{b.brandName}</span>
+                    <span className="text-gray-400 text-sm">
+                      {b.totalDeals} {b.totalDeals === 1 ? "deal" : "deals"}
+                    </span>
+                    {b.outstandingCents > 0 && (
+                      <span className="text-amber-200 font-semibold text-sm">
+                        Owes you {money(b.outstandingCents)}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-gray-400 text-sm mt-1">
+                    {b.latePayments === 0
+                      ? "No late payments on record."
+                      : `${b.latePayments} late ${b.latePayments === 1 ? "payment" : "payments"}${
+                          b.avgDelayDays !== null
+                            ? ` · average delay ${b.avgDelayDays} ${b.avgDelayDays === 1 ? "day" : "days"}`
+                            : ""
+                        }.`}
+                    {b.reliabilityPct !== null
+                      ? ` On-time reliability ${b.reliabilityPct}% across ${b.measurablePayments} measurable ${b.measurablePayments === 1 ? "payment" : "payments"}.`
+                      : " Reliability appears once a payment has a due date and an outcome."}
+                  </p>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
 
         {/* Add a deal */}
         <h2 className="text-2xl font-bold mb-4">Add a deal</h2>
@@ -525,6 +892,64 @@ export default function BrandDealsPage() {
                 className={inputClass}
                 value={deadline}
                 onChange={(e) => setDeadline(e.target.value)}
+              />
+            </label>
+            <label className="block">
+              <span className="text-gray-300 text-sm">Invoice sent date</span>
+              <input
+                type="date"
+                className={inputClass}
+                value={invoiceSent}
+                onChange={(e) => setInvoiceSent(e.target.value)}
+              />
+            </label>
+            <label className="block">
+              <span className="text-gray-300 text-sm">Payment terms</span>
+              <select
+                className={inputClass}
+                value={paymentTerms}
+                onChange={(e) => setPaymentTerms(e.target.value)}
+              >
+                <option value="">Not set</option>
+                {TERMS_OPTIONS.map((t) => (
+                  <option key={t.value} value={t.value}>
+                    {t.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="block">
+              <span className="text-gray-300 text-sm">
+                Payment due date (blank = calculated from terms)
+              </span>
+              <input
+                type="date"
+                className={inputClass}
+                value={paymentDue}
+                onChange={(e) => setPaymentDue(e.target.value)}
+              />
+            </label>
+            <label className="block">
+              <span className="text-gray-300 text-sm">Payment received date</span>
+              <input
+                type="date"
+                className={inputClass}
+                value={paymentReceived}
+                onChange={(e) => setPaymentReceived(e.target.value)}
+              />
+            </label>
+            <label className="block">
+              <span className="text-gray-300 text-sm">
+                Amount received ($) — only what actually arrived
+              </span>
+              <input
+                type="number"
+                min="0"
+                step="0.01"
+                className={inputClass}
+                value={amountReceived}
+                onChange={(e) => setAmountReceived(e.target.value)}
+                placeholder="0.00"
               />
             </label>
             <label className="block">

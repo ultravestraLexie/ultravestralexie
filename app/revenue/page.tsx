@@ -28,12 +28,15 @@ type RevenueKind =
   | "platform_payout"
   | "other";
 
+type RevenuePlatform = "tiktok" | "instagram" | "youtube" | "amazon" | "other";
+
 type RevenueEntry = {
   id: string;
   brand_name: string;
   amount_cents: number;
   status: "pending" | "paid";
   kind: RevenueKind;
+  platform: RevenuePlatform | null;
   earned_date: string;
   due_date: string | null;
   note: string;
@@ -41,6 +44,19 @@ type RevenueEntry = {
   created_at: string;
   updated_at: string;
 };
+
+const PLATFORM_LABELS: Record<RevenuePlatform, string> = {
+  tiktok: "TikTok",
+  instagram: "Instagram",
+  youtube: "YouTube",
+  amazon: "Amazon",
+  other: "Other",
+};
+
+const PLATFORM_OPTIONS = Object.entries(PLATFORM_LABELS) as [
+  RevenuePlatform,
+  string,
+][];
 
 const KIND_LABELS: Record<RevenueKind, string> = {
   campaign_fee: "Campaign fee",
@@ -230,6 +246,7 @@ export default function RevenuePage() {
   const [amount, setAmount] = useState("");
   const [status, setStatus] = useState<"pending" | "paid">("pending");
   const [kind, setKind] = useState<RevenueKind>("other");
+  const [platform, setPlatform] = useState<RevenuePlatform | "">("");
   const [earnedDate, setEarnedDate] = useState(() =>
     new Date().toISOString().slice(0, 10)
   );
@@ -334,6 +351,7 @@ export default function RevenuePage() {
           amountCents,
           status,
           kind,
+          platform: platform === "" ? null : platform,
           earnedDate,
           dueDate,
           note: note.trim(),
@@ -348,6 +366,7 @@ export default function RevenuePage() {
       setAmount("");
       setStatus("pending");
       setKind("other");
+      setPlatform("");
       setDueDate("");
       setNote("");
       setDealId(null);
@@ -732,6 +751,23 @@ export default function RevenuePage() {
                   </select>
                 </label>
                 <label className="text-sm text-gray-300">
+                  Platform it came through
+                  <select
+                    value={platform}
+                    onChange={(e) =>
+                      setPlatform(e.target.value as RevenuePlatform | "")
+                    }
+                    className={inputClass}
+                  >
+                    <option value="">Not set</option>
+                    {PLATFORM_OPTIONS.map(([value, label]) => (
+                      <option key={value} value={value}>
+                        {label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="text-sm text-gray-300">
                   Date earned
                   <input
                     type="date"
@@ -796,6 +832,9 @@ export default function RevenuePage() {
                         <div>
                           <div className="font-bold">{entry.brand_name}</div>
                           <div className="text-gray-400 text-sm mt-1">
+                            {entry.platform
+                              ? `${PLATFORM_LABELS[entry.platform] ?? entry.platform} · `
+                              : ""}
                             {KIND_LABELS[entry.kind] ?? "Other"} · Earned{" "}
                             {formatDate(entry.earned_date)}
                             {entry.status === "pending" && entry.due_date
