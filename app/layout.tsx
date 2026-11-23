@@ -125,6 +125,9 @@ export default async function RootLayout({
         >
           UltraVestra — Less time searching. More time creating. Smarter brand
           partnerships.
+          <br />© 2026 UltraVestra. All rights reserved. The brand directory,
+          research and platform content may not be copied, scraped or
+          redistributed.
         </footer>
       </body>
     </html>

@@ -25,8 +25,8 @@ export default async function PricingPage() {
     <div>
       <h1 style={{ textAlign: "center" }}>Plans for every stage of your creator business</h1>
       <p style={{ textAlign: "center", color: "#ddd0ff" }}>
-        Recurring subscription. Cancel anytime. Paid features unlock only
-        after Stripe confirms payment server-side.
+        Recurring subscription. Cancel anytime. Your plan activates as
+        soon as your payment is confirmed.
       </p>
       {plans.length === 0 ? (
         <p style={{ textAlign: "center", color: "#b3a6e0" }}>
@@ -49,12 +49,12 @@ export default async function PricingPage() {
             >
               <h2 style={{ marginTop: 0 }}>{plan.name}</h2>
               <p style={{ fontSize: 30, margin: "8px 0" }}>
-                ${Number(plan.price_monthly)}
+                ${Number(plan.price_monthly).toFixed(2)}
                 <span style={{ fontSize: 15, color: "#b3a6e0" }}> / month</span>
               </p>
               {plan.price_yearly != null && (
                 <p style={{ color: "#b3a6e0", fontSize: 14 }}>
-                  or ${Number(plan.price_yearly)} / year
+                  or ${Number(plan.price_yearly).toFixed(2)} / year
                 </p>
               )}
               <ul>

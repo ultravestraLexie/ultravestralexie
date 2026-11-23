@@ -437,6 +437,17 @@ export default function BuyerBrainPage() {
             Discover what attracts, convinces and makes
             potential customers hesitate.
           </p>
+
+          <div className="mt-6 max-w-xl rounded-xl border border-amber-400/40 bg-amber-400/10 px-4 py-3">
+            <p className="text-amber-300 text-xs font-bold tracking-widest">
+              SIMULATED BUYERS — NOT REAL CUSTOMER RESEARCH
+            </p>
+            <p className="text-gray-300 text-sm mt-1">
+              The five buyers are AI-generated perspectives built to
+              pressure-test your message. Use their reactions as informed
+              opinion to test against — never as market evidence.
+            </p>
+          </div>
         </div>
 
         <div className="grid sm:grid-cols-3 gap-3 mb-10">
@@ -579,6 +590,12 @@ export default function BuyerBrainPage() {
 
         {report && (
           <section className="mt-12 space-y-8">
+
+            <div className="rounded-xl border border-amber-400/40 bg-amber-400/10 px-4 py-3">
+              <p className="text-amber-300 text-xs font-bold tracking-widest">
+                SIMULATED RESULTS — FIVE AI BUYER PERSPECTIVES, NOT REAL CUSTOMER RESEARCH
+              </p>
+            </div>
 
             <div>
               <div className="text-cyan-400 text-xs tracking-widest">

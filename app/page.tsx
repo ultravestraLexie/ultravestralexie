@@ -367,7 +367,7 @@ export default async function LandingPage() {
               lineHeight: 1.55,
             }}
           >
-            Our standard: {PAGE_STANDARD_LINE}
+            Our standard:{" "}{PAGE_STANDARD_LINE}
           </p>
         </div>
 
@@ -628,7 +628,7 @@ export default async function LandingPage() {
       <section>
         <h2 style={sectionTitle}>WE DON&rsquo;T MEASURE ARTICLES. WE MEASURE CREATOR PROGRESS.</h2>
         <p style={{ ...sectionSub, maxWidth: 760 }}>
-          Our promise: {PROMISE} So success here is not how much gets published —
+          Our promise:{" "}{PROMISE} So success here is not how much gets published —
           it is whether creators actually get better.
         </p>
         <div

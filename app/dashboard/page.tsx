@@ -58,6 +58,68 @@ export default async function DashboardPage() {
     };
   }
 
+  /* YOUR NEXT ACTIONS — computed from the creator's OWN records
+   * (RLS-scoped session client): overdue deals, proposals waiting
+   * on a brand, and the two weekly/monthly basics. Deterministic,
+   * no invented data: an action appears only when its records say
+   * so, and the panel says "caught up" only when none do. */
+  type NextAction = { title: string; why: string; href: string; cta: string };
+  const nextActions: NextAction[] = [];
+  if (user) {
+    const nowD = new Date();
+    const todayKey = nowD.toISOString().slice(0, 10);
+    const mondayOffset = (nowD.getUTCDay() + 6) % 7;
+    const mondayKey = new Date(
+      Date.UTC(nowD.getUTCFullYear(), nowD.getUTCMonth(), nowD.getUTCDate() - mondayOffset)
+    ).toISOString().slice(0, 10);
+    const monthKey = `${todayKey.slice(0, 8)}01`;
+    const [dealsRes, sentRes, postsRes, revenueRes] = await Promise.all([
+      supabase.from("creator_deals").select("stage, deadline").eq("user_id", user.id),
+      supabase.from("proposals").select("id").eq("user_id", user.id).eq("status", "sent"),
+      supabase.from("creator_posts").select("id").eq("user_id", user.id).gte("posted_date", mondayKey),
+      supabase.from("revenue_entries").select("id").eq("user_id", user.id).gte("earned_date", monthKey),
+    ]);
+    const overdueDeals = (
+      (dealsRes.data ?? []) as { stage: string; deadline: string | null }[]
+    ).filter(
+      (d) => d.deadline !== null && d.deadline < todayKey && d.stage !== "paid" && d.stage !== "closed"
+    ).length;
+    if (overdueDeals > 0) {
+      nextActions.push({
+        title: `${overdueDeals} deal${overdueDeals === 1 ? "" : "s"} past deadline`,
+        why: "The deadline passed and the deal has not reached Paid. Follow up — money waits on an answer.",
+        href: "/growth-center/deals",
+        cta: "Open Brand Deal Manager →",
+      });
+    }
+    const waitingProposals = (sentRes.data ?? []).length;
+    if (waitingProposals > 0) {
+      nextActions.push({
+        title: `${waitingProposals} proposal${waitingProposals === 1 ? "" : "s"} waiting on a brand`,
+        why: "Sent and not yet answered. A short follow-up keeps you top of mind.",
+        href: "/proposals",
+        cta: "Open Proposals →",
+      });
+    }
+    if ((postsRes.data ?? []).length === 0) {
+      nextActions.push({
+        title: "No posts logged this week",
+        why: "Consistency is the growth engine. Log or plan your next post.",
+        href: "/growth-center/posting",
+        cta: "Open Posting Tracker →",
+      });
+    }
+    if ((revenueRes.data ?? []).length === 0) {
+      nextActions.push({
+        title: "No revenue recorded this month",
+        why: "Log what you have earned so your business numbers stay true.",
+        href: "/revenue",
+        cta: "Open Revenue Tracker →",
+      });
+    }
+  }
+  const shownActions = nextActions.slice(0, 3);
+
   const sections: { href: string; emoji: string; title: string; line: string; live?: string }[] = [
     { href: "/opportunities", emoji: "🎯", title: "Opportunity Finder", line: "Brands accepting applications, and high-score brands worth pitching.", live: list.length ? `${stats.accepting} accepting now` : undefined },
     { href: "/discover", emoji: "🔎", title: "Product Research", line: "Search brands and products by niche, platform and commission model.", live: list.length ? `${stats.total} brands searchable` : undefined },
@@ -67,6 +129,7 @@ export default async function DashboardPage() {
     { href: "/brands", emoji: "🧠", title: "Brand Intelligence", line: "Full profiles: scores with reasons, contacts, compensation, sourced evidence.", live: list.length ? `${stats.total} profiles` : undefined },
     { href: "/coach", emoji: "🔬", title: "Video Intelligence Lab", line: "Hooks, scripts, video lessons and sales techniques — plus the diagnostic that shows why a video performs." },
     { href: "/growth-center", emoji: "🌱", title: "Creator Growth Center", line: "Your creator operating system — recorded earnings, posting consistency, platform connections, and every growth tool in one hub." },
+    { href: "/growth-center/profile", emoji: "🪪", title: "Creator Business Profile", line: "Your platforms, audience and goals in one profile — the tools read it, so matches and advice fit your business." },
     { href: "/pillars", emoji: "🏛️", title: "The Nine Pillars", line: "The map of the whole platform — every capability, organized by the job it does for your creator business." },
     { href: "/studio", emoji: "🎬", title: "Video Strategy & Script Studio", line: "Build a complete selling script from your own product facts, beat by beat." },
     { href: "/ask", emoji: "✨", title: "Ask UltraVestra AI", line: "One question in — a sourced research report with brands, contacts and a pitch out." },
@@ -84,6 +147,27 @@ export default async function DashboardPage() {
         </p>
         {user && <p style={{ color: "#f0abfc", fontWeight: 700, marginTop: 10 }}>Signed in as {user.email}</p>}
       </section>
+
+      {user && (
+        <section style={panel}>
+          <h2 style={{ fontSize: 23, margin: "0 0 6px" }}>⚡ Your next actions</h2>
+          {shownActions.length === 0 ? (
+            <p style={{ color: "#ddd0ff", margin: 0, fontSize: 15 }}>
+              You&rsquo;re caught up — nothing in your business needs your attention right now.
+            </p>
+          ) : (
+            <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+              {shownActions.map((a) => (
+                <div key={a.title}>
+                  <p style={{ margin: 0, fontSize: 16 }}><strong>{a.title}</strong></p>
+                  <p style={{ margin: "2px 0 4px", color: "#ddd0ff", fontSize: 14.5 }}>{a.why}</p>
+                  <Link href={a.href} style={{ color: "#67e8f9", fontWeight: 700, fontSize: 14.5 }}>{a.cta}</Link>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+      )}
 
       {!list.length && (
         <section style={panel}>

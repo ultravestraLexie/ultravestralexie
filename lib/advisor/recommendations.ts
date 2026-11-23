@@ -71,6 +71,11 @@ export type AdvisorEntryLike = RevenueEntryLike & {
 };
 
 export type AdvisorInput = {
+  /** Creator Business Profile completeness, when the route could
+   *  read it. Optional so older callers and fixtures keep working;
+   *  null/absent means "not read" and the profile rule stays silent
+   *  rather than guessing. */
+  profile?: { filled: number; total: number } | null;
   posting: PostingSummary;
   /** 'YYYY-MM-DD' of the most recent PUBLISHED post, or null. */
   lastPostDate: string | null;
@@ -151,6 +156,24 @@ export function buildRecommendations(
         href: "/growth-center/posting",
       },
     ];
+  }
+
+  // (h) BUSINESS PROFILE — the profile Campaign Match and this
+  // Advisor read so advice fits the creator's own audience and
+  // goals. Fires only when the route actually read the profile
+  // (input.profile present) and fields are still empty.
+  if (input.profile && input.profile.filled < input.profile.total) {
+    recs.push({
+      id: "business_profile",
+      severity: "watch",
+      title: "Complete your Creator Business Profile",
+      message: `Your business profile has ${input.profile.filled} of ${input.profile.total} fields filled. Campaign Match prefills from it and this Advisor reads it — the more complete it is, the better your matches and recommendations fit your audience, your categories and your goals.`,
+      evidence: {
+        fieldsCompleted: input.profile.filled,
+        fieldsTotal: input.profile.total,
+      },
+      href: "/growth-center/profile",
+    });
   }
 
   // (a) POSTING PACE — this week vs the creator's weekly goal.

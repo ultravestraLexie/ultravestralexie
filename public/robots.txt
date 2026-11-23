@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /growth-center/
+Disallow: /command-center
+Disallow: /creator-lab
+Disallow: /buyer-brain
+Disallow: /proposals
+Disallow: /revenue
+Disallow: /welcome

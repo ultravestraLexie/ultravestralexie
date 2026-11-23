@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Brief } from "@/lib/campaign-match/engine";
 
 // Campaign Match Engine — Brand Brain Phase 2 (spec "phase2-v1").
@@ -18,6 +18,17 @@ import type { Brief } from "@/lib/campaign-match/engine";
 // category type-ahead reuses the existing gated /api/suggest route.
 
 const BANDS = ["<1k", "1-10k", "10-50k", "50-250k", "250k-1M", ">1M"];
+
+/** Map a follower/view count from the creator's business profile
+ *  onto the band this form uses. */
+function bandFor(count: number): string {
+  if (count < 1000) return "<1k";
+  if (count < 10000) return "1-10k";
+  if (count < 50000) return "10-50k";
+  if (count < 250000) return "50-250k";
+  if (count < 1000000) return "250k-1M";
+  return ">1M";
+}
 
 type SuggestionBrand = { id: string; name: string };
 type SuggestionCategory = { slug: string; name: string };
@@ -337,6 +348,42 @@ export default function CampaignMatchPage() {
   const [error, setError] = useState("");
   const suggestTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // BUSINESS PROFILE PREFILL — the creator entered these facts once
+  // on their Creator Business Profile; this form starts from them
+  // instead of asking again. Prefill only: every field stays
+  // editable, and a creator with no profile sees the plain form.
+  const [profileNote, setProfileNote] = useState(false);
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch("/api/business-profile");
+        if (!res.ok) return;
+        const data = await res.json();
+        const p = data?.profile;
+        if (!p || cancelled) return;
+        if (Array.isArray(p.contentCategories) && p.contentCategories.length > 0) {
+          setNiches(p.contentCategories.slice(0, 5));
+        }
+        if (Array.isArray(p.platforms) && p.platforms.length > 0) {
+          setPlatform(p.platforms[0]);
+        }
+        if (typeof p.audienceSize === "number") {
+          setAudienceBand(bandFor(p.audienceSize));
+        }
+        if (typeof p.averageViews === "number") {
+          setViewsBand(bandFor(p.averageViews));
+        }
+        setProfileNote(true);
+      } catch {
+        // Prefill is a convenience — the form works without it.
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   function fetchSuggestions(
     q: string,
     apply: (b: SuggestionBrand[], c: SuggestionCategory[]) => void
@@ -450,6 +497,15 @@ export default function CampaignMatchPage() {
             before committing? Pick up to five brands and get a brief for
             each, scored from the stored evidence.
           </p>
+          {profileNote && (
+            <p className="text-cyan-300 text-sm mt-4">
+              Prefilled from your{" "}
+              <a href="/growth-center/profile" className="underline font-semibold">
+                Creator Business Profile
+              </a>{" "}
+              — edit anything before you run the match.
+            </p>
+          )}
         </div>
 
         <div className="rounded-3xl border border-white/10 bg-white/[.03] p-6 mb-10">

@@ -18,6 +18,11 @@ import {
   type AdvisorEntryLike,
   type AdvisorGoalInput,
 } from "@/lib/advisor/recommendations";
+import {
+  profileCompleteness,
+  rowToProfile,
+  type BusinessProfileRow,
+} from "@/lib/business-profile";
 
 export const runtime = "nodejs";
 
@@ -88,7 +93,7 @@ export async function GET() {
   if (!owner.ok) return owner.response;
 
   try {
-    const [postsRes, prefsRes, goalsRes, entriesRes, dealsRes] =
+    const [postsRes, prefsRes, goalsRes, entriesRes, dealsRes, profileRes] =
       await Promise.all([
         owner.supabase
           .from("creator_posts")
@@ -112,6 +117,16 @@ export async function GET() {
           .from("creator_deals")
           .select("brand_name, platform, stage, compensation_cents, deadline")
           .eq("user_id", owner.userId),
+        // Business Profile — read tolerantly: a failed read means
+        // "not read" (the profile rule stays silent), never a
+        // failed Advisor.
+        owner.supabase
+          .from("creator_business_profiles")
+          .select(
+            "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives"
+          )
+          .eq("user_id", owner.userId)
+          .maybeSingle(),
       ]);
 
     const failed = [postsRes, goalsRes, entriesRes, dealsRes].find(
@@ -152,8 +167,16 @@ export async function GET() {
         ? published.map((p) => p.posted_date).sort().at(-1) ?? null
         : null;
 
+    const profile = profileRes.error
+      ? null
+      : profileCompleteness(
+          profileRes.data
+            ? rowToProfile(profileRes.data as BusinessProfileRow)
+            : null
+        );
+
     const recommendations = buildRecommendations(
-      { posting, lastPostDate, goals, health, revenue, entries, deals },
+      { profile, posting, lastPostDate, goals, health, revenue, entries, deals },
       now
     );
 

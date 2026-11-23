@@ -58,6 +58,7 @@ export const GATED_PREFIXES = [
   "/api/goals",
   "/api/deals",
   "/api/business",
+  "/api/business-profile",
   "/api/advisor",
 ] as const;
 
