@@ -37,6 +37,7 @@ type RevenueEntry = {
   status: "pending" | "paid";
   kind: RevenueKind;
   platform: RevenuePlatform | null;
+  post_id: string | null;
   earned_date: string;
   due_date: string | null;
   note: string;
@@ -260,6 +261,33 @@ export default function RevenuePage() {
   const [dealId, setDealId] = useState<string | null>(null);
   const [prefillNote, setPrefillNote] = useState("");
 
+  // Build 13 — attribution: the creator's own posts, for the
+  // "which post earned this?" picker. The link is reported by the
+  // creator; it is never presented as a verified conversion.
+  type PostOption = {
+    id: string;
+    title: string | null;
+    platform: string;
+    posted_date: string;
+  };
+  const [postOptions, setPostOptions] = useState<PostOption[]>([]);
+  const [postId, setPostId] = useState<string>("");
+
+  async function loadPosts() {
+    try {
+      const response = await fetch("/api/posts");
+      if (!response.ok) return;
+      const data = await response.json();
+      setPostOptions(
+        ((data.posts ?? []) as PostOption[]).filter(
+          (p) => p && typeof p.id === "string"
+        )
+      );
+    } catch {
+      // The picker is optional — its absence never blocks revenue.
+    }
+  }
+
   const [estimates, setEstimates] = useState<RevenueEstimate[]>([]);
   const [estimateSummary, setEstimateSummary] =
     useState<EstimateSummary>(EMPTY_ESTIMATE_SUMMARY);
@@ -311,6 +339,7 @@ export default function RevenuePage() {
   useEffect(() => {
     load();
     loadEstimates();
+    loadPosts();
   }, []);
 
   // Deal → Revenue prefill (Build 3): read the handoff params once
@@ -356,6 +385,7 @@ export default function RevenuePage() {
           dueDate,
           note: note.trim(),
           dealId,
+          postId: postId === "" ? null : postId,
         }),
       });
       const data = await response.json();
@@ -369,6 +399,7 @@ export default function RevenuePage() {
       setPlatform("");
       setDueDate("");
       setNote("");
+      setPostId("");
       setDealId(null);
       setPrefillNote("");
       // Reload so the totals shown are the server's fresh summary.
@@ -768,6 +799,24 @@ export default function RevenuePage() {
                   </select>
                 </label>
                 <label className="text-sm text-gray-300">
+                  Which post earned this? (optional)
+                  <select
+                    value={postId}
+                    onChange={(e) => setPostId(e.target.value)}
+                    className={inputClass}
+                  >
+                    <option value="">Not linked to a post</option>
+                    {postOptions.map((p) => (
+                      <option key={p.id} value={p.id}>
+                        {p.title && p.title.trim() !== ""
+                          ? p.title
+                          : "Untitled post"}{" "}
+                        ({p.platform} · {p.posted_date})
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="text-sm text-gray-300">
                   Date earned
                   <input
                     type="date"
@@ -841,6 +890,22 @@ export default function RevenuePage() {
                               ? ` · expected ${formatDate(entry.due_date)}`
                               : ""}
                           </div>
+                          {entry.post_id && (
+                            <div className="text-gray-500 text-sm mt-1">
+                              Linked post:{" "}
+                              {(() => {
+                                const p = postOptions.find(
+                                  (x) => x.id === entry.post_id
+                                );
+                                return p
+                                  ? p.title && p.title.trim() !== ""
+                                    ? p.title
+                                    : "Untitled post"
+                                  : "one of your posts";
+                              })()}{" "}
+                              — linked by you
+                            </div>
+                          )}
                           {entry.note && (
                             <div className="text-gray-500 text-sm mt-1">
                               {entry.note}

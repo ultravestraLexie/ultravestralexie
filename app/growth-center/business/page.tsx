@@ -48,6 +48,17 @@ type Health = {
     overdueCents: number;
     collectedCents: number;
   };
+  contentAttribution: {
+    linkedCents: number;
+    linkedPct: number;
+    topPosts: {
+      postId: string;
+      title: string | null;
+      platform: string | null;
+      postedDate: string | null;
+      cents: number;
+    }[];
+  };
   pipeline: {
     openDeals: number;
     openValueCents: number;
@@ -300,6 +311,58 @@ export default function BusinessHealthPage() {
                         clearly.
                       </p>
                     )}
+                  </>
+                )}
+
+                <h3 className="text-lg font-bold mt-8 mb-3">Content that earns</h3>
+                {health.contentAttribution.linkedCents === 0 ? (
+                  <div className="rounded-2xl border border-white/10 bg-white/[.03] p-5">
+                    <p className="text-gray-300">
+                      No recorded revenue is linked to a post yet.
+                      When you record revenue in the{" "}
+                      <a href="/revenue" className="text-cyan-300 underline">
+                        Revenue Tracker
+                      </a>
+                      , choose the post that earned it — this block
+                      then shows which content actually produces
+                      money, and what share of your revenue is
+                      linked. Links are reported by you; UltraVestra
+                      does not verify conversions.
+                    </p>
+                  </div>
+                ) : (
+                  <>
+                    <p className="text-gray-300 mb-3">
+                      {money(health.contentAttribution.linkedCents)} of your{" "}
+                      {money(health.totalRecordedCents)} recorded revenue —{" "}
+                      {health.contentAttribution.linkedPct}% — is linked to a
+                      post. The rest is not linked to any post, and it is
+                      never spread across posts by assumption. Links are
+                      reported by you.
+                    </p>
+                    <div className="flex flex-col gap-2">
+                      {health.contentAttribution.topPosts.map((p) => (
+                        <div
+                          key={p.postId}
+                          className="rounded-2xl border border-white/10 bg-white/[.03] px-5 py-3"
+                        >
+                          <div className="flex items-baseline justify-between gap-3">
+                            <span className="font-semibold">
+                              {p.title && p.title.trim() !== ""
+                                ? p.title
+                                : "Untitled post"}
+                              {p.platform ? (
+                                <span className="text-gray-400 font-normal text-sm">
+                                  {" "}· {PLATFORM_LABELS[p.platform] ?? p.platform}
+                                  {p.postedDate ? ` · ${p.postedDate}` : ""}
+                                </span>
+                              ) : null}
+                            </span>
+                            <span className="text-gray-300">{money(p.cents)}</span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </>
                 )}
 

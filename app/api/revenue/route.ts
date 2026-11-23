@@ -83,6 +83,8 @@ const CreateSchema = z.object({
   // their own paid deals; validated against the caller's own deals
   // below, exactly like the deals route validates proposal_id.
   dealId: z.string().uuid().nullable().default(null),
+  // Build 13: the attribution link — which post earned this.
+  postId: z.string().uuid().nullable().default(null),
 });
 
 const PatchSchema = z.object({
@@ -109,7 +111,37 @@ type RevenueEntryRow = {
 };
 
 const ENTRY_COLUMNS =
-  "id, brand_name, amount_cents, status, kind, platform, earned_date, due_date, note, deal_id, created_at, updated_at";
+  "id, brand_name, amount_cents, status, kind, platform, earned_date, due_date, note, deal_id, post_id, created_at, updated_at";
+
+/** Build 13 — a post link is accepted only when the post is one
+ *  of the caller's own (same pattern as the deal link). The link
+ *  is the creator's own attribution claim: reported, not verified. */
+async function validatePostLink(
+  supabase: Awaited<ReturnType<typeof createClient>>,
+  userId: string,
+  postId: string | null
+): Promise<Response | null> {
+  if (postId === null) return null;
+  const { data, error } = await supabase
+    .from("creator_posts")
+    .select("id")
+    .eq("id", postId)
+    .eq("user_id", userId);
+  if (error) {
+    console.error("Revenue post-link check error:", error);
+    return Response.json(
+      { error: "Your entry could not be saved. Please try again." },
+      { status: 500 }
+    );
+  }
+  if (!data || data.length === 0) {
+    return Response.json(
+      { error: "That post could not be found among your posts." },
+      { status: 400 }
+    );
+  }
+  return null;
+}
 
 /** A deal link is accepted only when the deal is one of the
  *  caller's own (mirrors validateProposalLink in app/api/deals).
@@ -243,6 +275,13 @@ export async function POST(request: Request) {
   );
   if (linkError) return linkError;
 
+  const postLinkError = await validatePostLink(
+    owner.supabase,
+    owner.userId,
+    parsed.data.postId
+  );
+  if (postLinkError) return postLinkError;
+
   const { data, error } = await owner.supabase
     .from("revenue_entries")
     .insert({
@@ -256,6 +295,7 @@ export async function POST(request: Request) {
       due_date: dueDate === "" ? null : dueDate,
       note: parsed.data.note,
       deal_id: parsed.data.dealId,
+      post_id: parsed.data.postId,
     })
     .select(ENTRY_COLUMNS)
     .single();
@@ -279,6 +319,7 @@ export async function POST(request: Request) {
       kind: parsed.data.kind,
       status: parsed.data.status,
       deal_id: parsed.data.dealId,
+      post_id: parsed.data.postId,
     }
   );
 

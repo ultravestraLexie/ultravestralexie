@@ -65,10 +65,10 @@ export async function GET() {
   if (!owner.ok) return owner.response;
 
   try {
-    const [entriesRes, dealsRes] = await Promise.all([
+    const [entriesRes, dealsRes, postsRes] = await Promise.all([
       owner.supabase
         .from("revenue_entries")
-        .select("brand_name, amount_cents, status, earned_date, kind, platform")
+        .select("brand_name, amount_cents, status, earned_date, kind, platform, post_id")
         .eq("user_id", owner.userId),
       owner.supabase
         .from("creator_deals")
@@ -76,13 +76,35 @@ export async function GET() {
           "brand_name, platform, stage, compensation_cents, deadline, invoice_sent_date, payment_terms, payment_due_date, payment_received_date, amount_received_cents"
         )
         .eq("user_id", owner.userId),
+      owner.supabase
+        .from("creator_posts")
+        .select("id, title, platform, posted_date")
+        .eq("user_id", owner.userId),
     ]);
     if (entriesRes.error) throw entriesRes.error;
     if (dealsRes.error) throw dealsRes.error;
 
     const entries = (entriesRes.data ?? []) as HealthEntryLike[];
     const deals = (dealsRes.data ?? []) as DealLike[];
-    const health = computeHealth(entries, deals, new Date());
+    // Build 13: post identities for attribution display. A posts
+    // read failure degrades titles, never the money figures.
+    const postsById: Record<
+      string,
+      { title: string | null; platform: string; postedDate: string }
+    > = {};
+    for (const p of (postsRes.data ?? []) as {
+      id: string;
+      title: string | null;
+      platform: string;
+      posted_date: string;
+    }[]) {
+      postsById[p.id] = {
+        title: p.title,
+        platform: p.platform,
+        postedDate: p.posted_date,
+      };
+    }
+    const health = computeHealth(entries, deals, new Date(), postsById);
     return Response.json({ success: true, health });
   } catch (e) {
     console.error("Business health load error:", e);

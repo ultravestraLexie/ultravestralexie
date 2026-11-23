@@ -61,11 +61,19 @@ const CreateSchema = z.object({
   caption: z.string().max(2000).default(""),
   externalUrl: z.string().max(1000).default(""),
   note: z.string().max(500).default(""),
+  // Build 13: optional manual view count — typed in by the
+  // creator, labeled "reported by you" wherever it renders.
+  viewsCount: z.number().int().min(0).max(2_000_000_000).nullable().default(null),
 });
 
 const PostStateSchema = z.object({
   id: z.string().uuid(),
   state: z.enum(STATES),
+});
+
+const PostViewsSchema = z.object({
+  id: z.string().uuid(),
+  viewsCount: z.number().int().min(0).max(2_000_000_000).nullable(),
 });
 
 const GoalSchema = z.object({
@@ -86,11 +94,12 @@ type PostRow = {
   title: string | null;
   caption: string | null;
   note: string | null;
+  views_count: number | null;
   created_at: string;
 };
 
 const POST_COLUMNS =
-  "id, platform, posted_date, source, state, external_url, title, caption, note, created_at";
+  "id, platform, posted_date, source, state, external_url, title, caption, note, views_count, created_at";
 
 const DEFAULT_WEEKLY_GOAL = 5;
 
@@ -153,17 +162,41 @@ export async function GET() {
     );
   }
 
-  const posts = (postsRes.data ?? []) as PostRow[];
+  const rawPosts = (postsRes.data ?? []) as PostRow[];
   const weeklyGoal =
     (prefsRes.data as { weekly_post_goal: number } | null)?.weekly_post_goal ??
     DEFAULT_WEEKLY_GOAL;
+
+  // Build 13 — attribution: recorded revenue the creator linked
+  // to each post (revenue_entries.post_id). Reported by the
+  // creator, never verified by us; a failure here degrades the
+  // figures to zero rather than failing the tracker.
+  const linkedByPost = new Map<string, number>();
+  const { data: linkedRows } = await owner.supabase
+    .from("revenue_entries")
+    .select("post_id, amount_cents")
+    .eq("user_id", owner.userId)
+    .not("post_id", "is", null);
+  for (const row of (linkedRows ?? []) as {
+    post_id: string;
+    amount_cents: number;
+  }[]) {
+    linkedByPost.set(
+      row.post_id,
+      (linkedByPost.get(row.post_id) ?? 0) + row.amount_cents
+    );
+  }
+  const posts = rawPosts.map((p) => ({
+    ...p,
+    linked_revenue_cents: linkedByPost.get(p.id) ?? 0,
+  }));
 
   return Response.json({
     success: true,
     posts,
     weeklyGoal,
-    summary: computePostingSummary(posts, weeklyGoal),
-    plan: planSummary(posts),
+    summary: computePostingSummary(rawPosts, weeklyGoal),
+    plan: planSummary(rawPosts),
   });
 }
 
@@ -217,6 +250,7 @@ export async function POST(request: Request) {
       caption:
         parsed.data.caption.trim() === "" ? null : parsed.data.caption.trim(),
       note: parsed.data.note.trim() === "" ? null : parsed.data.note.trim(),
+      views_count: parsed.data.viewsCount,
     })
     .select(POST_COLUMNS)
     .single();
@@ -285,6 +319,40 @@ export async function PATCH(request: Request) {
 
     if (error) {
       console.error("Posting Tracker state update error:", error);
+      return Response.json(
+        { error: "Your post could not be updated. Please try again." },
+        { status: 500 }
+      );
+    }
+    if (!data || data.length === 0) {
+      return Response.json({ error: "Post not found." }, { status: 404 });
+    }
+    return Response.json({ success: true, post: data[0] as PostRow });
+  }
+
+  // Build 13: a PATCH carrying an id + viewsCount updates ONLY the
+  // manual view count on the caller's own post.
+  if (
+    typeof body === "object" &&
+    body !== null &&
+    "id" in body &&
+    "viewsCount" in body
+  ) {
+    const viewsParsed = PostViewsSchema.safeParse(body);
+    if (!viewsParsed.success) {
+      return Response.json(
+        { error: "Please check your post details." },
+        { status: 400 }
+      );
+    }
+    const { data, error } = await owner.supabase
+      .from("creator_posts")
+      .update({ views_count: viewsParsed.data.viewsCount })
+      .eq("id", viewsParsed.data.id)
+      .eq("user_id", owner.userId)
+      .select(POST_COLUMNS);
+    if (error) {
+      console.error("Posting Tracker views update error:", error);
       return Response.json(
         { error: "Your post could not be updated. Please try again." },
         { status: 500 }

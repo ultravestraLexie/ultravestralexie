@@ -316,10 +316,36 @@ export function summarizeBrandPayments(
 }
 
 /** A recorded entry as Business Health sees it: the Revenue
- *  Tracker's shape, plus an optional platform that real rows do
- *  not carry yet (see header). */
+ *  Tracker's shape, plus the Build 12 platform and the Build 13
+ *  attribution link (both optional so older callers compile). */
 export type HealthEntryLike = RevenueEntryLike & {
   platform?: string | null;
+  post_id?: string | null;
+};
+
+/** Post identity for attribution display, supplied by the caller
+ *  (the business route) from the creator's own posts. */
+export type PostMeta = {
+  title: string | null;
+  platform: string;
+  postedDate: string;
+};
+
+/** Content-to-Revenue Attribution (Build 13): recorded revenue
+ *  the creator LINKED to a post, over all recorded revenue. The
+ *  link is the creator's own claim — reported, never verified —
+ *  and unlinked revenue is never allocated by assumption. */
+export type ContentAttribution = {
+  linkedCents: number;
+  /** Share of total recorded revenue that is linked, 0–100. */
+  linkedPct: number;
+  topPosts: {
+    postId: string;
+    title: string | null;
+    platform: string | null;
+    postedDate: string | null;
+    cents: number;
+  }[];
 };
 
 export type ShareTotal = {
@@ -381,6 +407,9 @@ export type BusinessHealth = {
    *  outstanding, overdue, collected — from the deal pipeline,
    *  tracked by the creator, kept separate from recorded revenue. */
   receivables: Receivables;
+  /** Build 13: recorded revenue linked to posts (creator-reported
+   *  attribution) + the honest coverage share. */
+  contentAttribution: ContentAttribution;
 };
 
 function sharePct(part: number, total: number): number {
@@ -432,10 +461,48 @@ export function summarizePipeline(deals: DealLike[]): DealPipeline {
   };
 }
 
+/** Build 13 — attribution math: group linked recorded revenue by
+ *  post. Only rows carrying a post_id count as linked; the
+ *  coverage share is linked / total recorded, stated plainly so
+ *  the unlinked remainder is visible, never hidden. */
+export function computeAttribution(
+  entries: HealthEntryLike[],
+  totalCents: number,
+  postsById: Record<string, PostMeta> = {}
+): ContentAttribution {
+  const byPost = new Map<string, number>();
+  let linked = 0;
+  for (const entry of entries) {
+    if (entry.post_id) {
+      byPost.set(
+        entry.post_id,
+        (byPost.get(entry.post_id) ?? 0) + entry.amount_cents
+      );
+      linked += entry.amount_cents;
+    }
+  }
+  const topPosts = [...byPost.entries()]
+    .map(([postId, cents]) => ({
+      postId,
+      title: postsById[postId]?.title ?? null,
+      platform: postsById[postId]?.platform ?? null,
+      postedDate: postsById[postId]?.postedDate ?? null,
+      cents,
+    }))
+    .sort((a, b) => b.cents - a.cents)
+    .slice(0, 5);
+  return {
+    linkedCents: linked,
+    linkedPct: sharePct(linked, totalCents),
+    topPosts,
+  };
+}
+
 export function computeHealth(
   entries: HealthEntryLike[],
   deals: DealLike[],
-  today: Date = new Date()
+  today: Date = new Date(),
+  postsById: Record<string, PostMeta> = {}
 ): BusinessHealth {
   // Recorded-money figures come from the Revenue Tracker's own
   // summary — the same rows, the same loop, the same numbers.
@@ -510,5 +577,6 @@ export function computeHealth(
     topBrandSharePct: byBrand.length ? byBrand[0].sharePct : 0,
     pipeline: summarizePipeline(deals),
     receivables: computeReceivables(deals, today),
+    contentAttribution: computeAttribution(entries, total, postsById),
   };
 }

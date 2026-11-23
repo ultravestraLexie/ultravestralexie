@@ -24,8 +24,17 @@ type Post = {
   title: string | null;
   caption: string | null;
   note: string | null;
+  views_count: number | null;
+  linked_revenue_cents: number;
   created_at: string;
 };
+
+function moneyShort(cents: number): string {
+  return (cents / 100).toLocaleString("en-US", {
+    style: "currency",
+    currency: "USD",
+  });
+}
 
 type PostingSummary = {
   postsThisMonth: number;
@@ -84,6 +93,7 @@ export default function PostingTrackerPage() {
   const [formPlatform, setFormPlatform] = useState("tiktok");
   const [formTitle, setFormTitle] = useState("");
   const [formUrl, setFormUrl] = useState("");
+  const [formViews, setFormViews] = useState("");
   const [saving, setSaving] = useState(false);
   const [busyId, setBusyId] = useState<string | null>(null);
 
@@ -152,6 +162,13 @@ export default function PostingTrackerPage() {
   const selectedPosts = postsByDate.get(selectedDate) ?? [];
 
   async function addPost() {
+    if (
+      formViews.trim() !== "" &&
+      (!Number.isFinite(Number(formViews)) || Number(formViews) < 0)
+    ) {
+      setError("Views must be zero or above.");
+      return;
+    }
     setSaving(true);
     setError("");
     try {
@@ -163,6 +180,8 @@ export default function PostingTrackerPage() {
           postedDate: formDate,
           title: formTitle.trim(),
           externalUrl: formUrl.trim(),
+          viewsCount:
+            formViews.trim() === "" ? null : Math.round(Number(formViews)),
         }),
       });
       const data = await response.json();
@@ -171,6 +190,7 @@ export default function PostingTrackerPage() {
       }
       setFormTitle("");
       setFormUrl("");
+      setFormViews("");
       setSelectedDate(formDate);
       setViewMonth(formDate.slice(0, 7));
       await load();
@@ -427,6 +447,73 @@ export default function PostingTrackerPage() {
                               </>
                             ) : null}
                           </div>
+                          {(post.views_count !== null ||
+                            post.linked_revenue_cents > 0) && (
+                            <div className="text-gray-400 text-xs mt-1">
+                              {post.views_count !== null
+                                ? `${post.views_count.toLocaleString("en-US")} views — reported by you`
+                                : ""}
+                              {post.views_count !== null &&
+                              post.linked_revenue_cents > 0
+                                ? " · "
+                                : ""}
+                              {post.linked_revenue_cents > 0
+                                ? `${moneyShort(post.linked_revenue_cents)} recorded revenue linked to this post — linked by you`
+                                : ""}
+                            </div>
+                          )}
+                          <label className="text-gray-500 text-xs mt-2 block">
+                            Views
+                            <input
+                              type="number"
+                              min={0}
+                              className="ml-2 w-28 rounded-lg border border-white/10 bg-[#080b14] px-2 py-1 text-white"
+                              defaultValue={post.views_count ?? ""}
+                              disabled={busyId === post.id}
+                              onBlur={async (e) => {
+                                const raw = e.target.value.trim();
+                                const v =
+                                  raw === "" ? null : Math.round(Number(raw));
+                                if (v !== post.views_count) {
+                                  if (
+                                    v !== null &&
+                                    (!Number.isFinite(v) || v < 0)
+                                  ) {
+                                    setError("Views must be zero or above.");
+                                    return;
+                                  }
+                                  setBusyId(post.id);
+                                  try {
+                                    const response = await fetch("/api/posts", {
+                                      method: "PATCH",
+                                      headers: {
+                                        "Content-Type": "application/json",
+                                      },
+                                      body: JSON.stringify({
+                                        id: post.id,
+                                        viewsCount: v,
+                                      }),
+                                    });
+                                    if (!response.ok) {
+                                      const d = await response.json();
+                                      throw new Error(
+                                        d.error || "Your post could not be updated."
+                                      );
+                                    }
+                                    await load();
+                                  } catch (err) {
+                                    setError(
+                                      err instanceof Error
+                                        ? err.message
+                                        : "Your post could not be updated."
+                                    );
+                                  } finally {
+                                    setBusyId(null);
+                                  }
+                                }
+                              }}
+                            />
+                          </label>
                         </div>
                         <button
                           onClick={() => deletePost(post.id)}
@@ -488,6 +575,17 @@ export default function PostingTrackerPage() {
                     onChange={(e) => setFormUrl(e.target.value)}
                     maxLength={1000}
                     placeholder="https://…"
+                    className={inputClass}
+                  />
+                </label>
+                <label className="text-sm text-gray-300 block mt-4">
+                  Views so far (optional — typed in by you)
+                  <input
+                    type="number"
+                    min={0}
+                    value={formViews}
+                    onChange={(e) => setFormViews(e.target.value)}
+                    placeholder="Example: 12500"
                     className={inputClass}
                   />
                 </label>
