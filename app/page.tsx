@@ -97,19 +97,30 @@ export default async function LandingPage() {
           >
             UltraVestra
           </h1>
-          <p style={{ fontSize: 31, margin: "0 auto", maxWidth: 720, fontWeight: 800, lineHeight: 1.25 }}>
-            The Intelligence Behind Your Creator Business.
+          <p style={{ fontSize: 34, margin: "0 auto", maxWidth: 720, fontWeight: 800, lineHeight: 1.22 }}>
+            YOUR CREATOR BUSINESS.
+            <span
+              style={{
+                display: "block",
+                background: "linear-gradient(92deg, #f0abfc, #a855f7 55%, #22d3ee)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                color: "transparent",
+              }}
+            >
+              UNDER CONTROL.
+            </span>
           </p>
           <p
             style={{
-              fontSize: 16.5,
+              fontSize: 17,
               color: "#ddd0ff",
               maxWidth: 640,
               margin: "12px auto 0",
+              fontWeight: 600,
             }}
           >
-            Discover where to grow, what to promote, how to earn, and how to create
-            content that converts — across the platforms you already use.
+            Know what you earned. Know what&apos;s owed. Know what works.
           </p>
           <p style={{ fontSize: 15, color: "#f0abfc", fontWeight: 700, margin: "10px auto 0", letterSpacing: 0.4 }}>
             Search smarter. Find better brands. Create content that sells.
