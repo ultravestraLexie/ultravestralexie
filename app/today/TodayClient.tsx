@@ -263,7 +263,7 @@ export default function TodayClient(p: Props) {
         aria-valuenow={stepsDone}
         style={{ height: 6, borderRadius: 99, background: "rgba(255,255,255,.07)", overflow: "hidden", marginTop: 12 }}
       >
-        <i style={{ display: "block", height: "100%", width: `${(stepsDone / steps.length) * 100}%`, borderRadius: 99, background: "linear-gradient(90deg, var(--blue), var(--violet))" }} />
+        <i style={{ display: "block", height: "100%", width: `${(stepsDone / steps.length) * 100}%`, borderRadius: 99, background: "linear-gradient(90deg, var(--gx-accent), var(--gx-accent-2))" }} />
       </div>
       <ol style={{ listStyle: "none", margin: "12px 0 0", padding: 0 }}>
         {steps.map((s, i) => (

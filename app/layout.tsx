@@ -6,6 +6,7 @@ import { SUBSCRIBED_STATUSES } from "@/lib/gate-paths";
 import SignOutButton from "@/components/SignOutButton";
 import { SideNav, BottomTabs, VMark } from "@/components/AppNav";
 import GalaxyBackdrop from "@/components/galaxy/GalaxyBackdrop";
+import SectionSync from "@/components/galaxy/SectionSync";
 import { ProfileButton } from "@/components/galaxy/ProfileSheet";
 import { initials } from "@/lib/galaxy/core";
 
@@ -89,6 +90,7 @@ export default async function RootLayout({
       <html lang="en">
         <body>
           <GalaxyBackdrop />
+          <SectionSync />
           <header
             style={{
               display: "flex",
@@ -179,7 +181,8 @@ export default async function RootLayout({
       <body>
         <style>{SHELL_CSS}</style>
         <GalaxyBackdrop />
-        <div className="uv-shell">
+        <SectionSync />
+        <div className="uv-shell" data-section="today">
           <aside className="uv-side">
             <Link href="/today" style={{ textDecoration: "none", padding: "0 8px 26px" }}>
               <BrandLockup />
@@ -189,13 +192,13 @@ export default async function RootLayout({
               <div
                 style={{
                   border: "1px solid var(--line)",
-                  background: "linear-gradient(160deg, rgba(76,116,255,.16), rgba(10,15,48,.5))",
+                  background: "linear-gradient(160deg, var(--gx-accent-soft), rgba(10,15,48,.5))",
                   borderRadius: 16,
                   padding: "13px 14px",
                   boxShadow: "inset 0 1px 0 rgba(190,205,255,.12)",
                 }}
               >
-                <p style={{ margin: 0, fontSize: 12, letterSpacing: 1.6, color: "var(--ink-3)", fontWeight: 700 }}>
+                <p style={{ margin: 0, fontSize: 12, letterSpacing: 1.6, color: "var(--gx-accent)", fontWeight: 700 }}>
                   ULTRA VESTRA
                 </p>
                 <p style={{ margin: "3px 0 10px", fontSize: 13.5, color: "var(--ink)", fontWeight: 600 }}>
@@ -206,14 +209,14 @@ export default async function RootLayout({
                   style={{
                     display: "block",
                     textAlign: "center",
-                    background: "linear-gradient(92deg, var(--blue), var(--violet))",
+                    background: "linear-gradient(92deg, var(--gx-accent), var(--gx-accent-2))",
                     color: "#fff",
                     fontWeight: 700,
                     fontSize: 13.5,
                     borderRadius: 999,
                     padding: "8px 0",
                     textDecoration: "none",
-                    boxShadow: "0 8px 22px -8px rgba(76,116,255,.9)",
+                    boxShadow: "0 8px 22px -8px var(--gx-glow)",
                   }}
                 >
                   View Plans

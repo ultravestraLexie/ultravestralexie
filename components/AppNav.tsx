@@ -102,16 +102,24 @@ export function SideNav() {
               padding: "10px 12px",
               borderRadius: 12,
               fontSize: 15,
-              fontWeight: 500,
+              fontWeight: isActive ? 600 : 500,
               textDecoration: "none",
-              color: isActive ? "var(--ink)" : "var(--ink-2)",
+              color: isActive ? "var(--gx-accent)" : "var(--ink-2)",
               background: isActive
-                ? "linear-gradient(90deg, rgba(76,116,255,.22), rgba(155,92,255,.08))"
+                ? "linear-gradient(90deg, var(--gx-accent-soft), color-mix(in srgb, var(--gx-accent) 7%, transparent))"
                 : "transparent",
-              boxShadow: isActive ? "inset 0 0 0 1px rgba(143,166,255,.22)" : "none",
+              boxShadow: isActive
+                ? "inset 0 0 0 1px color-mix(in srgb, var(--gx-accent) 35%, transparent), 0 0 18px -8px var(--gx-accent)"
+                : "none",
             }}
           >
-            <span style={{ display: "inline-flex", color: isActive ? "var(--blue-2)" : undefined }}>
+            <span
+              style={{
+                display: "inline-flex",
+                color: isActive ? "var(--gx-accent)" : undefined,
+                filter: isActive ? "drop-shadow(0 0 6px var(--gx-accent))" : undefined,
+              }}
+            >
               {n.icon}
             </span>
             {n.label}
@@ -145,10 +153,16 @@ export function BottomTabs() {
               fontSize: 10.5,
               fontWeight: 600,
               textDecoration: "none",
-              color: isActive ? "var(--ink)" : "var(--ink-3)",
+              color: isActive ? "var(--gx-accent)" : "var(--ink-3)",
             }}
           >
-            <span style={{ display: "inline-flex", color: isActive ? "var(--blue-2)" : undefined }}>
+            <span
+              style={{
+                display: "inline-flex",
+                color: isActive ? "var(--gx-accent)" : undefined,
+                filter: isActive ? "drop-shadow(0 0 6px var(--gx-accent))" : undefined,
+              }}
+            >
               {n.icon}
             </span>
             {n.label}

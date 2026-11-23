@@ -29,6 +29,14 @@
   --panel: linear-gradient(180deg, rgba(26, 36, 100, 0.5), rgba(10, 15, 48, 0.62));
   --display: "Unbounded", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --body: "Instrument Sans", "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
+  /* Per-section world accent — defaults are the Ultra blue/violet
+     chrome; inside the app shell, SectionSync stamps data-section
+     on .uv-shell and the matching block further down re-points
+     these at the current world's color. */
+  --gx-accent: #4c74ff;
+  --gx-accent-2: #9b5cff;
+  --gx-accent-soft: rgba(76, 116, 255, 0.16);
+  --gx-glow: rgba(76, 116, 255, 0.5);
 }
 
 * {
@@ -115,17 +123,17 @@ input:focus,
 select:focus,
 textarea:focus {
   outline: none;
-  border-color: var(--blue-2);
-  box-shadow: 0 0 0 3px rgba(76, 116, 255, 0.22);
+  border-color: var(--gx-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--gx-accent) 25%, transparent);
 }
 
 :focus-visible {
-  outline: 2px solid var(--blue-2);
+  outline: 2px solid var(--gx-accent);
   outline-offset: 2px;
 }
 
 ::selection {
-  background: rgba(76, 116, 255, 0.5);
+  background: color-mix(in srgb, var(--gx-accent) 50%, transparent);
 }
 
 /* ---------------- shared Galaxy components ---------------- */
@@ -137,7 +145,7 @@ textarea:focus {
   padding: 22px;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 18px 44px -22px rgba(2, 4, 20, 0.9), 0 0 34px -18px rgba(94, 120, 255, 0.45),
+  box-shadow: 0 18px 44px -22px rgba(2, 4, 20, 0.9), 0 0 34px -18px var(--gx-glow),
     inset 0 1px 0 rgba(190, 205, 255, 0.12);
 }
 .gx-panel h2 {
@@ -175,15 +183,15 @@ textarea:focus {
 }
 .gx-btn:hover { background: rgba(255, 255, 255, 0.08); border-color: rgba(170, 190, 255, 0.45); }
 .gx-btn-primary {
-  background: linear-gradient(92deg, var(--blue), var(--violet));
+  background: linear-gradient(92deg, var(--gx-accent), var(--gx-accent-2));
   border-color: transparent;
   color: #fff;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 10px 28px -10px rgba(76, 116, 255, 0.9);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 10px 28px -10px var(--gx-glow);
 }
 .gx-btn-primary:hover {
-  background: linear-gradient(92deg, #5b80ff, #a96fff);
+  background: linear-gradient(92deg, color-mix(in srgb, var(--gx-accent) 80%, #fff), color-mix(in srgb, var(--gx-accent-2) 80%, #fff));
   border-color: transparent;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 12px 32px -8px rgba(120, 110, 255, 0.95);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 12px 32px -8px var(--gx-glow);
 }
 .gx-btn-sm { padding: 7px 12px; font-size: 13px; border-radius: 10px; }
 .gx-btn-quiet { border-color: transparent; background: transparent; color: var(--ink-2); }
@@ -249,8 +257,8 @@ textarea:focus {
 }
 .gx-chip:hover { color: var(--ink); border-color: var(--line-2); background: rgba(255, 255, 255, 0.05); }
 .gx-chip[aria-pressed="true"] {
-  background: rgba(76, 116, 255, 0.2);
-  border-color: rgba(143, 166, 255, 0.6);
+  background: var(--gx-accent-soft);
+  border-color: color-mix(in srgb, var(--gx-accent) 60%, transparent);
   color: var(--ink);
 }
 
@@ -271,7 +279,7 @@ textarea.gx-input { resize: vertical; min-height: 110px; line-height: 1.5; }
   cursor: pointer;
   font-size: 14px;
 }
-.gx-check input { accent-color: var(--blue); }
+.gx-check input { accent-color: var(--gx-accent); }
 
 .gx-list { list-style: none; margin: 0; padding: 0; }
 .gx-list > li + li { border-top: 1px solid var(--line); }
@@ -564,6 +572,221 @@ dialog.gx-sheet::backdrop {
   .gx-pass-avatar-inner { font-size: 20px; }
   .gx-pass-name { font-size: 20px; }
   .gx-fig-value { font-size: 21px; }
+}
+
+/* ---------------- Per-section WORLDS (2026-11-23) ----------------
+   Owner's order: "when you click each one a color appears" and
+   "it have to look like a different world." Each of the six
+   destinations is a different cosmic scene. SectionSync stamps
+   data-section on <body> (drives the backdrop layers below) and
+   on .uv-shell (drives the accent variables). All six scenery
+   layers live in the DOM at once; only the current world's layer
+   is opaque, and the 600ms opacity transition melts one world
+   into the next on a tab click. Scenery is CSS gradients +
+   inline SVG only, clipped inside a fixed overflow-hidden
+   container behind the glass — it can never widen the page. */
+
+/* Accent variables per world (shell chrome only — semantic data
+   colors like stage colors, overdue red and paid green are NOT
+   routed through these and never change). */
+.uv-shell[data-section="today"] {
+  --gx-accent: #3d8bff; --gx-accent-2: #38c8f8;
+  --gx-accent-soft: rgba(61, 139, 255, 0.16); --gx-glow: rgba(61, 139, 255, 0.5);
+}
+.uv-shell[data-section="brands"] {
+  --gx-accent: #9b5cff; --gx-accent-2: #d66bff;
+  --gx-accent-soft: rgba(155, 92, 255, 0.16); --gx-glow: rgba(155, 92, 255, 0.5);
+}
+.uv-shell[data-section="deals"] {
+  --gx-accent: #2eea8c; --gx-accent-2: #2dd4bf;
+  --gx-accent-soft: rgba(46, 234, 140, 0.14); --gx-glow: rgba(46, 234, 140, 0.45);
+}
+.uv-shell[data-section="studio"] {
+  --gx-accent: #ff4fd8; --gx-accent-2: #a96bff;
+  --gx-accent-soft: rgba(255, 79, 216, 0.14); --gx-glow: rgba(255, 79, 216, 0.45);
+}
+.uv-shell[data-section="money"] {
+  --gx-accent: #f5b83d; --gx-accent-2: #ffe08a;
+  --gx-accent-soft: rgba(245, 184, 61, 0.14); --gx-glow: rgba(245, 184, 61, 0.45);
+}
+.uv-shell[data-section="passport"] {
+  --gx-accent: #38c8f8; --gx-accent-2: #3d8bff;
+  --gx-accent-soft: rgba(56, 200, 248, 0.15); --gx-glow: rgba(56, 200, 248, 0.5);
+}
+
+/* The worlds stage: fixed, behind the star canvas (z -1) and
+   every panel; overflow hidden clips all scenery to the screen. */
+.gx-worlds {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+  pointer-events: none;
+}
+.gx-world {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+/* First paint (no data-section yet) is the Today world. */
+body:not([data-section]) .gx-world-today,
+body[data-section="today"] .gx-world-today,
+body[data-section="brands"] .gx-world-brands,
+body[data-section="deals"] .gx-world-deals,
+body[data-section="studio"] .gx-world-studio,
+body[data-section="money"] .gx-world-money,
+body[data-section="passport"] .gx-world-passport { opacity: 1; }
+
+/* — Today (electric blue): deep-blue nebula + earth horizon — */
+.gx-world-today {
+  background:
+    radial-gradient(58% 42% at 82% 4%, rgba(61, 139, 255, 0.2), transparent 70%),
+    radial-gradient(48% 38% at 6% 88%, rgba(56, 200, 248, 0.12), transparent 70%),
+    radial-gradient(72% 56% at 50% 42%, rgba(30, 64, 175, 0.18), transparent 80%);
+}
+.gx-sc-horizon {
+  position: absolute;
+  left: 50%;
+  top: 66%;
+  width: 170vmax;
+  height: 170vmax;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(96, 165, 250, 0.3) 0%, rgba(59, 110, 246, 0.2) 42%, rgba(30, 58, 138, 0.1) 62%, transparent 68%);
+  box-shadow:
+    inset 0 30px 60px -18px rgba(191, 219, 254, 0.8),
+    inset 0 6px 20px rgba(147, 197, 253, 0.5),
+    0 -14px 70px -18px rgba(61, 139, 255, 0.55);
+}
+
+/* — Brands (violet): dense purple nebula + violet planet — */
+.gx-world-brands {
+  background:
+    radial-gradient(46% 38% at 85% 12%, rgba(155, 92, 255, 0.34), transparent 70%),
+    radial-gradient(38% 32% at 68% 46%, rgba(214, 92, 206, 0.18), transparent 70%),
+    radial-gradient(52% 42% at 6% 82%, rgba(124, 58, 237, 0.26), transparent 70%),
+    radial-gradient(30% 26% at 28% 18%, rgba(155, 92, 255, 0.2), transparent 70%);
+}
+.gx-sc-planet {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  width: min(300px, 44vmin);
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.gx-sc-planet-violet {
+  background: radial-gradient(circle at 34% 32%, rgba(233, 213, 255, 0.85), rgba(192, 132, 252, 0.55) 34%, rgba(147, 51, 234, 0.38) 62%, rgba(88, 28, 135, 0.12) 78%, transparent 82%);
+  box-shadow: 0 0 80px -10px rgba(155, 92, 255, 0.55), inset -18px -14px 44px rgba(46, 16, 101, 0.55);
+}
+
+/* — Deals (emerald): aurora ribbons + crystalline spires — */
+.gx-world-deals {
+  background:
+    radial-gradient(50% 40% at 85% 8%, rgba(46, 234, 140, 0.16), transparent 70%),
+    radial-gradient(46% 38% at 5% 85%, rgba(45, 212, 191, 0.16), transparent 70%),
+    radial-gradient(72% 56% at 50% 45%, rgba(6, 78, 59, 0.25), transparent 80%);
+}
+.gx-sc-ribbon {
+  position: absolute;
+  left: -25%;
+  width: 150%;
+  border-radius: 50%;
+  filter: blur(28px);
+  transform: rotate(-16deg);
+}
+.gx-sc-ribbon-1 {
+  top: 14%;
+  height: 16vh;
+  background: linear-gradient(90deg, transparent, rgba(46, 234, 140, 0.28), rgba(45, 212, 191, 0.18), transparent);
+}
+.gx-sc-ribbon-2 {
+  top: 33%;
+  height: 11vh;
+  transform: rotate(-16deg) translateX(6%);
+  background: linear-gradient(90deg, transparent, rgba(52, 211, 153, 0.2), transparent);
+}
+.gx-sc-spire {
+  position: absolute;
+  right: 1%;
+  bottom: 0;
+  height: min(46vh, 420px);
+  opacity: 0.5;
+}
+
+/* — Studio (magenta): pink nebula + ringed planet — */
+.gx-world-studio {
+  background:
+    radial-gradient(48% 38% at 84% 10%, rgba(255, 79, 216, 0.24), transparent 70%),
+    radial-gradient(40% 34% at 12% 84%, rgba(169, 107, 255, 0.2), transparent 70%),
+    radial-gradient(30% 24% at 55% 70%, rgba(255, 92, 122, 0.1), transparent 70%);
+}
+.gx-sc-ringed {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  width: min(290px, 46vmin);
+  opacity: 0.9;
+}
+
+/* — Money (gold): amber nebula + spiral galaxy — */
+.gx-world-money {
+  background:
+    radial-gradient(50% 40% at 84% 6%, rgba(245, 184, 61, 0.2), transparent 70%),
+    radial-gradient(44% 36% at 6% 86%, rgba(217, 119, 6, 0.16), transparent 70%),
+    radial-gradient(72% 56% at 50% 45%, rgba(120, 72, 10, 0.16), transparent 80%);
+}
+.gx-sc-swirl {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  width: min(340px, 52vmin);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: conic-gradient(from 20deg, transparent 0deg, rgba(245, 184, 61, 0.3) 40deg, transparent 90deg, rgba(245, 184, 61, 0.2) 150deg, transparent 210deg, rgba(255, 224, 138, 0.24) 280deg, transparent 330deg);
+  -webkit-mask-image: radial-gradient(circle, transparent 16%, #000 42%, transparent 72%);
+  mask-image: radial-gradient(circle, transparent 16%, #000 42%, transparent 72%);
+  filter: blur(6px);
+  animation: gxSpin 140s linear infinite;
+}
+.gx-sc-core {
+  position: absolute;
+  top: calc(1% + min(340px, 52vmin) * 0.5);
+  right: calc(1% + min(340px, 52vmin) * 0.5);
+  width: 54px;
+  height: 54px;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 240, 200, 0.85), rgba(245, 184, 61, 0.35) 55%, transparent 75%);
+  filter: blur(4px);
+}
+
+/* — Passport (azure): bright blue nebula + azure planet — */
+.gx-world-passport {
+  background:
+    radial-gradient(52% 40% at 82% 8%, rgba(56, 200, 248, 0.22), transparent 70%),
+    radial-gradient(46% 38% at 6% 86%, rgba(61, 139, 255, 0.18), transparent 70%),
+    radial-gradient(72% 56% at 50% 45%, rgba(12, 74, 110, 0.22), transparent 80%);
+}
+.gx-sc-planet-azure {
+  background: radial-gradient(circle at 34% 32%, rgba(224, 242, 254, 0.9), rgba(125, 211, 252, 0.55) 34%, rgba(14, 165, 233, 0.38) 62%, rgba(12, 74, 110, 0.14) 78%, transparent 82%);
+  box-shadow: 0 0 80px -10px rgba(56, 200, 248, 0.55), inset -18px -14px 44px rgba(8, 47, 73, 0.55);
+}
+
+/* Mobile bottom tabs: the active tab gets a glowing top line in
+   the world's accent (icon + label colors are set in AppNav). */
+.uv-tabbar a { position: relative; }
+.uv-tabbar a[aria-current="page"]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 24%;
+  right: 24%;
+  height: 2px;
+  border-radius: 0 0 4px 4px;
+  background: var(--gx-accent);
+  box-shadow: 0 0 12px var(--gx-accent);
 }
 
 /* ---------- legacy WOW helpers, recolored to the Galaxy palette ---------- */

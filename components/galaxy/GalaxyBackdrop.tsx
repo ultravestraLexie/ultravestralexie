@@ -2,10 +2,11 @@
 
 import { useEffect, useRef } from "react";
 
-/* The Galaxy backdrop: a fixed star canvas with a slow twinkle
- * over the CSS aurora nebula (the nebula gradients live on body in
- * globals.css). All motion stops with prefers-reduced-motion —
- * the canvas then paints one static star field and never animates. */
+/* The Galaxy backdrop: the six per-section WORLDS (scenery layers
+ * below, styled in globals.css and cross-faded by SectionSync's
+ * data-section on <body>) under a fixed star canvas with a slow
+ * twinkle. All motion stops with prefers-reduced-motion — the
+ * canvas then paints one static star field and never animates. */
 
 type Star = { x: number; y: number; r: number; p: number; s: number };
 
@@ -70,10 +71,61 @@ export default function GalaxyBackdrop() {
   }, []);
 
   return (
-    <canvas
-      ref={ref}
-      aria-hidden="true"
-      style={{ position: "fixed", inset: 0, zIndex: -1, pointerEvents: "none" }}
-    />
+    <>
+      {/* The six WORLDS — one scenery layer per section, all in
+       * the DOM at once. SectionSync stamps data-section on
+       * <body>; globals.css fades the matching layer in over
+       * 600ms so a tab click melts one world into the next.
+       * CSS gradients + inline SVG only; the container is
+       * fixed + overflow hidden, so scenery can never widen
+       * the page. Nebula washes live in globals.css (.gx-world-*). */}
+      <div className="gx-worlds" aria-hidden="true">
+        <div className="gx-world gx-world-today">
+          <div className="gx-sc-horizon" />
+        </div>
+        <div className="gx-world gx-world-brands">
+          <div className="gx-sc-planet gx-sc-planet-violet" />
+        </div>
+        <div className="gx-world gx-world-deals">
+          <div className="gx-sc-ribbon gx-sc-ribbon-1" />
+          <div className="gx-sc-ribbon gx-sc-ribbon-2" />
+          <svg className="gx-sc-spire" viewBox="0 0 200 300" preserveAspectRatio="xMaxYMax meet" focusable="false">
+            <polygon points="118,18 132,120 148,300 92,300 106,120" fill="#07271e" />
+            <polygon points="122,18 132,120 140,300 118,300 112,110" fill="#0a3527" />
+            <polygon points="160,84 170,170 182,300 140,300 150,168" fill="#06231b" />
+            <polygon points="66,110 76,190 88,300 40,300 54,188" fill="#06231b" />
+            <polygon points="118,18 124,66 112,66" fill="#2eea8c" opacity="0.35" />
+            <polygon points="160,84 165,118 156,118" fill="#2eea8c" opacity="0.25" />
+          </svg>
+        </div>
+        <div className="gx-world gx-world-studio">
+          <svg className="gx-sc-ringed" viewBox="0 0 200 200" focusable="false">
+            <defs>
+              <radialGradient id="gxRingedPlanet" cx="0.36" cy="0.34" r="0.85">
+                <stop offset="0" stopColor="#ffd7f6" />
+                <stop offset="0.38" stopColor="#ff8ae8" />
+                <stop offset="0.72" stopColor="#e843c8" />
+                <stop offset="1" stopColor="#8b2a86" stopOpacity="0.25" />
+              </radialGradient>
+            </defs>
+            <ellipse cx="100" cy="100" rx="86" ry="23" transform="rotate(-18 100 100)" fill="none" stroke="rgba(255, 150, 240, 0.4)" strokeWidth="6" />
+            <circle cx="100" cy="100" r="47" fill="url(#gxRingedPlanet)" />
+            <ellipse cx="100" cy="100" rx="86" ry="23" transform="rotate(-18 100 100)" fill="none" stroke="rgba(255, 190, 248, 0.22)" strokeWidth="2.5" />
+          </svg>
+        </div>
+        <div className="gx-world gx-world-money">
+          <div className="gx-sc-swirl" />
+          <div className="gx-sc-core" />
+        </div>
+        <div className="gx-world gx-world-passport">
+          <div className="gx-sc-planet gx-sc-planet-azure" />
+        </div>
+      </div>
+      <canvas
+        ref={ref}
+        aria-hidden="true"
+        style={{ position: "fixed", inset: 0, zIndex: -1, pointerEvents: "none" }}
+      />
+    </>
   );
 }

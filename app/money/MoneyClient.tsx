@@ -254,7 +254,7 @@ export default function MoneyClient({
                           position: "relative",
                           width: "min(34px,60%)",
                           borderRadius: "4px 4px 0 0",
-                          background: "linear-gradient(180deg,#7C9BFF,var(--blue))",
+                          background: "linear-gradient(180deg,var(--gx-accent-2),var(--gx-accent))",
                           minHeight: 2,
                           height: `${(m.totalCents / max) * 100}%`,
                           boxShadow: "0 0 18px -6px rgba(110,140,255,.9)",
