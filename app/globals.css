@@ -488,6 +488,31 @@ dialog.gx-sheet::backdrop {
   align-items: start;
 }
 
+/* Money Center: contracted forecast buckets, income gaps,
+   month-by-month detail. Rows wrap instead of overflowing —
+   no fixed columns anywhere, so phone width stays clean. */
+.gx-fc-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2px 14px;
+  align-items: baseline;
+  padding: 11px 0;
+}
+.gx-fc-amount { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.gx-fc-deals { grid-column: 1 / -1; color: var(--ink-3); font-size: 12.5px; overflow-wrap: anywhere; }
+.gx-gap-row { padding: 11px 0; }
+.gx-gap-row p { margin: 0; }
+.gx-gap-row .gx-sub { margin-top: 4px; }
+.gx-month-row { padding: 11px 0; }
+.gx-month-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 4px 14px;
+}
+.gx-month-detail { color: var(--ink-3); font-size: 12.5px; margin-top: 2px; }
+
 /* Studio */
 .gx-studio-grid {
   display: grid;

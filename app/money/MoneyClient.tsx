@@ -3,13 +3,16 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
+  contractedForecast,
   dealFlag,
   dealPaidCents,
   dealRemainingCents,
   fmtDate,
   fmtMoney,
+  incomeOutlook,
   isOverdue,
   monthKeyOf,
+  monthsBackDetail,
   monthsBackMoney,
   niceMax,
   owedCents,
@@ -67,10 +70,19 @@ export default function MoneyClient({
   const odCount = deals.filter((d) => isOverdue(d, now)).length;
   const waiting = deals
     .filter((d) => d.stage === "invoiced")
-    .sort((a, b) => (a.invoiceDue ?? "").localeCompare(b.invoiceDue ?? ""));
+    .sort((a, b) => (a.invoiceDue ?? "9999-12-31").localeCompare(b.invoiceDue ?? "9999-12-31"));
   const inM = paidInMonth(deals, income, thisMonth);
   const outM = spentInMonth(expenses, thisMonth);
   const months = useMemo(() => monthsBackMoney(deals, income, 6, now), [deals, income]);
+  const detail = useMemo(
+    () => monthsBackDetail(deals, income, expenses, 6, now),
+    [deals, income, expenses]
+  );
+  const detailEmpty = detail.every(
+    (m) => m.totalCents === 0 && m.invoicedOutstandingCents === 0 && m.expensesCents === 0
+  );
+  const forecast = useMemo(() => contractedForecast(deals, now), [deals]);
+  const outlook = useMemo(() => incomeOutlook(deals, income, now), [deals, income]);
   const max = niceMax(Math.max(...months.map((m) => m.totalCents)));
   const peak = months.reduce((a, b) => (b.totalCents > a.totalCents ? b : a), months[0]);
 
@@ -162,8 +174,8 @@ export default function MoneyClient({
         <div>
           <h1 className="gx-h1">Money</h1>
           <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
-            What you are owed, what is late and what came in. It reads from your deals, so
-            nothing gets typed twice.
+            What you are owed, what is late, what came in — and what is contracted to
+            come next. It reads from your deals, so nothing gets typed twice.
           </p>
         </div>
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
@@ -194,6 +206,100 @@ export default function MoneyClient({
           ))}
         </div>
       </section>
+
+      <div className="gx-money-grid">
+        <section className="gx-panel" aria-labelledby="fc-h">
+          <div className="gx-panel-head">
+            <h2 id="fc-h">Contracted forecast</h2>
+            {forecast.dealCount ? (
+              <span className="gx-muted">{fmtMoney(forecast.totalCents)} contracted</span>
+            ) : null}
+          </div>
+          <p className="gx-sub" style={{ marginBottom: 6 }}>
+            Money brands have agreed to pay but you have not invoiced yet — grouped by
+            the month each payment is due. Contracted is not paid: it only counts as
+            yours when it lands.
+          </p>
+          {forecast.dealCount ? (
+            <ul className="gx-list">
+              {forecast.buckets
+                .filter((b) => b.deals.length)
+                .map((b) => (
+                  <li key={b.id} className="gx-fc-row">
+                    <span>
+                      {b.label}{" "}
+                      <span className="gx-muted">· {plural(b.deals.length, "deal")}</span>
+                    </span>
+                    <strong className="gx-fc-amount">{fmtMoney(b.cents)}</strong>
+                    <span className="gx-fc-deals">
+                      {b.deals.map((d) => d.brandName).join(", ")}
+                    </span>
+                  </li>
+                ))}
+            </ul>
+          ) : (
+            <div className="gx-empty">
+              <p>
+                No contracted deals yet. When a brand agrees and you mark the deal
+                Contracted in Deals, its value shows up here — kept separate from money
+                you have actually been paid.
+              </p>
+            </div>
+          )}
+        </section>
+
+        <section className="gx-panel" aria-labelledby="gap-h">
+          <div className="gx-panel-head">
+            <h2 id="gap-h">Income gaps</h2>
+            {outlook.enoughHistory ? (
+              <span className="gx-muted">Average month {fmtMoney(outlook.baselineCents)}</span>
+            ) : null}
+          </div>
+          {outlook.enoughHistory ? (
+            <ul className="gx-list">
+              {outlook.months.map((m) => (
+                <li key={m.key} className="gx-gap-row">
+                  {m.covered ? (
+                    <p>
+                      <strong>{m.label} is covered.</strong>{" "}
+                      <span className="gx-muted">
+                        {fmtMoney(m.expectedCents)} expected against your{" "}
+                        {fmtMoney(outlook.baselineCents)} average month.
+                      </span>
+                    </p>
+                  ) : (
+                    <>
+                      <p>
+                        <strong>
+                          {m.label} looks {fmtMoney(m.gapCents)} light
+                        </strong>{" "}
+                        <span className="gx-muted">
+                          against your {fmtMoney(outlook.baselineCents)} average month.
+                        </span>
+                      </p>
+                      <p className="gx-sub">
+                        {fmtMoney(m.expectedCents)} expected so far from payments in,
+                        invoices due and contracted deals.
+                        {m.dealsToClose != null && outlook.avgPaidDealCents != null
+                          ? ` About ${plural(m.dealsToClose, "more deal")} at your average ${fmtMoney(outlook.avgPaidDealCents)} would close the gap.`
+                          : ""}
+                      </p>
+                    </>
+                  )}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <div className="gx-empty">
+              <p>
+                Not enough payment history yet to call a gap. Once money has come in
+                across two different months, this panel compares this month and next
+                month with your average month.
+              </p>
+            </div>
+          )}
+        </section>
+      </div>
 
       <div className="gx-money-grid">
         <div style={{ display: "grid", gap: 20 }}>
@@ -306,6 +412,47 @@ export default function MoneyClient({
                 </div>
               ) : null}
             </div>
+          </section>
+
+          <section className="gx-panel" aria-labelledby="detail-h">
+            <div className="gx-panel-head">
+              <h2 id="detail-h">Month by month</h2>
+              <span className="gx-muted">Last 6 months</span>
+            </div>
+            {detailEmpty ? (
+              <div className="gx-empty">
+                <p>
+                  Nothing recorded yet. Paid deals, payouts, invoices and expenses fill
+                  this in month by month.
+                </p>
+              </div>
+            ) : (
+              <>
+                <ul className="gx-list">
+                  {[...detail].reverse().map((m) => (
+                    <li key={m.key} className="gx-month-row">
+                      <div className="gx-month-head">
+                        <span>{m.long}</span>
+                        <span>
+                          <strong style={{ fontVariantNumeric: "tabular-nums" }}>
+                            {fmtMoney(m.keptCents)}
+                          </strong>{" "}
+                          <span className="gx-muted">kept</span>
+                        </span>
+                      </div>
+                      <div className="gx-month-detail">
+                        Paid in {fmtMoney(m.totalCents)} · Invoiced unpaid{" "}
+                        {fmtMoney(m.invoicedOutstandingCents)} · Expenses{" "}
+                        {fmtMoney(m.expensesCents)}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+                <p className="gx-sub">
+                  Invoiced unpaid is grouped by the month each invoice is due.
+                </p>
+              </>
+            )}
           </section>
 
           <section className="gx-panel" aria-labelledby="ledger-h">
@@ -439,7 +586,7 @@ function MoneyFormSheet({
   const inc = kind === "income";
 
   async function submit() {
-    const cents = Math.round(parseFloat(amount)) * 100;
+    const cents = Math.round(parseFloat(amount) * 100);
     if (!label.trim() || !Number.isFinite(cents) || cents <= 0) {
       toast("Add a label and an amount first.");
       return;

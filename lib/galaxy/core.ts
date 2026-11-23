@@ -114,7 +114,8 @@ export const plural = (n: number, w: string, p?: string) =>
 /* ---------------- money (integer cents in, dollars out) ---------------- */
 
 export function fmtMoney(cents: number | null | undefined): string {
-  return "$" + Math.round((cents ?? 0) / 100).toLocaleString("en-US");
+  const v = Math.round((cents ?? 0) / 100);
+  return (v < 0 ? "−$" : "$") + Math.abs(v).toLocaleString("en-US");
 }
 
 export function shortMoney(cents: number): string {
@@ -625,4 +626,202 @@ export function niceMax(v: number): number {
   const p = Math.pow(10, Math.floor(Math.log10(v)));
   const n = v / p;
   return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10) * p;
+}
+
+/* ---------------- Money Center: forecast, gaps, monthly detail ------
+ * System #1 of the creator-systems program (2026-11-23). Everything
+ * below reads ONLY the creator's real deal / income / expense rows.
+ * The one expected-payment date the records carry is payment_due_date
+ * (deal.invoiceDue): it is set when an invoice is logged and can be
+ * edited on an invoiced deal. The content deadline (deal.dueOn) is a
+ * delivery date, never a payment date, so it is never used to place
+ * money in a month — a contracted deal with no payment due date sits
+ * honestly in the "no date set" bucket. */
+
+/** What is still owed on invoiced deals whose payment due date
+ *  falls in the given month (YYYY-MM). Invoiced deals with no due
+ *  date are counted in NO month — they live in the owed KPI and the
+ *  waiting-on list, never in a month they don't belong to. */
+export function invoicedOutstandingDueInMonth(
+  deals: GalaxyDeal[],
+  month: string
+): number {
+  return deals
+    .filter(
+      (d) => d.stage === "invoiced" && d.invoiceDue && monthKeyOf(d.invoiceDue) === month
+    )
+    .reduce((t, d) => t + dealRemainingCents(d), 0);
+}
+
+export type ForecastBucketId = "this" | "next" | "later" | "nodate";
+
+export type ForecastBucket = {
+  id: ForecastBucketId;
+  label: string;
+  cents: number;
+  deals: GalaxyDeal[];
+};
+
+export type ContractedForecast = {
+  buckets: ForecastBucket[];
+  totalCents: number;
+  dealCount: number;
+};
+
+/** Contracted income forecast: deals in contracted + delivering,
+ *  valued at their agreed amount, grouped by the month payment is
+ *  due. Invoiced deals are NEVER counted here — once a deal is
+ *  invoiced its balance belongs to the owed figures, so no dollar
+ *  is ever counted twice. A due date in an earlier month counts as
+ *  this month (it is due now, not later). */
+export function contractedForecast(
+  deals: GalaxyDeal[],
+  now = new Date()
+): ContractedForecast {
+  const thisKey = monthKeyOf(todayKey(now));
+  const next = new Date(now.getFullYear(), now.getMonth() + 1, 1);
+  const nextKey = `${next.getFullYear()}-${String(next.getMonth() + 1).padStart(2, "0")}`;
+  const buckets: ForecastBucket[] = [
+    { id: "this", label: "Expected this month", cents: 0, deals: [] },
+    { id: "next", label: "Expected next month", cents: 0, deals: [] },
+    { id: "later", label: "Later", cents: 0, deals: [] },
+    { id: "nodate", label: "Contracted — no date set", cents: 0, deals: [] },
+  ];
+  const byId = new Map(buckets.map((b) => [b.id, b]));
+  let totalCents = 0;
+  let dealCount = 0;
+  for (const d of deals) {
+    if (d.stage !== "contracted" && d.stage !== "delivering") continue;
+    const cents = d.amountCents ?? 0;
+    const dueKey = d.invoiceDue ? monthKeyOf(d.invoiceDue) : null;
+    const id: ForecastBucketId =
+      dueKey === null
+        ? "nodate"
+        : dueKey <= thisKey
+          ? "this"
+          : dueKey === nextKey
+            ? "next"
+            : "later";
+    const bucket = byId.get(id) as ForecastBucket;
+    bucket.cents += cents;
+    bucket.deals.push(d);
+    totalCents += cents;
+    dealCount += 1;
+  }
+  return { buckets, totalCents, dealCount };
+}
+
+export type MonthDetail = MonthMoney & {
+  invoicedOutstandingCents: number;
+  expensesCents: number;
+  keptCents: number;
+};
+
+/** The chart's months with the full picture per month: paid in
+ *  (identical to the chart total — one source of truth), invoiced
+ *  but still unpaid by due month, expenses, and what was kept. */
+export function monthsBackDetail(
+  deals: GalaxyDeal[],
+  income: GalaxyIncome[],
+  expenses: GalaxyExpense[],
+  n = 6,
+  now = new Date()
+): MonthDetail[] {
+  return monthsBackMoney(deals, income, n, now).map((m) => {
+    const expensesCents = spentInMonth(expenses, m.key);
+    return {
+      ...m,
+      invoicedOutstandingCents: invoicedOutstandingDueInMonth(deals, m.key),
+      expensesCents,
+      keptCents: m.totalCents - expensesCents,
+    };
+  });
+}
+
+export type GapMonth = {
+  key: string;
+  label: string;
+  long: string;
+  expectedCents: number;
+  gapCents: number;
+  covered: boolean;
+  dealsToClose: number | null;
+};
+
+export type IncomeOutlook = {
+  enoughHistory: boolean;
+  baselineCents: number;
+  avgPaidDealCents: number | null;
+  months: GapMonth[];
+};
+
+/** Income gaps. Baseline = the average monthly paid income (paid
+ *  deals + payouts) across the last 6 calendar months — the same
+ *  window as the money chart. A baseline is only honest when money
+ *  actually came in during at least two different months and the
+ *  6-month average is above zero; otherwise enoughHistory is false
+ *  and NO figures are produced.
+ *
+ *  Expected for a month = paid so far that month + invoiced
+ *  outstanding due that month + the contracted forecast for that
+ *  month. dealsToClose uses the creator's real average paid deal
+ *  size and is null when they have no paid deals. */
+export function incomeOutlook(
+  deals: GalaxyDeal[],
+  income: GalaxyIncome[],
+  now = new Date()
+): IncomeOutlook {
+  const paidMonthKeys = new Set<string>();
+  for (const d of deals) if (d.stage === "paid" && d.paidOn) paidMonthKeys.add(monthKeyOf(d.paidOn));
+  for (const i of income) paidMonthKeys.add(monthKeyOf(i.date));
+  let monthsWithPaid = 0;
+  for (const k of paidMonthKeys) if (paidInMonth(deals, income, k) > 0) monthsWithPaid += 1;
+
+  const window = monthsBackMoney(deals, income, 6, now);
+  const baselineCents = Math.round(
+    window.reduce((t, m) => t + m.totalCents, 0) / window.length
+  );
+
+  const paidDeals = deals.filter((d) => d.stage === "paid");
+  const avgPaidDealCents = paidDeals.length
+    ? Math.round(paidDeals.reduce((t, d) => t + dealPaidCents(d), 0) / paidDeals.length)
+    : null;
+
+  const enoughHistory = monthsWithPaid >= 2 && baselineCents > 0;
+  if (!enoughHistory) return { enoughHistory, baselineCents, avgPaidDealCents, months: [] };
+
+  const forecast = contractedForecast(deals, now);
+  const forecastFor = (id: ForecastBucketId) =>
+    forecast.buckets.find((b) => b.id === id)?.cents ?? 0;
+
+  const build = (firstOfMonth: Date, contractedCents: number): GapMonth => {
+    const key = `${firstOfMonth.getFullYear()}-${String(firstOfMonth.getMonth() + 1).padStart(2, "0")}`;
+    const expectedCents =
+      paidInMonth(deals, income, key) +
+      invoicedOutstandingDueInMonth(deals, key) +
+      contractedCents;
+    const gapCents = Math.max(0, baselineCents - expectedCents);
+    return {
+      key,
+      label: firstOfMonth.toLocaleDateString("en-US", { month: "long" }),
+      long: firstOfMonth.toLocaleDateString("en-US", { month: "long", year: "numeric" }),
+      expectedCents,
+      gapCents,
+      covered: gapCents === 0,
+      dealsToClose:
+        gapCents > 0 && avgPaidDealCents != null && avgPaidDealCents > 0
+          ? Math.ceil(gapCents / avgPaidDealCents)
+          : null,
+    };
+  };
+
+  return {
+    enoughHistory,
+    baselineCents,
+    avgPaidDealCents,
+    months: [
+      build(new Date(now.getFullYear(), now.getMonth(), 1), forecastFor("this")),
+      build(new Date(now.getFullYear(), now.getMonth() + 1, 1), forecastFor("next")),
+    ],
+  };
 }
