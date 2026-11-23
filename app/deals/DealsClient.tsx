@@ -20,6 +20,7 @@ import {
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
 import { DealSheet } from "@/components/galaxy/DealSheet";
+import PricingPanel from "./PricingPanel";
 import { useDealSync } from "@/components/galaxy/useDealSync";
 import { Icon, I, Sheet, toast } from "@/components/galaxy/ui";
 
@@ -253,6 +254,8 @@ export default function DealsClient({
           </ul>
         </details>
       ) : null}
+
+      <PricingPanel profile={profile} deals={deals} />
 
       <DealSheet
         deal={deal}

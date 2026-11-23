@@ -1221,3 +1221,296 @@ export function protectionGaps(
     gaps.push({ id: "payment", text: "Payment terms not confirmed" });
   return gaps;
 }
+
+/* ---------------- Creator Pricing Intelligence (System #4) ----------
+ * The owner is explicit: creators don't know what to charge. This
+ * section answers with the ONLY two honest sources of numbers —
+ * the creator's own inputs and their own deal history. There is
+ * NO market-rate data anywhere in this app and none is invented
+ * here: no benchmark, no "creators like you charge…", no derived
+ * per-view rate from history (history has fees but no view counts,
+ * so a per-1k price can never be back-solved from it). Prefilled
+ * uplift percentages are editable EXAMPLES and are labelled as
+ * such on screen. Every formula is disclosed in plain words next
+ * to its result ("How this is figured"). All money is integer
+ * cents; inputs are clamped to finite, non-negative values. */
+
+export type PricingInputs = {
+  /** Average views per video (creator-entered). */
+  avgViews: number;
+  /** Creator-set price per 1,000 views, in cents. */
+  pricePer1kCents: number;
+  /** Videos in the package. */
+  videos: number;
+  /** Hours the package takes. */
+  hours: number;
+  /** Target hourly rate, in cents. */
+  hourlyRateCents: number;
+  /** Months of paid usage (ads / whitelisting). */
+  usageMonths: number;
+  /** Usage uplift, percent of base PER MONTH (editable example). */
+  usageUpliftPct: number;
+  /** Months of category exclusivity. */
+  exclusivityMonths: number;
+  /** Exclusivity uplift, percent of base PER MONTH (editable example). */
+  exclusivityUpliftPct: number;
+};
+
+const cleanNum = (n: number): number =>
+  Number.isFinite(n) && n > 0 ? n : 0;
+
+export type QuoteBaseSource = "views" | "time" | "tie" | "none";
+
+export type PricingQuote = {
+  viewPriceCents: number;
+  timeFloorCents: number;
+  baseCents: number;
+  baseSource: QuoteBaseSource;
+  usageFeeCents: number;
+  exclusivityFeeCents: number;
+  totalCents: number;
+};
+
+/** The quote. Two independent ways to price the content itself —
+ *  what the views are worth at the creator's own per-1k price, and
+ *  the time floor (hours × their target hourly rate) — and the
+ *  base is the HIGHER of the two, so a quote never underprices the
+ *  creator's time nor their reach. Usage and exclusivity are
+ *  additive on the base: base × uplift% × months each. */
+export function computeQuote(input: PricingInputs): PricingQuote {
+  const avgViews = cleanNum(input.avgViews);
+  const pricePer1kCents = cleanNum(input.pricePer1kCents);
+  const videos = cleanNum(input.videos);
+  const hours = cleanNum(input.hours);
+  const hourlyRateCents = cleanNum(input.hourlyRateCents);
+  const usageMonths = cleanNum(input.usageMonths);
+  const usageUpliftPct = cleanNum(input.usageUpliftPct);
+  const exclusivityMonths = cleanNum(input.exclusivityMonths);
+  const exclusivityUpliftPct = cleanNum(input.exclusivityUpliftPct);
+
+  const viewPriceCents = Math.round((avgViews / 1000) * pricePer1kCents * videos);
+  const timeFloorCents = Math.round(hours * hourlyRateCents);
+  const baseCents = Math.max(viewPriceCents, timeFloorCents);
+  const baseSource: QuoteBaseSource =
+    baseCents === 0
+      ? "none"
+      : viewPriceCents === timeFloorCents
+        ? "tie"
+        : viewPriceCents > timeFloorCents
+          ? "views"
+          : "time";
+  const usageFeeCents = Math.round(baseCents * (usageUpliftPct / 100) * usageMonths);
+  const exclusivityFeeCents = Math.round(
+    baseCents * (exclusivityUpliftPct / 100) * exclusivityMonths
+  );
+  return {
+    viewPriceCents,
+    timeFloorCents,
+    baseCents,
+    baseSource,
+    usageFeeCents,
+    exclusivityFeeCents,
+    totalCents: baseCents + usageFeeCents + exclusivityFeeCents,
+  };
+}
+
+/** A compact dollars-and-cents formatter for the pricing surface,
+ *  where exact cents matter (rates, per-hour figures). fmtMoney
+ *  rounds to whole dollars for the money views; pricing shows the
+ *  real cents so the arithmetic on screen always adds up. */
+export function fmtMoneyExact(cents: number | null | undefined): string {
+  const v = (cents ?? 0) / 100;
+  const sign = v < 0 ? "−$" : "$";
+  return (
+    sign +
+    Math.abs(v).toLocaleString("en-US", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    })
+  );
+}
+
+/** Plain number for formulas: trims a trailing .0 ("10", "2.5"). */
+export function fmtNum(n: number): string {
+  return Number.isInteger(n) ? String(n) : String(Math.round(n * 100) / 100);
+}
+
+export type QuoteLine = {
+  id: "base" | "usage" | "exclusivity";
+  label: string;
+  detail: string;
+  cents: number;
+};
+
+/** The itemised quote, exactly as shown on screen — the fixtures
+ *  pin that these lines always sum to the quote total. Details
+ *  spell out the arithmetic in plain words (the on-screen "How
+ *  this is figured" disclosure). Usage / exclusivity lines appear
+ *  only when their months are set; a zero base produces no lines. */
+export function quoteLines(input: PricingInputs, quote: PricingQuote): QuoteLine[] {
+  if (quote.baseCents === 0) return [];
+  const videos = cleanNum(input.videos);
+  const baseDetail =
+    quote.baseSource === "time"
+      ? `${fmtNum(cleanNum(input.hours))} hours × ${fmtMoneyExact(cleanNum(input.hourlyRateCents))} an hour — your time floor, the higher of the two ways to price it`
+      : quote.baseSource === "views"
+        ? `${fmtNum(cleanNum(input.avgViews))} average views × ${fmtMoneyExact(cleanNum(input.pricePer1kCents))} per 1,000 views × ${plural(videos, "video")} — your view price, the higher of the two ways to price it`
+        : `Your view price and your time floor both come to ${fmtMoneyExact(quote.baseCents)}`;
+  const lines: QuoteLine[] = [
+    {
+      id: "base",
+      label: videos > 0 ? `Content — ${plural(videos, "video")}` : "Content",
+      detail: baseDetail,
+      cents: quote.baseCents,
+    },
+  ];
+  const usageMonths = cleanNum(input.usageMonths);
+  if (usageMonths > 0) {
+    lines.push({
+      id: "usage",
+      label: `Usage rights — ${plural(usageMonths, "month")}`,
+      detail: `${fmtMoneyExact(quote.baseCents)} base × ${fmtNum(cleanNum(input.usageUpliftPct))}% per month × ${plural(usageMonths, "month")} of paid usage (ads, whitelisting)`,
+      cents: quote.usageFeeCents,
+    });
+  }
+  const exclusivityMonths = cleanNum(input.exclusivityMonths);
+  if (exclusivityMonths > 0) {
+    lines.push({
+      id: "exclusivity",
+      label: `Exclusivity — ${plural(exclusivityMonths, "month")}`,
+      detail: `${fmtMoneyExact(quote.baseCents)} base × ${fmtNum(cleanNum(input.exclusivityUpliftPct))}% per month × ${plural(exclusivityMonths, "month")} of category exclusivity`,
+      cents: quote.exclusivityFeeCents,
+    });
+  }
+  return lines;
+}
+
+/** The creator's average PAID deal fee from their own history —
+ *  the only history anchor the rate calculator shows. Null when
+ *  they have no paid deals: no anchor is invented. */
+export function averagePaidFeeCents(deals: GalaxyDeal[]): number | null {
+  const paid = deals.filter((d) => d.stage === "paid");
+  if (paid.length === 0) return null;
+  return Math.round(
+    paid.reduce((t, d) => t + dealPaidCents(d), 0) / paid.length
+  );
+}
+
+export type ProfitabilityInput = {
+  feeCents: number;
+  hours: number;
+  hourlyRateCents: number;
+  costsCents: number;
+};
+
+export type Profitability = {
+  /** fee − hours × target rate − costs. */
+  profitCents: number;
+  /** (fee − costs) / hours; null when hours is 0 — dividing by
+   *  zero hours would invent a rate, so there is no verdict. */
+  effectiveHourlyCents: number | null;
+  /** The fee at which the effective hourly exactly hits the
+   *  target: hours × target rate + costs. Null when hours is 0. */
+  feeNeededCents: number | null;
+  verdict: "above" | "at" | "below" | "unknown";
+};
+
+/** What a deal actually pays the creator once their time is
+ *  priced at their own target rate. */
+export function dealProfitability(input: ProfitabilityInput): Profitability {
+  const feeCents = cleanNum(input.feeCents);
+  const hours = cleanNum(input.hours);
+  const hourlyRateCents = cleanNum(input.hourlyRateCents);
+  const costsCents = cleanNum(input.costsCents);
+  const timeCostCents = Math.round(hours * hourlyRateCents);
+  const profitCents = feeCents - timeCostCents - costsCents;
+  if (hours === 0) {
+    return { profitCents, effectiveHourlyCents: null, feeNeededCents: null, verdict: "unknown" };
+  }
+  const effectiveHourlyCents = Math.round((feeCents - costsCents) / hours);
+  return {
+    profitCents,
+    effectiveHourlyCents,
+    feeNeededCents: timeCostCents + costsCents,
+    verdict:
+      effectiveHourlyCents > hourlyRateCents
+        ? "above"
+        : effectiveHourlyCents < hourlyRateCents
+          ? "below"
+          : "at",
+  };
+}
+
+export type NegotiationPrep = {
+  avgPaidFeeCents: number | null;
+  paidDealCount: number;
+  /** Fastest payment the creator has actually experienced: the
+   *  fewest days from invoice sent to payment received across
+   *  their paid deals carrying both dates (a payment logged
+   *  before its invoice date counts as 0 — paid immediately).
+   *  Null when no paid deal carries both dates. */
+  fastestDaysToPay: number | null;
+  /** Typical payment speed from System #3's brandPaymentHistory
+   *  over ALL the creator's paid deals (same invoice-sent →
+   *  payment-received rule); null under the same condition. */
+  avgDaysToPay: number | null;
+  timedDeals: number;
+};
+
+/** Negotiation prep inputs, all from the creator's real rows. */
+export function negotiationPrep(deals: GalaxyDeal[]): NegotiationPrep {
+  const history = brandPaymentHistory(deals);
+  let fastest: number | null = null;
+  let timed = 0;
+  for (const d of deals) {
+    if (d.stage !== "paid" || !d.invoiceSentOn || !d.paidOn) continue;
+    const days = Math.max(0, daysBetween(d.invoiceSentOn, d.paidOn));
+    fastest = fastest === null ? days : Math.min(fastest, days);
+    timed += 1;
+  }
+  return {
+    avgPaidFeeCents: averagePaidFeeCents(deals),
+    paidDealCount: deals.filter((d) => d.stage === "paid").length,
+    fastestDaysToPay: fastest,
+    avgDaysToPay: history?.avgDaysToPay ?? null,
+    timedDeals: timed,
+  };
+}
+
+/** A copyable counter-offer in the creator's own voice, built
+ *  from the quote they just figured: total first, then the
+ *  itemised terms in plain language. Usage / exclusivity lines
+ *  appear only when those rights are part of the quote. */
+export function counterOfferText(
+  profile: GalaxyProfile,
+  input: PricingInputs,
+  quote: PricingQuote,
+  brandName?: string
+): string {
+  const videos = cleanNum(input.videos);
+  const usageMonths = cleanNum(input.usageMonths);
+  const exclusivityMonths = cleanNum(input.exclusivityMonths);
+  const parts: string[] = [
+    `Hi ${brandName ? `${brandName} team` : "team"},`,
+    "",
+    `Thanks for the offer. For this package my rate is ${fmtMoneyExact(quote.totalCents)}:`,
+    "",
+    `- ${fmtMoneyExact(quote.baseCents)} for the content${videos > 0 ? ` (${plural(videos, "video")})` : ""}`,
+  ];
+  if (usageMonths > 0 && quote.usageFeeCents > 0)
+    parts.push(
+      `- ${fmtMoneyExact(quote.usageFeeCents)} for ${plural(usageMonths, "month")} of paid usage rights (ads and whitelisting)`
+    );
+  if (exclusivityMonths > 0 && quote.exclusivityFeeCents > 0)
+    parts.push(
+      `- ${fmtMoneyExact(quote.exclusivityFeeCents)} for ${plural(exclusivityMonths, "month")} of category exclusivity`
+    );
+  parts.push(
+    "",
+    "Usage and exclusivity are priced separately from the content fee, so you only pay for the rights you actually use. If you want a shorter usage or exclusivity period, the total adjusts with it.",
+    "",
+    profile.name || "Your name"
+  );
+  return parts.join("\n");
+}
+
