@@ -41,7 +41,7 @@ export const runtime = "nodejs";
 // here AND via the middleware (lib/gate-paths.ts).
 
 const PLATFORMS = ["tiktok", "instagram", "facebook", "trybe", "other"] as const;
-const FINISHED_STAGES: DealStage[] = ["paid", "closed"];
+const FINISHED_STAGES: DealStage[] = ["paid", "lost"];
 
 const DateOrNull = z
   .string()
@@ -51,7 +51,7 @@ const DateOrNull = z
 const CreateSchema = z.object({
   brandName: z.string().trim().min(1).max(200),
   platform: z.enum(PLATFORMS).nullable().default(null),
-  stage: z.enum(DEAL_STAGES).default("lead"),
+  stage: z.enum(DEAL_STAGES).default("pitched"),
   compensationCents: z.number().int().min(0).max(1_000_000_000).nullable().default(null),
   deliverables: z.string().trim().max(2000).default(""),
   deadline: DateOrNull.default(null),
@@ -179,7 +179,7 @@ function buildFollowUps(
         stage: d.stage,
       });
     } else if (
-      (d.stage === "applied" || d.stage === "negotiating") &&
+      (d.stage === "pitched" || d.stage === "negotiating") &&
       !FINISHED_STAGES.includes(d.stage)
     ) {
       const days = Math.max(0, daysBetweenDates(d.updated_at.slice(0, 10), today));

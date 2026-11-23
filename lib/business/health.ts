@@ -32,15 +32,20 @@ import {
   type RevenueEntryLike,
 } from "../revenue/summary";
 
+/* Galaxy redesign (2026-11-23): the pipeline vocabulary is the
+ * prototype's six stages + lost. Old → new: lead/applied →
+ * pitched, active → contracted, delivered → delivering, closed →
+ * lost. creator_deals held 0 rows when the vocabulary changed and
+ * the DB check constraint was altered to match (migration
+ * 2026-11-23-galaxy-redesign.sql), so no data migration existed. */
 export const DEAL_STAGES = [
-  "lead",
-  "applied",
+  "pitched",
   "negotiating",
-  "active",
-  "delivered",
+  "contracted",
+  "delivering",
   "invoiced",
   "paid",
-  "closed",
+  "lost",
 ] as const;
 
 export type DealStage = (typeof DEAL_STAGES)[number];
@@ -48,11 +53,10 @@ export type DealStage = (typeof DEAL_STAGES)[number];
 /** Stages that still count as an open deal (everything before a
  *  finished outcome). */
 export const OPEN_STAGES: DealStage[] = [
-  "lead",
-  "applied",
+  "pitched",
   "negotiating",
-  "active",
-  "delivered",
+  "contracted",
+  "delivering",
   "invoiced",
 ];
 
@@ -168,7 +172,7 @@ export function computeDealPayment(
     }
   }
 
-  const outstanding = invoiced && !fullyPaid && deal.stage !== "closed";
+  const outstanding = invoiced && !fullyPaid && deal.stage !== "lost";
   const overdue = outstanding && dueDate !== null && dueDate < todayStr;
   const daysOutstanding =
     outstanding && invoiceDate !== null
@@ -199,7 +203,7 @@ export type Receivables = {
   collectedCents: number;
 };
 
-const CONTRACTED_STAGES: DealStage[] = ["active", "delivered", "invoiced", "paid"];
+const CONTRACTED_STAGES: DealStage[] = ["contracted", "delivering", "invoiced", "paid"];
 
 export function computeReceivables(
   deals: DealLike[],
@@ -685,7 +689,7 @@ export function summarizePipeline(deals: DealLike[]): DealPipeline {
       openValueCents += deal.compensation_cents ?? 0;
     } else if (deal.stage === "paid") {
       paidDeals += 1;
-    } else if (deal.stage === "closed") {
+    } else if (deal.stage === "lost") {
       closedDeals += 1;
     }
   }

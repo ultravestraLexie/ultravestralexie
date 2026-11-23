@@ -5,6 +5,9 @@ import { createClient } from "@/lib/supabase/server";
 import { SUBSCRIBED_STATUSES } from "@/lib/gate-paths";
 import SignOutButton from "@/components/SignOutButton";
 import { SideNav, BottomTabs, VMark } from "@/components/AppNav";
+import GalaxyBackdrop from "@/components/galaxy/GalaxyBackdrop";
+import { ProfileButton } from "@/components/galaxy/ProfileSheet";
+import { initials } from "@/lib/galaxy/core";
 
 export const metadata: Metadata = {
   title: "UltraVestra",
@@ -18,53 +21,54 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#020008",
+  themeColor: "#04051A",
 };
 
-/* Member shell (Build 9 — the owner's design target): a left sidebar
- * on desktop, a slim top bar + bottom tab bar on phone. Signed-out
- * visitors keep the public header below, unchanged. The responsive
- * switch is plain CSS so every page inherits the frame. */
+/* Galaxy shell (2026-11-23 redesign): a 240px frosted rail on
+ * desktop (logo, the six destinations, plan card, profile at the
+ * foot), a slim top bar + six-tab bottom bar on mobile (≤860px).
+ * Signed-out visitors keep a public header. The responsive switch
+ * is plain CSS so every page inherits the frame. */
 const SHELL_CSS = `
 .uv-shell{display:flex;min-height:100vh}
-.uv-side{width:266px;flex:0 0 266px;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column;padding:22px 16px 18px;border-right:1px solid rgba(168,85,247,.35);background:rgba(5,2,16,.85)}
+.uv-side{width:240px;flex:0 0 240px;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column;padding:26px 16px 20px;border-right:1px solid var(--line);background:rgba(4,6,26,.42);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
 .uv-mainwrap{flex:1;min-width:0;display:flex;flex-direction:column}
-.uv-main{flex:1;width:100%;max-width:1460px;margin:0 auto;padding:28px 30px 44px}
+.uv-main{flex:1;width:100%;max-width:1180px;margin:0 auto;padding:40px 48px 72px}
 .uv-topbar{display:none}
 .uv-tabbar{display:none}
-.uv-foot{padding:18px 30px 28px;color:#8f83c4;font-size:12.5px;text-align:center;border-top:1px solid rgba(124,58,237,.25)}
-@media (max-width:1023px){
+.uv-foot{padding:18px 30px 28px;color:var(--ink-3);font-size:12.5px;text-align:center}
+@media (max-width:860px){
   .uv-side{display:none}
-  .uv-topbar{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid rgba(168,85,247,.4);background:rgba(5,2,16,.88);position:sticky;top:0;z-index:40}
-  .uv-main{padding:20px 16px 140px}
-  .uv-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(7,3,20,.95);border-top:1px solid rgba(168,85,247,.45);padding:10px 8px calc(10px + env(safe-area-inset-bottom));justify-content:space-around;align-items:flex-start}
-  .uv-foot{padding-bottom:132px}
+  .uv-topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:calc(10px + env(safe-area-inset-top)) 16px 10px;background:linear-gradient(180deg,rgba(4,5,26,.92),rgba(4,5,26,.6) 70%,transparent);position:sticky;top:0;z-index:40}
+  .uv-main{padding:8px 16px calc(96px + env(safe-area-inset-bottom))}
+  .uv-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(5,7,28,.88);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+  .uv-foot{padding-bottom:110px}
 }
 `;
 
 function BrandLockup({ compact = false }: { compact?: boolean }) {
   return (
-    <span style={{ display: "flex", alignItems: "center", gap: 11, textDecoration: "none" }}>
-      <VMark size={compact ? 32 : 42} />
-      <span style={{ lineHeight: 1.05 }}>
+    <span style={{ display: "flex", alignItems: "center", gap: 12, textDecoration: "none" }}>
+      <VMark size={compact ? 34 : 40} />
+      <span style={{ lineHeight: 1.1 }}>
         <span
           style={{
             display: "block",
-            fontWeight: 800,
-            fontSize: compact ? 16 : 19,
-            letterSpacing: 1.5,
-            background:
-              "linear-gradient(92deg, #ffffff 10%, #e879f9 45%, #a855f7 65%, #22d3ee 95%)",
-            WebkitBackgroundClip: "text",
-            backgroundClip: "text",
-            color: "transparent",
+            fontFamily: "var(--display)",
+            fontWeight: 600,
+            fontSize: compact ? 12 : 13,
+            letterSpacing: ".12em",
+            color: "var(--ink)",
+            whiteSpace: "nowrap",
           }}
         >
           ULTRA VESTRA
         </span>
-        <span style={{ display: "block", fontSize: compact ? 8.5 : 10, letterSpacing: 3.5, color: "#b3a6e0", fontWeight: 700, marginTop: 3 }}>
-          CREATE. GROW. BUILD.
-        </span>
+        {!compact ? (
+          <span style={{ display: "block", marginTop: 6, fontSize: 11.5, color: "var(--ink-3)", letterSpacing: ".02em" }}>
+            Create. Grow. Build.
+          </span>
+        ) : null}
       </span>
     </span>
   );
@@ -84,6 +88,7 @@ export default async function RootLayout({
     return (
       <html lang="en">
         <body>
+          <GalaxyBackdrop />
           <header
             style={{
               display: "flex",
@@ -91,71 +96,19 @@ export default async function RootLayout({
               gap: 20,
               alignItems: "center",
               padding: "14px 24px",
-              borderBottom: "1px solid #a855f7",
-              background: "rgba(2,0,8,0.72)",
-              boxShadow: "0 4px 30px rgba(217,70,239,0.25)",
+              borderBottom: "1px solid var(--line)",
+              background: "rgba(4,6,26,.55)",
+              backdropFilter: "blur(14px)",
+              WebkitBackdropFilter: "blur(14px)",
             }}
           >
-            <Link
-              href="/"
-              style={{
-                fontWeight: 800,
-                fontSize: 20,
-                display: "flex",
-                alignItems: "center",
-                gap: 10,
-                textDecoration: "none",
-                letterSpacing: 2,
-              }}
-            >
-              <span
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  width: 38,
-                  height: 38,
-                  borderRadius: "50%",
-                  border: "2px solid #e879f9",
-                  boxShadow:
-                    "0 0 14px rgba(232,121,249,0.65), inset 0 0 10px rgba(168,85,247,0.55)",
-                  fontSize: 14,
-                  fontWeight: 800,
-                  letterSpacing: 1,
-                }}
-              >
-                UV
-              </span>
-              <span
-                style={{
-                  background:
-                    "linear-gradient(92deg, #ffffff 10%, #e879f9 45%, #a855f7 65%, #22d3ee 95%)",
-                  WebkitBackgroundClip: "text",
-                  backgroundClip: "text",
-                  color: "transparent",
-                }}
-              >
-                UltraVestra
-              </span>
+            <Link href="/" style={{ textDecoration: "none" }}>
+              <BrandLockup compact />
             </Link>
-            <nav style={{ display: "flex", flexWrap: "wrap", gap: 16, fontSize: 15 }}>
-              <Link href="/dashboard">Dashboard</Link>
-              <Link href="/growth-center">Growth Center</Link>
-              <Link href="/discover">Opportunity Finder</Link>
-              <Link href="/creator-lab">Creator Lab</Link>
-              <Link href="/command-center">Command Center</Link>
+            <nav style={{ display: "flex", flexWrap: "wrap", gap: 18, fontSize: 15, marginLeft: "auto", alignItems: "center" }}>
+              <Link href="/pricing" style={{ textDecoration: "none", color: "var(--ink-2)" }}>Pricing</Link>
+              <Link href="/login" style={{ textDecoration: "none", fontWeight: 600 }}>Log in</Link>
             </nav>
-            <span
-              style={{
-                marginLeft: "auto",
-                display: "flex",
-                gap: 12,
-                alignItems: "center",
-                fontSize: 14,
-              }}
-            >
-              <Link href="/login">Log in</Link>
-            </span>
           </header>
           <main style={{ maxWidth: 1080, margin: "0 auto", padding: "32px 24px" }}>
             {children}
@@ -163,8 +116,8 @@ export default async function RootLayout({
           <footer
             style={{
               padding: "24px",
-              borderTop: "1px solid #3d2a6e",
-              color: "#b3a6e0",
+              borderTop: "1px solid var(--line)",
+              color: "var(--ink-3)",
               fontSize: 13,
               textAlign: "center",
             }}
@@ -182,18 +135,9 @@ export default async function RootLayout({
 
   /* The subscriptions table carries plan_id (the webhook resolves
    * it from the Stripe price); the plan's name lives in the plans
-   * table. Selecting a "plan" column that does not exist errors the
-   * whole read — found by the Build 9 acceptance pass.
-   *
-   * A returning subscriber has MORE THAN ONE row (the canceled old
-   * subscription plus the live new one), so this read must not use
-   * maybeSingle — with two rows that errors and returns null, and
-   * the label fell back to generic even though the member's plan
-   * was active (found by battZ, 2026-11-23). Mirror the
-   * growth-center route: read the rows newest-first and prefer the
-   * LIVE one (active/trialing — the same statuses the gate uses).
-   * No live row → the generic label; a canceled plan is not
-   * displayed as a current membership. */
+   * table. A returning subscriber has MORE THAN ONE row, so read
+   * newest-first and prefer the LIVE one (active/trialing — the
+   * same statuses the gate uses). No live row → the generic label. */
   const { data: subRows } = await supabase
     .from("subscriptions")
     .select("plan_id, status")
@@ -216,92 +160,96 @@ export default async function RootLayout({
     if (planName) planLabel = `${planName} Member`;
   }
 
+  const [{ data: bpRow }, { data: catRows }] = await Promise.all([
+    supabase
+      .from("creator_business_profiles")
+      .select("creator_name")
+      .eq("user_id", user.id)
+      .maybeSingle(),
+    supabase.from("categories").select("name").order("name"),
+  ]);
+  const creatorName =
+    ((bpRow as { creator_name: string | null } | null)?.creator_name ?? "").trim();
+  const profileLabel = creatorName || user.email || "Your profile";
+  const profileInitial = initials(creatorName || user.email || "UV");
+  const categories = ((catRows ?? []) as { name: string }[]).map((c) => c.name);
+
   return (
     <html lang="en">
       <body>
         <style>{SHELL_CSS}</style>
+        <GalaxyBackdrop />
         <div className="uv-shell">
           <aside className="uv-side">
-            <Link href="/dashboard" style={{ textDecoration: "none", padding: "2px 6px 18px" }}>
+            <Link href="/today" style={{ textDecoration: "none", padding: "0 8px 26px" }}>
               <BrandLockup />
             </Link>
             <SideNav />
-            <div
-              style={{
-                marginTop: "auto",
-                border: "1px solid rgba(232,121,249,0.45)",
-                background:
-                  "linear-gradient(160deg, rgba(124,58,237,0.35), rgba(26,8,54,0.85))",
-                borderRadius: 18,
-                padding: "16px 16px 14px",
-                textAlign: "center",
-                boxShadow: "0 0 24px rgba(168,85,247,0.25)",
-              }}
-            >
-              <p style={{ margin: 0, fontSize: 20 }} aria-hidden="true">👑</p>
-              <p style={{ margin: "4px 0 2px", fontWeight: 800, fontSize: 14.5, letterSpacing: 0.6, color: "#f5d0fe" }}>
-                ULTRA VESTRA
-              </p>
-              <p style={{ margin: "0 0 12px", fontSize: 13.5, color: "#ddd0ff", fontWeight: 700 }}>
-                {planLabel}
-              </p>
-              <Link
-                href="/pricing"
+            <div style={{ marginTop: "auto", display: "grid", gap: 10 }}>
+              <div
                 style={{
-                  display: "block",
-                  background: "linear-gradient(92deg, #a855f7, #d946ef)",
-                  color: "#ffffff",
-                  fontWeight: 800,
-                  fontSize: 14,
-                  borderRadius: 999,
-                  padding: "9px 0",
-                  textDecoration: "none",
-                  boxShadow: "0 0 16px rgba(217,70,239,0.45)",
+                  border: "1px solid var(--line)",
+                  background: "linear-gradient(160deg, rgba(76,116,255,.16), rgba(10,15,48,.5))",
+                  borderRadius: 16,
+                  padding: "13px 14px",
+                  boxShadow: "inset 0 1px 0 rgba(190,205,255,.12)",
                 }}
               >
-                View Plans
-              </Link>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 10,
-                padding: "14px 6px 2px",
-                fontSize: 13,
-                color: "#b3a6e0",
-              }}
-            >
-              <span
+                <p style={{ margin: 0, fontSize: 12, letterSpacing: 1.6, color: "var(--ink-3)", fontWeight: 700 }}>
+                  ULTRA VESTRA
+                </p>
+                <p style={{ margin: "3px 0 10px", fontSize: 13.5, color: "var(--ink)", fontWeight: 600 }}>
+                  {planLabel}
+                </p>
+                <Link
+                  href="/pricing"
+                  style={{
+                    display: "block",
+                    textAlign: "center",
+                    background: "linear-gradient(92deg, var(--blue), var(--violet))",
+                    color: "#fff",
+                    fontWeight: 700,
+                    fontSize: 13.5,
+                    borderRadius: 999,
+                    padding: "8px 0",
+                    textDecoration: "none",
+                    boxShadow: "0 8px 22px -8px rgba(76,116,255,.9)",
+                  }}
+                >
+                  View Plans
+                </Link>
+              </div>
+              <ProfileButton
+                label={profileLabel}
+                sub="Edit profile"
+                initial={profileInitial}
+                categories={categories}
+              />
+              <div
                 style={{
-                  display: "inline-flex",
+                  display: "flex",
                   alignItems: "center",
-                  justifyContent: "center",
-                  width: 30,
-                  height: 30,
-                  borderRadius: "50%",
-                  background: "linear-gradient(140deg, #a855f7, #d946ef)",
-                  color: "#fff",
-                  fontWeight: 800,
+                  gap: 14,
+                  padding: "2px 8px 0",
                   fontSize: 13,
-                  flex: "0 0 30px",
+                  color: "var(--ink-3)",
                 }}
               >
-                {(user.email ?? "?").charAt(0).toUpperCase()}
-              </span>
-              <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", flex: 1 }}>
-                {user.email}
-              </span>
-              <SignOutButton />
+                <Link href="/settings" style={{ textDecoration: "none" }}>Settings</Link>
+                <Link href="/support" style={{ textDecoration: "none" }}>Support</Link>
+                <span style={{ marginLeft: "auto" }}>
+                  <SignOutButton />
+                </span>
+              </div>
             </div>
           </aside>
           <div className="uv-mainwrap">
             <div className="uv-topbar">
-              <Link href="/dashboard" style={{ textDecoration: "none" }}>
+              <Link href="/today" style={{ textDecoration: "none" }}>
                 <BrandLockup compact />
               </Link>
-              <span style={{ marginLeft: "auto", fontSize: 13.5, color: "#b3a6e0" }}>
-                <SignOutButton />
+              <span style={{ width: 168, maxWidth: "44vw" }}>
+                <ProfileButton label={profileLabel} initial={profileInitial} categories={categories} />
               </span>
             </div>
             <main className="uv-main">{children}</main>

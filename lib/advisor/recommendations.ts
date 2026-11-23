@@ -289,7 +289,7 @@ export function buildRecommendations(
       d.deadline !== null &&
       d.deadline < todayKey &&
       d.stage !== "paid" &&
-      d.stage !== "closed"
+      d.stage !== "lost"
   );
   if (overdueDeals.length > 0) {
     const oldestDays = Math.max(

@@ -57,7 +57,7 @@ const entry = (over: Partial<HealthEntryLike>): HealthEntryLike => ({
 const deal = (over: Partial<DealLike>): DealLike => ({
   brand_name: "GlowCo",
   platform: null,
-  stage: "lead",
+  stage: "pitched",
   compensation_cents: null,
   deadline: null,
   ...over,
@@ -74,13 +74,13 @@ const ENTRIES: HealthEntryLike[] = [
 ];
 
 const DEALS: DealLike[] = [
-  deal({ stage: "lead", compensation_cents: 50000 }),
+  deal({ stage: "pitched", compensation_cents: 50000 }),
   deal({ stage: "negotiating", compensation_cents: 75000 }),
   deal({ stage: "invoiced", compensation_cents: null }),
   deal({ stage: "paid", compensation_cents: 60000 }),
   deal({ stage: "paid", compensation_cents: 40000 }),
   deal({ stage: "paid", compensation_cents: 30000 }),
-  deal({ stage: "closed", compensation_cents: 20000 }),
+  deal({ stage: "lost", compensation_cents: 20000 }),
 ];
 
 const health = computeHealth(ENTRIES, DEALS, NOW);
@@ -145,7 +145,7 @@ check("pipeline closed deals", health.pipeline.closedDeals, 1);
 check("conversion pct = paid/(paid+closed)", health.pipeline.conversionPct, 75);
 check(
   "conversion null when no finished outcomes",
-  computeHealth([], [deal({ stage: "lead" }), deal({ stage: "active" })], NOW).pipeline.conversionPct,
+  computeHealth([], [deal({ stage: "pitched" }), deal({ stage: "contracted" })], NOW).pipeline.conversionPct,
   null
 );
 check(
@@ -154,8 +154,8 @@ check(
   100
 );
 const stages = summarizePipeline(DEALS);
-check("stage counts", stages.byStage.map((s) => s.count), [1, 0, 1, 0, 0, 1, 3, 1]);
-check("stage compensation totals", stages.byStage.map((s) => s.compensationCents), [50000, 0, 75000, 0, 0, 0, 130000, 20000]);
+check("stage counts", stages.byStage.map((s) => s.count), [1, 1, 0, 0, 1, 3, 1]);
+check("stage compensation totals", stages.byStage.map((s) => s.compensationCents), [50000, 75000, 0, 0, 0, 130000, 20000]);
 
 // --- Empty inputs: honest zeros and nulls ---------------------------
 const empty = computeHealth([], [], NOW);

@@ -38,9 +38,9 @@ const PLATFORM_OPTIONS = [
 ];
 
 const STAGE_OPTIONS = [
-  { value: "lead", label: "Lead — talking, nothing agreed" },
-  { value: "active", label: "Active — agreed, work underway" },
-  { value: "delivered", label: "Delivered — content handed over" },
+  { value: "pitched", label: "Pitched — sent, nothing agreed yet" },
+  { value: "contracted", label: "Contracted — agreed, work underway" },
+  { value: "delivering", label: "Delivering — content handed over" },
   { value: "invoiced", label: "Invoiced — waiting to be paid" },
   { value: "paid", label: "Paid — money received" },
 ];
@@ -76,7 +76,7 @@ export default function GetStartedPage() {
   // Step 2 fields
   const [brandName, setBrandName] = useState("");
   const [dealAmount, setDealAmount] = useState("");
-  const [dealStage, setDealStage] = useState("active");
+  const [dealStage, setDealStage] = useState("contracted");
   // Step 3 fields
   const [postTitle, setPostTitle] = useState("");
   const [postPlatform, setPostPlatform] = useState("tiktok");

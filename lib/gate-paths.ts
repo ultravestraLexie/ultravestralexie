@@ -13,6 +13,9 @@ export const SUBSCRIBED_STATUSES = ["active", "trialing"] as const;
  *  Everything else (/, /pricing, /login, /auth/*, /api/checkout,
  *  /api/stripe/*) stays public. */
 export const GATED_PREFIXES = [
+  "/today",
+  "/deals",
+  "/money",
   "/discover",
   "/ask",
   "/commissions",
@@ -42,6 +45,7 @@ export const GATED_PREFIXES = [
   "/creator-growth",
   "/saved",
   "/api/suggest",
+  "/api/studio",
   "/api/buyer-brain",
   "/api/creator-lab",
   "/api/passport",

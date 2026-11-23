@@ -1,24 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700;800&display=swap");
+
+/* =====================================================================
+   ULTRA VESTRA — GALAXY DESIGN SYSTEM (2026-11-23 redesign)
+   Tokens (owner's prototype, keep exactly):
+     Void #04051A · Space #0A0F2E · Ultra blue #4C74FF · Nebula violet #9B5CFF
+     Ink #EEF2FF / #B6C0EA / #8590C4 · Lines rgba(150,170,255,.15)
+   Finish (owner's reference image): glassmorphism over aurora —
+   frosted-glass panels, luminous 1px borders, teal-green + violet
+   aurora ribbons behind everything.
+   One shared panel/button/input/chip style lives here (.gx-*).
+   ===================================================================== */
+
+:root {
+  --void: #04051a;
+  --space: #0a0f2e;
+  --ink: #eef2ff;
+  --ink-2: #b6c0ea;
+  --ink-3: #8590c4;
+  --line: rgba(150, 170, 255, 0.15);
+  --line-2: rgba(150, 170, 255, 0.3);
+  --blue: #4c74ff;
+  --blue-2: #8fa6ff;
+  --violet: #9b5cff;
+  --teal: #2dd4bf;
+  --good: #3dd68c;
+  --warn: #f5b84a;
+  --bad: #ff5c7a;
+  --panel: linear-gradient(180deg, rgba(26, 36, 100, 0.5), rgba(10, 15, 48, 0.62));
+  --display: "Unbounded", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Instrument Sans", "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  color-scheme: dark;
+}
+
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  color: #faf5ff;
+  min-height: 100dvh;
+  font-family: var(--body);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
   background:
-    radial-gradient(2px 2px at 12% 22%, rgba(255, 255, 255, 0.9), transparent 60%),
-    radial-gradient(1.5px 1.5px at 68% 8%, rgba(255, 255, 255, 0.8), transparent 60%),
-    radial-gradient(2px 2px at 84% 34%, rgba(240, 171, 252, 0.9), transparent 60%),
-    radial-gradient(1.5px 1.5px at 34% 64%, rgba(255, 255, 255, 0.7), transparent 60%),
-    radial-gradient(2px 2px at 52% 88%, rgba(103, 232, 249, 0.8), transparent 60%),
-    radial-gradient(1.5px 1.5px at 92% 72%, rgba(255, 255, 255, 0.75), transparent 60%),
-    radial-gradient(1000px 520px at 88% -5%, rgba(217, 70, 239, 0.32), transparent 62%),
-    radial-gradient(900px 560px at 6% 10%, rgba(168, 85, 247, 0.34), transparent 62%),
-    radial-gradient(760px 460px at 50% 112%, rgba(34, 211, 238, 0.22), transparent 62%),
-    #020008;
+    radial-gradient(2px 2px at 12% 22%, rgba(255, 255, 255, 0.85), transparent 60%),
+    radial-gradient(1.5px 1.5px at 68% 8%, rgba(255, 255, 255, 0.7), transparent 60%),
+    radial-gradient(2px 2px at 84% 34%, rgba(196, 181, 253, 0.85), transparent 60%),
+    radial-gradient(1.5px 1.5px at 34% 64%, rgba(255, 255, 255, 0.6), transparent 60%),
+    radial-gradient(2px 2px at 52% 88%, rgba(94, 234, 212, 0.7), transparent 60%),
+    radial-gradient(1.5px 1.5px at 92% 72%, rgba(255, 255, 255, 0.65), transparent 60%),
+    /* aurora ribbons: teal-green + violet over the void */
+    radial-gradient(58% 42% at 84% 6%, rgba(45, 212, 191, 0.2), transparent 70%),
+    radial-gradient(46% 38% at 92% 30%, rgba(155, 92, 255, 0.3), transparent 70%),
+    radial-gradient(50% 40% at 4% 84%, rgba(76, 116, 255, 0.28), transparent 70%),
+    radial-gradient(30% 24% at 62% 74%, rgba(214, 92, 206, 0.13), transparent 70%),
+    radial-gradient(76% 62% at 50% 45%, rgba(22, 36, 120, 0.4), transparent 80%),
+    var(--void);
   background-attachment: fixed;
-  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: var(--display);
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 a {
@@ -27,94 +77,344 @@ a {
 
 button {
   font: inherit;
-  padding: 8px 14px;
-  border-radius: 10px;
-  border: 1px solid #e879f9;
-  background: #2a1060;
-  color: #faf5ff;
+  padding: 9px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--line-2);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--ink);
+  font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 0 16px rgba(217, 70, 239, 0.35);
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(170, 190, 255, 0.45);
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 input,
 select,
 textarea {
   font: inherit;
-  padding: 8px 10px;
-  border-radius: 10px;
-  border: 1px solid #7e22ce;
-  background: #0d0221;
-  color: #faf5ff;
+  padding: 10px 13px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(3, 5, 22, 0.6);
+  color: var(--ink);
 }
-
 input::placeholder,
 textarea::placeholder {
-  color: #c4b5fd;
+  color: var(--ink-3);
+}
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--blue-2);
+  box-shadow: 0 0 0 3px rgba(76, 116, 255, 0.22);
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue-2);
+  outline-offset: 2px;
 }
 
 ::selection {
-  background: rgba(217, 70, 239, 0.55);
+  background: rgba(76, 116, 255, 0.5);
 }
 
-/* ---------- WOW layer: the colors and glow from Ultra Vestra's pictures ---------- */
+/* ---------------- shared Galaxy components ---------------- */
 
+.gx-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 22px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 18px 44px -22px rgba(2, 4, 20, 0.9), 0 0 34px -18px rgba(94, 120, 255, 0.45),
+    inset 0 1px 0 rgba(190, 205, 255, 0.12);
+}
+.gx-panel h2 {
+  font-size: 16px;
+  line-height: 1.3;
+  margin: 0;
+}
+.gx-panel-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 16px;
+  margin-bottom: 14px;
+}
+.gx-muted { color: var(--ink-3); }
+.gx-sub { color: var(--ink-3); font-size: 13.5px; margin: 4px 0 0; }
+
+.gx-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--line-2);
+  background: rgba(255, 255, 255, 0.04);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--ink);
+}
+.gx-btn:hover { background: rgba(255, 255, 255, 0.08); border-color: rgba(170, 190, 255, 0.45); }
+.gx-btn-primary {
+  background: linear-gradient(92deg, var(--blue), var(--violet));
+  border-color: transparent;
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 10px 28px -10px rgba(76, 116, 255, 0.9);
+}
+.gx-btn-primary:hover {
+  background: linear-gradient(92deg, #5b80ff, #a96fff);
+  border-color: transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 12px 32px -8px rgba(120, 110, 255, 0.95);
+}
+.gx-btn-sm { padding: 7px 12px; font-size: 13px; border-radius: 10px; }
+.gx-btn-quiet { border-color: transparent; background: transparent; color: var(--ink-2); }
+.gx-btn-quiet:hover { color: var(--ink); background: rgba(255, 255, 255, 0.05); border-color: transparent; }
+.gx-btn-danger { color: #ffb3c1; border-color: rgba(255, 92, 122, 0.35); }
+.gx-btn svg { width: 16px; height: 16px; }
+
+.gx-icon-btn {
+  width: 36px;
+  height: 36px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: transparent;
+  cursor: pointer;
+  color: var(--ink-2);
+  padding: 0;
+  box-shadow: none;
+}
+.gx-icon-btn:hover { color: var(--ink); border-color: var(--line-2); background: transparent; }
+.gx-icon-btn svg { width: 18px; height: 18px; }
+.gx-icon-btn[aria-pressed="true"] {
+  color: #ffd98a;
+  border-color: rgba(255, 217, 138, 0.4);
+  background: rgba(255, 217, 138, 0.08);
+}
+.gx-icon-btn[aria-pressed="true"] svg { fill: currentColor; }
+
+.gx-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.gx-pill svg { width: 13px; height: 13px; }
+.gx-pill-fit { background: rgba(155, 92, 255, 0.16); color: #d9c6ff; }
+.gx-pill-good { background: rgba(61, 214, 140, 0.12); color: #a6f0c9; }
+.gx-pill-warn { background: rgba(245, 184, 74, 0.13); color: #fbd9a0; }
+.gx-pill-bad { background: rgba(255, 92, 122, 0.14); color: #ffb6c4; }
+.gx-pill-ver { background: rgba(76, 116, 255, 0.18); color: #c8d4ff; }
+
+.gx-chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding: 2px; }
+.gx-chips::-webkit-scrollbar { display: none; }
+.gx-chip {
+  flex: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--ink-2);
+  white-space: nowrap;
+  box-shadow: none;
+}
+.gx-chip:hover { color: var(--ink); border-color: var(--line-2); background: rgba(255, 255, 255, 0.05); }
+.gx-chip[aria-pressed="true"] {
+  background: rgba(76, 116, 255, 0.2);
+  border-color: rgba(143, 166, 255, 0.6);
+  color: var(--ink);
+}
+
+.gx-field { display: grid; gap: 6px; margin-bottom: 14px; }
+.gx-field > span { font-size: 13px; color: var(--ink-2); font-weight: 500; }
+.gx-input { width: 100%; }
+textarea.gx-input { resize: vertical; min-height: 110px; line-height: 1.5; }
+.gx-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 860px) { .gx-row2 { grid-template-columns: minmax(0, 1fr); } }
+.gx-checks { display: flex; flex-wrap: wrap; gap: 8px; }
+.gx-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.gx-check input { accent-color: var(--blue); }
+
+.gx-list { list-style: none; margin: 0; padding: 0; }
+.gx-list > li + li { border-top: 1px solid var(--line); }
+.gx-empty { padding: 22px 4px; color: var(--ink-2); }
+.gx-empty p { margin: 0 0 12px; }
+.gx-sr {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* sheets (dialog) + toast */
+dialog.gx-sheet {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--ink);
+  width: min(560px, calc(100% - 32px));
+  max-height: calc(100dvh - 48px);
+}
+dialog.gx-sheet::backdrop {
+  background: rgba(2, 3, 16, 0.62);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.gx-sheet-inner {
+  background: linear-gradient(180deg, rgba(24, 33, 92, 0.92), rgba(10, 15, 46, 0.96) 60%);
+  border: 1px solid var(--line-2);
+  border-radius: 24px;
+  padding: 22px;
+  max-height: calc(100dvh - 48px);
+  overflow: auto;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6), 0 0 60px -20px rgba(110, 90, 255, 0.6);
+}
+.gx-sheet-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+.gx-sheet-head h2 { font-size: 19px; line-height: 1.3; margin: 0; }
+.gx-sheet-head p { margin: 6px 0 0; color: var(--ink-3); font-size: 13.5px; }
+.gx-sheet-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; align-items: center; }
+.gx-sheet-actions .spacer { flex: 1; }
+.gx-meta-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  font-size: 14px;
+  margin: 0 0 18px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.035);
+}
+.gx-meta-list dt { color: var(--ink-3); }
+.gx-meta-list dd { margin: 0; }
+
+.gx-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  translate: -50% 20px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 80;
+  padding: 12px 18px;
+  border-radius: 14px;
+  background: rgba(14, 20, 64, 0.96);
+  border: 1px solid var(--line-2);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5);
+  font-size: 14.5px;
+  max-width: calc(100% - 32px);
+  transition: opacity 0.25s, translate 0.25s;
+}
+.gx-toast.show { opacity: 1; translate: -50% 0; }
+@media (max-width: 860px) { .gx-toast { bottom: calc(86px + env(safe-area-inset-bottom)); } }
+
+/* motion: twinkle, orbit spin, shooting star (paid) */
+@keyframes gxTwinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+@keyframes gxSpin { to { transform: rotate(360deg); } }
+@keyframes gxShoot {
+  0% { transform: translate3d(0, 0, 0) rotate(0.001deg); opacity: 0; }
+  8% { opacity: 1; }
+  55% { transform: translate3d(-46vw, 30vh, 0); opacity: 1; }
+  100% { transform: translate3d(-62vw, 40vh, 0); opacity: 0; }
+}
+.gx-orbit-spin {
+  transform-box: view-box;
+  transform-origin: 200px 200px;
+  animation: gxSpin var(--dur, 200s) linear infinite;
+}
+.gx-shooting-star {
+  position: fixed;
+  top: 12%;
+  right: -4%;
+  width: 150px;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent, #fff8e2 55%, #f1dfa8);
+  box-shadow: 0 0 14px rgba(241, 223, 168, 0.9);
+  pointer-events: none;
+  z-index: 90;
+  opacity: 0;
+  animation: gxShoot 1.6s ease-out forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ---------- legacy WOW helpers, recolored to the Galaxy palette ---------- */
 @keyframes uvShimmer {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
 @keyframes uvPulseGlow {
-  0%, 100% { box-shadow: 0 0 42px rgba(217, 70, 239, 0.45), 0 0 90px rgba(168, 85, 247, 0.25); }
-  50% { box-shadow: 0 0 64px rgba(217, 70, 239, 0.75), 0 0 130px rgba(34, 211, 238, 0.35); }
+  0%, 100% { box-shadow: 0 0 42px rgba(76, 116, 255, 0.4), 0 0 90px rgba(155, 92, 255, 0.25); }
+  50% { box-shadow: 0 0 64px rgba(76, 116, 255, 0.65), 0 0 130px rgba(45, 212, 191, 0.3); }
 }
-
 @keyframes uvFloat {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
 }
-
 .wow-title {
-  background: linear-gradient(92deg, #ffffff 5%, #e879f9 30%, #a855f7 48%, #22d3ee 72%, #f0abfc 95%);
+  background: linear-gradient(92deg, #ffffff 5%, #8fa6ff 30%, #9b5cff 52%, #2dd4bf 78%, #c8d4ff 95%);
   background-size: 220% auto;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   animation: uvShimmer 6s ease infinite;
-  filter: drop-shadow(0 0 26px rgba(217, 70, 239, 0.55));
+  filter: drop-shadow(0 0 26px rgba(76, 116, 255, 0.5));
 }
-
-.portal-hero {
-  animation: uvPulseGlow 5s ease-in-out infinite;
-}
-
-.glass-card {
-  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
-}
-
+.portal-hero { animation: uvPulseGlow 5s ease-in-out infinite; }
+.glass-card { transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease; }
 .glass-card:hover {
   transform: translateY(-6px) scale(1.012);
-  border-color: #e879f9 !important;
-  box-shadow: 0 0 44px rgba(217, 70, 239, 0.55), 0 0 80px rgba(34, 211, 238, 0.22) !important;
+  border-color: var(--blue-2) !important;
+  box-shadow: 0 0 44px rgba(76, 116, 255, 0.5), 0 0 80px rgba(45, 212, 191, 0.2) !important;
 }
-
-.float-slow {
-  animation: uvFloat 7s ease-in-out infinite;
-}
-
-.neon-btn {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
+.float-slow { animation: uvFloat 7s ease-in-out infinite; }
+.neon-btn { transition: transform 0.25s ease, box-shadow 0.25s ease; }
 .neon-btn:hover {
   transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 0 38px rgba(240, 171, 252, 0.85), 0 0 70px rgba(34, 211, 238, 0.4) !important;
+  box-shadow: 0 0 38px rgba(143, 166, 255, 0.8), 0 0 70px rgba(45, 212, 191, 0.35) !important;
 }
 
-/* Tailwind utility layer — Phase 1 Build 2b.
-   Utilities ONLY (no @tailwind base): globals.css above already owns
-   the app's global rules, and Tailwind's preflight is disabled in
-   tailwind.config.js so the existing screens render unchanged while
-   the Tailwind-written screens (Revenue, Growth Center, Deals,
-   Planner, …) finally get their layout CSS. */
+/* Tailwind utility layer — utilities ONLY (no @tailwind base):
+   globals.css above owns the app's global rules, and Tailwind's
+   preflight is disabled in tailwind.config.js so existing screens
+   keep rendering while Tailwind-written screens get layout CSS. */
 @tailwind utilities;

@@ -80,7 +80,7 @@ const entry = (over: Partial<AdvisorEntryLike>): AdvisorEntryLike => ({
 const deal = (over: Partial<DealLike>): DealLike => ({
   brand_name: "GlowCo",
   platform: null,
-  stage: "active",
+  stage: "contracted",
   compensation_cents: 50000,
   deadline: null,
   ...over,
