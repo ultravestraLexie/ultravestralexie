@@ -139,6 +139,13 @@ export type GalaxyDeal = {
   notes: string;
   pitchedOn: string;
   lastContact: string;
+  /** Full-precision updated_at (ISO timestamp) from the row.
+   *  lastContact above is its calendar-date part, for display;
+   *  prune decisions use this field, never the date — two writes
+   *  on the same day must stay distinguishable. Optional because
+   *  hand-built literals (fixtures, seeds) may omit it; a missing
+   *  timestamp simply never wins a time comparison. */
+  updatedAt?: string;
   dueOn: string | null;
   invoiceSentOn: string | null;
   invoiceDue: string | null;
@@ -176,6 +183,7 @@ export function rowToDeal(r: DealRowLike, brandId: string | null = null): Galaxy
     notes: r.notes ?? "",
     pitchedOn: (r.created_at ?? "").slice(0, 10),
     lastContact: (r.updated_at ?? "").slice(0, 10),
+    updatedAt: r.updated_at ?? "",
     dueOn: r.deadline,
     invoiceSentOn: r.invoice_sent_date,
     invoiceDue: r.payment_due_date,
@@ -234,11 +242,30 @@ export function mergeDealUpdates(
 }
 
 /** Drop locally-applied writes the server rows have caught up
- *  with — the server row now matches the write's fingerprint, or
- *  carries a strictly later updated_at (a newer write landed
- *  elsewhere and server truth wins again). A server row that is
- *  OLDER than the applied write is a raced refresh: the write
- *  stays. Returns the same reference when nothing was pruned. */
+ *  with. A write is pruned ONLY when the server row demonstrably
+ *  carries it or supersedes it:
+ *
+ *  - CARRIED: the server row's fingerprint equals the write's —
+ *    stage and every writable field match, so the server row IS
+ *    the write's committed state and server truth owns the row.
+ *  - SUPERSEDED: the server row's full-precision updated_at is
+ *    STRICTLY LATER than the write's. A row read is atomic, so a
+ *    later updated_at can only come from a different write that
+ *    committed after ours (e.g. an edit in another tab); that
+ *    newer state wins. An EQUAL timestamp is our own write (or a
+ *    same-instant one) and a SMALLER one is a raced refresh whose
+ *    read predates our write — neither may prune: time alone,
+ *    at equal or earlier values, proves nothing about the stage.
+ *
+ *  (Round 1 compared lastContact here — a calendar DATE, so two
+ *  writes on the same day were indistinguishable and the test was
+ *  time-based rather than state-based. updatedAt carries the full
+ *  timestamp. Both rows pass through rowToDeal from the same
+ *  stored column, so the comparison is like-for-like.)
+ *
+ *  A server row that is OLDER than the applied write is a raced
+ *  refresh: the write stays. Returns the same reference when
+ *  nothing was pruned. */
 export function pruneDealUpdates(
   server: GalaxyDeal[],
   updates: Record<string, GalaxyDeal>
@@ -248,15 +275,73 @@ export function pruneDealUpdates(
   for (const [id, u] of Object.entries(updates)) {
     const s = byId.get(id);
     if (!s) continue;
-    if (
-      dealWriteFingerprint(s) === dealWriteFingerprint(u) ||
-      s.lastContact > u.lastContact
-    ) {
+    const carried = dealWriteFingerprint(s) === dealWriteFingerprint(u);
+    const superseded =
+      (s.updatedAt ?? "") !== "" &&
+      (u.updatedAt ?? "") !== "" &&
+      (s.updatedAt as string) > (u.updatedAt as string);
+    if (carried || superseded) {
       if (!next) next = { ...updates };
       delete next[id];
     }
   }
   return next ?? updates;
+}
+
+/* -------- the committed-write store ----------------------------------
+ * The writes above live in a store that OUTLIVES any single host
+ * component. Round 1 kept them in useState inside the sync hook —
+ * i.e. in the Deals board component's own state — so if a raced
+ * router.refresh() payload application remounted or reset that
+ * component between a write landing and the sheet closing, the
+ * overlay vanished and the board fell back to the payload's
+ * pre-write snapshot until the next refresh arrived (battAH
+ * round 2: the invoice step rendered in its old column at first
+ * look, then self-corrected seconds later). Hosts now subscribe
+ * to a module-level store instead: a remounted host re-derives
+ * the merged deals from the store on its very first render, so
+ * the first post-close render shows the committed write no
+ * matter what the refresh cycle did to the component tree. */
+
+export type DealWriteStore = {
+  /** Record a committed write result (from the API response). */
+  apply(deal: GalaxyDeal): void;
+  /** Drop writes the given server rows have caught up with. */
+  prune(server: GalaxyDeal[]): void;
+  /** Current applied writes, keyed by deal id. The reference is
+   *  stable until a write is applied or pruned away. */
+  snapshot(): Record<string, GalaxyDeal>;
+  subscribe(listener: () => void): () => void;
+};
+
+export function createDealWriteStore(): DealWriteStore {
+  let writes: Record<string, GalaxyDeal> = {};
+  const listeners = new Set<() => void>();
+  const emit = () => {
+    for (const l of [...listeners]) l();
+  };
+  return {
+    apply(deal) {
+      writes = { ...writes, [deal.id]: deal };
+      emit();
+    },
+    prune(server) {
+      const next = pruneDealUpdates(server, writes);
+      if (next !== writes) {
+        writes = next;
+        emit();
+      }
+    },
+    snapshot() {
+      return writes;
+    },
+    subscribe(listener) {
+      listeners.add(listener);
+      return () => {
+        listeners.delete(listener);
+      };
+    },
+  };
 }
 
 /** What a deal is actually worth in money terms: the received

@@ -5,7 +5,10 @@ import { useRouter } from "next/navigation";
 import {
   CAP_LABEL,
   pitchText,
+  rowToDeal,
+  type DealRowLike,
   type GalaxyBrand,
+  type GalaxyDeal,
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
 import { Icon, I, Sheet, copyText, toast } from "./ui";
@@ -29,7 +32,10 @@ export function PitchSheet({
   paidCount: number;
   open: boolean;
   onClose: () => void;
-  onSent: () => void;
+  /* The created deal from the POST response body (null only if
+   * the response carried none) so a host holding deal state can
+   * apply it at once instead of waiting on router.refresh(). */
+  onSent: (created: GalaxyDeal | null) => void;
 }) {
   const router = useRouter();
   const [subject, setSubject] = useState("");
@@ -63,11 +69,15 @@ export function PitchSheet({
         }),
       });
       if (res.ok) {
+        const json = (await res.json().catch(() => null)) as {
+          deal?: DealRowLike;
+        } | null;
         toast(`Pitch to ${brand.name} logged in Deals.`);
-        /* The new deal must show up in Deals / Today without a
-         * manual reload — refresh the server data in place. */
+        /* The committed row from the response is handed to the
+         * host so it renders immediately; refresh stays as the
+         * backstop for server-computed props. */
+        onSent(json?.deal ? rowToDeal(json.deal) : null);
         router.refresh();
-        onSent();
         onClose();
       } else {
         toast("The pitch could not be logged. Please try again.");

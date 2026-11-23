@@ -438,7 +438,10 @@ export default function TodayClient(p: Props) {
         paidCount={p.paidCount}
         open={Boolean(pitchBrand)}
         onClose={() => setPitchId(null)}
-        onSent={() => router.refresh()}
+        onSent={(created) => {
+          if (created) applyDeal(created);
+          router.refresh();
+        }}
       />
       <ProfileSheet open={profileOpen} onClose={() => setProfileOpen(false)} categories={p.categories} />
     </div>
