@@ -12,6 +12,7 @@ import {
   publishedOnly,
   type PostLike,
 } from "@/lib/posts/summary";
+import { logCreatorEvent } from "@/lib/events";
 import { computeSummary, type RevenueEntryLike } from "@/lib/revenue/summary";
 
 export const runtime = "nodejs";
@@ -251,6 +252,15 @@ export async function POST(request: Request) {
       .select(GOAL_COLUMNS)
       .single();
     if (error) throw error;
+
+    await logCreatorEvent(
+      owner.supabase,
+      owner.userId,
+      "goal_created",
+      "goal",
+      (data as GoalRow).id,
+      { goal_type: parsed.data.goalType }
+    );
 
     const records = await loadRecords(owner.supabase, owner.userId);
     const stamped = await stampCompletion(

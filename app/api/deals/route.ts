@@ -7,6 +7,7 @@ import {
   type DealLike,
   type DealStage,
 } from "@/lib/business/health";
+import { logCreatorEvent, logDealStageChange } from "@/lib/events";
 
 export const runtime = "nodejs";
 
@@ -223,6 +224,23 @@ export async function POST(request: Request) {
       .single();
     if (error) throw error;
 
+    const created = data as DealRow;
+    await logCreatorEvent(
+      owner.supabase,
+      owner.userId,
+      "deal_created",
+      "deal",
+      created.id,
+      { brand_name: created.brand_name, stage: created.stage }
+    );
+    await logDealStageChange(
+      owner.supabase,
+      owner.userId,
+      created.id,
+      null,
+      created.stage
+    );
+
     return Response.json(
       { success: true, deal: withOverdue(data as DealRow) },
       { status: 201 }
@@ -283,6 +301,20 @@ export async function PATCH(request: Request) {
       if (linkError) return linkError;
     }
 
+    // Build 4: capture the stage BEFORE the update so a stage
+    // change can be recorded honestly (from → to) in the history
+    // table instead of being overwritten without a trace.
+    let priorStage: string | null = null;
+    if (parsed.data.stage !== undefined) {
+      const { data: current } = await owner.supabase
+        .from("creator_deals")
+        .select("stage")
+        .eq("id", parsed.data.id)
+        .eq("user_id", owner.userId)
+        .maybeSingle();
+      priorStage = (current as { stage: string } | null)?.stage ?? null;
+    }
+
     const { data, error } = await owner.supabase
       .from("creator_deals")
       .update(update)
@@ -292,6 +324,28 @@ export async function PATCH(request: Request) {
     if (error) throw error;
     if (!data || data.length === 0) {
       return Response.json({ error: "Deal not found." }, { status: 404 });
+    }
+
+    if (
+      parsed.data.stage !== undefined &&
+      priorStage !== null &&
+      priorStage !== parsed.data.stage
+    ) {
+      await logDealStageChange(
+        owner.supabase,
+        owner.userId,
+        parsed.data.id,
+        priorStage,
+        parsed.data.stage
+      );
+      await logCreatorEvent(
+        owner.supabase,
+        owner.userId,
+        "deal_stage_changed",
+        "deal",
+        parsed.data.id,
+        { from: priorStage, to: parsed.data.stage }
+      );
     }
 
     return Response.json({

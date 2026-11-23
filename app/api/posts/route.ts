@@ -2,6 +2,7 @@ import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
 import { computePostingSummary, planSummary } from "@/lib/posts/summary";
+import { logCreatorEvent } from "@/lib/events";
 
 export const runtime = "nodejs";
 
@@ -227,6 +228,15 @@ export async function POST(request: Request) {
       { status: 500 }
     );
   }
+
+  await logCreatorEvent(
+    owner.supabase,
+    owner.userId,
+    "post_logged",
+    "post",
+    (data as PostRow).id,
+    { platform: parsed.data.platform, state: parsed.data.state }
+  );
 
   return Response.json(
     { success: true, post: data as PostRow },

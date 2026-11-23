@@ -2,6 +2,7 @@ import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
 import { checkRateLimitShared } from "@/lib/rate-limit";
+import { logCreatorEvent } from "@/lib/events";
 import {
   computeBrief,
   isExcluded,
@@ -455,6 +456,15 @@ export async function POST(request: Request) {
         },
         { status: 500 }
       );
+    }
+    // Build 4: one event per stored brief — each brief is a
+    // recommendation record the creator can act on.
+    for (const brief of briefs) {
+      await logCreatorEvent(supabase, user.id, "brief_generated", "partnership_brief", null, {
+        brand_id: brief.brandId,
+        brand_name: brief.brandName,
+        verdict: brief.verdict,
+      });
     }
   }
 

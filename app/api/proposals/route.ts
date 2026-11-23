@@ -2,6 +2,7 @@ import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
 import type { ProposalProofPoint } from "@/lib/proposals/compose";
+import { logCreatorEvent } from "@/lib/events";
 
 export const runtime = "nodejs";
 
@@ -325,6 +326,15 @@ export async function POST(request: Request) {
     );
   }
 
+  await logCreatorEvent(
+    owner.supabase,
+    owner.userId,
+    "proposal_created",
+    "proposal",
+    (data as ProposalRow).id,
+    { brand_name: parsed.data.brandName }
+  );
+
   return Response.json(
     { success: true, proposal: data as ProposalRow },
     { status: 201 }
@@ -383,6 +393,18 @@ export async function PATCH(request: Request) {
     return Response.json(
       { error: "Your proposal could not be updated. Please try again." },
       { status: 500 }
+    );
+  }
+
+  const existingRow = existing as ProposalRow;
+  if (existingRow.status !== parsed.data.status) {
+    await logCreatorEvent(
+      owner.supabase,
+      owner.userId,
+      "proposal_status_changed",
+      "proposal",
+      parsed.data.id,
+      { from: existingRow.status, to: parsed.data.status }
     );
   }
 

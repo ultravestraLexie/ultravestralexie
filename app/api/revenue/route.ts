@@ -2,6 +2,7 @@ import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
 import { computeSummary, type RevenueStatus, type RevenueKind } from "@/lib/revenue/summary";
+import { logCreatorEvent } from "@/lib/events";
 
 export const runtime = "nodejs";
 
@@ -258,6 +259,20 @@ export async function POST(request: Request) {
       { status: 500 }
     );
   }
+
+  await logCreatorEvent(
+    owner.supabase,
+    owner.userId,
+    "revenue_recorded",
+    "revenue_entry",
+    (data as RevenueEntryRow).id,
+    {
+      brand_name: parsed.data.brandName,
+      kind: parsed.data.kind,
+      status: parsed.data.status,
+      deal_id: parsed.data.dealId,
+    }
+  );
 
   return Response.json(
     { success: true, entry: data as RevenueEntryRow },
