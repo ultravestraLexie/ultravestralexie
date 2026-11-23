@@ -196,6 +196,76 @@ const EVALUATION_TIMEOUT_MS = 15_000;
 const PERSONA_TIMEOUT_MS = 30_000;
 const SYNTHESIS_TIMEOUT_MS = 40_000;
 
+// ------------------------------------------------------------------
+// Pacing layer (Phase 1 Build 5 — ported verbatim from the Creator
+// Lab route, where this exact pattern repaired the same failure).
+// The AI Gateway quota is 5 model requests per minute; V3's parallel
+// burst is what produced 429s in the proof battery (beauty/food 200,
+// tech/pets/fashion 500). Every model invocation in this route passes
+// through this pacer:
+//   - the persona stage runs at most PERSONA_MAX_IN_FLIGHT persona
+//     tasks concurrently (a counting semaphore below);
+//   - when an attempt fails with a 429, the next attempt waits for
+//     the provider's retry-after when one is supplied, otherwise a
+//     bounded backoff — and the wait happens INSIDE the piece's
+//     existing attempt budget (runPiece retries), never in addition
+//     to it;
+//   - a wait that would cross the route's cumulative deadline is
+//     refused: the piece fails and the route answers with its
+//     standard error (fail-closed), exactly as V3 fails on deadline.
+// The engine itself — prompts, schemas, stages, coverage gates — is
+// unchanged; only the invocation pattern is paced.
+// ------------------------------------------------------------------
+const PERSONA_MAX_IN_FLIGHT = 2;
+const MAX_429_WAIT_MS = 15_000;
+const BACKOFF_BASE_MS = 2_000;
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// Returns the wait (ms) before retrying a failed attempt, or null
+// when the error is not a rate-limit error. retry-after is honored
+// in both of its forms (delta-seconds and HTTP-date) and every wait
+// is bounded by MAX_429_WAIT_MS; without a header, a bounded
+// exponential backoff is used.
+function rateLimitWaitMs(error: unknown, attemptIndex: number): number | null {
+  const e = error as {
+    status?: unknown;
+    statusCode?: unknown;
+    name?: unknown;
+    responseHeaders?: Record<string, string>;
+    headers?: Record<string, string>;
+  } | null;
+  const status =
+    typeof e?.status === "number"
+      ? e.status
+      : typeof e?.statusCode === "number"
+        ? e.statusCode
+        : undefined;
+  const name = typeof e?.name === "string" ? e.name : "";
+  const message = error instanceof Error ? error.message : String(error);
+  const isRateLimit =
+    status === 429 ||
+    /rate.?limit/i.test(name) ||
+    /\b429\b|too many requests|rate limit/i.test(message);
+  if (!isRateLimit) return null;
+
+  const headers = e?.responseHeaders ?? e?.headers ?? {};
+  const retryAfter = headers["retry-after"] ?? headers["Retry-After"];
+  if (typeof retryAfter === "string" && retryAfter.trim().length > 0) {
+    const seconds = Number(retryAfter);
+    if (Number.isFinite(seconds)) {
+      return Math.min(Math.max(0, seconds * 1000), MAX_429_WAIT_MS);
+    }
+    const at = Date.parse(retryAfter);
+    if (!Number.isNaN(at)) {
+      return Math.min(Math.max(0, at - Date.now()), MAX_429_WAIT_MS);
+    }
+  }
+  return Math.min(BACKOFF_BASE_MS * 2 ** attemptIndex, MAX_429_WAIT_MS);
+}
+
 // Runs one generation piece with an abort timeout, retrying it on any
 // failure (including abort/timeout) up to maxRetries times (default 1,
 // the route's standard reliability retry). Returns the piece's value
@@ -203,10 +273,17 @@ const SYNTHESIS_TIMEOUT_MS = 40_000;
 // needed. Throws if every attempt fails. The timeout may be a factory,
 // re-evaluated per attempt, so callers can bound an attempt by a
 // shared cumulative deadline rather than a fixed budget.
+//
+// Pacing: when an attempt fails with a 429 and attempts remain, the
+// pacer waits (retry-after or bounded backoff) before the next
+// attempt — but only if the wait itself fits before `deadlineAt`;
+// otherwise the piece fails immediately rather than letting total
+// elapsed time cross the cumulative deadline.
 async function runPiece<T>(
   attempt: (signal: AbortSignal) => Promise<T>,
   timeoutMs: number | (() => number),
-  maxRetries = 1
+  maxRetries = 1,
+  deadlineAt?: number
 ): Promise<{ value: T; ms: number }> {
   const start = Date.now();
   let lastError: unknown = null;
@@ -224,6 +301,17 @@ async function runPiece<T>(
       return { value, ms: Date.now() - start };
     } catch (error) {
       lastError = error;
+      if (i < maxRetries) {
+        const wait = rateLimitWaitMs(error, i);
+        if (wait !== null && wait > 0) {
+          // Fail closed: never let a pacing wait push the request
+          // past its cumulative deadline.
+          if (deadlineAt !== undefined && Date.now() + wait >= deadlineAt) {
+            break;
+          }
+          await sleep(wait);
+        }
+      }
     } finally {
       clearTimeout(timer);
     }
@@ -231,6 +319,29 @@ async function runPiece<T>(
   throw lastError instanceof Error
     ? lastError
     : new Error("The AI did not return a valid report.");
+}
+
+// Counting semaphore capping how many persona tasks run at once.
+// Persona-stage concurrency is the burst the gateway quota cannot
+// absorb; every other stage is sequential by construction.
+function createSemaphore(max: number) {
+  let active = 0;
+  const waiters: (() => void)[] = [];
+  return {
+    async acquire(): Promise<void> {
+      if (active < max) {
+        active += 1;
+        return;
+      }
+      await new Promise<void>((resolve) => waiters.push(resolve));
+      active += 1;
+    },
+    release(): void {
+      active -= 1;
+      const next = waiters.shift();
+      if (next) next();
+    },
+  };
 }
 
 export async function POST(request: Request) {
@@ -376,7 +487,7 @@ ${contextBlock}
         .map((el, i) => ({ ...el, id: `P${i + 1}` }));
 
       return { ...output, elements };
-    }, () => budget(EXTRACTION_TIMEOUT_MS));
+    }, () => budget(EXTRACTION_TIMEOUT_MS), 1, deadlineAt);
 
     const extraction = extractionResult.value;
 
@@ -442,7 +553,7 @@ ${JSON.stringify(extraction.elements, null, 2)}
       }
 
       return output;
-    }, () => budget(EVALUATION_TIMEOUT_MS));
+    }, () => budget(EVALUATION_TIMEOUT_MS), 1, deadlineAt);
 
     const evaluation = evaluationResult.value;
 
@@ -482,6 +593,11 @@ Extraction confidence: ${extraction.confidence}${
         ids.length === inventoryIds.length;
       return { exact, validCount, missing, unknown };
     };
+
+    // Build 5 pacing: at most PERSONA_MAX_IN_FLIGHT persona tasks run
+    // concurrently (V3 ran all five in parallel — the burst that hit
+    // the gateway's 5-requests-per-minute quota in the battery).
+    const personaSemaphore = createSemaphore(PERSONA_MAX_IN_FLIGHT);
 
     const personaResults = await Promise.all(
       PERSONAS.map((persona) => {
@@ -559,10 +675,14 @@ Do not invent facts about the product.
         };
 
         return (async (): Promise<{ value: PersonaOutput; ms: number }> => {
+          await personaSemaphore.acquire();
+          try {
           const start = Date.now();
           const first = await runPiece(
             (signal) => attemptPersona(signal, ""),
-            () => budget(PERSONA_TIMEOUT_MS)
+            () => budget(PERSONA_TIMEOUT_MS),
+            1,
+            deadlineAt
           );
           const firstCoverage = assessCoverage(first.value);
           if (firstCoverage.exact) {
@@ -605,7 +725,8 @@ Do not invent facts about the product.
             const second = await runPiece(
               (signal) => attemptPersona(signal, problems),
               () => budget(PERSONA_TIMEOUT_MS),
-              0
+              0,
+              deadlineAt
             );
             const secondCoverage = assessCoverage(second.value);
             // Selection: prefer exact coverage; if neither attempt
@@ -622,6 +743,9 @@ Do not invent facts about the product.
             // First attempt stands; its coverage is recorded as-is.
           }
           return { value: chosen, ms: Date.now() - start };
+          } finally {
+            personaSemaphore.release();
+          }
         })();
       })
     );
@@ -695,7 +819,7 @@ Do not invent facts about the product.
       }
 
       return output;
-    }, () => budget(SYNTHESIS_TIMEOUT_MS));
+    }, () => budget(SYNTHESIS_TIMEOUT_MS), 1, deadlineAt);
 
     // Assemble the full report in the exact shape the page expects and
     // validate it before returning — a partial report is never sent.
