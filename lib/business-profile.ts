@@ -121,6 +121,18 @@ export function identityCompleteness(
   return { filled, total: IDENTITY_FIELD_COUNT };
 }
 
+/** Display band for a count — the same bands Campaign Match and
+ *  the profile page use (<1k / 1-10k / 10-50k / 50-250k / 250k-1M /
+ *  >1M). */
+export function bandForCount(n: number): string {
+  if (n < 1000) return "<1k";
+  if (n < 10000) return "1-10k";
+  if (n < 50000) return "10-50k";
+  if (n < 250000) return "50-250k";
+  if (n < 1000000) return "250k-1M";
+  return ">1M";
+}
+
 /* Build 10 (P2) — the profile intelligence panel + continuous
  * learning. Every line is computed from the creator's own saved
  * profile; nothing is synced, scraped or invented. Audience growth
@@ -156,7 +168,7 @@ export function profileIntelligence(
   if (profile.audienceSize !== null) {
     entries.push({
       label: "MATCHING BAND",
-      line: `Campaign Match searches the ${bandFor(profile.audienceSize)} follower band${
+      line: `Campaign Match searches the ${bandForCount(profile.audienceSize)} follower band${
         profile.platforms.length
           ? ` on ${profile.platforms.join(" and ")}`
           : ""
