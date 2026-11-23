@@ -23,11 +23,9 @@ const panel: React.CSSProperties = {
   boxShadow: "0 0 30px rgba(168,85,247,0.20)",
 };
 
-const PLAN_PRICES: Record<string, string> = {
-  starter: "$29.99/month",
-  pro: "$49.99/month",
-  elite: "$99.99/month",
-};
+/* Plan names and prices are read from the plans table — the same
+ * rows the Stripe webhook resolves plan_id against. No hardcoded
+ * price list to drift. */
 
 function fmtDate(value: string | null): string {
   if (!value) return "—";
@@ -46,7 +44,7 @@ export default async function SettingsPage() {
   const [subRes, prefsRes, profileRes] = await Promise.all([
     supabase
       .from("subscriptions")
-      .select("plan, status, current_period_end, created_at")
+      .select("plan_id, status, current_period_end, created_at")
       .eq("user_id", user.id)
       .maybeSingle(),
     supabase
@@ -62,7 +60,7 @@ export default async function SettingsPage() {
   ]);
 
   const sub = subRes.data as {
-    plan: string | null;
+    plan_id: string | null;
     status: string | null;
     current_period_end: string | null;
     created_at: string | null;
@@ -71,9 +69,20 @@ export default async function SettingsPage() {
     (prefsRes.data as { weekly_post_goal: number } | null)?.weekly_post_goal ?? 5;
   const username =
     (profileRes.data as { username: string | null } | null)?.username ?? "";
-  const planName = sub?.plan
-    ? `${sub.plan.charAt(0).toUpperCase()}${sub.plan.slice(1)}`
-    : "Member";
+  let planName = "Member";
+  let planPrice: string | null = null;
+  if (sub?.plan_id) {
+    const { data: plan } = await supabase
+      .from("plans")
+      .select("name, price_monthly")
+      .eq("id", sub.plan_id)
+      .maybeSingle();
+    const p = plan as { name: string; price_monthly: number | null } | null;
+    if (p?.name) planName = p.name;
+    if (p?.price_monthly != null) {
+      planPrice = `$${Number(p.price_monthly).toFixed(2)}/month`;
+    }
+  }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 22, maxWidth: 860 }}>
@@ -107,7 +116,7 @@ export default async function SettingsPage() {
               <strong>Plan:</strong>{" "}
               <span style={{ color: "#ddd0ff" }}>
                 UltraVestra {planName}
-                {sub.plan && PLAN_PRICES[sub.plan] ? ` — ${PLAN_PRICES[sub.plan]}` : ""}
+                {planPrice ? ` — ${planPrice}` : ""}
               </span>
             </p>
             <p style={{ margin: "0 0 8px", fontSize: 15.5 }}>

@@ -179,15 +179,26 @@ export default async function RootLayout({
     );
   }
 
+  /* The subscriptions table carries plan_id (the webhook resolves
+   * it from the Stripe price); the plan's name lives in the plans
+   * table. Selecting a "plan" column that does not exist errors the
+   * whole read — found by the Build 9 acceptance pass. */
   const { data: sub } = await supabase
     .from("subscriptions")
-    .select("plan")
+    .select("plan_id")
     .eq("user_id", user.id)
     .maybeSingle();
-  const planRaw = (sub?.plan as string | null) ?? null;
-  const planLabel = planRaw
-    ? `${planRaw.charAt(0).toUpperCase()}${planRaw.slice(1)} Member`
-    : "UltraVestra Member";
+  let planLabel = "UltraVestra Member";
+  const planId = (sub?.plan_id as string | null) ?? null;
+  if (planId) {
+    const { data: plan } = await supabase
+      .from("plans")
+      .select("name")
+      .eq("id", planId)
+      .maybeSingle();
+    const planName = (plan?.name as string | null) ?? null;
+    if (planName) planLabel = `${planName} Member`;
+  }
 
   return (
     <html lang="en">
