@@ -56,7 +56,27 @@ type Deal = {
     dueDateCalculated: boolean;
     daysOutstanding: number | null;
   };
+  deliverable_items: DeliverableItem[];
 };
+
+/* Build 14 — one promised piece of content under a deal: its
+ * own deadline, its status in the creator's tracking, and how
+ * many revision rounds it has been through. */
+type DeliverableItem = {
+  id: string;
+  deal_id: string;
+  title: string;
+  due_date: string | null;
+  status: "pending" | "delivered" | "approved";
+  revisions: number;
+  overdue: boolean;
+};
+
+const DELIVERABLE_STATUS_OPTIONS: { value: string; label: string }[] = [
+  { value: "pending", label: "To do" },
+  { value: "delivered", label: "Delivered" },
+  { value: "approved", label: "Approved" },
+];
 
 type BrandHistory = {
   brandName: string;
@@ -139,6 +159,135 @@ function money(cents: number): string {
 function formatDate(iso: string): string {
   const [y, m, d] = iso.split("-").map(Number);
   return `${MONTH_NAMES[m - 1]} ${d}, ${y}`;
+}
+
+/* Build 14 — the deliverables tracker on a deal card: each
+ * promised piece of content with its own deadline, status, and
+ * revision count. Status is the creator's own tracking, like
+ * the deal stages above it. */
+function DeliverablesBlock({
+  deal,
+  onAdd,
+  onPatch,
+  onDelete,
+}: {
+  deal: Deal;
+  onAdd: (dealId: string, title: string, dueDate: string) => Promise<void>;
+  onPatch: (id: string, patch: Record<string, unknown>) => Promise<void>;
+  onDelete: (id: string) => Promise<void>;
+}) {
+  const [title, setTitle] = useState("");
+  const [due, setDue] = useState("");
+  const items = deal.deliverable_items ?? [];
+  return (
+    <div className="mt-3 rounded-xl border border-white/10 bg-white/[.02] px-4 py-3">
+      <p className="text-xs tracking-widest text-gray-400 mb-2">
+        DELIVERABLES — CONTENT DEADLINES &amp; REVISIONS (TRACKED BY YOU)
+      </p>
+      {items.length === 0 ? (
+        <p className="text-gray-400 text-sm">
+          No deliverables tracked yet. Add each piece of content you
+          owe this brand, with the date it is due.
+        </p>
+      ) : (
+        <div className="flex flex-col gap-2">
+          {items.map((item) => (
+            <div
+              key={item.id}
+              className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm"
+            >
+              <span className="text-gray-200 font-medium">{item.title}</span>
+              {item.due_date && (
+                <span
+                  className={
+                    item.overdue
+                      ? "text-red-300 font-semibold"
+                      : "text-gray-400"
+                  }
+                >
+                  Due {formatDate(item.due_date)}
+                  {item.overdue ? " — overdue" : ""}
+                </span>
+              )}
+              <select
+                className="bg-[#080b14] border border-white/10 rounded-lg px-2 py-1 text-white"
+                value={item.status}
+                onChange={(e) =>
+                  onPatch(item.id, { status: e.target.value })
+                }
+              >
+                {DELIVERABLE_STATUS_OPTIONS.map((s) => (
+                  <option key={s.value} value={s.value}>
+                    {s.label}
+                  </option>
+                ))}
+              </select>
+              <label className="text-gray-400">
+                Revisions
+                <input
+                  type="number"
+                  min="0"
+                  className="ml-2 w-16 bg-[#080b14] border border-white/10 rounded-lg px-2 py-1 text-white"
+                  defaultValue={item.revisions.toString()}
+                  onBlur={(e) => {
+                    const v = Math.round(Number(e.target.value));
+                    if (Number.isFinite(v) && v >= 0 && v !== item.revisions) {
+                      onPatch(item.id, { revisions: v });
+                    }
+                  }}
+                />
+              </label>
+              <input
+                type="date"
+                className="bg-[#080b14] border border-white/10 rounded-lg px-2 py-1 text-white"
+                defaultValue={item.due_date ?? ""}
+                onBlur={(e) => {
+                  const v = e.target.value === "" ? null : e.target.value;
+                  if (v !== item.due_date) {
+                    onPatch(item.id, { dueDate: v });
+                  }
+                }}
+              />
+              <button
+                type="button"
+                className="text-gray-500 underline"
+                onClick={() => onDelete(item.id)}
+              >
+                Remove
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
+      <div className="flex flex-wrap items-center gap-2 mt-3">
+        <input
+          type="text"
+          className="flex-1 min-w-[180px] bg-[#080b14] border border-white/10 rounded-lg px-3 py-2 text-white"
+          placeholder="New deliverable — e.g. TikTok video 1"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        />
+        <input
+          type="date"
+          className="bg-[#080b14] border border-white/10 rounded-lg px-3 py-2 text-white"
+          value={due}
+          onChange={(e) => setDue(e.target.value)}
+        />
+        <button
+          type="button"
+          className="rounded-lg border border-cyan-400/40 px-3 py-2 text-cyan-200"
+          onClick={async () => {
+            if (!title.trim()) return;
+            await onAdd(deal.id, title.trim(), due);
+            setTitle("");
+            setDue("");
+          }}
+        >
+          Add deliverable
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default function BrandDealsPage() {
@@ -306,6 +455,63 @@ export default function BrandDealsPage() {
       setError(e instanceof Error ? e.message : "Your deal could not be deleted.");
     } finally {
       setBusyId(null);
+    }
+  }
+
+  async function addDeliverable(dealId: string, title: string, dueDate: string) {
+    setError("");
+    try {
+      const response = await fetch("/api/deals/deliverables", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          dealId,
+          title,
+          dueDate: dueDate === "" ? null : dueDate,
+        }),
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "The deliverable could not be saved.");
+      }
+      await load();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "The deliverable could not be saved.");
+    }
+  }
+
+  async function patchDeliverable(id: string, patch: Record<string, unknown>) {
+    setError("");
+    try {
+      const response = await fetch("/api/deals/deliverables", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, ...patch }),
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "The deliverable could not be updated.");
+      }
+      await load();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "The deliverable could not be updated.");
+    }
+  }
+
+  async function deleteDeliverable(id: string) {
+    setError("");
+    try {
+      const response = await fetch(
+        `/api/deals/deliverables?id=${encodeURIComponent(id)}`,
+        { method: "DELETE" }
+      );
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "The deliverable could not be deleted.");
+      }
+      await load();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "The deliverable could not be deleted.");
     }
   }
 
@@ -575,6 +781,27 @@ export default function BrandDealsPage() {
                           )}
                           {deal.deliverables && (
                             <p className="text-gray-300 mt-2">{deal.deliverables}</p>
+                          )}
+                          <DeliverablesBlock
+                            deal={deal}
+                            onAdd={addDeliverable}
+                            onPatch={patchDeliverable}
+                            onDelete={deleteDeliverable}
+                          />
+                          {deal.compensation_cents !== null && (
+                            <p className="mt-2 text-sm">
+                              <a
+                                href={`/growth-center/deals/invoice?deal=${deal.id}`}
+                                className="text-cyan-300 underline"
+                              >
+                                View invoice →
+                              </a>{" "}
+                              <span className="text-gray-500">
+                                — a clean invoice built from this deal&apos;s
+                                recorded figures, ready to print or save
+                                as a PDF.
+                              </span>
+                            </p>
                           )}
                           {deal.notes && (
                             <p className="text-gray-400 mt-1 text-sm">{deal.notes}</p>

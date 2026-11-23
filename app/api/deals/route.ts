@@ -296,9 +296,41 @@ export async function GET() {
       .order("created_at", { ascending: true });
     if (error) throw error;
 
-    const deals = ((data ?? []) as DealRow[]).map((d) =>
+    const baseDeals = ((data ?? []) as DealRow[]).map((d) =>
       withPayment(withOverdue(d))
     );
+
+    // Build 14 — deliverables tracked under each deal (content
+    // deadlines + revision rounds). A failure here degrades the
+    // deliverable lists, never the deals themselves. Overdue is
+    // computed, never stored: due date passed and the item is
+    // not yet approved by the brand.
+    const { data: itemRows } = await owner.supabase
+      .from("deal_deliverables")
+      .select(
+        "id, deal_id, title, due_date, status, revisions, created_at, updated_at"
+      )
+      .eq("user_id", owner.userId)
+      .order("created_at", { ascending: true });
+    const today = todayUtc();
+    const itemsByDeal = new Map<string, Record<string, unknown>[]>();
+    for (const row of (itemRows ?? []) as Record<string, unknown>[]) {
+      const dealId = row.deal_id as string;
+      const item = {
+        ...row,
+        overdue:
+          typeof row.due_date === "string" &&
+          (row.due_date as string) < today &&
+          row.status !== "approved",
+      };
+      const list = itemsByDeal.get(dealId) ?? [];
+      list.push(item);
+      itemsByDeal.set(dealId, list);
+    }
+    const deals = baseDeals.map((d) => ({
+      ...d,
+      deliverable_items: itemsByDeal.get(d.id) ?? [],
+    }));
     const pipeline = summarizePipeline(deals as DealLike[]);
 
     // Follow-up queue inputs: the creator's own sent proposals.
