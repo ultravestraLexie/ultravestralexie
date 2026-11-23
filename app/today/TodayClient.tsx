@@ -5,15 +5,18 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
   ACTIVE_STAGES,
+  CAP_LABEL,
   EMPTY_ANSWERS,
   QUESTIONS,
   STAGES,
+  firstMoveTitle,
   fmtMoney,
   isOverdue,
   plural,
   reminderText as mkReminder,
   shortMoney,
   stageOf,
+  type AdvisorReport,
   type GalaxyBrand,
   type GalaxyDeal,
   type GalaxyProfile,
@@ -64,6 +67,7 @@ type Props = {
   profile: GalaxyProfile;
   deals: GalaxyDeal[];
   insights: Insight[];
+  advisor: AdvisorReport;
   pitchBrands: GalaxyBrand[];
   paidCount: number;
   paidThisMonthCents: number;
@@ -316,6 +320,107 @@ export default function TodayClient(p: Props) {
     </section>
   ) : null;
 
+  /* Creator Business Advisor (System #5): diagnostics only — the
+   * actions live in "What needs you" below; this panel reads the
+   * business and points at the list's first move. Every figure
+   * comes from the advisor report computed in core.ts. */
+  const adv = p.advisor;
+  const firstMove = firstMoveTitle(p.insights);
+  const conc = adv.concentration;
+  const concFlagged = Boolean(
+    conc && conc.paidDealCount >= 2 && conc.topSharePct >= 60
+  );
+  const week = adv.weekAhead;
+  const advisorPanel = (
+    <section className="gx-panel" aria-labelledby="advisor-h">
+      <div className="gx-panel-head">
+        <h2 id="advisor-h">Your business advisor</h2>
+        <span className="gx-muted">Read from your own deals, money and brands</span>
+      </div>
+      <div className="gx-adv-block">
+        <div className="gx-adv-label">Today&rsquo;s first move</div>
+        <div style={{ fontWeight: 600, lineHeight: 1.35 }}>
+          {firstMove ?? EMPTY_ANSWERS.all}
+        </div>
+        {firstMove ? (
+          <p className="gx-sub">It is the top action in &ldquo;What needs you&rdquo; below.</p>
+        ) : null}
+      </div>
+      <div className="gx-adv-block">
+        <div className="gx-adv-label">Income health</div>
+        {conc ? (
+          <div>
+            {concFlagged ? (
+              <p style={{ margin: "0 0 6px", lineHeight: 1.45 }}>
+                <span className="gx-pill gx-pill-warn">
+                  One brand is {conc.topSharePct}% of your deal income — if they
+                  pause, the month breaks
+                </span>
+              </p>
+            ) : null}
+            <p style={{ margin: 0, lineHeight: 1.45 }}>
+              {conc.topBrandName} is your top payer at {conc.topSharePct}% of paid
+              deal income. {plural(conc.payingBrands, "paying brand")} · income in{" "}
+              {conc.monthsWithIncome} of the last 6 months.
+            </p>
+            <p className="gx-sub">Figured from your paid deals.</p>
+          </div>
+        ) : (
+          <p style={{ margin: 0, lineHeight: 1.45 }}>
+            No income pattern to read yet. Once paid deals land, this shows where
+            your deal money comes from — and whether one brand carries it.
+          </p>
+        )}
+      </div>
+      {adv.neglectedCount > 0 ? (
+        <div className="gx-adv-block">
+          <div className="gx-adv-label">Neglected opportunities</div>
+          <div>
+            {adv.neglected.map((b) => (
+              <div key={b.id} className="gx-adv-row">
+                <div>
+                  <div style={{ fontWeight: 600, lineHeight: 1.35 }}>{b.name}</div>
+                  <div style={{ color: "var(--ink-3)", fontSize: 13.5, marginTop: 2 }}>
+                    Saved by you, accepting now
+                    {b.rate != null
+                      ? ` · ${b.rate}% commission, ${CAP_LABEL[b.cap].toLowerCase()}`
+                      : ` · commission ${CAP_LABEL[b.cap].toLowerCase()}`}
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  className="gx-btn gx-btn-sm"
+                  onClick={() => setPitchId(b.id)}
+                >
+                  Write pitch
+                </button>
+              </div>
+            ))}
+          </div>
+          {adv.neglectedCount > adv.neglected.length ? (
+            <p className="gx-sub">
+              Plus {plural(adv.neglectedCount - adv.neglected.length, "more saved brand")}{" "}
+              waiting in Brands.
+            </p>
+          ) : null}
+        </div>
+      ) : null}
+      {week ? (
+        <div className="gx-adv-block">
+          <div className="gx-adv-label">The week ahead</div>
+          <p style={{ margin: 0, lineHeight: 1.45 }}>
+            {week.covered
+              ? `${week.label} is covered — ${fmtMoney(week.expectedCents)} expected against your ${fmtMoney(adv.baselineCents)} average month.`
+              : `${week.label} looks ${fmtMoney(week.gapCents)} light against your ${fmtMoney(adv.baselineCents)} average month.`}
+            {!week.covered && week.dealsToClose
+              ? ` About ${plural(week.dealsToClose, "average deal")} at your usual size would close it.`
+              : ""}
+          </p>
+        </div>
+      ) : null}
+    </section>
+  );
+
   const weekPanel = (
     <section className="gx-panel" aria-labelledby="week-h">
       <div className="gx-panel-head">
@@ -363,6 +468,7 @@ export default function TodayClient(p: Props) {
       <div className="gx-today-grid">
         <div style={{ display: "grid", gap: 20 }}>
           {isNew ? stepsPanel : null}
+          {advisorPanel}
           <section className="gx-panel" aria-labelledby="next-h">
             <div className="gx-panel-head">
               <h2 id="next-h">What needs you</h2>

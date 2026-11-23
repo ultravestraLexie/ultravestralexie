@@ -770,7 +770,29 @@ export function computeInsights(input: InsightInput): Insight[] {
       act: "open-deal",
     });
   }
-  for (const b of matchesToPitch(input, 3)) {
+  /* Creator Business Advisor (System #5): concentration risk.
+   *  One brand at 60%+ of the creator's paid-deal income over the
+   *  last 6 months is a weak income source made visible — but
+   *  only with at least two paid deals: a single paid deal is
+   *  trivially 100% and proves no pattern. */
+  const concentration = incomeConcentration(input.deals, now);
+  if (
+    concentration &&
+    concentration.paidDealCount >= 2 &&
+    concentration.topSharePct >= 60
+  ) {
+    out.push({
+      kind: "risk",
+      priority: 58,
+      title: `${concentration.topBrandName} is ${concentration.topSharePct}% of your deal income`,
+      why: "One brand brings in most of your paid deal money — if they pause, the month breaks.",
+      cta: "Pitch someone new",
+      act: "go",
+      to: "/brands",
+    });
+  }
+  const pitchMatches = matchesToPitch(input, 3);
+  for (const b of pitchMatches) {
     const bits = ["Accepting now"];
     if (b.rate != null) bits.push(`${b.rate}% commission, ${CAP_LABEL[b.cap].toLowerCase()}`);
     else bits.push(`commission ${CAP_LABEL[b.cap].toLowerCase()}`);
@@ -782,6 +804,27 @@ export function computeInsights(input: InsightInput): Insight[] {
       brandId: b.id,
       title: `Pitch ${b.name}`,
       why: bits.join(", ") + ".",
+      cta: "Write pitch",
+      act: "pitch",
+    });
+  }
+  /* Creator Business Advisor (System #5): a saved brand the
+   *  creator never pitched is a neglected opportunity. Fires for
+   *  the first such brand that the pitch matches above did NOT
+   *  already produce an action for — never a duplicate. */
+  const neglectedPick = neglectedOpportunities(input.deals, input.brands).find(
+    (b) => !pitchMatches.some((m) => m.id === b.id)
+  );
+  if (neglectedPick) {
+    const bits = ["Saved by you", "accepting now"];
+    if (neglectedPick.rate != null)
+      bits.push(`${neglectedPick.rate}% commission, ${CAP_LABEL[neglectedPick.cap].toLowerCase()}`);
+    out.push({
+      kind: "pitch",
+      priority: 34,
+      brandId: neglectedPick.id,
+      title: `You saved ${neglectedPick.name} — pitch them`,
+      why: bits.join(", ") + ". You have not pitched them yet.",
       cta: "Write pitch",
       act: "pitch",
     });
@@ -1512,5 +1555,142 @@ export function counterOfferText(
     profile.name || "Your name"
   );
   return parts.join("\n");
+}
+
+/* ---------------- Creator Business Advisor (System #5) -------------
+ * The advisor layer on Today: DIAGNOSTICS, not a second action
+ * list. Every figure below is computed from the creator's own
+ * records under the owner's rule — every recommendation uses the
+ * creator's actual business information. Nothing is benchmarked,
+ * estimated or invented: a pattern that isn't in the rows is
+ * reported as not there. */
+
+export type IncomeConcentration = {
+  topBrandName: string;
+  /** Top brand's share of paid-deal income, whole percent. */
+  topSharePct: number;
+  topCents: number;
+  totalCents: number;
+  paidDealCount: number;
+  /** Distinct brands among the paid deals in the window. */
+  payingBrands: number;
+  /** Months in the window whose paid-deal income was above zero. */
+  monthsWithIncome: number;
+};
+
+/** Income concentration over PAID DEALS ONLY, last 6 calendar
+ *  months (the same window as the money chart). Payout/income
+ *  entries are a different source with no brand attached, so they
+ *  are never blended in — the panel says the share is figured
+ *  from paid deals. Returns null when no deal was paid in the
+ *  window: there is no income pattern to read. */
+export function incomeConcentration(
+  deals: GalaxyDeal[],
+  now = new Date()
+): IncomeConcentration | null {
+  const windowKeys = new Set(monthsBackMoney(deals, [], 6, now).map((m) => m.key));
+  const paid = deals.filter(
+    (d) => d.stage === "paid" && d.paidOn && windowKeys.has(monthKeyOf(d.paidOn))
+  );
+  if (paid.length === 0) return null;
+  const byBrand = new Map<string, number>();
+  const byMonth = new Map<string, number>();
+  let total = 0;
+  for (const d of paid) {
+    const cents = dealPaidCents(d);
+    byBrand.set(d.brandName, (byBrand.get(d.brandName) ?? 0) + cents);
+    const mk = monthKeyOf(d.paidOn as string);
+    byMonth.set(mk, (byMonth.get(mk) ?? 0) + cents);
+    total += cents;
+  }
+  let topBrandName = "";
+  let topCents = -1;
+  for (const [name, cents] of byBrand) {
+    if (cents > topCents) {
+      topBrandName = name;
+      topCents = cents;
+    }
+  }
+  return {
+    topBrandName,
+    topSharePct: total > 0 ? Math.round((topCents / total) * 100) : 0,
+    topCents,
+    totalCents: total,
+    paidDealCount: paid.length,
+    payingBrands: byBrand.size,
+    monthsWithIncome: [...byMonth.values()].filter((c) => c > 0).length,
+  };
+}
+
+/** Neglected opportunities: brands the creator SAVED, that are
+ *  accepting, and that they have NEVER pitched — no deal with the
+ *  brand in any stage, live or lost (a brand already pitched and
+ *  lost was not neglected; it was tried). Matching is by brand id
+ *  when a deal carries one, else by name — the matching the
+ *  codebase uses everywhere. Best first: uncapped, then highest
+ *  commission (the matchesToPitch order, minus the niche rule —
+ *  a saved brand is the creator's own pick, niche or not). */
+export function neglectedOpportunities(
+  deals: GalaxyDeal[],
+  brands: GalaxyBrand[]
+): GalaxyBrand[] {
+  const dealBrandIds = new Set(deals.map((d) => d.brandId).filter(Boolean));
+  const dealNames = new Set(deals.map((d) => d.brandName.toLowerCase()));
+  return brands
+    .filter(
+      (b) =>
+        b.saved &&
+        b.accepting &&
+        !dealBrandIds.has(b.id) &&
+        !dealNames.has(b.name.toLowerCase())
+    )
+    .sort(
+      (a, b) =>
+        Number(b.cap === "uncapped") - Number(a.cap === "uncapped") ||
+        (b.rate ?? 0) - (a.rate ?? 0)
+    );
+}
+
+export type AdvisorReport = {
+  concentration: IncomeConcentration | null;
+  /** Neglected brands to show (at most 3). */
+  neglected: GalaxyBrand[];
+  /** Total neglected brands, shown and unshown. */
+  neglectedCount: number;
+  /** Next month's gap read from the Money Center's incomeOutlook
+   *  — the same math Money shows. Null when history is
+   *  insufficient: Money already carries the honest empty state,
+   *  so the advisor omits the line instead of repeating a
+   *  non-answer. */
+  weekAhead: GapMonth | null;
+  /** The baseline weekAhead is measured against (valid whenever
+   *  weekAhead is non-null). */
+  baselineCents: number;
+};
+
+/** The full advisor read for Today, from the rows the page
+ *  already loads: deals (incl. paid history), brands (incl.
+ *  saved) and payout/income entries. */
+export function computeAdvisor(
+  input: { deals: GalaxyDeal[]; brands: GalaxyBrand[]; income: GalaxyIncome[] },
+  now = new Date()
+): AdvisorReport {
+  const neglectedAll = neglectedOpportunities(input.deals, input.brands);
+  const outlook = incomeOutlook(input.deals, input.income, now);
+  return {
+    concentration: incomeConcentration(input.deals, now),
+    neglected: neglectedAll.slice(0, 3),
+    neglectedCount: neglectedAll.length,
+    weekAhead: outlook.enoughHistory ? (outlook.months[1] ?? null) : null,
+    baselineCents: outlook.baselineCents,
+  };
+}
+
+/** Today's first move: the title of the single highest-priority
+ *  insight the existing engine produced (the list arrives sorted,
+ *  highest first). Null when the list is empty — the panel then
+ *  shows the engine's own honest empty line. */
+export function firstMoveTitle(insights: Insight[]): string | null {
+  return insights.length ? insights[0].title : null;
 }
 

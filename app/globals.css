@@ -285,6 +285,27 @@ textarea.gx-input { resize: vertical; min-height: 110px; line-height: 1.5; }
 .gx-list > li + li { border-top: 1px solid var(--line); }
 .gx-empty { padding: 22px 4px; color: var(--ink-2); }
 .gx-empty p { margin: 0 0 12px; }
+
+/* Creator Business Advisor (System #5) — diagnostic blocks inside
+ * the Today advisor panel: stacked reads separated by hairlines. */
+.gx-adv-block { padding: 12px 0; border-top: 1px solid var(--line); }
+.gx-adv-block:first-of-type { border-top: 0; padding-top: 2px; }
+.gx-adv-block:last-of-type { padding-bottom: 2px; }
+.gx-adv-label {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 6px;
+}
+.gx-adv-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 6px 12px;
+  align-items: center;
+  padding: 8px 0;
+}
+.gx-adv-row + .gx-adv-row { border-top: 1px solid var(--line); }
 .gx-sr {
   position: absolute;
   width: 1px; height: 1px;

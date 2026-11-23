@@ -1,10 +1,12 @@
 import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
 import {
+  computeAdvisor,
   computeInsights,
   daysAgo,
   fmtMoney,
   matchesToPitch,
+  neglectedOpportunities,
   overdueCents,
   owedCents,
   paidInMonth,
@@ -61,7 +63,21 @@ export default async function TodayPage() {
 
   const input = { deals, brands, profile, postsThisWeek, scriptCount, protectionByDeal: protections, now };
   const insights = computeInsights(input);
-  const pitchBrands = matchesToPitch(input, 3);
+  /* Creator Business Advisor (System #5): diagnostics from the
+   * same rows — concentration, neglected saved brands, and next
+   * month's gap read via the Money Center's own outlook math. */
+  const advisor = computeAdvisor({ deals, brands, income }, now);
+  /* The pitch sheet resolves its brand from this list, so it must
+   * cover every brand an action can open: the pitch matches AND
+   * every neglected saved brand (the advisor panel and its
+   * insight pitch from there). */
+  const pitchBrands = [
+    ...new Map(
+      [...matchesToPitch(input, 3), ...neglectedOpportunities(deals, brands)].map(
+        (b) => [b.id, b] as const
+      )
+    ).values(),
+  ];
   const paidCount = deals.filter((d) => d.stage === "paid").length;
 
   const urgent = insights.filter((x) =>
@@ -103,6 +119,7 @@ export default async function TodayPage() {
       profile={profile}
       deals={deals}
       insights={insights}
+      advisor={advisor}
       pitchBrands={pitchBrands}
       paidCount={paidCount}
       paidThisMonthCents={paidInMonth(deals, income, monthKeyOf(todayKey(now)))}
