@@ -23,6 +23,7 @@ export const GATED_PREFIXES = [
   "/academy",
   "/studio",
   "/dashboard",
+  "/get-started",
   "/secret-weapon",
   "/human-buying-lab",
   "/buyer-brain",

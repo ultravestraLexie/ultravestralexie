@@ -206,7 +206,10 @@ export function CreateAccountForm({
       return;
     }
     await requestAttach();
-    router.push("/dashboard");
+    // New accounts go through Get Started — the guided path to a
+    // first computed insight — instead of landing cold on the
+    // dashboard. Returning logins keep their ?next= target.
+    router.push("/get-started");
     router.refresh();
   }
 

@@ -598,6 +598,32 @@ export default async function DashboardPage() {
             </Link>
           </section>
 
+          {/* GET STARTED — shown only while the account has no
+              profile, no posts and no recorded revenue yet: the
+              guided path to a first insight. It disappears on its
+              own once the records exist. */}
+          {user &&
+            completeness.filled === 0 &&
+            posting.totalPosts === 0 &&
+            revenue.totalEarnedCents === 0 && (
+              <section style={panel}>
+                <h2 style={{ fontSize: 21, margin: "0 0 6px" }}>
+                  🚀 New here? Get started
+                </h2>
+                <p style={{ color: "#ddd0ff", margin: "0 0 8px", fontSize: 15 }}>
+                  Three short steps — your basics, a first deal, a
+                  first post — and UltraVestra computes your first
+                  business insight from your own records.
+                </p>
+                <Link
+                  href="/get-started"
+                  style={{ color: "#67e8f9", fontWeight: 700, fontSize: 14.5 }}
+                >
+                  Start the guided setup →
+                </Link>
+              </section>
+            )}
+
           {/* NEXT ACTIONS */}
           {user && (
             <section style={panel}>
