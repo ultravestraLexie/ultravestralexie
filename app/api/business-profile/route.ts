@@ -2,6 +2,7 @@ import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
 import {
+  identityCompleteness,
   profileCompleteness,
   rowToProfile,
   type BusinessProfileRow,
@@ -37,10 +38,18 @@ const ProfileSchema = z.object({
   pastPartnerships: z.string().max(2000).default(""),
   revenueStreams: z.array(z.string().trim().min(1).max(40)).max(12).default([]),
   businessObjectives: z.string().max(2000).default(""),
+  // Identity layer + goals (Build 8) — optional on the wire so
+  // older clients keep saving; the page always sends them.
+  creatorName: z.string().max(120).default(""),
+  businessDescription: z.string().max(2000).default(""),
+  uniqueSellingProposition: z.string().max(2000).default(""),
+  differentiator: z.string().max(2000).default(""),
+  professionalExperience: z.string().max(2000).default(""),
+  businessGoals: z.array(z.string().trim().min(1).max(60)).max(12).default([]),
 });
 
 const PROFILE_COLUMNS =
-  "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives";
+  "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives, creator_name, business_description, unique_selling_proposition, differentiator, professional_experience, business_goals";
 
 async function requireOwner() {
   const gate = await getGateState();
@@ -97,6 +106,7 @@ export async function GET() {
     success: true,
     profile,
     completeness: profileCompleteness(profile),
+    identity: identityCompleteness(profile),
   });
 }
 
@@ -137,6 +147,12 @@ export async function PUT(request: Request) {
         past_partnerships: p.pastPartnerships.trim(),
         revenue_streams: p.revenueStreams,
         business_objectives: p.businessObjectives.trim(),
+        creator_name: p.creatorName.trim(),
+        business_description: p.businessDescription.trim(),
+        unique_selling_proposition: p.uniqueSellingProposition.trim(),
+        differentiator: p.differentiator.trim(),
+        professional_experience: p.professionalExperience.trim(),
+        business_goals: p.businessGoals,
         updated_at: new Date().toISOString(),
       },
       { onConflict: "user_id" }
@@ -157,5 +173,6 @@ export async function PUT(request: Request) {
     success: true,
     profile,
     completeness: profileCompleteness(profile),
+    identity: identityCompleteness(profile),
   });
 }

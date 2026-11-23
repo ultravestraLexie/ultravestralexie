@@ -123,7 +123,7 @@ export async function GET() {
         owner.supabase
           .from("creator_business_profiles")
           .select(
-            "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives"
+            "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives, creator_name, business_description, unique_selling_proposition, differentiator, professional_experience, business_goals"
           )
           .eq("user_id", owner.userId)
           .maybeSingle(),

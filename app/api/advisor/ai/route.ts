@@ -307,7 +307,7 @@ export async function POST() {
         owner.supabase
           .from("creator_business_profiles")
           .select(
-            "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives"
+            "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives, creator_name, business_description, unique_selling_proposition, differentiator, professional_experience, business_goals"
           )
           .eq("user_id", owner.userId)
           .maybeSingle(),
@@ -369,18 +369,28 @@ export async function POST() {
       businessProfile: profile
         ? {
             fieldsCompleted: completeness?.filled ?? 0,
-            fieldsTotal: completeness?.total ?? 9,
+            fieldsTotal: completeness?.total ?? 10,
             platforms: profile.platforms,
             contentCategories: profile.contentCategories,
             audienceSize: profile.audienceSize,
             averageViews: profile.averageViews,
             engagementRatePct: profile.engagementRate,
             revenueStreams: profile.revenueStreams,
+            businessGoals: profile.businessGoals,
             businessObjectives: profile.businessObjectives,
+            // The identity layer (Build 8) — how this creator's
+            // business differs from every other creator's. The
+            // brief may use these to fit its advice; they are the
+            // creator's own words, quoted from their profile.
+            creatorName: profile.creatorName,
+            businessDescription: profile.businessDescription,
+            uniqueSellingProposition: profile.uniqueSellingProposition,
+            whatMakesContentDifferent: profile.differentiator,
+            professionalExperience: profile.professionalExperience,
           }
         : {
             fieldsCompleted: 0,
-            fieldsTotal: completeness?.total ?? 9,
+            fieldsTotal: completeness?.total ?? 10,
             note: "No Creator Business Profile saved yet.",
           },
       posting: {
