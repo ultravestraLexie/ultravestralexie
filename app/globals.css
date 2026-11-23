@@ -314,6 +314,40 @@ textarea.gx-input { resize: vertical; min-height: 110px; line-height: 1.5; }
   white-space: nowrap;
 }
 
+/* Audience Independence Center (System #6) — Passport panel rows:
+ * one standing per tracked platform; the email row is the owned
+ * audience and is tinted apart from the platform rows. */
+.gx-aud-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 4px 14px;
+  padding: 10px 0;
+  align-items: start;
+}
+.gx-aud-row + .gx-aud-row { border-top: 1px solid var(--line); }
+.gx-aud-owned {
+  background: rgba(61, 214, 140, 0.06);
+  border: 1px solid rgba(61, 214, 140, 0.22);
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin: 4px 0;
+}
+.gx-aud-row.gx-aud-owned { border-top: 1px solid rgba(61, 214, 140, 0.22); }
+.gx-aud-up { color: #a6f0c9; }
+.gx-aud-down { color: #ffb6c4; }
+.gx-aud-form {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.gx-aud-form .gx-field { margin-bottom: 10px; }
+@media (max-width: 860px) {
+  .gx-aud-form { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .gx-aud-form { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* sheets (dialog) + toast */
 dialog.gx-sheet {
   border: 0;

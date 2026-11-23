@@ -1,6 +1,6 @@
 import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
-import { fetchDeals, fetchProfile } from "@/lib/galaxy/server";
+import { fetchAudienceSnapshots, fetchDeals, fetchProfile } from "@/lib/galaxy/server";
 import PassportClient from "./PassportClient";
 
 export const dynamic = "force-dynamic";
@@ -19,9 +19,10 @@ export default async function PassportPage() {
   } = await supabase.auth.getUser();
   if (!user) return null;
 
-  const [profile, deals, entriesRes, shareRes, catRows] = await Promise.all([
+  const [profile, deals, snapshots, entriesRes, shareRes, catRows] = await Promise.all([
     fetchProfile(supabase, user.id),
     fetchDeals(supabase, user.id),
+    fetchAudienceSnapshots(supabase, user.id),
     supabase
       .from("passport_entries")
       .select("id, section, payload, verification_status, created_at")
@@ -76,6 +77,7 @@ export default async function PassportPage() {
     <PassportClient
       profile={profile}
       paidDeals={paidDeals}
+      snapshots={snapshots}
       collabs={collabs}
       testimonials={testimonials}
       categories={categories}

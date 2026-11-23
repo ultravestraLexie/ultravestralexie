@@ -1694,3 +1694,255 @@ export function firstMoveTitle(insights: Insight[]): string | null {
   return insights.length ? insights[0].title : null;
 }
 
+/* ---------------- Audience Independence Center (System #6) ----------
+ * The owner's problem statement: creators depend too heavily on
+ * social platforms and their algorithms. This section tracks the
+ * audience the creator ENTERS BY HAND (public.audience_snapshots)
+ * — there are no platform API connections, and every figure here
+ * is computed only from the creator's own snapshots. The email
+ * list is the owned antidote: it counts toward total reach and
+ * the owned share, but it is EXCLUDED from platform reach and
+ * from the dependency share — a big list must never make the
+ * platform risk look bigger, and a platform must never get credit
+ * for the audience the creator actually owns.
+ *
+ * Snapshots are ordered newest-first per platform by captured_on,
+ * ties broken by created_at (the later entry wins — it is the
+ * correction). Growth needs two snapshots: with only one, growth
+ * is null (there is no story yet), never zero-by-default. */
+
+export const AUDIENCE_PLATFORMS = [
+  "tiktok",
+  "instagram",
+  "youtube",
+  "x",
+  "facebook",
+  "twitch",
+  "podcast",
+  "email",
+  "other",
+] as const;
+
+export type AudiencePlatform = (typeof AUDIENCE_PLATFORMS)[number];
+
+export const isAudiencePlatform = (p: string): p is AudiencePlatform =>
+  (AUDIENCE_PLATFORMS as readonly string[]).includes(p);
+
+/** Display label for an audience platform — the email list is
+ *  named for what it is: the audience the creator owns. */
+export const audiencePlatformLabel = (p: string): string =>
+  p === "email" ? "Email list" : platformLabel(p);
+
+/** Platform options for the log form: the creator's own profile
+ *  platforms first (those the snapshot enum can hold), then the
+ *  rest of the enum in canonical order. The email list is in the
+ *  enum, so it is always available. */
+export function audiencePlatformOptions(profilePlatforms: string[]): string[] {
+  const own = profilePlatforms
+    .map((p) => p.toLowerCase())
+    .filter((p, i, arr) => isAudiencePlatform(p) && arr.indexOf(p) === i);
+  const rest = AUDIENCE_PLATFORMS.filter((p) => !own.includes(p));
+  return [...own, ...rest];
+}
+
+export type AudienceSnapshot = {
+  id: string;
+  platform: string;
+  followers: number;
+  engagementPct: number | null;
+  /** YYYY-MM-DD the creator says the numbers are as of. */
+  capturedOn: string;
+  createdAt: string;
+};
+
+export type AudienceRowLike = {
+  id: string;
+  platform: string;
+  followers: number;
+  engagement_pct: number | string | null;
+  captured_on: string;
+  created_at: string;
+};
+
+export function rowToSnapshot(r: AudienceRowLike): AudienceSnapshot {
+  return {
+    id: r.id,
+    platform: r.platform,
+    followers: r.followers,
+    engagementPct: r.engagement_pct == null ? null : Number(r.engagement_pct),
+    capturedOn: String(r.captured_on).slice(0, 10),
+    createdAt: r.created_at,
+  };
+}
+
+/** Newest first: later captured_on wins; on the same day, the
+ *  later-entered row wins (it is the correction). */
+function byRecency(a: AudienceSnapshot, b: AudienceSnapshot): number {
+  if (a.capturedOn !== b.capturedOn)
+    return b.capturedOn.localeCompare(a.capturedOn);
+  return b.createdAt.localeCompare(a.createdAt);
+}
+
+/** Snapshots for one platform, newest first. */
+export function platformHistory(
+  snapshots: AudienceSnapshot[],
+  platform: string
+): AudienceSnapshot[] {
+  return snapshots.filter((s) => s.platform === platform).sort(byRecency);
+}
+
+/** The latest snapshot per platform that has one, keyed by
+ *  platform. Platforms never logged are absent, not zero. */
+export function latestPerPlatform(
+  snapshots: AudienceSnapshot[]
+): Map<string, AudienceSnapshot> {
+  const out = new Map<string, AudienceSnapshot>();
+  for (const s of [...snapshots].sort(byRecency)) {
+    if (!out.has(s.platform)) out.set(s.platform, s);
+  }
+  return out;
+}
+
+export type EngagementTrend = "up" | "down" | "flat";
+
+export type PlatformStanding = {
+  platform: string;
+  /** Latest snapshot's follower count. */
+  followers: number;
+  /** Latest snapshot's date (YYYY-MM-DD). */
+  capturedOn: string;
+  /** Latest snapshot's engagement %, when the creator entered it. */
+  engagementPct: number | null;
+  /** Latest − previous followers; null with a single snapshot. */
+  growthSinceLast: number | null;
+  /** Latest − first followers; null with a single snapshot. */
+  growthSinceFirst: number | null;
+  /** Latest vs previous engagement %; null when either is missing
+   *  (or there is no previous snapshot). */
+  engagementTrend: EngagementTrend | null;
+};
+
+/** One standing per tracked platform, biggest audience first
+ *  (ties by platform name). Empty input → empty list. */
+export function audienceStandings(
+  snapshots: AudienceSnapshot[]
+): PlatformStanding[] {
+  const platforms = [...new Set(snapshots.map((s) => s.platform))];
+  const out: PlatformStanding[] = platforms.map((platform) => {
+    const hist = platformHistory(snapshots, platform);
+    const latest = hist[0];
+    const previous = hist[1] ?? null;
+    const first = hist[hist.length - 1];
+    let engagementTrend: EngagementTrend | null = null;
+    if (
+      previous &&
+      latest.engagementPct != null &&
+      previous.engagementPct != null
+    ) {
+      const diff = latest.engagementPct - previous.engagementPct;
+      engagementTrend =
+        Math.abs(diff) < 1e-9 ? "flat" : diff > 0 ? "up" : "down";
+    }
+    return {
+      platform,
+      followers: latest.followers,
+      capturedOn: latest.capturedOn,
+      engagementPct: latest.engagementPct,
+      growthSinceLast: previous ? latest.followers - previous.followers : null,
+      growthSinceFirst:
+        hist.length > 1 ? latest.followers - first.followers : null,
+      engagementTrend,
+    };
+  });
+  return out.sort(
+    (a, b) => b.followers - a.followers || a.platform.localeCompare(b.platform)
+  );
+}
+
+export type AudienceSummary = {
+  /** Sum of latest followers across every tracked platform,
+   *  email included. Null when nothing is tracked. */
+  totalReach: number | null;
+  /** Sum of latest followers across platforms EXCLUDING email.
+   *  Null when no platform is tracked. */
+  platformReach: number | null;
+  /** Latest email-list size; null when the list is untracked. */
+  emailFollowers: number | null;
+  /** The platform (never email) with the largest latest audience. */
+  biggestPlatform: string | null;
+  biggestFollowers: number | null;
+  /** Biggest platform ÷ platform reach, whole percent. Null when
+   *  there is no platform reach to divide. */
+  dependencyPct: number | null;
+  /** The runner-up platform — the hedge against the biggest. */
+  secondPlatform: string | null;
+  secondPct: number | null;
+  /** Email ÷ total reach, whole percent. Null when total reach
+   *  is zero or nothing is tracked. */
+  ownedPct: number | null;
+};
+
+/** The dependency + ownership read. Email is excluded from
+ *  platform reach and from the dependency share by design (see
+ *  the section note). Zero snapshots → every figure null. */
+export function audienceSummary(
+  snapshots: AudienceSnapshot[]
+): AudienceSummary {
+  const empty: AudienceSummary = {
+    totalReach: null,
+    platformReach: null,
+    emailFollowers: null,
+    biggestPlatform: null,
+    biggestFollowers: null,
+    dependencyPct: null,
+    secondPlatform: null,
+    secondPct: null,
+    ownedPct: null,
+  };
+  if (!snapshots.length) return empty;
+  const standings = audienceStandings(snapshots);
+  const email = standings.find((s) => s.platform === "email") ?? null;
+  const platforms = standings.filter((s) => s.platform !== "email");
+  const totalReach = standings.reduce((t, s) => t + s.followers, 0);
+  const platformReach = platforms.length
+    ? platforms.reduce((t, s) => t + s.followers, 0)
+    : null;
+  const biggest = platforms[0] ?? null;
+  const second = platforms[1] ?? null;
+  return {
+    totalReach,
+    platformReach,
+    emailFollowers: email ? email.followers : null,
+    biggestPlatform: biggest ? biggest.platform : null,
+    biggestFollowers: biggest ? biggest.followers : null,
+    dependencyPct:
+      biggest && platformReach && platformReach > 0
+        ? Math.round((biggest.followers / platformReach) * 100)
+        : null,
+    secondPlatform: second ? second.platform : null,
+    secondPct:
+      second && platformReach && platformReach > 0
+        ? Math.round((second.followers / platformReach) * 100)
+        : null,
+    ownedPct:
+      totalReach > 0
+        ? Math.round(((email?.followers ?? 0) / totalReach) * 100)
+        : null,
+  };
+}
+
+/** The plain verdict on the dependency share — the owner's
+ *  thresholds: at 70%+ one platform controls the reach; at half,
+ *  half the reach rides on it; below half the reach is spread. */
+export function dependencyVerdict(dependencyPct: number): string {
+  if (dependencyPct >= 70) return "One platform controls most of your reach";
+  if (dependencyPct >= 50) return "Half your reach rides on one platform";
+  return "Your reach is spread across platforms";
+}
+
+/** The next-step math: how many owned subscribers moving just 1%
+ *  of the biggest platform's audience to the email list adds. */
+export function onePercentMove(biggestFollowers: number): number {
+  return Math.round(biggestFollowers * 0.01);
+}
+

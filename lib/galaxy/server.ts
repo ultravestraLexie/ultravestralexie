@@ -12,6 +12,9 @@ import {
   capFromNotes,
   rowToDeal,
   rowToProtection,
+  rowToSnapshot,
+  type AudienceRowLike,
+  type AudienceSnapshot,
   type DealProtection,
   type DealRowLike,
   type ProtectionRowLike,
@@ -88,6 +91,24 @@ export async function fetchProtections(
     out[r.deal_id] = rowToProtection(r);
   }
   return out;
+}
+
+/** Audience Independence snapshots (System #6) for the caller,
+ *  newest first (captured_on, then created_at — the ordering
+ *  core.ts treats as recency). Creator-entered numbers only;
+ *  capped so the Passport panel stays a summary, not an archive. */
+export async function fetchAudienceSnapshots(
+  supabase: ServerClient,
+  userId: string
+): Promise<AudienceSnapshot[]> {
+  const { data } = await supabase
+    .from("audience_snapshots")
+    .select("id, platform, followers, engagement_pct, captured_on, created_at")
+    .eq("user_id", userId)
+    .order("captured_on", { ascending: false })
+    .order("created_at", { ascending: false })
+    .limit(200);
+  return ((data ?? []) as AudienceRowLike[]).map((r) => rowToSnapshot(r));
 }
 
 export async function fetchPosts(

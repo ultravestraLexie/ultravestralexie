@@ -5,9 +5,11 @@ import { useRouter } from "next/navigation";
 import {
   initials,
   platformLabel,
+  type AudienceSnapshot,
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
 import { ProfileSheet } from "@/components/galaxy/ProfileSheet";
+import AudiencePanel from "@/components/galaxy/AudiencePanel";
 import { Icon, I, Sheet, copyText, toast } from "@/components/galaxy/ui";
 
 /* PASSPORT client — hero, figures, verified + self-reported
@@ -23,6 +25,7 @@ type Testimonial = { id: string; quote: string; author: string };
 export default function PassportClient({
   profile,
   paidDeals,
+  snapshots,
   collabs,
   testimonials,
   categories,
@@ -31,6 +34,7 @@ export default function PassportClient({
 }: {
   profile: GalaxyProfile;
   paidDeals: PaidDeal[];
+  snapshots: AudienceSnapshot[];
   collabs: Collab[];
   testimonials: Testimonial[];
   categories: string[];
@@ -194,6 +198,8 @@ export default function PassportClient({
           </div>
         </div>
       </section>
+
+      <AudiencePanel snapshots={snapshots} profilePlatforms={profile.platforms} />
 
       <div className="gx-pass-grid">
         <section className="gx-panel" aria-labelledby="col-h">
