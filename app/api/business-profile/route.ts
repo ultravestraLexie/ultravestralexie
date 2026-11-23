@@ -4,6 +4,7 @@ import { getGateState } from "@/lib/gate";
 import {
   identityCompleteness,
   profileCompleteness,
+  profileIntelligence,
   rowToProfile,
   type BusinessProfileRow,
 } from "@/lib/business-profile";
@@ -49,7 +50,7 @@ const ProfileSchema = z.object({
 });
 
 const PROFILE_COLUMNS =
-  "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives, creator_name, business_description, unique_selling_proposition, differentiator, professional_experience, business_goals";
+  "platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives, creator_name, business_description, unique_selling_proposition, differentiator, professional_experience, business_goals, updated_at";
 
 async function requireOwner() {
   const gate = await getGateState();
@@ -102,11 +103,16 @@ export async function GET() {
   }
 
   const profile = data ? rowToProfile(data as BusinessProfileRow) : null;
+  const updatedAt = data
+    ? ((data as { updated_at?: string }).updated_at ?? null)
+    : null;
   return Response.json({
     success: true,
     profile,
     completeness: profileCompleteness(profile),
     identity: identityCompleteness(profile),
+    intelligence: profileIntelligence(profile, updatedAt),
+    profileUpdatedAt: updatedAt,
   });
 }
 

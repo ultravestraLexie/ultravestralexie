@@ -120,3 +120,68 @@ export function identityCompleteness(
   if (profile.professionalExperience.trim() !== "") filled += 1;
   return { filled, total: IDENTITY_FIELD_COUNT };
 }
+
+/* Build 10 (P2) — the profile intelligence panel + continuous
+ * learning. Every line is computed from the creator's own saved
+ * profile; nothing is synced, scraped or invented. Audience growth
+ * is stated honestly: no history snapshots exist yet, so no trend
+ * is claimed — the panel says so instead of fabricating a delta. */
+export function profileIntelligence(
+  profile: BusinessProfile | null,
+  updatedAt: string | null
+): { label: string; line: string }[] {
+  if (!profile) return [];
+  const anyFilled =
+    profileCompleteness(profile).filled > 0 ||
+    identityCompleteness(profile).filled > 0;
+  if (!anyFilled) return [];
+  const entries: { label: string; line: string }[] = [];
+
+  if (updatedAt) {
+    const days = Math.max(
+      0,
+      Math.floor((Date.now() - new Date(updatedAt).getTime()) / 86_400_000)
+    );
+    entries.push({
+      label: "PROFILE FRESHNESS",
+      line:
+        days > 30
+          ? `Last updated ${days} days ago. Audiences and rates move fast — refresh your numbers so your matches stay accurate.`
+          : days === 0
+            ? "Updated today. Your matches and advice are working from current numbers."
+            : `Updated ${days} ${days === 1 ? "day" : "days"} ago — current enough that your matches stay accurate.`,
+    });
+  }
+
+  if (profile.audienceSize !== null) {
+    entries.push({
+      label: "MATCHING BAND",
+      line: `Campaign Match searches the ${bandFor(profile.audienceSize)} follower band${
+        profile.platforms.length
+          ? ` on ${profile.platforms.join(" and ")}`
+          : ""
+      }. Keep your audience size honest — the band is where your briefs compete.`,
+    });
+  }
+
+  if (profile.revenueStreams.length > 0) {
+    entries.push({
+      label: "LEAD MONETIZATION",
+      line: `Your profile leads with ${profile.revenueStreams[0]} — partnership tools see that stream first when they read your business.`,
+    });
+  }
+
+  if (profile.businessGoals.length > 0) {
+    entries.push({
+      label: "GOAL FOCUS",
+      line: `Working toward: ${profile.businessGoals.slice(0, 2).join(" · ")} — your Advisor brief is written with these goals in view.`,
+    });
+  }
+
+  entries.push({
+    label: "AUDIENCE GROWTH",
+    line: "Growth tracking starts once your profile has 30 days of history. UltraVestra does not invent a trend before it has the data.",
+  });
+
+  return entries;
+}

@@ -143,6 +143,9 @@ export default function BusinessProfilePage() {
   const [categoriesText, setCategoriesText] = useState("");
   const [completeness, setCompleteness] = useState({ filled: 0, total: 10 });
   const [identity, setIdentity] = useState({ filled: 0, total: 5 });
+  const [intelligence, setIntelligence] = useState<
+    { label: string; line: string }[]
+  >([]);
   const [loading, setLoading] = useState(true);
   const [saveState, setSaveState] = useState<SaveState>("saved");
   const [fieldError, setFieldError] = useState("");
@@ -162,6 +165,7 @@ export default function BusinessProfilePage() {
         }
         if (res.ok && data.completeness) setCompleteness(data.completeness);
         if (res.ok && data.identity) setIdentity(data.identity);
+        if (res.ok && data.intelligence) setIntelligence(data.intelligence);
       } catch {
         setError("Your business profile could not be loaded. Please try again.");
       } finally {
@@ -832,6 +836,34 @@ export default function BusinessProfilePage() {
                 it&rsquo;s done.
               </p>
             </div>
+          </section>
+
+          <section className="rounded-3xl border border-white/10 bg-[#111827] p-6 md:p-8 mt-6">
+            <div className="text-gray-300 text-xs tracking-widest mb-4">
+              ULTRAVESTRA INTELLIGENCE — FROM YOUR SAVED PROFILE
+            </div>
+            {intelligence.length ? (
+              <div className="space-y-4">
+                {intelligence.map((e) => (
+                  <div key={e.label}>
+                    <div className="text-[11px] tracking-widest text-violet-300">
+                      {e.label}
+                    </div>
+                    <p className="text-sm leading-6 text-gray-300 mt-1">
+                      {e.line}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm leading-6 text-gray-300">
+                Complete your profile above and this panel shows how it
+                is working for you — your matching band, your lead
+                monetization, your goal focus, and whether your numbers
+                are still fresh. Nothing here is invented: every line is
+                computed from your own saved profile.
+              </p>
+            )}
           </section>
         </>
       )}
