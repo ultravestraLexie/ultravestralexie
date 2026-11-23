@@ -246,20 +246,32 @@ export default async function DashboardPage() {
     { label: "Creator Identity", done: identity.filled === identity.total, note: `${identity.filled} of ${identity.total} · recommended` },
   ];
 
+  /* THE PLATFORM DIRECTORY — every core feature exactly once, each
+   * card leading to its own working destination (owner's standard,
+   * Build 9b). Duplicates merged: the three Commissions cards are
+   * one card now. Growth Center and Profile live in the sidebar, not
+   * here. The 16 preserved one-off pages are out of navigation by
+   * the owner's order — their code and content stay in place. */
   const sections: { href: string; emoji: string; title: string; line: string; live?: string }[] = [
     { href: "/opportunities", emoji: "🎯", title: "Opportunity Finder", line: "Brands accepting applications, and high-score brands worth pitching.", live: list.length ? `${stats.accepting} accepting now` : undefined },
     { href: "/discover", emoji: "🔎", title: "Product Research", line: "Search brands and products by niche, platform and commission model.", live: list.length ? `${stats.total} brands searchable` : undefined },
-    { href: "/commissions", emoji: "🔒", title: "Capped Commissions", line: "Programs whose terms publish an earnings ceiling — know it before you create.", live: list.length ? `${stats.capped} on record` : undefined },
-    { href: "/commissions", emoji: "✅", title: "Uncapped Commissions", line: "Verified no-cap programs, proven from the brand's own published terms.", live: list.length ? `${stats.uncapped} verified` : undefined },
-    { href: "/commissions", emoji: "❔", title: "Commission Cap Unknown", line: "A published rate is not proof of no cap. These limits are honestly unknown.", live: list.length ? `${stats.unknownCap} unknown` : undefined },
+    { href: "/commissions", emoji: "💰", title: "Commissions", line: "Every program's earnings ceiling in one place — verified uncapped, capped, and honestly unknown.", live: list.length ? `${stats.uncapped} uncapped · ${stats.capped} capped · ${stats.unknownCap} unknown` : undefined },
     { href: "/brands", emoji: "🧠", title: "Brand Intelligence", line: "Full profiles: scores with reasons, contacts, compensation, sourced evidence.", live: list.length ? `${stats.total} profiles` : undefined },
-    { href: "/coach", emoji: "🔬", title: "Video Intelligence Lab", line: "Hooks, scripts, video lessons and sales techniques — plus the diagnostic that shows why a video performs." },
-    { href: "/growth-center", emoji: "🌱", title: "Creator Growth Center", line: "Your creator operating system — recorded earnings, posting consistency, platform connections, and every growth tool in one hub." },
-    { href: "/growth-center/profile", emoji: "🪪", title: "Creator Business Profile", line: "Your platforms, audience and goals in one profile — the tools read it, so matches and advice fit your business." },
-    { href: "/pillars", emoji: "🏛️", title: "The Nine Pillars", line: "The map of the whole platform — every capability, organized by the job it does for your creator business." },
-    { href: "/studio", emoji: "🎬", title: "Video Strategy & Script Studio", line: "Build a complete selling script from your own product facts, beat by beat." },
+    { href: "/campaign-match", emoji: "🤝", title: "Campaign Match", line: "Partnership briefs scored against your business profile." },
+    { href: "/creator-lab", emoji: "🎬", title: "Creator Lab", line: "Make a better video: hooks, structure, and the exact fix list." },
+    { href: "/buyer-brain", emoji: "🛒", title: "Buyer Brain", line: "Five simulated buyers challenge your script before real customers see it." },
     { href: "/ask", emoji: "✨", title: "Ask UltraVestra AI", line: "One question in — a sourced research report with brands, contacts and a pitch out." },
+    { href: "/studio", emoji: "🎥", title: "Video Strategy & Script Studio", line: "Build a complete selling script from your own product facts, beat by beat." },
+    { href: "/trend-radar", emoji: "📡", title: "Trend Radar", line: "What is rising in your niches, computed from the directory's own research." },
+    { href: "/alerts", emoji: "🔔", title: "Opportunity Alerts", line: "New brands and openings matched to your categories, as they land." },
+    { href: "/passport", emoji: "🛂", title: "Reputation Passport", line: "Your creator reputation record — the proof brands ask for." },
+    { href: "/growth-map", emoji: "🗺️", title: "Creator Growth Map", line: "Your stage today, your next milestone, and the path between them." },
+    { href: "/command-center", emoji: "🧭", title: "Command Center", line: "Your whole business in one room — money, deals, content and goals, read together." },
+    { href: "/proposals", emoji: "✉️", title: "Proposal Builder", line: "Briefs that become proposals a brand can accept." },
+    { href: "/revenue", emoji: "💵", title: "Revenue Tracker", line: "Every dollar recorded — owed, pending and paid." },
+    { href: "/saved", emoji: "🔖", title: "Saved Brands", line: "The brands you saved while researching, in one place." },
     { href: "/academy", emoji: "🎓", title: "Creator Academy", line: "Searchable lessons on hooks, scripts, filming, pitching, money and growth.", live: "12 lessons" },
+    { href: "/pillars", emoji: "🏛️", title: "The Nine Pillars", line: "The map of the whole platform — every capability, organized by the job it does for your creator business." },
   ];
 
   const statCards: { icon: string; value: string; label: string; sub: string }[] = [

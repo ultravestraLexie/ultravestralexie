@@ -3,10 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-/* App navigation for the member shell (Build 9 — the owner's mockup
- * frame). One source for both the desktop sidebar and the phone
- * bottom tabs. Active state = the longest matching route prefix, so
- * /growth-center/profile lights Profile, not Growth Center. */
+/* App navigation for the member shell (Build 9/9b — the owner's
+ * mockup frame). The sidebar order and labels match his reference
+ * pictures exactly: Home, Advisor, Campaign Match, Analytics,
+ * Content Tools, Marketplace, Academy, Growth Center, Profile,
+ * Settings, Help & Support. The phone tabs match his phone picture:
+ * Home, Analytics, the V button, Academy, Profile. Active state =
+ * the longest matching route prefix, so /growth-center/profile
+ * lights Profile, not Growth Center. */
 
 const ic = (children: React.ReactNode) => (
   <svg
@@ -24,113 +28,93 @@ const ic = (children: React.ReactNode) => (
   </svg>
 );
 
+const ICONS = {
+  home: ic(
+    <>
+      <path d="M3 10.5 12 3l9 7.5" />
+      <path d="M5 9.5V21h14V9.5" />
+      <path d="M9.5 21v-6h5v6" />
+    </>
+  ),
+  advisor: ic(
+    <>
+      <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z" />
+      <path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z" />
+    </>
+  ),
+  target: ic(
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <circle cx="12" cy="12" r="5" />
+      <circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none" />
+    </>
+  ),
+  analytics: ic(
+    <>
+      <path d="M3 20h18" />
+      <path d="M7 20v-6" />
+      <path d="M12 20V6" />
+      <path d="M17 20v-9" />
+    </>
+  ),
+  tools: ic(
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M10 8.5v7l6-3.5z" fill="currentColor" stroke="none" />
+    </>
+  ),
+  marketplace: ic(
+    <>
+      <path d="M5 8h14l-1.2 12.2a1.8 1.8 0 0 1-1.8 1.8H8a1.8 1.8 0 0 1-1.8-1.8z" />
+      <path d="M8.5 10.5V6.5a3.5 3.5 0 0 1 7 0v4" />
+    </>
+  ),
+  academy: ic(
+    <>
+      <path d="M2.5 9.5 12 5l9.5 4.5L12 14z" />
+      <path d="M6.5 11.5V16c0 1.5 2.5 3 5.5 3s5.5-1.5 5.5-3v-4.5" />
+      <path d="M21.5 9.5V15" />
+    </>
+  ),
+  growth: ic(
+    <>
+      <path d="M3.5 17.5 9 12l3.5 3.5L20 8" />
+      <path d="M14.5 8H20v5.5" />
+    </>
+  ),
+  profile: ic(
+    <>
+      <circle cx="12" cy="8" r="4" />
+      <path d="M4.5 20.5c1.4-3.4 4.2-5 7.5-5s6.1 1.6 7.5 5" />
+    </>
+  ),
+  settings: ic(
+    <>
+      <circle cx="12" cy="12" r="3.2" />
+      <path d="M12 2.8v3M12 18.2v3M2.8 12h3M18.2 12h3M5.5 5.5l2.1 2.1M16.4 16.4l2.1 2.1M18.5 5.5l-2.1 2.1M7.6 16.4l-2.1 2.1" />
+    </>
+  ),
+  help: ic(
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M9.5 9.3A2.6 2.6 0 0 1 12 7.5c1.4 0 2.5 1 2.5 2.2 0 1.7-2.4 2-2.4 3.6" />
+      <circle cx="12" cy="17" r="0.6" fill="currentColor" stroke="none" />
+    </>
+  ),
+};
+
 export const SIDE_NAV: { href: string; label: string; icon: React.ReactNode }[] = [
-  {
-    href: "/dashboard",
-    label: "Home",
-    icon: ic(
-      <>
-        <path d="M3 10.5 12 3l9 7.5" />
-        <path d="M5 9.5V21h14V9.5" />
-        <path d="M9.5 21v-6h5v6" />
-      </>
-    ),
-  },
-  {
-    href: "/growth-center/advisor",
-    label: "Advisor",
-    icon: ic(
-      <>
-        <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z" />
-        <path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z" />
-      </>
-    ),
-  },
-  {
-    href: "/campaign-match",
-    label: "Campaign Match",
-    icon: ic(
-      <>
-        <circle cx="12" cy="12" r="9" />
-        <circle cx="12" cy="12" r="5" />
-        <circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none" />
-      </>
-    ),
-  },
-  {
-    href: "/creator-lab",
-    label: "Content Tools",
-    icon: ic(
-      <>
-        <circle cx="12" cy="12" r="9" />
-        <path d="M10 8.5v7l6-3.5z" fill="currentColor" stroke="none" />
-      </>
-    ),
-  },
-  {
-    href: "/opportunities",
-    label: "Marketplace",
-    icon: ic(
-      <>
-        <path d="M5 8h14l-1.2 12.2a1.8 1.8 0 0 1-1.8 1.8H8a1.8 1.8 0 0 1-1.8-1.8z" />
-        <path d="M8.5 10.5V6.5a3.5 3.5 0 0 1 7 0v4" />
-      </>
-    ),
-  },
-  {
-    href: "/academy",
-    label: "Academy",
-    icon: ic(
-      <>
-        <path d="M2.5 9.5 12 5l9.5 4.5L12 14z" />
-        <path d="M6.5 11.5V16c0 1.5 2.5 3 5.5 3s5.5-1.5 5.5-3v-4.5" />
-        <path d="M21.5 9.5V15" />
-      </>
-    ),
-  },
-  {
-    href: "/growth-center",
-    label: "Growth Center",
-    icon: ic(
-      <>
-        <path d="M3.5 17.5 9 12l3.5 3.5L20 8" />
-        <path d="M14.5 8H20v5.5" />
-      </>
-    ),
-  },
-  {
-    href: "/command-center",
-    label: "Command Center",
-    icon: ic(
-      <>
-        <rect x="4" y="4" width="7" height="7" rx="1.5" />
-        <rect x="13" y="4" width="7" height="7" rx="1.5" />
-        <rect x="4" y="13" width="7" height="7" rx="1.5" />
-        <rect x="13" y="13" width="7" height="7" rx="1.5" />
-      </>
-    ),
-  },
-  {
-    href: "/growth-center/profile",
-    label: "Profile",
-    icon: ic(
-      <>
-        <circle cx="12" cy="8" r="4" />
-        <path d="M4.5 20.5c1.4-3.4 4.2-5 7.5-5s6.1 1.6 7.5 5" />
-      </>
-    ),
-  },
-  {
-    href: "/support",
-    label: "Help & Support",
-    icon: ic(
-      <>
-        <circle cx="12" cy="12" r="9" />
-        <path d="M9.5 9.3A2.6 2.6 0 0 1 12 7.5c1.4 0 2.5 1 2.5 2.2 0 1.7-2.4 2-2.4 3.6" />
-        <circle cx="12" cy="17" r="0.6" fill="currentColor" stroke="none" />
-      </>
-    ),
-  },
+  { href: "/dashboard", label: "Home", icon: ICONS.home },
+  { href: "/growth-center/advisor", label: "Advisor", icon: ICONS.advisor },
+  { href: "/campaign-match", label: "Campaign Match", icon: ICONS.target },
+  { href: "/growth-center/business", label: "Analytics", icon: ICONS.analytics },
+  { href: "/creator-lab", label: "Content Tools", icon: ICONS.tools },
+  { href: "/opportunities", label: "Marketplace", icon: ICONS.marketplace },
+  { href: "/academy", label: "Academy", icon: ICONS.academy },
+  { href: "/growth-center", label: "Growth Center", icon: ICONS.growth },
+  { href: "/growth-center/profile", label: "Profile", icon: ICONS.profile },
+  { href: "/settings", label: "Settings", icon: ICONS.settings },
+  { href: "/support", label: "Help & Support", icon: ICONS.help },
 ];
 
 function activeHref(pathname: string, hrefs: string[]): string | null {
@@ -182,10 +166,10 @@ export function SideNav() {
 }
 
 const TABS: { href: string; label: string; icon: React.ReactNode }[] = [
-  { href: "/dashboard", label: "Home", icon: SIDE_NAV[0].icon },
-  { href: "/growth-center", label: "Growth", icon: SIDE_NAV[6].icon },
-  { href: "/academy", label: "Academy", icon: SIDE_NAV[5].icon },
-  { href: "/growth-center/profile", label: "Profile", icon: SIDE_NAV[8].icon },
+  { href: "/dashboard", label: "Home", icon: ICONS.home },
+  { href: "/growth-center/business", label: "Analytics", icon: ICONS.analytics },
+  { href: "/academy", label: "Academy", icon: ICONS.academy },
+  { href: "/growth-center/profile", label: "Profile", icon: ICONS.profile },
 ];
 
 export function VMark({ size = 40 }: { size?: number }) {
@@ -225,9 +209,9 @@ export function BottomTabs() {
         {TABS[0].icon}
         Home
       </Link>
-      <Link href={TABS[1].href} style={tabStyle(active === TABS[1].href)} aria-label="Growth Center">
+      <Link href={TABS[1].href} style={tabStyle(active === TABS[1].href)} aria-label="Analytics">
         {TABS[1].icon}
-        Growth
+        Analytics
       </Link>
       <Link
         href="/creator-lab"
