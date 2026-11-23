@@ -143,7 +143,7 @@ export default function TodayClient(p: Props) {
       viewBox="0 0 400 400"
       role="group"
       aria-label="Deal orbit. Each dot is a deal. Deals move toward the center as they get closer to paid."
-      style={{ display: "block", width: "100%", maxWidth: 460, margin: "0 auto", aspectRatio: "1", overflow: "visible" }}
+      className="gx-orbit-svg"
     >
       <defs>
         <radialGradient id="coreGlow">
@@ -227,18 +227,7 @@ export default function TodayClient(p: Props) {
         const ds = p.deals.filter((d) => d.stage === st.id);
         const late = st.id === "invoiced" ? p.deals.filter((d) => isOverdue(d)).length : 0;
         return (
-          <li
-            key={st.id}
-            style={{
-              display: "grid",
-              gridTemplateColumns: "14px 1fr auto auto",
-              alignItems: "center",
-              gap: 12,
-              padding: "9px 2px",
-              borderTop: "1px solid var(--line)",
-              fontSize: 14.5,
-            }}
-          >
+          <li key={st.id} className="gx-legend-li">
             <span style={{ width: 10, height: 10, borderRadius: "50%", background: st.color, boxShadow: `0 0 10px ${st.color}` }} />
             <span>
               {st.label}
@@ -280,12 +269,8 @@ export default function TodayClient(p: Props) {
         {steps.map((s, i) => (
           <li
             key={s.t}
+            className="gx-step-li"
             style={{
-              display: "grid",
-              gridTemplateColumns: "26px 1fr auto",
-              gap: 12,
-              alignItems: "center",
-              padding: "10px 0",
               borderTop: i === 0 ? "none" : "1px solid var(--line)",
             }}
           >
@@ -357,21 +342,18 @@ export default function TodayClient(p: Props) {
 
   return (
     <div>
-      <section
-        aria-labelledby="hello"
-        style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: "8px 40px", alignItems: "start", marginBottom: 28 }}
-      >
-        <div style={{ paddingTop: 20 }}>
-          <h1 id="hello" style={{ fontSize: 34, lineHeight: 1.12, margin: 0 }}>
+      <section aria-labelledby="hello" className="gx-hero">
+        <div className="gx-hero-text">
+          <h1 id="hello" className="gx-hero-h1">
             {p.firstName ? `${p.greeting}, ${p.firstName}.` : "Welcome to Ultra Vestra."}
           </h1>
-          <p style={{ fontSize: 17.5, lineHeight: 1.5, color: "var(--ink-2)", margin: "16px 0 0", maxWidth: "40ch" }}>{p.summary}</p>
+          <p className="gx-hero-sub" style={{ color: "var(--ink-2)", margin: "16px 0 0", maxWidth: "40ch" }}>{p.summary}</p>
           <div style={{ marginTop: 18 }}>{legend}</div>
         </div>
         <div>{orbit}</div>
       </section>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(320px,1fr))", gap: 20, alignItems: "start" }}>
+      <div className="gx-today-grid">
         <div style={{ display: "grid", gap: 20 }}>
           {isNew ? stepsPanel : null}
           <section className="gx-panel" aria-labelledby="next-h">
@@ -379,7 +361,7 @@ export default function TodayClient(p: Props) {
               <h2 id="next-h">What needs you</h2>
               <span className="gx-muted">From your own deals, money and brands</span>
             </div>
-            <div className="gx-chips" role="group" aria-label="Ask Ultra Vestra" style={{ margin: "2px 0 6px", flexWrap: "wrap" }}>
+            <div className="gx-chips gx-ask-chips" role="group" aria-label="Ask Ultra Vestra" style={{ margin: "2px 0 6px" }}>
               {QUESTIONS.map((q) => (
                 <button key={q.id} type="button" className="gx-chip" aria-pressed={ask === q.id} onClick={() => setAsk(q.id)}>
                   {q.q}
@@ -391,10 +373,7 @@ export default function TodayClient(p: Props) {
                 {list.map((a, i) => {
                   const [bg, fg] = (KIND_CLASS[a.kind] ?? "").split("|");
                   return (
-                    <li
-                      key={i}
-                      style={{ display: "grid", gridTemplateColumns: "32px minmax(0,1fr) auto", gap: 14, alignItems: "center", padding: "14px 0" }}
-                    >
+                    <li key={i} className="gx-action-li">
                       <span style={{ width: 32, height: 32, borderRadius: "50%", display: "grid", placeItems: "center", background: bg, color: fg }}>
                         <Icon html={KIND_ICON[a.kind]} size={16} />
                       </span>

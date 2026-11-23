@@ -30,9 +30,9 @@ export const viewport: Viewport = {
  * Signed-out visitors keep a public header. The responsive switch
  * is plain CSS so every page inherits the frame. */
 const SHELL_CSS = `
-.uv-shell{display:flex;min-height:100vh}
+.uv-shell{display:flex;min-height:100vh;overflow-x:clip}
 .uv-side{width:240px;flex:0 0 240px;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column;padding:26px 16px 20px;border-right:1px solid var(--line);background:rgba(4,6,26,.42);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
-.uv-mainwrap{flex:1;min-width:0;display:flex;flex-direction:column}
+.uv-mainwrap{flex:1;min-width:0;display:flex;flex-direction:column;overflow-x:clip}
 .uv-main{flex:1;width:100%;max-width:1180px;margin:0 auto;padding:40px 48px 72px}
 .uv-topbar{display:none}
 .uv-tabbar{display:none}
@@ -245,10 +245,10 @@ export default async function RootLayout({
           </aside>
           <div className="uv-mainwrap">
             <div className="uv-topbar">
-              <Link href="/today" style={{ textDecoration: "none" }}>
+              <Link href="/today" style={{ textDecoration: "none", flex: "none" }}>
                 <BrandLockup compact />
               </Link>
-              <span style={{ width: 168, maxWidth: "44vw" }}>
+              <span style={{ flex: "0 1 168px", maxWidth: "44vw", minWidth: 0 }}>
                 <ProfileButton label={profileLabel} initial={profileInitial} categories={categories} />
               </span>
             </div>

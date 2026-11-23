@@ -59,7 +59,7 @@ export default function DealsClient({
     <div>
       <header style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: 16, marginBottom: 26 }}>
         <div>
-          <h1 style={{ fontSize: 30, lineHeight: 1.15, margin: 0 }}>Deals</h1>
+          <h1 className="gx-h1">Deals</h1>
           <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
             Every partnership from first pitch to paid. Tap a deal to move it forward.
           </p>
@@ -91,17 +91,7 @@ export default function DealsClient({
           </Link>
         </section>
       ) : (
-        <div
-          style={{
-            display: "grid",
-            gridAutoFlow: "column",
-            gridAutoColumns: "minmax(204px,1fr)",
-            gap: 12,
-            overflowX: "auto",
-            scrollSnapType: "x mandatory",
-            padding: "2px 2px 12px",
-          }}
-        >
+        <div className="gx-board">
           {STAGES.slice(0, 5).map((st) => {
             const ds = deals
               .filter((d) => d.stage === st.id)

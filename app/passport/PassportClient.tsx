@@ -100,7 +100,7 @@ export default function PassportClient({
   return (
     <div>
       <header style={{ marginBottom: 26 }}>
-        <h1 style={{ fontSize: 30, lineHeight: 1.15, margin: 0 }}>Passport</h1>
+        <h1 className="gx-h1">Passport</h1>
         <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
           Your track record, ready to show a brand. Work tracked here from pitch to payment is
           marked verified.
@@ -108,12 +108,11 @@ export default function PassportClient({
       </header>
 
       <section className="gx-panel">
-        <div style={{ display: "grid", gridTemplateColumns: "auto minmax(0,1fr) auto", gap: 22, alignItems: "center" }}>
+        <div className="gx-pass-hero">
           <div
             aria-hidden="true"
+            className="gx-pass-avatar"
             style={{
-              width: 92,
-              height: 92,
               borderRadius: "50%",
               padding: 3,
               background: "conic-gradient(from 200deg,#9B5CFF,#4C74FF,#5FD0FF,#9B5CFF)",
@@ -121,21 +120,21 @@ export default function PassportClient({
             }}
           >
             <div
+              className="gx-pass-avatar-inner"
               style={{
                 width: "100%",
                 height: "100%",
                 borderRadius: "50%",
                 display: "grid",
                 placeItems: "center",
-                font: "600 26px var(--display)",
                 background: "radial-gradient(circle at 35% 30%,#24307A,#090D33)",
               }}
             >
               {initials(profile.name || "Ultra Vestra")}
             </div>
           </div>
-          <div>
-            <h2 style={{ fontSize: 24, lineHeight: 1.2, margin: 0 }}>{profile.name || "Your name"}</h2>
+          <div style={{ minWidth: 0 }}>
+            <h2 className="gx-pass-name">{profile.name || "Your name"}</h2>
             <p style={{ margin: "6px 0 0", color: "var(--ink-2)" }}>
               {[
                 profile.niche ? `${profile.niche} creator` : "Add your niche",
@@ -152,7 +151,7 @@ export default function PassportClient({
               </p>
             ) : null}
           </div>
-          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          <div className="gx-pass-actions">
             <button type="button" className="gx-btn gx-btn-primary" disabled={shareBusy} onClick={() => void copyShare()}>
               <Icon html={I.copy} size={15} /> {isPublic ? "Copy share link" : "Make public & share"}
             </button>
@@ -178,17 +177,17 @@ export default function PassportClient({
             Your public Passport is off. Only you can see this page until you share it.
           </p>
         )}
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: 20, borderTop: "1px solid var(--line)", paddingTop: 6 }}>
+        <div className="gx-figs">
           <div style={{ padding: "12px 4px" }}>
-            <strong style={{ display: "block", font: "500 26px/1.2 var(--display)" }}>{paidDeals.length}</strong>
+            <strong className="gx-fig-value">{paidDeals.length}</strong>
             <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Verified collaborations</span>
           </div>
           <div style={{ padding: "12px 4px" }}>
-            <strong style={{ display: "block", font: "500 26px/1.2 var(--display)" }}>{brandsPaid}</strong>
+            <strong className="gx-fig-value">{brandsPaid}</strong>
             <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Brands paid you</span>
           </div>
           <div style={{ padding: "12px 4px" }}>
-            <strong style={{ display: "block", font: "500 26px/1.2 var(--display)" }}>
+            <strong className="gx-fig-value">
               {collabs.length + testimonials.length}
             </strong>
             <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Self-reported items</span>
@@ -196,7 +195,7 @@ export default function PassportClient({
         </div>
       </section>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(330px,1fr))", gap: 20, marginTop: 20, alignItems: "start" }}>
+      <div className="gx-pass-grid">
         <section className="gx-panel" aria-labelledby="col-h">
           <div className="gx-panel-head">
             <h2 id="col-h">Collaborations</h2>
@@ -417,7 +416,7 @@ function TestimonialSheet({ open, onClose, onSaved }: { open: boolean; onClose: 
         </label>
         <label className="gx-field">
           <span>Their role / brand</span>
-          <input className="gx-input" value={authorRole} onChange={(e) => setAuthorRole(e.target.value)} maxLength={200} placeholder="Partnerships lead, Mellow Oat" />
+          <input className="gx-input" value={authorRole} onChange={(e) => setAuthorRole(e.target.value)} maxLength={200} placeholder="Partnerships lead" />
         </label>
       </div>
       <div className="gx-sheet-actions">

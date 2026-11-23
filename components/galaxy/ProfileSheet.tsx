@@ -136,7 +136,7 @@ export function ProfileSheet({
         <div>
           <label className="gx-field">
             <span>Your name</span>
-            <input className="gx-input" value={name} onChange={(e) => setName(e.target.value)} placeholder="Maya Reyes" maxLength={120} />
+            <input className="gx-input" value={name} onChange={(e) => setName(e.target.value)} placeholder="Your name" maxLength={120} />
           </label>
           <div className="gx-field">
             <span>Your niche</span>
@@ -179,7 +179,7 @@ export function ProfileSheet({
               className="gx-input"
               value={audience}
               onChange={(e) => setAudience(e.target.value)}
-              placeholder="Women 25 to 34 who want simple skincare that works"
+              placeholder="Describe who watches your videos"
               maxLength={2000}
             />
           </label>
@@ -230,6 +230,7 @@ export function ProfileButton({
           alignItems: "center",
           gap: 10,
           width: "100%",
+          minWidth: 0,
           padding: 8,
           border: "1px solid var(--line)",
           borderRadius: 14,

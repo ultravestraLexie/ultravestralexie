@@ -84,9 +84,8 @@ export default async function PublicPassportPage({
         <div style={{ display: "grid", gridTemplateColumns: "auto minmax(0,1fr)", gap: 22, alignItems: "center" }}>
           <div
             aria-hidden="true"
+            className="gx-pass-avatar"
             style={{
-              width: 92,
-              height: 92,
               borderRadius: "50%",
               padding: 3,
               background: "conic-gradient(from 200deg,#9B5CFF,#4C74FF,#5FD0FF,#9B5CFF)",
@@ -94,21 +93,21 @@ export default async function PublicPassportPage({
             }}
           >
             <div
+              className="gx-pass-avatar-inner"
               style={{
                 width: "100%",
                 height: "100%",
                 borderRadius: "50%",
                 display: "grid",
                 placeItems: "center",
-                font: "600 26px var(--display)",
                 background: "radial-gradient(circle at 35% 30%,#24307A,#090D33)",
               }}
             >
               {initials(name)}
             </div>
           </div>
-          <div>
-            <h1 style={{ fontSize: 26, lineHeight: 1.2, margin: 0 }}>{name}</h1>
+          <div style={{ minWidth: 0 }}>
+            <h1 className="gx-pass-name">{name}</h1>
             <p style={{ margin: "6px 0 0", color: "var(--ink-2)" }}>
               {[
                 niche ? `${niche} creator` : "",
@@ -124,17 +123,17 @@ export default async function PublicPassportPage({
             ) : null}
           </div>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: 20, borderTop: "1px solid var(--line)", paddingTop: 6 }}>
+        <div className="gx-figs">
           <div style={{ padding: "12px 4px" }}>
-            <strong style={{ display: "block", font: "500 26px/1.2 var(--display)" }}>{paidDeals.length}</strong>
+            <strong className="gx-fig-value">{paidDeals.length}</strong>
             <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Verified collaborations</span>
           </div>
           <div style={{ padding: "12px 4px" }}>
-            <strong style={{ display: "block", font: "500 26px/1.2 var(--display)" }}>{brandsPaid}</strong>
+            <strong className="gx-fig-value">{brandsPaid}</strong>
             <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Brands paid them</span>
           </div>
           <div style={{ padding: "12px 4px" }}>
-            <strong style={{ display: "block", font: "500 26px/1.2 var(--display)" }}>
+            <strong className="gx-fig-value">
               {collabs.length + testimonials.length}
             </strong>
             <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Self-reported items</span>
@@ -142,7 +141,7 @@ export default async function PublicPassportPage({
         </div>
       </section>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(320px,1fr))", gap: 20, marginTop: 20, alignItems: "start" }}>
+      <div className="gx-pass-grid">
         <section className="gx-panel" aria-labelledby="p-col-h">
           <div className="gx-panel-head">
             <h2 id="p-col-h">Collaborations</h2>

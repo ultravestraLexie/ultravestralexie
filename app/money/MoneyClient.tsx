@@ -160,7 +160,7 @@ export default function MoneyClient({
     <div>
       <header style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: 16, marginBottom: 26 }}>
         <div>
-          <h1 style={{ fontSize: 30, lineHeight: 1.15, margin: 0 }}>Money</h1>
+          <h1 className="gx-h1">Money</h1>
           <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
             What you are owed, what is late and what came in. It reads from your deals, so
             nothing gets typed twice.
@@ -177,9 +177,9 @@ export default function MoneyClient({
       </header>
 
       <section className="gx-panel" style={{ padding: "6px 0" }} aria-label="Money summary">
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(150px,1fr))" }}>
-          {kpis.map((k, i) => (
-            <div key={k.label} style={{ padding: "16px 22px", borderLeft: i === 0 ? "none" : "1px solid var(--line)" }}>
+        <div className="gx-kpis">
+          {kpis.map((k) => (
+            <div key={k.label} className="gx-kpi">
               <span style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13.5, color: "var(--ink-2)" }}>
                 {k.alert ? (
                   <span style={{ color: "var(--bad)", display: "inline-flex" }}>
@@ -188,16 +188,14 @@ export default function MoneyClient({
                 ) : null}
                 {k.label}
               </span>
-              <strong style={{ display: "block", font: "500 25px/1.2 var(--display)", marginTop: 6, fontVariantNumeric: "tabular-nums" }}>
-                {fmtMoney(k.value)}
-              </strong>
+              <strong className="gx-kpi-value">{fmtMoney(k.value)}</strong>
               <small style={{ display: "block", color: "var(--ink-3)", fontSize: 12.5, marginTop: 3 }}>{k.small}</small>
             </div>
           ))}
         </div>
       </section>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(330px,1fr))", gap: 20, marginTop: 20, alignItems: "start" }}>
+      <div className="gx-money-grid">
         <div style={{ display: "grid", gap: 20 }}>
           <section className="gx-panel" aria-labelledby="chart-h">
             <div className="gx-panel-head">
@@ -287,7 +285,7 @@ export default function MoneyClient({
                     border: "1px solid var(--line-2)",
                     fontSize: 13,
                     boxShadow: "0 12px 30px rgba(0,0,0,.5)",
-                    left: `${((tip + 0.5) / months.length) * 100}%`,
+                    left: `clamp(78px, ${((tip + 0.5) / months.length) * 100}%, calc(100% - 78px))`,
                     top: 0,
                     translate: "-50% 0",
                   }}

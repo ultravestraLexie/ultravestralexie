@@ -141,14 +141,14 @@ export default function StudioClient({
   return (
     <div>
       <header style={{ marginBottom: 26 }}>
-        <h1 style={{ fontSize: 30, lineHeight: 1.15, margin: 0 }}>Video Lab</h1>
+        <h1 className="gx-h1">Video Lab</h1>
         <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
           Human emotion first. Who is this video for, and what should they feel when it ends?
           Check your script before you film.
         </p>
       </header>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(330px,1fr))", gap: 20, alignItems: "start" }}>
+      <div className="gx-studio-grid">
         <section className="gx-panel" aria-labelledby="lab-h">
           <div className="gx-panel-head">
             <h2 id="lab-h">Your video</h2>
@@ -215,7 +215,7 @@ export default function StudioClient({
                     {result.fixes.map((x) => (
                       <li
                         key={x.id}
-                        style={{ display: "grid", gridTemplateColumns: "26px 1fr", gap: 12, padding: "10px 0", borderTop: "1px solid var(--line)" }}
+                        style={{ display: "grid", gridTemplateColumns: "26px minmax(0,1fr)", gap: 12, padding: "10px 0", borderTop: "1px solid var(--line)" }}
                       >
                         <span
                           style={{
@@ -267,7 +267,7 @@ export default function StudioClient({
                 <summary style={{ cursor: "pointer", fontWeight: 600 }}>See every check</summary>
                 <ul className="gx-list" style={{ marginTop: 8 }}>
                   {result.checks.map((x) => (
-                    <li key={x.id} style={{ display: "grid", gridTemplateColumns: "20px 1fr", gap: 12, padding: "10px 0", fontSize: 14 }}>
+                    <li key={x.id} style={{ display: "grid", gridTemplateColumns: "20px minmax(0,1fr)", gap: 12, padding: "10px 0", fontSize: 14 }}>
                       <span style={{ color: x.skip ? "var(--ink-3)" : x.pass ? "var(--good)" : "var(--warn)", marginTop: 2, display: "inline-flex" }}>
                         <Icon html={x.skip ? I.clock : x.pass ? I.check : I.warn} size={17} />
                       </span>

@@ -122,7 +122,7 @@ export default function BrandsClient({
     <div>
       <header style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: 16, marginBottom: 26 }}>
         <div>
-          <h1 style={{ fontSize: 30, lineHeight: 1.15, margin: 0 }}>Brands</h1>
+          <h1 className="gx-h1">Brands</h1>
           <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
             Programs you can apply to now. Every commission is labelled capped, uncapped or
             unknown, so you know what you are signing up for.
@@ -132,8 +132,8 @@ export default function BrandsClient({
 
       <section className="gx-panel">
         <div style={{ display: "grid", gap: 12, marginBottom: 8 }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 10, alignItems: "center" }}>
-            <label style={{ position: "relative", flex: "1 1 260px" }}>
+          <div className="gx-toolbar-row">
+            <label className="gx-toolbar-search">
               <span className="gx-sr">Search brands</span>
               <span style={{ position: "absolute", left: 13, top: "50%", translate: "0 -50%", color: "var(--ink-3)", display: "inline-flex" }}>
                 <Icon html={'<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="M13.5 13.5L17 17"/></svg>'} size={17} />
@@ -148,9 +148,9 @@ export default function BrandsClient({
                 autoComplete="off"
               />
             </label>
-            <label>
+            <label className="gx-toolbar-label">
               <span className="gx-sr">Program</span>
-              <select className="gx-input" style={{ width: "auto" }} value={program} onChange={(e) => setProgram(e.target.value)}>
+              <select className="gx-input gx-toolbar-select" value={program} onChange={(e) => setProgram(e.target.value)}>
                 <option value="All">All programs</option>
                 {programs.map((prog) => (
                   <option key={prog} value={prog}>
@@ -159,9 +159,9 @@ export default function BrandsClient({
                 ))}
               </select>
             </label>
-            <label>
+            <label className="gx-toolbar-label">
               <span className="gx-sr">Sort</span>
-              <select className="gx-input" style={{ width: "auto" }} value={sort} onChange={(e) => setSort(e.target.value as typeof sort)}>
+              <select className="gx-input gx-toolbar-select" value={sort} onChange={(e) => setSort(e.target.value as typeof sort)}>
                 <option value="fit">Best fit for you</option>
                 <option value="new">Newest</option>
                 <option value="rate">Highest commission</option>
@@ -217,16 +217,7 @@ export default function BrandsClient({
               const pitched = inPipe.has(b.id);
               const isSaved = saved.has(b.id);
               return (
-                <li
-                  key={b.id}
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "46px minmax(0,1fr) 110px 170px",
-                    gap: 16,
-                    alignItems: "center",
-                    padding: "15px 2px",
-                  }}
-                >
+                <li key={b.id} className="gx-brand-row">
                   <span
                     aria-hidden="true"
                     style={{
@@ -245,7 +236,7 @@ export default function BrandsClient({
                     {initials(b.name)}
                   </span>
                   <div style={{ minWidth: 0 }}>
-                    <Link href={`/brands/${b.id}`} style={{ fontWeight: 600, fontSize: 15.5, textDecoration: "none" }}>
+                    <Link href={`/brands/${b.id}`} style={{ fontWeight: 600, fontSize: 15.5, textDecoration: "none", overflowWrap: "anywhere" }}>
                       {b.name}
                     </Link>
                     <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 6 }}>
@@ -274,15 +265,13 @@ export default function BrandsClient({
                       ) : null}
                     </div>
                   </div>
-                  <div>
-                    <strong style={{ display: "block", font: "500 17px/1.2 var(--display)" }}>
-                      {b.rate != null ? `${b.rate}%` : "—"}
-                    </strong>
+                  <div className="gx-brand-rate">
+                    <strong>{b.rate != null ? `${b.rate}%` : "—"}</strong>
                     <span style={{ fontSize: 12.5, color: b.cap === "uncapped" ? "#B9C8FF" : "var(--ink-3)" }}>
                       {CAP_LABEL[b.cap]}
                     </span>
                   </div>
-                  <div style={{ display: "flex", gap: 8, alignItems: "center", justifyContent: "flex-end" }}>
+                  <div className="gx-brand-actions">
                     <button
                       type="button"
                       className="gx-icon-btn"
