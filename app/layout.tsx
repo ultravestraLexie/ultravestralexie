@@ -35,9 +35,9 @@ const SHELL_CSS = `
 @media (max-width:1023px){
   .uv-side{display:none}
   .uv-topbar{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid rgba(168,85,247,.4);background:rgba(5,2,16,.88);position:sticky;top:0;z-index:40}
-  .uv-main{padding:20px 16px 116px}
+  .uv-main{padding:20px 16px 140px}
   .uv-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(7,3,20,.95);border-top:1px solid rgba(168,85,247,.45);padding:10px 8px calc(10px + env(safe-area-inset-bottom));justify-content:space-around;align-items:flex-start}
-  .uv-foot{padding-bottom:110px}
+  .uv-foot{padding-bottom:132px}
 }
 `;
 

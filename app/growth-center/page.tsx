@@ -213,6 +213,41 @@ export default function GrowthCenterPage() {
           </p>
         </div>
 
+        {/* Build 11 (owner-approved): the report explains itself —
+          what it measures, where the numbers come from, and what an
+          empty report honestly means. No invented analytics. */}
+        <div className="rounded-3xl border border-white/10 bg-[#111827] p-6 md:p-7 mb-10">
+          <div className="text-gray-300 text-xs tracking-widest mb-3">
+            WHAT THIS REPORT MEASURES
+          </div>
+          <div className="grid gap-4 md:grid-cols-2 text-sm leading-6 text-gray-300">
+            <p>
+              <strong className="text-gray-100">Posting consistency</strong>{" "}
+              — the posts you log, your weekly goal, and your streak.
+            </p>
+            <p>
+              <strong className="text-gray-100">Recorded earnings</strong>{" "}
+              — the revenue you record, kept separate from estimates.
+              Estimates are labeled and never added to real money.
+            </p>
+            <p>
+              <strong className="text-gray-100">Partnership progress</strong>{" "}
+              — your brand deals and the stage each one has reached.
+            </p>
+            <p>
+              <strong className="text-gray-100">Goal progress</strong> —
+              the goals you set, counted from your own records.
+            </p>
+          </div>
+          <p className="text-sm leading-6 text-gray-400 mt-4">
+            Recommendations come from your Advisor, which reads these
+            same records — nothing is recommended from invented data.
+            An empty report means nothing is logged yet: log a post or
+            record revenue and this report fills in with your real
+            business.
+          </p>
+        </div>
+
         {error && (
           <p role="alert" className="text-red-400 text-sm mb-6">
             {error}

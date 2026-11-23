@@ -65,6 +65,11 @@ const DASH_CSS = `
 .uv-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 @media (max-width:1180px){.uv-cols{grid-template-columns:1fr}.uv-stats{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:680px){.uv-insights{grid-template-columns:1fr}.uv-quick{grid-template-columns:repeat(2,1fr)}.uv-stats{grid-template-columns:repeat(2,1fr)}}
+/* Build 11 (owner-approved homepage fixes): the welcome hero takes
+ * ~28% less height on phones — tighter padding, smaller title, the
+ * decorative chart hidden — so the creator's real business activity
+ * shows sooner. Desktop is unchanged. */
+@media (max-width:680px){.uv-hero{padding:20px 18px 22px !important}.uv-hero h1{font-size:26px !important}.uv-hero p{margin-bottom:14px !important}.uv-hero svg{display:none}}
 `;
 
 function money(cents: number): string {
@@ -270,7 +275,7 @@ export default async function DashboardPage() {
     posting.postsThisWeek > 0
       ? `You've published ${posting.postsThisWeek} post${posting.postsThisWeek === 1 ? "" : "s"} this week — ${posting.goalProgressPct}% of your weekly goal. Let's keep the momentum going.`
       : completeness.filled < completeness.total
-        ? "Tell UltraVestra about your business and every number, match and recommendation here gets personal."
+        ? "Your creator business, all in one place. Track performance, discover opportunities, manage brand partnerships, and build your growth strategy."
         : "Your profile is complete — your matches and advice are fully personalized. Here's where your business stands.";
   const maxWeek = Math.max(1, ...weeks.map((w) => w.count));
   const ringC = 2 * Math.PI * 52;
@@ -358,6 +363,7 @@ export default async function DashboardPage() {
         <div className="uv-left">
           {/* HERO */}
           <section
+            className="uv-hero"
             style={{
               ...panel,
               position: "relative",

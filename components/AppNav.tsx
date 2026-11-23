@@ -8,9 +8,12 @@ import { usePathname } from "next/navigation";
  * pictures exactly: Home, Advisor, Campaign Match, Analytics,
  * Content Tools, Marketplace, Academy, Growth Center, Profile,
  * Settings, Help & Support. The phone tabs match his phone picture:
- * Home, Analytics, the V button, Academy, Profile. Active state =
- * the longest matching route prefix, so /growth-center/profile
- * lights Profile, not Growth Center. */
+ * Home, Analytics, the center button, Academy, Profile. Build 11
+ * (owner-approved): the center button is a recognizable Create
+ * button — a plus in the raised circle, labeled Create — opening
+ * the Content Planner. Active state = the longest matching route
+ * prefix, so /growth-center/profile lights Profile, not Growth
+ * Center. */
 
 const ic = (children: React.ReactNode) => (
   <svg
@@ -189,7 +192,7 @@ export function VMark({ size = 40 }: { size?: number }) {
 
 export function BottomTabs() {
   const pathname = usePathname() ?? "";
-  const all = [...TABS.map((t) => t.href), "/creator-lab"];
+  const all = [...TABS.map((t) => t.href), "/growth-center/planner"];
   const active = activeHref(pathname, all);
   const tabStyle = (isActive: boolean): React.CSSProperties => ({
     display: "flex",
@@ -214,23 +217,45 @@ export function BottomTabs() {
         Analytics
       </Link>
       <Link
-        href="/creator-lab"
-        aria-label="Creator Lab — content tools"
+        href="/growth-center/planner"
+        aria-label="Create — plan your next post"
         style={{
           display: "flex",
+          flexDirection: "column",
           alignItems: "center",
-          justifyContent: "center",
-          width: 56,
-          height: 56,
-          marginTop: -22,
-          borderRadius: "50%",
-          background: "rgba(10,4,26,0.95)",
-          border: "2px solid #c026d3",
-          boxShadow: "0 0 22px rgba(217,70,239,0.55)",
+          gap: 3,
           textDecoration: "none",
+          color: active === "/growth-center/planner" ? "#f0abfc" : "#9d8fd6",
         }}
       >
-        <VMark size={30} />
+        <span
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: 56,
+            height: 56,
+            marginTop: -22,
+            borderRadius: "50%",
+            background: "linear-gradient(140deg, #a855f7, #d946ef)",
+            border: "2px solid #e879f9",
+            boxShadow: "0 0 22px rgba(217,70,239,0.55)",
+          }}
+        >
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#ffffff"
+            strokeWidth="2.6"
+            strokeLinecap="round"
+            aria-hidden="true"
+          >
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+        </span>
+        <span style={{ fontSize: 11, fontWeight: 700 }}>Create</span>
       </Link>
       <Link href={TABS[2].href} style={tabStyle(active === TABS[2].href)} aria-label="Academy">
         {TABS[2].icon}
