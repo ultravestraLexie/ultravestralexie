@@ -100,6 +100,13 @@ export default function PostingTrackerPage() {
   const [saving, setSaving] = useState(false);
   const [busyId, setBusyId] = useState<string | null>(null);
 
+  // Build 16c — post details editing (title, platform, date, URL).
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editTitle, setEditTitle] = useState("");
+  const [editPlatform, setEditPlatform] = useState("tiktok");
+  const [editDate, setEditDate] = useState("");
+  const [editUrl, setEditUrl] = useState("");
+
   const [goalInput, setGoalInput] = useState("5");
   const [goalBusy, setGoalBusy] = useState(false);
 
@@ -201,6 +208,49 @@ export default function PostingTrackerPage() {
       setError(e instanceof Error ? e.message : "Your post could not be saved.");
     } finally {
       setSaving(false);
+    }
+  }
+
+  function startEdit(post: Post) {
+    setEditingId(post.id);
+    setEditTitle(post.title ?? "");
+    setEditPlatform(post.platform);
+    setEditDate(post.posted_date);
+    setEditUrl(post.external_url ?? "");
+    setError("");
+  }
+
+  async function saveEdit(id: string) {
+    setBusyId(id);
+    setError("");
+    try {
+      const response = await fetch("/api/posts", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          id,
+          details: {
+            title: editTitle,
+            platform: editPlatform,
+            postedDate: editDate,
+            externalUrl: editUrl,
+          },
+        }),
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Your post could not be updated.");
+      }
+      setEditingId(null);
+      setSelectedDate(editDate);
+      setViewMonth(editDate.slice(0, 7));
+      await load();
+    } catch (e) {
+      setError(
+        e instanceof Error ? e.message : "Your post could not be updated."
+      );
+    } finally {
+      setBusyId(null);
     }
   }
 
@@ -528,13 +578,84 @@ export default function PostingTrackerPage() {
                             />
                           </label>
                         </div>
-                        <button
-                          onClick={() => deletePost(post.id)}
-                          disabled={busyId === post.id}
-                          className="rounded-lg border border-red-400/40 text-red-300 px-4 py-2 text-sm hover:bg-red-400/10 disabled:opacity-40 transition"
-                        >
-                          Delete
-                        </button>
+                        <div className="flex gap-2">
+                          <button
+                            onClick={() => startEdit(post)}
+                            disabled={busyId === post.id}
+                            className="rounded-lg border border-white/20 text-gray-200 px-4 py-2 text-sm hover:bg-white/10 disabled:opacity-40 transition"
+                          >
+                            Edit
+                          </button>
+                          <button
+                            onClick={() => deletePost(post.id)}
+                            disabled={busyId === post.id}
+                            className="rounded-lg border border-red-400/40 text-red-300 px-4 py-2 text-sm hover:bg-red-400/10 disabled:opacity-40 transition"
+                          >
+                            Delete
+                          </button>
+                        </div>
+                        {editingId === post.id && (
+                          <div className="w-full rounded-xl border border-white/10 bg-white/[.02] p-4 mt-1">
+                            <div className="grid md:grid-cols-2 gap-3">
+                              <label className="text-gray-400 text-xs block">
+                                Title
+                                <input
+                                  value={editTitle}
+                                  onChange={(e) => setEditTitle(e.target.value)}
+                                  className="mt-1 w-full rounded-lg border border-white/10 bg-[#080b14] px-3 py-2 text-white text-sm"
+                                />
+                              </label>
+                              <label className="text-gray-400 text-xs block">
+                                Platform
+                                <select
+                                  value={editPlatform}
+                                  onChange={(e) => setEditPlatform(e.target.value)}
+                                  className="mt-1 w-full rounded-lg border border-white/10 bg-[#080b14] px-3 py-2 text-white text-sm"
+                                >
+                                  {PLATFORM_OPTIONS.map((p) => (
+                                    <option key={p.value} value={p.value}>
+                                      {p.label}
+                                    </option>
+                                  ))}
+                                </select>
+                              </label>
+                              <label className="text-gray-400 text-xs block">
+                                Date
+                                <input
+                                  type="date"
+                                  value={editDate}
+                                  onChange={(e) => setEditDate(e.target.value)}
+                                  className="mt-1 w-full rounded-lg border border-white/10 bg-[#080b14] px-3 py-2 text-white text-sm"
+                                />
+                              </label>
+                              <label className="text-gray-400 text-xs block">
+                                Post URL
+                                <input
+                                  value={editUrl}
+                                  onChange={(e) => setEditUrl(e.target.value)}
+                                  placeholder="https://…"
+                                  className="mt-1 w-full rounded-lg border border-white/10 bg-[#080b14] px-3 py-2 text-white text-sm"
+                                />
+                              </label>
+                            </div>
+                            <div className="flex gap-2 mt-3">
+                              <button
+                                onClick={() => saveEdit(post.id)}
+                                disabled={busyId === post.id}
+                                className="rounded-lg bg-cyan-400 px-4 py-2 text-sm font-bold text-black hover:bg-cyan-300 disabled:opacity-40 transition"
+                              >
+                                {busyId === post.id ? "Saving…" : "Save changes"}
+                              </button>
+                              <button
+                                onClick={() => setEditingId(null)}
+                                disabled={busyId === post.id}
+                                className="rounded-lg border border-white/20 text-gray-200 px-4 py-2 text-sm hover:bg-white/10 disabled:opacity-40 transition"
+                              >
+                                Cancel
+                              </button>
+                            </div>
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>

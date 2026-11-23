@@ -76,6 +76,16 @@ const PostViewsSchema = z.object({
   viewsCount: z.number().int().min(0).max(2_000_000_000).nullable(),
 });
 
+const PostDetailsSchema = z.object({
+  id: z.string().uuid(),
+  details: z.object({
+    title: z.string().max(200).optional(),
+    platform: z.enum(PLATFORMS).optional(),
+    postedDate: DateString.optional(),
+    externalUrl: z.string().max(1000).optional(),
+  }),
+});
+
 const GoalSchema = z.object({
   weeklyGoal: z.number().int().min(1).max(50),
 });
@@ -399,6 +409,66 @@ export async function PATCH(request: Request) {
       .select(POST_COLUMNS);
     if (error) {
       console.error("Posting Tracker views update error:", error);
+      return Response.json(
+        { error: "Your post could not be updated. Please try again." },
+        { status: 500 }
+      );
+    }
+    if (!data || data.length === 0) {
+      return Response.json({ error: "Post not found." }, { status: 404 });
+    }
+    return Response.json({ success: true, post: data[0] as PostRow });
+  }
+
+  // Build 16c: a PATCH carrying an id + details edits the post's
+  // own facts — title, platform, date, URL — on the caller's own
+  // row. Source and state are never part of this update, so an
+  // edit can never mint a 'verified' row or change its workflow
+  // label. (Added after the battS battery found the tracker had
+  // no way to correct a post's title at all.)
+  if (
+    typeof body === "object" &&
+    body !== null &&
+    "id" in body &&
+    "details" in body
+  ) {
+    const detailsParsed = PostDetailsSchema.safeParse(body);
+    if (!detailsParsed.success) {
+      return Response.json(
+        { error: "Please check your post details." },
+        { status: 400 }
+      );
+    }
+    const d = detailsParsed.data.details;
+    const update: Record<string, unknown> = {};
+    if (d.title !== undefined)
+      update.title = d.title.trim() === "" ? null : d.title.trim();
+    if (d.platform !== undefined) update.platform = d.platform;
+    if (d.postedDate !== undefined) update.posted_date = d.postedDate;
+    if (d.externalUrl !== undefined) {
+      const url = d.externalUrl.trim();
+      if (url !== "" && !/^https?:\/\//i.test(url)) {
+        return Response.json(
+          { error: "Please check your post details." },
+          { status: 400 }
+        );
+      }
+      update.external_url = url === "" ? null : url;
+    }
+    if (Object.keys(update).length === 0) {
+      return Response.json(
+        { error: "Please check your post details." },
+        { status: 400 }
+      );
+    }
+    const { data, error } = await owner.supabase
+      .from("creator_posts")
+      .update(update)
+      .eq("id", detailsParsed.data.id)
+      .eq("user_id", owner.userId)
+      .select(POST_COLUMNS);
+    if (error) {
+      console.error("Posting Tracker details update error:", error);
       return Response.json(
         { error: "Your post could not be updated. Please try again." },
         { status: 500 }
