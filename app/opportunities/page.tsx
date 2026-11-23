@@ -1,6 +1,7 @@
 import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { fetchAllPages } from "@/lib/fetch-all-pages";
 import type { Brand } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -31,7 +32,9 @@ const scoreBadge = (score: number | null) =>
 export default async function OpportunitiesPage() {
   await requireSubscription("/opportunities");
   const supabase = await createClient();
-  const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
+  const { data: brands } = await fetchAllPages((from, to) =>
+    supabase.from("brands").select("*").eq("status", "published").order("id", { ascending: true }).range(from, to)
+  );
   const list = (brands ?? []) as Brand[];
   const { data: { user } } = await supabase.auth.getUser();
 
@@ -40,9 +43,9 @@ export default async function OpportunitiesPage() {
 
   if (list.length) {
     const [{ data: scores }, { data: affiliates }, { data: opps }] = await Promise.all([
-      supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }),
-      supabase.from("affiliate_programs").select("brand_id, commission_notes, application_url"),
-      supabase.from("opportunities").select("brand_id, status, application_url"),
+      fetchAllPages((from, to) => supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }).order("brand_id", { ascending: true }).range(from, to)),
+      fetchAllPages((from, to) => supabase.from("affiliate_programs").select("brand_id, commission_notes, application_url").order("id", { ascending: true }).range(from, to)),
+      fetchAllPages((from, to) => supabase.from("opportunities").select("brand_id, status, application_url").order("id", { ascending: true }).range(from, to)),
     ]);
     const scoreMap = new Map<string, number>();
     for (const s of scores ?? []) if (!scoreMap.has(s.brand_id as string)) scoreMap.set(s.brand_id as string, Number(s.total_score));

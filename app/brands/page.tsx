@@ -1,5 +1,6 @@
 import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
+import { fetchAllPages } from "@/lib/fetch-all-pages";
 import BrandCard from "@/components/BrandCard";
 import type { Brand, Category } from "@/lib/types";
 
@@ -26,29 +27,36 @@ export default async function BrandsPage({
   if (category) {
     const cat = (categories as Category[] | null)?.find((c) => c.slug === category);
     if (cat) {
-      const { data: links } = await supabase
-        .from("brand_categories")
-        .select("brand_id")
-        .eq("category_id", cat.id);
+      const { data: links } = await fetchAllPages((from, to) =>
+        supabase
+          .from("brand_categories")
+          .select("brand_id")
+          .eq("category_id", cat.id)
+          .order("brand_id", { ascending: true })
+          .range(from, to)
+      );
       brandIdsInCategory = (links ?? []).map((l) => l.brand_id as string);
     } else {
       brandIdsInCategory = [];
     }
   }
 
-  let query = supabase
-    .from("brands")
-    .select("*")
-    .eq("status", "published")
-    .order("name");
-  if (q) query = query.ilike("name", `%${q.replace(/[%_]/g, "")}%`);
-  if (brandIdsInCategory) {
-    query = query.in(
-      "id",
-      brandIdsInCategory.length ? brandIdsInCategory : ["00000000-0000-0000-0000-000000000000"]
-    );
-  }
-  const { data: brands } = await query;
+  const { data: brands } = await fetchAllPages((from, to) => {
+    let query = supabase
+      .from("brands")
+      .select("*")
+      .eq("status", "published")
+      .order("name")
+      .order("id");
+    if (q) query = query.ilike("name", `%${q.replace(/[%_]/g, "")}%`);
+    if (brandIdsInCategory) {
+      query = query.in(
+        "id",
+        brandIdsInCategory.length ? brandIdsInCategory : ["00000000-0000-0000-0000-000000000000"]
+      );
+    }
+    return query.range(from, to);
+  });
 
   const list = (brands ?? []) as Brand[];
 
@@ -57,20 +65,29 @@ export default async function BrandsPage({
   const catsByBrand = new Map<string, string[]>();
   if (list.length) {
     const ids = list.map((b) => b.id);
-    const { data: scores } = await supabase
-      .from("brand_scores")
-      .select("brand_id, total_score, scored_at")
-      .in("brand_id", ids)
-      .order("scored_at", { ascending: false });
+    const { data: scores } = await fetchAllPages((from, to) =>
+      supabase
+        .from("brand_scores")
+        .select("brand_id, total_score, scored_at")
+        .in("brand_id", ids)
+        .order("scored_at", { ascending: false })
+        .order("brand_id", { ascending: true })
+        .range(from, to)
+    );
     for (const s of scores ?? []) {
       if (!scoreByBrand.has(s.brand_id as string)) {
         scoreByBrand.set(s.brand_id as string, Number(s.total_score));
       }
     }
-    const { data: links } = await supabase
-      .from("brand_categories")
-      .select("brand_id, categories(name)")
-      .in("brand_id", ids);
+    const { data: links } = await fetchAllPages((from, to) =>
+      supabase
+        .from("brand_categories")
+        .select("brand_id, categories(name)")
+        .in("brand_id", ids)
+        .order("brand_id", { ascending: true })
+        .order("category_id", { ascending: true })
+        .range(from, to)
+    );
     for (const l of (links ?? []) as unknown as {
       brand_id: string;
       categories: { name: string } | null;

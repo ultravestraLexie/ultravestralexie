@@ -1,6 +1,7 @@
 import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { fetchAllPages } from "@/lib/fetch-all-pages";
 import type { Brand, Category } from "@/lib/types";
 import { extractIntent, scoreBrand } from "@/lib/search";
 import { webSearch } from "@/lib/websearch";
@@ -74,7 +75,9 @@ export default async function DiscoverPage({
 
   if (q) {
     const supabase = await createClient();
-    const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
+    const { data: brands } = await fetchAllPages((from, to) =>
+      supabase.from("brands").select("*").eq("status", "published").order("id", { ascending: true }).range(from, to)
+    );
     const list = (brands ?? []) as Brand[];
     if (!list.length) {
       const { data: { user } } = await supabase.auth.getUser();
@@ -82,11 +85,11 @@ export default async function DiscoverPage({
     }
     if (list.length) {
       const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }, { data: socials }] = await Promise.all([
-        supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }),
-        supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url, last_checked_at"),
-        supabase.from("brand_contacts").select("brand_id, email, contact_url"),
-        supabase.from("opportunities").select("brand_id, status, application_url"),
-        supabase.from("brand_categories").select("brand_id, categories ( slug, name )"),
+        fetchAllPages((from, to) => supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }).order("brand_id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url, last_checked_at").order("id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("brand_contacts").select("brand_id, email, contact_url").order("id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("opportunities").select("brand_id, status, application_url").order("id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("brand_categories").select("brand_id, categories ( slug, name )").order("brand_id", { ascending: true }).order("category_id", { ascending: true }).range(from, to)),
         supabase.from("brand_socials").select("brand_id, platform"),
       ]);
       const scoreMap = new Map<string, number>();

@@ -1,6 +1,7 @@
 import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { fetchAllPages } from "@/lib/fetch-all-pages";
 import type { Brand } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -58,7 +59,9 @@ const CONF_RANK: Record<string, number> = { verified: 3, publicly_reported: 2, n
 export default async function CommissionsPage() {
   await requireSubscription("/commissions");
   const supabase = await createClient();
-  const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
+  const { data: brands } = await fetchAllPages((from, to) =>
+    supabase.from("brands").select("*").eq("status", "published").order("id", { ascending: true }).range(from, to)
+  );
   const list = (brands ?? []) as Brand[];
   const { data: { user } } = await supabase.auth.getUser();
 
@@ -70,8 +73,8 @@ export default async function CommissionsPage() {
 
   if (list.length) {
     const [{ data: scores }, { data: affiliates }] = await Promise.all([
-      supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }),
-      supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, last_checked_at"),
+      fetchAllPages((from, to) => supabase.from("brand_scores").select("brand_id, total_score, scored_at").order("scored_at", { ascending: false }).order("brand_id", { ascending: true }).range(from, to)),
+      fetchAllPages((from, to) => supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, last_checked_at").order("id", { ascending: true }).range(from, to)),
     ]);
     const scoreMap = new Map<string, number>();
     for (const s of scores ?? []) if (!scoreMap.has(s.brand_id as string)) scoreMap.set(s.brand_id as string, Number(s.total_score));
@@ -122,10 +125,14 @@ export default async function CommissionsPage() {
     const shown = new Map<string, Row>();
     for (const r of [...uncapped.slice(0, 15), ...capped.slice(0, 15), ...unknown.slice(0, 15), ...topRates]) shown.set(r.brand.id, r);
     if (shown.size) {
-      const { data: evidence } = await supabase
-        .from("brand_evidence")
-        .select("brand_id, evidence_summary, source_url, confidence")
-        .in("brand_id", [...shown.keys()]);
+      const { data: evidence } = await fetchAllPages((from, to) =>
+        supabase
+          .from("brand_evidence")
+          .select("brand_id, evidence_summary, source_url, confidence")
+          .in("brand_id", [...shown.keys()])
+          .order("id", { ascending: true })
+          .range(from, to)
+      );
       for (const e of evidence ?? []) {
         const row = shown.get(e.brand_id as string);
         if (!row) continue;

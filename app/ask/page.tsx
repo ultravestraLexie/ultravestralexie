@@ -1,6 +1,7 @@
 import { requireSubscription } from "@/lib/gate";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { fetchAllPages } from "@/lib/fetch-all-pages";
 import type { Brand, Category } from "@/lib/types";
 import { extractIntent, scoreBrand } from "@/lib/search";
 import AskSearchBox from "@/components/AskSearchBox";
@@ -165,7 +166,9 @@ export default async function AskPage({
      * is scored against the words of the question (lib/search.ts) — name,
      * niches, network, country and description — then ranked by intent
      * filters, relevance and Opportunity Score. */
-    const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
+    const { data: brands } = await fetchAllPages((from, to) =>
+      supabase.from("brands").select("*").eq("status", "published").order("id", { ascending: true }).range(from, to)
+    );
     const list = (brands ?? []) as Brand[];
     if (!list.length) {
       const { data: { user } } = await supabase.auth.getUser();
@@ -173,12 +176,12 @@ export default async function AskPage({
     }
     if (list.length) {
       const [{ data: scores }, { data: affiliates }, { data: contacts }, { data: opps }, { data: links }, { data: evidence }] = await Promise.all([
-        supabase.from("brand_scores").select("brand_id, total_score, explanation, scored_at").order("scored_at", { ascending: false }),
-        supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url"),
-        supabase.from("brand_contacts").select("brand_id, email, contact_url"),
-        supabase.from("opportunities").select("brand_id, status, application_url"),
-        supabase.from("brand_categories").select("brand_id, categories ( slug, name )"),
-        supabase.from("brand_evidence").select("brand_id, source_url, confidence"),
+        fetchAllPages((from, to) => supabase.from("brand_scores").select("brand_id, total_score, explanation, scored_at").order("scored_at", { ascending: false }).order("brand_id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("affiliate_programs").select("brand_id, network, commission_rate, commission_notes, application_url").order("id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("brand_contacts").select("brand_id, email, contact_url").order("id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("opportunities").select("brand_id, status, application_url").order("id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("brand_categories").select("brand_id, categories ( slug, name )").order("brand_id", { ascending: true }).order("category_id", { ascending: true }).range(from, to)),
+        fetchAllPages((from, to) => supabase.from("brand_evidence").select("brand_id, source_url, confidence").order("id", { ascending: true }).range(from, to)),
       ]);
       const CONF_RANK: Record<string, number> = { verified: 3, publicly_reported: 2, needs_review: 1 };
       const evMap = new Map<string, { sourceUrl: string | null; verification: string | null }>();
