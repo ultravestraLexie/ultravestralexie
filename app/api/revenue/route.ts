@@ -71,6 +71,11 @@ const CreateSchema = z.object({
   // after the main parse, so the error stays the route's own 400.
   dueDate: z.string().max(10).default(""),
   note: z.string().max(500).default(""),
+  // Phase 1 Build 3: the Deal → Revenue reconciliation link. Set
+  // only when the creator confirms a prefilled entry from one of
+  // their own paid deals; validated against the caller's own deals
+  // below, exactly like the deals route validates proposal_id.
+  dealId: z.string().uuid().nullable().default(null),
 });
 
 const PatchSchema = z.object({
@@ -96,7 +101,38 @@ type RevenueEntryRow = {
 };
 
 const ENTRY_COLUMNS =
-  "id, brand_name, amount_cents, status, kind, earned_date, due_date, note, created_at, updated_at";
+  "id, brand_name, amount_cents, status, kind, earned_date, due_date, note, deal_id, created_at, updated_at";
+
+/** A deal link is accepted only when the deal is one of the
+ *  caller's own (mirrors validateProposalLink in app/api/deals).
+ *  Returns a ready Response on failure, null when the link is fine
+ *  (or absent). */
+async function validateDealLink(
+  supabase: Awaited<ReturnType<typeof createClient>>,
+  userId: string,
+  dealId: string | null
+): Promise<Response | null> {
+  if (dealId === null) return null;
+  const { data, error } = await supabase
+    .from("creator_deals")
+    .select("id")
+    .eq("id", dealId)
+    .eq("user_id", userId);
+  if (error) {
+    console.error("Revenue deal-link check error:", error);
+    return Response.json(
+      { error: "Your entry could not be saved. Please try again." },
+      { status: 500 }
+    );
+  }
+  if (!data || data.length === 0) {
+    return Response.json(
+      { error: "That deal could not be found among your deals." },
+      { status: 400 }
+    );
+  }
+  return null;
+}
 
 /** Gate + identity for every handler: 401 when signed out, 403 when
  *  not subscribed, otherwise the session client and the caller's id. */
@@ -192,6 +228,13 @@ export async function POST(request: Request) {
     );
   }
 
+  const linkError = await validateDealLink(
+    owner.supabase,
+    owner.userId,
+    parsed.data.dealId
+  );
+  if (linkError) return linkError;
+
   const { data, error } = await owner.supabase
     .from("revenue_entries")
     .insert({
@@ -203,6 +246,7 @@ export async function POST(request: Request) {
       earned_date: parsed.data.earnedDate,
       due_date: dueDate === "" ? null : dueDate,
       note: parsed.data.note,
+      deal_id: parsed.data.dealId,
     })
     .select(ENTRY_COLUMNS)
     .single();

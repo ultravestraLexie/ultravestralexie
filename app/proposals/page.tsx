@@ -158,6 +158,11 @@ export default function ProposalsPage() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null);
+  // Phase 1 Build 3: Match → Proposal prefill notice, and the
+  // Proposal → Deal handoff state (which proposal just became a
+  // deal from this page).
+  const [prefillNote, setPrefillNote] = useState("");
+  const [dealCreatedFor, setDealCreatedFor] = useState<string | null>(null);
 
   async function load() {
     try {
@@ -180,6 +185,64 @@ export default function ProposalsPage() {
   useEffect(() => {
     load();
   }, []);
+
+  // Match → Proposal prefill (Build 3): arriving from a Campaign
+  // Match brief places the brief's brand into the form. Nothing is
+  // saved — the creator writes the proposal and saves it themselves.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const brand = params.get("brand_name");
+    if (!brand) return;
+    setBrandName(brand.slice(0, 200));
+    const brandIdParam = params.get("brand_id");
+    if (brandIdParam) setBrandId(brandIdParam);
+    setPrefillNote(
+      `Prefilled from your Campaign Match brief for ${brand} — write the proposal below and save it when ready.`
+    );
+  }, []);
+
+  // Deals → Proposal focus (Build 3): a deal's linked-proposal link
+  // lands here with ?focus=<proposal id>; expand that proposal and
+  // bring it into view once the list has loaded.
+  useEffect(() => {
+    if (loading || proposals.length === 0) return;
+    const focus = new URLSearchParams(window.location.search).get("focus");
+    if (!focus) return;
+    if (!proposals.some((p) => p.id === focus)) return;
+    setExpandedId(focus);
+    document
+      .getElementById(`proposal-${focus}`)
+      ?.scrollIntoView({ block: "start" });
+  }, [loading, proposals]);
+
+  // Proposal → Deal (Build 3): create a deal in the pipeline from
+  // an accepted proposal, linked back to it. The deals API already
+  // validates that the proposal is the caller's own.
+  async function createDeal(proposal: Proposal) {
+    setBusyId(proposal.id);
+    setError("");
+    try {
+      const response = await fetch("/api/deals", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          brandName: proposal.brand_name,
+          proposalId: proposal.id,
+        }),
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Your deal could not be created.");
+      }
+      setDealCreatedFor(proposal.id);
+    } catch (e) {
+      setError(
+        e instanceof Error ? e.message : "Your deal could not be created."
+      );
+    } finally {
+      setBusyId(null);
+    }
+  }
 
   // --- Brand picker: the directory type-ahead (/api/suggest) ------
 
@@ -438,6 +501,11 @@ export default function ProposalsPage() {
               title="Assemble a proposal"
               blurb="Name the brand, price the work, add your proof. The document composes itself from these pieces — nothing added, nothing embellished."
             >
+              {prefillNote && (
+                <p className="text-cyan-300 text-sm border border-cyan-400/30 rounded-xl px-4 py-3 mb-5">
+                  {prefillNote}
+                </p>
+              )}
               <div className="grid md:grid-cols-2 gap-5">
                 <label className="text-sm text-gray-300 relative">
                   Brand
@@ -687,6 +755,7 @@ export default function ProposalsPage() {
                     return (
                       <div
                         key={proposal.id}
+                        id={`proposal-${proposal.id}`}
                         className="rounded-2xl border border-white/10 bg-white/[.02] px-5 py-4"
                       >
                         <div className="flex flex-wrap items-start justify-between gap-3">
@@ -726,6 +795,25 @@ export default function ProposalsPage() {
                               {action.label}
                             </button>
                           ))}
+                          {proposal.status === "accepted" &&
+                            (dealCreatedFor === proposal.id ? (
+                              <a
+                                href="/growth-center/deals"
+                                className="rounded-lg border border-emerald-400/40 text-emerald-300 px-4 py-2 text-sm hover:bg-emerald-400/10 transition"
+                              >
+                                Deal created — open Deals →
+                              </a>
+                            ) : (
+                              <button
+                                onClick={() => createDeal(proposal)}
+                                disabled={busyId === proposal.id}
+                                className="rounded-lg border border-emerald-400/40 text-emerald-300 px-4 py-2 text-sm hover:bg-emerald-400/10 disabled:opacity-40 transition"
+                              >
+                                {busyId === proposal.id
+                                  ? "Creating deal..."
+                                  : "Create deal from this proposal"}
+                              </button>
+                            ))}
                           {confirmDeleteId === proposal.id ? (
                             <>
                               <button

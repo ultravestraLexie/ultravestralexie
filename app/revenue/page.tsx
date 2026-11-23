@@ -37,6 +37,7 @@ type RevenueEntry = {
   earned_date: string;
   due_date: string | null;
   note: string;
+  deal_id: string | null;
   created_at: string;
   updated_at: string;
 };
@@ -234,6 +235,13 @@ export default function RevenuePage() {
   );
   const [dueDate, setDueDate] = useState("");
   const [note, setNote] = useState("");
+  // Phase 1 Build 3: when the creator arrives from a paid deal's
+  // "Record in Revenue" action, the form is prefilled and the saved
+  // entry carries the deal link. Nothing is created until the
+  // creator checks the values and saves — money truth stays a
+  // deliberate recorded act.
+  const [dealId, setDealId] = useState<string | null>(null);
+  const [prefillNote, setPrefillNote] = useState("");
 
   const [estimates, setEstimates] = useState<RevenueEstimate[]>([]);
   const [estimateSummary, setEstimateSummary] =
@@ -288,6 +296,27 @@ export default function RevenuePage() {
     loadEstimates();
   }, []);
 
+  // Deal → Revenue prefill (Build 3): read the handoff params once
+  // on mount. Values are only placed into the form — the creator
+  // confirms or edits before anything is saved.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const brand = params.get("brand_name");
+    const centsRaw = params.get("amount_cents");
+    const deal = params.get("deal_id");
+    if (!brand && !deal) return;
+    if (brand) setBrandName(brand.slice(0, 200));
+    if (centsRaw && /^\d+$/.test(centsRaw)) {
+      const cents = Number(centsRaw);
+      if (cents > 0) setAmount((cents / 100).toFixed(2));
+    }
+    if (params.get("status") === "paid") setStatus("paid");
+    if (deal) setDealId(deal);
+    setPrefillNote(
+      "Prefilled from your deal — check the brand and amount, then save to record it. Nothing was recorded yet."
+    );
+  }, []);
+
   const amountCents = dollarsToCents(amount);
   const formComplete =
     brandName.trim().length > 0 && amountCents !== null && earnedDate !== "";
@@ -308,6 +337,7 @@ export default function RevenuePage() {
           earnedDate,
           dueDate,
           note: note.trim(),
+          dealId,
         }),
       });
       const data = await response.json();
@@ -320,6 +350,8 @@ export default function RevenuePage() {
       setKind("other");
       setDueDate("");
       setNote("");
+      setDealId(null);
+      setPrefillNote("");
       // Reload so the totals shown are the server's fresh summary.
       await load();
     } catch (e) {
@@ -644,6 +676,11 @@ export default function RevenuePage() {
               title="Record an earning"
               blurb="A commission, a flat fee, a payout — enter what the brand owes or paid you, exactly as you know it."
             >
+              {prefillNote && (
+                <p className="text-cyan-300 text-sm border border-cyan-400/30 rounded-xl px-4 py-3 mb-5">
+                  {prefillNote}
+                </p>
+              )}
               <div className="grid md:grid-cols-2 gap-5">
                 <label className="text-sm text-gray-300">
                   Brand name

@@ -267,6 +267,24 @@ function BriefCard({ brief, rank }: { brief: Brief; rank: number }) {
           </p>
         )}
       </div>
+
+      {brief.verdict !== "Skip" && (
+        <div className="mt-8 border-t border-white/10 pt-6">
+          <a
+            href={`/proposals?brand_id=${encodeURIComponent(
+              brief.brandId
+            )}&brand_name=${encodeURIComponent(brief.brandName)}`}
+            className="inline-block rounded-xl border border-emerald-400/40 text-emerald-300 px-5 py-3 font-semibold hover:bg-emerald-400/10 transition"
+          >
+            Create proposal from this brief →
+          </a>
+          <p className="text-gray-500 text-sm mt-3">
+            Opens the Proposal Builder with this brand filled in. You
+            write and price the proposal yourself — nothing is sent or
+            saved from here.
+          </p>
+        </div>
+      )}
     </section>
   );
 }

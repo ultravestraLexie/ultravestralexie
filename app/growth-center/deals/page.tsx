@@ -356,10 +356,34 @@ export default function BrandDealsPage() {
                           {deal.proposal_id && (
                             <p className="text-gray-400 mt-1 text-sm">
                               Linked proposal:{" "}
-                              {proposalName.get(deal.proposal_id) ?? "one of your proposals"} —{" "}
-                              <a href="/proposals" className="text-cyan-300 underline">
-                                open Proposals
+                              <a
+                                href={`/proposals?focus=${deal.proposal_id}`}
+                                className="text-cyan-300 underline"
+                              >
+                                {proposalName.get(deal.proposal_id) ??
+                                  "one of your proposals"}
                               </a>
+                            </p>
+                          )}
+                          {deal.stage === "paid" && (
+                            <p className="mt-2 text-sm">
+                              <a
+                                href={`/revenue?brand_name=${encodeURIComponent(
+                                  deal.brand_name
+                                )}&deal_id=${deal.id}&status=paid${
+                                  deal.compensation_cents !== null
+                                    ? `&amount_cents=${deal.compensation_cents}`
+                                    : ""
+                                }`}
+                                className="text-emerald-300 underline"
+                              >
+                                Record this payment in Revenue →
+                              </a>{" "}
+                              <span className="text-gray-500">
+                                — prefilled from this deal; you check and
+                                save it yourself, nothing is recorded
+                                automatically.
+                              </span>
                             </p>
                           )}
                           <div className="flex flex-wrap items-center gap-3 mt-4">
