@@ -235,6 +235,37 @@ function SectionShell({
 const inputClass =
   "mt-2 w-full bg-[#080b14] border border-white/10 rounded-xl p-4 text-white";
 
+// --- Expenses (Build 15) ----------------------------------------------
+// The cost side of the ledger, in its own table (/api/expenses)
+// and its own section. Expenses are never stored as negative
+// revenue and never added into the recorded-earnings summary
+// above; Business Health subtracts them there to show what the
+// creator actually kept.
+
+type Expense = {
+  id: string;
+  description: string;
+  amount_cents: number;
+  category: string;
+  spent_date: string;
+  platform: RevenuePlatform | null;
+  deal_id: string | null;
+  note: string;
+};
+
+const EXPENSE_CATEGORY_LABELS: Record<string, string> = {
+  equipment: "Equipment & gear",
+  software: "Software & subscriptions",
+  props_products: "Products & props",
+  travel: "Travel",
+  education: "Education & coaching",
+  advertising: "Advertising",
+  team_help: "Team & help",
+  other: "Other costs",
+};
+
+const EXPENSE_CATEGORY_OPTIONS = Object.entries(EXPENSE_CATEGORY_LABELS);
+
 export default function RevenuePage() {
   const [entries, setEntries] = useState<RevenueEntry[]>([]);
   const [summary, setSummary] = useState<RevenueSummary>(EMPTY_SUMMARY);
@@ -300,6 +331,112 @@ export default function RevenuePage() {
   const [estimateSaving, setEstimateSaving] = useState(false);
   const [estimateBusyId, setEstimateBusyId] = useState<string | null>(null);
 
+  // Build 15 — expenses: the creator's recorded business costs.
+  const [expenses, setExpenses] = useState<Expense[]>([]);
+  const [totalSpentCents, setTotalSpentCents] = useState(0);
+  const [expenseDescription, setExpenseDescription] = useState("");
+  const [expenseAmount, setExpenseAmount] = useState("");
+  const [expenseCategory, setExpenseCategory] = useState("other");
+  const [expenseDate, setExpenseDate] = useState(() =>
+    new Date().toISOString().slice(0, 10)
+  );
+  const [expensePlatform, setExpensePlatform] = useState<RevenuePlatform | "">("");
+  const [expenseDealId, setExpenseDealId] = useState("");
+  const [expenseSaving, setExpenseSaving] = useState(false);
+  const [expenseBusyId, setExpenseBusyId] = useState<string | null>(null);
+  const [dealOptions, setDealOptions] = useState<
+    { id: string; brand_name: string }[]
+  >([]);
+
+  async function loadExpenses() {
+    try {
+      const response = await fetch("/api/expenses");
+      const data = await response.json();
+      if (!response.ok) return; // The section degrades, never the ledger.
+      setExpenses(data.expenses ?? []);
+      setTotalSpentCents(data.totalSpentCents ?? 0);
+    } catch {
+      // Expenses are additive — their absence never blocks revenue.
+    }
+  }
+
+  async function loadDealOptions() {
+    try {
+      const response = await fetch("/api/deals");
+      if (!response.ok) return;
+      const data = await response.json();
+      setDealOptions(
+        ((data.deals ?? []) as { id: string; brand_name: string }[]).map(
+          (d) => ({ id: d.id, brand_name: d.brand_name })
+        )
+      );
+    } catch {
+      // The deal picker is optional.
+    }
+  }
+
+  const expenseAmountCents = dollarsToCents(expenseAmount);
+  const expenseFormComplete =
+    expenseDescription.trim().length > 0 &&
+    expenseAmountCents !== null &&
+    expenseDate !== "";
+
+  async function addExpense() {
+    if (expenseAmountCents === null) return;
+    setExpenseSaving(true);
+    setError("");
+    try {
+      const response = await fetch("/api/expenses", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          description: expenseDescription.trim(),
+          amountCents: expenseAmountCents,
+          category: expenseCategory,
+          spentDate: expenseDate,
+          platform: expensePlatform === "" ? null : expensePlatform,
+          dealId: expenseDealId === "" ? null : expenseDealId,
+        }),
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Your expense could not be saved.");
+      }
+      setExpenseDescription("");
+      setExpenseAmount("");
+      setExpenseCategory("other");
+      setExpensePlatform("");
+      setExpenseDealId("");
+      await loadExpenses();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Your expense could not be saved.");
+    } finally {
+      setExpenseSaving(false);
+    }
+  }
+
+  async function deleteExpense(id: string) {
+    setExpenseBusyId(id);
+    setError("");
+    try {
+      const response = await fetch(
+        `/api/expenses?id=${encodeURIComponent(id)}`,
+        { method: "DELETE" }
+      );
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Your expense could not be deleted.");
+      }
+      await loadExpenses();
+    } catch (e) {
+      setError(
+        e instanceof Error ? e.message : "Your expense could not be deleted."
+      );
+    } finally {
+      setExpenseBusyId(null);
+    }
+  }
+
   async function load() {
     try {
       const response = await fetch("/api/revenue");
@@ -340,6 +477,8 @@ export default function RevenuePage() {
     load();
     loadEstimates();
     loadPosts();
+    loadExpenses();
+    loadDealOptions();
   }, []);
 
   // Deal → Revenue prefill (Build 3): read the handoff params once
@@ -936,6 +1075,163 @@ export default function RevenuePage() {
                         >
                           Delete
                         </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </SectionShell>
+
+            <SectionShell
+              label="EXPENSES — WHAT IT COSTS YOU"
+              title="Record an expense"
+              blurb="Gear, software, products you bought to review, travel, help you paid for. Expenses live in their own records — they are never subtracted from the earnings above on this page. Business Health does that math and shows what you actually kept."
+            >
+              <div className="rounded-2xl bg-white/[.04] border border-white/10 p-5 mb-6 max-w-xs">
+                <div className="text-3xl font-bold">
+                  {formatMoney(totalSpentCents)}
+                </div>
+                <div className="text-gray-400 text-sm mt-2">
+                  Total recorded spending · {expenses.length}{" "}
+                  {expenses.length === 1 ? "expense" : "expenses"}
+                </div>
+              </div>
+              <div className="grid md:grid-cols-2 gap-5">
+                <label className="text-sm text-gray-300">
+                  What was it?
+                  <input
+                    type="text"
+                    value={expenseDescription}
+                    onChange={(e) => setExpenseDescription(e.target.value)}
+                    placeholder="Example: Ring light"
+                    maxLength={300}
+                    className={inputClass}
+                  />
+                </label>
+                <label className="text-sm text-gray-300">
+                  Amount (dollars)
+                  <input
+                    type="text"
+                    inputMode="decimal"
+                    value={expenseAmount}
+                    onChange={(e) => setExpenseAmount(e.target.value)}
+                    placeholder="Example: 89.99"
+                    className={inputClass}
+                  />
+                </label>
+                <label className="text-sm text-gray-300">
+                  Category
+                  <select
+                    value={expenseCategory}
+                    onChange={(e) => setExpenseCategory(e.target.value)}
+                    className={inputClass}
+                  >
+                    {EXPENSE_CATEGORY_OPTIONS.map(([value, label]) => (
+                      <option key={value} value={value}>
+                        {label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="text-sm text-gray-300">
+                  Date spent
+                  <input
+                    type="date"
+                    value={expenseDate}
+                    onChange={(e) => setExpenseDate(e.target.value)}
+                    className={inputClass}
+                  />
+                </label>
+                <label className="text-sm text-gray-300">
+                  Platform it was for (optional)
+                  <select
+                    value={expensePlatform}
+                    onChange={(e) =>
+                      setExpensePlatform(e.target.value as RevenuePlatform | "")
+                    }
+                    className={inputClass}
+                  >
+                    <option value="">Not set</option>
+                    {PLATFORM_OPTIONS.map(([value, label]) => (
+                      <option key={value} value={value}>
+                        {label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="text-sm text-gray-300">
+                  Deal it belongs to (optional)
+                  <select
+                    value={expenseDealId}
+                    onChange={(e) => setExpenseDealId(e.target.value)}
+                    className={inputClass}
+                  >
+                    <option value="">Not tied to a deal</option>
+                    {dealOptions.map((d) => (
+                      <option key={d.id} value={d.id}>
+                        {d.brand_name}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+              {expenseAmount !== "" && expenseAmountCents === null && (
+                <p role="alert" className="text-red-400 text-sm mt-4">
+                  Enter an amount like 40 or 89.99 — more than $0 and up
+                  to $1,000,000.
+                </p>
+              )}
+              <button
+                onClick={addExpense}
+                disabled={expenseSaving || !expenseFormComplete}
+                className="mt-6 w-full rounded-xl p-5 font-bold text-black bg-cyan-400 hover:bg-cyan-300 disabled:opacity-40 transition"
+              >
+                {expenseSaving ? "Saving..." : "Add expense"}
+              </button>
+
+              {expenses.length > 0 && (
+                <div className="space-y-3 mt-8">
+                  {expenses.map((expense) => (
+                    <div
+                      key={expense.id}
+                      className="rounded-2xl border border-white/10 bg-white/[.02] px-5 py-4"
+                    >
+                      <div className="flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                          <div className="font-bold">{expense.description}</div>
+                          <div className="text-gray-400 text-sm mt-1">
+                            {EXPENSE_CATEGORY_LABELS[expense.category] ??
+                              "Other costs"}{" "}
+                            · Spent {formatDate(expense.spent_date)}
+                            {expense.platform
+                              ? ` · For ${PLATFORM_LABELS[expense.platform] ?? expense.platform}`
+                              : ""}
+                            {expense.deal_id
+                              ? ` · Deal: ${
+                                  dealOptions.find(
+                                    (d) => d.id === expense.deal_id
+                                  )?.brand_name ?? "one of your deals"
+                                }`
+                              : ""}
+                          </div>
+                          {expense.note && (
+                            <div className="text-gray-500 text-sm mt-1">
+                              {expense.note}
+                            </div>
+                          )}
+                        </div>
+                        <div className="flex flex-col items-end gap-2">
+                          <div className="text-xl font-bold">
+                            {formatMoney(expense.amount_cents)}
+                          </div>
+                          <button
+                            onClick={() => deleteExpense(expense.id)}
+                            disabled={expenseBusyId === expense.id}
+                            className="rounded-lg border border-red-400/40 text-red-300 px-4 py-2 text-sm hover:bg-red-400/10 disabled:opacity-40 transition"
+                          >
+                            Delete
+                          </button>
+                        </div>
                       </div>
                     </div>
                   ))}

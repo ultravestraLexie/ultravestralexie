@@ -65,20 +65,27 @@ export async function GET() {
   if (!owner.ok) return owner.response;
 
   try {
-    const [entriesRes, dealsRes, postsRes] = await Promise.all([
+    const [entriesRes, dealsRes, postsRes, expensesRes] = await Promise.all([
       owner.supabase
         .from("revenue_entries")
-        .select("brand_name, amount_cents, status, earned_date, kind, platform, post_id")
+        .select("brand_name, amount_cents, status, earned_date, kind, platform, post_id, deal_id")
         .eq("user_id", owner.userId),
       owner.supabase
         .from("creator_deals")
         .select(
-          "brand_name, platform, stage, compensation_cents, deadline, invoice_sent_date, payment_terms, payment_due_date, payment_received_date, amount_received_cents"
+          "id, brand_name, platform, stage, compensation_cents, deadline, invoice_sent_date, payment_terms, payment_due_date, payment_received_date, amount_received_cents"
         )
         .eq("user_id", owner.userId),
       owner.supabase
         .from("creator_posts")
         .select("id, title, platform, posted_date")
+        .eq("user_id", owner.userId),
+      // Build 15: recorded expenses for the Kept computation. A
+      // failure here (e.g. before the migration runs) degrades
+      // expenses to none — never the money figures above.
+      owner.supabase
+        .from("creator_expenses")
+        .select("amount_cents, category, platform, deal_id, spent_date")
         .eq("user_id", owner.userId),
     ]);
     if (entriesRes.error) throw entriesRes.error;
@@ -104,7 +111,16 @@ export async function GET() {
         postedDate: p.posted_date,
       };
     }
-    const health = computeHealth(entries, deals, new Date(), postsById);
+    const expenses = expensesRes.error
+      ? []
+      : ((expensesRes.data ?? []) as {
+          amount_cents: number;
+          category: string;
+          platform: string | null;
+          deal_id: string | null;
+          spent_date: string;
+        }[]);
+    const health = computeHealth(entries, deals, new Date(), postsById, expenses);
     return Response.json({ success: true, health });
   } catch (e) {
     console.error("Business health load error:", e);

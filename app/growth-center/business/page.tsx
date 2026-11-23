@@ -66,6 +66,43 @@ type Health = {
     closedDeals: number;
     conversionPct: number | null;
   };
+  kept: {
+    madeCents: number;
+    spentCents: number;
+    keptCents: number;
+    expenseCount: number;
+    byCategory: ShareTotal[];
+    platformProfit: {
+      name: string;
+      receivedCents: number;
+      spentCents: number;
+      profitCents: number;
+    }[];
+    untiedSpentCents: number;
+    untiedReceivedCents: number;
+    dealProfit: {
+      dealId: string;
+      brandName: string;
+      collectedCents: number;
+      costCents: number;
+      profitCents: number;
+    }[];
+    concentration: {
+      receivedEntries: number;
+      topBrand: {
+        name: string;
+        cents: number;
+        sharePct: number;
+        entries: number;
+      } | null;
+      topPlatform: {
+        name: string;
+        cents: number;
+        sharePct: number;
+        entries: number;
+      } | null;
+    };
+  };
 };
 
 const CONCENTRATION_THRESHOLD = 70;
@@ -222,6 +259,171 @@ export default function BusinessHealthPage() {
                       </div>
                     ))}
                   </div>
+                </>
+              )}
+            </section>
+
+            {/* What you kept — Build 15: made is recorded revenue
+                marked received; spent is recorded expenses; kept
+                is the difference. The owner's objective: not just
+                how much money they made, but how much they
+                actually kept. Untied money is named, never
+                allocated by assumption. */}
+            <section>
+              <SourceLabel>FROM YOUR RECORDED REVENUE AND EXPENSES</SourceLabel>
+              <h3 className="text-lg font-bold mb-3">What you kept</h3>
+              {health.kept.expenseCount === 0 && health.kept.madeCents === 0 ? (
+                <div className="rounded-3xl border border-white/10 bg-white/[.03] p-6">
+                  <p className="text-gray-300">
+                    Nothing to compare yet. Record what you earn in
+                    the{" "}
+                    <a href="/revenue" className="text-cyan-300 underline">
+                      Revenue Tracker
+                    </a>{" "}
+                    and what your content costs you in its Expenses
+                    section — this block then shows what you actually
+                    kept, not just what you made.
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <div className="grid md:grid-cols-3 gap-4">
+                    <Stat
+                      label="Made (collected)"
+                      value={money(health.kept.madeCents)}
+                      sub="Recorded revenue you marked received"
+                    />
+                    <Stat
+                      label="Spent"
+                      value={money(health.kept.spentCents)}
+                      sub={`${health.kept.expenseCount} recorded ${health.kept.expenseCount === 1 ? "expense" : "expenses"}`}
+                    />
+                    <Stat
+                      label="Kept"
+                      value={money(health.kept.keptCents)}
+                      sub={
+                        health.kept.madeCents > 0
+                          ? `You kept ${Math.round((health.kept.keptCents / health.kept.madeCents) * 1000) / 10}% of what you collected`
+                          : "Made minus spent, from your records"
+                      }
+                    />
+                  </div>
+
+                  {health.kept.byCategory.length > 0 && (
+                    <>
+                      <h4 className="font-bold mt-6 mb-3">Where the money went</h4>
+                      <div className="flex flex-col gap-2">
+                        {health.kept.byCategory.map((c) => (
+                          <div
+                            key={c.name}
+                            className="rounded-2xl border border-white/10 bg-white/[.03] px-5 py-3"
+                          >
+                            <div className="flex items-baseline justify-between">
+                              <span className="font-semibold">{c.name}</span>
+                              <span className="text-gray-300">
+                                {money(c.cents)} · {c.sharePct}% of spending
+                              </span>
+                            </div>
+                            <div className="h-2 rounded-full bg-white/10 mt-2 overflow-hidden">
+                              <div
+                                className="h-full bg-gradient-to-r from-fuchsia-400 to-violet-500"
+                                style={{ width: `${Math.min(100, c.sharePct)}%` }}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  )}
+
+                  {health.kept.platformProfit.length > 0 && (
+                    <>
+                      <h4 className="font-bold mt-6 mb-3">Profit by platform</h4>
+                      <div className="flex flex-col gap-2">
+                        {health.kept.platformProfit.map((p) => (
+                          <div
+                            key={p.name}
+                            className="rounded-2xl border border-white/10 bg-white/[.03] px-5 py-3 flex flex-wrap items-baseline justify-between gap-2"
+                          >
+                            <span className="font-semibold">
+                              {PLATFORM_LABELS[p.name] ?? p.name}
+                            </span>
+                            <span className="text-gray-300 text-sm">
+                              {money(p.receivedCents)} collected −{" "}
+                              {money(p.spentCents)} spent ={" "}
+                              <strong className="text-white">
+                                {money(p.profitCents)} kept
+                              </strong>
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                      {(health.kept.untiedSpentCents > 0 ||
+                        health.kept.untiedReceivedCents > 0) && (
+                        <p className="text-gray-500 text-sm mt-3">
+                          Not tied to a platform in your records:{" "}
+                          {money(health.kept.untiedReceivedCents)} collected
+                          and {money(health.kept.untiedSpentCents)} spent.
+                          Untied money is never spread across platforms
+                          by assumption — tag the platform when you
+                          record it and it joins the split.
+                        </p>
+                      )}
+                    </>
+                  )}
+
+                  {health.kept.dealProfit.length > 0 && (
+                    <>
+                      <h4 className="font-bold mt-6 mb-3">Profit by deal</h4>
+                      <div className="flex flex-col gap-2">
+                        {health.kept.dealProfit.map((d) => (
+                          <div
+                            key={d.dealId}
+                            className="rounded-2xl border border-white/10 bg-white/[.03] px-5 py-3 flex flex-wrap items-baseline justify-between gap-2"
+                          >
+                            <span className="font-semibold">{d.brandName}</span>
+                            <span className="text-gray-300 text-sm">
+                              {money(d.collectedCents)} collected −{" "}
+                              {money(d.costCents)} in costs ={" "}
+                              <strong className="text-white">
+                                {money(d.profitCents)} profit
+                              </strong>
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                      <p className="text-gray-500 text-sm mt-3">
+                        From revenue and expenses you linked to each
+                        deal. A deal with no linked records does not
+                        appear — its profit is unknown, not zero.
+                      </p>
+                    </>
+                  )}
+
+                  {health.kept.concentration.topBrand && (
+                    <p className="text-gray-300 mt-6">
+                      Concentration, from {health.kept.concentration.receivedEntries}{" "}
+                      received{" "}
+                      {health.kept.concentration.receivedEntries === 1
+                        ? "entry"
+                        : "entries"}
+                      : your biggest source is{" "}
+                      <strong>{health.kept.concentration.topBrand.name}</strong>{" "}
+                      at {health.kept.concentration.topBrand.sharePct}% of
+                      collected money ({health.kept.concentration.topBrand.entries}{" "}
+                      {health.kept.concentration.topBrand.entries === 1
+                        ? "entry"
+                        : "entries"}
+                      )
+                      {health.kept.concentration.topPlatform
+                        ? `, and your biggest platform is ${
+                            PLATFORM_LABELS[health.kept.concentration.topPlatform.name] ??
+                            health.kept.concentration.topPlatform.name
+                          } at ${health.kept.concentration.topPlatform.sharePct}%`
+                        : ""}
+                      .
+                    </p>
+                  )}
                 </>
               )}
             </section>

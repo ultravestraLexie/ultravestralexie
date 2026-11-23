@@ -57,6 +57,10 @@ export const OPEN_STAGES: DealStage[] = [
 ];
 
 export type DealLike = {
+  /** Build 15 — optional so older callers keep compiling; the
+   *  business route selects it so deal profitability can name
+   *  the deal its money belongs to. */
+  id?: string | null;
   brand_name: string;
   platform: string | null;
   stage: DealStage;
@@ -321,6 +325,18 @@ export function summarizeBrandPayments(
 export type HealthEntryLike = RevenueEntryLike & {
   platform?: string | null;
   post_id?: string | null;
+  /** Build 15 — the deal this earning belongs to, when the
+   *  creator linked it (Build 3). Drives deal profitability. */
+  deal_id?: string | null;
+};
+
+/** A recorded expense as Business Health sees it (Build 15). */
+export type ExpenseLike = {
+  amount_cents: number;
+  category: string;
+  platform?: string | null;
+  deal_id?: string | null;
+  spent_date: string;
 };
 
 /** Post identity for attribution display, supplied by the caller
@@ -410,7 +426,232 @@ export type BusinessHealth = {
   /** Build 13: recorded revenue linked to posts (creator-reported
    *  attribution) + the honest coverage share. */
   contentAttribution: ContentAttribution;
+  /** Build 15: what the creator actually KEPT — recorded
+   *  received revenue minus recorded expenses — with expense
+   *  intelligence, platform and deal profitability, and revenue
+   *  concentration over received money. */
+  kept: KeptSummary;
 };
+
+/** Build 15 — "Made / Spent / Kept" (owner's objective: not just
+ *  how much money they made, but how much they actually kept).
+ *
+ *  Rules (binding):
+ *  - MADE is recorded revenue the creator marked received
+ *    (status paid) — collected money only. Pending revenue is
+ *    not made yet; estimates are never read.
+ *  - SPENT is the exact sum of recorded expenses.
+ *  - KEPT = MADE − SPENT, shown even when negative.
+ *  - Platform profit compares like with like: received revenue
+ *    carrying a platform minus expenses carrying the same
+ *    platform. Money with no platform is reported as untied —
+ *    never spread across platforms by assumption.
+ *  - Deal profit: revenue entries the creator linked to a deal
+ *    and marked received, minus expenses linked to that deal.
+ *  - Concentration is measured over RECEIVED money, with entry
+ *    counts, so the sample is always visible. */
+export type KeptSummary = {
+  madeCents: number;
+  spentCents: number;
+  keptCents: number;
+  expenseCount: number;
+  /** Expenses grouped by category; shares are of total spent. */
+  byCategory: ShareTotal[];
+  platformProfit: {
+    name: string;
+    receivedCents: number;
+    spentCents: number;
+    profitCents: number;
+  }[];
+  /** Expenses recorded with no platform. */
+  untiedSpentCents: number;
+  /** Received revenue recorded with no platform. */
+  untiedReceivedCents: number;
+  dealProfit: {
+    dealId: string;
+    brandName: string;
+    collectedCents: number;
+    costCents: number;
+    profitCents: number;
+  }[];
+  concentration: {
+    receivedEntries: number;
+    topBrand: {
+      name: string;
+      cents: number;
+      sharePct: number;
+      entries: number;
+    } | null;
+    topPlatform: {
+      name: string;
+      cents: number;
+      sharePct: number;
+      entries: number;
+    } | null;
+  };
+};
+
+export const EXPENSE_CATEGORY_LABELS: Record<string, string> = {
+  equipment: "Equipment & gear",
+  software: "Software & subscriptions",
+  props_products: "Products & props",
+  travel: "Travel",
+  education: "Education & coaching",
+  advertising: "Advertising",
+  team_help: "Team & help",
+  other: "Other costs",
+};
+
+export function computeKept(
+  entries: HealthEntryLike[],
+  deals: DealLike[],
+  expenses: ExpenseLike[]
+): KeptSummary {
+  const received = entries.filter((e) => e.status === "paid");
+  const madeCents = received.reduce((sum, e) => sum + e.amount_cents, 0);
+  const spentCents = expenses.reduce((sum, e) => sum + e.amount_cents, 0);
+
+  const categoryMap = new Map<string, number>();
+  for (const e of expenses) {
+    categoryMap.set(e.category, (categoryMap.get(e.category) ?? 0) + e.amount_cents);
+  }
+  const byCategory: ShareTotal[] = [...categoryMap.entries()]
+    .filter(([, cents]) => cents > 0)
+    .map(([category, cents]) => ({
+      name: EXPENSE_CATEGORY_LABELS[category] ?? "Other costs",
+      cents,
+      sharePct: sharePct(cents, spentCents),
+    }))
+    .sort((a, b) => b.cents - a.cents || a.name.localeCompare(b.name));
+
+  const receivedByPlatform = new Map<string, number>();
+  let untiedReceivedCents = 0;
+  for (const e of received) {
+    if (e.platform) {
+      receivedByPlatform.set(
+        e.platform,
+        (receivedByPlatform.get(e.platform) ?? 0) + e.amount_cents
+      );
+    } else {
+      untiedReceivedCents += e.amount_cents;
+    }
+  }
+  const spentByPlatform = new Map<string, number>();
+  let untiedSpentCents = 0;
+  for (const e of expenses) {
+    if (e.platform) {
+      spentByPlatform.set(
+        e.platform,
+        (spentByPlatform.get(e.platform) ?? 0) + e.amount_cents
+      );
+    } else {
+      untiedSpentCents += e.amount_cents;
+    }
+  }
+  const platformNames = new Set([
+    ...receivedByPlatform.keys(),
+    ...spentByPlatform.keys(),
+  ]);
+  const platformProfit = [...platformNames]
+    .map((name) => {
+      const receivedCents = receivedByPlatform.get(name) ?? 0;
+      const platformSpent = spentByPlatform.get(name) ?? 0;
+      return {
+        name,
+        receivedCents,
+        spentCents: platformSpent,
+        profitCents: receivedCents - platformSpent,
+      };
+    })
+    .sort((a, b) => b.profitCents - a.profitCents || a.name.localeCompare(b.name));
+
+  const brandByDealId = new Map<string, string>();
+  for (const d of deals) {
+    if (d.id) brandByDealId.set(d.id, d.brand_name);
+  }
+  const collectedByDeal = new Map<string, number>();
+  for (const e of received) {
+    if (e.deal_id) {
+      collectedByDeal.set(
+        e.deal_id,
+        (collectedByDeal.get(e.deal_id) ?? 0) + e.amount_cents
+      );
+    }
+  }
+  const costByDeal = new Map<string, number>();
+  for (const e of expenses) {
+    if (e.deal_id) {
+      costByDeal.set(e.deal_id, (costByDeal.get(e.deal_id) ?? 0) + e.amount_cents);
+    }
+  }
+  const dealIds = new Set([...collectedByDeal.keys(), ...costByDeal.keys()]);
+  const dealProfit = [...dealIds]
+    .map((dealId) => {
+      const collectedCents = collectedByDeal.get(dealId) ?? 0;
+      const costCents = costByDeal.get(dealId) ?? 0;
+      return {
+        dealId,
+        brandName: brandByDealId.get(dealId) ?? "A deal you removed",
+        collectedCents,
+        costCents,
+        profitCents: collectedCents - costCents,
+      };
+    })
+    .sort((a, b) => b.profitCents - a.profitCents);
+
+  const brandAgg = new Map<string, { cents: number; entries: number }>();
+  for (const e of received) {
+    const acc = brandAgg.get(e.brand_name) ?? { cents: 0, entries: 0 };
+    acc.cents += e.amount_cents;
+    acc.entries += 1;
+    brandAgg.set(e.brand_name, acc);
+  }
+  const topBrandEntry = [...brandAgg.entries()].sort(
+    (a, b) => b[1].cents - a[1].cents
+  )[0];
+  const platformAgg = new Map<string, { cents: number; entries: number }>();
+  for (const e of received) {
+    if (!e.platform) continue;
+    const acc = platformAgg.get(e.platform) ?? { cents: 0, entries: 0 };
+    acc.cents += e.amount_cents;
+    acc.entries += 1;
+    platformAgg.set(e.platform, acc);
+  }
+  const topPlatformEntry = [...platformAgg.entries()].sort(
+    (a, b) => b[1].cents - a[1].cents
+  )[0];
+
+  return {
+    madeCents,
+    spentCents,
+    keptCents: madeCents - spentCents,
+    expenseCount: expenses.length,
+    byCategory,
+    platformProfit,
+    untiedSpentCents,
+    untiedReceivedCents,
+    dealProfit,
+    concentration: {
+      receivedEntries: received.length,
+      topBrand: topBrandEntry
+        ? {
+            name: topBrandEntry[0],
+            cents: topBrandEntry[1].cents,
+            sharePct: sharePct(topBrandEntry[1].cents, madeCents),
+            entries: topBrandEntry[1].entries,
+          }
+        : null,
+      topPlatform: topPlatformEntry
+        ? {
+            name: topPlatformEntry[0],
+            cents: topPlatformEntry[1].cents,
+            sharePct: sharePct(topPlatformEntry[1].cents, madeCents),
+            entries: topPlatformEntry[1].entries,
+          }
+        : null,
+    },
+  };
+}
 
 function sharePct(part: number, total: number): number {
   if (total <= 0) return 0;
@@ -502,7 +743,8 @@ export function computeHealth(
   entries: HealthEntryLike[],
   deals: DealLike[],
   today: Date = new Date(),
-  postsById: Record<string, PostMeta> = {}
+  postsById: Record<string, PostMeta> = {},
+  expenses: ExpenseLike[] = []
 ): BusinessHealth {
   // Recorded-money figures come from the Revenue Tracker's own
   // summary — the same rows, the same loop, the same numbers.
@@ -578,5 +820,6 @@ export function computeHealth(
     pipeline: summarizePipeline(deals),
     receivables: computeReceivables(deals, today),
     contentAttribution: computeAttribution(entries, total, postsById),
+    kept: computeKept(entries, deals, expenses),
   };
 }
