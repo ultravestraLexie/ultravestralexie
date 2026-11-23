@@ -154,9 +154,36 @@ async function syncSubscription(
           { onConflict: "stripe_subscription_id" }
         );
       if (claimError) {
-        throw new Error(
-          `subscription_claims upsert failed for subscription ${subscription.id}: ${claimError.message}`
-        );
+        // Same-email return (defect proven live by battX, 2026-11-23):
+        // this email already has a claim row under its OLD, canceled
+        // subscription, so the insert above collides with the unique
+        // email constraint and the new paid claim never parks — the
+        // customer pays, then signup eligibility reads the old
+        // canceled row and refuses the account. Fall back to reviving
+        // that row with the new purchase, but ONLY when it is dead
+        // weight: status canceled AND never claimed by an account.
+        // A claimed row belongs to an existing account and is never
+        // rewritten here. If the revive matches nothing, the original
+        // error stands and the event 500s so Stripe retries.
+        const { data: revived, error: reviveError } = await admin
+          .from("subscription_claims")
+          .update({
+            stripe_customer_id: row.stripe_customer_id,
+            stripe_subscription_id: subscription.id,
+            plan_id: planId,
+            status: row.status,
+            updated_at: new Date().toISOString(),
+          })
+          .eq("email", normalizeEmail(signupEmail))
+          .eq("status", "canceled")
+          .is("claimed_user_id", null)
+          .neq("stripe_subscription_id", subscription.id)
+          .select("id");
+        if (reviveError || !revived || revived.length === 0) {
+          throw new Error(
+            `subscription_claims upsert failed for subscription ${subscription.id}: ${claimError.message}`
+          );
+        }
       }
     }
     // Without a user id (and without a signup email) we cannot attach
