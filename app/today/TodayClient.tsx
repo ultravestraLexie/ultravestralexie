@@ -20,6 +20,7 @@ import {
   type Insight,
 } from "@/lib/galaxy/core";
 import { DealSheet } from "@/components/galaxy/DealSheet";
+import { useDealSync } from "@/components/galaxy/useDealSync";
 import { PitchSheet } from "@/components/galaxy/PitchSheet";
 import { ProfileSheet } from "@/components/galaxy/ProfileSheet";
 import { Icon, I, copyText, toast } from "@/components/galaxy/ui";
@@ -80,20 +81,26 @@ export default function TodayClient(p: Props) {
   const [pitchId, setPitchId] = useState<string | null>(null);
   const [profileOpen, setProfileOpen] = useState(false);
 
-  const deal = p.deals.find((d) => d.id === dealId) ?? null;
+  /* Deal writes made through the sheet are applied over the
+   * server props as they land (see useDealSync), so the orbit,
+   * legend and steps move on the same render; the server-computed
+   * insights and summary still arrive via the refresh backstop. */
+  const { deals, applyDeal } = useDealSync(p.deals);
+
+  const deal = deals.find((d) => d.id === dealId) ?? null;
   const pitchBrand = p.pitchBrands.find((b) => b.id === pitchId) ?? null;
   const list = ask === "all" ? p.insights.slice(0, 7) : p.insights.filter((x) => x.kind === ask);
-  const isNew = p.deals.length === 0;
+  const isNew = deals.length === 0;
 
   const steps = useMemo(
     () => [
       { t: "Tell us your niche", done: Boolean(p.profile.niche), cta: "Add niche", act: "profile" as const },
       { t: "Save 3 brands that fit", done: p.savedCount >= 3, cta: "Find brands", act: "go" as const, to: "/brands" },
-      { t: "Send your first pitch", done: p.deals.length > 0, cta: "Write pitch", act: "go" as const, to: "/brands" },
-      { t: "Add what a deal is worth", done: p.deals.some((d) => (d.amountCents ?? 0) > 0), cta: "Open Deals", act: "go" as const, to: "/deals" },
+      { t: "Send your first pitch", done: deals.length > 0, cta: "Write pitch", act: "go" as const, to: "/brands" },
+      { t: "Add what a deal is worth", done: deals.some((d) => (d.amountCents ?? 0) > 0), cta: "Open Deals", act: "go" as const, to: "/deals" },
       { t: "Check a script in the Video Lab", done: p.scriptCount > 0, cta: "Open lab", act: "go" as const, to: "/studio" },
     ],
-    [p]
+    [p, deals]
   );
   const stepsDone = steps.filter((s) => s.done).length;
   const showSteps = stepsDone < steps.length;
@@ -124,7 +131,7 @@ export default function TodayClient(p: Props) {
     if (a.act === "open-deal" || a.act === "followup") {
       if (a.dealId) setDealId(a.dealId);
     } else if (a.act === "reminder") {
-      const d = p.deals.find((x) => x.id === a.dealId);
+      const d = deals.find((x) => x.id === a.dealId);
       if (d) {
         const ok = await copyText(mkReminder(p.profile, d));
         toast(ok ? "Reminder copied — paste it anywhere." : "Copy failed.");
@@ -168,7 +175,7 @@ export default function TodayClient(p: Props) {
         return <circle key={sid} cx="200" cy="200" r={r} fill="none" stroke="rgba(150,170,255,.16)" strokeWidth="1" />;
       })}
       {ACTIVE_STAGES.map((sid, i) => {
-        const ds = p.deals.filter((d) => d.stage === sid);
+        const ds = deals.filter((d) => d.stage === sid);
         if (!ds.length) return null;
         const r = [178, 148, 118, 90, 64][i];
         const dur = [280, 220, 175, 135, 100][i];
@@ -224,8 +231,8 @@ export default function TodayClient(p: Props) {
   const legend = (
     <ul style={{ listStyle: "none", margin: "6px 0 0", padding: 0, maxWidth: 440 }} aria-label="Pipeline by stage">
       {STAGES.slice(0, 5).map((st) => {
-        const ds = p.deals.filter((d) => d.stage === st.id);
-        const late = st.id === "invoiced" ? p.deals.filter((d) => isOverdue(d)).length : 0;
+        const ds = deals.filter((d) => d.stage === st.id);
+        const late = st.id === "invoiced" ? deals.filter((d) => isOverdue(d)).length : 0;
         return (
           <li key={st.id} className="gx-legend-li">
             <span style={{ width: 10, height: 10, borderRadius: "50%", background: st.color, boxShadow: `0 0 10px ${st.color}` }} />
@@ -420,7 +427,10 @@ export default function TodayClient(p: Props) {
         profile={p.profile}
         open={Boolean(deal)}
         onClose={() => setDealId(null)}
-        onChanged={() => router.refresh()}
+        onChanged={(updated) => {
+          applyDeal(updated);
+          router.refresh();
+        }}
       />
       <PitchSheet
         brand={pitchBrand}

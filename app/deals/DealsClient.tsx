@@ -13,11 +13,14 @@ import {
   isOverdue,
   plural,
   protectionGaps,
+  rowToDeal,
   type DealProtection,
+  type DealRowLike,
   type GalaxyDeal,
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
 import { DealSheet } from "@/components/galaxy/DealSheet";
+import { useDealSync } from "@/components/galaxy/useDealSync";
 import { Icon, I, Sheet, toast } from "@/components/galaxy/ui";
 
 /* DEALS board — five active-stage columns, paid/lost history,
@@ -29,7 +32,7 @@ const FLAG_ICON = { bad: I.alert, warn: I.warn, plain: I.clock };
 
 export default function DealsClient({
   profile,
-  deals,
+  deals: serverDeals,
   brandOptions,
   protections,
 }: {
@@ -39,6 +42,11 @@ export default function DealsClient({
   protections: Record<string, DealProtection>;
 }) {
   const router = useRouter();
+  /* Committed write results (from the API response bodies) are
+   * laid over the server props, so the board reflects a stage
+   * change on the render right after the sheet closes — never
+   * waiting on a refresh that may carry a pre-write snapshot. */
+  const { deals, applyDeal } = useDealSync(serverDeals);
   const [dealId, setDealId] = useState<string | null>(null);
   const [addOpen, setAddOpen] = useState(false);
   const [showClosed, setShowClosed] = useState(false);
@@ -251,13 +259,19 @@ export default function DealsClient({
         profile={profile}
         open={Boolean(deal)}
         onClose={() => setDealId(null)}
-        onChanged={() => router.refresh()}
+        onChanged={(updated) => {
+          applyDeal(updated);
+          router.refresh();
+        }}
       />
       <AddDealSheet
         open={addOpen}
         onClose={() => setAddOpen(false)}
         brandOptions={brandOptions}
-        onAdded={() => router.refresh()}
+        onAdded={(created) => {
+          if (created) applyDeal(created);
+          router.refresh();
+        }}
       />
     </div>
   );
@@ -272,9 +286,10 @@ function AddDealSheet({
   open: boolean;
   onClose: () => void;
   brandOptions: { id: string; name: string }[];
-  onAdded: () => void;
+  /* The created deal from the POST response body (null only if
+   * the response carried none) so the board can show it at once. */
+  onAdded: (created: GalaxyDeal | null) => void;
 }) {
-  const router = useRouter();
   const [brandSel, setBrandSel] = useState("");
   const [brandName, setBrandName] = useState("");
   const [amount, setAmount] = useState("");
@@ -304,9 +319,11 @@ function AddDealSheet({
         }),
       });
       if (res.ok) {
+        const json = (await res.json().catch(() => null)) as {
+          deal?: DealRowLike;
+        } | null;
         toast("Deal added.");
-        router.refresh();
-        onAdded();
+        onAdded(json?.deal ? rowToDeal(json.deal) : null);
         onClose();
       } else toast("The deal could not be added. Please try again.");
     } catch {

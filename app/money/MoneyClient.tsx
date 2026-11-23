@@ -20,15 +20,18 @@ import {
   paidInMonth,
   plural,
   reminderText,
+  rowToDeal,
   shortMoney,
   spentInMonth,
   todayKey,
+  type DealRowLike,
   type GalaxyDeal,
   type GalaxyExpense,
   type GalaxyIncome,
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
 import { DealSheet } from "@/components/galaxy/DealSheet";
+import { useDealSync } from "@/components/galaxy/useDealSync";
 import { Icon, I, Sheet, copyText, shootingStar, toast } from "@/components/galaxy/ui";
 
 /* MONEY client — KPIs, the 6-month money-in chart, the recent
@@ -48,7 +51,7 @@ type LedgerRow = {
 
 export default function MoneyClient({
   profile,
-  deals,
+  deals: serverDeals,
   income,
   expenses,
 }: {
@@ -58,6 +61,11 @@ export default function MoneyClient({
   expenses: GalaxyExpense[];
 }) {
   const router = useRouter();
+  /* Write results from the deals API are applied over the server
+   * props as they land (see useDealSync), so marking paid — here or
+   * in the deal sheet — moves the KPIs, waiting-on list and ledger
+   * on the same render, not on a later refresh. */
+  const { deals, applyDeal } = useDealSync(serverDeals);
   const [dealId, setDealId] = useState<string | null>(null);
   const [moneyForm, setMoneyForm] = useState<"income" | "expense" | null>(null);
   const [tip, setTip] = useState<number | null>(null);
@@ -133,6 +141,10 @@ export default function MoneyClient({
         }),
       });
       if (res.ok) {
+        const json = (await res.json().catch(() => null)) as {
+          deal?: DealRowLike;
+        } | null;
+        if (json?.deal) applyDeal(rowToDeal(json.deal));
         toast(`${d.brandName} marked paid.`);
         shootingStar();
         router.refresh();
@@ -562,7 +574,10 @@ export default function MoneyClient({
         profile={profile}
         open={Boolean(deal)}
         onClose={() => setDealId(null)}
-        onChanged={() => router.refresh()}
+        onChanged={(updated) => {
+          applyDeal(updated);
+          router.refresh();
+        }}
       />
       <MoneyFormSheet kind={moneyForm} onClose={() => setMoneyForm(null)} onSaved={() => router.refresh()} />
     </div>

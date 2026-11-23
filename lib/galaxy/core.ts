@@ -183,6 +183,82 @@ export function rowToDeal(r: DealRowLike, brandId: string | null = null): Galaxy
   };
 }
 
+/** Fingerprint of every field a deal write can change. Two deal
+ *  objects with the same fingerprint are the same committed state
+ *  for everything the Galaxy views render. */
+export function dealWriteFingerprint(d: GalaxyDeal): string {
+  return JSON.stringify([
+    d.brandName,
+    d.platform,
+    d.stage,
+    d.amountCents,
+    d.receivedCents,
+    d.deliverables,
+    d.notes,
+    d.dueOn,
+    d.invoiceSentOn,
+    d.invoiceDue,
+    d.paidOn,
+    d.lastContact,
+  ]);
+}
+
+/* -------- live deal sync (mutation responses over server props) --------
+ * A deal write's response body IS the committed row (the deals API
+ * awaits the update's .select() before responding), so hosts apply
+ * it locally the moment the write succeeds instead of relying only
+ * on router.refresh() — a fire-and-forget RSC refetch whose payload
+ * can be rendered from a read that predates the latest write when
+ * advances happen in rapid succession. The refresh still runs as a
+ * backstop for server-computed props; these helpers decide what the
+ * screen shows in the meantime, deterministically. */
+
+/** Server rows in server order, with any locally-applied write
+ *  results laid over them by id; write results the server list does
+ *  not contain yet (a just-created deal) append at the end, where
+ *  the server's created_at ordering will put them too. */
+export function mergeDealUpdates(
+  server: GalaxyDeal[],
+  updates: Record<string, GalaxyDeal>
+): GalaxyDeal[] {
+  if (Object.keys(updates).length === 0) return server;
+  const seen = new Set<string>();
+  const out = server.map((d) => {
+    seen.add(d.id);
+    return updates[d.id] ?? d;
+  });
+  for (const d of Object.values(updates)) {
+    if (!seen.has(d.id)) out.push(d);
+  }
+  return out;
+}
+
+/** Drop locally-applied writes the server rows have caught up
+ *  with — the server row now matches the write's fingerprint, or
+ *  carries a strictly later updated_at (a newer write landed
+ *  elsewhere and server truth wins again). A server row that is
+ *  OLDER than the applied write is a raced refresh: the write
+ *  stays. Returns the same reference when nothing was pruned. */
+export function pruneDealUpdates(
+  server: GalaxyDeal[],
+  updates: Record<string, GalaxyDeal>
+): Record<string, GalaxyDeal> {
+  const byId = new Map(server.map((d) => [d.id, d]));
+  let next: Record<string, GalaxyDeal> | null = null;
+  for (const [id, u] of Object.entries(updates)) {
+    const s = byId.get(id);
+    if (!s) continue;
+    if (
+      dealWriteFingerprint(s) === dealWriteFingerprint(u) ||
+      s.lastContact > u.lastContact
+    ) {
+      if (!next) next = { ...updates };
+      delete next[id];
+    }
+  }
+  return next ?? updates;
+}
+
 /** What a deal is actually worth in money terms: the received
  *  amount when recorded, else the agreed amount once paid. */
 export function dealPaidCents(d: GalaxyDeal): number {

@@ -16,9 +16,11 @@ import {
   plural,
   protectionGaps,
   reminderText,
+  rowToDeal,
   stageOf,
   todayKey,
   type DealProtection,
+  type DealRowLike,
   type GalaxyDeal,
   type GalaxyProfile,
 } from "@/lib/galaxy/core";
@@ -30,16 +32,28 @@ import { Icon, I, Sheet, copyText, shootingStar, toast } from "./ui";
  * There is deliberately NO delete here: closing a deal is a stage
  * change to 'lost', never a hard delete. */
 
-async function patchDeal(id: string, patch: Record<string, unknown>): Promise<boolean> {
+/* The deals API awaits the update's .select() before responding,
+ * so a successful response body carries the committed row itself.
+ * Return it as a GalaxyDeal: hosts apply it locally the moment the
+ * write lands, instead of the screen depending solely on the
+ * timing of the next router.refresh(). Null = the write failed. */
+async function patchDeal(
+  id: string,
+  patch: Record<string, unknown>
+): Promise<GalaxyDeal | null> {
   try {
     const res = await fetch("/api/deals", {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ id, ...patch }),
     });
-    return res.ok;
+    if (!res.ok) return null;
+    const json = (await res.json().catch(() => null)) as {
+      deal?: DealRowLike;
+    } | null;
+    return json?.deal ? rowToDeal(json.deal) : null;
   } catch {
-    return false;
+    return null;
   }
 }
 
@@ -101,7 +115,10 @@ export function DealSheet({
   profile: GalaxyProfile;
   open: boolean;
   onClose: () => void;
-  onChanged: (paidNow: boolean) => void;
+  /* Called with the committed deal from the write's own response
+   * body, so the host can render the new state immediately and
+   * deterministically — router.refresh() remains only a backstop. */
+  onChanged: (deal: GalaxyDeal, paidNow: boolean) => void;
 }) {
   const router = useRouter();
   const [amount, setAmount] = useState("");
@@ -183,17 +200,18 @@ export function DealSheet({
   async function run(patch: Record<string, unknown>, msg: string, paidNow = false) {
     if (!deal) return;
     setBusy(true);
-    const ok = await patchDeal(deal.id, patch);
+    const updated = await patchDeal(deal.id, patch);
     setBusy(false);
-    if (ok) {
+    if (updated) {
       toast(msg);
       if (paidNow) shootingStar();
-      /* Refresh the server data in place so the board / Money /
-       * Today panels reflect the write immediately — no manual
-       * reload. Done here in the sheet itself (not only via the
-       * parent's onChanged) so every host page gets it. */
+      /* The host applies the committed row from the response body
+       * right now — the board / Money / Today panels show the new
+       * state on this render, not whenever the refresh lands. The
+       * refresh still runs as a backstop for server-computed props
+       * (insights, protection indicators, totals). */
+      onChanged(updated, paidNow);
       router.refresh();
-      onChanged(paidNow);
       onClose();
     } else {
       toast("That could not be saved. Please try again.");
