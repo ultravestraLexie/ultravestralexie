@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
 import { createClient } from "@/lib/supabase/server";
+import { SUBSCRIBED_STATUSES } from "@/lib/gate-paths";
 import SignOutButton from "@/components/SignOutButton";
 import { SideNav, BottomTabs, VMark } from "@/components/AppNav";
 
@@ -182,14 +183,29 @@ export default async function RootLayout({
   /* The subscriptions table carries plan_id (the webhook resolves
    * it from the Stripe price); the plan's name lives in the plans
    * table. Selecting a "plan" column that does not exist errors the
-   * whole read — found by the Build 9 acceptance pass. */
-  const { data: sub } = await supabase
+   * whole read — found by the Build 9 acceptance pass.
+   *
+   * A returning subscriber has MORE THAN ONE row (the canceled old
+   * subscription plus the live new one), so this read must not use
+   * maybeSingle — with two rows that errors and returns null, and
+   * the label fell back to generic even though the member's plan
+   * was active (found by battZ, 2026-11-23). Mirror the
+   * growth-center route: read the rows newest-first and prefer the
+   * LIVE one (active/trialing — the same statuses the gate uses).
+   * No live row → the generic label; a canceled plan is not
+   * displayed as a current membership. */
+  const { data: subRows } = await supabase
     .from("subscriptions")
-    .select("plan_id")
+    .select("plan_id, status")
     .eq("user_id", user.id)
-    .maybeSingle();
+    .order("updated_at", { ascending: false });
+  const liveSub = (subRows ?? []).find((r) =>
+    (SUBSCRIBED_STATUSES as readonly string[]).includes(
+      r.status as string
+    )
+  );
   let planLabel = "UltraVestra Member";
-  const planId = (sub?.plan_id as string | null) ?? null;
+  const planId = (liveSub?.plan_id as string | null) ?? null;
   if (planId) {
     const { data: plan } = await supabase
       .from("plans")

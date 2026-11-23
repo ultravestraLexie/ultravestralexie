@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { SUBSCRIBED_STATUSES } from "@/lib/gate-paths";
 import SignOutButton from "@/components/SignOutButton";
 import SettingsPrefs from "@/components/SettingsPrefs";
 
@@ -46,7 +47,7 @@ export default async function SettingsPage() {
       .from("subscriptions")
       .select("plan_id, status, current_period_end, created_at")
       .eq("user_id", user.id)
-      .maybeSingle(),
+      .order("updated_at", { ascending: false }),
     supabase
       .from("growth_prefs")
       .select("weekly_post_goal")
@@ -59,12 +60,32 @@ export default async function SettingsPage() {
       .maybeSingle(),
   ]);
 
-  const sub = subRes.data as {
+  /* A returning subscriber has more than one subscription row
+   * (canceled old + live new); maybeSingle errored on that and the
+   * page showed no plan at all (found by battZ, 2026-11-23). Mirror
+   * the growth-center route: prefer the LIVE row (active/trialing —
+   * the gate's statuses); otherwise the most recent row, so a
+   * lapsed member still sees their true last status. "Member since"
+   * is the EARLIEST row's creation — the account's real start. */
+  const subRows = (subRes.data ?? []) as {
     plan_id: string | null;
     status: string | null;
     current_period_end: string | null;
     created_at: string | null;
-  } | null;
+  }[];
+  const sub =
+    subRows.find((r) =>
+      (SUBSCRIBED_STATUSES as readonly string[]).includes(r.status ?? "")
+    ) ??
+    subRows[0] ??
+    null;
+  const memberSince = subRows.reduce<string | null>(
+    (earliest, r) =>
+      r.created_at && (!earliest || r.created_at < earliest)
+        ? r.created_at
+        : earliest,
+    null
+  );
   const weeklyGoal =
     (prefsRes.data as { weekly_post_goal: number } | null)?.weekly_post_goal ?? 5;
   const username =
@@ -101,7 +122,7 @@ export default async function SettingsPage() {
         </p>
         <p style={{ margin: "0 0 16px", fontSize: 15.5 }}>
           <strong>Member since:</strong>{" "}
-          <span style={{ color: "#ddd0ff" }}>{fmtDate(sub?.created_at ?? null)}</span>
+          <span style={{ color: "#ddd0ff" }}>{fmtDate(memberSince)}</span>
         </p>
         <span style={{ fontSize: 14.5, color: "#f0abfc", fontWeight: 700 }}>
           <SignOutButton />
