@@ -308,7 +308,7 @@ export async function GET() {
     const { data: itemRows } = await owner.supabase
       .from("deal_deliverables")
       .select(
-        "id, deal_id, title, due_date, status, revisions, created_at, updated_at"
+        "id, deal_id, title, due_date, status, revisions, post_id, created_at, updated_at"
       )
       .eq("user_id", owner.userId)
       .order("created_at", { ascending: true });
@@ -327,9 +327,30 @@ export async function GET() {
       list.push(item);
       itemsByDeal.set(dealId, list);
     }
+    // Build 16b — the attribution audit trail per deal: who
+    // changed a deliverable's post link, when, from what to
+    // what (titles frozen at the moment of change). A failure
+    // degrades the history, never the deals.
+    const historyByDeal = new Map<string, Record<string, unknown>[]>();
+    const { data: eventRows } = await owner.supabase
+      .from("attribution_events")
+      .select(
+        "id, deal_id, deliverable_title, action, from_post_title, to_post_title, created_at"
+      )
+      .eq("user_id", owner.userId)
+      .order("created_at", { ascending: false })
+      .limit(200);
+    for (const row of (eventRows ?? []) as Record<string, unknown>[]) {
+      const dealId = row.deal_id as string;
+      const list = historyByDeal.get(dealId) ?? [];
+      if (list.length < 10) list.push(row);
+      historyByDeal.set(dealId, list);
+    }
+
     const deals = baseDeals.map((d) => ({
       ...d,
       deliverable_items: itemsByDeal.get(d.id) ?? [],
+      attribution_history: historyByDeal.get(d.id) ?? [],
     }));
     const pipeline = summarizePipeline(deals as DealLike[]);
 

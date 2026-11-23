@@ -29,6 +29,10 @@ const CreateSchema = z.object({
   dealId: z.string().uuid(),
   title: z.string().trim().min(1).max(300),
   dueDate: DateOrNull.default(null),
+  // Build 16 — the attribution chain's missing edge: the post
+  // that fulfilled this deliverable. The creator's own claim,
+  // validated against their own posts below.
+  postId: z.string().uuid().nullable().default(null),
 });
 
 const PatchSchema = z.object({
@@ -37,6 +41,7 @@ const PatchSchema = z.object({
   dueDate: DateOrNull.optional(),
   status: z.enum(STATUSES).optional(),
   revisions: z.number().int().min(0).max(1000).optional(),
+  postId: z.string().uuid().nullable().optional(),
 });
 
 const IdSchema = z.object({
@@ -44,7 +49,82 @@ const IdSchema = z.object({
 });
 
 const ITEM_COLUMNS =
-  "id, deal_id, title, due_date, status, revisions, created_at, updated_at";
+  "id, deal_id, title, due_date, status, revisions, post_id, created_at, updated_at";
+
+type Supabase = Awaited<ReturnType<typeof createClient>>;
+
+/** Build 16b — the attribution audit trail: every change to a
+ *  deliverable's post link writes an append-only event carrying
+ *  the titles as they are at that moment, so the history stays
+ *  readable even after a post is deleted. Best-effort: a failed
+ *  event write is logged, never allowed to lose the change
+ *  itself. */
+async function logAttributionEvent(
+  supabase: Supabase,
+  userId: string,
+  event: {
+    dealId: string;
+    deliverableId: string;
+    deliverableTitle: string;
+    action: "linked" | "unlinked";
+    fromPostTitle: string | null;
+    toPostTitle: string | null;
+  }
+): Promise<void> {
+  try {
+    const { error } = await supabase.from("attribution_events").insert({
+      user_id: userId,
+      deal_id: event.dealId,
+      deliverable_id: event.deliverableId,
+      deliverable_title: event.deliverableTitle,
+      action: event.action,
+      from_post_title: event.fromPostTitle,
+      to_post_title: event.toPostTitle,
+    });
+    if (error) console.error("Attribution event write error:", error);
+  } catch (e) {
+    console.error("Attribution event write error:", e);
+  }
+}
+
+async function postTitle(
+  supabase: Supabase,
+  userId: string,
+  postId: string | null
+): Promise<string | null> {
+  if (!postId) return null;
+  const { data } = await supabase
+    .from("creator_posts")
+    .select("title")
+    .eq("id", postId)
+    .eq("user_id", userId)
+    .limit(1);
+  const title = (data?.[0] as { title: string | null } | undefined)?.title;
+  return title && title.trim() !== "" ? title : "Untitled post";
+}
+
+/** Build 16 — a post link is accepted only when the post is
+ *  one of the caller's own (the revenue route's pattern). */
+async function validatePostLink(
+  supabase: Supabase,
+  userId: string,
+  postId: string | null
+): Promise<Response | null> {
+  if (postId === null) return null;
+  const { data, error } = await supabase
+    .from("creator_posts")
+    .select("id")
+    .eq("id", postId)
+    .eq("user_id", userId);
+  if (error) throw error;
+  if (!data || data.length === 0) {
+    return Response.json(
+      { error: "That post could not be found among your posts." },
+      { status: 400 }
+    );
+  }
+  return null;
+}
 
 async function requireOwner() {
   const gate = await getGateState();
@@ -112,6 +192,13 @@ export async function POST(request: Request) {
       return Response.json({ error: "Deal not found." }, { status: 404 });
     }
 
+    const postError = await validatePostLink(
+      owner.supabase,
+      owner.userId,
+      parsed.data.postId
+    );
+    if (postError) return postError;
+
     const { data, error } = await owner.supabase
       .from("deal_deliverables")
       .insert({
@@ -119,10 +206,27 @@ export async function POST(request: Request) {
         deal_id: parsed.data.dealId,
         title: parsed.data.title,
         due_date: parsed.data.dueDate,
+        post_id: parsed.data.postId,
       })
       .select(ITEM_COLUMNS)
       .single();
     if (error) throw error;
+
+    if (parsed.data.postId) {
+      const created = data as { id: string };
+      await logAttributionEvent(owner.supabase, owner.userId, {
+        dealId: parsed.data.dealId,
+        deliverableId: created.id,
+        deliverableTitle: parsed.data.title,
+        action: "linked",
+        fromPostTitle: null,
+        toPostTitle: await postTitle(
+          owner.supabase,
+          owner.userId,
+          parsed.data.postId
+        ),
+      });
+    }
 
     return Response.json({ success: true, item: data }, { status: 201 });
   } catch (e) {
@@ -164,8 +268,38 @@ export async function PATCH(request: Request) {
   if (parsed.data.status !== undefined) update.status = parsed.data.status;
   if (parsed.data.revisions !== undefined)
     update.revisions = parsed.data.revisions;
+  if (parsed.data.postId !== undefined) update.post_id = parsed.data.postId;
 
   try {
+    // Build 16b — when the post link changes, capture the
+    // current row first so the audit event can name what the
+    // link was changed FROM.
+    let before: {
+      deal_id: string;
+      title: string;
+      post_id: string | null;
+    } | null = null;
+    if (parsed.data.postId !== undefined) {
+      const postError = await validatePostLink(
+        owner.supabase,
+        owner.userId,
+        parsed.data.postId
+      );
+      if (postError) return postError;
+
+      const { data: currentRows } = await owner.supabase
+        .from("deal_deliverables")
+        .select("deal_id, title, post_id")
+        .eq("id", parsed.data.id)
+        .eq("user_id", owner.userId)
+        .limit(1);
+      before =
+        (currentRows?.[0] as {
+          deal_id: string;
+          title: string;
+          post_id: string | null;
+        }) ?? null;
+    }
     const { data, error } = await owner.supabase
       .from("deal_deliverables")
       .update(update)
@@ -179,6 +313,30 @@ export async function PATCH(request: Request) {
         { status: 404 }
       );
     }
+
+    if (
+      before &&
+      parsed.data.postId !== undefined &&
+      before.post_id !== parsed.data.postId
+    ) {
+      await logAttributionEvent(owner.supabase, owner.userId, {
+        dealId: before.deal_id,
+        deliverableId: parsed.data.id,
+        deliverableTitle: before.title,
+        action: parsed.data.postId ? "linked" : "unlinked",
+        fromPostTitle: await postTitle(
+          owner.supabase,
+          owner.userId,
+          before.post_id
+        ),
+        toPostTitle: await postTitle(
+          owner.supabase,
+          owner.userId,
+          parsed.data.postId
+        ),
+      });
+    }
+
     return Response.json({ success: true, item: data[0] });
   } catch (e) {
     console.error("Deliverable update error:", e);

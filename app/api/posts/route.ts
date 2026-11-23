@@ -186,9 +186,55 @@ export async function GET() {
       (linkedByPost.get(row.post_id) ?? 0) + row.amount_cents
     );
   }
+  // Build 16 — the completed attribution chain, read back from
+  // the post's side: which deliverables this post fulfilled, and
+  // for which brand's deal. The link is the creator's own claim
+  // (deal_deliverables.post_id); a failure degrades to no
+  // fulfillments rather than failing the tracker.
+  const fulfilledByPost = new Map<
+    string,
+    { deliverableTitle: string; brandName: string }[]
+  >();
+  const { data: fulfilledRows } = await owner.supabase
+    .from("deal_deliverables")
+    .select("title, post_id, deal_id")
+    .eq("user_id", owner.userId)
+    .not("post_id", "is", null);
+  if (fulfilledRows && fulfilledRows.length > 0) {
+    const dealIds = [
+      ...new Set(
+        (fulfilledRows as { deal_id: string }[]).map((r) => r.deal_id)
+      ),
+    ];
+    const { data: dealRows } = await owner.supabase
+      .from("creator_deals")
+      .select("id, brand_name")
+      .eq("user_id", owner.userId)
+      .in("id", dealIds);
+    const brandByDeal = new Map(
+      ((dealRows ?? []) as { id: string; brand_name: string }[]).map((d) => [
+        d.id,
+        d.brand_name,
+      ])
+    );
+    for (const row of fulfilledRows as {
+      title: string;
+      post_id: string;
+      deal_id: string;
+    }[]) {
+      const list = fulfilledByPost.get(row.post_id) ?? [];
+      list.push({
+        deliverableTitle: row.title,
+        brandName: brandByDeal.get(row.deal_id) ?? "a deal you removed",
+      });
+      fulfilledByPost.set(row.post_id, list);
+    }
+  }
+
   const posts = rawPosts.map((p) => ({
     ...p,
     linked_revenue_cents: linkedByPost.get(p.id) ?? 0,
+    fulfilled: fulfilledByPost.get(p.id) ?? [],
   }));
 
   return Response.json({

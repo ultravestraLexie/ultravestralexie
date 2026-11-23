@@ -57,6 +57,17 @@ type Deal = {
     daysOutstanding: number | null;
   };
   deliverable_items: DeliverableItem[];
+  /** Build 16b — the attribution audit trail for this deal. */
+  attribution_history: AttributionEvent[];
+};
+
+type AttributionEvent = {
+  id: string;
+  deliverable_title: string;
+  action: "linked" | "unlinked";
+  from_post_title: string | null;
+  to_post_title: string | null;
+  created_at: string;
 };
 
 /* Build 14 — one promised piece of content under a deal: its
@@ -69,7 +80,18 @@ type DeliverableItem = {
   due_date: string | null;
   status: "pending" | "delivered" | "approved";
   revisions: number;
+  /** Build 16 — the post that fulfilled this deliverable, when
+   *  the creator linked one. The attribution chain's last edge. */
+  post_id: string | null;
   overdue: boolean;
+};
+
+/** Build 16 — the creator's posts, for the fulfill picker. */
+type PostOption = {
+  id: string;
+  title: string | null;
+  platform: string;
+  posted_date: string;
 };
 
 const DELIVERABLE_STATUS_OPTIONS: { value: string; label: string }[] = [
@@ -167,11 +189,13 @@ function formatDate(iso: string): string {
  * the deal stages above it. */
 function DeliverablesBlock({
   deal,
+  postOptions,
   onAdd,
   onPatch,
   onDelete,
 }: {
   deal: Deal;
+  postOptions: PostOption[];
   onAdd: (dealId: string, title: string, dueDate: string) => Promise<void>;
   onPatch: (id: string, patch: Record<string, unknown>) => Promise<void>;
   onDelete: (id: string) => Promise<void>;
@@ -248,6 +272,28 @@ function DeliverablesBlock({
                   }
                 }}
               />
+              <label className="text-gray-400">
+                Fulfilled by post
+                <select
+                  className="ml-2 max-w-[220px] bg-[#080b14] border border-white/10 rounded-lg px-2 py-1 text-white"
+                  value={item.post_id ?? ""}
+                  onChange={(e) =>
+                    onPatch(item.id, {
+                      postId: e.target.value === "" ? null : e.target.value,
+                    })
+                  }
+                >
+                  <option value="">Not linked</option>
+                  {postOptions.map((p) => (
+                    <option key={p.id} value={p.id}>
+                      {p.title && p.title.trim() !== ""
+                        ? p.title
+                        : "Untitled post"}{" "}
+                      ({p.platform} · {p.posted_date})
+                    </option>
+                  ))}
+                </select>
+              </label>
               <button
                 type="button"
                 className="text-gray-500 underline"
@@ -296,6 +342,7 @@ export default function BrandDealsPage() {
   const [brandHistory, setBrandHistory] = useState<BrandHistory[]>([]);
   const [pipeline, setPipeline] = useState<Pipeline | null>(null);
   const [proposals, setProposals] = useState<ProposalOption[]>([]);
+  const [postOptions, setPostOptions] = useState<PostOption[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [busyId, setBusyId] = useState<string | null>(null);
@@ -318,9 +365,10 @@ export default function BrandDealsPage() {
 
   async function load() {
     try {
-      const [dealsRes, proposalsRes] = await Promise.all([
+      const [dealsRes, proposalsRes, postsRes] = await Promise.all([
         fetch("/api/deals"),
         fetch("/api/proposals"),
+        fetch("/api/posts"),
       ]);
       const dealsData = await dealsRes.json();
       if (!dealsRes.ok) {
@@ -339,6 +387,14 @@ export default function BrandDealsPage() {
             title: p.title,
             status: p.status,
           }))
+        );
+      }
+      if (postsRes.ok) {
+        const postsData = await postsRes.json();
+        setPostOptions(
+          ((postsData.posts ?? []) as PostOption[]).filter(
+            (p) => p && typeof p.id === "string"
+          )
         );
       }
     } catch (e) {
@@ -784,10 +840,32 @@ export default function BrandDealsPage() {
                           )}
                           <DeliverablesBlock
                             deal={deal}
+                            postOptions={postOptions}
                             onAdd={addDeliverable}
                             onPatch={patchDeliverable}
                             onDelete={deleteDeliverable}
                           />
+                          {deal.attribution_history &&
+                            deal.attribution_history.length > 0 && (
+                              <div className="mt-2 px-1">
+                                <p className="text-[11px] tracking-widest text-gray-500 mb-1">
+                                  ATTRIBUTION HISTORY — WHO CHANGED WHAT, WHEN
+                                </p>
+                                <ul className="text-xs text-gray-400 space-y-1">
+                                  {deal.attribution_history.map((ev) => (
+                                    <li key={ev.id}>
+                                      {formatDate(ev.created_at.slice(0, 10))}{" "}
+                                      —{" "}
+                                      {ev.action === "unlinked"
+                                        ? `Unlinked "${ev.deliverable_title}" from post "${ev.from_post_title ?? "a post"}"`
+                                        : ev.from_post_title
+                                          ? `Changed "${ev.deliverable_title}" from post "${ev.from_post_title}" to "${ev.to_post_title ?? "a post"}"`
+                                          : `Linked "${ev.deliverable_title}" to post "${ev.to_post_title ?? "a post"}"`}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
                           {deal.compensation_cents !== null && (
                             <p className="mt-2 text-sm">
                               <a

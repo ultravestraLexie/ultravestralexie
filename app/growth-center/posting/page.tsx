@@ -26,6 +26,9 @@ type Post = {
   note: string | null;
   views_count: number | null;
   linked_revenue_cents: number;
+  /** Build 16 — deliverables this post fulfilled, with the
+   *  brand whose deal they belong to. Linked by the creator. */
+  fulfilled: { deliverableTitle: string; brandName: string }[];
   created_at: string;
 };
 
@@ -460,6 +463,16 @@ export default function PostingTrackerPage() {
                               {post.linked_revenue_cents > 0
                                 ? `${moneyShort(post.linked_revenue_cents)} recorded revenue linked to this post — linked by you`
                                 : ""}
+                            </div>
+                          )}
+                          {post.fulfilled.length > 0 && (
+                            <div className="text-gray-400 text-xs mt-1">
+                              {post.fulfilled.map((f, i) => (
+                                <div key={i}>
+                                  Fulfilled &ldquo;{f.deliverableTitle}&rdquo;
+                                  for {f.brandName} — linked by you
+                                </div>
+                              ))}
                             </div>
                           )}
                           <label className="text-gray-500 text-xs mt-2 block">
