@@ -49,3 +49,17 @@ export function mapSubscriptionStatus(
 export function isClaimableStatus(status: string): boolean {
   return status === "active" || status === "trialing";
 }
+
+/** Statuses that mean a subscription is live and collecting (or
+ *  trying to collect) money — the Item 5 duplicate guard treats any
+ *  of these as "this person already has a plan": a second checkout
+ *  must not create a second live subscription beside one of these. */
+export const LIVE_SUBSCRIPTION_STATUSES = [
+  "active",
+  "trialing",
+  "past_due",
+] as const;
+
+export function isLiveStatus(status: string): boolean {
+  return (LIVE_SUBSCRIPTION_STATUSES as readonly string[]).includes(status);
+}

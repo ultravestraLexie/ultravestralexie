@@ -38,7 +38,9 @@ export default function PayFirstButton({
       setError(
         data.error === "invalid_email"
           ? "Enter the email your account will use."
-          : "Checkout could not start. Please try again."
+          : data.error === "already_subscribed"
+            ? "This email already has an UltraVestra plan. Log in with that email to use it — you will not be charged twice."
+            : "Checkout could not start. Please try again."
       );
     } catch {
       setError("Checkout could not start. Please try again.");

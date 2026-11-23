@@ -1,7 +1,12 @@
 import { NextResponse } from "next/server";
 import type Stripe from "stripe";
 import { getStripe, createAdminClient } from "@/lib/stripe";
-import { mapSubscriptionStatus, normalizeEmail } from "@/lib/pay-first";
+import {
+  isLiveStatus,
+  LIVE_SUBSCRIPTION_STATUSES,
+  mapSubscriptionStatus,
+  normalizeEmail,
+} from "@/lib/pay-first";
 
 export const dynamic = "force-dynamic";
 
@@ -32,9 +37,50 @@ function mapStatus(status: Stripe.Subscription.Status): string {
   return mapSubscriptionStatus(status);
 }
 
+/** Item 5 — duplicate-subscription defense. When a second live
+ *  subscription appears for a person who already has one (two
+ *  checkouts racing before the first webhook landed, or a checkout
+ *  the route guard could not see), the duplicate is cancelled at
+ *  Stripe immediately and its first payment refunded, so it can
+ *  never bill twice. The caller then records the duplicate row as
+ *  canceled — the database always shows what happened; a paid
+ *  subscription is never silently dropped. A cancel failure throws
+ *  (→ HTTP 500 → Stripe retries); a refund failure is logged
+ *  loudly for manual reconciliation but does not block the cancel,
+ *  because stopping future billing is the critical act. */
+async function cancelDuplicateSubscription(
+  stripe: Stripe,
+  subscription: Stripe.Subscription
+) {
+  if (subscription.status !== "canceled") {
+    await stripe.subscriptions.cancel(subscription.id);
+  }
+  try {
+    const invoices = await stripe.invoices.list({
+      subscription: subscription.id,
+      limit: 1,
+    });
+    const invoice = invoices.data[0];
+    const payment = invoice?.payments?.data?.[0]?.payment;
+    const paymentIntent = payment?.payment_intent;
+    const paymentIntentId =
+      typeof paymentIntent === "string" ? paymentIntent : paymentIntent?.id;
+    if (paymentIntentId) {
+      await stripe.refunds.create({ payment_intent: paymentIntentId });
+    }
+  } catch (refundErr) {
+    console.error(
+      `[stripe-webhook] duplicate subscription ${subscription.id} was cancelled, but refunding its first payment failed — reconcile manually: ${
+        refundErr instanceof Error ? refundErr.message : String(refundErr)
+      }`
+    );
+  }
+}
+
 async function syncSubscription(
   admin: ReturnType<typeof createAdminClient>,
-  subscription: Stripe.Subscription
+  subscription: Stripe.Subscription,
+  stripe: Stripe
 ) {
   const userId =
     (subscription.metadata?.user_id as string | undefined) ?? null;
@@ -78,6 +124,22 @@ async function syncSubscription(
       | string
       | undefined;
     if (signupEmail) {
+      // Item 5: a live claim for this email under a DIFFERENT
+      // subscription means this one is a duplicate — cancel and
+      // refund it at Stripe, and record it as canceled.
+      if (isLiveStatus(row.status)) {
+        const { data: otherClaims } = await admin
+          .from("subscription_claims")
+          .select("id")
+          .eq("email", normalizeEmail(signupEmail))
+          .neq("stripe_subscription_id", subscription.id)
+          .in("status", [...LIVE_SUBSCRIPTION_STATUSES])
+          .limit(1);
+        if (otherClaims && otherClaims.length > 0) {
+          await cancelDuplicateSubscription(stripe, subscription);
+          row.status = "canceled";
+        }
+      }
       const { error: claimError } = await admin
         .from("subscription_claims")
         .upsert(
@@ -101,6 +163,23 @@ async function syncSubscription(
     // the subscription; the event is still logged in payment_events
     // for manual reconciliation.
     return;
+  }
+
+  // Item 5: this user already has a DIFFERENT live subscription —
+  // this one is a duplicate. Cancel and refund it at Stripe and
+  // record it as canceled, never as a second live plan.
+  if (isLiveStatus(row.status)) {
+    const { data: otherSubs } = await admin
+      .from("subscriptions")
+      .select("id")
+      .eq("user_id", row.user_id)
+      .neq("stripe_subscription_id", subscription.id)
+      .in("status", [...LIVE_SUBSCRIPTION_STATUSES])
+      .limit(1);
+    if (otherSubs && otherSubs.length > 0) {
+      await cancelDuplicateSubscription(stripe, subscription);
+      row.status = "canceled";
+    }
   }
 
   const { error: subError } = await admin
@@ -185,7 +264,7 @@ export async function POST(request: Request) {
             plan_slug: session.metadata.plan_slug ?? "",
           };
         }
-        await syncSubscription(admin, subscription);
+        await syncSubscription(admin, subscription, stripe);
       }
       break;
     }
@@ -193,7 +272,7 @@ export async function POST(request: Request) {
     case "customer.subscription.updated":
     case "customer.subscription.deleted": {
       const subscription = event.data.object as Stripe.Subscription;
-      await syncSubscription(admin, subscription);
+      await syncSubscription(admin, subscription, stripe);
       // A canceled subscription must also cancel its pay-first
       // claim row. syncSubscription writes claims only on the
       // no-user path, so once a claim has been claimed (user id
@@ -228,7 +307,7 @@ export async function POST(request: Request) {
         typeof subRef === "string" ? subRef : (subRef?.id ?? null);
       if (subId) {
         const subscription = await stripe.subscriptions.retrieve(subId);
-        await syncSubscription(admin, subscription);
+        await syncSubscription(admin, subscription, stripe);
       }
       break;
     }

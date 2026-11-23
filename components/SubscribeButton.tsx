@@ -40,7 +40,11 @@ export default function SubscribeButton({
         window.location.href = data.url;
         return;
       }
-      setError("Checkout could not start. Please try again.");
+      setError(
+        data.error === "already_subscribed"
+          ? "You already have an active UltraVestra plan — you will not be charged twice."
+          : "Checkout could not start. Please try again."
+      );
     } catch {
       setError("Checkout could not start. Please try again.");
     }

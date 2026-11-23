@@ -1,7 +1,11 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import { getStripe } from "@/lib/stripe";
-import { isValidEmailShape, normalizeEmail } from "@/lib/pay-first";
+import { createAdminClient, getStripe } from "@/lib/stripe";
+import {
+  isValidEmailShape,
+  LIVE_SUBSCRIPTION_STATUSES,
+  normalizeEmail,
+} from "@/lib/pay-first";
 import { checkRateLimitShared } from "@/lib/rate-limit";
 
 /** Checkout starts allowed per identity per hour (Phase 1 Build 2d:
@@ -64,6 +68,22 @@ export async function POST(request: Request) {
     if (!withinLimit) {
       return NextResponse.json({ error: "rate_limited" }, { status: 429 });
     }
+    // Item 5 guard: a signed-in creator who already has a live
+    // subscription never starts a second checkout — a second paid
+    // subscription beside the first is the defect being fixed.
+    const admin = createAdminClient();
+    const { data: existingSub } = await admin
+      .from("subscriptions")
+      .select("id")
+      .eq("user_id", user.id)
+      .in("status", [...LIVE_SUBSCRIPTION_STATUSES])
+      .limit(1);
+    if (existingSub && existingSub.length > 0) {
+      return NextResponse.json(
+        { error: "already_subscribed" },
+        { status: 409 }
+      );
+    }
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
       line_items: [{ price: plan.stripe_price_id_monthly, quantity: 1 }],
@@ -92,6 +112,42 @@ export async function POST(request: Request) {
   );
   if (!withinLimit) {
     return NextResponse.json({ error: "rate_limited" }, { status: 429 });
+  }
+  // Item 5 guard (pay-first): this email already carries a live
+  // plan — as an unclaimed claim, or as a claimed account's
+  // subscription — so a second payment must never be taken.
+  const admin = createAdminClient();
+  const { data: existingClaim } = await admin
+    .from("subscription_claims")
+    .select("id")
+    .eq("email", signupEmail)
+    .in("status", [...LIVE_SUBSCRIPTION_STATUSES])
+    .limit(1);
+  if (existingClaim && existingClaim.length > 0) {
+    return NextResponse.json(
+      { error: "already_subscribed" },
+      { status: 409 }
+    );
+  }
+  const { data: profile } = await admin
+    .from("profiles")
+    .select("id")
+    .eq("email", signupEmail)
+    .limit(1);
+  const profileId = profile?.[0]?.id as string | undefined;
+  if (profileId) {
+    const { data: profileSub } = await admin
+      .from("subscriptions")
+      .select("id")
+      .eq("user_id", profileId)
+      .in("status", [...LIVE_SUBSCRIPTION_STATUSES])
+      .limit(1);
+    if (profileSub && profileSub.length > 0) {
+      return NextResponse.json(
+        { error: "already_subscribed" },
+        { status: 409 }
+      );
+    }
   }
   const session = await stripe.checkout.sessions.create({
     mode: "subscription",
