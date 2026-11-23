@@ -31,7 +31,7 @@ const scoreChip: React.CSSProperties = { background: "linear-gradient(92deg, #a8
 type CapKind = "uncapped" | "capped" | "unknown";
 interface Row {
   brand: Brand;
-  score: number;
+  score: number | null;
   rate: number | null;
   network: string | null;
   cap: CapKind;
@@ -92,7 +92,8 @@ export default async function CommissionsPage() {
       if (!aff) continue;
       rows.push({
         brand,
-        score: scoreMap.get(brand.id) ?? 0,
+        /* No score row = not yet scored (null), never a fake 0. */
+        score: scoreMap.get(brand.id) ?? null,
         rate: aff.rate,
         network: aff.network,
         cap: capOf(aff.notes),
@@ -108,11 +109,12 @@ export default async function CommissionsPage() {
       capped: rows.filter((r) => r.cap === "capped").length,
       unknown: rows.filter((r) => r.cap === "unknown").length,
     };
-    const byScore = (a: Row, b: Row) => b.score - a.score;
+    /* Unscored (null) sorts below every real score. */
+    const byScore = (a: Row, b: Row) => (b.score ?? -1) - (a.score ?? -1);
     uncapped = rows.filter((r) => r.cap === "uncapped").sort(byScore);
     capped = rows.filter((r) => r.cap === "capped").sort(byScore);
     unknown = rows.filter((r) => r.cap === "unknown").sort(byScore);
-    topRates = rows.filter((r) => r.rate != null).sort((a, b) => (b.rate ?? 0) - (a.rate ?? 0) || b.score - a.score).slice(0, 10);
+    topRates = rows.filter((r) => r.rate != null).sort((a, b) => (b.rate ?? 0) - (a.rate ?? 0) || (b.score ?? -1) - (a.score ?? -1)).slice(0, 10);
 
     // Published detail, extracted from the brand's own researched
     // evidence: attribution window, payout conditions, flat/recurring
@@ -159,7 +161,9 @@ export default async function CommissionsPage() {
     <div key={r.brand.id} style={{ borderBottom: "1px solid rgba(168,85,247,0.18)", paddingBottom: 10 }}>
       <p style={{ margin: 0, display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center", fontSize: 15.5 }}>
         <Link href={`/brands/${r.brand.id}`} style={{ fontWeight: 800, textDecoration: "none" }}>{r.brand.name}</Link>
-        <span style={scoreChip}>Score {Math.round(r.score)}</span>
+        {r.score != null
+          ? <span style={scoreChip}>Score {Math.round(r.score)}</span>
+          : <span style={{ background: "#26262e", color: "#d4d4d8", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 }}>Not yet scored</span>}
         {r.rate != null
           ? <span style={{ color: "#4ade80", fontWeight: 700 }}>Pays {r.rate}% · percentage-based{r.recurring ? " · recurring published" : ""}</span>
           : r.flat

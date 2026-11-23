@@ -24,7 +24,7 @@ const scoreChip: React.CSSProperties = { background: "linear-gradient(92deg, #a8
 
 interface Row {
   brand: Brand;
-  score: number;
+  score: number | null;
   rate: number | null;
   appUrl: string | null;
   uncapped: boolean;
@@ -70,24 +70,29 @@ export default async function RadarPage() {
       const notes = aff?.notes ?? "";
       return {
         brand,
-        score: scoreMap.get(brand.id) ?? 0,
+        /* No score row = not yet scored (null), never a fake 0. */
+        score: scoreMap.get(brand.id) ?? null,
         rate: aff?.rate ?? null,
         appUrl: aff?.appUrl ?? openMap.get(brand.id) ?? null,
         uncapped: notes.includes("cap: UNCAPPED"),
         low: notes.includes("Creator saturation: low"),
       };
     });
-    const byScore = (a: Row, b: Row) => b.score - a.score;
+    /* Unscored (null) sorts below every real score; the score-gated
+     * lanes (70+ / 60+) only admit brands that actually have a score. */
+    const byScore = (a: Row, b: Row) => (b.score ?? -1) - (a.score ?? -1);
     accepting = rows.filter((r) => r.appUrl).sort(byScore).slice(0, 18);
-    pitching = rows.filter((r) => !r.appUrl && r.score >= 70).sort(byScore).slice(0, 18);
+    pitching = rows.filter((r) => !r.appUrl && r.score != null && r.score >= 70).sort(byScore).slice(0, 18);
     emerging = [...rows].sort((a, b) => (b.brand.created_at ?? "").localeCompare(a.brand.created_at ?? "")).slice(0, 12);
-    quiet = rows.filter((r) => !r.appUrl && (r.uncapped || r.low) && r.score >= 60).sort(byScore).slice(0, 18);
+    quiet = rows.filter((r) => !r.appUrl && (r.uncapped || r.low) && r.score != null && r.score >= 60).sort(byScore).slice(0, 18);
   }
 
   const line = (r: Row, extra?: React.ReactNode) => (
     <p key={r.brand.id} style={{ margin: 0, display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center", fontSize: 15.5 }}>
       <Link href={`/brands/${r.brand.id}`} style={{ fontWeight: 800, textDecoration: "none" }}>{r.brand.name}</Link>
-      <span style={scoreChip}>Score {Math.round(r.score)}</span>
+      {r.score != null
+        ? <span style={scoreChip}>Score {Math.round(r.score)}</span>
+        : <span style={{ background: "#26262e", color: "#d4d4d8", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 }}>Not yet scored</span>}
       {r.rate != null && <span style={{ color: "#4ade80", fontWeight: 700 }}>Pays {r.rate}%</span>}
       {r.uncapped && <span style={{ background: "#052e16", color: "#4ade80", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 }}>UNCAPPED ✓</span>}
       {r.low && <span style={{ background: "#3a1c05", color: "#fb923c", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 }}>Smaller-creator friendly</span>}

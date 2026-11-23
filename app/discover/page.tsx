@@ -64,7 +64,7 @@ export default async function DiscoverPage({
   const allCats = (catData ?? []) as Category[];
 
   interface Row {
-    brand: Brand; score: number; network: string | null; rate: number | null; notes: string | null; checkedAt: string | null;
+    brand: Brand; score: number | null; network: string | null; rate: number | null; notes: string | null; checkedAt: string | null;
     appUrl: string | null; contactEmail: string | null; contactUrl: string | null; hasOpenOpp: boolean;
     uncapped: boolean; capped: boolean; low: boolean; cats: { slug: string; name: string }[]; relevance: number; reasons: string[];
   }
@@ -119,7 +119,7 @@ export default async function DiscoverPage({
           intent.tokens,
         );
         return {
-          brand, score: scoreMap.get(brand.id) ?? 0, network: aff?.network ?? null, rate: aff?.rate ?? null, notes, checkedAt: aff?.checkedAt ?? null,
+          brand, score: scoreMap.get(brand.id) ?? null, network: aff?.network ?? null, rate: aff?.rate ?? null, notes, checkedAt: aff?.checkedAt ?? null,
           appUrl: aff?.appUrl ?? oppAppMap.get(brand.id) ?? null,
           contactEmail: contactMap.get(brand.id)?.email ?? null, contactUrl: contactMap.get(brand.id)?.url ?? null,
           hasOpenOpp: openSet.has(brand.id),
@@ -159,7 +159,8 @@ export default async function DiscoverPage({
     const pa = passes(a) ? 1 : 0; const pb = passes(b) ? 1 : 0;
     if (pb !== pa) return pb - pa;
     if (b.relevance !== a.relevance) return b.relevance - a.relevance;
-    return b.score - a.score;
+    /* Unscored (null) ranks below every real score — never as 0. */
+    return (b.score ?? -1) - (a.score ?? -1);
   });
   const top = ranked.slice(0, 10);
   const applyList = ranked.filter((r) => r.appUrl).slice(0, 8);
@@ -235,7 +236,9 @@ export default async function DiscoverPage({
               <article key={r.brand.id} style={{ border: "1px solid #4c1d95", borderRadius: 16, padding: "14px 18px", background: "rgba(13,2,33,0.65)" }}>
                 <p style={{ margin: "0 0 4px", display: "flex", gap: 9, flexWrap: "wrap", alignItems: "center" }}>
                   <Link href={`/brands/${r.brand.id}`} style={{ fontSize: 18.5, fontWeight: 800, textDecoration: "none" }}>{r.brand.name}</Link>
-                  <span style={{ background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13 }}>Score {Math.round(r.score)}</span>
+                  {r.score != null
+                    ? <span style={{ background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13 }}>Score {Math.round(r.score)}</span>
+                    : <span style={{ background: "#26262e", color: "#d4d4d8", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13 }}>Not yet scored</span>}
                   <span style={chip("#67e8f9")}>Database</span>
                   {r.uncapped && <span style={{ background: "#052e16", color: "#4ade80", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13 }}>UNCAPPED ✓</span>}
                   {r.low && <span style={{ background: "#3a1c05", color: "#fb923c", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13 }}>Smaller-creator friendly</span>}

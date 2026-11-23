@@ -173,10 +173,12 @@ export default async function DashboardPage() {
   let events: { event_type: string; created_at: string }[] = [];
   let weeks: { weekStart: string; count: number }[] = weekCounts([], now, 8);
   type NextAction = { title: string; why: string; href: string; cta: string };
-  const nextActions: NextAction[] = [];
+  const todayPlan: NextAction[] = [];
+  type SetupStep = { label: string; done: boolean; href: string; cta: string };
+  const setupSteps: SetupStep[] = [];
 
   if (user) {
-    const [postsRes, prefsRes, goalsRes, entriesRes, dealsRes, profileRes, eventsRes, sentRes] =
+    const [postsRes, prefsRes, goalsRes, entriesRes, dealsRes, profileRes, eventsRes, sentRes, savedRes, proposalsAllRes, expensesRes] =
       await Promise.all([
         supabase.from("creator_posts").select("platform, posted_date, source, state").eq("user_id", user.id),
         supabase.from("growth_prefs").select("weekly_post_goal").eq("user_id", user.id).maybeSingle(),
@@ -185,7 +187,10 @@ export default async function DashboardPage() {
         supabase.from("creator_deals").select("brand_name, platform, stage, compensation_cents, deadline").eq("user_id", user.id),
         supabase.from("creator_business_profiles").select("platforms, content_categories, audience_size, average_views, engagement_rate, audience_demographics, past_partnerships, revenue_streams, business_objectives, creator_name, business_description, unique_selling_proposition, differentiator, professional_experience, business_goals").eq("user_id", user.id).maybeSingle(),
         supabase.from("creator_events").select("event_type, created_at").eq("user_id", user.id).order("created_at", { ascending: false }).limit(5),
-        supabase.from("proposals").select("id").eq("user_id", user.id).eq("status", "sent"),
+        supabase.from("proposals").select("id, created_at").eq("user_id", user.id).eq("status", "sent"),
+        supabase.from("saved_brands").select("id").eq("user_id", user.id),
+        supabase.from("proposals").select("id").eq("user_id", user.id),
+        supabase.from("creator_expenses").select("id").eq("user_id", user.id),
       ]);
     const posts = (postsRes.data ?? []) as PostLike[];
     const weeklyGoal = (prefsRes.data as { weekly_post_goal: number } | null)?.weekly_post_goal ?? 5;
@@ -218,49 +223,100 @@ export default async function DashboardPage() {
     );
     events = (eventsRes.data ?? []) as { event_type: string; created_at: string }[];
 
-    /* YOUR NEXT ACTIONS — from the same records: overdue deals,
-     * proposals waiting on a brand, and the two weekly/monthly
-     * basics. An action appears only when its records say so. */
+    /* YOUR CREATOR BUSINESS TODAY — the daily action plan, derived
+     * ONLY from this creator's own records plus the live directory
+     * count. Priority: money owed first, then deal deadlines,
+     * follow-ups due, the weekly posting goal, this month's money
+     * record, and new opportunities. An action appears only when
+     * its records say so — nothing is invented. */
     const todayKey = now.toISOString().slice(0, 10);
     const monthKey = `${todayKey.slice(0, 8)}01`;
+    const overduePayments = entries.filter(
+      (e) => e.status === "pending" && e.due_date !== null && e.due_date < todayKey
+    );
+    if (overduePayments.length > 0) {
+      const owed = overduePayments.reduce((sum, e) => sum + e.amount_cents, 0);
+      todayPlan.push({
+        title: `${overduePayments.length} payment${overduePayments.length === 1 ? "" : "s"} overdue — ${money(owed)} still owed to you`,
+        why: "Recorded as earned, past the due date, and not yet marked paid. Chase it while the work is still fresh.",
+        href: "/revenue",
+        cta: "Open Revenue Tracker →",
+      });
+    }
     const overdueDeals = deals.filter(
       (d) => d.deadline !== null && d.deadline < todayKey && d.stage !== "paid" && d.stage !== "closed"
     ).length;
     if (overdueDeals > 0) {
-      nextActions.push({
+      todayPlan.push({
         title: `${overdueDeals} deal${overdueDeals === 1 ? "" : "s"} past deadline`,
         why: "The deadline passed and the deal has not reached Paid. Follow up — money waits on an answer.",
         href: "/growth-center/deals",
         cta: "Open Brand Deal Manager →",
       });
     }
-    const waitingProposals = (sentRes.data ?? []).length;
-    if (waitingProposals > 0) {
-      nextActions.push({
-        title: `${waitingProposals} proposal${waitingProposals === 1 ? "" : "s"} waiting on a brand`,
-        why: "Sent and not yet answered. A short follow-up keeps you top of mind.",
+    const followUpCutoff = new Date(now.getTime() - 4 * 24 * 60 * 60 * 1000).toISOString();
+    const sentRows = (sentRes.data ?? []) as { id: string; created_at: string }[];
+    const followUpsDue = sentRows.filter((p) => p.created_at <= followUpCutoff).length;
+    if (followUpsDue > 0) {
+      todayPlan.push({
+        title: `${followUpsDue} proposal${followUpsDue === 1 ? "" : "s"} waiting 4+ days`,
+        why: "Sent and still unanswered. A short follow-up keeps you top of mind.",
         href: "/proposals",
         cta: "Open Proposals →",
       });
     }
-    if (posting.postsThisWeek === 0) {
-      nextActions.push({
-        title: "No posts logged this week",
-        why: "Consistency is the growth engine. Log or plan your next post.",
+    if (posting.postsThisWeek < posting.weeklyGoal) {
+      todayPlan.push({
+        title: `${posting.postsThisWeek} of ${posting.weeklyGoal} posts published this week`,
+        why: posting.postsThisWeek === 0
+          ? "Nothing logged yet this week — consistency is the growth engine. Log or plan your next post."
+          : "Part-way to your weekly goal. One more post keeps the rhythm brands notice.",
         href: "/growth-center/posting",
         cta: "Open Posting Tracker →",
       });
     }
     if (!entries.some((e) => (e.earned_date ?? "") >= monthKey)) {
-      nextActions.push({
+      todayPlan.push({
         title: "No revenue recorded this month",
         why: "Log what you have earned so your business numbers stay true.",
         href: "/revenue",
         cta: "Open Revenue Tracker →",
       });
     }
+    if (stats.accepting > 0) {
+      todayPlan.push({
+        title: `${stats.accepting} brands accepting applications now`,
+        why: "Live application routes in the researched directory — the fastest route to your next partnership.",
+        href: "/opportunities",
+        cta: "Review opportunities →",
+      });
+    }
+
+    /* GET STARTED CHECKLIST — every step's done state is a real row
+     * in the creator's own records, never a guess. "Profile basics"
+     * = a creator_business_profiles row exists; "content category"
+     * = that profile's real content_categories field is non-empty. */
+    setupSteps.push(
+      { label: "Add your profile basics", done: profile !== null, href: "/growth-center/profile", cta: "Open profile →" },
+      { label: "Set your content category", done: (profile?.contentCategories.length ?? 0) > 0, href: "/growth-center/profile", cta: "Set category →" },
+      { label: "Save your first brand", done: (savedRes.data ?? []).length > 0, href: "/opportunities", cta: "Find brands →" },
+      { label: "Create your first proposal or deal", done: (proposalsAllRes.data ?? []).length > 0 || deals.length > 0, href: "/proposals", cta: "Start a proposal →" },
+      { label: "Record your first revenue or expense", done: entries.length > 0 || (expensesRes.data ?? []).length > 0, href: "/revenue", cta: "Record money →" },
+    );
   }
-  const shownActions = nextActions.slice(0, 3);
+  /* A brand-new creator with no data-backed actions gets one honest
+   * starter action instead of an empty plan. */
+  if (user && todayPlan.length === 0 && setupSteps.some((s) => !s.done)) {
+    todayPlan.push({
+      title: "Start with your guided setup",
+      why: "A few basics in, and UltraVestra personalizes your matches, scores and advice around your business.",
+      href: "/get-started",
+      cta: "Open the guided setup →",
+    });
+  }
+  const shownPlan = todayPlan.slice(0, 4);
+  const setupDoneCount = setupSteps.filter((s) => s.done).length;
+  const setupComplete = setupSteps.length > 0 && setupDoneCount === setupSteps.length;
 
   const completeness = profileCompleteness(profile);
   const identity = identityCompleteness(profile);
@@ -414,6 +470,87 @@ export default async function DashboardPage() {
               View Your Growth Report →
             </Link>
           </section>
+
+          {/* YOUR CREATOR BUSINESS TODAY — the daily action plan.
+              Every line is computed from the creator's own records
+              or the live directory count; when nothing needs
+              attention, the section says so instead of inventing
+              work. At most four actions, money first. */}
+          {user && (
+            <section style={panel}>
+              <h2 style={{ fontSize: 21, margin: "0 0 6px" }}>🌅 Your Creator Business Today</h2>
+              {shownPlan.length === 0 ? (
+                <p style={{ color: "#ddd0ff", margin: 0, fontSize: 15 }}>
+                  You&rsquo;re caught up — nothing in your business needs your attention right now.
+                </p>
+              ) : (
+                <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+                  {shownPlan.map((a, i) => (
+                    <div key={a.title} style={{ display: "flex", gap: 12 }}>
+                      <span
+                        aria-hidden="true"
+                        style={{
+                          flex: "0 0 26px",
+                          width: 26,
+                          height: 26,
+                          borderRadius: 999,
+                          background: "linear-gradient(92deg, #a855f7, #d946ef)",
+                          color: "#fff",
+                          fontWeight: 800,
+                          fontSize: 14,
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                        }}
+                      >
+                        {i + 1}
+                      </span>
+                      <div>
+                        <p style={{ margin: 0, fontSize: 16 }}><strong>{a.title}</strong></p>
+                        <p style={{ margin: "2px 0 4px", color: "#ddd0ff", fontSize: 14.5 }}>{a.why}</p>
+                        <Link href={a.href} style={{ color: "#67e8f9", fontWeight: 700, fontSize: 14.5 }}>{a.cta}</Link>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </section>
+          )}
+
+          {/* GET STARTED — the onboarding checklist. Shown while any
+              step is incomplete; each step's state is a real row in
+              the creator's records. When all five are done it
+              collapses to a single completed line. */}
+          {user && setupSteps.length > 0 && (
+            setupComplete ? (
+              <section style={panel}>
+                <p style={{ margin: 0, fontSize: 15 }}>
+                  ✅ <strong>Get started — complete.</strong>{" "}
+                  <span style={{ color: "#ddd0ff" }}>
+                    Your profile, category, saved brand, first proposal or deal, and first money record are all in — the daily plan above now runs on your real business.
+                  </span>
+                </p>
+              </section>
+            ) : (
+              <section style={panel}>
+                <h2 style={{ fontSize: 21, margin: "0 0 6px" }}>🚀 Get started</h2>
+                <p style={{ color: "#ddd0ff", margin: "0 0 14px", fontSize: 15 }}>
+                  {setupDoneCount} of {setupSteps.length} done — each step takes a couple of minutes and makes your matches, scores and advice personal.
+                </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: 9, fontSize: 15 }}>
+                  {setupSteps.map((s) => (
+                    <p key={s.label} style={{ margin: 0, display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center", color: s.done ? "#e9d5ff" : "#ddd0ff" }}>
+                      <span style={{ color: s.done ? "#4ade80" : "#6d5ba8", fontWeight: 800 }}>{s.done ? "✓" : "○"}</span>
+                      <span style={{ flex: 1, minWidth: 200 }}>{s.label}</span>
+                      {!s.done && (
+                        <Link href={s.href} style={{ color: "#67e8f9", fontWeight: 700, fontSize: 14.5 }}>{s.cta}</Link>
+                      )}
+                    </p>
+                  ))}
+                </div>
+              </section>
+            )
+          )}
 
           {/* STAT CARDS */}
           <section className="uv-stats">
@@ -598,53 +735,6 @@ export default async function DashboardPage() {
             </Link>
           </section>
 
-          {/* GET STARTED — shown only while the account has no
-              profile, no posts and no recorded revenue yet: the
-              guided path to a first insight. It disappears on its
-              own once the records exist. */}
-          {user &&
-            completeness.filled === 0 &&
-            posting.totalPosts === 0 &&
-            revenue.totalEarnedCents === 0 && (
-              <section style={panel}>
-                <h2 style={{ fontSize: 21, margin: "0 0 6px" }}>
-                  🚀 New here? Get started
-                </h2>
-                <p style={{ color: "#ddd0ff", margin: "0 0 8px", fontSize: 15 }}>
-                  Three short steps — your basics, a first deal, a
-                  first post — and UltraVestra computes your first
-                  business insight from your own records.
-                </p>
-                <Link
-                  href="/get-started"
-                  style={{ color: "#67e8f9", fontWeight: 700, fontSize: 14.5 }}
-                >
-                  Start the guided setup →
-                </Link>
-              </section>
-            )}
-
-          {/* NEXT ACTIONS */}
-          {user && (
-            <section style={panel}>
-              <h2 style={{ fontSize: 21, margin: "0 0 6px" }}>⚡ Your next actions</h2>
-              {shownActions.length === 0 ? (
-                <p style={{ color: "#ddd0ff", margin: 0, fontSize: 15 }}>
-                  You&rsquo;re caught up — nothing in your business needs your attention right now.
-                </p>
-              ) : (
-                <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-                  {shownActions.map((a) => (
-                    <div key={a.title}>
-                      <p style={{ margin: 0, fontSize: 16 }}><strong>{a.title}</strong></p>
-                      <p style={{ margin: "2px 0 4px", color: "#ddd0ff", fontSize: 14.5 }}>{a.why}</p>
-                      <Link href={a.href} style={{ color: "#67e8f9", fontWeight: 700, fontSize: 14.5 }}>{a.cta}</Link>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </section>
-          )}
         </div>
 
         <div className="uv-right">

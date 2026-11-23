@@ -6,6 +6,17 @@ import type { Plan } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
+/* Who each plan is for — positioning only. The code grants every
+ * active subscription the complete platform (lib/gate.ts checks for
+ * ANY live subscription; nothing is feature-gated by tier), so the
+ * plans table's features list states exactly that, identically for
+ * all three plans, and this page says so plainly below the grid. */
+const WHO_ITS_FOR: Record<string, string> = {
+  starter: "For creators organizing their first brand partnerships",
+  pro: "For creators actively earning from brand partnerships",
+  elite: "For established creators running partnerships at volume",
+};
+
 /** Subscription plans, read from the plans table (seeded by schema.sql).
  *  Checkout runs through Stripe; access is never unlocked from a
  *  browser redirect alone — only the verified Stripe webhook grants it. */
@@ -48,15 +59,18 @@ export default async function PricingPage() {
               style={{ border: "1px solid #3d2a6e", background: "#1b123d", borderRadius: 12, padding: 22 }}
             >
               <h2 style={{ marginTop: 0 }}>{plan.name}</h2>
+              {WHO_ITS_FOR[plan.slug] && (
+                <p style={{ color: "#f0abfc", fontSize: 14.5, margin: "0 0 4px", fontWeight: 700 }}>
+                  {WHO_ITS_FOR[plan.slug]}
+                </p>
+              )}
               <p style={{ fontSize: 30, margin: "8px 0" }}>
                 ${Number(plan.price_monthly).toFixed(2)}
                 <span style={{ fontSize: 15, color: "#b3a6e0" }}> / month</span>
               </p>
-              {plan.price_yearly != null && (
-                <p style={{ color: "#b3a6e0", fontSize: 14 }}>
-                  or ${Number(plan.price_yearly).toFixed(2)} / year
-                </p>
-              )}
+              {/* No yearly line: no yearly Stripe price exists for any
+                  plan, so nothing can actually be bought yearly —
+                  monthly is the only real offer. */}
               <ul>
                 {(plan.features ?? []).map((f) => (
                   <li key={f}>{f}</li>
@@ -74,6 +88,13 @@ export default async function PricingPage() {
             </article>
           ))}
         </div>
+      )}
+      {plans.length > 0 && (
+        <p style={{ textAlign: "center", color: "#ddd0ff", marginTop: 24, fontSize: 15 }}>
+          Every plan unlocks the complete UltraVestra platform — no tool
+          is held back by tier. Pick the plan that matches the stage of
+          your creator business; you can switch or cancel anytime.
+        </p>
       )}
       <p style={{ marginTop: 32, color: "#b3a6e0", fontSize: 14 }}>
         Questions, or a problem with billing?{" "}

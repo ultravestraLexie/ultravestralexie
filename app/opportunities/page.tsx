@@ -18,6 +18,15 @@ const panel: React.CSSProperties = {
 };
 const h2style: React.CSSProperties = { fontSize: 23, margin: "0 0 6px", letterSpacing: 0.5 };
 const sub: React.CSSProperties = { color: "#ddd0ff", margin: "0 0 16px", fontSize: 15 };
+const scoreChip: React.CSSProperties = { background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 };
+const notScoredChip: React.CSSProperties = { background: "#26262e", color: "#d4d4d8", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 };
+
+/* A real score gets the numeric badge; no score row means the brand
+ * has not been scored yet — say so, never render a fake "Score 0". */
+const scoreBadge = (score: number | null) =>
+  score != null
+    ? <span style={scoreChip}>Score {Math.round(score)}</span>
+    : <span style={notScoredChip}>Not yet scored</span>;
 
 export default async function OpportunitiesPage() {
   await requireSubscription("/opportunities");
@@ -26,8 +35,8 @@ export default async function OpportunitiesPage() {
   const list = (brands ?? []) as Brand[];
   const { data: { user } } = await supabase.auth.getUser();
 
-  let openList: { brand: Brand; score: number; appUrl: string }[] = [];
-  let pitchList: { brand: Brand; score: number; uncapped: boolean; low: boolean }[] = [];
+  let openList: { brand: Brand; score: number | null; appUrl: string }[] = [];
+  let pitchList: { brand: Brand; score: number | null; uncapped: boolean; low: boolean }[] = [];
 
   if (list.length) {
     const [{ data: scores }, { data: affiliates }, { data: opps }] = await Promise.all([
@@ -46,15 +55,20 @@ export default async function OpportunitiesPage() {
     for (const brand of list) {
       const aff = affMap.get(brand.id);
       const appUrl = aff?.appUrl ?? openMap.get(brand.id) ?? null;
-      const score = scoreMap.get(brand.id) ?? 0;
+      /* Unscored is NOT zero: a brand with no brand_scores row keeps
+       * score null and renders "Not yet scored" — never a fake 0. */
+      const score = scoreMap.get(brand.id) ?? null;
       if (appUrl) openList.push({ brand, score, appUrl });
       else {
         const notes = aff?.notes ?? "";
         pitchList.push({ brand, score, uncapped: notes.includes("UNCAPPED"), low: notes.includes("Creator saturation: low") });
       }
     }
-    openList.sort((a, b) => b.score - a.score);
-    pitchList.sort((a, b) => b.score - a.score);
+    /* Unscored (null) sorts last, below every real score. */
+    const byScoreDesc = (a: { score: number | null }, b: { score: number | null }) =>
+      (b.score ?? -1) - (a.score ?? -1);
+    openList.sort(byScoreDesc);
+    pitchList.sort(byScoreDesc);
     openList = openList.slice(0, 24);
     pitchList = pitchList.slice(0, 24);
   }
@@ -83,7 +97,7 @@ export default async function OpportunitiesPage() {
               {openList.map(({ brand, score, appUrl }) => (
                 <p key={brand.id} style={{ margin: 0, display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center", fontSize: 15.5 }}>
                   <Link href={`/brands/${brand.id}`} style={{ fontWeight: 800, textDecoration: "none" }}>{brand.name}</Link>
-                  <span style={{ background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 }}>Score {Math.round(score)}</span>
+                  {scoreBadge(score)}
                   <a href={appUrl} target="_blank" rel="noreferrer" style={{ color: "#67e8f9", fontWeight: 700 }}>Apply →</a>
                 </p>
               ))}
@@ -92,12 +106,12 @@ export default async function OpportunitiesPage() {
 
           <section style={panel}>
             <h2 style={h2style}>🎯 Worth pitching — no open campaign</h2>
-            <p style={sub}>No advertised campaign found, but researched, scored and pitchable. Ask UltraVestra writes the pitch for these.</p>
+            <p style={sub}>No advertised campaign found, but researched and pitchable. Ask UltraVestra writes the pitch for these.</p>
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
               {pitchList.map(({ brand, score, uncapped, low }) => (
                 <p key={brand.id} style={{ margin: 0, display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center", fontSize: 15.5 }}>
                   <Link href={`/brands/${brand.id}`} style={{ fontWeight: 800, textDecoration: "none" }}>{brand.name}</Link>
-                  <span style={{ background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 }}>Score {Math.round(score)}</span>
+                  {scoreBadge(score)}
                   {uncapped && <span style={{ background: "#052e16", color: "#4ade80", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 }}>UNCAPPED ✓</span>}
                   {low && <span style={{ background: "#3a1c05", color: "#fb923c", borderRadius: 999, padding: "1px 11px", fontWeight: 700, fontSize: 12.5 }}>Smaller-creator friendly</span>}
                   <Link href={`/ask?q=${encodeURIComponent(brand.name)}`} style={{ color: "#f0abfc", fontWeight: 700 }}>Get the pitch →</Link>

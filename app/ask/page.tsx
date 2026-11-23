@@ -150,7 +150,7 @@ export default async function AskPage({
   const catName = cats.find((c) => c.slug === categorySlug)?.name ?? "";
 
   interface Row {
-    brand: Brand; score: number; explanation: Record<string, string>;
+    brand: Brand; score: number | null; explanation: Record<string, string>;
     network: string | null; rate: number | null; notes: string | null; appUrl: string | null;
     contactEmail: string | null; contactUrl: string | null; hasOpenOpp: boolean;
     uncapped: boolean; capped: boolean; low: boolean;
@@ -215,7 +215,8 @@ export default async function AskPage({
         );
         return {
           brand,
-          score: scoreMap.get(brand.id)?.total ?? 0,
+          /* No score row = not yet scored (null), never a fake 0. */
+          score: scoreMap.get(brand.id)?.total ?? null,
           explanation: scoreMap.get(brand.id)?.explanation ?? {},
           network: aff?.network ?? null,
           rate: aff?.rate ?? null,
@@ -251,7 +252,8 @@ export default async function AskPage({
     const pb = passes(b) ? 1 : 0;
     if (pb !== pa) return pb - pa;
     if (b.relevance !== a.relevance) return b.relevance - a.relevance;
-    return b.score - a.score;
+    /* Unscored (null) ranks below every real score — never as 0. */
+    return (b.score ?? -1) - (a.score ?? -1);
   });
   const filtered = ranked.filter(passes);
   const mainList = (filtered.length >= 3 ? filtered : ranked).slice(0, 8);
@@ -269,7 +271,7 @@ export default async function AskPage({
 
 Hi ${r.brand.name} team,
 
-I am ${who} creating ${nicheLabel.toLowerCase()} content on ${platformLabel}. I researched your brand on UltraVestra (Opportunity Score ${Math.round(r.score)}/100) and I would love to create for you.
+I am ${who} creating ${nicheLabel.toLowerCase()} content on ${platformLabel}. I researched your brand on UltraVestra${r.score != null ? ` (Opportunity Score ${Math.round(r.score)}/100)` : ""} and I would love to create for you.
 
 My first video idea: "${concepts[0].title}" — ${concepts[0].hook}
 
@@ -359,7 +361,9 @@ ${platformLabel} creator — ${nicheLabel}`;
                 <article key={r.brand.id} style={{ border: "1px solid #4c1d95", borderRadius: 16, padding: "16px 18px", background: "rgba(13,2,33,0.65)" }}>
                   <p style={{ margin: "0 0 4px", display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center" }}>
                     <Link href={`/brands/${r.brand.id}`} style={{ fontSize: 19, fontWeight: 800, textDecoration: "none" }}>{r.brand.name}</Link>
-                    <span style={{ background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13.5 }}>Score {Math.round(r.score)}</span>
+                    {r.score != null
+                      ? <span style={{ background: "linear-gradient(92deg, #a855f7, #d946ef)", color: "#fff", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13.5 }}>Score {Math.round(r.score)}</span>
+                      : <span style={{ background: "#26262e", color: "#d4d4d8", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13.5 }}>Not yet scored</span>}
                     {r.uncapped && <span style={{ background: "#052e16", color: "#4ade80", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13.5 }}>UNCAPPED ✓</span>}
                     {r.low && <span style={{ background: "#3a1c05", color: "#fb923c", borderRadius: 999, padding: "2px 12px", fontWeight: 700, fontSize: 13.5 }}>Smaller-creator friendly</span>}
                     {r.reasons.map((reason) => (
@@ -406,7 +410,7 @@ ${platformLabel} creator — ${nicheLabel}`;
             <h2 style={h2style}>📣 Worth pitching — no open campaign advertised</h2>
             <p style={sub}>These brands are not advertising an open campaign right now. That is exactly why a great pitch works: less competition, and the Trust System marks them as Research leads.</p>
             <ul style={{ margin: 0, paddingLeft: 20, lineHeight: 2.1, fontSize: 15.5 }}>
-              {pitchList.map((r) => (<li key={r.brand.id}><Link href={`/brands/${r.brand.id}`} style={{ fontWeight: 700 }}>{r.brand.name}</Link>{` — Score ${Math.round(r.score)}`} <span style={{ background: "#26262e", color: "#d4d4d8", borderRadius: 999, padding: "1px 10px", fontSize: 12.5, fontWeight: 700 }}>Research lead</span></li>))}
+              {pitchList.map((r) => (<li key={r.brand.id}><Link href={`/brands/${r.brand.id}`} style={{ fontWeight: 700 }}>{r.brand.name}</Link>{r.score != null ? ` — Score ${Math.round(r.score)}` : " — Not yet scored"} <span style={{ background: "#26262e", color: "#d4d4d8", borderRadius: 999, padding: "1px 10px", fontSize: 12.5, fontWeight: 700 }}>Research lead</span></li>))}
             </ul>
           </section>
 
