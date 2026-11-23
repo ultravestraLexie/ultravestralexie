@@ -86,25 +86,62 @@ const EVENT_LINES: Record<string, { icon: string; line: string }> = {
   brief_generated: { icon: "🧠", line: "You generated a campaign brief" },
 };
 
+/* PostgREST returns at most 1,000 rows per request — with 2,348
+ * published brands, an unpaged select silently truncates and every
+ * directory count on this page reads low (found by the Build 9
+ * production smoke, which showed "of 1,000 brands"). fetchAllRows
+ * pages through the full result in stable id order. */
+const ROW_PAGE = 1000;
+async function fetchAllRows(
+  build: (from: number, to: number) => PromiseLike<{ data: unknown[] | null }>
+): Promise<Record<string, unknown>[]> {
+  const rows: Record<string, unknown>[] = [];
+  for (let from = 0; ; from += ROW_PAGE) {
+    const { data } = await build(from, from + ROW_PAGE - 1);
+    const batch = (data ?? []) as Record<string, unknown>[];
+    rows.push(...batch);
+    if (batch.length < ROW_PAGE) break;
+  }
+  return rows;
+}
+
 export default async function DashboardPage() {
   await requireSubscription("/dashboard");
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
-  const { data: brands } = await supabase.from("brands").select("*").eq("status", "published");
-  const list = (brands ?? []) as Brand[];
+  const list = (await fetchAllRows((from, to) =>
+    supabase
+      .from("brands")
+      .select("id, name, country, created_at")
+      .eq("status", "published")
+      .order("id", { ascending: true })
+      .range(from, to)
+  )) as unknown as Brand[];
 
   let stats = { total: 0, uncapped: 0, capped: 0, unknownCap: 0, accepting: 0, newest: [] as Brand[] };
 
   if (list.length) {
-    const [{ data: affiliates }, { data: opps }] = await Promise.all([
-      supabase.from("affiliate_programs").select("brand_id, commission_notes, application_url"),
-      supabase.from("opportunities").select("brand_id, status, application_url"),
+    const [affiliates, opps] = await Promise.all([
+      fetchAllRows((from, to) =>
+        supabase
+          .from("affiliate_programs")
+          .select("brand_id, commission_notes, application_url")
+          .order("id", { ascending: true })
+          .range(from, to)
+      ),
+      fetchAllRows((from, to) =>
+        supabase
+          .from("opportunities")
+          .select("brand_id, status, application_url")
+          .order("id", { ascending: true })
+          .range(from, to)
+      ),
     ]);
     const openSet = new Set<string>();
-    for (const o of opps ?? []) if (o.status === "open" && o.application_url) openSet.add(o.brand_id as string);
+    for (const o of opps) if (o.status === "open" && o.application_url) openSet.add(o.brand_id as string);
     let uncapped = 0, capped = 0, unknownCap = 0;
     const accepting = new Set<string>(openSet);
-    for (const a of affiliates ?? []) {
+    for (const a of affiliates) {
       const notes = (a.commission_notes as string) ?? "";
       if (notes.includes("cap: UNCAPPED")) uncapped++;
       else if (notes.includes("cap: capped")) capped++;
