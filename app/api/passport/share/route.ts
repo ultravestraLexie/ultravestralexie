@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { getGateState } from "@/lib/gate";
+import { passportSlugTaken, validatePassportSlug } from "@/lib/galaxy/core";
 
 export const runtime = "nodejs";
 
@@ -11,18 +12,26 @@ export const runtime = "nodejs";
 // publicly unless the owner turns this on.
 //
 // The slug is generated once, from the creator's name plus a
-// short suffix from their user id, and never changes afterwards
-// — a shared link must not rot. Turning public off keeps the
-// slug; the flag alone controls visibility.
+// short suffix from their user id. The creator may later replace
+// it with one they choose (the `slug` action below, validated by
+// lib/galaxy/core) — the Passport page warns them plainly that
+// changing it breaks the old link. Turning public off keeps the
+// slug; the flag alone controls visibility. This route is the
+// ONLY writer of passport_slug.
 
 const PatchSchema = z
   .object({
     public: z.boolean().optional(),
     shareHistory: z.boolean().optional(),
+    slug: z.string().max(64).optional(),
   })
-  .refine((v) => v.public !== undefined || v.shareHistory !== undefined, {
-    message: "Nothing to update",
-  });
+  .refine(
+    (v) =>
+      v.public !== undefined || v.shareHistory !== undefined || v.slug !== undefined,
+    {
+      message: "Nothing to update",
+    }
+  );
 
 function slugify(name: string): string {
   const base = name
@@ -124,6 +133,35 @@ export async function PATCH(request: Request) {
   const nextShareHistory =
     parsed.data.shareHistory ?? currentRow?.passport_share_history ?? false;
 
+  /* A chosen slug is validated and checked for conflicts BEFORE
+   * anything is written: a bad or taken address changes nothing,
+   * including the public / share-history flags in the same call. */
+  if (parsed.data.slug !== undefined) {
+    const check = validatePassportSlug(parsed.data.slug);
+    if (!check.ok) {
+      return Response.json({ error: check.error }, { status: 400 });
+    }
+    if (check.slug !== slug) {
+      const { data: holders } = await owner.supabase
+        .from("profiles")
+        .select("id, passport_slug")
+        .eq("passport_slug", check.slug);
+      if (
+        passportSlugTaken(
+          check.slug,
+          (holders ?? []) as { id: string; passport_slug: string | null }[],
+          owner.userId
+        )
+      ) {
+        return Response.json(
+          { error: "That address is taken — try another" },
+          { status: 409 }
+        );
+      }
+      slug = check.slug;
+    }
+  }
+
   if (!slug && nextPublic) {
     const { data: bp } = await owner.supabase
       .from("creator_business_profiles")
@@ -148,6 +186,14 @@ export async function PATCH(request: Request) {
     .select("passport_slug, passport_public, passport_share_history");
 
   if (error) {
+    // Unique-index race: another creator claimed the slug between
+    // the check above and this write. Say exactly that.
+    if (error.code === "23505") {
+      return Response.json(
+        { error: "That address is taken — try another" },
+        { status: 409 }
+      );
+    }
     console.error("Passport share save error:", error);
     return Response.json(
       { error: "Your share settings could not be saved. Please try again." },

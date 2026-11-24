@@ -84,7 +84,7 @@ export default function SettingsPrefs({
       });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || "Your username could not be saved.");
-      setUserMsg("Saved — this is the name your creator profile answers to.");
+      setUserMsg("Saved — your creator name inside the app.");
     } catch (e) {
       setUserErr(e instanceof Error ? e.message : "Your username could not be saved.");
     } finally {
@@ -125,7 +125,8 @@ export default function SettingsPrefs({
         </p>
         <p style={{ margin: "0 0 10px", color: "#ddd0ff", fontSize: 14 }}>
           3–24 characters: lowercase letters, numbers and underscores. Leave
-          blank to clear it.
+          blank to clear it. This name is used inside the app only.
+          Your public Passport address is set on your Passport page.
         </p>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center" }}>
           <input

@@ -59,6 +59,10 @@ export default function PassportClient({
   const [shareHistory, setShareHistoryState] = useState(initialShareHistory);
   const [shareBusy, setShareBusy] = useState(false);
   const [historyBusy, setHistoryBusy] = useState(false);
+  const [slugDraft, setSlugDraft] = useState(initialSlug ?? "");
+  const [slugBusy, setSlugBusy] = useState(false);
+  const [slugErr, setSlugErr] = useState("");
+  const [slugMsg, setSlugMsg] = useState("");
 
   const brandsPaid = new Set(paidDeals.map((d) => d.brandName)).size;
   const shareUrl =
@@ -86,6 +90,7 @@ export default function PassportClient({
       const data = (await res.json().catch(() => null)) as { slug?: string | null; public?: boolean } | null;
       if (res.ok && data) {
         setSlug(data.slug ?? null);
+        setSlugDraft(data.slug ?? "");
         setIsPublic(Boolean(data.public));
         toast(
           data.public
@@ -122,6 +127,34 @@ export default function PassportClient({
       toast("That setting could not be saved. Please try again.");
     }
     setHistoryBusy(false);
+  }
+
+  async function saveSlug() {
+    setSlugBusy(true);
+    setSlugErr("");
+    setSlugMsg("");
+    try {
+      const res = await fetch("/api/passport/share", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug: slugDraft }),
+      });
+      const data = (await res.json().catch(() => null)) as {
+        slug?: string | null;
+        error?: string;
+      } | null;
+      if (res.ok && data) {
+        setSlug(data.slug ?? null);
+        setSlugDraft(data.slug ?? "");
+        setSlugMsg("Saved — your public address is updated.");
+        router.refresh();
+      } else {
+        setSlugErr(data?.error ?? "That address could not be saved. Please try again.");
+      }
+    } catch {
+      setSlugErr("That address could not be saved. Please try again.");
+    }
+    setSlugBusy(false);
   }
 
   async function delEntry(id: string) {
@@ -224,6 +257,56 @@ export default function PassportClient({
             Your public Passport is off. Only you can see this page until you share it.
           </p>
         )}
+        <div style={{ borderTop: "1px solid var(--line)", marginTop: 16, paddingTop: 16 }}>
+          <strong style={{ fontSize: 15 }}>Your public address</strong>
+          <p className="gx-sub" style={{ margin: "6px 0 10px" }}>
+            This is your public address. Changing it breaks your old link.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 10, alignItems: "center" }}>
+            <span style={{ color: "var(--ink-3)", fontSize: 14.5 }}>/p/</span>
+            <input
+              className="gx-input"
+              style={{ maxWidth: 260 }}
+              value={slugDraft}
+              onChange={(e) => setSlugDraft(e.target.value.toLowerCase())}
+              placeholder="yourname"
+              aria-label="Public Passport address"
+              maxLength={40}
+              autoComplete="off"
+              autoCapitalize="none"
+              spellCheck={false}
+            />
+            <button
+              type="button"
+              className="gx-btn gx-btn-sm"
+              disabled={slugBusy || slugDraft.trim().toLowerCase() === (slug ?? "")}
+              onClick={() => void saveSlug()}
+            >
+              {slugBusy ? "Saving…" : "Save address"}
+            </button>
+          </div>
+          <p className="gx-sub" style={{ margin: "8px 0 0" }}>
+            3–30 characters: lowercase letters, numbers and hyphens.
+            {slug ? (
+              <>
+                {" "}
+                Your link now: <span style={{ color: "var(--ink-2)" }}>/p/{slug}</span>
+              </>
+            ) : (
+              " It becomes yours as soon as you save — share it once your Passport is public."
+            )}
+          </p>
+          {slugMsg ? (
+            <p style={{ margin: "8px 0 0", color: "var(--good)", fontSize: 14, fontWeight: 700 }}>
+              {slugMsg}
+            </p>
+          ) : null}
+          {slugErr ? (
+            <p role="alert" style={{ margin: "8px 0 0", color: "var(--bad)", fontSize: 14, fontWeight: 700 }}>
+              {slugErr}
+            </p>
+          ) : null}
+        </div>
         <div className="gx-figs">
           <div style={{ padding: "12px 4px" }}>
             <strong className="gx-fig-value">{paidDeals.length}</strong>

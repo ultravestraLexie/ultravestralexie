@@ -2176,6 +2176,85 @@ export function moneyLedger(
   };
 }
 
+/* ---------------- Passport public address (slug) -------------------
+ * A creator's public Passport lives at /p/<slug>. The slug starts
+ * auto-generated (creator name + a suffix from the user id, in the
+ * share route) and the creator may replace it with one they choose.
+ * The rules live here, in one place, so the API route and the
+ * fixtures can never drift: 3–30 characters, lowercase letters /
+ * numbers / hyphens only, never starting or ending with a hyphen,
+ * and never a word the app itself routes on. */
+
+export const PASSPORT_SLUG_MIN = 3;
+export const PASSPORT_SLUG_MAX = 30;
+
+export const RESERVED_PASSPORT_SLUGS: ReadonlySet<string> = new Set([
+  "login",
+  "signup",
+  "welcome",
+  "get-started",
+  "pricing",
+  "api",
+  "p",
+  "today",
+  "brands",
+  "deals",
+  "studio",
+  "money",
+  "passport",
+  "settings",
+  "admin",
+  "support",
+  "terms",
+  "privacy",
+]);
+
+export type PassportSlugCheck =
+  | { ok: true; slug: string }
+  | { ok: false; error: string };
+
+/** Normalize (trim + lowercase) and validate a chosen Passport
+ *  slug. Returns the normalized slug on success, or the plain
+ *  reason it cannot be used. */
+export function validatePassportSlug(raw: string): PassportSlugCheck {
+  const slug = raw.trim().toLowerCase();
+  if (slug.length < PASSPORT_SLUG_MIN || slug.length > PASSPORT_SLUG_MAX) {
+    return {
+      ok: false,
+      error: `Your address must be ${PASSPORT_SLUG_MIN}–${PASSPORT_SLUG_MAX} characters.`,
+    };
+  }
+  if (!/^[a-z0-9-]+$/.test(slug)) {
+    return {
+      ok: false,
+      error: "Use lowercase letters, numbers and hyphens only.",
+    };
+  }
+  if (slug.startsWith("-") || slug.endsWith("-")) {
+    return {
+      ok: false,
+      error: "Your address cannot start or end with a hyphen.",
+    };
+  }
+  if (RESERVED_PASSPORT_SLUGS.has(slug)) {
+    return { ok: false, error: "That address is reserved — try another." };
+  }
+  return { ok: true, slug };
+}
+
+/** Uniqueness as a pure check over the rows that already hold a
+ *  slug: a conflict is a row owned by SOMEONE ELSE holding the
+ *  candidate. The caller's own row never conflicts with itself.
+ *  (The profiles_passport_slug_key unique index is the database
+ *  backstop behind this check.) */
+export function passportSlugTaken(
+  candidate: string,
+  holders: { id: string; passport_slug: string | null }[],
+  selfId: string
+): boolean {
+  return holders.some((h) => h.passport_slug === candidate && h.id !== selfId);
+}
+
 /* ---------------- Passport track record (verified) ------------------
  * The figures a creator may put on their public Passport when
  * they opt in: computed ONLY from their own paid deals — the same

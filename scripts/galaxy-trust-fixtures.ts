@@ -4,7 +4,10 @@
 // reconciliation; (2) Passport — passportTrackRecord, the
 // passport_share_history migration, the public page's dual-flag
 // gate, the methodology text; (3) the Creator Loop — creatorLoop's
-// status model (priority / gap / calm) and progress lines.
+// status model (priority / gap / calm) and progress lines;
+// (4) the chosen Passport address — validatePassportSlug's format
+// and reserved-word rules, passportSlugTaken's conflict check, and
+// the slug-editor wiring.
 //
 // The hard rules pinned here: an invoice NEVER enters collected;
 // kept is collected minus expenses no matter how large projected
@@ -22,11 +25,14 @@
 import { readFileSync } from "node:fs";
 import {
   AUDIENCE_METHODOLOGY,
+  RESERVED_PASSPORT_SLUGS,
   creatorLoop,
   emptyProtection,
   fmtMoney,
   moneyLedger,
+  passportSlugTaken,
   passportTrackRecord,
+  validatePassportSlug,
   type AudienceSnapshot,
   type DealProtection,
   type GalaxyBrand,
@@ -431,6 +437,97 @@ const step = (steps: ReturnType<typeof creatorLoop>, id: string) =>
     })
   );
   check("loop: healthy account — every step calm", steps.map((s) => s.status), ["calm", "calm", "calm", "calm", "calm"]);
+}
+
+/* ---------------- Part 4: the chosen Passport address ------------
+ * A Passport "worth sharing" needs an address the creator picks.
+ * The rules are pinned here: format (3–30, lowercase letters /
+ * numbers / hyphens, no leading or trailing hyphen), the reserved
+ * words the app routes on, and uniqueness as a pure check over
+ * slug holders — another creator's address conflicts, your own
+ * current address never does. Source assertions pin the wiring:
+ * the public page resolves by passport_slug (so a changed slug
+ * resolves and the old one 404s), the Passport page carries the
+ * editor, and Settings no longer claims its in-app username names
+ * the public profile. */
+
+{
+  check(
+    "slug: a chosen address passes, normalized",
+    validatePassportSlug("  My-Name-1 "),
+    { ok: true, slug: "my-name-1" }
+  );
+  check("slug: too short rejected", validatePassportSlug("ab").ok, false);
+  check("slug: exactly 3 passes", validatePassportSlug("a-1").ok, true);
+  check("slug: exactly 30 passes", validatePassportSlug("a".repeat(30)).ok, true);
+  check("slug: too long rejected", validatePassportSlug("a".repeat(31)).ok, false);
+  check("slug: blank rejected", validatePassportSlug("   ").ok, false);
+  check("slug: space rejected", validatePassportSlug("bad slug").ok, false);
+  check("slug: underscore rejected", validatePassportSlug("bad_slug").ok, false);
+  check("slug: symbol rejected", validatePassportSlug("bad!slug").ok, false);
+  check("slug: leading hyphen rejected", validatePassportSlug("-abc").ok, false);
+  check("slug: trailing hyphen rejected", validatePassportSlug("abc-").ok, false);
+  check("slug: interior hyphens pass", validatePassportSlug("my--name").ok, true);
+
+  const RESERVED = [
+    "login", "signup", "welcome", "get-started", "pricing", "api", "p",
+    "today", "brands", "deals", "studio", "money", "passport",
+    "settings", "admin", "support", "terms", "privacy",
+  ];
+  for (const w of RESERVED) {
+    check(`slug: reserved word "${w}" rejected`, validatePassportSlug(w).ok, false);
+  }
+  check("slug: reserved set is exactly the routed words", [...RESERVED_PASSPORT_SLUGS].sort(), [...RESERVED].sort());
+
+  const holders = [
+    { id: "u1", passport_slug: "taken-name" },
+    { id: "u2", passport_slug: "other-name" },
+    { id: "u3", passport_slug: null },
+  ];
+  check("slug: another creator's address conflicts", passportSlugTaken("taken-name", holders, "u9"), true);
+  check("slug: own current address is not a conflict", passportSlugTaken("taken-name", holders, "u1"), false);
+  check("slug: a free address does not conflict", passportSlugTaken("free-name", holders, "u9"), false);
+  check("slug: no holders, no conflict", passportSlugTaken("any-name", [], "u9"), false);
+
+  const pub = readFileSync("app/p/[slug]/page.tsx", "utf8");
+  check(
+    "public page: profile resolved by passport_slug",
+    pub.includes('.eq("passport_slug", slug)'),
+    true
+  );
+  const client = readFileSync("app/passport/PassportClient.tsx", "utf8");
+  check(
+    "passport UI: slug editor carries the break-link warning",
+    client.includes("This is your public address. Changing it breaks your old link."),
+    true
+  );
+  check(
+    "passport UI: editor saves through the share route",
+    client.includes("JSON.stringify({ slug: slugDraft })"),
+    true
+  );
+  const share = readFileSync("app/api/passport/share/route.ts", "utf8");
+  check(
+    "share route: slug writes validate + check uniqueness server-side",
+    share.includes("validatePassportSlug") && share.includes("passportSlugTaken"),
+    true
+  );
+  check(
+    "share route: taken address returns the plain taken error",
+    share.includes("That address is taken — try another"),
+    true
+  );
+  const prefs = readFileSync("components/SettingsPrefs.tsx", "utf8");
+  check(
+    "settings: username copy points at the Passport editor",
+    prefs.includes("Your public Passport address is set on your Passport page"),
+    true
+  );
+  check(
+    "settings: username copy no longer claims the profile address",
+    prefs.includes("answers to"),
+    false
+  );
 }
 
 if (failures > 0) {
