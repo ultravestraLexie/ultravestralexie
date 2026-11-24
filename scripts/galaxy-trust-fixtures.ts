@@ -739,9 +739,10 @@ const fullProtection = (id: string): DealProtection => ({
   );
   const globalsCss = readFileSync("app/globals.css", "utf8");
   check(
-    "today phone: ask chips are never forced into a nowrap scroll row (owner: chips cut off at the right edge)",
-    globalsCss.includes(".gx-ask-chips { flex-wrap: nowrap; }"),
-    false
+    "today phone: ask chips form a snap row — one question per swipe (owner: 'Allow you swipe each one')",
+    globalsCss.includes(".gx-ask-chips { flex-wrap: nowrap; scroll-snap-type: x mandatory; }") &&
+      globalsCss.includes(".gx-ask-chips .gx-chip { flex: 0 0 84%; scroll-snap-align: start;"),
+    true
   );
   check(
     "today: ask chips wrap (base rule)",

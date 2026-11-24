@@ -684,9 +684,11 @@ dialog.gx-sheet::backdrop {
   .gx-orbit-svg { max-width: 360px; }
   .gx-action-li { grid-template-columns: 32px minmax(0, 1fr); row-gap: 10px; }
   .gx-action-li > .gx-btn { grid-column: 2; justify-self: start; }
-  /* Ask chips WRAP on phone (owner, 2026-11-23): the nowrap scroll
-     row left most question chips cut off at the right edge of the
-     "What needs you" panel — all five now fit inside the panel. */
+  /* Ask chips SWIPE on phone (owner, 2026-11-23: "Allow you swipe
+     each one"): a snap row — one question at a time, each swipe
+     lands the next chip fully inside the panel. */
+  .gx-ask-chips { flex-wrap: nowrap; scroll-snap-type: x mandatory; }
+  .gx-ask-chips .gx-chip { flex: 0 0 84%; scroll-snap-align: start; text-align: center; white-space: normal; }
 
   /* Brands: 46px + 1fr; rate inline under the name, then
      status (inside the name cell), then actions left-aligned */
