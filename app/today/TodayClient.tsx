@@ -631,6 +631,13 @@ export default function TodayClient(p: Props) {
 
       {loopPanel}
 
+      <p style={{ margin: "-4px 0 18px", fontSize: 13.5, color: "var(--ink-3)" }}>
+        Something broken?{" "}
+        <Link href="/support" style={{ color: "var(--gx-accent)", fontWeight: 600 }}>
+          Get help →
+        </Link>
+      </p>
+
       <div className="gx-today-grid">
         <div style={{ display: "grid", gap: 20 }}>
           {isNew ? stepsPanel : null}

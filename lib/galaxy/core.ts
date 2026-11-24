@@ -1775,6 +1775,84 @@ export function rowToSnapshot(r: AudienceRowLike): AudienceSnapshot {
   };
 }
 
+/* ------------------------------------------------------------------ */
+/* Support — somewhere to go when something breaks (trust queue #1,  */
+/* owner order 2026-11-23). A signed-in creator files a request from  */
+/* the Support page; the row lands in public.support_tickets and a    */
+/* person answers by email. The category list is closed and shared:   */
+/* the form, the API validation and the table's check constraint all  */
+/* use exactly these six values — the fixtures pin that the SQL and   */
+/* this list cannot drift apart.                                     */
+/* ------------------------------------------------------------------ */
+
+export const SUPPORT_CATEGORIES = [
+  "billing",
+  "account-access",
+  "deals-money",
+  "passport",
+  "bug",
+  "other",
+] as const;
+
+export type SupportCategory = (typeof SUPPORT_CATEGORIES)[number];
+
+export const isSupportCategory = (c: string): c is SupportCategory =>
+  (SUPPORT_CATEGORIES as readonly string[]).includes(c);
+
+/** Display label for a support category — the words the creator
+ *  picked from, shown back on their request list. */
+export const supportCategoryLabel = (c: string): string =>
+  ({
+    billing: "Billing",
+    "account-access": "Account access",
+    "deals-money": "Deals & money records",
+    passport: "Passport",
+    bug: "Bug — something is broken",
+    other: "Something else",
+  })[c] ?? "Something else";
+
+export type SupportTicket = {
+  id: string;
+  category: string;
+  subject: string;
+  message: string;
+  contactEmail: string;
+  status: string;
+  createdAt: string;
+};
+
+export type SupportTicketRowLike = {
+  id: string;
+  category: string;
+  subject: string;
+  message: string;
+  contact_email: string;
+  status: string;
+  created_at: string;
+};
+
+export function rowToSupportTicket(r: SupportTicketRowLike): SupportTicket {
+  return {
+    id: r.id,
+    category: r.category,
+    subject: r.subject,
+    message: r.message,
+    contactEmail: r.contact_email,
+    status: r.status,
+    createdAt: r.created_at,
+  };
+}
+
+/** The reference a creator quotes back to us: the first block of
+ *  the row's own id — a real value from the insert, never invented. */
+export const supportTicketRef = (t: Pick<SupportTicket, "id">): string =>
+  t.id.slice(0, 8);
+
+/** Status words for the creator's own list: a fresh request is
+ *  "Received"; any later state shows the stored word as written. */
+export const supportStatusLabel = (status: string): string =>
+  status === "open" ? "Received" : status;
+
 /** Newest first: later captured_on wins; on the same day, the
  *  later-entered row wins (it is the correction). */
 function byRecency(a: AudienceSnapshot, b: AudienceSnapshot): number {

@@ -13,8 +13,11 @@ import {
   rowToDeal,
   rowToProtection,
   rowToSnapshot,
+  rowToSupportTicket,
   type AudienceRowLike,
   type AudienceSnapshot,
+  type SupportTicket,
+  type SupportTicketRowLike,
   type DealProtection,
   type DealRowLike,
   type ProtectionRowLike,
@@ -109,6 +112,24 @@ export async function fetchAudienceSnapshots(
     .order("created_at", { ascending: false })
     .limit(200);
   return ((data ?? []) as AudienceRowLike[]).map((r) => rowToSnapshot(r));
+}
+
+/** Support requests (trust queue #1) the caller has filed, newest
+ *  first. Own-row RLS applies on top of the user_id scope; capped
+ *  so the Support page stays a summary of recent requests. */
+export async function fetchSupportTickets(
+  supabase: ServerClient,
+  userId: string
+): Promise<SupportTicket[]> {
+  const { data } = await supabase
+    .from("support_tickets")
+    .select("id, category, subject, message, contact_email, status, created_at")
+    .eq("user_id", userId)
+    .order("created_at", { ascending: false })
+    .limit(50);
+  return ((data ?? []) as SupportTicketRowLike[]).map((r) =>
+    rowToSupportTicket(r)
+  );
 }
 
 export async function fetchPosts(
