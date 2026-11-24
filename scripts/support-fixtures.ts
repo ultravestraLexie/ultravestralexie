@@ -235,6 +235,13 @@ check(
   true
 );
 
+const supportClient = readFileSync("app/support/SupportClient.tsx", "utf8");
+check(
+  "list date: createdAt timestamp is date-keyed before fmtDate (no Invalid Date)",
+  supportClient.includes("fmtDate(t.createdAt.slice(0, 10))"),
+  true
+);
+
 const today = readFileSync("app/today/TodayClient.tsx", "utf8");
 check(
   "entry point: Today carries the get-help link under the loop",

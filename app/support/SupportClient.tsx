@@ -213,7 +213,7 @@ export default function SupportClient({
                     {t.subject}
                   </div>
                   <div style={{ color: "var(--ink-3)", fontSize: 13.5, marginTop: 2 }}>
-                    {supportCategoryLabel(t.category)} · {fmtDate(t.createdAt)}{" "}
+                    {supportCategoryLabel(t.category)} · {fmtDate(t.createdAt.slice(0, 10))}{" "}
                     · Ref {supportTicketRef(t)}
                   </div>
                 </div>
