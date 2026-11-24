@@ -201,6 +201,12 @@ export default async function MePage() {
               detail: "Compare the path you're on with the one you're considering.",
               orb: "radial-gradient(circle at 32% 30%, #c4b5fd, #8b5cf6 55%, #312e81)",
             },
+            {
+              href: "/me/marketplace",
+              title: "Local gigs profile",
+              detail: "Your handle, niches, area and rate — it powers the Local opportunities section on Brands.",
+              orb: "radial-gradient(circle at 32% 30%, #fde68a, #f5c451 55%, #92600a)",
+            },
           ].map((c) => (
             <Link key={c.href} href={c.href} className="gx-panel" style={{ display: "block" }}>
               <span

@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { fetchDeals, fetchDirectory, fetchProfile, fetchSavedBrandIds } from "@/lib/galaxy/server";
 import { todayKey } from "@/lib/galaxy/core";
 import BrandsClient from "./BrandsClient";
+import LocalOpportunities from "./LocalOpportunities";
 
 export const dynamic = "force-dynamic";
 
@@ -35,12 +36,19 @@ export default async function BrandsPage() {
   const paidCount = deals.filter((d) => d.stage === "paid").length;
 
   return (
-    <BrandsClient
-      brands={brands}
-      profile={profile}
-      deals={deals}
-      paidCount={paidCount}
-      today={todayKey()}
-    />
+    <>
+      <BrandsClient
+        brands={brands}
+        profile={profile}
+        deals={deals}
+        paidCount={paidCount}
+        today={todayKey()}
+      />
+      {/* Local opportunities (owner order 2026-11-24): the local-gigs
+       * section below the directory — device-local sample data only,
+       * never written to the database. The directory above is
+       * untouched. */}
+      <LocalOpportunities />
+    </>
   );
 }

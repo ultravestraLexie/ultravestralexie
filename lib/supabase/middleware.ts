@@ -1,6 +1,7 @@
 import { createServerClient, type CookieOptions } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { isGatedPath, SUBSCRIBED_STATUSES } from "@/lib/gate-paths";
+import { isBusinessAccountType } from "@/lib/business-registration";
 
 /** Refreshes the Supabase auth session on every request so server
  *  components and route handlers always see a valid user. Standard
@@ -120,7 +121,35 @@ export async function updateSession(request: NextRequest) {
     console.error("middleware: subscription check failed, treating as not subscribed", err);
   }
   if (!subscribed) {
-    return gateResponse(request, supabaseResponse, isApi ? null : "/pricing", 403);
+    if (isApi) {
+      return gateResponse(request, supabaseResponse, null, 403);
+    }
+    // Business accounts (Brand / Agency) hold no subscription BY
+    // DESIGN — they registered free and their home is
+    // /business/home, not the creator pricing page. Send them
+    // there instead. A failed lookup (or a pre-migration profile
+    // without the column) reads as "not a business account", so
+    // creators keep the exact /pricing behavior they have always
+    // had; only an explicit brand/agency value takes this branch.
+    let businessAccount = false;
+    try {
+      const { data } = await supabase
+        .from("profiles")
+        .select("account_type")
+        .eq("id", user.id)
+        .maybeSingle();
+      businessAccount = isBusinessAccountType(
+        (data as { account_type?: string } | null)?.account_type
+      );
+    } catch (err) {
+      console.error("middleware: account-type check failed, treating as creator", err);
+    }
+    return gateResponse(
+      request,
+      supabaseResponse,
+      businessAccount ? "/business/home" : "/pricing",
+      403
+    );
   }
 
   return supabaseResponse;

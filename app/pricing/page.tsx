@@ -105,6 +105,12 @@ export default async function PricingPage() {
         Questions, or a problem with billing?{" "}
         <Link href="/support">Contact support</Link>
       </p>
+      <p style={{ marginTop: 16, color: "#b3a6e0", fontSize: 14 }}>
+        Are you a brand or an agency?{" "}
+        <Link href="/business/register">
+          Register your business — free, no plan needed
+        </Link>
+      </p>
     </div>
   );
 }

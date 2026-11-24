@@ -108,6 +108,7 @@ export default async function RootLayout({
               <BrandLockup compact />
             </Link>
             <nav style={{ display: "flex", flexWrap: "wrap", gap: 18, fontSize: 15, marginLeft: "auto", alignItems: "center" }}>
+              <Link href="/business/register" style={{ textDecoration: "none", color: "var(--ink-2)" }}>For Brands &amp; Agencies</Link>
               <Link href="/pricing" style={{ textDecoration: "none", color: "var(--ink-2)" }}>Pricing</Link>
               <Link href="/login" style={{ textDecoration: "none", fontWeight: 600 }}>Log in</Link>
             </nav>
@@ -129,6 +130,69 @@ export default async function RootLayout({
             <br />© 2026 UltraVestra. All rights reserved. The brand directory,
             research and platform content may not be copied, scraped or
             redistributed.
+          </footer>
+        </body>
+      </html>
+    );
+  }
+
+  /* Business accounts (Brand / Agency) never enter the creator
+   * shell: they hold no subscription and their whole area is
+   * /business/*. They get a minimal frame — brand lockup, their
+   * business home, sign out — instead of the five-section creator
+   * nav whose destinations would only bounce them back here. A
+   * missing column (pre-migration) or failed read falls through to
+   * the creator shell, so creator rendering is unchanged. */
+  const { data: accountProfile } = await supabase
+    .from("profiles")
+    .select("account_type")
+    .eq("id", user.id)
+    .maybeSingle();
+  const accountType = (accountProfile as { account_type?: string } | null)
+    ?.account_type;
+  if (accountType === "brand" || accountType === "agency") {
+    return (
+      <html lang="en">
+        <body>
+          <GalaxyBackdrop />
+          <header
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: 20,
+              alignItems: "center",
+              padding: "14px 24px",
+              borderBottom: "1px solid var(--line)",
+              background: "rgba(4,6,26,.55)",
+              backdropFilter: "blur(14px)",
+              WebkitBackdropFilter: "blur(14px)",
+            }}
+          >
+            <Link href="/business/home" style={{ textDecoration: "none" }}>
+              <BrandLockup compact />
+            </Link>
+            <span style={{ fontSize: 14, color: "var(--ink-3)" }}>
+              {accountType === "brand" ? "Brand account" : "Agency account"}
+            </span>
+            <span style={{ marginLeft: "auto", fontSize: 14 }}>
+              <SignOutButton />
+            </span>
+          </header>
+          <main style={{ maxWidth: 1080, margin: "0 auto", padding: "32px 24px" }}>
+            {children}
+          </main>
+          <footer
+            style={{
+              padding: "24px",
+              borderTop: "1px solid var(--line)",
+              color: "var(--ink-3)",
+              fontSize: 13,
+              textAlign: "center",
+            }}
+          >
+            UltraVestra — Less time searching. More time creating. Smarter brand
+            partnerships.
+            <br />© 2026 UltraVestra. All rights reserved.
           </footer>
         </body>
       </html>
