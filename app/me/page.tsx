@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
 import { passportTrackRecord, todayKey } from "@/lib/galaxy/core";
@@ -140,6 +141,98 @@ export default async function MePage() {
           memberSince={memberSince}
           trackRecord={trackRecord}
         />
+      </section>
+
+      {/* CREATOR ECONOMY — the growth layer the owner ordered into
+       * Me (2026-11-24): six frames from his Creator Economy
+       * prototype, each on its own sub-route (the /studio/dna
+       * pattern). Two frames were NOT added: the Passport (this
+       * page's own second half already is it) and the Creator DNA
+       * card (already shipped in Studio). Nothing above this
+       * section changed. */}
+      <section aria-label="Creator Economy" style={{ marginTop: 56 }}>
+        <h2 style={{ fontSize: 22, margin: 0 }}>Creator Economy</h2>
+        <p style={{ margin: "8px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
+          Your growth layer — levels, challenges, your year in review, invites and the
+          What If simulator.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+            gap: 12,
+            marginTop: 16,
+          }}
+        >
+          {[
+            {
+              href: "/me/year",
+              title: "Year in Review",
+              detail: "Your creator year, told by your paid deals.",
+              orb: "radial-gradient(circle at 32% 30%, #93c5fd, #4c7dff 55%, #1e2754)",
+            },
+            {
+              href: "/me/levels",
+              title: "Your next level",
+              detail: "Bronze to Diamond — from campaigns completed and money collected.",
+              orb: "radial-gradient(circle at 32% 30%, #ffe9a8, #f5c451 55%, #8a5a12)",
+            },
+            {
+              href: "/me/challenges",
+              title: "Challenges",
+              detail: "This week's posting challenge and the friends race.",
+              orb: "radial-gradient(circle at 32% 30%, #d8c8ff, #b69cff 55%, #4c1d95)",
+            },
+            {
+              href: "/me/hall",
+              title: "Hall of Fame",
+              detail: "This month's creator rankings, on verified activity.",
+              orb: "radial-gradient(circle at 32% 30%, #fef3c7, #f59e42 55%, #7c2d12)",
+            },
+            {
+              href: "/me/invite",
+              title: "Invite creators",
+              detail: "Bring your creator friends — you both unlock rewards.",
+              orb: "radial-gradient(circle at 32% 30%, #a7f3d0, #4ade80 55%, #14532d)",
+            },
+            {
+              href: "/me/whatif",
+              title: "Vestra What If",
+              detail: "Compare the path you're on with the one you're considering.",
+              orb: "radial-gradient(circle at 32% 30%, #c4b5fd, #8b5cf6 55%, #312e81)",
+            },
+          ].map((c) => (
+            <Link key={c.href} href={c.href} className="gx-panel" style={{ display: "block" }}>
+              <span
+                aria-hidden="true"
+                style={{
+                  display: "block",
+                  width: 30,
+                  height: 30,
+                  borderRadius: "50%",
+                  background: c.orb,
+                  boxShadow: "0 0 14px rgba(167,139,250,.35)",
+                  marginBottom: 10,
+                }}
+              />
+              <p style={{ fontWeight: 700, fontSize: 16, margin: 0 }}>{c.title}</p>
+              <p className="gx-sub" style={{ margin: "4px 0 0" }}>
+                {c.detail}
+              </p>
+              <span
+                style={{
+                  display: "inline-flex",
+                  marginTop: 10,
+                  fontWeight: 700,
+                  fontSize: 13.5,
+                  color: "var(--violet-2, #b794ff)",
+                }}
+              >
+                Open →
+              </span>
+            </Link>
+          ))}
+        </div>
       </section>
     </div>
   );
