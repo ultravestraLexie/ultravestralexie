@@ -684,7 +684,9 @@ dialog.gx-sheet::backdrop {
   .gx-orbit-svg { max-width: 360px; }
   .gx-action-li { grid-template-columns: 32px minmax(0, 1fr); row-gap: 10px; }
   .gx-action-li > .gx-btn { grid-column: 2; justify-self: start; }
-  .gx-ask-chips { flex-wrap: nowrap; }
+  /* Ask chips WRAP on phone (owner, 2026-11-23): the nowrap scroll
+     row left most question chips cut off at the right edge of the
+     "What needs you" panel — all five now fit inside the panel. */
 
   /* Brands: 46px + 1fr; rate inline under the name, then
      status (inside the name cell), then actions left-aligned */

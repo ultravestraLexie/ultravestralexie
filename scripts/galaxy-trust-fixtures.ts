@@ -737,6 +737,17 @@ const fullProtection = (id: string): DealProtection => ({
     prefs.includes("answers to"),
     false
   );
+  const globalsCss = readFileSync("app/globals.css", "utf8");
+  check(
+    "today phone: ask chips are never forced into a nowrap scroll row (owner: chips cut off at the right edge)",
+    globalsCss.includes(".gx-ask-chips { flex-wrap: nowrap; }"),
+    false
+  );
+  check(
+    "today: ask chips wrap (base rule)",
+    globalsCss.includes(".gx-ask-chips { flex-wrap: wrap; }"),
+    true
+  );
 }
 
 if (failures > 0) {
