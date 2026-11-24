@@ -81,7 +81,7 @@ export default function DealsClient({
         <div>
           <h1 className="gx-h1">Deals</h1>
           <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
-            Every partnership from first pitch to paid. Tap a deal to move it forward.
+            Protect your money. Every partnership from first pitch to paid. Tap a deal to move it forward.
           </p>
         </div>
         <button type="button" className="gx-btn gx-btn-primary" onClick={() => setAddOpen(true)}>

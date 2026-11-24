@@ -100,7 +100,7 @@ export const GALACTIC_PILLARS: GalacticPillar[] = [
       "Proposal status tracked: draft, sent, accepted, declined",
     ],
     tools: [
-      { label: "Reputation Passport", href: "/passport" },
+      { label: "Reputation Passport", href: "/me#passport" },
       { label: "Proposal Builder", href: "/proposals" },
     ],
     statusNote:

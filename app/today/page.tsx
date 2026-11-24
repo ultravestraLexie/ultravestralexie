@@ -35,10 +35,11 @@ import TodayClient from "./TodayClient";
 
 export const dynamic = "force-dynamic";
 
-/* TODAY — Creator Intelligence. Everything on this page is
- * computed from the creator's own records (deals, posts, saved
- * brands, profile, directory) by the pure intelligence layer in
- * lib/galaxy/core — no invented numbers, honest empty states. */
+/* HOME (route /today) — Know your business. Creator
+ * Intelligence: everything on this page is computed from the
+ * creator's own records (deals, posts, saved brands, profile,
+ * directory) by the pure intelligence layer in lib/galaxy/core —
+ * no invented numbers, honest empty states. */
 export default async function TodayPage() {
   await requireSubscription("/today");
   const supabase = await createClient();

@@ -126,7 +126,7 @@ export default function SettingsPrefs({
         <p style={{ margin: "0 0 10px", color: "#ddd0ff", fontSize: 14 }}>
           3–24 characters: lowercase letters, numbers and underscores. Leave
           blank to clear it. This name is used inside the app only.
-          Your public Passport address is set on your Passport page.
+          Your public Passport address is set in the Passport section of your Me page.
         </p>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center" }}>
           <input

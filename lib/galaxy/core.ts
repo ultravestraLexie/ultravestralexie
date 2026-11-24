@@ -2869,7 +2869,7 @@ function loopCollect(input: CreatorLoopInput, now: Date): LoopStep {
           ? `${fmtMoney(ledger.collected.cents)} collected so far.`
           : "Finished deals will show up here until they're paid.",
       ctaLabel: "View earnings",
-      ctaHref: "/money",
+      ctaHref: "/me",
       focus: null,
       items,
     };
@@ -2893,7 +2893,7 @@ function loopCollect(input: CreatorLoopInput, now: Date): LoopStep {
       : "Every invoice is sent and on schedule.",
     ctaLabel:
       first.late > 0 ? `Send a reminder to ${first.d.brandName}` : "Track payments",
-    ctaHref: first.late > 0 ? "/deals" : "/money",
+    ctaHref: first.late > 0 ? "/deals" : "/me",
     focus: first.item,
     items,
   };
@@ -2917,7 +2917,7 @@ function loopGrow(input: CreatorLoopInput): LoopStep {
       meta: c.done ? "Done" : "Not done yet",
       tone: (c.done ? "clear" : "attention") as LoopSeverity,
       actionLabel: c.done ? null : "Finish",
-      href: "/passport",
+      href: "/me#passport",
       done: c.done,
     }))
     .sort((a, b) => Number(a.done) - Number(b.done));
@@ -2931,7 +2931,7 @@ function loopGrow(input: CreatorLoopInput): LoopStep {
       headline: "Your Passport is live",
       detail: "Brands can find and verify you. Keep your track record current.",
       ctaLabel: "View Passport",
-      ctaHref: "/passport",
+      ctaHref: "/me#passport",
       focus: null,
       items,
     };
@@ -2947,7 +2947,7 @@ function loopGrow(input: CreatorLoopInput): LoopStep {
       headline: "Passport is ready to go public",
       detail: "Everything else is complete. Publish it so brands can find you.",
       ctaLabel: "Publish Passport",
-      ctaHref: "/passport",
+      ctaHref: "/me#passport",
       focus: null,
       items,
     };
@@ -2960,7 +2960,7 @@ function loopGrow(input: CreatorLoopInput): LoopStep {
     headline: `Passport ${doneCount}/${checks.length} done · ${plural(left.length, "step")} to go public`,
     detail: `Still needed: ${joinAnd(left.map((c) => c.phrase))}.`,
     ctaLabel: `Next: ${next.label}`,
-    ctaHref: "/passport",
+    ctaHref: "/me#passport",
     focus: items.find((i) => i.id === next.id) ?? null,
     items,
   };

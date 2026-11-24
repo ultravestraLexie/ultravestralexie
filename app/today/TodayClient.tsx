@@ -885,6 +885,17 @@ export default function TodayClient(p: Props) {
     <div>
       <section aria-labelledby="hello" className="gx-hero">
         <div className="gx-hero-text">
+          <p
+            style={{
+              margin: "0 0 10px",
+              fontSize: 11.5,
+              letterSpacing: "0.14em",
+              fontWeight: 600,
+              color: "var(--gx-accent)",
+            }}
+          >
+            HOME — KNOW YOUR BUSINESS
+          </p>
           <h1 id="hello" className="gx-hero-h1">
             {p.firstName ? `${p.greeting}, ${p.firstName}.` : "Welcome to Ultra Vestra."}
           </h1>

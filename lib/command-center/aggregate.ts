@@ -153,7 +153,7 @@ export function buildCards(input: CommandCenterInput): CommandCenterCard[] {
     {
       key: "passport",
       title: "Reputation Passport",
-      href: "/passport",
+      href: "/me#passport",
       primary: `${input.passportCount} entries`,
       secondary: "your proof library",
     },

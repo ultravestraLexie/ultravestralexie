@@ -161,7 +161,7 @@ export default function BrandsClient({
         <div>
           <h1 className="gx-h1">Brands</h1>
           <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
-            Programs you can apply to now. Every commission is labelled capped, uncapped or
+            Find opportunities. Programs you can apply to now. Every commission is labelled capped, uncapped or
             unknown, so you know what you are signing up for. “Accepting” means a live
             application route was found for the brand — these are application routes, not
             campaigns posted by brands, and no earnings are promised.

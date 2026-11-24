@@ -1,42 +1,10 @@
-import { requireSubscription } from "@/lib/gate";
-import { createClient } from "@/lib/supabase/server";
-import {
-  fetchDeals,
-  fetchExpenses,
-  fetchIncome,
-  fetchProfile,
-} from "@/lib/galaxy/server";
-import { todayKey } from "@/lib/galaxy/core";
-import MoneyClient from "./MoneyClient";
+import { redirect } from "next/navigation";
 
-export const dynamic = "force-dynamic";
-
-/* MONEY — Protect money. Owed / overdue / received all read from
- * the creator's deals (nothing is entered twice); payouts are
- * revenue_entries recorded as paid and not linked to a deal;
- * expenses are creator_expenses. */
-export default async function MoneyPage() {
-  await requireSubscription("/money");
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user) return null;
-
-  const [profile, deals, income, expenses] = await Promise.all([
-    fetchProfile(supabase, user.id),
-    fetchDeals(supabase, user.id),
-    fetchIncome(supabase, user.id),
-    fetchExpenses(supabase, user.id),
-  ]);
-
-  return (
-    <MoneyClient
-      profile={profile}
-      deals={deals}
-      income={income}
-      expenses={expenses}
-      today={todayKey()}
-    />
-  );
+/* Five-section navigation (owner order 2026-11-23): Money moved
+ * into Me — it is the #money half of /me. next.config.mjs
+ * redirects here first; this stub keeps the route honest if the
+ * config ever changes. MoneyClient still lives in this folder
+ * and is rendered, unchanged, by app/me/page.tsx. */
+export default function MovedPage() {
+  redirect("/me");
 }

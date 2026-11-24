@@ -502,7 +502,7 @@ const fullProtection = (id: string): DealProtection => ({
     step(steps, "collect").items.map((i) => [i.meta, i.actionLabel, i.tone]),
     [["$300 · due in 5 days", "View", "attention"]]
   );
-  check("loop: collect CTA tracks payments when nothing is overdue", [step(steps, "collect").ctaLabel, step(steps, "collect").ctaHref], ["Track payments", "/money"]);
+  check("loop: collect CTA tracks payments when nothing is overdue", [step(steps, "collect").ctaLabel, step(steps, "collect").ctaHref], ["Track payments", "/me"]);
 
   const overdue = creatorLoop(
     loopInput({ deals: [deal({ id: "v2", brandName: "Late Co", stage: "invoiced", amountCents: 30000, invoiceDue: "2026-11-17" })] })
@@ -729,7 +729,7 @@ const fullProtection = (id: string): DealProtection => ({
   const prefs = readFileSync("components/SettingsPrefs.tsx", "utf8");
   check(
     "settings: username copy points at the Passport editor",
-    prefs.includes("Your public Passport address is set on your Passport page"),
+    prefs.includes("Your public Passport address is set in the Passport section of your Me page"),
     true
   );
   check(

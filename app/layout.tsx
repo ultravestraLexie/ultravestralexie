@@ -26,8 +26,8 @@ export const viewport: Viewport = {
 };
 
 /* Galaxy shell (2026-11-23 redesign): a 240px frosted rail on
- * desktop (logo, the six destinations, plan card, profile at the
- * foot), a slim top bar + six-tab bottom bar on mobile (≤860px).
+ * desktop (logo, the five destinations, plan card, profile at the
+ * foot), a slim top bar + five-tab bottom bar on mobile (≤860px).
  * Signed-out visitors keep a public header. The responsive switch
  * is plain CSS so every page inherits the frame. */
 const SHELL_CSS = `

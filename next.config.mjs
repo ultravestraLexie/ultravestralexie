@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  /* Galaxy redesign (2026-11-23): the six destinations replace
-   * the old surface map. Every retired route redirects to its
-   * Galaxy home — no functionality is deleted; the engines and
-   * API routes behind them are untouched. Temporary (307) while
-   * the new map settles. */
+  /* Galaxy redesign (2026-11-23): the destinations replace the
+   * old surface map. Every retired route redirects to its Galaxy
+   * home — no functionality is deleted; the engines and API
+   * routes behind them are untouched. Temporary (307) while the
+   * new map settles. Five-section navigation (owner order
+   * 2026-11-23): /money and /passport both moved into /me. */
   async redirects() {
     const map = [
       ["/dashboard", "/today"],
@@ -21,7 +22,9 @@ const nextConfig = {
       ["/campaign-match", "/brands"],
       ["/alerts", "/today"],
       ["/proposals", "/deals"],
-      ["/revenue", "/money"],
+      ["/revenue", "/me"],
+      ["/money", "/me"],
+      ["/passport", "/me"],
       ["/creator-lab", "/studio"],
       ["/growth-map", "/today"],
       ["/pillars", "/today"],

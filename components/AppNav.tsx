@@ -3,10 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-/* Galaxy navigation — exactly six destinations (owner's
- * prototype, 2026-11-23): Today, Brands, Deals, Studio, Money,
- * Passport. The rail renders them vertically on desktop; the same
- * six become the bottom tab bar on mobile. Active state = the
+/* Galaxy navigation — exactly five destinations (owner's five,
+ * confirmed 2026-11-23): Home, Brands, Deals, Studio, Me. Home
+ * is the Today page (route stays /today); Me is the combined
+ * Money + Passport page (/me) and carries the Passport icon.
+ * The rail renders them vertically on desktop; the same five
+ * become the bottom tab bar on mobile. Active state = the
  * longest matching route prefix. */
 
 const ic = (children: React.ReactNode) => (
@@ -48,13 +50,6 @@ const ICONS = {
       <path d="M16 10.2l5-3v9.6l-5-3z" />
     </>
   ),
-  money: ic(
-    <>
-      <rect x="3" y="6" width="18" height="13" rx="2.6" />
-      <path d="M3 10.2h18" />
-      <circle cx="16.4" cy="14.6" r="1.1" fill="currentColor" stroke="none" />
-    </>
-  ),
   passport: ic(
     <>
       <rect x="5" y="3" width="14" height="18" rx="2.6" />
@@ -65,12 +60,11 @@ const ICONS = {
 };
 
 export const SIDE_NAV: { href: string; label: string; icon: React.ReactNode }[] = [
-  { href: "/today", label: "Today", icon: ICONS.today },
+  { href: "/today", label: "Home", icon: ICONS.today },
   { href: "/brands", label: "Brands", icon: ICONS.brands },
   { href: "/deals", label: "Deals", icon: ICONS.deals },
   { href: "/studio", label: "Studio", icon: ICONS.studio },
-  { href: "/money", label: "Money", icon: ICONS.money },
-  { href: "/passport", label: "Passport", icon: ICONS.passport },
+  { href: "/me", label: "Me", icon: ICONS.passport },
 ];
 
 function activeHref(pathname: string, hrefs: string[]): string | null {

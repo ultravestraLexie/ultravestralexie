@@ -17,10 +17,16 @@ import { useEffect } from "react";
  * Passport world; anything else falls back to Today. Renders
  * nothing. */
 
-const SECTIONS = ["today", "brands", "deals", "studio", "money", "passport"];
+const SECTIONS = ["today", "brands", "deals", "studio", "passport"];
 
 export function sectionForPath(pathname: string): string {
   if (pathname.startsWith("/p/")) return "passport";
+  /* Five-section navigation (owner order 2026-11-23): Me (/me)
+   * is the combined Money + Passport page and lives in the
+   * Passport world — its azure accent and photo. The old Money
+   * gold world leaves the rotation (its layer and assets stay
+   * in place, simply never selected). */
+  if (pathname === "/me" || pathname.startsWith("/me/")) return "passport";
   for (const s of SECTIONS) {
     if (pathname === `/${s}` || pathname.startsWith(`/${s}/`)) return s;
   }

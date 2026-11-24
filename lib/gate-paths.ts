@@ -14,6 +14,7 @@ export const SUBSCRIBED_STATUSES = ["active", "trialing"] as const;
  *  /api/stripe/*) stays public. */
 export const GATED_PREFIXES = [
   "/today",
+  "/me",
   "/deals",
   "/money",
   "/discover",

@@ -315,8 +315,8 @@ check(
 );
 
 const moneyClient = readFileSync("app/money/MoneyClient.tsx", "utf8");
-const moneyPage = readFileSync("app/money/page.tsx", "utf8");
-check("one-today: money page passes the server key", moneyPage.includes("today={todayKey()}"), true);
+const moneyPage = readFileSync("app/me/page.tsx", "utf8");
+check("one-today: me page passes the server key to the Money half", moneyPage.includes("today={todayKey()}"), true);
 check(
   "one-today: money anchors its clock and its month",
   moneyClient.includes("const now = parseKey(today)") &&

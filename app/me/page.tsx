@@ -1,0 +1,146 @@
+import { requireSubscription } from "@/lib/gate";
+import { createClient } from "@/lib/supabase/server";
+import { passportTrackRecord, todayKey } from "@/lib/galaxy/core";
+import {
+  fetchAudienceSnapshots,
+  fetchDeals,
+  fetchExpenses,
+  fetchIncome,
+  fetchProfile,
+} from "@/lib/galaxy/server";
+import MoneyClient from "../money/MoneyClient";
+import PassportClient from "../passport/PassportClient";
+
+export const dynamic = "force-dynamic";
+
+/* ME — Understand your growth (owner's five, 2026-11-23). One
+ * page, two halves: Money first (income, ledger, waiting-on —
+ * read from the creator's deals, nothing entered twice), then
+ * Passport (track record, public address, audience snapshots).
+ * Both halves are the existing Money and Passport clients,
+ * composed unchanged with the same props their own pages passed;
+ * this page only performs the union of the two server loads
+ * (profile + deals are fetched once and shared). The old /money
+ * and /passport routes redirect here; the public share page
+ * /p/[slug] is untouched. */
+export default async function MePage() {
+  await requireSubscription("/me");
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return null;
+
+  const [profile, deals, income, expenses, snapshots, entriesRes, shareRes, catRows] =
+    await Promise.all([
+      fetchProfile(supabase, user.id),
+      fetchDeals(supabase, user.id),
+      fetchIncome(supabase, user.id),
+      fetchExpenses(supabase, user.id),
+      fetchAudienceSnapshots(supabase, user.id),
+      supabase
+        .from("passport_entries")
+        .select("id, section, payload, verification_status, created_at")
+        .eq("user_id", user.id)
+        .order("created_at", { ascending: false }),
+      supabase
+        .from("profiles")
+        .select("passport_slug, passport_public, passport_share_history, created_at")
+        .eq("id", user.id)
+        .maybeSingle(),
+      supabase.from("categories").select("name").order("name"),
+    ]);
+
+  /* Passport half — the same shaping app/passport/page.tsx did:
+   * verified collaborations are the creator's paid deals;
+   * anything added by hand stays labelled self-reported. */
+  type Entry = {
+    id: string;
+    section: string;
+    payload: Record<string, string>;
+    verification_status: string;
+    created_at: string;
+  };
+  const entries = (entriesRes.data ?? []) as Entry[];
+  const collabs = entries
+    .filter((e) => e.section === "collaborations")
+    .map((e) => ({
+      id: e.id,
+      brand: e.payload.brandName ?? "",
+      note: [e.payload.campaignDescription, e.payload.deliverables]
+        .filter(Boolean)
+        .join(" — "),
+      range: e.payload.dateRange ?? "",
+    }));
+  const testimonials = entries
+    .filter((e) => e.section === "testimonials")
+    .map((e) => ({
+      id: e.id,
+      quote: e.payload.quote ?? "",
+      author: [e.payload.authorName, e.payload.authorRole].filter(Boolean).join(", "),
+    }));
+  const paidDeals = deals
+    .filter((d) => d.stage === "paid")
+    .sort((a, b) => (b.paidOn ?? "").localeCompare(a.paidOn ?? ""))
+    .map((d) => ({
+      id: d.id,
+      brandName: d.brandName,
+      deliverables: d.deliverables,
+      paidOn: d.paidOn,
+    }));
+  const share = shareRes.data as {
+    passport_slug: string | null;
+    passport_public: boolean;
+    passport_share_history: boolean;
+    created_at: string | null;
+  } | null;
+  const categories = ((catRows.data ?? []) as unknown as { name: string }[]).map((c) => c.name);
+  const trackRecord = passportTrackRecord(deals);
+  const memberSince = share?.created_at
+    ? new Date(share.created_at).toLocaleDateString("en-US", {
+        month: "long",
+        year: "numeric",
+      })
+    : null;
+
+  return (
+    <div>
+      <header style={{ marginBottom: 26 }}>
+        <h1 className="gx-h1">Me</h1>
+        <p style={{ margin: "10px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
+          Understand your growth — your income, audience and track record in one place.
+        </p>
+      </header>
+
+      <section id="money" aria-label="Money" style={{ scrollMarginTop: 24 }}>
+        <MoneyClient
+          profile={profile}
+          deals={deals}
+          income={income}
+          expenses={expenses}
+          today={todayKey()}
+        />
+      </section>
+
+      <section
+        id="passport"
+        aria-label="Passport"
+        style={{ scrollMarginTop: 24, marginTop: 56 }}
+      >
+        <PassportClient
+          profile={profile}
+          paidDeals={paidDeals}
+          snapshots={snapshots}
+          collabs={collabs}
+          testimonials={testimonials}
+          categories={categories}
+          initialSlug={share?.passport_slug ?? null}
+          initialPublic={share?.passport_public ?? false}
+          initialShareHistory={share?.passport_share_history ?? false}
+          memberSince={memberSince}
+          trackRecord={trackRecord}
+        />
+      </section>
+    </div>
+  );
+}
