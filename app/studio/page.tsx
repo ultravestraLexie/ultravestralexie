@@ -2,6 +2,7 @@ import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
 import { fetchProfile } from "@/lib/galaxy/server";
 import StudioClient from "./StudioClient";
+import DnaLink from "./DnaLink";
 
 export const dynamic = "force-dynamic";
 
@@ -41,5 +42,10 @@ export default async function StudioPage() {
     date: String(r.created_at).slice(0, 10),
   }));
 
-  return <StudioClient defaultAudience={profile.audience} recent={recent} />;
+  return (
+    <>
+      <StudioClient defaultAudience={profile.audience} recent={recent} />
+      <DnaLink />
+    </>
+  );
 }
