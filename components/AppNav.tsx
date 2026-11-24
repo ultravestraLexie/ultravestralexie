@@ -106,10 +106,10 @@ export function SideNav() {
               textDecoration: "none",
               color: isActive ? "var(--gx-accent)" : "var(--ink-2)",
               background: isActive
-                ? "linear-gradient(90deg, var(--gx-accent-soft), color-mix(in srgb, var(--gx-accent) 7%, transparent))"
+                ? "linear-gradient(90deg, color-mix(in srgb, var(--gx-accent) 26%, transparent), color-mix(in srgb, var(--gx-accent) 10%, transparent))"
                 : "transparent",
               boxShadow: isActive
-                ? "inset 0 0 0 1px color-mix(in srgb, var(--gx-accent) 35%, transparent), 0 0 18px -8px var(--gx-accent)"
+                ? "inset 0 0 0 1px color-mix(in srgb, var(--gx-accent) 50%, transparent), 0 0 22px -6px var(--gx-glow), inset 0 0 18px -8px var(--gx-glow)"
                 : "none",
             }}
           >

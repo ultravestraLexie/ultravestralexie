@@ -25,7 +25,7 @@ export default function GalaxyBackdrop() {
     let h = 0;
 
     function seed() {
-      const dpr = Math.min(2, window.devicePixelRatio || 1);
+      const dpr = Math.min(1.5, window.devicePixelRatio || 1);
       w = window.innerWidth;
       h = window.innerHeight;
       canvas!.width = Math.round(w * dpr);
@@ -33,7 +33,8 @@ export default function GalaxyBackdrop() {
       canvas!.style.width = w + "px";
       canvas!.style.height = h + "px";
       ctx!.setTransform(dpr, 0, 0, dpr, 0, 0);
-      const count = Math.min(170, Math.round((w * h) / 11000));
+      const full = Math.min(170, Math.round((w * h) / 11000));
+      const count = w <= 860 ? Math.round(full / 2) : full;
       stars = Array.from({ length: count }, () => ({
         x: Math.random() * w,
         y: Math.random() * h,
@@ -54,7 +55,7 @@ export default function GalaxyBackdrop() {
         ctx!.fill();
       }
       ctx!.globalAlpha = 1;
-      if (!reduced) raf = requestAnimationFrame(draw);
+      if (!reduced && !document.hidden) raf = requestAnimationFrame(draw);
     }
 
     seed();
@@ -63,63 +64,38 @@ export default function GalaxyBackdrop() {
       seed();
       if (reduced) draw(0);
     };
+    /* No twinkle work while the tab is hidden. */
+    const onVisibility = () => {
+      cancelAnimationFrame(raf);
+      if (!document.hidden && !reduced) raf = requestAnimationFrame(draw);
+    };
     window.addEventListener("resize", onResize);
+    document.addEventListener("visibilitychange", onVisibility);
     return () => {
       cancelAnimationFrame(raf);
       window.removeEventListener("resize", onResize);
+      document.removeEventListener("visibilitychange", onVisibility);
     };
   }, []);
 
   return (
     <>
-      {/* The six WORLDS — one scenery layer per section, all in
+      {/* The six WORLDS — one photo layer per section, all in
        * the DOM at once. SectionSync stamps data-section on
        * <body>; globals.css fades the matching layer in over
        * 600ms so a tab click melts one world into the next.
-       * CSS gradients + inline SVG only; the container is
-       * fixed + overflow hidden, so scenery can never widen
-       * the page. Nebula washes live in globals.css (.gx-world-*). */}
+       * Each layer's background (a generated photo in
+       * public/worlds/<section>.jpg under a dark readability
+       * gradient) lives in globals.css (.gx-world-*); the
+       * container is fixed + overflow hidden, so the backdrops
+       * can never widen the page. */}
       <div className="gx-worlds" aria-hidden="true">
-        <div className="gx-world gx-world-today">
-          <div className="gx-sc-horizon" />
-        </div>
-        <div className="gx-world gx-world-brands">
-          <div className="gx-sc-planet gx-sc-planet-violet" />
-        </div>
-        <div className="gx-world gx-world-deals">
-          <div className="gx-sc-ribbon gx-sc-ribbon-1" />
-          <div className="gx-sc-ribbon gx-sc-ribbon-2" />
-          <svg className="gx-sc-spire" viewBox="0 0 200 300" preserveAspectRatio="xMaxYMax meet" focusable="false">
-            <polygon points="118,18 132,120 148,300 92,300 106,120" fill="#07271e" />
-            <polygon points="122,18 132,120 140,300 118,300 112,110" fill="#0a3527" />
-            <polygon points="160,84 170,170 182,300 140,300 150,168" fill="#06231b" />
-            <polygon points="66,110 76,190 88,300 40,300 54,188" fill="#06231b" />
-            <polygon points="118,18 124,66 112,66" fill="#2eea8c" opacity="0.35" />
-            <polygon points="160,84 165,118 156,118" fill="#2eea8c" opacity="0.25" />
-          </svg>
-        </div>
-        <div className="gx-world gx-world-studio">
-          <svg className="gx-sc-ringed" viewBox="0 0 200 200" focusable="false">
-            <defs>
-              <radialGradient id="gxRingedPlanet" cx="0.36" cy="0.34" r="0.85">
-                <stop offset="0" stopColor="#ffd7f6" />
-                <stop offset="0.38" stopColor="#ff8ae8" />
-                <stop offset="0.72" stopColor="#e843c8" />
-                <stop offset="1" stopColor="#8b2a86" stopOpacity="0.25" />
-              </radialGradient>
-            </defs>
-            <ellipse cx="100" cy="100" rx="86" ry="23" transform="rotate(-18 100 100)" fill="none" stroke="rgba(255, 150, 240, 0.4)" strokeWidth="6" />
-            <circle cx="100" cy="100" r="47" fill="url(#gxRingedPlanet)" />
-            <ellipse cx="100" cy="100" rx="86" ry="23" transform="rotate(-18 100 100)" fill="none" stroke="rgba(255, 190, 248, 0.22)" strokeWidth="2.5" />
-          </svg>
-        </div>
-        <div className="gx-world gx-world-money">
-          <div className="gx-sc-swirl" />
-          <div className="gx-sc-core" />
-        </div>
-        <div className="gx-world gx-world-passport">
-          <div className="gx-sc-planet gx-sc-planet-azure" />
-        </div>
+        <div className="gx-world gx-world-today" />
+        <div className="gx-world gx-world-brands" />
+        <div className="gx-world gx-world-deals" />
+        <div className="gx-world gx-world-studio" />
+        <div className="gx-world gx-world-money" />
+        <div className="gx-world gx-world-passport" />
       </div>
       <canvas
         ref={ref}
