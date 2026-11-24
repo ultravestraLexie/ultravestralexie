@@ -7,6 +7,10 @@ import SettingsPrefs from "@/components/SettingsPrefs";
 import SettingsSecurity from "@/components/SettingsSecurity";
 import SettingsNotifications from "@/components/SettingsNotifications";
 import SettingsBilling from "@/components/SettingsBilling";
+import {
+  SettingsLoginGroup,
+  SettingsSupportTop,
+} from "./SettingsSupport";
 import { planState } from "@/lib/billing";
 import { fetchNotificationState } from "@/lib/galaxy/server";
 
@@ -134,6 +138,12 @@ export default async function SettingsPage() {
           Your account, your plan, and the preferences your tools actually use.
         </p>
       </section>
+
+      {/* Support & About (Help Center package, 2026-11-24) — the
+          prototype's Settings root, integrated: hero search + Ask
+          Vestra Help, the Support & About and Safety groups. Every
+          panel below predates it and is unchanged. */}
+      <SettingsSupportTop accountEmail={user.email ?? ""} />
 
       <section style={panel}>
         <h2 style={{ fontSize: 20, margin: "0 0 14px" }}>Account</h2>
@@ -323,6 +333,10 @@ export default async function SettingsPage() {
           creators stay or leave.
         </p>
       </section>
+
+      {/* Login group + version footer (Help Center package) —
+          Switch account / Log out wired to the real sign-out. */}
+      <SettingsLoginGroup />
     </div>
   );
 }
