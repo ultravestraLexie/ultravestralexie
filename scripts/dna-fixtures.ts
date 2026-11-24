@@ -190,6 +190,42 @@ check("placement: challenge headline", dnaClient.includes("CONTENT DNA CHALLENGE
 check("placement: share card lines", dnaClient.includes("YOUR DNA?") && dnaClient.includes("CONTENT DNA.") && dnaClient.includes("30-DAY CHALLENGE."), true);
 check("placement: share is copy-only (no posting call)", dnaClient.includes("UltraVestra never posts for you"), true);
 check("placement: delete-all confirm copy", dnaClient.includes("Tap again to delete everything. This can't be undone."), true);
+
+/* ---------- change data source (live-proof fix, 2026-11-23) ----------
+ * After choosing sample data there was no way back to the source
+ * chooser except "Delete all Content DNA data". The Data tab now
+ * carries a switcher that replaces the working post set only. */
+check("switch: Data tab offers a change-source control", dnaClient.includes("Change data source"), true);
+check(
+  "switch: the switcher lists Use my Ultra Vestra posts alongside Discover's",
+  dnaClient.split("<strong>Use my Ultra Vestra posts</strong>").length - 1,
+  2
+);
+check(
+  "switch: the posts source keeps the chooser's live enable rule in both places",
+  (dnaClient.match(/disabled=\{!appSource\.count\}/g) || []).length,
+  2
+);
+check(
+  "switch: the disabled posts label survives in both places",
+  (dnaClient.match(/No posted videos with results yet/g) || []).length >= 2,
+  true
+);
+check(
+  "switch: switching replaces the working post set and the source, nothing else",
+  dnaClient.includes("({ ...s, posts, source })") && dnaClient.includes('switchSource("sample", samplePosts()'),
+  true
+);
+check(
+  "switch: the switcher can be closed without changing anything",
+  dnaClient.includes("Keep my current data"),
+  true
+);
+check(
+  "switch: delete-all stays the separate destructive reset",
+  dnaClient.includes("Delete all Content DNA data") && dnaClient.includes("EMPTY_DNA_STATE"),
+  true
+);
 check("nav: still exactly the owner's five", ["Home", "Brands", "Deals", "Studio", "Me"].every((t) => appNav.includes(`"${t}"`)) && !appNav.includes('"Money"') && !appNav.includes('"Passport"'), true);
 
 if (failures) {

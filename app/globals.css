@@ -396,6 +396,7 @@ dialog.gx-sheet::backdrop {
 .gx-prot-check { display: flex; align-items: center; gap: 10px; padding: 7px 2px; cursor: pointer; font-size: 14px; color: var(--ink-2); }
 .gx-prot-check input { width: 17px; height: 17px; flex: none; accent-color: var(--gx-accent, #4c74ff); }
 .gx-prot-check.on { color: var(--ink); }
+.gx-prot-hint { display: block; font-size: 12.5px; line-height: 1.4; color: var(--ink-3); margin-top: 1px; }
 .gx-prot-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0 12px; }
 .gx-deliv { border-top: 1px solid var(--line); padding-top: 14px; margin-bottom: 14px; }
 .gx-deliv-row { display: flex; align-items: center; gap: 8px; padding: 2px; }

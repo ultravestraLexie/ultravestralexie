@@ -99,14 +99,17 @@ type ProtCheckKey =
   | "killFee"
   | "revisionCap";
 
-const PROT_CHECKS: { key: ProtCheckKey; label: string }[] = [
+const PROT_CHECKS: { key: ProtCheckKey; label: string; hint?: string }[] = [
   { key: "contractReviewed", label: "Contract reviewed" },
   { key: "deliverablesAgreed", label: "Deliverables confirmed in writing" },
   { key: "paymentTermsAgreed", label: "Payment terms confirmed" },
   { key: "usageRightsSet", label: "Usage rights recorded" },
   { key: "exclusivityChecked", label: "Exclusivity checked" },
-  { key: "killFee", label: "Kill fee" },
-  { key: "revisionCap", label: "Revision cap" },
+  /* The demo's why-lines for its two newest checks, verbatim —
+   * the same lines the Creator Loop's Protect step carries
+   * (LOOP_PROTECTION in lib/galaxy/core.ts). */
+  { key: "killFee", label: "Kill fee", hint: "Get paid if the brand cancels after you've started." },
+  { key: "revisionCap", label: "Revision cap", hint: "Limit revision rounds so the scope can't creep." },
 ];
 
 /* The deliverables checklist (demo copy, 2026-11-23) — the
@@ -629,7 +632,10 @@ export function DealSheet({
                         disabled={protBusy}
                         onChange={() => toggleProt(c.key)}
                       />
-                      {c.label}
+                      <span>
+                        {c.label}
+                        {c.hint ? <span className="gx-prot-hint">{c.hint}</span> : null}
+                      </span>
                     </label>
                   ))}
                 </div>

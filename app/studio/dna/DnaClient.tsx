@@ -1504,6 +1504,50 @@ function DataTab({
   const [confirmDelete, setConfirmDelete] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
 
+  /* --- change data source (live-proof fix, 2026-11-23): until
+   * now the only route back to the source chooser was deleting
+   * all DNA data. The switcher returns the user to the same
+   * three sources Discover offers, WITHOUT touching the rest of
+   * their DNA state. --- */
+  const [switching, setSwitching] = useState(false);
+  const switchFileRef = useRef<HTMLInputElement>(null);
+
+  /* "Use my Ultra Vestra posts" under the same live rule the
+   * Discover chooser uses — enabled only when ≥1 posted pipeline
+   * video has results — re-read each time the switcher opens, so
+   * a video posted since the page loaded is counted. */
+  const [appSource, setAppSource] = useState<{ count: number; posts: DnaPost[] }>({ count: 0, posts: [] });
+  useEffect(() => {
+    if (!switching) return;
+    const s = dnaSourceFromPipeline(loadPipelineState().items);
+    setAppSource({ count: s.count, posts: s.posts });
+  }, [switching]);
+
+  /* Switching source REPLACES the working post set — the demo's
+   * Data-source behavior — and nothing else: experiments, the
+   * challenge, snapshots and the goal all stay as they are.
+   * "Delete all Content DNA data" (Privacy, below) remains the
+   * separate, destructive full reset. */
+  const switchSource = (source: string, posts: DnaPost[], label: string) => {
+    update((s) => ({ ...s, posts, source }));
+    setSwitching(false);
+    setMsg(`Data source changed: ${label}. Your experiments, challenge and history are unchanged.`);
+  };
+
+  const onSwitchFile = (f: File | null) => {
+    if (!f) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      const r = parsePostsCsv(String(reader.result || ""));
+      if (r.error) {
+        setMsg(r.error);
+        return;
+      }
+      switchSource("import", r.posts, `${plural(r.posts.length, "post")} from ${f.name}${r.skipped ? ` (${r.skipped} rows skipped)` : ""}`);
+    };
+    reader.readAsText(f);
+  };
+
   const addPosts = (posts: DnaPost[], source: string) =>
     update((s) => {
       const kept = s.posts.filter((p) => p.source !== "sample" && !posts.some((n) => n.id === p.id));
@@ -1561,7 +1605,39 @@ function DataTab({
           <a className="dna-ghost" href={`data:text/csv;charset=utf-8,${encodeURIComponent(CSV_TEMPLATE)}`} download="content-dna-template.csv">
             CSV template
           </a>
+          <button type="button" className="dna-ghost dna-sm" onClick={() => setSwitching(!switching)}>
+            Change data source
+          </button>
         </div>
+        {switching && (
+          <div className="dna-sources">
+            <button
+              type="button"
+              className={`dna-source${state.source === "app" ? " is-on" : ""}`}
+              disabled={!appSource.count}
+              onClick={() => switchSource("app", appSource.posts, `${plural(appSource.count, "post")} from Ultra Vestra`)}
+            >
+              <strong>Use my Ultra Vestra posts</strong>
+              <span>{appSource.count ? `${plural(appSource.count, "post")} with results` : "No posted videos with results yet"}</span>
+            </button>
+            <button type="button" className={`dna-source${state.source === "import" ? " is-on" : ""}`} onClick={() => switchFileRef.current?.click()}>
+              <strong>Import my analytics</strong>
+              <span>CSV export from TikTok, Instagram or YouTube — replaces your current posts</span>
+            </button>
+            <input ref={switchFileRef} type="file" accept=".csv,text/csv,.tsv,.txt" hidden onChange={(e) => onSwitchFile(e.target.files?.[0] || null)} />
+            <button
+              type="button"
+              className={`dna-source${state.source === "sample" ? " is-on" : ""}`}
+              onClick={() => switchSource("sample", samplePosts(), "31 example posts from a sample creator")}
+            >
+              <strong>Explore with sample data</strong>
+              <span>See how it works before using your own posts</span>
+            </button>
+            <button type="button" className="dna-ghost dna-sm" onClick={() => setSwitching(false)}>
+              Keep my current data
+            </button>
+          </div>
+        )}
         <div className="dna-connect">
           {["TikTok", "Instagram", "YouTube"].map((p) => (
             <button

@@ -292,8 +292,22 @@ export const median = (t: number[]): number => {
 };
 export const fmtCount = (t: number): string =>
   t >= 1e6 ? (t / 1e6).toFixed(1).replace(/\.0$/, "") + "M" : t >= 1e3 ? (t / 1e3).toFixed(1).replace(/\.0$/, "") + "K" : String(Math.round(t));
+/** A bare calendar date (yyyy-mm-dd — the pipeline's postedDate
+ * shape) names a day, not an instant. `new Date("2026-11-23")`
+ * parses as UTC midnight, which formats as Nov 22 anywhere west
+ * of UTC: the pipeline→DNA off-by-one found in live proof. Parse
+ * a date-only string as a LOCAL date so the DNA lists show the
+ * same calendar day the pipeline shows, in the user's timezone.
+ * Full timestamps and epoch numbers keep the plain parse. */
+export const parseDnaDate = (t: string | number): Date => {
+  if (typeof t === "string") {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(t);
+    if (m) return new Date(+m[1], +m[2] - 1, +m[3]);
+  }
+  return new Date(t);
+};
 export const fmtDateShort = (t: string | number): string =>
-  new Date(t).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  parseDnaDate(t).toLocaleDateString("en-US", { month: "short", day: "numeric" });
 export const fmtDateTime = (t: string | number): string =>
   new Date(t).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
 

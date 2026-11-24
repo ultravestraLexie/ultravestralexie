@@ -263,8 +263,35 @@ check(
 const sheet = read("components/galaxy/DealSheet.tsx");
 check(
   "extras: the deal sheet's checklist shows Kill fee and Revision cap",
-  sheet.includes('{ key: "killFee", label: "Kill fee" }') &&
-    sheet.includes('{ key: "revisionCap", label: "Revision cap" }'),
+  sheet.includes('{ key: "killFee", label: "Kill fee"') &&
+    sheet.includes('{ key: "revisionCap", label: "Revision cap"'),
+  true
+);
+check(
+  "extras: the sheet carries the demo's kill-fee why-line on the Kill fee check, verbatim",
+  sheet.includes("Get paid if the brand cancels after you've started."),
+  true
+);
+check(
+  "extras: the sheet carries the demo's revision-cap why-line on the Revision cap check, verbatim",
+  sheet.includes("Limit revision rounds so the scope can't creep."),
+  true
+);
+check(
+  "extras: the why-lines hang off the killFee / revisionCap entries themselves",
+  sheet.includes('{ key: "killFee", label: "Kill fee", hint:') &&
+    sheet.includes('{ key: "revisionCap", label: "Revision cap", hint:'),
+  true
+);
+check(
+  "extras: the sheet renders a check's why-line under its label",
+  sheet.includes('className="gx-prot-hint"') && sheet.includes("{c.hint ?"),
+  true
+);
+const globalsCss = read("app/globals.css");
+check(
+  "extras: the why-line is styled as secondary text (gx-prot-hint)",
+  globalsCss.includes(".gx-prot-hint"),
   true
 );
 

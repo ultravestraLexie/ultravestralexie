@@ -249,6 +249,7 @@ export default function PipelineSection({ deals }: { deals: DealOption[] }) {
                         </div>
                         {editingId === item.id && (
                           <EditForm
+                            key={item.id}
                             item={item}
                             deals={deals}
                             onCancel={() => setEditingId(null)}
@@ -260,6 +261,7 @@ export default function PipelineSection({ deals }: { deals: DealOption[] }) {
                         )}
                         {resultsId === item.id && item.status === "posted" && (
                           <ResultsForm
+                            key={item.id}
                             item={item}
                             onCancel={() => setResultsId(null)}
                             onSave={(results, postedDate) => {
@@ -399,6 +401,12 @@ function EditForm({
 
 /* ---------- results (posted items) ---------- */
 
+/* Mounted with key={item.id} and initialized ONLY from the
+ * item's own saved results: an item without results opens with
+ * every field empty; an item with results opens with its own
+ * numbers. No defaults, no sample values, no other item's state
+ * can reach these fields. */
+
 function ResultsForm({
   item,
   onSave,
@@ -459,7 +467,7 @@ function ResultsForm({
       <div className="gx-row2">
         <label className="gx-field">
           <span>Views (required)</span>
-          <input className="gx-input" inputMode="numeric" value={views} onChange={(e) => setViews(e.target.value)} placeholder="48200" />
+          <input className="gx-input" inputMode="numeric" value={views} onChange={(e) => setViews(e.target.value)} placeholder="e.g. 48200" />
         </label>
         <label className="gx-field">
           <span>Posted date</span>

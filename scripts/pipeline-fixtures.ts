@@ -40,7 +40,7 @@ import {
   statusIndex,
   type PipelineItem,
 } from "../lib/galaxy/pipeline";
-import { EMPTY_DNA_STATE, SOURCES, analyzeDna } from "../lib/galaxy/dna";
+import { EMPTY_DNA_STATE, SOURCES, analyzeDna, fmtDateShort } from "../lib/galaxy/dna";
 
 let failures = 0;
 
@@ -198,6 +198,28 @@ check(
   "2026-11-24"
 );
 
+/* ---------- the displayed date (live-proof off-by-one, 2026-11-23) ----------
+ * A pipeline item posted 2026-11-23 showed in DNA's Data list as
+ * "Nov 22": the converted post carries the bare yyyy-mm-dd date,
+ * and fmtDateShort parsed it as UTC midnight. Pinned here through
+ * the ACTUAL formatting path (fmtDateShort) in the owner's
+ * timezone, where the shift bites. */
+{
+  const prevTZ = process.env.TZ;
+  process.env.TZ = "America/Chicago"; // the owner's timezone (UTC-6 in November)
+  const nov23: PipelineItem = { ...bare, id: "d23", postedDate: "2026-11-23", results: { views: 10 } };
+  check("date: converted post keeps the pipeline's calendar date", pipelineToDnaPosts([nov23], NOW)[0]?.date, "2026-11-23");
+  check(
+    "date: DNA list renders Nov 23, not Nov 22 (the fmtDateShort path)",
+    fmtDateShort(pipelineToDnaPosts([nov23], NOW)[0]?.date as string),
+    "Nov 23"
+  );
+  check("date: fmtDateShort reads a bare date as a local day", fmtDateShort("2026-11-23"), "Nov 23");
+  check("date: full timestamps still land on their own day", fmtDateShort("2026-11-19T12:00:00.000Z"), "Nov 19");
+  if (prevTZ === undefined) delete process.env.TZ;
+  else process.env.TZ = prevTZ;
+}
+
 /* ---------- the DNA source decision ---------- */
 check("dna source: empty pipeline is disabled", dnaSourceFromPipeline([], NOW), { enabled: false, count: 0, posts: [] });
 check(
@@ -278,6 +300,21 @@ check(
 );
 check("section: overall empty state invites the first video", section.includes("Nothing planned."), true);
 check("section: device-local honesty in the footer", section.includes("Saved on this device."), true);
+check(
+  "section: edit + results forms are keyed per item, so form state can't bleed across items",
+  /<ResultsForm\s+key=\{item\.id\}/.test(section) && /<EditForm\s+key=\{item\.id\}/.test(section),
+  true
+);
+check(
+  "section: results form initializes views from the item's own results only (empty when it has none)",
+  section.includes('useState(r ? String(r.views) : "")'),
+  true
+);
+check(
+  "section: the views placeholder reads as an example, never a bare value",
+  section.includes('placeholder="e.g. 48200"') && !section.includes('placeholder="48200"'),
+  true
+);
 check("section: reads and writes the pipeline store", section.includes("loadPipelineState") && section.includes("savePipelineState"), true);
 check("section: deal link is a select of the user's deals", section.includes("Brand deal (optional)"), true);
 check("dna wire: Discover reads the pipeline store", dnaClient.includes("loadPipelineState") && dnaClient.includes("dnaSourceFromPipeline"), true);
