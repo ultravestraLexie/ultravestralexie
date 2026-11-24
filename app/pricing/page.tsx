@@ -91,6 +91,11 @@ export default async function PricingPage() {
       )}
       {plans.length > 0 && (
         <p style={{ textAlign: "center", color: "#ddd0ff", marginTop: 24, fontSize: 15 }}>
+          {"No refunds. You can cancel anytime — your plan stays active until the end of the current paid period and won't renew."}
+        </p>
+      )}
+      {plans.length > 0 && (
+        <p style={{ textAlign: "center", color: "#ddd0ff", marginTop: 24, fontSize: 15 }}>
           Every plan unlocks the complete UltraVestra platform — no tool
           is held back by tier. Pick the plan that matches the stage of
           your creator business; you can switch or cancel anytime.

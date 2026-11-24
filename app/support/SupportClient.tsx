@@ -186,9 +186,12 @@ export default function SupportClient({
             not unlocked after a few minutes, send a request above.
           </li>
           <li>
+            Cancelling and refunds:{" "}
+            {"No refunds. You can cancel anytime — your plan stays active until the end of the current paid period and won't renew."}{" "}
+            To cancel, go to {"Settings → Plan & billing → Cancel plan"}.
             Your plan, its status and the current period dates live in{" "}
-            <Link href="/settings">Settings</Link>. To change or cancel your
-            plan, send a request here and we will take care of it.
+            <Link href="/settings">Settings</Link>. To change your plan,
+            send a request here and we will take care of it.
           </li>
         </ul>
         <p style={{ margin: "14px 0 0" }}>

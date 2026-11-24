@@ -6,6 +6,8 @@ import SignOutButton from "@/components/SignOutButton";
 import SettingsPrefs from "@/components/SettingsPrefs";
 import SettingsSecurity from "@/components/SettingsSecurity";
 import SettingsNotifications from "@/components/SettingsNotifications";
+import SettingsBilling from "@/components/SettingsBilling";
+import { planState } from "@/lib/billing";
 import { fetchNotificationState } from "@/lib/galaxy/server";
 
 export const dynamic = "force-dynamic";
@@ -15,9 +17,10 @@ export const dynamic = "force-dynamic";
  * every value read live from the member's own rows, every control
  * wired to a real save. Login is required; an active subscription
  * is NOT, so a member whose plan lapses can still reach billing
- * help and support. There is no self-serve billing portal yet, so
- * plan changes and cancellations route honestly to Support instead
- * of a dead button. */
+ * help and support. Cancellation is self-serve (trust queue #4):
+ * the Plan & billing panel cancels at period end under the
+ * owner's no-refunds policy; plan CHANGES still route to Support,
+ * honestly, instead of a dead button. */
 
 const panel: React.CSSProperties = {
   border: "1px solid #7e22ce",
@@ -61,7 +64,7 @@ export default async function SettingsPage() {
   const [subRes, prefsRes, profileRes, notifState] = await Promise.all([
     supabase
       .from("subscriptions")
-      .select("plan_id, status, current_period_end, created_at")
+      .select("plan_id, status, current_period_end, cancel_at_period_end, created_at")
       .eq("user_id", user.id)
       .order("updated_at", { ascending: false }),
     supabase
@@ -88,6 +91,7 @@ export default async function SettingsPage() {
     plan_id: string | null;
     status: string | null;
     current_period_end: string | null;
+    cancel_at_period_end: boolean | null;
     created_at: string | null;
   }[];
   const sub =
@@ -146,8 +150,13 @@ export default async function SettingsPage() {
         </span>
       </section>
 
+      {/* Plan & billing (trust queue #4) — the policy line and the
+          self-serve cancel/resume controls. The "cancels on" truth
+          lives on the subscriptions row (cancel_at_period_end,
+          written by the webhook and by /api/billing/*), never on a
+          live Stripe read at page load. */}
       <section style={panel}>
-        <h2 style={{ fontSize: 20, margin: "0 0 14px" }}>Subscription</h2>
+        <h2 style={{ fontSize: 20, margin: "0 0 14px" }}>Plan &amp; billing</h2>
         {sub ? (
           <>
             <p style={{ margin: "0 0 8px", fontSize: 15.5 }}>
@@ -171,6 +180,20 @@ export default async function SettingsPage() {
             No subscription is on record for this account yet.
           </p>
         )}
+        <p style={{ margin: "0 0 16px", color: "#ddd0ff", fontSize: 15 }}>
+          {"No refunds. You can cancel anytime — your plan stays active until the end of the current paid period and won't renew."}
+        </p>
+        {sub &&
+        (planState(sub).kind === "active" ||
+          planState(sub).kind === "cancelling") ? (
+          <div style={{ marginBottom: 16 }}>
+            <SettingsBilling
+              planLabel={`UltraVestra ${planName}`}
+              periodEnd={sub.current_period_end}
+              initialState={planState(sub)}
+            />
+          </div>
+        ) : null}
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
           <Link
             href="/pricing"
@@ -187,7 +210,7 @@ export default async function SettingsPage() {
             View Plans
           </Link>
           <span style={{ color: "#ddd0ff", fontSize: 14 }}>
-            To change or cancel your plan,{" "}
+            To change your plan,{" "}
             <Link href="/support" style={{ color: "#67e8f9", fontWeight: 700 }}>
               contact Support
             </Link>{" "}
