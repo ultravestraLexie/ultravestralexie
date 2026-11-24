@@ -43,6 +43,11 @@ function fmtDate(value: string | null): string {
     year: "numeric",
     month: "long",
     day: "numeric",
+    /* One date everywhere: the period end is a single instant, and
+     * the Settings page renders its UTC date — format in UTC here
+     * too, or a browser behind UTC shows the day before (battAR:
+     * "Cancels on December 23" beside "period ends December 24"). */
+    timeZone: "UTC",
   });
 }
 

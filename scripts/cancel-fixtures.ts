@@ -197,6 +197,11 @@ check(
   settings.includes("cancel_at_period_end") && !settings.includes("getStripe"),
   true
 );
+check(
+  "settings: period-end dates format in UTC on both the page and the billing controls (battAR: Dec 23 vs Dec 24 split)",
+  settings.includes('timeZone: "UTC"') && billing.includes('timeZone: "UTC"'),
+  true
+);
 
 /* ---------------- the routes -------------------------------------- */
 
