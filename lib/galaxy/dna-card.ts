@@ -18,11 +18,27 @@
 export const DNA_CARD_CONFIG = {
   shareBase: "https://ultra-vestra.vercel.app/dna", // live domain; /dna/{handle} attributes sign-ups
   displayLink: "ULTRA-VESTRA.VERCEL.APP", // printed on the card next to "Discover yours"
-  sampleHandle: "@nova.creates",
   earnedTiers: true, // false = all six cards free to pick
 };
 
 export const DNA_CARD_STORE_KEY = "uv.dna.card.v1";
+
+// The first shipped build (2026-11-24) pre-filled this sample handle on
+// every card. The owner's rule: the card carries UltraVestra + the QR
+// code only, until the creator makes it from their own data — so there
+// is no default handle anymore. This value survives ONLY so stored
+// state written by that first build can be recognised and cleared on
+// load (see dnaCardSanitizeStoredHandle). It is never rendered on a
+// card, never shared, and never used to build a link, message, QR
+// payload, or filename.
+export const DNA_CARD_LEGACY_SAMPLE_HANDLE = "@nova.creates";
+
+// A stored handle from the first build (the legacy sample handle above)
+// reads back as unset; anything the creator typed themselves passes
+// through untouched.
+export function dnaCardSanitizeStoredHandle(handle: string | null | undefined): string {
+  return !handle || handle === DNA_CARD_LEGACY_SAMPLE_HANDLE ? "" : handle;
+}
 
 export const DNA_CARD_SAMPLE_CSV: string = "date,title,platform,topic,format,hook,length_sec,views,likes,comments,shares,saves\n2026-08-03,This $12 serum outperformed my $80 one,TikTok,Skincare honest reviews,Honest review,Result first,34,48200,3767,312,294,833\n2026-08-07,Morning routine for people who hate mornings,TikTok,Morning routine,GRWM,Question,52,12900,627,51,37,136\n2026-08-12,Day in my life as a full-time creator,TikTok,Day in my life,Vlog,Story,74,8600,266,21,10,56\n2026-08-17,5 Target finds under $10,TikTok,Budget beauty finds,Talking head,List,28,21400,1150,95,86,253\n2026-08-21,I tested the viral pimple patches for 7 days,TikTok,Skincare honest reviews,Honest review,Result first,41,39000,2855,236,218,630\n2026-08-25,Is this drugstore sunscreen worth it?,TikTok,Skincare honest reviews,Honest review,Question,38,17500,1197,99,86,263\n2026-08-30,Organize my bathroom drawer with me,TikTok,Home organization,Before & after,Result first,31,15800,1337,112,117,298\n2026-09-04,GRWM: 10-minute school-run makeup,TikTok,Morning routine,GRWM,Story,46,11200,522,42,29,113\n2026-09-08,Day in my life: brand shoot edition,TikTok,Day in my life,Vlog,Story,68,9400,324,26,13,69\n2026-09-12,Stop buying these 3 skincare products,TikTok,Skincare honest reviews,Talking head,Bold claim,26,30500,1935,161,159,429\n2026-09-17,3 dupes that beat the originals,TikTok,Budget beauty finds,Honest review,List,36,24300,1391,115,107,307\n2026-09-22,Before & after: 2 weeks of retinol,TikTok,Skincare honest reviews,Before & after,Result first,33,44100,4140,347,366,924\n2026-09-26,What I eat before filming,TikTok,Day in my life,Vlog,Question,61,7900,258,20,8,54\n2026-09-30,Dollar store makeup - worth it?,TikTok,Budget beauty finds,Honest review,Question,39,18800,986,81,70,217\n2026-10-05,\"My 5am routine, honestly\",TikTok,Morning routine,GRWM,Story,55,10100,456,37,24,99\n2026-10-10,Pantry reset in 60 seconds,TikTok,Home organization,Vlog,List,58,9700,374,30,19,81\n2026-10-14,The $8 moisturizer I keep repurchasing,TikTok,Skincare honest reviews,Honest review,Bold claim,37,36200,2543,211,195,562\n2026-10-18,GRWM + chatting about brand deals,TikTok,Morning routine,GRWM,Story,64,9900,426,34,22,92\n2026-10-23,Day in my life: editing day,TikTok,Day in my life,Vlog,Story,71,6800,201,16,6,42\n2026-10-28,Is the $40 hair tool a scam?,TikTok,Budget beauty finds,Honest review,Question,35,22600,1324,110,104,293\n2026-11-01,Under-sink before & after (no tools),TikTok,Home organization,Before & after,Result first,29,16900,1501,126,134,335\n2026-11-05,Skincare I'd repurchase vs never again,TikTok,Skincare honest reviews,Honest review,List,42,33400,2230,184,167,492\n2026-11-10,4 budget finds that look expensive,TikTok,Budget beauty finds,Talking head,List,27,19600,971,80,69,213\n2026-11-15,GRWM: 5-minute everyday face,TikTok,Budget beauty finds,GRWM,Result first,44,14500,755,62,48,165\n";
 export const DNA_CARD_TEMPLATE_CSV: string = 'date,title,platform,topic,format,hook,length_sec,views,likes,comments,shares,saves\n2026-11-01,This $12 serum outperformed my $80 one,TikTok,Skincare reviews,Honest review,Result first,34,48200,3767,312,294,833\n';
@@ -680,9 +696,10 @@ export function dnaCardCreatorId(handle: string): string {
   return "UV-DNA-" + String((h >>> 0) % 1000000).padStart(6, "0");
 }
 
-// hidden handle → the link uses the creator ID, so an anonymous card doesn't reveal who shared it
+// hidden handle → the link uses the creator ID, so an anonymous card doesn't reveal who shared it.
+// No handle set at all → the creator ID form too: there is no handle to put in the link.
 export function dnaCardLink(handle: string, showHandle: boolean): string {
-  return `${DNA_CARD_CONFIG.shareBase}/${showHandle ? dnaCardSlug(handle) : dnaCardCreatorId(handle).toLowerCase()}`;
+  return `${DNA_CARD_CONFIG.shareBase}/${showHandle && handle.trim() ? dnaCardSlug(handle) : dnaCardCreatorId(handle).toLowerCase()}`;
 }
 
 export function dnaCardFileName(tierId: string | null, handle: string): string {
@@ -920,44 +937,6 @@ function band(c: Ctx, rnd: Rnd, n: number, from: number[], to: number[], spread:
     blob(c, from[0] + (to[0] - from[0]) * t + (rnd() - 0.5) * spread, from[1] + (to[1] - from[1]) * t + (rnd() - 0.5) * spread, rmin + rnd() * (rmax - rmin), cols[i % cols.length]);
   }
 }
-export interface DnaCardRingPal {
-  cols: string[];
-  glow: string;
-  inner: string;
-}
-export const DNA_CARD_IRIS: DnaCardRingPal = {
-  cols: ["#f6efff", "#b794ff", "#7fd8ff", "#ff9ad5", "#efe6ff"],
-  glow: "rgba(183,148,255,.55)",
-  inner: "rgba(40,18,90,.9)",
-};
-function torus(c: Ctx, x: number, y: number, rx: number, ry: number, rot: number, th: number, P: DnaCardRingPal = DNA_CARD_IRIS) {
-  c.save();
-  c.translate(x, y);
-  c.rotate(rot);
-  const g = c.createLinearGradient(-rx, -ry, rx, ry);
-  P.cols.forEach((cl, i) => g.addColorStop(i / (P.cols.length - 1), cl));
-  glowOn(c, P.glow, 36);
-  c.lineWidth = th;
-  c.strokeStyle = g;
-  c.globalAlpha = 0.92;
-  c.beginPath();
-  c.ellipse(0, 0, rx, ry, 0, 0, 7);
-  c.stroke();
-  c.shadowBlur = 0;
-  c.globalAlpha = 0.45;
-  c.lineWidth = th * 0.32;
-  c.strokeStyle = P.inner;
-  c.beginPath();
-  c.ellipse(0, th * 0.12, rx - th * 0.28, ry - th * 0.28, 0, 0, 7);
-  c.stroke();
-  c.globalAlpha = 0.9;
-  c.lineWidth = th * 0.16;
-  c.strokeStyle = "#ffffff";
-  c.beginPath();
-  c.ellipse(0, -th * 0.18, rx, ry, 0, Math.PI * 1.08, Math.PI * 1.62);
-  c.stroke();
-  c.restore();
-}
 function gem(c: Ctx, x: number, y: number, s: number, fill: string, stroke: string) {
   // small faceted gem for the tier pill
   c.save();
@@ -1166,8 +1145,6 @@ export interface DnaCardTierDef {
   segments?: boolean;
   qrR?: number;
   qrFrame?: string;
-  ringPal?: DnaCardRingPal;
-  rings?: { back: number[][]; front: number[][] };
   bg: (c: Ctx, rnd: Rnd) => void;
   body: (c: Ctx, b: number[], view: DnaCardView) => void;
   emblem: (this: DnaCardTierDef, c: Ctx, cx: number, cy: number, R: number, a: DnaCardAnalysis, rnd: Rnd, view: DnaCardView) => void;
@@ -1339,13 +1316,6 @@ export const DNA_CARD_TIERS: DnaCardTierDef[] = [
     labFont: MANROPE,
     fp: ["#e9dcff", "#ff9ad5", "#8fe9ff", "#c9b8ff"],
     divider: "rgba(196,181,253,.45)",
-    rings: {
-      back: [
-        [1000, 118, 96, 62, -0.5, 30],
-        [1046, 1650, 70, 44, 0.6, 22],
-      ],
-      front: [[58, 0.55, 60, 38, 0.85, 22]],
-    },
     bg(c, rnd) {
       c.fillStyle = "#030208";
       c.fillRect(0, 0, CARD_W, CARD_H);
@@ -1649,14 +1619,6 @@ export const DNA_CARD_TIERS: DnaCardTierDef[] = [
     fp: ["#fff3c4", "#e8b94a", "#b07a1c", "#f6d77d"],
     divider: "rgba(232,185,74,.6)",
     uvRing: ["#fff1c1", "#c8922a"],
-    ringPal: { cols: ["#fff6d6", "#e8b94a", "#8a5a12", "#f6d77d", "#fff1c1"], glow: "rgba(232,185,74,.5)", inner: "rgba(60,35,5,.9)" },
-    rings: {
-      back: [
-        [1000, 118, 96, 62, -0.5, 30],
-        [1046, 1650, 70, 44, 0.6, 22],
-      ],
-      front: [[58, 0.55, 60, 38, 0.85, 22]],
-    },
     bg(c, rnd) {
       c.fillStyle = "#050403";
       c.fillRect(0, 0, CARD_W, CARD_H);
@@ -1769,16 +1731,6 @@ export const DNA_CARD_TIERS: DnaCardTierDef[] = [
     divider: "rgba(109,40,217,.35)",
     uvRing: ["#c81e8f", "#6d28d9"],
     brandInk: "#140d2b",
-    rings: {
-      back: [
-        [996, 110, 104, 66, -0.5, 34],
-        [520, 1890, 64, 40, 0.2, 20],
-      ],
-      front: [
-        [46, 0.45, 84, 54, 0.85, 30],
-        [1034, 1500, 82, 52, -0.9, 28],
-      ],
-    },
     bg(c, rnd) {
       c.fillStyle = "#020104";
       c.fillRect(0, 0, CARD_W, CARD_H);
@@ -1888,7 +1840,9 @@ export function renderCard(cv: HTMLCanvasElement, view: DnaCardView, T: DnaCardT
     CW = CARD_W - 108,
     CH = CARD_H - 108,
     box = [CX, CY, CW, CH];
-  (T.rings?.back || []).forEach((r) => torus(c, r[0], r[1], r[2], r[3], r[4], r[5], T.ringPal));
+  // No decorative rings at the card's edges: the owner ordered the side
+  // tori removed (2026-11-24). The only ring left in the artwork is the
+  // thin orbit centered on the fingerprint orb, drawn by the emblems.
   T.body(c, box, view);
 
   const L = CX + 60,
@@ -1961,7 +1915,10 @@ export function renderCard(cv: HTMLCanvasElement, view: DnaCardView, T: DnaCardT
       });
     }
     B.push({ emblem: true });
-    if (view.show.handle) {
+    // the handle block exists only when the creator has set their own
+    // handle — with none set the block is omitted entirely, so the
+    // identity title and everything below shift up naturally.
+    if (view.show.handle && view.handle.trim()) {
       const z = Math.round(32 * s);
       B.push({
         h: z * 1.15,
@@ -2148,19 +2105,16 @@ export function renderCard(cv: HTMLCanvasElement, view: DnaCardView, T: DnaCardT
   const used = plan.reduce((s2, b) => s2 + (b.emblem ? 2 * R + 40 : b.h || 0), 0) + gap * (plan.length - 1);
   const extra = Math.max(0, bottom - top - used),
     g2 = gap + extra / (plan.length - 1);
-  let y = top,
-    emY = 0;
+  let y = top;
   plan.forEach((b) => {
     if (b.emblem) {
-      emY = y + 20 + R;
-      T.emblem(c, MID, emY, R, a, rnd, view);
+      T.emblem(c, MID, y + 20 + R, R, a, rnd, view);
       y += 2 * R + 40 + g2;
     } else {
       b.draw!(y);
       y += (b.h || 0) + g2;
     }
   });
-  (T.rings?.front || []).forEach(([fx, yf, rx, ry, rot, th]) => torus(c, fx, yf < 1 ? emY + R * yf : yf, rx, ry, rot, th, T.ringPal));
   KS = 1;
 }
 

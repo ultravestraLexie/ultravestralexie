@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import {
-  DNA_CARD_CONFIG,
   DNA_CARD_SAMPLE_CSV,
   DNA_CARD_STORE_KEY,
   DNA_CARD_TEMPLATE_CSV,
@@ -13,6 +12,7 @@ import {
   dnaCardLink,
   dnaCardMessage,
   dnaCardPickTier,
+  dnaCardSanitizeStoredHandle,
   dnaCardTierNeedText,
   dnaCardTierUnlocked,
   dnaDepth,
@@ -214,7 +214,7 @@ const track = (event: string, props: Record<string, unknown> = {}) => {
 
 export default function DnaCardSection() {
   const S = useRef<CardState>({
-    handle: DNA_CARD_CONFIG.sampleHandle,
+    handle: "", // no default handle — the card shows one only when the creator sets their own
     csv: null,
     sample: true,
     sampleOk: false,
@@ -235,7 +235,7 @@ export default function DnaCardSection() {
   const [toastMsg, setToastMsg] = useState("");
   const [toastOn, setToastOn] = useState(false);
   const [phase, setPhase] = useState<"analyzing" | "done">("analyzing");
-  const [handleText, setHandleText] = useState(DNA_CARD_CONFIG.sampleHandle);
+  const [handleText, setHandleText] = useState("");
 
   const helixRef = useRef<HTMLCanvasElement | null>(null);
   const tiersRef = useRef<HTMLDivElement | null>(null);
@@ -410,6 +410,7 @@ export default function DnaCardSection() {
   /* ---------- start: restore, fonts, then sample-or-saved (the prototype's boot) ---------- */
   useEffect(() => {
     reduceRef.current = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let clearedLegacyHandle = false;
     try {
       const saved = JSON.parse(localStorage.getItem(DNA_CARD_STORE_KEY) || "null") as {
         show?: Partial<DnaCardShow>;
@@ -421,8 +422,13 @@ export default function DnaCardSection() {
       if (saved) {
         Object.assign(S.current.show, saved.show || {});
         if (saved.handle) {
-          S.current.handle = saved.handle;
-          setHandleText(saved.handle);
+          // the first shipped build persisted its sample handle as if it
+          // were the creator's — that value reads back as unset, so those
+          // devices stop showing it; a self-typed handle is untouched.
+          const restored = dnaCardSanitizeStoredHandle(saved.handle);
+          S.current.handle = restored;
+          setHandleText(restored);
+          clearedLegacyHandle = restored !== saved.handle;
         }
         if (saved.csv) {
           S.current.csv = saved.csv;
@@ -434,6 +440,9 @@ export default function DnaCardSection() {
     } catch {
       /* corrupted store — start from the sample, like the prototype */
     }
+    // write the cleared state back, so the legacy sample handle is gone
+    // from the device for good, not just for this visit
+    if (clearedLegacyHandle) persist();
     bump();
     (async () => {
       try {
@@ -689,7 +698,7 @@ export default function DnaCardSection() {
     setHandleText(raw);
     let v = raw.trim().replace(/\s+/g, "");
     if (v && !v.startsWith("@")) v = "@" + v;
-    S.current.handle = v || DNA_CARD_CONFIG.sampleHandle;
+    S.current.handle = v; // empty stays empty — unset, never a default
     persist();
     bump();
     rebuildCard();
@@ -741,8 +750,8 @@ export default function DnaCardSection() {
   };
 
   const onUseSample = () => {
-    S.current.handle = DNA_CARD_CONFIG.sampleHandle;
-    setHandleText(S.current.handle);
+    S.current.handle = "";
+    setHandleText("");
     load(DNA_CARD_SAMPLE_CSV, true);
   };
 

@@ -16,10 +16,19 @@
 // Run (from the repo root):
 //   npx tsx scripts/dna-card-fixtures.ts
 // Exits non-zero if any assertion fails.
+//
+// 2026-11-24 fix (owner's order): the sample handle "@nova.creates" was
+// removed from every card. There is no default handle: the card renders
+// a handle only when the creator set their own, links/QR/messages use
+// the creator-ID form while none is set, and stored state written by
+// the first build (which persisted the sample handle) is cleared on
+// load. The pins below lock that behaviour; the old handle survives in
+// this file ONLY as the legacy value the migration must recognise.
 // ============================================================================
 
 import {
   DNA_CARD_CONFIG,
+  DNA_CARD_LEGACY_SAMPLE_HANDLE,
   DNA_CARD_SAMPLE_CSV,
   DNA_CARD_STORE_KEY,
   DNA_CARD_TEMPLATE_CSV,
@@ -30,6 +39,7 @@ import {
   dnaCardLink,
   dnaCardMessage,
   dnaCardPickTier,
+  dnaCardSanitizeStoredHandle,
   dnaCardSlug,
   dnaCardTierById,
   dnaCardTierNeedText,
@@ -62,7 +72,8 @@ const round4 = (n: number) => Math.round(n * 10000) / 10000;
 /* ---------- config + store pins ---------- */
 check("config: shareBase is the live domain", DNA_CARD_CONFIG.shareBase, "https://ultra-vestra.vercel.app/dna");
 check("config: displayLink is the live domain", DNA_CARD_CONFIG.displayLink, "ULTRA-VESTRA.VERCEL.APP");
-check("config: sampleHandle kept from the prototype", DNA_CARD_CONFIG.sampleHandle, "@nova.creates");
+check("config: no handle is pre-filled (the owner's card rule)", "sampleHandle" in DNA_CARD_CONFIG, false);
+check("legacy: the first build's sample handle is recognised for clearing only", DNA_CARD_LEGACY_SAMPLE_HANDLE, "@nova.creates");
 check("config: tiers are earned", DNA_CARD_CONFIG.earnedTiers, true);
 check("store: the prototype's localStorage key", DNA_CARD_STORE_KEY, "uv.dna.card.v1");
 check("template: header row", DNA_CARD_TEMPLATE_CSV.split("\n")[0], "date,title,platform,topic,format,hook,length_sec,views,likes,comments,shares,saves");
@@ -165,12 +176,16 @@ check("analyze: zero rows refuses", analyze([], NOW), {
 });
 
 /* ---------- QR (the prototype's bundled implementation) ---------- */
-const qH = qr("https://ultra-vestra.vercel.app/dna/nova.creates", "H");
-check("qr: live link at ECC H — size/version/mask", [qH.size, qH.version, qH.mask], [41, 6, 4]);
-check("qr: live link at ECC H — first module row", qH.modules[0].map((v) => (v ? 1 : 0)).join(""), "11111110000111010011011011111100001111111");
-const qM = qr("https://ultravestra.com/dna/nova.creates", "M");
-check("qr: ECC M — size/version/mask", [qM.size, qM.version, qM.mask], [29, 3, 3]);
-check("qr: deterministic", JSON.stringify(qr("https://ultra-vestra.vercel.app/dna/nova.creates", "H").modules), JSON.stringify(qH.modules));
+// The live link pinned here is the NO-HANDLE link — the form every card
+// carries until the creator sets their own handle (creator-ID form).
+const NO_HANDLE_LINK = dnaCardLink("", true);
+check("qr: the no-handle live link is the creator-ID form", NO_HANDLE_LINK, "https://ultra-vestra.vercel.app/dna/uv-dna-295191");
+const qH = qr(NO_HANDLE_LINK, "H");
+check("qr: live link at ECC H — size/version/mask", [qH.size, qH.version, qH.mask], [41, 6, 2]);
+check("qr: live link at ECC H — first module row", qH.modules[0].map((v) => (v ? 1 : 0)).join(""), "11111110110111111000001011100011001111111");
+const qM = qr(NO_HANDLE_LINK, "M");
+check("qr: ECC M — size/version/mask", [qM.size, qM.version, qM.mask], [33, 4, 6]);
+check("qr: deterministic", JSON.stringify(qr(NO_HANDLE_LINK, "H").modules), JSON.stringify(qH.modules));
 let qrThrew = "";
 try {
   qr("x".repeat(300), "H");
@@ -180,25 +195,59 @@ try {
 check("qr: over-capacity link throws", qrThrew, "Link too long for QR");
 
 /* ---------- slug / creator ID / link / message ---------- */
-check("slug: sample handle", dnaCardSlug("@nova.creates"), "nova.creates");
-check("slug: spaces and punctuation collapse", dnaCardSlug("@Nova Creates!"), "nova-creates");
+check("slug: a creator's own handle", dnaCardSlug("@test.creator"), "test.creator");
+check("slug: spaces and punctuation collapse", dnaCardSlug("@Test Creator!"), "test-creator");
 check("slug: empty falls back to creator", dnaCardSlug(""), "creator");
-check("creatorId: FNV pin for the sample handle", dnaCardCreatorId("@nova.creates"), "UV-DNA-293056");
-check("link: handle shown", dnaCardLink("@nova.creates", true), "https://ultra-vestra.vercel.app/dna/nova.creates");
-check("link: handle hidden uses the creator ID", dnaCardLink("@nova.creates", false), "https://ultra-vestra.vercel.app/dna/uv-dna-293056");
-check("fileName: tier + slug", dnaCardFileName("diamond", "@nova.creates"), "content-dna-diamond-nova.creates.png");
-check("fileName: no tier yet", dnaCardFileName(null, "@nova.creates"), "content-dna-card-nova.creates.png");
+check("creatorId: FNV pin for a creator's handle", dnaCardCreatorId("@test.creator"), "UV-DNA-085699");
+check("creatorId: no handle derives from the fallback slug", dnaCardCreatorId(""), "UV-DNA-295191");
+check("link: handle shown", dnaCardLink("@test.creator", true), "https://ultra-vestra.vercel.app/dna/test.creator");
+check("link: handle hidden uses the creator ID", dnaCardLink("@test.creator", false), "https://ultra-vestra.vercel.app/dna/uv-dna-085699");
+check("link: no handle set uses the creator ID even with the toggle on", dnaCardLink("", true), "https://ultra-vestra.vercel.app/dna/uv-dna-295191");
+check("link: no handle set, toggle off — same creator-ID link", dnaCardLink("", false), "https://ultra-vestra.vercel.app/dna/uv-dna-295191");
+check("fileName: tier + slug", dnaCardFileName("diamond", "@test.creator"), "content-dna-diamond-test.creator.png");
+check("fileName: no tier yet", dnaCardFileName(null, "@test.creator"), "content-dna-card-test.creator.png");
+check("fileName: no handle falls back to creator", dnaCardFileName("diamond", ""), "content-dna-diamond-creator.png");
 const ALL_SHOW: DnaCardShow = { handle: true, identity: true, trait: true, topic: true, format: true, opportunity: true, experiment: true };
 check(
   "message: with identity shown",
-  dnaCardMessage(a, ALL_SHOW, "@nova.creates"),
-  "I don't just create content. I leave a fingerprint. This is my Content DNA: The Result-First Reviewer. What's yours? Discover yours: https://ultra-vestra.vercel.app/dna/nova.creates",
+  dnaCardMessage(a, ALL_SHOW, "@test.creator"),
+  "I don't just create content. I leave a fingerprint. This is my Content DNA: The Result-First Reviewer. What's yours? Discover yours: https://ultra-vestra.vercel.app/dna/test.creator",
 );
 check(
   "message: identity hidden falls back to the generic line",
-  dnaCardMessage(a, { ...ALL_SHOW, identity: false }, "@nova.creates"),
-  "I don't just create content. I leave a fingerprint. This is my Content DNA: my style, my strengths, my creative identity. What's yours? Discover yours: https://ultra-vestra.vercel.app/dna/nova.creates",
+  dnaCardMessage(a, { ...ALL_SHOW, identity: false }, "@test.creator"),
+  "I don't just create content. I leave a fingerprint. This is my Content DNA: my style, my strengths, my creative identity. What's yours? Discover yours: https://ultra-vestra.vercel.app/dna/test.creator",
 );
+check(
+  "message: no handle set links by creator ID",
+  dnaCardMessage(a, ALL_SHOW, ""),
+  "I don't just create content. I leave a fingerprint. This is my Content DNA: The Result-First Reviewer. What's yours? Discover yours: https://ultra-vestra.vercel.app/dna/uv-dna-295191",
+);
+
+/* ---------- no sample handle anywhere (the owner's fix) ---------- */
+// With no handle set, nothing user-visible may carry the old sample
+// handle: not the link (hence not the QR payload, which encodes the
+// link), not the share message, not the download filename, not the ID.
+check(
+  "no-handle: link/message/filename/ID outputs are clean",
+  [
+    dnaCardLink("", true),
+    dnaCardLink("", false),
+    dnaCardMessage(a, ALL_SHOW, ""),
+    dnaCardMessage(a, { ...ALL_SHOW, identity: false }, ""),
+    dnaCardFileName("diamond", ""),
+    dnaCardFileName(null, ""),
+    dnaCardCreatorId(""),
+  ].some((s) => s.includes("nova")),
+  false,
+);
+// Stored-state migration: the first build persisted the sample handle
+// into "uv.dna.card.v1" — on load it must read back as unset, while a
+// handle the creator typed themselves is never touched.
+check("stored handle: the first build's sample handle is cleared on load", dnaCardSanitizeStoredHandle(DNA_CARD_LEGACY_SAMPLE_HANDLE), "");
+check("stored handle: the literal legacy value is cleared too", dnaCardSanitizeStoredHandle("@nova.creates"), "");
+check("stored handle: a self-typed handle is never touched", dnaCardSanitizeStoredHandle("@my.own"), "@my.own");
+check("stored handle: missing/empty stays unset", [dnaCardSanitizeStoredHandle(undefined), dnaCardSanitizeStoredHandle(null), dnaCardSanitizeStoredHandle("")], ["", "", ""]);
 
 /* ---------- tiers: thresholds + unlocking ---------- */
 check(
@@ -207,6 +256,15 @@ check(
   [["quartz", "Quartz", 1, 8, 0], ["amethyst", "Amethyst", 2, 12, 0], ["sapphire", "Sapphire", 3, 16, 1], ["ruby", "Ruby", 4, 20, 2], ["gold", "Gold", 5, 22, 3], ["diamond", "Diamond", 6, 24, 4]],
 );
 check("tiers: Gold sits between Ruby and Diamond with its gem colours", (() => { const g = dnaCardTierById("gold"); return [g.rank, g.gemC, g.need]; })(), [5, ["#e8b94a", "#fff1c1"], { v: 22, p: 3 }]);
+// The owner's removal (2026-11-24): the decorative torus rings at the
+// card's edges are gone — no tier definition carries ring data anymore,
+// so renderCard has nothing to draw at the edges. (The thin orbit
+// centered on the fingerprint orb is separate artwork and stays.)
+check(
+  "artwork: no tier carries edge-ring data (the owner's removal)",
+  DNA_CARD_TIERS.map((t) => "rings" in t || "ringPal" in t),
+  [false, false, false, false, false, false],
+);
 check("tiers: unknown id falls back to Amethyst (the prototype's tierById)", dnaCardTierById("nope").id, "amethyst");
 check("depth: the sample earns v24 p4", dnaDepth(a), { v: 24, p: 4 });
 const unlockedIds = (v: number, p: number) => DNA_CARD_TIERS.filter((t) => dnaCardTierUnlocked(t, { v, p })).map((t) => t.id);
