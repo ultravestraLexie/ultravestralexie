@@ -7,10 +7,14 @@ import { Icon } from "@/components/marketplace/Mkt";
  * don't put marketplace put UltraVestra instead." The orbit hero,
  * the headline, the paragraph, the loop chips and the four role
  * cards are the prototype's, with the product named UltraVestra
- * everywhere. All four roles are live in this app, so every card
- * links to its real route — creators to the plan-first signup,
- * businesses and brands to free business registration preselected
- * as a brand, agencies preselected as an agency.
+ * everywhere. All four roles are live in this app (the prototype's
+ * agency and brand cards were dead "Soon" cards), so every card
+ * opens its role explainer at /roles/<role> — what that role is
+ * looking for and what it gets — which hands off to the real flow:
+ * creators to the plan-first signup, businesses and brands to free
+ * business registration preselected as a brand, agencies preselected
+ * as an agency (owner order 2026-11-24 ~11:39 CT: "Make all four
+ * lead to things").
  *
  * The Universe landing presentation leaves the homepage; its
  * routes and lib/universe stay in the app untouched. */
@@ -55,7 +59,7 @@ const ROLES: {
   fg: string;
 }[] = [
   {
-    href: "/get-started",
+    href: "/roles/creator",
     title: "I’m a creator",
     desc: "Find paid local gigs, get paid on time, and prove the customers you bring.",
     icon: "video",
@@ -63,7 +67,7 @@ const ROLES: {
     fg: "#F5C451",
   },
   {
-    href: "/business/register?type=brand",
+    href: "/roles/business",
     title: "I’m a business",
     desc: "Post what you need, find local creators, and turn views into loyal customers.",
     icon: "store",
@@ -71,7 +75,7 @@ const ROLES: {
     fg: "#3EE6E0",
   },
   {
-    href: "/business/register?type=agency",
+    href: "/roles/agency",
     title: "I’m an agency",
     desc: "Manage creators, campaigns and clients in one place.",
     icon: "building",
@@ -79,7 +83,7 @@ const ROLES: {
     fg: "#FF9CC8",
   },
   {
-    href: "/business/register?type=brand",
+    href: "/roles/brand",
     title: "I’m a brand",
     desc: "Run partnerships and influencer campaigns at scale.",
     icon: "crown",

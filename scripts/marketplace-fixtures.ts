@@ -108,9 +108,10 @@ check(
   ),
   true
 );
-check("landing creator card route", landing.includes('href: "/get-started"'), true);
-check("landing business card route", landing.includes('href: "/business/register?type=brand"'), true);
-check("landing agency card route", landing.includes('href: "/business/register?type=agency"'), true);
+check("landing creator card route", landing.includes('href: "/roles/creator"'), true);
+check("landing business card route", landing.includes('href: "/roles/business"'), true);
+check("landing agency card route", landing.includes('href: "/roles/agency"'), true);
+check("landing brand card route", landing.includes('href: "/roles/brand"'), true);
 check(
   "landing role copy verbatim (creator)",
   landing.includes("Find paid local gigs, get paid on time, and prove the customers you bring."),
