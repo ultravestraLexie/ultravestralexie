@@ -7,6 +7,7 @@ import {
   applicationLabel,
   brandIsVerified,
   brandPaymentHistory,
+  brandProvenance,
   currentApplication,
   dealsForBrand,
   fmtMoney,
@@ -151,6 +152,18 @@ export default async function BrandProfilePage({
   const brandDeals = dealsForBrand(myDeals, { id: b.id, name: b.name });
   const myApplication = currentApplication(brandDeals);
   const myHistory = brandPaymentHistory(brandDeals);
+  /* Trust queue #5: where this listing's information comes from,
+   * derived from the real evidence rows / affiliate program —
+   * an honest line, never a dressed-up listing. */
+  const provenance = brandProvenance(
+    {
+      program:
+        ((affiliates ?? []) as { network: string | null }[]).find(
+          (a) => a.network
+        )?.network ?? null,
+    },
+    (evidence ?? []) as BrandEvidence[]
+  );
   const categoryNames = (
     (catLinks ?? []) as unknown as { categories: { name: string } | null }[]
   )
@@ -198,6 +211,11 @@ export default async function BrandProfilePage({
           {b.country && <span>{b.country}</span>}
         </p>
       </header>
+
+      <section>
+        <h2>Where this comes from</h2>
+        <p style={{ margin: 0 }}>{provenance.line}</p>
+      </section>
 
       {brandDeals.length > 0 && (
         <section>

@@ -467,6 +467,10 @@ export type GalaxyBrand = {
   /** True only when at least one brand_evidence row is on file
    *  for this brand (System #3 verified-identity rule). */
   verified: boolean;
+  /** Where this listing's information comes from (trust queue
+   *  #5), derived by brandProvenance from the same evidence rows
+   *  + program. Optional: older constructors omit it. */
+  provenance?: BrandProvenance;
 };
 
 export function hashHue(s: string): number {
@@ -2621,4 +2625,211 @@ export function creatorLoop(input: CreatorLoopInput): LoopStep[] {
       href: "/passport",
     },
   ];
+}
+
+/* ================= Data export (trust queue #2) ===================
+ * "Creators must be able to retrieve their business records."
+ * buildExport assembles the download payload from rows the route
+ * already fetched for the signed-in creator — and ONLY that
+ * creator: the route scopes every query to the session user_id,
+ * and this builder drops any key that looks like a secret, so a
+ * stray credential column can never ride along in a creator's own
+ * file. Sections are always present (empty arrays when the creator
+ * has no rows) — an export that silently omits a section would
+ * read as "we hold nothing", which may not be true. */
+
+export type ExportRow = Record<string, unknown>;
+
+const SECRET_KEY_PATTERN =
+  /(secret|api[-_]?key|access[-_]?token|refresh[-_]?token|id[-_]?token|private[-_]?key|password|service[-_]?role|client[-_]?secret)/i;
+
+/** Recursively copy a value with secret-looking keys removed. */
+export function stripSecretKeys(value: unknown): unknown {
+  if (Array.isArray(value)) return value.map(stripSecretKeys);
+  if (value && typeof value === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value as Record<string, unknown>)) {
+      if (SECRET_KEY_PATTERN.test(k)) continue;
+      out[k] = stripSecretKeys(v);
+    }
+    return out;
+  }
+  return value;
+}
+
+const cleanRow = (r: ExportRow | null): ExportRow | null =>
+  r == null ? null : (stripSecretKeys(r) as ExportRow);
+const cleanRows = (rows: ExportRow[]): ExportRow[] =>
+  rows.map((r) => stripSecretKeys(r) as ExportRow);
+
+export const EXPORT_SECTIONS = [
+  { key: "profile", label: "Profile — your account and creator profile rows" },
+  { key: "deals", label: "Deals — your deals, their protection records and stage history" },
+  { key: "money", label: "Money — the separated money ledger (projected / invoiced / collected / expenses) plus your raw expense and revenue rows" },
+  { key: "audience", label: "Audience — the audience numbers you entered" },
+  { key: "savedBrands", label: "Saved brands — the brands you saved" },
+  { key: "supportTickets", label: "Support tickets — the requests you filed" },
+  { key: "subscription", label: "Subscription — your plan and status (no payment secrets)" },
+] as const;
+
+export type ExportInput = {
+  /** ISO timestamp of the export. */
+  exportedAt: string;
+  profile: ExportRow | null;
+  creatorProfile: ExportRow | null;
+  deals: ExportRow[];
+  dealProtection: ExportRow[];
+  dealStageHistory: ExportRow[];
+  expenses: ExportRow[];
+  revenueEntries: ExportRow[];
+  ledger: MoneyLedger;
+  audienceSnapshots: ExportRow[];
+  savedBrands: ExportRow[];
+  supportTickets: ExportRow[];
+  subscription: ExportRow | null;
+};
+
+export function buildExport(input: ExportInput) {
+  return {
+    export: {
+      product: "UltraVestra",
+      kind: "Creator business records export",
+      exportedAt: input.exportedAt,
+      sections: EXPORT_SECTIONS.map((s) => ({ key: s.key, label: s.label })),
+    },
+    profile: {
+      account: cleanRow(input.profile),
+      creatorProfile: cleanRow(input.creatorProfile),
+    },
+    deals: {
+      deals: cleanRows(input.deals),
+      protection: cleanRows(input.dealProtection),
+      stageHistory: cleanRows(input.dealStageHistory),
+    },
+    money: {
+      ledger: input.ledger,
+      expenses: cleanRows(input.expenses),
+      revenueEntries: cleanRows(input.revenueEntries),
+    },
+    audience: cleanRows(input.audienceSnapshots),
+    savedBrands: cleanRows(input.savedBrands),
+    supportTickets: cleanRows(input.supportTickets),
+    subscription: cleanRow(input.subscription),
+  };
+}
+
+export type CreatorExport = ReturnType<typeof buildExport>;
+
+/* ================= Brand provenance (trust queue #5) ==============
+ * "Creators need to know where brand information comes from."
+ * Three honest states, derived only from real fields:
+ *  - evidence: brand_evidence rows exist — name the source the
+ *    strongest row came from and when it was recorded. Only a row
+ *    whose confidence is 'verified' earns the word "Verified";
+ *    any other confidence is "Recorded from", never dressed up.
+ *  - program: no evidence, but an affiliate program/network is on
+ *    file — a listing, stated as a listing.
+ *  - unknown: neither — the absence is stated, not papered over.
+ * This is information only: the Verified badge rule
+ * (brandIsVerified) is untouched. */
+
+export type BrandEvidenceLike = {
+  source_url?: string | null;
+  source_type?: string | null;
+  evidence_type?: string | null;
+  confidence?: string | null;
+  observed_at?: string | null;
+  last_checked_at?: string | null;
+};
+
+export type BrandProvenanceKind = "evidence" | "program" | "unknown";
+export type BrandProvenance = { kind: BrandProvenanceKind; line: string };
+
+const EVIDENCE_SOURCE_LABELS: Record<string, string> = {
+  official_site: "the brand's official site",
+  social: "the brand's social profile",
+  affiliate_network: "an affiliate network listing",
+  creator_report: "a creator report",
+  listing: "a public listing",
+  direct: "the brand directly",
+};
+
+function evidenceSourceLabel(row: BrandEvidenceLike): string {
+  const byType = row.source_type ? EVIDENCE_SOURCE_LABELS[row.source_type] : undefined;
+  if (byType) return byType;
+  if (row.source_url) {
+    try {
+      const host = new URL(row.source_url).hostname.replace(/^www\./, "");
+      if (host) return host;
+    } catch {
+      /* not a URL — fall through to the generic label */
+    }
+  }
+  return "a public source";
+}
+
+const CONFIDENCE_RANK: Record<string, number> = {
+  verified: 0,
+  publicly_reported: 1,
+  needs_review: 2,
+  expired: 3,
+};
+
+/** The row provenance quotes: strongest confidence first, then
+ *  most recently checked / observed. */
+function strongestEvidence(
+  rows: BrandEvidenceLike[]
+): BrandEvidenceLike | null {
+  let best: BrandEvidenceLike | null = null;
+  for (const r of rows) {
+    if (!best) {
+      best = r;
+      continue;
+    }
+    const rank = CONFIDENCE_RANK[r.confidence ?? ""] ?? 4;
+    const bestRank = CONFIDENCE_RANK[best.confidence ?? ""] ?? 4;
+    if (rank !== bestRank) {
+      if (rank < bestRank) best = r;
+      continue;
+    }
+    const when = r.last_checked_at ?? r.observed_at ?? "";
+    const bestWhen = best.last_checked_at ?? best.observed_at ?? "";
+    if (when > bestWhen) best = r;
+  }
+  return best;
+}
+
+function provenanceDate(row: BrandEvidenceLike): string | null {
+  const raw = row.last_checked_at ?? row.observed_at;
+  if (!raw) return null;
+  const d = parseKey(String(raw).slice(0, 10));
+  if (Number.isNaN(d.getTime())) return null;
+  return d.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+}
+
+export function brandProvenance(
+  brand: { program?: string | null },
+  evidenceRows: BrandEvidenceLike[]
+): BrandProvenance {
+  const rows = evidenceRows ?? [];
+  if (rows.length > 0) {
+    const top = strongestEvidence(rows)!;
+    const source = evidenceSourceLabel(top);
+    const date = provenanceDate(top);
+    const when = date ? ` · recorded ${date}` : "";
+    return top.confidence === "verified"
+      ? { kind: "evidence", line: `Verified from ${source}${when}.` }
+      : { kind: "evidence", line: `Recorded from ${source}${when}.` };
+  }
+  if (brand.program) {
+    return {
+      kind: "program",
+      line: `Listed from the ${brand.program} affiliate program. No independent evidence on file yet.`,
+    };
+  }
+  return { kind: "unknown", line: "Source not recorded for this listing." };
 }

@@ -185,6 +185,29 @@ export default async function SettingsPage() {
       </section>
 
       <section style={panel}>
+        <h2 style={{ fontSize: 20, margin: "0 0 10px" }}>Your data</h2>
+        <p style={{ margin: "0 0 12px", color: "#ddd0ff", fontSize: 15 }}>
+          Download everything UltraVestra holds about your business — deals,
+          money records, audience, requests. One file, yours to keep.
+        </p>
+        <a
+          href="/api/export"
+          style={{
+            display: "inline-block",
+            background: "linear-gradient(92deg, #a855f7, #d946ef)",
+            color: "#fff",
+            fontWeight: 800,
+            fontSize: 14.5,
+            borderRadius: 999,
+            padding: "10px 20px",
+            textDecoration: "none",
+          }}
+        >
+          Download your data
+        </a>
+      </section>
+
+      <section style={panel}>
         <h2 style={{ fontSize: 20, margin: "0 0 10px" }}>Support</h2>
         <p style={{ margin: "0 0 12px", color: "#ddd0ff", fontSize: 15 }}>
           Questions about your account, billing or the platform — a person

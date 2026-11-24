@@ -9,6 +9,7 @@ import { createClient } from "@/lib/supabase/server";
 import { fetchAllPages } from "@/lib/fetch-all-pages";
 import {
   brandIsVerified,
+  brandProvenance,
   capFromNotes,
   rowToDeal,
   rowToProtection,
@@ -16,6 +17,7 @@ import {
   rowToSupportTicket,
   type AudienceRowLike,
   type AudienceSnapshot,
+  type BrandEvidenceLike,
   type SupportTicket,
   type SupportTicketRowLike,
   type DealProtection,
@@ -269,7 +271,7 @@ export async function fetchDirectory(
       fetchAllPages((from, to) =>
         supabase
           .from("brand_evidence")
-          .select("brand_id")
+          .select("brand_id, source_type, confidence, last_checked_at, observed_at")
           .order("id", { ascending: true })
           .range(from, to)
       ),
@@ -310,10 +312,16 @@ export async function fetchDirectory(
   }
   /* Verified identity (System #3): a brand is verified only when
    * at least one brand_evidence row is on file for it. Presence
-   * is counted here; the rule itself lives in core.brandIsVerified. */
+   * is counted here; the rule itself lives in core.brandIsVerified.
+   * Provenance (trust queue #5) derives from the same rows — the
+   * derivation lives in core.brandProvenance. */
   const evidenceCount = new Map<string, number>();
-  for (const e of (evidence ?? []) as { brand_id: string }[]) {
+  const evidenceByBrand = new Map<string, BrandEvidenceLike[]>();
+  for (const e of (evidence ?? []) as ({ brand_id: string } & BrandEvidenceLike)[]) {
     evidenceCount.set(e.brand_id, (evidenceCount.get(e.brand_id) ?? 0) + 1);
+    const arr = evidenceByBrand.get(e.brand_id) ?? [];
+    arr.push(e);
+    evidenceByBrand.set(e.brand_id, arr);
   }
 
   return ((brands ?? []) as { id: string; name: string; created_at: string }[]).map(
@@ -333,6 +341,10 @@ export async function fetchDirectory(
         added: String(b.created_at).slice(0, 10),
         saved: savedIds.has(b.id),
         verified: brandIsVerified(evidenceCount.get(b.id) ?? 0),
+        provenance: brandProvenance(
+          { program: aff?.network ?? null },
+          evidenceByBrand.get(b.id) ?? []
+        ),
       } satisfies GalaxyBrand;
     }
   );

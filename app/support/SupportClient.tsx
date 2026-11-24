@@ -197,6 +197,11 @@ export default function SupportClient({
           </a>{" "}
           directly.
         </p>
+        <p style={{ margin: "10px 0 0", fontSize: 13.5 }}>
+          Taking your records with you?{" "}
+          <a href="/api/export">Download everything we hold about your business</a>{" "}
+          — one JSON file, yours to keep.
+        </p>
       </section>
 
       <section className="gx-panel" aria-labelledby="support-mine-h">

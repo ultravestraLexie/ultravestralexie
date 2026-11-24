@@ -325,6 +325,11 @@ export default function BrandsClient({
                         · from your deals
                       </div>
                     ) : null}
+                    {b.provenance ? (
+                      <div className="gx-brand-meta" style={{ color: "var(--ink-3)" }}>
+                        {b.provenance.line}
+                      </div>
+                    ) : null}
                   </div>
                   <div className="gx-brand-rate">
                     <strong>{b.rate != null ? `${b.rate}%` : "—"}</strong>
