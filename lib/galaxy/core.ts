@@ -603,6 +603,10 @@ export type GalaxyProfile = {
   platforms: string[];
   audience: string;
   weeklyGoal: number;
+  /** The business-profile description (creator_business_profiles
+   *  .business_description). Optional: older constructors omit it;
+   *  the Creator Loop's Grow checklist reads it as the bio. */
+  description?: string;
 };
 
 export const PLATFORM_LABELS: Record<string, string> = {
@@ -2381,53 +2385,122 @@ export const AUDIENCE_METHODOLOGY =
 /* ---------------- The Creator Loop ----------------------------------
  * The product's organizing loop, in the owner's words (2026-11-23):
  * FIND → NEGOTIATE → PROTECT → COLLECT → GROW — "That loop is more
- * valuable than offering 50 disconnected AI tools." Refined the
- * same evening with his design mock ("The final experience") and
- * his rule: "Make the loop communicate progress, not just display
- * five numbers." So each step carries a SHORT LINE (his mock's
- * words, fixed), a LIVE PROGRESS LINE (from the creator's real
- * records only), and a STATUS that changes how the step presents:
+ * valuable than offering 50 disconnected AI tools." His rule:
+ * "Make the loop communicate progress, not just display five
+ * numbers."
  *
- *   priority — needs action now; the row is visually elevated and
- *              tagged "Action needed".
- *   gap      — something named is missing; the progress line says
- *              exactly what.
- *   calm     — nothing needs the creator; the line just reports.
+ * V2 (owner's reference component, pasted 2026-11-23 19:47 CT —
+ * its DESIGN and LOGIC ported into this stack, not its code):
+ * every step carries a SEVERITY, and the panel leads with the
+ * single most urgent step ("Your next move").
  *
- * Status rules (pinned by the fixtures):
- *  - FIND: priority when nothing is saved AND nothing has ever
- *    been pitched ("Start here"). Otherwise calm.
- *  - NEGOTIATE: gap when a pitch/negotiation has gone quiet by the
- *    advisor's own thresholds (pitched 5+ days, negotiating 4+
- *    days since last contact), or when saved brands were never
- *    pitched (core.neglectedOpportunities). Otherwise calm.
- *  - PROTECT: gap when any contracted-or-later deal has open
- *    protection gaps; the line names the most common missing item
- *    and how many deals miss it. Calm with no such deals.
- *  - COLLECT: priority when invoiced money awaits payment (the
- *    strongest form when any of it is overdue — the line names
- *    the overdue count). Figures come from moneyLedger, never
- *    re-derived; an invoice is awaiting payment, never received.
- *  - GROW: gap while the share checklist has anything left (public
- *    Passport → track-record sharing → audience numbers); the
- *    line names the next remaining step, and each completed item
- *    removes itself. Calm when public with nothing left.
- * Screen order NEVER re-sorts — it is a cycle, not a ranking;
- * only the elevation speaks. */
+ *   critical — "Act now"   (#f87171)
+ *   action   — "To do"     (#fb923c)
+ *   attention— "Heads up"  (#facc15)
+ *   clear    — "On track"  (#4ade80)
+ *
+ * loopNextMove picks the step to act on first: highest severity
+ * wins; ties break COLLECT > PROTECT > NEGOTIATE > FIND > GROW
+ * (money first, per the owner's design). Screen order NEVER
+ * re-sorts — it is a cycle, not a ranking; only the next-move
+ * card ranks.
+ *
+ * Every headline, figure and item traces to a real field:
+ *  - FIND review items are saved brands never pitched
+ *    (neglectedOpportunities — the codebase's own definition).
+ *    There is no closing-date data anywhere, so no closing-soon
+ *    branch exists.
+ *  - NEGOTIATE idle days read the deal's last deal_stage_history
+ *    entry, falling back to the deal's updated_at (GalaxyDeal's
+ *    lastContact is that date). There is no "waiting on" field,
+ *    so no waiting-on-you branch exists. FOLLOW_UP_DAYS = 3,
+ *    the owner's number.
+ *  - PROTECT checks the real deal_protection items via
+ *    protectionGaps. His kill-fee and revision-cap checks have
+ *    no columns in deal_protection and are NOT checked; the
+ *    record's exclusivity and deliverables items are.
+ *  - COLLECT money comes only from moneyLedger /
+ *    dealRemainingCents. "Delivering" means work in progress —
+ *    there is no delivered-but-uninvoiced signal in the data,
+ *    so no such item exists.
+ *  - GROW's checklist items are each backed by a real field:
+ *    bio = creator_business_profiles.business_description,
+ *    niches = its content_categories, public =
+ *    profiles.passport_public, track record =
+ *    profiles.passport_share_history, audience = an
+ *    audience_snapshots row exists. His portfolio / rates /
+ *    verified-social items have no live field behind them and
+ *    are not checklist items. */
 
 export type LoopStepId = "find" | "negotiate" | "protect" | "collect" | "grow";
-export type LoopStatus = "priority" | "gap" | "calm";
+
+export type LoopSeverity = "critical" | "action" | "attention" | "clear";
+
+export const LOOP_SEVERITY_RANK: Record<LoopSeverity, number> = {
+  critical: 3,
+  action: 2,
+  attention: 1,
+  clear: 0,
+};
+
+export const LOOP_SEVERITY_LABEL: Record<LoopSeverity, string> = {
+  critical: "Act now",
+  action: "To do",
+  attention: "Heads up",
+  clear: "On track",
+};
+
+export const LOOP_SEVERITY_TONE: Record<LoopSeverity, string> = {
+  critical: "#f87171",
+  action: "#fb923c",
+  attention: "#facc15",
+  clear: "#4ade80",
+};
+
+/** Stage accent colours (the owner's design): each step keeps
+ *  its own colour regardless of severity. */
+export const LOOP_ACCENT: Record<LoopStepId, string> = {
+  find: "#60a5fa",
+  negotiate: "#a78bfa",
+  protect: "#2dd4bf",
+  collect: "#fbbf24",
+  grow: "#f472b6",
+};
+
+/** Next-move tie-break when severities are equal: money first. */
+const LOOP_TIEBREAK: Record<LoopStepId, number> = {
+  collect: 5,
+  protect: 4,
+  negotiate: 3,
+  find: 2,
+  grow: 1,
+};
+
+export type LoopItem = {
+  id: string;
+  title: string;
+  meta: string;
+  tone: LoopSeverity;
+  /** Small button label; null renders no button. */
+  actionLabel: string | null;
+  /** Where the button (and the step CTA, via focus) navigates. */
+  href: string;
+  /** True when the item is finished (Grow checklist checkmarks). */
+  done?: boolean;
+};
 
 export type LoopStep = {
   id: LoopStepId;
   /** The owner's word for the step: FIND / NEGOTIATE / … */
   label: string;
-  /** The mock's short line for the step (fixed copy). */
-  line: string;
-  /** One live progress line from the creator's own records. */
-  progress: string;
-  status: LoopStatus;
-  href: string;
+  status: LoopSeverity;
+  headline: string;
+  detail: string;
+  ctaLabel: string;
+  ctaHref: string;
+  /** The item the step's CTA acts on, when there is one. */
+  focus: LoopItem | null;
+  items: LoopItem[];
 };
 
 export type CreatorLoopInput = {
@@ -2435,197 +2508,470 @@ export type CreatorLoopInput = {
   expenses: GalaxyExpense[];
   savedCount: number;
   acceptingCount: number;
-  /** The directory, when available — Negotiate's never-pitched
-   *  gap reads saved brands from it. */
+  /** The directory, when available — Find's review items are the
+   *  saved brands in it that were never pitched. */
   brands?: GalaxyBrand[];
   protectionByDeal?: Record<string, DealProtection>;
+  /** Latest deal_stage_history created_at per deal id (ISO
+   *  timestamps) — Negotiate's idle clock. A deal with no history
+   *  rows falls back to its updated_at. */
+  lastActivityByDeal?: Record<string, string>;
   snapshots: AudienceSnapshot[];
   passportPublic: boolean;
   passportShareHistory: boolean;
   passportSlug: string | null;
+  /** Grow checklist: the business-profile description is written
+   *  (creator_business_profiles.business_description). */
+  profileBio?: boolean;
+  /** Grow checklist: content categories are chosen
+   *  (creator_business_profiles.content_categories). */
+  profileNiches?: boolean;
   now?: Date;
 };
 
-/** Plain-words noun for a protection gap, for the Protect line
- *  ("2 deals missing usage rights"). */
-const GAP_NOUN: Record<ProtectionGapId, string> = {
-  contract: "a reviewed contract",
-  usage: "usage rights",
-  exclusivity: "an exclusivity check",
-  deliverables: "deliverables in writing",
-  payment: "payment terms",
+/** Active deals a creator should keep going (the owner's
+ *  pipeline target). */
+export const LOOP_PIPELINE_TARGET = 3;
+/** Days with no recorded movement before a talk counts as gone
+ *  quiet (the owner's number). */
+export const LOOP_FOLLOW_UP_DAYS = 3;
+
+const bySeverity = (a: LoopItem, b: LoopItem) =>
+  LOOP_SEVERITY_RANK[b.tone] - LOOP_SEVERITY_RANK[a.tone];
+
+const joinAnd = (a: string[]): string =>
+  a.length < 2
+    ? a.join("")
+    : `${a.slice(0, -1).join(", ")} and ${a[a.length - 1]}`;
+
+/* ---------- 01 FIND ---------- */
+function loopFind(input: CreatorLoopInput): LoopStep {
+  const deals = input.deals;
+  const review = input.brands ? neglectedOpportunities(deals, input.brands) : [];
+  const items: LoopItem[] = review.map((b) => ({
+    id: b.id,
+    title: b.name,
+    meta:
+      b.rate != null
+        ? `${b.rate}% commission, ${CAP_LABEL[b.cap].toLowerCase()}`
+        : `Commission ${CAP_LABEL[b.cap].toLowerCase()}`,
+    tone: "attention",
+    actionLabel: "Review",
+    href: `/brands/${b.id}`,
+  }));
+  const active = deals.filter(
+    (d) => d.stage !== "paid" && d.stage !== "lost"
+  ).length;
+  if (items.length > 0) {
+    return {
+      id: "find",
+      label: "FIND",
+      status: "attention",
+      headline: `${plural(items.length, "saved brand")} to review`,
+      detail: "Saved by you and never pitched. The strongest offer is first.",
+      ctaLabel: `Review ${items[0].title}`,
+      ctaHref: items[0].href,
+      focus: items[0],
+      items,
+    };
+  }
+  if (active < LOOP_PIPELINE_TARGET) {
+    return {
+      id: "find",
+      label: "FIND",
+      status: "attention",
+      headline: `Pipeline is thin: ${plural(active, "active deal")}`,
+      detail: `Line up ${plural(LOOP_PIPELINE_TARGET - active, "more brand")} to stay booked.`,
+      ctaLabel: "Discover brands",
+      ctaHref: "/brands",
+      focus: null,
+      items,
+    };
+  }
+  return {
+    id: "find",
+    label: "FIND",
+    status: "clear",
+    headline: `Pipeline healthy · ${plural(active, "active deal")}`,
+    detail: "No saved brands waiting for a pitch.",
+    ctaLabel: "Browse brands",
+    ctaHref: "/brands",
+    focus: null,
+    items,
+  };
+}
+
+/* ---------- 02 NEGOTIATE ---------- */
+function loopNegotiate(input: CreatorLoopInput, now: Date): LoopStep {
+  const talks = input.deals.filter(
+    (d) => d.stage === "pitched" || d.stage === "negotiating"
+  );
+  /** Whole days since the deal last moved: its latest stage-
+   *  history entry, else its updated_at (lastContact). */
+  const idleOf = (d: GalaxyDeal): number => {
+    const ts = input.lastActivityByDeal?.[d.id] ?? d.updatedAt ?? "";
+    const key = ts ? ts.slice(0, 10) : d.lastContact;
+    return key ? Math.max(0, daysAgo(key, now)) : 0;
+  };
+  const rows = talks.map((d) => {
+    const idle = idleOf(d);
+    const quiet = idle >= LOOP_FOLLOW_UP_DAYS;
+    const item: LoopItem = {
+      id: d.id,
+      title: d.brandName,
+      meta: quiet
+        ? `${fmtMoney(d.amountCents)} · no reply in ${plural(idle, "day")}`
+        : `${fmtMoney(d.amountCents)} · updated ${
+            idle === 0 ? "today" : idle === 1 ? "yesterday" : `${idle} days ago`
+          }`,
+      tone: quiet ? "attention" : "clear",
+      actionLabel: quiet ? "Follow up" : "Open",
+      href: "/deals",
+    };
+    return { d, idle, quiet, item };
+  });
+  const items = rows
+    .slice()
+    .sort((a, b) => bySeverity(a.item, b.item) || b.idle - a.idle)
+    .map((r) => r.item);
+  if (talks.length === 0) {
+    return {
+      id: "negotiate",
+      label: "NEGOTIATE",
+      status: "clear",
+      headline: "No open negotiations",
+      detail: "Pitch a brand from Find to start a deal.",
+      ctaLabel: "Start a pitch",
+      ctaHref: "/brands",
+      focus: null,
+      items,
+    };
+  }
+  const quiet = rows
+    .filter((r) => r.quiet)
+    .sort((a, b) => b.idle - a.idle);
+  if (quiet.length > 0) {
+    const top = quiet[0];
+    return {
+      id: "negotiate",
+      label: "NEGOTIATE",
+      status: "attention",
+      headline: `Follow up with ${top.d.brandName}`,
+      detail: `No reply in ${plural(top.idle, "day")}. A short nudge keeps the deal moving.`,
+      ctaLabel: `Follow up with ${top.d.brandName}`,
+      ctaHref: "/deals",
+      focus: top.item,
+      items,
+    };
+  }
+  const total = talks.reduce((s, d) => s + (d.amountCents ?? 0), 0);
+  return {
+    id: "negotiate",
+    label: "NEGOTIATE",
+    status: "clear",
+    headline: `${plural(talks.length, "deal")} in talks · ${fmtMoney(total)}`,
+    detail: `Nothing has gone quiet — follow-ups start at ${LOOP_FOLLOW_UP_DAYS} quiet days.`,
+    ctaLabel: "View negotiations",
+    ctaHref: "/deals",
+    focus: null,
+    items,
+  };
+}
+
+/* ---------- 03 PROTECT ---------- */
+/** The protection checks, in protectionGaps' rule order, with
+ *  the owner's phrases and why-lines. His five map to the real
+ *  deal_protection record as: signed → contract_reviewed,
+ *  paymentTerms → payment_terms_agreed, usageRights →
+ *  usage_rights_set; killFee and revisionCap have NO columns
+ *  and are not checked. The record's own exclusivity and
+ *  deliverables items are checked too. */
+const LOOP_PROTECTION: Record<
+  ProtectionGapId,
+  { label: string; phrase: string; why: string }
+> = {
+  contract: {
+    label: "Signed contract",
+    phrase: "a signed contract",
+    why: "Nothing is enforceable until both sides sign.",
+  },
+  usage: {
+    label: "Usage-rights limit",
+    phrase: "a usage-rights limit",
+    why: "Cap how long and where the brand can run your content.",
+  },
+  exclusivity: {
+    label: "Exclusivity check",
+    phrase: "an exclusivity check",
+    why: "Know whether the brand expects you off competitors, and for how long, before you agree.",
+  },
+  deliverables: {
+    label: "Deliverables in writing",
+    phrase: "deliverables in writing",
+    why: "Agree the exact deliverables in writing so the scope can't creep.",
+  },
+  payment: {
+    label: "Payment terms",
+    phrase: "payment terms",
+    why: "Set a due date (e.g. Net 30) so a late payment is clearly late.",
+  },
 };
 
-export function creatorLoop(input: CreatorLoopInput): LoopStep[] {
-  const now = input.now ?? new Date();
-  const deals = input.deals;
-  const accepting = input.acceptingCount.toLocaleString("en-US");
-
-  /* FIND — the start of the loop gets "Start here" energy only
-   * when the creator truly has nothing in play. */
-  const findStatus: LoopStatus =
-    input.savedCount === 0 && deals.length === 0 ? "priority" : "calm";
-  const findProgress =
-    input.savedCount === 0 && deals.length === 0
-      ? `No brands saved yet — ${accepting} are accepting pitches`
-      : input.savedCount > 0
-        ? `${plural(input.savedCount, "brand")} saved · ${accepting} accepting pitches`
-        : `${accepting} accepting pitches · ${plural(deals.filter((d) => d.stage !== "lost").length, "deal")} in play`;
-
-  /* NEGOTIATE — quiet talks first (money already in motion), then
-   * saved-but-never-pitched brands. */
-  const stale = deals.filter(
-    (d) =>
-      (d.stage === "pitched" && daysAgo(d.lastContact, now) >= 5) ||
-      (d.stage === "negotiating" && daysAgo(d.lastContact, now) >= 4)
-  );
-  const neverPitched = input.brands
-    ? neglectedOpportunities(deals, input.brands).length
-    : 0;
-  const openTalks = deals.filter(
-    (d) => d.stage === "pitched" || d.stage === "negotiating"
-  ).length;
-  const agreed = deals.filter(
-    (d) =>
-      d.stage === "contracted" ||
-      d.stage === "delivering" ||
-      d.stage === "invoiced" ||
-      d.stage === "paid"
-  ).length;
-  let negotiateStatus: LoopStatus = "calm";
-  let negotiateProgress: string;
-  if (stale.length > 0) {
-    negotiateStatus = "gap";
-    negotiateProgress = `${plural(stale.length, "deal")} gone quiet — follow up`;
-  } else if (neverPitched > 0) {
-    negotiateStatus = "gap";
-    negotiateProgress = `${plural(neverPitched, "saved brand")} never pitched`;
-  } else if (openTalks > 0) {
-    negotiateProgress = `${plural(openTalks, "deal")} in pitch or negotiation${agreed > 0 ? ` · ${plural(agreed, "deal")} agreed` : ""}`;
-  } else if (agreed > 0) {
-    negotiateProgress = `${plural(agreed, "deal")} agreed — terms settled`;
-  } else {
-    negotiateProgress = "No pitches out yet";
-  }
-
-  /* PROTECT — contracted-or-later deals; the line names the most
-   * common missing item (ties break by the protection rule order,
-   * which is the order protectionGaps returns). */
-  const protectable = deals.filter(
+function loopProtect(input: CreatorLoopInput): LoopStep {
+  const agreed = input.deals.filter(
     (d) =>
       d.stage === "contracted" || d.stage === "delivering" || d.stage === "invoiced"
   );
-  const gapTallies = new Map<ProtectionGapId, number>();
-  for (const d of protectable) {
-    for (const g of protectionGaps(d, input.protectionByDeal?.[d.id])) {
-      gapTallies.set(g.id, (gapTallies.get(g.id) ?? 0) + 1);
-    }
-  }
-  let protectStatus: LoopStatus = "calm";
-  let protectProgress: string;
-  if (protectable.length === 0) {
-    protectProgress = "No agreements yet";
-  } else if (gapTallies.size === 0) {
-    protectProgress = "All active deals protected";
-  } else {
-    protectStatus = "gap";
-    let topId: ProtectionGapId = "contract";
-    let topCount = -1;
-    for (const id of ["contract", "usage", "exclusivity", "deliverables", "payment"] as ProtectionGapId[]) {
-      const c = gapTallies.get(id) ?? 0;
-      if (c > topCount) {
-        topId = id;
-        topCount = c;
-      }
-    }
-    protectProgress = `${plural(topCount, "deal")} missing ${GAP_NOUN[topId]}`;
-  }
-
-  /* COLLECT — the ledger's own figures. Awaiting payment is a
-   * priority; overdue is named in the same line. */
-  const ledger = moneyLedger(deals, input.expenses, now);
-  const overdue = overdueDeals(deals, now);
-  let collectStatus: LoopStatus = "calm";
-  let collectProgress: string;
-  if (ledger.invoiced.cents > 0) {
-    collectStatus = "priority";
-    collectProgress = `${plural(ledger.invoiced.lines.length, "deal")} awaiting payment — ${fmtMoney(ledger.invoiced.cents)}${overdue.length ? ` · ${plural(overdue.length, "deal")} overdue` : ""}`;
-  } else if (ledger.collected.thisMonthCents > 0) {
-    collectProgress = `${fmtMoney(ledger.collected.thisMonthCents)} collected this month`;
-  } else {
-    collectProgress = "Nothing awaiting payment";
-  }
-
-  /* GROW — the share checklist, in the order a creator completes
-   * it. Each finished item removes itself from the line. */
-  const record = passportTrackRecord(deals);
-  const summary = audienceSummary(input.snapshots);
-  const remaining: { id: "public" | "share" | "audience"; name: string }[] = [];
-  if (!input.passportPublic)
-    remaining.push({ id: "public", name: "turn on public Passport to share it" });
-  if (!input.passportShareHistory)
-    remaining.push({ id: "share", name: "turn on track-record sharing" });
-  if (input.snapshots.length === 0)
-    remaining.push({ id: "audience", name: "add your audience numbers" });
-  let growStatus: LoopStatus = "calm";
-  let growProgress: string;
-  if (!input.passportPublic) {
-    growStatus = "gap";
-    growProgress = "Not public yet — turn on public Passport to share it";
-  } else if (remaining.length > 0) {
-    growStatus = "gap";
-    growProgress = `${remaining.length === 1 ? "1 step" : `${remaining.length} steps`} left: ${remaining[0].name}`;
-  } else {
-    const parts = ["Public"];
-    if (record.paidDealCount > 0)
-      parts.push(`${plural(record.paidDealCount, "paid deal")} on record`);
-    if (summary.ownedPct != null) parts.push(`${summary.ownedPct}% audience owned`);
-    growProgress = parts.join(" · ");
-  }
-
-  return [
-    {
-      id: "find",
-      label: "FIND",
-      line: "Discover brand opportunities",
-      progress: findProgress,
-      status: findStatus,
-      href: "/brands",
-    },
-    {
-      id: "negotiate",
-      label: "NEGOTIATE",
-      line: "Turn opportunities into deals",
-      progress: negotiateProgress,
-      status: negotiateStatus,
+  const rows = agreed.map((d) => {
+    const missing = protectionGaps(d, input.protectionByDeal?.[d.id]);
+    const unsigned = missing.some((g) => g.id === "contract");
+    const item: LoopItem = {
+      id: d.id,
+      title: d.brandName,
+      meta: missing.length
+        ? `Missing: ${missing.map((g) => LOOP_PROTECTION[g.id].label).join(", ")}`
+        : "Fully protected",
+      tone: unsigned ? "critical" : missing.length ? "action" : "clear",
+      actionLabel: missing.length ? "Fix" : null,
       href: "/deals",
-    },
-    {
+    };
+    return { d, missing, item };
+  });
+  const items = rows.map((r) => r.item).sort(bySeverity);
+  const gaps = rows
+    .filter((r) => r.missing.length > 0)
+    .sort((a, b) => bySeverity(a.item, b.item));
+  if (agreed.length === 0) {
+    return {
       id: "protect",
       label: "PROTECT",
-      line: "Secure your agreements",
-      progress: protectProgress,
-      status: protectStatus,
+      status: "clear",
+      headline: "No active agreements yet",
+      detail: "Every contract you sign will be checked here.",
+      ctaLabel: "See the contract checklist",
+      ctaHref: "/deals",
+      focus: null,
+      items,
+    };
+  }
+  if (gaps.length === 0) {
+    return {
+      id: "protect",
+      label: "PROTECT",
+      status: "clear",
+      headline:
+        agreed.length === 1
+          ? "Your agreement is protected"
+          : agreed.length === 2
+            ? "Both agreements are protected"
+            : `All ${agreed.length} agreements are protected`,
+      detail: "Every active deal has the key protections.",
+      ctaLabel: "View contracts",
+      ctaHref: "/deals",
+      focus: null,
+      items,
+    };
+  }
+  const top = gaps[0];
+  if (top.item.tone === "critical") {
+    return {
+      id: "protect",
+      label: "PROTECT",
+      status: "critical",
+      headline: `${top.d.brandName} has no signed contract`,
+      detail: LOOP_PROTECTION.contract.why,
+      ctaLabel: `Get ${top.d.brandName} signed`,
+      ctaHref: "/deals",
+      focus: top.item,
+      items,
+    };
+  }
+  const count = gaps.reduce((s, r) => s + r.missing.length, 0);
+  return {
+    id: "protect",
+    label: "PROTECT",
+    status: "action",
+    headline:
+      gaps.length === 1
+        ? `${top.d.brandName} is missing ${joinAnd(top.missing.map((g) => LOOP_PROTECTION[g.id].phrase))}`
+        : `${plural(count, "protection gap")} across ${gaps.length} agreements`,
+    detail: LOOP_PROTECTION[top.missing[0].id].why,
+    ctaLabel: `Fix the ${top.d.brandName} contract`,
+    ctaHref: "/deals",
+    focus: top.item,
+    items,
+  };
+}
+
+/* ---------- 04 COLLECT ---------- */
+function loopCollect(input: CreatorLoopInput, now: Date): LoopStep {
+  const ledger = moneyLedger(input.deals, input.expenses, now);
+  const owed = input.deals.filter(
+    (d) => d.stage === "invoiced" && dealRemainingCents(d) > 0
+  );
+  const rows = owed.map((d) => {
+    const remaining = dealRemainingCents(d);
+    const due = d.invoiceDue ? daysUntil(d.invoiceDue, now) : null;
+    const late = due !== null && due < 0 ? -due : 0;
+    const item: LoopItem = {
+      id: d.id,
+      title: d.brandName,
+      meta:
+        late > 0
+          ? `${fmtMoney(remaining)} · ${plural(late, "day")} overdue`
+          : `${fmtMoney(remaining)} · due ${
+              due === null
+                ? "on receipt"
+                : due === 0
+                  ? "today"
+                  : due === 1
+                    ? "tomorrow"
+                    : `in ${due} days`
+            }`,
+      tone: late > 0 ? "critical" : "attention",
+      actionLabel: late > 0 ? "Remind" : "View",
       href: "/deals",
-    },
-    {
+    };
+    return { d, item, late };
+  });
+  const items = rows.map((r) => r.item).sort(bySeverity);
+  if (owed.length === 0) {
+    return {
       id: "collect",
       label: "COLLECT",
-      line: "Turn completed work into collected money",
-      progress: collectProgress,
-      status: collectStatus,
-      href: "/money",
-    },
-    {
+      status: "clear",
+      headline: "Nothing awaiting payment",
+      detail:
+        ledger.collected.cents > 0
+          ? `${fmtMoney(ledger.collected.cents)} collected so far.`
+          : "Finished deals will show up here until they're paid.",
+      ctaLabel: "View earnings",
+      ctaHref: "/money",
+      focus: null,
+      items,
+    };
+  }
+  const overdueRows = rows.filter((r) => r.late > 0);
+  const notes: string[] = [];
+  if (overdueRows.length === 1)
+    notes.push(
+      `${overdueRows[0].d.brandName} is ${plural(overdueRows[0].late, "day")} overdue`
+    );
+  else if (overdueRows.length > 1)
+    notes.push(`${overdueRows.length} invoices are overdue`);
+  const first = rows.slice().sort((a, b) => bySeverity(a.item, b.item))[0];
+  return {
+    id: "collect",
+    label: "COLLECT",
+    status: overdueRows.length ? "critical" : "action",
+    headline: `${plural(owed.length, "deal")} awaiting payment · ${fmtMoney(ledger.invoiced.cents)}`,
+    detail: notes.length
+      ? notes.join(". ") + "."
+      : "Every invoice is sent and on schedule.",
+    ctaLabel:
+      first.late > 0 ? `Send a reminder to ${first.d.brandName}` : "Track payments",
+    ctaHref: first.late > 0 ? "/deals" : "/money",
+    focus: first.item,
+    items,
+  };
+}
+
+/* ---------- 05 GROW ---------- */
+type GrowCheck = { id: string; label: string; phrase: string; done: boolean };
+
+function loopGrow(input: CreatorLoopInput): LoopStep {
+  const checks: GrowCheck[] = [
+    { id: "bio", label: "Write your bio", phrase: "write your bio", done: input.profileBio ?? false },
+    { id: "niches", label: "Choose your niches", phrase: "choose your niches", done: input.profileNiches ?? false },
+    { id: "public", label: "Make your Passport public", phrase: "make your Passport public", done: input.passportPublic },
+    { id: "share", label: "Share your track record", phrase: "turn on track-record sharing", done: input.passportShareHistory },
+    { id: "audience", label: "Add your audience numbers", phrase: "add your audience numbers", done: input.snapshots.length > 0 },
+  ];
+  const items: LoopItem[] = checks
+    .map((c) => ({
+      id: c.id,
+      title: c.label,
+      meta: c.done ? "Done" : "Not done yet",
+      tone: (c.done ? "clear" : "attention") as LoopSeverity,
+      actionLabel: c.done ? null : "Finish",
+      href: "/passport",
+      done: c.done,
+    }))
+    .sort((a, b) => Number(a.done) - Number(b.done));
+  const left = checks.filter((c) => !c.done);
+  const doneCount = checks.length - left.length;
+  if (input.passportPublic && left.length === 0) {
+    return {
       id: "grow",
       label: "GROW",
-      line: "Build credibility and audience independence",
-      progress: growProgress,
-      status: growStatus,
-      href: "/passport",
-    },
+      status: "clear",
+      headline: "Your Passport is live",
+      detail: "Brands can find and verify you. Keep your track record current.",
+      ctaLabel: "View Passport",
+      ctaHref: "/passport",
+      focus: null,
+      items,
+    };
+  }
+  /* Everything except going public is done (public is itself
+   *  one of the five checks, so this is the only way to be
+   *  complete-but-private). */
+  if (left.length === 1 && left[0].id === "public") {
+    return {
+      id: "grow",
+      label: "GROW",
+      status: "action",
+      headline: "Passport is ready to go public",
+      detail: "Everything else is complete. Publish it so brands can find you.",
+      ctaLabel: "Publish Passport",
+      ctaHref: "/passport",
+      focus: null,
+      items,
+    };
+  }
+  const next = left[0];
+  return {
+    id: "grow",
+    label: "GROW",
+    status: "attention",
+    headline: `Passport ${doneCount}/${checks.length} done · ${plural(left.length, "step")} to go public`,
+    detail: `Still needed: ${joinAnd(left.map((c) => c.phrase))}.`,
+    ctaLabel: `Next: ${next.label}`,
+    ctaHref: "/passport",
+    focus: items.find((i) => i.id === next.id) ?? null,
+    items,
+  };
+}
+
+/* ---------- the loop ---------- */
+export function creatorLoop(input: CreatorLoopInput): LoopStep[] {
+  const now = input.now ?? new Date();
+  return [
+    loopFind(input),
+    loopNegotiate(input, now),
+    loopProtect(input),
+    loopCollect(input, now),
+    loopGrow(input),
   ];
 }
+
+/** The single step to act on first: highest severity wins, ties
+ *  break money-first (collect > protect > negotiate > find >
+ *  grow). Null when every step is clear. */
+export function loopNextMove(steps: LoopStep[]): LoopStep | null {
+  const ranked = steps
+    .filter((s) => LOOP_SEVERITY_RANK[s.status] > 0)
+    .sort(
+      (a, b) =>
+        LOOP_SEVERITY_RANK[b.status] - LOOP_SEVERITY_RANK[a.status] ||
+        LOOP_TIEBREAK[b.id] - LOOP_TIEBREAK[a.id]
+    );
+  return ranked[0] ?? null;
+}
+
+/** Steps at "On track" — the health bar's clear count. */
+export const loopClearCount = (steps: LoopStep[]): number =>
+  steps.filter((s) => s.status === "clear").length;
 
 /* ================= Data export (trust queue #2) ===================
  * "Creators must be able to retrieve their business records."

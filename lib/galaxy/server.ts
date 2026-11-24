@@ -61,6 +61,7 @@ export async function fetchProfile(
     categories: profile?.contentCategories ?? [],
     platforms: profile?.platforms ?? [],
     audience: profile?.audienceDemographics ?? "",
+    description: profile?.businessDescription ?? "",
     weeklyGoal:
       (prefs as { weekly_post_goal: number } | null)?.weekly_post_goal ?? 5,
   };
@@ -132,6 +133,33 @@ export async function fetchSupportTickets(
   return ((data ?? []) as SupportTicketRowLike[]).map((r) =>
     rowToSupportTicket(r)
   );
+}
+
+/** Latest deal_stage_history entry per deal (ISO timestamps),
+ *  for the caller's deals only — the Creator Loop's Negotiate
+ *  idle clock. Rows arrive newest-first, so the first row seen
+ *  per deal is its latest movement. Paged via fetchAllPages: a
+ *  bare select would silently truncate at 1,000 rows and make
+ *  active talks look quiet. Deals with no history rows are
+ *  simply absent — core falls back to the deal's updated_at. */
+export async function fetchDealLastActivity(
+  supabase: ServerClient,
+  userId: string
+): Promise<Record<string, string>> {
+  const { data } = await fetchAllPages((from, to) =>
+    supabase
+      .from("deal_stage_history")
+      .select("deal_id, created_at")
+      .eq("user_id", userId)
+      .order("created_at", { ascending: false })
+      .order("id", { ascending: false })
+      .range(from, to)
+  );
+  const out: Record<string, string> = {};
+  for (const r of (data ?? []) as { deal_id: string; created_at: string }[]) {
+    if (!(r.deal_id in out)) out[r.deal_id] = r.created_at;
+  }
+  return out;
 }
 
 export async function fetchPosts(
@@ -271,7 +299,7 @@ export async function fetchDirectory(
       fetchAllPages((from, to) =>
         supabase
           .from("brand_evidence")
-          .select("brand_id, source_type, confidence, last_checked_at, observed_at")
+          .select("brand_id, source_type, source_url, confidence, last_checked_at, observed_at")
           .order("id", { ascending: true })
           .range(from, to)
       ),

@@ -18,6 +18,7 @@ import {
 } from "@/lib/galaxy/core";
 import {
   fetchAudienceSnapshots,
+  fetchDealLastActivity,
   fetchDeals,
   fetchDirectory,
   fetchExpenses,
@@ -44,7 +45,7 @@ export default async function TodayPage() {
   } = await supabase.auth.getUser();
   if (!user) return null;
 
-  const [profile, deals, posts, savedIds, scriptCount, income, protections, expenses, snapshots, shareRes] = await Promise.all([
+  const [profile, deals, posts, savedIds, scriptCount, income, protections, expenses, snapshots, lastActivity, shareRes] = await Promise.all([
     fetchProfile(supabase, user.id),
     fetchDeals(supabase, user.id),
     fetchPosts(supabase, user.id),
@@ -54,6 +55,7 @@ export default async function TodayPage() {
     fetchProtections(supabase, user.id),
     fetchExpenses(supabase, user.id),
     fetchAudienceSnapshots(supabase, user.id),
+    fetchDealLastActivity(supabase, user.id),
     supabase
       .from("profiles")
       .select("passport_slug, passport_public, passport_share_history")
@@ -80,10 +82,13 @@ export default async function TodayPage() {
     acceptingCount: brands.filter((b) => b.accepting).length,
     brands,
     protectionByDeal: protections,
+    lastActivityByDeal: lastActivity,
     snapshots,
     passportPublic: shareFlags?.passport_public ?? false,
     passportShareHistory: shareFlags?.passport_share_history ?? false,
     passportSlug: shareFlags?.passport_slug ?? null,
+    profileBio: (profile.description ?? "").trim().length > 0,
+    profileNiches: profile.categories.length > 0,
     now,
   });
   const publishedDates = posts.filter((p) => p.state === "published").map((p) => p.date);

@@ -14,8 +14,15 @@
 // or invoiced grow; pitched/negotiating money sits in NO bucket;
 // the reconciliation boolean comes from set math and detects a
 // double-counted deal; the loop's Collect figures ARE the
-// ledger's figures; a fully healthy account has no step in
-// priority or gap.
+// ledger's figures; a fully healthy account has every loop step
+// clear and no next move.
+//
+// The Creator Loop section pins the V2 severity model (owner's
+// reference design, 2026-11-23): critical / action / attention /
+// clear with the money-first next-move tie-break, the 3-day
+// follow-up line, the pipeline target of 3, Protect's phrases
+// over the five real deal_protection items, and Grow's checklist
+// of five real fields.
 //
 // Run (from the repo root):
 //   npx tsx scripts/galaxy-trust-fixtures.ts
@@ -25,10 +32,15 @@
 import { readFileSync } from "node:fs";
 import {
   AUDIENCE_METHODOLOGY,
+  LOOP_ACCENT,
+  LOOP_SEVERITY_LABEL,
+  LOOP_SEVERITY_TONE,
   RESERVED_PASSPORT_SLUGS,
   creatorLoop,
   emptyProtection,
   fmtMoney,
+  loopClearCount,
+  loopNextMove,
   moneyLedger,
   passportSlugTaken,
   passportTrackRecord,
@@ -267,10 +279,13 @@ const loopInput = (over: Partial<Parameters<typeof creatorLoop>[0]>): Parameters
   acceptingCount: 2005,
   brands: [],
   protectionByDeal: {},
+  lastActivityByDeal: {},
   snapshots: [],
   passportPublic: false,
   passportShareHistory: false,
   passportSlug: null,
+  profileBio: false,
+  profileNiches: false,
   now: NOW,
   ...over,
 });
@@ -278,165 +293,359 @@ const loopInput = (over: Partial<Parameters<typeof creatorLoop>[0]>): Parameters
 const step = (steps: ReturnType<typeof creatorLoop>, id: string) =>
   steps.find((s) => s.id === id) as ReturnType<typeof creatorLoop>[number];
 
-/* Empty account: Find carries Start-here priority, Grow names its
- * first remaining step, everything else is honestly calm. */
+const fullProtection = (id: string): DealProtection => ({
+  ...emptyProtection(id),
+  contractReviewed: true,
+  deliverablesAgreed: true,
+  paymentTermsAgreed: true,
+  usageRightsSet: true,
+  exclusivityChecked: true,
+});
+
+/* The severity model itself: labels, tones, accents are the
+ * owner's design tokens, pinned so they cannot drift. */
 {
+  check("loop: severity labels", LOOP_SEVERITY_LABEL, {
+    critical: "Act now",
+    action: "To do",
+    attention: "Heads up",
+    clear: "On track",
+  });
+  check("loop: severity tones", LOOP_SEVERITY_TONE, {
+    critical: "#f87171",
+    action: "#fb923c",
+    attention: "#facc15",
+    clear: "#4ade80",
+  });
+  check("loop: stage accents", LOOP_ACCENT, {
+    find: "#60a5fa",
+    negotiate: "#a78bfa",
+    protect: "#2dd4bf",
+    collect: "#fbbf24",
+    grow: "#f472b6",
+  });
   const steps = creatorLoop(loopInput({}));
   check("loop: order never re-sorts", steps.map((s) => s.id), ["find", "negotiate", "protect", "collect", "grow"]);
   check("loop: labels are the owner's words", steps.map((s) => s.label), ["FIND", "NEGOTIATE", "PROTECT", "COLLECT", "GROW"]);
-  check(
-    "loop: short lines are the mock's",
-    steps.map((s) => s.line),
-    [
-      "Discover brand opportunities",
-      "Turn opportunities into deals",
-      "Secure your agreements",
-      "Turn completed work into collected money",
-      "Build credibility and audience independence",
-    ]
-  );
-  check("loop: empty find is priority", step(steps, "find").status, "priority");
-  check(
-    "loop: empty find line",
-    step(steps, "find").progress,
-    "No brands saved yet — 2,005 are accepting pitches"
-  );
-  check("loop: empty negotiate is calm", [step(steps, "negotiate").status, step(steps, "negotiate").progress], ["calm", "No pitches out yet"]);
-  check("loop: empty protect is calm", [step(steps, "protect").status, step(steps, "protect").progress], ["calm", "No agreements yet"]);
-  check("loop: empty collect is calm", [step(steps, "collect").status, step(steps, "collect").progress], ["calm", "Nothing awaiting payment"]);
-  check(
-    "loop: empty grow is a gap naming the public step",
-    [step(steps, "grow").status, step(steps, "grow").progress],
-    ["gap", "Not public yet — turn on public Passport to share it"]
-  );
 }
 
-/* Collect: awaiting payment is priority, with the ledger's own
- * figures; overdue is named in the same line. */
+/* Empty account: Find and Grow ask for attention, the rest is
+ * honestly clear, and Find wins the next move (it outranks Grow
+ * on the tie-break). */
 {
-  const awaiting = [
-    deal({ id: "v1", stage: "invoiced", amountCents: 40000, receivedCents: 10000, invoiceDue: "2026-11-28" }),
-    deal({ id: "v2", stage: "invoiced", amountCents: 20000, invoiceDue: "2026-12-05" }),
-  ];
-  const steps = creatorLoop(loopInput({ deals: awaiting }));
-  const led = moneyLedger(awaiting, [], NOW);
-  check("loop: collect priority when invoices await", step(steps, "collect").status, "priority");
+  const steps = creatorLoop(loopInput({}));
+  check("loop: empty find is attention, pipeline thin", [step(steps, "find").status, step(steps, "find").headline], ["attention", "Pipeline is thin: 0 active deals"]);
+  check("loop: empty find detail", step(steps, "find").detail, "Line up 3 more brands to stay booked.");
+  check("loop: empty negotiate is clear", [step(steps, "negotiate").status, step(steps, "negotiate").headline], ["clear", "No open negotiations"]);
+  check("loop: empty protect is clear", [step(steps, "protect").status, step(steps, "protect").headline], ["clear", "No active agreements yet"]);
+  check("loop: empty collect is clear", [step(steps, "collect").status, step(steps, "collect").headline], ["clear", "Nothing awaiting payment"]);
+  check("loop: empty collect detail", step(steps, "collect").detail, "Finished deals will show up here until they're paid.");
+  check("loop: empty grow headline", step(steps, "grow").headline, "Passport 0/5 done · 5 steps to go public");
   check(
-    "loop: collect line carries the ledger figures",
-    step(steps, "collect").progress,
-    `2 deals awaiting payment — ${fmtMoney(led.invoiced.cents)}`
+    "loop: empty grow detail lists every missing step",
+    step(steps, "grow").detail,
+    "Still needed: write your bio, choose your niches, make your Passport public, turn on track-record sharing and add your audience numbers."
   );
-  const withOverdue = [
-    ...awaiting,
-    deal({ id: "v3", stage: "invoiced", amountCents: 10000, invoiceDue: "2026-11-01" }),
-  ];
-  const steps2 = creatorLoop(loopInput({ deals: withOverdue }));
-  check(
-    "loop: overdue named in the collect line",
-    step(steps2, "collect").progress,
-    "3 deals awaiting payment — $600 · 1 deal overdue"
-  );
-  check("loop: overdue keeps collect at priority", step(steps2, "collect").status, "priority");
+  check("loop: empty grow next step", step(steps, "grow").ctaLabel, "Next: Write your bio");
+  check("loop: empty next move is find (tie-break over grow)", loopNextMove(steps)?.id ?? null, "find");
+  check("loop: empty clear count", loopClearCount(steps), 3);
 }
 
-/* Protect: the gap line names the most common missing item. */
+/* Find: saved brands never pitched are the review items, and
+ * they outrank the thin-pipeline branch. */
 {
-  const full = (id: string): DealProtection => ({ ...emptyProtection(id) });
-  const noUsage = (id: string): DealProtection => ({
-    ...emptyProtection(id),
-    contractReviewed: true,
-    deliverablesAgreed: true,
-    paymentTermsAgreed: true,
-    exclusivityChecked: true,
-    usageRightsSet: false,
-  });
-  const two = [
-    deal({ id: "c1", stage: "contracted", amountCents: 10000 }),
-    deal({ id: "c2", stage: "delivering", amountCents: 20000 }),
-  ];
   const steps = creatorLoop(
-    loopInput({ deals: two, protectionByDeal: { c1: noUsage("c1"), c2: noUsage("c2") } })
+    loopInput({ brands: [brand({ id: "b1", name: "Saved Co", saved: true, rate: 20, cap: "uncapped" })], savedCount: 1 })
   );
-  check("loop: protect gap names the missing item", step(steps, "protect").progress, "2 deals missing usage rights");
-  check("loop: protect gap status", step(steps, "protect").status, "gap");
-  const done = creatorLoop(
+  const find = step(steps, "find");
+  check("loop: saved-never-pitched headline", [find.status, find.headline], ["attention", "1 saved brand to review"]);
+  check(
+    "loop: review item carries the real commission",
+    find.items.map((i) => [i.title, i.meta, i.actionLabel, i.href]),
+    [["Saved Co", "20% commission, uncapped", "Review", "/brands/b1"]]
+  );
+  check("loop: find CTA opens the top brand", [find.ctaLabel, find.ctaHref], ["Review Saved Co", "/brands/b1"]);
+}
+
+/* Find: the pipeline target is 3 active deals. */
+{
+  const two = [
+    deal({ id: "a1", stage: "contracted" }),
+    deal({ id: "a2", stage: "delivering" }),
+  ];
+  const thin = creatorLoop(loopInput({ deals: two }));
+  check("loop: two active deals is thin", [step(thin, "find").status, step(thin, "find").headline, step(thin, "find").detail], ["attention", "Pipeline is thin: 2 active deals", "Line up 1 more brand to stay booked."]);
+  const three = creatorLoop(loopInput({ deals: [...two, deal({ id: "a3", stage: "invoiced" })] }));
+  check("loop: three active deals is healthy", [step(three, "find").status, step(three, "find").headline], ["clear", "Pipeline healthy · 3 active deals"]);
+  const paidOnly = creatorLoop(loopInput({ deals: [deal({ id: "a1", stage: "paid" }), deal({ id: "a2", stage: "lost" })] }));
+  check("loop: paid and lost do not count as active", step(paidOnly, "find").headline, "Pipeline is thin: 0 active deals");
+}
+
+/* Negotiate: the follow-up line is exactly 3 idle days — 2 days
+ * is not flagged. Idle reads stage history first, then the
+ * deal's updated_at. */
+{
+  const talk = deal({ id: "n1", brandName: "Quiet Co", stage: "negotiating", amountCents: 50000 });
+  const threeDays = creatorLoop(
+    loopInput({ deals: [talk], lastActivityByDeal: { n1: "2026-11-20T12:00:00Z" } })
+  );
+  check(
+    "loop: 3 idle days is a follow-up",
+    [step(threeDays, "negotiate").status, step(threeDays, "negotiate").headline, step(threeDays, "negotiate").detail],
+    ["attention", "Follow up with Quiet Co", "No reply in 3 days. A short nudge keeps the deal moving."]
+  );
+  check(
+    "loop: quiet item meta and action",
+    step(threeDays, "negotiate").items.map((i) => [i.meta, i.actionLabel, i.tone]),
+    [["$500 · no reply in 3 days", "Follow up", "attention"]]
+  );
+  const twoDays = creatorLoop(
+    loopInput({ deals: [talk], lastActivityByDeal: { n1: "2026-11-21T12:00:00Z" } })
+  );
+  check(
+    "loop: 2 idle days is not flagged",
+    [step(twoDays, "negotiate").status, step(twoDays, "negotiate").headline],
+    ["clear", "1 deal in talks · $500"]
+  );
+  const fallback = creatorLoop(
+    loopInput({ deals: [deal({ id: "n2", stage: "pitched", lastContact: "2026-11-20" })] })
+  );
+  check("loop: idle falls back to updated_at without history", step(fallback, "negotiate").status, "attention");
+  const historyWins = creatorLoop(
     loopInput({
-      deals: two,
+      deals: [deal({ id: "n3", stage: "pitched", lastContact: "2026-11-22" })],
+      lastActivityByDeal: { n3: "2026-11-18T09:00:00Z" },
+    })
+  );
+  check("loop: stage history outranks a fresher updated_at", step(historyWins, "negotiate").headline, "Follow up with Brand");
+}
+
+/* Protect: the five real deal_protection items. A missing
+ * contract is critical; other gaps are action, named in the
+ * owner's phrases. */
+{
+  const unsigned = creatorLoop(
+    loopInput({ deals: [deal({ id: "c1", brandName: "Unsigned Co", stage: "contracted" })] })
+  );
+  const protect = step(unsigned, "protect");
+  check(
+    "loop: unsigned contract is critical",
+    [protect.status, protect.headline, protect.detail, protect.ctaLabel],
+    ["critical", "Unsigned Co has no signed contract", "Nothing is enforceable until both sides sign.", "Get Unsigned Co signed"]
+  );
+  check(
+    "loop: unsigned item lists every missing protection",
+    protect.items.map((i) => [i.meta, i.tone, i.actionLabel]),
+    [["Missing: Signed contract, Usage-rights limit, Exclusivity check, Deliverables in writing, Payment terms", "critical", "Fix"]]
+  );
+  const partial: DealProtection = {
+    ...fullProtection("c2"),
+    usageRightsSet: false,
+    deliverablesAgreed: false,
+  };
+  const gapsOnly = creatorLoop(
+    loopInput({
+      deals: [deal({ id: "c2", brandName: "Gap Co", stage: "delivering" })],
+      protectionByDeal: { c2: partial },
+    })
+  );
+  check(
+    "loop: gap headline names the missing phrases",
+    [step(gapsOnly, "protect").status, step(gapsOnly, "protect").headline, step(gapsOnly, "protect").detail],
+    ["action", "Gap Co is missing a usage-rights limit and deliverables in writing", "Cap how long and where the brand can run your content."]
+  );
+  const twoDeals = creatorLoop(
+    loopInput({
+      deals: [
+        deal({ id: "c3", brandName: "A Co", stage: "contracted" }),
+        deal({ id: "c4", brandName: "B Co", stage: "invoiced" }),
+      ],
       protectionByDeal: {
-        c1: { ...full("c1"), contractReviewed: true, deliverablesAgreed: true, paymentTermsAgreed: true, usageRightsSet: true, exclusivityChecked: true },
-        c2: { ...full("c2"), contractReviewed: true, deliverablesAgreed: true, paymentTermsAgreed: true, usageRightsSet: true, exclusivityChecked: true },
+        c3: { ...fullProtection("c3"), usageRightsSet: false },
+        c4: { ...fullProtection("c4"), usageRightsSet: false, paymentTermsAgreed: false },
       },
     })
   );
-  check("loop: all protected is calm", [step(done, "protect").status, step(done, "protect").progress], ["calm", "All active deals protected"]);
-}
-
-/* Negotiate: stale talks and never-pitched saved brands are gaps. */
-{
-  const stale = creatorLoop(
-    loopInput({ deals: [deal({ id: "n1", stage: "pitched", lastContact: "2026-11-10" })] })
-  );
-  check("loop: stale pitch is a gap", [step(stale, "negotiate").status, step(stale, "negotiate").progress], ["gap", "1 deal gone quiet — follow up"]);
-  const fresh = creatorLoop(
-    loopInput({ deals: [deal({ id: "n1", stage: "pitched", lastContact: "2026-11-22" })] })
-  );
-  check("loop: fresh pitch is calm", step(fresh, "negotiate").status, "calm");
-  const neglected = creatorLoop(
-    loopInput({ brands: [brand({ id: "b1", name: "Saved Co", saved: true })], savedCount: 1 })
-  );
   check(
-    "loop: saved-never-pitched is a negotiate gap",
-    [step(neglected, "negotiate").status, step(neglected, "negotiate").progress],
-    ["gap", "1 saved brand never pitched"]
+    "loop: gaps across agreements are counted",
+    step(twoDeals, "protect").headline,
+    "3 protection gaps across 2 agreements"
   );
-}
-
-/* Grow: each completed checklist item removes itself. */
-{
-  const pub = creatorLoop(loopInput({ passportPublic: true, passportSlug: "x-1" }));
-  check("loop: grow after public names sharing next", step(pub, "grow").progress, "2 steps left: turn on track-record sharing");
-  const shared = creatorLoop(
-    loopInput({ passportPublic: true, passportShareHistory: true, passportSlug: "x-1" })
-  );
-  check("loop: grow after sharing names audience next", step(shared, "grow").progress, "1 step left: add your audience numbers");
-  const done = creatorLoop(
+  const oneDone = creatorLoop(
     loopInput({
-      passportPublic: true,
-      passportShareHistory: true,
-      passportSlug: "x-1",
-      snapshots: [snap({ id: "s1", platform: "tiktok", followers: 10000 }), snap({ id: "s2", platform: "email", followers: 500 })],
+      deals: [deal({ id: "c5", stage: "contracted" })],
+      protectionByDeal: { c5: fullProtection("c5") },
     })
   );
-  check("loop: grow complete is calm", step(done, "grow").status, "calm");
-  check("loop: grow complete shows the owned share", step(done, "grow").progress, "Public · 5% audience owned");
+  check("loop: one protected agreement", step(oneDone, "protect").headline, "Your agreement is protected");
+  const threeDone = creatorLoop(
+    loopInput({
+      deals: [deal({ id: "c6", stage: "contracted" }), deal({ id: "c7", stage: "delivering" }), deal({ id: "c8", stage: "invoiced" })],
+      protectionByDeal: { c6: fullProtection("c6"), c7: fullProtection("c7"), c8: fullProtection("c8") },
+    })
+  );
+  check("loop: all protected is clear", [step(threeDone, "protect").status, step(threeDone, "protect").headline], ["clear", "All 3 agreements are protected"]);
 }
 
-/* A fully healthy account: no step in priority or gap. */
+/* Collect: the headline total IS the ledger's invoiced bucket,
+ * partial payments included; overdue is critical. */
+{
+  const deals = [
+    deal({ id: "v1", stage: "invoiced", amountCents: 40000, receivedCents: 10000, invoiceDue: "2026-11-28" }),
+  ];
+  const steps = creatorLoop(loopInput({ deals }));
+  const led = moneyLedger(deals, [], NOW);
+  check("loop: collect headline equals the ledger invoiced bucket", step(steps, "collect").headline, `1 deal awaiting payment · ${fmtMoney(led.invoiced.cents)}`);
+  check("loop: partially paid invoice is action, not critical", step(steps, "collect").status, "action");
+  check(
+    "loop: invoiced item counts down to the due date",
+    step(steps, "collect").items.map((i) => [i.meta, i.actionLabel, i.tone]),
+    [["$300 · due in 5 days", "View", "attention"]]
+  );
+  check("loop: collect CTA tracks payments when nothing is overdue", [step(steps, "collect").ctaLabel, step(steps, "collect").ctaHref], ["Track payments", "/money"]);
+
+  const overdue = creatorLoop(
+    loopInput({ deals: [deal({ id: "v2", brandName: "Late Co", stage: "invoiced", amountCents: 30000, invoiceDue: "2026-11-17" })] })
+  );
+  check(
+    "loop: overdue invoice is critical",
+    [step(overdue, "collect").status, step(overdue, "collect").detail, step(overdue, "collect").ctaLabel, step(overdue, "collect").ctaHref],
+    ["critical", "Late Co is 6 days overdue.", "Send a reminder to Late Co", "/deals"]
+  );
+  check(
+    "loop: overdue item meta",
+    step(overdue, "collect").items.map((i) => [i.meta, i.actionLabel, i.tone]),
+    [["$300 · 6 days overdue", "Remind", "critical"]]
+  );
+  const dueToday = creatorLoop(
+    loopInput({ deals: [deal({ id: "v3", stage: "invoiced", amountCents: 10000, invoiceDue: "2026-11-23" })] })
+  );
+  check("loop: due today reads today", step(dueToday, "collect").items[0].meta, "$100 · due today");
+  const onReceipt = creatorLoop(
+    loopInput({ deals: [deal({ id: "v4", stage: "invoiced", amountCents: 10000, invoiceDue: null })] })
+  );
+  check("loop: no due date reads on receipt", step(onReceipt, "collect").items[0].meta, "$100 · due on receipt");
+  const paid = creatorLoop(
+    loopInput({ deals: [deal({ id: "v5", stage: "paid", amountCents: 50000, receivedCents: 50000, paidOn: "2026-11-01" })] })
+  );
+  check("loop: collected so far from the ledger", [step(paid, "collect").status, step(paid, "collect").detail], ["clear", "$500 collected so far."]);
+}
+
+/* Next move: severity first, then money-first tie-breaks. */
+{
+  const both = creatorLoop(
+    loopInput({
+      deals: [
+        deal({ id: "m1", brandName: "Late Co", stage: "invoiced", amountCents: 30000, invoiceDue: "2026-11-17" }),
+        deal({ id: "m2", brandName: "Unsigned Co", stage: "contracted" }),
+      ],
+    })
+  );
+  check("loop: collect critical beats protect critical", loopNextMove(both)?.id ?? null, "collect");
+  const unsignedOnly = creatorLoop(
+    loopInput({ deals: [deal({ id: "m3", brandName: "Unsigned Co", stage: "contracted" })] })
+  );
+  check("loop: unsigned contract alone is the next move", [loopNextMove(unsignedOnly)?.id ?? null, loopNextMove(unsignedOnly)?.status ?? null], ["protect", "critical"]);
+  const actionVsAttention = creatorLoop(
+    loopInput({
+      deals: [
+        deal({ id: "m4", brandName: "Gap Co", stage: "delivering" }),
+        deal({ id: "m5", brandName: "Quiet Co", stage: "negotiating", amountCents: 10000 }),
+      ],
+      protectionByDeal: { m4: { ...fullProtection("m4"), usageRightsSet: false } },
+      lastActivityByDeal: { m5: "2026-11-19T12:00:00Z" },
+    })
+  );
+  check("loop: action beats attention in the next move", loopNextMove(actionVsAttention)?.id ?? null, "protect");
+}
+
+/* Grow: the five checklist items are real fields; the count
+ * math and the remaining-steps line are pinned. */
+{
+  const partial = creatorLoop(loopInput({ profileBio: true, profileNiches: true }));
+  const grow = step(partial, "grow");
+  check("loop: grow counts completed items", grow.headline, "Passport 2/5 done · 3 steps to go public");
+  check(
+    "loop: grow names what is still needed",
+    grow.detail,
+    "Still needed: make your Passport public, turn on track-record sharing and add your audience numbers."
+  );
+  check("loop: grow next step is the first missing item", grow.ctaLabel, "Next: Make your Passport public");
+  check(
+    "loop: grow items list unfinished first",
+    grow.items.map((i) => [i.id, i.done]),
+    [["public", false], ["share", false], ["audience", false], ["bio", true], ["niches", true]]
+  );
+  const ready = creatorLoop(
+    loopInput({
+      profileBio: true,
+      profileNiches: true,
+      passportShareHistory: true,
+      snapshots: [snap({ id: "s1" })],
+    })
+  );
+  check(
+    "loop: complete but private is action",
+    [step(ready, "grow").status, step(ready, "grow").headline, step(ready, "grow").ctaLabel],
+    ["action", "Passport is ready to go public", "Publish Passport"]
+  );
+  const publicOnly = creatorLoop(loopInput({ passportPublic: true, passportSlug: "x-1" }));
+  check(
+    "loop: public alone is not finished",
+    [step(publicOnly, "grow").status, step(publicOnly, "grow").headline],
+    ["attention", "Passport 1/5 done · 4 steps to go public"]
+  );
+}
+
+/* A fully healthy account: every step clear, no next move. */
 {
   const healthyDeals = [
     deal({ id: "p1", brandName: "Alpha", stage: "paid", amountCents: 50000, receivedCents: 50000, invoiceSentOn: "2026-09-01", paidOn: "2026-09-15" }),
     deal({ id: "c1", brandName: "Beta", stage: "contracted", amountCents: 25000, invoiceDue: "2026-12-01" }),
+    deal({ id: "c2", brandName: "Gamma", stage: "contracted", amountCents: 25000 }),
+    deal({ id: "c3", brandName: "Delta", stage: "contracted", amountCents: 25000 }),
   ];
-  const prot: DealProtection = {
-    ...emptyProtection("c1"),
-    contractReviewed: true,
-    deliverablesAgreed: true,
-    paymentTermsAgreed: true,
-    usageRightsSet: true,
-    exclusivityChecked: true,
-  };
   const steps = creatorLoop(
     loopInput({
       deals: healthyDeals,
       savedCount: 3,
-      protectionByDeal: { c1: prot },
+      protectionByDeal: { c1: fullProtection("c1"), c2: fullProtection("c2"), c3: fullProtection("c3") },
       snapshots: [snap({ id: "s1", platform: "tiktok", followers: 8000 })],
       passportPublic: true,
       passportShareHistory: true,
       passportSlug: "x-1",
+      profileBio: true,
+      profileNiches: true,
     })
   );
-  check("loop: healthy account — every step calm", steps.map((s) => s.status), ["calm", "calm", "calm", "calm", "calm"]);
+  check("loop: healthy account — every step clear", steps.map((s) => s.status), ["clear", "clear", "clear", "clear", "clear"]);
+  check("loop: healthy account has no next move", loopNextMove(steps)?.id ?? null, null);
+  check("loop: healthy clear count", loopClearCount(steps), 5);
+  check("loop: healthy grow is live", step(steps, "grow").headline, "Your Passport is live");
+  check("loop: healthy collect reports what was collected", step(steps, "collect").detail, "$500 collected so far.");
+}
+
+/* Wiring: the panel renders the V2 pieces and the idle clock is
+ * fed from real stage history through the server path. */
+{
+  const today = readFileSync("app/today/TodayClient.tsx", "utf8");
+  check(
+    "loop wiring: Today renders health, next move and the loop footer",
+    today.includes("Loop health") && today.includes("YOUR NEXT MOVE") && today.includes("Every stage is clear") && today.includes("GROW → FIND AGAIN"),
+    true
+  );
+  const page = readFileSync("app/today/page.tsx", "utf8");
+  check(
+    "loop wiring: Today page feeds stage history and profile flags",
+    page.includes("fetchDealLastActivity") && page.includes("lastActivityByDeal") && page.includes("profileBio") && page.includes("profileNiches"),
+    true
+  );
+  const server = readFileSync("lib/galaxy/server.ts", "utf8");
+  check(
+    "loop wiring: stage history fetch is user-scoped",
+    server.includes('from("deal_stage_history")') && server.includes('.eq("user_id", userId)'),
+    true
+  );
 }
 
 /* ---------------- Part 4: the chosen Passport address ------------

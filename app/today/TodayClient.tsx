@@ -7,11 +7,16 @@ import {
   ACTIVE_STAGES,
   CAP_LABEL,
   EMPTY_ANSWERS,
+  LOOP_ACCENT,
+  LOOP_SEVERITY_LABEL,
+  LOOP_SEVERITY_TONE,
   QUESTIONS,
   STAGES,
   firstMoveTitle,
   fmtMoney,
   isOverdue,
+  loopClearCount,
+  loopNextMove,
   plural,
   reminderText as mkReminder,
   shortMoney,
@@ -84,6 +89,7 @@ type Props = {
 export default function TodayClient(p: Props) {
   const router = useRouter();
   const [ask, setAsk] = useState("all");
+  const [loopOpen, setLoopOpen] = useState<LoopStepId | null>(null);
   const [dealId, setDealId] = useState<string | null>(null);
   const [pitchId, setPitchId] = useState<string | null>(null);
   const [profileOpen, setProfileOpen] = useState(false);
@@ -455,33 +461,44 @@ export default function TodayClient(p: Props) {
     </section>
   );
 
-  /* The Creator Loop — the product's spine, per the owner's
-   * design mock ("The final experience"): numbered steps with
-   * tinted icon tiles, a live progress line under each step's
-   * short line, and priority steps visually elevated. Order on
-   * screen never changes — it is a cycle, not a ranking. */
-  const LOOP_TILE: Record<LoopStepId, { color: string; icon: string }> = {
-    find: {
-      color: "#5B82FF",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20.5 20.5L16.6 16.6"/></svg>',
-    },
-    negotiate: {
-      color: "#9B5CFF",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8.5h12.5l-3-3"/><path d="M20 15.5H7.5l3 3"/></svg>',
-    },
-    protect: {
-      color: "#2EEA8C",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 2.8v5.4c0 4.6-3 7.7-7 9.3-4-1.6-7-4.7-7-9.3V5.8z"/><path d="M9.2 12l2 2 3.6-3.8"/></svg>',
-    },
-    collect: {
-      color: "#F5B83D",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H19a1 1 0 0 1 1 1v1"/><path d="M4 7.5V17a2.5 2.5 0 0 0 2.5 2.5H19a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1H6.5A2.5 2.5 0 0 1 4 7.5z"/><circle cx="16.6" cy="15" r="1.15" fill="currentColor" stroke="none"/></svg>',
-    },
-    grow: {
-      color: "#FF4FD8",
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v16h16"/><path d="M7.5 15.5l3.5-4 3 2.5 4.5-5.5"/><path d="M15.8 8.4h2.9v2.9"/></svg>',
-    },
+  /* The Creator Loop — the product's spine, V2 per the owner's
+   * reference design (2026-11-23): a severity model (critical /
+   * action / attention / clear), a loop-health bar, a "Your next
+   * move" card naming the single most urgent step, and expandable
+   * stage rows whose item buttons and CTAs navigate to the real
+   * surface (Deals board, Brands, the brand dossier, Passport,
+   * Money). Order on screen never changes — it is a cycle, not a
+   * ranking; only the next-move card ranks. */
+  const LOOP_TILE: Record<LoopStepId, string> = {
+    find: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20.5 20.5L16.6 16.6"/></svg>',
+    negotiate: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8.5h12.5l-3-3"/><path d="M20 15.5H7.5l3 3"/></svg>',
+    protect: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 2.8v5.4c0 4.6-3 7.7-7 9.3-4-1.6-7-4.7-7-9.3V5.8z"/><path d="M9.2 12l2 2 3.6-3.8"/></svg>',
+    collect: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H19a1 1 0 0 1 1 1v1"/><path d="M4 7.5V17a2.5 2.5 0 0 0 2.5 2.5H19a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1H6.5A2.5 2.5 0 0 1 4 7.5z"/><circle cx="16.6" cy="15" r="1.15" fill="currentColor" stroke="none"/></svg>',
+    grow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v16h16"/><path d="M7.5 15.5l3.5-4 3 2.5 4.5-5.5"/><path d="M15.8 8.4h2.9v2.9"/></svg>',
   };
+  const nextMove = loopNextMove(p.loop);
+  const clearCount = loopClearCount(p.loop);
+  const severityPill = (status: LoopStep["status"]) => (
+    <span
+      className="gx-pill"
+      style={{
+        color: LOOP_SEVERITY_TONE[status],
+        background: `${LOOP_SEVERITY_TONE[status]}24`,
+        boxShadow: `inset 0 0 0 1px ${LOOP_SEVERITY_TONE[status]}55`,
+      }}
+    >
+      <span
+        aria-hidden="true"
+        style={{
+          width: 6,
+          height: 6,
+          borderRadius: "50%",
+          background: LOOP_SEVERITY_TONE[status],
+        }}
+      />
+      {LOOP_SEVERITY_LABEL[status]}
+    </span>
+  );
   const loopPanel = (
     <section className="gx-panel" aria-labelledby="loop-h" style={{ marginBottom: 20 }}>
       <div className="gx-panel-head">
@@ -493,54 +510,185 @@ export default function TodayClient(p: Props) {
           YOUR BUSINESS. ONE CONNECTED SYSTEM.
         </span>
       </div>
-      <ol style={{ listStyle: "none", margin: "8px 0 0", padding: 0 }}>
+
+      {/* Loop health: one segment per stage, coloured by severity */}
+      <div style={{ marginTop: 14 }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            fontSize: 13,
+            color: "var(--ink-3)",
+          }}
+        >
+          <span>Loop health</span>
+          <strong style={{ color: "var(--ink)", fontWeight: 600 }}>
+            {clearCount} of 5 stages clear
+          </strong>
+        </div>
+        <div
+          role="img"
+          aria-label={p.loop
+            .map((s) => `${s.label}: ${LOOP_SEVERITY_LABEL[s.status]}`)
+            .join(", ")}
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(5, 1fr)",
+            gap: 4,
+            marginTop: 8,
+          }}
+        >
+          {p.loop.map((s) => (
+            <span
+              key={s.id}
+              style={{ height: 6, borderRadius: 99, background: LOOP_SEVERITY_TONE[s.status] }}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Your next move: the single most urgent stage */}
+      {nextMove ? (
+        <div
+          style={{
+            marginTop: 16,
+            padding: 16,
+            borderRadius: 16,
+            background: `${LOOP_SEVERITY_TONE[nextMove.status]}14`,
+            border: `1px solid ${LOOP_SEVERITY_TONE[nextMove.status]}59`,
+          }}
+        >
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+            <span style={{ fontSize: 11.5, letterSpacing: "0.14em", fontWeight: 600, color: "var(--ink-3)" }}>
+              YOUR NEXT MOVE
+            </span>
+            {severityPill(nextMove.status)}
+          </div>
+          <p
+            style={{
+              margin: "12px 0 0",
+              font: "600 12px var(--display)",
+              letterSpacing: "0.16em",
+              color: LOOP_ACCENT[nextMove.id],
+            }}
+          >
+            {String(p.loop.findIndex((s) => s.id === nextMove.id) + 1).padStart(2, "0")} ·{" "}
+            {nextMove.label}
+          </p>
+          <p style={{ margin: "4px 0 0", fontSize: 19, fontWeight: 650, lineHeight: 1.3 }}>
+            {nextMove.headline}
+          </p>
+          <p style={{ margin: "6px 0 0", fontSize: 14, lineHeight: 1.45, color: "var(--ink-2)" }}>
+            {nextMove.detail}
+          </p>
+          <Link
+            href={nextMove.ctaHref}
+            className="gx-btn"
+            style={{ textDecoration: "none", display: "block", textAlign: "center", marginTop: 14 }}
+          >
+            {nextMove.ctaLabel}
+          </Link>
+        </div>
+      ) : (
+        <div
+          style={{
+            marginTop: 16,
+            padding: 16,
+            borderRadius: 16,
+            background: `${LOOP_SEVERITY_TONE.clear}12`,
+            border: `1px solid ${LOOP_SEVERITY_TONE.clear}55`,
+          }}
+        >
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+            <span style={{ fontSize: 11.5, letterSpacing: "0.14em", fontWeight: 600, color: "var(--ink-3)" }}>
+              YOUR NEXT MOVE
+            </span>
+            {severityPill("clear")}
+          </div>
+          <p style={{ margin: "12px 0 0", fontSize: 19, fontWeight: 650, lineHeight: 1.3 }}>
+            Every stage is clear
+          </p>
+          <p style={{ margin: "6px 0 0", fontSize: 14, lineHeight: 1.45, color: "var(--ink-2)" }}>
+            Your loop is running clean. Line up the next brand.
+          </p>
+          <Link
+            href="/brands"
+            className="gx-btn"
+            style={{ textDecoration: "none", display: "block", textAlign: "center", marginTop: 14 }}
+          >
+            Find opportunities
+          </Link>
+        </div>
+      )}
+
+      {/* The five stages, expandable */}
+      <ol style={{ listStyle: "none", margin: "18px 0 0", padding: 0 }}>
         {p.loop.map((s, i) => {
-          const tile = LOOP_TILE[s.id];
-          const priority = s.status === "priority";
+          const isOpen = loopOpen === s.id;
+          const tone = LOOP_SEVERITY_TONE[s.status];
           return (
             <li key={s.id}>
-              <Link
-                href={s.href}
-                aria-label={`${s.label}: ${s.line}. ${s.progress}`}
+              <button
+                type="button"
+                aria-expanded={isOpen}
+                aria-controls={`loop-panel-${s.id}`}
+                aria-label={`${s.label}: ${s.headline}`}
+                onClick={() => setLoopOpen(isOpen ? null : s.id)}
                 style={{
-                  display: "grid",
-                  gridTemplateColumns: "auto minmax(0,1fr) auto auto",
-                  gap: 13,
+                  all: "unset",
+                  boxSizing: "border-box",
+                  display: "flex",
                   alignItems: "center",
-                  padding: "12px 12px",
+                  gap: 13,
+                  width: "100%",
+                  padding: "6px 0",
+                  cursor: "pointer",
                   borderRadius: 14,
-                  textDecoration: "none",
-                  color: "inherit",
-                  border: priority
-                    ? "1px solid var(--gx-accent)"
-                    : "1px solid transparent",
-                  boxShadow: priority
-                    ? "0 0 22px -6px var(--gx-accent)"
-                    : undefined,
-                  background: priority
-                    ? "color-mix(in srgb, var(--gx-accent) 7%, transparent)"
-                    : undefined,
                 }}
               >
                 <span
                   aria-hidden="true"
                   style={{
+                    position: "relative",
+                    flex: "none",
                     width: 46,
                     height: 46,
                     borderRadius: 13,
                     display: "grid",
                     placeItems: "center",
-                    color: tile.color,
-                    background: `${tile.color}22`,
-                    boxShadow: `inset 0 0 0 1px ${tile.color}45`,
+                    color: LOOP_ACCENT[s.id],
+                    background: `${LOOP_ACCENT[s.id]}22`,
+                    boxShadow: isOpen
+                      ? `inset 0 0 0 1.5px ${LOOP_ACCENT[s.id]}`
+                      : `inset 0 0 0 1px ${LOOP_ACCENT[s.id]}45`,
                   }}
                 >
-                  <Icon html={tile.icon} size={23} />
-                </span>
-                <span style={{ minWidth: 0 }}>
+                  <Icon html={LOOP_TILE[s.id]} size={23} />
                   <span
                     style={{
-                      display: "block",
+                      position: "absolute",
+                      top: -3,
+                      right: -3,
+                      width: 11,
+                      height: 11,
+                      borderRadius: "50%",
+                      background: tone,
+                      boxShadow: "0 0 0 2px rgba(8, 9, 20, 0.85)",
+                    }}
+                  />
+                </span>
+                <span
+                  style={{
+                    flex: 1,
+                    minWidth: 0,
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 3,
+                  }}
+                >
+                  <span
+                    style={{
                       font: "600 12px var(--display)",
                       letterSpacing: "0.16em",
                       color: "var(--ink-2)",
@@ -548,42 +696,122 @@ export default function TodayClient(p: Props) {
                   >
                     {String(i + 1).padStart(2, "0")} · {s.label}
                   </span>
-                  <span style={{ display: "block", fontWeight: 600, lineHeight: 1.35, marginTop: 2 }}>
-                    {s.line}
-                  </span>
-                  <span
-                    style={{
-                      display: "block",
-                      fontSize: 13.5,
-                      marginTop: 2,
-                      color: priority ? "var(--ink)" : "var(--ink-3)",
-                      fontWeight: priority ? 600 : 400,
-                    }}
-                  >
-                    {s.progress}
+                  <span style={{ fontWeight: 600, lineHeight: 1.35 }}>{s.headline}</span>
+                  <span style={{ alignSelf: "flex-start", marginTop: 2 }}>
+                    {severityPill(s.status)}
                   </span>
                 </span>
-                {priority ? (
-                  <span
-                    className="gx-pill"
-                    style={{
-                      color: "var(--gx-accent)",
-                      boxShadow: "inset 0 0 0 1px var(--gx-accent)",
-                    }}
-                  >
-                    Action needed
-                  </span>
-                ) : s.status === "gap" ? (
-                  <span className="gx-pill gx-pill-warn">Gap</span>
-                ) : (
-                  <span />
-                )}
-                <span aria-hidden="true" style={{ color: "var(--ink-3)", fontSize: 20, lineHeight: 1 }}>
+                <span
+                  aria-hidden="true"
+                  style={{
+                    flex: "none",
+                    color: "var(--ink-3)",
+                    fontSize: 20,
+                    lineHeight: 1,
+                    transform: isOpen ? "rotate(90deg)" : undefined,
+                    transition: "transform .2s",
+                  }}
+                >
                   ›
                 </span>
-              </Link>
+              </button>
+              {isOpen && (
+                <div
+                  id={`loop-panel-${s.id}`}
+                  style={{
+                    margin: "6px 0 4px",
+                    padding: 14,
+                    borderRadius: 14,
+                    background: "rgba(255,255,255,.03)",
+                    border: "1px solid var(--line)",
+                  }}
+                >
+                  <p style={{ margin: 0, fontSize: 14, lineHeight: 1.45, color: "var(--ink-2)" }}>
+                    {s.detail}
+                  </p>
+                  {s.items.length > 0 && (
+                    <ul
+                      style={{
+                        listStyle: "none",
+                        margin: "12px 0 0",
+                        padding: 0,
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: 8,
+                      }}
+                    >
+                      {s.items.map((it) => (
+                        <li
+                          key={it.id}
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            gap: 10,
+                            padding: "9px 12px",
+                            borderRadius: 12,
+                            background: "rgba(255,255,255,.04)",
+                          }}
+                        >
+                          {it.done ? (
+                            <span
+                              aria-hidden="true"
+                              style={{ flex: "none", color: LOOP_SEVERITY_TONE.clear, display: "grid", placeItems: "center" }}
+                            >
+                              <Icon
+                                html='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>'
+                                size={15}
+                              />
+                            </span>
+                          ) : (
+                            <span
+                              aria-hidden="true"
+                              style={{
+                                flex: "none",
+                                width: 8,
+                                height: 8,
+                                borderRadius: "50%",
+                                background: LOOP_SEVERITY_TONE[it.tone],
+                              }}
+                            />
+                          )}
+                          <span
+                            style={{
+                              flex: 1,
+                              minWidth: 0,
+                              display: "flex",
+                              flexDirection: "column",
+                              gap: 1,
+                            }}
+                          >
+                            <span style={{ fontSize: 14, fontWeight: 600 }}>{it.title}</span>
+                            {it.meta ? (
+                              <span style={{ fontSize: 12.5, color: "var(--ink-3)" }}>{it.meta}</span>
+                            ) : null}
+                          </span>
+                          {it.actionLabel && (
+                            <Link
+                              href={it.href}
+                              className="gx-btn gx-btn-sm"
+                              style={{ textDecoration: "none", flex: "none" }}
+                            >
+                              {it.actionLabel}
+                            </Link>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  <Link
+                    href={s.ctaHref}
+                    className="gx-btn"
+                    style={{ textDecoration: "none", display: "block", textAlign: "center", marginTop: 14 }}
+                  >
+                    {s.ctaLabel}
+                  </Link>
+                </div>
+              )}
               {i < p.loop.length - 1 ? (
-                <div aria-hidden="true" style={{ paddingLeft: 34, color: "var(--ink-3)", fontSize: 13, lineHeight: 1.2 }}>
+                <div aria-hidden="true" style={{ paddingLeft: 21, color: "var(--ink-3)", fontSize: 13, lineHeight: 1.2 }}>
                   ↓
                 </div>
               ) : null}
@@ -591,27 +819,36 @@ export default function TodayClient(p: Props) {
           );
         })}
       </ol>
+
       <div
         style={{
-          display: "flex",
-          alignItems: "center",
-          gap: 9,
           borderTop: "1px solid var(--line)",
-          marginTop: 12,
-          paddingTop: 13,
-          color: "var(--ink-2)",
+          marginTop: 14,
+          paddingTop: 14,
+          textAlign: "center",
         }}
       >
-        <Icon
-          html='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 3v4h-4"/></svg>'
-          size={16}
-        />
-        <span style={{ font: "600 11.5px var(--display)", letterSpacing: "0.16em" }}>
-          GROW → FIND AGAIN
-        </span>
-        <span style={{ fontSize: 13, color: "var(--ink-3)" }}>
-          Your track record wins better deals — the loop starts again at Find.
-        </span>
+        <div
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 9,
+            color: "var(--ink-2)",
+          }}
+        >
+          <Icon
+            html='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 3v4h-4"/></svg>'
+            size={17}
+          />
+          <span style={{ font: "600 12.5px var(--display)", letterSpacing: "0.16em" }}>
+            GROW → FIND AGAIN
+          </span>
+        </div>
+        <p style={{ margin: "6px 0 2px", fontSize: 13, color: "var(--ink-3)" }}>
+          {clearCount === 5
+            ? "Loop closed. Every stage is clear."
+            : `Clear ${plural(5 - clearCount, "more stage")} to close the loop.`}
+        </p>
       </div>
     </section>
   );

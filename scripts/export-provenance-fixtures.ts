@@ -311,7 +311,7 @@ const server = readFileSync("lib/galaxy/server.ts", "utf8");
 check(
   "directory: fetchDirectory derives provenance from the evidence rows",
   server.includes("brandProvenance(") &&
-    server.includes("source_type, confidence, last_checked_at, observed_at"),
+    server.includes("source_type, source_url, confidence, last_checked_at, observed_at"),
   true
 );
 
