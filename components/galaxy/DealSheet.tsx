@@ -7,6 +7,7 @@ import {
   daysAgo,
   daysUntil,
   dealRemainingCents,
+  deliverablesHeadline,
   emptyProtection,
   fmtDate,
   fmtMoney,
@@ -94,7 +95,9 @@ type ProtCheckKey =
   | "deliverablesAgreed"
   | "paymentTermsAgreed"
   | "usageRightsSet"
-  | "exclusivityChecked";
+  | "exclusivityChecked"
+  | "killFee"
+  | "revisionCap";
 
 const PROT_CHECKS: { key: ProtCheckKey; label: string }[] = [
   { key: "contractReviewed", label: "Contract reviewed" },
@@ -102,7 +105,96 @@ const PROT_CHECKS: { key: ProtCheckKey; label: string }[] = [
   { key: "paymentTermsAgreed", label: "Payment terms confirmed" },
   { key: "usageRightsSet", label: "Usage rights recorded" },
   { key: "exclusivityChecked", label: "Exclusivity checked" },
+  { key: "killFee", label: "Kill fee" },
+  { key: "revisionCap", label: "Revision cap" },
 ];
+
+/* The deliverables checklist (demo copy, 2026-11-23) — the
+ * deal's tracked items from public.deal_deliverables behind
+ * /api/deals/deliverables. The demo's done/not-done maps onto
+ * the record's status: delivered or approved is done. Checking
+ * an item marks it delivered — the creator's own tracking,
+ * never a claim that UltraVestra sent or verified anything. */
+type DeliverableItem = {
+  id: string;
+  title: string;
+  status: "pending" | "delivered" | "approved";
+  dueDate: string | null;
+};
+
+type DeliverableRowLike = {
+  id: string;
+  title: string;
+  status: "pending" | "delivered" | "approved";
+  due_date: string | null;
+};
+
+const rowToDeliverable = (r: DeliverableRowLike): DeliverableItem => ({
+  id: r.id,
+  title: r.title,
+  status: r.status,
+  dueDate: r.due_date ?? null,
+});
+
+async function fetchDeliverables(dealId: string): Promise<DeliverableItem[]> {
+  try {
+    const res = await fetch(`/api/deals/deliverables?dealId=${dealId}`);
+    if (res.ok) {
+      const json = (await res.json()) as { items: DeliverableRowLike[] };
+      return (json.items ?? []).map(rowToDeliverable);
+    }
+  } catch {
+    /* fall through to an empty list */
+  }
+  return [];
+}
+
+async function addDeliverable(
+  dealId: string,
+  title: string
+): Promise<DeliverableItem | null> {
+  try {
+    const res = await fetch("/api/deals/deliverables", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ dealId, title }),
+    });
+    if (!res.ok) return null;
+    const json = (await res.json()) as { item: DeliverableRowLike };
+    return rowToDeliverable(json.item);
+  } catch {
+    return null;
+  }
+}
+
+async function patchDeliverable(
+  id: string,
+  status: "pending" | "delivered"
+): Promise<DeliverableItem | null> {
+  try {
+    const res = await fetch("/api/deals/deliverables", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, status }),
+    });
+    if (!res.ok) return null;
+    const json = (await res.json()) as { item: DeliverableRowLike };
+    return rowToDeliverable(json.item);
+  } catch {
+    return null;
+  }
+}
+
+async function deleteDeliverable(id: string): Promise<boolean> {
+  try {
+    const res = await fetch(`/api/deals/deliverables?id=${id}`, {
+      method: "DELETE",
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
 
 export function DealSheet({
   deal,
@@ -138,6 +230,9 @@ export function DealSheet({
   const [seededFor, setSeededFor] = useState<string | null>(null);
   const [prot, setProt] = useState<DealProtection | null>(null);
   const [protBusy, setProtBusy] = useState(false);
+  const [delivs, setDelivs] = useState<DeliverableItem[] | null>(null);
+  const [delivBusy, setDelivBusy] = useState(false);
+  const [newDeliv, setNewDeliv] = useState("");
 
   /* Load this deal's protection record each time the sheet opens
    * on a deal. A deal with no record yet gets the empty record —
@@ -179,6 +274,66 @@ export function DealSheet({
     void persistProt(next);
   }
 
+  /* Load this deal's deliverables checklist each time the sheet
+   * opens on a deal, on the same key as the protection record. */
+  useEffect(() => {
+    if (!protDealId) return;
+    let live = true;
+    setDelivs(null);
+    setNewDeliv("");
+    void fetchDeliverables(protDealId).then((items) => {
+      if (live) setDelivs(items);
+    });
+    return () => {
+      live = false;
+    };
+  }, [protDealId]);
+
+  async function addDeliv() {
+    if (!deal || !newDeliv.trim()) return;
+    setDelivBusy(true);
+    const item = await addDeliverable(deal.id, newDeliv.trim());
+    setDelivBusy(false);
+    if (item) {
+      setDelivs((cur) => [...(cur ?? []), item]);
+      setNewDeliv("");
+      router.refresh();
+    } else {
+      toast("That could not be saved. Please try again.");
+    }
+  }
+
+  async function toggleDeliv(item: DeliverableItem) {
+    if (item.status === "approved") return;
+    setDelivBusy(true);
+    const updated = await patchDeliverable(
+      item.id,
+      item.status === "delivered" ? "pending" : "delivered"
+    );
+    setDelivBusy(false);
+    if (updated) {
+      setDelivs((cur) =>
+        (cur ?? []).map((d) => (d.id === updated.id ? updated : d))
+      );
+      router.refresh();
+    } else {
+      toast("That could not be saved. Please try again.");
+      if (deal) setDelivs(await fetchDeliverables(deal.id));
+    }
+  }
+
+  async function removeDeliv(item: DeliverableItem) {
+    setDelivBusy(true);
+    const ok = await deleteDeliverable(item.id);
+    setDelivBusy(false);
+    if (ok) {
+      setDelivs((cur) => (cur ?? []).filter((d) => d.id !== item.id));
+      router.refresh();
+    } else {
+      toast("That could not be deleted. Please try again.");
+    }
+  }
+
   if (open && deal && seededFor !== deal.id) {
     setSeededFor(deal.id);
     setAmount(deal.amountCents != null ? String(deal.amountCents / 100) : "");
@@ -198,6 +353,12 @@ export function DealSheet({
   const overdue = isOverdue(deal, now);
   const payDays = deal.invoiceDue ? daysUntil(deal.invoiceDue, now) : null;
   const protGaps = prot ? protectionGaps(deal, prot) : [];
+  const delivHead = delivs ? deliverablesHeadline(delivs) : null;
+  const delivStateText = delivHead?.label
+    ? delivHead.done === 0 && delivHead.total > 0
+      ? `${delivHead.label} · 0 of ${delivHead.total} delivered`
+      : delivHead.label
+    : null;
   const next = nextStage(deal.stage);
   const dollarsToCents = (v: string) => {
     const n = Math.round(parseFloat(v));
@@ -519,6 +680,81 @@ export function DealSheet({
                     onClick={() => void persistProt(prot)}
                   >
                     Save protection
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
+          <div className="gx-deliv">
+            <p className="gx-prot-title">Deliverables checklist</p>
+            {delivs === null ? (
+              <p className="gx-sub">Loading deliverables…</p>
+            ) : (
+              <>
+                {delivStateText ? (
+                  <p className="gx-sub" style={{ marginBottom: 4 }}>{delivStateText}</p>
+                ) : (
+                  <p className="gx-sub" style={{ marginBottom: 4 }}>
+                    Nothing tracked yet — add each piece of content you owe this brand.
+                  </p>
+                )}
+                <div className="gx-prot-checks">
+                  {delivs.map((item) => {
+                    const done = item.status !== "pending";
+                    return (
+                      <div key={item.id} className={`gx-deliv-row${done ? " on" : ""}`}>
+                        <label className="gx-deliv-check">
+                          <input
+                            type="checkbox"
+                            checked={done}
+                            disabled={delivBusy || item.status === "approved"}
+                            onChange={() => void toggleDeliv(item)}
+                            aria-label={`Mark delivered: ${item.title}`}
+                          />
+                          <span className="gx-deliv-label">
+                            {item.title}
+                            {item.dueDate ? (
+                              <span className="gx-deliv-due"> · due {fmtDate(item.dueDate)}</span>
+                            ) : null}
+                          </span>
+                        </label>
+                        {item.status === "approved" ? (
+                          <span className="gx-pill">Approved</span>
+                        ) : null}
+                        <button
+                          type="button"
+                          className="gx-btn gx-btn-quiet"
+                          style={{ padding: "4px 8px", fontSize: 12.5 }}
+                          disabled={delivBusy}
+                          onClick={() => void removeDeliv(item)}
+                        >
+                          Delete
+                        </button>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="gx-deliv-add">
+                  <input
+                    className="gx-input"
+                    value={newDeliv}
+                    onChange={(e) => setNewDeliv(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") {
+                        e.preventDefault();
+                        void addDeliv();
+                      }
+                    }}
+                    placeholder="Add a deliverable — e.g. 1 TikTok review"
+                    maxLength={300}
+                  />
+                  <button
+                    type="button"
+                    className="gx-btn"
+                    disabled={delivBusy || !newDeliv.trim()}
+                    onClick={() => void addDeliv()}
+                  >
+                    Add
                   </button>
                 </div>
               </>

@@ -300,6 +300,8 @@ const fullProtection = (id: string): DealProtection => ({
   paymentTermsAgreed: true,
   usageRightsSet: true,
   exclusivityChecked: true,
+  killFee: true,
+  revisionCap: true,
 });
 
 /* The severity model itself: labels, tones, accents are the
@@ -420,9 +422,10 @@ const fullProtection = (id: string): DealProtection => ({
   check("loop: stage history outranks a fresher updated_at", step(historyWins, "negotiate").headline, "Follow up with Brand");
 }
 
-/* Protect: the five real deal_protection items. A missing
- * contract is critical; other gaps are action, named in the
- * owner's phrases. */
+/* Protect: the seven real deal_protection items (the demo's
+ * kill fee and revision cap joined the original five on
+ * 2026-11-23). A missing contract is critical; other gaps are
+ * action, named in the owner's phrases. */
 {
   const unsigned = creatorLoop(
     loopInput({ deals: [deal({ id: "c1", brandName: "Unsigned Co", stage: "contracted" })] })
@@ -436,7 +439,7 @@ const fullProtection = (id: string): DealProtection => ({
   check(
     "loop: unsigned item lists every missing protection",
     protect.items.map((i) => [i.meta, i.tone, i.actionLabel]),
-    [["Missing: Signed contract, Usage-rights limit, Exclusivity check, Deliverables in writing, Payment terms", "critical", "Fix"]]
+    [["Missing: Signed contract, Usage-rights limit, Exclusivity check, Deliverables in writing, Payment terms, Kill fee, Revision cap", "critical", "Fix"]]
   );
   const partial: DealProtection = {
     ...fullProtection("c2"),

@@ -35,6 +35,7 @@ import {
   type DnaState,
   type EnrichedPost,
 } from "@/lib/galaxy/dna";
+import { dnaSourceFromPipeline, loadPipelineState } from "@/lib/galaxy/pipeline";
 import { copyText, toast } from "@/components/galaxy/ui";
 
 /* CONTENT DNA client — the owner's prototype ported (2026-11-23):
@@ -410,6 +411,17 @@ function Discover({ onStart }: { onStart: (source: string, posts: DnaPost[], obj
   const [err, setErr] = useState("");
   const fileRef = useRef<HTMLInputElement>(null);
 
+  /* "Use my Ultra Vestra posts" reads the Studio's content
+   * pipeline on this device: enabled only when at least one
+   * posted pipeline video has results (the demo's own rule —
+   * its button is disabled with "No posted videos with results
+   * yet" until the converted list is non-empty). */
+  const [appSource, setAppSource] = useState<{ count: number; posts: DnaPost[] }>({ count: 0, posts: [] });
+  useEffect(() => {
+    const s = dnaSourceFromPipeline(loadPipelineState().items);
+    setAppSource({ count: s.count, posts: s.posts });
+  }, []);
+
   const onFile = (f: File | null) => {
     if (!f) return;
     const reader = new FileReader();
@@ -437,9 +449,16 @@ function Discover({ onStart }: { onStart: (source: string, posts: DnaPost[], obj
       </p>
       <p className="dna-step">1 · Choose your content</p>
       <div className="dna-sources">
-        <button type="button" className="dna-source" disabled>
+        <button
+          type="button"
+          className={`dna-source${picked?.source === "app" ? " is-on" : ""}`}
+          disabled={!appSource.count}
+          onClick={() =>
+            setPicked({ source: "app", posts: appSource.posts, label: `${plural(appSource.count, "post")} from Ultra Vestra` })
+          }
+        >
           <strong>Use my Ultra Vestra posts</strong>
-          <span>No posted videos with results yet</span>
+          <span>{appSource.count ? `${plural(appSource.count, "post")} with results` : "No posted videos with results yet"}</span>
         </button>
         <button type="button" className={`dna-source${picked?.source === "import" ? " is-on" : ""}`} onClick={() => fileRef.current?.click()}>
           <strong>Import my analytics</strong>

@@ -20,7 +20,7 @@ export const runtime = "nodejs";
 // here AND via the middleware (lib/gate-paths.ts covers /api/deals).
 
 const PROTECTION_COLUMNS =
-  "deal_id, contract_reviewed, deliverables_agreed, payment_terms_agreed, usage_rights_set, exclusivity_checked, usage_rights_note, exclusivity_note, terms_note";
+  "deal_id, contract_reviewed, deliverables_agreed, payment_terms_agreed, usage_rights_set, exclusivity_checked, kill_fee, revision_cap, usage_rights_note, exclusivity_note, terms_note";
 
 const GetSchema = z.object({
   dealId: z.string().uuid(),
@@ -33,6 +33,8 @@ const PutSchema = z.object({
   paymentTermsAgreed: z.boolean(),
   usageRightsSet: z.boolean(),
   exclusivityChecked: z.boolean(),
+  killFee: z.boolean(),
+  revisionCap: z.boolean(),
   usageRightsNote: z.string().trim().max(2000).default(""),
   exclusivityNote: z.string().trim().max(2000).default(""),
   termsNote: z.string().trim().max(2000).default(""),
@@ -174,6 +176,8 @@ export async function PUT(request: Request) {
           payment_terms_agreed: parsed.data.paymentTermsAgreed,
           usage_rights_set: parsed.data.usageRightsSet,
           exclusivity_checked: parsed.data.exclusivityChecked,
+          kill_fee: parsed.data.killFee,
+          revision_cap: parsed.data.revisionCap,
           usage_rights_note: parsed.data.usageRightsNote,
           exclusivity_note: parsed.data.exclusivityNote,
           terms_note: parsed.data.termsNote,

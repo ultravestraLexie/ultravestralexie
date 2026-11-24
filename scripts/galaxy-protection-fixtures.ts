@@ -71,41 +71,43 @@ const COMPLETE = prot({
   paymentTermsAgreed: true,
   usageRightsSet: true,
   exclusivityChecked: true,
+  killFee: true,
+  revisionCap: true,
 });
 
-const ALL_GAP_IDS = ["contract", "usage", "exclusivity", "deliverables", "payment"];
+const ALL_GAP_IDS = ["contract", "usage", "exclusivity", "deliverables", "payment", "killfee", "revisioncap"];
 const gapIds = (d: GalaxyDeal, p?: DealProtection | null) =>
   protectionGaps(d, p).map((g) => g.id);
 
 // --- protectionGaps across stages -------------------------------------------
 
 check(
-  "pitched + no record: all five gaps compute (sheet-only display is a UI rule)",
+  "pitched + no record: all seven gaps compute (sheet-only display is a UI rule)",
   gapIds(deal({ stage: "pitched" }), null),
   ALL_GAP_IDS
 );
 check(
-  "negotiating + empty record: all five gaps warn",
+  "negotiating + empty record: all seven gaps warn",
   gapIds(deal({ stage: "negotiating" }), prot({})),
   ALL_GAP_IDS
 );
 check(
-  "contracted + nothing checked: all five gaps warn",
+  "contracted + nothing checked: all seven gaps warn",
   gapIds(deal({ stage: "contracted" }), undefined),
   ALL_GAP_IDS
 );
 check(
-  "delivering + contract/deliverables done: usage, exclusivity, payment remain",
+  "delivering + contract/deliverables done: usage, exclusivity, payment, kill fee, revision cap remain",
   gapIds(
     deal({ stage: "delivering" }),
     prot({ contractReviewed: true, deliverablesAgreed: true })
   ),
-  ["usage", "exclusivity", "payment"]
+  ["usage", "exclusivity", "payment", "killfee", "revisioncap"]
 );
 check(
-  "invoiced + only usage recorded: four gaps remain",
+  "invoiced + only usage recorded: six gaps remain",
   gapIds(deal({ stage: "invoiced" }), prot({ usageRightsSet: true })),
-  ["contract", "exclusivity", "deliverables", "payment"]
+  ["contract", "exclusivity", "deliverables", "payment", "killfee", "revisioncap"]
 );
 check(
   "contracted + complete record: zero gaps",
@@ -136,6 +138,8 @@ check(
     "Exclusivity not checked",
     "Deliverables not confirmed in writing",
     "Payment terms not confirmed",
+    "Kill fee not agreed",
+    "Revision cap not agreed",
   ]
 );
 

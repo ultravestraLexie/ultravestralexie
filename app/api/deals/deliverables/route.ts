@@ -7,6 +7,9 @@ export const runtime = "nodejs";
 // Build 14 — deliverables tracking under a brand deal: one row
 // per promised piece of content (title, due date, status,
 // revision rounds), stored in public.deal_deliverables.
+// 2026-11-23 — the deal sheet's deliverables checklist reads
+// this route (GET by deal, in position order) and appends via
+// POST, which assigns the next position for the deal.
 //
 // ISOLATION (binding): session client (RLS own-row policies
 // apply) and every query scoped to the caller's user_id in code.
@@ -48,8 +51,12 @@ const IdSchema = z.object({
   id: z.string().uuid(),
 });
 
+const GetSchema = z.object({
+  dealId: z.string().uuid(),
+});
+
 const ITEM_COLUMNS =
-  "id, deal_id, title, due_date, status, revisions, post_id, created_at, updated_at";
+  "id, deal_id, title, due_date, status, revisions, post_id, position, created_at, updated_at";
 
 type Supabase = Awaited<ReturnType<typeof createClient>>;
 
@@ -158,6 +165,53 @@ async function requireOwner() {
   return { ok: true as const, supabase, userId: user.id };
 }
 
+/** The deal sheet's checklist read: this deal's deliverables in
+ *  checklist order (position, then creation). Owner-scoped like
+ *  every handler here, and the parent deal must be the caller's
+ *  own — the same validation POST performs before insert. */
+export async function GET(request: Request) {
+  const owner = await requireOwner();
+  if (!owner.ok) return owner.response;
+
+  const { searchParams } = new URL(request.url);
+  const parsed = GetSchema.safeParse({ dealId: searchParams.get("dealId") });
+  if (!parsed.success) {
+    return Response.json(
+      { error: "Please check the deal reference." },
+      { status: 400 }
+    );
+  }
+
+  try {
+    const { data: dealRows, error: dealError } = await owner.supabase
+      .from("creator_deals")
+      .select("id")
+      .eq("id", parsed.data.dealId)
+      .eq("user_id", owner.userId);
+    if (dealError) throw dealError;
+    if (!dealRows || dealRows.length === 0) {
+      return Response.json({ error: "Deal not found." }, { status: 404 });
+    }
+
+    const { data, error } = await owner.supabase
+      .from("deal_deliverables")
+      .select(ITEM_COLUMNS)
+      .eq("deal_id", parsed.data.dealId)
+      .eq("user_id", owner.userId)
+      .order("position", { ascending: true })
+      .order("created_at", { ascending: true });
+    if (error) throw error;
+
+    return Response.json({ success: true, items: data ?? [] });
+  } catch (e) {
+    console.error("Deliverable list error:", e);
+    return Response.json(
+      { error: "The deliverables could not be loaded. Please try again." },
+      { status: 500 }
+    );
+  }
+}
+
 export async function POST(request: Request) {
   const owner = await requireOwner();
   if (!owner.ok) return owner.response;
@@ -199,6 +253,18 @@ export async function POST(request: Request) {
     );
     if (postError) return postError;
 
+    // Checklist order: the new item goes at the end of its deal's
+    // list (max position + 1). Assigned here, never by the client.
+    const { data: lastRows } = await owner.supabase
+      .from("deal_deliverables")
+      .select("position")
+      .eq("deal_id", parsed.data.dealId)
+      .eq("user_id", owner.userId)
+      .order("position", { ascending: false })
+      .limit(1);
+    const lastPosition =
+      (lastRows?.[0] as { position: number | null } | undefined)?.position ?? -1;
+
     const { data, error } = await owner.supabase
       .from("deal_deliverables")
       .insert({
@@ -207,6 +273,7 @@ export async function POST(request: Request) {
         title: parsed.data.title,
         due_date: parsed.data.dueDate,
         post_id: parsed.data.postId,
+        position: lastPosition + 1,
       })
       .select(ITEM_COLUMNS)
       .single();

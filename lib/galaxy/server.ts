@@ -92,7 +92,7 @@ export async function fetchProtections(
   const { data } = await supabase
     .from("deal_protection")
     .select(
-      "deal_id, contract_reviewed, deliverables_agreed, payment_terms_agreed, usage_rights_set, exclusivity_checked, usage_rights_note, exclusivity_note, terms_note"
+      "deal_id, contract_reviewed, deliverables_agreed, payment_terms_agreed, usage_rights_set, exclusivity_checked, kill_fee, revision_cap, usage_rights_note, exclusivity_note, terms_note"
     )
     .eq("user_id", userId);
   const out: Record<string, DealProtection> = {};

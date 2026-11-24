@@ -1196,6 +1196,10 @@ export type DealProtection = {
   paymentTermsAgreed: boolean;
   usageRightsSet: boolean;
   exclusivityChecked: boolean;
+  /* The owner's demo extras (2026-11-23): a kill fee and a
+   * revision cap, confirmed with the brand like the other five. */
+  killFee: boolean;
+  revisionCap: boolean;
   usageRightsNote: string;
   exclusivityNote: string;
   termsNote: string;
@@ -1209,6 +1213,8 @@ export function emptyProtection(dealId: string): DealProtection {
     paymentTermsAgreed: false,
     usageRightsSet: false,
     exclusivityChecked: false,
+    killFee: false,
+    revisionCap: false,
     usageRightsNote: "",
     exclusivityNote: "",
     termsNote: "",
@@ -1222,6 +1228,12 @@ export type ProtectionRowLike = {
   payment_terms_agreed: boolean;
   usage_rights_set: boolean;
   exclusivity_checked: boolean;
+  /* Optional on the row shape: a record read before the
+   * protection-extras migration lands simply has not confirmed
+   * either item — the mapping below treats absence as false,
+   * the same pattern as the note fields' ?? "". */
+  kill_fee?: boolean | null;
+  revision_cap?: boolean | null;
   usage_rights_note: string;
   exclusivity_note: string;
   terms_note: string;
@@ -1235,6 +1247,8 @@ export function rowToProtection(r: ProtectionRowLike): DealProtection {
     paymentTermsAgreed: r.payment_terms_agreed,
     usageRightsSet: r.usage_rights_set,
     exclusivityChecked: r.exclusivity_checked,
+    killFee: r.kill_fee ?? false,
+    revisionCap: r.revision_cap ?? false,
     usageRightsNote: r.usage_rights_note ?? "",
     exclusivityNote: r.exclusivity_note ?? "",
     termsNote: r.terms_note ?? "",
@@ -1246,7 +1260,9 @@ export type ProtectionGapId =
   | "usage"
   | "exclusivity"
   | "deliverables"
-  | "payment";
+  | "payment"
+  | "killfee"
+  | "revisioncap";
 
 export type ProtectionGap = { id: ProtectionGapId; text: string };
 
@@ -1270,7 +1286,37 @@ export function protectionGaps(
     gaps.push({ id: "deliverables", text: "Deliverables not confirmed in writing" });
   if (!p.paymentTermsAgreed)
     gaps.push({ id: "payment", text: "Payment terms not confirmed" });
+  if (!p.killFee)
+    gaps.push({ id: "killfee", text: "Kill fee not agreed" });
+  if (!p.revisionCap)
+    gaps.push({ id: "revisioncap", text: "Revision cap not agreed" });
   return gaps;
+}
+
+/* ---------------- Deal deliverables checklist -------------------
+ * The per-deal checklist in the deal sheet, over the Build 14
+ * tracked deliverables (public.deal_deliverables). The demo's
+ * simple done/not-done maps onto the record's status: delivered
+ * or approved is done; pending is not. The header line is the
+ * demo's own wording: nothing done yet reads "Ready to deliver",
+ * everything done reads "Everything delivered", and in between
+ * the sheet shows the plain count ("N of M delivered"). */
+
+export type DeliverableStatusLike = "pending" | "delivered" | "approved";
+
+export function deliverableDone(status: DeliverableStatusLike): boolean {
+  return status === "delivered" || status === "approved";
+}
+
+export function deliverablesHeadline(
+  items: { status: DeliverableStatusLike }[]
+): { done: number; total: number; label: string | null } {
+  const total = items.length;
+  const done = items.filter((i) => deliverableDone(i.status)).length;
+  if (total === 0) return { done, total, label: null };
+  if (done === 0) return { done, total, label: "Ready to deliver" };
+  if (done === total) return { done, total, label: "Everything delivered" };
+  return { done, total, label: `${done} of ${total} delivered` };
 }
 
 /* ---------------- Creator Pricing Intelligence (System #4) ----------
@@ -2416,9 +2462,9 @@ export const AUDIENCE_METHODOLOGY =
  *    so no waiting-on-you branch exists. FOLLOW_UP_DAYS = 3,
  *    the owner's number.
  *  - PROTECT checks the real deal_protection items via
- *    protectionGaps. His kill-fee and revision-cap checks have
- *    no columns in deal_protection and are NOT checked; the
- *    record's exclusivity and deliverables items are.
+ *    protectionGaps — all seven since 2026-11-23, when his
+ *    kill-fee and revision-cap checks gained columns
+ *    (protection-extras migration) and joined the checklist.
  *  - COLLECT money comes only from moneyLedger /
  *    dealRemainingCents. "Delivering" means work in progress —
  *    there is no delivered-but-uninvoiced signal in the data,
@@ -2703,12 +2749,13 @@ function loopNegotiate(input: CreatorLoopInput, now: Date): LoopStep {
 
 /* ---------- 03 PROTECT ---------- */
 /** The protection checks, in protectionGaps' rule order, with
- *  the owner's phrases and why-lines. His five map to the real
- *  deal_protection record as: signed → contract_reviewed,
+ *  the owner's phrases and why-lines. All seven map to the real
+ *  deal_protection record: signed → contract_reviewed,
  *  paymentTerms → payment_terms_agreed, usageRights →
- *  usage_rights_set; killFee and revisionCap have NO columns
- *  and are not checked. The record's own exclusivity and
- *  deliverables items are checked too. */
+ *  usage_rights_set, killFee → kill_fee, revisionCap →
+ *  revision_cap (the last two added 2026-11-23, copied from his
+ *  demo with their labels and why-lines verbatim). The record's
+ *  own exclusivity and deliverables items are checked too. */
 const LOOP_PROTECTION: Record<
   ProtectionGapId,
   { label: string; phrase: string; why: string }
@@ -2737,6 +2784,16 @@ const LOOP_PROTECTION: Record<
     label: "Payment terms",
     phrase: "payment terms",
     why: "Set a due date (e.g. Net 30) so a late payment is clearly late.",
+  },
+  killfee: {
+    label: "Kill fee",
+    phrase: "a kill fee",
+    why: "Get paid if the brand cancels after you've started.",
+  },
+  revisioncap: {
+    label: "Revision cap",
+    phrase: "a revision cap",
+    why: "Limit revision rounds so the scope can't creep.",
   },
 };
 
