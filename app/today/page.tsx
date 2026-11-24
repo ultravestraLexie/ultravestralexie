@@ -163,6 +163,7 @@ export default async function TodayPage() {
 
   return (
     <TodayClient
+      today={todayKey(now)}
       greeting={greeting}
       firstName={firstName}
       summary={summary}

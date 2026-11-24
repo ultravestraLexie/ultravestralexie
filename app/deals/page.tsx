@@ -1,6 +1,7 @@
 import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
 import { fetchBrandOptions, fetchDeals, fetchProfile, fetchProtections } from "@/lib/galaxy/server";
+import { todayKey } from "@/lib/galaxy/core";
 import DealsClient from "./DealsClient";
 
 export const dynamic = "force-dynamic";
@@ -31,6 +32,7 @@ export default async function DealsPage() {
       deals={deals}
       brandOptions={brandOptions}
       protections={protections}
+      today={todayKey()}
     />
   );
 }

@@ -13,12 +13,12 @@ import {
   followText,
   isOverdue,
   nextStage,
+  parseKey,
   plural,
   protectionGaps,
   reminderText,
   rowToDeal,
   stageOf,
-  todayKey,
   type DealProtection,
   type DealRowLike,
   type GalaxyDeal,
@@ -107,12 +107,18 @@ const PROT_CHECKS: { key: ProtCheckKey; label: string }[] = [
 export function DealSheet({
   deal,
   profile,
+  today,
   open,
   onClose,
   onChanged,
 }: {
   deal: GalaxyDeal | null;
   profile: GalaxyProfile;
+  /* The server's today (YYYY-MM-DD), passed by every host page.
+   * All day math in the sheet anchors to it — never to the
+   * browser's local clock — so the sheet agrees with the board,
+   * Today and Money to the day. */
+  today: string;
   open: boolean;
   onClose: () => void;
   /* Called with the committed deal from the write's own response
@@ -186,10 +192,11 @@ export function DealSheet({
   if (!open && seededFor !== null) setSeededFor(null);
 
   if (!deal) return null;
+  const now = parseKey(today);
   const st = stageOf(deal.stage);
   const active = deal.stage !== "paid" && deal.stage !== "lost";
-  const overdue = isOverdue(deal);
-  const payDays = deal.invoiceDue ? daysUntil(deal.invoiceDue) : null;
+  const overdue = isOverdue(deal, now);
+  const payDays = deal.invoiceDue ? daysUntil(deal.invoiceDue, now) : null;
   const protGaps = prot ? protectionGaps(deal, prot) : [];
   const next = nextStage(deal.stage);
   const dollarsToCents = (v: string) => {
@@ -228,7 +235,7 @@ export function DealSheet({
       void run(
         {
           stage: "paid",
-          paymentReceivedDate: todayKey(),
+          paymentReceivedDate: today,
           amountReceivedCents: dollarsToCents(amount) ?? deal!.amountCents ?? null,
         },
         `${deal!.brandName} marked paid.`,
@@ -259,8 +266,8 @@ export function DealSheet({
       {
         stage: "invoiced",
         compensationCents: dollarsToCents(amount),
-        invoiceSentDate: todayKey(),
-        paymentDueDate: invoiceDue || addDaysKey(14),
+        invoiceSentDate: today,
+        paymentDueDate: invoiceDue || addDaysKey(14, now),
       },
       `Invoice logged for ${deal!.brandName}.`
     );
@@ -272,7 +279,7 @@ export function DealSheet({
   }
 
   const daysSinceContact = deal.lastContact
-    ? Math.max(0, Math.round((Date.now() - new Date(deal.lastContact + "T12:00:00").getTime()) / 86400000))
+    ? Math.max(0, daysAgo(deal.lastContact, now))
     : 0;
 
   return (
@@ -323,7 +330,7 @@ export function DealSheet({
               <input
                 className="gx-input"
                 type="date"
-                value={invoiceDue || addDaysKey(14)}
+                value={invoiceDue || addDaysKey(14, now)}
                 onChange={(e) => setInvoiceDue(e.target.value)}
               />
             </label>
@@ -435,7 +442,7 @@ export function DealSheet({
               <p className="gx-sub">
                 Payment deadline: due {fmtDate(deal.invoiceDue)}
                 {overdue
-                  ? ` — ${plural(daysAgo(deal.invoiceDue), "day")} overdue`
+                  ? ` — ${plural(daysAgo(deal.invoiceDue, now), "day")} overdue`
                   : payDays === 0
                     ? " — due today"
                     : payDays !== null && payDays > 0
@@ -521,7 +528,7 @@ export function DealSheet({
             <p className="gx-sub" style={{ marginBottom: 12 }}>
               <Icon html={I.alert} size={13} /> {fmtMoney(dealRemainingCents(deal))} is{" "}
               {deal.invoiceDue
-                ? `${plural(Math.max(0, Math.round((Date.now() - new Date(deal.invoiceDue + "T12:00:00").getTime()) / 86400000)), "day")} overdue`
+                ? `${plural(Math.max(0, daysAgo(deal.invoiceDue, now)), "day")} overdue`
                 : "overdue"}
               .
             </p>

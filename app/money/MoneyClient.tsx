@@ -20,13 +20,13 @@ import {
   owedCents,
   overdueCents,
   paidInMonth,
+  parseKey,
   plural,
   reminderText,
   rowToDeal,
   shortMoney,
   spentInMonth,
   stageOf,
-  todayKey,
   type DealRowLike,
   type GalaxyDeal,
   type GalaxyExpense,
@@ -59,11 +59,16 @@ export default function MoneyClient({
   deals: serverDeals,
   income,
   expenses,
+  today,
 }: {
   profile: GalaxyProfile;
   deals: GalaxyDeal[];
   income: GalaxyIncome[];
   expenses: GalaxyExpense[];
+  /* The server's today (YYYY-MM-DD). All day math here anchors
+   * to it — never to the browser's local clock — so Money agrees
+   * with Today and the Deals board to the day. */
+  today: string;
 }) {
   const router = useRouter();
   /* Write results from the deals API are applied over the server
@@ -76,8 +81,8 @@ export default function MoneyClient({
   const [tip, setTip] = useState<number | null>(null);
 
   const deal = deals.find((d) => d.id === dealId) ?? null;
-  const now = new Date();
-  const thisMonth = monthKeyOf(todayKey(now));
+  const now = parseKey(today);
+  const thisMonth = monthKeyOf(today);
   const ow = owedCents(deals);
   const odTotal = overdueCents(deals, now);
   const odCount = deals.filter((d) => isOverdue(d, now)).length;
@@ -146,7 +151,7 @@ export default function MoneyClient({
         body: JSON.stringify({
           id: d.id,
           stage: "paid",
-          paymentReceivedDate: todayKey(),
+          paymentReceivedDate: today,
           amountReceivedCents: d.amountCents ?? null,
         }),
       });
@@ -536,8 +541,8 @@ export default function MoneyClient({
           {waiting.length ? (
             <ul className="gx-list">
               {waiting.map((d) => {
-                const flag = dealFlag(d);
-                const od = isOverdue(d);
+                const flag = dealFlag(d, now);
+                const od = isOverdue(d, now);
                 return (
                   <li key={d.id} style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: "6px 14px", alignItems: "center", padding: "13px 0" }}>
                     <div>
@@ -592,6 +597,7 @@ export default function MoneyClient({
       <DealSheet
         deal={deal}
         profile={profile}
+        today={today}
         open={Boolean(deal)}
         onClose={() => setDealId(null)}
         onChanged={(updated) => {
@@ -599,7 +605,7 @@ export default function MoneyClient({
           router.refresh();
         }}
       />
-      <MoneyFormSheet kind={moneyForm} onClose={() => setMoneyForm(null)} onSaved={() => router.refresh()} />
+      <MoneyFormSheet kind={moneyForm} today={today} onClose={() => setMoneyForm(null)} onSaved={() => router.refresh()} />
     </div>
   );
 }
@@ -762,17 +768,19 @@ function LedgerSection({
 
 function MoneyFormSheet({
   kind,
+  today,
   onClose,
   onSaved,
 }: {
   kind: "income" | "expense" | null;
+  today: string;
   onClose: () => void;
   onSaved: () => void;
 }) {
   const router = useRouter();
   const [label, setLabel] = useState("");
   const [amount, setAmount] = useState("");
-  const [date, setDate] = useState(todayKey());
+  const [date, setDate] = useState(today);
   const [busy, setBusy] = useState(false);
   const inc = kind === "income";
 

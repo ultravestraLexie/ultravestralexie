@@ -6,6 +6,7 @@ import {
   fetchIncome,
   fetchProfile,
 } from "@/lib/galaxy/server";
+import { todayKey } from "@/lib/galaxy/core";
 import MoneyClient from "./MoneyClient";
 
 export const dynamic = "force-dynamic";
@@ -29,5 +30,13 @@ export default async function MoneyPage() {
     fetchExpenses(supabase, user.id),
   ]);
 
-  return <MoneyClient profile={profile} deals={deals} income={income} expenses={expenses} />;
+  return (
+    <MoneyClient
+      profile={profile}
+      deals={deals}
+      income={income}
+      expenses={expenses}
+      today={todayKey()}
+    />
+  );
 }

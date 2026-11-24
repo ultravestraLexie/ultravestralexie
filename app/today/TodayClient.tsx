@@ -16,6 +16,7 @@ import {
   fmtMoney,
   isOverdue,
   loopClearCount,
+  parseKey,
   loopNextMove,
   plural,
   reminderText as mkReminder,
@@ -69,6 +70,10 @@ function hash(s: string): number {
 }
 
 type Props = {
+  /* The server's today (YYYY-MM-DD). Client day math anchors to
+   * it — never to the browser's local clock — so Today agrees
+   * with the Deals board and Money to the day. */
+  today: string;
   greeting: string;
   firstName: string;
   summary: string;
@@ -121,6 +126,7 @@ export default function TodayClient(p: Props) {
    * legend and steps move on the same render; the server-computed
    * insights and summary still arrive via the refresh backstop. */
   const { deals, applyDeal } = useDealSync(p.deals);
+  const now = parseKey(p.today);
 
   const deal = deals.find((d) => d.id === dealId) ?? null;
   const pitchBrand = p.pitchBrands.find((b) => b.id === pitchId) ?? null;
@@ -149,7 +155,7 @@ export default function TodayClient(p: Props) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           platform: allowed.includes(platform) ? platform : "other",
-          postedDate: new Date().toISOString().slice(0, 10),
+          postedDate: p.today,
           state: "published",
         }),
       });
@@ -223,7 +229,7 @@ export default function TodayClient(p: Props) {
               const x = 200 + r * Math.cos(a);
               const y = 200 + r * Math.sin(a);
               const rad = Math.max(5, Math.min(12, 4 + Math.sqrt((d.amountCents ?? 0) / 100) / 6));
-              const late = isOverdue(d);
+              const late = isOverdue(d, now);
               const label = `${d.brandName}, ${stageOf(sid).label.toLowerCase()}, ${d.amountCents ? fmtMoney(d.amountCents) : "value not set"}${late ? ", overdue" : ""}`;
               return (
                 <g
@@ -267,7 +273,7 @@ export default function TodayClient(p: Props) {
     <ul style={{ listStyle: "none", margin: "6px 0 0", padding: 0, maxWidth: 440 }} aria-label="Pipeline by stage">
       {STAGES.slice(0, 5).map((st) => {
         const ds = deals.filter((d) => d.stage === st.id);
-        const late = st.id === "invoiced" ? deals.filter((d) => isOverdue(d)).length : 0;
+        const late = st.id === "invoiced" ? deals.filter((d) => isOverdue(d, now)).length : 0;
         return (
           <li key={st.id} className="gx-legend-li">
             <span style={{ width: 10, height: 10, borderRadius: "50%", background: st.color, boxShadow: `0 0 10px ${st.color}` }} />
@@ -1022,6 +1028,7 @@ export default function TodayClient(p: Props) {
       <DealSheet
         deal={deal}
         profile={p.profile}
+        today={p.today}
         open={Boolean(deal)}
         onClose={() => setDealId(null)}
         onChanged={(updated) => {

@@ -66,13 +66,23 @@ export default function FeedbackForm() {
       </div>
 
       {sent ? (
-        <div className="gx-empty" role="status" style={{ marginBottom: 16 }}>
-          <p style={{ margin: 0, fontWeight: 600 }}>
+        <div className="gx-empty" role="status">
+          <p style={{ margin: "0 0 6px", fontWeight: 600, fontSize: 16 }}>
+            Feedback received.
+          </p>
+          <p style={{ margin: "0 0 14px" }}>
             Thank you — this goes straight to the owner.
           </p>
+          <button
+            type="button"
+            className="gx-btn"
+            onClick={() => setSent(false)}
+          >
+            Send more feedback
+          </button>
         </div>
-      ) : null}
-
+      ) : (
+        <>
       <div
         className="gx-chips"
         role="group"
@@ -142,6 +152,8 @@ export default function FeedbackForm() {
           {busy ? "Sending…" : "Send feedback"}
         </button>
       </div>
+        </>
+      )}
     </section>
   );
 }

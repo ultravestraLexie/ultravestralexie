@@ -16,6 +16,7 @@ import {
   fmtMoney,
   hashHue,
   initials,
+  parseKey,
   plural,
   type GalaxyBrand,
   type GalaxyDeal,
@@ -33,13 +34,18 @@ export default function BrandsClient({
   profile,
   deals,
   paidCount,
+  today,
 }: {
   brands: GalaxyBrand[];
   profile: GalaxyProfile;
   deals: GalaxyDeal[];
   paidCount: number;
+  /* The server's today (YYYY-MM-DD) — the "New" badge's day math
+   * anchors to it, never to the browser's local clock. */
+  today: string;
 }) {
   const router = useRouter();
+  const now = parseKey(today);
   const [q, setQ] = useState("");
   const [program, setProgram] = useState("All");
   const [sort, setSort] = useState<"fit" | "new" | "rate">("fit");
@@ -256,7 +262,7 @@ export default function BrandsClient({
         ) : (
           <ul className="gx-list">
             {list.map((b) => {
-              const isNew = daysAgo(b.added) <= 14;
+              const isNew = daysAgo(b.added, now) <= 14;
               const pitched = inPipe.has(b.id);
               const isSaved = saved.has(b.id);
               const myDeals = dealsByBrand.get(b.id) ?? [];

@@ -11,6 +11,7 @@ import {
   fmtDate,
   fmtMoney,
   isOverdue,
+  parseKey,
   plural,
   protectionGaps,
   rowToDeal,
@@ -36,13 +37,19 @@ export default function DealsClient({
   deals: serverDeals,
   brandOptions,
   protections,
+  today,
 }: {
   profile: GalaxyProfile;
   deals: GalaxyDeal[];
   brandOptions: { id: string; name: string }[];
   protections: Record<string, DealProtection>;
+  /* The server's today (YYYY-MM-DD). All day math on this board
+   * anchors to it — never to the browser's local clock — so the
+   * board agrees with Today and Money to the day. */
+  today: string;
 }) {
   const router = useRouter();
+  const now = parseKey(today);
   /* Committed write results (from the API response bodies) are
    * laid over the server props, so the board reflects a stage
    * change on the render right after the sheet closes — never
@@ -56,9 +63,9 @@ export default function DealsClient({
   const active = deals.filter((d) => ACTIVE_STAGES.includes(d.stage));
   const pipelineTotal = active.reduce((t, d) => t + (d.amountCents ?? 0), 0);
   const followups = deals.filter(
-    (d) => d.stage === "pitched" && daysAgo(d.lastContact) >= 5
+    (d) => d.stage === "pitched" && daysAgo(d.lastContact, now) >= 5
   ).length;
-  const odList = deals.filter((d) => isOverdue(d));
+  const odList = deals.filter((d) => isOverdue(d, now));
   const odTotal = odList.reduce(
     (t, d) => t + Math.max(0, (d.amountCents ?? 0) - (d.receivedCents ?? 0)),
     0
@@ -110,7 +117,7 @@ export default function DealsClient({
               .filter((d) => d.stage === st.id)
               .sort(
                 (a, b) =>
-                  Number(isOverdue(b)) - Number(isOverdue(a)) ||
+                  Number(isOverdue(b, now)) - Number(isOverdue(a, now)) ||
                   (b.amountCents ?? 0) - (a.amountCents ?? 0)
               );
             return (
@@ -139,7 +146,7 @@ export default function DealsClient({
                 </div>
                 {ds.length ? (
                   ds.map((d) => {
-                    const flag = dealFlag(d);
+                    const flag = dealFlag(d, now);
                     /* Deal Protection (System #2): open items show on
                      * negotiating/contracted/delivering cards only —
                      * pitched deals stay quiet on the board. */
@@ -260,6 +267,7 @@ export default function DealsClient({
       <DealSheet
         deal={deal}
         profile={profile}
+        today={today}
         open={Boolean(deal)}
         onClose={() => setDealId(null)}
         onChanged={(updated) => {
