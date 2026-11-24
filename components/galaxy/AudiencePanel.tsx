@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import {
+  AUDIENCE_METHODOLOGY,
   audiencePlatformLabel,
   audiencePlatformOptions,
   audienceStandings,
@@ -264,6 +265,10 @@ export default function AudiencePanel({
               </p>
             ) : null}
           </div>
+
+          <p className="gx-sub" style={{ margin: "14px 0 0" }}>
+            {AUDIENCE_METHODOLOGY}
+          </p>
         </>
       )}
 

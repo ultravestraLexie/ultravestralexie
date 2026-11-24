@@ -1946,3 +1946,522 @@ export function onePercentMove(biggestFollowers: number): number {
   return Math.round(biggestFollowers * 0.01);
 }
 
+/* ---------------- Money trust: the separated ledger -----------------
+ * Owner order 2026-11-23 ("Money — Build trust"): projected,
+ * invoiced, collected and expenses are four DIFFERENT things and
+ * the page must never blur them. An invoice is a bill, not money
+ * received; a contract is a promise, not income. This ledger is
+ * the one place the four are stated side by side, each with its
+ * per-deal lines so any figure can be traced, plus a
+ * reconciliation that PROVES the partition: every eligible deal
+ * (contracted / delivering / invoiced / paid) sits in exactly one
+ * bucket by stage, and the boolean comes from that set math —
+ * it is computed, never asserted.
+ *
+ * Bucket rules (stage decides; money follows the stage):
+ *  - PROJECTED  contracted + delivering, valued at what is still
+ *    to come on them (dealRemainingCents — agreed minus anything
+ *    already received).
+ *  - INVOICED   invoiced, valued at the outstanding balance
+ *    (dealRemainingCents). Money billed, not money received.
+ *  - COLLECTED  money actually received: dealPaidCents on paid
+ *    deals, plus any recorded received amount on a deal still in
+ *    an earlier stage (a partial payment is collected money the
+ *    moment it lands; the rest of that deal stays in its stage
+ *    bucket at the remaining balance, so nothing double-counts).
+ *  - EXPENSES   the creator's expense rows, kept apart entirely.
+ *  KEPT = COLLECTED − EXPENSES. Projected and invoiced money is
+ *  NEVER netted against expenses — you cannot keep money you do
+ *  not have yet.
+ *  Pitched / negotiating deals are pipeline, not income: they sit
+ *  in NO bucket and are only counted (pipelineCount) so the page
+ *  can say so. Lost deals are excluded everywhere. */
+
+export type LedgerBucketId = "projected" | "invoiced" | "collected";
+
+export type LedgerLine = {
+  dealId: string;
+  brandName: string;
+  stage: GalaxyStage;
+  /** The cents this line contributes to its bucket. */
+  cents: number;
+  /** The date that governs the line (payment due date for
+   *  projected / invoiced, payment received date for collected);
+   *  null when the record carries none. */
+  date: string | null;
+  /** True for a partial payment received on a deal whose stage
+   *  bucket is projected or invoiced — the line belongs to
+   *  collected for money, but the DEAL's one reconciliation home
+   *  stays its stage bucket. */
+  partial: boolean;
+};
+
+export type LedgerBucket = {
+  id: LedgerBucketId;
+  cents: number;
+  /** Primary lines: the deals whose reconciliation home this is. */
+  lines: LedgerLine[];
+};
+
+export type MoneyLedger = {
+  projected: LedgerBucket;
+  invoiced: LedgerBucket;
+  collected: LedgerBucket & {
+    /** Partial-payment lines (money received on deals whose home
+     *  bucket is projected or invoiced). Included in cents. */
+    partialLines: LedgerLine[];
+    thisMonthCents: number;
+  };
+  expensesCents: number;
+  expensesThisMonthCents: number;
+  /** COLLECTED − EXPENSES, all time and this month. */
+  keptCents: number;
+  keptThisMonthCents: number;
+  /** Pitched + negotiating: pipeline, deliberately unbucketed. */
+  pipelineCount: number;
+  pipelineCents: number;
+  /** Projected + invoiced + collected. */
+  totalAcrossBucketsCents: number;
+  /** Deals in contracted / delivering / invoiced / paid. */
+  eligibleCount: number;
+  /** True when the independent partition check passes: bucket
+   *  home sets are disjoint and their union is the eligible set. */
+  reconciles: boolean;
+};
+
+/** The money actually received on one deal, wherever it sits:
+ *  the recorded received amount when there is one (partial or
+ *  full), else the agreed amount once the deal is paid. */
+function collectedPortionCents(d: GalaxyDeal): number {
+  if (d.receivedCents != null) return Math.max(0, d.receivedCents);
+  return d.stage === "paid" ? (d.amountCents ?? 0) : 0;
+}
+
+export function moneyLedger(
+  deals: GalaxyDeal[],
+  expenses: GalaxyExpense[],
+  now = new Date()
+): MoneyLedger {
+  const thisMonth = monthKeyOf(todayKey(now));
+  const projectedLines: LedgerLine[] = [];
+  const invoicedLines: LedgerLine[] = [];
+  const collectedLines: LedgerLine[] = [];
+  const partialLines: LedgerLine[] = [];
+  let pipelineCount = 0;
+  let pipelineCents = 0;
+
+  for (const d of deals) {
+    switch (d.stage) {
+      case "contracted":
+      case "delivering":
+        projectedLines.push({
+          dealId: d.id,
+          brandName: d.brandName,
+          stage: d.stage,
+          cents: dealRemainingCents(d),
+          date: d.invoiceDue,
+          partial: false,
+        });
+        break;
+      case "invoiced":
+        invoicedLines.push({
+          dealId: d.id,
+          brandName: d.brandName,
+          stage: d.stage,
+          cents: dealRemainingCents(d),
+          date: d.invoiceDue,
+          partial: false,
+        });
+        break;
+      case "paid":
+        collectedLines.push({
+          dealId: d.id,
+          brandName: d.brandName,
+          stage: d.stage,
+          cents: dealPaidCents(d),
+          date: d.paidOn,
+          partial: false,
+        });
+        break;
+      case "pitched":
+      case "negotiating":
+        pipelineCount += 1;
+        pipelineCents += d.amountCents ?? 0;
+        break;
+      case "lost":
+        break;
+    }
+    /* A partial payment on a deal that has not reached paid is
+     *  collected money already; the deal's remaining balance
+     *  stays in its stage bucket above (dealRemainingCents nets
+     *  the receipt out), so the two lines never overlap. Paid
+     *  deals are skipped — their full receipt is their home line. */
+    if (d.stage !== "paid" && d.stage !== "lost") {
+      const got = collectedPortionCents(d);
+      if (got > 0) {
+        partialLines.push({
+          dealId: d.id,
+          brandName: d.brandName,
+          stage: d.stage,
+          cents: got,
+          date: d.paidOn,
+          partial: true,
+        });
+      }
+    }
+  }
+
+  const sum = (lines: LedgerLine[]) => lines.reduce((t, l) => t + l.cents, 0);
+  const projectedCents = sum(projectedLines);
+  const invoicedCents = sum(invoicedLines);
+  const collectedCents = sum(collectedLines) + sum(partialLines);
+  const collectedThisMonth = [...collectedLines, ...partialLines]
+    .filter((l) => l.date && monthKeyOf(l.date) === thisMonth)
+    .reduce((t, l) => t + l.cents, 0);
+
+  const expensesCents = expenses.reduce((t, e) => t + e.amountCents, 0);
+  const expensesThisMonthCents = spentInMonth(expenses, thisMonth);
+
+  /* Reconciliation — an INDEPENDENT second pass. The eligible set
+   *  is rebuilt from the stage list alone, and each bucket's home
+   *  set is rebuilt from the primary lines; the ledger reconciles
+   *  only when the three home sets are pairwise disjoint and
+   *  their union is exactly the eligible set. */
+  const eligibleIds = new Set(
+    deals
+      .filter(
+        (d) =>
+          d.stage === "contracted" ||
+          d.stage === "delivering" ||
+          d.stage === "invoiced" ||
+          d.stage === "paid"
+      )
+      .map((d) => d.id)
+  );
+  const homeSets = [projectedLines, invoicedLines, collectedLines].map(
+    (lines) => new Set(lines.map((l) => l.dealId))
+  );
+  const union = new Set<string>();
+  let disjoint = true;
+  for (const s of homeSets) {
+    for (const id of s) {
+      if (union.has(id)) disjoint = false;
+      union.add(id);
+    }
+  }
+  const reconciles =
+    disjoint &&
+    union.size === eligibleIds.size &&
+    [...eligibleIds].every((id) => union.has(id));
+
+  return {
+    projected: { id: "projected", cents: projectedCents, lines: projectedLines },
+    invoiced: { id: "invoiced", cents: invoicedCents, lines: invoicedLines },
+    collected: {
+      id: "collected",
+      cents: collectedCents,
+      lines: collectedLines,
+      partialLines,
+      thisMonthCents: collectedThisMonth,
+    },
+    expensesCents,
+    expensesThisMonthCents,
+    keptCents: collectedCents - expensesCents,
+    keptThisMonthCents: collectedThisMonth - expensesThisMonthCents,
+    pipelineCount,
+    pipelineCents,
+    totalAcrossBucketsCents: projectedCents + invoicedCents + collectedCents,
+    eligibleCount: eligibleIds.size,
+    reconciles,
+  };
+}
+
+/* ---------------- Passport track record (verified) ------------------
+ * The figures a creator may put on their public Passport when
+ * they opt in: computed ONLY from their own paid deals — the same
+ * records the private Passport already calls verified. Brand
+ * names only ever leave this function alongside counts and a
+ * total; the public page shows no per-deal amounts. */
+
+export type PassportTrackRecord = {
+  paidDealCount: number;
+  totalCollectedCents: number;
+  /** Distinct brands that paid, alphabetical. */
+  brandNames: string[];
+  brandsPaidCount: number;
+  /** Average days from invoice sent to payment received across
+   *  paid deals carrying BOTH dates; null when none do. */
+  avgDaysToPay: number | null;
+};
+
+export function passportTrackRecord(deals: GalaxyDeal[]): PassportTrackRecord {
+  const history = brandPaymentHistory(deals);
+  const brandNames = [
+    ...new Set(
+      deals.filter((d) => d.stage === "paid").map((d) => d.brandName)
+    ),
+  ].sort((a, b) => a.localeCompare(b));
+  return {
+    paidDealCount: history?.paidDeals ?? 0,
+    totalCollectedCents: history?.totalPaidCents ?? 0,
+    brandNames,
+    brandsPaidCount: brandNames.length,
+    avgDaysToPay: history?.avgDaysToPay ?? null,
+  };
+}
+
+/** The methodology disclosure shown wherever the audience
+ *  independence indicators appear (private Audience panel and the
+ *  public Passport track record) — one text, so the explanation
+ *  can never drift between the two surfaces. */
+export const AUDIENCE_METHODOLOGY =
+  "How this is calculated — Dependency: your biggest platform's followers ÷ your total followers across platforms (email list not counted). Owned: your email list ÷ your total audience including email. Follower and email numbers are entered by the creator; UltraVestra does not pull them from the platforms. Deal figures are verified from deal records marked paid on UltraVestra.";
+
+/* ---------------- The Creator Loop ----------------------------------
+ * The product's organizing loop, in the owner's words (2026-11-23):
+ * FIND → NEGOTIATE → PROTECT → COLLECT → GROW — "That loop is more
+ * valuable than offering 50 disconnected AI tools." Refined the
+ * same evening with his design mock ("The final experience") and
+ * his rule: "Make the loop communicate progress, not just display
+ * five numbers." So each step carries a SHORT LINE (his mock's
+ * words, fixed), a LIVE PROGRESS LINE (from the creator's real
+ * records only), and a STATUS that changes how the step presents:
+ *
+ *   priority — needs action now; the row is visually elevated and
+ *              tagged "Action needed".
+ *   gap      — something named is missing; the progress line says
+ *              exactly what.
+ *   calm     — nothing needs the creator; the line just reports.
+ *
+ * Status rules (pinned by the fixtures):
+ *  - FIND: priority when nothing is saved AND nothing has ever
+ *    been pitched ("Start here"). Otherwise calm.
+ *  - NEGOTIATE: gap when a pitch/negotiation has gone quiet by the
+ *    advisor's own thresholds (pitched 5+ days, negotiating 4+
+ *    days since last contact), or when saved brands were never
+ *    pitched (core.neglectedOpportunities). Otherwise calm.
+ *  - PROTECT: gap when any contracted-or-later deal has open
+ *    protection gaps; the line names the most common missing item
+ *    and how many deals miss it. Calm with no such deals.
+ *  - COLLECT: priority when invoiced money awaits payment (the
+ *    strongest form when any of it is overdue — the line names
+ *    the overdue count). Figures come from moneyLedger, never
+ *    re-derived; an invoice is awaiting payment, never received.
+ *  - GROW: gap while the share checklist has anything left (public
+ *    Passport → track-record sharing → audience numbers); the
+ *    line names the next remaining step, and each completed item
+ *    removes itself. Calm when public with nothing left.
+ * Screen order NEVER re-sorts — it is a cycle, not a ranking;
+ * only the elevation speaks. */
+
+export type LoopStepId = "find" | "negotiate" | "protect" | "collect" | "grow";
+export type LoopStatus = "priority" | "gap" | "calm";
+
+export type LoopStep = {
+  id: LoopStepId;
+  /** The owner's word for the step: FIND / NEGOTIATE / … */
+  label: string;
+  /** The mock's short line for the step (fixed copy). */
+  line: string;
+  /** One live progress line from the creator's own records. */
+  progress: string;
+  status: LoopStatus;
+  href: string;
+};
+
+export type CreatorLoopInput = {
+  deals: GalaxyDeal[];
+  expenses: GalaxyExpense[];
+  savedCount: number;
+  acceptingCount: number;
+  /** The directory, when available — Negotiate's never-pitched
+   *  gap reads saved brands from it. */
+  brands?: GalaxyBrand[];
+  protectionByDeal?: Record<string, DealProtection>;
+  snapshots: AudienceSnapshot[];
+  passportPublic: boolean;
+  passportShareHistory: boolean;
+  passportSlug: string | null;
+  now?: Date;
+};
+
+/** Plain-words noun for a protection gap, for the Protect line
+ *  ("2 deals missing usage rights"). */
+const GAP_NOUN: Record<ProtectionGapId, string> = {
+  contract: "a reviewed contract",
+  usage: "usage rights",
+  exclusivity: "an exclusivity check",
+  deliverables: "deliverables in writing",
+  payment: "payment terms",
+};
+
+export function creatorLoop(input: CreatorLoopInput): LoopStep[] {
+  const now = input.now ?? new Date();
+  const deals = input.deals;
+  const accepting = input.acceptingCount.toLocaleString("en-US");
+
+  /* FIND — the start of the loop gets "Start here" energy only
+   * when the creator truly has nothing in play. */
+  const findStatus: LoopStatus =
+    input.savedCount === 0 && deals.length === 0 ? "priority" : "calm";
+  const findProgress =
+    input.savedCount === 0 && deals.length === 0
+      ? `No brands saved yet — ${accepting} are accepting pitches`
+      : input.savedCount > 0
+        ? `${plural(input.savedCount, "brand")} saved · ${accepting} accepting pitches`
+        : `${accepting} accepting pitches · ${plural(deals.filter((d) => d.stage !== "lost").length, "deal")} in play`;
+
+  /* NEGOTIATE — quiet talks first (money already in motion), then
+   * saved-but-never-pitched brands. */
+  const stale = deals.filter(
+    (d) =>
+      (d.stage === "pitched" && daysAgo(d.lastContact, now) >= 5) ||
+      (d.stage === "negotiating" && daysAgo(d.lastContact, now) >= 4)
+  );
+  const neverPitched = input.brands
+    ? neglectedOpportunities(deals, input.brands).length
+    : 0;
+  const openTalks = deals.filter(
+    (d) => d.stage === "pitched" || d.stage === "negotiating"
+  ).length;
+  const agreed = deals.filter(
+    (d) =>
+      d.stage === "contracted" ||
+      d.stage === "delivering" ||
+      d.stage === "invoiced" ||
+      d.stage === "paid"
+  ).length;
+  let negotiateStatus: LoopStatus = "calm";
+  let negotiateProgress: string;
+  if (stale.length > 0) {
+    negotiateStatus = "gap";
+    negotiateProgress = `${plural(stale.length, "deal")} gone quiet — follow up`;
+  } else if (neverPitched > 0) {
+    negotiateStatus = "gap";
+    negotiateProgress = `${plural(neverPitched, "saved brand")} never pitched`;
+  } else if (openTalks > 0) {
+    negotiateProgress = `${plural(openTalks, "deal")} in pitch or negotiation${agreed > 0 ? ` · ${plural(agreed, "deal")} agreed` : ""}`;
+  } else if (agreed > 0) {
+    negotiateProgress = `${plural(agreed, "deal")} agreed — terms settled`;
+  } else {
+    negotiateProgress = "No pitches out yet";
+  }
+
+  /* PROTECT — contracted-or-later deals; the line names the most
+   * common missing item (ties break by the protection rule order,
+   * which is the order protectionGaps returns). */
+  const protectable = deals.filter(
+    (d) =>
+      d.stage === "contracted" || d.stage === "delivering" || d.stage === "invoiced"
+  );
+  const gapTallies = new Map<ProtectionGapId, number>();
+  for (const d of protectable) {
+    for (const g of protectionGaps(d, input.protectionByDeal?.[d.id])) {
+      gapTallies.set(g.id, (gapTallies.get(g.id) ?? 0) + 1);
+    }
+  }
+  let protectStatus: LoopStatus = "calm";
+  let protectProgress: string;
+  if (protectable.length === 0) {
+    protectProgress = "No agreements yet";
+  } else if (gapTallies.size === 0) {
+    protectProgress = "All active deals protected";
+  } else {
+    protectStatus = "gap";
+    let topId: ProtectionGapId = "contract";
+    let topCount = -1;
+    for (const id of ["contract", "usage", "exclusivity", "deliverables", "payment"] as ProtectionGapId[]) {
+      const c = gapTallies.get(id) ?? 0;
+      if (c > topCount) {
+        topId = id;
+        topCount = c;
+      }
+    }
+    protectProgress = `${plural(topCount, "deal")} missing ${GAP_NOUN[topId]}`;
+  }
+
+  /* COLLECT — the ledger's own figures. Awaiting payment is a
+   * priority; overdue is named in the same line. */
+  const ledger = moneyLedger(deals, input.expenses, now);
+  const overdue = overdueDeals(deals, now);
+  let collectStatus: LoopStatus = "calm";
+  let collectProgress: string;
+  if (ledger.invoiced.cents > 0) {
+    collectStatus = "priority";
+    collectProgress = `${plural(ledger.invoiced.lines.length, "deal")} awaiting payment — ${fmtMoney(ledger.invoiced.cents)}${overdue.length ? ` · ${plural(overdue.length, "deal")} overdue` : ""}`;
+  } else if (ledger.collected.thisMonthCents > 0) {
+    collectProgress = `${fmtMoney(ledger.collected.thisMonthCents)} collected this month`;
+  } else {
+    collectProgress = "Nothing awaiting payment";
+  }
+
+  /* GROW — the share checklist, in the order a creator completes
+   * it. Each finished item removes itself from the line. */
+  const record = passportTrackRecord(deals);
+  const summary = audienceSummary(input.snapshots);
+  const remaining: { id: "public" | "share" | "audience"; name: string }[] = [];
+  if (!input.passportPublic)
+    remaining.push({ id: "public", name: "turn on public Passport to share it" });
+  if (!input.passportShareHistory)
+    remaining.push({ id: "share", name: "turn on track-record sharing" });
+  if (input.snapshots.length === 0)
+    remaining.push({ id: "audience", name: "add your audience numbers" });
+  let growStatus: LoopStatus = "calm";
+  let growProgress: string;
+  if (!input.passportPublic) {
+    growStatus = "gap";
+    growProgress = "Not public yet — turn on public Passport to share it";
+  } else if (remaining.length > 0) {
+    growStatus = "gap";
+    growProgress = `${remaining.length === 1 ? "1 step" : `${remaining.length} steps`} left: ${remaining[0].name}`;
+  } else {
+    const parts = ["Public"];
+    if (record.paidDealCount > 0)
+      parts.push(`${plural(record.paidDealCount, "paid deal")} on record`);
+    if (summary.ownedPct != null) parts.push(`${summary.ownedPct}% audience owned`);
+    growProgress = parts.join(" · ");
+  }
+
+  return [
+    {
+      id: "find",
+      label: "FIND",
+      line: "Discover brand opportunities",
+      progress: findProgress,
+      status: findStatus,
+      href: "/brands",
+    },
+    {
+      id: "negotiate",
+      label: "NEGOTIATE",
+      line: "Turn opportunities into deals",
+      progress: negotiateProgress,
+      status: negotiateStatus,
+      href: "/deals",
+    },
+    {
+      id: "protect",
+      label: "PROTECT",
+      line: "Secure your agreements",
+      progress: protectProgress,
+      status: protectStatus,
+      href: "/deals",
+    },
+    {
+      id: "collect",
+      label: "COLLECT",
+      line: "Turn completed work into collected money",
+      progress: collectProgress,
+      status: collectStatus,
+      href: "/money",
+    },
+    {
+      id: "grow",
+      label: "GROW",
+      line: "Build credibility and audience independence",
+      progress: growProgress,
+      status: growStatus,
+      href: "/passport",
+    },
+  ];
+}

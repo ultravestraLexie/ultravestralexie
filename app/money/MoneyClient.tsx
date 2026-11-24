@@ -9,8 +9,10 @@ import {
   dealRemainingCents,
   fmtDate,
   fmtMoney,
+  fmtMoneyExact,
   incomeOutlook,
   isOverdue,
+  moneyLedger,
   monthKeyOf,
   monthsBackDetail,
   monthsBackMoney,
@@ -23,12 +25,15 @@ import {
   rowToDeal,
   shortMoney,
   spentInMonth,
+  stageOf,
   todayKey,
   type DealRowLike,
   type GalaxyDeal,
   type GalaxyExpense,
   type GalaxyIncome,
   type GalaxyProfile,
+  type LedgerBucketId,
+  type LedgerLine,
 } from "@/lib/galaxy/core";
 import { DealSheet } from "@/components/galaxy/DealSheet";
 import { useDealSync } from "@/components/galaxy/useDealSync";
@@ -91,6 +96,11 @@ export default function MoneyClient({
   );
   const forecast = useMemo(() => contractedForecast(deals, now), [deals]);
   const outlook = useMemo(() => incomeOutlook(deals, income, now), [deals, income]);
+  /* The separated ledger (owner order: projected / invoiced /
+   * collected / expenses never blur). Pure math in core.ts; this
+   * section only renders it. */
+  const book = useMemo(() => moneyLedger(deals, expenses, now), [deals, expenses]);
+  const [ledgerOpen, setLedgerOpen] = useState<LedgerBucketId | "expenses" | null>(null);
   const max = niceMax(Math.max(...months.map((m) => m.totalCents)));
   const peak = months.reduce((a, b) => (b.totalCents > a.totalCents ? b : a), months[0]);
 
@@ -219,6 +229,13 @@ export default function MoneyClient({
         </div>
       </section>
 
+      <LedgerSection
+        ledger={book}
+        expenseCount={expenses.length}
+        open={ledgerOpen}
+        onToggle={(id) => setLedgerOpen((cur) => (cur === id ? null : id))}
+      />
+
       <div className="gx-money-grid">
         <section className="gx-panel" aria-labelledby="fc-h">
           <div className="gx-panel-head">
@@ -291,7 +308,8 @@ export default function MoneyClient({
                       </p>
                       <p className="gx-sub">
                         {fmtMoney(m.expectedCents)} expected so far from payments in,
-                        invoices due and contracted deals.
+                        invoices awaiting payment and contracted deals — expected,
+                        not received.
                         {m.dealsToClose != null && outlook.avgPaidDealCents != null
                           ? ` About ${plural(m.dealsToClose, "more deal")} at your average ${fmtMoney(outlook.avgPaidDealCents)} would close the gap.`
                           : ""}
@@ -461,7 +479,9 @@ export default function MoneyClient({
                   ))}
                 </ul>
                 <p className="gx-sub">
-                  Invoiced unpaid is grouped by the month each invoice is due.
+                  Invoiced unpaid is grouped by the month each invoice is due. It is
+                  money billed, not money received — kept counts only money paid in,
+                  minus expenses.
                 </p>
               </>
             )}
@@ -581,6 +601,162 @@ export default function MoneyClient({
       />
       <MoneyFormSheet kind={moneyForm} onClose={() => setMoneyForm(null)} onSaved={() => router.refresh()} />
     </div>
+  );
+}
+
+/* The separated ledger — projected / invoiced / collected /
+ * expenses stated side by side, each traceable to its deals, with
+ * the reconciliation tie-out underneath. All math is
+ * core.moneyLedger; this component only words it. */
+function LedgerSection({
+  ledger,
+  expenseCount,
+  open,
+  onToggle,
+}: {
+  ledger: ReturnType<typeof moneyLedger>;
+  expenseCount: number;
+  open: LedgerBucketId | "expenses" | null;
+  onToggle: (id: LedgerBucketId | "expenses") => void;
+}) {
+  const partialSum = ledger.collected.partialLines.reduce((t, l) => t + l.cents, 0);
+  const blocks: {
+    id: LedgerBucketId | "expenses";
+    title: string;
+    value: string;
+    copy: string;
+    derivation: string;
+    lines: LedgerLine[];
+    dateWord: "due" | "received";
+    extraLines?: LedgerLine[];
+  }[] = [
+    {
+      id: "projected",
+      title: "Projected",
+      value: fmtMoneyExact(ledger.projected.cents),
+      copy: "Projected — agreed in contracts, not yet invoiced. This is not money you have.",
+      derivation: `${plural(ledger.projected.lines.length, "deal")} · remaining balances added (agreed amount minus anything already received) · by payment due date`,
+      lines: ledger.projected.lines,
+      dateWord: "due",
+    },
+    {
+      id: "invoiced",
+      title: "Invoiced",
+      value: fmtMoneyExact(ledger.invoiced.cents),
+      copy: "Invoiced — billed and waiting to be paid. An invoice is not money received.",
+      derivation: `${plural(ledger.invoiced.lines.length, "invoice")} · outstanding balances added · by payment due date`,
+      lines: ledger.invoiced.lines,
+      dateWord: "due",
+    },
+    {
+      id: "collected",
+      title: "Collected",
+      value: fmtMoneyExact(ledger.collected.cents),
+      copy: `Collected — money actually received. ${fmtMoneyExact(ledger.collected.thisMonthCents)} of it landed this month.`,
+      derivation:
+        `${plural(ledger.collected.lines.length, "paid deal")} at the amount received` +
+        (ledger.collected.partialLines.length
+          ? ` · plus ${fmtMoneyExact(partialSum)} received early on ${plural(ledger.collected.partialLines.length, "deal")} still in progress`
+          : ""),
+      lines: ledger.collected.lines,
+      dateWord: "received",
+      extraLines: ledger.collected.partialLines,
+    },
+    {
+      id: "expenses",
+      title: "Expenses & kept",
+      value: fmtMoneyExact(ledger.expensesCents),
+      copy: `Kept = collected − expenses = ${fmtMoneyExact(ledger.keptCents)} (this month: ${fmtMoneyExact(ledger.keptThisMonthCents)}). Only collected money is ever netted — projected and invoiced money is not yours to keep yet.`,
+      derivation: `${plural(expenseCount, "expense")} · ${fmtMoneyExact(ledger.expensesThisMonthCents)} this month`,
+      lines: [],
+      dateWord: "due",
+    },
+  ];
+
+  return (
+    <section className="gx-panel" aria-labelledby="sep-h" style={{ marginTop: 20 }}>
+      <div className="gx-panel-head">
+        <h2 id="sep-h">Your money, separated</h2>
+        <span className="gx-muted">Every figure traces to the deals under it</span>
+      </div>
+      <ul className="gx-list">
+        {blocks.map((b) => (
+          <li key={b.id} style={{ padding: "14px 0" }}>
+            <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", justifyContent: "space-between", gap: "4px 14px" }}>
+              <span style={{ fontWeight: 600, fontSize: 15.5 }}>{b.title}</span>
+              <strong style={{ fontVariantNumeric: "tabular-nums", fontSize: 17 }}>{b.value}</strong>
+            </div>
+            <p style={{ margin: "6px 0 0", color: "var(--ink-2)", fontSize: 14, lineHeight: 1.5 }}>{b.copy}</p>
+            <p className="gx-sub" style={{ margin: "4px 0 0" }}>{b.derivation}</p>
+            {b.lines.length || b.extraLines?.length ? (
+              <>
+                <button
+                  type="button"
+                  className="gx-btn gx-btn-sm gx-btn-quiet"
+                  aria-expanded={open === b.id}
+                  onClick={() => onToggle(b.id)}
+                  style={{ marginTop: 8 }}
+                >
+                  {open === b.id ? "Hide the deals" : `See the ${plural(b.lines.length + (b.extraLines?.length ?? 0), "deal")}`}
+                </button>
+                {open === b.id ? (
+                  <ul className="gx-list" style={{ marginTop: 6 }}>
+                    {[...b.lines, ...(b.extraLines ?? [])].map((l) => (
+                      <li
+                        key={`${l.dealId}-${l.partial ? "part" : "home"}`}
+                        style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: "2px 14px", padding: "8px 0", fontSize: 14 }}
+                      >
+                        <div>
+                          {l.brandName}
+                          <small style={{ display: "block", color: "var(--ink-3)", fontSize: 12.5 }}>
+                            {stageOf(l.stage).label}
+                            {l.partial ? " · part received early" : ""} ·{" "}
+                            {l.date
+                              ? b.dateWord === "due"
+                                ? `payment due ${fmtDate(l.date)}`
+                                : `received ${fmtDate(l.date)}`
+                              : b.dateWord === "due"
+                                ? "no payment date set"
+                                : "received date not recorded"}
+                          </small>
+                        </div>
+                        <span style={{ fontVariantNumeric: "tabular-nums", fontWeight: 600 }}>
+                          {fmtMoneyExact(l.cents)}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+              </>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+      <div style={{ borderTop: "1px solid var(--line)", paddingTop: 12 }}>
+        {ledger.reconciles ? (
+          <p style={{ margin: 0, fontSize: 14, lineHeight: 1.55 }}>
+            <strong>Reconciles ✓</strong> — every eligible deal counted exactly once (
+            {plural(ledger.eligibleCount, "deal")}). Total across buckets:{" "}
+            {fmtMoneyExact(ledger.totalAcrossBucketsCents)} = projected{" "}
+            {fmtMoneyExact(ledger.projected.cents)} + invoiced{" "}
+            {fmtMoneyExact(ledger.invoiced.cents)} + collected{" "}
+            {fmtMoneyExact(ledger.collected.cents)}.
+          </p>
+        ) : (
+          <p style={{ margin: 0, fontSize: 14, lineHeight: 1.55, color: "var(--bad)" }}>
+            <strong>Reconciliation warning</strong> — the buckets do not tie out: a deal
+            is counted twice or an eligible deal is missing. Treat the figures above
+            with care.
+          </p>
+        )}
+        <p className="gx-sub" style={{ margin: "6px 0 0" }}>
+          {ledger.pipelineCount > 0
+            ? `${plural(ledger.pipelineCount, "pitched or negotiating deal")} (${fmtMoneyExact(ledger.pipelineCents)}) are pipeline, not income — they sit in no bucket above until terms are agreed.`
+            : "Pitched and negotiating deals are pipeline, not income — they sit in no bucket above until terms are agreed."}{" "}
+          Lost deals are excluded everywhere.
+        </p>
+      </div>
+    </section>
   );
 }
 

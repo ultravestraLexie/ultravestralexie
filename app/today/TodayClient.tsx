@@ -21,6 +21,8 @@ import {
   type GalaxyDeal,
   type GalaxyProfile,
   type Insight,
+  type LoopStep,
+  type LoopStepId,
 } from "@/lib/galaxy/core";
 import { DealSheet } from "@/components/galaxy/DealSheet";
 import { useDealSync } from "@/components/galaxy/useDealSync";
@@ -68,6 +70,7 @@ type Props = {
   deals: GalaxyDeal[];
   insights: Insight[];
   advisor: AdvisorReport;
+  loop: LoopStep[];
   pitchBrands: GalaxyBrand[];
   paidCount: number;
   paidThisMonthCents: number;
@@ -452,6 +455,167 @@ export default function TodayClient(p: Props) {
     </section>
   );
 
+  /* The Creator Loop — the product's spine, per the owner's
+   * design mock ("The final experience"): numbered steps with
+   * tinted icon tiles, a live progress line under each step's
+   * short line, and priority steps visually elevated. Order on
+   * screen never changes — it is a cycle, not a ranking. */
+  const LOOP_TILE: Record<LoopStepId, { color: string; icon: string }> = {
+    find: {
+      color: "#5B82FF",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20.5 20.5L16.6 16.6"/></svg>',
+    },
+    negotiate: {
+      color: "#9B5CFF",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8.5h12.5l-3-3"/><path d="M20 15.5H7.5l3 3"/></svg>',
+    },
+    protect: {
+      color: "#2EEA8C",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 2.8v5.4c0 4.6-3 7.7-7 9.3-4-1.6-7-4.7-7-9.3V5.8z"/><path d="M9.2 12l2 2 3.6-3.8"/></svg>',
+    },
+    collect: {
+      color: "#F5B83D",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H19a1 1 0 0 1 1 1v1"/><path d="M4 7.5V17a2.5 2.5 0 0 0 2.5 2.5H19a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1H6.5A2.5 2.5 0 0 1 4 7.5z"/><circle cx="16.6" cy="15" r="1.15" fill="currentColor" stroke="none"/></svg>',
+    },
+    grow: {
+      color: "#FF4FD8",
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v16h16"/><path d="M7.5 15.5l3.5-4 3 2.5 4.5-5.5"/><path d="M15.8 8.4h2.9v2.9"/></svg>',
+    },
+  };
+  const loopPanel = (
+    <section className="gx-panel" aria-labelledby="loop-h" style={{ marginBottom: 20 }}>
+      <div className="gx-panel-head">
+        <h2 id="loop-h">Your creator loop</h2>
+        <span
+          className="gx-muted"
+          style={{ letterSpacing: "0.14em", fontSize: 11.5, fontWeight: 600 }}
+        >
+          YOUR BUSINESS. ONE CONNECTED SYSTEM.
+        </span>
+      </div>
+      <ol style={{ listStyle: "none", margin: "8px 0 0", padding: 0 }}>
+        {p.loop.map((s, i) => {
+          const tile = LOOP_TILE[s.id];
+          const priority = s.status === "priority";
+          return (
+            <li key={s.id}>
+              <Link
+                href={s.href}
+                aria-label={`${s.label}: ${s.line}. ${s.progress}`}
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "auto minmax(0,1fr) auto auto",
+                  gap: 13,
+                  alignItems: "center",
+                  padding: "12px 12px",
+                  borderRadius: 14,
+                  textDecoration: "none",
+                  color: "inherit",
+                  border: priority
+                    ? "1px solid var(--gx-accent)"
+                    : "1px solid transparent",
+                  boxShadow: priority
+                    ? "0 0 22px -6px var(--gx-accent)"
+                    : undefined,
+                  background: priority
+                    ? "color-mix(in srgb, var(--gx-accent) 7%, transparent)"
+                    : undefined,
+                }}
+              >
+                <span
+                  aria-hidden="true"
+                  style={{
+                    width: 46,
+                    height: 46,
+                    borderRadius: 13,
+                    display: "grid",
+                    placeItems: "center",
+                    color: tile.color,
+                    background: `${tile.color}22`,
+                    boxShadow: `inset 0 0 0 1px ${tile.color}45`,
+                  }}
+                >
+                  <Icon html={tile.icon} size={23} />
+                </span>
+                <span style={{ minWidth: 0 }}>
+                  <span
+                    style={{
+                      display: "block",
+                      font: "600 12px var(--display)",
+                      letterSpacing: "0.16em",
+                      color: "var(--ink-2)",
+                    }}
+                  >
+                    {String(i + 1).padStart(2, "0")} · {s.label}
+                  </span>
+                  <span style={{ display: "block", fontWeight: 600, lineHeight: 1.35, marginTop: 2 }}>
+                    {s.line}
+                  </span>
+                  <span
+                    style={{
+                      display: "block",
+                      fontSize: 13.5,
+                      marginTop: 2,
+                      color: priority ? "var(--ink)" : "var(--ink-3)",
+                      fontWeight: priority ? 600 : 400,
+                    }}
+                  >
+                    {s.progress}
+                  </span>
+                </span>
+                {priority ? (
+                  <span
+                    className="gx-pill"
+                    style={{
+                      color: "var(--gx-accent)",
+                      boxShadow: "inset 0 0 0 1px var(--gx-accent)",
+                    }}
+                  >
+                    Action needed
+                  </span>
+                ) : s.status === "gap" ? (
+                  <span className="gx-pill gx-pill-warn">Gap</span>
+                ) : (
+                  <span />
+                )}
+                <span aria-hidden="true" style={{ color: "var(--ink-3)", fontSize: 20, lineHeight: 1 }}>
+                  ›
+                </span>
+              </Link>
+              {i < p.loop.length - 1 ? (
+                <div aria-hidden="true" style={{ paddingLeft: 34, color: "var(--ink-3)", fontSize: 13, lineHeight: 1.2 }}>
+                  ↓
+                </div>
+              ) : null}
+            </li>
+          );
+        })}
+      </ol>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 9,
+          borderTop: "1px solid var(--line)",
+          marginTop: 12,
+          paddingTop: 13,
+          color: "var(--ink-2)",
+        }}
+      >
+        <Icon
+          html='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 3v4h-4"/></svg>'
+          size={16}
+        />
+        <span style={{ font: "600 11.5px var(--display)", letterSpacing: "0.16em" }}>
+          GROW → FIND AGAIN
+        </span>
+        <span style={{ fontSize: 13, color: "var(--ink-3)" }}>
+          Your track record wins better deals — the loop starts again at Find.
+        </span>
+      </div>
+    </section>
+  );
+
   return (
     <div>
       <section aria-labelledby="hello" className="gx-hero">
@@ -464,6 +628,8 @@ export default function TodayClient(p: Props) {
         </div>
         <div>{orbit}</div>
       </section>
+
+      {loopPanel}
 
       <div className="gx-today-grid">
         <div style={{ display: "grid", gap: 20 }}>

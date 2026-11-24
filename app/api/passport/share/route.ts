@@ -15,9 +15,14 @@ export const runtime = "nodejs";
 // — a shared link must not rot. Turning public off keeps the
 // slug; the flag alone controls visibility.
 
-const PatchSchema = z.object({
-  public: z.boolean(),
-});
+const PatchSchema = z
+  .object({
+    public: z.boolean().optional(),
+    shareHistory: z.boolean().optional(),
+  })
+  .refine((v) => v.public !== undefined || v.shareHistory !== undefined, {
+    message: "Nothing to update",
+  });
 
 function slugify(name: string): string {
   const base = name
@@ -66,7 +71,7 @@ export async function GET() {
 
   const { data, error } = await owner.supabase
     .from("profiles")
-    .select("passport_slug, passport_public")
+    .select("passport_slug, passport_public, passport_share_history")
     .eq("id", owner.userId)
     .maybeSingle();
   if (error) {
@@ -76,11 +81,16 @@ export async function GET() {
       { status: 500 }
     );
   }
-  const row = data as { passport_slug: string | null; passport_public: boolean } | null;
+  const row = data as {
+    passport_slug: string | null;
+    passport_public: boolean;
+    passport_share_history: boolean;
+  } | null;
   return Response.json({
     success: true,
     slug: row?.passport_slug ?? null,
     public: row?.passport_public ?? false,
+    shareHistory: row?.passport_share_history ?? false,
   });
 }
 
@@ -101,12 +111,20 @@ export async function PATCH(request: Request) {
 
   const { data: current } = await owner.supabase
     .from("profiles")
-    .select("passport_slug")
+    .select("passport_slug, passport_public, passport_share_history")
     .eq("id", owner.userId)
     .maybeSingle();
-  let slug = (current as { passport_slug: string | null } | null)?.passport_slug ?? null;
+  const currentRow = current as {
+    passport_slug: string | null;
+    passport_public: boolean;
+    passport_share_history: boolean;
+  } | null;
+  let slug = currentRow?.passport_slug ?? null;
+  const nextPublic = parsed.data.public ?? currentRow?.passport_public ?? false;
+  const nextShareHistory =
+    parsed.data.shareHistory ?? currentRow?.passport_share_history ?? false;
 
-  if (!slug && parsed.data.public) {
+  if (!slug && nextPublic) {
     const { data: bp } = await owner.supabase
       .from("creator_business_profiles")
       .select("creator_name")
@@ -122,11 +140,12 @@ export async function PATCH(request: Request) {
     .from("profiles")
     .update({
       passport_slug: slug,
-      passport_public: parsed.data.public,
+      passport_public: nextPublic,
+      passport_share_history: nextShareHistory,
       updated_at: new Date().toISOString(),
     })
     .eq("id", owner.userId)
-    .select("passport_slug, passport_public");
+    .select("passport_slug, passport_public, passport_share_history");
 
   if (error) {
     console.error("Passport share save error:", error);
@@ -136,11 +155,16 @@ export async function PATCH(request: Request) {
     );
   }
   const row = (data ?? [])[0] as
-    | { passport_slug: string | null; passport_public: boolean }
+    | {
+        passport_slug: string | null;
+        passport_public: boolean;
+        passport_share_history: boolean;
+      }
     | undefined;
   return Response.json({
     success: true,
     slug: row?.passport_slug ?? slug,
-    public: row?.passport_public ?? parsed.data.public,
+    public: row?.passport_public ?? nextPublic,
+    shareHistory: row?.passport_share_history ?? nextShareHistory,
   });
 }

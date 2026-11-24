@@ -3,10 +3,13 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import {
+  fmtMoneyExact,
   initials,
   platformLabel,
+  plural,
   type AudienceSnapshot,
   type GalaxyProfile,
+  type PassportTrackRecord,
 } from "@/lib/galaxy/core";
 import { ProfileSheet } from "@/components/galaxy/ProfileSheet";
 import AudiencePanel from "@/components/galaxy/AudiencePanel";
@@ -31,6 +34,9 @@ export default function PassportClient({
   categories,
   initialSlug,
   initialPublic,
+  initialShareHistory,
+  memberSince,
+  trackRecord,
 }: {
   profile: GalaxyProfile;
   paidDeals: PaidDeal[];
@@ -40,6 +46,9 @@ export default function PassportClient({
   categories: string[];
   initialSlug: string | null;
   initialPublic: boolean;
+  initialShareHistory: boolean;
+  memberSince: string | null;
+  trackRecord: PassportTrackRecord;
 }) {
   const router = useRouter();
   const [profileOpen, setProfileOpen] = useState(false);
@@ -47,7 +56,9 @@ export default function PassportClient({
   const [testiOpen, setTestiOpen] = useState(false);
   const [slug, setSlug] = useState(initialSlug);
   const [isPublic, setIsPublic] = useState(initialPublic);
+  const [shareHistory, setShareHistoryState] = useState(initialShareHistory);
   const [shareBusy, setShareBusy] = useState(false);
+  const [historyBusy, setHistoryBusy] = useState(false);
 
   const brandsPaid = new Set(paidDeals.map((d) => d.brandName)).size;
   const shareUrl =
@@ -87,6 +98,30 @@ export default function PassportClient({
       toast("Share settings could not be saved. Please try again.");
     }
     setShareBusy(false);
+  }
+
+  async function setShareHistory(next: boolean) {
+    setHistoryBusy(true);
+    try {
+      const res = await fetch("/api/passport/share", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ shareHistory: next }),
+      });
+      const data = (await res.json().catch(() => null)) as { shareHistory?: boolean } | null;
+      if (res.ok && data) {
+        setShareHistoryState(Boolean(data.shareHistory));
+        toast(
+          data.shareHistory
+            ? "Track record sharing is on — it shows only while your Passport is public."
+            : "Track record sharing is off."
+        );
+        router.refresh();
+      } else toast("That setting could not be saved. Please try again.");
+    } catch {
+      toast("That setting could not be saved. Please try again.");
+    }
+    setHistoryBusy(false);
   }
 
   async function delEntry(id: string) {
@@ -154,6 +189,14 @@ export default function PassportClient({
                 Audience: {profile.audience}
               </p>
             ) : null}
+            <p className="gx-muted" style={{ fontSize: 14, margin: "4px 0 0" }}>
+              {[
+                memberSince ? `Member since ${memberSince}` : "",
+                slug ? `Passport: /p/${slug}` : "",
+              ]
+                .filter(Boolean)
+                .join(" · ")}
+            </p>
           </div>
           <div className="gx-pass-actions">
             <button type="button" className="gx-btn gx-btn-primary" disabled={shareBusy} onClick={() => void copyShare()}>
@@ -196,6 +239,73 @@ export default function PassportClient({
             </strong>
             <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Self-reported items</span>
           </div>
+        </div>
+      </section>
+
+      <section className="gx-panel" aria-labelledby="ver-h" style={{ marginTop: 22 }}>
+        <div className="gx-panel-head">
+          <h2 id="ver-h">Verified from your deal records</h2>
+          <span className="gx-pill gx-pill-ver">
+            <Icon html={I.ver} size={13} /> Verified
+          </span>
+        </div>
+        <p className="gx-sub" style={{ marginTop: -6 }}>
+          These figures are verified from your deal records on UltraVestra — deals you
+          tracked here through to payment. They are not self-reported.
+        </p>
+        {trackRecord.paidDealCount > 0 ? (
+          <div className="gx-figs">
+            <div style={{ padding: "12px 4px" }}>
+              <strong className="gx-fig-value">{trackRecord.paidDealCount}</strong>
+              <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Paid deals</span>
+            </div>
+            <div style={{ padding: "12px 4px" }}>
+              <strong className="gx-fig-value">{fmtMoneyExact(trackRecord.totalCollectedCents)}</strong>
+              <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Total collected</span>
+            </div>
+            <div style={{ padding: "12px 4px" }}>
+              <strong className="gx-fig-value">{trackRecord.brandsPaidCount}</strong>
+              <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Brands have paid you</span>
+            </div>
+            {trackRecord.avgDaysToPay != null ? (
+              <div style={{ padding: "12px 4px" }}>
+                <strong className="gx-fig-value">{trackRecord.avgDaysToPay}</strong>
+                <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>
+                  Avg. days for brands to pay
+                </span>
+              </div>
+            ) : null}
+          </div>
+        ) : (
+          <div className="gx-empty">
+            <p>
+              No paid deals yet. When a deal you track here is marked paid, it becomes a
+              verified figure here — paid deals, what you collected, and how fast brands
+              paid you.
+            </p>
+          </div>
+        )}
+        <div style={{ borderTop: "1px solid var(--line)", marginTop: 14, paddingTop: 14 }}>
+          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: 12 }}>
+            <strong style={{ fontSize: 15 }}>Share my track record</strong>
+            <button
+              type="button"
+              className={`gx-btn gx-btn-sm ${shareHistory ? "gx-btn-primary" : ""}`}
+              aria-pressed={shareHistory}
+              disabled={historyBusy}
+              onClick={() => void setShareHistory(!shareHistory)}
+            >
+              {shareHistory ? "On" : "Off"}
+            </button>
+          </div>
+          <p className="gx-sub" style={{ margin: "8px 0 0" }}>
+            Off by default. When on, your public Passport also shows your paid-deal
+            history and audience independence. Nothing is shared unless your Passport
+            is public AND this is on.
+            {shareHistory && !isPublic
+              ? " Right now your Passport is private, so nothing is showing."
+              : ""}
+          </p>
         </div>
       </section>
 

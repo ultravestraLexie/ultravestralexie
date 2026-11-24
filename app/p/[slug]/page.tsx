@@ -1,6 +1,18 @@
 import { notFound } from "next/navigation";
 import { createClient } from "@supabase/supabase-js";
-import { initials, platformLabel } from "@/lib/galaxy/core";
+import {
+  AUDIENCE_METHODOLOGY,
+  audiencePlatformLabel,
+  audienceSummary,
+  fmtMoneyExact,
+  initials,
+  passportTrackRecord,
+  platformLabel,
+  rowToDeal,
+  rowToSnapshot,
+  type AudienceRowLike,
+  type DealRowLike,
+} from "@/lib/galaxy/core";
 import { Icon, I } from "@/components/galaxy/icons";
 
 export const dynamic = "force-dynamic";
@@ -30,12 +42,20 @@ export default async function PublicPassportPage({
 
   const { data: prof } = await supabase
     .from("profiles")
-    .select("id, passport_slug, passport_public")
+    .select("id, passport_slug, passport_public, passport_share_history")
     .eq("passport_slug", slug)
     .eq("passport_public", true)
     .maybeSingle();
   if (!prof) notFound();
   const userId = (prof as { id: string }).id;
+  /* The track record is a SECOND opt-in on top of a public
+   * Passport: it renders only when passport_share_history is also
+   * true, and its data is only FETCHED under the same condition —
+   * with either flag off the figures and snapshots are never read,
+   * let alone rendered. (RLS enforces the same pair of flags on
+   * the snapshot rows.) */
+  const shareHistory =
+    (prof as { passport_share_history: boolean }).passport_share_history === true;
 
   const [{ data: bp }, { data: dealRows }, { data: entryRows }] = await Promise.all([
     supabase
@@ -70,6 +90,37 @@ export default async function PublicPassportPage({
     deliverables: string;
     payment_received_date: string | null;
   }[];
+
+  /* Track record (dual opt-in only): aggregates from the full
+   * paid-deal rows + the audience independence read. Per-deal
+   * amounts never render — only the totals, the counts and the
+   * brand names. */
+  let trackRecord: ReturnType<typeof passportTrackRecord> | null = null;
+  let independence: ReturnType<typeof audienceSummary> | null = null;
+  if (shareHistory) {
+    const [{ data: fullDealRows }, { data: snapRows }] = await Promise.all([
+      supabase
+        .from("creator_deals")
+        .select(
+          "id, brand_name, platform, stage, compensation_cents, deliverables, deadline, notes, invoice_sent_date, payment_due_date, payment_received_date, amount_received_cents, created_at, updated_at"
+        )
+        .eq("user_id", userId)
+        .eq("stage", "paid"),
+      supabase
+        .from("audience_snapshots")
+        .select("id, platform, followers, engagement_pct, captured_on, created_at")
+        .eq("user_id", userId)
+        .order("captured_on", { ascending: false })
+        .order("created_at", { ascending: false })
+        .limit(200),
+    ]);
+    trackRecord = passportTrackRecord(
+      ((fullDealRows ?? []) as DealRowLike[]).map((r) => rowToDeal(r))
+    );
+    independence = audienceSummary(
+      ((snapRows ?? []) as AudienceRowLike[]).map((r) => rowToSnapshot(r))
+    );
+  }
   const entries = (entryRows ?? []) as {
     section: string;
     payload: Record<string, string>;
@@ -140,6 +191,65 @@ export default async function PublicPassportPage({
           </div>
         </div>
       </section>
+
+      {shareHistory && trackRecord ? (
+        <section className="gx-panel" aria-labelledby="p-tr-h" style={{ marginTop: 22 }}>
+          <div className="gx-panel-head">
+            <h2 id="p-tr-h">Track record</h2>
+            <span className="gx-pill gx-pill-ver">
+              <Icon html={I.ver} size={13} /> Verified
+            </span>
+          </div>
+          <p className="gx-sub" style={{ marginTop: -6 }}>
+            Verified from deal records on UltraVestra — shared by the creator.
+          </p>
+          <div className="gx-figs">
+            <div style={{ padding: "12px 4px" }}>
+              <strong className="gx-fig-value">{trackRecord.paidDealCount}</strong>
+              <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Paid deals</span>
+            </div>
+            <div style={{ padding: "12px 4px" }}>
+              <strong className="gx-fig-value">{trackRecord.brandsPaidCount}</strong>
+              <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Brands have paid them</span>
+            </div>
+            <div style={{ padding: "12px 4px" }}>
+              <strong className="gx-fig-value">{fmtMoneyExact(trackRecord.totalCollectedCents)}</strong>
+              <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>Total collected</span>
+            </div>
+            {trackRecord.avgDaysToPay != null ? (
+              <div style={{ padding: "12px 4px" }}>
+                <strong className="gx-fig-value">{trackRecord.avgDaysToPay}</strong>
+                <span style={{ fontSize: 13.5, color: "var(--ink-2)" }}>
+                  Avg. days for brands to pay
+                </span>
+              </div>
+            ) : null}
+          </div>
+          {trackRecord.brandNames.length ? (
+            <p style={{ fontSize: 14.5, margin: "10px 0 0", lineHeight: 1.6 }}>
+              <span style={{ color: "var(--ink-2)" }}>Paid by:</span>{" "}
+              {trackRecord.brandNames.join(" · ")}
+            </p>
+          ) : null}
+          {independence &&
+          (independence.dependencyPct != null || independence.ownedPct != null) ? (
+            <div style={{ borderTop: "1px solid var(--line)", marginTop: 14, paddingTop: 14 }}>
+              <strong style={{ fontSize: 15 }}>Audience independence</strong>
+              <p style={{ margin: "8px 0 0", fontSize: 14.5, lineHeight: 1.6 }}>
+                {independence.dependencyPct != null && independence.biggestPlatform
+                  ? `${audiencePlatformLabel(independence.biggestPlatform)} carries ${independence.dependencyPct}% of platform reach. `
+                  : ""}
+                {independence.ownedPct != null
+                  ? `${independence.ownedPct}% of the audience is on the creator's own email list.`
+                  : ""}
+              </p>
+              <p className="gx-sub" style={{ margin: "8px 0 0" }}>
+                {AUDIENCE_METHODOLOGY}
+              </p>
+            </div>
+          ) : null}
+        </section>
+      ) : null}
 
       <div className="gx-pass-grid">
         <section className="gx-panel" aria-labelledby="p-col-h">

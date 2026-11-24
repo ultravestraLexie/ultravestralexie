@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import {
   computeAdvisor,
   computeInsights,
+  creatorLoop,
   daysAgo,
   fmtMoney,
   matchesToPitch,
@@ -16,8 +17,10 @@ import {
   addDaysKey,
 } from "@/lib/galaxy/core";
 import {
+  fetchAudienceSnapshots,
   fetchDeals,
   fetchDirectory,
+  fetchExpenses,
   fetchIncome,
   fetchPosts,
   fetchProfile,
@@ -41,7 +44,7 @@ export default async function TodayPage() {
   } = await supabase.auth.getUser();
   if (!user) return null;
 
-  const [profile, deals, posts, savedIds, scriptCount, income, protections] = await Promise.all([
+  const [profile, deals, posts, savedIds, scriptCount, income, protections, expenses, snapshots, shareRes] = await Promise.all([
     fetchProfile(supabase, user.id),
     fetchDeals(supabase, user.id),
     fetchPosts(supabase, user.id),
@@ -49,12 +52,40 @@ export default async function TodayPage() {
     fetchScriptCount(supabase, user.id),
     fetchIncome(supabase, user.id),
     fetchProtections(supabase, user.id),
+    fetchExpenses(supabase, user.id),
+    fetchAudienceSnapshots(supabase, user.id),
+    supabase
+      .from("profiles")
+      .select("passport_slug, passport_public, passport_share_history")
+      .eq("id", user.id)
+      .maybeSingle(),
   ]);
   const brands = await fetchDirectory(supabase, savedIds);
+  const shareFlags = shareRes.data as {
+    passport_slug: string | null;
+    passport_public: boolean;
+    passport_share_history: boolean;
+  } | null;
   const { data: catRows } = await supabase.from("categories").select("name").order("name");
   const categories = ((catRows ?? []) as { name: string }[]).map((c) => c.name);
 
   const now = new Date();
+  /* The Creator Loop (owner order 2026-11-23): Find → Negotiate →
+   * Protect → Collect → Grow, each step's metric and state read
+   * from the same rows everything else on this page uses. */
+  const loop = creatorLoop({
+    deals,
+    expenses,
+    savedCount: savedIds.size,
+    acceptingCount: brands.filter((b) => b.accepting).length,
+    brands,
+    protectionByDeal: protections,
+    snapshots,
+    passportPublic: shareFlags?.passport_public ?? false,
+    passportShareHistory: shareFlags?.passport_share_history ?? false,
+    passportSlug: shareFlags?.passport_slug ?? null,
+    now,
+  });
   const publishedDates = posts.filter((p) => p.state === "published").map((p) => p.date);
   const postsThisWeek = publishedDates.filter((d) => {
     const a = daysAgo(d, now);
@@ -120,6 +151,7 @@ export default async function TodayPage() {
       deals={deals}
       insights={insights}
       advisor={advisor}
+      loop={loop}
       pitchBrands={pitchBrands}
       paidCount={paidCount}
       paidThisMonthCents={paidInMonth(deals, income, monthKeyOf(todayKey(now)))}

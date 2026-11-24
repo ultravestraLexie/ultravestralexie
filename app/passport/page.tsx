@@ -1,5 +1,6 @@
 import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
+import { passportTrackRecord } from "@/lib/galaxy/core";
 import { fetchAudienceSnapshots, fetchDeals, fetchProfile } from "@/lib/galaxy/server";
 import PassportClient from "./PassportClient";
 
@@ -30,7 +31,7 @@ export default async function PassportPage() {
       .order("created_at", { ascending: false }),
     supabase
       .from("profiles")
-      .select("passport_slug, passport_public")
+      .select("passport_slug, passport_public, passport_share_history, created_at")
       .eq("id", user.id)
       .maybeSingle(),
     supabase.from("categories").select("name").order("name"),
@@ -70,8 +71,24 @@ export default async function PassportPage() {
       deliverables: d.deliverables,
       paidOn: d.paidOn,
     }));
-  const share = shareRes.data as { passport_slug: string | null; passport_public: boolean } | null;
+  const share = shareRes.data as {
+    passport_slug: string | null;
+    passport_public: boolean;
+    passport_share_history: boolean;
+    created_at: string | null;
+  } | null;
   const categories = ((catRows.data ?? []) as unknown as { name: string }[]).map((c) => c.name);
+  /* The verified block: figures from the creator's own paid deal
+   * records only (core.passportTrackRecord) — the platform can
+   * attest to these; everything else on the page is labelled
+   * self-reported. */
+  const trackRecord = passportTrackRecord(deals);
+  const memberSince = share?.created_at
+    ? new Date(share.created_at).toLocaleDateString("en-US", {
+        month: "long",
+        year: "numeric",
+      })
+    : null;
 
   return (
     <PassportClient
@@ -83,6 +100,9 @@ export default async function PassportPage() {
       categories={categories}
       initialSlug={share?.passport_slug ?? null}
       initialPublic={share?.passport_public ?? false}
+      initialShareHistory={share?.passport_share_history ?? false}
+      memberSince={memberSince}
+      trackRecord={trackRecord}
     />
   );
 }
