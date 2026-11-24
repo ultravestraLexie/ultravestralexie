@@ -22,6 +22,7 @@ import {
   shortMoney,
   stageOf,
   type AdvisorReport,
+  type GalaxyAlert,
   type GalaxyBrand,
   type GalaxyDeal,
   type GalaxyProfile,
@@ -76,6 +77,7 @@ type Props = {
   insights: Insight[];
   advisor: AdvisorReport;
   loop: LoopStep[];
+  alerts: GalaxyAlert[];
   pitchBrands: GalaxyBrand[];
   paidCount: number;
   paidThisMonthCents: number;
@@ -90,6 +92,26 @@ export default function TodayClient(p: Props) {
   const router = useRouter();
   const [ask, setAsk] = useState("all");
   const [loopOpen, setLoopOpen] = useState<LoopStepId | null>(null);
+  /* In-app alerts (trust queue #6): server-derived from the
+   * creator's deals, preferences and dismissals; dismissing one
+   * removes it here at once and records the dismissal through
+   * /api/notifications so it stays gone. */
+  const [alerts, setAlerts] = useState<GalaxyAlert[]>(p.alerts);
+
+  async function dismissAlert(key: string) {
+    setAlerts((prev) => prev.filter((a) => a.key !== key));
+    try {
+      await fetch("/api/notifications", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: "dismiss", key }),
+      });
+    } catch {
+      /* The alert is hidden for this view either way; if the
+       * dismissal did not save it can return on the next load —
+       * never block the creator on it. */
+    }
+  }
   const [dealId, setDealId] = useState<string | null>(null);
   const [pitchId, setPitchId] = useState<string | null>(null);
   const [profileOpen, setProfileOpen] = useState(false);
@@ -867,6 +889,65 @@ export default function TodayClient(p: Props) {
       </section>
 
       {loopPanel}
+
+      {/* Alerts (trust queue #6) — in-app only, and the card says
+          so in its own header line: no email alert exists until
+          the sending domain is live. At most five show; each one
+          links to its deal on the board and can be dismissed,
+          which records the dismissal server-side. */}
+      <section className="gx-panel" aria-labelledby="alerts-h" style={{ marginBottom: 20 }}>
+        <div className="gx-panel-head">
+          <h2 id="alerts-h">Alerts</h2>
+          <span className="gx-muted">
+            In-app alerts. Email alerts arrive when our sending domain is live.
+          </span>
+        </div>
+        {alerts.length ? (
+          <ul className="gx-list" style={{ marginTop: 12 }}>
+            {alerts.slice(0, 5).map((a) => (
+              <li key={a.key} className="gx-action-li">
+                <span
+                  aria-hidden="true"
+                  style={{
+                    width: 9,
+                    height: 9,
+                    borderRadius: "50%",
+                    flex: "none",
+                    background: a.tone === "critical" ? "#f87171" : "#facc15",
+                  }}
+                />
+                <div>
+                  <Link
+                    href={a.href}
+                    style={{
+                      fontWeight: 600,
+                      lineHeight: 1.35,
+                      color: "var(--ink)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    {a.title}
+                  </Link>
+                  <div style={{ color: "var(--ink-3)", fontSize: 13.5, marginTop: 2 }}>
+                    {a.detail}
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  className="gx-btn gx-btn-sm"
+                  onClick={() => void dismissAlert(a.key)}
+                >
+                  Dismiss
+                </button>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div className="gx-empty">
+            <p>Nothing needs your attention.</p>
+          </div>
+        )}
+      </section>
 
       <p style={{ margin: "-4px 0 18px", fontSize: 13.5, color: "var(--ink-3)" }}>
         Something broken?{" "}

@@ -11,6 +11,7 @@ import {
   type SupportTicket,
 } from "@/lib/galaxy/core";
 import { toast } from "@/components/galaxy/ui";
+import FeedbackForm from "./FeedbackForm";
 
 /* Support center (trust queue #1) — the signed-in half of
  * /support. The form files a real row in public.support_tickets
@@ -232,6 +233,11 @@ export default function SupportClient({
           </div>
         )}
       </section>
+
+      {/* Feedback (trust queue #7) — its own section under the
+          request form, on purpose: it is not a ticket, carries no
+          reference or status, and promises no reply. */}
+      <FeedbackForm />
     </div>
   );
 }

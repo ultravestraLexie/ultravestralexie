@@ -12,12 +12,15 @@ import {
   brandProvenance,
   capFromNotes,
   rowToDeal,
+  rowToNotificationPrefs,
   rowToProtection,
   rowToSnapshot,
   rowToSupportTicket,
   type AudienceRowLike,
   type AudienceSnapshot,
   type BrandEvidenceLike,
+  type NotificationPrefs,
+  type NotificationPrefsRowLike,
   type SupportTicket,
   type SupportTicketRowLike,
   type DealProtection,
@@ -133,6 +136,37 @@ export async function fetchSupportTickets(
   return ((data ?? []) as SupportTicketRowLike[]).map((r) =>
     rowToSupportTicket(r)
   );
+}
+
+/** Notification state (trust queue #6): the caller's alert
+ *  preferences (defaults when no row exists yet) and the alert
+ *  keys they have dismissed. Own-row RLS applies on top of the
+ *  user_id scope. A missing table (migration not yet applied)
+ *  reads as no rows — defaults and no dismissals — so Today
+ *  still renders. */
+export async function fetchNotificationState(
+  supabase: ServerClient,
+  userId: string
+): Promise<{ prefs: NotificationPrefs; dismissedKeys: string[] }> {
+  const [prefsRes, dismissRes] = await Promise.all([
+    supabase
+      .from("notification_prefs")
+      .select("overdue, due_soon, quiet_deals")
+      .eq("user_id", userId)
+      .maybeSingle(),
+    supabase
+      .from("notification_dismissals")
+      .select("alert_key")
+      .eq("user_id", userId),
+  ]);
+  return {
+    prefs: rowToNotificationPrefs(
+      prefsRes.data as NotificationPrefsRowLike | null
+    ),
+    dismissedKeys: ((dismissRes.data ?? []) as { alert_key: string }[]).map(
+      (r) => r.alert_key
+    ),
+  };
 }
 
 /** Latest deal_stage_history entry per deal (ISO timestamps),

@@ -4,6 +4,9 @@ import { createClient } from "@/lib/supabase/server";
 import { SUBSCRIBED_STATUSES } from "@/lib/gate-paths";
 import SignOutButton from "@/components/SignOutButton";
 import SettingsPrefs from "@/components/SettingsPrefs";
+import SettingsSecurity from "@/components/SettingsSecurity";
+import SettingsNotifications from "@/components/SettingsNotifications";
+import { fetchNotificationState } from "@/lib/galaxy/server";
 
 export const dynamic = "force-dynamic";
 
@@ -35,6 +38,19 @@ function fmtDate(value: string | null): string {
   return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
 }
 
+function fmtDateTime(value: string | null | undefined): string {
+  if (!value) return "—";
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return "—";
+  return d.toLocaleString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  });
+}
+
 export default async function SettingsPage() {
   const supabase = await createClient();
   const {
@@ -42,7 +58,7 @@ export default async function SettingsPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/login");
 
-  const [subRes, prefsRes, profileRes] = await Promise.all([
+  const [subRes, prefsRes, profileRes, notifState] = await Promise.all([
     supabase
       .from("subscriptions")
       .select("plan_id, status, current_period_end, created_at")
@@ -58,6 +74,7 @@ export default async function SettingsPage() {
       .select("username")
       .eq("user_id", user.id)
       .maybeSingle(),
+    fetchNotificationState(supabase, user.id),
   ]);
 
   /* A returning subscriber has more than one subscription row
@@ -179,9 +196,58 @@ export default async function SettingsPage() {
         </div>
       </section>
 
+      {/* Security (trust queue #3) — real facts from the auth
+          record and the subscription row above, plus the two
+          controls that act on the session itself. The protection
+          line is the schema's own truth: creator_deals,
+          creator_expenses, revenue_entries, deal_protection,
+          audience_snapshots and support_tickets all carry own-row
+          RLS policies (verified in supabase/schema.sql and the
+          migrations). No extra sign-in factor is claimed here —
+          the app does not offer one. */}
+      <section style={panel}>
+        <h2 style={{ fontSize: 20, margin: "0 0 14px" }}>Security</h2>
+        <p style={{ margin: "0 0 8px", fontSize: 15.5 }}>
+          <strong>Sign-in email:</strong>{" "}
+          <span style={{ color: "#ddd0ff" }}>{user.email}</span>
+        </p>
+        <p style={{ margin: "0 0 8px", fontSize: 15.5 }}>
+          <strong>Member since:</strong>{" "}
+          <span style={{ color: "#ddd0ff" }}>{fmtDate(user.created_at)}</span>
+        </p>
+        <p style={{ margin: "0 0 8px", fontSize: 15.5 }}>
+          <strong>Last sign-in:</strong>{" "}
+          <span style={{ color: "#ddd0ff" }}>{fmtDateTime(user.last_sign_in_at)}</span>
+        </p>
+        <p style={{ margin: "0 0 16px", fontSize: 15.5 }}>
+          <strong>Plan:</strong>{" "}
+          <span style={{ color: "#ddd0ff" }}>
+            {sub
+              ? `UltraVestra ${planName} — ${sub.status ?? "—"}`
+              : "No subscription on record"}
+          </span>
+        </p>
+        <p style={{ margin: "0 0 18px", color: "#ddd0ff", fontSize: 15 }}>
+          Your deals, money records and requests are stored under your account only — other creators cannot see them.
+        </p>
+        <SettingsSecurity />
+      </section>
+
       <section style={panel}>
         <h2 style={{ fontSize: 20, margin: "0 0 14px" }}>Preferences</h2>
         <SettingsPrefs initialGoal={weeklyGoal} initialUsername={username} />
+      </section>
+
+      {/* Notifications (trust queue #6) — in-app alerts only.
+          Email alerts are not promised: the sending domain is
+          not live yet, and the panel says so. */}
+      <section style={panel}>
+        <h2 style={{ fontSize: 20, margin: "0 0 10px" }}>Notifications</h2>
+        <p style={{ margin: "0 0 14px", color: "#ddd0ff", fontSize: 15 }}>
+          These alerts appear on your Today page — in-app only for now.
+          Email alerts arrive when our sending domain is live.
+        </p>
+        <SettingsNotifications initialPrefs={notifState.prefs} />
       </section>
 
       <section style={panel}>
@@ -216,6 +282,23 @@ export default async function SettingsPage() {
         <Link href="/support" style={{ color: "#67e8f9", fontWeight: 700, fontSize: 15 }}>
           Open Help &amp; Support →
         </Link>
+      </section>
+
+      {/* Feedback (trust queue #7) — the form itself lives on the
+          Support page; this panel is the signpost. Feedback is
+          not a support request and carries no reply promise. */}
+      <section style={panel}>
+        <h2 style={{ fontSize: 20, margin: "0 0 10px" }}>Feedback</h2>
+        <p style={{ margin: "0 0 12px", color: "#ddd0ff", fontSize: 15 }}>
+          Want to tell us what&rsquo;s working or what&rsquo;s missing?{" "}
+          <Link href="/support#feedback" style={{ color: "#67e8f9", fontWeight: 700 }}>
+            Leave feedback →
+          </Link>
+        </p>
+        <p style={{ margin: 0, color: "#ddd0ff", fontSize: 15 }}>
+          Feedback goes straight to the owner and helps us learn why
+          creators stay or leave.
+        </p>
       </section>
     </div>
   );

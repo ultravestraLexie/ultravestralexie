@@ -1,6 +1,7 @@
 import { requireSubscription } from "@/lib/gate";
 import { createClient } from "@/lib/supabase/server";
 import {
+  buildAlerts,
   computeAdvisor,
   computeInsights,
   creatorLoop,
@@ -23,6 +24,7 @@ import {
   fetchDirectory,
   fetchExpenses,
   fetchIncome,
+  fetchNotificationState,
   fetchPosts,
   fetchProfile,
   fetchProtections,
@@ -45,7 +47,7 @@ export default async function TodayPage() {
   } = await supabase.auth.getUser();
   if (!user) return null;
 
-  const [profile, deals, posts, savedIds, scriptCount, income, protections, expenses, snapshots, lastActivity, shareRes] = await Promise.all([
+  const [profile, deals, posts, savedIds, scriptCount, income, protections, expenses, snapshots, lastActivity, shareRes, notifState] = await Promise.all([
     fetchProfile(supabase, user.id),
     fetchDeals(supabase, user.id),
     fetchPosts(supabase, user.id),
@@ -61,6 +63,7 @@ export default async function TodayPage() {
       .select("passport_slug, passport_public, passport_share_history")
       .eq("id", user.id)
       .maybeSingle(),
+    fetchNotificationState(supabase, user.id),
   ]);
   const brands = await fetchDirectory(supabase, savedIds);
   const shareFlags = shareRes.data as {
@@ -91,6 +94,17 @@ export default async function TodayPage() {
     profileNiches: profile.categories.length > 0,
     now,
   });
+  /* In-app alerts (trust queue #6): derived from the same deal
+   * rows and the same last-activity map the Loop reads, gated by
+   * the creator's saved preferences and dismissals. In-app only —
+   * no email alert exists until the sending domain is live. */
+  const alerts = buildAlerts(
+    deals,
+    notifState.prefs,
+    notifState.dismissedKeys,
+    todayKey(now),
+    lastActivity
+  );
   const publishedDates = posts.filter((p) => p.state === "published").map((p) => p.date);
   const postsThisWeek = publishedDates.filter((d) => {
     const a = daysAgo(d, now);
@@ -157,6 +171,7 @@ export default async function TodayPage() {
       insights={insights}
       advisor={advisor}
       loop={loop}
+      alerts={alerts}
       pitchBrands={pitchBrands}
       paidCount={paidCount}
       paidThisMonthCents={paidInMonth(deals, income, monthKeyOf(todayKey(now)))}

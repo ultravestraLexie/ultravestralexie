@@ -2601,6 +2601,32 @@ function loopFind(input: CreatorLoopInput): LoopStep {
   };
 }
 
+/** The calendar date a deal last moved: its latest
+ *  deal_stage_history entry when one is on file, else its
+ *  updated_at (whose date part is GalaxyDeal.lastContact). The
+ *  Creator Loop's Negotiate step and the in-app alerts (trust
+ *  queue #6) share this one definition of "last activity", so a
+ *  deal can never read as quiet in one place and active in the
+ *  other. */
+export function dealLastActivityKey(
+  d: GalaxyDeal,
+  lastActivityByDeal?: Record<string, string>
+): string {
+  const ts = lastActivityByDeal?.[d.id] ?? d.updatedAt ?? "";
+  return ts ? ts.slice(0, 10) : d.lastContact;
+}
+
+/** Whole days since the deal last moved (0 when no date is on
+ *  file at all). */
+export function dealIdleDays(
+  d: GalaxyDeal,
+  lastActivityByDeal: Record<string, string> | undefined,
+  now: Date
+): number {
+  const key = dealLastActivityKey(d, lastActivityByDeal);
+  return key ? Math.max(0, daysAgo(key, now)) : 0;
+}
+
 /* ---------- 02 NEGOTIATE ---------- */
 function loopNegotiate(input: CreatorLoopInput, now: Date): LoopStep {
   const talks = input.deals.filter(
@@ -2608,11 +2634,8 @@ function loopNegotiate(input: CreatorLoopInput, now: Date): LoopStep {
   );
   /** Whole days since the deal last moved: its latest stage-
    *  history entry, else its updated_at (lastContact). */
-  const idleOf = (d: GalaxyDeal): number => {
-    const ts = input.lastActivityByDeal?.[d.id] ?? d.updatedAt ?? "";
-    const key = ts ? ts.slice(0, 10) : d.lastContact;
-    return key ? Math.max(0, daysAgo(key, now)) : 0;
-  };
+  const idleOf = (d: GalaxyDeal): number =>
+    dealIdleDays(d, input.lastActivityByDeal, now);
   const rows = talks.map((d) => {
     const idle = idleOf(d);
     const quiet = idle >= LOOP_FOLLOW_UP_DAYS;
@@ -3178,4 +3201,221 @@ export function brandProvenance(
     };
   }
   return { kind: "unknown", line: "Source not recorded for this listing." };
+}
+
+
+/* ------------------------------------------------------------------ */
+/* NOTIFICATIONS (trust queue #6, owner order 2026-11-23): "Never     */
+/* miss a deadline, negotiation or payment." Alerts are IN-APP only:  */
+/* the sending domain is not live yet, so no surface may promise      */
+/* email alerts. buildAlerts derives every alert from the creator's   */
+/* own deal rows — the same fields the Creator Loop reads — and each  */
+/* alert carries a STABLE key (type : deal : the date that makes it   */
+/* true) so a dismissal sticks to exactly that alert: when the date   */
+/* changes, it is a different alert and may show again.               */
+/* ------------------------------------------------------------------ */
+
+export type NotificationPrefs = {
+  overdue: boolean;
+  dueSoon: boolean;
+  quietDeals: boolean;
+};
+
+/** Every alert type starts ON: a creator who never opens Settings
+ *  still gets told about overdue money. */
+export const DEFAULT_NOTIFICATION_PREFS: NotificationPrefs = {
+  overdue: true,
+  dueSoon: true,
+  quietDeals: true,
+};
+
+export type NotificationPrefsRowLike = {
+  overdue: boolean | null;
+  due_soon: boolean | null;
+  quiet_deals: boolean | null;
+};
+
+export function rowToNotificationPrefs(
+  r: NotificationPrefsRowLike | null | undefined
+): NotificationPrefs {
+  if (!r) return { ...DEFAULT_NOTIFICATION_PREFS };
+  return {
+    overdue: r.overdue !== false,
+    dueSoon: r.due_soon !== false,
+    quietDeals: r.quiet_deals !== false,
+  };
+}
+
+export type AlertKind = "overdue" | "due-soon" | "quiet";
+export type AlertTone = "critical" | "attention";
+
+export type GalaxyAlert = {
+  /** Stable identity: `<type>:<dealId>:<date>` — a dismissal is
+   *  stored against this exact string. */
+  key: string;
+  kind: AlertKind;
+  tone: AlertTone;
+  title: string;
+  detail: string;
+  href: string;
+};
+
+/** An invoice due within this many days (today counts) earns a
+ *  due-soon alert; once it passes, the overdue alert takes over. */
+export const ALERT_DUE_SOON_DAYS = 3;
+
+/** Derive the creator's in-app alerts from their deals.
+ *  - overdue: an invoiced deal with money still owed whose
+ *    payment_due_date is before today (critical).
+ *  - due-soon: the same, due today or within ALERT_DUE_SOON_DAYS
+ *    days (attention).
+ *  - quiet: a pitched/negotiating deal idle for at least
+ *    LOOP_FOLLOW_UP_DAYS days, idleness measured by
+ *    dealIdleDays — the Creator Loop's own clock (attention).
+ *  Each preference gates its own type; a dismissed key removes
+ *  exactly that alert. Order: overdue first (most overdue
+ *  first), then due-soon (soonest first), then quiet (longest
+ *  idle first) — money before conversation, always. */
+export function buildAlerts(
+  deals: GalaxyDeal[],
+  prefs: NotificationPrefs,
+  dismissedKeys: Iterable<string>,
+  todayKey: string,
+  lastActivityByDeal?: Record<string, string>
+): GalaxyAlert[] {
+  const now = parseKey(todayKey);
+  const dismissed = new Set(dismissedKeys);
+  const overdue: { alert: GalaxyAlert; days: number }[] = [];
+  const dueSoon: { alert: GalaxyAlert; days: number }[] = [];
+  const quiet: { alert: GalaxyAlert; idle: number }[] = [];
+
+  for (const d of deals) {
+    if (d.stage === "invoiced" && d.invoiceDue) {
+      const remaining = dealRemainingCents(d);
+      if (remaining > 0) {
+        const days = daysUntil(d.invoiceDue, now);
+        if (days < 0 && prefs.overdue) {
+          const key = `overdue:${d.id}:${d.invoiceDue}`;
+          if (!dismissed.has(key)) {
+            overdue.push({
+              days: -days,
+              alert: {
+                key,
+                kind: "overdue",
+                tone: "critical",
+                title: `${d.brandName} is ${plural(-days, "day")} overdue`,
+                detail: `${fmtMoney(remaining)} still owed · invoice was due ${fmtDate(d.invoiceDue)}`,
+                href: "/deals",
+              },
+            });
+          }
+        } else if (days >= 0 && days <= ALERT_DUE_SOON_DAYS && prefs.dueSoon) {
+          const key = `due:${d.id}:${d.invoiceDue}`;
+          if (!dismissed.has(key)) {
+            dueSoon.push({
+              days,
+              alert: {
+                key,
+                kind: "due-soon",
+                tone: "attention",
+                title:
+                  days === 0
+                    ? `${d.brandName} is due today`
+                    : days === 1
+                      ? `${d.brandName} is due tomorrow`
+                      : `${d.brandName} is due in ${days} days`,
+                detail: `${fmtMoney(remaining)} owed · due ${fmtDate(d.invoiceDue)}`,
+                href: "/deals",
+              },
+            });
+          }
+        }
+      }
+    }
+
+    if (
+      (d.stage === "pitched" || d.stage === "negotiating") &&
+      prefs.quietDeals
+    ) {
+      const idle = dealIdleDays(d, lastActivityByDeal, now);
+      if (idle >= LOOP_FOLLOW_UP_DAYS) {
+        const key = `quiet:${d.id}:${dealLastActivityKey(d, lastActivityByDeal)}`;
+        if (!dismissed.has(key)) {
+          quiet.push({
+            idle,
+            alert: {
+              key,
+              kind: "quiet",
+              tone: "attention",
+              title: `Follow up with ${d.brandName}`,
+              detail: `No movement in ${plural(idle, "day")} — a short nudge keeps the deal moving.`,
+              href: "/deals",
+            },
+          });
+        }
+      }
+    }
+  }
+
+  overdue.sort((a, b) => b.days - a.days);
+  dueSoon.sort((a, b) => a.days - b.days);
+  quiet.sort((a, b) => b.idle - a.idle);
+  return [...overdue, ...dueSoon, ...quiet].map((x) => x.alert);
+}
+
+/* ------------------------------------------------------------------ */
+/* CUSTOMER FEEDBACK (trust queue #7, owner order 2026-11-23):        */
+/* "Identify why users stay or leave." Feedback is NOT a support      */
+/* ticket: no reference number, no status, and no reply is promised   */
+/* — the creator may only opt in to being emailed about it. The kind  */
+/* list is closed and shared: the form, the API validation and the    */
+/* table's check constraint name exactly the same four values.        */
+/* ------------------------------------------------------------------ */
+
+export const FEEDBACK_KINDS = [
+  "working",
+  "missing",
+  "hard",
+  "leaving",
+] as const;
+
+export type FeedbackKind = (typeof FEEDBACK_KINDS)[number];
+
+export const isFeedbackKind = (k: string): k is FeedbackKind =>
+  (FEEDBACK_KINDS as readonly string[]).includes(k);
+
+/** The words the creator picks from — also the words shown back
+ *  anywhere their feedback is listed. */
+export const feedbackKindLabel = (k: string): string =>
+  ({
+    working: "What's working",
+    missing: "What's missing",
+    hard: "Something is hard to use",
+    leaving: "I'm thinking of leaving",
+  })[k] ?? "What's working";
+
+export type FeedbackEntry = {
+  id: string;
+  kind: string;
+  message: string;
+  contactOk: boolean;
+  createdAt: string;
+};
+
+export type FeedbackRowLike = {
+  id: string;
+  kind: string;
+  message: string;
+  contact_ok: boolean;
+  created_at: string;
+};
+
+export function rowToFeedback(r: FeedbackRowLike): FeedbackEntry {
+  return {
+    id: r.id,
+    kind: r.kind,
+    message: r.message,
+    contactOk: r.contact_ok,
+    createdAt: r.created_at,
+  };
 }
