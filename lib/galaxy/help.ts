@@ -130,9 +130,6 @@ export const KB: HelpArticle[] = [
     b: ["Weekly challenges, like 7 days of consistent posting, getting your first brand deal, improving your hooks or building your media kit in 24 hours. Invite friends to compete with you."] },
   { id: "hof", s: "help", cat: "Growth & rewards", t: "How does the Hall of Fame work?", k: "hall of fame leaderboard rank ranking top best consistency improvement community favorite",
     b: ["The Hall of Fame recognizes creators each month for best consistency, best campaign performance, biggest improvement and community favorite. Rankings use verified activity only. You can opt out in the Privacy Center."] },
-  { id: "year-review", s: "help", cat: "Growth & rewards", t: "What is my Creator Year in Review?", k: "year in review wrapped recap annual summary story",
-    b: ["Once a year you get a personal recap: deals completed, brands you worked with, content published, your biggest achievement and growth milestones. Money is always labeled Verified or Self-reported. It stays private until you share it."] },
-
   // ---- What If
   { id: "whatif", s: "help", cat: "Vestra What If", t: "What is Vestra What If?", k: "what if simulator simulation scenario decision calculator future career move save invest car",
     b: ["Vestra What If is a life decision simulator. Pick a question, like changing careers or saving $300 a month, enter your numbers, and see both paths side by side: your current path, the alternative, the financial impact, the risks and where each could be in 1, 5 and 10 years."] },
@@ -163,7 +160,7 @@ export const KB: HelpArticle[] = [
   { id: "p-use", s: "privacy", cat: "Privacy Policy", t: "How we use your information", k: "use data information purpose why",
     b: [["To run your tools: Content DNA, Deals, Passport, levels and What If.", "To match you with brand opportunities.", "To keep your account safe and prevent fraud.", "To send messages you asked for. You can turn off tips and updates any time."]] },
   { id: "p-public", s: "privacy", cat: "Privacy Policy", t: "What’s public and what stays private", k: "public private visible who can see hidden earnings passport show",
-    b: ["Public only if you choose: your Passport, your Hall of Fame entries and anything you share, like your DNA card or Year in Review.", "Private by default: your earnings, deal details, contracts and What If scenarios."] },
+    b: ["Public only if you choose: your Passport, your Hall of Fame entries and anything you share, like your DNA card.", "Private by default: your earnings, deal details, contracts and What If scenarios."] },
   { id: "p-connected", s: "privacy", cat: "Privacy Policy", t: "Connected accounts (TikTok, Instagram and more)", k: "connect connected tiktok instagram youtube account social permission post",
     b: ["When you connect an account, we read only the stats you approve. We never post for you without asking. You can disconnect any time, and we stop pulling new data."] },
   { id: "p-share", s: "privacy", cat: "Privacy Policy", t: "Who we share information with", k: "share sell selling sold third party brands advertisers data",

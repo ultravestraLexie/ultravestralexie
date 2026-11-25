@@ -153,7 +153,7 @@ export default async function MePage() {
       <section aria-label="Creator Economy" style={{ marginTop: 56 }}>
         <h2 style={{ fontSize: 22, margin: 0 }}>Creator Economy</h2>
         <p style={{ margin: "8px 0 0", color: "var(--ink-2)", maxWidth: "60ch" }}>
-          Your growth layer — levels, challenges, your year in review, invites and the
+          Your growth layer — levels, challenges, invites and the
           What If simulator.
         </p>
         <div
@@ -165,12 +165,6 @@ export default async function MePage() {
           }}
         >
           {[
-            {
-              href: "/me/year",
-              title: "Year in Review",
-              detail: "Your creator year, told by your paid deals.",
-              orb: "radial-gradient(circle at 32% 30%, #93c5fd, #4c7dff 55%, #1e2754)",
-            },
             {
               href: "/me/levels",
               title: "Your next level",

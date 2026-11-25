@@ -3,8 +3,8 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
 
-/* Shared shell for the Creator Economy frames in Me (Year in Review,
- * Invite, Next Level, Challenges, Hall of Fame, What If). The CSS is
+/* Shared shell for the Creator Economy frames in Me (Invite,
+ * Next Level, Challenges, Hall of Fame, What If). The CSS is
  * the prototype's stylesheet, scoped under .econ with --e- prefixed
  * variables so nothing leaks into (or is leaked into) the app; the
  * prototype's page chrome (gallery, phone frames, its own tab bar)

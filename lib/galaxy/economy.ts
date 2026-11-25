@@ -11,10 +11,11 @@
  *    line-for-line (money/fmt/catchUp helpers, the four scenarios and
  *    their run() math). Expected values in the fixtures were derived
  *    by running the prototype's own code.
- *  - NEXT LEVEL + YEAR IN REVIEW: computed from the creator's REAL
- *    deals. Money comes only from core's own helpers (dealPaidCents);
- *    nothing here re-derives a cent. A creator with no paid deals
- *    gets honest zeros, never the prototype's sample numbers.
+ *  - NEXT LEVEL: computed from the creator's REAL deals. Money
+ *    comes only from core's own helpers (dealPaidCents); nothing
+ *    here re-derives a cent. A creator with no paid deals gets
+ *    honest zeros, never the prototype's sample numbers.
+ *    (Year in Review was removed 2026-11-24 on the owner's order.)
  *  - INVITE: the prototype's reward ladder. Statuses derive from a
  *    joined-count held in device-local state (the prototype models
  *    2 of 3 joined); no backend tracks referrals.
@@ -360,7 +361,7 @@ export const WI_DISCLAIMER =
 
 export const WI_STORE_KEY = "uv-whatif.v1";
 
-/* ==================== REAL FACTS (levels + year) ==================== */
+/* ======================= REAL FACTS (levels) ======================= */
 
 export type LevelFacts = {
   /** Completed campaigns = deals that reached the paid stage. */
@@ -514,58 +515,6 @@ export function levelMilestones(deals: GalaxyDeal[]): Milestone[] {
   });
 
   return rows;
-}
-
-/* ------------------------- Year in Review ------------------------- */
-
-export type YearReview = {
-  year: number;
-  dealsCompleted: number;
-  brandsWorkedWith: number;
-  earnedCents: number;
-  biggestDeal: { brandName: string; cents: number; paidOn: string } | null;
-  /** Growth-milestone months, all inside the reviewed year. */
-  firstDealMonth: string | null;
-  first500Month: string | null;
-  fiveBrandsMonth: string | null;
-};
-
-export function yearInReview(deals: GalaxyDeal[], year: number): YearReview {
-  const paid = deals
-    .filter((d) => d.stage === "paid" && d.paidOn && parseKey(d.paidOn).getFullYear() === year)
-    .sort((a, b) => (a.paidOn ?? "").localeCompare(b.paidOn ?? ""));
-
-  let earnedCents = 0;
-  let biggest: YearReview["biggestDeal"] = null;
-  let first500Month: string | null = null;
-  let fiveBrandsMonth: string | null = null;
-  const brandsSeen = new Set<string>();
-
-  for (const d of paid) {
-    const cents = dealPaidCents(d);
-    earnedCents += cents;
-    if (!biggest || cents > biggest.cents) {
-      biggest = { brandName: d.brandName, cents, paidOn: d.paidOn as string };
-    }
-    if (first500Month === null && earnedCents >= 50000) {
-      first500Month = monthName(d.paidOn as string);
-    }
-    brandsSeen.add(d.brandName);
-    if (fiveBrandsMonth === null && brandsSeen.size >= 5) {
-      fiveBrandsMonth = monthName(d.paidOn as string);
-    }
-  }
-
-  return {
-    year,
-    dealsCompleted: paid.length,
-    brandsWorkedWith: brandsSeen.size,
-    earnedCents,
-    biggestDeal: biggest,
-    firstDealMonth: paid.length ? monthName(paid[0].paidOn as string) : null,
-    first500Month,
-    fiveBrandsMonth,
-  };
 }
 
 /* ============================== INVITE ============================== */

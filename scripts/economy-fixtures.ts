@@ -51,7 +51,6 @@ import {
   wiFmt,
   wiMoney,
   wiMoneyShort,
-  yearInReview,
 } from "../lib/galaxy/economy";
 
 let failures = 0;
@@ -292,56 +291,6 @@ check("levels: tier ladder", LEVEL_TIERS.map((t) => t.id), ["bronze", "silver", 
   check("milestones: campaigns progress", [rows[2].current, rows[2].target], [2, 10]);
   check("milestones: brands progress", [rows[3].current, rows[3].target], [2, 5]);
   check("milestones: revenue progress in cents", [rows[4].current, rows[4].target], [130000, 500000]);
-}
-
-/* --------------------------- Year in Review --------------------------- */
-
-{
-  const r = yearInReview(
-    [
-      deal({ brandName: "A", amountCents: 60000, paidOn: "2026-03-10" }),
-      deal({ brandName: "B", amountCents: 70000, paidOn: "2026-05-02" }),
-      deal({ brandName: "A", amountCents: 30000, paidOn: "2026-05-20" }),
-      deal({ brandName: "C", amountCents: 99900, paidOn: "2025-12-01" }),
-      deal({ brandName: "D", stage: "invoiced", amountCents: 88800, paidOn: null }),
-    ],
-    2026
-  );
-  check("year: only this year's paid deals count", [r.dealsCompleted, r.brandsWorkedWith, r.earnedCents], [3, 2, 160000]);
-  check("year: biggest deal", r.biggestDeal, { brandName: "B", cents: 70000, paidOn: "2026-05-02" });
-  check("year: first deal month", r.firstDealMonth, "March");
-  check("year: first $500 landed with the first deal", r.first500Month, "March");
-  check("year: five brands not reached", r.fiveBrandsMonth, null);
-}
-{
-  const r = yearInReview(
-    [
-      deal({ brandName: "A", amountCents: 20000, paidOn: "2026-01-15" }),
-      deal({ brandName: "A", amountCents: 20000, paidOn: "2026-02-15" }),
-      deal({ brandName: "B", amountCents: 20000, paidOn: "2026-03-15" }),
-    ],
-    2026
-  );
-  check("year: first $500 crosses in March", r.first500Month, "March");
-  check("year: earned sums the year", r.earnedCents, 60000);
-}
-{
-  const r = yearInReview(
-    ["A", "B", "C", "D", "E"].map((b, i) =>
-      deal({ brandName: b, amountCents: 10000, paidOn: `2026-0${i + 1}-10` })
-    ),
-    2026
-  );
-  check("year: fifth brand lands in May", r.fiveBrandsMonth, "May");
-  check("year: brands counted once each", r.brandsWorkedWith, 5);
-}
-{
-  const r = yearInReview([], 2026);
-  check(
-    "year: empty account is honest zeros",
-    [r.dealsCompleted, r.brandsWorkedWith, r.earnedCents, r.biggestDeal, r.firstDealMonth, r.first500Month, r.fiveBrandsMonth],
-    [0, 0, 0, null, null, null, null]
-  );
 }
 
 /* ------------------------------- Invite ------------------------------- */

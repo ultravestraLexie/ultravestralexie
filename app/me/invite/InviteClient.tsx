@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import {
   INVITE_MODEL_JOINED,
   INVITE_REWARDS,
@@ -20,6 +19,35 @@ export default function InviteClient({ passportPath }: { passportPath: string | 
   const [copied, setCopied] = useState(false);
   const [joined, setJoined] = useState(INVITE_MODEL_JOINED);
   const [link, setLink] = useState<string | null>(null);
+  const [makingPublic, setMakingPublic] = useState(false);
+
+  /* "Make your Passport public" works right here (owner order
+   * 2026-11-24: "This link need to work") — one tap PATCHes the
+   * same share endpoint the Passport itself uses, and the invite
+   * link appears in place. No trip to another screen. */
+  const makePublic = async () => {
+    setMakingPublic(true);
+    try {
+      const res = await fetch("/api/passport/share", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ public: true }),
+      });
+      const data = (await res.json().catch(() => null)) as {
+        slug?: string | null;
+        public?: boolean;
+      } | null;
+      if (res.ok && data && data.public && data.slug) {
+        setLink(`${window.location.origin}/p/${data.slug}`);
+        toast.show("Your Passport is public — your invite link is ready");
+      } else {
+        toast.show("That could not be saved. Please try again.");
+      }
+    } catch {
+      toast.show("That could not be saved. Please try again.");
+    }
+    setMakingPublic(false);
+  };
 
   useEffect(() => {
     if (passportPath) setLink(`${window.location.origin}${passportPath}`);
@@ -82,11 +110,15 @@ export default function InviteClient({ passportPath }: { passportPath: string | 
                 </button>
               </>
             ) : (
-              <p style={{ margin: 0, fontSize: 14, lineHeight: 1.5, color: "var(--e-text2)" }}>
-                Your invite link is your public Passport address.{" "}
-                <Link href="/me#passport">Make your Passport public</Link> and your link
-                appears here, ready to share.
-              </p>
+              <>
+                <p style={{ margin: 0, fontSize: 14, lineHeight: 1.5, color: "var(--e-text2)" }}>
+                  Your invite link is your public Passport address. Make your Passport
+                  public and your link appears here, ready to share.
+                </p>
+                <button className="btn" type="button" onClick={makePublic} disabled={makingPublic}>
+                  {makingPublic ? "Making public…" : "Make your Passport public"}
+                </button>
+              </>
             )}
           </div>
 
