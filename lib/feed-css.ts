@@ -41,3 +41,28 @@ export const FEED_CSS = `
 .fd .mkt .d{color:var(--e-text2);font-size:14px;line-height:1.5;margin:0}
 .fd .mkt .go2{color:var(--e-violet);font-size:13.5px;font-weight:700;margin-top:10px;display:inline-block}
 `;
+
+export const FEED2_CSS = `
+.fd .attach{display:flex;gap:8px;align-items:center}
+.fd .attachbtn{background:rgba(255,255,255,.05);border:1px solid var(--e-line);color:var(--e-text2);border-radius:999px;padding:8px 14px;font-size:13.5px;cursor:pointer;font-family:inherit}
+.fd .attachbtn:hover{color:var(--e-text);border-color:var(--e-violet)}
+.fd .fname{font-size:12.5px;color:var(--e-muted);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fd .media{width:100%;border-radius:14px;margin:6px 0 4px;background:#000;display:block}
+.fd video.media{max-height:520px}
+.fd img.media{max-height:520px;object-fit:cover}
+.fd .follow{background:rgba(255,255,255,.05);border:1px solid var(--e-line);color:var(--e-text2);border-radius:999px;padding:6px 13px;font-size:12.5px;cursor:pointer;font-family:inherit;white-space:nowrap}
+.fd .follow.on{color:var(--e-teal);border-color:rgba(62,230,224,.45)}
+.fd .cbtn{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.05);border:1px solid var(--e-line);color:var(--e-text2);border-radius:999px;padding:7px 14px;font-size:13.5px;cursor:pointer;font-family:inherit}
+.fd .comments{margin-top:12px;border-top:1px solid var(--e-line);padding-top:10px}
+.fd .comment{padding:7px 0;border-bottom:1px solid rgba(130,150,255,.07);font-size:14px}
+.fd .comment:last-of-type{border-bottom:none}
+.fd .comment .who{font-weight:700;margin-right:8px}
+.fd .comment .when2{color:var(--e-muted);font-size:12px;margin-left:8px}
+.fd .crow{display:flex;gap:8px;margin-top:10px}
+.fd .crow input{flex:1;background:rgba(255,255,255,.05);border:1px solid var(--e-line);border-radius:10px;color:var(--e-text);padding:9px 12px;font-size:14px;font-family:inherit;min-width:0}
+.fd .crow input:focus{outline:none;border-color:var(--e-violet)}
+.fd .cpost{background:linear-gradient(120deg,var(--e-violet),var(--e-teal));color:#06121a;border:none;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:700;cursor:pointer;font-family:inherit}
+.fd .cpost:disabled{opacity:.45;cursor:default}
+.fd .aname{color:var(--e-text);text-decoration:none}
+.fd .aname:hover{text-decoration:underline}
+`;

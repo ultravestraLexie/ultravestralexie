@@ -16,6 +16,7 @@ export const GATED_PREFIXES = [
   "/feed",
   "/brain",
   "/market",
+  "/creator",
   "/api/feed",
   "/api/brain",
   "/today",
