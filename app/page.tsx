@@ -77,7 +77,7 @@ const ROLES: {
   {
     href: "/roles/agency",
     title: "I’m an agency",
-    desc: "Manage creators, campaigns and clients in one place.",
+    desc: "Represent creators, pitch them to opportunities, and run campaigns for your clients.",
     icon: "building",
     bg: "rgba(255,156,200,.14)",
     fg: "#FF9CC8",
@@ -85,7 +85,7 @@ const ROLES: {
   {
     href: "/roles/brand",
     title: "I’m a brand",
-    desc: "Run partnerships and influencer campaigns at scale.",
+    desc: "Run campaigns with dozens of creators across cities, and keep your best as ambassadors.",
     icon: "crown",
     bg: "rgba(182,156,255,.16)",
     fg: "#B69CFF",

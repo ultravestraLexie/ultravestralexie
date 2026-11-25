@@ -118,8 +118,8 @@ check(
   true
 );
 check(
-  "landing role copy verbatim (agency, no Phase 5)",
-  landing.includes("Manage creators, campaigns and clients in one place.") && !landing.includes("Phase 5"),
+  "landing role copy verbatim (agency — the v2 prototype's words, owner order 2026-11-24)",
+  landing.includes("Represent creators, pitch them to opportunities, and run campaigns for your clients.") && !landing.includes("Phase 5"),
   true
 );
 check(
@@ -148,7 +148,7 @@ const NEW_FILES = [
   "app/business/creators/CreatorsClient.tsx",
   "app/business/customers/page.tsx",
   "app/business/customers/CustomersClient.tsx",
-  "app/business/home/MarketStrip.tsx",
+  "app/business/home/MarketHome.tsx",
   "app/business/home/page.tsx",
   "lib/business-guard.ts",
 ];
@@ -398,8 +398,8 @@ check(
   true
 );
 check(
-  "business home carries the strip + truthful status copy",
-  read("app/business/home/page.tsx").includes("<MarketStrip />") &&
+  "business home carries the v2 dashboard + truthful status copy",
+  read("app/business/home/page.tsx").includes("<MarketHome accountType={accountType} />") &&
     read("app/business/home/page.tsx").includes("on-device preview of the local-gigs tools") &&
     read("app/business/home/page.tsx").includes("no messages are sent"),
   true
@@ -410,7 +410,7 @@ const CLIENT_FILES = [
   "app/business/campaigns/CampaignsClient.tsx",
   "app/business/creators/CreatorsClient.tsx",
   "app/business/customers/CustomersClient.tsx",
-  "app/business/home/MarketStrip.tsx",
+  "app/business/home/MarketHome.tsx",
   "components/marketplace/Mkt.tsx",
   "lib/marketplace.ts",
 ];

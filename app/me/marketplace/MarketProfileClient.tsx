@@ -23,7 +23,7 @@ import {
  * it comes from your Creator Passport" is kept in substance: this
  * profile is what the Local opportunities matching reads. */
 
-export default function MarketProfileClient() {
+export default function MarketProfileClient({ embedded }: { embedded?: boolean } = {}) {
   const store = useMarketStore();
   const { state, update, notify, toast } = store;
   const [draft, setDraft] = useState<null | {
@@ -53,19 +53,7 @@ export default function MarketProfileClient() {
   const toggle = (list: string[], v: string) =>
     list.includes(v) ? list.filter((x) => x !== v) : [...list, v];
 
-  return (
-    <div className="mkt">
-      <style>{MKT_CSS}</style>
-      <div className="mkt-col">
-        <Link href="/me" className="back" style={{ textDecoration: "none" }}>
-          ← Me
-        </Link>
-        <h1 className="title">Local gigs profile</h1>
-        <p className="sub">
-          This is how we match you with businesses in Local opportunities.
-          In the app it comes from your Creator Passport.
-        </p>
-        <SampleBanner onReset={store.reset} />
+  const card = (
         <div className="glass pad">
           <div className="row">
             <Avatar label={d.handle} id="me" round />
@@ -162,6 +150,30 @@ export default function MarketProfileClient() {
             Save profile
           </button>
         </div>
+  );
+
+  if (embedded)
+    return (
+      <>
+        {card}
+        <ToastView msg={toast} />
+      </>
+    );
+
+  return (
+    <div className="mkt">
+      <style>{MKT_CSS}</style>
+      <div className="mkt-col">
+        <Link href="/me" className="back" style={{ textDecoration: "none" }}>
+          ← Me
+        </Link>
+        <h1 className="title">Local gigs profile</h1>
+        <p className="sub">
+          This is how we match you with businesses in Local opportunities.
+          In the app it comes from your Creator Passport.
+        </p>
+        <SampleBanner onReset={store.reset} />
+        {card}
         <ToastView msg={toast} />
       </div>
     </div>

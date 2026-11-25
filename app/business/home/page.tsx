@@ -6,7 +6,7 @@ import {
   isBusinessAccountType,
 } from "@/lib/business-registration";
 import BusinessEditForm from "./edit-form";
-import MarketStrip from "./MarketStrip";
+import MarketHome from "./MarketHome";
 import type { BusinessFormValues } from "../business-fields";
 
 export const dynamic = "force-dynamic";
@@ -168,7 +168,7 @@ export default async function BusinessHomePage() {
         </p>
       </section>
 
-      <MarketStrip />
+      <MarketHome accountType={accountType} />
 
       <section style={cardStyle}>
         <h2 style={{ marginTop: 0 }}>Where things stand</h2>
