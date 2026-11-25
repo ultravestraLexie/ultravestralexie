@@ -32,7 +32,7 @@ export default async function MePage() {
   } = await supabase.auth.getUser();
   if (!user) return null;
 
-  const [profile, deals, income, expenses, snapshots, entriesRes, shareRes, catRows] =
+  const [profile, deals, income, expenses, snapshots, entriesRes, shareRes, catRows, postCountRes, followRows, appRows] =
     await Promise.all([
       fetchProfile(supabase, user.id),
       fetchDeals(supabase, user.id),
@@ -50,7 +50,46 @@ export default async function MePage() {
         .eq("id", user.id)
         .maybeSingle(),
       supabase.from("categories").select("name").order("name"),
+      supabase
+        .from("posts")
+        .select("id", { count: "exact", head: true })
+        .eq("user_id", user.id),
+      supabase
+        .from("follows")
+        .select("follower_id, followee_id")
+        .or(`follower_id.eq.${user.id},followee_id.eq.${user.id}`),
+      supabase
+        .from("market_applications")
+        .select("id, status")
+        .eq("creator_user_id", user.id),
     ]);
+
+  /* UNIVERSE STRIP (rebuild Phase 4) — the creator's whole
+   * universe at a glance, every number from the real tables the
+   * other destinations write: posts + follows (Feed), marketplace
+   * applications (Market), and the deal pipeline (Deals). */
+  const universeFollows = (followRows.data ?? []) as { follower_id: string; followee_id: string }[];
+  const universeApps = (appRows.data ?? []) as { status: string }[];
+  const pipelineDeals = deals.filter((d) => d.stage !== "paid" && d.stage !== "lost");
+  const pipelineCents = pipelineDeals.reduce((s, d) => s + (d.amountCents ?? 0), 0);
+  const universeStats: { label: string; value: string; href: string }[] = [
+    { label: "Posts", value: String(postCountRes.count ?? 0), href: `/creator/${user.id}` },
+    {
+      label: "Followers",
+      value: String(universeFollows.filter((f) => f.followee_id === user.id).length),
+      href: "/feed",
+    },
+    {
+      label: "Applications",
+      value: `${universeApps.length} · ${universeApps.filter((a) => a.status === "accepted").length} accepted`,
+      href: "/market",
+    },
+    {
+      label: "Deals in pipeline",
+      value: `${pipelineDeals.length} · $${(pipelineCents / 100).toLocaleString("en-US", { maximumFractionDigits: pipelineCents % 100 ? 2 : 0 })}`,
+      href: "/deals",
+    },
+  ];
 
   /* Passport half — the same shaping app/passport/page.tsx did:
    * verified collaborations are the creator's paid deals;
@@ -112,6 +151,35 @@ export default async function MePage() {
           Understand your growth — your income, audience and track record in one place.
         </p>
       </header>
+
+      <section aria-label="Your universe" style={{ marginBottom: 34 }}>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+            gap: 12,
+          }}
+        >
+          {universeStats.map((s) => (
+            <Link
+              key={s.label}
+              href={s.href}
+              style={{
+                display: "block",
+                padding: "16px 18px",
+                borderRadius: 16,
+                border: "1px solid var(--line, rgba(130,150,255,.16))",
+                background: "rgba(255,255,255,.03)",
+                textDecoration: "none",
+                color: "inherit",
+              }}
+            >
+              <div style={{ fontSize: 22, fontWeight: 700 }}>{s.value}</div>
+              <div style={{ color: "var(--ink-2)", fontSize: 13, marginTop: 4 }}>{s.label} →</div>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       <section id="money" aria-label="Money" style={{ scrollMarginTop: 24 }}>
         <MoneyClient

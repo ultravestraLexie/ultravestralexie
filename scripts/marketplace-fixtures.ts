@@ -144,11 +144,8 @@ const NEW_FILES = [
   "app/me/opportunities/page.tsx",
   "app/me/opportunities/MarketProfileClient.tsx",
   "app/business/campaigns/page.tsx",
-  "app/business/campaigns/CampaignsClient.tsx",
   "app/business/creators/page.tsx",
-  "app/business/creators/CreatorsClient.tsx",
   "app/business/customers/page.tsx",
-  "app/business/customers/CustomersClient.tsx",
   "app/business/home/MarketHome.tsx",
   "app/business/home/page.tsx",
   "lib/business-guard.ts",
@@ -393,10 +390,9 @@ check(
   true
 );
 check(
-  "customers honesty line verbatim",
-  read("app/business/customers/CustomersClient.tsx").includes(
-    "Preview — runs on this device. Templates only; no messages are sent."
-  ),
+  "customers route is now the real creator-payments ledger (rebuild Phase 4)",
+  read("app/business/customers/page.tsx").includes("Creator payments") &&
+    read("app/business/customers/page.tsx").includes('from("creator_deals")'),
   true
 );
 check(
@@ -409,9 +405,6 @@ check(
 const CLIENT_FILES = [
   "app/brands/LocalOpportunities.tsx",
   "app/me/opportunities/MarketProfileClient.tsx",
-  "app/business/campaigns/CampaignsClient.tsx",
-  "app/business/creators/CreatorsClient.tsx",
-  "app/business/customers/CustomersClient.tsx",
   "app/business/home/MarketHome.tsx",
   "components/marketplace/Mkt.tsx",
   "lib/marketplace.ts",
