@@ -159,6 +159,11 @@ const landing = read("app/page.tsx");
 check("landing agency card takes the new prototype's words", flat(landing).includes("Represent creators, pitch them to opportunities, and run campaigns for your clients."), true);
 check("landing brand card takes the new prototype's words", flat(landing).includes("Run campaigns with dozens of creators across cities, and keep your best as ambassadors."), true);
 
+const rolesLib = read("lib/roles.ts");
+check("role explainer cards carry the same new agency words", flat(rolesLib).includes("Represent creators, pitch them to opportunities, and run campaigns for your clients."), true);
+check("role explainer cards carry the same new brand words", flat(rolesLib).includes("Run campaigns with dozens of creators across cities, and keep your best as ambassadors."), true);
+check("old agency/brand card words are gone everywhere", !rolesLib.includes("Manage creators, campaigns and clients in one place.") && !rolesLib.includes("Run partnerships and influencer campaigns at scale."), true);
+
 const NEW_FILES = [
   "lib/marketplace2.ts",
   "lib/marketplace2-css.ts",
