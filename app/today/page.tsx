@@ -33,6 +33,8 @@ import {
 } from "@/lib/galaxy/server";
 import TodayClient from "./TodayClient";
 import StartHome from "@/components/StartHome";
+import EngineSection from "@/components/EngineSection";
+import { buildGrowthEngine } from "@/lib/galaxy/engine";
 
 export const dynamic = "force-dynamic";
 
@@ -163,13 +165,29 @@ export default async function TodayPage() {
     };
   });
 
+  /* The Growth Engine (owner direction 2026-11-24, "Build
+   * everything"): the six stages computed from the same rows this
+   * page already fetched, Brain recommendations on top. */
+  const engine = buildGrowthEngine({
+    deals,
+    income,
+    publishedPosts: publishedDates.length,
+    postsThisWeek,
+    scriptCount,
+    savedCount: savedIds.size,
+    directoryCount: brands.length,
+    neglectedCount: neglectedOpportunities(deals, brands).length,
+    now,
+  });
+
   return (
     <>
       {/* Owner order 2026-11-24 ~19:39 CT: "Make home look like
           this. When someone click home that's what they see" — Home
           opens with the start screen (orbit hero + Who are you?);
-          the Today intelligence home follows below it. */}
+          the Growth Engine and the Today intelligence follow. */}
       <StartHome />
+      <EngineSection engine={engine} />
       <TodayClient
       today={todayKey(now)}
       greeting={greeting}
