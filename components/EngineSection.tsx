@@ -27,7 +27,7 @@ export default function EngineSection({ engine }: { engine: GrowthEngine }) {
           <div className="label">Brain — next best actions</div>
           {engine.brain.map((r, i) => (
             <div className="rec" key={i}>
-              <span className="tag">{r.stage}</span>
+              <span className="tag">{r.agent}</span>
               <div style={{ flex: 1 }}>
                 <div className="t">{r.title}</div>
                 <div className="w">{r.why}</div>

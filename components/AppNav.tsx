@@ -3,13 +3,15 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-/* Galaxy navigation — exactly five destinations (owner's five,
- * confirmed 2026-11-23): Home, Brands, Deals, Studio, Me. Home
- * is the Today page (route stays /today); Me is the combined
- * Money + Passport page (/me) and carries the Passport icon.
- * The rail renders them vertically on desktop; the same five
- * become the bottom tab bar on mobile. Active state = the
- * longest matching route prefix. */
+/* Navigation — the rebuild's five destinations (owner-confirmed
+ * 2026-11-24): Feed, Studio, Brain, Market, Universe. The Brain
+ * sits at the center of the bar because it sits at the center of
+ * the platform. Universe is the creator's whole business home
+ * (/me — Money + Passport + levels + customers). The rail renders
+ * them vertically on desktop; the same five become the bottom
+ * tab bar on mobile. Active state = the longest matching route
+ * prefix. The worlds behind the destinations (Brands, Deals,
+ * Customers, Retention…) stay reachable from inside them. */
 
 const ic = (children: React.ReactNode) => (
   <svg
@@ -28,20 +30,10 @@ const ic = (children: React.ReactNode) => (
 );
 
 const ICONS = {
-  today: ic(
+  feed: ic(
     <>
-      <circle cx="12" cy="12" r="3" />
-      <ellipse cx="12" cy="12" rx="10" ry="4.6" transform="rotate(-28 12 12)" />
-    </>
-  ),
-  brands: ic(
-    <path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6L12 16.8l-5.3 2.9 1.1-6-4.4-4.2 6-.8z" />
-  ),
-  deals: ic(
-    <>
-      <rect x="3" y="4" width="5" height="16" rx="1.6" />
-      <rect x="10" y="4" width="5" height="11" rx="1.6" />
-      <rect x="17" y="4" width="4" height="7" rx="1.6" />
+      <rect x="3" y="5" width="18" height="14" rx="3" />
+      <path d="M10.2 9.4l4.6 2.6-4.6 2.6z" fill="currentColor" stroke="none" />
     </>
   ),
   studio: ic(
@@ -50,7 +42,20 @@ const ICONS = {
       <path d="M16 10.2l5-3v9.6l-5-3z" />
     </>
   ),
-  passport: ic(
+  brain: ic(
+    <>
+      <circle cx="12" cy="12" r="3" />
+      <ellipse cx="12" cy="12" rx="10" ry="4.6" transform="rotate(-28 12 12)" />
+    </>
+  ),
+  market: ic(
+    <>
+      <path d="M4 9.5L5.6 4h12.8L20 9.5" />
+      <path d="M4 9.5h16V20H4z" />
+      <path d="M9.5 20v-5.5h5V20" />
+    </>
+  ),
+  universe: ic(
     <>
       <rect x="5" y="3" width="14" height="18" rx="2.6" />
       <circle cx="12" cy="10" r="2.8" />
@@ -60,11 +65,11 @@ const ICONS = {
 };
 
 export const SIDE_NAV: { href: string; label: string; icon: React.ReactNode }[] = [
-  { href: "/today", label: "Home", icon: ICONS.today },
-  { href: "/brands", label: "Brands", icon: ICONS.brands },
-  { href: "/deals", label: "Deals", icon: ICONS.deals },
+  { href: "/feed", label: "Feed", icon: ICONS.feed },
   { href: "/studio", label: "Studio", icon: ICONS.studio },
-  { href: "/me", label: "Me", icon: ICONS.passport },
+  { href: "/brain", label: "Brain", icon: ICONS.brain },
+  { href: "/market", label: "Market", icon: ICONS.market },
+  { href: "/me", label: "Universe", icon: ICONS.universe },
 ];
 
 function activeHref(pathname: string, hrefs: string[]): string | null {

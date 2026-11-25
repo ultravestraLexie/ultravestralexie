@@ -63,8 +63,25 @@ export type EngineCustomer = {
   followUpDue: boolean;
 };
 
+/* The Brain's specialist agents (owner blueprint 2026-11-24):
+ * departments, not one giant prompt. Every recommendation is
+ * tagged with the agent whose engine produced it. */
+export type BrainAgent =
+  | "VESTRA BRAIN"
+  | "Creator Agent"
+  | "Brand Agent"
+  | "Agency Agent"
+  | "Business Agent"
+  | "Marketing Agent"
+  | "Sales Agent"
+  | "Retention Agent"
+  | "Financial Agent"
+  | "Research Agent"
+  | "Security Agent";
+
 export type BrainRec = {
   stage: EngineStageId | "brain";
+  agent: BrainAgent;
   title: string;
   why: string;
   href: string;
@@ -245,6 +262,7 @@ export function buildGrowthEngine(input: GrowthEngineInput): GrowthEngine {
   if (overdue > 0) {
     brain.push({
       stage: "revenue",
+      agent: "Financial Agent",
       title: `Collect ${fmtMoney(overdue)} overdue`,
       why: `${overdueDeals.length} invoice${overdueDeals.length === 1 ? "" : "s"} past due — money you earned that is not in hand yet.`,
       href: "/deals",
@@ -255,6 +273,7 @@ export function buildGrowthEngine(input: GrowthEngineInput): GrowthEngine {
     const f = followUps[0];
     brain.push({
       stage: "retention",
+      agent: "Retention Agent",
       title: `Win back ${f.brandName}`,
       why: `Last paid ${f.daysSincePaid} days ago, with no active deal. A follow-up pitch costs nothing and past customers convert best.`,
       href: "/retention",
@@ -267,6 +286,7 @@ export function buildGrowthEngine(input: GrowthEngineInput): GrowthEngine {
   if (idle) {
     brain.push({
       stage: "collaboration",
+      agent: "Sales Agent",
       title: `${idle.brandName} has gone quiet`,
       why: `No contact for ${daysAgo(idle.lastContact, now)} days while the deal sits at ${idle.stage}. A short check-in keeps it alive.`,
       href: "/deals",
@@ -276,6 +296,7 @@ export function buildGrowthEngine(input: GrowthEngineInput): GrowthEngine {
   if (input.neglectedCount > 0) {
     brain.push({
       stage: "discovery",
+      agent: "Brand Agent",
       title: `${input.neglectedCount} saved brands never pitched`,
       why: "You saved them for a reason. One pitch turns a saved brand into an active partnership.",
       href: "/brands",
@@ -285,6 +306,7 @@ export function buildGrowthEngine(input: GrowthEngineInput): GrowthEngine {
   if (brain.length < 4 && input.postsThisWeek === 0 && customers.length + active.length > 0) {
     brain.push({
       stage: "marketing",
+      agent: "Creator Agent",
       title: "Nothing posted this week",
       why: "Attention feeds every stage below it. One post restarts the engine.",
       href: "/studio",
@@ -294,6 +316,7 @@ export function buildGrowthEngine(input: GrowthEngineInput): GrowthEngine {
   if (brain.length === 0) {
     brain.push({
       stage: "brain",
+      agent: "VESTRA BRAIN",
       title: "Your engine is clear",
       why: "No overdue money, no quiet deals, no follow-ups due. Find the next opportunity.",
       href: "/brands",

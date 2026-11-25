@@ -21,7 +21,7 @@ import { createClient } from "@/lib/supabase/client";
  *  by the Stripe webhook through the shared attach helper. */
 function safeNext(raw: string | null): string {
   if (raw && raw.startsWith("/") && !raw.startsWith("//")) return raw;
-  return "/dashboard";
+  return "/feed";
 }
 
 async function requestAttach(): Promise<void> {

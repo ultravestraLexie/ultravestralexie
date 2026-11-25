@@ -226,7 +226,7 @@ check(
   dnaClient.includes("Delete all Content DNA data") && dnaClient.includes("EMPTY_DNA_STATE"),
   true
 );
-check("nav: still exactly the owner's five", ["Home", "Brands", "Deals", "Studio", "Me"].every((t) => appNav.includes(`"${t}"`)) && !appNav.includes('"Money"') && !appNav.includes('"Passport"'), true);
+check("nav: still exactly the owner's five", ["Feed", "Studio", "Brain", "Market", "Universe"].every((t) => appNav.includes(`"${t}"`)) && !appNav.includes('"Money"') && !appNav.includes('"Passport"'), true);
 
 if (failures) {
   console.log(`\n${failures} FAILURES`);

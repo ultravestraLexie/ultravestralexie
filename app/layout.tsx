@@ -248,7 +248,7 @@ export default async function RootLayout({
         <SectionSync />
         <div className="uv-shell" data-section="today">
           <aside className="uv-side">
-            <Link href="/today" style={{ textDecoration: "none", padding: "0 8px 26px" }}>
+            <Link href="/feed" style={{ textDecoration: "none", padding: "0 8px 26px" }}>
               <BrandLockup />
             </Link>
             <SideNav />
@@ -312,7 +312,7 @@ export default async function RootLayout({
           </aside>
           <div className="uv-mainwrap">
             <div className="uv-topbar">
-              <Link href="/today" style={{ textDecoration: "none", flex: "none" }}>
+              <Link href="/feed" style={{ textDecoration: "none", flex: "none" }}>
                 <BrandLockup compact />
               </Link>
               <span style={{ flex: "0 1 168px", maxWidth: "44vw", minWidth: 0 }}>

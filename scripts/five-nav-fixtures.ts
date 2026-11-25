@@ -1,13 +1,14 @@
 // ============================================================================
-// Five-section navigation — acceptance fixtures for the owner's
-// confirmed five (2026-11-23): Home, Brands, Deals, Studio, Me.
+// Navigation — acceptance fixtures for the REBUILD's five destinations
+// (owner-confirmed 2026-11-24): Feed, Studio, Brain, Market, Universe.
 //
 // What is pinned here:
 //  - The nav (one SIDE_NAV list feeding BOTH the desktop rail and
-//    the mobile bottom bar) is exactly the five, in order, with
-//    Home on /today and Me on /me — no Money or Passport entries.
+//    the mobile bottom bar) is exactly the five, in order, with the
+//    Brain at the center and Universe on /me.
 //  - SectionSync's world mapping: /me lives in the Passport world
-//    (azure), /p/[slug] still does too, everything else unchanged.
+//    (azure), /p/[slug] still does too; the new destinations fall
+//    back to the Today world until their own worlds ship.
 //  - /me composes BOTH existing halves — MoneyClient and
 //    PassportClient, imported unchanged, each with its own data
 //    load performed by the /me server page — under the "Me"
@@ -62,12 +63,12 @@ const navEntries = [...navBlock.matchAll(/\{ href: "([^"]+)", label: "([^"]+)"/g
 check(
   "five nav: labels in order",
   navEntries.map((n) => n.label),
-  ["Home", "Brands", "Deals", "Studio", "Me"]
+  ["Feed", "Studio", "Brain", "Market", "Universe"]
 );
 check(
   "five nav: hrefs in order",
   navEntries.map((n) => n.href),
-  ["/today", "/brands", "/deals", "/studio", "/me"]
+  ["/feed", "/studio", "/brain", "/market", "/me"]
 );
 check("five nav: exactly five destinations", navEntries.length, 5);
 check(
@@ -91,6 +92,16 @@ check("world: /studio is the studio world", sectionForPath("/studio"), "studio")
 check("world: /me lives in the passport world (azure)", sectionForPath("/me"), "passport");
 check("world: the public passport stays in the passport world", sectionForPath("/p/someone"), "passport");
 check("world: unknown paths fall back to today", sectionForPath("/settings"), "today");
+check("world: /feed falls back to the today world for now", sectionForPath("/feed"), "today");
+check("world: /brain falls back to the today world for now", sectionForPath("/brain"), "today");
+check("world: /market falls back to the today world for now", sectionForPath("/market"), "today");
+check(
+  "gate: the new destinations are gated prefixes",
+  ["/feed", "/brain", "/market", "/api/feed", "/api/brain"].every((p) =>
+    (GATED_PREFIXES as readonly string[]).includes(p)
+  ),
+  true
+);
 
 /* ---------------- /me composes both halves ------------------------ */
 
