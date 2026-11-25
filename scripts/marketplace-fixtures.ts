@@ -14,7 +14,7 @@
 //   6. Follow-up generation from the four automations + template
 //      filling + mark-done, and the business-home strip numbers.
 //   7. Placement/honesty wiring: the section lives on /brands, the
-//      profile on /me/marketplace, the tools under /business, the
+//      profile on /me/opportunities, the tools under /business, the
 //      customers honesty line is present verbatim, and none of the
 //      new client code touches Supabase (device-local store only).
 //   8. The rate limiter is untouched (md5 pinned by the build spec).
@@ -140,8 +140,8 @@ const NEW_FILES = [
   "lib/marketplace-css.ts",
   "components/marketplace/Mkt.tsx",
   "app/brands/LocalOpportunities.tsx",
-  "app/me/marketplace/page.tsx",
-  "app/me/marketplace/MarketProfileClient.tsx",
+  "app/me/opportunities/page.tsx",
+  "app/me/opportunities/MarketProfileClient.tsx",
   "app/business/campaigns/page.tsx",
   "app/business/campaigns/CampaignsClient.tsx",
   "app/business/creators/page.tsx",
@@ -381,8 +381,9 @@ check(
 // --- 7. Placement + honesty wiring ----------------------------------------------
 
 check("brands page renders Local opportunities below the directory", read("app/brands/page.tsx").includes("<LocalOpportunities />"), true);
-check("me links the Local gigs profile card", read("app/me/page.tsx").includes('href: "/me/marketplace"') && read("app/me/page.tsx").includes("Local gigs profile"), true);
-check("me profile sub-route is subscription-gated", read("app/me/marketplace/page.tsx").includes('requireSubscription("/me/marketplace")'), true);
+check("me links the Local gigs profile card", read("app/me/page.tsx").includes('href: "/me/opportunities"') && read("app/me/page.tsx").includes("Local gigs profile"), true);
+check("me profile sub-route is subscription-gated", read("app/me/opportunities/page.tsx").includes('requireSubscription("/me/opportunities")'), true);
+check("old marketplace route redirects to opportunities", read("app/me/marketplace/page.tsx").includes('redirect("/me/opportunities")'), true);
 check(
   "business sub-routes self-guard",
   ["campaigns", "creators", "customers"].every((r) =>
@@ -406,7 +407,7 @@ check(
 );
 const CLIENT_FILES = [
   "app/brands/LocalOpportunities.tsx",
-  "app/me/marketplace/MarketProfileClient.tsx",
+  "app/me/opportunities/MarketProfileClient.tsx",
   "app/business/campaigns/CampaignsClient.tsx",
   "app/business/creators/CreatorsClient.tsx",
   "app/business/customers/CustomersClient.tsx",

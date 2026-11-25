@@ -140,11 +140,11 @@ check("parse v1 shape reseeds", parseMarket2State({ v: 1 }, NOW).network.length,
 
 // --- 5. Wiring -------------------------------------------------------------------
 
-const creatorHome = read("app/me/marketplace/CreatorMarketHome.tsx");
+const creatorHome = read("app/me/opportunities/CreatorMarketHome.tsx");
 check("creator home has the three tabs", ["Discover", "My collabs", "Profile"].every((w) => creatorHome.includes(w)), true);
 check("creator home Discover head verbatim", flat(creatorHome).includes("Business opportunities") && flat(creatorHome).includes("Local businesses looking for creators like you. Small audiences welcome."), true);
 check("creator home opp detail sections", ["Why you match", "The brief", "How you’re protected", "Apply for this opportunity"].every((w) => creatorHome.includes(w)), true);
-check("me/marketplace page renders the creator home", read("app/me/marketplace/page.tsx").includes("<CreatorMarketHome />"), true);
+check("me/opportunities page renders the creator home", read("app/me/opportunities/page.tsx").includes("<CreatorMarketHome />"), true);
 check("profile editor embedded as the Profile tab", creatorHome.includes("<MarketProfileClient embedded />"), true);
 
 const marketHome = read("app/business/home/MarketHome.tsx");
@@ -168,7 +168,7 @@ const NEW_FILES = [
   "lib/marketplace2.ts",
   "lib/marketplace2-css.ts",
   "components/marketplace2/Mkt2.tsx",
-  "app/me/marketplace/CreatorMarketHome.tsx",
+  "app/me/opportunities/CreatorMarketHome.tsx",
   "app/business/home/MarketHome.tsx",
 ];
 check("no new v2 code touches Supabase (device-local only)", NEW_FILES.every((f) => !read(f).includes("supabase")), true);

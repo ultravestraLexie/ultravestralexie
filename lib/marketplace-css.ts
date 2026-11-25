@@ -1,5 +1,5 @@
 /* Scoped stylesheet for the local-gigs market surfaces (landing
- * hero, Local opportunities on /brands, /me/marketplace, and the
+ * hero, Local opportunities on /brands, /me/opportunities, and the
  * business campaigns/creators/customers previews). It is the
  * prototype's own stylesheet with every rule scoped under .mkt and
  * its variables renamed --m-*, so nothing leaks into (or is leaked

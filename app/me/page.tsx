@@ -202,7 +202,7 @@ export default async function MePage() {
               orb: "radial-gradient(circle at 32% 30%, #c4b5fd, #8b5cf6 55%, #312e81)",
             },
             {
-              href: "/me/marketplace",
+              href: "/me/opportunities",
               title: "Local gigs profile",
               detail: "Your handle, niches, area and rate — it powers the Local opportunities section on Brands.",
               orb: "radial-gradient(circle at 32% 30%, #fde68a, #f5c451 55%, #92600a)",
