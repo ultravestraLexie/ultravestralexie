@@ -32,6 +32,7 @@ import {
   fetchScriptCount,
 } from "@/lib/galaxy/server";
 import TodayClient from "./TodayClient";
+import StartHome from "@/components/StartHome";
 
 export const dynamic = "force-dynamic";
 
@@ -163,7 +164,13 @@ export default async function TodayPage() {
   });
 
   return (
-    <TodayClient
+    <>
+      {/* Owner order 2026-11-24 ~19:39 CT: "Make home look like
+          this. When someone click home that's what they see" — Home
+          opens with the start screen (orbit hero + Who are you?);
+          the Today intelligence home follows below it. */}
+      <StartHome />
+      <TodayClient
       today={todayKey(now)}
       greeting={greeting}
       firstName={firstName}
@@ -182,6 +189,7 @@ export default async function TodayPage() {
       postsThisWeek={postsThisWeek}
       weekDays={weekDays}
       categories={categories}
-    />
+      />
+    </>
   );
 }

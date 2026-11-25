@@ -155,9 +155,12 @@ check("brand view sections", ["Running now", "Which creators pay off", "Revenue 
 check("MarketStrip is gone", existsSync("app/business/home/MarketStrip.tsx"), false);
 check("business home page renders the dashboard", read("app/business/home/page.tsx").includes("<MarketHome accountType={accountType} />"), true);
 
-const landing = read("app/page.tsx");
+const landing = read("components/StartHome.tsx");
 check("landing agency card takes the new prototype's words", flat(landing).includes("Represent creators, pitch them to opportunities, and run campaigns for your clients."), true);
 check("landing brand card takes the new prototype's words", flat(landing).includes("Run campaigns with dozens of creators across cities, and keep your best as ambassadors."), true);
+
+check("signed-in Home opens with the start screen", read("app/today/page.tsx").includes("<StartHome />"), true);
+check("landing renders the shared start screen", read("app/page.tsx").includes("<StartHome />"), true);
 
 const rolesLib = read("lib/roles.ts");
 check("role explainer cards carry the same new agency words", flat(rolesLib).includes("Represent creators, pitch them to opportunities, and run campaigns for your clients."), true);

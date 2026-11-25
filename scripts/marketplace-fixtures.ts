@@ -90,7 +90,7 @@ const clone = (s: MarketState): MarketState => JSON.parse(JSON.stringify(s));
 
 // --- 1. Landing branding + content -----------------------------------------
 
-const landing = read("app/page.tsx");
+const landing = read("components/StartHome.tsx");
 check("landing H1 first phrase", landing.includes("Where attention"), true);
 check("landing H1 gradient phrase", landing.includes("becomes customers."), true);
 check(
@@ -123,8 +123,8 @@ check(
   true
 );
 check(
-  "landing note line",
-  landing.includes("Creators join free with a plan. Brands and agencies register free"),
+  "landing note line (the prototype's switch line, owner order 2026-11-24)",
+  landing.includes("Switch between creator, business, agency and brand views any time"),
   true
 );
 check(
@@ -136,6 +136,7 @@ check("landing orbit nodes", ["CREATORS", "BUSINESSES", "BRANDS", "AGENCIES", "C
 
 const NEW_FILES = [
   "app/page.tsx",
+  "components/StartHome.tsx",
   "lib/marketplace.ts",
   "lib/marketplace-css.ts",
   "components/marketplace/Mkt.tsx",
